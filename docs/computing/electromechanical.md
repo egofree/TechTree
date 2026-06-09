@@ -19,6 +19,13 @@ Before electronic computers, automated computation and control require electrome
 
 > *Image: Unknown authorUnknown author, Public domain*
 
+![Torres Quevedo's Electromechanical Arithmometer](../images/computing/computing_electromechanical.png)
+
+> *Torres Quevedo's 1920 arithmometer, fully functional but never commercialized, which used a remote electromechanical typewriter to send commands to a remote electromechanical calculator and to print its results once computed.*
+
+> *Image: Unknown authorUnknown author, Public domain*
+
+
 - [Mechanical computing](mechanical.md) — cams, linkages, governors, and mechanical automation
 - [Electricity](../energy/electricity.md) — power generation and distribution for relay and solenoid systems
 - [Iron and steel](../metals/iron-steel.md) — relay contacts, cam blanks, spring wire, armature cores

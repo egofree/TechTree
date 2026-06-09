@@ -1,0 +1,107 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Steam Power Generation — Rankine Cycle
+s1: "Feedwater (demineralized, deaerated)" {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Fuel (coal / gas / nuclear / solar thermal)" {
+  shape: parallelogram
+  class: inputStep
+}
+s3: Feed Pump → High-Pressure Water {
+  shape: rectangle
+  class: processStep
+}
+s4: "Boiler: Water → Superheated Steam (540°C, 15+ MPa)" {
+  shape: rectangle
+  class: processStep
+}
+s5: "Steam Turbine Expansion (shaft power)" {
+  shape: rectangle
+  class: processStep
+}
+s6: "Steam Quality Adequate (superheat ≥ 50°C)?" {
+  shape: diamond
+  class: decisionStep
+}
+s7: "Condenser: Exhaust Steam → Liquid Water" {
+  shape: rectangle
+  class: processStep
+}
+s8: "Cooling Water Circuit (heat rejection)" {
+  shape: rectangle
+  class: processStep
+}
+s9: Electrical Generator Output {
+  shape: parallelogram
+  class: outputStep
+}
+s10: "Waste Heat (cooling tower / river)" {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s3: { class: flow-edge }
+s2 -> s4: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: { class: flow-edge }
+s6 -> s5: no — re-superheat { class: feedback-edge }
+s6 -> s7: yes { class: flow-edge }
+s7 -> s3: condensate return { class: feedback-edge }
+s5 -> s9: { class: flow-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s10: { class: flow-edge }

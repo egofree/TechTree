@@ -1,5 +1,12 @@
 # Ceramics & Refractories
 
+
+![02023 Decorated clay amphora from a megalithic tomb, Rabino, around 3100 BC — 2600 BC](../images/ceramics/ceramics.jpg)
+
+> *The construction, method of burying the dead, a set of accompanying gifts, and the presence of animal remains, make it possible to connect the Rabin tomb with the people of the Globular Amphora culture, and its use can be dated between the end of the 4th and the first half of the 3rd millennium B...*
+
+> *Image: unknown, CC0*
+
 Capabilities in this domain:
 
 - [Kiln Construction](kilns.md) — Kiln construction: updraft, downdraft, and tunnel kilns for ceramic and lime firing.

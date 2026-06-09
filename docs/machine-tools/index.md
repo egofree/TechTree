@@ -1,5 +1,12 @@
 # Machine Tools Bootstrap
 
+
+![Precision metal machining and welding for heavy industrial components](../images/machine-tools/machine-tools.jpg)
+
+> *Workers and machinery processing heavy steel components inside a manufacturing base in Suzhou. The production line handles OEM steel parts, wind power components, and structural steel assembly. Manufactured and photographed at the facility of Suzhou Leading Top Union Technology Co., Ltd. ( https:...*
+
+> *Image: Leadingtopunion, CC0*
+
 Capabilities in this domain:
 
 - [Bearings, Abrasives & Cutting Tools](bearings-abrasives.md) — Overview: plain bearings, rolling element bearings, natural and synthetic abrasives, cutting tool materials, and thread cutting.

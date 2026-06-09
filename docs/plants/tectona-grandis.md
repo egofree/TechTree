@@ -206,3 +206,5 @@ conditions is more important than attempting to grow unsuitable crops in margina
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants tectona grandis](../images/plants/plants_tectona-grandis.jpeg)

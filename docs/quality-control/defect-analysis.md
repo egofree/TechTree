@@ -402,3 +402,5 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*
+
+![quality control defect analysis](../images/quality-control/quality-control_defect-analysis.jpg)

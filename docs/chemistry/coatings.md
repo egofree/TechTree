@@ -245,3 +245,7 @@ The coatings industry continues to evolve toward lower VOC, higher durability, a
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+![chemistry coatings](../images/chemistry/chemistry_coatings.jpg)
+
+![chemistry coatings diagram](../images/chemistry/diagram:chemistry_coatings.png)

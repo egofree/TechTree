@@ -16,6 +16,13 @@
 
 > *Image: Dinkun Chen, CC BY-SA 4.0*
 
+![Artemisia capillaris in China](../images/plants/plants_structural-plants_artemisia-capillaris.jpg)
+
+> *Artemisia capillaris in China*
+
+> *Image: Dinkun Chen, CC BY-SA 4.0*
+
+
 Artemisia capillaris , (Chinese: 茵陈蒿 yīn chén hāo), the capillary wormwood , is a species of flowering plant in the wormwood genus Artemisia , family Asteraceae
 
 Capillary wormwood fills a niche that few other plants occupy: it produces straight, rigid stems useful for construction and craft, while also yielding one of traditional Chinese medicine's most important herbs for liver conditions. The same plant that reinforces mud-brick walls in rural Chinese villages also provides the medicinal herb Yin Chen Hao, harvested in spring before the stems toughen into structural material.

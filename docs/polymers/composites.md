@@ -23,6 +23,13 @@ This article covers fiber properties, layup methods, matrix selection, manufactu
 
 > *Image: Andrew Hrechuk, CC BY 4.0*
 
+![Drilled hole in carbon fiber reinforced polymer (CFRP) sample](../images/polymers/polymers_composites.gif)
+
+> *Drilling defects of carbon fiber reinforced polymer (CFRP)*
+
+> *Image: Andrew Hrechuk, CC BY 4.0*
+
+
 - [Glass fibers](../glass/fibers.md) — E-glass or S-glass fiber reinforcement (continuous roving, woven fabric, or chopped strand mat)
 - [Thermoset resins](thermosets.md) — polyester, epoxy, or vinyl ester matrix resins with catalyst and hardener
 - [Machine tools](../machine-tools/index.md) — rollers, presses, and molds for layup and cure
@@ -344,3 +351,5 @@ structural reinforcement in hybrid composites.
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
+
+![polymers composites](../images/polymers/polymers_composites.png)

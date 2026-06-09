@@ -254,3 +254,5 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+![energy electric furnaces electrode manufacturing diagram](../images/energy/diagram:energy_electric-furnaces-electrode-manufacturing.jpg)

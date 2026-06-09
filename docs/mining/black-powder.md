@@ -16,6 +16,13 @@
 
 > *Image: Satirdan kahraman, CC BY-SA 4.0*
 
+![Barut 2346918 01](../images/mining/mining_extraction_black-powder.jpg)
+
+> *Barut*
+
+> *Image: Satirdan kahraman, CC BY-SA 4.0*
+
+
 Gunpowder manufacture (75% KNO₃, 15% charcoal, 10% sulfur) for mining blasting. Process: pulverize ingredients separately, wet-mix, press into cakes, crumble and sieve to grain sizes. Corning process ensures uniform burn rate. Enables breaking rock far beyond fire-setting and hand-tool limits.
 
 This technology is characteristic of the Industrial era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.
@@ -294,3 +301,5 @@ Proper handling of input materials and products is essential for consistent resu
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
+
+![mining extraction black powder diagram](../images/mining/diagram:mining_extraction-black-powder.jpg)

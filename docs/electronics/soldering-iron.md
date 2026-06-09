@@ -16,6 +16,13 @@
 
 > *Image: Retired electrician, CC0*
 
+
+![Wave solder optimizer](../images/electronics/electronics_soldering-diagram.png)
+
+> *Wave soldering setup and verification fixture example, showing temperature, contact and wave height sensors*
+
+> *Image: ProfileMarkus, CC BY-SA 4.0*
+
 A soldering iron converts electrical energy into heat at a concentrated tip, raising the temperature of metal workpieces and solder alloy above the solder's melting point. The molten solder wets the metal surfaces through metallurgical bonding — a thin intermetallic layer (1-5 μm) forms between the solder and the base metal, creating both electrical continuity and mechanical attachment. The iron maintains tip temperature at 320-420°C, well above the melting points of common solders (Sn63/Pb37: 183°C; SAC305 lead-free: 217-220°C), providing sufficient thermal headroom to overcome heat sinking by the workpiece and PCB substrate.
 
 Heating is achieved by passing current through a resistive element (nichrome wire or ceramic PTC heater) embedded in the iron body. The thermal mass of the tip stores heat and delivers it to the joint in a brief 2-5 second contact. Temperature-controlled irons use a thermocouple or thermistor in the tip, feeding back to a power controller (triac or MOSFET) that maintains the set temperature within ±5-10°C.

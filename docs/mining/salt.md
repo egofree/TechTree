@@ -293,3 +293,5 @@ Proper handling of input materials and products is essential for consistent resu
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
+
+![mining salt diagram](../images/mining/diagram:mining_salt.jpg)

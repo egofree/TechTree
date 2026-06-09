@@ -249,3 +249,5 @@ The choice of cure system is driven by the application requirements and the rubb
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) · [Polymers](./index.md) · [All Domains](../index.md)*
+
+![polymers vulcanization](../images/polymers/polymers_vulcanization.jpg)

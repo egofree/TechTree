@@ -208,3 +208,5 @@ For applications below 100 A, a switch-mode power supply (SMPS) offers advantage
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
+
+![electrochemistry dc rectifier](../images/electrochemistry/electrochemistry_dc-rectifier.png)

@@ -206,3 +206,5 @@ This species represents an important component of a diversified food production 
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants fraxinus excelsior](../images/plants/plants_fraxinus-excelsior.jpeg)

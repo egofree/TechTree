@@ -15,6 +15,13 @@ Aluminum production is a two-stage process: the Bayer process converts bauxite o
 
 ## Bayer Process — Bauxite to Alumina
 
+![Schematic Sketch of the Rolling Process – Hot Rolling, Cold Rolling & Temper Rolling of Aluminum Alloys](../images/metals/metals_aluminum.jpg)
+
+> *Schematic representation of the rolling process for aluminum alloys. The process includes hot rolling, cold rolling, and temper rolling, gradually reducing the material to the desired thickness before being wound into an aluminum coil.*
+
+> *Image: Sung-Min Wi (Sungminwi), CC BY 4.0*
+
+
 The Bayer process (1887) extracts pure alumina from bauxite ore via selective dissolution in hot sodium hydroxide. Bauxite typically contains 30-55% Al₂O₃ as gibbsite (Al(OH)₃), boehmite (AlO(OH)), or diaspore (AlO(OH)), along with iron oxides (the red color), silica, and titania as impurities.
 
 **Digestion**:

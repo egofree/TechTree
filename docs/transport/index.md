@@ -1,5 +1,12 @@
 # Transportation & Logistics
 
+
+![30th Logistics Readiness Squadron Air Transportation technicians at work (4156212)](../images/transport/transport.jpg)
+
+> *30th Logistics Readiness Squadron Air Transportation technicians help load Explosive Ordnance Disposal vehicles and equipment onto a C-17 Globemaster III, from Hickam Air Force Base, Feb. 18, 2018, Vandenberg Air Force Base, Calif. The EOD vehicles and equipment were transported as part of a depl...*
+
+> *Image: U.S. Space Force image by Staff Sgt. Shane Phipps, Public domain*
+
 Capabilities in this domain:
 
 - [Aviation](aviation.md) — Aircraft development, tube-and-fabric airframes, propellers, and flight testing.

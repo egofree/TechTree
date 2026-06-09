@@ -16,6 +16,13 @@
 
 > *Image: Ajtjohnsingh, CC BY-SA 4.0*
 
+![Balanites aegyptiaca, Sariska TR, AJT Johnsingh. DSCN1388](../images/plants/plants_edible-plants_balanites-aegyptiaca.jpg)
+
+> *Balanites aegyptiaca, Sariska TR, AJT Johnsingh. DSCN1388*
+
+> *Image: Ajtjohnsingh, CC BY-SA 4.0*
+
+
 Balanites aegyptiaca (also known as the Desert date , Egyptian balsam and Lalob in Sudan ) is a species of tree, classified as a member of either the Zygophyllaceae or the Balanitaceae
 
 The desert date is a survival tree. In the arid belt stretching across Africa from Senegal to Somalia, it produces food, cooking oil, soap, timber, and medicine from a single organism that thrives on rainfall too scant for grain crops. The fruit ripens in the dry season when other food sources are scarce, and the tree keeps producing for over a century once it reaches maturity. Few other plants deliver this much value per drop of water.

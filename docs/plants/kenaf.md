@@ -269,3 +269,5 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants kenaf](../images/plants/plants_kenaf.jpeg)

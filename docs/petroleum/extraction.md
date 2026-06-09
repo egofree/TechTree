@@ -10,6 +10,13 @@
 
 ## Prerequisites
 
+![BAUER MBG 12 Rotary Drilling Rig at Construct Expo Utilaje 2010](../images/petroleum/petroleum_extraction_rotary.jpg)
+
+> *BAUER MBG 12 Rotary Drilling Rig seen in Bucharest, Romania at Romexpo during the 2010 Construct Expo Utilaje international exhibition for construction equipment, machinery and hand tools*
+
+> *Image: Gabinho, CC BY 3.0*
+
+
 Petroleum extraction requires specific industrial capabilities:
 
 - [Mining engineering](../mining/index.md) — drilling equipment, geological survey, and earth-moving

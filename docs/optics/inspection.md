@@ -19,6 +19,13 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 
 > *Image: NASA Goddard Space Flight Center / Denny Henry/NASA, Public domain*
 
+
+![Optical coating - Thin film coating - Stripe filters - CILAS](../images/optics/optics_inspection_optical-coatings.jpg)
+
+> *Optical coating - Thin film coating - Stripe filters - CILAS*
+
+> *Image: CILAS, CC BY-SA 3.0*
+
 - [Glass production](../glass/index.md) — optical glass blanks for lenses and flats
 - [Machine tools](../machine-tools/index.md) — grinding, lapping, and polishing capability
 - [Abrasives](../machine-tools/bearings-abrasives.md) — SiC, emery, cerium oxide for grinding and polishing

@@ -26,6 +26,15 @@ This article covers the lubrication theory shared across all types and links to 
 
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
+![18-24hp Enfield engine, lubrication system, diagram (Heat Engines, 1913)](../images/chemistry/chemistry_lubricants-diagram.jpg)
+
+> *Fig. 210 
+
+Diagrammatic sketch of the lubrication system of the Enfield engine*
+
+> *Image: Andy Dingley (scanner), Public domain*
+
+
 ### Boundary Lubrication
 
 Thin molecular film (1-10 nm) of polar molecules adsorbed on metal surfaces. Fatty acids (from animal/vegetable fats) have a polar head that attaches to the metal oxide surface and a non-polar tail (hydrocarbon chain). The molecules orient perpendicular to the surface, forming a packed monolayer that prevents metal-to-metal contact. This regime dominates at low speed, high load, and intermittent motion, the conditions found in slow-moving machinery, sliding surfaces, and startup/shutdown of faster equipment.

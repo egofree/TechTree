@@ -304,3 +304,5 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+![chemistry acids bases diagram](../images/chemistry/diagram:chemistry_acids-bases.png)

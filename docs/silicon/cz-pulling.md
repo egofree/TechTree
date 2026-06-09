@@ -17,6 +17,14 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 
 > *Image: Warut Roonguthai, CC BY-SA 4.0*
 
+
+![Czochralski Process ro](../images/silicon/silicon_crystal-growth_cz-pulling-diagram.png)
+
+> *Czochralski process, silicon monocrystal fabrication*
+
+> *Image: Czochralski_Process.svg: Twisp
+derivative work/lucrare derivată: —User:ANDROBETA, Public domain*
+
 **Main vessel**:
 - Water-cooled stainless steel (304 or 316) cylindrical chamber. Two sections: upper (pull chamber, 300-500 mm diameter, 800-1200 mm tall) and lower (furnace chamber, 400-600 mm diameter, 400-600 mm tall). Separated by a gate valve to allow crystal removal without exposing hot crucible to air.
 - Wall construction: 5-10 mm stainless steel inner shell, welded water cooling channels (external half-pipe welding or bonded jacket). Cooling water flow: 5-15 L/min at 2-4 bar. Thermal load on walls: 5-15 kW during growth — inadequate cooling warps the chamber and contaminates the crystal.
@@ -376,3 +384,7 @@ A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its
 - [Purification](purification.md) — polysilicon purification for crystal growth
 
 [← Back to Silicon](index.md)
+
+![silicon cz pulling](../images/silicon/silicon_cz-pulling.jpg)
+
+![silicon crystal growth cz pulling diagram](../images/silicon/diagram:silicon_crystal-growth-cz-pulling.jpg)

@@ -21,6 +21,20 @@ The transition from pig iron to steel is the single most important metallurgical
 
 > *Image: Joseph Esrey Johnson, Jr. (1870-1919), Public domain*
 
+![Diagram of the Bessemer Process](../images/metals/metals_steelmaking-diagram.jpg)
+
+> *Identifier: ironsteelmagazin10sauv (find matches)
+Title: The Iron and steel magazine
+Year: 1898 (1890s)
+Authors:  Sauveur, Albert, 1863-1939
+Subjects:  Metallography Iron Steel
+Publisher:  Cambridge, Mass. (etc.)
+Contributing Library:  Gerstein - University of Toronto
+Digitizing Sponsor:  Univers...*
+
+> *Image: Sauveur, Albert, 1863-1939, No restrictions*
+
+
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, wrought iron
 - [Blast furnace](blast-furnace.md) — pig iron production (primary feedstock)
 - [Refractories](../chemistry/refractories.md) — basic and acid refractory linings for vessels

@@ -15,6 +15,20 @@
 
 > *Image: sigmaaldrich, CC BY-SA 4.0*
 
+![Physical Vapor Deposition (PVD)](../images/photolithography/photolithography_fab-processes-pvd.jpg)
+
+> *Physical Vapor Deposition (PVD)*
+
+> *Image: sigmaaldrich, CC BY-SA 4.0*
+
+
+
+![Esquema sputtering](../images/photolithography/photolithography_pvd-diagram.png)
+
+> *Figura adaptada de: GREENE, J. E. (2017). «Review Article: Tracing the recorded history of thin-film sputter deposition: From the 1800s to 2017». Journal of Vacuum Science &amp; Technology. 35. 61 páginas.*
+
+> *Image: RegiSantana, CC BY-SA 4.0*
+
 Physical Vapor Deposition (PVD) encompasses a family of vacuum-based processes that deposit thin solid films by physically transporting material from a source (target or evaporant) to a substrate. Unlike Chemical Vapor Deposition (CVD), PVD involves no chemical reaction at the substrate surface — the film material arrives as atoms or clusters ejected from the source by kinetic energy (sputtering) or thermal energy (evaporation). PVD is the workhorse for metallization in IC fabrication, depositing aluminum, copper, titanium, tantalum, tungsten, and their alloys as interconnects, diffusion barriers, and adhesion layers.
 
 Two principal mechanisms define PVD:

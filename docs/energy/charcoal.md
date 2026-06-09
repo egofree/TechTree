@@ -21,6 +21,13 @@ Charcoal has several advantages over raw wood as a metallurgical fuel: roughly d
 
 > *Image: Rey, José Ramón Copa, Cecilia Mateos-Pedrero, Andrei Longo, Bruna Rijo, Paulo Brito, Paulo Ferreira, and Catarina Nobre., CC BY-SA 4.0*
 
+![Renewable-H2 and activated charcoal production process from biomass pyrolysis](../images/energy/energy_fuels_charcoal.png)
+
+> *Renewable-H2 and activated charcoal production process from biomass pyrolysis.*
+
+> *Image: Rey, José Ramón Copa, Cecilia Mateos-Pedrero, Andrei Longo, Bruna Rijo, Paulo Brito, Paulo Ferreira, and Catarina Nobre., CC BY-SA 4.0*
+
+
 Hardwood produces denser, hotter charcoal. Softwood produces lighter, faster-burning charcoal:
 
 | Wood Type | Charcoal Quality | Density (kg/m³) | Best Use |
@@ -251,3 +258,5 @@ During petroleum shortages, charcoal gasification provides a practical alternati
 - [Wood Gasification](../chemistry/wood-gasification.md) — producer gas from wood
 
 [← Back to Energy](index.md)
+
+![energy fuels charcoal](../images/energy/energy_fuels_charcoal.jpg)

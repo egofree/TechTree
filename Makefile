@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 .SHELLFLAGS := -ec
 
-.PHONY: all validate diagrams d2-diagrams build validate-site validate-images test clean help wikidata-search wikidata-apply wikidata-enrich
+.PHONY: all validate diagrams d2-diagrams process-flow-diagrams build validate-site validate-images test clean help wikidata-search wikidata-apply wikidata-enrich
 
 help: ## Show this help message
 	@echo "bootciv tech-tree-bootstrap — available targets:"
@@ -19,6 +19,9 @@ diagrams: ## Generate Mermaid diagrams from data
 
 d2-diagrams: ## Generate D2 diagrams from data
 	python3 scripts/generate-diagrams.py --format d2
+
+process-flow-diagrams: ## Generate process flow diagrams (Mermaid + D2)
+	python3 scripts/generate-process-flows.py
 
 build: ## Build offline-first static site
 	bash scripts/build-site.sh

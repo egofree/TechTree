@@ -10,6 +10,13 @@
 
 ## Hand Steel Drilling
 
+![Cable suspended ice core drilling system schematic](../images/mining/mining_drilling.png)
+
+> *Schematic of cable-suspended ice core drilling system.  Redrawn from Talalay, Pavel G. (2016). Mechanical Ice Drilling Technology. Beijing: Springer. ISBN 978-7-116-09172-6.  p. 110.*
+
+> *Image: Mike Christie, CC BY-SA 4.0*
+
+
 Before pneumatic or hydraulic drills, miners broke rock with hand steel. A steel drill (also called a jumper) is a hardened chisel-pointed rod, driven into rock by hammer blows. One person rotates the drill slightly between strikes to prevent binding and distribute the cutting edge across the rock face.
 
 **[Single jack drilling](../glossary/single-jack-drilling.md)** (one person, one hammer):

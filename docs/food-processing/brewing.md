@@ -22,6 +22,13 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 
 > *Image: George Ehret, Public domain*
 
+
+![Setting the Chiller Flow (8425914640)](../images/food-processing/food-processing_brewing-diagram.jpg)
+
+> *Observing the brewing process at THAT Brewery, Pine AZ http://thatbrewery.com/*
+
+> *Image: cogdogblog, CC BY 2.0*
+
 | Material | Quantity per 100 L beer (5% ABV) | Source | Alternatives |
 |----------|:---------------------------------:|--------|-------------|
 | Malted barley | 20-25 kg | [Agriculture](../foundations/food-agriculture.md) | Wheat malt, rye malt |

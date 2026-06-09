@@ -16,6 +16,19 @@
 
 > *Image: Steve F, CC BY-SA 2.0*
 
+
+![Ingersoll-Rand Class AA-2 air compressor cross section 1910](../images/gas-handling/gas-handling_compressor-diagram.png)
+
+> *Ingersoll-Rand Class AA-2 air compressor cross section 1910. Longitudinal section through air cylinders and intercooler of the class "AA-2" compressor, showing the ample air passages and large intercooler.*
+
+> *Image: https://books.google.com/books?id=H2RNAAAAYAAJ
+Ingersoll-Rand products, Volume 1
+Author	Ingersoll-Rand Company
+Publisher	Mason-Henry Press, 1910
+Original from	Princeton University
+
+Digitized	Mar 31, 2010. Google Books, Public domain*
+
 - [Iron & Steel](../metals/iron-steel.md) — cast iron for cylinder blocks, forged steel for crankshafts and connecting rods
 - [Machining](../machine-tools/machining.md) — precision boring of cylinders, grinding of journals, milling of rotor profiles
 - [Electricity](../energy/electricity.md) — motor drive power (5-500 kW depending on compressor size)

@@ -248,3 +248,5 @@
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*
+
+![knowledge education](../images/knowledge/knowledge_education.png)

@@ -1,0 +1,106 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Silicon Wafer Preparation — Ingot to Prime Wafer
+s1: "Single-Crystal Si Ingot (CZ or FZ)" {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Crop Ends & Grind to Target Diameter (200/300mm)" {
+  shape: rectangle
+  class: processStep
+}
+s3: Orientation Flat/Notch Grinding {
+  shape: rectangle
+  class: processStep
+}
+s4: "Wire Saw Slicing (slurry or diamond wire)" {
+  shape: rectangle
+  class: processStep
+}
+s5: "Wafer Thickness within Spec (±1μm)?" {
+  shape: diamond
+  class: decisionStep
+}
+s6: "Lapping & Edge Rounding" {
+  shape: rectangle
+  class: processStep
+}
+s7: "Chemical Etching (remove damaged layer)" {
+  shape: rectangle
+  class: processStep
+}
+s8: "CMP Polishing to Mirror Finish (<5Å Ra)" {
+  shape: rectangle
+  class: processStep
+}
+s9: "Final Clean (RCA-1 + RCA-2)" {
+  shape: rectangle
+  class: processStep
+}
+s10: "Prime Silicon Wafer (epitaxy-ready)" {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s2: { class: flow-edge }
+s2 -> s3: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: yes { class: flow-edge }
+s5 -> s4: no — re-slice { class: feedback-edge }
+s6 -> s7: { class: flow-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s9: { class: flow-edge }
+s9 -> s10: { class: flow-edge }

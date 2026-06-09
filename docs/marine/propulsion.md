@@ -15,6 +15,64 @@ For propulsion overview and hull speed calculations, see [Water Transport](../tr
 
 ## Prerequisites
 
+![HMS Royal Sovereign, midship section (Warships To-day, 1936)](../images/marine/marine_propulsion.jpg)
+
+> *Royal Sovereign—Midship section
+
+
+
+
+
+
+A
+Inner flat keel plate
+
+
+B
+Outer flat keel plate
+
+
+C
+Vertical keel plates
+
+
+D
+Bracket plates
+
+
+E
+Longitudanals
+
+
+F
+Outer bottom plating
+
+
+G
+Inner bottom plating
+
+
+H
+Longitudinal bulkhead
+
+
+I
+Air space
+
+
+J
+Longitudinal protective bulkhead
+
+
+K
+Oiltight flat
+
+
+...*
+
+> *Image: Andy Dingley (scanner), Public domain*
+
+
 - [Heat Engines](../energy/engine.md) — internal combustion engine design
 - [Steam Power](../energy/steam-power.md) — steam engine design and boiler construction
 - [Iron & Steel](../metals/iron-steel.md) — materials for engine and propeller construction

@@ -261,3 +261,5 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants proso millet](../images/plants/plants_proso-millet.jpeg)

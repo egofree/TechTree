@@ -1,0 +1,43 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Photolithography — Patterning Process
+
+    %% ==================== STEPS ====================
+    s1[/"Silicon Wafer (with deposited film)"/]
+    s2["HMDS Priming (adhesion promotion)"]
+    s3["Photoresist Spin Coating (1-5μm)"]
+    s4["Soft Bake (drive off solvent)"]
+    s5["UV Exposure through Photomask (193i/EUV)"]
+    s6["Post-Exposure Bake (PEB)"]
+    s7["Development (TMAH developer)"]
+    s8{"Pattern Transfer OK (CD within spec)?"}
+    s9["Etch Pattern Transfer (RIE/plasma)"]
+    s10[/"Resist Strip & Clean (O₂ plasma + wet)"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s2
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 --> s6
+    s6 --> s7
+    s7 --> s8
+    s8 -->|yes — within CD spec| s9
+    s8 -.->|no — re-coat & re-expose| s2
+    s9 --> s10
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 processStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 processStep
+    class s7 processStep
+    class s8 decisionStep
+    class s9 processStep
+    class s10 outputStep

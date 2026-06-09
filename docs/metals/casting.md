@@ -17,6 +17,13 @@ The bootstrap sequence is self-improving: a simple clay-graphite crucible + char
 
 ## Prerequisites
 
+![1911 Britannica - Bearings - Cross section](../images/metals/metals_casting.png)
+
+> *The component parts of a small bearing, pillow block, plummer block or pedestal, as it is variously styled.The shaft (S) is encircled by the brasses (B1 and B2) made of gun metal, phosphor bronze or other suitable material. The lower brass fits into the main casting (A) in the semicircular seat p...*
+
+> *Image: Encyclopædia Britannica, 1911, Public domain*
+
+
 - **Materials**: [Silica sand](../mining/processing.md) (60-120 mesh, 90-95% SiO₂ — river sand works if clean), [bentonite clay](../ceramics/index.md) (8-12% by weight for green sand binder), [charcoal or coke](../energy/charcoal.md) for furnace fuel, [scrap aluminum or pig iron](./iron-steel.md) as charge material, [limestone](../ceramics/lime.md) (CaCO₃ flux for cupola), [wax or paraffin](../polymers/natural.md) for investment casting patterns
 - **Tools**: [Crucible](../ceramics/index.md) (clay-graphite or silicon carbide), [flasks](../machine-tools/index.md) (cope and drag — wooden or metal boxes), [rammers](../machine-tools/index.md) for sand compaction, [bellows or blower](../energy/charcoal.md) for forced air, [ladles](../machine-tools/index.md) (preheated, for pouring), [thermocouple or optical pyrometer](../measurement/index.md) for temperature measurement, [patterns](../machine-tools/index.md) (wooden or metal master shapes)
 - **Knowledge**: Sand mixing ratios and testing (squeeze test, moisture control), pattern design (shrinkage allowance, draft angles, fillets), gating system design (sprue-runner-gate-riser), solidification and shrinkage mechanics, metal temperature assessment by color, defect identification and correction

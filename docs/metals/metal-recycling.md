@@ -268,3 +268,5 @@ Bronze Age metalworkers recycled bronze routinely — broken tools and weapons w
 - [Tailings Reprocessing](../mining/tailings-reprocessing.md) — recovering residual metals from mine tailings
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+![metals metal recycling diagram](../images/metals/diagram:metals_metal-recycling.jpg)

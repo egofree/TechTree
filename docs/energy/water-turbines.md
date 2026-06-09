@@ -19,6 +19,13 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 
 > *Image: Chris Allen, CC BY-SA 2.0*
 
+![Water turbines, Armitage Bridge Mills - geograph.org.uk - 1584741](../images/energy/energy_water-turbines.jpg)
+
+> *Water turbines, Armitage Bridge Mills. Two 75 horsepower Francis type water turbines by W Gunther &amp; Sons, Oldham. Believed to have been installed in 1905 and remain in use exporting to the grid. In the background one can make out part of a large Belliss &amp; Morcom steam engine, now scrapped.*
+
+> *Image: Chris Allen, CC BY-SA 2.0*
+
+
 **Principle**: One or more high-velocity water jets from a nozzle strike spoon-shaped buckets mounted on the perimeter of a runner. All pressure conversion to kinetic energy happens at the nozzle — the runner operates in atmospheric pressure (not submerged). The jet's momentum transfers to the bucket, spinning the runner.
 
 **Construction**:

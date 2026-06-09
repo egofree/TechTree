@@ -208,3 +208,5 @@ where conditions are marginal, alternative species should be preferred.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants chrysanthemum cinerariifolium](../images/plants/plants_chrysanthemum-cinerariifolium.jpeg)

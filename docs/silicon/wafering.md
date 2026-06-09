@@ -13,6 +13,20 @@ Wafering transforms a single-crystal silicon ingot (boule) into thin, flat, mirr
 
 ## Ingot Evaluation and Preparation
 
+![Hot off the press — the latest D-Wave wafer of quantum processors and TIME cover story](../images/silicon/silicon_wafering-diagram.jpg)
+
+> *I took this photo of the latest hot lot of processor chips of various sizes at the spook shop summit (InQTel CEO Summit).   Pretty shiny bling. I am in the D-Wave board meeting now, and we just got a peek of next week's TIME Magazine cover (below).  And it made the Charlie Rose show. Here are som...*
+
+> *Image: Steve Jurvetson, CC BY 2.0*
+
+
+![FZU AV CR Silicon Single Crystal B](../images/silicon/silicon_wafering-process.jpg)
+
+> *A sample of a silicon single crystal presented during a tour of the Department of Thin Films and Nanostructures in the Solid State Physics Section at the Institute of Physics of the Czech Academy of Sciences, located on the grounds of the former Czechoslovak Sugar Industry Research Institute in P...*
+
+> *Image: Mojmir Churavy, CC BY-SA 4.0*
+
+
 After CZ or FZ crystal growth, the ingot (150-300 mm diameter, 1-3 m long, 30-150 kg) must be evaluated and prepared to precise cylindrical geometry before wafering.
 
 **Ingot inspection**:
@@ -426,3 +440,5 @@ Wafering involves mechanical cutting, chemical etching, and polishing with hazar
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+
+![silicon wafering diagram](../images/silicon/diagram:silicon_wafering.jpg)

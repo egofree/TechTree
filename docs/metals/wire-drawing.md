@@ -16,6 +16,13 @@
 
 > *Image: Matson Collection, Public domain*
 
+![Carbide wire drawing die diagram](../images/metals/metals_wire-drawing-diagram.png)
+
+> *A diagram of a carbide wire drawing die. Based on similar drawing from Degarmo, E. Paul; Black, J T.; Kohser, Ronald A. (2003), Materials and Processes in Manufacturing (9th ed.), Wiley, ISBN 0-471-65653-4, figure 19-58.*
+
+> *Image: Wizard191, CC BY-SA 3.0*
+
+
 Drawing metal rod through progressively smaller dies to reduce the diameter and increase the length of wire. Wire drawing is the process that converts rolled rod stock (typically 5-12 mm diameter) into wire of any specified gauge, down to fine wire below 0.1 mm for electronics and magnet winding applications.
 
 The process is straightforward in principle: a pointed wire end is threaded through a die with a hole smaller than the current wire diameter, gripped by a draw block or pulling mechanism, and pulled through. The die forces the wire to compress and elongate, reducing its cross-section while increasing its length proportionally. In practice, the details of die material, die angle, lubrication, reduction per pass, and intermediate annealing determine whether the wire breaks, how the surface looks, and whether the final dimensions are within tolerance.

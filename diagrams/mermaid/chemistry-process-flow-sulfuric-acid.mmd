@@ -1,0 +1,40 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Sulfuric Acid — Contact Process
+
+    %% ==================== STEPS ====================
+    s1[/"Elemental Sulfur / Sulfide Ore"/]
+    s2["Combustion: S + O₂ → SO₂ (1000°C)"]
+    s3["Gas Cooling & Purification (ESP + scrubbing)"]
+    s4["Catalytic Oxidation: 2SO₂ + O₂ → 2SO₃ (V₂O₅, 450°C)"]
+    s5{"Conversion Efficiency ≥ 99%?"}
+    s6["Double-Absorption Pass (re-oxidize tail gas)"]
+    s7["SO₃ Absorption in 98% H₂SO₄ → Oleum"]
+    s8["Dilution: H₂S₂O₇ + H₂O → 2H₂SO₄"]
+    s9[/"98% Sulfuric Acid Product"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s2
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 -->|no — insufficient| s6
+    s6 -.-> s4
+    s5 -->|yes| s7
+    s7 --> s8
+    s8 --> s9
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 processStep
+    class s3 processStep
+    class s4 processStep
+    class s5 decisionStep
+    class s6 processStep
+    class s7 processStep
+    class s8 processStep
+    class s9 outputStep

@@ -15,6 +15,11 @@ This capability covers the cultivation, harvesting, and primary extraction of ba
 
 ## Fiber Categories by Plant Anatomy
 
+![Basket with lid title QS:P1476,en:"Basket with lid "label QS:Len,"Basket with lid "label QS:Lit,"Cestino con coperchio"](../images/plants/plants_fiber-plants.jpg)
+
+> *Image: Wikimedia Commons contributor, CC0*
+
+
 Different plant organs yield fibers with distinct properties, requiring different extraction methods:
 
 - **Bast (stem) fibers**: Extracted from the phloem (inner bark) of certain dicot stems. Long, strong fibers ideal for cordage and textiles. Examples: flax (linen), hemp, jute, ramie, nettle. Require retting to separate fiber bundles from the woody core.

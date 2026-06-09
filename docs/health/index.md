@@ -1,5 +1,12 @@
 # Public Health, Sanitation & Medicine
 
+
+![Health Illustrated Text](../images/health/health.png)
+
+> *This is an image with the theme "Health and Wellness in Africa" from:*
+
+> *Image: Cabblow, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Medicine & Surgery](medicine.md) — Surgical capability, wound treatment, infection control, and basic medical diagnostics.
@@ -14,3 +21,5 @@ Capabilities in this domain:
 - [Nutrition & Dietary Planning](nutrition.md) — Macronutrient and micronutrient requirements, deficiency disease prevention (scurvy, beriberi, rickets, anemia), food composition analysis, and workforce dietary planning.
 
 [↑ Back to Tech Tree](../index.md)
+
+![health](../images/health/health.jpg)

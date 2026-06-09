@@ -1,0 +1,40 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Czochralski Crystal Growth — Single-Crystal Silicon
+
+    %% ==================== STEPS ====================
+    s1[/"Polysilicon Charge (9N+ purity)"/]
+    s2[/"Argon Inert Atmosphere"/]
+    s3["Melt Polysilicon in Quartz Crucible (1415°C)"]
+    s4["Dip Seed Crystal into Melt"]
+    s5["Dash Neck Growth (thin neck to eliminate dislocations)"]
+    s6["Shoulder Expansion & Body Pull"]
+    s7{"Pull Speed Stable (±0.5%)?"}
+    s8["Tail-Off & Cool"]
+    s9[/"Single-Crystal Silicon Ingot"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s3
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 --> s6
+    s6 --> s7
+    s7 -.->|no — adjust speed| s6
+    s7 -->|yes — target diameter reached| s8
+    s8 --> s9
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 inputStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 processStep
+    class s7 decisionStep
+    class s8 processStep
+    class s9 outputStep

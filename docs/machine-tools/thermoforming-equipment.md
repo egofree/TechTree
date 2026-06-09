@@ -210,3 +210,5 @@ Thermoforming requires thermoplastic sheet — most commonly HIPS (high-impact p
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+
+![machine tools thermoforming equipment](../images/machine-tools/machine-tools_thermoforming-equipment.jpg)

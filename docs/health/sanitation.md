@@ -16,6 +16,13 @@
 
 > *Image: MDWiki(from Our World In Data), CC BY 4.0*
 
+![World map of total official financial flows for water supply and sanitation, by recipient, 2020, OWID](../images/health/health_sanitation.png)
+
+> *water supply*
+
+> *Image: MDWiki(from Our World In Data), CC BY 4.0*
+
+
 **Well construction**:
 - **Dug wells**: Hand-dug 1-2 m diameter, 5-20 m deep. Line with stone or brick (dry-laid, mortar at top to prevent surface contamination). Cover with wooden or stone cap. Rope and bucket for drawing. Locate uphill and ≥30 m from latrines, graves, animal pens.
 - **Driven wells**: Drive steel pipe (3-5 cm diameter) with pointed screen tip into ground using sledge hammer or drop weight. Fast, works in sandy/gravelly soil. Depth 5-15 m. Attach hand pump.

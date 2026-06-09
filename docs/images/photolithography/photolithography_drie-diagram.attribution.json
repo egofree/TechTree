@@ -1,0 +1,11 @@
+{
+  "title": "DRIE etch fail",
+  "description": "Inductively Coupled Plasma - Deep Reactive Ion Etching (ICP-DRIE) without passivation in the first place leading to highly isotropic etching. When the C4F8 valve was opened, the desired anisotropy has been achieved. However, the process parameters seemed to be not optimized resulting in black silicon.",
+  "author": "Mgerlt",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:DRIE_etch_fail.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/DRIE_etch_fail.jpg",
+  "attribution_md": "DRIE etch fail\nInductively Coupled Plasma - Deep Reactive Ion Etching (ICP-DRIE) without passivation in the first place leading to highly isotropic etching. When the C4F8 valve was opened, the desired anisotropy has been achieved. However, the process parameters seemed to be not optimized resulting in black silicon.\n\nImage: Mgerlt ([source](https://commons.wikimedia.org/wiki/File:DRIE_etch_fail.jpg))\nLicense: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)",
+  "license_tier": "libre"
+}

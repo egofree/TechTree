@@ -1,0 +1,106 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Photolithography — Patterning Process
+s1: "Silicon Wafer (with deposited film)" {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "HMDS Priming (adhesion promotion)" {
+  shape: rectangle
+  class: processStep
+}
+s3: "Photoresist Spin Coating (1-5μm)" {
+  shape: rectangle
+  class: processStep
+}
+s4: "Soft Bake (drive off solvent)" {
+  shape: rectangle
+  class: processStep
+}
+s5: "UV Exposure through Photomask (193i/EUV)" {
+  shape: rectangle
+  class: processStep
+}
+s6: "Post-Exposure Bake (PEB)" {
+  shape: rectangle
+  class: processStep
+}
+s7: "Development (TMAH developer)" {
+  shape: rectangle
+  class: processStep
+}
+s8: "Pattern Transfer OK (CD within spec)?" {
+  shape: diamond
+  class: decisionStep
+}
+s9: "Etch Pattern Transfer (RIE/plasma)" {
+  shape: rectangle
+  class: processStep
+}
+s10: "Resist Strip & Clean (O₂ plasma + wet)" {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s2: { class: flow-edge }
+s2 -> s3: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: { class: flow-edge }
+s6 -> s7: { class: flow-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s9: yes — within CD spec { class: flow-edge }
+s8 -> s2: "no — re-coat & re-expose" { class: feedback-edge }
+s9 -> s10: { class: flow-edge }

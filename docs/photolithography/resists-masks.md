@@ -16,6 +16,13 @@
 
 > *Image: Guiding light at en.wikipedia / Later version(s) were uploaded by Oleg Alexandrov at en.wikipedia., CC BY-SA 3.0*
 
+
+![Temple and ASML containers in Tainan May 2025](../images/photolithography/photolithography_resists-masks-process.jpg)
+
+> *Air cargo containers for ASML machines in a truck lot in Sucuo Village in Tainan, down the street from a temple*
+
+> *Image: 4300streetcar, CC BY 4.0*
+
 **[Bitumen resist](../glossary/bitumen-resist.md)** (simplest, historical — Niépce, 1826):
 - Dissolve bitumen of Judea (natural asphalt) in lavender oil or turpentine. Coat on substrate. Expose to UV through mask (hours of exposure — very slow). Exposed areas harden (polymerize), unexposed areas dissolve in solvent. Low resolution (~100 μm+), very slow, but requires zero chemistry infrastructure.
 
@@ -392,3 +399,5 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+
+![photolithography resists masks diagram](../images/photolithography/diagram:photolithography_resists-masks.jpg)

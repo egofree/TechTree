@@ -13,6 +13,27 @@ Every human settlement needs reliable caloric intake to survive, work, and repro
 
 ## Prerequisites
 
+![Garden of Edible and Useful Plants - geograph.org.uk - 2971849](../images/plants/plants_edible-plants.jpg)
+
+> *Garden of Edible and Useful Plants*
+
+> *Image: don cload, CC BY-SA 2.0*
+
+
+
+![Balanites aegyptiaca, Sariska TR, AJT Johnsingh. DSCN1388](../images/plants/plants_edible-plants_balanites-aegyptiaca.jpg)
+
+> *Balanites aegyptiaca, Sariska TR, AJT Johnsingh. DSCN1388*
+
+> *Image: Ajtjohnsingh, CC BY-SA 4.0*
+
+
+![Water Droplet on Bitter Orange Leaf](../images/plants/plants_edible-plants_bitter-orange.jpg)
+
+> *A highly-detailed photograph of a water droplet delicately balanced on a green bitter orange leaf.*
+
+> *Image: بدر, CC BY-SA 4.0*
+
 - [Plants & Botanical Resources](./index.md) — botanical knowledge and species identification
 - [Fire-making](../foundations/fire.md) — cooking, drying, roasting, and smoke-preservation
 - [Health](../health/index.md) — nutritional requirements and food safety

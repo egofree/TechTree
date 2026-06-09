@@ -645,3 +645,5 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+
+![ceramics electronic ceramics](../images/ceramics/ceramics_electronic-ceramics.jpg)

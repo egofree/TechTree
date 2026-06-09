@@ -484,3 +484,5 @@ RED is currently the leading approach because it produces electricity directly w
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+![energy sem tech blue energy](../images/energy/energy_sem-tech-blue-energy.png)

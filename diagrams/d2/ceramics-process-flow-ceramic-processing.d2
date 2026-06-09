@@ -1,0 +1,101 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Ceramic Processing — Traditional Pottery to Technical Ceramics
+s1: "Clay Body (kaolin + ball clay + fillers)" {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Wedging & Degassing (remove air pockets)" {
+  shape: rectangle
+  class: processStep
+}
+s3: "Forming (wheel throwing / hand-building / slip cast)" {
+  shape: rectangle
+  class: processStep
+}
+s4: "Slow Drying (prevent warping/cracking)" {
+  shape: rectangle
+  class: processStep
+}
+s5: "Dry & Crack-Free?" {
+  shape: diamond
+  class: decisionStep
+}
+s6: "Bisque Firing (900-1000°C)" {
+  shape: rectangle
+  class: processStep
+}
+s7: "Glaze Application (dip / spray / brush)" {
+  shape: rectangle
+  class: processStep
+}
+s8: "Glaze Firing (1200-1300°C, oxidation/reduction)" {
+  shape: rectangle
+  class: processStep
+}
+s9: Finished Ceramic Product {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s2: { class: flow-edge }
+s2 -> s3: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: yes — dry { class: flow-edge }
+s5 -> s4: no — continue drying { class: feedback-edge }
+s6 -> s7: { class: flow-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s9: { class: flow-edge }

@@ -1,0 +1,106 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Iron Smelting — Blast Furnace Process
+s1: "Iron Ore (Fe₂O₃)" {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Coke & Limestone Charging" {
+  shape: parallelogram
+  class: inputStep
+}
+s3: "Hot Air Blast Injection (1200°C)" {
+  shape: rectangle
+  class: processStep
+}
+s4: "Combustion Zone: C + O₂ → CO₂" {
+  shape: rectangle
+  class: processStep
+}
+s5: "Reduction: Fe₂O₃ + 3CO → 2Fe + 3CO₂" {
+  shape: rectangle
+  class: processStep
+}
+s6: "Slag Formation (CaO + SiO₂ → CaSiO₃)" {
+  shape: rectangle
+  class: processStep
+}
+s7: "Temperature Adequate (>1200°C)?" {
+  shape: diamond
+  class: decisionStep
+}
+s8: Taphole Tapping {
+  shape: rectangle
+  class: processStep
+}
+s9: "Pig Iron (~4% C)" {
+  shape: parallelogram
+  class: outputStep
+}
+s10: Blast Furnace Slag {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s3: { class: flow-edge }
+s2 -> s3: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s2 -> s6: flux { class: flow-edge }
+s5 -> s7: { class: flow-edge }
+s7 -> s8: yes { class: flow-edge }
+s7 -> s3: no — increase blast { class: feedback-edge }
+s8 -> s9: { class: flow-edge }
+s8 -> s10: { class: flow-edge }

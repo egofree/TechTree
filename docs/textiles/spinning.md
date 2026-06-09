@@ -16,6 +16,13 @@
 
 > *Image: Gurnoor ghuman, CC BY-SA 4.0*
 
+
+![Diagram of Pottery Spinning Wheel (9974600263)](../images/textiles/textiles_spinning-diagram.jpg)
+
+> *Anhui Provincial Museum, Hefei, 2012. Complete indexed photo collection at WorldHistoryPics.com.*
+
+> *Image: Gary Todd from Xinzheng, China, CC0*
+
 - [Fiber Preparation](fibers.md) — prepared fiber supply (carded, combed, or hackled)
 - [Basic Tools](../foundations/tools-basic.md) — for drop spindle construction
 - [Iron & Steel](../metals/iron-steel.md) — for spinning wheel hardware (bearings, spindle, crank)

@@ -340,3 +340,5 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+![chemistry adhesives coatings diagram](../images/chemistry/diagram:chemistry_adhesives-coatings.jpg)

@@ -18,6 +18,13 @@ Deposition systems are the reason vacuum technology exists in semiconductor manu
 
 > *Image: Center for Integrated Nanotechnologies - Los Alamos National Laboratory, Public domain*
 
+
+![Sputtering reativo](../images/vacuum/vacuum_deposition-process.png)
+
+> *Crescimento de filme por sputtering reativo.*
+
+> *Image: RegiSantana, CC BY-SA 4.0*
+
 ### DC Magnetron Sputtering
 
 **Principle**: A DC voltage (300-700 V) applied between a conductive target (cathode) and the chamber (anode) creates an Ar plasma. A magnetic field behind the target traps electrons in a racetrack pattern, increasing ionization efficiency near the target surface. Ar⁺ ions bombard the target, ejecting atoms that travel to the substrate and condense as a thin film.

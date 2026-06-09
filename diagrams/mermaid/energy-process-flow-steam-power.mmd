@@ -1,0 +1,44 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Steam Power Generation — Rankine Cycle
+
+    %% ==================== STEPS ====================
+    s1[/"Feedwater (demineralized, deaerated)"/]
+    s2[/"Fuel (coal / gas / nuclear / solar thermal)"/]
+    s3["Feed Pump → High-Pressure Water"]
+    s4["Boiler: Water → Superheated Steam (540°C, 15+ MPa)"]
+    s5["Steam Turbine Expansion (shaft power)"]
+    s6{"Steam Quality Adequate (superheat ≥ 50°C)?"}
+    s7["Condenser: Exhaust Steam → Liquid Water"]
+    s8["Cooling Water Circuit (heat rejection)"]
+    s9[/"Electrical Generator Output"/]
+    s10[/"Waste Heat (cooling tower / river)"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s3
+    s2 --> s4
+    s3 --> s4
+    s4 --> s5
+    s5 --> s6
+    s6 -.->|no — re-superheat| s5
+    s6 -->|yes| s7
+    s7 -.->|condensate return| s3
+    s5 --> s9
+    s7 --> s8
+    s8 --> s10
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 inputStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 decisionStep
+    class s7 processStep
+    class s8 processStep
+    class s9 outputStep
+    class s10 outputStep

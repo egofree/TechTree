@@ -1,0 +1,11 @@
+{
+  "title": "Konturzugprogrammierung ANG",
+  "description": "Schematische Darstellung der Konturzugprogrammierung in CNC-Steuerungen: Vom Startpunkt SP wird ein Geradensatz über einen Winkel ANG (gemessen gegen den Uhrzeigersinn zur ersten Hauptachse) und eine Zielkoordinate POS auf der ersten Hauptachse zum Zielpunkt ZP definiert. Die zweite Koordinate von ZP berechnet die Steuerung aus Winkel und Zielkoordinate.",
+  "author": "Dsoltau",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Konturzugprogrammierung_ANG.svg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Konturzugprogrammierung_ANG.svg",
+  "attribution_md": "Konturzugprogrammierung ANG\nSchematische Darstellung der Konturzugprogrammierung in CNC-Steuerungen: Vom Startpunkt SP wird ein Geradensatz über einen Winkel ANG (gemessen gegen den Uhrzeigersinn zur ersten Hauptachse) und eine Zielkoordinate POS auf der ersten Hauptachse zum Zielpunkt ZP definiert. Die zweite Koordinate von ZP berechnet die Steuerung aus Winkel und Zielkoordinate.\n\nImage: Dsoltau ([source](https://commons.wikimedia.org/wiki/File:Konturzugprogrammierung_ANG.svg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)",
+  "license_tier": "libre"
+}

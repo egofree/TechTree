@@ -23,6 +23,13 @@ For the metallurgy of producing iron and steel stock, see [Iron & Steel](../meta
 
 > *Image: Mahmoud Hamed ismailia, CC BY-SA 4.0*
 
+![Vacuum Forming mould](../images/machine-tools/machine-tools_thermoforming-diagram.jpg)
+
+> *A wood mould and a vacuum forming mould made from it*
+
+> *Image: Pizza1512, CC BY-SA 3.0*
+
+
 Every metal has a forging range — hot enough to be plastic, cool enough to avoid burning or crumbling.
 
 | Metal | Forging Range | Color (approx.) | Notes |
@@ -401,3 +408,5 @@ The choice of forming method depends on production volume, part geometry, materi
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
+
+![machine tools forming](../images/machine-tools/machine-tools_forming.png)

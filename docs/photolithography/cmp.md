@@ -18,6 +18,13 @@ Chemical Mechanical Planarization (CMP) produces atomically flat surfaces by com
 
 > *Image: cpxmn, CC BY-SA 2.0*
 
+
+![Cmp prinzip](../images/photolithography/photolithography_cmp-diagram.jpg)
+
+> *Functional principle of Chemical-mechanical polishing*
+
+> *Image: wisem, Public domain*
+
 The Preston equation governs material removal: **RR = Kp × P × V**, where RR is removal rate (nm/min), Kp is the Preston coefficient (material- and slurry-dependent), P is downforce pressure (psi), and V is relative velocity between wafer and pad (m/min). Removal rate is linearly proportional to both pressure and velocity, allowing precise control by adjusting either parameter.
 
 **Equipment configuration**:

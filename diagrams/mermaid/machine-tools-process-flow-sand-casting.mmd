@@ -1,0 +1,43 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Sand Casting — Metal Part Production
+
+    %% ==================== STEPS ====================
+    s1[/"Pattern (wood/metal, with shrinkage allowance)"/]
+    s2[/"Green Sand (silica + bentonite + water)"/]
+    s3["Pack Sand Around Pattern in Flask"]
+    s4["Remove Pattern → Form Cavity"]
+    s5["Core Placement (for internal cavities)"]
+    s6["Molten Metal Pour (Fe: 1400°C, Al: 700°C)"]
+    s7["Solidification & Cooling"]
+    s8{"Defects Present (porosity/shrinkage)?"}
+    s9["Shakeout, Trim & Clean"]
+    s10[/"Cast Metal Part"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s3
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 --> s6
+    s6 --> s7
+    s7 --> s8
+    s8 -->|acceptable| s9
+    s8 -.->|reject — remold| s3
+    s9 --> s10
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 inputStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 processStep
+    class s7 processStep
+    class s8 decisionStep
+    class s9 processStep
+    class s10 outputStep

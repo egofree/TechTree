@@ -1,5 +1,12 @@
 # Measurement
 
+
+![Instrumentation for zeta potential measurement](../images/measurement/measurement.png)
+
+> *Instrumentation for zeta potential measurement through light scattering.*
+
+> *Image: Sobarwiki, Public domain*
+
 Capabilities in this domain:
 
 - [Precision Metrology & Standards](precision-metrology.md) — Surface plates via Whitworth three-plate method, hand scraping, straight edges, squares, vernier calipers (0.02 mm resolution), micrometers (0.01 mm), gauge blocks, angle measurement, calibration infrastructure, timekeeping (pendulum clocks ±5 sec/day), and electrical standards.
@@ -14,3 +21,5 @@ Capabilities in this domain:
 - [Advanced & Specialty Thermostats](thermostat-advanced.md) — Shape memory alloy actuators, quartz crystal sensors, and infrared pyrometers for calibration-grade and non-contact measurement.
 
 [↑ Back to Tech Tree](../index.md)
+
+![measurement](../images/measurement/measurement.jpg)

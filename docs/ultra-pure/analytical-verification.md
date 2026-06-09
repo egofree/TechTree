@@ -296,3 +296,7 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*
+
+![ultra pure distillation](../images/ultra-pure/ultra-pure_distillation.png)
+
+![ultra pure water purification](../images/ultra-pure/ultra-pure_water-purification.png)

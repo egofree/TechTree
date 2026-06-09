@@ -1,5 +1,12 @@
 # Gas Handling
 
+
+![3 way tap vacuum gas manifold](../images/gas-handling/gas-handling.jpg)
+
+> *vacuum gas manifold 3 way tap  1:  Inert gas in 2:  Inert gas out 3:  Vacuum 4:  Reaction line 5:  Double oblique stopcock (i.e. a glass tap with 2 separate parallel 'channels/lines' that run diagonal to the axis of the tap.)*
+
+> *Image: Quantockgoblin, Public domain*
+
 Capabilities in this domain:
 
 - [Basic Gas Handling](basic.md) — Gas compression, storage, and purification infrastructure including piping, valves, and pumps for corrosive service.
@@ -12,3 +19,5 @@ Capabilities in this domain:
 - [Industrial Process Valves](process-valves.md) — Gate, globe, ball, butterfly, check, and control valves for chemical, steam, gas, and high-temperature/high-pressure service.
 
 [↑ Back to Tech Tree](../index.md)
+
+![gas handling](../images/gas-handling/gas-handling.png)

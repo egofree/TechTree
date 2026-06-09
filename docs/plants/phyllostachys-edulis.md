@@ -205,3 +205,5 @@ Bamboo's annual renewal capacity — producing new culms each year from the same
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants phyllostachys edulis](../images/plants/plants_phyllostachys-edulis.jpeg)

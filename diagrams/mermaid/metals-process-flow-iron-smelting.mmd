@@ -1,0 +1,43 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Iron Smelting — Blast Furnace Process
+
+    %% ==================== STEPS ====================
+    s1[/"Iron Ore (Fe₂O₃)"/]
+    s2[/"Coke & Limestone Charging"/]
+    s3["Hot Air Blast Injection (1200°C)"]
+    s4["Combustion Zone: C + O₂ → CO₂"]
+    s5["Reduction: Fe₂O₃ + 3CO → 2Fe + 3CO₂"]
+    s6["Slag Formation (CaO + SiO₂ → CaSiO₃)"]
+    s7{"Temperature Adequate (>1200°C)?"}
+    s8["Taphole Tapping"]
+    s9[/"Pig Iron (~4% C)"/]
+    s10[/"Blast Furnace Slag"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s3
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s2 -->|flux| s6
+    s5 --> s7
+    s7 -->|yes| s8
+    s7 -.->|no — increase blast| s3
+    s8 --> s9
+    s8 --> s10
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 inputStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 processStep
+    class s7 decisionStep
+    class s8 processStep
+    class s9 outputStep
+    class s10 outputStep

@@ -1,5 +1,12 @@
 # Energy
 
+
+![Employment in selected energy subsectors, 2019](../images/energy/energy.jpg)
+
+> *The power grids section includes transmission, distribution, and storage. Low-carbon power generation includes nuclear and renewables. EV's includes the manufacturing of batteries. This graphic was published as part of the World Energy Employment report.*
+
+> *Image: International Energy Agency, CC BY 4.0*
+
 Capabilities in this domain:
 
 - [Cooling Systems & Refrigeration](cooling.md) — Refrigeration cycles, ice production, cooling systems for industrial processes and climate control.
@@ -40,3 +47,5 @@ Capabilities in this domain:
 - [Gasifier](gasifier.md) — Biomass and coal gasification reactors converting solid fuel to combustible producer gas for engines and synthesis.
 - [Biogas Digester](biogas-digester.md) — Anaerobic digestion systems converting organic waste to methane biogas for cooking, heating, and power generation.
 [↑ Back to Tech Tree](../index.md)
+
+![energy](../images/energy/energy.png)

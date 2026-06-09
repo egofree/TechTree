@@ -339,3 +339,5 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+
+![electronics pcb manufacturing](../images/electronics/electronics_pcb-manufacturing.jpg)

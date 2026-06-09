@@ -21,6 +21,13 @@ Electrodialysis using SEM Tech membranes offers an alternative path: moderate-vo
 
 ## Membrane Water Treatment Technologies
 
+![Drinking-water-treatment-process-6-638](../images/water/water_treatment-flow.jpg)
+
+> *A diagram showing the process of water purification including a house, buckets of water, etc.*
+
+> *Image: Unknown authorUnknown author, CC BY-SA 4.0*
+
+
 Several membrane-based water treatment technologies exist, each suited to different feed conditions:
 
 **Electrodialysis (ED)**: Ions are transported through ion exchange membranes under an applied electric field. Removes dissolved salts and charged contaminants. Best suited for brackish water (1,000–10,000 mg/L TDS). Operates at low pressure with moderate DC voltage.
@@ -621,3 +628,5 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+
+![water sem tech water treatment](../images/water/water_sem-tech-water-treatment.png)

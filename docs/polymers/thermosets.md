@@ -21,6 +21,13 @@ The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyest
 
 > *Image: International Union of Pure and Applied Chemistry (IUPAC), CC BY-SA 4.0*
 
+![IUPAC definition for polymer](../images/polymers/polymers_thermosets.png)
+
+> *A substance composed of macromolecules.*
+
+> *Image: International Union of Pure and Applied Chemistry (IUPAC), CC BY-SA 4.0*
+
+
 - [Chemistry](../chemistry/index.md) — organic synthesis and polymerization fundamentals
 - [Petroleum alternatives](../chemistry/petroleum-alternatives.md) — benzene, propylene, methanol, and butane feedstocks for monomer synthesis (see Feedstock Synthesis section below)
 - [Acids](../chemistry/acids.md) — sulfuric acid (cumene process, polyester condensation), hydrochloric acid (novolac catalyst, BPA synthesis), nitric acid (TDI production)

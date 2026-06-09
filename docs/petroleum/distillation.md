@@ -16,6 +16,13 @@
 
 > *Image: Unknown authorUnknown author, Public domain*
 
+![Onesti Refinery, Atmospheric and Vacuum Distillation Units no. 1 and 2](../images/petroleum/petroleum_refining_distillation.jpg)
+
+> *„Instalațiile D.A.V. —1 și D.A.V. —2 de la Rafinăria Onești”*
+
+> *Image: Unknown authorUnknown author, Public domain*
+
+
 ADU separates crude into naphtha (40-180°C), kerosene (180-260°C), diesel (260-350°C), and atmospheric residue. VDU processes residue at 10-30 mmHg to produce vacuum gas oil and vacuum residue. Together they provide the primary separation that all downstream units depend on.
 
 The atmospheric distillation unit is the first processing step in any refinery. Crude oil is preheated through heat exchangers with hot product streams, then enters a fired heater where it reaches its final temperature (typically 340-385°C at the heater outlet) before entering the flash zone of the distillation column. Liquid drops to the column bottom while vapors rise through a series of trays or packing, condensing at progressively lower temperatures to yield different product fractions drawn off at multiple side taps.

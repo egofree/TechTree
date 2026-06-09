@@ -302,3 +302,5 @@ Proper storage prevents fiber degradation before processing:
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+
+![textiles fibers](../images/textiles/textiles_fibers.png)

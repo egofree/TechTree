@@ -1,0 +1,107 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Ammonia Production — Haber-Bosch Process
+s1: Natural Gas / Methane Feed {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Air (N₂ Source)" {
+  shape: parallelogram
+  class: inputStep
+}
+s3: "Steam Reforming: CH₄ + H₂O → CO + 3H₂" {
+  shape: rectangle
+  class: processStep
+}
+s4: "Water-Gas Shift: CO + H₂O → CO₂ + H₂" {
+  shape: rectangle
+  class: processStep
+}
+s5: "CO₂ Removal (amine scrubbing)" {
+  shape: rectangle
+  class: processStep
+}
+s6: H₂ Purity ≥ 99.9%? {
+  shape: diamond
+  class: decisionStep
+}
+s7: "Haber Synthesis: N₂ + 3H₂ → 2NH₃" {
+  shape: rectangle
+  class: processStep
+}
+s8: "Condensation (−33°C)" {
+  shape: rectangle
+  class: processStep
+}
+s9: "Liquid Ammonia (NH₃)" {
+  shape: parallelogram
+  class: outputStep
+}
+s10: Unreacted Gas Recycle {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s3: { class: flow-edge }
+s2 -> s7: N₂ { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: { class: flow-edge }
+s6 -> s7: yes { class: flow-edge }
+s6 -> s5: no — re-purify { class: feedback-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s9: { class: flow-edge }
+s8 -> s10: { class: flow-edge }
+s10 -> s7: recycle loop { class: feedback-edge }

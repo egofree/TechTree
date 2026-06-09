@@ -22,6 +22,13 @@ This capability also covers cylinder production (seamless steel tube forming), h
 
 > *Image: Unknown authorUnknown author, Public domain*
 
+
+![Mixed gas CCR loop schematic](../images/gas-handling/gas-handling_cylinder-schematic.png)
+
+> *Schematic diagram of electronically controlled closed circuit mixed gas rebreather. 1 Dive/surface valve and loop non-return valves 2 Exhaust hose 3 Scrubber (axial flow) 4 Counterlung 5 Overpressure valve 6 Inhalation valve 7 Oxygen cylinder 8 Oxygen cylinder valve 9 Absolute pressure oxygen reg...*
+
+> *Image: Peter Southwood, CC BY-SA 3.0*
+
 - **Materials**: Seamless steel tube (manganese steel or Cr-Mo alloy), valve brass or stainless steel, PTFE valve packing, cylinder paint and labels
 - **Tools and equipment**: [Basic gas handling](basic.md) — high-pressure compressors (100-300 bar); [Machine tools](../machine-tools/index.md) — lathes for valve threading, grinders for surface finishing; [Metal forming](../machine-tools/forming.md) — deep drawing or hot spinning for cylinder bodies
 - **Knowledge**: High-pressure vessel design (thin-wall and thick-wall pressure vessel theory), material fatigue under cyclic loading, gas compressibility factors and equations of state

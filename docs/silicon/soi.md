@@ -16,6 +16,20 @@
 
 > *Image: Intel Free Press, CC BY 2.0*
 
+![Fossils of all kinds, digested into a method, suitable to their mutual relation and affinity : with the names by which they were known to the antients, and those by which they are at this day known...](../images/silicon/silicon_wafering_soi.jpg)
+
+> *"The importance of Woodward's treatise is manifest, from the standpoint of the mineralogist it provides a scheme of classification of as much merit as it was possible to accure in that time, and from the standpoints of the paleontologist and gemologist it truly identifies fossils for what they ar...*
+
+> *Image: John Woodward, Public domain*
+
+
+
+![Explanation of the standing waves in Marcatili method (silicon-on-insulator waveguide)](../images/silicon/silicon_wafering_soi-diagram.png)
+
+> *Sketch of the cross-section of a rectangular waveguide (450 nm x 220 nm). The waveguide consists of a silicon core (dark gray) on top of a silicon-dioxide layer (light-gray). Marcatili's method is sketched. The four outer quadrants are neglected. The standing waves in the core of the waveguide ar...*
+
+> *Image: Wouter Westerveld, CC BY-SA 4.0*
+
 Silicon-on-insulator wafer fabrication via SIMOX (oxygen implantation), Bonded SOI (wafer bonding and back-thinning), and Smart Cut (hydrogen-induced splitting) processes. Produces wafers with a buried SiO₂ layer for reduced parasitic capacitance and radiation-hard applications.
 
 An SOI wafer stacks three layers: a thin single-crystal silicon device layer on top, a buried oxide (BOX) layer of silicon dioxide in the middle, and a thick silicon handle wafer as the mechanical support. The BOX electrically isolates transistors built in the device layer from the substrate and from each other, eliminating latch-up, reducing source/drain junction capacitance, and enabling fully depleted transistors that switch faster at lower voltage than their bulk CMOS counterparts.
@@ -205,3 +219,5 @@ The CMP step after splitting removes the rough surface left by the fracture. The
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Silicon](./index.md) · [All Domains](../index.md)*
+
+![silicon wafering soi diagram](../images/silicon/diagram:silicon_wafering-soi.jpg)

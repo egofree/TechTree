@@ -13,6 +13,13 @@ Vacuum chambers are sealed enclosures that maintain controlled low-pressure envi
 
 ## Prerequisites
 
+![Schematic-of-a-tokamak-chamber-and-magnetic-profile](../images/vacuum/vacuum_chamber-diagram.jpg)
+
+> *Schematic of a tokamak chamber and magnetic profile. A tokamak is a doughnut-shaped vessel with armoured walls that can confine a hot plasma under high vacuum. It does this using a combination of magnetic fields to guide electrically charged particles: “toroidal” (blue arrow) and “poloidal” (gree...*
+
+> *Image: R.A. Pitts, R.J. Buttery, S.D. Pinches, CC BY 4.0*
+
+
 - [Machine Tools](../machine-tools/index.md) — precision machining for flange sealing surfaces
 - [TIG Welding](../machine-tools/joining.md) — stainless steel chamber welding
 - [Metals](../metals/index.md) — stainless steel and aluminum for chamber construction

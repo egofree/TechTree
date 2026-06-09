@@ -204,3 +204,5 @@ Proper handling of membranes and water treatment chemicals ensures consistent sy
 - Coordinate with local water authority on intake and discharge permitting requirements
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+
+![energy blue energy diagram](../images/energy/diagram:energy_blue-energy.png)

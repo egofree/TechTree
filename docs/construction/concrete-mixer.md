@@ -16,6 +16,13 @@
 
 > *Image: Queensland State Archives, Public domain*
 
+
+![Concrete & Waste production](../images/construction/construction_concrete-process.png)
+
+> *Diagram illustrating the concrete production in Japan from 1950 and projected to 2050; the waste concrete production is reported. Modified from: Sara Shomal Zadeh, Navid Joushideh, Behrokh Bahrami e Sahel Niyafard, A review on concrete recycling, in World Journal of Advanced Research and Reviews,...*
+
+> *Image: Antonov - Antonio Valdisturlo, CC BY-SA 4.0*
+
 A concrete mixer combines cement, sand, aggregate, and water into a homogeneous mixture by tumbling the ingredients inside a rotating drum. Internal baffles (fixed blades welded to the drum interior) lift and fold the batch with each rotation, ensuring uniform distribution of cement paste around aggregate particles. The rotating-drum tilting design is the simplest effective mixer: a conical or cylindrical drum mounted on a frame, rotated by a hand crank or motor, and tilted to discharge the mixed batch.
 
 Mixing effectiveness depends on drum geometry, rotation speed, and baffle design. Too slow: ingredients slide without mixing. Too fast: centrifugal force pins material to the drum wall, preventing folding. The optimal speed keeps the material in a cascading motion — lifted by baffles to the top of the drum, then falling through itself. Drum rotation rate: 15-25 RPM for hand-cranked, 12-20 RPM for powered mixers.

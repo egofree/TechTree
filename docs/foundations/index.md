@@ -1,5 +1,12 @@
 # Foundations
 
+
+![Mock foundations for House and Apartment](../images/foundations/foundations.jpg)
+
+> *Foundations of buildings*
+
+> *Image: http://en.wikipedia.org/wiki/User:Blacklemon67, Public domain*
+
 Capabilities in this domain:
 
 - [Fire-Making](fire.md) — Fire-making techniques: friction fire, flint-and-steel ignition, fire maintenance, and heat management.
@@ -8,3 +15,5 @@ Capabilities in this domain:
 - [Water Procurement](water-procurement.md) — Water finding, rainwater harvesting, spring development, and water storage.
 
 [↑ Back to Tech Tree](../index.md)
+
+![foundations](../images/foundations/foundations.png)

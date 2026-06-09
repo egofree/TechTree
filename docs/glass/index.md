@@ -1,5 +1,12 @@
 # Glass
 
+
+![Glass Beach Fort Bragg 2](../images/glass/glass.jpg)
+
+> *The Glass beach in Fort Bragg, California.*
+
+> *Image: Jef Poskanzer, CC BY 2.0*
+
 Capabilities in this domain:
 
 - [Basic Glass Production](basic.md) — Basic glass production from silica sand, potash, and limestone at 1100-1400°C for vessels, beads, and window panes.

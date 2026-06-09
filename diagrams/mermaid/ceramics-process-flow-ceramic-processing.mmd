@@ -1,0 +1,40 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Ceramic Processing — Traditional Pottery to Technical Ceramics
+
+    %% ==================== STEPS ====================
+    s1[/"Clay Body (kaolin + ball clay + fillers)"/]
+    s2["Wedging & Degassing (remove air pockets)"]
+    s3["Forming (wheel throwing / hand-building / slip cast)"]
+    s4["Slow Drying (prevent warping/cracking)"]
+    s5{"Dry & Crack-Free?"}
+    s6["Bisque Firing (900-1000°C)"]
+    s7["Glaze Application (dip / spray / brush)"]
+    s8["Glaze Firing (1200-1300°C, oxidation/reduction)"]
+    s9[/"Finished Ceramic Product"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s2
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 -->|yes — dry| s6
+    s5 -.->|no — continue drying| s4
+    s6 --> s7
+    s7 --> s8
+    s8 --> s9
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 processStep
+    class s3 processStep
+    class s4 processStep
+    class s5 decisionStep
+    class s6 processStep
+    class s7 processStep
+    class s8 processStep
+    class s9 outputStep

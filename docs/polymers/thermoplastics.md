@@ -22,6 +22,13 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 
 > *Image: Francesco Lambiase, CC BY-SA 4.0*
 
+![Convection Heating from Lambiase - "Joinability of different thermoplastic polymers with aluminium AA6082 sheets by mechanical clinching"](../images/polymers/polymers_thermoplastics.png)
+
+> *Convection Heating System*
+
+> *Image: Francesco Lambiase, CC BY-SA 4.0*
+
+
 ### Materials
 - Ethylene, propylene, styrene, vinyl chloride monomer (from [petrochemicals](../chemistry/petroleum-alternatives.md))
 - Chlorine (for PVC — from [chlor-alkali electrolysis](../chemistry/electrolysis.md))

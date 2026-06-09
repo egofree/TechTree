@@ -1,0 +1,106 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Crude Oil Refining — Fractional Distillation
+s1: Crude Oil Feed {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Desalting & Preheating (heat exchange)" {
+  shape: rectangle
+  class: processStep
+}
+s3: "Fired Heater (360-380°C)" {
+  shape: rectangle
+  class: processStep
+}
+s4: "Atmospheric Distillation Tower (fractionation)" {
+  shape: rectangle
+  class: processStep
+}
+s5: "Product Draw: Naphtha / Kerosene / Diesel / Gas Oil" {
+  shape: rectangle
+  class: processStep
+}
+s6: Atmospheric Residue {
+  shape: rectangle
+  class: processStep
+}
+s7: "Vacuum Distillation (reduce boiling point)" {
+  shape: rectangle
+  class: processStep
+}
+s8: Cut Quality on Spec? {
+  shape: diamond
+  class: decisionStep
+}
+s9: "Light Fractions (LPG, gasoline, naphtha)" {
+  shape: parallelogram
+  class: outputStep
+}
+s10: "Heavy Fractions (VGO, residue)" {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s2: { class: flow-edge }
+s2 -> s3: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s9: { class: flow-edge }
+s4 -> s6: { class: flow-edge }
+s6 -> s7: { class: flow-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s10: yes { class: flow-edge }
+s8 -> s7: no — adjust vacuum/cut points { class: feedback-edge }

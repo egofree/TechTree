@@ -10,6 +10,13 @@
 
 ## Prerequisites
 
+![Bulkheads and longitudinals](../images/marine/marine_infrastructure.png)
+
+> *A schematic showing the make-up of a ship with its longitudinals, bulkheads and compartments. The schematic was based on the image at http://www.encyclopedia-titanica.org/titanic-hidden-deck.html. As mentioned there and at http://www.titanic-titanic.com/titanic_watertight_compartments.shtml, the ...*
+
+> *Image: KVDP, Public domain*
+
+
 Maritime infrastructure requires significant industrial capability for construction materials and precision engineering:
 
 - [Machine tools](../machine-tools/index.md) — precision manufacturing for pumps, caissons, and cable-laying equipment
@@ -362,3 +369,7 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*
+
+![marine cutaway submarine](../images/marine/marine_cutaway-submarine.png)
+
+![marine dry dock](../images/marine/marine_dry-dock.jpg)

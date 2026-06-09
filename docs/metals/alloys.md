@@ -15,6 +15,13 @@ Alloy development depends on understanding phase diagrams, solid-state phase tra
 
 ## Stainless Steels
 
+![Iron carbon phase diagram ar](../images/metals/metals_alloys.png)
+
+> *مخطّط أطوار الحديد والكربون*
+
+> *Image: AG Caesar, CC BY-SA 4.0*
+
+
 Stainless steels are iron alloys containing ≥10.5% chromium, which forms a self-healing passive Cr₂O₃ film (~1-3 nm thick) on the surface. This invisible oxide layer provides corrosion resistance in oxidizing environments. The chromium content is non-negotiable — below 10.5%, the passive film is discontinuous and corrosion resistance collapses.
 
 **[Austenitic stainless steels](../glossary/austenitic-stainless-steels.md)** (200 and 300 series):

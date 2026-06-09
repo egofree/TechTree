@@ -1,5 +1,12 @@
 # Chemistry
 
+
+![Chemistry Solutions , Chemistry Department, Aligarh Muslim University](../images/chemistry/chemistry.jpg)
+
+> *Beauty of chemistry and colors*
+
+> *Image: Khanahmedsam, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Mineral Acid Production](acids.md) — Sulfuric acid (lead chamber process 65-70%, contact process 96-98%), nitric acid (from nitrates + H₂SO₄, later Ostwald process), hydrochloric acid (NaCl + H₂SO₄ or direct H₂ + Cl₂ synthesis), and hydrofluoric acid (CaF₂ + H₂SO₄, extremely hazardous).

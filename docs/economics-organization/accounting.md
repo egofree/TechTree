@@ -262,3 +262,5 @@ Tracking the cost of producing specific goods is essential for pricing, identify
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+
+![economics organization accounting](../images/economics-organization/economics-organization_accounting.jpg)

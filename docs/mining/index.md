@@ -1,5 +1,12 @@
 # Mining Engineering & Extractive Metallurgy
 
+
+![Stone and corrugated metal outbuilding - geograph.org.uk - 3635513](../images/mining/mining.jpg)
+
+> *Stone and corrugated metal outbuilding*
+
+> *Image: Mat Tuck, CC BY-SA 2.0*
+
 Capabilities in this domain:
 
 - [Mining Extraction](extraction.md) — Surface and underground mining methods for extracting ore from deposits.

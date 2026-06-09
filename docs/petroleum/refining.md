@@ -10,6 +10,13 @@
 
 ## Prerequisites
 
+![Onesti Refinery, Atmospheric and Vacuum Distillation Units no. 1 and 2](../images/petroleum/petroleum_refining_distillation.jpg)
+
+> *„Instalațiile D.A.V. —1 și D.A.V. —2 de la Rafinăria Onești”*
+
+> *Image: Unknown authorUnknown author, Public domain*
+
+
 Petroleum refining requires a substantial industrial base:
 
 - [Distillation technology](../chemistry/distillation.md) — fractionation columns, heat exchangers, condensers

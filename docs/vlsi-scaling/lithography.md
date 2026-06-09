@@ -19,6 +19,20 @@ Lithography in the VLSI scaling context covers advanced patterning techniques be
 
 > *Image: 4300streetcar, CC BY 4.0*
 
+
+![10000 EUV photon dose](../images/vlsi-scaling/vlsi-scaling_euv-lithography.png)
+
+> *Dose for 10,000 EUV photons within different diameters. An estimated 2000 photons would be expected in the outermost 10% of the feature width. The table displayed gives a more accurate estimate between the specified inner and outer diameters. According to the Poisson distribution, the standard de...*
+
+> *Image: Guiding light, CC BY-SA 3.0*
+
+
+![Immersionslithografie - Lens Showerhead](../images/vlsi-scaling/vlsi-scaling_immersion-lithography.png)
+
+> *Schematic representation of an immersion lithography system using water as the immersion medium between the last lens and the wafer. The position of the water under the lens is controled by a continuous flow of the water and an air curtain on the side.*
+
+> *Image: Cepheiden, CC BY-SA 3.0*
+
 - [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and mask blanks
 - [Optics Inspection](../optics/inspection.md) — lens fabrication and quality verification
 - [Vacuum Systems](vacuum-systems.md) — vacuum for lithography tools and electron-beam systems
@@ -383,3 +397,9 @@ Select your lithography system based on target node and available capital:
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+![vlsi scaling moore law](../images/vlsi-scaling/vlsi-scaling_moore-law.jpg)
+
+![vlsi scaling multigate](../images/vlsi-scaling/vlsi-scaling_multigate.png)
+
+![vlsi scaling trigate](../images/vlsi-scaling/vlsi-scaling_trigate.png)

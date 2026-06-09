@@ -19,6 +19,13 @@ Pottery provides containers for storage, transport, cooking, and — critically 
 
 > *Image: VKeem, CC BY-SA 4.0*
 
+
+![Firing sequences inside kiln firing](../images/ceramics/ceramics_pottery_kiln-firing.jpg)
+
+> *Firing sequences inside kiln firing*
+
+> *Image: Encik Tekateki, CC0*
+
 - [Fire](../foundations/fire.md) — controlled combustion for kiln firing
 - [Basic tools](../foundations/tools-basic.md) — digging, crushing, and forming implements
 - [Clay sources](../foundations/index.md) — river banks, floodplains, geological deposits

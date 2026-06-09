@@ -279,3 +279,5 @@ Proper handling of input materials and products is essential for consistent resu
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*
+
+![measurement horology](../images/measurement/measurement_horology.jpg)

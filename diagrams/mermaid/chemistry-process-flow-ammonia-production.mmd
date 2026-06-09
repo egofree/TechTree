@@ -1,0 +1,44 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Ammonia Production — Haber-Bosch Process
+
+    %% ==================== STEPS ====================
+    s1[/"Natural Gas / Methane Feed"/]
+    s2[/"Air (N₂ Source)"/]
+    s3["Steam Reforming: CH₄ + H₂O → CO + 3H₂"]
+    s4["Water-Gas Shift: CO + H₂O → CO₂ + H₂"]
+    s5["CO₂ Removal (amine scrubbing)"]
+    s6{"H₂ Purity ≥ 99.9%?"}
+    s7["Haber Synthesis: N₂ + 3H₂ → 2NH₃"]
+    s8["Condensation (−33°C)"]
+    s9[/"Liquid Ammonia (NH₃)"/]
+    s10[/"Unreacted Gas Recycle"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s3
+    s2 -->|N₂| s7
+    s3 --> s4
+    s4 --> s5
+    s5 --> s6
+    s6 -->|yes| s7
+    s6 -.->|no — re-purify| s5
+    s7 --> s8
+    s8 --> s9
+    s8 --> s10
+    s10 -.->|recycle loop| s7
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 inputStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 decisionStep
+    class s7 processStep
+    class s8 processStep
+    class s9 outputStep
+    class s10 outputStep

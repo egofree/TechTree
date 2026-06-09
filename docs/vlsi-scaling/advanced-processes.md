@@ -365,3 +365,9 @@ Adopt each advanced process when its predecessor can no longer meet requirements
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+![vlsi scaling finfet diagram](../images/vlsi-scaling/vlsi-scaling_finfet-diagram.png)
+
+![vlsi scaling gpu architecture](../images/vlsi-scaling/vlsi-scaling_gpu-architecture.png)
+
+![vlsi scaling hkmg diagram](../images/vlsi-scaling/vlsi-scaling_hkmg-diagram.png)

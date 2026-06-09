@@ -10,6 +10,13 @@
 
 ## Vacuum Pumps
 
+![Vacuum sewerage pump diagram](../images/vacuum/vacuum_pump-cutaway.png)
+
+> *Vacuum sewerage pump diagram on a patent. "Fig. 5 is an end view of the main receiving apparatus at the pumping station."*
+
+> *Image: Charles Thieme Liernur, Public domain*
+
+
 For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaphragm principles), see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers pump selection, advanced pump types, performance specifications, and system design.
 
 ## Pump Classification by Pressure Range

@@ -19,6 +19,13 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 
 > *Image: Jü, CC0*
 
+![Vulcanization of POLYIsoprene V.2](../images/polymers/polymers_rubber_natural.png)
+
+> *Schematic Structure Example of the Vulcanization_of_POLYIsoprene with n = 0, 1, 2, 3 ...*
+
+> *Image: Jü, CC0*
+
+
 - [Foundations](../foundations/index.md) — basic agricultural and processing infrastructure
 - [Distillation](../chemistry/distillation.md) — ethanol for shellac dissolution and ammonia for latex preservation
 - [Sulfur production](../chemistry/index.md) — cross-linking agent for vulcanization
@@ -243,3 +250,5 @@ Beyond rubber and shellac, several natural materials provide adhesive properties
 - [Engine](../energy/engine.md) — rubber seals, hoses, and drive belts in internal combustion engines
 
 [← Back to Polymers](index.md)
+
+![polymers rubber natural](../images/polymers/polymers_rubber_natural.jpg)

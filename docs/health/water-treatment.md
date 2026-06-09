@@ -319,3 +319,5 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*
+
+![health water treatment](../images/health/health_water-treatment.jpg)

@@ -1,0 +1,43 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Charcoal Production — Earth Kiln Method
+
+    %% ==================== STEPS ====================
+    s1[/"Hardwood Logs"/]
+    s2["Stack Wood in Pit / Kiln"]
+    s3["Seal with Earth / Clay"]
+    s4["Ignite & Control Air Flow"]
+    s5["Carbonization (300-600°C)"]
+    s6{"Temperature Rising Too Fast?"}
+    s7["Adjust Ventilation"]
+    s8["Cool, Unseal & Sieve"]
+    s9[/"Charcoal Product"/]
+    s10[/"Wood Gas / Tar Byproducts"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s2
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 --> s6
+    s6 -->|yes — smother| s7
+    s7 -.-> s5
+    s6 -->|no — complete| s8
+    s8 --> s9
+    s5 --> s10
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 processStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 decisionStep
+    class s7 processStep
+    class s8 processStep
+    class s9 outputStep
+    class s10 outputStep

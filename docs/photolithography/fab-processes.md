@@ -240,3 +240,7 @@ A single-level metal NMOS process requires ~80-100 individual operations (includ
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+
+![photolithography fab processes diagram](../images/photolithography/photolithography_fab-processes-diagram.png)
+
+![photolithography fab processes plasma etching diagram](../images/photolithography/diagram:photolithography_fab-processes-plasma-etching.jpg)

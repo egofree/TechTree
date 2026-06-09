@@ -16,6 +16,14 @@
 
 > *Image: Cheers. Trance addict - Armin van Buuren - Oceanlab, Public domain*
 
+
+![Simple Crane diagram (Ukrainian)](../images/construction/construction_crane-mechanics.png)
+
+> *Схема роботи противаги. Файл створений на основі File:Simple Crane diagram..png*
+
+> *Image: File:Simple Crane diagram..png: Theresa knott
+derivative work: В.Галушко, CC BY-SA 4.0*
+
 A crane combines a vertical mast, a horizontal or angled boom (jib), and a hoisting mechanism to lift and place heavy loads at distances beyond human reach. The boom acts as a lever: the load moment (load × radius from mast) is balanced by the crane structure and counterweight. A derrick crane uses guy ropes to stabilize the mast, while a jib crane uses a fixed or pivoting horizontal beam.
 
 Two fundamental constraints govern crane design: **tipping moment** (the load × radius must not exceed the stabilizing moment from counterweight and structure weight) and **structural capacity** (each member must carry its share of the load in compression or tension without buckling or yielding). A 5-tonne crane lifting at 6 m radius generates a 300 kN·m tipping moment — the mast, boom, guys, and anchorage must resist this without excessive deflection.

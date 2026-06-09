@@ -16,6 +16,13 @@
 
 > *Image: Викидим, CC BY-SA 4.0*
 
+![Grape cluster diagram](../images/plants/plants_grape.png)
+
+> *A diagram of a grape cluster*
+
+> *Image: Викидим, CC BY-SA 4.0*
+
+
 Grape
 
 *Vitis vinifera* (Vitaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Grapevine, European grape provides fruit, leaves, flowers as its primary edible product and ranks 59/100 on the nutrition score.

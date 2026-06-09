@@ -444,3 +444,7 @@ Adopt EDA capabilities in this sequence as compute resources grow:
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+![vlsi scaling packaging diagram](../images/vlsi-scaling/vlsi-scaling_packaging-diagram.png)
+
+![vlsi scaling eda design diagram](../images/vlsi-scaling/diagram:vlsi-scaling_eda-design.webp)

@@ -15,6 +15,13 @@ This capability covers the cultivation, harvesting, and primary extraction of dy
 
 ## Dye Extraction Methods
 
+![Indian indigo dye lump](../images/plants/plants_dye-plants.jpg)
+
+> *Piece of indigo plant dye from India, c. 6.35 cm (2.5 in) square.*
+
+> *Image: Photo by Evan Izer (Palladian), CC BY-SA 2.5*
+
+
 The three principal methods for extracting color from plant material, listed in order of increasing complexity:
 
 1. **Hot water extraction (decoction)**: Chop or crush fresh or dried plant material, simmer in water at 60-90°C for 30-60 minutes. Strain through cloth. This is the simplest and most widely applicable method, effective for most dye plants including madder, weld, walnut hulls, and onion skins. The dye bath can be reused until exhausted — typically 2-3 dips per batch of material.

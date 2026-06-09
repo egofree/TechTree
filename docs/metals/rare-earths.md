@@ -249,3 +249,6 @@ Store REE oxides in sealed, labeled containers to prevent moisture absorption an
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+![metals rare earths](../images/metals/metals_rare-earths.jpg)
+
+![metals rare earths diagram](../images/metals/diagram:metals_rare-earths.jpg)

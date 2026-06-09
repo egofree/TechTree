@@ -16,6 +16,13 @@
 
 > *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
 
+![Artemisia absinthium kz09](../images/plants/plants_edible-plants_artemisia-absinthium.jpg)
+
+> *Artemisia absinthium in Brzozowo, NW Poland*
+
+> *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
+
+
 Artemisia absinthium , otherwise known as common wormwood , is a species of Artemisia native to North Africa and temperate regions of Eurasia , and widely naturalized in Canada and the northern United States
 
 Wormwood is one of the most intensely bitter plants in common cultivation. That bitterness, produced by absinthin and other sesquiterpene lactones, is both its medicinal value and its primary hazard. Small amounts stimulate digestion and expel intestinal parasites; larger doses cause neurological symptoms from thujone toxicity. The line between therapeutic bitter and poison is a matter of precise dosing.

@@ -268,3 +268,5 @@ Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate 
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+
+![animals poultry pigeons](../images/animals/animals_poultry-pigeons.jpg)

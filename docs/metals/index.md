@@ -1,5 +1,12 @@
 # Metals
 
+
+![Blockheizkraftwerk Leipzig Möckern – Nordfassade](../images/metals/metals.jpg)
+
+> *The combined heat and power plant (CHP) in Leipzig Möckern was commissioned by the Leipziger Stadtwerke on Wednesday, 24 March 2021. In the same year another CHP of this type went into operation in the district of Lausen. The design of the facade cladding made of metal by the architectural office...*
+
+> *Image: August Geyler, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Copper & Bronze Production](copper-bronze.md) — Overview: copper smelting, bronze alloying, casting, refining, and electrical copper.

@@ -1,0 +1,106 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Glassmaking — Soda-Lime Glass Production
+s1: "Silica Sand (SiO₂, >99%)" {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Soda Ash (Na₂CO₃) & Limestone (CaCO₃)" {
+  shape: parallelogram
+  class: inputStep
+}
+s3: "Cullet (recycled glass, 25-50%)" {
+  shape: parallelogram
+  class: inputStep
+}
+s4: "Batch Mixing & Charging to Furnace" {
+  shape: rectangle
+  class: processStep
+}
+s5: "Melting (1500-1600°C tank furnace)" {
+  shape: rectangle
+  class: processStep
+}
+s6: "Fining & Homogenization (remove bubbles)" {
+  shape: rectangle
+  class: processStep
+}
+s7: "Forming (float bath / blowing / pressing)" {
+  shape: rectangle
+  class: processStep
+}
+s8: "Annealing Lehr (stress relief, 500-550°C)" {
+  shape: rectangle
+  class: processStep
+}
+s9: "Inspection: Defects Present?" {
+  shape: diamond
+  class: decisionStep
+}
+s10: Finished Glass Product {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s4: { class: flow-edge }
+s2 -> s4: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: { class: flow-edge }
+s6 -> s7: { class: flow-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s9: { class: flow-edge }
+s9 -> s10: no defects { class: flow-edge }
+s9 -> s4: defects — re-melt as cullet { class: feedback-edge }

@@ -224,3 +224,5 @@ The development of currency requires [metals](../metals/index.md) for producing 
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+
+![economics organization currency](../images/economics-organization/economics-organization_currency.jpg)

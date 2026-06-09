@@ -1,0 +1,107 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Chlor-Alkali Process — Membrane Cell Electrolysis
+s1: "Saturated Brine (NaCl solution)" {
+  shape: parallelogram
+  class: inputStep
+}
+s2: Demineralized Water {
+  shape: parallelogram
+  class: inputStep
+}
+s3: "Brine Purification (ion exchange, SS removal)" {
+  shape: rectangle
+  class: processStep
+}
+s4: "Electrolysis: 2NaCl + 2H₂O → Cl₂ + 2NaOH + H₂" {
+  shape: rectangle
+  class: processStep
+}
+s5: Membrane Integrity OK? {
+  shape: diamond
+  class: decisionStep
+}
+s6: "Chlorine Gas (Cl₂) Collection & Liquefaction" {
+  shape: rectangle
+  class: processStep
+}
+s7: "Caustic Soda (50% NaOH) Concentration" {
+  shape: rectangle
+  class: processStep
+}
+s8: "H₂ Recovery & Compression" {
+  shape: rectangle
+  class: processStep
+}
+s9: "Cl₂ Product (dry, liquid)" {
+  shape: parallelogram
+  class: outputStep
+}
+s10: 50% NaOH + H₂ Products {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s3: { class: flow-edge }
+s2 -> s4: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: yes { class: flow-edge }
+s5 -> s3: no — brine contamination { class: feedback-edge }
+s6 -> s9: { class: flow-edge }
+s4 -> s7: { class: flow-edge }
+s7 -> s10: { class: flow-edge }
+s4 -> s8: { class: flow-edge }
+s8 -> s10: { class: flow-edge }

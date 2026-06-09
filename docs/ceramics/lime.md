@@ -21,6 +21,13 @@ The lime cycle is elegantly simple: heat limestone to drive off CO₂, add water
 
 > *Image: Our World in Data, CC BY 4.0*
 
+![Lemon and lime production, 2022](../images/ceramics/ceramics_lime.png)
+
+> *Global map of countries by lemon and lime production, 2022*
+
+> *Image: Our World in Data, CC BY 4.0*
+
+
 - **Materials**: [Limestone](../mining/index.md) (CaCO₃ >95% purity, crushed to 50-100 mm pieces), [fuel](../energy/charcoal.md) (wood, charcoal, or coal — 2-4 kg fuel per kg quicklime), water for slaking (3-4 parts water to 1 part lime by volume for putty)
 - **Tools**: [Kiln or furnace](kilns.md) (batch shaft or continuous shaft design), [thermometer or pyrometric cones](../measurement/index.md) (target 900-1100°C), rake/shovel for loading and drawing, screen (2-5 mm mesh) for grading slaked lime, tub or pit for slaking
 - **Infrastructure**: Ventilated firing area (calcination releases 0.78 kg CO₂ per kg CaO — outdoor or forced-draft ventilation required), dry airtight storage for quicklime (prevents air-slaking), covered pit for lime putty storage

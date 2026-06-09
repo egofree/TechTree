@@ -16,6 +16,20 @@ This capability covers four purification methods ordered by increasing specifici
 
 ## Prerequisites
 
+![Mixed gas CCR loop schematic](../images/gas-handling/gas-handling_cylinder-schematic.png)
+
+> *Schematic diagram of electronically controlled closed circuit mixed gas rebreather. 1 Dive/surface valve and loop non-return valves 2 Exhaust hose 3 Scrubber (axial flow) 4 Counterlung 5 Overpressure valve 6 Inhalation valve 7 Oxygen cylinder 8 Oxygen cylinder valve 9 Absolute pressure oxygen reg...*
+
+> *Image: Peter Southwood, CC BY-SA 3.0*
+
+
+![Quadruple expansion compound, section (Heat Engines, 1913)](../images/gas-handling/gas-handling_valve-types.jpg)
+
+> *Fig. 139  Quadruple expansion compound engine, built by Fleming &amp; Ferguson of Paisley.  Cylinder diameters: 10¼", 14", 20", 28" Stroke: 20" Boiler pressure: 200 psi indicated horsepower: 360*
+
+> *Image: Andy Dingley (scanner), Public domain*
+
+
 - **Materials**: Steel piping, copper tubing, PTFE gaskets, activated carbon, silica gel, molecular sieves (zeolites), copper catalyst, palladium membrane material
 - **Tools and equipment**: [Basic gas handling](basic.md) — compressors, piping, valves, pressure regulators; [Electric furnaces](../energy/electric-furnaces.md) for regeneration heating; [Machine tools](../machine-tools/index.md) for vessel fabrication
 - **Knowledge**: Thermodynamics of adsorption, catalytic reaction kinetics, gas chromatography for purity verification

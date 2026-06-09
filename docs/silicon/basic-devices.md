@@ -16,6 +16,20 @@
 
 > *Image: Baltakatei, CC BY-SA 4.0*
 
+
+![Cross-section of different transistors](../images/silicon/silicon_basic-devices-crosssection.jpg)
+
+> *Cross-section of different transistors. The one of far left shows that of Gate-All-Around Architecture*
+
+> *Image: Rajamouli2000 at English Wikipedia, Public domain*
+
+
+![Pn Junction Diffusion and Drift-tr](../images/silicon/silicon_basic-devices-diagram.png)
+
+> *Diagram of the diffusion across a pn junction, with the resultant uncovered space charges, the electric field and the drift currents.*
+
+> *Image: VectorVoyager: translation, CC0*
+
 ### Solar Cells (Primary Target — simplest useful semiconductor device)
 
 **Structure**: Large-area (100-300 cm²) pn junction on single-crystal or multicrystalline silicon wafer.
@@ -370,3 +384,5 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+
+![silicon basic devices diagram](../images/silicon/diagram:silicon_basic-devices.jpg)

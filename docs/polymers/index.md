@@ -1,5 +1,12 @@
 # Polymers & Composites
 
+
+![Ashland Composite Polymers, Los Angeles](../images/polymers/polymers.jpg)
+
+> *6608 East 26th Street Los Angeles 90040*
+
+> *Image: Downtowngal, CC BY-SA 3.0*
+
 Capabilities in this domain:
 
 - [Composite Materials](composites.md) — Fiberglass production (E-glass fiber from silica/boron batch, 5-25 μm filaments), hand layup, vacuum bagging, resin transfer molding, and filament winding.

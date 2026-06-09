@@ -1,0 +1,101 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  processStep: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  inputStep: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+    }
+  }
+  outputStep: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  decisionStep: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 2
+    }
+  }
+  flow-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  feedback-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}
+
+# Sulfuric Acid — Contact Process
+s1: Elemental Sulfur / Sulfide Ore {
+  shape: parallelogram
+  class: inputStep
+}
+s2: "Combustion: S + O₂ → SO₂ (1000°C)" {
+  shape: rectangle
+  class: processStep
+}
+s3: "Gas Cooling & Purification (ESP + scrubbing)" {
+  shape: rectangle
+  class: processStep
+}
+s4: "Catalytic Oxidation: 2SO₂ + O₂ → 2SO₃ (V₂O₅, 450°C)" {
+  shape: rectangle
+  class: processStep
+}
+s5: Conversion Efficiency ≥ 99%? {
+  shape: diamond
+  class: decisionStep
+}
+s6: "Double-Absorption Pass (re-oxidize tail gas)" {
+  shape: rectangle
+  class: processStep
+}
+s7: SO₃ Absorption in 98% H₂SO₄ → Oleum {
+  shape: rectangle
+  class: processStep
+}
+s8: "Dilution: H₂S₂O₇ + H₂O → 2H₂SO₄" {
+  shape: rectangle
+  class: processStep
+}
+s9: 98% Sulfuric Acid Product {
+  shape: parallelogram
+  class: outputStep
+}
+
+# ==================== CONNECTIONS ====================
+s1 -> s2: { class: flow-edge }
+s2 -> s3: { class: flow-edge }
+s3 -> s4: { class: flow-edge }
+s4 -> s5: { class: flow-edge }
+s5 -> s6: no — insufficient { class: flow-edge }
+s6 -> s4: { class: feedback-edge }
+s5 -> s7: yes { class: flow-edge }
+s7 -> s8: { class: flow-edge }
+s8 -> s9: { class: flow-edge }

@@ -16,6 +16,20 @@
 
 > *Image: Weekly Journal Miner, Public domain*
 
+![Surf-mining-greek](../images/mining/mining_extraction-diagram.jpg)
+
+> *Rough sketch of a surface mine (open pit) with labels in Greek.*
+
+> *Image: Metallos, CC BY-SA 3.0*
+
+
+
+![Barut 2346918 01](../images/mining/mining_extraction_black-powder.jpg)
+
+> *Barut*
+
+> *Image: Satirdan kahraman, CC BY-SA 4.0*
+
 **Surface mining (open pit)**:
 - **Planning**: Strip overburden (soil + useless rock) to expose ore body. Bench height 5-15 m. Bench width = height × slope angle (typically 45-70°). Road access on each bench for haulage.
 - **Overburden removal**: Hand shovels and wheelbarrows (Foundations), animal-drawn scrapers (Metallurgy), steam or diesel shovels. Ratio: overburden-to-ore should be <3:1 for economic viability.

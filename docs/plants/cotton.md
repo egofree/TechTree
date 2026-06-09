@@ -16,6 +16,13 @@
 
 > *Image: Song Luo, Jennifer Mach, Bradley Abramson, Rolando Ramirez, Robert Schurr, Pierluigi Barone, Gregory Copenhaver, Otto Folkerts, CC BY 2.5*
 
+![Karyotype of Cotton (Gossypium hirsutum)](../images/plants/plants_cotton.png)
+
+> *Karyotype of Cotton (Gossypium hirsutum). 2n=52. DAPI-stained chromosomes (blue) at metaphase are stained with anti-CENH3 (red), which localizes to the centromere region.*
+
+> *Image: Song Luo, Jennifer Mach, Bradley Abramson, Rolando Ramirez, Robert Schurr, Pierluigi Barone, Gregory Copenhaver, Otto Folkerts, CC BY 2.5*
+
+
 Cotton
 
 *Gossypium hirsutum* (Malvaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. American cotton provides seeds/nuts as its primary edible product.

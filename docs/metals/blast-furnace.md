@@ -19,6 +19,16 @@ The blast furnace is the key advancement from bloomery smelting. Where a bloomer
 
 > *Image: Blast furnace chip worker, CC BY-SA 3.0*
 
+
+
+![Full overhead schematic of Trumbull-Cliffs Blast Furnace](../images/metals/metals_iron-steel-blast-furnace.jpg)
+
+> *Longitudinal (overhead) schematic of the Trumbull-Cliffs Blast Furnace in Warren, Ohio, in the United States in 1921.
+The boiler house is at left, where steam for the power plant is generated. To its right is the gas cleaning plant, where smoke and fumes are processed. Useable gases are removed, ...*
+
+> *Image: "New 600-Ton Blast Furnace Plant". The Blast Furnace &amp; Steel Plant, October 1921, p. 592, Public domain*
+
+
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, and iron properties
 - [Coke production](../energy/coke.md) — coke as blast furnace fuel and reductant
 - [Ceramic kilns](../ceramics/kilns.md) — refractory lining for furnace construction
@@ -250,3 +260,7 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 - [Fuels](../energy/index.md) — energy sources for metallurgy
 
 [← Back to Metals](index.md)
+
+![metals iron steel blast furnace](../images/metals/metals_iron-steel_blast-furnace.jpg)
+
+![metals iron steel blast furnace](../images/metals/metals_iron-steel_blast-furnace.png)

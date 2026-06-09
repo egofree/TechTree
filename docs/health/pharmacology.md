@@ -21,6 +21,14 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 > *The WikiProject Pharmacology barnstar*
 
 > *Image: Original idea by DonabelSDSU.bot
+
+![The Pharmacology Barnstar Hires](../images/health/health_pharmacology.png)
+
+> *The WikiProject Pharmacology barnstar*
+
+> *Image: Original idea by DonabelSDSU.bot
+Original remastering by Antonu, CC BY-SA 3.0*
+
 Original remastering by Antonu, CC BY-SA 3.0*
 
 | Material | Active Compound | Harvest/Source | Preparation |

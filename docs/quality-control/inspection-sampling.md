@@ -333,3 +333,5 @@ The foundational standard for integrated circuit testing, defining test methods,
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*
+
+![quality control inspection sampling](../images/quality-control/quality-control_inspection-sampling.png)

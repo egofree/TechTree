@@ -10,6 +10,13 @@
 
 ## Overview
 
+![HVAC system diagram](../images/energy/energy_hvac-diagram.jpg)
+
+> *This is a diagram of a standard household HVAC system.*
+
+> *Image: sammsheatingandair, CC BY-SA 2.0*
+
+
 Heating, ventilation, and air conditioning systems for industrial environments, including cleanrooms and precision manufacturing facilities.
 
 Industrial HVAC differs from residential systems in scale, precision, and reliability requirements. Cleanroom HVAC must maintain particulate counts to ISO Class standards through high-efficiency filtration and laminar airflow design, while simultaneously controlling temperature and humidity within tight tolerances. Semiconductor fabs require the most demanding HVAC specifications: temperature control within a narrow band and humidity maintained at precise levels to prevent static discharge and photoresist variability.
@@ -198,3 +205,5 @@ Proper handling of filters, refrigerants, and HVAC components maintains system p
 - Inspect cooling tower fill media and drift eliminators annually for biological growth and physical damage
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+
+![energy hvac](../images/energy/energy_hvac.jpg)

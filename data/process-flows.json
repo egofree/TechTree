@@ -1,0 +1,465 @@
+{
+  "schema": "bootciv-process-flows-v1",
+  "description": "Step-by-step process flow diagrams for key manufacturing processes in the tech tree. Each flow describes the sequential stages of a process with typed steps (process, input, output, decision) and connections between them.",
+  "flows": {
+    "metals-iron-smelting": {
+      "title": "Iron Smelting — Blast Furnace Process",
+      "domain": "metals",
+      "entity_id": "metals.iron-steel.blast-furnace",
+      "description": "Continuous iron smelting in a tall shaft furnace producing liquid pig iron from iron ore, coke, and limestone. The blast furnace operates continuously for years, producing 10-1000+ tonnes of pig iron per day.",
+      "steps": [
+        {"id": "s1", "label": "Iron Ore (Fe₂O₃)", "type": "input"},
+        {"id": "s2", "label": "Coke & Limestone Charging", "type": "input"},
+        {"id": "s3", "label": "Hot Air Blast Injection (1200°C)", "type": "process"},
+        {"id": "s4", "label": "Combustion Zone: C + O₂ → CO₂", "type": "process"},
+        {"id": "s5", "label": "Reduction: Fe₂O₃ + 3CO → 2Fe + 3CO₂", "type": "process"},
+        {"id": "s6", "label": "Slag Formation (CaO + SiO₂ → CaSiO₃)", "type": "process"},
+        {"id": "s7", "label": "Temperature Adequate (>1200°C)?", "type": "decision"},
+        {"id": "s8", "label": "Taphole Tapping", "type": "process"},
+        {"id": "s9", "label": "Pig Iron (~4% C)", "type": "output"},
+        {"id": "s10", "label": "Blast Furnace Slag", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s3"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s2", "to": "s6", "label": "flux"},
+        {"from": "s5", "to": "s7"},
+        {"from": "s7", "to": "s8", "label": "yes"},
+        {"from": "s7", "to": "s3", "label": "no — increase blast"},
+        {"from": "s8", "to": "s9"},
+        {"from": "s8", "to": "s10"}
+      ]
+    },
+
+    "chemistry-ammonia-production": {
+      "title": "Ammonia Production — Haber-Bosch Process",
+      "domain": "chemistry",
+      "entity_id": "chemistry.ammonia",
+      "description": "Catalytic synthesis of ammonia from nitrogen and hydrogen at 400-500°C and 15-30 MPa over an iron catalyst. The Haber-Bosch process feeds half the world's population through fertilizer production.",
+      "steps": [
+        {"id": "s1", "label": "Natural Gas / Methane Feed", "type": "input"},
+        {"id": "s2", "label": "Air (N₂ Source)", "type": "input"},
+        {"id": "s3", "label": "Steam Reforming: CH₄ + H₂O → CO + 3H₂", "type": "process"},
+        {"id": "s4", "label": "Water-Gas Shift: CO + H₂O → CO₂ + H₂", "type": "process"},
+        {"id": "s5", "label": "CO₂ Removal (amine scrubbing)", "type": "process"},
+        {"id": "s6", "label": "H₂ Purity ≥ 99.9%?", "type": "decision"},
+        {"id": "s7", "label": "Haber Synthesis: N₂ + 3H₂ → 2NH₃", "type": "process"},
+        {"id": "s8", "label": "Condensation (−33°C)", "type": "process"},
+        {"id": "s9", "label": "Liquid Ammonia (NH₃)", "type": "output"},
+        {"id": "s10", "label": "Unreacted Gas Recycle", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s3"},
+        {"from": "s2", "to": "s7", "label": "N₂"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s7", "label": "yes"},
+        {"from": "s6", "to": "s5", "label": "no — re-purify"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9"},
+        {"from": "s8", "to": "s10"},
+        {"from": "s10", "to": "s7", "label": "recycle loop"}
+      ]
+    },
+
+    "energy-charcoal-production": {
+      "title": "Charcoal Production — Earth Kiln Method",
+      "domain": "energy",
+      "entity_id": "energy.fuels.charcoal",
+      "description": "Carbonization of hardwood in earth-covered pits or simple kilns at 300-600°C under limited oxygen. Primary fuel for all metallurgy until coke production is established. Yields 20-35% charcoal by weight.",
+      "steps": [
+        {"id": "s1", "label": "Hardwood Logs", "type": "input"},
+        {"id": "s2", "label": "Stack Wood in Pit / Kiln", "type": "process"},
+        {"id": "s3", "label": "Seal with Earth / Clay", "type": "process"},
+        {"id": "s4", "label": "Ignite & Control Air Flow", "type": "process"},
+        {"id": "s5", "label": "Carbonization (300-600°C)", "type": "process"},
+        {"id": "s6", "label": "Temperature Rising Too Fast?", "type": "decision"},
+        {"id": "s7", "label": "Adjust Ventilation", "type": "process"},
+        {"id": "s8", "label": "Cool, Unseal & Sieve", "type": "process"},
+        {"id": "s9", "label": "Charcoal Product", "type": "output"},
+        {"id": "s10", "label": "Wood Gas / Tar Byproducts", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s2"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s7", "label": "yes — smother"},
+        {"from": "s7", "to": "s5"},
+        {"from": "s6", "to": "s8", "label": "no — complete"},
+        {"from": "s8", "to": "s9"},
+        {"from": "s5", "to": "s10"}
+      ]
+    },
+
+    "silicon-czochralski-crystal-growth": {
+      "title": "Czochralski Crystal Growth — Single-Crystal Silicon",
+      "domain": "silicon",
+      "entity_id": "silicon.crystal-growth.cz-pulling",
+      "description": "Pulling single-crystal silicon ingots from molten polysilicon using a seed crystal in a quartz crucible at ~1415°C. Requires precision leadscrew for pull speed stability (±0.5%) and argon atmosphere. The Dash process eliminates dislocations via thin neck growth.",
+      "steps": [
+        {"id": "s1", "label": "Polysilicon Charge (9N+ purity)", "type": "input"},
+        {"id": "s2", "label": "Argon Inert Atmosphere", "type": "input"},
+        {"id": "s3", "label": "Melt Polysilicon in Quartz Crucible (1415°C)", "type": "process"},
+        {"id": "s4", "label": "Dip Seed Crystal into Melt", "type": "process"},
+        {"id": "s5", "label": "Dash Neck Growth (thin neck to eliminate dislocations)", "type": "process"},
+        {"id": "s6", "label": "Shoulder Expansion & Body Pull", "type": "process"},
+        {"id": "s7", "label": "Pull Speed Stable (±0.5%)?", "type": "decision"},
+        {"id": "s8", "label": "Tail-Off & Cool", "type": "process"},
+        {"id": "s9", "label": "Single-Crystal Silicon Ingot", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s3"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s6", "label": "no — adjust speed"},
+        {"from": "s7", "to": "s8", "label": "yes — target diameter reached"},
+        {"from": "s8", "to": "s9"}
+      ]
+    },
+
+    "machine-tools-sand-casting": {
+      "title": "Sand Casting — Metal Part Production",
+      "domain": "machine-tools",
+      "entity_id": "metals.casting",
+      "description": "Green sand molding with bentonite binder, pattern making with shrinkage allowance, and flask-based casting of iron or aluminum. Every machine tool starts as a sand-cast iron or aluminum casting. Process covers pattern to finished casting.",
+      "steps": [
+        {"id": "s1", "label": "Pattern (wood/metal, with shrinkage allowance)", "type": "input"},
+        {"id": "s2", "label": "Green Sand (silica + bentonite + water)", "type": "input"},
+        {"id": "s3", "label": "Pack Sand Around Pattern in Flask", "type": "process"},
+        {"id": "s4", "label": "Remove Pattern → Form Cavity", "type": "process"},
+        {"id": "s5", "label": "Core Placement (for internal cavities)", "type": "process"},
+        {"id": "s6", "label": "Molten Metal Pour (Fe: 1400°C, Al: 700°C)", "type": "process"},
+        {"id": "s7", "label": "Solidification & Cooling", "type": "process"},
+        {"id": "s8", "label": "Defects Present (porosity/shrinkage)?", "type": "decision"},
+        {"id": "s9", "label": "Shakeout, Trim & Clean", "type": "process"},
+        {"id": "s10", "label": "Cast Metal Part", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s3"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9", "label": "acceptable"},
+        {"from": "s8", "to": "s3", "label": "reject — remold"},
+        {"from": "s9", "to": "s10"}
+      ]
+    },
+
+    "metals-steel-making": {
+      "title": "Steelmaking — Basic Oxygen Furnace Route",
+      "domain": "metals",
+      "entity_id": "metals.steelmaking",
+      "description": "Conversion of pig iron to steel via basic oxygen furnace (BOF). Molten pig iron is charged into the BOF vessel, oxygen is blown at supersonic speed to oxidize carbon, silicon, and phosphorus. Alloy additions tailor the grade. Continuous casting solidifies the steel into slabs or billets for rolling.",
+      "steps": [
+        {"id": "s1", "label": "Molten Pig Iron (~4% C, 1350°C)", "type": "input"},
+        {"id": "s2", "label": "Scrap Steel Charge (25-30%)", "type": "input"},
+        {"id": "s3", "label": "Lime & Flux Additions", "type": "input"},
+        {"id": "s4", "label": "Oxygen Blow (supersonic lance, 15-20 min)", "type": "process"},
+        {"id": "s5", "label": "Decarburization: C + O₂ → CO/CO₂", "type": "process"},
+        {"id": "s6", "label": "Slag Formation (P, Si, Mn oxidation)", "type": "process"},
+        {"id": "s7", "label": "Carbon Target Reached (<0.05% C)?", "type": "decision"},
+        {"id": "s8", "label": "Alloy Addition & Ladle Metallurgy", "type": "process"},
+        {"id": "s9", "label": "Continuous Casting → Slabs/Billets", "type": "process"},
+        {"id": "s10", "label": "Hot-Rolled Steel Products", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s4"},
+        {"from": "s2", "to": "s4"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8", "label": "yes"},
+        {"from": "s7", "to": "s4", "label": "no — re-blow"},
+        {"from": "s8", "to": "s9"},
+        {"from": "s9", "to": "s10"}
+      ]
+    },
+
+    "chemistry-sulfuric-acid": {
+      "title": "Sulfuric Acid — Contact Process",
+      "domain": "chemistry",
+      "entity_id": "chemistry.acids.contact-process",
+      "description": "Industrial production of sulfuric acid via the contact process. Elemental sulfur or metal sulfide ore is burned to SO₂, catalytically oxidized to SO₃ over vanadium pentoxide at 400-450°C, then absorbed in concentrated H₂SO₄ to form oleum, which is diluted to yield 98% H₂SO₄. The most-produced chemical by tonnage worldwide.",
+      "steps": [
+        {"id": "s1", "label": "Elemental Sulfur / Sulfide Ore", "type": "input"},
+        {"id": "s2", "label": "Combustion: S + O₂ → SO₂ (1000°C)", "type": "process"},
+        {"id": "s3", "label": "Gas Cooling & Purification (ESP + scrubbing)", "type": "process"},
+        {"id": "s4", "label": "Catalytic Oxidation: 2SO₂ + O₂ → 2SO₃ (V₂O₅, 450°C)", "type": "process"},
+        {"id": "s5", "label": "Conversion Efficiency ≥ 99%?", "type": "decision"},
+        {"id": "s6", "label": "Double-Absorption Pass (re-oxidize tail gas)", "type": "process"},
+        {"id": "s7", "label": "SO₃ Absorption in 98% H₂SO₄ → Oleum", "type": "process"},
+        {"id": "s8", "label": "Dilution: H₂S₂O₇ + H₂O → 2H₂SO₄", "type": "process"},
+        {"id": "s9", "label": "98% Sulfuric Acid Product", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s2"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6", "label": "no — insufficient"},
+        {"from": "s6", "to": "s4"},
+        {"from": "s5", "to": "s7", "label": "yes"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9"}
+      ]
+    },
+
+    "chemistry-electrolysis-chlor-alkali": {
+      "title": "Chlor-Alkali Process — Membrane Cell Electrolysis",
+      "domain": "chemistry",
+      "entity_id": "chemistry.electrolysis.chlor-alkali",
+      "description": "Electrolysis of saturated brine (NaCl solution) in membrane cells to produce chlorine gas, sodium hydroxide (caustic soda), and hydrogen. Modern plants use perfluorinated ion-exchange membranes (Nafion). Chlor-alkali is the foundation of the chlor-chemical industry, producing PVC, solvents, and bleaching agents.",
+      "steps": [
+        {"id": "s1", "label": "Saturated Brine (NaCl solution)", "type": "input"},
+        {"id": "s2", "label": "Demineralized Water", "type": "input"},
+        {"id": "s3", "label": "Brine Purification (ion exchange, SS removal)", "type": "process"},
+        {"id": "s4", "label": "Electrolysis: 2NaCl + 2H₂O → Cl₂ + 2NaOH + H₂", "type": "process"},
+        {"id": "s5", "label": "Membrane Integrity OK?", "type": "decision"},
+        {"id": "s6", "label": "Chlorine Gas (Cl₂) Collection & Liquefaction", "type": "process"},
+        {"id": "s7", "label": "Caustic Soda (50% NaOH) Concentration", "type": "process"},
+        {"id": "s8", "label": "H₂ Recovery & Compression", "type": "process"},
+        {"id": "s9", "label": "Cl₂ Product (dry, liquid)", "type": "output"},
+        {"id": "s10", "label": "50% NaOH + H₂ Products", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s3"},
+        {"from": "s2", "to": "s4"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6", "label": "yes"},
+        {"from": "s5", "to": "s3", "label": "no — brine contamination"},
+        {"from": "s6", "to": "s9"},
+        {"from": "s4", "to": "s7"},
+        {"from": "s7", "to": "s10"},
+        {"from": "s4", "to": "s8"},
+        {"from": "s8", "to": "s10"}
+      ]
+    },
+
+    "silicon-wafer-preparation": {
+      "title": "Silicon Wafer Preparation — Ingot to Prime Wafer",
+      "domain": "silicon",
+      "entity_id": "silicon.wafering",
+      "description": "Conversion of single-crystal silicon ingots into polished prime wafers ready for device fabrication. The ingot is cropped, ground to diameter, sliced with wire saws into wafers, lapped, etched, and polished to mirror finish. Final cleaning removes particulates and metallic contamination. Wafer specifications: ±1μm thickness uniformity, <5Å surface roughness.",
+      "steps": [
+        {"id": "s1", "label": "Single-Crystal Si Ingot (CZ or FZ)", "type": "input"},
+        {"id": "s2", "label": "Crop Ends & Grind to Target Diameter (200/300mm)", "type": "process"},
+        {"id": "s3", "label": "Orientation Flat/Notch Grinding", "type": "process"},
+        {"id": "s4", "label": "Wire Saw Slicing (slurry or diamond wire)", "type": "process"},
+        {"id": "s5", "label": "Wafer Thickness within Spec (±1μm)?", "type": "decision"},
+        {"id": "s6", "label": "Lapping & Edge Rounding", "type": "process"},
+        {"id": "s7", "label": "Chemical Etching (remove damaged layer)", "type": "process"},
+        {"id": "s8", "label": "CMP Polishing to Mirror Finish (<5Å Ra)", "type": "process"},
+        {"id": "s9", "label": "Final Clean (RCA-1 + RCA-2)", "type": "process"},
+        {"id": "s10", "label": "Prime Silicon Wafer (epitaxy-ready)", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s2"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6", "label": "yes"},
+        {"from": "s5", "to": "s4", "label": "no — re-slice"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9"},
+        {"from": "s9", "to": "s10"}
+      ]
+    },
+
+    "photolithography-photolithography": {
+      "title": "Photolithography — Patterning Process",
+      "domain": "photolithography",
+      "entity_id": "photolithography.photolithography",
+      "description": "The core pattern transfer process in semiconductor fabrication. A photosensitive resist is applied to the wafer, exposed through a photomask (or via direct write), developed to reveal the pattern, and then the underlying film is etched. Resist stripping completes the cycle. Repeated 20-80 times per chip with alignment precision measured in nanometers.",
+      "steps": [
+        {"id": "s1", "label": "Silicon Wafer (with deposited film)", "type": "input"},
+        {"id": "s2", "label": "HMDS Priming (adhesion promotion)", "type": "process"},
+        {"id": "s3", "label": "Photoresist Spin Coating (1-5μm)", "type": "process"},
+        {"id": "s4", "label": "Soft Bake (drive off solvent)", "type": "process"},
+        {"id": "s5", "label": "UV Exposure through Photomask (193i/EUV)", "type": "process"},
+        {"id": "s6", "label": "Post-Exposure Bake (PEB)", "type": "process"},
+        {"id": "s7", "label": "Development (TMAH developer)", "type": "process"},
+        {"id": "s8", "label": "Pattern Transfer OK (CD within spec)?", "type": "decision"},
+        {"id": "s9", "label": "Etch Pattern Transfer (RIE/plasma)", "type": "process"},
+        {"id": "s10", "label": "Resist Strip & Clean (O₂ plasma + wet)", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s2"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9", "label": "yes — within CD spec"},
+        {"from": "s8", "to": "s2", "label": "no — re-coat & re-expose"},
+        {"from": "s9", "to": "s10"}
+      ]
+    },
+
+    "glass-glassmaking": {
+      "title": "Glassmaking — Soda-Lime Glass Production",
+      "domain": "glass",
+      "entity_id": "glass.basic",
+      "description": "Manufacture of soda-lime silicate glass from raw batch materials (silica sand, soda ash, limestone). The batch is melted at 1500-1600°C in a tank furnace, refined to remove bubbles, formed into sheets or containers (float process, blowing, pressing), and annealed to relieve thermal stress. Soda-lime glass constitutes ~90% of all glass produced.",
+      "steps": [
+        {"id": "s1", "label": "Silica Sand (SiO₂, >99%)", "type": "input"},
+        {"id": "s2", "label": "Soda Ash (Na₂CO₃) & Limestone (CaCO₃)", "type": "input"},
+        {"id": "s3", "label": "Cullet (recycled glass, 25-50%)", "type": "input"},
+        {"id": "s4", "label": "Batch Mixing & Charging to Furnace", "type": "process"},
+        {"id": "s5", "label": "Melting (1500-1600°C tank furnace)", "type": "process"},
+        {"id": "s6", "label": "Fining & Homogenization (remove bubbles)", "type": "process"},
+        {"id": "s7", "label": "Forming (float bath / blowing / pressing)", "type": "process"},
+        {"id": "s8", "label": "Annealing Lehr (stress relief, 500-550°C)", "type": "process"},
+        {"id": "s9", "label": "Inspection: Defects Present?", "type": "decision"},
+        {"id": "s10", "label": "Finished Glass Product", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s4"},
+        {"from": "s2", "to": "s4"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9"},
+        {"from": "s9", "to": "s10", "label": "no defects"},
+        {"from": "s9", "to": "s4", "label": "defects — re-melt as cullet"}
+      ]
+    },
+
+    "ceramics-ceramic-processing": {
+      "title": "Ceramic Processing — Traditional Pottery to Technical Ceramics",
+      "domain": "ceramics",
+      "entity_id": "ceramics.pottery",
+      "description": "Processing of clay-based ceramics from raw material preparation through forming, drying, bisque firing, glazing, and final firing. Covers hand-building, wheel throwing, and slip casting. Kiln firing at 900-1300°C vitrifies the clay body. The oldest transformative technology after fire itself, dating back 30,000 years.",
+      "steps": [
+        {"id": "s1", "label": "Clay Body (kaolin + ball clay + fillers)", "type": "input"},
+        {"id": "s2", "label": "Wedging & Degassing (remove air pockets)", "type": "process"},
+        {"id": "s3", "label": "Forming (wheel throwing / hand-building / slip cast)", "type": "process"},
+        {"id": "s4", "label": "Slow Drying (prevent warping/cracking)", "type": "process"},
+        {"id": "s5", "label": "Dry & Crack-Free?", "type": "decision"},
+        {"id": "s6", "label": "Bisque Firing (900-1000°C)", "type": "process"},
+        {"id": "s7", "label": "Glaze Application (dip / spray / brush)", "type": "process"},
+        {"id": "s8", "label": "Glaze Firing (1200-1300°C, oxidation/reduction)", "type": "process"},
+        {"id": "s9", "label": "Finished Ceramic Product", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s2"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6", "label": "yes — dry"},
+        {"from": "s5", "to": "s4", "label": "no — continue drying"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9"}
+      ]
+    },
+
+    "textiles-textile-manufacturing": {
+      "title": "Textile Manufacturing — Fiber to Finished Cloth",
+      "domain": "textiles",
+      "entity_id": "textiles.textiles",
+      "description": "Conversion of natural or synthetic fibers into finished woven cloth through fiber preparation, spinning into yarn, weaving on a loom, and finishing treatments (washing, dyeing, calendering). The mechanization of these steps (spinning jenny, power loom) was the catalyst for the Industrial Revolution.",
+      "steps": [
+        {"id": "s1", "label": "Raw Fibers (cotton/wool/flax)", "type": "input"},
+        {"id": "s2", "label": "Carding & Combing (align fibers)", "type": "process"},
+        {"id": "s3", "label": "Drawing & Roving (attenuate sliver)", "type": "process"},
+        {"id": "s4", "label": "Spinning (ring/frame → yarn)", "type": "process"},
+        {"id": "s5", "label": "Yarn Quality OK (tensile, evenness)?", "type": "decision"},
+        {"id": "s6", "label": "Warping & Sizing (prepare warp beam)", "type": "process"},
+        {"id": "s7", "label": "Weaving (interlace warp & weft on loom)", "type": "process"},
+        {"id": "s8", "label": "Finishing (washing, dyeing, calendering)", "type": "process"},
+        {"id": "s9", "label": "Finished Woven Cloth", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s2"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6", "label": "yes"},
+        {"from": "s5", "to": "s4", "label": "no — re-spin"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s9"}
+      ]
+    },
+
+    "energy-steam-power": {
+      "title": "Steam Power Generation — Rankine Cycle",
+      "domain": "energy",
+      "entity_id": "energy.steam-power",
+      "description": "Conversion of thermal energy to mechanical work via the Rankine cycle. Water is pumped to high pressure, vaporized in a boiler to superheated steam, expanded through a turbine to generate shaft power, and condensed back to liquid. The thermodynamic foundation of coal, nuclear, and concentrated solar power plants.",
+      "steps": [
+        {"id": "s1", "label": "Feedwater (demineralized, deaerated)", "type": "input"},
+        {"id": "s2", "label": "Fuel (coal / gas / nuclear / solar thermal)", "type": "input"},
+        {"id": "s3", "label": "Feed Pump → High-Pressure Water", "type": "process"},
+        {"id": "s4", "label": "Boiler: Water → Superheated Steam (540°C, 15+ MPa)", "type": "process"},
+        {"id": "s5", "label": "Steam Turbine Expansion (shaft power)", "type": "process"},
+        {"id": "s6", "label": "Steam Quality Adequate (superheat ≥ 50°C)?", "type": "decision"},
+        {"id": "s7", "label": "Condenser: Exhaust Steam → Liquid Water", "type": "process"},
+        {"id": "s8", "label": "Cooling Water Circuit (heat rejection)", "type": "process"},
+        {"id": "s9", "label": "Electrical Generator Output", "type": "output"},
+        {"id": "s10", "label": "Waste Heat (cooling tower / river)", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s3"},
+        {"from": "s2", "to": "s4"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s6"},
+        {"from": "s6", "to": "s5", "label": "no — re-superheat"},
+        {"from": "s6", "to": "s7", "label": "yes"},
+        {"from": "s7", "to": "s3", "label": "condensate return"},
+        {"from": "s5", "to": "s9"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s10"}
+      ]
+    },
+
+    "petroleum-refining-distillation": {
+      "title": "Crude Oil Refining — Fractional Distillation",
+      "domain": "petroleum",
+      "entity_id": "petroleum.refining.distillation",
+      "description": "Separation of crude oil into useful fractions by boiling point through atmospheric and vacuum distillation. The crude is preheated, desalted, and fed to the atmospheric distillation tower where products from light gases to heavy gas oil are drawn off. Vacuum distillation recovers additional heavy fractions from the atmospheric residue.",
+      "steps": [
+        {"id": "s1", "label": "Crude Oil Feed", "type": "input"},
+        {"id": "s2", "label": "Desalting & Preheating (heat exchange)", "type": "process"},
+        {"id": "s3", "label": "Fired Heater (360-380°C)", "type": "process"},
+        {"id": "s4", "label": "Atmospheric Distillation Tower (fractionation)", "type": "process"},
+        {"id": "s5", "label": "Product Draw: Naphtha / Kerosene / Diesel / Gas Oil", "type": "process"},
+        {"id": "s6", "label": "Atmospheric Residue", "type": "process"},
+        {"id": "s7", "label": "Vacuum Distillation (reduce boiling point)", "type": "process"},
+        {"id": "s8", "label": "Cut Quality on Spec?", "type": "decision"},
+        {"id": "s9", "label": "Light Fractions (LPG, gasoline, naphtha)", "type": "output"},
+        {"id": "s10", "label": "Heavy Fractions (VGO, residue)", "type": "output"}
+      ],
+      "connections": [
+        {"from": "s1", "to": "s2"},
+        {"from": "s2", "to": "s3"},
+        {"from": "s3", "to": "s4"},
+        {"from": "s4", "to": "s5"},
+        {"from": "s5", "to": "s9"},
+        {"from": "s4", "to": "s6"},
+        {"from": "s6", "to": "s7"},
+        {"from": "s7", "to": "s8"},
+        {"from": "s8", "to": "s10", "label": "yes"},
+        {"from": "s8", "to": "s7", "label": "no — adjust vacuum/cut points"}
+      ]
+    }
+  }
+}

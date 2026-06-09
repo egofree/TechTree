@@ -1,5 +1,12 @@
 # Silicon
 
+
+![Unmetallised Silicon Heterojunction solar cell precursor](../images/silicon/silicon.jpg)
+
+> *A Silicon Heterojunction solar cell precursor composed of a M6 sized monocrystalline silicon wafer sputtered with amorphous silicon to form the passivated heterojunction, and indium tin oxide (approximately 80nm) to form the anti-reflection coating and enhance lateral conduction, which is respons...*
+
+> *Image: Radiotrefoil, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Basic Semiconductor Devices](basic-devices.md) — Solar cell fabrication (p-type wafer → phosphorus diffusion → SiNₓ AR coating → screen-printed metallization, targeting 15-18% efficiency), point-contact diodes, alloy junction transistors, and diffused transistors.
@@ -10,3 +17,5 @@ Capabilities in this domain:
 - [Wafering](wafering.md) — Ingot preparation, wire saw and ID blade slicing, lapping, CMP polishing, RCA cleaning, epitaxial and SOI wafer production, wafer thinning, gettering, wafer-level metrology, die preparation, and yield economics.
 
 [↑ Back to Tech Tree](../index.md)
+
+![silicon](../images/silicon/silicon.png)

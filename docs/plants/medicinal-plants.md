@@ -15,6 +15,41 @@ Basic herbal remedies reduce mortality from infection, fever, pain, and digestiv
 
 ## Active Compound Extraction
 
+![Deadly Nightshade-Medicinal Herbs Poisonous Plants-136-80](../images/plants/plants_medicinal-plants.png)
+
+> *Deadly Nightshade Plate No. 80, from Medicinal herbs and poisonous plants, 1918 or Medicinal herbs and poisonous plants*
+
+> *Image: David Ellis, Public domain*
+
+
+
+![Agrimonia pilosa flowering](../images/plants/plants_medicinal-plants_agrimonia-pilosa.jpg)
+
+> *A picture of hairy agrimony (Agrimonia pilosa) flowering in July.*
+
+> *Image: lidia80, CC0*
+
+
+![Aloe officinalis (inflorescence) 01](../images/plants/plants_medicinal-plants_aloe-officinalis.jpg)
+
+> *Greenhouses of the Botanical garden (Saint Petersburg). Aloe officinalis var. angustifolia*
+
+> *Image: Kor!An (Корзун Андрей), CC BY-SA 3.0*
+
+
+![Artemisia douglasiana 90](../images/plants/plants_medicinal-plants_artemisia-douglasiana.jpg)
+
+> *This picture shows mugworts from all angles, as you can see both sides of the leaves, the stem, and the bud.*
+
+> *Image: Jerry Kirkhart from Los Osos, Calif., CC BY 2.0*
+
+
+![Botanical illustration of Artemisia inculta](../images/plants/plants_medicinal-plants_artemisia-inculta.jpg)
+
+> *Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica.*
+
+> *Image: Scan by NYPL, Public domain*
+
 Plants store active compounds in different tissues — leaves, stems, roots, bark, flowers, and seeds — each requiring appropriate extraction methods. The method chosen depends on the compound's solubility and heat sensitivity.
 
 **Infusion (tea)**: Pour boiling water over dried or fresh plant material (typically leaves, flowers). Steep 10-15 minutes. Strain through cloth. Extracts water-soluble compounds: tannins, glycosides, some alkaloids. Use within 24 hours — water extracts spoil rapidly. Ratio: 1-2 g dried herb per 150 mL water.

@@ -1,0 +1,43 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Crude Oil Refining — Fractional Distillation
+
+    %% ==================== STEPS ====================
+    s1[/"Crude Oil Feed"/]
+    s2["Desalting & Preheating (heat exchange)"]
+    s3["Fired Heater (360-380°C)"]
+    s4["Atmospheric Distillation Tower (fractionation)"]
+    s5["Product Draw: Naphtha / Kerosene / Diesel / Gas Oil"]
+    s6["Atmospheric Residue"]
+    s7["Vacuum Distillation (reduce boiling point)"]
+    s8{"Cut Quality on Spec?"}
+    s9[/"Light Fractions (LPG, gasoline, naphtha)"/]
+    s10[/"Heavy Fractions (VGO, residue)"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s2
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 --> s9
+    s4 --> s6
+    s6 --> s7
+    s7 --> s8
+    s8 -->|yes| s10
+    s8 -.->|no — adjust vacuum/cut points| s7
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 processStep
+    class s3 processStep
+    class s4 processStep
+    class s5 processStep
+    class s6 processStep
+    class s7 processStep
+    class s8 decisionStep
+    class s9 outputStep
+    class s10 outputStep

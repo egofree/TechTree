@@ -19,6 +19,13 @@ Before synthetic polymers are available, civilization needs a fast-drying, non-t
 
 > *Image: Nuberger13 at en.wikipedia, Public domain*
 
+![Shellac flakes closeup](../images/polymers/polymers_shellac.jpg)
+
+> *Closeup photo of two different colors of shellac flakes, for the shellac article. The one on the left is "Orange #1 Waxy" (the most-used, classic, historically-accurate shellac), and the one on the right is "Dewaxed Bona" shellac.*
+
+> *Image: Nuberger13 at en.wikipedia, Public domain*
+
+
 - [Ethanol production](../chemistry/distillation.md) — shellac dissolves in ethanol; denatured spirit is the standard solvent
 - [Polymers overview](rubber.md) — parent node for natural polymer processing
 - Host tree access — *Butea monosperma* (palas) or *Schleichera oleosa* (kusum) trees in tropical/subtropical climate

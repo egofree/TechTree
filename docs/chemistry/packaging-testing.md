@@ -250,3 +250,5 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+![chemistry packaging testing](../images/chemistry/chemistry_packaging-testing.png)

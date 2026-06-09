@@ -200,3 +200,5 @@ Dewar production scales with vacuum technology capability:
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*
+
+![cryogenics dewar](../images/cryogenics/cryogenics_dewar.png)

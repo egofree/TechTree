@@ -21,6 +21,20 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 > *Image: No machine-readable author provided. Ragesoss assumed (based on copyright claims)., Public domain*
 
+![Glass Beach Fort Bragg 2](../images/glass/glass_advanced_glassblowing.jpg)
+
+> *The Glass beach in Fort Bragg, California.*
+
+> *Image: Jef Poskanzer, CC BY 2.0*
+
+
+
+![BlowblowAllSteps](../images/glass/glass_glassblowing-diagram.png)
+
+> *Blow and Blow process steps*
+
+> *Image: Nogrid, see also Nogrid pointsBlow, CC BY-SA 4.0*
+
 **Materials**:
 - [Borosilicate glass tubing](advanced.md) (3-50 mm OD, 0.5-2.5 mm wall) — primary raw material for lampworking
 - [Soda-lime glass melt](basic.md) — for furnace glassblowing

@@ -1,0 +1,43 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Silicon Wafer Preparation — Ingot to Prime Wafer
+
+    %% ==================== STEPS ====================
+    s1[/"Single-Crystal Si Ingot (CZ or FZ)"/]
+    s2["Crop Ends & Grind to Target Diameter (200/300mm)"]
+    s3["Orientation Flat/Notch Grinding"]
+    s4["Wire Saw Slicing (slurry or diamond wire)"]
+    s5{"Wafer Thickness within Spec (±1μm)?"}
+    s6["Lapping & Edge Rounding"]
+    s7["Chemical Etching (remove damaged layer)"]
+    s8["CMP Polishing to Mirror Finish (<5Å Ra)"]
+    s9["Final Clean (RCA-1 + RCA-2)"]
+    s10[/"Prime Silicon Wafer (epitaxy-ready)"/]
+
+    %% ==================== CONNECTIONS ====================
+    s1 --> s2
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 -->|yes| s6
+    s5 -.->|no — re-slice| s4
+    s6 --> s7
+    s7 --> s8
+    s8 --> s9
+    s9 --> s10
+
+    %% ==================== STYLING ====================
+    classDef processStep fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef inputStep fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef outputStep fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef decisionStep fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    class s1 inputStep
+    class s2 processStep
+    class s3 processStep
+    class s4 processStep
+    class s5 decisionStep
+    class s6 processStep
+    class s7 processStep
+    class s8 processStep
+    class s9 processStep
+    class s10 outputStep

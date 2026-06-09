@@ -20,6 +20,13 @@ This article covers the construction of a medium-current ion implanter (10-500 k
 
 > *Image: Guillaume Paumier (user:guillom), CC BY-SA 3.0*
 
+
+![Ion implanter schematic](../images/photolithography/photolithography_ion-implanter-diagram.png)
+
+> *Schematics of an mass separating implantation/deposition setup. Ion energy at the substrate is determined by the difference of Uaccell and Udecell. Image created using Tgif.*
+
+> *Image: Daniel Schwen, CC BY-SA 3.0*
+
 Ion implantation is the primary method for introducing dopant atoms (boron, phosphorus, arsenic) into silicon wafers at controlled concentrations and depths. Unlike thermal diffusion — where dopant concentration and junction depth are coupled — ion implantation independently controls dose (atoms/cm²) via beam current and time, and junction depth (projected range) via acceleration energy. This independent control is essential for modern device fabrication: source/drain junctions, threshold voltage adjustment, channel stops, and well formation all require precise dopant profiles that thermal diffusion cannot provide.
 
 A medium-current implanter (10-500 keV, 0.1-5 mA) handles approximately 80% of all implant steps in a typical IC process flow. The machine accelerates ions to energies of 10-500 keV, selects the desired species by mass analysis, scans the beam uniformly across the wafer, and measures the delivered dose in real time. Typical throughput: 10-30 wafers/hour. The machine requires high vacuum (10⁻⁶-10⁻⁷ Torr) throughout the beamline to prevent ion scattering, and handles some of the most toxic gases in industrial use (arsine, IDLH 3 ppm; phosphine, IDLH 50 ppm).

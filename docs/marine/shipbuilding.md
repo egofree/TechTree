@@ -10,6 +10,13 @@
 
 ## Prerequisites
 
+![Steamboat diagram cross-section 1861](../images/marine/marine_shipbuilding.jpg)
+
+> *Diagram (cross-section) of a side-wheel steamboat, showing position of cabins, boilers, engines, paddle wheels, main deck, hull and guards.  First published in 1861.*
+
+> *Image: Unknown authorUnknown author, Public domain*
+
+
 Shipbuilding requires progressively more advanced materials and tools as hull construction evolves from wood to iron to steel:
 
 - [Machine tools](../machine-tools/index.md) — precision boring, planing, and riveting for metal hull construction

@@ -1,5 +1,12 @@
 # Computing & Automation
 
+
+![Introduction to malayalam computing by santhosh thottingal](../images/computing/computing.jpg)
+
+> *kerala university malayalam computing workshop*
+
+> *Image: Indurema, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Electromechanical Computing](electromechanical.md) — Difference engines, automated machine tools (turret lathe, screw machine), punch card data processing, and tabulating machines.

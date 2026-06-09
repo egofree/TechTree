@@ -11,6 +11,13 @@
 
 ## Prerequisites
 
+![Typical Semiconductor Ultrapure Water System Configuration](../images/ultra-pure/ultra-pure_upw.jpg)
+
+> *Outline for a typical ultrapure water purification system for a semiconductor plant.*
+
+> *Image: Slava Libman, CC BY-SA 4.0*
+
+
 UPW production requires multi-stage industrial water treatment:
 
 - [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — reverse osmosis, electrodeionization, and advanced pretreatment
@@ -235,3 +242,5 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*
+
+![ultra pure reverse osmosis](../images/ultra-pure/ultra-pure_reverse-osmosis.jpg)

@@ -206,3 +206,5 @@ No single crop provides complete nutrition, and dietary diversity is essential f
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants rhus coraria](../images/plants/plants_rhus-coraria.jpeg)

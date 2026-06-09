@@ -321,3 +321,5 @@ External hemorrhoids that thrombose (form a painful clot) and internal hemorrhoi
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*
+
+![health surgery basics](../images/health/health_surgery-basics.jpg)

@@ -286,3 +286,5 @@ Seamless copper tube for domestic water supply, heating, and refrigeration. Avai
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+
+![water piping schematic](../images/water/water_piping-schematic.png)

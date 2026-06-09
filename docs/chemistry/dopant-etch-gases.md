@@ -19,6 +19,13 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 
 > *Image: E-gabrielyan, CC BY-SA 4.0*
 
+![Calculation of the chemical potential of hypothetical Van der Waals gases](../images/chemistry/chemistry_dopant-etch-gases.png)
+
+> *This is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.*
+
+> *Image: E-gabrielyan, CC BY-SA 4.0*
+
+
 - [Electrolysis](electrolysis.md) — chlorine and hydrogen production
 - [Hydrogen and silane](hydrogen-silane.md) — carrier gas and silicon source
 - [Gas handling](../gas-handling/basic.md) — piping, valves, and gas distribution
@@ -255,3 +262,5 @@ A typical semiconductor etch or CVD tool requires 6-12 gas lines converging at t
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+![chemistry dopant etch gases diagram](../images/chemistry/diagram:chemistry_dopant-etch-gases.png)

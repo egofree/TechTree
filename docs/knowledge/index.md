@@ -13,3 +13,5 @@ Capabilities in this domain:
 - [Scientific Method](scientific-method.md) — Systematic process for generating reliable knowledge through hypothesis formulation, controlled experimentation, measurement, and reproducible verification.
 
 [↑ Back to Tech Tree](../index.md)
+
+![knowledge](../images/knowledge/knowledge.jpg)

@@ -24,6 +24,13 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 
 > *Image: George Philip and Son (Londres). Auteur du texte, Public domain*
 
+
+![1910 circa anonym Fotografie Continental Caoutchouc- und Gutta-Percha-Compagnie (Continental AG) in Hannover](../images/polymers/polymers_rubber_gutta-percha.jpg)
+
+> *Fabrikgebäude der Continental Caoutchouc- und Gutta-Percha-Compagnie (Continental AG) in Hannover und eine Dame mit Hut, um 1910 fotografiert von der Eisenbahnbrücke über die Kopernikusstraße ...*
+
+> *Image: ungenannt, Public domain*
+
 ### Materials
 - [Latex](../glossary/guayule.md) from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
 - [Sulfur](../chemistry/alkalis.md) (2-4 phr, cross-linking agent)
@@ -404,3 +411,5 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
+
+![polymers rubber](../images/polymers/polymers_rubber.png)

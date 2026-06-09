@@ -206,3 +206,5 @@ health. A civilization bootstrap food system should include grains, legumes, roo
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants ephedra sinica](../images/plants/plants_ephedra-sinica.png)

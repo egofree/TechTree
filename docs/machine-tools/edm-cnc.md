@@ -12,6 +12,27 @@ Conventional machining (lathe, mill, drill — covered in [Machining](./machinin
 
 ## Electrical Discharge Machining (EDM)
 
+![EDM scheme](../images/machine-tools/machine-tools_edm-cnc-diagram.png)
+
+> *Electrical Discharge Machining scheme. 1. Pulse generator (DC) 2. Workpiece (+) 3. Fixture 4. dielectric fluid 5. Pump 6. Filter  7. Tool holder (-) 8. Spark 9. Tool*
+
+> *Image: Frank50 s, CC BY-SA 4.0*
+
+
+
+![Konturzugprogrammierung ANG](../images/machine-tools/machine-tools_cnc-diagram.png)
+
+> *Schematische Darstellung der Konturzugprogrammierung in CNC-Steuerungen: Vom Startpunkt SP wird ein Geradensatz über einen Winkel ANG (gemessen gegen den Uhrzeigersinn zur ersten Hauptachse) und eine Zielkoordinate POS auf der ersten Hauptachse zum Zielpunkt ZP definiert. Die zweite Koordinate vo...*
+
+> *Image: Dsoltau, CC BY-SA 4.0*
+
+
+![Electrochemical grinding schematic](../images/machine-tools/machine-tools_grinding-diagram.jpg)
+
+> *Schematic of electrochemical grinding*
+
+> *Image: JarOfFlies, CC BY-SA 4.0*
+
 EDM removes material by controlled electrical sparks eroding the workpiece in a dielectric fluid bath. No mechanical cutting force is applied — the tool electrode never touches the workpiece. This enables machining of any electrically conductive material regardless of hardness, including hardened tool steel (60+ HRC), tungsten carbide, and titanium alloys.
 
 ## Spark Erosion Physics
@@ -351,3 +372,5 @@ Each level requires roughly 10× the investment in machine capability, environme
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
+
+![machine tools edm cnc](../images/machine-tools/machine-tools_edm-cnc.jpg)

@@ -15,6 +15,13 @@ This capability covers the selection, harvesting, processing, and structural use
 
 ## Harvesting
 
+![Aquilegia formosa 1](../images/plants/plants_structural-plants.jpg)
+
+> *A specimen of Aquilegia formosa in Illinois, USA.*
+
+> *Image: Daniel Schwen, CC BY-SA 4.0*
+
+
 **Tree felling**:
 - **Stone axes**: Hard stone (basalt, granite) ground to a cutting edge, mounted on a handle with birch tar or rawhide binding. Slow — 1-4 hours to fell a 30 cm diameter tree. Axe blade must be wider than the handle to prevent binding.
 

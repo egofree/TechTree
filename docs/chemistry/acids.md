@@ -19,6 +19,20 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
+
+![Contact process under renewals-r6E2Uq4y6G4](../images/chemistry/chemistry_acids_contact-process.jpg)
+
+> *Speaker: Maria Eulalia Vares – IM - UFRJ..Abstract: This talk is based on joint works in collaboration with L. R. Fontes, D. Marchetti, and T. Mountford. We investigate a non-Markovian analogue of the Harris contact process on Z^d. An individual is attached to each site and it can be infected or ...*
+
+> *Image: Comunicação NeuroMat, CC BY-SA 4.0*
+
+
+![Schematic illustration of rod synaptogenesis in wild-type and horizontal cell-ablated mice](../images/chemistry/chemistry_acids-contact-process.jpg)
+
+> *Figure 5. Schematic illustration of rod synaptogenesis in wild-type and horizontal cell-ablated mice. In the wild-type retina, the rod terminal is initially contacted by a single horizontal cell process (H). The following day, another horizontal cell process is recruited and both invaginate into ...*
+
+> *Image: Nemitz L, Dedek K and Janssen-Bienhold U, CC BY 4.0*
+
 **Materials**:
 - [Elemental sulfur or pyrite](../mining/processing.md) — sulfur source for SO₂ generation
 - [Sodium nitrate (Chile saltpeter)](../mining/processing.md) — NOx source for lead chamber process

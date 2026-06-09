@@ -1,5 +1,12 @@
 # VLSI Scaling & Advanced Semiconductor
 
+
+![Supermicro Green Computing Park](../images/vlsi-scaling/vlsi-scaling.jpg)
+
+> *Supermicro Green Computing Park, San Jose, California, USA*
+
+> *Image: SMCI, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Vacuum Systems](vacuum-systems.md) — Pumps, chambers, gauges, and seals providing low-pressure environments for sputtering, evaporation, CVD, ion implantation, and e-beam lithography.

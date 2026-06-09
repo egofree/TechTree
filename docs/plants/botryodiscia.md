@@ -10,6 +10,13 @@
 
 ## Overview
 
+![Rolling Biomass to the cleanroom ESA507406](../images/plants/plants_medicinal-plants_botryodiscia.jpg)
+
+> *Following its arrival at Pariacabo harbour in Kourou, French Guiana, ESA’s Biomass satellite has been rolled out of its shipment container, which kept it protected throughout its two-week voyage from France across the Atlantic Ocean to South America.Now safely in the cleanroom at Europe’s Spacepo...*
+
+> *Image: European Space Agency, CC BY-SA 3.0 igo*
+
+
 Botryodiscia is a genus of flowering plants in the family Menispermaceae . It includes a single species, Botryodiscia tetrandra , is a herbaceous perennial vine or scrambling subshrub native native to southern China, Hainan, Taiwan, and Vietnam
 
 Botryodiscia tetrandra belongs to the Menispermaceae, the moonseed family, a group known for producing potent isoquinoline alkaloids. Several of its relatives are major medicinal plants in traditional Chinese and Southeast Asian medicine. Botryodiscia itself is a slender vine whose roots and rhizomes carry the highest concentration of these bioactive compounds. The plant is not widely cultivated and remains primarily a wild-collected species, which makes understanding its propagation and sustainable harvest practices especially relevant.
@@ -200,3 +207,5 @@ The small greenish flowers of Botryodiscia are borne in axillary clusters along 
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+
+![plants botryodiscia](../images/plants/plants_botryodiscia.jpg)

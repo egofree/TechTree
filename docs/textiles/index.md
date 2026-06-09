@@ -1,5 +1,12 @@
 # Textiles, Fiber & Cordage
 
+
+![Microstructure of Cotton Fibers 15% 10](../images/textiles/textiles.jpg)
+
+> *Twisted, interwoven cotton fibers at the micron scale with variable cellulose thickness producing delicate light interference. Captured at Satbayev University, Department of Chemical Processes and Industrial Ecology.*
+
+> *Image: Aiym Maksatkyzy, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Dyeing](dyeing.md) — Natural and synthetic dye preparation and application to textiles.
@@ -14,3 +21,5 @@ Capabilities in this domain:
 - [Carding Machine](carding-machine.md) — Mechanical carding engines for disentangling and aligning fibers for spinning preparation.
 - [Power Loom](power-loom.md) — Water and steam-powered looms for mechanized cloth weaving at industrial scale.
 [↑ Back to Tech Tree](../index.md)
+
+![textiles](../images/textiles/textiles.png)

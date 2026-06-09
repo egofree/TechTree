@@ -250,3 +250,5 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+![energy storage](../images/energy/energy_storage.png)

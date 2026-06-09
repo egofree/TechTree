@@ -338,3 +338,5 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+![chemistry sem tech lithium separation](../images/chemistry/chemistry_sem-tech-lithium-separation.png)

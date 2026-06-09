@@ -1,5 +1,12 @@
 # Photolithography & IC Fabrication
 
+
+![Precision-Recall tradeoff](../images/photolithography/photolithography.jpg)
+
+> *Fundamental trade-off between precision and recall.*
+
+> *Image: Pouria, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Cleanrooms](cleanrooms.md) — Cleanroom construction (ISO 6-4, HEPA/ULPA filtration, laminar flow, positive pressure, gowning protocols), ultra-pure water systems (RO + DI + UV + membrane filtration to 18 MΩ·cm), and cleanroom consumables (garments, wipers, gloves).
@@ -17,3 +24,5 @@ Capabilities in this domain:
 - [Ion Implanter (Construction)](ion-implanter.md) — Construction of medium-current and high-current ion implantation systems for semiconductor doping.
 - [Photolithography Stepper (Construction)](photolithography-stepper.md) — Construction of projection lithography systems for pattern transfer onto semiconductor wafers.
 [↑ Back to Tech Tree](../index.md)
+
+![photolithography](../images/photolithography/photolithography.png)

@@ -24,7 +24,7 @@ The SIK Placement Test confirms <20% overlap between marine and transport.shippi
 
 Result: standalone marine domain. Cross-reference [transport/shipping.md](../transport/shipping.md) for operational content.
 
-## Capabilities in this domain:
+Capabilities in this domain:
 
 ![Hull Construction & Shipbuilding](../images/marine/marine_shipbuilding.jpg)
 > *Image: Unknown authorUnknown author, Public domain*

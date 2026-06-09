@@ -2,16 +2,10 @@
 
 Plants are the primary biological resource for bootstrapping civilization: they provide food calories, structural materials, textile fibers, medicinal compounds, and natural dyes. This domain catalogs 117 plant species across five subcategories, from staple cereal crops to dye-yielding herbs. Many species serve multiple purposes — agave, for example, is simultaneously a food source, a fiber crop, a structural material, a source of natural dye, and a medicinal plant. Understanding which plants are available in a given climate zone and how to cultivate, harvest, and process them is foundational knowledge for any human settlement.
 
-## Subcategories
-
 ![Lalbagh Botanical Garden in Bangalore](../images/plants/plants.jpg)
 > *Image: Aren Noronha, CC BY-SA 4.0*
 
-> *Lalbagh Botanical garden in Bengaluru, Karnataka*
-
-> *Image: Aren Noronha, CC BY-SA 4.0*
-
-> *Image: Post of Brazil, Public domain*
+Capabilities in this domain:
 
 
 | Subcategory | Species Count | Description |

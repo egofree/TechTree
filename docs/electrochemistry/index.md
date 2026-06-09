@@ -58,4 +58,4 @@ No override conditions apply — no circular dependencies exist with chemistry o
 > *Image: Glogger at English Wikipedia, CC BY-SA 3.0*
 
 - [DC Rectifier](dc-rectifier.md) — Thyristor and IGBT DC power supplies providing controlled current/voltage for electroplating, anodizing, and electrolysis.
-*Part of the [Bootciv Tech Tree](../index.md) • [All Domains](../index.md)*
+[↑ Back to Tech Tree](../index.md)

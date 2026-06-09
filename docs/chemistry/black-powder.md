@@ -47,9 +47,9 @@ The combustion proceeds in two stages. Sulfur ignites first (ignition temperatur
 3. **Moisten slightly** with water (or alcohol), press into cakes in a corning mill or screw press at 5-10 MPa. The pressure compacts the mixture into a solid cake that will hold together for granulation. Corning is the process of breaking the pressed cakes into grains of specific size. The term comes from "corn" (grain), referring to the grain-like particles produced.
 4. **Dry cakes carefully** in a well-ventilated room at 30-40°C. Never use direct heat or open flame for drying. The drying room should have conductive flooring (to prevent static buildup) and be separated from other buildings by at least 30 m.
 5. **Crush and sieve** to desired grain size:
-   - **[Coarse grain](../glossary/coarse-grain.md)** (2-4 mm): slower burn, more lifting power. Used for mining and quarrying.
-   - **[Fine grain](../glossary/fine-grain.md)** (<1 mm): faster burn, more shattering. Used for firearms and blasting.
-   - **[FFFg](../glossary/fffg.md)** (extra fine): fast-burning sporting powder for small arms.
+   - **Coarse grain** (2-4 mm): slower burn, more lifting power. Used for mining and quarrying.
+   - **Fine grain** (<1 mm): faster burn, more shattering. Used for firearms and blasting.
+   - **FFFg** (extra fine): fast-burning sporting powder for small arms.
 6. **Polish (glaze)**: tumble grains with graphite powder in a rotating drum. The graphite coating reduces static sensitivity, improves flow characteristics, and provides a measure of moisture resistance.
 
 **Properties**: Burn rate 300-600 m/second (deflagration, not detonation). Produces large volume of gas (~40% of solid mass converts to gas) and solid residue (~60%, smoke and ash). Velocity of detonation: ~400 m/s (low for an explosive, this is a low explosive). Energy: 2.6 MJ/kg. Sensitive to spark, friction, and static electricity.
@@ -210,4 +210,4 @@ Drill hole (2.5-4 cm diameter, 0.5-2 m deep) with jumper drill. Clean hole with 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

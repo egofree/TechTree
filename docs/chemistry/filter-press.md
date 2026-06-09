@@ -224,4 +224,4 @@ Filter aids are inert, permeable materials added to the feed slurry or pre-coate
 **Selection criteria**: Use DE when filtrate clarity is paramount (brewing, pharmaceuticals, fine chemicals). Use perlite for bulk filtration where moderate clarity suffices. Apply as precoat (1-3 kg/m²) plus body feed (0.5-5 kg/kg solids) to maintain cake permeability throughout the filtration cycle.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

@@ -225,4 +225,4 @@ Joint design for MIG welding follows standard arc welding practice: V-groove, be
 - Keep fire extinguisher rated for Class B and C (oil and electrical fires) at each welding station
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*

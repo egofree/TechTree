@@ -203,4 +203,4 @@ The oxygen byproduct is often overlooked in planning but has real economic value
 Hydrogen can also be used directly as a reducing agent in metallurgy. Iron ore reduction with hydrogen (direct reduction iron, DRI) produces steel without coke and without CO₂ emissions, replacing the blast furnace route. This application requires enormous hydrogen volumes: roughly 60 kg H₂ per tonne of steel. A single DRI plant producing 1 million tonnes of steel per year would consume 60,000 tonnes of hydrogen, requiring roughly 3 GW of electrolyzer capacity running continuously. This scale of green hydrogen demand is what drives the push for cheaper, more efficient electrolysis technology.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*

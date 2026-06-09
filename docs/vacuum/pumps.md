@@ -68,7 +68,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 - **Gas ballast operation**: When pumping wet systems or condensable vapors, open the gas ballast valve. This admits a small amount of air during the compression stroke, preventing vapor condensation in the oil. Gas ballast raises the ultimate vacuum by ~10× (from 10⁻³ to 10⁻² Torr), but it protects the oil from contamination. Close gas ballast for the final stages of pump-down when vapor load is negligible.
 - **Exhaust filtration**: Install an oil mist eliminator on the exhaust port. Without it, the pump emits a fine oil mist that coats nearby equipment and creates a respiratory hazard. The mist eliminator (coalescing filter) captures >99% of oil droplets. Replace filter element when saturated (typically every 6-12 months).
 
-**[Scroll pump](../glossary/scroll-pump.md)** — oil-free roughing (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+**Scroll pump** — oil-free roughing (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
 
 | Parameter | Small | Medium | Large |
 |---|---|---|---|
@@ -121,7 +121,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 - **Corrosive gas service**: For pumping corrosive process gases (Cl₂, F₂, CF₄, SF₆ decomposition products), use a turbo with nickel-coated rotor and stator blades, and FKM (Viton) or PTFE seals. Standard stainless/ aluminum turbos corrode rapidly in halogen service. Purge the pump with dry N₂ after corrosive gas processing to extend life.
 - **Protection devices**: Install a foreline pressure sensor interlocked to the turbo controller. If foreline pressure exceeds the critical backing pressure (typically 1-10 mbar), the turbo stalls and the controller must shut down the pump to prevent rotor contact. Sudden pressure bursts from process upsets can destroy a turbo in seconds — a fast-acting gate valve between chamber and pump provides protection.
 
-**[Diffusion pump](../glossary/diffusion-pump.md)** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+**Diffusion pump** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
 
 | Parameter | Small (2-inch) | Medium (4-inch) | Large (6-10 inch) |
 |---|---|---|---|
@@ -281,4 +281,4 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*

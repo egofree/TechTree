@@ -280,4 +280,4 @@ Fabricate aluminum or titanium racks with spring-loaded contacts rated for maxim
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../../index.md)*

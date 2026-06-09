@@ -253,7 +253,7 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
 
 ![glass annealing diagram](../images/glass/glass_annealing-diagram.png)
 

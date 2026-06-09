@@ -254,4 +254,4 @@ Standing water breeds mosquitoes that carry malaria, dengue, and other diseases.
 - [Foundations](./index.md) — all foundational capabilities
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Foundations](./index.md) • [All Domains](../../index.md)*

@@ -204,6 +204,6 @@ valuable material for water purification in a civilization bootstrap scenario.
 Bamboo's annual renewal capacity — producing new culms each year from the same root system — gives it a significant sustainability advantage over timber trees that require decades to replace. A managed bamboo grove produces structural material continuously without replanting, making it one of the most renewable structural materials available. This perpetual productivity aligns well with the needs of a civilization that must maintain infrastructure without depleting natural resources.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
 ![plants phyllostachys edulis](../images/plants/plants_phyllostachys-edulis.jpeg)

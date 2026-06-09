@@ -277,4 +277,4 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 - [Chemistry](../chemistry/index.md) — bulk inorganic chemical production
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../../index.md)*

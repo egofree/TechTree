@@ -326,4 +326,4 @@ For 300 mm fabs, SEMI E38 (GEM300) adds capabilities specific to automated wafer
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Automation & Robotics](./index.md) • [All Domains](../../index.md)*

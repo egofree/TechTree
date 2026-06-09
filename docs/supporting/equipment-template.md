@@ -144,7 +144,7 @@ Do NOT pad to reach a word count. A thorough 250-line article covering one metho
 7. **Footer** — close every file with:
    ```
    ---
-   *Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](../spec/README.md) • [All Domains](../index.md)*
+   *Part of the [Bootciv Tech Tree](../../index.md) • [Domain Name](../spec/README.md) • [All Domains](../../index.md)*
    ```
    Or, for a simpler back-link:
    ```
@@ -337,7 +337,7 @@ A hydraulic press uses Pascal's law — pressure applied to a confined fluid tra
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](../spec/README.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](../spec/README.md) • [All Domains](../../index.md)*
 ```
 
 ---
@@ -369,4 +369,4 @@ Study the kilns article first. It demonstrates every section described in this t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Supporting Docs](./) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Supporting Docs](./) • [All Domains](../../index.md)*

@@ -236,7 +236,7 @@ LPCVD is the default for front-end-of-line films where thermal budget permits. P
 - [Electric Furnaces](../energy/electric-furnaces.md) — resistance furnace construction
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
 
 ![photolithography cvd reactor](../images/photolithography/photolithography_cvd-reactor.jpg)
 

@@ -239,4 +239,4 @@ The telegraph network established the infrastructure (pole lines, wire, right-of
 - [Railways](../transport/railways.md) — railway infrastructure that telegraph block signaling protects
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*

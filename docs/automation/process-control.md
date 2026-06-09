@@ -335,6 +335,6 @@ Before a tool is authorized to run production wafers, it must pass qualification
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Automation & Robotics](./index.md) • [All Domains](../../index.md)*
 
 ![automation process control](../images/automation/automation_process-control.jpg)

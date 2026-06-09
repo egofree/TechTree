@@ -213,4 +213,4 @@ Surface finish is indicated on drawings with a checkmark symbol (√) followed b
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../../index.md)*

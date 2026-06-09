@@ -292,4 +292,4 @@ EUV lithography operates in high vacuum (~10⁻⁵ Pa) because EUV light is abso
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Precision Motion Control](./index.md) • [All Domains](../../index.md)*

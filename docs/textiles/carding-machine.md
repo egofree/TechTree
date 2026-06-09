@@ -204,4 +204,4 @@ Carded batts feed directly into drawing frames and roving frames before reaching
 - [Bearings](../machine-tools/bearings-abrasives.md) — bearing selection for rotating drums
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*

@@ -39,4 +39,4 @@ Capabilities in this domain:
 > *Image: Unknown authorUnknown author, Public domain*
 
 - [Cream Separator](cream-separator.md) — Centrifugal cream separators for dividing whole milk into cream and skim milk.
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

@@ -246,4 +246,4 @@ Requires purpose-built or heavily modified cable ship with 3,000+ km cable capac
 - [Metals](../metals/index.md) — copper conductor production
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*

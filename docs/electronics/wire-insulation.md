@@ -239,4 +239,4 @@ This capability covers four insulation methods: **enameling** (the critical path
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*

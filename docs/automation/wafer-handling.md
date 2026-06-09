@@ -334,4 +334,4 @@ Modern process tools use cluster configurations where multiple process chambers 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Automation & Robotics](./index.md) • [All Domains](../../index.md)*

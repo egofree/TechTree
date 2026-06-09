@@ -236,6 +236,6 @@ The cable-tool method produces less formation damage than rotary drilling in som
 - Maintain spare cable, temper screw, and swivel in the tool shed to minimize downtime when the active set requires replacement
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Petroleum](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Petroleum](./index.md) · [All Domains](../../index.md)*
 
 

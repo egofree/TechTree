@@ -205,4 +205,4 @@ available from any natural source. Combined with madder (red) and weld (yellow),
 primary-color dye palette is achievable from three cultivated plants.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

@@ -385,4 +385,4 @@ The material choices for gears follow the load requirements. Light-duty gears (h
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*

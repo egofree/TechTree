@@ -275,4 +275,4 @@ The scientific method requires physical infrastructure. Start crude and iterate:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge](./index.md) • [All Domains](../../index.md)*

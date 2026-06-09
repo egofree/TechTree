@@ -14,7 +14,7 @@ Industrial acids and alkalis underpin nearly all chemical processing: ore leachi
 
 ![Acids Bases and Salts GCSE Chemistry](../images/chemistry/chemistry_acids-bases.jpg)
 
-> *GCSE Chemistry module: 'Acids, Bases and Salts' By the end of this topic you will have covered: - Acids and bases - Making salts - Carboxylic acids GCSE revision videos and apps from LearnersCloud: http://www.learnerscloud.com/student/products/gcse-chemistry To find out more and to start a free trial visit: http://www.learnerscloud.com/student/home/gcse/gcse-revision*
+> *GCSE Chemistry module: 'Acids, Bases and Salts' By the end of this topic you will have covered: - Acids and bases - Making salts - Carboxylic acids GCSE revision videos and apps from LearnersCloud: LearnersCloud GCSE Chemistry To find out more and to start a free trial visit: LearnersCloud GCSE revision*
 
 > *Image: LearnersCloud, CC BY-SA 3.0*
 
@@ -300,6 +300,6 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
 ![chemistry acids bases diagram](../images/chemistry/diagram:chemistry_acids-bases.png)

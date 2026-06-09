@@ -298,4 +298,4 @@ Emergency responders face secondary hazards during chemical incident interventio
 - [Occupational Health](../health/occupational-health.md) — General emergency first aid procedures
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*

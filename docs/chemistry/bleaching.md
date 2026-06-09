@@ -213,6 +213,6 @@ Brine quality directly affects electrolysis efficiency and electrode life. Brine
 
 For small-scale operations, a simple undivided electrolysis cell producing hypochlorite directly from brine is the most practical starting point. The equipment is minimal: two electrodes in a brine solution, a DC power supply, and a collection vessel for the hypochlorite product.
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
 ![chemistry bleaching diagram](../images/chemistry/diagram:chemistry_bleaching.jpg)

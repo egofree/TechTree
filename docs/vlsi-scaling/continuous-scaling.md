@@ -359,6 +359,6 @@ Transition to the next technology node when:
 - [Vacuum Systems](vacuum-systems.md) — vacuum requirements for scaling
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
 
 ![vlsi scaling multiple patterning](../images/vlsi-scaling/vlsi-scaling_multiple-patterning.png)

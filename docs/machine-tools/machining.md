@@ -14,7 +14,7 @@ Machining removes material from a workpiece to achieve precise geometry, surface
 
 ![Precision metal machining and welding for heavy industrial components](../images/machine-tools/machine-tools_machining.jpg)
 
-> *Workers and machinery processing heavy steel components inside a manufacturing base in Suzhou. The production line handles OEM steel parts, wind power components, and structural steel assembly. Manufactured and photographed at the facility of Suzhou Leading Top Union Technology Co., Ltd. ( https://leadingtopunion.com )*
+> *Workers and machinery processing heavy steel components inside a manufacturing base in Suzhou. The production line handles OEM steel parts, wind power components, and structural steel assembly. Manufactured and photographed at the facility of Suzhou Leading Top Union Technology Co., Ltd. *
 
 > *Image: Leadingtopunion, CC0*
 
@@ -43,7 +43,7 @@ The lathe rotates the workpiece against a stationary single-point cutting tool. 
 Reduces the outer diameter of a rotating workpiece. The workpiece is held in a chuck or between centers; the tool moves parallel to the spindle axis.
 
 **Construction steps for a turning operation** (roughing + finishing a 50 mm diameter shaft from 55 mm bar stock):
-1. Mount the workpiece in a [3-jaw chuck](../glossary/lathe-chuck.md) with 25 mm grip length. Indicate the free end with a dial indicator — runout must be <0.05 mm. Adjust if necessary.
+1. Mount the workpiece in a 3-jaw chuck with 25 mm grip length. Indicate the free end with a dial indicator — runout must be <0.05 mm. Adjust if necessary.
 2. Select an HSS roughing tool: rake angle 8-12° (positive), relief angle 8°, nose radius 0.8 mm. Mount in toolpost with the cutting edge at center height (±0.5 mm).
 3. Calculate spindle speed for roughing: RPM = (1000 × cutting speed) / (π × diameter). For mild steel with HSS at 25 m/min on 55 mm bar: RPM = (1000 × 25) / (π × 55) = 145 RPM. Set the lathe to the nearest available speed.
 4. Set roughing depth of cut: 2.5 mm (removing 5 mm from diameter). Set cross-slide to 2.5 mm on the dial. Set longitudinal feed to 0.4 mm/rev.
@@ -373,7 +373,7 @@ Uses abrasive wheels for precision finishing. The final machining step before la
 Flat workpiece on a magnetic chuck (or clamped). Horizontal-spindle grinding wheel reciprocates across the surface.
 
 **Construction steps for surface grinding a gauge block** (50 × 25 × 10 mm steel):
-1. Mount the workpiece on a [magnetic chuck](../glossary/magnetic-chuck.md). Place the workpiece on a clean chuck surface — any dirt or grit under the workpiece introduces tilt. Switch on the magnet. Verify hold by pushing the workpiece with moderate force — it must not shift.
+1. Mount the workpiece on a magnetic chuck. Place the workpiece on a clean chuck surface — any dirt or grit under the workpiece introduces tilt. Switch on the magnet. Verify hold by pushing the workpiece with moderate force — it must not shift.
 2. Select a grinding wheel: 200 mm diameter × 20 mm wide, aluminum oxide, 60 grit, K-grade (medium hardness), vitrified bond. Dress the wheel with a single-point diamond dresser: pass the dresser across the wheel face at 0.02 mm depth, 0.5 m/min cross-feed, until the full face is clean and sharp.
 3. Set wheel speed: 1500-2100 m/min peripheral speed (RPM = (1000 × 1800) / (π × 200) = 2865 RPM — check machine rating).
 4. Set the cross-feed to cover the full workpiece width in overlapping passes. Step-over: 5 mm per stroke (25% of wheel width).
@@ -438,7 +438,7 @@ Cutting speed (surface meters per minute) determines spindle RPM: **RPM = (1000 
 | Tool steel | 12-25 | 10-20 | 8-15 | 20-30 |
 | Stainless steel | 12-20 | 10-18 | 8-15 | 18-28 |
 
-**[Feed rates](../glossary/feed-rates.md)** (for HSS tools):
+**Feed rates** (for HSS tools):
 - Turning roughing: 0.3-0.6 mm/rev; finishing: 0.05-0.15 mm/rev
 - Milling: 0.05-0.3 mm/tooth (smaller for harder materials)
 - Drilling: 0.1-0.3 mm/rev (larger diameter = higher feed)
@@ -465,13 +465,13 @@ Carbon steel tool bits run at roughly 50% of HSS speeds. See [Bearings & Abrasiv
 
 Secure workholding is essential — a loose workpiece is both inaccurate and dangerous.
 
-- **[Lathe chuck](../glossary/lathe-chuck.md)** (3-jaw self-centering): Quick setup, ±0.05 mm repeatability. For round and hex stock.
-- **[Lathe chuck](../glossary/lathe-chuck.md)** (4-jaw independent): Each jaw adjusts separately. Can hold irregular shapes, achieve ±0.01 mm concentricity with dial indicator alignment.
+- **Lathe chuck** (3-jaw self-centering): Quick setup, ±0.05 mm repeatability. For round and hex stock.
+- **Lathe chuck** (4-jaw independent): Each jaw adjusts separately. Can hold irregular shapes, achieve ±0.01 mm concentricity with dial indicator alignment.
 - **Between centers**: Workpiece supported by centers in headstock and tailstock. Best concentricity. Requires drive dog and faceplate. For long shafts.
 - **Collet**: Spring-steel sleeve grips bar stock tightly. Best concentricity (±0.005 mm). Limited diameter range per collet.
 - **Milling vise**: Kurt-style precision vise. Clamp workpiece on mill table. Indicate (dial indicator) jaw for alignment to ±0.01 mm.
 - **Clamps and step blocks**: Direct clamping to mill table T-slots. For oversized or irregular workpieces. Use at least two clamps. Place clamping force over solid support (not overhanging).
-- **[Magnetic chuck](../glossary/magnetic-chuck.md)** (surface grinder): Electromagnetic or permanent magnet. Holds ferrous workpieces flat without mechanical clamps. Demagnetize workpiece after grinding.
+- **Magnetic chuck** (surface grinder): Electromagnetic or permanent magnet. Holds ferrous workpieces flat without mechanical clamps. Demagnetize workpiece after grinding.
 - **V-blocks and clamps**: Hold round stock for milling flats or drilling cross-holes. Indicate V-block alignment with dial indicator.
 
 ## Cutting Fluid Application
@@ -492,8 +492,8 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 
 ## Safety
 
-- **[Eye protection mandatory](../glossary/eye-protection-mandatory.md)** for all machining. Safety glasses (ANSI Z87.1 rated) at minimum. Face shield for grinding and boring operations that produce large chips. Chips are hot and sharp — steel chips at 300°C+ cause instant burns and lacerations.
-- **[No loose clothing, gloves, rings, or long sleeves](../glossary/no-loose-clothing-gloves-rings-or-long-sleeves.md)** near rotating machinery. Lathe chucks and drill presses are entanglement hazards — loose items are pulled in within one revolution.
+- **Eye protection mandatory** for all machining. Safety glasses (ANSI Z87.1 rated) at minimum. Face shield for grinding and boring operations that produce large chips. Chips are hot and sharp — steel chips at 300°C+ cause instant burns and lacerations.
+- **No loose clothing, gloves, rings, or long sleeves** near rotating machinery. Lathe chucks and drill presses are entanglement hazards — loose items are pulled in within one revolution.
 - **Chip management**: Use chip hook or brush — never hands. Steel chips are razor-sharp and hot (blue = 300°C+). Compressed air clearing produces airborne chips — wear safety glasses and point the air stream away from people.
 - **Workpiece security**: Verify clamping before every cut. A thrown workpiece is a lethal projectile — 5 kg at 500 RPM has kinetic energy of ~700 J.
 - **Abrasive wheels**: Ring test before mounting (suspend wheel, tap with hardwood dowel — clear ring = sound, dull thud = cracked and must be discarded). Never exceed rated speed. Use wheel guards (steel, covering 180° of wheel periphery). Dress wheels regularly to maintain sharpness and concentricity.
@@ -534,4 +534,4 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*

@@ -214,4 +214,4 @@ Shrinkage allowance: bronze shrinks approximately 1-1.5% on solidification. Patt
 - [Non-Ferrous Metals](non-ferrous.md) — brass, zinc, and other copper alloys
 - [Metal Casting](casting.md) — casting techniques in detail
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*

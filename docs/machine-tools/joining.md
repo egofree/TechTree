@@ -207,5 +207,5 @@ Metal joining processes share common hazards (burns, eye injury, toxic fumes) bu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../../index.md)*
 

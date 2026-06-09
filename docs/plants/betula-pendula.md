@@ -208,4 +208,4 @@ light enough to be portaged overland by one person, making it the ideal watercra
 the lake-and-river country of subarctic North America.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

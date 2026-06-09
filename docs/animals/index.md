@@ -105,4 +105,4 @@ Capabilities in this domain:
 
 - **[Insect Farming (BSF)](insect-farming.md)** — Black Soldier Fly larvae for protein feed, biowaste conversion.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

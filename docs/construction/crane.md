@@ -235,4 +235,4 @@ The load moment (load × radius) must not exceed the crane's rated moment. For t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Construction](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Construction](./index.md) • [All Domains](../../index.md)*

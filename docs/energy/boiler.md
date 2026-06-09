@@ -252,4 +252,4 @@ For locations with cheap electricity and no fuel supply: resistance heating elem
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*

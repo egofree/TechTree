@@ -233,4 +233,4 @@ Etch selectivity is controlled by the gas chemistry: fluorocarbon-rich mixtures 
 
 The transition from batch etching to single-wafer etching in the late 1980s was driven by the need for better uniformity control as feature sizes shrank below one micrometer. Single-wafer tools allow independent control of each wafer's process conditions, improving yield at the cost of lower throughput. Modern etch chambers process one wafer at a time with cycle times of tens of seconds to several minutes depending on the etch depth and selectivity requirements.
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Photolithography](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Photolithography](./index.md) · [All Domains](../../index.md)*

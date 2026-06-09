@@ -280,4 +280,4 @@ Understanding why equines behave and fail in specific ways makes the management 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*

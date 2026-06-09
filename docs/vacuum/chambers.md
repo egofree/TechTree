@@ -257,4 +257,4 @@ A virtual leak is a trapped volume of gas inside the vacuum system that slowly r
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*

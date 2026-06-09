@@ -40,7 +40,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
   - **Quality testing**: Online resistivity monitoring, particle counting, TOC (total organic carbon) analysis
 
 ## Operational Protocols
-- **[Gowning sequence](../glossary/gowning-sequence.md)** (order matters — cover dirtiest areas first):
+- **Gowning sequence** (order matters — cover dirtiest areas first):
   1. Hair cover (bouffant cap — covers all hair, no exposed scalp)
   2. Shoe covers (over-shoe booties — seal around ankle)
   3. Face mask (covers nose and mouth — source of breath droplets)
@@ -245,6 +245,6 @@ The floor is a critical contamination control surface and must meet several requ
 - [HEPA/ULPA Filtration](../cleanrooms/hepa-ulpa-filtration.md) — air filtration technology
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
 
 ![photolithography cleanroom class](../images/photolithography/photolithography_cleanroom-class.jpg)

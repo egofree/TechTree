@@ -272,4 +272,4 @@ Peanuts are unique among legumes in producing their seed pods underground. The p
 Peanuts are nitrogen-fixing legumes that add 50-150 kg of nitrogen per hectare to the soil, making them excellent rotation crops. The plant thrives in sandy, well-drained soils with warm temperatures (25-30°C optimal). Peanut hay (the above-ground biomass after pod harvest) provides nutritious animal fodder containing 8-12% protein. The pressed oil cake from oil extraction contains 40-50% protein and serves as high-quality animal feed.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

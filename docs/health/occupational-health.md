@@ -323,4 +323,4 @@ Occupational health practitioners face hazards specific to the surveillance and 
 - [Ceramics / Kiln Firing](../ceramics/kiln-firing.md) — silica dust and heat stress
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Health](./index.md) • [All Domains](../../index.md)*

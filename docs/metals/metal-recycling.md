@@ -262,6 +262,6 @@ Bronze Age metalworkers recycled bronze routinely — broken tools and weapons w
 - [Chemical Recovery](../chemistry/chemical-recovery.md) — solvent and acid recovery from metal processing
 - [Tailings Reprocessing](../mining/tailings-reprocessing.md) — recovering residual metals from mine tailings
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
 
 ![metals metal recycling diagram](../images/metals/diagram:metals_metal-recycling.jpg)

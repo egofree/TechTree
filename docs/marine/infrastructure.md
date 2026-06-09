@@ -12,7 +12,7 @@
 
 ![Bulkheads and longitudinals](../images/marine/marine_infrastructure.png)
 
-> *A schematic showing the make-up of a ship with its longitudinals, bulkheads and compartments. The schematic was based on the image at http://www.encyclopedia-titanica.org/titanic-hidden-deck.html. As mentioned there and at http://www.titanic-titanic.com/titanic_watertight_compartments.shtml, the ...*
+> *A schematic showing the make-up of a ship with its longitudinals, bulkheads and compartments. The schematic was based on the image at Encyclopedia Titanica (hidden deck). As mentioned there and at Titanic-Titanic.com (watertight compartments), the ...*
 
 > *Image: KVDP, Public domain*
 
@@ -368,7 +368,7 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 - [Hull Construction](shipbuilding.md) — shipbuilding for cable ships and construction vessels
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../../index.md)*
 
 ![marine cutaway submarine](../images/marine/marine_cutaway-submarine.png)
 

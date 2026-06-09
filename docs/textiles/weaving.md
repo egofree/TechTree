@@ -33,11 +33,11 @@ Weaving interlaces warp (lengthwise) and weft (crosswise) yarns to create cloth 
 
 ## Weaving & Cloth Production
 
-**[Frame loom](../glossary/frame-loom.md)** (simplest):
+**Frame loom** (simplest):
 - **Construction**: Rectangular wooden frame. Warp (lengthwise) threads tied top and bottom. Weft (crosswise) thread passed over and under warp by hand. Heddle bar (flat stick with holes and slots) lifts alternate warp threads to create shed (gap for weft passage). Width: 30-60 cm. Length limited by frame size.
 - **Production**: Very slow (~0.5-1 m²/hour), but requires minimal construction.
 
-**[Pit loom / treadle loom](../glossary/pit-loom-treadle-loom.md)** (production-scale):
+**Pit loom / treadle loom** (production-scale):
 - **Construction**: Heavy wooden frame, 1-1.5 m weaving width. Warp wrapped around cloth beam (front) and warp beam (back). Treadles (foot pedals) raise and lower shafts (frames holding heddles — string or wire loops, one per warp thread). 2-8 shafts for different weave structures. Beater (reed frame) packs weft tight.
 - **Operation**: Depress treadle → shaft lifts → shed opens → throw shuttle (boat shuttle carrying weft yarn) through shed → beat weft with beater → change treadle → repeat. Rhythm: 30-60 picks (weft passes) per minute.
 - **Production**: 1-3 m²/hour of medium-weight cloth. A weaver can produce ~5-10 m² of cloth per day.
@@ -88,9 +88,9 @@ Building a floor loom requires ~20-30 board-feet of hardwood and basic iron hard
 
 Heddles are the loops that hold individual warp threads and allow them to be raised and lowered in groups:
 
-- **[String heddles](../glossary/string-heddles.md)** (simplest, field-expedient): Tie strong linen or cotton cord into loops on a jig (wooden block with two pegs set 25-30 cm apart — the heddle length). Each loop has an eye (Midway knot or square knot) at the center through which a warp thread passes. Time-consuming to make (2-3 minutes per heddle) but requires no special materials. A 60 cm wide cloth at 20 epi needs 480 string heddles — approximately 15-25 hours of knotting. String heddles stretch with use and must be replaced periodically.
-- **[Wire heddles](../glossary/wire-heddles.md)** (standard production): Bend thin iron or brass wire (0.5-0.8 mm diameter) into flat loops with a centered eye. A heddle bending jig (wooden block with steel pins) produces uniform heddles in seconds. Wire heddles are thinner, more durable, and last for years of continuous use. Density: 5-12 dents per cm (12-30 per inch) depending on yarn fineness. Fine cotton (Ne 40-60) requires 10-12 dents/cm with 0.5 mm wire. Coarse wool requires 4-6 dents/cm with 0.8 mm wire. Each heddle has a centered eye (3-5 mm opening). A 100 cm wide warp at 20 epi requires 800 heddles per shaft — 1,600 for a 2-shaft plain weave loom.
-- **[Rigid heddle](../glossary/rigid-heddle.md)** (single-shaft loom): A flat frame with alternating slots and holes. Warp threads pass through either a slot (moves with the frame) or a hole (raises/lowers when the frame is lifted/dropped). Simplest shedding mechanism — one rigid heddle replaces all individual heddles and shafts for plain weave. Width: 30-100 cm. Materials: flat cane, bamboo, or plastic (historically: reed, bone, or wood). Produces plain weave only. Good for beginners and simple fabrics.
+- **String heddles** (simplest, field-expedient): Tie strong linen or cotton cord into loops on a jig (wooden block with two pegs set 25-30 cm apart — the heddle length). Each loop has an eye (Midway knot or square knot) at the center through which a warp thread passes. Time-consuming to make (2-3 minutes per heddle) but requires no special materials. A 60 cm wide cloth at 20 epi needs 480 string heddles — approximately 15-25 hours of knotting. String heddles stretch with use and must be replaced periodically.
+- **Wire heddles** (standard production): Bend thin iron or brass wire (0.5-0.8 mm diameter) into flat loops with a centered eye. A heddle bending jig (wooden block with steel pins) produces uniform heddles in seconds. Wire heddles are thinner, more durable, and last for years of continuous use. Density: 5-12 dents per cm (12-30 per inch) depending on yarn fineness. Fine cotton (Ne 40-60) requires 10-12 dents/cm with 0.5 mm wire. Coarse wool requires 4-6 dents/cm with 0.8 mm wire. Each heddle has a centered eye (3-5 mm opening). A 100 cm wide warp at 20 epi requires 800 heddles per shaft — 1,600 for a 2-shaft plain weave loom.
+- **Rigid heddle** (single-shaft loom): A flat frame with alternating slots and holes. Warp threads pass through either a slot (moves with the frame) or a hole (raises/lowers when the frame is lifted/dropped). Simplest shedding mechanism — one rigid heddle replaces all individual heddles and shafts for plain weave. Width: 30-100 cm. Materials: flat cane, bamboo, or plastic (historically: reed, bone, or wood). Produces plain weave only. Good for beginners and simple fabrics.
 
 ## Reed Making
 
@@ -144,7 +144,7 @@ Two ends per dent (sleying 2/dent) produces a denser cloth for the same reed. Ho
 
 **Tabby (plain weave)**: Over 1, under 1, alternating. Simplest, strongest, least flexible. For canvas, sheeting, bandages. 2 shafts required. Balanced tabby (same yarn weight for warp and weft) produces uniform, stable cloth.
 
-**[Twill](../glossary/twill.md)** (2/2 interlacing): Each weft thread passes over two warp threads and under two, with the interlacing point shifting one thread on each successive pick. Creates the characteristic diagonal rib visible on the fabric surface. The diagonal angle depends on the ratio of warp density to weft density: equal densities produce a 45° diagonal. Twill drapes better than plain weave because the longer floats allow more yarn mobility. 4 shafts minimum for basic 2/2 twill. Variants: 1/3 twill (steeper diagonal, one side smoother), 2/1 twill (unbalanced, one side dominant). For clothing, work garments.
+**Twill** (2/2 interlacing): Each weft thread passes over two warp threads and under two, with the interlacing point shifting one thread on each successive pick. Creates the characteristic diagonal rib visible on the fabric surface. The diagonal angle depends on the ratio of warp density to weft density: equal densities produce a 45° diagonal. Twill drapes better than plain weave because the longer floats allow more yarn mobility. 4 shafts minimum for basic 2/2 twill. Variants: 1/3 twill (steeper diagonal, one side smoother), 2/1 twill (unbalanced, one side dominant). For clothing, work garments.
 
 **Satin**: Each weft thread floats over 4+ warp threads before interlacing under one. The interlacing points are distributed so no two are adjacent in either direction, producing a smooth, lustrous surface with minimal visible texture. Requires 5+ shafts. Weaker than twill (long floats snag easily) but valued for linings, ribbons, and formal garments. The "sateen" variant puts the floats on the weft side rather than warp side.
 
@@ -212,7 +212,7 @@ Hemp canvas preferred for sails (rot-resistant, strong when wet) until cotton ca
 
 Woven cloth straight off the loom ("loomstate" or "greige" goods) requires finishing to become usable fabric:
 
-- **[Fulling](../glossary/fulling.md)** (wool): Agitate cloth in hot water (40-60°C) with mild alkali (fuller's earth / aluminum silicate clay, or stale urine as ammonia source). The scales on wool fibers open and interlock (felting), causing the cloth to shrink 15-25% in length and width. Fulling densifies the fabric, makes it warmer and more windproof, and locks the weave structure permanently. Control the shrinkage carefully — over-fulling produces stiff, narrow cloth.
+- **Fulling** (wool): Agitate cloth in hot water (40-60°C) with mild alkali (fuller's earth / aluminum silicate clay, or stale urine as ammonia source). The scales on wool fibers open and interlock (felting), causing the cloth to shrink 15-25% in length and width. Fulling densifies the fabric, makes it warmer and more windproof, and locks the weave structure permanently. Control the shrinkage carefully — over-fulling produces stiff, narrow cloth.
 - **Washing/scouring** (cotton and linen): Wash in hot water (60-80°C) with soap or soda ash to remove spinning oil, warp sizing (starch or flour paste applied to warp for strength during weaving), and dirt. Cotton and linen shrink 3-8% in the first wash. Multiple wash cycles may be needed for heavily sized warps.
 - **Stretching (tentering)**: Stretch damp cloth on a tenter frame (wooden frame with hooks on adjustable bars spaced every 2-5 cm along both edges). Cloth dries under tension to the desired width and straight grain. Tenter hooks give us the phrase "on tenterhooks." Dry in shade — sun yellows wool and fades dyed cloth.
 - **Calendering**: Press the dried, finished cloth between heated rollers (calender) to smooth the surface and impart a slight sheen. Not essential but improves the hand (feel) and appearance. A flat stone or heavy wooden beam dragged across the cloth on a flat table is the simplest calendering method.
@@ -283,4 +283,4 @@ Systematic inspection catches defects before cloth is cut or sold:
 - [Electricity](../energy/electricity.md) — power for power looms
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*

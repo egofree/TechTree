@@ -393,7 +393,7 @@ Select your lithography system based on target node and available capital:
 - [Advanced Lithography](advanced-lithography.md) — next-generation lithography
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
 
 ![vlsi scaling moore law](../images/vlsi-scaling/vlsi-scaling_moore-law.jpg)
 

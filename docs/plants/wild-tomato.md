@@ -259,4 +259,4 @@ Harvest fruits when fully colored but still firm. Pick regularly to encourage co
 Wild tomato (*Solanum pimpinellifolium*) is the ancestor of all cultivated tomatoes. It produces small (1-2 cm) red fruits with intense flavor and higher disease resistance than modern cultivars. The plant self-seeds readily and tolerates heat, drought, and salinity better than domesticated varieties. For seed saving, ferment the pulp for 2-3 days to remove the germination-inhibiting gel, then wash and dry seeds.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

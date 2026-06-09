@@ -205,6 +205,6 @@ Ash is one of the best firewoods available in Europe, burning hot and long with 
 This species represents an important component of a diversified food production system.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
 ![plants fraxinus excelsior](../images/plants/plants_fraxinus-excelsior.jpeg)

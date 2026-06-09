@@ -17,4 +17,4 @@ Capabilities in this domain:
 <!-- TODO: source image for Formal Systems -->
 - [Formal Systems](formal-systems.md) — Boolean algebra, information theory, and computation theory: the mathematical foundations of digital logic, communication systems, and algorithmic reasoning.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

@@ -205,4 +205,4 @@ This article covers construction of the primary foundry equipment. For casting p
 - [Hydraulic Press](hydraulic-press.md) — press construction using cast components
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*

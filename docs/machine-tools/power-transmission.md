@@ -287,4 +287,4 @@ For bootstrapping, flat belts on flat pulleys are the practical first choice. Th
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*

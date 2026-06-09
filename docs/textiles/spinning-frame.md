@@ -246,4 +246,4 @@ Line shaft drives (multiple frames from one power source via overhead shafting a
 - [Energy](../energy/index.md) — power sources for driving spinning frames
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*

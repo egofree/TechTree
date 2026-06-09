@@ -205,4 +205,4 @@ This species represents an important component of a diversified food production 
 No single crop provides complete nutrition, and dietary diversity is essential for human
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

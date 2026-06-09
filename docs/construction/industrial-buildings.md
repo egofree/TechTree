@@ -489,4 +489,4 @@ Every joint in an industrial building is a potential failure point. Joints must 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../../index.md)*

@@ -243,4 +243,4 @@ Lentils are among the most drought-tolerant grain legumes, producing reliable yi
 Lentils are self-pollinating with a low outcrossing rate (less than 0.5%), making seed saving straightforward and reliable. Selected varieties breed true from seed, allowing communities to maintain and improve their own lentil germplasm without specialized breeding programs. This genetic stability makes lentils an excellent crop for seed-saving traditions and local adaptation.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

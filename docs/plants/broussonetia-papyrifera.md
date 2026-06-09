@@ -208,4 +208,4 @@ available, requiring no spinning, weaving, or complex tools. A flat surface, a m
 fresh bark are sufficient to produce serviceable fabric.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

@@ -440,7 +440,7 @@ Adopt EDA capabilities in this sequence as compute resources grow:
 - [Computer Architecture](../computing/computer-architecture.md) — GPU and processor design
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
 
 ![vlsi scaling packaging diagram](../images/vlsi-scaling/vlsi-scaling_packaging-diagram.png)
 

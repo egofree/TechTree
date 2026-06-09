@@ -409,4 +409,4 @@ PPE storage, fit-testing, and donning/doffing areas need adequate ventilation to
 Air changes per hour (ACH) is calculated as: ACH = (CFM × 60) / room volume in cubic feet. Example: a 10 × 12 × 8 foot room (960 ft³) needs 4 ACH × 960 / 60 = 64 CFM of supply air at minimum.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*

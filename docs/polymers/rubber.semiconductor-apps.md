@@ -240,6 +240,6 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
 
 ![polymers rubber semiconductor apps](../images/polymers/polymers_rubber-semiconductor-apps.jpg)

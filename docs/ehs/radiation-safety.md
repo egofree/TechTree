@@ -288,4 +288,4 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../../index.md)*

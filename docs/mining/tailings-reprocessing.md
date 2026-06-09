@@ -270,6 +270,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../../index.md)*
 
 ![mining tailings reprocessing diagram](../images/mining/diagram:mining_tailings-reprocessing.jpg)

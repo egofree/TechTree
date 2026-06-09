@@ -281,4 +281,4 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*

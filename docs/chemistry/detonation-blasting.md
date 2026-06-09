@@ -21,10 +21,10 @@ High explosives (dynamite, TNT, ANFO) cannot be initiated by flame or spark alon
 
 **Blasting Cap Evolution**:
 
-1. **[Mercury fulminate caps](../glossary/mercury-fulminate-caps.md)** (1860s-1920s): Hg(ONC)₂ primary explosive pressed into copper or aluminum shell. Initiated by safety fuse. Unstable in hot climates (decomposes above 50°C). Mercury toxicity.
-2. **[Lead azide caps](../glossary/lead-azide-caps.md)** (1920s-present): Pb(N₃)₂ primary explosive. More stable than mercury fulminate. Higher initiating energy. Slightly hygroscopic. Standard blasting cap filling.
-3. **[Electric caps](../glossary/electric-caps.md)** (1900s-present): Bridge wire heated by electric current ignites primary charge. Precise timing with delay elements (pyrotechnic delay compositions providing 25 ms to 1000 ms delays) for sequential blasting. Enables controlled blasts with dozens of holes detonated in precise sequence.
-4. **[Non-electric (shock tube)](../glossary/non-electric-shock-tube.md)** (1970s-present): Hollow plastic tube (3 mm OD) with thin coating of explosive dust (HMX + aluminum) on inner wall. Initiated by starter, propagates shock at ~2,000 m/s to detonator. Immune to radio frequency, static electricity, and stray currents. Safer than electric caps near power lines.
+1. **Mercury fulminate caps** (1860s-1920s): Hg(ONC)₂ primary explosive pressed into copper or aluminum shell. Initiated by safety fuse. Unstable in hot climates (decomposes above 50°C). Mercury toxicity.
+2. **Lead azide caps** (1920s-present): Pb(N₃)₂ primary explosive. More stable than mercury fulminate. Higher initiating energy. Slightly hygroscopic. Standard blasting cap filling.
+3. **Electric caps** (1900s-present): Bridge wire heated by electric current ignites primary charge. Precise timing with delay elements (pyrotechnic delay compositions providing 25 ms to 1000 ms delays) for sequential blasting. Enables controlled blasts with dozens of holes detonated in precise sequence.
+4. **Non-electric (shock tube)** (1970s-present): Hollow plastic tube (3 mm OD) with thin coating of explosive dust (HMX + aluminum) on inner wall. Initiated by starter, propagates shock at ~2,000 m/s to detonator. Immune to radio frequency, static electricity, and stray currents. Safer than electric caps near power lines.
 
 **Initiating Systems**:
 
@@ -213,4 +213,4 @@ Choosing the right explosive for a task requires matching the explosive's proper
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

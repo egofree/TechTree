@@ -379,4 +379,4 @@ Wafer charging during high-current implantation requires active charge neutraliz
 - [CVD](cvd.md) — complementary deposition process
 - [PVD](pvd.md) — complementary deposition process
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Photolithography](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Photolithography](./index.md) · [All Domains](../../index.md)*

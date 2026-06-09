@@ -235,4 +235,4 @@ Plantains differ from dessert bananas in their higher starch content and lower s
 Plantain is a staple food for over 70 million people across tropical Africa, Latin America, and Southeast Asia. The crop produces year-round in equatorial regions with no distinct growing season, providing a continuous food supply. Plantain flour, made by drying and grinding unripe fruits, stores for months and can be used for breads, porridges, and thickening agents. The flour is gluten-free and rich in complex carbohydrates, potassium, and dietary fiber.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

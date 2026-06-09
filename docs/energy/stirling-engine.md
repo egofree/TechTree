@@ -206,4 +206,4 @@ For a bootstrapping civilization, the Stirling engine occupies a niche between s
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*

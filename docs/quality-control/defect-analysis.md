@@ -401,6 +401,6 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 - [Computing](../computing/index.md) — automated defect classification and yield simulation
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../../index.md)*
 
 ![quality control defect analysis](../images/quality-control/quality-control_defect-analysis.jpg)

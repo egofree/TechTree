@@ -223,4 +223,4 @@ Every glass-to-metal seal must be verified for hermeticity:
 The development of glass-to-metal seals was essential for the vacuum tube era (1904–1960s). Early tubes used platinum wire leads sealed through soda-lime glass — expensive but reliable because platinum's CTE (~9 × 10⁻⁶/°C) matches soda-lime glass. The invention of Kovar in 1930 by the Westinghouse Electric Corporation made mass-produced vacuum tubes economically feasible by replacing platinum with an affordable iron-nickel-cobalt alloy. This single material innovation reduced tube production costs by ~10× and enabled the consumer electronics revolution (radios, televisions) of the mid-20th century. The same Kovar-to-borosilicate seal technology carried over directly into early transistor packages (1950s–1960s) and remains in use today for high-reliability hermetic packages.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*

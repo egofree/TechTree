@@ -218,4 +218,4 @@ A 2,000 L batch stirred-tank reactor for a neutralization reaction (acid + base 
 Impeller tip speed is the primary mechanical design constraint. For standard steel impellers, the maximum tip speed is 5-8 m/s before vibration and bearing loads become excessive. For glass-lined steel impellers (corrosion-resistant), the maximum is 3-5 m/s due to the brittleness of the glass coating. The relationship between tip speed, diameter, and RPM: v_tip = π × D × N / 60. For a 450 mm Rushton turbine at 120 RPM: v_tip = π × 0.45 × 120 / 60 = 2.8 m/s — well within limits.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

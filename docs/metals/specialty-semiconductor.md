@@ -330,6 +330,6 @@ These four metals converge at specific points in GPU fabrication:
 - [Refractory Metals](refractory-metals.md) — high-melting-point metals for tooling
 - [Aluminum](aluminum.md) — aluminum interconnects and metallization
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
 
 ![metals specialty semiconductor](../images/metals/metals_specialty-semiconductor.jpg)

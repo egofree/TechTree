@@ -368,4 +368,4 @@ Cryogenic distillation is the only method that produces all three products at hi
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*

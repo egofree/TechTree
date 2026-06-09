@@ -98,7 +98,7 @@ The traditional method used by professional charcoal burners (colliers) for cent
 - **Loading**: Pack wood tightly from bottom to top through the top opening. Close the top with an iron sheet or stone slab once loaded (leave a small vent).
 - **Ignition**: Ignite from bottom through the grate using kindling. The fire spreads upward through the wood charge.
 - **Air control**: Adjust air intake with a door or sliding damper at the base. More air = faster burn but more complete combustion (less yield). Less air = slower, more efficient carbonization.
-- **[Cover top](../glossary/cover-top.md)** with iron sheet or stone slab when smoking properly.
+- **Cover top** with iron sheet or stone slab when smoking properly.
 - **Yield**: ~30-40% by weight. Can be reused hundreds of times. More consistent quality than pit method.
 - **Cycle time**: 8-24 hours for firing, 12-24 hours cooling.
 

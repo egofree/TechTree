@@ -227,4 +227,4 @@ Minimum economic scale: a 5 kW single-cylinder engine (200 mm bore × 300 mm str
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*

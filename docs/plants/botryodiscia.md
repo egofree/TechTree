@@ -206,6 +206,6 @@ The small greenish flowers of Botryodiscia are borne in axillary clusters along 
 ### Botryodiscia Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
 ![plants botryodiscia](../images/plants/plants_botryodiscia.jpg)

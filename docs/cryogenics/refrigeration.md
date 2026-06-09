@@ -367,6 +367,6 @@ Key decision: Below -150°C, conventional vapor-compression stops working — th
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*
 
 ![cryogenics refrigeration](../images/cryogenics/cryogenics_refrigeration.png)

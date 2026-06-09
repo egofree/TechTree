@@ -263,4 +263,4 @@ Commit the design to a custom silicon fabrication. Highest performance, lowest p
 - [Passive Components](../electronics/passive-components.md) — resistors, capacitors, and inductors for logic circuit bias and decoupling
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*

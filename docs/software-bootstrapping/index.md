@@ -76,4 +76,4 @@ Each capability builds on the one before it. The chain is strictly sequential be
 
 This is analogous to the [Machine Tools](../machine-tools/index.md) domain's Precision Ladder — each stage enables the next with increasing capability.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

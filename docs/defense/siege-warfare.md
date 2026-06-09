@@ -409,4 +409,4 @@ The terrain around a fortification constrains which siege methods are viable and
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing siege resources
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*

@@ -251,4 +251,4 @@ The fundamental equation for heat exchanger design is Q = U × A × ΔT_lm, wher
 The design iteration: start with Q and estimated U → calculate required A → select tube count, length, shell diameter → calculate actual U and pressure drop → iterate until converged. Most designs converge in 3-5 iterations.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

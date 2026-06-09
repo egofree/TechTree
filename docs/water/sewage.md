@@ -271,4 +271,4 @@ The most common secondary treatment method in industrialized nations. Requires e
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

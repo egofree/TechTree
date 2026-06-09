@@ -49,4 +49,4 @@ Capabilities in this domain:
 > *Image: Clem Rutter, Rochester, Kent., CC BY-SA 3.0*
 
 - [Power Loom](power-loom.md) — Water and steam-powered looms for mechanized cloth weaving at industrial scale.
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

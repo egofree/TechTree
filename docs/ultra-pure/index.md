@@ -19,4 +19,4 @@ Capabilities in this domain:
 <!-- TODO: source image for Analytical Verification -->
 - [Analytical Verification](analytical-verification.md) — PPT-level contamination detection: ICP-MS (0.1-10 ppt metals), TOC analysis, ion chromatography, laser particle counting, dissolved oxygen monitoring
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

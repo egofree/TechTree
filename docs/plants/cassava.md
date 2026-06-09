@@ -279,4 +279,4 @@ pesticide), tolerates poor acidic soils, and yields reliably even in drought yea
 and beans fail entirely.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

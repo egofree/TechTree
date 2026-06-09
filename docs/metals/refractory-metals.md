@@ -448,4 +448,4 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 - [Machining](../machine-tools/machining.md) — tungsten carbide cutting tools
 - [Passive Components](../electronics/passive-components.md) — tantalum capacitors
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*

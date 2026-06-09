@@ -12,10 +12,10 @@
 Basic pottery and fireclay refractories serve well up to about 1200-1400°C. Beyond that — for steel furnaces, glass tanks, silicon processing, and chemical reactors — you need advanced ceramics: materials engineered for extreme temperatures, chemical resistance, wear resistance, and electrical insulation. This capability transforms ceramics from a craft into an industrial materials science.
 
 The jump from earthenware to technical ceramics requires:
-- **[Purer raw materials](../glossary/purer-raw-materials.md)** (mined bauxite, zircon sand, quartzite rather than common clay)
-- **[Higher firing temperatures](../glossary/higher-firing-temperatures.md)** (1600-2200°C, requiring improved kilns and fuel)
-- **[Precision forming](../glossary/precision-forming.md)** (dry pressing, isostatic pressing, slip casting with controlled rheology)
-- **[Controlled atmospheres](../glossary/controlled-atmospheres.md)** (reducing, inert, or vacuum sintering)
+- **Purer raw materials** (mined bauxite, zircon sand, quartzite rather than common clay)
+- **Higher firing temperatures** (1600-2200°C, requiring improved kilns and fuel)
+- **Precision forming** (dry pressing, isostatic pressing, slip casting with controlled rheology)
+- **Controlled atmospheres** (reducing, inert, or vacuum sintering)
 
 
 ## Materials
@@ -33,7 +33,7 @@ The jump from earthenware to technical ceramics requires:
 - **Caustic soda** (NaOH) — from [Alkali production](../chemistry/acids-bases.md)
 - **Stabilizer oxides** (Y₂O₃, CaO, MgO) — from [Mining](../mining/processing.md) of mineral deposits
 - **Silicon metal powder** — from [Silicon production](../silicon/crystal-growth.md)
-- **[Fire clay](../glossary/calcine.md)** (kaolin-rich, high alumina) — from clay beds near coal measures
+- **Fire clay** (kaolin-rich, high alumina) — from clay beds near coal measures
 
 ## Tools and Equipment
 
@@ -152,7 +152,7 @@ Zirconia combines extreme temperature resistance (up to 2200°C) with excellent 
 
 ### Prerequisites
 
-- [Zircon sand](../mining/index.md) (ZrSiO₄, from heavy mineral sand deposits) or [baddeleyite](../glossary/baddeleyite.md) (natural ZrO₂)
+- [Zircon sand](../mining/index.md) (ZrSiO₄, from heavy mineral sand deposits) or baddeleyite (natural ZrO₂)
 - [Sodium hydroxide](../chemistry/index.md) (NaOH, for alkali fusion)
 - [Hydrochloric or sulfuric acid](../chemistry/index.md) (HCl or H₂SO₄, for precipitation)
 - Stabilizer oxides: Y₂O₃ (5-12 mol%), CaO (5-15 mol%), or MgO (5-15 mol%)
@@ -378,7 +378,7 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 
 ### Prerequisites
 
-- [Fire clay](../glossary/calcine.md) (kaolin-rich, 25-45% Al₂O₃, from clay beds near coal measures)
+- Fire clay (kaolin-rich, 25-45% Al₂O₃, from clay beds near coal measures)
 - [Bauxite](../mining/index.md) (for high-alumina brick, 50-95% Al₂O₃)
 - [Quartzite](../mining/index.md) (for silica brick, ≥95% SiO₂)
 - [Magnesite](../mining/index.md) (for magnesia brick, MgO source)
@@ -515,7 +515,7 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 ## Dust Hazards (Silicosis)
 
 Many ceramic raw materials produce fine dust during crushing, grinding, and powder handling:
-- **[Crystalline silica](../glossary/crystalline-silica.md)** (quartz, cristobalite, tridymite): Causes silicosis — irreversible lung scarring. Exposure limit: 0.025 mg/m³ respirable (ACGIH TLV). Wet grinding wherever possible. Respiratory protection (P100 mask minimum) during all dry powder handling.
+- **Crystalline silica** (quartz, cristobalite, tridymite): Causes silicosis — irreversible lung scarring. Exposure limit: 0.025 mg/m³ respirable (ACGIH TLV). Wet grinding wherever possible. Respiratory protection (P100 mask minimum) during all dry powder handling.
 - **Alumina dust**: Less hazardous than silica but still a respiratory irritant. Maintain <5 mg/m³.
 - **Ceramic fiber**: Suspected carcinogen. Handle with full respiratory protection and protective clothing.
 
@@ -534,8 +534,8 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 
 ## Chemical Hazards
 
-- **[HF etching](../glossary/hf-etching.md)** of ceramics requires full acid-handling PPE: face shield, HF-rated gloves (neoprene), apron. Calcium gluconate gel must be immediately available (HF antidote for skin exposure). HF causes deep tissue burns with delayed pain — exposure may not be felt for hours.
-- **[Binders and solvents](../glossary/binders-and-solvents.md)** used in ceramic processing (PVA, PEG, organic solvents) require standard chemical safety practices. Use in ventilated areas.
+- **HF etching** of ceramics requires full acid-handling PPE: face shield, HF-rated gloves (neoprene), apron. Calcium gluconate gel must be immediately available (HF antidote for skin exposure). HF causes deep tissue burns with delayed pain — exposure may not be felt for hours.
+- **Binders and solvents** used in ceramic processing (PVA, PEG, organic solvents) require standard chemical safety practices. Use in ventilated areas.
 
 
 ## Incoming Raw Material Inspection
@@ -594,4 +594,4 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*

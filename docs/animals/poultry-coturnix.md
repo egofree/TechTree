@@ -245,4 +245,4 @@ For bootstrapping purposes, a starting kit of 30 day-old chicks, 50 kg of starte
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*

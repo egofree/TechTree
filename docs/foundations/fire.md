@@ -233,4 +233,4 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 - [Plants Index](../plants/index.md) — plant processing with fire
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Foundations](./index.md) • [All Domains](../../index.md)*

@@ -280,6 +280,6 @@ Furnace performance does not scale linearly with size. Understanding scaling law
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
 ![energy furnace design diagram](../images/energy/diagram:energy_furnace-design.jpg)

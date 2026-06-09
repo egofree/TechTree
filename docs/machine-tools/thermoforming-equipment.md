@@ -209,6 +209,6 @@ Thermoforming requires thermoplastic sheet — most commonly HIPS (high-impact p
 - Heating time scales with sheet thickness²: a 6 mm sheet takes 4× longer to heat than 3 mm.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
 
 ![machine tools thermoforming equipment](../images/machine-tools/machine-tools_thermoforming-equipment.jpg)

@@ -240,4 +240,4 @@ Pipe ends are prepared according to the joining method. Cast iron pipes use bell
 - [Metal Casting](casting.md) — downstream capability
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*

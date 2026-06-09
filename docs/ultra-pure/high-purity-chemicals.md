@@ -314,4 +314,4 @@ Chemical purification at electronic grade involves concentrated acids, volatile 
 - [Photolithography Fab Processes](../photolithography/fab-processes.md) — the processes consuming these chemicals
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../../index.md)*

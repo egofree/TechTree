@@ -221,4 +221,4 @@ The medium-current implanter described in this article is the most versatile —
 - [Advanced Processes](../vlsi-scaling/advanced-processes.md) — ion implantation for sub-250 nm nodes
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*

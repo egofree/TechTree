@@ -211,6 +211,6 @@ Riveting scales from individual workshop practice to industrial production:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../../index.md)*
 
 ![machine tools casting](../images/machine-tools/machine-tools_casting.jpg)

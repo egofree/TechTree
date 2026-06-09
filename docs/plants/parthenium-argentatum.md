@@ -205,6 +205,6 @@ Guayule rubber production was revived during the 2000s due to concerns about lat
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
 ![plants parthenium argentatum](../images/plants/plants_parthenium-argentatum.jpeg)

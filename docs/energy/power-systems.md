@@ -203,7 +203,7 @@ Proper handling of batteries, electrical components, and replacement parts ensur
 - Regular thermal imaging surveys of electrical connections identify developing hot spots before they cause equipment damage or fire.
 - Schedule UPS battery capacity tests during planned production downtimes to avoid risk to active wafers
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
 
 ![energy power systems](../images/energy/energy_power-systems.jpg)
 

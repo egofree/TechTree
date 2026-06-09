@@ -26,7 +26,7 @@ Natural abrasives require no industrial infrastructure — they are collected fr
 - **Pumice**: Volcanic glass, porous and lightweight. Fine polishing of wood, metal, and stone. Available near volcanic regions.
 - **Sandstone**: Natural grinding wheels. Dress (shape) with iron dresser. Moderate hardness — adequate for sharpening tools and grinding soft metals.
 - **Quartz sand**: Ground to powder, sieved to grade. Lapping and grinding compound. Readily available everywhere.
-- **[Jeweler's rouge](../glossary/jewelers-rouge.md)** (iron oxide, Fe₂O₃): Fine polishing compound. Heat steel wool or iron filings in open air until red-hot. Grind resulting oxide to fine powder. Produces mirror-like finish on metals.
+- **Jeweler's rouge** (iron oxide, Fe₂O₃): Fine polishing compound. Heat steel wool or iron filings in open air until red-hot. Grind resulting oxide to fine powder. Produces mirror-like finish on metals.
 - **Tripoli**: Silica-based polishing compound from natural deposits. Fine finish on soft metals (brass, copper, aluminum).
 - **Garnet**: Moderate hardness natural abrasive. Used in sandpaper and abrasive blasting. Found in metamorphic rock deposits.
 
@@ -78,8 +78,8 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 
 ## Synthetic Abrasives (Require Electric Arc Furnace)
 
-- **[Silicon carbide (SiC)](../glossary/silicon-carbide-sic.md)** — Acheson process: Silica sand + petroleum coke, heat in electric furnace to 2200-2500°C for 36-48 hours. SiO₂ + 3C → SiC + 2CO. Green to black crystalline mass. Crush, grade. Harder than aluminum oxide (9.5 Mohs), sharp fracture pattern — ideal for grinding glass, stone, cast iron, and non-ferrous metals.
-- **[Aluminum oxide (Al₂O₃)](../glossary/aluminum-oxide-alo.md)** — Bauxite fused in electric arc furnace at 2000-2200°C. Cool, crush, grade. Tougher than SiC (less brittle), better for grinding steel and alloys. 9 Mohs.
+- **Silicon carbide (SiC)** — Acheson process: Silica sand + petroleum coke, heat in electric furnace to 2200-2500°C for 36-48 hours. SiO₂ + 3C → SiC + 2CO. Green to black crystalline mass. Crush, grade. Harder than aluminum oxide (9.5 Mohs), sharp fracture pattern — ideal for grinding glass, stone, cast iron, and non-ferrous metals.
+- **Aluminum oxide (Al₂O₃)** — Bauxite fused in electric arc furnace at 2000-2200°C. Cool, crush, grade. Tougher than SiC (less brittle), better for grinding steel and alloys. 9 Mohs.
 
 **Construction steps for synthetic abrasive production** (SiC):
 1. Mix silica sand (SiO₂, >98% purity, 0.5-1 mm grain size) with petroleum coke (carbon, >95% fixed carbon) at a 1:3 molar ratio by weight. Add 2-5% sawdust as porosity agent.
@@ -136,7 +136,7 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 
 **Lapping construction steps**:
 1. Cast a lapping plate from gray cast iron, 200-300 mm diameter × 20-30 mm thick. Machine the working surface flat to 0.002 mm over the full diameter on a surface grinder. Cut three radial grooves (2 mm wide × 1 mm deep) spaced 120° apart to distribute abrasive slurry.
-2. Prepare lapping compound: mix graded abrasive (600-1200 grit, 5-25 μm particle size) with medium-viscosity mineral oil or [vegetable oil](../glossary/vegetable-oil.md) to a paste consistency (approximately 3:1 abrasive to oil by weight).
+2. Prepare lapping compound: mix graded abrasive (600-1200 grit, 5-25 μm particle size) with medium-viscosity mineral oil or vegetable oil to a paste consistency (approximately 3:1 abrasive to oil by weight).
 3. Apply a thin, even layer of compound to the lapping plate surface. Place the workpiece on the plate.
 4. Rub the workpiece in a figure-8 pattern, applying firm, even downward pressure (5-15 N for a 50 mm diameter workpiece). Rotate the workpiece 90° every 30-60 seconds to ensure uniform material removal.
 5. Clean the workpiece and measure. Material removal rate: 0.001-0.01 mm per hour. Continue lapping until target flatness and finish are achieved.
@@ -178,7 +178,7 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 ## Thread Cutting on Lathe
 
 **Construction steps for thread cutting setup**:
-1. Mount workpiece in [lathe chuck](../glossary/lathe-chuck.md) (3-jaw self-centering for round stock, ±0.05 mm runout). Face the end and turn a pilot diameter 0.1-0.2 mm below the thread major diameter for the first 3-5 mm of length — this pilot guides the threading tool.
+1. Mount workpiece in lathe chuck (3-jaw self-centering for round stock, ±0.05 mm runout). Face the end and turn a pilot diameter 0.1-0.2 mm below the thread major diameter for the first 3-5 mm of length — this pilot guides the threading tool.
 2. Install change gears between spindle and leadscrew for the desired pitch. Gear ratio = (pitch to cut / leadscrew pitch) × (stud gear teeth / lead gear teeth). Example: to cut M8×1.25 with a 4 mm leadscrew, ratio = 1.25/4 × stud/lead = 0.3125. Use a 25-tooth stud gear and 80-tooth lead gear (25/80 = 0.3125).
 3. Grind threading tool to 60° included angle with a tool grinding fixture. Tip radius: 0.05-0.15 mm for coarse threads, 0.02-0.05 mm for fine threads. Verify angle with a thread profile gauge (±0.5°).
 4. Set compound rest to 29-30° (half the thread angle + 0.5°) so the tool feeds along the leading flank only, reducing cutting force and improving chip flow.
@@ -202,7 +202,7 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 ## Tap and Die Production
 
 **Construction steps for a hand tap**:
-1. Turn [HSS](../glossary/hardness-retained-to-600c.md) rod to nominal diameter +0.05 mm (e.g., 8.05 mm for M8 tap) on a lathe between centers. Turn the shank to 6.0 mm for a tap wrench fit, with a 1 mm radius shoulder transition.
+1. Turn HSS rod to nominal diameter +0.05 mm (e.g., 8.05 mm for M8 tap) on a lathe between centers. Turn the shank to 6.0 mm for a tap wrench fit, with a 1 mm radius shoulder transition.
 2. Cut 3-4 longitudinal flutes using a milling cutter on the lathe or milling machine. Flute depth: 2-3 mm for an 8 mm tap. Flute spacing: equal (90° for 4 flutes, 120° for 3 flutes). Flute helix angle: 0° (straight flutes for hand taps).
 3. Cut the thread profile between the flutes on the lathe using the thread cutting procedure above. Thread depth: 0.614 × pitch.
 4. Grind the chamfer on the cutting end. Taper tap: 7-10 threads chamfered (lead angle ~4°). Plug tap: 3-5 threads chamfered (lead angle ~8°). Bottoming tap: 1-2 threads chamfered (lead angle ~15°).
@@ -215,12 +215,12 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 
 **Materials specifications**: HSS M2 round stock (8 mm diameter × 80 mm long), cutting oil (sulfurized mineral oil), oil-hardening salt bath (BaCl₂, 1250°C).
 
-**[Taps](../glossary/taps.md)** (cut internal threads): Three-tap set:
+**Taps** (cut internal threads): Three-tap set:
 - **Taper tap**: 7-10 chamfered threads at the tip — starts easily, used to begin the thread.
 - **Plug tap**: 3-5 chamfered threads — general purpose, most commonly used.
 - **Bottoming tap**: 1-2 chamfered threads — threads to the bottom of blind holes.
 
-**[Dies](../glossary/dies.md)** (cut external threads): Hardened steel plate with threaded hole and 3-4 cutting edges, split by adjustable slot for controlling cut depth. Die stock holds die and provides leverage for hand turning.
+**Dies** (cut external threads): Hardened steel plate with threaded hole and 3-4 cutting edges, split by adjustable slot for controlling cut depth. Die stock holds die and provides leverage for hand turning.
 
 **Thread gauges**: Go/no-go gauges for each thread size. "Go" gauge threads fully into the hole/part. "No-go" gauge does not enter. Essential for quality control.
 
@@ -293,7 +293,7 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 ## High-Speed Steel (HSS)
 
 - **Composition**: Tungsten (18%), chromium (4%), vanadium (1%), carbon (0.7-0.8%) — classic T1 grade. M2 grade (more common): 6% W, 5% Mo, 4% Cr, 2% V, 0.85% C.
-- **[Hardness retained to ~600°C](../glossary/hardness-retained-to-600c.md)** — 3-5× faster cutting than carbon steel. The "red hardness" property means HSS tools cut effectively even when glowing dull red.
+- **Hardness retained to ~600°C** — 3-5× faster cutting than carbon steel. The "red hardness" property means HSS tools cut effectively even when glowing dull red.
 - **Manufacturing**: Melt alloy in electric furnace, cast into ingots, forge to shape, heat treat (austenitize at 1250-1300°C, quench in oil or salt bath, triple temper at 540-570°C — three tempering cycles of 1-2 hours each to convert retained austenite and relieve stress).
 - **Cutting speed**: 20-45 m/min for steel, 40-80 m/min for cast iron, 100-200+ m/min for aluminum.
 - **Availability**: Requires tungsten, chromium, and vanadium from mining or chemistry. Not available at the very beginning of the machine tools stage, but becomes the standard once alloy elements are sourced.
@@ -378,4 +378,4 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*

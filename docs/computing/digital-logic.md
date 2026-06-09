@@ -24,7 +24,7 @@ From these three, all other operations derive. Key identities: A • 0 = 0, A �
 
 - **NAND**: (A • B)̄. A universal gate: any Boolean function can be implemented using NAND gates alone.
 - **NOR**: (A + B)̄. Also universal.
-- **[XOR](../glossary/xor.md)** (exclusive-OR): A ⊕ B = A·B̄ + Ā·B. Output is 1 when inputs differ. Used in parity checking and adders.
+- **XOR** (exclusive-OR): A ⊕ B = A·B̄ + Ā·B. Output is 1 when inputs differ. Used in parity checking and adders.
 - **XNOR**: (A ⊕ B)̄. Output is 1 when inputs match. Used in comparators.
 
 ## CMOS Inverter
@@ -289,4 +289,4 @@ Building digital logic from discrete transistors is educational but impractical 
 - [Electromechanical Computing](electromechanical.md) — relay-based predecessors
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*

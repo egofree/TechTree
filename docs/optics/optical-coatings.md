@@ -260,4 +260,4 @@ Proper handling of input materials and products is essential for consistent resu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Optics](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Optics](./index.md) · [All Domains](../../index.md)*

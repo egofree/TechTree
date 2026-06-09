@@ -340,4 +340,4 @@ Low-temperature solar thermal applications do not require concentration:
 - **[Iron & Steel](../metals/iron-steel.md)** — Structural steel for collector mounts and piping
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*

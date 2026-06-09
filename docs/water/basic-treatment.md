@@ -282,4 +282,4 @@ The key scaling breakpoint is the jump from household to community scale: this r
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

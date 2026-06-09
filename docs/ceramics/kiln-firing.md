@@ -399,6 +399,6 @@ The loading pattern inside the kiln also changes with scale. A small top-loading
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Ceramics](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Ceramics](./index.md) · [All Domains](../../index.md)*
 
 ![ceramics forming methods](../images/ceramics/ceramics_forming-methods.jpg)

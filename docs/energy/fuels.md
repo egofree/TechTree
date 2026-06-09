@@ -39,7 +39,7 @@ The bootstrap sequence progresses through fuels in rough order of refinement: wo
 
 ## Prerequisites
 
-- **Materials**: [Wood](../glossary/wood.md) (hardwood, seasoned 6-12 months to <20% moisture), [coal](coal.md) (bituminous or anthracite — requires mining), [limestone](../ceramics/lime.md) (flux for coking), [petroleum crude](../chemistry/petroleum-alternatives.md) (requires drilling and pumping), [vegetable oil](../plants/fiber-plants.md) (pressed from oil seeds), [methanol or ethanol](../chemistry/petroleum-alternatives.md) (for biodiesel transesterification)
+- **Materials**: Wood (hardwood, seasoned 6-12 months to <20% moisture), [coal](coal.md) (bituminous or anthracite — requires mining), [limestone](../ceramics/lime.md) (flux for coking), [petroleum crude](../chemistry/petroleum-alternatives.md) (requires drilling and pumping), [vegetable oil](../plants/fiber-plants.md) (pressed from oil seeds), [methanol or ethanol](../chemistry/petroleum-alternatives.md) (for biodiesel transesterification)
 - **Tools**: [Axe and saw](../machine-tools/index.md) for wood harvesting, [charcoal kiln or pit](charcoal.md) for pyrolysis, [coke oven](coke.md) (beehive or by-product), [distillation column](../chemistry/petroleum-alternatives.md) for petroleum fractions, [gasifier](./index.md) (for producer gas generation), [press](../machine-tools/index.md) for vegetable oil extraction
 - **Knowledge**: Combustion chemistry (stoichiometric air-fuel ratios, incomplete combustion, CO formation), pyrolysis and carbonization, fractional distillation (boiling point separation), calorimetry (measuring fuel energy content), flash point and auto-ignition temperature
 - **Infrastructure**: Fuel storage (dry, ventilated, separated from ignition sources), transport (carts, barrels, pipelines for liquid/gaseous fuels), ventilation for enclosed combustion spaces, CO detectors for all fuel-burning installations
@@ -103,15 +103,15 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 
 ## Petroleum-Derived Fuels
 
-- **[Gasoline](../glossary/gasoline.md)** (30-150°C fraction): ~46 MJ/kg. Spark-ignition engines, the highest energy-density liquid fuel commonly available. Highly volatile, low flash point (-40°C). Vapors form explosive mixtures with air.
-- **[Kerosene](../glossary/kerosene.md)** (150-250°C fraction): ~43-46 MJ/kg. Lamp fuel, heating, jet engine precursor. Higher flash point (37-65°C) — safer to store and handle than gasoline. The first petroleum product widely commercialized (illumination).
-- **[Diesel / gas oil](../glossary/dieselgas-oil.md)** (250-350°C fraction): ~45 MJ/kg. Compression-ignition engines, industrial heating. Flash point >52°C. Lubricating and stable.
-- **[Fuel oil / residual](../glossary/fuel-oil-residual.md)** (>350°C): ~40-42 MJ/kg. Boiler fuel, large-scale industrial heat. Viscous — may require preheating for atomization in burners.
+- **Gasoline** (30-150°C fraction): ~46 MJ/kg. Spark-ignition engines, the highest energy-density liquid fuel commonly available. Highly volatile, low flash point (-40°C). Vapors form explosive mixtures with air.
+- **Kerosene** (150-250°C fraction): ~43-46 MJ/kg. Lamp fuel, heating, jet engine precursor. Higher flash point (37-65°C) — safer to store and handle than gasoline. The first petroleum product widely commercialized (illumination).
+- **Diesel / gas oil** (250-350°C fraction): ~45 MJ/kg. Compression-ignition engines, industrial heating. Flash point >52°C. Lubricating and stable.
+- **Fuel oil / residual** (>350°C): ~40-42 MJ/kg. Boiler fuel, large-scale industrial heat. Viscous — may require preheating for atomization in burners.
 
 ## Bio-Derived Liquid Fuels
 
-- **[Ethanol](../glossary/ethanol.md)** (C₂H₅OH): ~26 MJ/kg. Fermented from grain, sugar, or starch feedstocks and distilled to 95%+ purity. Burns cleanly in lamps, stoves, and modified engines. Independent of petroleum — producible from agriculture alone. Production: [Fermentation Chemistry](../chemistry/petroleum-alternatives.md).
-- **[Methanol](../glossary/methanol.md)** (CH₃OH): ~20 MJ/kg. Obtained from wood pyrolysis (low yield, ~1-2%) or synthesized from CO + H₂ over catalyst. Solvent and fuel extender. Highly toxic if ingested — causes blindness.
+- **Ethanol** (C₂H₅OH): ~26 MJ/kg. Fermented from grain, sugar, or starch feedstocks and distilled to 95%+ purity. Burns cleanly in lamps, stoves, and modified engines. Independent of petroleum — producible from agriculture alone. Production: [Fermentation Chemistry](../chemistry/petroleum-alternatives.md).
+- **Methanol** (CH₃OH): ~20 MJ/kg. Obtained from wood pyrolysis (low yield, ~1-2%) or synthesized from CO + H₂ over catalyst. Solvent and fuel extender. Highly toxic if ingested — causes blindness.
 - **Vegetable oil**: ~37-40 MJ/kg. Pressed from oil seeds (rapeseed, sunflower, palm). Can be used directly in diesel engines (with preheating and filtration) or transesterified to biodiesel. Also used for lamps in the absence of kerosene.
 
 ## Liquid Fuel Comparison
@@ -186,12 +186,12 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 
 The fuel chain is a dependency chain, and each fuel unlocks higher temperatures and cleaner combustion:
 
-1. **[Wood](../glossary/wood.md)** → heating, cooking, pottery (600-900°C)
-2. **[Charcoal](../glossary/charcoal.md)** → copper/bronze smelting, iron smelting (1100-1300°C)
-3. **[Coal](../glossary/coal.md)** → steam boilers, coking feedstock (1200-1400°C)
-4. **[Coke](../glossary/coke.md)** → blast furnace iron, silicon reduction (1800-2100°C)
-5. **[Petroleum fractions](../glossary/petroleum-fractions.md)** → internal combustion engines, high-energy-density transport
-6. **[Synthetic gases](../glossary/synthetic-gases.md)** → chemical feedstock, flexible fuel supply
+1. **Wood** → heating, cooking, pottery (600-900°C)
+2. **Charcoal** → copper/bronze smelting, iron smelting (1100-1300°C)
+3. **Coal** → steam boilers, coking feedstock (1200-1400°C)
+4. **Coke** → blast furnace iron, silicon reduction (1800-2100°C)
+5. **Petroleum fractions** → internal combustion engines, high-energy-density transport
+6. **Synthetic gases** → chemical feedstock, flexible fuel supply
 
 The bootstrap cannot skip steps. Each fuel requires the infrastructure of the previous stage: you need kilns to make charcoal before you can smelt iron; you need iron tools to mine coal before you can make coke; you need coke-fired furnaces before you can reduce silicon.
 
@@ -265,6 +265,6 @@ Transesterification produces biodiesel with properties much closer to petroleum 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
 ![energy fuels coal diagram](../images/energy/diagram:energy_fuels-coal.jpg)

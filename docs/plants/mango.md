@@ -262,4 +262,4 @@ Mango is one of the most widely cultivated tropical fruits, with over 1,000 name
 Mango is the most widely cultivated tropical fruit worldwide, with annual production exceeding 50 million tonnes. India alone produces over 40% of the world's mangoes. The fruit is rich in vitamins A and C, dietary fiber, and antioxidants. Mango processing — including drying, canning, juice extraction, and pickle production — extends the fruit's availability beyond its relatively short harvest season.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

@@ -380,4 +380,4 @@ Key rule: Use compressed gas for small, intermittent demand. Switch to cryogenic
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*

@@ -349,4 +349,4 @@ Lead-halide perovskite (CH₃NH₃PbI₃) cells have reached >25% lab efficiency
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*

@@ -21,7 +21,7 @@
 
 > *Ingersoll-Rand Class AA-2 air compressor cross section 1910. Longitudinal section through air cylinders and intercooler of the class "AA-2" compressor, showing the ample air passages and large intercooler.*
 
-> *Image: https://books.google.com/books?id=H2RNAAAAYAAJ
+> *Image: Google Books (id: H2RNAAAAYAAJ)
 Ingersoll-Rand products, Volume 1
 Author	Ingersoll-Rand Company
 Publisher	Mason-Henry Press, 1910
@@ -228,4 +228,4 @@ The number of compression stages determines both efficiency and discharge temper
 - [Iron & Steel](../metals/iron-steel.md) — materials for pressure-containing components
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*

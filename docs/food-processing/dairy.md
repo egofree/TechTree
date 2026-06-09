@@ -280,4 +280,4 @@ The transformation of fresh curd into aged cheese involves complex biochemical c
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*

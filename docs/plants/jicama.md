@@ -258,6 +258,6 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
 ![plants jicama](../images/plants/plants_jicama.jpeg)

@@ -330,4 +330,4 @@ A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, ste
 - [Solvents](../chemistry/solvents.md) — petroleum-derived solvents
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../../index.md)*

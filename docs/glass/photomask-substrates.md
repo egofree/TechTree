@@ -235,6 +235,6 @@ Damaged or obsolete photomask blanks can be reclaimed, reducing the cost of subs
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
 
 ![glass photomask substrates](../images/glass/glass_photomask-substrates.png)

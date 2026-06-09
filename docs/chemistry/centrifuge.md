@@ -250,4 +250,4 @@ The disc stack centrifuge (also called a disc bowl centrifuge) uses a stack of c
 Compared to a tubular centrifuge of the same diameter and speed, the disc stack provides 5-10× the effective settling area. This allows either higher throughput at the same separation sharpness, or sharper separation at the same throughput. The trade-off is mechanical complexity: the disc stack must be precisely aligned (disc spacing tolerance ±0.1 mm), and disassembly for cleaning requires careful reassembly. Disc materials are typically 316L stainless steel, with the disc stack pressed onto a central spindle nut.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

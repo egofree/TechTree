@@ -294,4 +294,4 @@ Milling produces valuable byproducts beyond flour:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*

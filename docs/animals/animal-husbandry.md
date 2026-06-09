@@ -250,4 +250,4 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 - [Textiles](../textiles/spinning.md) — wool fiber processing chain
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals](./index.md) • [All Domains](../../index.md)*

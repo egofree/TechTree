@@ -290,4 +290,4 @@ Why the 14-16 hour light requirement matters: Egg production in chickens is trig
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*

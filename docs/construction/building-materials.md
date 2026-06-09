@@ -431,6 +431,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../../index.md)*
 
 ![construction foundation types](../images/construction/construction_foundation-types.png)

@@ -62,4 +62,4 @@ Capabilities in this domain:
 > *Image: a13ean, CC BY-SA 3.0*
 
 - [Photolithography Stepper (Construction)](photolithography-stepper.md) — Construction of projection lithography systems for pattern transfer onto semiconductor wafers.
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

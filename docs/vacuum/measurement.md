@@ -270,4 +270,4 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*

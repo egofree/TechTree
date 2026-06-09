@@ -232,7 +232,7 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 
 ### Calibration and Verification
 
-1. **Thermocouple check** (if available): Insert [Type K thermocouple](../glossary/type-k-thermocouple.md) through spy hole into ware chamber. Verify peak temperature reaches 900-1000°C.
+1. **Thermocouple check** (if available): Insert Type K thermocouple through spy hole into ware chamber. Verify peak temperature reaches 900-1000°C.
 2. **Cone test**: Place pyrometric cones (cone 06 to cone 04, corresponding to 999-1060°C) in the ware chamber. If cone bends to touch its base, rated temperature was reached.
 3. **Test tiles**: Fire clay test tiles with the ware. Break after cooling: well-fired tile should ring when struck, show uniform color throughout, and have <10% water absorption.
 
@@ -300,7 +300,7 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 
 1. **Draft measurement**: Light a small fire in the firebox. Hold a smoky torch at the spy hole — smoke should be drawn into the kiln and up the chimney within 10-15 seconds. If not, chimney may be too short or flues blocked.
 2. **Temperature mapping**: Place pyrometric cones at 4-6 locations within the ware chamber during first firing. Compare cone deformation — should be within ±1 cone number (±20°C) across the chamber.
-3. **Thermocouple verification**: [Type K](../glossary/type-k-thermocouple.md) (up to 1250°C) or [Type S](../glossary/type-s-thermocouple.md) (up to 1600°C). Insert at multiple locations. Target: 1200-1300°C sustained for 30-60 minutes.
+3. **Thermocouple verification**: Type K (up to 1250°C) or Type S (up to 1600°C). Insert at multiple locations. Target: 1200-1300°C sustained for 30-60 minutes.
 4. **Cooling rate test**: After reaching peak temperature, seal kiln and measure temperature drop. Should not exceed 100°C/hour for the first 4 hours to prevent thermal shock damage to ware.
 
 ### Expected Performance
@@ -621,4 +621,4 @@ When [Electricity](../energy/electricity.md) is available:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*

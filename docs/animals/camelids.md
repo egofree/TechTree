@@ -28,7 +28,7 @@ South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) 
 
 ![A llama and its offspring - geograph.org.uk - 1801614](../images/animals/animals_camelids.jpg)
 
-> *A llama and its offspring. Llamas in pasture beside the driveway to Priory Farm &gt; 1801601. Whatever it was that the youngster did, its mother is not amused. Llamas are members of the camelid family and originate from South America, where they are used as a pack animals, and for fibre and meat production. An adult llama is between 1.60 to 1.80 metres tall at the top of the head. http://en.wikipedia.org/wiki/Llama. Apart from their different sizes, llamas can be distinguished from alpacas by the shape and size of their ears: alpacas &gt; https://www.geograph.org.uk/photo/740556 have shorter and straight ears whereas the ears of llamas are banana-shaped.*
+> *A llama and its offspring. Llamas in pasture beside the driveway to Priory Farm &gt; 1801601. Whatever it was that the youngster did, its mother is not amused. Llamas are members of the camelid family and originate from South America, where they are used as a pack animals, and for fibre and meat production. An adult llama is between 1.60 to 1.80 metres tall at the top of the head. Wikipedia: Llama. Apart from their different sizes, llamas can be distinguished from alpacas by the shape and size of their ears: alpacas &gt; Geograph (photo 740556) have shorter and straight ears whereas the ears of llamas are banana-shaped.*
 
 > *Image: Evelyn Simak, CC BY-SA 2.0*
 
@@ -279,4 +279,4 @@ Camelids evolved in the Andes at 3,500-5,000 m elevation, where air pressure is 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*

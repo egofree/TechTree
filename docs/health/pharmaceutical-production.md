@@ -261,4 +261,4 @@ Yield: typically 70-85% of theoretical. Each 500 mg aspirin tablet requires ~0.5
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*

@@ -326,4 +326,4 @@ Waste treatment operators handle concentrated chemical streams that are often mo
 - [Semiconductor Chemicals](../chemistry/semiconductor-chemicals.md) — Chemical supply chain
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*

@@ -154,4 +154,4 @@ Image processing: R. Colombari &amp; M. Zamani (NSF NOIRLab), CC BY 4.0*
 > *Image: Chris, CC BY-SA 2.0*
 
 - [Biogas Digester](biogas-digester.md) — Anaerobic digestion systems converting organic waste to methane biogas for cooking, heating, and power generation.
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

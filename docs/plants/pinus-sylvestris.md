@@ -208,4 +208,4 @@ remains flexible in cold weather and resists softening in heat. Pine pitch was t
 waterproofing material for wooden ships throughout the age of sail.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

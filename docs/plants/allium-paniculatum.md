@@ -212,4 +212,4 @@ The crushed bulbs of pale garlic produce a mild onion aroma, less pungent than g
 ### Allium paniculatum Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

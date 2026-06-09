@@ -212,4 +212,4 @@ The membrane cell has become the global standard for new chlor-alkali constructi
 The cost of perfluorinated membranes has decreased steadily as production volumes have increased, making membrane cells economically competitive even in developing regions.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*

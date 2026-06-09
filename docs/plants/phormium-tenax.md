@@ -205,4 +205,4 @@ growing season length) determine its geographic suitability. Matching crops to l
 conditions is more important than attempting to grow unsuitable crops in marginal
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

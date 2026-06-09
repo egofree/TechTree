@@ -390,6 +390,6 @@ Corn-dependent populations that do not treat corn with alkali develop pellagra b
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
 
 ![health nutrition](../images/health/health_nutrition.jpg)

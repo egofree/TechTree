@@ -371,4 +371,4 @@ HF penetrates skin rapidly because the fluoride ion is small and lipophilic at l
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../../index.md)*

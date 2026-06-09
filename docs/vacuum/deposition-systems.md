@@ -310,4 +310,4 @@ Deposition systems require regular maintenance to sustain performance. Vacuum pu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*

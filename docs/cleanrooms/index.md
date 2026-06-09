@@ -20,4 +20,4 @@ Capabilities in this domain:
 
 - [Facility Design & HVAC](facility-design.md) — Positive pressure cascading (10-25 Pa), modular wall panel construction, raised perforated flooring, ceiling grid systems, make-up air handling, temperature/humidity control (22±0.5°C, 43±3% RH), and airlock pressure cascade design.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

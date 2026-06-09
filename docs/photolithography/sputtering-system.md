@@ -234,4 +234,4 @@ Sputtering is the default for metals (good adhesion, uniform, alloy-compatible).
 - [Core Fab Processes](fab-processes.md) — how sputtering fits into the IC fabrication flow
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*

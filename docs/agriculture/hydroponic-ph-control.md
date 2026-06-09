@@ -364,6 +364,6 @@ Based on lettuce production in nutrient film technique (NFT) channels, 1,000 L r
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
 
 ![agriculture hydroponic ph control](../images/agriculture/agriculture_hydroponic-ph-control.jpg)

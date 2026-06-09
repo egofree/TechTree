@@ -307,4 +307,4 @@ Decision criterion: Use HRC fuses when available fault current >65 kA or when pr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*

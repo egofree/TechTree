@@ -309,4 +309,4 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing fortification labor
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*

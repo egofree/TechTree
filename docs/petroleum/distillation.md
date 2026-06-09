@@ -206,4 +206,4 @@ The crude oil desalter is often overlooked but is critical to reliable distillat
 - Verify desalter wash water quality (low hardness, low dissolved oxygen) to prevent scaling and corrosion in the desalter and downstream heat exchangers
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Petroleum](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Petroleum](./index.md) · [All Domains](../../index.md)*

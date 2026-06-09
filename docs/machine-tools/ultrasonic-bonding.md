@@ -206,4 +206,4 @@ Ribbon bonding using flat aluminum or copper ribbon instead of round wire provid
 - Store bonding wire in sealed containers with desiccant to prevent surface oxidation
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*

@@ -251,4 +251,4 @@ Pyrethrin (from Chrysanthemum cinerariifolium) has low mammalian toxicity (oral 
 Mix and apply botanical pesticides wearing nitrile gloves, safety goggles, and an N95 respirator. Spray on calm days (wind <10 km/h) to avoid drift. Do not apply pyrethrin within 24 hours of harvest — residues degrade to below detection in 12-24 hours of sunlight exposure but persist longer in shade. Store concentrates in labeled, sealed containers away from food and animal feed. Keep rotenone out of waterways — it is highly toxic to fish (LC₅₀ for trout: 2-6 μg/L, meaning 2-6 parts per billion kills half of exposed fish).
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals](./index.md) • [All Domains](../../index.md)*

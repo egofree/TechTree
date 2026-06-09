@@ -303,4 +303,4 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*

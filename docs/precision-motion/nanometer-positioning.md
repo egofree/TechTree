@@ -360,4 +360,4 @@ Mechanical resonances in the stage structure limit the achievable feedback bandw
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Precision Motion Control](./index.md) • [All Domains](../../index.md)*

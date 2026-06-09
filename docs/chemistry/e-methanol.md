@@ -209,6 +209,6 @@ The RWGS pathway requires an additional catalyst (typically iron-chrome or coppe
 The choice between direct CO₂ hydrogenation and the RWGS-mediated route depends on catalyst availability and the desired operating pressure and temperature.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
 ![chemistry e methanol](../images/chemistry/chemistry_e-methanol.jpg)

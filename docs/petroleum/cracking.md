@@ -268,4 +268,4 @@ The decant oil (slurry oil) drawn from the bottom of the FCC main fractionator i
 - Track fresh catalyst inventory and lead time for delivery; some specialty catalyst grades require 6-12 months of advance ordering
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Petroleum](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Petroleum](./index.md) · [All Domains](../../index.md)*

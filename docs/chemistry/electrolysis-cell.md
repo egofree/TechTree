@@ -12,7 +12,7 @@
 
 ![Microbial electrolysis cell](../images/chemistry/chemistry_electrolysis-cell.png)
 
-> *A schematic of a microbial electrolysis cell (MFC). Instructions on making a MFC can be found at http://www.engr.psu.edu/ce/enve/logan/bioenergy/mfc_make_cell.htm*
+> *A schematic of a microbial electrolysis cell (MFC). Instructions on making a MFC can be found at Penn State MFC instructions*
 
 > *Image: Zina Deretsky, National Science Foundation (NSF), User:KVDP, Public domain*
 
@@ -253,4 +253,4 @@ The ion-exchange membrane is the most critical and expensive component of a memb
 | Oxygen depolarized cathode (ODC) | 1.8-2.1 | 95-97 | 1,400-1,600 | 30% less energy, requires pure O₂ feed |
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

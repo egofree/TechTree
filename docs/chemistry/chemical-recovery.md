@@ -230,6 +230,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
 ![chemistry chemical recovery diagram](../images/chemistry/diagram:chemistry_chemical-recovery.jpg)

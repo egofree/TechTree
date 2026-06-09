@@ -267,4 +267,4 @@ Heat management scales with system power. A 50-tonne press with a 15 kW power un
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools](./index.md) · [All Domains](../../index.md)*

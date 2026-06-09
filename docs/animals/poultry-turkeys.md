@@ -108,7 +108,7 @@ Unlike chickens, turkeys are seasonal breeders. Egg production begins in spring 
 
 ## Health and Disease
 
-**[Blackhead disease](../glossary/blackhead-disease.md)** (*Histomonas meleagridis*):
+**Blackhead disease** (*Histomonas meleagridis*):
 The most critical disease concern for turkeys. Transmitted by cecal worm (*Heterakis gallinarum*) eggs ingested from contaminated soil or earthworms. Symptoms: sulfur-yellow droppings, lethargy, darkened skin of head (cyanosis), weight loss. Mortality: 70-100% in turkeys. Prevention: strict separation from chickens, avoid ranging on land used by chickens within the past 3 years. No reliable treatment available in many regions — prevention is the only strategy.
 
 **Respiratory diseases**:
@@ -259,4 +259,4 @@ Acorns provide exceptional feed value in autumn — white oak acorns contain 6-8
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*

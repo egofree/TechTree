@@ -197,7 +197,7 @@ The CMP step following copper electroplating is a precisely controlled polishing
 - Track CVS trending data to predict bath aging before it affects production quality; proactive bath replacement prevents costly yield loss
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Electrochemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Electrochemistry](./index.md) · [All Domains](../../index.md)*
 
 ![electrochemistry copper damascene](../images/electrochemistry/electrochemistry_copper-damascene.jpg)
 

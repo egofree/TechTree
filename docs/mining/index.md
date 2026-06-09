@@ -36,4 +36,4 @@ Capabilities in this domain:
 
 - [Tailings Reprocessing](tailings-reprocessing.md) — Recovering residual metals and useful materials from mine waste using modern extraction techniques, improving resource efficiency and reducing environmental footprint.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

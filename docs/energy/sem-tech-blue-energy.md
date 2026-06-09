@@ -51,7 +51,7 @@ A RED stack consists of alternating cation exchange membranes (CEM) and anion ex
 - **Concentrate channels**: Seawater or brine flows through these channels, providing a high concentration of dissolved ions.
 - **Diluate channels**: Fresh or brackish water flows through alternating channels with low ion concentration.
 
-The concentration difference across each membrane creates a **[Nernst potential](../glossary/nernst-potential.md)** -- a voltage driven by the ion concentration gradient rather than an externally applied electric field. Cations (Na⁺) diffuse from the concentrate side through the CEM toward the diluate side. Anions (Cl⁻) diffuse through the AEM in the same direction. This directed ion transport generates an electrical current that can be harvested at the electrodes.
+The concentration difference across each membrane creates a **Nernst potential** -- a voltage driven by the ion concentration gradient rather than an externally applied electric field. Cations (Na⁺) diffuse from the concentrate side through the CEM toward the diluate side. Anions (Cl⁻) diffuse through the AEM in the same direction. This directed ion transport generates an electrical current that can be harvested at the electrodes.
 
 Each membrane pair contributes approximately 0.1-0.2V. A practical stack with 50-100 membrane pairs generates 5-20V, sufficient for DC power conversion. The process is the exact reverse of conventional electrodialysis described in [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md).
 
@@ -471,6 +471,6 @@ RED is currently the leading approach because it produces electricity directly w
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
 ![energy sem tech blue energy](../images/energy/energy_sem-tech-blue-energy.png)

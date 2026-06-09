@@ -202,4 +202,4 @@ The three-roll mill is the traditional workhorse for pigment dispersion in paint
 The hiding power of a paint film depends primarily on the TiO₂ content and the quality of pigment dispersion. TiO₂ has a refractive index of 2.7 (rutile), far higher than any other white pigment (zinc oxide: 2.0, lithopone: 1.8) and much higher than typical paint binders (1.5). This large difference in refractive index causes strong light scattering at each pigment-binder interface, making TiO₂-loaded paint films opaque at very low film thickness. The minimum film thickness for complete hiding (contrast ratio 0.98) is typically 25-50 μm for a well-formulated TiO₂ paint, compared to 100+ μm for paints using cheaper white pigments.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*

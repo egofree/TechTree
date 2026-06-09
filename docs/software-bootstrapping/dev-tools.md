@@ -236,4 +236,4 @@ program: program.o utils.o
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../../index.md)*

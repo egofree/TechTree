@@ -226,4 +226,4 @@ Note: 31%+ reduction in a single pass is aggressive — normally done in two pas
 - [Extruder](extruder.md) — alternative metal shaping by extrusion
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*

@@ -223,4 +223,4 @@ The speed and automation compatibility of resistance welding make it the dominan
 - Maintain a reference set of peel-tested samples for each schedule to compare with production results
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*

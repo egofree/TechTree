@@ -241,4 +241,4 @@ Leak rates are commonly expressed in atm·cc/s (the volume of gas at standard at
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*

@@ -207,4 +207,4 @@ Scaling from animal-drawn to engine-powered equipment increases throughput 3-5×
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Transport](./index.md) • [All Domains](../../index.md)*

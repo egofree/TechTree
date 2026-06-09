@@ -92,7 +92,7 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 
 - **Mineral oil**: Refined petroleum oil. Standard lubricant for most bearings. Viscosity grade selected by speed and load (thicker oil for slower speeds and heavier loads).
 - **Animal fat (tallow, lard)**: Pre-petroleum lubricant. Works well for plain bearings and slow-speed applications. Lard oil as cutting fluid for turning and threading — reduces friction, improves finish.
-- **[Vegetable oil](../glossary/vegetable-oil.md)** (linseed, castor): Cutting fluid for brass and aluminum. Castor oil has excellent film strength for high-speed bearings. Not ideal for steel machining (polymerizes and gums).
+- **Vegetable oil** (linseed, castor): Cutting fluid for brass and aluminum. Castor oil has excellent film strength for high-speed bearings. Not ideal for steel machining (polymerizes and gums).
 - **Grease**: Oil thickened with soap (calcium, lithium, or sodium soap). Stays in place, does not drain away. Used for sealed bearings and slow-speed applications. Lithium grease is the general-purpose standard.
 
 **Strengths**:
@@ -201,4 +201,4 @@ Bearing production scales dramatically with precision capability:
 - [Iron & Steel](../metals/iron-steel.md) — bearing steel (52100) and tool steel production
 - [Casting](../metals/casting.md) — casting bearing shells
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../../index.md)*

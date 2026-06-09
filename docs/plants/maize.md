@@ -12,7 +12,7 @@
 
 ![Maize](../images/plants/plants_maize.jpg)
 
-> *&lt;a href="http://www.starrenvironmental.com/images/species/?q=Zea+mays" rel="noreferrer nofollow"&gt;Zea mays (Corn)&lt;/a&gt; Hawaiian Supersweet 10 in veggie garden flowers and fruit at Hawea Pl Olinda, Maui, Hawaii. July 20, 2020 &lt;a href="http://www.starrenvironmental.com/images/search/?q=200720-7807" rel="noreferrer nofollow"&gt;#200720-7807&lt;/a&gt; - &lt;a href="https://www.flickr.com/people/starr-environmental/"&gt;Image Use Policy&lt;/a&gt;*
+> *Zea mays (Corn) Hawaiian Supersweet 10 in veggie garden flowers and fruit at Hawea Pl Olinda, Maui, Hawaii. July 20, 2020 #200720-7807 - Image by Starr Environmental*
 
 > *Image: Forest and Kim Starr, CC BY 2.0*
 
@@ -274,4 +274,4 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

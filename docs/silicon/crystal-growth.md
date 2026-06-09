@@ -214,7 +214,7 @@ The CZ process requires precision control of temperature, pull speed, and rotati
 - Wire saw kerf loss wastes 40-50% of expensive single-crystal silicon
 - CMP slurry (colloidal silica at pH 10-11) is a chemical burn and environmental hazard requiring special handling and disposal
 
-**[Lapping](../glossary/lapping.md)** (mechanical flattening):
+**Lapping** (mechanical flattening):
 - **Process**: Place wafers on lapping machine (cast iron plate, 300-600 mm diameter). Add abrasive slurry (Al₂O₃ 5-15 μm in water/glycol). Rotate plate and carriers (wafer-holding rings). Remove ~20-50 μm per side. Duration 15-30 minutes.
 - **Result**: Flat to ~2-5 μm total thickness variation (TTV). Surface roughness ~0.5-1 μm Ra. No subsurface damage if done correctly.
 - **Double-side lapping**: Lap both sides simultaneously for better parallelism.
@@ -225,12 +225,12 @@ The CZ process requires precision control of temperature, pull speed, and rotati
 - **Result**: Mirror finish. Surface roughness <0.5 nm Ra. Flat to <1 μm TTV.
 - **Post-CMP cleaning**: RCA clean (see below) to remove slurry residue and organic contamination.
 
-**[RCA Clean](../glossary/rca-clean.md)** (standard wafer cleaning sequence):
+**RCA Clean** (standard wafer cleaning sequence):
 1. **SC-1 (Standard Clean 1)**: NH₄OH:H₂O₂:H₂O = 1:1:5 at 75-80°C for 10-15 min. Removes organic contaminants and particles. Leaves thin chemical oxide.
 2. **DI water rinse**: Overflow rinse, 5-10 min.
-3. **[HF dip](../glossary/hf-dip.md)** (optional): Dilute HF (1-2%) for 15-30 seconds. Removes oxide (hydrogen-terminates surface). Skip if oxide desired.
+3. **HF dip** (optional): Dilute HF (1-2%) for 15-30 seconds. Removes oxide (hydrogen-terminates surface). Skip if oxide desired.
 4. **SC-2 (Standard Clean 2)**: HCl:H₂O₂:H₂O = 1:1:6 at 75-80°C for 10-15 min. Removes metallic contaminants (Fe, Au, Cu, Ni).
-5. **DI water rinse + spin dry** or **[Marangoni dry](../glossary/marangoni-dry.md)** (IPA vapor, surface tension gradient pulls water off).
+5. **DI water rinse + spin dry** or **Marangoni dry** (IPA vapor, surface tension gradient pulls water off).
 
 **Strengths**:
 - Wire saw cuts all 800-900 wafers from a 300 mm ingot simultaneously in 8-20 hours — far higher throughput than ID blade sawing
@@ -278,7 +278,7 @@ Crystal growth and wafering involve extreme temperatures, toxic chemicals, and h
 **Flat and notch**:
 - **Primary flat**: Ground flat along one edge of the wafer, indicating crystal orientation. For <100> wafers, the flat is along the {110} plane. For <111> wafers, the flat indicates the <110> direction. Used for alignment in processing equipment.
 - **Secondary flat**: A smaller flat on the opposite edge indicates wafer doping type. One secondary flat = n-type. Two secondary flats = p-type. No secondary flat = <111> n-type reference. This coding system allows operators to identify wafer type visually.
-- **[Notch](../glossary/notch.md)** (200 mm and larger): V-shaped notch replaces flats on larger wafers, providing the same orientation information with less wasted silicon at the wafer edge.
+- **Notch** (200 mm and larger): V-shaped notch replaces flats on larger wafers, providing the same orientation information with less wasted silicon at the wafer edge.
 
 **Wafer quality parameters**:
 - **Total thickness variation (TTV)**: Maximum difference between thickest and thinnest points on the wafer. After lapping: 2-5 μm. After CMP: <1 μm. Excessive TTV causes focus problems in photolithography.
@@ -343,7 +343,7 @@ The float zone process produces the purest silicon available, because nothing to
 - **Advantages**: Simpler than wire saw. Each wafer is independent (no wire break ruins a whole batch). Good for small-scale or prototype production.
 - **Disadvantages**: Slower than wire saw (1-2 wafers/hour for 150 mm). Kerf loss ~200-300 μm (thicker blade than wire). Blade wear requires periodic redressing. Surface damage layer slightly deeper than wire saw.
 
-**[Laser slicing](../glossary/laser-slicing.md)** (advanced, later stage):
+**Laser slicing** (advanced, later stage):
 - **Principle**: High-power laser (typically Nd:YAG, 1064 nm) creates a stress crack along a defined plane in the ingot. Subsequent mechanical stress separates the wafer along the crack. No abrasive contact, so surface damage is minimal.
 - **Status**: Still in development for mainstream silicon wafering. Used for some hard, brittle materials (SiC, sapphire) where wire saw cutting is extremely slow. Kerf loss is theoretically zero (no material removed by the laser, just a crack initiated).
 
@@ -367,6 +367,6 @@ The float zone process produces the purest silicon available, because nothing to
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
 
 ![silicon crystal growth diagram](../images/silicon/diagram:silicon_crystal-growth.jpg)

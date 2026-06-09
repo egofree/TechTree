@@ -222,6 +222,6 @@ Vinegar production by the Orleans method (surface fermentation) is the oldest in
 For a bootstrapping civilization, the most accessible fermentation product is ethanol from grain or fruit sugar using wild yeast. No pure culture is needed initially — wild yeast is present on grain surfaces and fruit skins, and will initiate fermentation spontaneously if crushed fruit or sweet mash is left in a container. The jump from spontaneous fermentation to controlled pure-culture fermentation is the key enabling step for consistent industrial production. This requires the ability to sterilize vessels (boiling water or steam), maintain stock cultures (slant tubes with agar nutrient medium), and practice aseptic transfer technique.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
 ![chemistry petroleum alternatives fermentation](../images/chemistry/chemistry_petroleum-alternatives_fermentation.jpg)

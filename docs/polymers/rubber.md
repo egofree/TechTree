@@ -32,7 +32,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 > *Image: ungenannt, Public domain*
 
 ### Materials
-- [Latex](../glossary/guayule.md) from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
+- Latex from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
 - [Sulfur](../chemistry/alkalis.md) (2-4 phr, cross-linking agent)
 - [Carbon black](../energy/charcoal.md) (20-50 phr, reinforcing filler from partial combustion of hydrocarbons)
 - [Zinc oxide](../chemistry/alkalis.md) (3-5 phr, activator)
@@ -373,8 +373,8 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 
 | Source | Yield (kg/ha/year) | Climate | Rubber Quality | Notes |
 |--------|-------------------|---------|---------------|-------|
-| [Guayule](../glossary/guayule.md) | 500-1000 | Arid, temperate | Near-identical to Hevea (cis-1,4-polyisoprene >95%) | Whole shrub harvested every 2-3 years; flotation extraction |
-| [Russian dandelion](../glossary/russian-dandelion.md) | 150-500 | Temperate | Similar to Hevea | Root extraction; annual crop; USSR produced 3000 tonnes/year during WWII |
+| Guayule | 500-1000 | Arid, temperate | Near-identical to Hevea (cis-1,4-polyisoprene >95%) | Whole shrub harvested every 2-3 years; flotation extraction |
+| Russian dandelion | 150-500 | Temperate | Similar to Hevea | Root extraction; annual crop; USSR produced 3000 tonnes/year during WWII |
 | *Hevea brasiliensis* | 1000-1500 | Tropical only | Benchmark standard | Requires 1800-2500 mm annual rainfall, no frost |
 
 ## Alternative Cross-Linking Systems
@@ -410,6 +410,6 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
 
 ![polymers rubber](../images/polymers/polymers_rubber.png)

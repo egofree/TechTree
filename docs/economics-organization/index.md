@@ -25,4 +25,4 @@ Capabilities in this domain:
 <!-- TODO: source image for Governance & Institutional Design -->
 - [Governance & Institutional Design](governance.md) — Decision-making structures for large-scale resource allocation, dispute resolution, and collective action. Includes guild structures, cooperative governance, and administrative hierarchies coordinating hundreds of workers.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

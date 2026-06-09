@@ -211,4 +211,4 @@ Agave provides one of the few reliable carbohydrate sources for arid-zone subsis
 
 For fiber spinning, agave fibers are best worked while still slightly pliable, before they become fully brittle. Roll fibers against the thigh with the palm of the hand to twist them into a continuous strand. Two or more strands can be plied together by twisting them in the opposite direction. The resulting cordage is strong, rot-resistant, and suitable for fishing nets, bowstrings, and load-bearing rope. Agave fiber cordage was the standard rope material in pre-Columbian Mesoamerica, used for everything from construction to ship rigging.
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

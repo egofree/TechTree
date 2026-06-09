@@ -277,4 +277,4 @@ Keep finished forged goods organized by type and material. Lightly oil steel ite
 - [Iron & Steel Production](iron-steel.md) — downstream capability
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*

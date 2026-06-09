@@ -235,4 +235,4 @@ Label spacing: at minimum every 6 m on straight runs, at each room entry/exit, a
 - [Gas Purification](gas-purification.md) — gas purification upstream of distribution piping
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*

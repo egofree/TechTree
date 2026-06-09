@@ -251,4 +251,4 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Transport](./index.md) • [All Domains](../../index.md)*

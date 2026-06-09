@@ -262,4 +262,4 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals](./index.md) • [All Domains](../../index.md)*

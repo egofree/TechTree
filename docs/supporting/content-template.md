@@ -211,7 +211,7 @@ What to include:
 7. **Footer**: Close every file with the standard navigation link:
    ```
    ---
-   *Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](../spec/README.md) • [All Domains](../index.md)*
+   *Part of the [Bootciv Tech Tree](../../index.md) • [Domain Name](../spec/README.md) • [All Domains](../../index.md)*
    ```
 
 ---
@@ -442,4 +442,4 @@ Study the thermostat article first. It demonstrates every rule and pattern descr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Supporting Docs](./) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Supporting Docs](./) • [All Domains](../../index.md)*

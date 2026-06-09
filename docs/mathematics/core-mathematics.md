@@ -292,4 +292,4 @@ No physical hazards — primarily intellectual work. Ergonomic considerations fo
 - [Measurement Index](../measurement/index.md) — metrology and measurement systems
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../../index.md)*

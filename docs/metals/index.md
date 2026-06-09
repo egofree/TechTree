@@ -94,4 +94,4 @@ Capabilities in this domain:
 
 - [Wire Rope & Steel Cable](wire-rope.md) — Wire drawing, stranding, and rope closing of high-carbon steel wire into flexible rope (6×7, 6×19, 6×37 constructions). Tensile grades 1570-1960 MPa, end fittings (swaging, zinc/epoxy socketing), inspection and discard criteria, and lubrication for mining hoists, cranes, elevators, and bridges.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

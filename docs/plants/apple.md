@@ -249,4 +249,4 @@ cleaning agent, and medicinal tonic. The pressed pomace (crushed apple residue) 
 livestock or composted to return organic matter to the orchard soil.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

@@ -293,4 +293,4 @@ A vessel's physical dimensions and handling characteristics directly affect navi
 - [Telecom / Radio](../telecom/radio.md) — radio navigation and time signal reception
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../../index.md)*

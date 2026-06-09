@@ -345,6 +345,6 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
 
 ![electronics component types](../images/electronics/electronics_component-types.png)

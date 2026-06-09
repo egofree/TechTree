@@ -216,6 +216,6 @@ Gasifier-engine systems require more daily maintenance than diesel generators: g
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
 ![energy gasification diagram](../images/energy/energy_gasification-diagram.jpg)

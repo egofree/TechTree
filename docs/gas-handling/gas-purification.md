@@ -255,4 +255,4 @@ Different gases require different purification stages arranged in series. The ge
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*

@@ -406,4 +406,4 @@ All 35 plant species from the catalog tagged as structural, linked to their indi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../../index.md)*

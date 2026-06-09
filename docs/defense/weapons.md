@@ -330,4 +330,4 @@ Weapon production requires progressively more advanced materials and industrial 
 - **[Mining](../mining/index.md)** -- Iron ore, copper, tin, and lead extraction
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*

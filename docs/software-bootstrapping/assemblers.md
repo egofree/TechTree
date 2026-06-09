@@ -223,4 +223,4 @@ The loader reads an executable file into memory and starts execution:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../../index.md)*

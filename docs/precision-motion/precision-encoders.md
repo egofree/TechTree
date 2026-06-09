@@ -329,4 +329,4 @@ For a wafer stage with 300 mm travel and nanometer target accuracy, the error bu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Precision Motion Control](./index.md) • [All Domains](../../index.md)*

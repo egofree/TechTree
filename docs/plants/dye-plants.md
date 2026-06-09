@@ -127,7 +127,7 @@ Note: Multi-category species (coffee, grape, walnut, etc.) have dye as one of se
 
 ## Species Directory
 
-All 22 dye-capable species cataloged in [plants.json](../../data/plants.json), linked to their individual articles. Sorted alphabetically by common name.
+All 22 dye-capable species cataloged in `data/plants.json`, linked to their individual articles. Sorted alphabetically by common name.
 
 | Species | Scientific Name | Dye Color / Use | Other Uses |
 |---------|----------------|-----------------|------------|
@@ -315,4 +315,4 @@ Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fres
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../../index.md)*

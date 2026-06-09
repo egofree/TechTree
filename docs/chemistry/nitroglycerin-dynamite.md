@@ -60,7 +60,7 @@ Headache from skin absorption is the first symptom of exposure. If a worker deve
 
 Frozen NG (below 13°C) is even more sensitive than liquid. Crystal fractures from thermal stress can initiate detonation. Historically, NG was never allowed to freeze. Frozen NG was carefully thawed under warm (not hot) water, never near a flame or heat source. If NG is found frozen, do not attempt to break or chip it. Evacuate the area and consult explosive ordnance disposal procedures.
 
-**Applications**: Primary ingredient in dynamite. Component of [double-base smokeless powder](../glossary/double-base.md). Rarely used as a standalone explosive due to extreme sensitivity, but in the early years (1847-1867, before Nobel invented dynamite) it was used directly for blasting with predictable and frequent catastrophic results. Sobrero, who first synthesized NG in 1847, was so horrified by its sensitivity that he recommended against any practical use. Nobel's genius was not inventing NG but finding a way to make it safe to handle.
+**Applications**: Primary ingredient in dynamite. Component of double-base smokeless powder. Rarely used as a standalone explosive due to extreme sensitivity, but in the early years (1847-1867, before Nobel invented dynamite) it was used directly for blasting with predictable and frequent catastrophic results. Sobrero, who first synthesized NG in 1847, was so horrified by its sensitivity that he recommended against any practical use. Nobel's genius was not inventing NG but finding a way to make it safe to handle.
 
 **Strengths**:
 - Extremely powerful (7,700 m/s detonation velocity, 6.4 MJ/kg)
@@ -202,4 +202,4 @@ Nitroglycerin and dynamite production scale from artisanal to industrial:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

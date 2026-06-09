@@ -205,4 +205,4 @@ The crop's specific growing requirements (soil type, rainfall, temperature range
 growing season length) determine its geographic suitability. Matching crops to local
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

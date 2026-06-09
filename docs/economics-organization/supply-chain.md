@@ -261,4 +261,4 @@ Supply chain coordination is an organizational capability. The "materials" are d
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Economics & Organization](./index.md) • [All Domains](../../index.md)*

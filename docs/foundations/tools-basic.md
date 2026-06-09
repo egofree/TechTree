@@ -283,4 +283,4 @@ None required — stone and wood tools are root capabilities achievable with nat
 - [Pottery](../ceramics/pottery.md) — clay shaping with simple implements
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Foundations](./index.md) • [All Domains](../../index.md)*

@@ -215,4 +215,4 @@ Discard wire rope when:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Construction](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Construction](./index.md) • [All Domains](../../index.md)*

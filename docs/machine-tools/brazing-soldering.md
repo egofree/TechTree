@@ -203,4 +203,4 @@ Brazed and soldered joints are verified by visual, mechanical, and leak testing:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [Metal Joining](./joining.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [Metal Joining](./joining.md) · [All Domains](../../index.md)*

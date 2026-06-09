@@ -351,4 +351,4 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*

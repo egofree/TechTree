@@ -232,4 +232,4 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*

@@ -240,4 +240,4 @@ Maintaining measurement accuracy requires reference standards — components wit
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*

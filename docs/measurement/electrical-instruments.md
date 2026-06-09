@@ -287,4 +287,4 @@ Key decision rule: Use a DMM for all routine measurements. Add an oscilloscope w
 - [Telecom / Radio](../telecom/radio.md) — RF measurement and signal detection
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

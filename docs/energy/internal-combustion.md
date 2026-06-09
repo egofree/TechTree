@@ -26,7 +26,7 @@ The economic impact is hard to overstate. A single diesel generator producing 50
 
 Invented by Nikolaus Otto (1876). The dominant engine for road vehicles and small aircraft. The four-stroke cycle completes one power stroke every two crankshaft revolutions.
 
-**Principle**: The [four-stroke cycle](../glossary/four-stroke-cycle.md) completes one power stroke every two crankshaft revolutions:
+**Principle**: The four-stroke cycle completes one power stroke every two crankshaft revolutions:
 
 1. **Intake stroke**: Piston moves down. Intake valve opens. Fuel-air mixture (from carburetor or fuel injector) drawn into cylinder. Typical mixture: 14.7:1 air-to-fuel ratio by mass (stoichiometric for gasoline).
 2. **Compression stroke**: Both valves close. Piston moves up, compressing mixture to 8-12x atmospheric pressure (compression ratio 8:1 to 12:1). Compressed mixture reaches 400-600°C.
@@ -317,4 +317,4 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*

@@ -243,4 +243,4 @@ Each advanced thermostat type requires specific calibration and verification:
 
 ---
 
-*Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+*Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

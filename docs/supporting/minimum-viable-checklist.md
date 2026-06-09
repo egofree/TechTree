@@ -88,4 +88,4 @@ This combines the core path with the most helpful parallel capabilities into tie
 - Can train the next generation of specialists
 - Has positive feedback loops (early chips improve tools and processes)
 
-[← Back to Docs](../index.md)
+[← Back to Docs](../../index.md)

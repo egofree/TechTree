@@ -29,7 +29,7 @@ Different plant organs yield fibers with distinct properties, requiring differen
 
 ## Fiber Extraction Methods
 
-**[Retting](../glossary/retting.md)** (for bast fibers — flax, hemp, jute, ramie, nettle):
+**Retting** (for bast fibers — flax, hemp, jute, ramie, nettle):
 
 Retting uses moisture and microbial action to decompose the pectins binding fiber bundles to the woody core (shives) and outer bark. The three principal methods:
 
@@ -81,15 +81,15 @@ Retting uses moisture and microbial action to decompose the pectins binding fibe
 
 After retting, stalks are dried thoroughly before further processing (breaking, scutching, hackling — see [Fiber Preparation](../textiles/fibers.md)).
 
-**[Decortication](../glossary/decortication.md)** (for leaf fibers — sisal, abacá, henequen):
+**Decortication** (for leaf fibers — sisal, abacá, henequen):
 
 Crush leaves between rollers or beat them with wooden mallets to separate the fibrous strands from the fleshy pulp. Scrape away residual pulp with a blunt knife or edged wooden blade. Wash extracted fiber strands and dry in the sun. Produces long, stiff fiber bundles suitable for rope, twine, and coarse cloth. Can be done entirely by hand with simple tools.
 
-**[Ginning](../glossary/ginning.md)** (for seed fibers — cotton):
+**Ginning** (for seed fibers — cotton):
 
 Separate the seed from the fiber. Hand-ginning (finger-picking) processes ~500 g/hour. A single-roller gin (wooden roller against a fixed blade) increases throughput 10x. Seed cotton passes between roller and blade — fiber is pulled through, seeds are crushed or deflected. See [Fiber Preparation](../textiles/fibers.md) for detailed ginning methods.
 
-**[Hand-stripping](../glossary/hand-stripping.md)** (for husk fibers — coir):
+**Hand-stripping** (for husk fibers — coir):
 
 Soak coconut husks in water (brackish or fresh) for 2-6 months to soften the pith, then beat with wooden mallets to loosen fibers. Hand-strip long fibers from the softened husk. Coir fiber is exceptionally rot-resistant, making it ideal for marine rope, matting, and erosion control.
 
@@ -216,9 +216,9 @@ Flax (*Linum usitatissimum*) produces the finest plant fiber — linen — and w
 
 Hemp (*Cannabis sativa*) is the most productive and forgiving bast fiber crop:
 
-**[Dew retting](../glossary/dew-retting.md)** (preferred for hemp): Cut stalks at ground level (hemp grows 2-4 m tall). Leave in the field in rows, turn weekly. Retting takes 3-5 weeks depending on rainfall and temperature. Hemp's thick, woody core requires longer retting than flax. Advantages: no water infrastructure, no pollution, minimal labor. Disadvantage: weather-dependent, coarser fiber.
+**Dew retting** (preferred for hemp): Cut stalks at ground level (hemp grows 2-4 m tall). Leave in the field in rows, turn weekly. Retting takes 3-5 weeks depending on rainfall and temperature. Hemp's thick, woody core requires longer retting than flax. Advantages: no water infrastructure, no pollution, minimal labor. Disadvantage: weather-dependent, coarser fiber.
 
-**[Water retting](../glossary/water-retting.md)** (higher quality): Submerge bundled hemp stalks in water for 4-8 days at 20°C. Hemp rets faster than flax due to higher pectin content. Produces lighter-colored, stronger fiber. The retting water becomes highly polluted — must be isolated from drinking supply.
+**Water retting** (higher quality): Submerge bundled hemp stalks in water for 4-8 days at 20°C. Hemp rets faster than flax due to higher pectin content. Produces lighter-colored, stronger fiber. The retting water becomes highly polluted — must be isolated from drinking supply.
 
 **Decortication for hemp**: For coarse applications (rope, sacking), mechanical decortication bypasses retting entirely. Crush green stalks between fluted rollers, then scrape away woody core with a blade. Produces coarse, green-tinted fiber suitable for rope and industrial textiles. Less labor than retting but lower quality.
 
@@ -336,4 +336,4 @@ Different applications benefit from combining fibers with complementary properti
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../../index.md)*

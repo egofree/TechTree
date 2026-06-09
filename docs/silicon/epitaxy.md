@@ -285,6 +285,6 @@ Epitaxial silicon-germanium (SiGe) layers are used in heterojunction bipolar tra
 The HCl pre-etch step before epitaxial growth deserves attention because it sets the baseline for defect density in the resulting epilayer. The HCl gas etches silicon at a rate that depends on temperature, HCl concentration, and crystal orientation, etching faster along defect sites (scratches, grain boundaries) than on the pristine crystal surface. A proper HCl pre-etch removes 0.1-0.5 μm of silicon, eliminating polishing damage, native oxide patches, and surface contaminants. Under-etching leaves residual damage that nucleates stacking faults in the epilayer. Over-etching roughens the surface and wastes time. The HCl etch rate must be characterized for each reactor and susceptor configuration.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Silicon](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Silicon](./index.md) · [All Domains](../../index.md)*
 
 ![silicon wafering epitaxy diagram](../images/silicon/diagram:silicon_wafering-epitaxy.png)

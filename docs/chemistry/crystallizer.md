@@ -251,4 +251,4 @@ The crystal size distribution (CSD) is the single most important product quality
 2. **Seeding**: Add pre-grown seed crystals (0.1-1.0 wt% of expected crystal yield) to provide growth surfaces. This suppresses spontaneous nucleation and gives predictable crystal size. Seed size and size distribution directly determine product crystal size — product crystals are typically 5-10× the seed size after one batch cycle.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

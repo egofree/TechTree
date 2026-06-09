@@ -20,7 +20,7 @@ Grease stays in bearings that would drain liquid oil. Solid lubricants work wher
 - Alkali for saponification: NaOH (sodium hydroxide), Ca(OH)₂ (calcium hydroxide, slaked lime), or LiOH (lithium hydroxide)
 - Heated vessel with stirrer (iron or steel)
 - Roller mill or colloid mill for homogenizing
-- [Soap making](../glossary/soap-making.md) capability (saponification: fat/oil + alkali → soap + glycerol)
+- Soap making capability (saponification: fat/oil + alkali → soap + glycerol)
 
 **Materials**:
 - Base oil (mineral or vegetable)
@@ -44,7 +44,7 @@ Grease stays in bearings that would drain liquid oil. Solid lubricants work wher
 5. Add additives (graphite, MoS₂, ZDDP) if required. Mix thoroughly.
 6. Test: penetration (cone penetration test measures how far a standardized cone sinks into grease at 25°C, giving the NLGI grade: 000 = very soft, 2 = typical bearing grease, 6 = very hard). Dropping point (heat until grease melts and drips, giving the maximum usable temperature).
 
-**[Clay-thickened grease](../glossary/clay-thickened-grease.md)** (non-soap):
+**Clay-thickened grease** (non-soap):
 - Bentonite clay (organically modified with quaternary ammonium salts to make it oil-compatible) + base oil. No dropping point (clay does not melt), usable to 250°C+. For high-temperature applications where soap grease fails. Simpler to make than lithium grease if bentonite clay is available.
 
 **Properties**: NLGI grades from 000 (fluid) to 6 (hard block). Dropping point ranges from 90°C (calcium soap) to 190°C (lithium soap) to 250°C+ (clay). Grease stays in place in bearings that would drain oil, provides sealing against contamination, and allows simplified housing design (no oil reservoir needed).
@@ -236,6 +236,6 @@ Grease and solid lubricant production involves several distinct hazard categorie
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
 
 ![chemistry lubricants grease solid](../images/chemistry/chemistry_lubricants-grease-solid.jpg)

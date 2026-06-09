@@ -294,4 +294,4 @@ No physical hazards — primarily intellectual work. Ergonomic considerations fo
 - [Logic Design](../computing/logic-design.md) — digital circuit design methodology
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../../index.md)*

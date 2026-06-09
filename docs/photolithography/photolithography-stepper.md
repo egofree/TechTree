@@ -221,4 +221,4 @@ For bootstrapping, start with proximity printing at 20 μm gap. This produces 3-
 - [Cleanrooms](cleanrooms.md) — contamination control for lithography
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*

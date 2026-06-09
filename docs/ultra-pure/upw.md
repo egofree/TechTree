@@ -241,6 +241,6 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 - [Solvents](../chemistry/solvents.md) — industrial solvent production (predecessor to electronic-grade)
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../../index.md)*
 
 ![ultra pure reverse osmosis](../images/ultra-pure/ultra-pure_reverse-osmosis.jpg)

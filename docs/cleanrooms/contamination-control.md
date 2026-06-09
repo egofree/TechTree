@@ -333,6 +333,6 @@ The rigor of contamination control protocols scales with the target ISO class. R
 - [Health: Sanitation](../health/sanitation.md) — contamination control at a different scale (biological, not particulate)
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Clean Room Technology](./index.md) • [All Domains](../../index.md)*
 
 ![cleanrooms first cleanroom](../images/cleanrooms/cleanrooms_first-cleanroom.png)

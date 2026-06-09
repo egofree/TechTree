@@ -23,4 +23,4 @@ derivative work: Anerka (talk), CC BY-SA 3.0*
 
 - [Defect Analysis & Yield Modeling](defect-analysis.md) — Pareto analysis, fishbone (Ishikawa) diagrams, FMEA (Failure Mode and Effects Analysis), root cause analysis, Murphy's and Seeds yield models, and defect density tracking for semiconductor fabrication.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

@@ -269,4 +269,4 @@ No physical hazards — primarily intellectual work. Ergonomic considerations fo
 - [Electronics](../electronics/index.md) — circuit analysis with linear algebra and calculus
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../../index.md)*

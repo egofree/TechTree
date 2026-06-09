@@ -52,7 +52,7 @@ The triple bond in N₂ (945 kJ/mol) is one of the strongest in chemistry. Break
 
 Three major converter designs represent the historical progression of Haber-Bosch engineering:
 
-**[Quench converter](../glossary/quench-converter.md)** (original design, 1910s-1960s):
+**Quench converter** (original design, 1910s-1960s):
 - Multiple adiabatic catalyst beds (typically 3-5 beds) stacked in a single pressure vessel.
 - Cold feed gas injected between beds (cold-shot quench) to control temperature. After each bed, the gas heats up (exothermic reaction); quench gas brings it back down before the next bed.
 - Simple mechanical construction — no internal cooling tubes. But temperature control is crude: quench dilutes the reacting gas with unreacted feed, reducing conversion per pass.
@@ -73,7 +73,7 @@ Three major converter designs represent the historical progression of Haber-Bosc
 
 **Weaknesses**: Tubes complicate catalyst loading and unloading; tube leaks require complete shutdown and catalyst removal; higher manufacturing cost than quench converter; limited to moderate-capacity plants.
 
-**[Radial-flow converter](../glossary/radial-flow-converter.md)** (modern, 1960s-present):
+**Radial-flow converter** (modern, 1960s-present):
 - Gas flows radially inward through an annular catalyst bed (from outer perimeter to central collection pipe) rather than axially through a cylindrical bed.
 - Much larger cross-sectional flow area → lower pressure drop (0.2-0.5 MPa vs. 1-2 MPa for axial flow). This allows use of smaller catalyst particles (1.5-2.0 mm) which have higher activity (more surface area), without excessive pressure drop.
 - Typically 2-3 beds in series with inter-stage cooling (indirect heat exchangers or quench).
@@ -104,7 +104,7 @@ The 10-15% conversion per pass means 85-90% of the feed gas is unreacted and mus
 
 The two feedstocks — hydrogen and nitrogen — come from very different sources:
 
-**[Hydrogen from steam methane reforming (SMR)](../glossary/hydrogen-from-steam-methane-reforming-smr.md)** (dominant route, ~80% of global production):
+**Hydrogen from steam methane reforming (SMR)** (dominant route, ~80% of global production):
 - **Step 1 — Primary reformer**: CH₄ + H₂O → CO + 3H₂ at 700-850°C, 3-4 MPa, over Ni/Al₂O₃ catalyst in vertically suspended tubes inside a gas-fired furnace. Endothermic (ΔH = +206 kJ/mol). The furnace is the largest single equipment item in an ammonia plant.
 - **Step 2 — Secondary reformer**: Residual CH₄ (5-10% from primary) is reformed with air (which also introduces the N₂ needed for ammonia synthesis). Air is injected and partially combusted: CH₄ + O₂ → CO₂ + H₂O (provides heat), then remaining CH₄ + H₂O → CO + H₂ over Ni catalyst. Exit temperature: 950-1000°C. Gas composition: ~56% H₂, ~22% N₂, ~12% CO, ~8% CO₂ + H₂O.
 - **Step 3 — Shift conversion**: CO + H₂O → CO₂ + H₂. Two stages: high-temperature shift (350-400°C, Fe-Cr catalyst) and low-temperature shift (200-250°C, Cu-Zn-Al catalyst). Converts most CO to CO₂ while producing additional H₂.
@@ -116,7 +116,7 @@ The two feedstocks — hydrogen and nitrogen — come from very different source
 
 **Weaknesses (SMR)**: Emits ~1.6 tonnes CO₂ per tonne NH₃ (largest single source of GHG in ammonia production); requires natural gas infrastructure (pipelines or LNG); sulfur in feed gas permanently poisons Ni reforming catalyst; primary reformer furnace is the most expensive single equipment item.
 
-**[Hydrogen from electrolysis](../glossary/hydrogen-from-electrolysis.md)** (clean route, growing):
+**Hydrogen from electrolysis** (clean route, growing):
 - Water electrolysis produces pure H₂ and O₂. See [Electrolysis](electrolysis.md) for detailed cell designs.
 - N₂ must be supplied separately (from air separation) since there is no secondary reformer to introduce air.
 - Energy: ~50-55 kWh per kg H₂ (alkaline electrolysis). Ammonia requires ~178 kg H₂ per tonne NH₃ → ~9-10 MWh per tonne NH₃ just for hydrogen. This is 5-10× the energy cost of SMR-derived hydrogen, but produces zero CO₂ emissions if the electricity is renewable.
@@ -145,8 +145,8 @@ The two feedstocks — hydrogen and nitrogen — come from very different source
 - Highly soluble in water (forming ammonium hydroxide, NH₄OH). Dissolution is strongly exothermic.
 
 **Storage methods**:
-- **[Pressurized storage](../glossary/pressurized-storage.md)** (ambient temperature): Steel spherical or cylindrical pressure vessels at 10-17 bar. Design temperature: 0-40°C. Vessel size: 500-5,000 tonnes. Refrigeration only required if ambient temperature causes excessive pressure. Most common for intermediate storage at production plants.
-- **[Refrigerated storage](../glossary/refrigerated-storage.md)** (low temperature, near-atmospheric pressure): Insulated steel tanks at -33°C, slightly above atmospheric pressure. Double-wall construction with insulated annular space. Tank size: 10,000-50,000 tonnes. External refrigeration system (compressor + condenser) maintains temperature by condensing boil-off vapor. Used for large-scale storage and import/export terminals.
+- **Pressurized storage** (ambient temperature): Steel spherical or cylindrical pressure vessels at 10-17 bar. Design temperature: 0-40°C. Vessel size: 500-5,000 tonnes. Refrigeration only required if ambient temperature causes excessive pressure. Most common for intermediate storage at production plants.
+- **Refrigerated storage** (low temperature, near-atmospheric pressure): Insulated steel tanks at -33°C, slightly above atmospheric pressure. Double-wall construction with insulated annular space. Tank size: 10,000-50,000 tonnes. External refrigeration system (compressor + condenser) maintains temperature by condensing boil-off vapor. Used for large-scale storage and import/export terminals.
 - **Semi-refrigerated**: Combination — moderate pressure (2-5 bar) and moderate cooling (-10 to 0°C). Smaller refrigeration equipment than fully refrigerated. Used for transport vessels and mid-size storage.
 
 **Transport**:
@@ -164,13 +164,13 @@ The two feedstocks — hydrogen and nitrogen — come from very different source
 
 Ammonia is the gateway to virtually all synthetic nitrogen fertilizers. This is the economic justification for the entire Haber-Bosch industry:
 
-**[Ammonium nitrate](../glossary/ammonium-nitrate.md)** (NH₄NO₃, 33-34% N):
+**Ammonium nitrate** (NH₄NO₃, 33-34% N):
 - NH₃ + HNO₃ → NH₄NO₃. Neutralization reaction is exothermic — produces steam.
 - Concentrate the resulting solution to 95-97% by vacuum evaporation. Solidify by prilling (spraying droplets from the top of a tower, solidifying as they fall) or granulation.
 - **Safety**: Ammonium nitrate is a strong oxidizer. It has caused some of the largest industrial explosions in history (Oppau 1921, Texas City 1947, Beirut 2020). Store separately from combustible materials. Keep below 50°C. Do not confine in sealed containers when heated. Commercial fertilizer-grade NH₄NO₃ is treated with anti-caking agents and may be coated to reduce detonation sensitivity.
 - Requires nitric acid from the Ostwald process (see below and [Mineral Acid Production](acids.md)).
 
-**[Urea](../glossary/urea.md)** (CO(NH₂)₂, 46% N — highest nitrogen content of any solid fertilizer):
+**Urea** (CO(NH₂)₂, 46% N — highest nitrogen content of any solid fertilizer):
 - **Step 1**: 2NH₃ + CO₂ → NH₂COONH₄ (ammonium carbamate) at 140-200°C, 14-20 MPa.
 - **Step 2**: NH₂COONH₄ → CO(NH₂)₂ + H₂O (endothermic dehydration). Conversion: 50-70% per pass in conventional plants; 70-80% in advanced designs with higher temperature/pressure.
 - **Unreacted recycle**: The urea solution contains unreacted carbamate and NH₃/CO₂. Recycle by stripping with NH₃ gas (Stamicarbon process) or CO₂ (Snamprogetti process) at reduced pressure.
@@ -178,11 +178,11 @@ Ammonia is the gateway to virtually all synthetic nitrogen fertilizers. This is 
 - **CO₂ source**: From SMR in the ammonia plant — the urea process consumes ~0.75 tonnes CO₂ per tonne urea, partially offsetting the CO₂ emissions from ammonia production.
 - **Advantages**: Highest N content, solid (easy to transport), slow-release in soil (hydrolyzes to NH₃ over days-weeks), and can be blended with other fertilizers.
 
-**[Ammonium sulfate](../glossary/ammonium-sulfate.md)** ((NH₄)₂SO₄, 21% N + 24% S):
+**Ammonium sulfate** ((NH₄)₂SO₄, 21% N + 24% S):
 - NH₃ + H₂SO₄ → (NH₄)₂SO₄. Direct neutralization. Also produced as byproduct of coke oven gas scrubbing (NH₃ + H₂SO₄) and caprolactam production.
 - Lower nitrogen content than urea or ammonium nitrate, but the sulfur content is valuable for sulfur-deficient soils.
 
-**[Superphosphate and ammonium phosphates](../glossary/superphosphate-and-ammonium-phosphates.md)** (NPK bridge):
+**Superphosphate and ammonium phosphates** (NPK bridge):
 - **Single superphosphate**: Ca₃(PO₄)₂ + 2H₂SO₄ → Ca(H₂PO₄)₂ + 2CaSO₄. Phosphate rock + sulfuric acid. Contains P and Ca but no nitrogen.
 - **Ammonium phosphate**: NH₃ + H₃PO₄ → (NH₄)H₂PO₄ (MAP, monoammonium phosphate, 11% N + 52% P₂O₅) or 2NH₃ + H₃PO₄ → (NH₄)₂HPO₄ (DAP, diammonium phosphate, 18% N + 46% P₂O₅). These combine nitrogen and phosphorus in the most widely traded fertilizer commodities.
 - Phosphoric acid from [Mineral Acid Production](acids.md).
@@ -239,7 +239,7 @@ The Haber-Bosch iron catalyst is itself a product of industrial chemistry:
 
 **Weaknesses (iron catalyst)**: Requires 24-72 hour in-situ reduction before operation; reduced catalyst is pyrophoric (dangerous if exposed to air); irreversible poisoning by sulfur, chlorine, and phosphorus compounds; promoter distribution affects activity uniformly; must be replaced as whole bed (cannot replace individual granules).
 
-**[Ruthenium catalyst](../glossary/ruthenium-catalyst.md)** (advanced, used in KBR KAAP process):
+**Ruthenium catalyst** (advanced, used in KBR KAAP process):
 - Ru on graphite (activated carbon) support, promoted with Ba and K. 10-20× higher activity per unit mass than iron catalyst.
 - Enables operation at lower pressure (7-10 MPa) and moderate temperature (350-450°C).
 - Cost: Ruthenium is rare (~$500-1000/oz). Only economic for the top bed of a multi-bed converter, where it handles the most kinetically demanding conversion.
@@ -322,4 +322,4 @@ The path to industrial ammonia production follows a specific build order constra
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

@@ -309,4 +309,4 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 - [Distillation](../chemistry/distillation.md) — separation processes
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../../index.md)*

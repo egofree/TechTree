@@ -222,4 +222,4 @@ A column separating ethanol (bp 78.4°C) from water (bp 100°C) at atmospheric p
 - **Reboiler duty**: 370 kW (slightly more than condenser due to feed preheat)
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

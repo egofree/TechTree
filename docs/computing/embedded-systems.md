@@ -357,4 +357,4 @@ Industrial control using standardized PLC hardware: rack-mounted I/O modules, la
 - [`automation.process-control`](../automation/process-control.md) — The industrial process control systems that embedded systems enable.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*

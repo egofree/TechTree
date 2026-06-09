@@ -285,4 +285,4 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*

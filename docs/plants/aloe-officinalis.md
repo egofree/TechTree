@@ -212,4 +212,4 @@ Aloe gel can be applied directly to minor burns, sunburn, insect bites, and smal
 ### Aloe officinalis Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

@@ -214,4 +214,4 @@ Membrane stack assembly requires care and precision. The alternating CEM/AEM pat
 Spent membrane disposal follows hazardous waste protocols if the membranes have been in contact with regulated substances.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*

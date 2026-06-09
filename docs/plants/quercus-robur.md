@@ -211,4 +211,4 @@ abundant seed production supports wildlife populations and provides opportunitie
 large-scale seed collection and planting in favorable years.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

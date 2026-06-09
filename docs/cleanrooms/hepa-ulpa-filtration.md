@@ -337,6 +337,6 @@ Air changes per hour (ACH) is the number of times the total room volume of air i
 | Differential pressure gauge | Filter loading monitor | 0-1000 Pa range, ±2% accuracy |
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Clean Room Technology](./index.md) • [All Domains](../../index.md)*
 
 ![cleanrooms iso classification](../images/cleanrooms/cleanrooms_iso-classification.png)

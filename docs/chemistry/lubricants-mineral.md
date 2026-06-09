@@ -160,7 +160,7 @@ Refined petroleum oils displace animal and vegetable lubricants for most industr
 
 **Mineral oil-based**: Refined petroleum oil (see [Petrochemicals](petroleum-alternatives.md)). ISO VG 32 or 46 most common. Contains anti-wear agents (ZDDP), antioxidants, rust inhibitors, and anti-foam agents. Operating temperature range -10°C to +70°C. The most common hydraulic fluid in industrial use.
 
-**[Water-glycol](../glossary/water-glycol.md)** (fire-resistant): Water + glycol (40-60%) + thickener + additives. Fire-resistant due to water content. Lower lubricity than oil, so harder pump and valve materials are needed. Used in locations with fire risk (furnaces, welding areas, foundries).
+**Water-glycol** (fire-resistant): Water + glycol (40-60%) + thickener + additives. Fire-resistant due to water content. Lower lubricity than oil, so harder pump and valve materials are needed. Used in locations with fire risk (furnaces, welding areas, foundries).
 
 **Hydraulic system design**:
 
@@ -262,4 +262,4 @@ Mineral oil lubricant quality is verified by standardized tests:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*

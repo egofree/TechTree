@@ -257,4 +257,4 @@ Stream sediment sampling is the most cost-effective regional exploration method 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../../index.md)*

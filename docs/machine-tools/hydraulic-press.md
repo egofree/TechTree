@@ -212,4 +212,4 @@ Pascal's law governs the force multiplication: pressure applied to a confined fl
 - Seal materials: Nitrile (Buna-N) for oil service to 100°C; polyurethane for higher pressure and longer life; Viton for temperatures above 100°C.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*

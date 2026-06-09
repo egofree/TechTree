@@ -299,4 +299,4 @@ The jump from village to town scale is the critical threshold: it requires mecha
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

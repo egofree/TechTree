@@ -277,4 +277,4 @@ Bitter lupin varieties contain quinolizidine alkaloids (lupinine, sparteine) tha
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

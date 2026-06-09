@@ -337,4 +337,4 @@ Ground-source heat pumps achieve COP 3.0-5.0 year-round because the ground tempe
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*

@@ -328,4 +328,4 @@ A spring-loaded valve that opens automatically when system pressure exceeds the 
 - [Steam Power](../energy/steam-power.md) — steam distribution valve requirements and pressure-temperature derating
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*

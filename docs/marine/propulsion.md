@@ -304,4 +304,4 @@ For a 100 m cargo vessel at 12 knots:
 - [Navigation](navigation.md) — maritime navigation and piloting
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../../index.md)*

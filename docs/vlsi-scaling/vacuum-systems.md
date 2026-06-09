@@ -389,4 +389,4 @@ Seal selection rule: Use Viton O-rings for pressures >10⁻⁸ Torr. Use CF copp
 - [Lithography](lithography.md) — vacuum for lithography tools
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*

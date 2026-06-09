@@ -225,6 +225,6 @@ Proper handling of input materials and products is essential for consistent resu
 - Segregate waste streams: sawdust for compost or fuel, offcuts for kindling or small projects, unusable scraps for disposal.
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Foundations](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Foundations](./index.md) · [All Domains](../../index.md)*
 
 ![foundations carpentry diagram](../images/foundations/diagram:foundations_carpentry.png)

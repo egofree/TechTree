@@ -212,4 +212,4 @@ The plant's white-felted leaf undersides are caused by a dense mat of tiny hairs
 ### Artemisia douglasiana Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

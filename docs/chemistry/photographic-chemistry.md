@@ -206,4 +206,4 @@ The developer solution is the most chemically complex component of the photograp
 The characteristic curve (Hurter-Driffield curve) of a photographic emulsion plots optical density against the logarithm of exposure. The curve has three regions: the toe (underexposure, where density increases slowly), the straight-line portion (correct exposure, where density is proportional to log exposure), and the shoulder (overexposure, where density saturates). The slope of the straight-line portion is the gamma (γ), which defines the contrast of the emulsion. A high-gamma emulsion produces stark black-and-white images, while a low-gamma emulsion captures a wider tonal range. Film selection is essentially the choice of which characteristic curve best suits the subject and the intended use of the image.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*

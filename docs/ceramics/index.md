@@ -37,4 +37,4 @@ Capabilities in this domain:
 <!-- TODO: source image for Ceramic & Refractory Recycling -->
 - [Ceramic & Refractory Recycling](ceramic-recycling.md) — Reclamation of fired clay products, refractory bricks, and technical ceramics as grog, aggregate, or reprocessed refractory feedstock.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

@@ -20,10 +20,10 @@
 
 Thermal oxidation grows SiO₂ directly on the silicon wafer surface by exposing it to oxygen or steam at 900-1200°C. Unlike deposited oxides (from CVD), thermally grown oxide has the highest electrical quality because it forms a continuous, dense Si-O network directly from the silicon lattice — making it the only viable choice for gate dielectrics where even a single defect can destroy a transistor. Two variants cover the full thickness range: dry oxidation (Si + O₂ → SiO₂, slow but highest quality) for gate oxides, and wet oxidation (Si + 2H₂O → SiO₂, ~5-10× faster) for thick field and masking oxides.
 
-**[Deal-Grove oxidation model](../glossary/deal-grove-oxidation-model.md)** (predicts oxide thickness as a function of time and temperature):
+**Deal-Grove oxidation model** (predicts oxide thickness as a function of time and temperature):
 - Linear-parabolic rate equation: x² + Ax = B(t + τ), where x = oxide thickness, t = time, A and B are temperature-dependent rate constants, τ is the time offset accounting for initial oxide.
-- **[Linear regime](../glossary/linear-regime.md)** (thin oxide, surface-reaction limited): x ≈ (B/A)·t. B/A is the linear rate constant.
-- **[Parabolic regime](../glossary/parabolic-regime.md)** (thick oxide, diffusion limited): x ≈ √(B·t). B is the parabolic rate constant.
+- **Linear regime** (thin oxide, surface-reaction limited): x ≈ (B/A)·t. B/A is the linear rate constant.
+- **Parabolic regime** (thick oxide, diffusion limited): x ≈ √(B·t). B is the parabolic rate constant.
 - **Typical growth rates at 1000°C**:
   - Dry O₂: ~2 nm/min (linear regime), slows dramatically in parabolic regime. 100 nm gate oxide takes ~2 hours. Dense, high-quality oxide (breakdown >10 MV/cm).
   - Wet O₂ (steam): ~10 nm/min. 500 nm field oxide takes ~1 hour. Contains more OH bonds, slightly lower quality, but acceptable for masking and insulation.
@@ -87,9 +87,9 @@ Metallization creates the conductive interconnects that wire transistors togethe
 ## Process Metrology
 Every process step must be measured. "If you can't measure it, you can't control it."
 
-- **[Ellipsometry](../glossary/ellipsometry.md)** (film thickness): Monochromatic or spectroscopic light (632.8 nm HeNe laser, or broad spectrum 250-1000 nm) reflects off the thin film surface at a known angle (70-75°). Measures change in polarization (Ψ, Δ) upon reflection. Fits to optical model (Cauchy or Sellmeier dispersion) to extract film thickness and refractive index. Accuracy: ±0.5 nm for oxides, ±2 nm for thicker films. Measures: SiO₂, SiNₓ, photoresist, poly-Si, metals (with appropriate model). Non-destructive, fast (~1 sec per site). Maps wafer uniformity (49-point or 121-point contour map).
-- **[Four-point probe](../glossary/four-point-probe.md)** (sheet resistance): Four collinear tungsten probes (1 mm spacing) contact the wafer surface. Outer two probes pass constant current I (1 μA-100 mA), inner two measure voltage V. Sheet resistance Rs = (π/ln 2)·(V/I) ≈ 4.532·(V/I) Ω/sq. Measures doped layers (diffused or implanted), metal films, poly-Si. Corrects for wafer diameter with geometric correction factors. Accuracy ±1%. For metal film thickness: t = ρ/Rs where ρ is bulk resistivity.
-- **[Dektak / profilometer](../glossary/dektak-profilometer.md)** (step height): Diamond-tipped stylus (12.5-50 μm radius, 1-15 mg force) scans across a step in the film surface (e.g., where resist or oxide was etched away). Measures vertical displacement with sub-nm resolution (typically ±1-5 nm over 1 μm step range). Used for: etch depth verification, film thickness (after patterning a step), planarization uniformity. Trade-off: higher stylus force = better surface contact but risks scratching soft films (photoresist, aluminum). Also measures surface roughness (Ra, Rq).
+- **Ellipsometry** (film thickness): Monochromatic or spectroscopic light (632.8 nm HeNe laser, or broad spectrum 250-1000 nm) reflects off the thin film surface at a known angle (70-75°). Measures change in polarization (Ψ, Δ) upon reflection. Fits to optical model (Cauchy or Sellmeier dispersion) to extract film thickness and refractive index. Accuracy: ±0.5 nm for oxides, ±2 nm for thicker films. Measures: SiO₂, SiNₓ, photoresist, poly-Si, metals (with appropriate model). Non-destructive, fast (~1 sec per site). Maps wafer uniformity (49-point or 121-point contour map).
+- **Four-point probe** (sheet resistance): Four collinear tungsten probes (1 mm spacing) contact the wafer surface. Outer two probes pass constant current I (1 μA-100 mA), inner two measure voltage V. Sheet resistance Rs = (π/ln 2)·(V/I) ≈ 4.532·(V/I) Ω/sq. Measures doped layers (diffused or implanted), metal films, poly-Si. Corrects for wafer diameter with geometric correction factors. Accuracy ±1%. For metal film thickness: t = ρ/Rs where ρ is bulk resistivity.
+- **Dektak / profilometer** (step height): Diamond-tipped stylus (12.5-50 μm radius, 1-15 mg force) scans across a step in the film surface (e.g., where resist or oxide was etched away). Measures vertical displacement with sub-nm resolution (typically ±1-5 nm over 1 μm step range). Used for: etch depth verification, film thickness (after patterning a step), planarization uniformity. Trade-off: higher stylus force = better surface contact but risks scratching soft films (photoresist, aluminum). Also measures surface roughness (Ra, Rq).
 - **Optical microscope inspection**: Brightfield and darkfield illumination. Detects pattern defects (missing features, bridges, particles), alignment errors, etch completeness. Magnification 50×-1000×. Essential for yield troubleshooting. Operators visually inspect sample wafers from each lot.
 - **Particle counting**: Laser scattering particle counters measure airborne particles (in cleanroom monitoring) or on wafer surfaces (bare wafer or patterned wafer inspection). Defect density (particles/cm² per process step) directly predicts yield: Yield = (1 - D·A)ⁿ where D = defect density, A = die area, n = process steps.
 
@@ -239,7 +239,7 @@ A single-level metal NMOS process requires ~80-100 individual operations (includ
 - [EDA Design](../vlsi-scaling/eda-design.md) — VLSI design to fabrication
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
 
 ![photolithography fab processes diagram](../images/photolithography/photolithography_fab-processes-diagram.png)
 

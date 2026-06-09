@@ -275,4 +275,4 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 - [Semiconductor: Basic Devices](../silicon/basic-devices.md) — CZTS solar cells and ZnO transparent conductors
 - [Food Processing: Canning](../food-processing/canning.md) — galvanized steel for food preservation equipment
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*

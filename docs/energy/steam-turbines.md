@@ -14,17 +14,17 @@ Steam turbines replace reciprocating engines for power generation by converting 
 
 ![Workers with steam turbines in Tampa, Florida (9401749096)](../images/energy/energy_steam-power_steam-turbines.jpg)
 
-> *Persistent URL: http://www.floridamemory.com/items/show/165692 Local call number: PHF394 Title: Workers with steam turbines in Tampa, Florida Date: ca. 1919 Series Title: http://www.floridamemory.com/photographiccollection/collections/?id=12 Physical descrip: 1 photoprint - b&amp;w - 10 x 8 in. Repository: http://www.floridamemory.com/, 500 S. Bronough St., Tallahassee, FL 32399-0250 USA. Contact: 850.245.6700. Archives@dos.myflorida.com*
+> *Persistent URL: Florida Memory (item 165692) Local call number: PHF394 Title: Workers with steam turbines in Tampa, Florida Date: ca. 1919 Series Title: Florida Memory photographic collection Physical descrip: 1 photoprint - b&amp;w - 10 x 8 in. Repository: Florida Memory, 500 S. Bronough St., Tallahassee, FL 32399-0250 USA. Contact: 850.245.6700. Archives@dos.myflorida.com*
 
 > *Image: State Library and Archives of Florida, Public domain*
 
 ![Workers with steam turbines in Tampa, Florida (9401749096)](../images/energy/energy_steam-turbines.jpg)
 
-> *Persistent URL: http://www.floridamemory.com/items/show/165692
+> *Persistent URL: Florida Memory (item 165692)
 Local call number: PHF394
 Title: Workers with steam turbines in Tampa, Florida
 Date: ca. 1919
-Series Title: http://www.floridamemory.com/photographiccollection/collections/?id=12
+Series Title: Florida Memory photographic collection
 Physical descrip: 1 photoprint - b&amp;w - 10 x 8 in.
 
 ...*
@@ -93,7 +93,7 @@ Modern utility turbines use impulse stages at the HP end and reaction stages in 
 
 ### Surface Condenser
 
-**[Surface condenser](../glossary/surface-condenser.md)** (standard for power generation):
+**Surface condenser** (standard for power generation):
 
 Exhaust steam enters a shell-and-tube heat exchanger positioned directly below the turbine exhaust. The shell is a cylindrical or box-shaped steel vessel rated for full vacuum (external pressure of ~1 bar). Inside, thousands of tubes (20-30 mm OD, 0.5-1.0 mm wall thickness, brass, cupro-nickel, or titanium) carry cooling water. Steam condenses on the tube outer surfaces, dripping to a hotwell for recovery as feed water.
 

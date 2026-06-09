@@ -24,8 +24,8 @@ Nitrocellulose production requires a substantial chemical infrastructure:
 
 **Chemistry**: Cellulose (cotton linters or wood pulp) + nitric acid + sulfuric acid produces nitrocellulose (cellulose nitrate). Nitration substitutes -NO₂ groups onto cellulose hydroxyls. Degree of nitration determines properties:
 
-- **[Guncotton](../glossary/guncotton.md)** (12.5-13.5% nitrogen): Highly nitrated. Burns rapidly without residue. Insoluble in common solvents. Used as propellant base and explosive.
-- **[Pyroxylin / collodion cotton](../glossary/pyroxylin-collodion-cotton.md)** (10.5-12% nitrogen): Lower nitration. Soluble in ether-alcohol and acetone. Used for lacquers, film base, dope.
+- **Guncotton** (12.5-13.5% nitrogen): Highly nitrated. Burns rapidly without residue. Insoluble in common solvents. Used as propellant base and explosive.
+- **Pyroxylin / collodion cotton** (10.5-12% nitrogen): Lower nitration. Soluble in ether-alcohol and acetone. Used for lacquers, film base, dope.
 
 **Prerequisites**:
 - [Mixed acid production](acids.md) (HNO₃ + H₂SO₄)
@@ -102,7 +102,7 @@ Mixed acid (HNO₃ + H₂SO₄) causes severe chemical burns. Wear acid-resistan
 | Extruded powder grains stick together (blocking) | Insufficient drying, or glazing (graphite coating) omitted | Extend drying time until solvent content <1%; tumble dried grains with 0.5-1.0% graphite powder to coat surfaces and prevent adhesion |
 | Diphenylamine stabilizer depletes rapidly in storage | Powder stored above 30°C or in damp conditions (moisture accelerates decomposition) | Store at 15-20°C in sealed containers with desiccant; test stabilizer content every 6 months; if below 0.5%, use powder within 12 months or destroy |
 
-**Applications**: Propellant base for [single-base smokeless powder](../glossary/single-base.md), explosive, lacquers and film base (pyroxylin form), dope for fabric aircraft covering, early photographic film (celluloid, made from pyroxylin + camphor plasticizer). Nitrocellulose is the foundation of the entire smokeless powder industry. Without it, firearms remain limited to black powder performance: heavy smoke, limited range, and rapid barrel fouling. Pyroxylin's solubility in ether-alcohol also made it the first practical plastic (celluloid, 1860s), enabling photography, film, and early molded goods.
+**Applications**: Propellant base for single-base smokeless powder, explosive, lacquers and film base (pyroxylin form), dope for fabric aircraft covering, early photographic film (celluloid, made from pyroxylin + camphor plasticizer). Nitrocellulose is the foundation of the entire smokeless powder industry. Without it, firearms remain limited to black powder performance: heavy smoke, limited range, and rapid barrel fouling. Pyroxylin's solubility in ether-alcohol also made it the first practical plastic (celluloid, 1860s), enabling photography, film, and early molded goods.
 
 **Strengths**:
 - Burns rapidly without residue (cleaner than black powder)
@@ -122,8 +122,8 @@ Mixed acid (HNO₃ + H₂SO₄) causes severe chemical burns. Wear acid-resistan
 
 **Chemistry**: Smokeless powders are based on nitrocellulose, alone or combined with nitroglycerin. The gelatinized nitrocellulose burns progressively, with surface area controlling burn rate. Two main types:
 
-- **[Single-base](../glossary/single-base.md)** (nitrocellulose only): Guncotton dissolved in ether-alcohol, then dried and extruded into cords or flakes. Burns progressively as surface area decreases.
-- **[Double-base](../glossary/double-base.md)** (nitrocellulose + nitroglycerin): Nitroglycerin plasticizes nitrocellulose, increasing energy content. Burn rate controlled by grain geometry (perforations, flake thickness).
+- **Single-base** (nitrocellulose only): Guncotton dissolved in ether-alcohol, then dried and extruded into cords or flakes. Burns progressively as surface area decreases.
+- **Double-base** (nitrocellulose + nitroglycerin): Nitroglycerin plasticizes nitrocellulose, increasing energy content. Burn rate controlled by grain geometry (perforations, flake thickness).
 
 **Prerequisites**:
 - [Nitrocellulose production](#nitrocellulose-guncotton) (guncotton)

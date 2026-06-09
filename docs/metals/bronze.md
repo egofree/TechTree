@@ -87,7 +87,7 @@ Molten bronze is poured into molds to produce ingots, tools, and complex shapes.
 - **Stone molds**: Carved soapstone or fine-grained stone. Reusable dozens of times. Best for standardized items (axe heads, ingots).
 - **Pouring temperature**: 1000-1100 °C (bronze melts at ~950 °C for 10% Sn, needs superheat for fluidity). Preheat molds to 200-400 °C to prevent thermal shock and improve fill.
 
-**[Lost-wax casting](../glossary/lost-wax-casting.md)** (complex shapes — tools, ornaments):
+**Lost-wax casting** (complex shapes — tools, ornaments):
 1. **Wax model**: Sculpt in beeswax or tallow. Attach wax sprue (5-10 mm dia ±2 mm) and vent wires.
 2. **Clay investment**: Coat in thin clay slip, build up 2-4 layers of clay + grog (1-3 cm thick ±0.5 cm). Dry thoroughly (2-4 days at ambient temperature).
 3. **Burnout**: Heat to 400-600 °C to melt and drain wax. Raise to 800-900 °C to fire clay hard and burn residual wax.
@@ -112,9 +112,9 @@ Molten bronze is poured into molds to produce ingots, tools, and complex shapes.
 
 Bronze work-hardens similarly to copper but starts harder. As-cast 10% tin bronze is ~120-150 HV. Cold hammering increases hardness to 200-250 HV. Bronze cannot be hot-worked as easily as copper — high-tin bronzes become hot-short (crumbly) above ~600 °C.
 
-**[Annealing](../glossary/annealing.md)** (restores ductility): Heat to 600-650 °C, hold 30-60 min. Cool in air. Unlike copper, bronze does not anneal as fully — repeated cycles gradually reduce ductility. Low-tin bronzes (5% Sn) tolerate more cold work between anneals than high-tin (12% Sn).
+**Annealing** (restores ductility): Heat to 600-650 °C, hold 30-60 min. Cool in air. Unlike copper, bronze does not anneal as fully — repeated cycles gradually reduce ductility. Low-tin bronzes (5% Sn) tolerate more cold work between anneals than high-tin (12% Sn).
 
-**[Temperature estimation by color](../glossary/temperature-estimation-by-color.md)** (no instruments): Dark red ~550 °C, cherry red ~650 °C, bright cherry ~750 °C, dark orange ~850 °C, orange ~950 °C, light yellow ~1050 °C, white ~1150 °C+.
+**Temperature estimation by color** (no instruments): Dark red ~550 °C, cherry red ~650 °C, bright cherry ~750 °C, dark orange ~850 °C, orange ~950 °C, light yellow ~1050 °C, white ~1150 °C+.
 
 **Verification**: Test hardness by pressing a steel file against the workpiece. As-cast bronze resists the file moderately; work-hardened bronze at ~200-250 HV strongly resists the file.
 
@@ -207,4 +207,4 @@ For a bootstrapping civilization, bronze fills the critical gap between copper (
 - [Sewing & Tailoring](../textiles/sewing-tailoring.md) — bronze needles and tools
 - [Medical Instruments](../health/medical-instruments.md) — bronze surgical tools
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*

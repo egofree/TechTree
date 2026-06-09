@@ -32,4 +32,4 @@ Capabilities in this domain:
 <!-- TODO: source image for Data Storage -->
 - [Data Storage](data-storage.md) — Punch cards, paper tape, magnetic media, optical storage, and solid-state memory technologies.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

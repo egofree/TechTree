@@ -232,4 +232,4 @@ Joint defect rate tracking: count defects per 100 joints. Target: <2% defect rat
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*

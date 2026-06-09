@@ -43,14 +43,14 @@ Animal fats and vegetable oils provide the first lubricants available to a civil
 
 **Production**:
 
-**[Tallow](../glossary/tallow.md)** (beef/mutton fat):
+**Tallow** (beef/mutton fat):
 1. Cut fat into small pieces (1-2 cm). Smaller pieces render faster and more completely.
 2. Heat in iron pot with water (prevents scorching) at 80-100°C for 2-4 hours. Fat melts out and floats on water.
 3. Skim off the melted fat. Filter through cloth to remove solids.
 4. Press the cracklings (solid residue) in a screw press to extract remaining fat.
 5. Yield: 70-85% of raw fat weight. Melting point: 40-45°C. At room temperature: semi-solid, waxy.
 
-**[Lard](../glossary/lard.md)** (pig fat):
+**Lard** (pig fat):
 1. Same rendering process as tallow.
 2. Lower melting point (33-40°C). Softer, more fluid at room temperature. Preferred for lighter lubrication duties.
 
@@ -113,7 +113,7 @@ Rancid fat has an unpleasant odor but is not hazardous for lubricant use. The ac
 - **Castor oil**: Press castor beans. Very high viscosity (~250 cSt at 40°C, roughly 100x olive oil). Excellent for high-speed, high-temperature applications. The ricinoleic acid content gives superior film strength. Used as engine lubricant in early aviation and racing (Castrol originally stood for "castor oil").
 - **Rapeseed oil (canola)**: Moderate viscosity (~35 cSt at 40°C). Good general-purpose lubricant. Widely available in temperate climates. The basis for many biodegradable hydraulic fluids.
 - **Olive oil**: Moderate viscosity (~40 cSt at 40°C). Good lubricity. Available in Mediterranean climates. One of the earliest lubricants used in antiquity.
-- **[Linseed oil](../glossary/linseed-oil.md)** (flax seed oil): Drying oil. Polymerizes on exposure to air (oxidation cross-links fatty acid chains into a solid film). NOT suitable for lubrication (it hardens). Used for: paint binder (oil paint = linseed oil + pigment), wood finishing, putty (linseed oil + chalk), protective coatings on metal (thin film inhibits rust). Boiled linseed oil (heated with metallic driers such as manganese or cobalt salts) dries faster, in hours instead of days.
+- **Linseed oil** (flax seed oil): Drying oil. Polymerizes on exposure to air (oxidation cross-links fatty acid chains into a solid film). NOT suitable for lubrication (it hardens). Used for: paint binder (oil paint = linseed oil + pigment), wood finishing, putty (linseed oil + chalk), protective coatings on metal (thin film inhibits rust). Boiled linseed oil (heated with metallic driers such as manganese or cobalt salts) dries faster, in hours instead of days.
 - **Sunflower oil**: Moderate viscosity (~30 cSt at 40°C). Similar to rapeseed. Available from a widely grown crop.
 
 **Properties**: Vegetable oils have higher viscosity index than mineral oils (viscosity changes less with temperature). Good lubricity from polar ester groups. Flash point typically 250-320°C. Pour point typically -10 to -20°C (castor oil much higher, around -20 to -10°C). Oxidative stability is the primary weakness: double bonds in unsaturated fatty acids react with oxygen, producing acids, peroxides, and polymers that thicken the oil and deposit gum.
@@ -213,4 +213,4 @@ Natural lubricant production scales with agricultural output:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*

@@ -20,4 +20,4 @@ Capabilities in this domain:
 <!-- TODO: source image for Water Procurement -->
 - [Water Procurement](water-procurement.md) — Water finding, rainwater harvesting, spring development, and water storage.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

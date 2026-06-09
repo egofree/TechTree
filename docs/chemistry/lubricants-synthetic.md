@@ -196,4 +196,4 @@ For a bootstrapping civilization, synthetic lubricants appear very late in the t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*

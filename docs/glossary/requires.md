@@ -25,4 +25,4 @@ Each "requires" relationship also implies a knowledge requirement: not just the 
 ## Appears In
 
 - [Edible Plants](../plants/edible-plants.md)
-- [All domain capability articles](../index.md)
+- [All domain capability articles](../../index.md)

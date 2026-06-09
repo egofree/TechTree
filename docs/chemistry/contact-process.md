@@ -228,4 +228,4 @@ These requirements place the contact process firmly in the mid-industrial develo
 A minimum viable contact process plant requires a sulfur burner, two catalyst beds with intercooling, and a single absorption tower — a simpler configuration than the full DCDA plant.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*

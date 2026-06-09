@@ -5,7 +5,7 @@
 
 ## 1. Overview
 
-This document defines how TechTree JSON-LD entities map to [openLCA schema](https://greendelta.github.io/olca-schema/) types. Both systems use JSON-LD natively, so the mapping is structural (field-to-field) rather than format conversion.
+This document defines how TechTree JSON-LD entities map to openLCA schema types. Both systems use JSON-LD natively, so the mapping is structural (field-to-field) rather than format conversion.
 
 ### TechTree Data Model
 
@@ -425,7 +425,7 @@ TechTree uses semantic IDs (e.g., `metals.iron-steel`). openLCA requires UUIDs. 
 
 ### 6.3 References
 
-- [openLCA schema documentation](https://greendelta.github.io/olca-schema/)
-- [olca-schema Python package](https://pypi.org/project/olca-schema/)
+- openLCA schema documentation
+- olca-schema Python package
 - TechTree context: `data/context.jsonld`
 - TechTree schemas: `data/schema/*.schema.json`

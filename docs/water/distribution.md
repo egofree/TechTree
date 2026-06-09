@@ -244,4 +244,4 @@ Storage buffers supply against variable demand and source fluctuations.
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

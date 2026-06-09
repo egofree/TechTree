@@ -57,4 +57,4 @@ This domain was created as a standalone domain after passing the SIK (Shared Inf
 
 No overrides needed. The domain passes the standard SIK test on its own merits.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

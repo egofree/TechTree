@@ -247,4 +247,4 @@ All desalination methods produce concentrated brine. For seawater RO at 40% reco
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

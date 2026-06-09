@@ -169,13 +169,13 @@ These 13 items apply to every expanded capability file, regardless of format var
 **Requirement**: The file ends with the standard footer navigation link in this exact format:
 ```
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](../spec/README.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Domain Name](../spec/README.md) • [All Domains](../../index.md)*
 ```
 
 **How to verify**:
 - Scroll to the last lines of the file.
 - Confirm a `---` separator followed by a line starting with `*Part of the`.
-- Confirm the three links are present: `../index.md`, `./index.md`, `../index.md`.
+- Confirm the three links are present: `../../index.md`, `./index.md`, `../../index.md`.
 - The domain name in the middle link should match the article's domain.
 
 **Pass**: Footer present with correct format and links.
@@ -323,4 +323,4 @@ Notes: [any details on failures or conditional items]
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Supporting Docs](./) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Supporting Docs](./) • [All Domains](../../index.md)*

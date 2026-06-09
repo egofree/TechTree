@@ -257,7 +257,7 @@ The three metals in this document converge at specific points in GPU fabrication
 - [Gas Handling / Vacuum](../gas-handling/vacuum.md) — sputtering deposition systems
 - [Glass / Photomask Substrates](../glass/photomask-substrates.md) — ITO-coated transparent substrates
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
 
 ![metals refractory specialty](../images/metals/metals_refractory-specialty.png)
 

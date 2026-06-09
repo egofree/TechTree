@@ -16,7 +16,7 @@ For a bootstrapping civilization, metal finishing unlocks the longevity of infra
 
 Galvanizing applies a zinc coating to steel for corrosion protection. Zinc is sacrificial — it has a more negative electrochemical potential than iron (-0.76 V vs. -0.44 V vs. SHE), so even when the coating is scratched and bare steel is exposed, the surrounding zinc corrodes preferentially, providing cathodic protection. A galvanized coating protects steel mechanically (barrier) and electrochemically (sacrificial anode).
 
-**[Hot-dip galvanizing](../glossary/hot-dip-galvanizing.md)** (dominant process, >90% of galvanized steel):
+**Hot-dip galvanizing** (dominant process, >90% of galvanized steel):
 - Steel is cleaned, pickled (HCl to remove mill scale), fluxed (ZnCl₂/NH₄Cl solution at 50-70°C), and immersed in a molten zinc bath at 440-465°C. Immersion time: 10-30 seconds for typical structural sections. Withdrawal rate: 0.5-2.0 m/min (controls coating thickness and drainage).
 - The zinc-iron reaction produces a layered metallurgical bond: inner Γ (Fe₃Zn₁₀), δ (FeZn₇), and ζ (FeZn₁₃) intermetallic layers, topped by a layer of nearly pure η-phase zinc. The intermetallic layers are hard but brittle — excessive thickness (from prolonged immersion or reactive steel) leads to spalling.
 - Coating thickness: 50-100 µm on typical structural steel. Coating weight: 275-610 g/m² depending on steel composition and bath conditions (ASTM A123 specifies minimum coating weights by steel thickness class).
@@ -45,10 +45,10 @@ Electroplating deposits a thin metallic layer on a substrate by reducing metal c
 
 **Chromium plating**:
 - **Decorative chrome**: 0.2-0.8 µm over a nickel underlayer (Cu → Ni → Cr tri-layer). Provides a bright, tarnish-resistant finish on plumbing fixtures, automotive trim, and consumer goods. The chromium layer is microporous or microcracked (controlled by bath chemistry) to distribute corrosion currents evenly, preventing localized pitting.
-- **[Hard chrome](../glossary/hard-chrome.md)** (functional): 10-500 µm of chromium deposited from chromic acid bath (CrO₃ 200-300 g/L + H₂SO₄ 2-3 g/L, CrO₃:SO₄ ratio ~100:1). Hardness: 850-1100 HV. Extremely low friction coefficient (0.05-0.12). Used on hydraulic cylinder rods, crankshafts, printing rolls. Cathode efficiency only 12-25% — generates massive hydrogen gas volume. Environmental concern: hexavalent chromium (Cr⁶⁺) is carcinogenic. Replacement technologies (electroless nickel, HVOF tungsten carbide) are growing but hard chrome remains unmatched for some applications.
+- **Hard chrome** (functional): 10-500 µm of chromium deposited from chromic acid bath (CrO₃ 200-300 g/L + H₂SO₄ 2-3 g/L, CrO₃:SO₄ ratio ~100:1). Hardness: 850-1100 HV. Extremely low friction coefficient (0.05-0.12). Used on hydraulic cylinder rods, crankshafts, printing rolls. Cathode efficiency only 12-25% — generates massive hydrogen gas volume. Environmental concern: hexavalent chromium (Cr⁶⁺) is carcinogenic. Replacement technologies (electroless nickel, HVOF tungsten carbide) are growing but hard chrome remains unmatched for some applications.
 - Bath temperature: 50-65°C. Current density: 150-500 mA/cm² for hard chrome. Anodes: insoluble lead-tin or lead-antimony alloy.
 
-**[Nickel plating](../glossary/nickel-plating.md)** (Watts bath):
+**Nickel plating** (Watts bath):
 - Bath composition: NiSO₄·6H₂O (250-350 g/L) + NiCl₂·6H₂O (40-60 g/L) + H₃BO₃ (30-45 g/L, buffer) + organic brighteners (saccharin, allyl sulfonate, butynediol). Temperature: 50-65°C, pH 3.5-4.5, current density 20-50 mA/cm².
 - Produces a dense, ductile deposit with excellent corrosion resistance. Watts nickel alone is semi-bright; brighteners produce mirror-finish deposits but introduce internal stress. Low-stress formulations use primary + secondary brighteners in balanced ratios.
 - Sulfamate nickel bath (Ni(NH₂SO₃)₂) produces very low-stress deposits (20-50 MPa tensile vs. 150-250 MPa for Watts). Used for electroforming and thick builds. Current density up to 100 mA/cm².
@@ -65,7 +65,7 @@ Electroplating deposits a thin metallic layer on a substrate by reducing metal c
 
 Electroless (autocatalytic) plating deposits metal from solution without external current. The reducing agent (sodium hypophosphite for Ni-P, formaldehyde or glyoxylic acid for Cu) reduces metal ions on the catalyzed surface. The deposit itself catalyzes further deposition — the reaction is autocatalytic and self-sustaining once initiated.
 
-**[Electroless nickel (Ni-P alloy)](../glossary/electroless-nickel-ni-p-alloy.md)** — the most commercially important electroless process:
+**Electroless nickel (Ni-P alloy)** — the most commercially important electroless process:
 - Bath: Nickel sulfate (20-30 g/L) + sodium hypophosphite (NaH₂PO₂, 20-30 g/L) + complexing agents (lactic acid, glycolic acid, citrate) + stabilizers (thiourea or lead acetate, ppm levels). Temperature: 85-95°C, pH 4.5-5.0.
 - Phosphorus content controlled by bath pH and hypophosphite ratio: low-P (1-4% P), mid-P (5-8% P), high-P (9-13% P). Higher phosphorus → more amorphous structure → better corrosion resistance (especially in high-P, which is non-crystalline and has no grain boundaries for corrosive attack).
 - Hardness: 500-700 HV as-plated. Heat treatment at 400°C for 1 hour precipitates Ni₃P (nickel phosphide) particles, raising hardness to 900-1100 HV — comparable to hard chrome.
@@ -80,20 +80,20 @@ Electroless (autocatalytic) plating deposits metal from solution without externa
 
 Anodizing converts the aluminum surface to a controlled aluminum oxide (Al₂O₃) layer by electrochemical oxidation. The workpiece is the anode in an electrolytic cell — oxygen generated at the anode reacts with aluminum to form a dense, hard oxide. The resulting coating is integral to the substrate (not deposited), so it cannot peel or chip.
 
-**[Sulfuric acid anodizing](../glossary/sulfuric-acid-anodizing.md)** (Type II, most common):
+**Sulfuric acid anodizing** (Type II, most common):
 - Electrolyte: 150-200 g/L H₂SO₄, 15-22°C, 12-22 V DC. Current density: 10-20 mA/cm². Time: 20-60 minutes.
 - Coating: 5-30 µm of Al₂O₃ (porous structure — hexagonal cells with central pores). The barrier layer at the metal-coating interface is thin (~10-30 nm per volt of applied potential).
 - The porous structure readily absorbs dyes (organic and inorganic) before sealing, producing colored finishes in a wide range of hues. After dyeing, the coating is sealed by immersing in hot water (95-100°C) or nickel acetate solution. Sealing hydrates the Al₂O₃, converting it to boehmite (AlO(OH)), which swells and closes the pores, trapping the dye and sealing the surface.
 - Coating hardness: 200-400 HV. Moderate wear and corrosion resistance.
 
-**[Hard anodizing](../glossary/hard-anodizing.md)** (Type III):
+**Hard anodizing** (Type III):
 - Electrolyte: 150-250 g/L H₂SO₄, -1 to +5°C (refrigerated bath), 25-75 V DC. Current density: 20-40 mA/cm². Time: 30-120 minutes. Low temperature suppresses acid dissolution of the oxide, allowing thicker buildup.
 - Coating: 25-100 µm of dense Al₂O₃. Hardness: 400-600 HV (some sources report up to 700 HV on select alloys). The coating is dark gray to bronze/brown depending on alloy and thickness.
 - Applications: Wear surfaces (piston heads, cylinder liners, sliding components), architectural hardware, military equipment. Can be precision-ground or lapped after anodizing.
 - Alloy effects: 2000-series (Cu-bearing) anodize poorly — soft, dark coatings. 5000/6000-series (Mg/Si) anodize well. 7000-series (Zn) intermediate. Silicon particles in cast alloys appear as dark spots.
 
 **Other anodizing variants**:
-- **[Chromic acid](../glossary/chromic-acid.md)** (Type I): 30-50 g/L CrO₃, 40°C, 40-50 V. Thin coating (2-10 µm), excellent for fatigue-critical aerospace parts (minimal stress concentration from the thin, non-porous coating). Also used as a pre-prime treatment for aluminum aircraft skins. Environmental concern: Cr⁶⁺ in bath and rinse water.
+- **Chromic acid** (Type I): 30-50 g/L CrO₃, 40°C, 40-50 V. Thin coating (2-10 µm), excellent for fatigue-critical aerospace parts (minimal stress concentration from the thin, non-porous coating). Also used as a pre-prime treatment for aluminum aircraft skins. Environmental concern: Cr⁶⁺ in bath and rinse water.
 - **Oxalic acid**: Used in Japan and Europe for architectural aluminum. Produces a yellowish, hard coating without dyeing. 30-50 µm at 30-60 V.
 - **Phosphoric acid**: Used primarily as a surface preparation for adhesive bonding in aerospace (Boeing process). Creates a micro-porous oxide ideal for adhesive mechanical interlocking.
 
@@ -101,12 +101,12 @@ Anodizing converts the aluminum surface to a controlled aluminum oxide (Al₂O�
 
 Phosphating produces an insoluble crystalline phosphate conversion coating on steel, zinc, or aluminum by immersion in a dilute metal phosphate + phosphoric acid solution. The coating forms by chemical reaction with the substrate (no external current). The phosphate crystals are microscopically rough, providing excellent adhesion for paints and oils.
 
-**[Zinc phosphate](../glossary/zinc-phosphate.md)** (most common for steel):
+**Zinc phosphate** (most common for steel):
 - Bath: ZnO dissolved in H₃PO₄, with accelerators (sodium nitrite, nitrate, or chlorate). Total acid 20-30 points, free acid 2-4 points (titration measurement). Temperature: 40-70°C depending on formulation. Immersion time: 3-10 minutes.
 - Reaction: Steel dissolves in phosphoric acid → local pH rises at surface → zinc phosphate precipitates as hopeite (Zn₃(PO₄)₂·4H₂O) crystals on the surface. Crystal size: 2-10 µm. Coating weight: 1-5 g/m² (thin paint base) or 10-30 g/m² (heavy, for oil retention).
 - Process sequence: Alkaline clean → water rinse → surface condition (colloidal titanium activator, refines crystal size) → zinc phosphate → water rinse → seal (chromic acid or reactive sealer) or oil. Each step is a separate immersion tank.
 
-**[Manganese phosphate](../glossary/manganese-phosphate.md)** (Parkerizing):
+**Manganese phosphate** (Parkerizing):
 - Bath: MnO or MnCO₃ dissolved in H₃PO₄ + Fe(H₂PO₄)₂. Temperature: 90-98°C (near-boiling). Immersion: 5-20 minutes.
 - Produces a dark gray to black coating of hureaulite ((Mn,Fe)₅H₂(PO₄)₄·4H₂O) crystals. Coating weight: 5-30 g/m². Crystal structure is larger and more absorbent than zinc phosphate — retains oil effectively.
 - Applications: Gun barrels, engine components, gears, fasteners. The oiled manganese phosphate coating provides excellent corrosion resistance (72-200+ hours salt spray with oil) and anti-galling properties for moving parts. Military specification MIL-DTL-16232.
@@ -117,14 +117,14 @@ Phosphating produces an insoluble crystalline phosphate conversion coating on st
 
 Case hardening creates a hard, wear-resistant surface layer (the "case") on a ductile, tough core. Low-carbon steel (0.1-0.25% C) is processed so the surface reaches 0.6-1.0% carbon while the core remains at the original low carbon content — after quenching, the surface is hard martensite while the core is soft ferrite/pearlite.
 
-**[Pack carburizing](../glossary/pack-carburizing.md)** (oldest method, still viable for bootstrapping):
+**Pack carburizing** (oldest method, still viable for bootstrapping):
 - Parts packed in a carbon-rich compound (charcoal + 5-10% BaCO₃ or Na₂CO₃ energizer) in a sealed steel box. Heated to 900-950°C for 4-12 hours. The energizer decomposes to form CO gas, which dissociates at the steel surface (2CO → C[absorbed] + CO₂). Carbon diffuses into the steel surface.
 - Case depth: Proportional to √(time). At 925°C, diffusion rate ≈ 0.5 mm/hour^0.5 → 4 hours gives ~1 mm case, 16 hours gives ~2 mm.
 - After carburizing, parts are cooled, then re-heated to 800-830°C (above the case's austenitizing temperature but below the core's) and quenched in water or oil. This hardens the case while the core remains relatively soft and tough. Tempering at 150-200°C relieves quenching stress without significant softening.
 - Advantages: Simple equipment (furnace + steel boxes + charcoal). No gas supply needed. Suitable for small batches and large parts.
 - Disadvantages: Poor carbon control, soot on parts, labor-intensive, slow. Difficult to case-harden selectively (copper plating can mask areas to be kept soft).
 
-**[Gas carburizing](../glossary/gas-carburizing.md)** (modern industrial standard):
+**Gas carburizing** (modern industrial standard):
 - Endothermic gas carrier (N₂ + CO + H₂, from air-methane reaction) enriched with natural gas (CH₄) or propane provides carbon. Furnace temperature: 900-950°C. Carbon potential of the atmosphere is measured and controlled by oxygen probe or dew point, targeting 0.7-0.9% C at the surface.
 - Faster than pack carburizing (better gas-solid contact). Easier to control case depth and carbon profile. Can be combined with direct quenching (parts quenched from carburizing temperature without cooling first) for higher throughput.
 
@@ -133,7 +133,7 @@ Case hardening creates a hard, wear-resistant surface layer (the "case") on a du
 - Temperature: 800-870°C (lower than pure carburizing). Case depth: 0.05-0.75 mm (typically thinner than carburized cases).
 - Applications: Small gears, shafts, fasteners, die components. Provides excellent wear resistance and a degree of improved corrosion resistance from the nitrogen.
 
-**[Nitriding](../glossary/nitriding.md)** (gas nitriding):
+**Nitriding** (gas nitriding):
 - No carbon addition. Nitrogen is absorbed from dissociated ammonia (NH₃ → N + 3/2 H₂) at 500-550°C (below the steel's critical transformation temperature — no quenching required). Nitrogen combines with alloying elements (Cr, Al, Mo, V) to form hard nitride precipitates.
 - Case hardness: 900-1200 HV (very hard, harder than carburized and quenched cases). Case depth: 0.1-0.7 mm (diffusion is slow at 500°C — 20-80 hours). A "white layer" (compound layer, Fe₂-₃N iron nitride) forms at the extreme surface: 5-25 µm thick, extremely hard but brittle. Often removed by grinding for precision parts.
 - Nitriding steels: Must contain nitride-forming elements — Al (0.8-1.2%), Cr (1-3%), Mo (0.2-0.5%), V. "Nitralloy" steels (e.g., Nitralloy 135M: 1.0% Al, 1.6% Cr, 0.4% Mo) are specifically designed for nitriding.
@@ -149,16 +149,16 @@ Case hardening creates a hard, wear-resistant surface layer (the "case") on a du
 
 Passivation removes free iron from the surface of stainless steel and promotes the formation of a continuous, transparent chromium oxide (Cr₂O₃) passive film that provides corrosion resistance. Stainless steel self-passivates in air, but surface contamination (embedded iron particles from machining, grinding, or wire brushing) disrupts the passive film and initiates localized rusting. Passivation dissolves these contaminants.
 
-**[Nitric acid passivation](../glossary/nitric-acid-passivation.md)** (traditional, ASTM A967):
+**Nitric acid passivation** (traditional, ASTM A967):
 - Immersion in 20-45% HNO₃ at 20-50°C for 15-60 minutes depending on grade. Nitric acid is an oxidizing acid — it dissolves free iron and iron oxides while passivating the chromium-rich surface. Rinse thoroughly in clean water.
 - Type-specific treatments: Austenitic grades (304, 316) respond well to 20-25% HNO₃ at 20-40°C. Martensitic and ferritic grades (410, 430) require 20-45% HNO₃ at 50-60°C (higher free iron content, more aggressive treatment needed).
 - ASTM A967 defines five passivation methods (nitric acid in various concentrations, nitric acid + sodium dichromate, and citric acid). Acceptance criteria: water immersion test, high-humidity test, salt spray test, or copper sulfate test (no copper plating on surface = pass).
 
-**[Citric acid passivation](../glossary/citric-acid-passivation.md)** (modern alternative):
+**Citric acid passivation** (modern alternative):
 - 4-10% citric acid at 40-60°C for 15-30 minutes. Safer than nitric acid (non-oxidizing, biodegradable, lower fume hazard). Increasingly specified in aerospace and medical device industries (ASTM A967 Citric 1-5 methods).
 - Removes free iron by chelation — citric acid binds Fe²⁺/Fe³⁺ ions. Does not attack the chromium oxide passive layer. Effective on all stainless grades.
 
-**[Electropolishing](../glossary/electropolishing.md)** (ultimate passivation):
+**Electropolishing** (ultimate passivation):
 - The workpiece is the anode in a concentrated H₂SO₄ + H₃PO₄ electrolyte at 50-70°C. Controlled dissolution removes a thin layer (5-40 µm) of the surface, preferentially attacking peaks (micro-polishing) and enriching the surface in chromium (Cr dissolves slower than Fe in the electropolishing electrolyte). The result: a smooth, chromium-enriched, exceptionally passive surface.
 - Used where both surface finish and maximum corrosion resistance are required: pharmaceutical equipment ( sanitary tubing), semiconductor process chambers, food processing equipment, and medical implants.
 
@@ -184,7 +184,7 @@ Thermal spraying deposits molten or semi-molten material onto a surface by prope
 
 **Plasma spraying**:
 - DC arc (100-200 V, 300-800 A) between a tungsten cathode and copper anode ionizes argon or nitrogen gas into a plasma jet (10,000-15,000°C). Powder injected into the plasma melts instantly and is propelled at 200-400 m/s to the substrate.
-- The only thermal spray process that can fully melt ceramics (melting points >2500°C). Primary application: **[Thermal barrier coatings (TBCs)](../glossary/thermal-barrier-coatings-tbcs.md)** — yttria-stabilized zirconia (YSZ, ZrO₂-8%Y₂O₃) on gas turbine blades and combustion liners. TBC thickness: 100-500 µm. Temperature drop across TBC: 100-300°C, allowing higher operating temperatures and improved efficiency.
+- The only thermal spray process that can fully melt ceramics (melting points >2500°C). Primary application: **Thermal barrier coatings (TBCs)** — yttria-stabilized zirconia (YSZ, ZrO₂-8%Y₂O₃) on gas turbine blades and combustion liners. TBC thickness: 100-500 µm. Temperature drop across TBC: 100-300°C, allowing higher operating temperatures and improved efficiency.
 - Bond coat: MCrAlY (M = Ni, Co, or NiCo) applied by plasma or HVOF before the YSZ topcoat. The bond coat provides oxidation/corrosion resistance and a rough surface for mechanical bonding of the ceramic. A thermally grown oxide (TGO, α-Al₂O₃) forms at the bond coat-topcoat interface during service — TGO growth is the ultimate life-limiting mechanism for TBCs.
 
 ## Pickling and Descaling
@@ -192,13 +192,13 @@ Thermal spraying deposits molten or semi-molten material onto a surface by prope
 Pickling removes oxide scale (mill scale, heat tint, welding discoloration) from metal surfaces by chemical dissolution in acid. Descaling may refer to mechanical removal (shot blasting) or chemical (acid pickling). Pickling is a surface preparation step preceding galvanizing, plating, passivation, or welding.
 
 **Carbon steel pickling**:
-- **[Hydrochloric acid](../glossary/hydrochloric-acid.md)** (most common): 10-20% HCl at 20-40°C. Dissolves FeO, Fe₃O₄, and Fe₂O₃ mill scale. Fast action (5-15 minutes immersion for typical scale). Acid consumption: 30-50 kg HCl per tonne of steel. Fumes: HCl vapor — requires acid-resistant ventilation (PVC or FRP ductwork, scrubber).
-- **[Sulfuric acid](../glossary/sulfuric-acid.md)** (older process): 5-15% H₂SO₄ at 50-80°C. Slower than HCl, requires heating. Lower fuming (H₂SO₄ has lower vapor pressure). Leaves iron sulfate scale on parts if not thoroughly rinsed. Largely replaced by HCl in continuous strip lines but still used for batch pickling.
+- **Hydrochloric acid** (most common): 10-20% HCl at 20-40°C. Dissolves FeO, Fe₃O₄, and Fe₂O₃ mill scale. Fast action (5-15 minutes immersion for typical scale). Acid consumption: 30-50 kg HCl per tonne of steel. Fumes: HCl vapor — requires acid-resistant ventilation (PVC or FRP ductwork, scrubber).
+- **Sulfuric acid** (older process): 5-15% H₂SO₄ at 50-80°C. Slower than HCl, requires heating. Lower fuming (H₂SO₄ has lower vapor pressure). Leaves iron sulfate scale on parts if not thoroughly rinsed. Largely replaced by HCl in continuous strip lines but still used for batch pickling.
 - Hydrogen embrittlement risk: Acid pickling generates hydrogen at the steel surface (Fe + 2HCl → FeCl₂ + H₂). Atomic hydrogen can diffuse into the steel, causing embrittlement in high-strength steels (yield strength >1000 MPa). Baking at 150-200°C for 4-24 hours within 1 hour of pickling drives out absorbed hydrogen.
 - Inhibitors: Added to pickling acid (0.1-0.5% organic inhibitors such as urotropine, thiourea derivatives) to reduce base metal attack after scale removal, reducing hydrogen generation and acid consumption.
 
 **Stainless steel and titanium pickling**:
-- **[Mixed acid](../glossary/mixed-acid.md)** (HF + HNO₃): The standard pickle for stainless steel. Typical bath: 8-15% HNO₃ + 1-5% HF at 20-50°C. Nitric acid dissolves iron and chromium oxides; hydrofluoric acid dissolves silicon oxides and complex chromium oxides. Immersion: 10-30 minutes. Produces a uniform, white, pickled finish.
+- **Mixed acid** (HF + HNO₃): The standard pickle for stainless steel. Typical bath: 8-15% HNO₃ + 1-5% HF at 20-50°C. Nitric acid dissolves iron and chromium oxides; hydrofluoric acid dissolves silicon oxides and complex chromium oxides. Immersion: 10-30 minutes. Produces a uniform, white, pickled finish.
 - **Safety**: Hydrofluoric acid is extremely hazardous — penetrates skin rapidly, binds calcium and magnesium in tissue, causes deep tissue necrosis and potentially fatal systemic fluoride poisoning. Calcium gluconate gel must be available at every HF workstation. Full protective equipment: acid-resistant gloves (Neoprene or Nitrile over natural rubber), face shield, acid suit, and emergency shower.
 - Titanium pickling: Similar HF + HNO₃ mixture, but higher HNO₃ (20-40%) to maintain a passive surface during pickling. Pure HF attacks titanium aggressively and generates hydrogen (embrittlement risk). The high HNO₃ ratio keeps the surface passivated while HF removes the oxide scale selectively.
 
@@ -302,4 +302,4 @@ Paint is the most widely used protective coating for metals, but paint performan
 - [Aluminum](aluminum.md) — anodizing and aluminum surface treatment
 - [Electroplating](../electrochemistry/electroplating.md) — electrodeposition of metal coatings
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*

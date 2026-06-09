@@ -205,4 +205,4 @@ Proper handling of petroleum coke, pitch, and finished electrodes maintains qual
 - Track baking furnace position assignments to correlate electrode quality with furnace zones
 - Verify graphitization furnace power input matches energy specification for each electrode grade
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*

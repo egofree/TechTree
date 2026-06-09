@@ -514,4 +514,4 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../../index.md)*

@@ -241,4 +241,4 @@ Fire-refined anodes that are not immediately consumed in the electrolytic tank h
 - [Copper & Bronze Production](copper-bronze.md) — downstream capability
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*

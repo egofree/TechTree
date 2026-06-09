@@ -258,6 +258,6 @@ Each hardware device needs a driver — a software module that knows how to prog
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../../index.md)*
 
 ![software bootstrapping operating systems](../images/software-bootstrapping/software-bootstrapping_operating-systems.png)

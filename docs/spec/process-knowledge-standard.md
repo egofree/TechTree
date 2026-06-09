@@ -3,7 +3,7 @@
 **Version:** 1.0.0-draft
 **Status:** Draft
 **Date:** 2026-05-27
-**URI:** `https://egofree.github.io/TechTree/spec/process-knowledge-standard/v1.0`
+**URI:** `techtree:spec/process-knowledge-standard/v1.0`
 
 > Formal specification for representing process knowledge as a directed acyclic graph of industrial capabilities, their material flows, and the dependencies between them. This document IS the standard. The TechTree data files — per-entity `.jsonld` files in `data/entities/{domain}/`, individual edges in `data/entities/_edges/`, and the shared `data/context.jsonld` — are its reference implementation.
 
@@ -796,7 +796,7 @@ STEP is a family of ISO standards for product data exchange, particularly 3D geo
 
 ### 15.1 Purpose
 
-The `wikidataId` property links TechTree entities to their corresponding [Wikidata](https://www.wikidata.org/) items, enabling cross-reference with the world's largest open structured knowledge base. This linkage supports data enrichment, provenance tracking, and interoperability with other knowledge graphs.
+The `wikidataId` property links TechTree entities to their corresponding Wikidata items, enabling cross-reference with the world's largest open structured knowledge base. This linkage supports data enrichment, provenance tracking, and interoperability with other knowledge graphs.
 
 ### 15.2 Format
 
@@ -815,10 +815,10 @@ The `wikidataId` field holds a Wikidata item identifier: the letter `Q` followed
 
 To find the correct Wikidata Q-number for an entity:
 
-1. Go to [wikidata.org](https://www.wikidata.org/)
+1. Go to wikidata.org
 2. Search for the material, process, or concept name
 3. Verify the item description matches your entity (e.g., "alloy of iron and carbon" for steel)
-4. Copy the Q-number from the item URL (e.g., `https://www.wikidata.org/wiki/Q11427` → `Q11427`)
+4. Copy the Q-number from the item URL (e.g., `Q11427`)
 
 ### 15.4 Conformance
 
@@ -830,16 +830,16 @@ Common materials and their verified Wikidata Q-numbers:
 
 | Material | Q-Number | Wikidata Item |
 |----------|----------|---------------|
-| Iron | Q880 | [Iron](https://www.wikidata.org/wiki/Q880) |
-| Steel | Q11427 | [Steel](https://www.wikidata.org/wiki/Q11427) |
-| Copper | Q753 | [Copper](https://www.wikidata.org/wiki/Q753) |
-| Aluminum | Q662 | [Aluminium](https://www.wikidata.org/wiki/Q662) |
-| Glass | Q11469 | [Glass](https://www.wikidata.org/wiki/Q11469) |
-| Charcoal | Q142385 | [Charcoal](https://www.wikidata.org/wiki/Q142385) |
-| Bronze | Q847506 | [Bronze](https://www.wikidata.org/wiki/Q847506) |
-| Wood | Q175658 | [Wood](https://www.wikidata.org/wiki/Q175658) |
-| Limestone | Q23757 | [Limestone](https://www.wikidata.org/wiki/Q23757) |
-| Silicon | Q104629 | [Silicon](https://www.wikidata.org/wiki/Q104629) |
+| Iron | Q880 | Iron (Q880) |
+| Steel | Q11427 | Steel (Q11427) |
+| Copper | Q753 | Copper (Q753) |
+| Aluminum | Q662 | Aluminium |
+| Glass | Q11469 | Glass |
+| Charcoal | Q142385 | Charcoal |
+| Bronze | Q847506 | Bronze |
+| Wood | Q175658 | Wood |
+| Limestone | Q23757 | Limestone |
+| Silicon | Q104629 | Silicon |
 
 ### 15.6 Future Use
 

@@ -274,4 +274,4 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*

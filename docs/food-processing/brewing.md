@@ -25,7 +25,7 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 
 ![Setting the Chiller Flow (8425914640)](../images/food-processing/food-processing_brewing-diagram.jpg)
 
-> *Observing the brewing process at THAT Brewery, Pine AZ http://thatbrewery.com/*
+> *Observing the brewing process at THAT Brewery, Pine AZ THAT Brewery, Pine AZ*
 
 > *Image: cogdogblog, CC BY 2.0*
 
@@ -314,4 +314,4 @@ Glucose → 2 ethanol + 2 carbon dioxide + energy (for yeast)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*

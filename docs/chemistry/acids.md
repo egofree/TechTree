@@ -297,11 +297,11 @@ Phosphoric acid (H₃PO₄) bridges mineral acid production to fertilizer chemis
 
 Steel pickling removes oxide scale (mill scale, rust) from steel surfaces before further processing (galvanizing, plating, cold rolling, welding).
 
-**[Sulfuric acid pickling](../glossary/sulfuric-acid-pickling.md)** (traditional):
+**Sulfuric acid pickling** (traditional):
 - 10-25% H₂SO₄ at 60-80°C. Soak steel 5-30 minutes. Scale dissolves: Fe₂O₃ + 3H₂SO₄ → Fe₂(SO₄)₃ + 3H₂O. Base metal also dissolves slowly: Fe + H₂SO₄ → FeSO₄ + H₂↑ (hydrogen embrittlement risk — bake out at 200°C after pickling).
 - Spent acid: FeSO₄ concentration reaches 15-25%, acid depleted to <5%. Recovery: chill to crystallize FeSO₄·7H₂O (copperas), regenerate acid by adding concentrated H₂SO₄. Or spray roast: atomize spent acid into a furnace at 800-1000°C → Fe₂O₃ + SO₂ + H₂O. SO₂ captured for sulfuric acid production (closed loop). HCl roaster produces HCl gas for acid regeneration.
 
-**[Hydrochloric acid pickling](../glossary/hydrochloric-acid-pickling.md)** (modern, dominant):
+**Hydrochloric acid pickling** (modern, dominant):
 - 15-20% HCl at 35-40°C. Faster than sulfuric (2-10 minutes). Less base metal attack, less hydrogen embrittlement, better surface finish. Scale dissolves: Fe₂O₃ + 6HCl → 2FeCl₃ + 3H₂O.
 - Spent acid recovery: spray roaster produces Fe₂O₃ (sellable pigment) and HCl gas (absorbed in water → regenerated acid). Closed-loop acid recovery is standard in modern steel plants.
 
@@ -394,4 +394,4 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

@@ -281,4 +281,4 @@ sun curing) determines the final leaf character. Air-cured burley tobacco takes 
 produces a mild, low-sugar leaf suitable for cigarette and pipe tobacco production.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

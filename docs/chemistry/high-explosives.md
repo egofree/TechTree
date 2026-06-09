@@ -274,7 +274,7 @@ Each high explosive has specific quality verification tests:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -300,4 +300,4 @@ Each high explosive has specific quality verification tests:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

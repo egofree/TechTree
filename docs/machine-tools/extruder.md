@@ -206,6 +206,6 @@ The extruder is also the most energy-intensive polymer processing machine: 0.15-
 - Die swell ratio for LDPE: 1.3-1.6× die orifice. For HDPE: 1.5-2.0×. Account for die swell when setting die gap.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
 
 ![machine tools extruder](../images/machine-tools/machine-tools_extruder.jpg)

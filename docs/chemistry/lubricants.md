@@ -42,11 +42,11 @@ Thin molecular film (1-10 nm) of polar molecules adsorbed on metal surfaces. Fat
 
 A full fluid film separates the surfaces. No metal contact occurs. Friction is entirely viscous drag of the fluid. This regime requires three conditions: correct viscosity (thick enough to maintain the film under load, thin enough to flow), adequate speed (generates pressure in the converging wedge of lubricant), and proper bearing geometry (correct clearance and alignment).
 
-**[Reynolds equation](../glossary/reynolds-equation.md)** governs the film pressure distribution. Simplified for a plain journal bearing: minimum film thickness h_min ≈ (μ × U × d²) / (4 × W), where μ = viscosity, U = surface speed, d = bearing diameter, W = load. Maintain h_min > 3× surface roughness for full film separation.
+**Reynolds equation** governs the film pressure distribution. Simplified for a plain journal bearing: minimum film thickness h_min ≈ (μ × U × d²) / (4 × W), where μ = viscosity, U = surface speed, d = bearing diameter, W = load. Maintain h_min > 3× surface roughness for full film separation.
 
 **Friction coefficient**: ~0.001-0.01 (10-100x lower than boundary). This is why well-lubricated bearings run cool and last years.
 
-**[Oil viscosity grades](../glossary/oil-viscosity-grades.md)** (ISO VG system): ISO VG 32 = kinematic viscosity 32 cSt at 40°C (light spindle oil). ISO VG 68 = 68 cSt (general machine oil). ISO VG 220 = 220 cSt (gear oil). ISO VG 460 = 460 cSt (heavy gear oil). Higher viscosity means thicker oil, more load capacity, but also more viscous friction and heat generation.
+**Oil viscosity grades** (ISO VG system): ISO VG 32 = kinematic viscosity 32 cSt at 40°C (light spindle oil). ISO VG 68 = 68 cSt (general machine oil). ISO VG 220 = 220 cSt (gear oil). ISO VG 460 = 460 cSt (heavy gear oil). Higher viscosity means thicker oil, more load capacity, but also more viscous friction and heat generation.
 
 ### Elastohydrodynamic Lubrication (EHL)
 
@@ -219,8 +219,8 @@ Rule of thumb: select the lowest viscosity that maintains Sommerfeld number >1 a
 - **[Petrochemicals](petroleum-alternatives.md)**: Petroleum distillation for mineral oil production
 - **[Acids](acids.md)**: Acid production for oil refining
 - **[Machine Tools](../machine-tools/machining.md)**: Cutting fluid applications in machining
-- **[Soap Making](../glossary/soap-making.md)**: Saponification chemistry for grease thickeners
+- **Soap Making**: Saponification chemistry for grease thickeners
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*

@@ -204,4 +204,4 @@ careful technique, madder produces a red that resists fading for decades of sun 
 far exceeding any other natural red dye in permanence.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

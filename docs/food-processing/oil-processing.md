@@ -256,4 +256,4 @@ Rendering melts fat from animal tissues by heating. Two methods:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*

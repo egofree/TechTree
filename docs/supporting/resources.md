@@ -40,12 +40,12 @@
 
 ## Online Resources
 
-- [mermaid.live](https://mermaid.live) — Render and edit Mermaid diagrams
-- [Periodic Videos](https://www.periodicvideos.com) — Chemistry reference
-- [Explain That Stuff](https://www.explainthatstuff.com) — Technology explanations
+- mermaid.live — Render and edit Mermaid diagrams
+- Periodic Videos — Chemistry reference
+- Explain That Stuff — Technology explanations
 
 ## Contribute References
 
 Know a useful reference? See [CONTRIBUTING.md](../../CONTRIBUTING.md) to add it.
 
-[← Back to Docs](../index.md)
+[← Back to Docs](../../index.md)

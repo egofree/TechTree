@@ -203,6 +203,6 @@ Proper handling of filters, refrigerants, and HVAC components maintains system p
 - Verify damper actuator position against BMS display readings during annual commissioning checks
 - Inspect cooling tower fill media and drift eliminators annually for biological growth and physical damage
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
 
 ![energy hvac](../images/energy/energy_hvac.jpg)

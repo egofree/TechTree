@@ -218,4 +218,4 @@ Crystal receiver + low-power spark or tube transmitter (0.1-0.5 kW). Ship-to-sho
 - [Measurement / Electrical Instruments](../measurement/electrical-instruments.md) — galvanometers, oscilloscopes, and signal measurement
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*

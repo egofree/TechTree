@@ -375,6 +375,6 @@ Mass production concentrates multiple hazards in a single facility. The combinat
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
 
 ![machine tools mass production](../images/machine-tools/machine-tools_mass-production.jpg)

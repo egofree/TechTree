@@ -257,4 +257,4 @@ Wire rope in service must be inspected at regular intervals (daily visual, month
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*

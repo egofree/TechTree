@@ -250,4 +250,4 @@ Store rod stock by material and diameter in racks or on spools, protected from c
 - [Primary Metal Forming](forming.md) — downstream capability
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*

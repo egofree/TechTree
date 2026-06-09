@@ -215,4 +215,4 @@ The choice of soldering flux for electronics has long-term reliability implicati
 Borax occurs naturally as evaporite deposits in arid lake beds, most notably in the Mojave Desert (Boron, California) and the Kirka district of Turkey. These deposits formed when boron-rich volcanic waters evaporated in closed desert basins over geological time. Raw borax ore (tincal) contains 30-50% Na₂B₄O₇·10H₂O and is purified by dissolution in hot water, filtration to remove insoluble gangue, and recrystallization. The refined borax is then calcined to remove water of crystallization, yielding the anhydrous form used as brazing flux.
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*

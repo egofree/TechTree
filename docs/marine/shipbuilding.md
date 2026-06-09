@@ -271,4 +271,4 @@ For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 - [Metal Joining](../machine-tools/joining.md) — riveting, welding, and brazing techniques
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../../index.md)*

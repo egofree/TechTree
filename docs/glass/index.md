@@ -43,4 +43,4 @@ Capabilities in this domain:
 
 - [Glass Recycling & Cullet Recovery](glass-recycling.md) — Reclaiming glass from end-of-life products as cullet feedstock, reducing raw material consumption and lowering melting energy for new glass production.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

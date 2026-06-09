@@ -336,6 +336,6 @@ Values assume sea level and pure steam (no air). Air in the retort lowers actual
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*
 
 ![food processing pasteurization flow](../images/food-processing/food-processing_pasteurization-flow.jpg)

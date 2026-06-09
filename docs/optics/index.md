@@ -23,4 +23,4 @@ Capabilities in this domain:
 
 - [Precision Instruments](precision-instruments.md) — Interferometers, autocollimators, optical flats, alignment telescopes, and MTF testing for optical quality assurance.
 
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

@@ -73,7 +73,7 @@ Colorimetry quantifies color, linking visual perception to measurable optical pr
 
 ## Visual Color Systems
 
-The **[Munsell system](../glossary/munsell-system.md)** organizes colors by three perceptual attributes: hue (angle around color wheel, 10 steps), value (lightness, 0=black to 10=white), and chroma (saturation, 0=neutral to maximum varies by hue). Munsell color charts provide physical reference chips. An observer matches a sample to the nearest chip under standardized illumination (CIE illuminant C, representing average daylight). Accuracy depends on observer skill and consistent lighting.
+The **Munsell system** organizes colors by three perceptual attributes: hue (angle around color wheel, 10 steps), value (lightness, 0=black to 10=white), and chroma (saturation, 0=neutral to maximum varies by hue). Munsell color charts provide physical reference chips. An observer matches a sample to the nearest chip under standardized illumination (CIE illuminant C, representing average daylight). Accuracy depends on observer skill and consistent lighting.
 
 ## CIE 1931 XYZ Color Space
 
@@ -146,7 +146,7 @@ A microscope equipped with precision measurement accessories becomes a dimension
 
 ## Stage Micrometer and Eyepiece Reticle
 
-A **[stage micrometer](../glossary/stage-micrometer.md)** is a microscope slide with a precision-ruled scale, typically 1 mm divided into 100 divisions (0.01 mm per division). Place on the stage, focus, and align with the **[eyepiece reticle](../glossary/eyepiece-reticle.md)** (a glass disc with engraved scale in the eyepiece focal plane). The reticle scale is calibrated against the stage micrometer at each magnification. After calibration, any specimen feature can be measured by counting reticle divisions.
+A **stage micrometer** is a microscope slide with a precision-ruled scale, typically 1 mm divided into 100 divisions (0.01 mm per division). Place on the stage, focus, and align with the **eyepiece reticle** (a glass disc with engraved scale in the eyepiece focal plane). The reticle scale is calibrated against the stage micrometer at each magnification. After calibration, any specimen feature can be measured by counting reticle divisions.
 
 ## Filar Micrometer Eyepiece
 
@@ -255,4 +255,4 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

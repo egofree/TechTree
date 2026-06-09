@@ -204,4 +204,4 @@ The most demanding thermostat application in semiconductor manufacturing is the 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

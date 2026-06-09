@@ -212,4 +212,4 @@ Once self-hosting is achieved, the compiler can be improved using itself:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../../index.md)*

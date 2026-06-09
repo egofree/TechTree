@@ -455,7 +455,7 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - [Precision nozzle](../machine-tools/machining.md) (0.5-1.0 mm orifice)
 - [Relay valve](../metals/copper-bronze.md) (amplifier: boosts the weak nozzle back-pressure signal to actuator-driving pressure)
 - [Pneumatic actuators](../energy/storage.md) (diaphragm or piston type) on controlled equipment
-- [Temperature sensor](./thermostat-mechanical.md#bimetallic-strip-thermostat) (bimetallic strip, or [liquid/gas bulb](#liquid-expansion-thermostat-bulb-bellows))
+- [Temperature sensor](./thermostat-mechanical.html#bimetallic-strip-thermostat) (bimetallic strip, or [liquid/gas bulb](#liquid-expansion-thermostat-bulb-bellows))
 
 **Materials**:
 - [Nozzle: brass or stainless steel](../metals/copper-bronze.md), 0.8 mm orifice
@@ -534,4 +534,4 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 
 ---
 
-*Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+*Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

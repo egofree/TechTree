@@ -374,4 +374,4 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - **[Foundations](../foundations/index.md)** -- Leatherworking and rawhide processing
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*

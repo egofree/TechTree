@@ -208,8 +208,8 @@ Materials listed per single hive unit. Quantities vary by hive type.
 The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abdomen extending past her wings. She is the only reproductive female. An unmated virgin queen takes a nuptial flight 5-10 days after emergence, mating with 10-20 drones in flight, storing sperm in her spermatheca for her entire reproductive life (2-5 years). She determines colony temperament — replacing an aggressive queen with a gentle one transforms colony behavior within 4-6 weeks.
 
 **Procedure — Disease monitoring**:
-- **Varroa destructor** mite: External parasite feeding on bee fat body tissue. Monitor with sugar roll or alcohol wash (sample 300 bees, count mites). Treatment threshold: 2-3 mites per 100 bees. Treatments: [oxalic acid drip](../glossary/varroa-destructor.md) (2-3% solution, broodless period), formic acid pad, thymol crystals. Without treatment, most colonies collapse within 2-3 years.
-- **American foulbrood** ([AFB](../glossary/american-foulbrood.md)): Bacterial disease (*Paenibacillus larvae*) killing larvae. Sunken, perforated cappings; ropiness test (infected larvae string out 2+ cm). Spores persist 50+ years. Treatment: burn infected hive and equipment. No cure once established.
+- **Varroa destructor** mite: External parasite feeding on bee fat body tissue. Monitor with sugar roll or alcohol wash (sample 300 bees, count mites). Treatment threshold: 2-3 mites per 100 bees. Treatments: oxalic acid drip (2-3% solution, broodless period), formic acid pad, thymol crystals. Without treatment, most colonies collapse within 2-3 years.
+- **American foulbrood** (AFB): Bacterial disease (*Paenibacillus larvae*) killing larvae. Sunken, perforated cappings; ropiness test (infected larvae string out 2+ cm). Spores persist 50+ years. Treatment: burn infected hive and equipment. No cure once established.
 - **Nosema**: Fungal gut parasite (*Nosema apis*, *N. ceranae*). Dysentery (brown spotting on hive front), reduced lifespan. Treat with fumagillin or re-queen with resistant stock.
 
 **Expected yield**: Well-managed colonies maintain 50,000-80,000 bees at summer peak, collecting 0.5-1.5 kg nectar per day during peak flow. A colony consumes 15-30 kg pollen per year for brood production.
@@ -369,7 +369,7 @@ Peak nectar collection period. Add supers ahead of colony needs (bees need space
 
 ## Autumn (Preparation)
 
-Final honey harvest — leave 15-20 kg honey on the hive for winter food. Assess colony strength; combine weak colonies. Treat for [varroa mites](../glossary/varroa-destructor.md) if present (primary bee parasite — monitoring and treatment essential). Reduce entrance size to prevent robbing by other bees and wasp intrusion. Install mouse guard at hive entrance. Ensure hive is weather-tight. Tilt hive slightly forward (2-3°) so rainwater drains out rather than pooling on the floor board. Remove queen excluders if used — the cluster must be able to move upward through the hive during winter.
+Final honey harvest — leave 15-20 kg honey on the hive for winter food. Assess colony strength; combine weak colonies. Treat for varroa mites if present (primary bee parasite — monitoring and treatment essential). Reduce entrance size to prevent robbing by other bees and wasp intrusion. Install mouse guard at hive entrance. Ensure hive is weather-tight. Tilt hive slightly forward (2-3°) so rainwater drains out rather than pooling on the floor board. Remove queen excluders if used — the cluster must be able to move upward through the hive during winter.
 
 **Timing**: Weeks 35-44 (September-October). Nectar flow ends. Goldenrod and aster may provide late flow.
 
@@ -519,4 +519,4 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [Writing](../knowledge/writing.md) — beeswax tablets
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Animals](./index.md) • [All Domains](../../index.md)*

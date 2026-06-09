@@ -318,4 +318,4 @@ Cultural controls modify the farming environment to make it less hospitable to p
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*

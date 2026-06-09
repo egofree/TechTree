@@ -258,6 +258,6 @@ An inevitable side reaction in the silicon furnace:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
 
 ![silicon mg si production](../images/silicon/silicon_mg-si-production.png)

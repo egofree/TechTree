@@ -31,12 +31,12 @@
 
 ## Spinning (converting fiber to yarn/thread)
 
-**[Drop spindle](../glossary/drop-spindle.md)** (Foundations stage, simplest):
+**Drop spindle** (Foundations stage, simplest):
 - **Construction**: Round whorl (50-100 g, 3-5 cm diameter) on straight wooden shaft (20-30 cm). Whorl materials: fired clay (most common — shape on wheel, dry, fire to hardness), stone (sandstone or limestone, drilled center hole), or turned wood (hardwood, weighted with clay or lead if needed). Shaft: hardwood (ash, maple, oak), 10-20 g total weight for fine yarns, 30-50 g for heavier yarns. Notch or hook at top to secure yarn. Spindle must be balanced — whorl centered on shaft, or vibration wastes energy and produces uneven yarn.
 - **Process**: Draft (pull thin stream of fiber from rolag), spin spindle (twist inserted by rotation — clockwise for Z-twist, counterclockwise for S-twist), wind spun yarn onto shaft. Speed: ~50-100 meters per hour. Can produce thread from very fine (sewing) to heavy (rope yarn).
 - **Twist direction**: Z-twist (clockwise when viewed from above) is standard for single yarns. Plying (combining multiple singles) uses opposite twist (S-twist) to balance the yarn and prevent kinking.
 
-**[Spinning wheel](../glossary/spinning-wheel.md)** (the Metallurgy-Machine Tools stage transition, 10x throughput):
+**Spinning wheel** (the Metallurgy-Machine Tools stage transition, 10x throughput):
 - **Great wheel (walking wheel)**: Large (1-1.5 m) wheel turned by hand. Drive band (cord or leather belt) connects wheel groove to spindle assembly. Wheel rotation spins spindle at high speed — typical drive ratio 30:1 to 80:1. Spinner walks backward while drafting fiber away from spindle, then reverses direction to wind yarn onto spindle. No treadle — one hand turns wheel, other drafts fiber. Best for woolen spinning. Production: 200-500 m/hour.
 - **Treadle wheel (Saxony/flax wheel)**: Foot treadle drives wheel via crank, leaving both hands free for fiber control. Flyer and bobbin assembly: flyer (U-shaped bracket with hooks) adds twist, bobbin winds yarn at slightly different speed (controlled by Scotch tension or double-drive band). Ratios 8:1 to 20:1 (spindle revolutions per wheel revolution). Fine linen requires high ratio. Production: 300-800 m/hour. Requires precision woodwork and iron fittings for bearings.
 - **Charka (book charka)**: Small portable wheel, hand-cranked. For cotton. High speed, fine yarn.
@@ -79,7 +79,7 @@ Building a treadle spinning wheel requires woodcraft skill and basic iron hardwa
 **Tension mechanisms**:
 - **Scotch tension**: A brake band (thin cord or leather) wraps around the bobbin flange and is tensioned by a spring or adjustable screw. The brake slows the bobbin relative to the flyer, causing yarn to wind on. Adjusting brake tension controls take-up speed. Simple, effective, easy to build. Preferred for beginners and most general spinning.
 - **Double drive**: A single drive band loops twice — once around the wheel and flyer whorl, once around the wheel and bobbin whorl. The different whorl diameters create a speed differential. Produces more consistent yarn but requires precise adjustment. Common on traditional Saxony wheels.
-- **[Irish tension](../glossary/irish-tension.md)** (bobbin-led): Drive band connects wheel to bobbin whorl; brake on the flyer. Less common, produces a softer take-up. Suitable for bulky yarns.
+- **Irish tension** (bobbin-led): Drive band connects wheel to bobbin whorl; brake on the flyer. Less common, produces a softer take-up. Suitable for bulky yarns.
 
 **Treadle mechanism**: Foot treadle (hardwood plank, 15-20 cm × 8-10 cm) connected to wheel crank via a pitman rod (wooden or iron connecting rod, 30-50 cm). Crank offset 3-5 cm from wheel axle — this converts rotary motion to the reciprocating treadle. The treadle pivots at its rear end on a metal pin or leather hinge. Iron bearings at the crank pitman joint reduce wear.
 
@@ -139,9 +139,9 @@ Before fiber can be spun, it must be cleaned, opened, and aligned:
 
 **Key indicator**: Retting is complete when the woody core (shive) separates easily from the fiber bundles when the stalk is bent. Under-retted fiber is coarse, woody, and difficult to hackle. Over-retted fiber is weak and breaks into short pieces. Check every 1-2 days during water retting by pulling a few stalks from the bundle and bending them sharply. If the shive breaks clean away from the fiber, the ret is done. Water temperature matters: warm water (20-30°C) rets in 4-8 days; cold water (5-10°C) takes 2-3 weeks. Running water produces the most consistent results because fresh bacteria continuously colonize the stalks.
 
-**[Carding](../glossary/carding.md)** (aligning fibers for spinning):
+**Carding** (aligning fibers for spinning):
 - **Hand cards**: Pair of rectangular paddles (10 × 20 cm) covered in card cloth (stiff wire teeth, 1-2 cm long, set in leather or rubber backing). Charge one card with teased fiber. Brush cards together — teeth pull fibers into parallel alignment. Transfer rolled rolag (cylindrical roll of carded fiber, 10-15 cm long, 3-5 cm diameter) from card. Each rolag feeds one spindle-full of yarn. Rate: 0.5-1 kg of carded fiber per hour.
-- **[Drum carder](../glossary/drum-carder.md)** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
+- **Drum carder** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
 
 ## Fiber Properties and Spinning Parameters
 
@@ -274,4 +274,4 @@ Different fibers require different wheel settings and techniques. Using the same
 - [Sewing & Tailoring](sewing-tailoring.md) — garment construction from woven cloth
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*

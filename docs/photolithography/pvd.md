@@ -146,7 +146,7 @@ The deposition controller converts frequency change to film thickness using the 
 
 - **Optical monitoring**: Reflectance or transmittance at a specific wavelength measures film thickness in real time for transparent films (interference oscillations). Complements QCM for dielectric films.
 - **Endpoint detection**: For reactive sputtering (TiN, TaN), the plasma emission or voltage change indicates when the target surface has transitioned from metallic to poisoned (compound) mode.
-- **Ex-situ verification**: [Ellipsometry](../glossary/ellipsometry.md) for film thickness and refractive index, [four-point probe](../glossary/four-point-probe.md) for sheet resistance, and [profilometer](../glossary/dektak-profilometer.md) for step height measurement.
+- **Ex-situ verification**: Ellipsometry for film thickness and refractive index, four-point probe for sheet resistance, and profilometer for step height measurement.
 
 ## Target Materials
 

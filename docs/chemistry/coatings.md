@@ -20,15 +20,15 @@ Protective and decorative coatings prevent corrosion (the largest single cause o
 
 ## Raw Materials
 
-**[Binders (resins)](../glossary/binders-resins.md)** — form the continuous film that adheres to substrate and encapsulates pigment:
-- **[Linseed oil](../glossary/linseed-oil.md)** (flax seed): Traditional drying oil — polymerizes by oxidation (cross-linking of unsaturated fatty acid chains catalyzed by air). Still used in artists' paints and wood finishes. Drying time: 2-7 days. Added metallic driers (cobalt, manganese naphthenates) accelerate oxidation to 4-12 hours.
+**Binders (resins)** — form the continuous film that adheres to substrate and encapsulates pigment:
+- **Linseed oil** (flax seed): Traditional drying oil — polymerizes by oxidation (cross-linking of unsaturated fatty acid chains catalyzed by air). Still used in artists' paints and wood finishes. Drying time: 2-7 days. Added metallic driers (cobalt, manganese naphthenates) accelerate oxidation to 4-12 hours.
 - **Alkyd resins**: Polyester modified with fatty acids — the workhorse of architectural paints. Synthesized from phthalic anhydride, glycerol/pentaerythritol, and drying oil fatty acids at 230-250°C. Air-drying (oxidative cross-linking). Good adhesion, gloss, and weatherability. Solvent-borne alkyds being replaced by water-borne (emulsion) versions due to VOC regulations.
 - **Acrylic emulsion**: Polymer particles (methyl methacrylate/butyl acrylate copolymers) dispersed in water — the dominant binder in modern house paints. Film forms by coalescence as water evaporates — polymer particles fuse into continuous film above minimum film-forming temperature (MFFT, typically 5-15°C). Fast drying (1-4 hours), low odor, excellent UV resistance, water cleanup.
 - **Epoxy**: Two-component — resin (bisphenol A + epichlorohydrin) + hardener (polyamide or amine). Cures by chemical reaction (not drying). Superior adhesion, chemical resistance, hardness. Used for industrial and marine coatings, floor paints, metal primers. Limitation: poor UV resistance (chalks in sunlight) — topcoat with polyurethane for exterior use.
 - **Polyurethane**: Isocyanate + polyol reaction. Two-component for high-performance coatings (automotive, aircraft, industrial flooring). Excellent abrasion resistance, gloss retention, UV resistance (aliphatic isocyanate types like HDI biuret). One-component moisture-cure urethanes react with atmospheric moisture — used for floor and marine coatings.
 - **Phenolic resins**: Phenol + formaldehyde condensation. Excellent chemical and heat resistance — used for tank linings, chemical equipment, and as baking enamels for appliances. Dark color limits use to primers or functional coatings.
 
-**[Pigments](../glossary/pigments.md)** — provide color, opacity, and corrosion inhibition:
+**Pigments** — provide color, opacity, and corrosion inhibition:
 - **Titanium dioxide (TiO₂)**: The most important white pigment — extreme opacity (refractive index 2.7, vs 1.5 for most binders) from light scattering. Rutile form preferred (higher RI than anatase). Global production: 7 million tonnes/year. Used in virtually every white and light-colored paint. Produced by chloride process (TiCl₄ oxidation at 1000°C) or sulfate process (ilmenite digestion with H₂SO₄).
 - **Iron oxides**: Fe₂O₃ (red), Fe₃O₄ (black), FeOOH (yellow ochre). Natural or synthetic. The oldest pigments — used since cave paintings. Low cost, excellent lightfastness, non-toxic. Synthetic versions: precipitate FeSO₄ + NaOH, then oxidize at controlled temperature and pH to control particle size and color.
 - **Carbon black**: Incomplete combustion of hydrocarbons (furnace black process — oil injected into 1400°C furnace, quenched, filtered). Particle size 10-100 nm — extreme tinting strength and UV absorption. Used in black inks, tire reinforcement, conductive coatings.
@@ -42,11 +42,11 @@ Protective and decorative coatings prevent corrosion (the largest single cause o
 
 ## Paint Formulation
 
-**[Architectural latex paint](../glossary/architectural-latex-paint.md)** (typical interior wall paint): Water 35%, TiO₂ 20%, calcium carbonate (extender) 15%, acrylic emulsion (binder, 50% solids) 25%, additives 5%. PVC (pigment volume concentration) = 55-70% — above CPVC (critical PVC, ~55%) the film is porous (matte finish). Below CPVC: glossy, washable. Additives: dispersant (polyacrylate — prevents pigment flocculation), defoamer (mineral oil + silica — prevents foam during manufacturing and application), thickener (HEUR associative thickener or HEC cellulose ether — controls viscosity and brushability), biocide (isothiazolinone blend — in-can preservation), coalescent (Texanol — helps polymer particles fuse into film, especially at low temperatures).
+**Architectural latex paint** (typical interior wall paint): Water 35%, TiO₂ 20%, calcium carbonate (extender) 15%, acrylic emulsion (binder, 50% solids) 25%, additives 5%. PVC (pigment volume concentration) = 55-70% — above CPVC (critical PVC, ~55%) the film is porous (matte finish). Below CPVC: glossy, washable. Additives: dispersant (polyacrylate — prevents pigment flocculation), defoamer (mineral oil + silica — prevents foam during manufacturing and application), thickener (HEUR associative thickener or HEC cellulose ether — controls viscosity and brushability), biocide (isothiazolinone blend — in-can preservation), coalescent (Texanol — helps polymer particles fuse into film, especially at low temperatures).
 
-**[Industrial epoxy coating](../glossary/industrial-epoxy-coating.md)** (two-component): Part A (resin): epoxy resin 60%, TiO₂ 15%, barium sulfate (extender) 10%, xylene/butanol solvent 15%. Part B (hardener): polyamide curing agent 70%, xylene solvent 30%. Mix ratio A:B typically 4:1 by volume. Pot life after mixing: 4-8 hours. Cure: touch dry 4-8 hours, full cure 7 days. Dry film thickness: 75-200 µm per coat.
+**Industrial epoxy coating** (two-component): Part A (resin): epoxy resin 60%, TiO₂ 15%, barium sulfate (extender) 10%, xylene/butanol solvent 15%. Part B (hardener): polyamide curing agent 70%, xylene solvent 30%. Mix ratio A:B typically 4:1 by volume. Pot life after mixing: 4-8 hours. Cure: touch dry 4-8 hours, full cure 7 days. Dry film thickness: 75-200 µm per coat.
 
-**[Alkyd enamel](../glossary/alkyd-enamel.md)** (traditional gloss paint): Alkyd resin (70% solids in mineral spirits) 65%, TiO₂ 25%, driers (Co/Mn/Zr naphthenates) 1%, mineral spirits 9%. Dry film thickness: 30-50 µm. Drying: touch dry 4-6 hours, hard dry 12-18 hours.
+**Alkyd enamel** (traditional gloss paint): Alkyd resin (70% solids in mineral spirits) 65%, TiO₂ 25%, driers (Co/Mn/Zr naphthenates) 1%, mineral spirits 9%. Dry film thickness: 30-50 µm. Drying: touch dry 4-6 hours, hard dry 12-18 hours.
 
 ## Application Methods
 
@@ -67,13 +67,13 @@ Protective and decorative coatings prevent corrosion (the largest single cause o
 
 ## Specialty Coatings
 
-**Anticorrosion systems for steel**: Multi-layer system: (1) **[Abrasive blast](../glossary/abrasive-blast.md)** to Sa 2.5 (near-white metal, ISO 8501-1). (2) **[Zinc-rich primer](../glossary/zinc-rich-primers.md)** (organic or inorganic) — galvanic protection (zinc corrodes preferentially, protecting steel). 50-75 µm. (3) **[Epoxy intermediate coat](../glossary/epoxy-intermediate-coat.md)** — barrier protection. 100-200 µm. (4) **[Polyurethane topcoat](../glossary/polyurethane-topcoat.md)** — UV resistance, color/gloss retention, weatherability. 50-75 µm. Total system: 200-350 µm. Service life: 15-25 years to first maintenance in moderate environment (ISO 12944 C3).
+**Anticorrosion systems for steel**: Multi-layer system: (1) **Abrasive blast** to Sa 2.5 (near-white metal, ISO 8501-1). (2) **Zinc-rich primer** (organic or inorganic) — galvanic protection (zinc corrodes preferentially, protecting steel). 50-75 µm. (3) **Epoxy intermediate coat** — barrier protection. 100-200 µm. (4) **Polyurethane topcoat** — UV resistance, color/gloss retention, weatherability. 50-75 µm. Total system: 200-350 µm. Service life: 15-25 years to first maintenance in moderate environment (ISO 12944 C3).
 
 **Strengths**: 15-25 year service life in moderate environments; zinc-rich primer provides cathodic protection even at scratches; multi-layer system separates functions (galvanic → barrier → UV); well-standardized (ISO 12944) with predictable performance by corrosivity category.
 
 **Weaknesses**: Surface preparation (abrasive blast to Sa 2.5) is 60-80% of the labor cost; zinc-rich primers require >80% zinc dust in dry film (heavy, expensive); epoxy intermediate chalks in UV — must be topcoated; multi-coat system requires 3+ application steps with inter-coat curing windows.
 
-**[Thermal barrier coatings (TBCs)](../glossary/thermal-barrier-coatings-tbcs.md)** for gas turbine blades: (1) **Bond coat**: MCrAlY (M = Ni, Co) — 100-150 µm, applied by plasma spray or PVD. Forms Al₂O₃ thermally grown oxide (TGO) that bonds the ceramic topcoat. (2) **Topcoat**: Yttria-stabilized zirconia (YSZ, 6-8% Y₂O₃-ZrO₂) — 200-500 µm, applied by electron beam PVD (columnar microstructure, superior strain tolerance) or atmospheric plasma spray (lamellar structure). Enables gas turbine inlet temperatures 200-300°C above the melting point of the nickel superalloy substrate — dramatically increases engine efficiency. Used in jet engines and industrial gas turbines.
+**Thermal barrier coatings (TBCs)** for gas turbine blades: (1) **Bond coat**: MCrAlY (M = Ni, Co) — 100-150 µm, applied by plasma spray or PVD. Forms Al₂O₃ thermally grown oxide (TGO) that bonds the ceramic topcoat. (2) **Topcoat**: Yttria-stabilized zirconia (YSZ, 6-8% Y₂O₃-ZrO₂) — 200-500 µm, applied by electron beam PVD (columnar microstructure, superior strain tolerance) or atmospheric plasma spray (lamellar structure). Enables gas turbine inlet temperatures 200-300°C above the melting point of the nickel superalloy substrate — dramatically increases engine efficiency. Used in jet engines and industrial gas turbines.
 
 **Marine coatings**: Ship hulls face immersion in seawater, UV exposure, mechanical damage, and fouling. Antifouling coatings release biocides (copper oxide, zinc pyrithione — tributyltin banned since 2008) to prevent barnacle, algae, and tubeworm attachment. Modern self-polishing copolymers (SPC): acrylic polymer backbone with biocide chemically bonded — hydrolysis at the coating surface slowly releases biocide and exposes fresh surface. Antifouling coating life: 3-5 years between dry-docking.
 
@@ -100,7 +100,7 @@ Protective and decorative coatings prevent corrosion (the largest single cause o
 ## Safety & Hazards
 
 - **Solvents**: VOC emissions contribute to smog formation. Chronic exposure to aromatic solvents (toluene, xylene): liver, kidney, neurological damage. Use ventilation, respiratory protection. Replace with water-borne alternatives where feasible.
-- **[Isocyanates](../glossary/isocyanates.md)** (polyurethane component): Respiratory sensitizer — causes occupational asthma. Airborne exposure during spray application is the primary risk. Use supplied-air respirator for spray application, gloves and eye protection for brush/roller. Medical surveillance for workers regularly exposed.
+- **Isocyanates** (polyurethane component): Respiratory sensitizer — causes occupational asthma. Airborne exposure during spray application is the primary risk. Use supplied-air respirator for spray application, gloves and eye protection for brush/roller. Medical surveillance for workers regularly exposed.
 - **Lead and chromate pigments**: Historically used (lead chromate yellow, lead oxide red) — now banned in most countries for consumer paints. Lead-based paint abatement remains a major public health issue in older buildings. Lead poisoning: neurological damage, especially in children.
 - **Dust**: Pigment dust (TiO₂, silica, iron oxide) during weighing and mixing — respiratory irritant. IARC classifies TiO₂ as Group 2B (possibly carcinogenic by inhalation in nanoparticle form). Use local exhaust ventilation at mixing stations.
  - **Fire hazard**: Solvent-borne paints in spray booths — explosion risk if vapor concentration exceeds LEL. Fire suppression systems (water spray or dry chemical) required in spray booths. Non-sparking tools and electrical equipment (explosion-proof) mandatory.
@@ -127,11 +127,11 @@ PVC (pigment volume concentration) is the fundamental concept in paint formulati
 
 ## Drying and Curing Mechanisms
 
-**[Oxidative drying](../glossary/oxidative-drying.md)** (air-drying oils, alkyds): Unsaturated fatty acid chains (from linseed, soybean, or tung oil) cross-link by reaction with atmospheric oxygen, catalyzed by metal driers. Cobalt naphthenate or octoate (0.05-0.2% metal on resin) is the primary surface drier (promotes skin formation). Manganese naphthenate assists through-drying. Zirconium and calcium soaps act as auxiliary driers. Linseed oil: touch dry 4-8 hours with cobalt drier, through dry 12-24 hours, full cure 3-7 days as cross-linking continues.
+**Oxidative drying** (air-drying oils, alkyds): Unsaturated fatty acid chains (from linseed, soybean, or tung oil) cross-link by reaction with atmospheric oxygen, catalyzed by metal driers. Cobalt naphthenate or octoate (0.05-0.2% metal on resin) is the primary surface drier (promotes skin formation). Manganese naphthenate assists through-drying. Zirconium and calcium soaps act as auxiliary driers. Linseed oil: touch dry 4-8 hours with cobalt drier, through dry 12-24 hours, full cure 3-7 days as cross-linking continues.
 
-**[Solvent evaporation](../glossary/solvent-evaporation.md)** (lacquers, latex paints): Film forms solely by solvent loss with no chemical reaction. Nitrocellulose lacquers (furniture finishes): dry to touch in 15-30 minutes as solvents (ethyl acetate, butyl acetate, toluene blend) evaporate. Fast recoat but thermoplastic (softens with heat or solvent). Acrylic latex: water evaporates, then polymer particles coalesce above the minimum film-forming temperature (MFFT, 5-15°C). Below MFFT, particles do not fuse and the film cracks. Coalescent solvents (Texanol, 2,2,4-trimethyl-1,3-pentanediol monoisobutyrate) temporarily soften particles to enable coalescence.
+**Solvent evaporation** (lacquers, latex paints): Film forms solely by solvent loss with no chemical reaction. Nitrocellulose lacquers (furniture finishes): dry to touch in 15-30 minutes as solvents (ethyl acetate, butyl acetate, toluene blend) evaporate. Fast recoat but thermoplastic (softens with heat or solvent). Acrylic latex: water evaporates, then polymer particles coalesce above the minimum film-forming temperature (MFFT, 5-15°C). Below MFFT, particles do not fuse and the film cracks. Coalescent solvents (Texanol, 2,2,4-trimethyl-1,3-pentanediol monoisobutyrate) temporarily soften particles to enable coalescence.
 
-**[Thermoset curing](../glossary/thermoset-curing.md)** (epoxy, polyurethane): Two-component systems undergo irreversible chemical reaction. Epoxy-amine: mixed 4:1 to 10:1 (resin:hardener by volume), pot life 2-8 hours, touch dry 4-8 hours, full cure 7 days at 25°C. Accelerated curing at 60-80°C reduces full cure to 4-8 hours but shortens pot life. Polyurethane: isocyanate + polyol, pot life 2-6 hours, recoatable after 4-16 hours. Post-cure at elevated temperature may be required for chemical resistance development.
+**Thermoset curing** (epoxy, polyurethane): Two-component systems undergo irreversible chemical reaction. Epoxy-amine: mixed 4:1 to 10:1 (resin:hardener by volume), pot life 2-8 hours, touch dry 4-8 hours, full cure 7 days at 25°C. Accelerated curing at 60-80°C reduces full cure to 4-8 hours but shortens pot life. Polyurethane: isocyanate + polyol, pot life 2-6 hours, recoatable after 4-16 hours. Post-cure at elevated temperature may be required for chemical resistance development.
 
 ## Metal Coatings and Corrosion Protection
 
@@ -243,7 +243,7 @@ The coatings industry continues to evolve toward lower VOC, higher durability, a
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
 ![chemistry coatings](../images/chemistry/chemistry_coatings.jpg)
 

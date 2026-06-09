@@ -14,7 +14,7 @@ This article covers the metallurgy and processing of magnetic materials. For ele
 
 ![Diamagnetic material interaction in magnetic field](../images/metals/metals_magnetic-materials.png)
 
-> *On keeping diamagnetic materials in a magnetic field the electron orbital motion changes in such a way that magnetic dipole moments are induced on the atoms / molecules in the direction opposite to the external magnetic field as shown in figure(courtesy:-https://www.blogger.com/profile/00664562250897358835)*
+> *On keeping diamagnetic materials in a magnetic field the electron orbital motion changes in such a way that magnetic dipole moments are induced on the atoms / molecules in the direction opposite to the external magnetic field as shown in figure(courtesy:-Blogger profile)*
 
 > *Image: Nitianabhigyan, CC BY-SA 4.0*
 
@@ -278,4 +278,4 @@ For bootstrap purposes, alnico and ferrite are the practical choices. Rare-earth
 - [Generator](../energy/generator.md) — stator and rotor magnetic materials
 - [Power Distribution](../energy/power-distribution.md) — transformer core materials
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*

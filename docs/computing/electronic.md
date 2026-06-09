@@ -26,7 +26,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 ## Vacuum Tube Logic
 
 **Triode operation**:
-- **[Vacuum tube](../glossary/vacuum-tube.md)** (thermionic valve): Heated cathode emits electrons → electrons flow toward positively-charged anode (plate) through vacuum. Control grid between cathode and anode modulates electron flow — small voltage change on grid produces large change in plate current. This is amplification, the basis for all active electronic switching.
+- **Vacuum tube** (thermionic valve): Heated cathode emits electrons → electrons flow toward positively-charged anode (plate) through vacuum. Control grid between cathode and anode modulates electron flow — small voltage change on grid produces large change in plate current. This is amplification, the basis for all active electronic switching.
 - **Requirements**: Glass envelope (glassblowing), vacuum (10⁻³ to 10⁻⁵ Torr, mechanical vacuum pump), heated cathode (oxide-coated nickel, ~700-1000°C, 0.5-2 W heater power per tube). Tube filaments burn out — mean time between failures 2,000-10,000 hours per tube.
 - **Logic gates**: Grid biased to cutoff (tube off = logic 0) or conduction (tube on = logic 1). Resistor in plate circuit converts current to voltage. Two tubes with common plate resistor = NOR gate. NOR is functionally complete — any Boolean function implementable with NOR gates alone. Inverting output gives OR. Cascading gives AND.
 
@@ -34,7 +34,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - **Eccles-Jordan flip-flop**: Two triodes cross-coupled (each plate drives the other's grid). Two stable states — one tube conducting, the other cut off. Trigger pulse toggles state. One bit of storage. Four tubes per flip-flop (two dual-triode envelopes).
 - **Registers**: Chain of flip-flops stores multi-bit values. 20-bit accumulator register = 80 tubes. 10 such registers = 800 tubes just for working storage.
 
-**[ENIAC-era architecture](../glossary/eniac-era-architecture.md)** (1945):
+**ENIAC-era architecture** (1945):
 - **Scale**: 17,468 vacuum tubes, 70,000 resistors, 10,000 capacitors, 7,200 crystal diodes. 30 tons, 167 m² floor space. Power consumption: ~150 kW. Heat dissipation required forced-air cooling.
 - **Architecture**: 20 accumulators (each a 10-digit decimal counter using ring circuits), multiplier, divider/square-root unit, function tables (read-only lookup via switches), master clock (100 kHz ring oscillator). All decimal, not binary.
 - **Programming**: Physical patch cables on plug boards — rewiring required for each new program. Setup time: hours to days. No stored program.
@@ -49,7 +49,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 **MOSFET logic**:
 - **NMOS**: n-channel enhancement-mode MOSFETs. Pull-down transistor + pull-up resistor (or depletion-mode load). Low input current (gate is capacitor). Simpler fabrication than TTL (fewer diffusions, no buried layer). Used in early microprocessors (Intel 4004, 8008, 8080). Power dissipation: ~0.5-2 mW per gate. Speed: 50-200 ns propagation.
-- **[CMOS](../glossary/cmos.md)** (Complementary MOS): p-channel and n-channel transistors in complementary pairs. One transistor always off → near-zero static power consumption. Power proportional to switching frequency (CV²f). 10-100× lower power than NMOS at low frequencies. Enables battery-powered devices and high-density ICs. Propagation delay: 5-50 ns. The dominant logic family from ~1980 onward.
+- **CMOS** (Complementary MOS): p-channel and n-channel transistors in complementary pairs. One transistor always off → near-zero static power consumption. Power proportional to switching frequency (CV²f). 10-100× lower power than NMOS at low frequencies. Enables battery-powered devices and high-density ICs. Propagation delay: 5-50 ns. The dominant logic family from ~1980 onward.
 
 **Advantages over tubes**: 100× smaller, 1000× more reliable (no filament burnout), 10-100× lower power, instant-on (no warm-up), compatible with printed circuit boards. Enables computers that run for months without hardware failure.
 
@@ -58,7 +58,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 **Principle**: Program instructions stored in same memory as data — contrast with ENIAC's cable-patching. Computer fetches, decodes, and executes instructions sequentially. Changed instructions change program without rewiring.
 
 **Components**:
-- **[CPU](../glossary/cpu.md)** (Central Processing Unit): Arithmetic Logic Unit (ALU) performs addition, subtraction, AND, OR, NOT, shifts. Control unit generates timing signals and decodes instructions. Register file: small fast storage (accumulator, index registers, program counter, instruction register, status flags).
+- **CPU** (Central Processing Unit): Arithmetic Logic Unit (ALU) performs addition, subtraction, AND, OR, NOT, shifts. Control unit generates timing signals and decodes instructions. Register file: small fast storage (accumulator, index registers, program counter, instruction register, status flags).
 - **Memory**: Read/write storage for both instructions and data. Addressed by numeric location. Early machines: 1-64 KB. Access time: 1-10 μs (magnetic core) or 0.1-1 μs (transistorized).
 - **I/O**: Peripheral interfaces connect CPU to external devices (card readers, printers, tape units). Programmed I/O (CPU polls device status) or interrupt-driven (device signals CPU when ready).
 
@@ -73,29 +73,29 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - **Performance**: 1-10 μs cycle time. Non-volatile (retains data without power). Capacity: 4-32 KB typical per installation. Cost: ~$1 per bit in 1960 (the dominant memory technology 1955-1975).
 - **Manufacturing**: Threading cores by hand or semi-automated machines. 1 MB system = ~8 million cores, each hand-threaded with 3-4 wires. Labor-intensive.
 
-**[Mercury delay line memory](../glossary/mercury-delay-line-memory.md)** (EDVAC, early stored-program machines):
+**Mercury delay line memory** (EDVAC, early stored-program machines):
 - **Principle**: Electrical signal converted to acoustic pulse in mercury-filled tube. Pulse travels length of tube at ~1,450 m/s (speed of sound in mercury). At far end, transducer converts back to electrical signal, amplifies, and retransmits. Data circulates as a continuous stream of pulses.
 - **Capacity**: ~500-1,000 bits per tube. Multiple tubes per machine. EDVAC design: 1,000 words of 44 bits = 44 tubes.
 - **Access time**: ~0.5-1 ms per bit (must wait for desired pulse to reach the read end). Sequential access, not random.
 - **Disadvantages**: Heavy (mercury is 13.6 g/cm³), temperature-sensitive (mercury velocity changes with temperature, requiring thermostatic control at 40°C ±0.1°C), mechanical fragility. Replaced by magnetic core as soon as core became available.
 
-**[Plated wire memory](../glossary/plated-wire-memory.md)** (later improvement):
+**Plated wire memory** (later improvement):
 - **Structure**: Thin copper wire (0.1 mm diameter) electroplated with permalloy (Ni-Fe alloy, ~1 μm thick). Wires woven through ferrite keeper planes. Magnetic domains along the wire store bits. Non-destructive read (unlike core memory) — the sense signal is proportional to the stored bit without flipping it.
 - **Advantages**: Faster read cycle (no rewrite needed), lower power, radiation-hard (used in space and military applications when core was being phased out elsewhere).
 
-**[Early DRAM](../glossary/early-dram.md)** (Dynamic Random Access Memory):
+**Early DRAM** (Dynamic Random Access Memory):
 - **Cell**: One transistor + one capacitor. Charge on capacitor = stored bit. Capacitor leaks — must be refreshed (read and rewritten) every 2-64 ms. Circuit simplicity enables high density.
-- **[Intel 1103](../glossary/intel-1103.md)** (1970): 1 Kbit chip. First commercially successful DRAM. Replaced core memory in most systems by 1974. Access time: 300-600 ns.
+- **Intel 1103** (1970): 1 Kbit chip. First commercially successful DRAM. Replaced core memory in most systems by 1974. Access time: 300-600 ns.
 - **Scaling**: DRAM density doubles roughly every 3 years (1 Kbit → 4 Kbit → 16 Kbit → 64 Kbit...). Each generation uses finer photolithography. DRAM becomes the technology driver for semiconductor manufacturing.
 
 ## Transistor Revolution: From Tubes to Solid State
 
-**[Point-contact transistor](../glossary/point-contact-transistor.md)** (Bardeen and Brattain, December 1947):
+**Point-contact transistor** (Bardeen and Brattain, December 1947):
 - **Structure**: Two fine gold contacts (~50 μm spacing) pressed against a germanium crystal surface. The germanium slab sits on a metal base. One contact is the emitter, one is the collector, the base is the crystal itself.
 - **Operation**: Small current at the emitter contact modulates a larger current at the collector contact. Current gain ~2-20. Fragile and difficult to reproduce consistently. Noisy and unstable over temperature.
 - **Significance**: The first solid-state amplifier. Proved that semiconductor amplification was possible. Not practical for mass production but launched the entire transistor industry.
 
-**[Junction transistor](../glossary/junction-transistor.md)** (Shockley, 1951):
+**Junction transistor** (Shockley, 1951):
 - **Structure**: Three-layer semiconductor sandwich: n-p-n or p-n-p. The narrow middle layer (base, ~10-50 μm thick) controls current flow between emitter and collector.
 - **Advantages over point-contact**: More reproducible, higher gain (β = 50-300), lower noise, better temperature stability. Manufacturable by alloy or grown-junction techniques.
 - **Fabrication**: Alloy junction: place indium dots on both sides of thin n-type germanium wafer, heat to form p-type alloyed regions → pnp transistor. Grown junction: pull crystal from melt while changing dopant type during growth.
@@ -137,7 +137,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - Propagation delay of 25-50 ns is slower than Schottky-clamped TTL
 - Diode forward voltage drop reduces logic swing, limiting use at low supply voltages
 
-**[Transistor-transistor logic (TTL)](../glossary/transistor-transistor-logic-ttl.md)** (the dominant logic family 1965-1985):
+**Transistor-transistor logic (TTL)** (the dominant logic family 1965-1985):
 - **7400 series**: 5 V supply, 10 ns typical propagation delay, 10 mW per gate, fanout 10. Multi-emitter input transistor replaces DTL input diodes. Totem-pole output stage provides active pull-up and pull-down for fast edges.
 - **Variants**: Low-power TTL (74L series, 1 mW/gate, 33 ns), high-speed TTL (74H, 22 mW, 6 ns), Schottky TTL (74S, 19 mW, 3 ns — Schottky clamped transistor prevents deep saturation, faster turn-off), low-power Schottky (74LS, 2 mW, 9 ns — the most popular variant).
 
@@ -264,7 +264,7 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **Filtering**: Large electrolytic capacitor (1000-10,000 μF) smooths the pulsating DC. Ripple voltage: Vr = Iload/(f × C). For 1A load, 4700 μF capacitor, 120 Hz: Vr ≈ 1.8V peak-to-peak.
 - **Regulation**: Series pass transistor (or IC regulator like 7805 for +5V, 7812 for +12V) maintains constant output voltage despite input variation and load changes. Dropout voltage: 2-3V (input must be at least 2-3V above output). Efficiency: Output power / Input power ≈ Vout/Vin (typically 30-60% — the rest is dissipated as heat in the pass transistor). Heat sinking required.
 
-**[Switching power supply](../glossary/switching-power-supply.md)** (higher efficiency):
+**Switching power supply** (higher efficiency):
 - **Principle**: Convert DC to high-frequency AC (20-200 kHz), transform to desired voltage, rectify and filter. The high frequency allows a much smaller transformer than a 50/60 Hz linear supply. Regulation by pulse-width modulation (PWM): vary the duty cycle of the switching transistor to maintain constant output voltage.
 - **Efficiency**: 75-95%. Much less waste heat than linear supplies.
 - **Complexity**: Requires high-speed switching transistors, fast diodes, PWM controller IC, and careful EMI suppression (the fast switching edges generate radio-frequency interference that must be filtered at the input and output).
@@ -282,9 +282,9 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **Cost trajectory**: ~$1 per bit in 1960, falling to ~$0.01 per bit by 1975.
 
 **Semiconductor memory arrival**:
-- **[Intel 1103 DRAM](../glossary/intel-1103-dram.md)** (1970): 1 Kbit organized as 1,024 × 1 bit. Three-transistor cell design. Access time 300-600 ns. Replaced magnetic core in most new designs by 1974.
-- **[Intel 1702 EPROM](../glossary/intel-1702-eprom.md)** (1971): 2 Kbit (256 × 8) erasable programmable read-only memory. Program via 25-50 V pulses injecting charge onto floating gates. Erase by UV exposure through a quartz window in the ceramic package for 15-20 minutes. Rewritable firmware storage for microcode and bootstrap programs.
-- **[Intel 2816 EEPROM](../glossary/intel-2816-eeprom.md)** (1978): 16 Kbit (2K × 8) electrically erasable PROM. Byte-level erasure using on-chip charge pumps, no UV source needed. The ancestor of modern Flash memory. Write endurance ~10⁴ cycles for early devices.
+- **Intel 1103 DRAM** (1970): 1 Kbit organized as 1,024 × 1 bit. Three-transistor cell design. Access time 300-600 ns. Replaced magnetic core in most new designs by 1974.
+- **Intel 1702 EPROM** (1971): 2 Kbit (256 × 8) erasable programmable read-only memory. Program via 25-50 V pulses injecting charge onto floating gates. Erase by UV exposure through a quartz window in the ceramic package for 15-20 minutes. Rewritable firmware storage for microcode and bootstrap programs.
+- **Intel 2816 EEPROM** (1978): 16 Kbit (2K × 8) electrically erasable PROM. Byte-level erasure using on-chip charge pumps, no UV source needed. The ancestor of modern Flash memory. Write endurance ~10⁴ cycles for early devices.
 
 **Storage hierarchy (latency range)**:
 - **CPU registers**: <1 ns. Dozens to hundreds of bytes, integrated into the processor core.
@@ -295,10 +295,10 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **Magnetic tape**: 10-100 seconds (sequential access). TB to PB. Lowest cost per bit, used for archival backup.
 
 **I/O evolution timeline**:
-- **[Teletype](../glossary/teletype.md)** (1940s-1960s): 10 characters/second (110 baud). Electromechanical, printed on paper roll. Interactive computing at human typing speed.
-- **[Line printer](../glossary/line-printer.md)** (1960s): 300-1,000 lines/minute, 80-132 characters per line. Impact printing, batch output.
-- **[Video display terminal](../glossary/video-display-terminal.md)** (1970s): 9,600 baud serial, 24 × 80 character CRT display. Cursor addressing enables full-screen editing.
-- **[Graphics display](../glossary/graphics-display.md)** (1970s-1980s): Bitmapped 1024 × 768 pixels. Frame buffer memory maps to screen. Enables CAD, visualization, GUIs.
+- **Teletype** (1940s-1960s): 10 characters/second (110 baud). Electromechanical, printed on paper roll. Interactive computing at human typing speed.
+- **Line printer** (1960s): 300-1,000 lines/minute, 80-132 characters per line. Impact printing, batch output.
+- **Video display terminal** (1970s): 9,600 baud serial, 24 × 80 character CRT display. Cursor addressing enables full-screen editing.
+- **Graphics display** (1970s-1980s): Bitmapped 1024 × 768 pixels. Frame buffer memory maps to screen. Enables CAD, visualization, GUIs.
 
 ## Troubleshooting
 
@@ -327,4 +327,4 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - [Photolithography](../photolithography/fab-processes.md) — IC fabrication
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*

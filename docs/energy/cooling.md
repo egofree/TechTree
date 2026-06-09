@@ -8,7 +8,7 @@
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration, industrial_cooling, ice_production
 
-Refrigeration moves heat from a cold region to a hot region using external energy — it does not "make cold" but pumps heat against its natural gradient. Two principal cycles serve bootstrap industry: **[absorption refrigeration](../glossary/absorption-refrigeration.md)** (heat-driven, no moving parts in the refrigerant circuit, usable with waste heat or flame) and **[vapor-compression refrigeration](../glossary/vapor-compression-refrigeration.md)** (mechanically driven, higher COP, requires electric motor or engine). Both cycles depend on a refrigerant that evaporates at low temperature (absorbing heat) and condenses at higher temperature (rejecting heat). Ice manufacturing and cold storage extend these cycles into practical food preservation and process cooling.
+Refrigeration moves heat from a cold region to a hot region using external energy — it does not "make cold" but pumps heat against its natural gradient. Two principal cycles serve bootstrap industry: **absorption refrigeration** (heat-driven, no moving parts in the refrigerant circuit, usable with waste heat or flame) and **vapor-compression refrigeration** (mechanically driven, higher COP, requires electric motor or engine). Both cycles depend on a refrigerant that evaporates at low temperature (absorbing heat) and condenses at higher temperature (rejecting heat). Ice manufacturing and cold storage extend these cycles into practical food preservation and process cooling.
 
 ## Absorption Refrigeration
 
@@ -24,7 +24,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 > *Image: Unknown author, Public domain*
 
-**[Ammonia-water system](../glossary/ammonia-water-system.md)** (the first practical refrigeration cycle, industrially deployed from the 1850s):
+**Ammonia-water system** (the first practical refrigeration cycle, industrially deployed from the 1850s):
 
 **Materials**:
 - Ammonia (NH₃), 99.9% purity — refrigerant. Produced from [coke oven ammonia liquor](coke.md) or [Haber-Bosch synthesis](../chemistry/ammonia.md)
@@ -39,7 +39,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - **Expansion valve**: Liquid ammonia passes through restriction (capillary or orifice), dropping pressure to 1-3 bar. Flash evaporation cools the remaining liquid to ~-10 to -30°C.
 - **Evaporator**: Low-pressure liquid ammonia evaporates in coils immersed in brine tank or air duct, absorbing heat from the surroundings. This is the cooling effect. Evaporating at -10 to -33°C depending on pressure.
 - **Absorber**: Ammonia vapor from evaporator is absorbed by weak solution returning from generator. Absorption is exothermic — requires cooling water (20-30°C). The strong solution is pumped back to generator by a small liquid pump (the ONLY moving part in the refrigerant circuit, requiring ~0.5-2 kW for a 100 kW cooling capacity unit).
-- **Solution heat exchanger**: Recover heat between hot weak solution leaving generator and cold strong solution entering generator. Improves [COP](../glossary/cop.md) from ~0.3 to ~0.5-0.7.
+- **Solution heat exchanger**: Recover heat between hot weak solution leaving generator and cold strong solution entering generator. Improves COP from ~0.3 to ~0.5-0.7.
 
 **Verification**:
 1. Measure generator temperature (80-150°C) and pressure (10-15 bar) — confirm stable operation
@@ -48,7 +48,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 4. Calculate COP from measured cooling output (kW) ÷ heat input (kW) — target 0.5-0.7
 
 **Expected performance**:
-- [COP](../glossary/cop.md) (Coefficient of Performance): 0.4-0.7 (cooling output ÷ heat input). Lower than vapor-compression, but fueled by waste heat that would otherwise be discarded.
+- COP (Coefficient of Performance): 0.4-0.7 (cooling output ÷ heat input). Lower than vapor-compression, but fueled by waste heat that would otherwise be discarded.
 - Heat source temperature: Minimum 80°C for single-effect. Double-effect units (using two generators in series) require 150-200°C but achieve COP 1.0-1.4.
 
 **Strengths**:
@@ -61,7 +61,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 ## Vapor-Compression Refrigeration
 
-**[The dominant modern cycle](../glossary/the-dominant-modern-cycle.md)** (requires electric motor or engine drive):
+**The dominant modern cycle** (requires electric motor or engine drive):
 
 **Materials**:
 - Compressor (reciprocating, scroll, or screw type) — see [Machining](../machine-tools/machining.md) for crankshaft and cylinder fabrication
@@ -111,7 +111,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 ## Ice Manufacturing
 
-**[Can ice system](../glossary/can-ice-system.md)** (the earliest industrial ice production method):
+**Can ice system** (the earliest industrial ice production method):
 
 **Materials**:
 - Brine tank: concrete or steel-lined wood, 3×6 m typical, insulated with 150-200 mm cork
@@ -142,12 +142,12 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - Slow: 12-36 hours per batch limits throughput compared to continuous plate-ice systems
 - Brine is corrosive to steel — CaCl₂ requires sodium chromate or nitrite inhibitors (2000-3000 ppm) and annual tank inspection
 
-**[Plate ice and flake ice](../glossary/plate-ice-and-flake-ice.md)** (continuous production, later development):
+**Plate ice and flake ice** (continuous production, later development):
 - Refrigerant flows inside vertical plates; water flows over outside surface. Ice forms as 5-15 mm layer, harvested by hot-gas defrost cycle. Higher throughput but more complex machinery.
 
 ## Cold Storage Design
 
-**[Insulation materials](../glossary/insulation-materials.md)** (in order of availability):
+**Insulation materials** (in order of availability):
 
 | Material | Thermal conductivity (W/m·K) | Typical thickness | Density (kg/m³) | Notes |
 |----------|------------------------------|-------------------|-----------------|-------|
@@ -299,4 +299,4 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*

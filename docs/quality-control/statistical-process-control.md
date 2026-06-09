@@ -321,4 +321,4 @@ SPC in semiconductor manufacturing generates large volumes of data requiring aut
 - [Computing](../computing/index.md) — SPC software and data analysis
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../../index.md)*

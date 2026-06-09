@@ -279,6 +279,6 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../../index.md)*
 
 ![electrochemistry electrochemical processes](../images/electrochemistry/electrochemistry_electrochemical-processes.png)

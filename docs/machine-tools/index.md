@@ -116,4 +116,4 @@ Capabilities in this domain:
 > *Image: Blue tooth7, CC BY-SA 4.0*
 
 - [Thermoforming Equipment](thermoforming-equipment.md) — Vacuum and pressure forming machines for shaping heated thermoplastic sheet into products.
-[↑ Back to Tech Tree](../index.md)
+[↑ Back to Tech Tree](../../index.md)

@@ -205,6 +205,6 @@ vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, a
 
 
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
 ![plants cinchona officinalis](../images/plants/plants_cinchona-officinalis.jpeg)

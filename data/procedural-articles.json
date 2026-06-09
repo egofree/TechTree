@@ -789,9 +789,9 @@
       "domain": "chemistry",
       "doc_path": "docs/chemistry/explosives.md",
       "search_queries": [
-        "Nitrocellulose & Smokeless Powders",
-        "Nitrocellulose & Smokeless Powders Chemistry process",
-        "Nitrocellulose & Smokeless Powders diagram"
+        "Guncotton nitrocellulose",
+        "Smokeless powder",
+        "Cellulose nitrate"
       ],
       "has_existing_image": false,
       "source": "entity"
@@ -6099,6 +6099,176 @@
       ],
       "has_existing_image": false,
       "source": "content_scan"
+    },
+    {
+      "id": "agriculture.irrigation",
+      "title": "Irrigation Systems",
+      "domain": "agriculture",
+      "doc_path": "docs/agriculture/irrigation.md",
+      "search_queries": [
+        "Irrigation Systems",
+        "Irrigation canal agriculture",
+        "Irrigation farming process"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "agriculture.pest-management",
+      "title": "Pest Management",
+      "domain": "agriculture",
+      "doc_path": "docs/agriculture/pest-management.md",
+      "search_queries": [
+        "Pest Management agriculture",
+        "Biological pest control",
+        "Crop pest management"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "agriculture.aquaponics",
+      "title": "Aquaponics",
+      "domain": "agriculture",
+      "doc_path": "docs/agriculture/aquaponics.md",
+      "search_queries": [
+        "Aquaponics system",
+        "Aquaponics fish plants",
+        "Aquaponics farming"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "agriculture.sem-tech-hydroponics",
+      "title": "SEM Tech Hydroponics",
+      "domain": "agriculture",
+      "doc_path": "docs/agriculture/sem-tech-hydroponics.md",
+      "search_queries": [
+        "Hydroponics system",
+        "Electromembrane hydroponics",
+        "Hydroponic nutrient control"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.lubricants-natural",
+      "title": "Natural Lubricants: Animal Fats & Vegetable Oils",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/lubricants-natural.md",
+      "search_queries": [
+        "Lard tallow fat",
+        "Castor oil plant",
+        "Linseed oil flax",
+        "Olive oil pressing"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.lubricants-mineral",
+      "title": "Mineral Oil Lubricants, Cutting Fluids & Hydraulic Fluids",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/lubricants-mineral.md",
+      "search_queries": [
+        "Mineral oil lubricant",
+        "Cutting fluid machining",
+        "Hydraulic fluid"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.lubricants-synthetic",
+      "title": "Synthetic Lubricants & Specialty Fluids",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/lubricants-synthetic.md",
+      "search_queries": [
+        "Synthetic lubricant",
+        "PAO synthetic oil",
+        "Silicone lubricant"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.explosives.nitroglycerin-dynamite",
+      "title": "Nitroglycerin & Dynamite",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/nitroglycerin-dynamite.md",
+      "search_queries": [
+        "Nitroglycerin dynamite",
+        "Dynamite explosion",
+        "Alfred Nobel dynamite"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.explosives.high-explosives",
+      "title": "High Explosives (TNT, RDX, ANFO)",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/high-explosives.md",
+      "search_queries": [
+        "TNT explosive",
+        "RDX explosive",
+        "ANFO mining explosive"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.explosives.detonation-blasting",
+      "title": "Detonation & Blasting Systems",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/detonation-blasting.md",
+      "search_queries": [
+        "Detonation blasting",
+        "Blasting cap mining",
+        "Explosive detonation"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.solvents",
+      "title": "Solvent Production",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/solvents.md",
+      "search_queries": [
+        "Ethanol distillation laboratory",
+        "Solvent distillation chemistry",
+        "Methanol solvent"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.chemical-recovery",
+      "title": "Chemical Recovery & Solvent Regeneration",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/chemical-recovery.md",
+      "search_queries": [
+        "Chemical recovery",
+        "Solvent regeneration",
+        "Industrial chemical recycling"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "chemistry.adhesives-coatings",
+      "title": "Adhesives & Specialty Coatings",
+      "domain": "chemistry",
+      "doc_path": "docs/chemistry/adhesives-coatings.md",
+      "search_queries": [
+        "Adhesive manufacturing",
+        "Industrial adhesive",
+        "Specialty coating"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
     }
   ]
 }

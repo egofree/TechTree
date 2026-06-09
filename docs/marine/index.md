@@ -26,9 +26,19 @@ Result: standalone marine domain. Cross-reference [transport/shipping.md](../tra
 
 ## Capabilities in this domain:
 
+![Hull Construction & Shipbuilding](../images/marine/marine_shipbuilding.jpg)
+> *Image: Unknown authorUnknown author, Public domain*
+
 - [Hull Construction & Shipbuilding](shipbuilding.md) (`marine.shipbuilding`) — dugout → clinker → carvel → iron/steel hull construction, structural design, fastening methods
+<!-- TODO: source image for Marine Navigation -->
 - [Marine Navigation](navigation.md) (`marine.navigation`) — coastal piloting, celestial navigation, instrument development, dead reckoning
+![Marine Propulsion Systems](../images/marine/marine_propulsion.jpg)
+> *Image: Andy Dingley (scanner), Public domain*
+
 - [Marine Propulsion Systems](propulsion.md) (`marine.propulsion`) — oar → sail → steam → diesel, marine engines, propeller design
+![Maritime Infrastructure & Underwater Engineering](../images/marine/marine_infrastructure.png)
+> *Image: KVDP, Public domain*
+
 - [Maritime Infrastructure & Underwater Engineering](infrastructure.md) (`marine.infrastructure`) — harbors, dry docks, lighthouses, submarine cables, corrosion prevention
 
 ## Dependencies

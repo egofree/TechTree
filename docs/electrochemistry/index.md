@@ -13,8 +13,17 @@
 
 Capabilities in this domain:
 
+![Electroplating](../images/electrochemistry/electrochemistry_electroplating-copper-damascene.jpg)
+> *Image: Conrad Poirier, Public domain*
+
 - [Electroplating](electroplating.md) — Copper damascene electroplating for semiconductor interconnects (acid sulfate bath, pulse reverse plating, via/trench fill). Nickel, gold, tin, and alloy plating for electronics. Strike plating, adhesion layers, and thickness control via Faraday's law.
+![Anodizing](../images/electrochemistry/electrochemistry_anodizing.png)
+> *Image: Matteo Bordiga, CC BY-SA 4.0*
+
 - [Anodizing](anodizing.md) — Electrochemical oxide growth on aluminum (Type II sulfuric acid, Type III hard anodizing) and titanium (voltage-controlled oxide thickness, color anodizing). Barrier layer formation kinetics, pore structure engineering, and sealing processes.
+![Electrochemical Surface Processes](../images/electrochemistry/electrochemistry_electrochemical-processes.png)
+> *Image: Zina Deretsky, National Science Foundation (NSF), User:KVDP, Public domain*
+
 - [Electrochemical Surface Processes](electrochemical-processes.md) — Electropolishing for ultrapure surfaces, electroforming for precision microstructures and stampers, electroless plating (ENIG for PCBs, electroless copper for through-hole metallization). Process control, bath chemistry management, and waste treatment.
 
 ### SIK Placement Test Decision
@@ -44,6 +53,9 @@ The electrochemistry domain was evaluated against two existing domains:
 No override conditions apply — no circular dependencies exist with chemistry or metals domains, and the bootstrap sequence does not demand co-presentation.
 
 ---
+
+![DC Rectifier](../images/electrochemistry/electrochemistry_dc-rectifier.png)
+> *Image: Glogger at English Wikipedia, CC BY-SA 3.0*
 
 - [DC Rectifier](dc-rectifier.md) — Thyristor and IGBT DC power supplies providing controlled current/voltage for electroplating, anodizing, and electrolysis.
 *Part of the [Bootciv Tech Tree](../index.md) • [All Domains](../index.md)*

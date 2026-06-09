@@ -8,11 +8,21 @@
 
 Capabilities in this domain:
 
+![Machine Code & Front-Panel Programming](../images/software-bootstrapping/software-bootstrapping_machine-code.jpg)
+> *Image: ShiinaKaze, CC BY-SA 4.0*
+
 - [Machine Code & Front-Panel Programming](machine-code.md) — Hand-entered binary instructions via front-panel switches, hex keyboards, and paper tape bootstrap loaders.
+<!-- TODO: source image for Assemblers, Linkers & Loaders -->
 - [Assemblers, Linkers & Loaders](assemblers.md) — Assembly language design, two-pass assembler construction, symbol table management, relocation, and program loading.
+<!-- TODO: source image for Compiler Construction -->
 - [Compiler Construction](compilers.md) — Lexical analysis, parsing, code generation, optimization, and the self-hosting bootstrap sequence.
+![Operating System Construction](../images/software-bootstrapping/software-bootstrapping_operating-systems.png)
+> *Image: mlibre, CC0*
+
 - [Operating System Construction](operating-systems.md) — Boot loaders, interrupt handlers, process scheduling, memory management, file systems, and device drivers.
+<!-- TODO: source image for Development Tools & Debugging -->
 - [Development Tools & Debugging](dev-tools.md) — Text editors, debuggers, build systems, and version control.
+<!-- TODO: source image for Self-Hosting Compiler Bootstrap -->
 - [Self-Hosting Compiler Bootstrap](self-hosting.md) — The bootstrap sequence that makes a compiler compile itself, achieving a self-sustaining software toolchain.
 
 ## Boundary with Computing

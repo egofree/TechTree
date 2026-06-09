@@ -8,8 +8,17 @@
 
 Capabilities in this domain:
 
+![Crude Oil Extraction](../images/petroleum/petroleum_extraction_rotary.jpg)
+> *Image: Gabinho, CC BY 3.0*
+
 - [Crude Oil Extraction](extraction.md) — Surface seeps, cable-tool percussion drilling, rotary drilling with mud circulation, well completion and production systems, and enhanced oil recovery techniques.
+![Petroleum Refining](../images/petroleum/petroleum_refining_distillation.jpg)
+> *Image: Unknown authorUnknown author, Public domain*
+
 - [Petroleum Refining](refining.md) — Atmospheric and vacuum distillation, catalytic cracking (FCC), hydrocracking, catalytic reforming, alkylation, and product blending to produce gasoline, kerosene, diesel, fuel oil, lubricants, and asphalt.
+![Petrochemical Feedstocks](../images/petroleum/petroleum_petrochemicals_steam-cracking.png)
+> *Image: Gholami, Z., Gholami, F., Tišler, Z., &amp; Vakili, M., CC BY-SA 4.0*
+
 - [Petrochemical Feedstocks](petrochemicals.md) — Steam cracking for ethylene and propylene, BTX aromatics production via catalytic reforming, and key downstream derivatives (polyethylene, PVC, polystyrene, PET, nylon, polyurethane).
 
 ## SIK Placement Decision

@@ -16,6 +16,116 @@ This project documents the complete dependency chain from fire and stone tools t
 | D2 diagrams | 44 |
 | Glossary terms | 11,966 |
 
+## Tech Tree Overview
+
+```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TB
+    foundations["Foundations"]
+
+    subgraph core_path ["Core Path — Stone to GPU"]
+        metals["Metals"]
+        mining["Mining"]
+        energy["Energy"]
+        machine-tools["Machine Tools"]
+        chemistry["Chemistry"]
+        silicon["Silicon"]
+        photolithography["Photolithography"]
+        electronics["Electronics"]
+        computing["Computing"]
+        vlsi-scaling["VLSI Scaling"]
+        software-bootstrapping["Software Bootstrapping"]
+    end
+
+    subgraph materials ["Materials"]
+        ceramics["Ceramics"]
+        glass["Glass"]
+        polymers["Polymers"]
+        textiles["Textiles"]
+        petroleum["Petroleum"]
+        animals["Animals"]
+        plants["Plants"]
+    end
+
+    subgraph process_precision ["Process &amp; Precision"]
+        vacuum["Vacuum"]
+        cryogenics["Cryogenics"]
+        cleanrooms["Cleanrooms"]
+        ultra-pure["Ultra-Pure Materials"]
+        precision-motion["Precision Motion"]
+        optics["Optics"]
+        measurement["Measurement"]
+        quality-control["Quality Control"]
+        electrochemistry["Electrochemistry"]
+    end
+
+    subgraph infra_safety ["Infrastructure &amp; Safety"]
+        construction["Construction"]
+        gas-handling["Gas Handling"]
+        water["Water"]
+        health["Health"]
+        ehs["EHS"]
+        automation["Automation"]
+        mathematics["Mathematics"]
+        knowledge["Knowledge"]
+        economics-organization["Economics &amp; Organization"]
+    end
+
+    subgraph transport_comm ["Transport &amp; Communication"]
+        transport["Transport"]
+        marine["Marine"]
+        telecom["Telecom"]
+    end
+
+    subgraph civilization ["Civilization Sustaining"]
+        agriculture["Agriculture"]
+        food-processing["Food Processing"]
+        defense["Defense"]
+    end
+
+    foundations --> metals
+    foundations --> mining
+    metals --> machine-tools
+    machine-tools --> chemistry
+    chemistry --> silicon
+    silicon --> photolithography
+    photolithography --> electronics
+    electronics --> computing
+    computing --> vlsi-scaling
+    computing --> software-bootstrapping
+    mining --> metals
+    energy --> silicon
+    energy --> machine-tools
+    energy --> chemistry
+    ceramics --> metals
+    glass --> optics
+    optics --> photolithography
+    cleanrooms --> photolithography
+    precision-motion --> photolithography
+    vacuum --> electronics
+    ultra-pure --> silicon
+    petroleum --> energy
+    measurement --> quality-control
+    gas-handling --> chemistry
+    agriculture --> food-processing
+
+    classDef foundationsStyle fill:#e1bee7,stroke:#7b1fa2,stroke-width:3px
+    classDef corePathStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef materialsStyle fill:#efebe9,stroke:#5d4037,stroke-width:2px
+    classDef processStyle fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef infraStyle fill:#f5f5f5,stroke:#616161,stroke-width:2px
+    classDef transportStyle fill:#e0f2f1,stroke:#00796b,stroke-width:2px
+    classDef civilizationStyle fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+
+    class foundations foundationsStyle
+    class metals,mining,energy,machine-tools,chemistry,silicon,photolithography,electronics,computing,vlsi-scaling,software-bootstrapping corePathStyle
+    class ceramics,glass,polymers,textiles,petroleum,animals,plants materialsStyle
+    class vacuum,cryogenics,cleanrooms,ultra-pure,precision-motion,optics,measurement,quality-control,electrochemistry processStyle
+    class construction,gas-handling,water,health,ehs,automation,mathematics,knowledge,economics-organization infraStyle
+    class transport,marine,telecom transportStyle
+    class agriculture,food-processing,defense civilizationStyle
+```
+
 ## Quick Navigation
 
 - [Overview & Introduction](docs/index.md)

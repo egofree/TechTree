@@ -18,8 +18,8 @@ Capabilities in this domain:
   - **[Animal Husbandry](animal-husbandry.md)** — Core knowledge for managing all livestock species: breeding, feeding, health, and seasonal planning.
 <!-- TODO: source image for Draft Power & Harnessing -->
 - **[Draft Power & Harnessing](draft-power.md)** — Yokes, harnesses, plowing, carts, horse whim, animal milling. Primary motive force before steam.
-![Animal-Derived Materials](../images/animals/animals_animal-materials.png)
-> *Image: United States Geological Survey, Public domain*
+![Animal-Derived Materials](../images/animals/animals_animal-materials.jpg)
+> *Image: Kenny McFly, CC BY-SA 4.0*
 
 - **[Animal-Derived Materials](animal-materials.md)** — Leather/tanning, tallow rendering, wool preparation, horn/bone working, sinew, hide glue, blood.
   ![Leather Production](../images/animals/animals_leather.jpg)
@@ -39,7 +39,7 @@ Capabilities in this domain:
 <!-- TODO: source image for Pest Management -->
 - **[Pest Management](pest-management.md)** — Biological pest control, guardian animals, integrated management.
 ![Poultry Farming](../images/animals/animals_poultry.jpg)
-> *Image: Jonathan Billinger, CC BY-SA 2.0*
+> *Image: Matthew T Rader, CC BY-SA 4.0*
 
 - **[Poultry Farming](poultry.md)** — Chickens, quail, ducks, geese, turkeys, guinea fowl, pigeons. Eggs, meat, feathers, pest control.
   ![Chickens](../images/animals/animals_poultry.jpg)
@@ -75,15 +75,15 @@ Capabilities in this domain:
 
 - **[Cattle Husbandry](cattle.md)** — Dairy, beef, draft power. Milk, tallow, leather, manure.
 ![Sheep Husbandry](../images/animals/animals_sheep.jpg)
-> *Image: NasserHalaweh, CC BY-SA 4.0*
+> *Image: Ggia, CC BY-SA 3.0*
 
 - **[Sheep Husbandry](sheep.md)** — Wool, mutton, dairy. Fiber production, pasture management.
 ![Goat Husbandry](../images/animals/animals_goats.jpg)
-> *Image: kaʁstn Disk/Cat, CC BY-SA 3.0 de*
+> *Image: Böhringer Friedrich, CC BY-SA 2.5*
 
 - **[Goat Husbandry](goats.md)** — Dairy, meat, fiber, brush clearance. Browsers for land management.
 ![Pig Husbandry](../images/animals/animals_pigs.jpg)
-> *Image: Anneli Salo, CC BY-SA 3.0*
+> *Image: Peter O'Connor aka anemoneprojectors, CC BY-SA 2.0*
 
 - **[Pig Husbandry](pigs.md)** — Pork, lard, waste conversion. Omnivore forager.
 <!-- TODO: source image for Equine Husbandry -->
@@ -101,7 +101,7 @@ Capabilities in this domain:
 
 - **[Rabbit Husbandry](rabbits.md)** — Meat, fur, Angora wool. Small-space livestock.
 ![Insect Farming (BSF)](../images/animals/animals_insect-farming.jpg)
-> *Image: R6, State &amp; Private Forestry, Forest Health Protection, Public domain*
+> *Image: U.S. Fish and Wildlife Service Southeast Region, Public domain*
 
 - **[Insect Farming (BSF)](insect-farming.md)** — Black Soldier Fly larvae for protein feed, biowaste conversion.
 

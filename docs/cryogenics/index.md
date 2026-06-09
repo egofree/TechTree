@@ -11,8 +11,8 @@
 
 Capabilities in this domain:
 
-![Refrigeration Fundamentals](../images/cryogenics/cryogenics_refrigeration.png)
-> *Image: Kirill Abrosimov, CC BY 4.0*
+![Refrigeration Fundamentals](../images/cryogenics/cryogenics_refrigeration.jpg)
+> *Image: Antonín Ryska, CC BY-SA 4.0*
 
 - [Refrigeration Fundamentals](refrigeration.md) — Thermodynamic principles and cycle architectures for cooling from ambient to cryogenic temperatures: vapor-compression, absorption, Joule-Thomson, Linde cycle, Claude cycle with expansion turbines, Stirling and pulse tube cryocoolers. Energy requirements scale inversely with temperature: COP drops from 30-40% of Carnot at -20°C to 0.5-2% at -269°C.
 ![Cryogenic Air Separation](../images/cryogenics/cryogenics_air-separation.png)
@@ -25,7 +25,7 @@ Capabilities in this domain:
 - [Gas Liquefaction & Storage](liquefaction-storage.md) — Dewar vessel design (vacuum-insulated, evaporation losses 0.1-3%/day), perlite and multi-layer insulation systems, nitrogen/helium liquefaction cycles, cryogenic transfer systems, and material selection for service below -150°C. Liquid storage provides 600-860× density advantage over compressed gas.
 
 ![Dewar Vessel](../images/cryogenics/cryogenics_dewar.png)
-> *Image: Benjah-bmm27, Public domain*
+> *Image: OJB Quantum, CC BY 4.0*
 
 - [Dewar Vessel](dewar.md) — Vacuum-insulated cryogenic storage vessels (dewars) for liquefied gases with minimal evaporation loss.
 [↑ Back to Tech Tree](../index.md)

@@ -15,7 +15,7 @@ Capabilities in this domain:
 <!-- TODO: source image for Food Preservation -->
 - [Food Preservation](preservation.md) — Drying, salting, smoking, fermentation, canning, pasteurization, and refrigeration. Eliminates seasonal starvation and enables urban workforce concentration.
 ![Canning & Thermal Sterilization](../images/food-processing/food-processing_canning.jpg)
-> *Image: Quimby, Freeman Henry, 1915-, Public domain*
+> *Image: Mydans, Carl, Public domain*
 
 - [Canning & Thermal Sterilization](canning.md) — Preserves food by heating in hermetically sealed containers for multi-year shelf-stable storage without refrigeration, enabling long-distance food logistics.
 ![Dairy Processing](../images/food-processing/food-processing_dairy.jpg)
@@ -32,11 +32,11 @@ Capabilities in this domain:
 - [Brewing & Distilling](brewing.md) — Beer, wine, and spirit production. The earliest industrial biotechnology, simultaneously food preservation and calorie concentration.
 
 ![Seed Press](../images/food-processing/food-processing_seed-press.jpg)
-> *Image: Nigel Mykura, CC BY-SA 2.0*
+> *Image: The U.S. Food and Drug Administration, Public domain*
 
 - [Seed Press](seed-press.md) — Screw presses and expellers for extracting oil from seeds, nuts, and other oil-bearing materials.
 ![Cream Separator](../images/food-processing/food-processing_cream-separator.jpg)
-> *Image: Wikimedia Commons contributor, Public domain*
+> *Image: Unknown authorUnknown author, Public domain*
 
 - [Cream Separator](cream-separator.md) — Centrifugal cream separators for dividing whole milk into cream and skim milk.
 [↑ Back to Tech Tree](../index.md)

@@ -23,7 +23,7 @@ Capabilities in this domain:
 <!-- TODO: source image for Telephone Systems -->
 - [Telephone Systems](telephone.md) — Voice communication over wire: Bell telephone, carbon microphone, manual switchboard exchanges, and Strowger automatic step-by-step switching enabling private dialing.
 ![Submarine Cable Systems](../images/telecom/telecom_submarine-cables.jpg)
-> *Image: Peter Facey, CC BY-SA 2.0*
+> *Image: Collinpetty, CC BY-SA 4.0*
 
 - [Submarine Cable Systems](submarine-cables.md) — Undersea telegraph and telephone cables: gutta-percha insulation, armored cable construction, cable-laying ships, and deep-sea repair operations.
 <!-- TODO: source image for Radio Communication -->

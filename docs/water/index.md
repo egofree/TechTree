@@ -15,7 +15,7 @@ Capabilities in this domain:
 <!-- TODO: source image for Basic Water Treatment -->
 - [Basic Water Treatment](basic-treatment.md) — slow sand filtration, chlorination, boiling, solar disinfection
 ![Sewage Collection & Treatment](../images/water/water_sewage.jpg)
-> *Image: Jim Pickerell, Public domain*
+> *Image: David Dixon, CC BY-SA 2.0*
 
 - [Sewage Collection & Treatment](sewage.md) — sewage collection, primary and secondary treatment, sludge disposal
 <!-- TODO: source image for Desalination -->
@@ -34,15 +34,15 @@ Capabilities in this domain:
 
 - [Positive Displacement Pump](positive-displacement-pump.md) — Piston, diaphragm, and gear pumps for precise dosing and high-pressure fluid transfer.
 ![Water Valves](../images/water/water_water-valves.jpg)
-> *Image: Paul Goyette, CC BY-SA 2.0*
+> *Image: SwarmCheng, CC BY-SA 4.0*
 
 - [Water Valves](water-valves.md) — Gate, globe, ball, check, and pressure-reducing valves for controlling water flow in distribution systems.
 ![Pipe Fabrication](../images/water/water_pipe-fabrication.jpg)
-> *Image: Peter Moore, CC BY-SA 2.0*
+> *Image: Massachusetts. Metropolitan District Water Supply Commission; Cushman, Allerton R., 1907-1999, Public domain*
 
 - [Pipe Fabrication](pipe-fabrication.md) — Metal and plastic pipe manufacturing, threading, welding, and jointing for fluid distribution systems.
 ![Filtration Equipment](../images/water/water_filtration-equipment.jpg)
-> *Image: USEPA Environmental-Protection-Agency, Public domain*
+> *Image: Federal Bureau of Investigation, Public domain*
 
 - [Filtration Equipment](filtration-equipment.md) — Sand filters, cartridge filters, membrane housings, and associated equipment for water and process fluid filtration.
 [↑ Back to Tech Tree](../index.md)

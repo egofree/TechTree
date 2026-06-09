@@ -15,8 +15,8 @@ Capabilities in this domain:
 
 - [HEPA/ULPA Filtration & Laminar Flow](hepa-ulpa-filtration.md) — Filter media construction (borosilicate glass microfibers, 99.97% @ 0.3 μm for HEPA, 99.999% @ 0.12 μm for ULPA), fan-filter unit design, laminar flow principles, pre-filtration stages, and filter integrity testing (DOP/PAO challenge).
 
-![Contamination Control](../images/cleanrooms/cleanrooms_contamination-control.png)
-> *Image: Rudolf Simon, M+W Group GmbH, Stuttgart, Germany, CC BY-SA 2.0 de*
+![Contamination Control](../images/cleanrooms/cleanrooms_contamination-control.jpg)
+> *Image: Clemenspool, CC0*
 
 - [Contamination Control](contamination-control.md) — Gowning protocols and garment materials, particle monitoring systems (laser scattering counters), electrostatic discharge (ESD) control (ionizers, wrist straps, conductive flooring), ISO 14644-1 classification (ISO Classes 1-9), and personnel training requirements.
 

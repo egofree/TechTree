@@ -23,7 +23,7 @@ Plants are the primary biological resource for bootstrapping civilization: they 
 | [Dye Plants](dye-plants.md) | 22 | Natural colorants for textiles, leather, wood, ink, and coatings |
 
 ![Edible Plants](../images/plants/plants_edible-plants.jpg)
-> *Image: don cload, CC BY-SA 2.0*
+> *Image: David Hawgood, CC BY-SA 2.0*
 
 - [Edible Plants](edible-plants.md) — Foraging and cultivation of plant species for caloric and nutritional supply: roots, greens, fruits, seeds, and stems from wild harvest through staple crop agriculture.
 ![Medicinal Plants](../images/plants/plants_medicinal-plants.png)

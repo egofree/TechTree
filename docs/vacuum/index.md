@@ -30,7 +30,7 @@ For basic vacuum technology foundations (piston pumps, Bourdon gauges, simple va
 
 - [Vacuum Pump (Construction)](vacuum-pump.md) — Construction of roughing and high-vacuum pumps: rotary vane, scroll, diaphragm, and diffusion pump designs.
 ![Vacuum Chamber (Construction)](../images/vacuum/vacuum_vacuum-chamber.jpg)
-> *Image: ESO/Max Alexander, CC BY 4.0*
+> *Image: EXOTRAIL SA, CC BY-SA 4.0*
 
 - [Vacuum Chamber (Construction)](vacuum-chamber.md) — Fabrication of vacuum chambers from steel and aluminum with sealing systems for process and research applications.
 [↑ Back to Tech Tree](../index.md)

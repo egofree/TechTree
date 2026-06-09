@@ -2,7 +2,7 @@
 
 
 ![Aviation Boatswain's Mate handling operations](../images/gas-handling/gas-handling.jpg)
-> *Image: U.S. Navy photo by Mass Communication Specialist Seaman Benjamin Jernigan, Public domain*
+> *Image: ecom, CC BY-SA 3.0*
 
 > *US Navy Aviation Boatswain's Mate handling operations aboard USS Ronald Reagan*
 
@@ -38,5 +38,5 @@ Capabilities in this domain:
 
 [↑ Back to Tech Tree](../index.md)
 
-![gas handling](../images/gas-handling/gas-handling.png)
+![gas handling](../images/gas-handling/gas-handling.jpg)
 > *Image: U.S. Navy photo by Mass Communication Specialist Seaman Benjamin Jernigan, Public domain*

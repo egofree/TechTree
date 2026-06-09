@@ -14,8 +14,8 @@ Capabilities in this domain:
 > *Image: CleanroomKnowItAll, CC BY-SA 4.0*
 
 - [Cleanrooms](cleanrooms.md) — Cleanroom construction (ISO 6-4, HEPA/ULPA filtration, laminar flow, positive pressure, gowning protocols), ultra-pure water systems (RO + DI + UV + membrane filtration to 18 MΩ·cm), and cleanroom consumables (garments, wipers, gloves).
-![Core Fab Processes](../images/photolithography/photolithography_fab-processes.jpg)
-> *Image: Mister rf, CC BY-SA 4.0*
+![Core Fab Processes](../images/photolithography/photolithography_fab-processes.png)
+> *Image: Jxg7516 at English Wikibooks, CC BY-SA 3.0*
 
 - [Core Fab Processes](fab-processes.md) — Thermal oxidation (dry and wet), wet etching (HF for SiO₂, KOH for Si) and dry/plasma etching (RIE), CVD deposition (poly-Si, SiO₂, Si₃N₄), PVD (sputtering, evaporation), doping (diffusion and later ion implantation), metallization (Al, later Cu), and the planar process integration for IC fabrication.
 ![Photoresists, Masks & Lithography](../images/photolithography/photolithography_resists-masks.jpg)
@@ -66,4 +66,4 @@ Capabilities in this domain:
 [↑ Back to Tech Tree](../index.md)
 
 ![photolithography](../images/photolithography/photolithography.png)
-> *Image: Runner1928, CC BY-SA 4.0*
+> *Image: May lam, CC BY 4.0*

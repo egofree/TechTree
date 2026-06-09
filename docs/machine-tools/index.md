@@ -57,7 +57,7 @@ Capabilities in this domain:
 
 - [Belt & Shaft Power Transmission](power-transmission.md) — Mechanical power distribution via belts, shafts, pulleys, and line shaft systems from a single prime mover to multiple machines.
 ![Mass Production & Interchangeability](../images/machine-tools/machine-tools_mass-production.jpg)
-> *Image: Peter Elfelt, CC BY-SA 4.0*
+> *Image: BsBsBs, CC BY-SA 3.0*
 
 - [Mass Production & Interchangeability](mass-production.md) — Interchangeable parts, tolerance specification with go/no-go gauges, production line layout, statistical process control, and standardized fasteners.
 ![EDM, CNC & Precision Grinding](../images/machine-tools/machine-tools_edm-cnc.jpg)
@@ -90,7 +90,7 @@ Capabilities in this domain:
 
 - [Anvil](anvil.md) — Forging anvil construction from stone through cast iron with steel face — the primary workholding surface for smithing.
 ![Welding Equipment](../images/machine-tools/machine-tools_welding-equipment.jpg)
-> *Image: ecom, CC BY-SA 3.0*
+> *Image: Federal Bureau of Investigation, Public domain*
 
 - [Welding Equipment](welding-equipment.md) — Construction of welding apparatus: oxy-acetylene torches, arc welders (SMAW, TIG, MIG), spot welders, and associated fixtures.
 ![Foundry Equipment](../images/machine-tools/machine-tools_foundry-equipment.jpg)
@@ -98,7 +98,7 @@ Capabilities in this domain:
 
 - [Foundry Equipment](foundry-equipment.md) — Crucibles, ladles, molding equipment, and pouring systems for metal casting operations.
 ![Extruder](../images/machine-tools/machine-tools_extruder.jpg)
-> *Image: Bea Lipson, CSIRO, CC BY 3.0*
+> *Image: Leonard J. DeFrancisci (copyright holder), CC BY-SA 4.0*
 
 - [Extruder](extruder.md) — Single-screw and twin-screw extruders for continuous forming of polymers, food products, and other materials.
 ![Injection Molding Machine](../images/machine-tools/machine-tools_injection-molding-machine.jpg)

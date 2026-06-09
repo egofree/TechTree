@@ -2,7 +2,7 @@
 
 
 ![Instrumentation for zeta potential measurement](../images/measurement/measurement.png)
-> *Image: Sobarwiki, Public domain*
+> *Image: FreshAlien, CC BY-SA 4.0*
 
 > *Instrumentation for zeta potential measurement through light scattering.*
 
@@ -11,7 +11,7 @@
 Capabilities in this domain:
 
 ![Precision Metrology & Standards](../images/measurement/measurement_precision-metrology.jpg)
-> *Image: National Institute of Standards and Technology, Public domain*
+> *Image: U.S. Air Force photo by Senior Airman Devlin Bishop, Public domain*
 
 - [Precision Metrology & Standards](precision-metrology.md) — Surface plates via Whitworth three-plate method, hand scraping, straight edges, squares, vernier calipers (0.02 mm resolution), micrometers (0.01 mm), gauge blocks, angle measurement, calibration infrastructure, timekeeping (pendulum clocks ±5 sec/day), and electrical standards.
 ![Temperature & Pressure Measurement](../images/measurement/measurement_temperature-pressure.jpg)
@@ -51,5 +51,5 @@ Capabilities in this domain:
 
 [↑ Back to Tech Tree](../index.md)
 
-![measurement](../images/measurement/measurement.jpg)
+![measurement](../images/measurement/measurement.png)
 > *Image: Sobarwiki, Public domain*

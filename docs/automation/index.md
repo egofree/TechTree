@@ -17,7 +17,7 @@ Capabilities in this domain:
 
 - [Wafer Handling Robots](wafer-handling.md) — Cleanroom robots, end effectors, vacuum and edge-grip wafer pickup, atmospheric and vacuum load locks, and robot kinematics for wafer transfer.
 ![Material Transport](../images/automation/automation_material-transport.jpg)
-> *Image: Triangle-Heart, CC BY-SA 4.0*
+> *Image: Powerfox, CC BY-SA 4.0*
 
 - [Material Transport](material-transport.md) — FOUP (Front-Opening Unified Pod) handling, Automated Guided Vehicles (AGVs), Overhead Hoist Transport (OHT), rail-guided vehicles, and fab logistics coordination.
 ![Process Control & Lot Tracking](../images/automation/automation_process-control.jpg)

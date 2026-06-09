@@ -11,27 +11,27 @@
 Capabilities in this domain:
 
 ![Aviation](../images/transport/transport_aviation.jpg)
-> *Image: ZemplinTemplar, CC BY-SA 4.0*
+> *Image: Gaurav Dhwaj Khadka, CC BY-SA 4.0*
 
 - [Aviation](aviation.md) — Aircraft development, tube-and-fabric airframes, propellers, and flight testing.
 ![Light Aircraft](../images/transport/transport_light-aircraft.jpg)
-> *Image: Max Kuznetsov (photographer), Inna Ismailova (producer), CC BY-SA 4.0*
+> *Image: Kenneth  Allen, CC BY-SA 2.0*
 
 - [Light Aircraft](light-aircraft.md) — Single-engine propeller planes enabling rapid long-distance transport, aerial survey, and emergency medical evacuation with 100–300 hp engines and aluminum or composite airframes.
 ![Telegraph Communication](../images/transport/transport_telegraph.jpg)
-> *Image: José Luiz, CC BY-SA 4.0*
+> *Image: Col. Sir F. J. Goldsmid, Public domain*
 
 - [Telegraph Communication](telegraph.md) — Electrical telegraph systems using Morse code over wire for long-distance communication and railway block signaling.
 ![Railways](../images/transport/transport_railways.jpg)
-> *Image: mattbuck (category), CC BY-SA 3.0*
+> *Image: David P Howard, CC BY-SA 2.0*
 
 - [Railways](railways.md) — Steam locomotive railways, track construction, signaling, and freight/passenger operations.
 ![Road & Bridge Construction](../images/transport/transport_roads.jpg)
-> *Image: Calistemon, CC BY-SA 4.0*
+> *Image: Krzysztof Golik, CC BY-SA 4.0*
 
 - [Road & Bridge Construction](roads.md) — Road construction from dirt tracks to paved highways, bridge building, and route planning.
 ![Water Transport](../images/transport/transport_shipping.jpg)
-> *Image: John Cray, CC BY-SA 4.0*
+> *Image: Haoreima, CC BY 4.0*
 
 - [Water Transport](shipping.md) — Water transport: boats, barges, canals, and maritime shipping infrastructure.
 

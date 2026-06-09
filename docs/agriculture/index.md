@@ -9,7 +9,7 @@
 Capabilities in this domain:
 
 ![Soil Management & Composting](../images/agriculture/agriculture_soil-management.jpg)
-> *Image: SuSanA Secretariat, CC BY 2.0*
+> *Image: USDA NRCS Texas, Public domain*
 
 - **[Soil Management & Composting](soil-management.md)** — Composting, soil fertility, cover crops, biochar. Foundation of sustained agriculture.
 
@@ -18,13 +18,13 @@ Capabilities in this domain:
 
   - **[Vermiculture](soil-management-vermiculture.md)** — Worm composting for premium fertilizer.
 
-![Seed Saving & Selection](../images/agriculture/agriculture_seed-saving.jpg)
-> *Image: Griffith and Turner Co, Public domain*
+![Seed Saving & Selection](../images/agriculture/agriculture_seed-saving.png)
+> *Image: JamieF, CC BY-SA 4.0*
 
 - **[Seed Saving & Selection](seed-saving.md)** — Harvesting, storing, and selecting seeds for locally adapted crop varieties. The oldest biotechnology.
 
 ![Crop Rotation & Nutrient Cycling](../images/agriculture/agriculture_crop-rotation.jpg)
-> *Image: USDA NRCS South Dakota, Public domain*
+> *Image: Richard Webb, CC BY-SA 2.0*
 
 - **[Crop Rotation & Nutrient Cycling](crop-rotation.md)** — Planned crop sequences to break pest cycles, replenish soil nutrients, and sustain yields indefinitely.
 

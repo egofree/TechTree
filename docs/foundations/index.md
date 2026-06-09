@@ -2,7 +2,7 @@
 
 
 ![Old and new foundation constructions under Central Station Amsterdam](../images/foundations/foundations.jpg)
-> *Image: Fons Heijnsbroek from Amsterdam, Netherlands, CC0*
+> *Image: Davidbena, CC BY-SA 4.0*
 
 > *Old and new foundation constructions under Central Station Amsterdam*
 
@@ -27,5 +27,5 @@ Capabilities in this domain:
 
 [↑ Back to Tech Tree](../index.md)
 
-![foundations](../images/foundations/foundations.png)
+![foundations](../images/foundations/foundations.jpg)
 > *Image: Fons Heijnsbroek from Amsterdam, Netherlands, CC0*

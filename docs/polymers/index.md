@@ -11,11 +11,11 @@
 Capabilities in this domain:
 
 ![Composite Materials](../images/polymers/polymers_composites.jpg)
-> *Image: Andrew Hrechuk, CC BY 4.0*
+> *Image: 4ewip, CC BY-SA 4.0*
 
 - [Composite Materials](composites.md) — Fiberglass production (E-glass fiber from silica/boron batch, 5-25 μm filaments), hand layup, vacuum bagging, resin transfer molding, and filament winding.
 ![Rubber Production](../images/polymers/polymers_rubber.jpg)
-> *Image: George Philip and Son (Londres). Auteur du texte, Public domain*
+> *Image: Larrick, Don, Public domain*
 
 - [Rubber Production](rubber.md) — Natural and synthetic rubber production, vulcanization, and rubber product manufacturing.
 ![Natural Rubber & Vulcanization](../images/polymers/polymers_natural.png)
@@ -43,7 +43,7 @@ Capabilities in this domain:
 
 - [Elastomers in Semiconductor Equipment](rubber.semiconductor-apps.md) — Fluorinated and specialty elastomers for semiconductor seals, gaskets, and liners that withstand aggressive chemicals, elevated temperatures, and ultra-clean conditions.
 ![Thermoplastic Polymers](../images/polymers/polymers_thermoplastics.jpg)
-> *Image: Francesco Lambiase, CC BY-SA 4.0*
+> *Image: Jim.henderson, CC0*
 
 - [Thermoplastic Polymers](thermoplastics.md) — Polyethylene (LDPE/HDPE — films, containers, wire insulation), PVC (rigid pipe, flexible tubing, requires heat stabilizers), nylon (bearings, gears, engineering components), polystyrene (labware, insulation foam), and PTFE/Teflon (chemically inert, ultra-low friction, -200°C to +260°C, for seals and non-stick surfaces).
 ![Thermosetting Polymers](../images/polymers/polymers_thermosets.jpg)

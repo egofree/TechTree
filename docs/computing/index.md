@@ -19,7 +19,7 @@ Capabilities in this domain:
 
 - [Electronic Computing](electronic.md) — Vacuum tube and early transistor computing, stored-program architecture, and electronic data processing.
 ![Mechanical Calculation](../images/computing/computing_mechanical.jpg)
-> *Image: Wen-Hao Deng, You Lu, Rong-Zhen Liao, CC BY-SA 4.0*
+> *Image: US War Dept., Public domain*
 
 - [Mechanical Calculation](mechanical.md) — Manual and mechanical calculation aids: abacus, slide rules, nomograms, mathematical tables, Pascaline, stepped drum calculators.
 <!-- TODO: source image for Digital Logic -->

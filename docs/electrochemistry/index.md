@@ -21,8 +21,8 @@ Capabilities in this domain:
 > *Image: Matteo Bordiga, CC BY-SA 4.0*
 
 - [Anodizing](anodizing.md) — Electrochemical oxide growth on aluminum (Type II sulfuric acid, Type III hard anodizing) and titanium (voltage-controlled oxide thickness, color anodizing). Barrier layer formation kinetics, pore structure engineering, and sealing processes.
-![Electrochemical Surface Processes](../images/electrochemistry/electrochemistry_electrochemical-processes.png)
-> *Image: Zina Deretsky, National Science Foundation (NSF), User:KVDP, Public domain*
+![Electrochemical Surface Processes](../images/electrochemistry/electrochemistry_electrochemical-processes.webp)
+> *Image: Authors of the study: Elizabeth C. Hann, Sean Overa, Marcus Harland-Dunaway, Andrés F. Narvaez, Dang N. Le, Martha L. Orozco-Cárdenas, Feng Jiao &amp; Robert E. Jinkerson, CC BY 4.0*
 
 - [Electrochemical Surface Processes](electrochemical-processes.md) — Electropolishing for ultrapure surfaces, electroforming for precision microstructures and stampers, electroless plating (ENIG for PCBs, electroless copper for through-hole metallization). Process control, bath chemistry management, and waste treatment.
 

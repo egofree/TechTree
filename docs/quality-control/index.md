@@ -14,8 +14,8 @@ derivative work : DeeMusil (talk) - ControlChart cz.svg
 derivative work: Anerka (talk), CC BY-SA 3.0*
 
 - [Statistical Process Control](statistical-process-control.md) — Control charts (X-bar/R, p, c, u charts), process capability indices (Cpk/Ppk ≥ 1.33), Six Sigma methodology, Western Electric rules, and process monitoring for manufacturing stability.
-![Inspection & Sampling Plans](../images/quality-control/quality-control_inspection-sampling.png)
-> *Image: NeilP777, CC BY-SA 4.0*
+![Inspection & Sampling Plans](../images/quality-control/quality-control_inspection-sampling.jpg)
+> *Image: The Official CTBTO Photostream, CC BY 2.0*
 
 - [Inspection & Sampling Plans](inspection-sampling.md) — Incoming inspection, in-process inspection, final test, acceptance sampling (AQL, MIL-STD-105E), single/double/sequential sampling plans, and switch rules for inspection severity.
 ![Defect Analysis & Yield Modeling](../images/quality-control/quality-control_defect-analysis.jpg)

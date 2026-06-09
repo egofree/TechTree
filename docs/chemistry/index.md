@@ -10,8 +10,8 @@
 
 Capabilities in this domain:
 
-![Mineral Acid Production](../images/chemistry/chemistry_acids.jpg)
-> *Image: Carbamatesalts, CC BY-SA 4.0*
+![Mineral Acid Production](../images/chemistry/chemistry_acids.png)
+> *Image: Unknown authorUnknown author, CC BY-SA 4.0*
 
 - [Mineral Acid Production](acids.md) — Sulfuric acid (lead chamber process 65-70%, contact process 96-98%), nitric acid (from nitrates + H₂SO₄, later Ostwald process), hydrochloric acid (NaCl + H₂SO₄ or direct H₂ + Cl₂ synthesis), and hydrofluoric acid (CaF₂ + H₂SO₄, extremely hazardous).
 
@@ -26,7 +26,7 @@ Capabilities in this domain:
 - [Air Separation & Bulk Gas Production](air-separation.md) — Linde fractional distillation of liquid air producing nitrogen (99-99.99%), oxygen (95-99.5%), and argon (99-99.999%).
 
 ![Alkali Production](../images/chemistry/chemistry_alkalis.jpg)
-> *Image: Carbamatesalts, CC BY-SA 4.0*
+> *Image: 7Nene, CC BY-SA 4.0*
 
 - [Alkali Production](alkalis.md) — Leblanc process (first synthetic soda ash) and Solvay process (more efficient, later) for Na₂CO₃, lime-soda process and chlor-alkali electrolysis for NaOH.
 
@@ -40,8 +40,8 @@ Capabilities in this domain:
 
 - [Cement & Concrete](cement.md) — Portland cement from limestone + clay heated to 1450°C, ground with gypsum.
 
-![Distillation](../images/chemistry/chemistry_distillation.jpg)
-> *Image: Wikimedia Commons contributor, Public domain*
+![Distillation](../images/chemistry/chemistry_distillation.png)
+> *Image: Quantockgoblin, Public domain*
 
 - [Distillation](distillation.md) — Distillation columns (2-10 m, copper or steel, packed with ceramic Raschig rings), batch and continuous flow reactors, shell-and-tube heat exchangers, Portland cement production, and polymer feedstock chemistry.
 
@@ -50,8 +50,8 @@ Capabilities in this domain:
 
 - [Dopant & Etch Gases](dopant-etch-gases.md) — Dopant gases (PH₃, AsH₃, B₂H₆ — extremely toxic, lethal at ppm concentrations) and etch gases (CF₄, SF₆, Cl₂, F₂).
 
-![SEM Tech e-Methanol](../images/chemistry/chemistry_e-methanol.jpg)
-> *Image: Unknown author, Public domain*
+![SEM Tech e-Methanol](../images/chemistry/chemistry_e-methanol.png)
+> *Image: Unknown authorUnknown author, CC BY 4.0*
 
 - [SEM Tech e-Methanol](sem-tech-e-methanol.md) — power-to-liquids methanol synthesis
 
@@ -181,7 +181,7 @@ Capabilities in this domain:
 - [Adhesives & Specialty Coatings](adhesives-coatings.md) — Natural adhesives (hide glue, casein, starch paste, birch tar), synthetic adhesives (phenolic, epoxy, cyanoacrylate, silicone, UV-cure), semiconductor adhesives (EMC, die attach films), anodizing, and galvanizing.
 
 ![Acids & Bases (Comprehensive Reference)](../images/chemistry/chemistry_acids-bases.jpg)
-> *Image: LearnersCloud, CC BY-SA 3.0*
+> *Image: FrozenMan (talk) (Uploads), CC0*
 
 - [Acids & Bases (Comprehensive Reference)](acids-bases.md) — Cross-referenced guide to sulfuric, HCl, HNO₃, HF, phosphoric acid, NaOH, Na₂CO₃ production processes, safety, and bootstrap sequencing.
 
@@ -211,7 +211,7 @@ Capabilities in this domain:
 - [Heat Exchanger](heat-exchanger.md) — Shell-and-tube, plate, and coil heat exchangers for thermal energy transfer between process streams.
 
 ![Electrolysis Cell](../images/chemistry/chemistry_electrolysis-cell.png)
-> *Image: Zina Deretsky, National Science Foundation, Public domain*
+> *Image: Mahdieh.keshmiri, CC BY-SA 4.0*
 
 - [Electrolysis Cell](electrolysis-cell.md) — Electrolytic cells for chlor-alkali production, water splitting, metal refining, and electrochemical synthesis.
 
@@ -221,7 +221,7 @@ Capabilities in this domain:
 - [Filter Press](filter-press.md) — Plate-and-frame filter presses for solid-liquid separation in chemical processing and wastewater treatment.
 
 ![Centrifuge](../images/chemistry/chemistry_centrifuge.jpg)
-> *Image: Ivangiesen, CC0*
+> *Image: Bausch &amp; Lomb Optical Company, Public domain*
 
 - [Centrifuge](centrifuge.md) — Centrifugal separation equipment for liquid-liquid and solid-liquid separation in chemical and biological processing.
 

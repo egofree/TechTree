@@ -1,6 +1,6 @@
 # Petroleum Extraction & Refining
 
-![Us petroleum and crude oil](../images/petroleum/petroleum_hero.webp)
+![Us petroleum and crude oil](../images/petroleum/petroleum_hero.jpg)
 
 > *Us petroleum and crude oil*
 

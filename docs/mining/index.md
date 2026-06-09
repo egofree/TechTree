@@ -19,11 +19,11 @@ Capabilities in this domain:
 
 - [Black Powder Explosives](black-powder.md) — Gunpowder manufacture and blasting techniques for mining operations.
 ![Ore Processing](../images/mining/mining_processing.jpg)
-> *Image: Ashley Dace, CC BY-SA 2.0*
+> *Image: Unknown authorUnknown author, CC BY-SA 4.0*
 
 - [Ore Processing](processing.md) — Ore crushing, grinding, gravity separation, and concentration to produce marketable ore products.
 ![Prospecting & Surveying](../images/mining/mining_prospecting.jpg)
-> *Image: BLM Alaska, Public domain*
+> *Image: Gary Todd from Xinzheng, China, CC0*
 
 - [Prospecting & Surveying](prospecting.md) — Geological survey, ore body identification, and deposit evaluation techniques.
 ![Drilling](../images/mining/mining_drilling.png)

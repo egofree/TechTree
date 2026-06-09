@@ -8,8 +8,8 @@
 
 Capabilities in this domain:
 
-![Nanometer Positioning](../images/precision-motion/precision-motion_nanometer-positioning.png)
-> *Image: Seok-Won Kang, Joe Fragala, Su-Ho Kim and Debjyoti Banerjee, CC BY 4.0*
+![Nanometer Positioning](../images/precision-motion/precision-motion_nanometer-positioning.jpg)
+> *Image: National Institute of Standards and Technology, Public domain*
 
 - [Nanometer Positioning](nanometer-positioning.md) — Sub-micron positioning systems: piezoelectric stages (0.01 nm resolution), air bearing slides (0.01 μm straightness), and linear motor drives. Enables the actuation layer for semiconductor lithography, inspection, and metrology equipment.
 <!-- TODO: source image for Wafer Stages & Scanner Systems -->

@@ -2,7 +2,7 @@
 
 
 ![Traditional weaving loom](../images/textiles/textiles.jpg)
-> *Image: Ministerio de Cultura de la Nación, CC BY-SA 2.0*
+> *Image: Vyacheslav Argenberg, CC BY 4.0*
 
 > *Traditional loom weaving — Conversatorio Las Manos que Piensan (Textiles)*
 
@@ -11,7 +11,7 @@
 Capabilities in this domain:
 
 ![Dyeing](../images/textiles/textiles_dyeing.jpg)
-> *Image: Matthew T Rader, CC BY-SA 4.0*
+> *Image: Roued, CC BY-SA 2.0*
 
 - [Dyeing](dyeing.md) — Natural and synthetic dye preparation and application to textiles.
 ![Fiber Preparation](../images/textiles/textiles_fibers.jpg)
@@ -23,7 +23,7 @@ Capabilities in this domain:
 
 - [Rope & Cordage](rope-making.md) — Rope manufacture from natural fibers via 3-strand twist construction for construction, sailing, and mechanical handling.
 ![Spinning](../images/textiles/textiles_spinning.jpg)
-> *Image: Gurnoor ghuman, CC BY-SA 4.0*
+> *Image: Barker, A. F. (Aldred Farrer), b. 1868; Gardner, Walter Myers 1862- [from old catalog]; Snow, R. [from old catalog]; Cook, William H. [from old catalog]; Bradbury, Fred. [from old catalog], Public domain*
 
 - [Spinning](spinning.md) — Drop spindle and treadle wheel spinning of fibers into yarn and thread.
 ![Weaving](../images/textiles/textiles_weaving.jpg)
@@ -51,5 +51,5 @@ Capabilities in this domain:
 - [Power Loom](power-loom.md) — Water and steam-powered looms for mechanized cloth weaving at industrial scale.
 [↑ Back to Tech Tree](../index.md)
 
-![textiles](../images/textiles/textiles.png)
+![textiles](../images/textiles/textiles.jpg)
 > *Image: Ministerio de Cultura de la Nación, CC BY-SA 2.0*

@@ -16,7 +16,7 @@ Capabilities in this domain:
 - [Industrial Buildings & Heavy Foundations](industrial-buildings.md) — Steel-frame and reinforced concrete factory buildings, machine tool foundations, vibration isolation, crane runways, and industrial flooring for heavy industry.
 
 ![Concrete Mixer](../images/construction/construction_concrete-mixer.jpg)
-> *Image: Queensland State Archives, Public domain*
+> *Image: Huangdan2060, CC BY 3.0*
 
 - [Concrete Mixer](concrete-mixer.md) — Batch and continuous concrete mixing equipment for producing uniform concrete on construction sites.
 ![Hoist & Winch](../images/construction/construction_hoist-winch.jpg)
@@ -24,7 +24,7 @@ Capabilities in this domain:
 
 - [Hoist & Winch](hoist-winch.md) — Lifting equipment: hand-operated and powered hoists, winches, and chain blocks for construction material handling.
 ![Crane](../images/construction/construction_crane.jpg)
-> *Image: Cheers. Trance addict - Armin van Buuren - Oceanlab, Public domain*
+> *Image: Kurt Kaiser, CC0*
 
 - [Crane](crane.md) — Construction cranes (derrick, jib, gantry, tower) for heavy lifting and placement on building sites.
 [↑ Back to Tech Tree](../index.md)

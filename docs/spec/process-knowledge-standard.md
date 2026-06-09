@@ -5,7 +5,7 @@
 **Date:** 2026-05-27
 **URI:** `https://egofree.github.io/TechTree/spec/process-knowledge-standard/v1.0`
 
-> Formal specification for representing process knowledge as a directed acyclic graph of industrial capabilities, their material flows, and the dependencies between them. This document IS the standard. The TechTree data files (`nodes.json`, `edges.json`, `context.jsonld`) are its reference implementation.
+> Formal specification for representing process knowledge as a directed acyclic graph of industrial capabilities, their material flows, and the dependencies between them. This document IS the standard. The TechTree data files — per-entity `.jsonld` files in `data/entities/{domain}/`, individual edges in `data/entities/_edges/`, and the shared `data/context.jsonld` — are its reference implementation.
 
 ---
 
@@ -96,33 +96,20 @@ A conforming dataset consists of:
 
 ```
 data/
-  context.jsonld          # JSON-LD context defining all terms
-  nodes.json              # All entity records (Domain, Capability, Process, Product)
-  edges.json              # All dependency records (Dependency entities)
-```
-
-### 3.2 Per-Entity File Layout (Future)
-
-The standard anticipates a per-entity file layout for larger datasets:
-
-```
-data/
-  context.jsonld
+  context.jsonld                  # JSON-LD @context defining all term → IRI mappings
+  schema/                         # JSON Schema files for validation
   entities/
-    foundations.jsonld             # Domain entity
-    metals.jsonld                  # Domain entity
-    metals/
-      iron-steel.jsonld            # Capability entity
-      copper-bronze.jsonld         # Capability entity
+    {domain}/                     # Per-domain entity .jsonld files
+      {id}.jsonld                 # Capability and process entities
+    _edges/                       # Dependency edges
+      {from}__{to}.jsonld         # One file per edge
   products/
-    wrought-iron.jsonld            # Product entity
-    steel.jsonld                   # Product entity
-    copper.jsonld                  # Product entity
+    {id}.jsonld                   # Product/material entities
 ```
+
+### 3.2 Per-Entity File Layout
 
 Each file contains a single JSON-LD entity. The filename matches the final segment of the entity ID. Directory nesting matches the dotted hierarchy.
-
-The monolithic `nodes.json` / `edges.json` format is the current reference implementation. Per-entity files are a valid alternative serialization that preserves all semantics.
 
 ### 3.3 Naming Conventions
 

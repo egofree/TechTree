@@ -9,11 +9,11 @@ This project documents the complete dependency chain from fire and stone tools t
 | Metric | Count |
 |--------|-------|
 | Technology domains | 43 |
-| Capability nodes | 334 |
-| Dependency edges | 707 |
-| Content articles | 308 |
-| Mermaid diagrams | 44 |
-| D2 diagrams | 44 |
+| Capability nodes | 441 |
+| Dependency edges | 961 |
+| Content articles | 580 |
+| Mermaid diagrams | 59 |
+| D2 diagrams | 59 |
 | Glossary terms | 11,966 |
 
 ## Tech Tree Overview
@@ -130,13 +130,13 @@ graph TB
 
 - [Overview & Introduction](docs/index.md)
 - **Core Path** — stone to GPU:
-  - [Foundations](docs/foundations/) · [Metals](docs/metals/) · [Mining](docs/mining/) · [Energy](docs/energy/) · [Machine Tools](docs/machine-tools/) · [Chemistry](docs/chemistry/) · [Silicon](docs/silicon/) · [Photolithography](docs/photolithography/) · [VLSI Scaling](docs/vlsi-scaling/) · [Computing](docs/computing/) · [Electronics](docs/electronics/)
+  - [Foundations](docs/foundations/) · [Mining](docs/mining/) · [Energy](docs/energy/) · [Metals](docs/metals/) · [Machine Tools](docs/machine-tools/) · [Chemistry](docs/chemistry/) · [Silicon](docs/silicon/) · [Photolithography](docs/photolithography/) · [Electronics](docs/electronics/) · [Computing](docs/computing/) · [VLSI Scaling](docs/vlsi-scaling/) · [Software Bootstrapping](docs/software-bootstrapping/)
 - **Materials**:
   - [Ceramics](docs/ceramics/) · [Glass](docs/glass/) · [Polymers](docs/polymers/) · [Textiles](docs/textiles/) · [Animals](docs/animals/) · [Plants](docs/plants/) · [Petroleum](docs/petroleum/)
 - **Process & Precision**:
   - [Vacuum Technology](docs/vacuum/) · [Cryogenics](docs/cryogenics/) · [Cleanrooms](docs/cleanrooms/) · [Ultra-Pure Materials](docs/ultra-pure/) · [Precision Motion](docs/precision-motion/) · [Optics](docs/optics/) · [Measurement](docs/measurement/) · [Quality Control](docs/quality-control/) · [Electrochemistry](docs/electrochemistry/)
 - **Infrastructure & Safety**:
-  - [Construction](docs/construction/) · [Gas Handling](docs/gas-handling/) · [Water](docs/water/) · [Health](docs/health/) · [EHS](docs/ehs/) · [Automation & Robotics](docs/automation/) · [Mathematics](docs/mathematics/) · [Knowledge](docs/knowledge/)
+  - [Construction](docs/construction/) · [Gas Handling](docs/gas-handling/) · [Water](docs/water/) · [Health](docs/health/) · [EHS](docs/ehs/) · [Automation & Robotics](docs/automation/) · [Mathematics](docs/mathematics/) · [Knowledge](docs/knowledge/) · [Economics & Organization](docs/economics-organization/)
 - **Transport & Communication**:
   - [Transport](docs/transport/) · [Marine](docs/marine/) · [Telecommunications](docs/telecom/)
 - **Civilization Sustaining**:
@@ -176,8 +176,8 @@ tech-tree-bootstrap/
 │   ├── images/         # Wikimedia-sourced per-domain images
 │   └── supporting/     # Schema spec, checklist, resources
 ├── data/               # Structured data (JSON-LD)
-│   ├── entities/       # 1,041 capability node files (JSON-LD)
-│   ├── products/       # 924 product/material files (JSON-LD)
+│   ├── entities/       # 441 entity files (JSON-LD)
+│   ├── products/       # 1,196 product/material files (JSON-LD)
 │   ├── schema/         # JSON Schema validation files
 │   ├── glossary.json   # 11,966 glossary terms with relevance ratings
 │   ├── plants.json     # Plant species catalog

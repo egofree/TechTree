@@ -11,7 +11,7 @@ help: ## Show this help message
 
 all: validate diagrams build validate-site ## Run full pipeline: validate → diagrams → build → validate-site
 
-validate: ## Validate data integrity (16 checks)
+validate: ## Validate data integrity (19 checks)
 	python3 scripts/validate.py
 
 diagrams: ## Generate Mermaid diagrams from data

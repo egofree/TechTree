@@ -1,12 +1,7 @@
 # Foundations
 
-
-![Old and new foundation constructions under Central Station Amsterdam](../images/foundations/foundations.jpg)
-> *Image: Davidbena, CC BY-SA 4.0*
-
-> *Old and new foundation constructions under Central Station Amsterdam*
-
-> *Image: Fons Heijnsbroek, CC0*
+![Fire-making techniques — the foundational capability](../images/foundations/foundations_fire.jpg)
+> *Image: Walter Hough, Public domain*
 
 Capabilities in this domain:
 
@@ -26,6 +21,3 @@ Capabilities in this domain:
 - [Water Procurement](water-procurement.md) — Water finding, rainwater harvesting, spring development, and water storage.
 
 [↑ Back to Tech Tree](../index.md)
-
-![foundations](../images/foundations/foundations.jpg)
-> *Image: Fons Heijnsbroek from Amsterdam, Netherlands, CC0*

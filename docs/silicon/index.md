@@ -36,6 +36,3 @@ Capabilities in this domain:
 - [Wafering](wafering.md) — Ingot preparation, wire saw and ID blade slicing, lapping, CMP polishing, RCA cleaning, epitaxial and SOI wafer production, wafer thinning, gettering, wafer-level metrology, die preparation, and yield economics.
 
 [↑ Back to Tech Tree](../index.md)
-
-![silicon](../images/silicon/silicon.jpg)
-> *Image: Radiotrefoil, CC BY-SA 4.0*

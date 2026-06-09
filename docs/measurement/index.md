@@ -50,6 +50,3 @@ Capabilities in this domain:
 - [Advanced & Specialty Thermostats](thermostat-advanced.md) — Shape memory alloy actuators, quartz crystal sensors, and infrared pyrometers for calibration-grade and non-contact measurement.
 
 [↑ Back to Tech Tree](../index.md)
-
-![measurement](../images/measurement/measurement.png)
-> *Image: Sobarwiki, Public domain*

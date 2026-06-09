@@ -51,6 +51,3 @@ Original remastering by Antonu, CC BY-SA 3.0*
 - [Nutrition & Dietary Planning](nutrition.md) — Macronutrient and micronutrient requirements, deficiency disease prevention (scurvy, beriberi, rickets, anemia), food composition analysis, and workforce dietary planning.
 
 [↑ Back to Tech Tree](../index.md)
-
-![health](../images/health/health.jpg)
-> *Image: The government of the State of Vietnam., Public domain*

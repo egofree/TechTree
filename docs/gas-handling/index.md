@@ -37,6 +37,3 @@ Capabilities in this domain:
 - [Industrial Process Valves](process-valves.md) — Gate, globe, ball, butterfly, check, and control valves for chemical, steam, gas, and high-temperature/high-pressure service.
 
 [↑ Back to Tech Tree](../index.md)
-
-![gas handling](../images/gas-handling/gas-handling.jpg)
-> *Image: U.S. Navy photo by Mass Communication Specialist Seaman Benjamin Jernigan, Public domain*

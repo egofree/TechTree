@@ -50,6 +50,3 @@ Capabilities in this domain:
 
 - [Power Loom](power-loom.md) — Water and steam-powered looms for mechanized cloth weaving at industrial scale.
 [↑ Back to Tech Tree](../index.md)
-
-![textiles](../images/textiles/textiles.jpg)
-> *Image: Ministerio de Cultura de la Nación, CC BY-SA 2.0*

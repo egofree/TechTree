@@ -1,5 +1,11 @@
 # Mathematics & Formal Sciences
 
+![Mathematical case, William & Samuel Jones, London, before 1810 - Museu da Ciência da Universidade de Coimbra - University of Coimbra - Coimbra, Portugal - DSC09128](../images/mathematics/mathematics_hero.jpg)
+
+> *Exhibit in the Museu da Ciência da Universidade de Coimbra - University of Coimbra - Coimbra, Portugal.*
+
+> *Image: Daderot, CC0*
+
 Capabilities in this domain:
 
 - [Core Mathematics](core-mathematics.md) — Arithmetic, algebra, geometry, trigonometry, and number systems: the mathematical foundations for all engineering calculation and measurement.

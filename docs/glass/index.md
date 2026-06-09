@@ -1,11 +1,11 @@
 # Glass
 
 
-![Glass Beach Fort Bragg 2](../images/glass/glass.jpg)
+![Glassblowing artisan](../images/glass/glass.jpg)
 
-> *The Glass beach in Fort Bragg, California.*
+> *Artisan glassblowing*
 
-> *Image: Jef Poskanzer, CC BY 2.0*
+> *Image: istolethetv, CC BY 2.0*
 
 Capabilities in this domain:
 

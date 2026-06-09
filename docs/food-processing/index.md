@@ -1,5 +1,11 @@
 # Food Processing
 
+![Food processing plant - geograph.org.uk - 2831684](../images/food-processing/food-processing_hero.jpg)
+
+> *Food processing plant*
+
+> *Image: Hugh Venables, CC BY-SA 2.0*
+
 Capabilities in this domain:
 
 - [Grain Milling](milling.md) — Stone querns through water/wind-powered millstones to industrial roller milling. Flour is the foundation of workforce nutrition.

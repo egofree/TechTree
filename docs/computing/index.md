@@ -1,11 +1,11 @@
 # Computing & Automation
 
 
-![Introduction to malayalam computing by santhosh thottingal](../images/computing/computing.jpg)
+![Wartime photo of Colossus 10](../images/computing/computing.png)
 
-> *kerala university malayalam computing workshop*
+> *Wartime photo of Colossus 10*
 
-> *Image: Indurema, CC BY-SA 4.0*
+> *Image: Good, Jack; Michie, Donald; Timms, Geoffrey, Public domain*
 
 Capabilities in this domain:
 

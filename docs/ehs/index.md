@@ -1,5 +1,11 @@
 # Environmental Health & Safety
 
+![AVONDALE SHIPYARD WORKER WEARS SPECIAL EAR MUFFS FOR PROTECTION FROM THE HEAVY LEVEL OF INDUSTRIAL NOISE POLLUTION](../images/ehs/ehs_hero.jpg)
+
+> *A shipyard worker wearing ear protection against industrial noise pollution, demonstrating personal protective equipment (PPE) in a heavy industrial environment.*
+
+> *Image: John Messina, Public domain*
+
 Capabilities in this domain:
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — Semiconductor process chemical hazards, TLV/IDLH limits, NFPA diamond ratings, hydride gas safety, and acid handling protocols.

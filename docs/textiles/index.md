@@ -1,11 +1,11 @@
 # Textiles, Fiber & Cordage
 
 
-![Microstructure of Cotton Fibers 15% 10](../images/textiles/textiles.jpg)
+![Traditional weaving loom](../images/textiles/textiles.jpg)
 
-> *Twisted, interwoven cotton fibers at the micron scale with variable cellulose thickness producing delicate light interference. Captured at Satbayev University, Department of Chemical Processes and Industrial Ecology.*
+> *Traditional loom weaving — Conversatorio Las Manos que Piensan (Textiles)*
 
-> *Image: Aiym Maksatkyzy, CC BY-SA 4.0*
+> *Image: Ministerio de Cultura de la Nación, CC BY-SA 2.0*
 
 Capabilities in this domain:
 

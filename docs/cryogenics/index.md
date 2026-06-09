@@ -1,5 +1,11 @@
 # Cryogenics
 
+![Small laboratory Dewar 1](../images/cryogenics/cryogenics_hero.jpg)
+
+> *A small dewar for liquid nitrogen for lab use*
+
+> *Image: Nadina Wiórkiewicz (Nadine90), CC BY-SA 3.0*
+
 > **Node ID**: cryogenics
 > **Organizing Axis**: Process Chain — capabilities ordered by increasing depth of cooling: refrigeration fundamentals → cryogenic air separation → gas liquefaction & storage
 

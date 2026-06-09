@@ -1,9 +1,9 @@
 # Silicon
 
 
-![Unmetallised Silicon Heterojunction solar cell precursor](../images/silicon/silicon.jpg)
+![Multicrystalline silicon wafer with thin film iridescence](../images/silicon/silicon.jpg)
 
-> *A Silicon Heterojunction solar cell precursor composed of a M6 sized monocrystalline silicon wafer sputtered with amorphous silicon to form the passivated heterojunction, and indium tin oxide (approximately 80nm) to form the anti-reflection coating and enhance lateral conduction, which is respons...*
+> *A multicrystalline silicon wafer with thin film iridescence from silicon nitride coating*
 
 > *Image: Radiotrefoil, CC BY-SA 4.0*
 

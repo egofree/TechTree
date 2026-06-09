@@ -4,9 +4,11 @@ Plants are the primary biological resource for bootstrapping civilization: they 
 
 ## Subcategories
 
-![Stamp of Brazil - 1982 - Colnect 261460 - Natural Economy Resources - Castor oil plant](../images/plants/plants.jpg)
+![Lalbagh Botanical Garden in Bangalore](../images/plants/plants.jpg)
 
-> *In Brazil, castor oil (locally known as mamona oil) is a raw material for some varieties of biodiesel.  ·  Ricinus communis, the castor bean or castor oil plant, is a species of perennial flowering plant.*
+> *Lalbagh Botanical garden in Bengaluru, Karnataka*
+
+> *Image: Aren Noronha, CC BY-SA 4.0*
 
 > *Image: Post of Brazil, Public domain*
 

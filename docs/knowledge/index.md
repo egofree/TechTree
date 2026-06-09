@@ -1,5 +1,11 @@
 # Knowledge Preservation & Education
 
+![Printing Press Victorian Illustration 1880](../images/knowledge/knowledge.jpg)
+
+> *Printing Press Victorian Illustration from National Encyclopaedia, 1880*
+
+> *Image: William Mackenzie, Public domain*
+
 Capabilities in this domain:
 
 - [Education & Training](education.md) — Apprenticeships, trade schools, universities, and systematic knowledge transmission.

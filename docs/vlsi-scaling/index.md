@@ -1,11 +1,11 @@
 # VLSI Scaling & Advanced Semiconductor
 
 
-![Supermicro Green Computing Park](../images/vlsi-scaling/vlsi-scaling.jpg)
+![Electronics PCB circuit board microphoto](../images/vlsi-scaling/vlsi-scaling.jpg)
 
-> *Supermicro Green Computing Park, San Jose, California, USA*
+> *Microphoto of electronics circuit board*
 
-> *Image: SMCI, CC BY-SA 4.0*
+> *Image: Jan Helebrant, CC0*
 
 Capabilities in this domain:
 

@@ -1,5 +1,11 @@
 # Ultra-Pure Materials
 
+![CNMS clean room (9068814602)](../images/ultra-pure/ultra-pure_hero.jpg)
+
+> *Phil Evans, a research scientist in the Quantum Information Science group, rinses a silicon-on-insulator wafer with isopropyl alcohol following electron beam lithography at the Center for Nanophase Materials Sciences. Dr. Evans is fabricating quantum photonic circuits – consisting of waveguides a...*
+
+> *Image: Oak Ridge National Laboratory, CC BY 2.0*
+
 Capabilities in this domain:
 
 - [Ultra-Pure Water (UPW)](upw.md) — Multi-stage purification to 18.2 MΩ·cm resistivity: RO, electrodeionization, mixed-bed ion exchange, UV oxidation, sub-micron filtration, cleanroom distribution

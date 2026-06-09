@@ -1,5 +1,11 @@
 # Electrochemistry & Plating
 
+![Galvanic Degradation Mechanism of Polymer](../images/electrochemistry/electrochemistry_hero.jpg)
+
+> *This illustration depicts mechanism of degradation of thermoset polymer (plastic) by galvanic action first published in the literature in 1990. When carbon fiber reinforced polymer (CFRP) is in contact with an active metal such as aluminum or iron, and in contact with salt water, a galvanic circu...*
+
+> *Image: Geometric777, CC0*
+
 > **Node ID**: electrochemistry
 > **Domain**: Electrochemistry & Plating
 > **Timeline**: Years 30-80

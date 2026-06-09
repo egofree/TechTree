@@ -1,5 +1,11 @@
 # Marine & Naval Engineering
 
+![Parkol Marine shipyard Whitby](../images/marine/marine_hero.jpg)
+
+> *Parkol Marine shipyard Whitby - Parkol Marine are an engineering and ship (boat) building company based in Whitby, North Yorkshire. They have a dry dock and the fabrication hangar is the structure with white cladding on it. The crane lowers new build ships into the river.*
+
+> *Image: The joy of all things, CC BY-SA 4.0*
+
 > **Node ID**: marine
 > **Domain**: Marine & Naval Engineering
 > **Timeline**: Years 0-50+

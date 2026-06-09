@@ -1,5 +1,11 @@
 # Economics & Organization
 
+![Ming Gold Coins (14153035681)](../images/economics-organization/economics-organization_hero.jpg)
+
+> *Manchu Gallery, Liaoning Museum, Shenyang. Complete indexed photo collection at WorldHistoryPics.com.*
+
+> *Image: Gary Todd from Xinzheng, China, CC0*
+
 Capabilities in this domain:
 
 - [Division of Labor](division-of-labor.md) — Specialization of workers into distinct trades and coordination of their interdependent tasks. Emerges from food surplus: when not everyone must farm, specialists can focus on metallurgy, pottery, construction, or tool-making. Foundation of all complex production.

@@ -1,11 +1,11 @@
 # Chemistry
 
 
-![Chemistry Solutions , Chemistry Department, Aligarh Muslim University](../images/chemistry/chemistry.jpg)
+![A Scientist in a chemistry laboratory](../images/chemistry/chemistry.jpg)
 
-> *Beauty of chemistry and colors*
+> *A Scientist in a chemistry laboratory, in Awka, Anambra State, Nigeria*
 
-> *Image: Khanahmedsam, CC BY-SA 4.0*
+> *Image: Frankincense Diala, CC0*
 
 Capabilities in this domain:
 

@@ -1,5 +1,11 @@
 # Petroleum Extraction & Refining
 
+![Us petroleum and crude oil](../images/petroleum/petroleum_hero.webp)
+
+> *Us petroleum and crude oil*
+
+> *Image: Wikideas1, CC0*
+
 Capabilities in this domain:
 
 - [Crude Oil Extraction](extraction.md) — Surface seeps, cable-tool percussion drilling, rotary drilling with mud circulation, well completion and production systems, and enhanced oil recovery techniques.

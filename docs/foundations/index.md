@@ -1,11 +1,11 @@
 # Foundations
 
 
-![Mock foundations for House and Apartment](../images/foundations/foundations.jpg)
+![Old and new foundation constructions under Central Station Amsterdam](../images/foundations/foundations.jpg)
 
-> *Foundations of buildings*
+> *Old and new foundation constructions under Central Station Amsterdam*
 
-> *Image: http://en.wikipedia.org/wiki/User:Blacklemon67, Public domain*
+> *Image: Fons Heijnsbroek, CC0*
 
 Capabilities in this domain:
 

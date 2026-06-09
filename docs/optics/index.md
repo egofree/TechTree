@@ -1,11 +1,11 @@
 # Optics
 
 
-![Google Glass Explorer Optics Schematic](../images/optics/optics.jpg)
+![Illustration showing two prisms](../images/optics/optics.jpg)
 
-> *Cross section of an eyepiece (200), for use in a head mounted display (HMD) with components: 120 - viewer's eye 200 - heads-up display eyepiece including: 201 - ambient scene side of eyepiece 202 - eyeward side of eyepiece 203 - forward light propagation path 204 - reverse light propagation path ...*
+> *Illustration showing two prisms — diagrams on perspective and optics*
 
-> *Image: Gupta, Anurag.; Amirparviz, Babak; Sharma, Sumit; Raffle, Hayes S.; Wang, Chia-Jean, Public domain*
+> *Image: Wellcome Collection, CC BY 4.0*
 
 Capabilities in this domain:
 

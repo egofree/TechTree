@@ -1,11 +1,11 @@
 # Polymers & Composites
 
 
-![Ashland Composite Polymers, Los Angeles](../images/polymers/polymers.jpg)
+![The Cast Whale Project polymer sculpture](../images/polymers/polymers.jpg)
 
-> *6608 East 26th Street Los Angeles 90040*
+> *Detail of The Cast Whale Project — a polymer sculpture by Gil Shachar*
 
-> *Image: Downtowngal, CC BY-SA 3.0*
+> *Image: Dietmar Rabich, CC BY-SA 4.0*
 
 Capabilities in this domain:
 

@@ -1,11 +1,11 @@
 # Photolithography & IC Fabrication
 
 
-![Precision-Recall tradeoff](../images/photolithography/photolithography.jpg)
+![University of Minnesota Nanofabrication Center - Bay 2, Lithography](../images/photolithography/photolithography.jpg)
 
-> *Fundamental trade-off between precision and recall.*
+> *Clean room lithography bay at the University of Minnesota Nanofabrication Center*
 
-> *Image: Pouria, CC BY-SA 4.0*
+> *Image: Runner1928, CC BY-SA 4.0*
 
 Capabilities in this domain:
 

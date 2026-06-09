@@ -1,5 +1,11 @@
 # Precision Motion Control
 
+![Micrometer (screw gauge)](../images/precision-motion/precision-motion_hero.jpg)
+
+> *Screw Gauge*
+
+> *Image: Riaz, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Nanometer Positioning](nanometer-positioning.md) — Sub-micron positioning systems: piezoelectric stages (0.01 nm resolution), air bearing slides (0.01 μm straightness), and linear motor drives. Enables the actuation layer for semiconductor lithography, inspection, and metrology equipment.

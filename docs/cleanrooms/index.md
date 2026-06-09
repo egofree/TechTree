@@ -1,5 +1,13 @@
 # Clean Room Technology
 
+![Computer Memory Hard Drive Disk HDD Storage Technology](../images/cleanrooms/cleanrooms_hero.jpg)
+
+> *Free picture about the big hard drive disk that is open from the comp of digital technology. This historical picture was created for you by  the super conductive friend epSos.de  and it  can be used for free, if you link epSos.de as the original author of the image.
+
+A hard disk drive ( english h...*
+
+> *Image: epSos.de, CC BY 2.0*
+
 Capabilities in this domain:
 
 ![HEPA/ULPA Filtration & Laminar Flow](../images/cleanrooms/cleanrooms_hepa-ulpa-filtration.webp)

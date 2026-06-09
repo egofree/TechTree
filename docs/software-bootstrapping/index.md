@@ -1,5 +1,11 @@
 # Software Bootstrapping
 
+![A computer operator works at an IBM 4381 four-window work station in a computer room at the Arnold Engineering Development Center, where numerous mainframe and super computers are used to obtain and manage data](../images/software-bootstrapping/software-bootstrapping_hero.jpg)
+
+> *The original finding aid described this photograph as: Base: Arnold Air Force Base State: Tennessee (TN) Country: United States Of America (USA) Scene Camera Operator: SMSGT. Robert Wickley Release Status: Released to Public*
+
+> *Image: Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994, Public domain*
+
 Capabilities in this domain:
 
 - [Machine Code & Front-Panel Programming](machine-code.md) — Hand-entered binary instructions via front-panel switches, hex keyboards, and paper tape bootstrap loaders.

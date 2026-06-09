@@ -1,11 +1,11 @@
 # Mining Engineering & Extractive Metallurgy
 
 
-![Stone and corrugated metal outbuilding - geograph.org.uk - 3635513](../images/mining/mining.jpg)
+![Burro Schmidt Tunnel south entrance](../images/mining/mining.jpg)
 
-> *Stone and corrugated metal outbuilding*
+> *The historic Burro Schmidt Tunnel through the granitic El Paso Mountains*
 
-> *Image: Mat Tuck, CC BY-SA 2.0*
+> *Image: Kurtis2014, CC BY-SA 3.0*
 
 Capabilities in this domain:
 

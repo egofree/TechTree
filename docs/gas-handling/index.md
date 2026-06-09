@@ -1,11 +1,11 @@
 # Gas Handling
 
 
-![3 way tap vacuum gas manifold](../images/gas-handling/gas-handling.jpg)
+![Aviation Boatswain's Mate handling operations](../images/gas-handling/gas-handling.jpg)
 
-> *vacuum gas manifold 3 way tap  1:  Inert gas in 2:  Inert gas out 3:  Vacuum 4:  Reaction line 5:  Double oblique stopcock (i.e. a glass tap with 2 separate parallel 'channels/lines' that run diagonal to the axis of the tap.)*
+> *US Navy Aviation Boatswain's Mate handling operations aboard USS Ronald Reagan*
 
-> *Image: Quantockgoblin, Public domain*
+> *Image: U.S. Navy, Public domain*
 
 Capabilities in this domain:
 

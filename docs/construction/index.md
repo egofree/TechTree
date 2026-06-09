@@ -1,5 +1,11 @@
 # Construction & Structural Engineering
 
+![Building construction crane Moira Close Broadwater Farm Haringey 2025 04](../images/construction/construction_hero.jpg)
+
+> *Building construction crane with men at work, at Moira Close, in the Borough of Haringey in London, England, in April 2025.Wikimedia (2025) makes it difficult to immediately view photo groups related to this image. To see its most relevant allied photos, click  on Tottenham, this uploader's Build...*
+
+> *Image: Acabashi, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Building Materials & Methods](building-materials.md) — Timber framing and joinery (mortise-tenon, dovetail, scarf joints), stone and masonry construction, roofing systems, waterproofing, and scaffolding/hoisting systems.

@@ -1,5 +1,11 @@
 # Vacuum Technology
 
+![Electric Propulsion Laboratory Vacuum Chamber (GRC-1964-C-70481)](../images/vacuum/vacuum_hero.jpg)
+
+> *Engineer Paul Reader and his colleagues take environmental measurements during testing of a 20-inch diameter ion engine in a vacuum tank at the Electric Propulsion Laboratory (EPL). Researchers at the Lewis Research Center were investigating the use of a permanent-magnet circuit to create the mag...*
+
+> *Image: NASA Glenn Research Center, Public domain*
+
 > **Node ID**: vacuum
 > **Timeline**: Years 25-40
 > **Organizing Axis**: Functional — capabilities grouped by vacuum system function (pumping, chamber design, measurement/diagnosis)

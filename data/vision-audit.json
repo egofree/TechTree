@@ -1,11 +1,361 @@
 {
-  "audit_date": "2026-06-08",
-  "note": "Check 9 passed with zero flagged images. No vision verification needed.",
-  "audited": {},
-  "summary": {
-    "total_flagged": 0,
-    "keep": 0,
-    "replace": 0,
-    "needs_better_image": 0
-  }
+  "timestamp": "2026-06-08T22:26:12",
+  "total": 21,
+  "flagged_count": 18,
+  "results": {
+    "ceramics": {
+      "file": "ceramics.jpg",
+      "relevance": 4,
+      "quality": 5,
+      "verdict": "replace",
+      "reason": "Shows stacked flat panels in a plain warehouse that could be ceramic tiles or slabs, but the subject is ambiguous and reads as generic industrial sheet goods rather than ceramics. Visual impact is low for a chapter opener\u2014no kiln, pottery, material structure, or manufacturing process\u2014and the composition is functional documentary storage, not compelling science/technology imagery.",
+      "elapsed_s": 63.1,
+      "flagged": true
+    },
+    "chemistry": {
+      "file": "chemistry.jpg",
+      "relevance": 8,
+      "quality": 4,
+      "verdict": "replace",
+      "reason": "Content is highly topically accurate for chemistry, directly addressing the core distinction between elements and compounds with a clear classification activity. However, the image is designed as a plain student worksheet with lined table columns and a basic cartoon graphic, delivering low visual impact and lacking the dramatic, high-quality aesthetic expected for a chapter opener in a professional science/technology reference.",
+      "elapsed_s": 27.0,
+      "flagged": true
+    },
+    "computing": {
+      "file": "computing.jpg",
+      "relevance": 2,
+      "quality": 8,
+      "verdict": "replace",
+      "reason": "The image shows a biological hypothesis-testing workflow using the Eve robotic lab platform, gene/drug structures, cell culture micrographs (MCF7, MDA-MB-231), and automated wet-lab protocols. It depicts life-sciences automation and drug discovery, not computing concepts, hardware, software, algorithms, or digital systems. While Eve involves hidden computational control, the visual content has no topical connection to a 'Computing' chapter opener in a science/technology reference.",
+      "elapsed_s": 25.4,
+      "flagged": true
+    },
+    "energy": {
+      "file": "energy.jpg",
+      "relevance": 7,
+      "quality": 5,
+      "verdict": "replace",
+      "reason": "Broad coverage of energy sources (hydro, nuclear, coal, gas, wind, solar, batteries, grid, biomass) but 'Energy carrier' text narrows scope and the bottom-center spring/force diagram is mismatched and schematic. Cluttered grid collage lacks strong visual impact and cohesion for a chapter opener in a science/tech reference.",
+      "elapsed_s": 35.8,
+      "flagged": false
+    },
+    "foundations": {
+      "file": "foundations.jpg",
+      "relevance": 3,
+      "quality": 7,
+      "verdict": "replace",
+      "reason": "Literal ancient stone ruins create a weak visual pun on 'foundations' with low conceptual relevance to foundational principles, first concepts, or building blocks in a science/technology reference. Moderate visual impact from cluttered vegetation and static composition; image quality is decent but lacks the clean, symbolic, or modern aesthetic expected for a chapter opener.",
+      "elapsed_s": 30.5,
+      "flagged": true
+    },
+    "gas-handling": {
+      "file": "gas-handling.jpg",
+      "relevance": 2,
+      "quality": 4,
+      "verdict": "replace",
+      "reason": "Shows domestic LPG cylinders in an informal, cluttered outdoor retail/storage setting with a casually seated person; lacks technical equipment, safety procedures, industrial/lab context, or clear demonstration of gas handling. Low topical accuracy and unprofessional aesthetic for a science/technology reference chapter opener.",
+      "elapsed_s": 18.1,
+      "flagged": true
+    },
+    "glass": {
+      "file": "glass.jpg",
+      "relevance": 3,
+      "quality": 8,
+      "verdict": "replace",
+      "reason": "High visual impact and strong image quality with bold vertical ribs and dramatic color gradient, but very low topical accuracy. The material reads as corrugated polycarbonate/fiberglass roofing or siding rather than glass. No clear glass characteristics (transparency, reflection, optical properties, or typical scientific/technological uses) are depicted, making it a poor fit for a 'Glass' chapter opener in a science/technology reference.",
+      "elapsed_s": 24.1,
+      "flagged": true
+    },
+    "health": {
+      "file": "health.png",
+      "relevance": 4,
+      "quality": 9,
+      "verdict": "replace",
+      "reason": "Creative visual wordplay with strong impact using fitness (barbells), nutrition (produce/fish), mental health (smileys), and medical (stethoscope) motifs. However, the prominent wooden cross introduces religious iconography inappropriate for a secular science/technology reference, and the whimsical cartoon style lacks the authoritative, precise tone expected for a technical chapter opener.",
+      "elapsed_s": 28.0,
+      "flagged": true
+    },
+    "knowledge": {
+      "file": "knowledge.jpg",
+      "relevance": 4,
+      "quality": 3,
+      "verdict": "replace",
+      "reason": "Screenshot of dense academic journal page on 'knowledge production' in sport economics. Literal keyword match but highly niche topic with zero visual impact or symbolic power; flat text-heavy layout unsuitable as chapter opener for broad science/technology 'Knowledge' section.",
+      "elapsed_s": 32.4,
+      "flagged": true
+    },
+    "machine-tools": {
+      "file": "machine-tools.jpg",
+      "relevance": 1,
+      "quality": 2,
+      "verdict": "replace",
+      "reason": "The image is a generic Google Books digitization notice page consisting of mostly blank white space, a thin line, boilerplate text, logo, and QR code. It has zero topical connection to machine tools, no machinery imagery, diagrams, or technical visuals, and extremely low visual impact, making it completely unsuitable as a chapter opener for a science/technology reference.",
+      "elapsed_s": 19.1,
+      "flagged": true
+    },
+    "measurement": {
+      "file": "measurement.png",
+      "relevance": 5,
+      "quality": 6,
+      "verdict": "replace",
+      "reason": "Specific laser interferometer schematic with beam path and pulse graph; accurate for optical metrology but too narrow/specialized for a general 'Measurement' chapter opener. Visual impact is decent (high-contrast red-on-black) but components look basic/clip-art and the tiny signal plot is weak. Better replaced by a broader, more iconic image representing diverse measurement concepts or tools.",
+      "elapsed_s": 35.9,
+      "flagged": false
+    },
+    "metals": {
+      "file": "metals.jpg",
+      "relevance": 4,
+      "quality": 9,
+      "verdict": "replace",
+      "reason": "Visually striking, high-quality photo of a modern industrial building clad in reflective diamond-patterned metal panels with prominent piping and stack. Strongly showcases fabricated metal in architecture/engineering but has weak topical accuracy for a 'Metals' science/technology chapter opener; lacks direct connection to metallurgy, material properties, extraction, alloys, or elemental metals.",
+      "elapsed_s": 30.0,
+      "flagged": true
+    },
+    "mining": {
+      "file": "mining.jpg",
+      "relevance": 4,
+      "quality": 2,
+      "verdict": "replace",
+      "reason": "Low-impact 1905 journal page scan dominated by dense multi-column text with small technical engraving of coke plant; poor visual drama, cluttered composition, low-res historical scan quality, and narrow sub-topic (coke from lean coal) unsuitable as modern science reference chapter opener for broad 'Mining'.",
+      "elapsed_s": 54.1,
+      "flagged": true
+    },
+    "optics": {
+      "file": "optics.jpg",
+      "relevance": 2,
+      "quality": 5,
+      "verdict": "replace",
+      "reason": "Generic chemistry/analytical lab scene with no visible optics equipment, lasers, lenses, prisms, or light phenomena. Low topical accuracy for an Optics chapter; snapshot quality with modest visual impact and ordinary composition/lighting.",
+      "elapsed_s": 28.9,
+      "flagged": true
+    },
+    "photolithography": {
+      "file": "photolithography.jpg",
+      "relevance": 2,
+      "quality": 2,
+      "verdict": "replace",
+      "reason": "Low topical accuracy: plain scan of 1970s NBS workshop proceedings cover on general IC measurement problems, with zero visual depiction of photolithography (no masks, wafers, resist patterns, exposure tools, or circuit features). Dated government-publication aesthetic offers negligible visual impact or modern reference-book appeal; image quality is mediocre with visible stickers, creases, and scan artifacts.",
+      "elapsed_s": 27.1,
+      "flagged": true
+    },
+    "plants": {
+      "file": "plants.jpg",
+      "relevance": 3,
+      "quality": 7,
+      "verdict": "replace",
+      "reason": "Accurate botanical engraving of Mamona (castor plant) but compromised as chapter opener by prominent 'Brasil 200,00' text, stamp perforations, decorative borders, and philatelic framing. Low visual impact for a science/tech reference; distracting non-scientific elements and narrow single-plant focus make it unsuitable.",
+      "elapsed_s": 46.3,
+      "flagged": true
+    },
+    "polymers": {
+      "file": "polymers.jpg",
+      "relevance": 3,
+      "quality": 6,
+      "verdict": "replace",
+      "reason": "Screenshot of a 2008 academic paper on silica-collagen biocomposites in glass sponges. Collagen is a biopolymer but the topic is narrow biomineralization/nanostructured natural composites, not polymer science. Dense text layout lacks visual impact and illustrative value for a Polymers chapter opener.",
+      "elapsed_s": 25.3,
+      "flagged": true
+    },
+    "silicon": {
+      "file": "silicon.jpg",
+      "relevance": 1,
+      "quality": 9,
+      "verdict": "replace",
+      "reason": "Featureless bright blue rectangle has zero connection to silicon, silicon wafers, crystals, or semiconductor tech. Looks like colored acrylic or plastic tile. High technical quality but irrelevant and visually unengaging as a chapter opener.",
+      "elapsed_s": 18.6,
+      "flagged": true
+    },
+    "textiles": {
+      "file": "textiles.jpg",
+      "relevance": 3,
+      "quality": 9,
+      "verdict": "replace",
+      "reason": "Depicts traditional rope/cordage production (coir/jute fiber winding) rather than textile processes like spinning, weaving, knitting or fabric finishing. Strong visual impact and professional image quality, but low topical accuracy for a 'Textiles' chapter opener in a science/technology reference.",
+      "elapsed_s": 23.9,
+      "flagged": true
+    },
+    "transport": {
+      "file": "transport.jpg",
+      "relevance": 7,
+      "quality": 9,
+      "verdict": "keep",
+      "reason": "Strong visual impact via dramatic low-angle perspective inside a large cargo aircraft, emphasizing massive scale with the vehicle tire and ramp dominating the frame. Topical accuracy is solid for 'Transport' as it clearly depicts heavy air cargo logistics and cargo-handling engineering, though the military/US Air Force specificity makes it narrower than ideal for a general science/technology chapter opener. Image quality is excellent: sharp detail, professional composition, strong contrast, and good human scale via the thumbs-up crew member.",
+      "elapsed_s": 22.6,
+      "flagged": false
+    },
+    "vlsi-scaling": {
+      "file": "vlsi-scaling.jpg",
+      "relevance": 1,
+      "quality": 2,
+      "verdict": "replace",
+      "reason": "Plain black textured surface (appears to be fabric or matte material) has zero topical connection to VLSI, semiconductors, transistors, Moore's Law, or nanoscale scaling. No circuits, wafers, die shots, patterns, or tech motifs. Extremely low visual impact and unsuitable as a chapter opener for a science/technology reference.",
+      "elapsed_s": 21.8,
+      "flagged": true
+    }
+  },
+  "replacements": {
+    "ceramics": {
+      "status": "replaced",
+      "new_file": "ceramics.png",
+      "source": "File:Diamond blades for cutting advanced ceramic materials.png",
+      "author": "Vijesh Gogia",
+      "license": "CC BY 4.0",
+      "width": 2240,
+      "height": 1260
+    },
+    "chemistry": {
+      "status": "replaced",
+      "new_file": "chemistry.jpg",
+      "source": "File:A Scientist in a chemistry laboratory, in Awka, Anambra State, Nigeria.jpg",
+      "author": "Frankincense Diala",
+      "license": "CC0",
+      "width": 780,
+      "height": 933
+    },
+    "computing": {
+      "status": "replaced",
+      "new_file": "computing.png",
+      "source": "File:Wartime photo of Colossus 10.png",
+      "author": "Good, Jack; Michie, Donald; Timms, Geoffrey (1945), General Report on Tunny: Wit",
+      "license": "Public domain",
+      "width": 1233,
+      "height": 865
+    },
+    "foundations": {
+      "status": "replaced",
+      "new_file": "foundations.jpg",
+      "source": "File:2012.08 - 'Old & new foundation constructions under Central Station Amsterdam', urban photo of construction activities, Fons Heijnsbroek (12101321055).jpg",
+      "author": "Fons Heijnsbroek from Amsterdam, Netherlands",
+      "license": "CC0",
+      "width": 4724,
+      "height": 3543
+    },
+    "gas-handling": {
+      "status": "replaced",
+      "new_file": "gas-handling.jpg",
+      "source": "File:US Navy 101208-N-7605J-063 Aviation Boatswain's Mate (Handling) 3rd Class Tilford Breedlove, left, and Aviation Boatswain's Mate (Handling) 1st Cla.jpg",
+      "author": "U.S. Navy photo by Mass Communication Specialist Seaman Benjamin Jernigan",
+      "license": "Public domain",
+      "width": 4288,
+      "height": 2848
+    },
+    "glass": {
+      "status": "replaced",
+      "new_file": "glass.jpg",
+      "source": "File:Artisan (41167399771).jpg",
+      "author": "istolethetv",
+      "license": "CC BY 2.0",
+      "width": 4272,
+      "height": 2848
+    },
+    "health": {
+      "status": "replaced",
+      "new_file": "health.webp",
+      "source": "File:International Certificates of Vaccination - State of Vietnam & World Health Organisation (1940's-1950's) Rare.revenues 03.webp",
+      "author": "The government of the State of Vietnam.",
+      "license": "Public domain",
+      "width": 736,
+      "height": 1024
+    },
+    "knowledge": {
+      "status": "replaced",
+      "new_file": "knowledge.jpg",
+      "source": "File:Printing Press Victorian Illustration 1880 Mackenzie National Encyclopaedia.jpg",
+      "author": "National Encyclopaedia: A Dictionary of Universal Knowledge. Published by Willia",
+      "license": "Public domain",
+      "width": 3760,
+      "height": 5783
+    },
+    "machine-tools": {
+      "status": "replaced",
+      "new_file": "machine-tools.jpg",
+      "source": "File:Machine Shop Arrangement of Tools and Departments, 1906.jpg",
+      "author": "Oscar E. Perrigo",
+      "license": "Public domain",
+      "width": 1004,
+      "height": 686
+    },
+    "metals": {
+      "status": "replaced",
+      "new_file": "metals.png",
+      "source": "File:Rectangular water jacket blast furnace Section.png",
+      "author": "Anaconda Company",
+      "license": "Public domain",
+      "width": 1694,
+      "height": 2350
+    },
+    "mining": {
+      "status": "replaced",
+      "new_file": "mining.jpg",
+      "source": "File:Tunnel south entrance.JPG",
+      "author": "Kurtis2014",
+      "license": "CC BY-SA 3.0",
+      "width": 3456,
+      "height": 2592
+    },
+    "optics": {
+      "status": "replaced",
+      "new_file": "optics.jpg",
+      "source": "File:Detail; Illustration showing two prisms. Wellcome L0027591.jpg",
+      "author": "Wikimedia Commons contributor",
+      "license": "CC BY 4.0",
+      "width": 1470,
+      "height": 1286
+    },
+    "photolithography": {
+      "status": "replaced",
+      "new_file": "photolithography.jpg",
+      "source": "File:University of Minnesota Nanofabrication Center - Bay 2, Lithography.JPG",
+      "author": "Runner1928",
+      "license": "CC BY-SA 4.0",
+      "width": 3264,
+      "height": 2448
+    },
+    "plants": {
+      "status": "replaced",
+      "new_file": "plants.jpg",
+      "source": "File:Lalbagh Botanical Garden in Bangalore 2024.jpg",
+      "author": "Aren Noronha",
+      "license": "CC BY-SA 4.0",
+      "width": 3060,
+      "height": 4080
+    },
+    "polymers": {
+      "status": "replaced",
+      "new_file": "polymers.jpg",
+      "source": "File:D\u00fclmen, Heilig-Kreuz-Kirche, The Cast Whale Project -- 2022 -- 0509-13.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "width": 4442,
+      "height": 6663
+    },
+    "silicon": {
+      "status": "replaced",
+      "new_file": "silicon.jpg",
+      "source": "File:Multicrystalline silicon wafer with thin film iridescence.jpg",
+      "author": "Radiotrefoil",
+      "license": "CC BY-SA 4.0",
+      "width": 3286,
+      "height": 2041
+    },
+    "textiles": {
+      "status": "replaced",
+      "new_file": "textiles.jpg",
+      "source": "File:Telar - Conversatorio Las Manos que Piensan (Textiles).jpg",
+      "author": "Ministerio de Cultura de la Naci\u00f3n",
+      "license": "CC BY-SA 2.0",
+      "width": 6366,
+      "height": 4244
+    },
+    "vlsi-scaling": {
+      "status": "replaced",
+      "new_file": "vlsi-scaling.jpg",
+      "source": "File:Electronics PCB circuit board 003 (51131861191).jpg",
+      "author": "Jan Helebrant",
+      "license": "CC0",
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "replacement_count": 18
 }

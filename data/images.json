@@ -32276,15 +32276,23 @@
       "node_name": "Nitrocellulose & Smokeless Powders",
       "domain": "chemistry",
       "search_queries": [
-        "Nitrocellulose & Smokeless Powders",
-        "Nitrocellulose & Smokeless Powders Chemistry process",
-        "Nitrocellulose & Smokeless Powders diagram"
+        "Guncotton nitrocellulose",
+        "Smokeless powder",
+        "Cellulose nitrate"
       ],
-      "status": "no_results_v2",
+      "status": "downloaded",
       "candidates": [],
-      "local_path": null,
-      "attribution": null,
-      "notes": "V2 had 2 candidates, none met quality threshold. Queries: ['nitrocellulose production diagram', 'guncotton manufacturing schematic', 'nitrocellulose chemical structure']"
+      "local_path": "docs/images/chemistry/chemistry_explosives_nitrocellulose.jpg",
+      "attribution": {
+        "title": "Hercules Cellulose Acetate, Cellulose Nitrate, Ethyl Cellulose",
+        "description": "Colorful print spread advertising cellulosic plastic compounds manufactured and sold by Hercules Powder Company. The advertisement specifically features the compounds cellulose acetate, cellulose nitrate, and ethyl cellulose, claiming them as \"the most useful of all plastics.\" The advertisement highlights key qualities of the plastics, such as their strength, stability, and transparency, with an image and brief description. The back cover displays images of available Hercules Powder Company informational booklets on different plastic molding compounds. Formed in 1912 as part of an anti-trust settlement with DuPont, the Hercules Powder Company (later Hercules Inc.) initially specialized in the manufacture of explosives and smokeless powders and subsequently diversified its business to encompass a variety of industrial products, including pine and paper chemicals, synthetics, pigments, polymers, and cellulose.",
+        "author": "Hercules Incorporated",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hercules_Cellulose_Acetate,_Cellulose_Nitrate,_Ethyl_Cellulose_-_DPLA_-_607e6e14ff1ef4bee225ada2c0865826_(page_2).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Hercules Cellulose Acetate, Cellulose Nitrate, Ethyl Cellulose\nColorful print spread advertising cellulosic plastic compounds manufactured and sold by Hercules Powder Company. The advertisement specifically features the compounds cellulose acetate, cellulose nitrate, and ethyl cellulose, claiming them as \"the most useful of all plastics.\" The advertisement highlights key qualities of the plastics, such as their strength, stability, and transparency, with an image and brief description. The back cover displays images of available Hercules Powder Company informational booklets on different plastic molding compounds. Formed in 1912 as part of an anti-trust settlement with DuPont, the Hercules Powder Company (later Hercules Inc.) initially specialized in the manufacture of explosives and smokeless powders and subsequently diversified its business to encompass a variety of industrial products, including pine and paper chemicals, synthetics, pigments, polymers, and cellulose.\n\nImage: Hercules Incorporated ([source](https://commons.wikimedia.org/wiki/File:Hercules_Cellulose_Acetate,_Cellulose_Nitrate,_Ethyl_Cellulose_-_DPLA_-_607e6e14ff1ef4bee225ada2c0865826_(page_2).jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
     },
     "chemistry.fermentation": {
       "node_name": "Fermentation Chemistry",
@@ -45181,6 +45189,325 @@
         "license_tier": "libre",
         "attribution_md": "RC Harris Water Treatment Plant - Filtration Building - South Elevation\nRC Harris Water Treatment Plant - Filtration Building - South Elevation\n\nImage: Jamaps ([source](https://commons.wikimedia.org/wiki/File:RC_Harris_Water_Treatment_Plant_-_Filtration_Building_-_South_Elevation.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
       }
+    },
+    "agriculture.pest-management": {
+      "node_name": "Pest Management",
+      "domain": "agriculture",
+      "search_queries": [
+        "Pest Management agriculture",
+        "Biological pest control",
+        "Crop pest management"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/agriculture/agriculture_pest-management.jpg",
+      "attribution": {
+        "title": "Agriculture Minister Matia Chowdhury at Integrated Pest Management Training Program Discussion, Dhaka, 2018-05-29 (PID-0044058)",
+        "description": "On Tuesday, May 29, 2018, the Minister of Agriculture, Matia Chowdhury, addressed a discussion session at her ministry in the Secretariat, Dhaka, concerning a regional training program on Integrated Pest Management for SAARC member states. This information comes from the Press Information Department.",
+        "author": "Press Information Department",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Agriculture_Minister_Matia_Chowdhury_at_Integrated_Pest_Management_Training_Program_Discussion,_Dhaka,_2018-05-29_(PID-0044058).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Agriculture Minister Matia Chowdhury at Integrated Pest Management Training Program Discussion, Dhaka, 2018-05-29 (PID-0044058)\nOn Tuesday, May 29, 2018, the Minister of Agriculture, Matia Chowdhury, addressed a discussion session at her ministry in the Secretariat, Dhaka, concerning a regional training program on Integrated Pest Management for SAARC member states. This information comes from the Press Information Department.\n\nImage: Press Information Department ([source](https://commons.wikimedia.org/wiki/File:Agriculture_Minister_Matia_Chowdhury_at_Integrated_Pest_Management_Training_Program_Discussion,_Dhaka,_2018-05-29_(PID-0044058).jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "chemistry.lubricants-synthetic": {
+      "node_name": "Synthetic Lubricants & Specialty Fluids",
+      "domain": "chemistry",
+      "search_queries": [
+        "Synthetic lubricant",
+        "PAO synthetic oil",
+        "Silicone lubricant"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/chemistry/chemistry_lubricants-synthetic.jpg",
+      "attribution": {
+        "title": "Versatile Silicone Lubricant Stops Customer Complaints ... Fast!",
+        "description": "Print advertisement for Dow Corning 4X lubricant manufactured and sold by the Dow Corning Corporation for use lubricating, preserving, and insulating rubber parts and electrical systems. The advertisement features images of the lubricant in both spray can and tube packaging, as well as depictions of the application of lubricant to car and electrical parts. This advertisement appeared on page 163 of the May 1966 edition of Motor magazine.",
+        "author": "Dow Corning Corporation",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Versatile_Silicone_Lubricant_Stops_Customer_Complaints_..._Fast!_-_DPLA_-_b587741c6cbee6e8817e10aaf85c23eb.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Versatile Silicone Lubricant Stops Customer Complaints ... Fast!\nPrint advertisement for Dow Corning 4X lubricant manufactured and sold by the Dow Corning Corporation for use lubricating, preserving, and insulating rubber parts and electrical systems. The advertisement features images of the lubricant in both spray can and tube packaging, as well as depictions of the application of lubricant to car and electrical parts. This advertisement appeared on page 163 of the May 1966 edition of Motor magazine.\n\nImage: Dow Corning Corporation ([source](https://commons.wikimedia.org/wiki/File:Versatile_Silicone_Lubricant_Stops_Customer_Complaints_..._Fast!_-_DPLA_-_b587741c6cbee6e8817e10aaf85c23eb.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "chemistry.explosives.detonation-blasting": {
+      "node_name": "Detonation & Blasting Systems",
+      "domain": "chemistry",
+      "search_queries": [
+        "Detonation blasting",
+        "Blasting cap mining",
+        "Explosive detonation"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/chemistry/chemistry_explosives_detonation-blasting.jpg",
+      "attribution": {
+        "title": "US Navy 110428-F-XM360-052 Namibian Defense Force (NDF) Sergeant Eugene M. Salionga attaches a non-electric blasting cap to the detonation priming",
+        "description": "ARANDIS, Namibia (April 28, 2011) Namibian Defense Force (NDF) Sergeant Eugene M. Salionga, an explosive ordnance technician student, attaches a non-electric blasting cap to the detonation priming loop as Chief Explosive Ordnance Technician Justin Berlien, assigned to Explosive Ordnance Disposal Mobile Unit (EODMU) 11, Combined Joint Task Force-Horn of Africa, looks on. Navy EOD technicians and the NDF are engaging in a joint training seminar to enhance their understanding of safely handling and disposing of unexploded ordnance. EODMU-11 is partnering with the Namibian Defense Forces EOD and Police Explosive Control Unit to support the Humanitarian Mine Action program by providing familiarization with International Mine Action Standards. (U.S. Air Force photo by Master Sgt. Dawn Price/Released)",
+        "author": "U.S. Air Force photo by Master Sgt. Dawn Price",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:US_Navy_110428-F-XM360-052_Namibian_Defense_Force_(NDF)_Sergeant_Eugene_M._Salionga_attaches_a_non-electric_blasting_cap_to_the_detonation_priming.jpg",
+        "license_tier": "libre",
+        "attribution_md": "US Navy 110428-F-XM360-052 Namibian Defense Force (NDF) Sergeant Eugene M. Salionga attaches a non-electric blasting cap to the detonation priming\nARANDIS, Namibia (April 28, 2011) Namibian Defense Force (NDF) Sergeant Eugene M. Salionga, an explosive ordnance technician student, attaches a non-electric blasting cap to the detonation priming loop as Chief Explosive Ordnance Technician Justin Berlien, assigned to Explosive Ordnance Disposal Mobile Unit (EODMU) 11, Combined Joint Task Force-Horn of Africa, looks on. Navy EOD technicians and the NDF are engaging in a joint training seminar to enhance their understanding of safely handling and disposing of unexploded ordnance. EODMU-11 is partnering with the Namibian Defense Forces EOD and Police Explosive Control Unit to support the Humanitarian Mine Action program by providing familiarization with International Mine Action Standards. (U.S. Air Force photo by Master Sgt. Dawn Price/Released)\n\nImage: U.S. Air Force photo by Master Sgt. Dawn Price ([source](https://commons.wikimedia.org/wiki/File:US_Navy_110428-F-XM360-052_Namibian_Defense_Force_(NDF)_Sergeant_Eugene_M._Salionga_attaches_a_non-electric_blasting_cap_to_the_detonation_priming.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "chemistry.adhesives-coatings": {
+      "node_name": "Adhesives & Specialty Coatings",
+      "domain": "chemistry",
+      "search_queries": [
+        "Adhesive manufacturing",
+        "Industrial adhesive",
+        "Specialty coating"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/chemistry/chemistry_adhesives-coatings.jpg",
+      "attribution": {
+        "title": "Industrial exposition, 1926, Columbia Specialty Paper Box Co. LCCN2016852771",
+        "description": "Title: Industrial exposition, 1926, Columbia Specialty Paper Box Co.\nAbstract/medium: 1 negative : glass ; 8 x 10 in. or smaller",
+        "author": "National Photo Company Collection",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Industrial_exposition,_1926,_Columbia_Specialty_Paper_Box_Co._LCCN2016852771.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Industrial exposition, 1926, Columbia Specialty Paper Box Co. LCCN2016852771\nTitle: Industrial exposition, 1926, Columbia Specialty Paper Box Co.\nAbstract/medium: 1 negative : glass ; 8 x 10 in. or smaller\n\nImage: National Photo Company Collection ([source](https://commons.wikimedia.org/wiki/File:Industrial_exposition,_1926,_Columbia_Specialty_Paper_Box_Co._LCCN2016852771.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "chemistry.lubricants-natural": {
+      "node_name": "Natural Lubricants: Animal Fats & Vegetable Oils",
+      "domain": "chemistry",
+      "search_queries": [
+        "Lard tallow fat",
+        "Castor oil plant",
+        "Linseed oil flax",
+        "Olive oil pressing"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/chemistry/chemistry_lubricants-natural.jpg",
+      "attribution": {
+        "title": "Ricinus communis (castor oil plant) at Bandlaguda 002",
+        "description": "Ricinus communis (castor oil plant) at Bandlaguda, Rangareddy district",
+        "author": "Adityamadhav83",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ricinus_communis_(castor_oil_plant)_at_Bandlaguda_002.JPG",
+        "license_tier": "libre",
+        "attribution_md": "Ricinus communis (castor oil plant) at Bandlaguda 002\nRicinus communis (castor oil plant) at Bandlaguda, Rangareddy district\n\nImage: Adityamadhav83 ([source](https://commons.wikimedia.org/wiki/File:Ricinus_communis_(castor_oil_plant)_at_Bandlaguda_002.JPG))\nLicense: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)"
+      }
+    },
+    "agriculture.irrigation": {
+      "node_name": "WATERING PROCESS FOR IRRIGATION RICE FARMING",
+      "domain": "agriculture",
+      "search_queries": [
+        "WATERING PROCESS FOR IRRIGATION RICE FARMING"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "WATERING PROCESS FOR IRRIGATION RICE FARMING",
+          "url": "https://commons.wikimedia.org/wiki/File:WATERING_PROCESS_FOR_IRRIGATION_RICE_FARMING.jpg",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:WATERING_PROCESS_FOR_IRRIGATION_RICE_FARMING.jpg",
+          "width": 0,
+          "height": 0,
+          "mime": "image/jpeg",
+          "description": "This is an image with the theme \"Farm to Plate\" from:",
+          "object_name": "WATERING PROCESS FOR IRRIGATION RICE FARMING",
+          "categories": "",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "author": "SMMIMAGES",
+          "author_html": "SMMIMAGES",
+          "page_url": "https://commons.wikimedia.org/wiki/File:WATERING_PROCESS_FOR_IRRIGATION_RICE_FARMING.jpg"
+        }
+      ]
+    },
+    "agriculture.aquaponics": {
+      "node_name": "Aquaponics hydroponics farming fish lettuce",
+      "domain": "agriculture",
+      "search_queries": [
+        "Aquaponics hydroponics farming fish lettuce"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "Aquaponics hydroponics farming fish lettuce",
+          "url": "https://commons.wikimedia.org/wiki/File:Aquaponics_hydroponics_farming_fish_lettuce.jpg",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:Aquaponics_hydroponics_farming_fish_lettuce.jpg",
+          "width": 0,
+          "height": 0,
+          "mime": "image/jpeg",
+          "description": "aquaponics hydroponics farming fish lettuce",
+          "object_name": "Aquaponics hydroponics farming fish lettuce",
+          "categories": "",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "author": "Kurt Kaiser",
+          "author_html": "Kurt Kaiser",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Aquaponics_hydroponics_farming_fish_lettuce.jpg"
+        }
+      ]
+    },
+    "agriculture.sem-tech-hydroponics": {
+      "node_name": "Hydroponic system-above PNr°0066",
+      "domain": "agriculture",
+      "search_queries": [
+        "Hydroponic system-above PNr°0066"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "Hydroponic system-above PNr°0066",
+          "url": "https://commons.wikimedia.org/wiki/File:Hydroponic_system-above_PNr%C2%B00066.jpg",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:Hydroponic_system-above_PNr%C2%B00066.jpg",
+          "width": 0,
+          "height": 0,
+          "mime": "image/jpeg",
+          "description": "A hydroponic system.",
+          "object_name": "Hydroponic system-above PNr°0066",
+          "categories": "",
+          "license": "CC BY-SA 3.0 at",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+          "author": "D-Kuru",
+          "author_html": "D-Kuru",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Hydroponic_system-above_PNr%C2%B00066.jpg"
+        }
+      ]
+    },
+    "chemistry.lubricants-mineral": {
+      "node_name": "US Navy 100721-N-1092P-047 Aviation Machinist's Mate 2nd Class Robert Inwood cleans up fuel and hydraulic fluid in the hangar bay of USS Harry S. Truman (CVN 75)",
+      "domain": "chemistry",
+      "search_queries": [
+        "US Navy 100721-N-1092P-047 Aviation Machinist's Mate 2nd Class Robert Inwood cleans up fuel and hydraulic fluid in the hangar bay of USS Harry S. Truman (CVN 75)"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "US Navy 100721-N-1092P-047 Aviation Machinist's Mate 2nd Class Robert Inwood cleans up fuel and hydraulic fluid in the hangar bay of USS Harry S. Truman (CVN 75)",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Navy_100721-N-1092P-047_Aviation_Machinist%27s_Mate_2nd_Class_Robert_Inwood_cleans_up_fuel_and_hydraulic_fluid_in_the_hangar_bay_of_USS_Harry_S._Truman_(CVN_75).jpg",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:US_Navy_100721-N-1092P-047_Aviation_Machinist%27s_Mate_2nd_Class_Robert_Inwood_cleans_up_fuel_and_hydraulic_fluid_in_the_hangar_bay_of_USS_Harry_S._Truman_(CVN_75).jpg",
+          "width": 0,
+          "height": 0,
+          "mime": "image/jpeg",
+          "description": "ARABIAN GULF (July 21, 2010) Aviation Machinist's Mate 2nd Class Robert Inwood, assigned to the Zappers of Electronic Attack Squadron (VAQ) 130, cleans up fuel and hydraulic fluid in the hangar bay of the aircraft carrier USS Harry S. Truman (CVN 75). VAQ-130 is deployed as part of the Harry S. Truman Carrier Strike Group supporting maritime security operations and theater security cooperation efforts in the U.S. 5th Fleet area of responsibility. (U.S. Navy photo by Mass Communication Specialist 3rd Class Stuart Phillips/Released)",
+          "object_name": "US Navy 100721-N-1092P-047 Aviation Machinist's Mate 2nd Class Robert Inwood cleans up fuel and hydraulic fluid in the hangar bay of USS Harry S. Truman (CVN 75)",
+          "categories": "",
+          "license": "Public domain",
+          "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Stuart Phillips",
+          "author_html": "U.S. Navy photo by Mass Communication Specialist 3rd Class Stuart Phillips",
+          "page_url": "https://commons.wikimedia.org/wiki/File:US_Navy_100721-N-1092P-047_Aviation_Machinist%27s_Mate_2nd_Class_Robert_Inwood_cleans_up_fuel_and_hydraulic_fluid_in_the_hangar_bay_of_USS_Harry_S._Truman_(CVN_75).jpg"
+        }
+      ]
+    },
+    "chemistry.explosives.nitroglycerin-dynamite": {
+      "node_name": "Letter from Alfred Nobel to Bertha von Suttner, Creating the Nobel Peace Prize",
+      "domain": "chemistry",
+      "search_queries": [
+        "Letter from Alfred Nobel to Bertha von Suttner, Creating the Nobel Peace Prize"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "Letter from Alfred Nobel to Bertha von Suttner, Creating the Nobel Peace Prize",
+          "url": "https://commons.wikimedia.org/wiki/File:Letter_from_Alfred_Nobel_to_Bertha_von_Suttner,_Creating_the_Nobel_Peace_Prize_WDL11563.png",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:Letter_from_Alfred_Nobel_to_Bertha_von_Suttner,_Creating_the_Nobel_Peace_Prize_WDL11563.png",
+          "width": 0,
+          "height": 0,
+          "mime": "image/png",
+          "description": "Alfred Nobel (1833–96) was a Swedish-born engineer and entrepreneur best known for inventing dynamite. At age 43, Nobel placed an advertisement in a newspaper stating: \"Wealthy, highly-educated elderly gentleman seeks lady of mature age, versed in languages, as secretary and supervisor of household.\" An Austrian woman, Countess Bertha Kinsky, applied for and won the position. The countess worked for Nobel only briefly before returning to Austria to marry Count Arthur von Suttner. Bertha von Suttner became one of the most prominent international peace activists of the late 19th–early 20th centuries, the author of a famous book Die Waffen nieder (Lay down your arms), published in 1889, and vice president of the International Peace Bureau. Nobel and von Suttner remained close friends and corresponded with each other for decades. In this letter, written in French and dated January 7, 1893, Nobel outlined to her his idea of establishing a prize for those who made important contributions to the cause of peace in Europe. Bertha von Suttner herself was awarded the Nobel Peace Prize in 1905, nine years after her friend’s death. The letter is preserved in the archives of the League of Nations in Geneva. The archives were inscribed on the UNESCO Memory of the World register in 2010.\nAwards; Correspondence; Letters; Memory of the World; Nobel Prizes; Peace",
+          "object_name": "Letter from Alfred Nobel to Bertha von Suttner, Creating the Nobel Peace Prize",
+          "categories": "",
+          "license": "Public domain",
+          "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "author": "Nobel, Alfred Bernhard, 1833-1896",
+          "author_html": "Nobel, Alfred Bernhard, 1833-1896",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Letter_from_Alfred_Nobel_to_Bertha_von_Suttner,_Creating_the_Nobel_Peace_Prize_WDL11563.png"
+        }
+      ]
+    },
+    "chemistry.explosives.high-explosives": {
+      "node_name": "Members of the Explosive Ordnance Disposal Section place TNT cans C4 explosive on defective ammunition",
+      "domain": "chemistry",
+      "search_queries": [
+        "Members of the Explosive Ordnance Disposal Section place TNT cans C4 explosive on defective ammunition"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "Members of the Explosive Ordnance Disposal Section place TNT cans C4 explosive on defective ammunition",
+          "url": "https://commons.wikimedia.org/wiki/File:Members_of_the_Explosive_Ordnance_Disposal_Section_place_TNT_cans_C4_explosive_on_defective_ammunition.jpg",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:Members_of_the_Explosive_Ordnance_Disposal_Section_place_TNT_cans_C4_explosive_on_defective_ammunition.jpg",
+          "width": 0,
+          "height": 0,
+          "mime": "image/jpeg",
+          "description": "Members of the Explosive Ordnance Disposal Section, 184th Ord Bn, renovate damaged and outdated ammunition at the explosive ordnance disposal area, 16 miles northwest of Qui Nhon. Defective fuses are removed from mortar rounds and replaced with new fuses. The defective ones are destroyed. Members of the EOD Section place 1/2 lb TNT cans and composition C-4 plastic explosive on the ammunition stack. NARA 111-CCV-190-CC36059",
+          "object_name": "Members of the Explosive Ordnance Disposal Section place TNT cans C4 explosive on defective ammunition",
+          "categories": "",
+          "license": "Public domain",
+          "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "author": "SP5 Robert R. Ellis",
+          "author_html": "SP5 Robert R. Ellis",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Members_of_the_Explosive_Ordnance_Disposal_Section_place_TNT_cans_C4_explosive_on_defective_ammunition.jpg"
+        }
+      ]
+    },
+    "chemistry.solvents": {
+      "node_name": "Perkin triangle distillation apparatus",
+      "domain": "chemistry",
+      "search_queries": [
+        "Perkin triangle distillation apparatus"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "Perkin triangle distillation apparatus",
+          "url": "https://commons.wikimedia.org/wiki/File:Perkin_triangle_distillation_apparatus.png",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:Perkin_triangle_distillation_apparatus.png",
+          "width": 0,
+          "height": 0,
+          "mime": "image/png",
+          "description": "Perkin triangle distillation apparatus\nA Perkin triangle is versatile piece of apparatus that can also be used to collect distillation fractions which does not require a cow\" or \"pig\" adaptor. A Perkin triangle is most often used where the distillates are air-sensitive or where the fractions distil and are collected under reduced pressure (vacuum distillation, but can be used for a drying solvents or for simple and fractional distillation.\n1:  Stirrer bar/anti-bumping granules\n2:  Still pot\n3:  Fractionating column, preferably vacuum jacket insulated\n4:  Thermometer/Boiling point temperature \n5:  Teflon tap 1, distillate collecting tap\n6:  Cold finger \n7:  Cooling water out\n8:  Cooling water in  \n9:  Teflon tap 2, still isolation tap \n10:  Vacuum/gas inlet \n11:  Teflon tap 3, distillate isolation tap\n\n12:  Still receiver",
+          "object_name": "Perkin triangle distillation apparatus",
+          "categories": "",
+          "license": "Public domain",
+          "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "author": "Quantockgoblin",
+          "author_html": "Quantockgoblin",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Perkin_triangle_distillation_apparatus.png"
+        }
+      ]
+    },
+    "chemistry.chemical-recovery": {
+      "node_name": "Tradpak Chemical Recycling Company, Armley - geograph.org.uk - 4880464",
+      "domain": "chemistry",
+      "search_queries": [
+        "Chemical Recovery & Solvent Regeneration"
+      ],
+      "status": "downloaded",
+      "candidates": [
+        {
+          "file_title": "Tradpak Chemical Recycling Company, Armley - geograph.org.uk - 4880464",
+          "url": "https://commons.wikimedia.org/wiki/File:Tradpak_Chemical_Recycling_Company,_Armley_-_geograph.org.uk_-_4880464.jpg",
+          "thumbnail_url": "https://commons.wikimedia.org/wiki/File:Tradpak_Chemical_Recycling_Company,_Armley_-_geograph.org.uk_-_4880464.jpg",
+          "width": 960,
+          "height": 641,
+          "mime": "image/jpeg",
+          "description": "Tradpak Chemical Recycling Company, Armley",
+          "object_name": "Tradpak Chemical Recycling Company, Armley - geograph.org.uk - 4880464",
+          "categories": "",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "author": "Mark Stevenson",
+          "author_html": "Mark Stevenson",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Tradpak_Chemical_Recycling_Company,_Armley_-_geograph.org.uk_-_4880464.jpg"
+        }
+      ]
     }
   }
 }

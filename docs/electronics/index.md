@@ -1,5 +1,11 @@
 # Electronics
 
+![Electronics PCB circuit board 001 (51131861296)](../images/electronics/electronics_hero.jpg)
+
+> *Microphoto of an electronics circuit board, likely from a smartphone, taken with a digital microscope.*
+
+> *Image: Jan Helebrant, CC0*
+
 Capabilities in this domain:
 
 - [Electrical Systems](electrical-systems.md) — Power distribution wiring, switches, connectors, fuses, breakers, transformers, motor-generator sets, and power electronics.

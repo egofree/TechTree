@@ -1,11 +1,11 @@
 # Public Health, Sanitation & Medicine
 
 
-![Health Illustrated Text](../images/health/health.png)
+![International Certificates of Vaccination](../images/health/health.webp)
 
-> *This is an image with the theme "Health and Wellness in Africa" from:*
+> *International Certificates of Vaccination - State of Vietnam & World Health Organisation*
 
-> *Image: Cabblow, CC BY-SA 4.0*
+> *Image: The government of the State of Vietnam, Public domain*
 
 Capabilities in this domain:
 

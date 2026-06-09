@@ -1,5 +1,11 @@
 # Defense & Military Engineering
 
+![Group of medieval warriors in armor training at a historical site during a reenactment event in a castle setting](../images/defense/defense_hero.jpg)
+
+> *Warriors in armor gather at a historical site to practice their skills. They carry swords and shields while preparing for a reenactment. The setting shows an old castle wall in the background.*
+
+> *Image: Shixart1985, CC BY 2.0*
+
 Capabilities in this domain:
 
 - [Weapons & edged tools](weapons.md) — Weapons progression from stone blades through bronze swords, iron-age weapons, steel swords and polearms, to black powder firearms (matchlock, flintlock, percussion cap). Blade hardness requirements: stone (Mohs 5-7), bronze (HB 80-120), wrought iron (HB 90-120), medium-carbon steel (HRC 45-55 for swords, HRC 58-62 for knife edges).

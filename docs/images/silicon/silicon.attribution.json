@@ -1,11 +1,9 @@
 {
-  "title": "Unmetallised Silicon Heterojunction solar cell precursor",
-  "description": "A Silicon Heterojunction solar cell precursor composed of a M6 sized monocrystalline silicon wafer sputtered with amorphous silicon to form the passivated heterojunction, and indium tin oxide (approximately 80nm) to form the anti-reflection coating and enhance lateral conduction, which is responsible for the blue colour of the surface.",
+  "title": "Multicrystalline silicon wafer with thin film iridescence",
+  "description": "A multicrystalline silicon wafer which has had a thin film of silicon nitride (on the order of 100 nanometres or less) deposited onto it. The silicon crystal grains are visible as the fractured surface pattern. The wafer itself is about 100-200 micrometres thick. The colours arise as a result of iridescence due to thin film interference; the film thickness determines the colour. In this case, a non-uniform deposition was obtained, hence the multiple colours. This wafer was the result of a failed PECVD deposition at a solar cell research institute (University of New South Wales). Solar cells are typically blue when a silicon nitride thickness of about 70 nanometres is used; this is tuned precisely to be an anti-reflection coating for maximum capture of sunlight.",
   "author": "Radiotrefoil",
   "license": "CC BY-SA 4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Unmetallised_Silicon_Heterojunction_solar_cell_precursor.jpg",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Unmetallised_Silicon_Heterojunction_solar_cell_precursor.jpg",
-  "attribution_md": "Unmetallised Silicon Heterojunction solar cell precursor\nA Silicon Heterojunction solar cell precursor composed of a M6 sized monocrystalline silicon wafer sputtered with amorphous silicon to form the passivated heterojunction, and indium tin oxide (approximately 80nm) to form the anti-reflection coating and enhance lateral conduction, which is responsible for the blue colour of the surface.\n\nImage: Radiotrefoil ([source](https://commons.wikimedia.org/wiki/File:Unmetallised_Silicon_Heterojunction_solar_cell_precursor.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)",
-  "license_tier": "libre"
+  "source_url": "https://commons.wikimedia.org/wiki/File:Multicrystalline_silicon_wafer_with_thin_film_iridescence.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Multicrystalline_silicon_wafer_with_thin_film_iridescence.jpg"
 }

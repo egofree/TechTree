@@ -1,5 +1,11 @@
 # Telecommunications
 
+![Parabolic antennas on a telecommunications tower on Willans Hill](../images/telecom/telecom_hero.jpg)
+
+> *Parabolic antennas (also known as microwave dishes) on a telecommunications tower on Willans Hill, Wagga Wagga, New South Wales, Australia.  The cylinder shapes are metal shrouds surrounding the parabolic dishes.  The shoud shields the antenna from signals coming from angles outside its main axis...*
+
+> *Image: Bidgee, CC BY-SA 2.5 au*
+
 > **Domain ID**: telecom
 > **Timeline**: Years 10-60+
 > **Organizing Axis**: Chronological — capabilities ordered by technological era from visual signaling through electronic radio

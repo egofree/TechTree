@@ -1,5 +1,11 @@
 # Agriculture
 
+![Harvest, agriculture, grain, wheat-field, combine harvester Fortepan 89614](../images/agriculture/agriculture_hero.jpg)
+
+> *Hungary*
+
+> *Image: FOTO:Fortepan — ID 89614: Adományozó/Donor: Urbán Tamás., CC BY-SA 3.0*
+
 Capabilities in this domain:
 
 ![Soil Management & Composting](../images/agriculture/agriculture_soil-management.jpg)

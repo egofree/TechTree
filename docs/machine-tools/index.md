@@ -1,11 +1,11 @@
 # Machine Tools Bootstrap
 
 
-![Precision metal machining and welding for heavy industrial components](../images/machine-tools/machine-tools.jpg)
+![Machine Shop Arrangement of Tools and Departments, 1906](../images/machine-tools/machine-tools.jpg)
 
-> *Workers and machinery processing heavy steel components inside a manufacturing base in Suzhou. The production line handles OEM steel parts, wind power components, and structural steel assembly. Manufactured and photographed at the facility of Suzhou Leading Top Union Technology Co., Ltd. ( https:...*
+> *Machine Shop Arrangement of Tools and Departments, 1906*
 
-> *Image: Leadingtopunion, CC0*
+> *Image: Oscar E. Perrigo, Public domain*
 
 Capabilities in this domain:
 

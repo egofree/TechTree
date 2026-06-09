@@ -1,5 +1,11 @@
 # Water Infrastructure
 
+![RC Harris Water Treatment Plant - Filtration Building - South Elevation](../images/water/water_hero.jpg)
+
+> *RC Harris Water Treatment Plant - Filtration Building - South Elevation*
+
+> *Image: Jamaps, CC BY-SA 4.0*
+
 Capabilities in this domain:
 
 - [Water Procurement](procurement.md) — wells, rainwater harvesting, spring development, surface water collection

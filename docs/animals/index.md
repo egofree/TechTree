@@ -1,5 +1,11 @@
 # Animals & Animal Husbandry
 
+![Livestock of Brokes Mill Farm - geograph.org.uk - 1902782](../images/animals/animals_hero.jpg)
+
+> *Livestock of Brokes Mill Farm*
+
+> *Image: David Anstiss, CC BY-SA 2.0*
+
 > **Organizing Axis**: Functional — capabilities grouped by the human need they serve (same as plants domain).
 
 Capabilities in this domain:

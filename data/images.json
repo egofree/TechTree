@@ -44697,6 +44697,490 @@
       "search_queries": [],
       "status": "untracked",
       "candidates": []
+    },
+    "agriculture": {
+      "node_name": "Agriculture",
+      "domain": "agriculture",
+      "search_queries": [
+        "agriculture field harvest",
+        "tractor plowing farmland",
+        "wheat field golden"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/agriculture/agriculture_hero.jpg",
+      "attribution": {
+        "title": "Harvest, agriculture, grain, wheat-field, combine harvester Fortepan 89614",
+        "description": "Hungary\n\nTags: harvest, agriculture, grain, wheat-field, combine harvester",
+        "author": "FOTO:Fortepan — ID 89614: Adományozó/Donor: Urbán Tamás.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Harvest,_agriculture,_grain,_wheat-field,_combine_harvester_Fortepan_89614.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Harvest, agriculture, grain, wheat-field, combine harvester Fortepan 89614\nHungary\n\nTags: harvest, agriculture, grain, wheat-field, combine harvester\n\nImage: FOTO:Fortepan — ID 89614: Adományozó/Donor: Urbán Tamás. ([source](https://commons.wikimedia.org/wiki/File:Harvest,_agriculture,_grain,_wheat-field,_combine_harvester_Fortepan_89614.jpg))\nLicense: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)"
+      }
+    },
+    "animals": {
+      "node_name": "Animals",
+      "domain": "animals",
+      "search_queries": [
+        "livestock cattle farm",
+        "animal husbandry sheep",
+        "domestic animals farm"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/animals/animals_hero.jpg",
+      "attribution": {
+        "title": "Livestock of Brokes Mill Farm - geograph.org.uk - 1902782",
+        "description": "Livestock of Brokes Mill Farm",
+        "author": "David Anstiss",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Livestock_of_Brokes_Mill_Farm_-_geograph.org.uk_-_1902782.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Livestock of Brokes Mill Farm - geograph.org.uk - 1902782\nLivestock of Brokes Mill Farm\n\nImage: David Anstiss ([source](https://commons.wikimedia.org/wiki/File:Livestock_of_Brokes_Mill_Farm_-_geograph.org.uk_-_1902782.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
+      }
+    },
+    "automation": {
+      "node_name": "Automation",
+      "domain": "automation",
+      "search_queries": [
+        "industrial automation robot factory",
+        "manufacturing assembly line automation",
+        "robotic arm factory"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/automation/automation_hero.jpg",
+      "attribution": {
+        "title": "Robot arm operates machine in factory setting",
+        "description": "A robot arm uses precise movements to work on machinery inside a factory. Different machines and tools are visible in the workspace. The lighting shows a busy environment.",
+        "author": "Shixart1985",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Robot_arm_operates_machine_in_factory_setting.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Robot arm operates machine in factory setting\nA robot arm uses precise movements to work on machinery inside a factory. Different machines and tools are visible in the workspace. The lighting shows a busy environment.\n\nImage: Shixart1985 ([source](https://commons.wikimedia.org/wiki/File:Robot_arm_operates_machine_in_factory_setting.jpg))\nLicense: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)"
+      }
+    },
+    "cleanrooms": {
+      "node_name": "Cleanrooms",
+      "domain": "cleanrooms",
+      "search_queries": [
+        "cleanroom manufacturing bunny suit",
+        "semiconductor cleanroom",
+        "cleanroom facility white suit"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/cleanrooms/cleanrooms_hero.jpg",
+      "attribution": {
+        "title": "Computer Memory Hard Drive Disk HDD Storage Technology",
+        "description": "Free picture about the big hard drive disk that is open from the comp of digital technology. This historical picture was created for you by  the super conductive friend epSos.de  and it  can be used for free, if you link epSos.de as the original author of the image.\n\nA hard disk drive ( english hard disk drive = HDD ), often referred to as hard drive or hard disk (abbreviated HD called) is a magnetic storage medium of computer technology , which writes data onto the surface of a rotating disk. This is the hard magnetic coating of the disk surface according to the information to be recorded magnetized . By the remanence is the storage of information. The readout of the information is carried out by scanning of the magnetization of the disk surface.\nIn contrast to sequentially addressable storage media such as magnetic tape or tape drives are the storage media direktadressierbaren (german direct access storage devices , DASD allocated) because you can directly access the data.\nRecently, with comparable capacities are flash memory , called Solid State Drives (SSDs) and hybrid memory available (combination of SSD and hard disk drive), which over the same interfaces ( SATA , are, etc.) denotes addressed and simplified as \"hard disks\". SSDs are currently priced well over HDDs.\nThe term \"hard drive\" describes, first, that the magnetic disk is in contrast to the \"Removable Disk\" firmly connected to the drive, or the computer. Second, it corresponds to the English term \"Hard Disk\", which, unlike the flexible (English floppy ) disks in disk consists of rigid material.\nThe storage capacity of a hard disk is calculated from the size of a sector (512 bytes, 2048 bytes, or 4096 bytes) multiplied by the number of available sectors. The size of the first hard drives were measured in megabytes, from about 1997, in gigabytes, since about 2008, there are plates in the terabyte range.\nThe first hard disk drive IBM 350 of 1956 had an overall size of 24 \". Mid-1970 models came with a size of 8 \", which is also quite fast by the much more manageable and easier especially 5.25\" were replaced hard drives. In between there were sizes of 14 \"and 9\".\nThe write head ( magnetic head ) of the writing finger, in principle, a tiny electromagnet , magnetized tiny areas of the disc surface and writes thus varying the data to the hard disk. Due to an air cushion, which is generated by the friction of the air to the rotating disk surface, the floating write (see -ground ). The flying height of 2000 was in the range of about 20 nm due to the short distance, the air inside the disk enclosure contain any impurities. With newer drives with perpendicular recording technology , this distance shrinks to 5 to 6 nm Currently announced plates (2011) permit with 1 TB / disk even at altitudes of up to 3 nm, so the signal by distance loss is not weakened too much. The production of hard disks are therefore like those of semiconductors in cleanrooms . The ground effect in this context is very useful for the maintenance of the correct altitude of the write head over the rotating disk.\nIn older disk write heads have been retracted in certain models of the plate stack. Later (1990, 2000) has been increasingly the park position indoors preferred. 2008 are found in both versions. For notebook drives the park position outside of the stack of plates provides extra protection against damage to the surface of the disks during transport (concussion) of the hard disk.\nWith modern disks is usually the true geometry , ie the number of sectors, heads and cylinders, which are managed by the hard disk controller, to the outside (that is for the computer or the hard disk drivers) are not visible.\nThe computer uses the hard drive works, then with a virtual disk, which has completely different geometry data. This explains why, for example, a hard disk, the real has only four heads, is seen by the computer with 255 heads. The reason for this virtual concept is that you wanted to overcome limitations of PC-compatible hardware. Today usual disks continue to share the plates in zones , whereby the number of blocks per track is equal to within a zone, but the change of the zone from the inside to the outside increases. The innermost zone has. Few blocks per track, the outermost zone, most blocks per track, so does the continuous transfer rate when changing zones from outside to inside.\nThe disk controller can hide bad blocks, and then expand a block from a reserve area. For the computer, it always looks as if all the defective blocks and usable.\n\n\nHave fun and talk with your friends about this picture !",
+        "author": "epSos.de",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Computer_Memory_Hard_Drive_Disk_HDD_Storage_Technology.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Computer Memory Hard Drive Disk HDD Storage Technology\nFree picture about the big hard drive disk that is open from the comp of digital technology. This historical picture was created for you by  the super conductive friend epSos.de  and it  can be used for free, if you link epSos.de as the original author of the image.\n\nA hard disk drive ( english hard disk drive = HDD ), often referred to as hard drive or hard disk (abbreviated HD called) is a magnetic storage medium of computer technology , which writes data onto the surface of a rotating disk. This is the hard magnetic coating of the disk surface according to the information to be recorded magnetized . By the remanence is the storage of information. The readout of the information is carried out by scanning of the magnetization of the disk surface.\nIn contrast to sequentially addressable storage media such as magnetic tape or tape drives are the storage media direktadressierbaren (german direct access storage devices , DASD allocated) because you can directly access the data.\nRecently, with comparable capacities are flash memory , called Solid State Drives (SSDs) and hybrid memory available (combination of SSD and hard disk drive), which over the same interfaces ( SATA , are, etc.) denotes addressed and simplified as \"hard disks\". SSDs are currently priced well over HDDs.\nThe term \"hard drive\" describes, first, that the magnetic disk is in contrast to the \"Removable Disk\" firmly connected to the drive, or the computer. Second, it corresponds to the English term \"Hard Disk\", which, unlike the flexible (English floppy ) disks in disk consists of rigid material.\nThe storage capacity of a hard disk is calculated from the size of a sector (512 bytes, 2048 bytes, or 4096 bytes) multiplied by the number of available sectors. The size of the first hard drives were measured in megabytes, from about 1997, in gigabytes, since about 2008, there are plates in the terabyte range.\nThe first hard disk drive IBM 350 of 1956 had an overall size of 24 \". Mid-1970 models came with a size of 8 \", which is also quite fast by the much more manageable and easier especially 5.25\" were replaced hard drives. In between there were sizes of 14 \"and 9\".\nThe write head ( magnetic head ) of the writing finger, in principle, a tiny electromagnet , magnetized tiny areas of the disc surface and writes thus varying the data to the hard disk. Due to an air cushion, which is generated by the friction of the air to the rotating disk surface, the floating write (see -ground ). The flying height of 2000 was in the range of about 20 nm due to the short distance, the air inside the disk enclosure contain any impurities. With newer drives with perpendicular recording technology , this distance shrinks to 5 to 6 nm Currently announced plates (2011) permit with 1 TB / disk even at altitudes of up to 3 nm, so the signal by distance loss is not weakened too much. The production of hard disks are therefore like those of semiconductors in cleanrooms . The ground effect in this context is very useful for the maintenance of the correct altitude of the write head over the rotating disk.\nIn older disk write heads have been retracted in certain models of the plate stack. Later (1990, 2000) has been increasingly the park position indoors preferred. 2008 are found in both versions. For notebook drives the park position outside of the stack of plates provides extra protection against damage to the surface of the disks during transport (concussion) of the hard disk.\nWith modern disks is usually the true geometry , ie the number of sectors, heads and cylinders, which are managed by the hard disk controller, to the outside (that is for the computer or the hard disk drivers) are not visible.\nThe computer uses the hard drive works, then with a virtual disk, which has completely different geometry data. This explains why, for example, a hard disk, the real has only four heads, is seen by the computer with 255 heads. The reason for this virtual concept is that you wanted to overcome limitations of PC-compatible hardware. Today usual disks continue to share the plates in zones , whereby the number of blocks per track is equal to within a zone, but the change of the zone from the inside to the outside increases. The innermost zone has. Few blocks per track, the outermost zone, most blocks per track, so does the continuous transfer rate when changing zones from outside to inside.\nThe disk controller can hide bad blocks, and then expand a block from a reserve area. For the computer, it always looks as if all the defective blocks and usable.\n\n\nHave fun and talk with your friends about this picture !\n\nImage: epSos.de ([source](https://commons.wikimedia.org/wiki/File:Computer_Memory_Hard_Drive_Disk_HDD_Storage_Technology.jpg))\nLicense: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)"
+      }
+    },
+    "construction": {
+      "node_name": "Construction",
+      "domain": "construction",
+      "search_queries": [
+        "building construction crane site",
+        "steel framework construction",
+        "concrete pouring building"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/construction/construction_hero.jpg",
+      "attribution": {
+        "title": "Building construction crane Moira Close Broadwater Farm Haringey 2025 04",
+        "description": "Building construction crane with men at work, at Moira Close, in the Borough of Haringey in London, England, in April 2025.Wikimedia (2025) makes it difficult to immediately view photo groups related to this image. To see its most relevant allied photos, click  on Tottenham, this uploader's Buildings in London photos, and 'categories' at the bottom of the page.This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name number and/or time marking.Camera: Canon PowerShot SX60 HSSoftware: DxO PhotoLab 7 Elite.",
+        "author": "Acabashi",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Building_construction_crane_Moira_Close_Broadwater_Farm_Haringey_2025_04.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Building construction crane Moira Close Broadwater Farm Haringey 2025 04\nBuilding construction crane with men at work, at Moira Close, in the Borough of Haringey in London, England, in April 2025.Wikimedia (2025) makes it difficult to immediately view photo groups related to this image. To see its most relevant allied photos, click  on Tottenham, this uploader's Buildings in London photos, and 'categories' at the bottom of the page.This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name number and/or time marking.Camera: Canon PowerShot SX60 HSSoftware: DxO PhotoLab 7 Elite.\n\nImage: Acabashi ([source](https://commons.wikimedia.org/wiki/File:Building_construction_crane_Moira_Close_Broadwater_Farm_Haringey_2025_04.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
+    },
+    "cryogenics": {
+      "node_name": "Cryogenics",
+      "domain": "cryogenics",
+      "search_queries": [
+        "liquid nitrogen dewar flask",
+        "cryogenics laboratory cold",
+        "liquid helium cryostat"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/cryogenics/cryogenics_hero.jpg",
+      "attribution": {
+        "title": "Small laboratory Dewar 1",
+        "description": "A small dewar for liquid nitrogen for lab use",
+        "author": "real name: Nadina Wiórkiewicz\npl.wiki: Nadine90\ncommons: Nadine90",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Small_laboratory_Dewar_1.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Small laboratory Dewar 1\nA small dewar for liquid nitrogen for lab use\n\nImage: real name: Nadina Wiórkiewicz\npl.wiki: Nadine90\ncommons: Nadine90 ([source](https://commons.wikimedia.org/wiki/File:Small_laboratory_Dewar_1.jpg))\nLicense: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)"
+      }
+    },
+    "defense": {
+      "node_name": "Defense",
+      "domain": "defense",
+      "search_queries": [
+        "fortification medieval castle wall",
+        "armor shield historical",
+        "military fortification defense"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/defense/defense_hero.jpg",
+      "attribution": {
+        "title": "Group of medieval warriors in armor training at a historical site during a reenactment event in a castle setting",
+        "description": "Warriors in armor gather at a historical site to practice their skills. They carry swords and shields while preparing for a reenactment. The setting shows an old castle wall in the background.",
+        "author": "Shixart1985",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Group_of_medieval_warriors_in_armor_training_at_a_historical_site_during_a_reenactment_event_in_a_castle_setting.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Group of medieval warriors in armor training at a historical site during a reenactment event in a castle setting\nWarriors in armor gather at a historical site to practice their skills. They carry swords and shields while preparing for a reenactment. The setting shows an old castle wall in the background.\n\nImage: Shixart1985 ([source](https://commons.wikimedia.org/wiki/File:Group_of_medieval_warriors_in_armor_training_at_a_historical_site_during_a_reenactment_event_in_a_castle_setting.jpg))\nLicense: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)"
+      }
+    },
+    "economics-organization": {
+      "node_name": "Economics Organization",
+      "domain": "economics-organization",
+      "search_queries": [
+        "accounting ledger book historical",
+        "market trading floor",
+        "currency coins gold"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/economics-organization/economics-organization_hero.jpg",
+      "attribution": {
+        "title": "Ming Gold Coins (14153035681)",
+        "description": "Manchu Gallery, Liaoning Museum, Shenyang. Complete indexed photo collection at WorldHistoryPics.com.",
+        "author": "Gary Todd from Xinzheng, China",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ming_Gold_Coins_(14153035681).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Ming Gold Coins (14153035681)\nManchu Gallery, Liaoning Museum, Shenyang. Complete indexed photo collection at WorldHistoryPics.com.\n\nImage: Gary Todd from Xinzheng, China ([source](https://commons.wikimedia.org/wiki/File:Ming_Gold_Coins_(14153035681).jpg))\nLicense: [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)"
+      }
+    },
+    "ehs": {
+      "node_name": "Ehs",
+      "domain": "ehs",
+      "search_queries": [
+        "safety equipment PPE hard hat",
+        "industrial safety worker",
+        "hazard chemical safety"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/ehs/ehs_hero.jpg",
+      "attribution": {
+        "title": "AVONDALE SHIPYARD WORKER WEARS SPECIAL EAR MUFFS FOR PROTECTION FROM THE HEAVY LEVEL OF INDUSTRIAL NOISE POLLUTION",
+        "description": "",
+        "author": "John Messina",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:AVONDALE_SHIPYARD_WORKER_WEARS_SPECIAL_EAR_MUFFS_FOR_PROTECTION_FROM_THE_HEAVY_LEVEL_OF_INDUSTRIAL_NOISE_POLLUTION_-_NARA_-_546041.jpg",
+        "license_tier": "libre",
+        "attribution_md": "AVONDALE SHIPYARD WORKER WEARS SPECIAL EAR MUFFS FOR PROTECTION FROM THE HEAVY LEVEL OF INDUSTRIAL NOISE POLLUTION\n\nImage: John Messina ([source](https://commons.wikimedia.org/wiki/File:AVONDALE_SHIPYARD_WORKER_WEARS_SPECIAL_EAR_MUFFS_FOR_PROTECTION_FROM_THE_HEAVY_LEVEL_OF_INDUSTRIAL_NOISE_POLLUTION_-_NARA_-_546041.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "electrochemistry": {
+      "node_name": "Electrochemistry",
+      "domain": "electrochemistry",
+      "search_queries": [
+        "electrolysis apparatus laboratory",
+        "electroplating bath industrial",
+        "galvanic cell battery"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/electrochemistry/electrochemistry_hero.jpg",
+      "attribution": {
+        "title": "Galvanic Degradation Mechanism of Polymer",
+        "description": "This illustration depicts mechanism of degradation of thermoset polymer (plastic) by galvanic action first published in the literature in 1990. When carbon fiber reinforced polymer (CFRP) is in contact with an active metal such as aluminum or iron, and in contact with salt water, a galvanic circuit, or battery will be created. Carbon fiber in the CFRP is the cathode. It has positive charge (+). The metal, for example aluminum, is the anode. It has negative charge (-). Electrons will flow from the metal to the CFRP. As a result, strong hydroxide ions (OH-) will be generated at the CFRP with Ph of about 12 or 13. This is a type of crevice corrosion where the polymer disappears, leaving bare carbon fibers. This has implications for aircraft design to protect the polyimide CFRP for maximum safety.",
+        "author": "Geometric777",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Galvanic_Degradation_Mechanism_of_Polymer.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Galvanic Degradation Mechanism of Polymer\nThis illustration depicts mechanism of degradation of thermoset polymer (plastic) by galvanic action first published in the literature in 1990. When carbon fiber reinforced polymer (CFRP) is in contact with an active metal such as aluminum or iron, and in contact with salt water, a galvanic circuit, or battery will be created. Carbon fiber in the CFRP is the cathode. It has positive charge (+). The metal, for example aluminum, is the anode. It has negative charge (-). Electrons will flow from the metal to the CFRP. As a result, strong hydroxide ions (OH-) will be generated at the CFRP with Ph of about 12 or 13. This is a type of crevice corrosion where the polymer disappears, leaving bare carbon fibers. This has implications for aircraft design to protect the polyimide CFRP for maximum safety.\n\nImage: Geometric777 ([source](https://commons.wikimedia.org/wiki/File:Galvanic_Degradation_Mechanism_of_Polymer.jpg))\nLicense: [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)"
+      }
+    },
+    "electronics": {
+      "node_name": "Electronics",
+      "domain": "electronics",
+      "search_queries": [
+        "circuit board electronics PCB",
+        "electronic components capacitors resistors",
+        "soldering circuit board"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/electronics/electronics_hero.jpg",
+      "attribution": {
+        "title": "Electronics PCB circuit board 001 (51131861296)",
+        "description": "microphoto of some electronics circuit board\n(I think it is from some smartphone)\nphoto taken with a digital microscope\nauthor: Jan Helebrant\n&lt;a href=\"http://www.juhele.blogspot.com\" rel=\"noreferrer nofollow\"&gt;www.juhele.blogspot.com&lt;/a&gt;\n\nlicense CC0 Public Domain Dedication",
+        "author": "Jan Helebrant",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Electronics_PCB_circuit_board_001_(51131861296).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Electronics PCB circuit board 001 (51131861296)\nmicrophoto of some electronics circuit board\n(I think it is from some smartphone)\nphoto taken with a digital microscope\nauthor: Jan Helebrant\n&lt;a href=\"http://www.juhele.blogspot.com\" rel=\"noreferrer nofollow\"&gt;www.juhele.blogspot.com&lt;/a&gt;\n\nlicense CC0 Public Domain Dedication\n\nImage: Jan Helebrant ([source](https://commons.wikimedia.org/wiki/File:Electronics_PCB_circuit_board_001_(51131861296).jpg))\nLicense: [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)"
+      }
+    },
+    "food-processing": {
+      "node_name": "Food Processing",
+      "domain": "food-processing",
+      "search_queries": [
+        "food processing factory industrial",
+        "canning factory production",
+        "brewery fermentation tanks"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/food-processing/food-processing_hero.jpg",
+      "attribution": {
+        "title": "Food processing plant - geograph.org.uk - 2831684",
+        "description": "Food processing plant",
+        "author": "Hugh Venables",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Food_processing_plant_-_geograph.org.uk_-_2831684.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Food processing plant - geograph.org.uk - 2831684\nFood processing plant\n\nImage: Hugh Venables ([source](https://commons.wikimedia.org/wiki/File:Food_processing_plant_-_geograph.org.uk_-_2831684.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
+      }
+    },
+    "marine": {
+      "node_name": "Marine",
+      "domain": "marine",
+      "search_queries": [
+        "ship vessel ocean freighter",
+        "boat building shipyard",
+        "maritime navigation sailing"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/marine/marine_hero.jpg",
+      "attribution": {
+        "title": "Parkol Marine shipyard Whitby",
+        "description": "Parkol Marine shipyard Whitby - Parkol Marine are an engineering and ship (boat) building company based in Whitby, North Yorkshire. They have a dry dock and the fabrication hangar is the structure with white cladding on it. The crane lowers new build ships into the river.",
+        "author": "The joy of all things",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Parkol_Marine_shipyard_Whitby.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Parkol Marine shipyard Whitby\nParkol Marine shipyard Whitby - Parkol Marine are an engineering and ship (boat) building company based in Whitby, North Yorkshire. They have a dry dock and the fabrication hangar is the structure with white cladding on it. The crane lowers new build ships into the river.\n\nImage: The joy of all things ([source](https://commons.wikimedia.org/wiki/File:Parkol_Marine_shipyard_Whitby.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
+    },
+    "mathematics": {
+      "node_name": "Mathematics",
+      "domain": "mathematics",
+      "search_queries": [
+        "mathematics education geometric instruments",
+        "geometric diagram compass ruler",
+        "mathematical instruments historical"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/mathematics/mathematics_hero.jpg",
+      "attribution": {
+        "title": "Mathematical case, William & Samuel Jones, London, before 1810 - Museu da Ciência da Universidade de Coimbra - University of Coimbra - Coimbra, Portugal - DSC09128",
+        "description": "Exhibit in the Museu da Ciência da Universidade de Coimbra - University of Coimbra - Coimbra, Portugal.",
+        "author": "Daderot",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mathematical_case,_William_%26_Samuel_Jones,_London,_before_1810_-_Museu_da_Ci%C3%AAncia_da_Universidade_de_Coimbra_-_University_of_Coimbra_-_Coimbra,_Portugal_-_DSC09128.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Mathematical case, William & Samuel Jones, London, before 1810 - Museu da Ciência da Universidade de Coimbra - University of Coimbra - Coimbra, Portugal - DSC09128\nExhibit in the Museu da Ciência da Universidade de Coimbra - University of Coimbra - Coimbra, Portugal.\n\nImage: Daderot ([source](https://commons.wikimedia.org/wiki/File:Mathematical_case,_William_%26_Samuel_Jones,_London,_before_1810_-_Museu_da_Ci%C3%AAncia_da_Universidade_de_Coimbra_-_University_of_Coimbra_-_Coimbra,_Portugal_-_DSC09128.jpg))\nLicense: [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)"
+      }
+    },
+    "petroleum": {
+      "node_name": "Petroleum",
+      "domain": "petroleum",
+      "search_queries": [
+        "oil refinery distillation tower",
+        "oil well drilling rig",
+        "petroleum crude oil"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/petroleum/petroleum_hero.webp",
+      "attribution": {
+        "title": "Us petroleum and crude oil",
+        "description": "Us petroleum and crude oil",
+        "author": "Wikideas1",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Us_petroleum_and_crude_oil.webp",
+        "license_tier": "libre",
+        "attribution_md": "Us petroleum and crude oil\nUs petroleum and crude oil\n\nImage: Wikideas1 ([source](https://commons.wikimedia.org/wiki/File:Us_petroleum_and_crude_oil.webp))\nLicense: [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)"
+      }
+    },
+    "precision-motion": {
+      "node_name": "Precision Motion",
+      "domain": "precision-motion",
+      "search_queries": [
+        "precision machining lathe",
+        "micrometer measurement gauge",
+        "CNC machine tool precision"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/precision-motion/precision-motion_hero.jpg",
+      "attribution": {
+        "title": "Micrometer (screw gauge)",
+        "description": "Screw Gauge",
+        "author": "Riaz",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Micrometer_(screw_gauge).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Micrometer (screw gauge)\nScrew Gauge\n\nImage: Riaz ([source](https://commons.wikimedia.org/wiki/File:Micrometer_(screw_gauge).jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
+    },
+    "quality-control": {
+      "node_name": "Quality Control",
+      "domain": "quality-control",
+      "search_queries": [
+        "quality inspection measurement gauge",
+        "metrology laboratory calibration",
+        "quality control testing"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/quality-control/quality-control_hero.jpg",
+      "attribution": {
+        "title": "Bangladesh Standards and Testing Institution meeting on goods and services quality control 2019-12-31 (PID-0035042)",
+        "description": "Industries Minister Nurul Majid Mahmud Humayun presided over the council meeting of BSTI at the BSTI auditorium in Tejgaon, Dhaka, on the national level control of quality of goods and services (Tuesday, December 31, 2019).",
+        "author": "Press Information Department",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bangladesh_Standards_and_Testing_Institution_meeting_on_goods_and_services_quality_control_2019-12-31_(PID-0035042).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Bangladesh Standards and Testing Institution meeting on goods and services quality control 2019-12-31 (PID-0035042)\nIndustries Minister Nurul Majid Mahmud Humayun presided over the council meeting of BSTI at the BSTI auditorium in Tejgaon, Dhaka, on the national level control of quality of goods and services (Tuesday, December 31, 2019).\n\nImage: Press Information Department ([source](https://commons.wikimedia.org/wiki/File:Bangladesh_Standards_and_Testing_Institution_meeting_on_goods_and_services_quality_control_2019-12-31_(PID-0035042).jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "software-bootstrapping": {
+      "node_name": "Software Bootstrapping",
+      "domain": "software-bootstrapping",
+      "search_queries": [
+        "computer programming historical punch cards",
+        "early computing punch card",
+        "computer room mainframe"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/software-bootstrapping/software-bootstrapping_hero.jpg",
+      "attribution": {
+        "title": "A computer operator works at an IBM 4381 four-window work station in a computer room at the Arnold Engineering Development Center, where numerous mainframe and super computers are used to obtain and manage data",
+        "description": "The original finding aid described this photograph as: Base: Arnold Air Force Base State: Tennessee (TN) Country: United States Of America (USA) Scene Camera Operator: SMSGT. Robert Wickley Release Status: Released to Public",
+        "author": "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_computer_operator_works_at_an_IBM_4381_four-window_work_station_in_a_computer_room_at_the_Arnold_Engineering_Development_Center,_where_numerous_mainframe_and_super_computers_are_u_-_DPLA_-_b8ef28c4e9b101b7ccc7f2e5ee1a68ed.jpeg",
+        "license_tier": "libre",
+        "attribution_md": "A computer operator works at an IBM 4381 four-window work station in a computer room at the Arnold Engineering Development Center, where numerous mainframe and super computers are used to obtain and manage data\nThe original finding aid described this photograph as: Base: Arnold Air Force Base State: Tennessee (TN) Country: United States Of America (USA) Scene Camera Operator: SMSGT. Robert Wickley Release Status: Released to Public\n\nImage: Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994 ([source](https://commons.wikimedia.org/wiki/File:A_computer_operator_works_at_an_IBM_4381_four-window_work_station_in_a_computer_room_at_the_Arnold_Engineering_Development_Center,_where_numerous_mainframe_and_super_computers_are_u_-_DPLA_-_b8ef28c4e9b101b7ccc7f2e5ee1a68ed.jpeg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "telecom": {
+      "node_name": "Telecom",
+      "domain": "telecom",
+      "search_queries": [
+        "telecommunications antenna tower",
+        "fiber optic cable network",
+        "telephone exchange switching"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/telecom/telecom_hero.jpg",
+      "attribution": {
+        "title": "Parabolic antennas on a telecommunications tower on Willans Hill",
+        "description": "Parabolic antennas (also known as microwave dishes) on a telecommunications tower on Willans Hill, Wagga Wagga, New South Wales, Australia.  The cylinder shapes are metal shrouds surrounding the parabolic dishes.  The shoud shields the antenna from signals coming from angles outside its main axis.  This allows antennas located close to each other to use the same microwave frequencies without interfering with each other.  The antennas have thin plastic sheets over their apertures to keep out precipitation.",
+        "author": "Bidgee",
+        "license": "CC BY-SA 2.5 au",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5/au/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Parabolic_antennas_on_a_telecommunications_tower_on_Willans_Hill.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Parabolic antennas on a telecommunications tower on Willans Hill\nParabolic antennas (also known as microwave dishes) on a telecommunications tower on Willans Hill, Wagga Wagga, New South Wales, Australia.  The cylinder shapes are metal shrouds surrounding the parabolic dishes.  The shoud shields the antenna from signals coming from angles outside its main axis.  This allows antennas located close to each other to use the same microwave frequencies without interfering with each other.  The antennas have thin plastic sheets over their apertures to keep out precipitation.\n\nImage: Bidgee ([source](https://commons.wikimedia.org/wiki/File:Parabolic_antennas_on_a_telecommunications_tower_on_Willans_Hill.jpg))\nLicense: [CC BY-SA 2.5 au](https://creativecommons.org/licenses/by-sa/2.5/au/deed.en)"
+      }
+    },
+    "ultra-pure": {
+      "node_name": "Ultra Pure",
+      "domain": "ultra-pure",
+      "search_queries": [
+        "clean room wafer silicon",
+        "ultra pure water laboratory",
+        "semiconductor purity laboratory"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/ultra-pure/ultra-pure_hero.jpg",
+      "attribution": {
+        "title": "CNMS clean room (9068814602)",
+        "description": "Phil Evans, a research scientist in the Quantum Information Science group, rinses a silicon-on-insulator wafer with isopropyl alcohol following electron beam lithography at the Center for Nanophase Materials Sciences. Dr. Evans is fabricating quantum photonic circuits – consisting of waveguides and other elements -  to manipulate single photons for future quantum communications, sensing, and computing technologies.",
+        "author": "Oak Ridge National Laboratory",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:CNMS_clean_room_(9068814602).jpg",
+        "license_tier": "libre",
+        "attribution_md": "CNMS clean room (9068814602)\nPhil Evans, a research scientist in the Quantum Information Science group, rinses a silicon-on-insulator wafer with isopropyl alcohol following electron beam lithography at the Center for Nanophase Materials Sciences. Dr. Evans is fabricating quantum photonic circuits – consisting of waveguides and other elements -  to manipulate single photons for future quantum communications, sensing, and computing technologies.\n\nImage: Oak Ridge National Laboratory ([source](https://commons.wikimedia.org/wiki/File:CNMS_clean_room_(9068814602).jpg))\nLicense: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)"
+      }
+    },
+    "vacuum": {
+      "node_name": "Vacuum",
+      "domain": "vacuum",
+      "search_queries": [
+        "vacuum pump chamber",
+        "vacuum technology apparatus",
+        "vacuum chamber industrial"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/vacuum/vacuum_hero.jpg",
+      "attribution": {
+        "title": "Electric Propulsion Laboratory Vacuum Chamber (GRC-1964-C-70481)",
+        "description": "Engineer Paul Reader and his colleagues take environmental measurements during testing of a 20-inch diameter ion engine in a vacuum tank at the Electric Propulsion Laboratory (EPL). Researchers at the Lewis Research Center were investigating the use of a permanent-magnet circuit to create the magnetic field required power electron bombardment ion engines. Typical ion engines use a solenoid coil to create this magnetic field. It was thought that the substitution of a permanent magnet would create a comparable magnetic field with a lower weight. Testing of the magnet system in the EPL vacuum tanks revealed no significant operational problems. Reader found the weight of the two systems was similar, but that the thruster’s efficiency increased with the magnet. The EPL contained a series of large vacuum tanks that could be used to simulate conditions in space. Large vacuum pumps reduced the internal air pressure, and a refrigeration system created the cryogenic temperatures found in space.",
+        "author": "NASA Glenn Research Center",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Electric_Propulsion_Laboratory_Vacuum_Chamber_(GRC-1964-C-70481).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Electric Propulsion Laboratory Vacuum Chamber (GRC-1964-C-70481)\nEngineer Paul Reader and his colleagues take environmental measurements during testing of a 20-inch diameter ion engine in a vacuum tank at the Electric Propulsion Laboratory (EPL). Researchers at the Lewis Research Center were investigating the use of a permanent-magnet circuit to create the magnetic field required power electron bombardment ion engines. Typical ion engines use a solenoid coil to create this magnetic field. It was thought that the substitution of a permanent magnet would create a comparable magnetic field with a lower weight. Testing of the magnet system in the EPL vacuum tanks revealed no significant operational problems. Reader found the weight of the two systems was similar, but that the thruster’s efficiency increased with the magnet. The EPL contained a series of large vacuum tanks that could be used to simulate conditions in space. Large vacuum pumps reduced the internal air pressure, and a refrigeration system created the cryogenic temperatures found in space.\n\nImage: NASA Glenn Research Center ([source](https://commons.wikimedia.org/wiki/File:Electric_Propulsion_Laboratory_Vacuum_Chamber_(GRC-1964-C-70481).jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
+    },
+    "water": {
+      "node_name": "Water",
+      "domain": "water",
+      "search_queries": [
+        "water treatment plant filtration",
+        "water purification system",
+        "dam reservoir water supply"
+      ],
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/water/water_hero.jpg",
+      "attribution": {
+        "title": "RC Harris Water Treatment Plant - Filtration Building - South Elevation",
+        "description": "RC Harris Water Treatment Plant - Filtration Building - South Elevation",
+        "author": "Jamaps",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RC_Harris_Water_Treatment_Plant_-_Filtration_Building_-_South_Elevation.jpg",
+        "license_tier": "libre",
+        "attribution_md": "RC Harris Water Treatment Plant - Filtration Building - South Elevation\nRC Harris Water Treatment Plant - Filtration Building - South Elevation\n\nImage: Jamaps ([source](https://commons.wikimedia.org/wiki/File:RC_Harris_Water_Treatment_Plant_-_Filtration_Building_-_South_Elevation.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
     }
   }
 }

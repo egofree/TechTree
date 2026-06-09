@@ -368,5 +368,3 @@ The float zone process produces the purest silicon available, because nothing to
 ---
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
-
-![silicon crystal growth diagram](../images/silicon/diagram:silicon_crystal-growth.jpg)

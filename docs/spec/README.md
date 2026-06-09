@@ -78,9 +78,7 @@ data/
       {from}__{to}.jsonld       # One file per edge
   products/
     {id}.jsonld                 # Product entities
-  archive/
-    nodes.json                  # Original monolithic node data
-    edges.json                  # Original monolithic edge data
+  archive/                       # Retired monolithic data (do not use)
 tests/                          # 60 conformance tests (valid/ + invalid/)
 docs/spec/
   process-knowledge-standard.md # The formal spec (950+ lines)

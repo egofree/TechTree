@@ -173,7 +173,6 @@ tech-tree-bootstrap/
 │   ├── index.md        # Unified entry point
 │   ├── {domain}/       # 43 technology domain directories
 │   ├── glossary/       # 6,234 auto-generated glossary entries
-│   ├── images/         # Wikimedia-sourced per-domain images
 │   └── supporting/     # Schema spec, checklist, resources
 ├── data/               # Structured data (JSON-LD)
 │   ├── entities/       # 441 entity files (JSON-LD)
@@ -181,7 +180,6 @@ tech-tree-bootstrap/
 │   ├── schema/         # JSON Schema validation files
 │   ├── glossary.json   # 11,966 glossary terms with relevance ratings
 │   ├── plants.json     # Plant species catalog
-│   ├── images.json     # Image metadata
 │   └── resources.json  # External resource references
 ├── diagrams/           # Auto-generated (DO NOT hand-edit)
 │   ├── mermaid/        # .mmd flowcharts (44 domains)

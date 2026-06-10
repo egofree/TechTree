@@ -15,7 +15,7 @@ tech-tree-bootstrap/
 │   ├── products/              # Product/material entity .jsonld files
 │   ├── archive/               # Old monolithic nodes.json / edges.json (retired)
 │   ├── glossary.json          # Auto-generated glossary
-│   └── plants.json, images.json, resources.json, checklist.yaml
+│   └── plants.json, resources.json, checklist.yaml
 ├── docs/
 │   ├── index.md               # Entry point
 │   ├── {domain}/              # 43 domain directories with capability .md files

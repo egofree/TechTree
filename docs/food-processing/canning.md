@@ -8,28 +8,13 @@
 > **Outputs**: canned_food, retort_pouched_food, sterilized_food, sealed_containers
 > **Critical**: Yes — canning provides the only reliable multi-year food storage method that preserves complete nutrition without refrigeration, enabling urban workforce concentration and long-distance food logistics
 
-
 Canning is the industrial process of preserving food by heating it in hermetically sealed containers to destroy all viable microorganisms, then maintaining the seal to prevent recontamination. Invented by Nicolas Appert in 1809 (glass containers) and industrialized with tin-plated steel cans by Peter Durand in 1810, canning remains the gold standard for shelf-stable food preservation. Properly canned food retains nutritional value for 2-5 years at ambient temperature — no refrigeration, no freezing, no ongoing energy input required.
 
 For a civilization bootstrap, canning solves the critical problem of food logistics. Workers in mines, foundries, and factories cannot grow their own food. Canned food transports without spoilage across any distance, stores without refrigeration for years, and requires no preparation beyond opening and heating. The technology represents a convergence of [metals](../metals/index.md) (tinplate, steel), [ceramics](../ceramics/index.md) (glass jars), [energy](../energy/index.md) (steam for retorts), and [sanitation](../health/sanitation.md) (microbiology knowledge).
 
 While [Food Preservation](preservation.md) covers the full spectrum of preservation methods, this document focuses exclusively on thermal sterilization in sealed containers — the methodology, equipment, safety requirements, and quality control systems that make canning work at industrial scale.
 
-
 ## Materials
-
-![Concepts for detection of extraterrestrial life](../images/food-processing/food-processing_canning.jpg)
-
-> *Bibliography: p.51-53*
-
-> *Image: Quimby, Freeman Henry, 1915-, Public domain*
-
-
-![Cylindrical-research-autoclave-illustration](../images/food-processing/food-processing_canning-diagram.jpg)
-
-> *Cutaway illustration of a cylindrical-chamber autoclave*
-
-> *Image: Priorclave North America, CC BY-SA 4.0*
 
 - **Tinplate**: Steel sheet coated with 0.5-1.5 μm tin. Sheet thickness 0.15-0.30 mm. Tin prevents iron-catalyzed food oxidation and corrosion. Source: [Metals](../metals/iron-steel.md) — requires tinplating capability.
 - **Glass jars**: Soda-lime glass with wide mouth, heat-resistant to 150°C+ (thermal shock resistant). Source: [Glass](../glass/basic.md) or [Ceramics](../ceramics/kilns.md).
@@ -64,7 +49,6 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 | Steam (processing) | 150-300 kg | [Energy](../energy/engine.md) — boiler | Direct-fired retort (less uniform) |
 | Cooling water | 500-1000 L | [Water](../water/index.md) | Recirculated with cooling tower |
 | Labels (paper) | 1000 sheets | [Paper](../foundations/food-agriculture.md) | Unlabeled (identify by can code stamp) |
-
 
 ## Can Manufacturing (Three-Piece Tinplate Can)
 
@@ -166,7 +150,6 @@ For products where sterilization would destroy quality (juice, beer, dairy):
 - Requires plate heat exchanger with precision-machined stainless steel plates and food-grade gaskets — not achievable without industrial metalworking
 - Pasteurized products still require refrigeration (0-4°C) and have limited shelf life (5-7 days for HTST milk) — does not eliminate cold chain dependency
 - Divert valve mechanism requires reliable temperature-sensing instrumentation — mechanical or electrical failure sends under-pasteurized product to packaging
-
 
 ## Thermal Death Time Parameters for C. botulinum
 

@@ -10,19 +10,6 @@
 
 ## Water Supply & Purification
 
-![World map of total official financial flows for water supply and sanitation, by recipient, 2020, OWID](../images/health/health_sanitation.jpg)
-
-> *water supply*
-
-> *Image: MDWiki(from Our World In Data), CC BY 4.0*
-
-![World map of total official financial flows for water supply and sanitation, by recipient, 2020, OWID](../images/health/health_sanitation.png)
-
-> *water supply*
-
-> *Image: MDWiki(from Our World In Data), CC BY 4.0*
-
-
 **Well construction**:
 - **Dug wells**: Hand-dug 1-2 m diameter, 5-20 m deep. Line with stone or brick (dry-laid, mortar at top to prevent surface contamination). Cover with wooden or stone cap. Rope and bucket for drawing. Locate uphill and ≥30 m from latrines, graves, animal pens.
 - **Driven wells**: Drive steel pipe (3-5 cm diameter) with pointed screen tip into ground using sledge hammer or drop weight. Fast, works in sandy/gravelly soil. Depth 5-15 m. Attach hand pump.
@@ -117,7 +104,6 @@
 - **Pit dimensions**: 0.3-0.5 m² cross-section × 2-3 m depth (deeper pits last longer but are harder to dig). A 0.5 m² × 3 m pit = 1.5 m³ volume, serving a family of 6 for approximately 5-6 years at 0.04 m³/person/year fill rate.
 - **Superstructure**: Privacy enclosure of local materials (wood, brick, corrugated metal). Floor slab: reinforced concrete (preferred, 75-100 mm thick) or wood. Hole shape: keyhole (rear opening for anal cleansing) or circular. Footrests positioned for stable squatting.
 - **Ventilated improved pit (VIP) latrine**: Adds a vent pipe (minimum 150 mm diameter PVC or brick) extending at least 0.5 m above the roofline, topped with a fly screen (stainless steel mesh, 1-2 mm openings). Dark interior + bright vent top creates updraft. Flies attracted to light fly up the pipe and are trapped by the screen. Reduces fly breeding by 90-95% and significantly reduces odor. Pit should be at least 3 m deep to allow adequate air volume.
-
 
 ## Safety & Hazards
 
@@ -244,7 +230,6 @@
 | Turbidity tube | Water quality field test | Any | Visual measurement, no power |
 | DPD test kit | Chlorine residual testing | Any | Colorimetric, $10-30 |
 | P/A coliform test kit | Bacterial contamination | Any | 24-48 hour incubation |
-
 
 ## Constructing a VIP Latrine
 

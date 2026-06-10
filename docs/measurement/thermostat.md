@@ -8,26 +8,17 @@
 > **Timeline**: Years 5-60+
 > **Outputs**: on_off_control, proportional_control, pid_control, temperature_regulation
 
-
 Temperature control is what separates haphazard craft from repeatable manufacturing. A kiln that overshoots by 50°C cracks its pottery. A furnace running too cold wastes fuel and produces inconsistent metal. A chemical reactor that drifts 10°C produces different reaction products than intended. And semiconductor manufacturing? Crystal growth furnaces need ±0.5°C stability at 1400°C. Diffusion furnaces demand ±0.1°C. Without thermostats, every thermal process is a gamble controlled by human attention span and guesswork.
 
 A civilization that cannot regulate temperature cannot produce consistent steel, cannot run chemical processes reliably, and certainly cannot grow silicon crystals or fabricate integrated circuits. Thermostats close the feedback loop: sense temperature, compare it to a setpoint, and actuate a heater or cooler to drive the process toward the target. This topic covers 22 thermostat types across five categories, progressing from the simplest mechanical expansion rod (buildable with basic metalworking) through pneumatic and electronic systems to infrared pyrometer feedback loops suitable for semiconductor furnaces.
 
-
 ## Articles in this Topic
-
-![Temperature control device showing room temperature in Celsius at 23 degrees during evening time](../images/measurement/measurement_thermostat.jpg)
-
-> *A device is held in hand displaying room temperature of 23 degrees Celsius. It is currently 1:30 AM. The background shows a casual indoor setting.*
-
-> *Image: Shixart1985, CC BY 2.0*
 
 - [Mechanical Thermostats](./thermostat-mechanical.md) — Expansion rod, rod-and-tube, bimetallic strip, and snap-action disc types. No external power required. Buildable with basic metalworking. ±2-20°C accuracy.
 - [Fluid & Gas Thermostats](./thermostat-fluid.md) — Mercury tilt, mercury contact thermometer, liquid expansion, vapor pressure, gas expansion, wax pellet, thermostatic radiator valve, and pneumatic types. Remote sensing, proportional control, no electronics needed. ±0.5-3°C accuracy.
 - [Electrical Thermostats](./thermostat-electrical.md) — Thermocouple, RTD (resistance thermometer), and reed switch types. Self-generating sensors and precision bridge circuits. ±0.1-5°C accuracy over -200 to 1800°C.
 - [Electronic Thermostats](./thermostat-electronic.md) — Thermistor, silicon junction, IC sensor, and digital PID microcontroller types. Active circuitry for precise control. ±0.01-1°C accuracy with PID.
 - [Advanced & Specialty Thermostats](./thermostat-advanced.md) — Shape memory alloy actuators, quartz crystal sensors, and infrared pyrometers. Non-contact sensing, calibration-grade precision. ±0.01°C to ±2% of reading.
-
 
 ## Selection Guide
 

@@ -8,7 +8,6 @@
 > **Outputs**: glass_cullet, recycled_glass, mixed_cullet_feedstock
 > **Critical**: No — reduces raw material consumption but does not unlock new capabilities
 
-
 Glass recycling reclaims glass from end-of-life products (containers, windows, fiberglass, electronic scrap) and processes it into cullet — crushed glass fragments that serve as feedstock for new glass production. Adding cullet to the glass batch reduces raw material consumption (sand, soda ash, limestone) by a proportional amount and lowers melting energy by 2–3% for every 10% cullet in the batch.
 
 Unlike metals, glass is not recycled into its original composition — it is remelted into new glass products, often at a lower specification. Clear container glass becomes new bottles; green and amber glass may become insulation fiberglass or construction aggregate. The key constraint is color separation: clear cullet contaminated with colored glass produces off-color product.
@@ -49,7 +48,6 @@ The boundary with waste management is clear: this document covers converting was
 - Understanding of ceramic and stone contamination (ceramic fragments in cullet cause defects in new glass — stones and ceramics don't melt at glass furnace temperatures)
 - Furnace operation with variable cullet ratios
 
-
 ## BOM: Container Glass Cullet Processing (per tonne of input waste glass)
 
 | Material | Quantity | Source | Alternatives |
@@ -69,7 +67,6 @@ The boundary with waste management is clear: this document covers converting was
 | Limestone (CaCO₃) | 100 kg | 50 kg | 10 kg | Minor cost saving |
 | Cullet | 0 kg | 500 kg | 900 kg | Replaces raw materials 1:1 by weight |
 | Energy (melting) | 4.0–5.5 GJ | 3.2–4.5 GJ | 2.0–3.0 GJ | 2–3% reduction per 10% cullet |
-
 
 ## Container Glass Cullet Processing
 
@@ -104,7 +101,6 @@ The boundary with waste management is clear: this document covers converting was
 2. **Shred to liberate fibers.** Mechanical shredding reduces fiberglass to short fiber lengths (1–20 mm). Separate from binder resin by thermal treatment (400–500°C to burn off organic binder) or solvent dissolution.
 
 3. **Reprocess.** Clean glass fibers can be remelted with virgin batch material. Fiber-to-fiber recycling is difficult — most fiberglass waste is downcycled into construction products (cement additive, road base).
-
 
 ## Cullet Quality Specifications
 
@@ -176,7 +172,6 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 
 **Heavy metal contamination**: Lead glass (crystal, CRT glass) contains 20–30% PbO. Lead oxide fume at furnace temperatures is toxic. Never mix lead glass with soda-lime cullet — it contaminates the entire batch and creates a lead exposure hazard. Separate and label all lead glass. PPE: respiratory protection if lead glass is processed.
 
-
 ## Cullet Quality Tests
 
 | Test | Method | Frequency | Specification |
@@ -201,7 +196,6 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 
 - **Ceramic vs. glass test**: Tap the piece with a metal object. Glass rings (high-pitched, sustained); ceramic thuds (dull, short). Alternatively, try to scratch with a steel nail — glass is harder than steel, ceramic may be scratched.
 - **Lead glass test**: Lead glass is noticeably heavier than soda-lime glass (density 3.1 vs 2.5 g/cm³). A lead crystal wine glass weighs ~30% more than a soda-lime equivalent.
-
 
 ## Recycling Route Comparison
 

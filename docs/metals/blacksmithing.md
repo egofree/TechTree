@@ -10,12 +10,6 @@
 
 ## Overview
 
-![4 artist blacksmith forging with power hammer](../images/metals/metals_blacksmithing.jpg)
-
-> *A typical smithy in Finland. Shot during a tourist trip to artist blacksmith Jesse Sipola's smithy next to lake Bodom. Blacksmith is using power hammer to aid in forging.*
-
-> *Image: Wasapl, CC BY-SA 3.0*
-
 Hand forging of iron and steel into tools, hardware, and structural fittings using hammer, anvil, and hearth. Blacksmithing transforms bloomery iron and wrought iron into functional implements: hammers, chisels, hinges, brackets, chains, and agricultural tools, without requiring powered machinery.
 
 The forge is the central tool. A hearth raised to a convenient working height, with an air supply (bellows or blower) to raise the fire to forging temperature. The anvil serves as the work surface, with a flat face for drawing and a horn for bending. The hammer is the primary shaping tool, with cross-peen and ball-peen variants for different forming operations.

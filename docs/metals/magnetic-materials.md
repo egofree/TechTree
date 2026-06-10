@@ -12,12 +12,6 @@ This article covers the metallurgy and processing of magnetic materials. For ele
 
 ## Overview
 
-![Diamagnetic material interaction in magnetic field](../images/metals/metals_magnetic-materials.png)
-
-> *On keeping diamagnetic materials in a magnetic field the electron orbital motion changes in such a way that magnetic dipole moments are induced on the atoms / molecules in the direction opposite to the external magnetic field as shown in figure(courtesy:-Blogger profile)*
-
-> *Image: Nitianabhigyan, CC BY-SA 4.0*
-
 Magnetic materials split into two functional classes: **soft magnetic materials** that magnetize and demagnetize easily (low coercivity), used in transformer cores, motor laminations, and relay armatures; and **permanent magnet materials** that resist demagnetization (high coercivity), used as field sources in motors, generators, and holding devices. Both classes derive their properties from composition and heat treatment — the same alloy can shift from soft to semi-hard depending on the cooling rate through the Curie point and the subsequent tempering cycle.
 
 The performance ceiling of every electromagnetic machine is set by its magnetic circuit. A transformer built from plain low-carbon steel laminations loses 3-5 W/kg to hysteresis and eddy currents at 50 Hz; replacing those with grain-oriented 3% silicon steel cuts core loss to 0.8-1.2 W/kg — a 3× to 4× reduction in waste heat. Permanent magnets determine the air-gap flux density in motors and generators: alnico 5 at 1.25 T remanence versus ferrite at 0.35-0.4 T, with the gap between them determining machine size and weight for a given power output.

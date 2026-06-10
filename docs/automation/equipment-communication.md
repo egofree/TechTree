@@ -8,16 +8,9 @@
 > **Outputs**: secs_gem_communication, equipment_state_data, alarm_events, process_trace_data
 > **Critical**: No — manual equipment operation is possible; SECS/GEM automation improves throughput and yield but does not enable fundamentally new process capabilities
 
-
 A modern semiconductor fab contains hundreds of process tools — etchers, CVD reactors, implanters, lithography scanners, CMP polishers — each from different manufacturers, each with proprietary control interfaces. Without standardized communication, every tool integration requires custom software, and centralized fab control is impossible. SECS/GEM protocols solve this by defining a universal language for equipment-to-host data exchange, enabling automated process control, recipe management, and real-time monitoring across the entire fab.
 
 ## Prerequisites
-
-![The crossbar model exchange equipment at the National Communication Museum 03](../images/automation/automation_equipment-communication.jpg)
-
-> *The crossbar model exchange equipment at the National Communication Museum*
-
-> *Image: Aliceinthealice, CC0*
 
 - [Computing](../computing/index.md) — computing infrastructure for MES, FDC, and SECS gateway servers
 - [Electronics](../electronics/index.md) — semiconductor devices, passive components for communication hardware
@@ -42,7 +35,6 @@ A modern semiconductor fab contains hundreds of process tools — etchers, CVD r
 4. **Conduct conformance testing**: Run SEMI GEM conformance test suite on each tool before production deployment. Verify state transitions, alarm reporting, event notification, and error recovery
 5. **Integrate with MES**: Connect gateway to MES application. Configure event subscriptions, trace data collection, and recipe management workflows
 6. **Validate end-to-end**: Download recipe, start process, collect trace data, verify alarm handling. Integration testing: 1-4 weeks per tool type
-
 
 ## SECS-I (SEMI E4)
 

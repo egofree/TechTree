@@ -8,19 +8,11 @@
 > **Outputs**: calculus, linear_algebra, differential_equations, probability_theory, statistical_methods, numerical_methods
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
-
 Core mathematics gives engineers algebra and geometry — tools for static, deterministic problems. But the real world is dynamic and uncertain: furnaces heat up over time, chemical reaction rates depend on temperature, manufacturing processes have random variation, and complex systems have dozens of interacting variables. Applied mathematics provides the tools to model continuous change (calculus), handle multi-variable systems (linear algebra), predict dynamic behavior (differential equations), quantify uncertainty (probability and statistics), and compute solutions when analytical methods fail (numerical methods). These capabilities are essential for process engineering, quality control, electronic design, and every discipline that goes beyond simple static analysis.
 
 ## Prerequisites
 
-![Commutative diagram illustrating problem solving via the Fourier transform-Ukr](../images/mathematics/mathematics_applied-mathematics.png)
-
-> *Схема використання перетворення Фур'є для розв'язання задач*
-
-> *Image: Bohdan Yevdokymenko, CC BY-SA 4.0*
-
 - [Core Mathematics](core-mathematics.md) — algebra, trigonometry, and coordinate geometry
-
 
 ## The Concept of a Limit
 
@@ -73,7 +65,6 @@ Engineering problems involve multiple variables simultaneously: temperature depe
 
 **Engineering application**: Temperature distribution in a furnace wall depends on position (x through the wall thickness, y along the wall). The heat flux at any point is proportional to the negative temperature gradient: q = −k∇T. This requires partial derivatives to compute.
 
-
 ## Vectors
 
 A vector represents a quantity with both magnitude and direction: velocity (50 km/h northeast), force (100 N downward), electric field (5 V/m in the x-direction).
@@ -109,7 +100,6 @@ For a matrix A, an eigenvector v satisfies Av = λv, where λ is the eigenvalue.
 - **Stress analysis**: Principal stresses are eigenvalues of the stress tensor. Von Mises stress (yield criterion) is computed from these.
 - **Finite element analysis (FEA)**: The entire method reduces to solving a large system Ax = λx for natural modes or Ax = b for static loads.
 
-
 ## Ordinary Differential Equations (ODEs)
 
 Equations involving derivatives of a function of one variable. Classified by order (highest derivative) and linearity.
@@ -140,7 +130,6 @@ Equations involving partial derivatives of functions of multiple variables. Most
 A technique for converting differential equations into algebraic equations. L{f(t)} = F(s) = ∫₀^∞ f(t)e⁻ˢᵗ dt. Transforms derivatives into multiplications by s: L{df/dt} = sF(s) − f(0).
 
 **Engineering application**: Control system design. A PID controller's transfer function is Kp + Ki/s + Kd×s. The Laplace transform converts the differential equation of the plant + controller into an algebraic equation that can be analyzed for stability (poles in the left half s-plane = stable).
-
 
 ## Descriptive Statistics
 
@@ -181,7 +170,6 @@ Formally test whether observed data is consistent with a hypothesis. Example: Is
 **t-test**: Compare two sample means. If the t-statistic exceeds the critical value, the difference is statistically significant.
 
 **Engineering application**: Compare the yield strength of two heat treatment protocols. If the difference is not statistically significant (p > 0.05), use the cheaper/faster protocol. If significant, use the stronger one for critical applications.
-
 
 ## Why Numerical Methods?
 

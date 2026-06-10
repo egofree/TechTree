@@ -8,7 +8,6 @@
 > **Timeline**: Years 30-70
 > **Outputs**: chemical_hazard_protocols, tlv_databases, nfpa_ratings, exposure_control_plans
 
-
 Semiconductor fabrication uses the most hazardous chemicals in industrial production: hydrofluoric acid (HF) for silicon etching, silane (SiH₄) for silicon deposition, arsine (AsH₃) for N-type doping, phosphine (PH₃) for N-type doping, and dozens of corrosive, pyrophoric, and carcinogenic compounds. These chemicals demand safety protocols far beyond general industrial hygiene. A single silane leak can auto-ignite at concentrations above 1.4% in air; arsine exposure at 0.05 ppm for extended periods causes hemolytic anemia and renal failure. This document establishes the chemical safety knowledge base specific to semiconductor manufacturing environments.
 
 ## Decision Framework: Chemical Hazard Response
@@ -31,7 +30,6 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 | Shelter-in-place + isolate source | Seconds | Moderate | Low | Confined leaks in gas cabinets with working exhaust |
 | Contain + neutralize in place | 10-30 min | Moderate | Low | Known liquid spills with trained responders |
 | Full-building evacuation + fire dept | 5-15 min | Highest | Very high | Large releases, fires, explosions |
-
 
 ## Hydrofluoric Acid (HF)
 
@@ -206,7 +204,6 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 **NFPA 704 Diamond**: Health 3 (serious), Flammability 1 (slight), Instability 0, Special: None
 
-
 ## Sulfuric Acid (H₂SO₄) — Piranha Clean
 
 Piranha solution (H₂SO₄ + H₂O₂, typically 3:1 ratio at 120-150°C) is used for organic residue removal. Extremely exothermic on mixing; must always add peroxide to acid (never reverse). Temperature can exceed 200°C. Carbonized organic material releases gas, causing foaming. Can detonate if mixed with significant organic quantities. Allow to cool before disposal. Store in compatible containers only (glass, Teflon, HDPE — never sealed tightly as it continuously evolves O₂).
@@ -321,7 +318,6 @@ Every chemical in the fab must have an accessible SDS (formerly MSDS) covering 1
 14. Transport information (UN number, proper shipping name, hazard class)
 15. Regulatory information (applicable regulations, reporting requirements)
 16. Other information (revision date, abbreviations)
-
 
 ## Continuous Gas Monitoring
 

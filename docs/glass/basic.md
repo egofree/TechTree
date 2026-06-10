@@ -8,7 +8,6 @@
 > **Outputs**: basic_glass, potash
 > **Critical**: Yes — glass is the universal container material for chemistry, the basis for optics, windows, and laboratory apparatus
 
-
 Glass is chemically inert (except to strong bases), transparent, impermeable to gases and liquids, electrically insulating, and infinitely recyclable. No other material combines all five properties. Metals react with acids and corrode. Ceramics are opaque and difficult to form into transparent vessels. Wood rots, burns, and leaks. Plastic requires petroleum cracking — unavailable until late in the bootstrap sequence.
 
 Without glass, several capabilities are blocked entirely. No chemical laboratory: acids dissolve metals, ceramics are opaque and cannot be inspected during reactions, and there is no material transparent enough to observe color changes, precipitates, or distillation. No window glass: buildings stay dark, reliant on open flames for light, with attendant fire risk. No optical instruments: no lenses, no prisms, no microscopes or telescopes — and therefore no precision measurement of the microscopic world. No reliable food preservation containers: canning requires glass jars that survive boiling and pressurization. No vacuum tubes: every early electronic device needs glass envelopes to maintain vacuum around heated filaments.
@@ -18,12 +17,6 @@ The dependency chain runs deep. Glass enables chemistry (lab glassware, reagent 
 Every industrial civilization discovered or invented glass independently. The material is that fundamental — a bootstrap bottleneck that must be solved early, solved well, and produced in quantity.
 
 ## Prerequisites
-
-![Grohmann Museum January 2024 24 (Glass and Ceramics)](../images/glass/glass_basic.jpg)
-
-> *The Glass and Ceramics gallery at the Grohmann Museum in Milwaukee, Wisconsin (United States).*
-
-> *Image: Michael Barera, CC BY-SA 4.0*
 
 **Materials:**
 - Silica sand (>95% SiO₂) — washed and sieved to 60-100 mesh

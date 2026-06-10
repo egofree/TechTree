@@ -14,12 +14,6 @@ Quail have been domesticated for over 1,000 years, originally in Japan and East 
 
 ## Prerequisites
 
-![Rain Quail in Bhigwan August 2025 by Tisha Mukherjee 02](../images/animals/animals_poultry_coturnix.jpg)
-
-> *Rain Quail (Coturnix coromandelica, Phasianidae, Galliformes) in Bhigwan, Maharashtra, India.*
-
-> *Image: Tisha Mukherjee, CC BY-SA 4.0*
-
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | High-protein feed (24-28% starter, 20-22% layer) | [`agriculture`](../agriculture/soil-management.md) | Highest protein requirement of any poultry |

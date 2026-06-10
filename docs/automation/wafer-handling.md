@@ -8,16 +8,9 @@
 > **Outputs**: wafer_transfer_capability, cleanroom_robots, load_lock_systems
 > **Critical**: Yes — sub-250nm semiconductor manufacturing requires automated wafer handling; manual handling cannot meet particle and positioning requirements for leading-edge lithography
 
-
 A 300 mm semiconductor wafer contains billions of transistors across a silicon surface that must remain particle-free to within ISO Class 1 (≤1 particle ≥0.1 μm per cubic foot). Human handling introduces skin cells, lint, and oils that destroy yield. Automated wafer handling robots operate inside process equipment and between tools, transferring wafers with sub-millimeter positional accuracy while generating virtually no particles. This capability is essential for any fab processing wafers below 250 nm feature sizes.
 
 ## Prerequisites
-
-![Weird Tales v15n03 (1930 03) (sas)](../images/automation/automation_wafer-handling.jpg)
-
-> *Weird Tales v15n03 (1930 03) (sas)*
-
-> *Image: Wikimedia Commons contributor, Public domain*
 
 - [Machine Tools](../machine-tools/index.md) — precision machining of robot arms, end effectors, and load lock components
 - [Vacuum Technology](../vacuum/index.md) — vacuum pumps, load locks, and slit valves for vacuum wafer transfer
@@ -51,7 +44,6 @@ A 300 mm semiconductor wafer contains billions of transistors across a silicon s
 4. **Install and teach**: Jog robot to each waypoint (pick, align, place), record positions. Verify teach point accuracy ≤0.1 mm
 5. **Qualify particle performance**: Run 100 pick-place cycles with particle counter monitoring. Verify ≤0.01 particles/cycle ≥0.1 μm
 6. **Integrate with cluster tool scheduler**: Configure robot motion timing to avoid conflicts between chambers. Implement residency time constraints
-
 
 ## Atmospheric Robots
 
@@ -234,7 +226,6 @@ Load locks transition wafers between atmospheric pressure and vacuum without ven
 - **Vacuum contamination**: Outgassing from robot materials (lubricants, wire insulation, adhesives) contaminates vacuum chambers. All vacuum-exposed materials must be qualified by TML/CVCM testing (ASTM E595). Bake-out vacuum robots at 150°C for 24-48 hours before installation to drive off absorbed moisture and volatiles.
 - **Pinch points**: Robot arms moving at high speed create pinch hazards. Equipment interlocks prevent robot motion when access doors are open. Light curtains and safety mats detect operator presence in the robot workspace.
 
-
 ## Cluster Tool Architecture
 
 Modern process tools use cluster configurations where multiple process chambers surround a central wafer-handling robot.
@@ -305,8 +296,6 @@ Modern process tools use cluster configurations where multiple process chambers 
 - Piezoelectric or strain gauge force sensors embedded in the end effector detect wafer contact within 0.01 N resolution. Used for blind insertion into narrow cassette slots where optical positioning alone is insufficient.
 - Force feedback enables compliant insertion — the robot adjusts position if unexpected resistance is detected, preventing wafer edge chipping and slot wall damage.
 - **Compliance strategy**: During wafer placement, the robot applies a gentle downward force (0.2-0.5 N) while monitoring for contact. If contact force exceeds 1.0 N, the robot stops and adjusts position laterally to find the correct slot opening.
-
-
 
 ## Troubleshooting
 

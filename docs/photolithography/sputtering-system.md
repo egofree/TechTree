@@ -12,12 +12,6 @@ This article covers the construction of magnetron sputtering systems for thin-fi
 
 ## Overview
 
-![Sputtering system](../images/photolithography/photolithography_sputtering-system.jpg)
-
-> *A sputtering system at Cornell NanoScale Science and Technology Facility, built by AJA international*
-
-> *Image: a13ean, CC BY-SA 3.0*
-
 Magnetron sputtering is the primary method for depositing metal thin films in semiconductor manufacturing. A conductive target material is bombarded by argon ions in a vacuum chamber, ejecting target atoms that condense on the substrate as a thin film. Permanent magnets behind the target trap electrons in a closed racetrack, increasing ionization efficiency by 10-100× over simple diode sputtering. The result is high deposition rates (5-30 nm/min for metals) at moderate power levels (100-500 W) with excellent film adhesion.
 
 Sputtering deposits the metal layers that form interconnects (Al, Cu), diffusion barriers (TiN, TaN), adhesion promoters (Ti), and gate electrodes (W) in integrated circuits. It handles both pure metals and alloys (Al-Cu, Al-Si) by sputtering from a target of the desired composition. Reactive sputtering extends the technique to compound films (TiN, TaN) by introducing nitrogen alongside argon.

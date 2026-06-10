@@ -8,11 +8,9 @@
 > **Outputs**: diagnostic_capability, vital_signs_monitoring, laboratory_testing, imaging_capability
 > **Critical**: No — enhances treatment outcomes but medicine can function at a basic level without formal diagnostics
 
-
 Diagnostics covers physical examination, vital signs measurement, basic laboratory testing, and fundamental imaging. In a bootstrap medical system, diagnosis relies primarily on clinical observation and hands-on examination — the same approach that served medicine from Hippocrates through the 19th century. The stethoscope, thermometer, pulse oximeter (if electronics available), and basic blood/urine tests provide the majority of diagnostic information needed to guide treatment decisions.
 
 The diagnostic chain progresses from simple observation (vital signs, inspection, palpation) through instrumented examination (stethoscope, reflex hammer, otoscope) to laboratory analysis (blood smear, urine dipstick, cultures). Each level adds precision but requires progressively more infrastructure. A competent diagnostician with a stethoscope, thermometer, and basic lab supplies can correctly identify 70-80% of common conditions.
-
 
 ## Materials
 
@@ -50,7 +48,6 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 | Wright's stain | 10 mL (many uses) | [Chemistry](../chemistry/index.md) — methylene blue + eosin | Simple methylene blue (less differential detail) |
 | Urine collection jar | 1 | [Glass](../glass/index.md) or [ceramics](../ceramics/index.md) | Any clean container |
 | Lancets (blood collection) | 1-3 | [Medical Instruments](medical-instruments.md) | Sterilized needle |
-
 
 ## Vital Signs Assessment
 
@@ -120,7 +117,6 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - Wright's stain has a shelf life of 6-12 months once opened; fresh stain produces better results
 - Sahli hemoglobin method is less accurate than cyanmethemoglobin method (±1 g/dL vs ±0.3 g/dL)
 
-
 ## Vital Signs — Normal Ranges by Age
 
 | Parameter | Adult | Child (6-12 yr) | Child (1-5 yr) | Infant (0-1 yr) | Critical Values (Adult) |
@@ -188,7 +184,6 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - **Microscope maintenance**: Clean objectives daily with lens paper. Cover microscope when not in use. Check condenser alignment weekly. Oil immersion objective: clean after every use with lens paper moistened with xylene or alcohol.
 - **Reagent quality**: Test reagents with known positive and negative controls. Benedict's solution should be clear blue (negative); turns green-yellow-orange-red with increasing glucose. Discard discolored reagents.
 - **Laboratory accuracy checks**: Run duplicate samples on 10% of specimens. Results should agree within ±5% for quantitative tests. If not, recalibrate equipment and retest.
-
 
 ## Diagnostic Methods by Technology Level
 

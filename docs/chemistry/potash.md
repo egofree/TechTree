@@ -10,12 +10,6 @@
 
 ## Overview
 
-![PikiWiki Israel 71043 potash production facilities](../images/chemistry/chemistry_potash.jpg)
-
-> *Potash production facilities*
-
-> *Image: אפרים יונס, Public domain*
-
 Production of potassium carbonate (potash) from wood ashes, mineral deposits, or brine evaporation. Potash is a fundamental alkali for glassmaking (potash glass), soap production, fertilizer, and chemical synthesis. Pearl ash (purified potash) was historically the primary source of alkali before synthetic soda ash.
 
 The name tells the process: potash is literally "pot ash," the potassium-rich salts extracted by leaching fireplace ashes with water and boiling the solution down in iron pots. Before the discovery of underground potash deposits in the 1860s, this was the only route to alkali for glass, soap, and ceramics. A single cord of hardwood (about 3.6 m³) yields roughly 2-3 kg of crude potash, so the industry consumed forests wholesale. North American and Baltic forests fed European demand for decades.

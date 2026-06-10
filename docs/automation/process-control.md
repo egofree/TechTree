@@ -8,7 +8,6 @@
 > **Outputs**: recipe_management, lot_tracking, process_sequencing, fault_detection, run_to_run_control
 > **Critical**: No — manual recipe execution and lot tracking are possible; automated control improves yield and consistency but does not enable fundamentally new capabilities
 
-
 A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks of fabrication. Each step has precise recipe parameters (temperature ramp rates, gas flows, RF powers, etch times) that must be executed exactly. A single parameter deviation at step 200 may not produce a detectable defect until electrical test at step 600 — by which time 400 steps of value have been added to a wafer that must now be scrapped. Automated process control and lot tracking ensure every wafer receives the correct process at every step, with full traceability from raw silicon to finished die.
 
 ## Prerequisites
@@ -110,7 +109,6 @@ A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks 
 - Experimental wafers are expensive — DOE consumes tool time and test wafers that could produce revenue
 - Results may not generalize — DOE performed on one chamber may not transfer to another without re-qualification
 
-
 ## Recipe Structure
 
 A process recipe defines the complete sequence of operations a tool must perform on a wafer. Recipes are the executable programs of semiconductor manufacturing.
@@ -170,7 +168,6 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
 - **Process window limits**: Soft limits defining the acceptable process parameter range for yield optimization. Width typically ±10-20% of setpoint. Violations trigger alarms but do not stop the process (the recipe continues, but the event is logged for investigation).
 - **Interlocks**: Recipe cannot start unless all safety interlocks are satisfied (coolant flow ≥ minimum, exhaust vacuum within range, gas cabinet door closed, chamber match tuned). Interlock status read via SECS/GEM status variables before process start.
 
-
 ## Lot Identification
 
 - **Lot ID**: Unique identifier for a group of wafers processed together (typically 25 wafers per lot for 300 mm). Format: alphanumeric, typically 10-20 characters. Example: `A1234567.01` where `A` = fab code, `1234567` = sequence number, `.01` = split lot indicator.
@@ -197,7 +194,6 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
 - **Commonality analysis**: When multiple lots show the same defect, search for common equipment or process conditions. Example: "Lots A1234, A1238, and A1241 all ran on Chamber 3 of Tool Etch-12 during the same week — investigate Chamber 3 for drift or contamination."
 - **Data volume**: A single lot generates 10-100 MB of trace data across its full process flow (hundreds of steps × dozens of parameters × time-series data). A fab producing 50,000 wafers/month generates 5-50 TB of process data per month. Data retention: 5-10 years for traceability compliance.
 
-
 ## Route Management
 
 - **Process flow**: A directed graph of process steps defining the complete fabrication sequence for a product. A typical 7 nm logic process has 800-1,000 steps organized into 50-70 loops (a loop is a group of steps that repeats for each metal layer).
@@ -214,7 +210,6 @@ MES uses dispatch rules to determine which lot should be processed next at each 
 - **Due date priority**: Lots with nearest due dates get priority. Used for customer commits.
 - **Hot lot preemption**: Hot lots jump to the front of every queue, preempting normal lots. Necessary for development wafer fast-turn or critical customer orders.
 - **Batch formation**: For batch tools (furnaces, wet benches), MES groups lots with compatible recipes into batches to fill the tool (typical batch = 4-6 lots = 100-150 wafers). Batch formation waits until enough compatible lots accumulate or a timeout expires.
-
 
 ## Real-Time Signal Monitoring
 
@@ -245,7 +240,6 @@ When FDC detects an anomaly, classification identifies the root cause category:
 
 Classification accuracy target: >80% correct classification. Remaining cases escalated to process engineer for manual diagnosis.
 
-
 ## Motivation
 
 Even when each process run stays within spec, systematic drift (chamber wall film buildup, consumable wear, gas cylinder depletion) causes the process mean to shift over time. Run-to-run control compensates for this drift by adjusting recipe parameters between runs, keeping the process centered on target.
@@ -269,7 +263,6 @@ Even when each process run stays within spec, systematic drift (chamber wall fil
 - **Model divergence**: If the process changes fundamentally (new chamber hardware, different gas supplier, maintenance event), the R2R model may be invalid. Model mismatch causes R2R to make wrong adjustments, driving the process further from target. Implement model health monitoring (track prediction error over time) and automatic model reset when prediction error exceeds threshold.
 - **Data integrity**: Lot tracking data must be tamper-proof and auditable. Any modification to historical process data (e.g., backdating a hold release) must be logged with justification. Regulatory requirements (FDA for medical device fabs, automotive IATF 16949) mandate full data traceability.
 - **Oversight automation failure**: If FDC or R2R systems go offline, operators may not notice subtle process drift for hours. Implement FDC health monitoring — if the FDC server stops receiving trace data, trigger an alarm and consider holding further processing until FDC is restored.
-
 
 ## Tool Qualification for Production
 
@@ -307,8 +300,6 @@ Before a tool is authorized to run production wafers, it must pass qualification
 - **WIP map**: Display of all lots in the fab, color-coded by process step and time-in-step. Bottleneck tools identified by WIP accumulation (many lots queuing = bottleneck).
 - **FDC alarm summary**: Current active alarms, alarm rate trend, and fault classification breakdown. Escalation indicators for alarms not addressed within SLA time.
 
-
-
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
@@ -337,4 +328,3 @@ Before a tool is authorized to run production wafers, it must pass qualification
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Automation & Robotics](./index.md) • [All Domains](../../index.md)*
 
-![automation process control](../images/automation/automation_process-control.jpg)

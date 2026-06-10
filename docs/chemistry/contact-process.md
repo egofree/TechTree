@@ -10,24 +10,6 @@
 
 ## Overview
 
-![Contact process under renewals-r6E2Uq4y6G4](../images/chemistry/chemistry_acids_contact-process.jpg)
-
-> *Speaker: Maria Eulalia Vares – IM - UFRJ..Abstract: This talk is based on joint works in collaboration with L. R. Fontes, D. Marchetti, and T. Mountford. We investigate a non-Markovian analogue of the Harris contact process on Z^d. An individual is attached to each site and it can be infected or healthy; the infection propagates to healthy neighbors as in the usual contact process, according to independent exponential times with a fixed rate. Nevertheless, the possible recovery times for an individual are given by the points of a renewal process with heavy tail; the renewal processes are assumed to be independent for different sites..In [1], we show that if the interarrival distribution has a tail bounded from below by t^{-a} for some a less than 1 (plus some regularity conditions), then the process survives for any positive value of the infection rate. .In [2], a robust argument shows that the critical infection rate is positive in any dimension whenever the interarrival distribution has finite second moment. We also show that in one dimension the same holds when the interarrival distribution has decreasing hazard rate and tail bounded by t^{-a} with a greater than 1...[1] L. R. Fontes, T. S. Mountford, D. H. U. Marchetti, M. E. Vares. Contact process under renewals I. arXiv:1803.01458 [math.PR] .[2] L. R. Fontes, T. S. Mountford, M. E. Vares. Contact process under renewals II. arXiv:1803.01460 [math.PR]*
-
-> *Image: Comunicação NeuroMat, CC BY-SA 4.0*
-
-![Contact process under renewals-r6E2Uq4y6G4](../images/chemistry/chemistry_contact-process.jpg)
-
-> *Speaker: Maria Eulalia Vares – IM - UFRJ..Abstract: This talk is based on joint works in collaboration with L. R. Fontes, D. Marchetti, and T. Mountford. We investigate a non-Markovian analogue of the Harris contact process on Z^d. An individual is attached to each site and it can be infected or ...*
-
-> *Image: Comunicação NeuroMat, CC BY-SA 4.0*
-
-![Schematic illustration of rod synaptogenesis in wild-type and horizontal cell-ablated mice](../images/chemistry/chemistry_acids-contact-process.jpg)
-
-> *Figure 5. Schematic illustration of rod synaptogenesis in wild-type and horizontal cell-ablated mice. In the wild-type retina, the rod terminal is initially contacted by a single horizontal cell process (H). The following day, another horizontal cell process is recruited and both invaginate into ...*
-
-> *Image: Nemitz L, Dedek K and Janssen-Bienhold U, CC BY 4.0*
-
 Production of concentrated sulfuric acid (96-98%) via the contact process: sulfur combustion to SO₂, catalytic oxidation to SO₃ over vanadium pentoxide catalyst at 400-450°C, and absorption in concentrated H₂SO₄ to form oleum. Supersedes the lead chamber process (65-70%) for high-purity industrial acid.
 
 The contact process becomes the standard sulfuric acid route once a civilization can produce vanadium pentoxide catalyst, build gas-tight converters, and fabricate acid-resistant absorption towers. It superseded the lead chamber process (limited to 65-70% acid) because the vanadium-catalyzed SO₂ → SO₃ oxidation followed by absorption into concentrated acid yields 96-98% H₂SO₄. Per-capita sulfuric acid consumption is a rough proxy for industrial development, making this process a bellwether capability.

@@ -2,11 +2,7 @@
 
 Plants are the primary biological resource for bootstrapping civilization: they provide food calories, structural materials, textile fibers, medicinal compounds, and natural dyes. This domain catalogs 117 plant species across five subcategories, from staple cereal crops to dye-yielding herbs. Many species serve multiple purposes — agave, for example, is simultaneously a food source, a fiber crop, a structural material, a source of natural dye, and a medicinal plant. Understanding which plants are available in a given climate zone and how to cultivate, harvest, and process them is foundational knowledge for any human settlement.
 
-![Lalbagh Botanical Garden in Bangalore](../images/plants/plants.jpg)
-> *Image: Aren Noronha, CC BY-SA 4.0*
-
 Capabilities in this domain:
-
 
 | Subcategory | Species Count | Description |
 |---|---|---|
@@ -16,24 +12,13 @@ Capabilities in this domain:
 | [Fiber Plants](fiber-plants.md) | 33 | Bast, leaf, and seed fibers for cordage, thread, and woven materials |
 | [Dye Plants](dye-plants.md) | 22 | Natural colorants for textiles, leather, wood, ink, and coatings |
 
-![Edible Plants](../images/plants/plants_edible-plants.jpg)
-> *Image: David Hawgood, CC BY-SA 2.0*
-
 - [Edible Plants](edible-plants.md) — Foraging and cultivation of plant species for caloric and nutritional supply: roots, greens, fruits, seeds, and stems from wild harvest through staple crop agriculture.
-![Medicinal Plants](../images/plants/plants_medicinal-plants.png)
-> *Image: David Ellis, Public domain*
 
 - [Medicinal Plants](medicinal-plants.md) — Identification, cultivation, preparation, and application of plant species with therapeutic properties — the foundation of all pharmacology and earliest healthcare technology.
-![Fiber Plants](../images/plants/plants_fiber-plants.jpg)
-> *Image: Wikimedia Commons contributor, CC0*
 
 - [Fiber Plants](fiber-plants.md) — Cultivation and primary extraction of bast, leaf, and seed fibers from plant species for cordage, thread, and woven materials before metal wire or synthetic polymers.
-![Structural Plants](../images/plants/plants_structural-plants.jpg)
-> *Image: Daniel Schwen, CC BY-SA 4.0*
 
 - [Structural Plants](structural-plants.md) — Selection, harvesting, and structural use of woody plants, large grasses, and reeds for construction: timber frames, wattle-and-daub panels, thatch roofing, and fencing.
-![Dye Plants](../images/plants/plants_dye-plants.jpg)
-> *Image: Photo by Evan Izer (Palladian), CC BY-SA 2.5*
 
 - [Dye Plants](dye-plants.md) — Cultivation and primary extraction of natural colorants from plant material for dyeing textiles, leather, wood, ink, and coatings before synthetic dyes.
 

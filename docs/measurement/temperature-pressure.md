@@ -8,16 +8,9 @@
 > **Outputs**: thermocouples, temperature_measurement, electrical_measurement, pressure_measurement
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-
 Semiconductor manufacturing demands precise thermal control: crystal growth furnaces (1400-1500°C ±0.5°C), diffusion furnaces (800-1200°C ±0.1°C), CVD reactors (300-1100°C), and epitaxial deposition (1050-1200°C). Pressure control is equally critical — vacuum systems for sputtering (10⁻³ to 10⁻⁶ mbar), LPCVD (0.2-2 mbar), and photolithography exposure tools. Without accurate temperature and pressure sensing, process repeatability is impossible.
 
 ## Thermocouples
-
-![No. 1 Standard Barometer with Attached Thermometer, 1837, by L. C. Francis - DSC06540](../images/measurement/measurement_temperature-pressure.jpg)
-
-> *Scientific instrument exhibited in the Franklin Institute, Philadelphia, Pennsylvania, USA.*
-
-> *Image: Daderot, Public domain*
 
 Two dissimilar metals joined at a measurement junction generate a voltage (Seebeck effect) proportional to the temperature difference between the measurement junction and a reference (cold) junction. Output is in the millivolt range — read with a precision millivoltmeter or potentiometer circuit. Cold-junction compensation required (measure reference junction temperature independently, apply correction).
 
@@ -102,7 +95,6 @@ Non-contact temperature measurement from thermal radiation. Essential for moving
 - **Two-color (ratio) pyrometer**: Measures ratio of radiation at two wavelengths. Emissivity-independent (unlike single-color). Range: 600-3000°C. Accuracy ±0.5%. Preferred for semiconductor furnaces where emissivity varies during process.
 - **Infrared thermometer**: Broadband IR detector. Range: -50°C to +3000°C (model-dependent). Accuracy ±1-2%. Fast response (ms). Must correct for target emissivity.
 
-
 ## Bourdon Tube Gauge
 
 Curved or helical tube of brass, steel, or beryllium copper. Internal pressure straightens the tube → mechanical linkage rotates pointer on dial. Range: 0-1 bar to 0-7000 bar. Accuracy: ±0.5-2% of full scale. Most common industrial pressure indicator. Simple, robust, no power required.
@@ -125,7 +117,6 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 
 - **Orifice plate**: Thin plate with precision bore inserted in pipe. Pressure drop across plate proportional to flow rate squared (Bernoulli's equation). Measure ΔP with differential pressure gauge → compute flow. Simple, cheap, 2-5% accuracy. Permanent pressure loss 30-70% of ΔP.
 - **Venturi tube**: Converging-diverging nozzle. Same Bernoulli principle as orifice plate but with gradual profile → lower permanent pressure loss (10-15% of ΔP). More expensive to fabricate but energy-efficient for continuous flow. 1-2% accuracy.
-
 
 ## Liquid-in-Glass Thermometer
 
@@ -295,9 +286,6 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 - [Electrical Instruments](electrical-instruments.md) — multimeters, oscilloscopes, frequency counters
 - [Energy](../energy/index.md) — steam power, boilers (major application of temperature/pressure measurement)
 - [Chemistry](../chemistry/index.md) — thermocouple materials, mercury production
-
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

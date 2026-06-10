@@ -10,18 +10,6 @@
 
 ## Prerequisites
 
-![Increasing litho steps for advanced nodes](../images/vlsi-scaling/vlsi-scaling_advanced-lithography.jpg)
-
-> *Shows growing number of lithography steps for advanced nodes. Based on 11/24/2014 presentation by ASML's Martin van den Brink.*
-
-> *Image: Guiding light, Public domain*
-
-![Increasing litho steps for advanced nodes](../images/vlsi-scaling/vlsi-scaling_advanced-lithography.png)
-
-> *Shows growing number of lithography steps for advanced nodes. Based on 11/24/2014 presentation by ASML's Martin van den Brink.*
-
-> *Image: Guiding light, Public domain*
-
 - [Optics Inspection](../optics/inspection.md) — lens quality verification and alignment
 - [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and photomask fabrication
 

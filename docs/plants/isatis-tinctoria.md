@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Woad](../images/plants/plants_isatis-tinctoria.jpg)
-
-> *Isatis tinctoria, Brassicaceae, Woad, habitus; Botanical Garden KIT, Karlsruhe, Germany.*
-
-> *Image: H. Zell, CC BY-SA 3.0*
-
 Woad (*Isatis tinctoria*) is a biennial herb native to southeastern Europe and western Asia that produces the same blue dye (indigotin) as tropical indigo (*Indigofera tinctoria*). For over 2,000 years, woad was the only source of blue dye available in temperate Europe. The ancient Britons painted themselves with woad before battle, and woad remained the primary blue dyestuff in Europe until Portuguese traders brought tropical indigo in the 16th century.
 
 Woad's advantage is cold hardiness. It grows as a biennial in temperate climates (hardy to -20°C), producing a rosette of leaves in its first year and a tall flowering stalk in the second. The first-year leaves contain the dye. The indican content is lower than tropical indigo (0.1-0.3% vs. 0.2-0.8% fresh leaf weight), meaning more land and more processing are needed for the same amount of blue dye.

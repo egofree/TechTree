@@ -8,70 +8,46 @@
 > **Outputs**: marine engines, propellers, paddle wheels
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
 
-
 Marine propulsion evolves through four stages: oar (muscle), sail (wind), steam (coal), and internal combustion (liquid fuel). Each stage increases power density and operational independence from weather. This document covers the engineering of marine propulsion systems — the adaptation of power sources for shipboard use.
 
 For propulsion overview and hull speed calculations, see [Water Transport](../transport/shipping.md).
 
 ## Prerequisites
 
-![HMS Royal Sovereign, midship section (Warships To-day, 1936)](../images/marine/marine_propulsion.jpg)
-
-> *Royal Sovereign—Midship section
-
-
-
-
-
-
 A
 Inner flat keel plate
-
 
 B
 Outer flat keel plate
 
-
 C
 Vertical keel plates
-
 
 D
 Bracket plates
 
-
 E
 Longitudanals
-
 
 F
 Outer bottom plating
 
-
 G
 Inner bottom plating
-
 
 H
 Longitudinal bulkhead
 
-
 I
 Air space
-
 
 J
 Longitudinal protective bulkhead
 
-
 K
 Oiltight flat
 
-
 ...*
-
-> *Image: Andy Dingley (scanner), Public domain*
-
 
 - [Heat Engines](../energy/engine.md) — internal combustion engine design
 - [Steam Power](../energy/steam-power.md) — steam engine design and boiler construction

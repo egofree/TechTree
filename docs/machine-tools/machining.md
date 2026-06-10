@@ -12,30 +12,6 @@ Machining removes material from a workpiece to achieve precise geometry, surface
 
 ## Lathe Operations
 
-![Precision metal machining and welding for heavy industrial components](../images/machine-tools/machine-tools_machining.jpg)
-
-> *Workers and machinery processing heavy steel components inside a manufacturing base in Suzhou. The production line handles OEM steel parts, wind power components, and structural steel assembly. Manufactured and photographed at the facility of Suzhou Leading Top Union Technology Co., Ltd. *
-
-> *Image: Leadingtopunion, CC0*
-
-![Copy Lathe- Top, Side View, End View, Section A-A, Section B-B, Section C-C, Section D-D - Ben Thresher's Mill, State Aid No. 1, Barnet, Caledonia County, VT](../images/machine-tools/machine-tools_lathe-diagram.png)
-
-> *Rockefeller, Laurance S; Jack, Alexander; Judkins, James Loren; Stevens, Willard; Stevens, Henry; Gleason, Samuel; Barnet Cotton and Woolen Manufacturing Company; Herrin, John; Greenbank, Thomas; Greenbank, George; Taylor, James; Goodwillie, James; Shaw, William; McLaren, James; Somers, James S; ...*
-
-> *Image: Anderson, Richard K. Jr., creator, Public domain*
-
-![Countersunk and counterbored holes cross-section](../images/machine-tools/machine-tools_drilling-diagram.png)
-
-> *Countersunk and counterbored holes cross-section.*
-
-> *Image: Waerloeg, CC0*
-
-![Milling machine (Vertical, Manual) NT](../images/machine-tools/machine-tools_milling-diagram.png)
-
-> *Milling machine (Vertical, Manual) 1. Face milling cutter 2. Spindle 3. Spindle head 4. Column 5. Table 6. Saddle 7. Knee 8. Base 9. Spindle switch 10. Spindle speed gear lever 11. Spindle speed control lever 12. Oil tank 13. Table manual wheel 14. Table lock bar 15. Saddle automatic moving bar 1...*
-
-> *Image: Tosaka, CC BY 3.0*
-
 The lathe rotates the workpiece against a stationary single-point cutting tool. All cylindrical parts (shafts, bushings, pulleys, threads) originate here.
 
 ## Turning

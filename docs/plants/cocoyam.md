@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Cocoyam](../images/plants/plants_cocoyam.jpg)
-
-> *Cocoyam plants in a garden*
-
-> *Image: daSupremo, CC BY-SA 4.0*
-
 Cocoyam
 
 *Xanthosoma sagittifolium* (Araceae) is a root & tuber crop species of major importance for civilization bootstrapping. Chinese taro, Tannia, West Indian kale provides leaves, roots, shoots as its primary edible product and ranks 54/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Xanthosoma taro is normally planted by using the top piece of the main central corm or stem. Pieces weighing 1.5 kg are often used. It can also be grown by using the small side corms which may weigh 0.3 kg; or pieces of the corm can be used as long as they have some buds on them. These are often presprouted before planting. To multiply large amounts of planting material and still achieve acceptable yields, the latter method of using sections of the main corm works well. In crop growth, an axillary bud is produced in the axil of each leaf but only some of these develop into cormels. Often 10 or more cormels develop per plant into cormels 15-25 cm long. The crop duration is about 9 months although crops are often left for 12 months before harvesting. Plants are often planted to make the maximum benefit of natural rainfall. It has been recorded that plants increase in total dry matter production for 6 months then the percentage of dry matter in corm and cormels continues to increase while overall dry matter reduces. This effect may be due to lower rainfall near maturity. They can be planted at any time of the year but in dry areas the middle of the dry season should be avoided. Plants are spaced at varying distances but there is often about 0.9m x 1.5m between plants. A closer spacing of 0.5 m x 0.6 m producing a plant density of 36,800 plants per hectare has given high yields, but variations with rainfall regime and other growth conditions undoubetdly alter this. Closer spacing increases planting requirements but reduces weeding requirements. Soil compaction reduces yields drastically. It reduces plant size as well as the shape and number of cormels. Therefore either naturally lose soils from forest fallow or well cultivated soils are needed. The free water table must be at least 45cm below the soil surface for satisfactory yields. Xanthosoma taro grows better in good soils especially ones with plenty of nitrogen. But is can be grown in relatively poor soils and still give a satisfactory amount of food. It is best suited to alluvial soils with a well distributed rainfall. It is tolerant of shade and is therefore used in intercropping under cacao and coconuts. In such conditions yields are reduced but still satisfactory. Plants deficient in nitrogen give stunted growth, small pale green leaves with short leaf stalks. Potassium produces dead edges around the margin of the leaf. Magnesium gives a bright orange colour between the veins. Sometimes a crop of corms can be harvested after 7 or 8 months but often plants take up to one year to grow a good crop. Where plants are on hillsides the corms are often harvested without actually digging out the whole plant. The soil is carefully dug away from the plant and the small corms are broken off the parent plant. The main stem is then covered to produce a new crop. Weed control is important and it is possible to use herbicides in this regard. The corms will store reasonably well under dry cool well ventilated conditions. The corms will also remain in good condition if they are left growing in the ground and just harvested when needed. Propagation: Seed - rarely produced in cultivation. Division of the smaller corms that are produced on the side of the main corm.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

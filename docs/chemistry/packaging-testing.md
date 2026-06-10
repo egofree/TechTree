@@ -14,12 +14,6 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
 ## Cleanroom Consumables
 
-![Semiconductor measurement technology](../images/chemistry/chemistry_packaging-testing.jpg)
-
-> *Subjects:*
-
-> *Image: Bullis, W. Murray., Public domain*
-
 **HEPA/ULPA filter media**:
 - **HEPA (High Efficiency Particulate Air)**: Remove 99.97% of particles ≥0.3 μm. Construction: fine fiberglass mat (fiber diameter 0.5-2 μm), folded into accordion pleats (increases surface area 20-50x). Separator: corrugated aluminum or hot-melt bead between pleats. Frame: wood, metal, or plastic. Air velocity through filter: 0.025 m/s. Pressure drop: 250 Pa at rated flow.
 - **ULPA (Ultra-Low Penetration Air)**: Remove 99.999% of particles ≥0.12 μm. Even finer glass fibers. Higher pressure drop. Used in most critical zones (lithography bays).
@@ -250,4 +244,3 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
-![chemistry packaging testing](../images/chemistry/chemistry_packaging-testing.png)

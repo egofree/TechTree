@@ -8,7 +8,6 @@
 > **Outputs**: telephone_service, telephone_exchanges, voice_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-
 The telephone transforms voice into electrical signals that travel over wire, enabling real-time two-way conversation at any distance. Unlike the telegraph (which transmits coded text requiring trained operators), the telephone allows anyone to communicate directly by speaking. This fundamental shift — from operator-mediated text to direct voice — transformed business, social life, and emergency response.
 
 The telephone system builds on telegraph infrastructure (pole lines, wires, batteries) but requires fundamentally different terminal equipment (microphones, speakers, ringers) and switching systems (exchanges that connect any pair of subscribers on demand).
@@ -91,7 +90,6 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 - 1,000-line: 2 selector stages. Requires ~100 group selectors.
 - 10,000-line: 3 selector stages. Thousands of switches in 500-1000 m2 building. Power consumption: 5-20 kW.
 
-
 ## Single Telephone Set (manual exchange)
 
 | Material | Quantity | Specification | Source |
@@ -134,7 +132,6 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Ringing battery | 1 bank | 48 V lead-acid or 75 V magneto | [Chemistry](../chemistry/index.md) |
 | Desk/console | 1 | Wooden cabinet, 1.5 m wide x 1 m deep | [Forestry](../plants/index.md) |
 
-
 ## Voice Signal Parameters
 
 | Parameter | Value | Notes |
@@ -170,7 +167,6 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Floor space | 20-100 m2 | 500-1000 m2 |
 | Dial pulse rate | N/A | 10 pulses/second |
 | Switch reliability | Depends on operator | 100,000+ calls between failures |
-
 
 ## Single Exchange (50-500 subscribers)
 

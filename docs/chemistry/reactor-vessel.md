@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Crocus reactor vessel scale model 2](../images/chemistry/chemistry_reactor-vessel.jpg)
-
-> *Maquette par impression 3D*
-
-> *Image: Vincent Lamirand, CC BY 4.0*
-
 A reactor vessel is a sealed container designed to hold chemical reactions under controlled conditions of temperature, pressure, agitation, and residence time. The vessel must contain the reaction safely while allowing heat addition or removal, mixing of reactants, sampling, and product discharge. Reactor design is governed by the reaction kinetics (how fast the reaction proceeds), thermodynamics (how much heat is released or absorbed), and the physical properties of the reactants and products (corrosiveness, toxicity, flammability).
 
 Two fundamental reactor types exist: **batch reactors** (fixed volume, reactants charged, reaction proceeds, products discharged) and **continuous reactors** (steady flow of reactants through the vessel, products continuously withdrawn). Batch reactors dominate at smaller scales and for multi-product facilities; continuous reactors (CSTR — continuously stirred tank reactor, or PFR — plug flow reactor) dominate at large scale for single high-volume products.

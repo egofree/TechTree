@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Tobacco](../images/plants/plants_tobacco.jpg)
-
-> *نبتة تبغ نيكوتيانا*
-
-> *Image: Photo by and (c)2006 Derek Ramsey (Ram-Man), CC BY-SA 4.0*
-
 Tobacco
 
 *Nicotiana tabacum* (Solanaceae) is a beverage & stimulant crop species of major importance for civilization bootstrapping. Tobacco, Cultivated tobacco provides leaves as its primary edible product.

@@ -8,7 +8,6 @@
 > **Outputs**: electropolished_surfaces, electroformed_parts, electroless_nickel, ENIG_surfaces, electroless_copper
 > **Critical**: Yes — electropolishing produces ultra-low-outgassing vacuum chamber surfaces; ENIG is the dominant PCB surface finish with no practical alternative
 
-
 This capability covers three electrochemical surface processes that are critical to semiconductor manufacturing and advanced engineering: electropolishing (controlled anodic dissolution for ultrasmooth surfaces), electroforming (building precision metal structures by electrodeposition onto a mandrel), and electroless plating (autocatalytic metal deposition without external current). Unlike the processes covered in [Electroplating](electroplating.md) (which deposits metal from an external source onto a cathode), these processes either dissolve material from the workpiece surface (electropolishing), build freestanding metal parts (electroforming), or deposit metal by chemical reduction without applied current (electroless plating).
 
 For semiconductor manufacturing, electropolishing produces the ultra-smooth, chromium-enriched surfaces required for process chamber interiors (surface roughness Ra <0.1 μm, outgassing rate <10⁻¹⁰ Torr·L/s·cm²). Electroforming creates precision stampers for optical disc mastering and microfluidic device molds with sub-micron feature replication. Electroless nickel immersion gold (ENIG) is the dominant surface finish for PCBs, providing a flat, solderable, wire-bondable surface for BGA and QFP packages.
@@ -281,4 +280,3 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../../index.md)*
 
-![electrochemistry electrochemical processes](../images/electrochemistry/electrochemistry_electrochemical-processes.png)

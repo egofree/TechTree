@@ -8,8 +8,6 @@
 > **Outputs**: institutional_structures, regulatory_frameworks, dispute_resolution
 > **Critical**: No
 
-
-
 Governance and institutional design is the creation and maintenance of decision-making structures for large-scale resource allocation, dispute resolution, and collective action. Where [division of labor](./division-of-labor.md) coordinates individual tasks, governance coordinates organizations — establishing rules, authority structures, and mechanisms for making collective decisions that affect hundreds or thousands of people.
 
 Governance becomes necessary when communities grow beyond the scale where informal consensus works. Below ~150 people (Dunbar's number), everyone knows everyone, social pressure enforces norms, and disputes are resolved through personal relationships. Above this threshold, formal structures are needed: defined roles (elders, judges, administrators), written rules (laws, regulations), and enforcement mechanisms (fines, exclusion, sanctions).
@@ -17,8 +15,6 @@ Governance becomes necessary when communities grow beyond the scale where inform
 This capability covers the design of organizational structures — not political philosophy. It addresses practical questions: how to structure a guild that regulates quality among metal-workers, how to organize a cooperative that manages a shared blast furnace, how to run a city administration that allocates water rights, and how to design a regulatory body that ensures building safety standards.
 
 Governance depends on [writing](../knowledge/writing.md) for written laws, contracts, and administrative records, and on [division of labor](./division-of-labor.md) to create the specialized administrative roles (scribes, judges, tax collectors) that governance requires.
-
-
 
 ## Materials
 
@@ -43,7 +39,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - Record archives: Fire-protected, dry, organized storage for legal and administrative documents.
 - Communication systems: For disseminating laws, regulations, and decisions to the population.
 
-
 ## Bill of Materials (BOM)
 
 | Material | Quantity per Year (Town of 2,000) | Source | Alternatives |
@@ -53,8 +48,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Archive storage (shelving/chests) | 5-20 m shelf space | [Woodworking](../foundations/index.md) | Stone niches |
 | Council chamber space | 50-100 m² | [Construction](../construction/index.md) | Open-air meeting area (weather-dependent) |
 | Seal/stamp (official authentication) | 1-3 metal or stone seals | [Metals](../metals/index.md) | Thumbprint, witnessed signatures |
-
-
 
 ## Establishing Governance Structures
 
@@ -149,8 +142,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Administrative hierarchy | Fast | Low-Moderate (impersonal) | Excellent | High (concentrated power) | 1,000+ |
 | Representative council | Moderate | High (elected) | Good | Moderate (accountability mechanisms) | 5,000+ |
 
-
-
 ## Governance Scale Thresholds
 
 | Population | Governance Model | Officials/Administrators | Administrative Cost (% of GDP equivalent) | Decision Cycle Time |
@@ -181,7 +172,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Enforcement compliance rate | 85-95% (social pressure) | 70-90% | 60-85% (formal enforcement needed) |
 | Scribes/administrators per case | 0-1 | 1-2 | 2-5 |
 
-
 ## Scaling Notes
 
 - **Dunbar's number threshold (~150)**: Below this, governance is largely informal. Above it, formal structures must emerge. The transition is critical — communities that fail to formalize governance at this threshold experience coordination failures, unresolvable disputes, and potential fragmentation.
@@ -189,7 +179,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - **Communication overhead**: Each additional layer of administration adds communication delay. A 3-tier hierarchy (foreman → manager → council) adds 2-5 days to every decision. Design the hierarchy to minimize tiers: no more than 4-5 levels between the most junior worker and the highest decision-maker.
 - **Legitimacy maintenance**: Governance structures lose effectiveness when the governed perceive them as illegitimate. Maintain legitimacy through: transparent decision-making, consistent enforcement, responsive feedback mechanisms, and periodic leadership renewal (election, selection, or rotation).
 - **Guild governance**: For coordinating specialist workers, guild structures are more effective than general governance. A metal-workers' guild sets quality standards, resolves trade disputes, and manages apprenticeship — functions that a general city council cannot perform competently.
-
 
 ## Troubleshooting
 
@@ -209,7 +198,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Building code violations causing collapses | No inspection regime; codes unknown to builders | Assign building inspector from guild of masons; require inspection at foundation, wall, and roof stages; post building codes at market square |
 | Water rights conflicts during drought | Allocation rules based on normal rainfall | Pre-negotiate drought allocation rules (reduce all allocations proportionally); establish priority hierarchy (drinking > livestock > irrigation); maintain communal reservoir as buffer |
 
-
 ## Safety
 
 - **Political violence**: Governance disputes can escalate to physical violence. Maintain armed security at governance proceedings when tensions are high. Separate disputing parties during hearings. Establish rules of order that prohibit weapons in the council chamber. If factional violence is recurring, the governance structure itself may need redesign (consider power-sharing or rotating leadership).
@@ -219,7 +207,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - **Punishment excess**: Governance structures that impose severe penalties (maiming, execution, exile) for minor offenses create fear-driven compliance that suppresses economic activity. Merchants avoid markets where penalties are disproportionate. Craftsmen emigrate to less punitive communities. Historical pattern: communities with proportional, restorative justice develop faster economically than those with harsh retributive systems. Limit physical punishment to violent crimes; use fines, restitution, and community service for property and trade offenses.
 - **Famine response**: Governance determines whether a crop failure becomes a localized shortage or a civilization-ending famine. Maintain grain reserves of 10-20% of annual consumption in secure community warehouses. Establish clear rationing rules before they are needed (not during the crisis). Designate responsible officials with authority to release reserves. Communities that fail to plan for famine experience population collapse, migration, or conquest by better-prepared neighbors.
 
-
 ## Quality Control
 
 - **Decision documentation**: Every governance decision recorded within 24 hours, including date, participants, matter, decision, and reasoning. Undocumented decisions are not binding.
@@ -227,7 +214,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - **Annual governance audit**: Independent review of governance operations: cost vs. budget, decision timeliness, enforcement consistency, community satisfaction. Present results publicly.
 - **Precedent consistency**: New decisions must be consistent with established precedent. Departures from precedent require explicit justification recorded in the decision document.
 - **Participation metrics**: Track attendance and participation in governance proceedings. Declining participation (<30% of eligible members) signals legitimacy problems.
-
 
 ## Variations and Alternatives
 
@@ -239,7 +225,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Assembly democracy | All citizens vote on major decisions | 100-5,000 | Broad legitimacy; high participation | Slow decision-making; vulnerability to demagoguery |
 | Administrative bureaucracy | Professional administrators manage by procedure | 1,000+ | Consistency; scalability; impersonal fairness | Rigidity; detachment from governed; overhead cost |
 | Feudal hierarchy | Nested personal loyalty oaths | 1,000-100,000 | Clear authority chain; military coordination | Exploitation; rigidity; succession crises |
-
 
 ## See Also
 

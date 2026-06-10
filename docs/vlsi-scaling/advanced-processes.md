@@ -13,12 +13,6 @@ These processes represent the transition from baseline IC fabrication ([Core Fab
 
 ## Prerequisites
 
-![President Joe Biden is briefed on Intel’s CHIPS manufacturing process by technician Michelle Blackwell during a tour of the Intel Ocotillo Campus, Wednesday, March 20, 2024, in Chandler, Arizona](../images/vlsi-scaling/vlsi-scaling_advanced-processes.jpg)
-
-> *President Joe Biden is briefed on Intel’s CHIPS manufacturing process by technician Michelle Blackwell during a tour of the Intel Ocotillo Campus, Wednesday, March 20, 2024, in Chandler, Arizona. (Official White House Photo by Adam Schultz)*
-
-> *Image: The White House, Public domain*
-
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline doping, etching, deposition, and metallization
 
 ## Ion Implantation
@@ -364,8 +358,3 @@ Adopt each advanced process when its predecessor can no longer meet requirements
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
 
-![vlsi scaling finfet diagram](../images/vlsi-scaling/vlsi-scaling_finfet-diagram.png)
-
-![vlsi scaling gpu architecture](../images/vlsi-scaling/vlsi-scaling_gpu-architecture.png)
-
-![vlsi scaling hkmg diagram](../images/vlsi-scaling/vlsi-scaling_hkmg-diagram.png)

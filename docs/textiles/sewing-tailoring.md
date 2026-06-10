@@ -8,16 +8,9 @@
 > **Outputs**: garments, tents, sails, bags, belting
 > **Critical**: No
 
-
 Sewing transforms flat woven cloth into shaped, functional products: garments, tents, sails, bags, and belting. The craft demands precision — a needle eye with any burr shreds thread, a dull point tears fabric instead of piercing it, and a poorly constructed seam fails under load. Sewing technology bridges from hand stitching with bone needles to industrial lockstitch machines, enabling mass production of textile goods.
 
 ## Prerequisites
-
-![A tailor sewing emir cloth](../images/textiles/textiles_sewing-tailoring.jpg)
-
-> *In the skilled hands of the tailor, a regal masterpiece takes shape. With precision and artistry, he sews a garment fit for an emir, weaving together threads that carry the essence of tradition and elegance. In this atelier, the hum of the sewing machine harmonizes with the cultural tapestry being meticulously crafted for the distinguished wearer.*
-
-> *Image: Zee Gee el, CC BY 4.0*
 
 - [Weaving](weaving.md) — woven cloth as the primary material
 - [Iron & Steel](../metals/iron-steel.md) — steel wire for needle manufacture

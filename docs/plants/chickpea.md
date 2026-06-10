@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Chickpea](../images/plants/plants_chickpea.jpg)
-
-> *White and green chickpeas (Cicer arietinum)*
-
-> *Image: Sanjay Acharya, CC BY-SA 3.0*
-
 Chickpea
 
 *Cicer arietinum* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Chickpea provides leaves, roots, seeds/nuts as its primary edible product and ranks 72/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Requires a hot sunny position, tolerating drought once established. Prefers a light well-drained fertile soil. Tolerates a pH in the range 5.5 to 8.6. Plants are hardy to about -25°c when covered by snow. This suggests that plants can be autumn sown - some trials are called for, especially of some of the hardier cultivars. The chickpea is widely cultivated in warm temperate and tropical areas for its edible seed. There are many named varieties, some of which should be suitable for cultivation in Britain. Plants only succeed outdoors in Britain in hot summers. Plants are about as hardy as broad beans but they often do not succeed in mild moist maritime climates because the seedpods are hairy and this holds moisture. The moisture then encourages fungal growth and the seed usually rots before it is fully mature. Plants require 4 - 6 months with moderately warm dry conditions if they are to crop well. This species has a symbiotic relationship with certain soil bacteria, these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby. When removing plant remains at the end of the growing season, it is best to only remove the aerial parts of the plant, leaving the roots in the ground to decay and release their nitrogen. In cooler zones (e.g. Zones 6–7), chickpeas can still be grown as a spring-sown annual once the risk of frost has passed, but yields may be lower or the crop may mature late in the season. Propagation: Sow seed in situ in April or May under cloches. Chickpeas can germinate at lower temperatures than broad beans, raising the question of whether an early spring or even autumn sowing outdoors might succeed.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

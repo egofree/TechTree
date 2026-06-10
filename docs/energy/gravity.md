@@ -17,18 +17,6 @@ Water power converts the gravitational potential energy of flowing or falling wa
 
 ## Water Wheel Types
 
-![Hydraulic power water tank](../images/energy/energy_gravity.jpg)
-
-> *Hydraulic power system water tank Spencer Street power station Melbourne*
-
-> *Image: Rohanstorey, CC BY 4.0*
-
-![Water turbines, Armitage Bridge Mills - geograph.org.uk - 1584741](../images/energy/energy_gravity_water-turbines.jpg)
-
-> *Water turbines, Armitage Bridge Mills. Two 75 horsepower Francis type water turbines by W Gunther &amp; Sons, Oldham. Believed to have been installed in 1905 and remain in use exporting to the grid. In the background one can make out part of a large Belliss &amp; Morcom steam engine, now scrapped.*
-
-> *Image: Chris Allen, CC BY-SA 2.0*
-
 **Undershot wheel** (simplest, lowest efficiency — ancient, widely used):
 - **Principle**: Flat paddles dip into flowing water below the wheel. Water current pushes paddles, turning the wheel. No head required — works on horizontal flow velocity alone.
 - **Efficiency**: ~20-30%. Most energy lost to turbulence as water rushes past and around paddles.

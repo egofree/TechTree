@@ -8,7 +8,6 @@
 > **Outputs**: potable_water, sanitized_water
 > **Critical**: Yes — safe drinking water is the single most impactful public health intervention
 
-
 Water treatment for health and sanitation focuses on making water safe for human consumption: settling, sand filtration, boiling, chlorination, and UV treatment. Access to clean drinking water is the single most impactful public health intervention, preventing waterborne diseases (cholera, typhoid, dysentery) that would otherwise devastate a nascent industrial workforce.
 
 ## Waterborne Diseases and Their Prevention
@@ -220,7 +219,6 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 **Blackwater treatment**: Toilet waste (blackwater) contains 10⁶-10⁸ fecal coliforms per 100 mL, BOD 200-600 mg/L, TSS 200-500 mg/L. Composting toilet: aerobic decomposition at 40-60°C for 6-12 months reduces pathogens to safe levels (thermophilic composting at >55°C for >3 days kills >99.9% of all pathogens including Ascaris eggs, which are among the most heat-resistant). Averaging 0.12-0.18 kg feces and 1.0-1.5 L urine per person per day. Carbon source (sawdust, straw, or dried leaves) added at 1-2 cups per use to maintain C:N ratio of 20-30:1 and absorb moisture. Vault capacity: 1-2 m³ per person per year (combined liquid and solid with carbon cover material).
 
-
 ## Treatment Chemicals
 
 | Material | Purpose | Typical Dose | Source |
@@ -320,4 +318,3 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
 
-![health water treatment](../images/health/health_water-treatment.jpg)

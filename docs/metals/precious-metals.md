@@ -326,6 +326,3 @@ Precious metal production depends heavily on existing metallurgical and chemical
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
 
-![metals precious metals](../images/metals/metals_precious-metals.jpg)
-
-![metals precious metals diagram](../images/metals/diagram:metals_precious-metals.jpg)

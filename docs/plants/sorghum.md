@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Sorghum](../images/plants/plants_sorghum.jpg)
-
-> *This is a young sorghum plants on a farm growing to produce seeds for porridge and other uses.*
-
-> *Image: Munkaila Sulemana, CC BY-SA 4.0*
-
 Sorghum
 
 *Sorghum bicolor* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Sorghum provides seeds/nuts, shoots as its primary edible product and ranks 3/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Sorghum seeds will germinate soon after harvest. The seeds also store well if kept dry and protected from insects. Propagation: Sow seed in April in a greenhouse, barely covering it. Germination should occur within 2 weeks at a minimum temperature of 23°C. Prick out seedlings into individual pots once large enough to handle, and plant out after the last expected frost. Consider providing cloche protection until the plants are growing strongly.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

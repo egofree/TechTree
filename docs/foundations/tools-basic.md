@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![Mousterian Culture and Late Stone Age Stone Tools. Notch for sharpening wood, and denticulate for sawing wood and bone. Rosh En Mor and En Aqev. 250,000-22,000 BP. Israel](../images/foundations/foundations_tools-basic.jpg)
-
-> *Mousterian Culture and Late Stone Age Stone Tools. Notch for sharpening wood, and denticulate for sawing wood and bone. Rosh En Mor and En Aqev. 250,000-22,000 BP. IsraelIsrael Museum, Jerusalem, Israel. Complete indexed photo collection at WorldHistoryPics.com.*
-
-> *Image: Gary Todd, CC0*
-
 None required — stone and wood tools are root capabilities achievable with naturally available materials. Flint, chert, obsidian, hardwood, and softwood are found in most geological settings. Birch tar (the first synthetic adhesive) requires only birch bark and fire.
 
 ## Stone & Wood Tools

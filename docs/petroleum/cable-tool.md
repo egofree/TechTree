@@ -10,12 +10,6 @@
 
 ## Overview
 
-![C39 well drilled by cable tool oil drilling rig](../images/petroleum/petroleum_cable-tool.jpg)
-
-> *C39 well drilled by cable tool oil drilling rig*
-
-> *Image: Abasaa, Public domain*
-
 Percussion drilling using a heavy steel bit repeatedly lifted and dropped onto the rock. Depth range 50-1,500 m, penetration rate 0.5-10 m/day. Requires steam engine or animal power for the walking beam. Used for the first commercial oil wells (Titusville, 1859).
 
 The cable-tool rig consists of a walking beam rocked by a steam engine or animal-powered sweep, a drilling cable (manila, then wire rope), a heavy chisel-shaped drill bit called a string of tools, and a tempering screw for controlling feed rate. The bit is lifted and dropped repeatedly, pulverizing rock at the bottom of the hole. Periodically, the drill string is withdrawn and a bailer lowered to remove the accumulated rock cuttings mixed with water.
@@ -237,5 +231,4 @@ The cable-tool method produces less formation damage than rotary drilling in som
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Petroleum](./index.md) · [All Domains](../../index.md)*
-
 

@@ -8,16 +8,9 @@
 > **Outputs**: roads, bridges
 > **Critical**: No
 
-
 Roads and bridges are the vascular system of civilization: they connect settlements, enable trade, and allow movement of goods too heavy for human portage. Without roads, transport is limited to navigable waterways and animal tracks — weather-dependent, slow, and capacity-limited. Road construction transforms raw terrain into all-weather transportation corridors, from simple dirt tracks to engineered macadam surfaces and truss bridges spanning rivers.
 
 ## Prerequisites
-
-![Bridge between Armadale Road and North Lake Road under construction, November 2020 02](../images/transport/transport_roads.jpg)
-
-> *The bridge between Armadale Road and North Lake Road over the Kwinana Freeway under construction, seen from Cockburn Central station platform. The view of the eastern, Armadale Road, side.*
-
-> *Image: Calistemon, CC BY-SA 4.0*
 
 - [Draft Power](../animals/draft-power.md) — animal labor for earthmoving and hauling
 - [Basic Tools](../foundations/tools-basic.md) — hand tools for construction
@@ -223,7 +216,6 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - **Vibration injury**: Operators of heavy rollers, paving machines, and compactors exposed to whole-body vibration for 6-8 hours per day develop spinal degeneration over years. Cushioned seats and limited daily exposure hours reduce risk. Rotate operators between equipment types.
 - **Worker visibility**: Road construction crews working alongside live traffic must wear high-visibility garments (fluorescent orange or yellow vests with retroreflective stripes). At night, each worker needs at least 0.1 m² of retroreflective material visible from all directions. Without this, drivers at 60 km/h may not see a worker until 30 m away, leaving less than 2 seconds to react.
 - **Underground utility strikes**: Before excavating, survey for buried utilities (water, gas, electric, telegraph lines). Hand-dig within 1 m of known utility locations. A gas line strike can cause an explosion. An electric cable strike causes electrocution. A water main strike floods the excavation. Utility markings (colored paint on the road surface) indicate horizontal location only, not depth.
-
 
 ## Limitations
 

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Einkorn Wheat](../images/plants/plants_einkorn-wheat.jpg)
-
-> *Sourdough breads made with einkorn and emmer wheat.*
-
-> *Image: CallMeBarcode, CC BY 4.0*
-
 Einkorn Wheat
 
 *Triticum monococcum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Cultivated einkorn, Einkorn wheat, Small spelt provides seeds/nuts as its primary edible product and ranks 61/100 on the nutrition score.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 An easily grown plant, it succeeds in most well-drained soils in a sunny position. A low yielding species, but it succeeds in poor rocky soils and thrives in a short growing season. This is supposedly the oldest species of wheat, it probably arose over 10,000 years ago and is still occasionally cultivated for its edible seed in the mountains of Germany, Switzerland and Italy. A diploid species. Propagation: Sow seed in early spring or autumn directly in situ, barely covering it. Germination should occur within a few days.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

@@ -10,18 +10,6 @@
 
 ## Prerequisites
 
-![Moore's Law – chart of transistor count of microchips](../images/vlsi-scaling/vlsi-scaling_continuous-scaling.png)
-
-> *Moore's Law Transistor Count*
-
-> *Image: ourworldindata.org, CC BY-SA 4.0*
-
-![Moore's Law – chart of transistor count of microchips](../images/vlsi-scaling/vlsi-scaling_continuous-scaling.jpg)
-
-> *Moore's Law Transistor Count*
-
-> *Image: ourworldindata.org, CC BY-SA 4.0*
-
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor manufacturing capability
 
 ## Continuous Scaling
@@ -361,4 +349,3 @@ Transition to the next technology node when:
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
 
-![vlsi scaling multiple patterning](../images/vlsi-scaling/vlsi-scaling_multiple-patterning.png)

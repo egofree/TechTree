@@ -8,16 +8,9 @@
 > **Outputs**: voltmeter, ammeter, ohmmeter, oscilloscope, multimeter, insulation_tester, frequency_counter
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-
 Electrical systems cannot be built or maintained without measurement. You need to know voltage (is the generator producing what it should?), current (is the load drawing too much?), resistance (is the insulation intact?), frequency (is the alternator spinning at the right speed?), and waveform (is the AC output clean or distorted?). This page covers the instruments that answer these questions, from the fundamental galvanometer movement through digital multimeters, oscilloscopes, and specialized testers.
 
 ## Prerequisites
-
-![Brockhaus-Efron Electrical Measurement Instruments 4](../images/measurement/measurement_electrical-instruments.jpg)
-
-> *Иллюстрация к статье Электрические измерительные аппараты из энциклопедии Брокгауза и Ефрона*
-
-> *Image: Брокгауз и Ефрон, Public domain*
 
 - [Electricity](../energy/electricity.md) — power generation, voltage, current, and circuit fundamentals
 - [Measurement fundamentals](./index.md) — calibration philosophy and traceability
@@ -85,7 +78,6 @@ A cathode ray tube (CRT) fires a focused electron beam at a phosphor-coated scre
 
 **Dual-trace**: Two input channels share the CRT, displayed either by alternating sweeps (ALT mode, for fast sweeps) or chopping between channels at a high rate (CHOP mode, for slow sweeps). Allows comparing timing between two signals.
 
-
 ## Analog Multimeter (VOM)
 
 Combines voltmeter, ammeter, and ohmmeter in one instrument using a single galvanometer movement with switchable range circuits. The classic Simpson 260 (1940s design still in use) has a 50 μA movement, 20,000 Ω/V sensitivity on DC voltage ranges, 5,000 Ω/V on AC (rectifier losses reduce sensitivity). AC measurement uses a copper-oxide or germanium diode rectifier to convert AC to DC for the movement. The rectifier introduces nonlinearity and a minimum voltage threshold (~0.3 V), so AC voltage ranges are less accurate than DC (typically ±3% vs ±1.5%).
@@ -123,7 +115,6 @@ Measures the frequency of a periodic signal by counting cycles over a precisely 
 The input signal is amplified, squared (converted to a clean digital waveform by a comparator with hysteresis), and fed to a counter chain. At the start of the gate, the counter begins counting input cycles. At the end of the gate, the count is latched and displayed. Resolution = 1 / gate_time. For a 10 MHz signal measured with a 1-second gate: reading is 10,000,000 Hz ±1 count. Accuracy is limited by the timebase crystal stability: ±0.01% for a TCXO (temperature-compensated crystal oscillator), ±0.0001% for an OCXO (oven-controlled).
 
 Reciprocal counting: instead of gating the input signal, the counter gates by the input signal period and counts timebase clocks. This gives fixed resolution regardless of input frequency. A 10 MHz timebase counting over one cycle of a 1 kHz input gives 10,000 counts (0.01% resolution), far better than conventional counting (which would count 1 cycle in a 1 ms gate, giving 1 kHz ±1 Hz, or 0.1% resolution).
-
 
 ## Galvanometer Movement
 
@@ -204,7 +195,6 @@ Beyond the standard instruments listed above, several specialized measurements a
 - **CRT hazards**: Oscilloscope CRTs operate at 1-3 kV accelerating voltage (intensity and focus). The CRT itself is an implosion hazard: the evacuated glass envelope stores atmospheric pressure energy. Handle CRTs with safety glasses and face shield. Discharge the CRT anode (under the insulating cup on the bell) to the grounded chassis before servicing, using an insulated probe. The stored charge can deliver a painful but rarely fatal shock.
 - **Megger testing hazards**: The megger's output of 500-5000 V DC, though current-limited to a few milliamps, can cause a startling shock that leads to a fall from a ladder or involuntary contact with energized equipment. Always verify the circuit is de-energized and disconnected from all power sources before testing insulation. Capacitive loads (long cables, large motor windings) store charge after the megger is removed: discharge by connecting the test leads together or to ground for at least 30 seconds after testing. Failure to discharge can result in a shock when handling the supposedly disconnected cable.
 - **Shunt hazards**: Current shunts carrying 100+ A produce significant heating. A 100 A shunt at 75 mV dissipates 7.5 W, reaching 60-80°C surface temperature. At 1000 A (large industrial shunts), dissipation is 75 W, requiring heatsinking or forced air cooling. Burns from touching an energized shunt are a real risk. Install shunts in enclosures with ventilation openings, and label with maximum current rating. Never apply current exceeding the shunt's rating: overheating changes manganin's resistance and permanently shifts calibration.
-
 
 **Calibration Management**: Maintain calibration records for every instrument with serial number, calibration date, due date, standard used (traceable to national standards), and as-found/as-left data. Calibration intervals: DMMs 6-12 months, oscilloscopes 12 months, meggers 12 months. Field calibration checks between formal calibrations using reference standards (voltage reference: 10.000V ±0.01% for DMM spot-check, precision resistor 100.00 Ω ±0.01% for ohmmeter verification). Out-of-tolerance instruments trigger a review of measurements taken since last known-good calibration.
 

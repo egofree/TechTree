@@ -8,21 +8,13 @@
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
 > **Critical**: No — reduces chronic illness and disability but production can proceed at higher human cost without formal occupational health programs
 
-
 Industrial processes generate hazards: toxic fumes from smelting, silica dust from mining and glassmaking, noise from forging and machining, chemical exposures from acid production and electroplating, radiation from welding and X-ray sources. Without systematic hazard identification and control, workers suffer chronic illness, disability, and premature death. Occupational health practice applies a control hierarchy (eliminate, substitute, engineer, administrate, protect) to reduce exposures to safe levels. This page covers the specific hazards encountered in bootstrapping an industrial civilization and the control measures for each.
 
 ## Prerequisites
 
-![CHD Group team member implementing CSR programme in Occupational health of farmers in India](../images/health/health_occupational-health.jpg)
-
-> *CHD Group team member implementing CSR programme in Occupational health of farmers in India*
-
-> *Image: Roseli1990, CC BY 4.0*
-
 - [Acids](../chemistry/acids.md) — acid production and handling hazards
 - [Medicine](medicine.md) — medical treatment and surveillance programs
 - [Mining / Processing](../mining/processing.md) — dust and ventilation controls
-
 
 ## Chemical Hazards
 
@@ -154,7 +146,6 @@ The last line of defense, used when higher-level controls cannot reduce exposure
 
 **Chemical storage and handling**: Store incompatible chemicals separately (acids from bases, oxidizers from organics, flammables in approved cabinets). Secondary containment (berms, drip trays) captures spills. Eyewash stations and emergency showers within 10 seconds travel distance (about 15 meters) of any chemical handling area. Flush for 15 minutes minimum after chemical eye or skin contact.
 
-
 ## Air Sampling
 
 Personal air sampling collects contaminants from the worker's breathing zone (within 30 cm of the nose and mouth). A battery-powered sampling pump draws air at a calibrated flow rate (1-2 L/min for particulates, 50-200 mL/min for gases) through a collection medium. For particulates: a pre-weighed filter cassette (37 mm diameter, 0.8 μm pore size mixed cellulose ester membrane) captures dust. Weigh the filter before and after sampling on a microbalance (0.01 mg resolution) to determine mass concentration. For silica analysis, the filter is digested and analyzed by X-ray diffraction or infrared spectrophotometry.
@@ -188,7 +179,6 @@ Duct design: maintain transport velocity above the minimum for the material bein
 | Chemical production | Toxic gases, acids, solvents, explosion | Process enclosure, gas detection, blast-resistant construction, emergency showers |
 | Electrical generation | Electrocution, arc flash, noise | Lockout/tagout, arc-rated clothing, insulated tools, approach boundaries |
 | Semiconductor manufacturing | HF, silane, arsine, cleanroom chemicals | Gas cabinets with exhaust, continuous monitoring, automatic shutoff valves |
-
 
 ## Chemical Exposure First Aid
 

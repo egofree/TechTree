@@ -8,32 +8,11 @@
 > **Outputs**: glass_apparatus, laboratory_glassware
 > **Critical**: Yes — laboratory glassware (flasks, condensers, tubing) is required for all wet chemistry, distillation, and gas handling in the bootstrap sequence.
 
-
 Glassblowing transforms glass tubing and rod into scientific apparatus, containers, and precision instruments. Two main techniques exist: **furnace glassblowing** (gathering molten glass on a blowpipe) for containers and window glass, and **lampworking** (bench-scale torch work) for precision laboratory glassware. Lampworking is the primary technique for producing the flasks, condensers, distillation columns, and tubing assemblies required by [chemistry](../chemistry/index.md), [silicon purification](../silicon/purification.md), and [gas handling](../gas-handling/index.md).
 
 This capability depends on [advanced glass production](advanced.md) for borosilicate tubing and soda-lime glass melt. Downstream, every chemical process — [distillation](../chemistry/distillation.md), [ammonia synthesis](../chemistry/ammonia.md), [electrolysis](../chemistry/electrolysis.md) — uses glass apparatus produced by this capability.
 
 ## Prerequisites
-
-![Distillation apparatus](../images/glass/glass_glassblowing.jpg)
-
-> *A one-piece glass distillation apparatus, created in an introductory scientific glassblowing course.*
-
-> *Image: No machine-readable author provided. Ragesoss assumed (based on copyright claims)., Public domain*
-
-![Glass Beach Fort Bragg 2](../images/glass/glass_advanced_glassblowing.jpg)
-
-> *The Glass beach in Fort Bragg, California.*
-
-> *Image: Jef Poskanzer, CC BY 2.0*
-
-
-
-![BlowblowAllSteps](../images/glass/glass_glassblowing-diagram.png)
-
-> *Blow and Blow process steps*
-
-> *Image: Nogrid, see also Nogrid pointsBlow, CC BY-SA 4.0*
 
 **Materials**:
 - [Borosilicate glass tubing](advanced.md) (3-50 mm OD, 0.5-2.5 mm wall) — primary raw material for lampworking
@@ -63,7 +42,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 | Tungsten carbide scribe | 1 (reusable) | [Machining](../machine-tools/machining.md) | Diamond scribe, hardened steel file |
 | Annealing oven fuel/power | 2-5 kWh | [Electricity](../energy/electricity.md) | Gas-fired kiln |
 | Rubber hose (for blow tube) | 0.5-1 m | [Rubber processing](../chemistry/adhesives-coatings.md) | Latex tubing, direct mouth blow |
-
 
 ## Lampworking (Bench-Scale Torch Work)
 
@@ -317,7 +295,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Uniform wall thickness requires skilled glassblowing — inconsistent walls distort volume readings
 - Calibration is temperature-dependent — accuracy degrades if used at temperatures far from calibration temperature
 
-
 ## Torch Types and Capabilities
 
 | Parameter | Gas-air | Gas-oxygen | Oxy-hydrogen |
@@ -386,7 +363,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 **Dimensional accuracy**: Measure critical dimensions with calipers (±0.05 mm). Check concentricity of inner tubes in condensers. Verify side arm angles with a protractor (±5°).
 
 **Volume calibration**: For graduated cylinders and volumetric glassware, calibrate by weighing deionized water. 1.000 g water = 1.000 mL at 4°C. Record calibration temperature on each piece. Re-calibrate if glass is heated above 200°C (thermal expansion affects volume).
-
 
 ## Window Glass Methods
 

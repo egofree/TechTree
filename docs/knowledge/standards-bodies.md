@@ -8,18 +8,11 @@
 > **Outputs**: technical_standards, measurement_standards, quality_standards, interoperability_specifications
 > **Critical**: Yes — without agreed standards, every workshop produces incompatible parts, measurement systems diverge, and inter-settlement trade in manufactured goods collapses
 
-
 Standards bodies are the organizational mechanisms by which a civilization agrees on common specifications: screw thread profiles, material grades, electrical voltages, paper sizes, drawing conventions, and measurement units. The need emerges as soon as two workshops must produce interchangeable parts, or two settlements must trade goods with agreed-upon quality. Standards prevent the fragmentation of effort that occurs when each practitioner invents their own system.
 
 This capability covers the *process* of creating, maintaining, and enforcing standards — the organizational and knowledge infrastructure, not the specific content of any particular standard. The content (thread profiles, material specifications, electrical codes) belongs to the relevant technical domains. What belongs here is the machinery of consensus, documentation, revision, and compliance that makes standards work. This includes concrete organizational templates and worked examples sufficient for a community to establish its own standards body from scratch.
 
 ## How to Establish a Standards Body
-
-![Bans Off Our Bodies NYC (42278)](../images/knowledge/knowledge_standards-bodies.jpg)
-
-> *Bans Off Our Bodies NYC*
-
-> *Image: Rhododendrites, CC BY-SA 4.0*
 
 A standards body is a standing organization with a defined charter, membership rules, and procedures. It does not require a large bureaucracy — a bootstrap settlement can start with a part-time committee of 3-5 people managing 10-20 critical standards. The key is having defined procedures so that standards are produced by a repeatable process rather than ad hoc.
 
@@ -213,7 +206,6 @@ The technical review panel judges whether an objection meets these criteria. Obj
 | Test specimens for validation | 10-100 per validation round | Relevant domain (metals, ceramics, etc.) | Reduced sample size (lower statistical confidence) |
 | Meeting facilities | Shared across all standards activities | [Construction](../construction/index.md) | Correspondence-based process (slower, 5-10× timeline) |
 
-
 ## Standards Development Lifecycle
 
 1. **Need identification**: A practitioner or organization identifies a problem caused by lack of standardization — parts don't fit, measurements don't agree, materials perform unpredictably. Document the specific failure and its economic cost.
@@ -365,7 +357,6 @@ Withdrawal procedure: The plenary votes to withdraw. The secretary publishes a w
 
 **Safety standards**: Define minimum safety requirements for products and processes. Without these, the cost of accidents is borne by the user rather than prevented at the design stage. Examples: pressure vessel codes, electrical installation codes, machine guarding requirements.
 
-
 ## Standard Development Timeline
 
 | Phase | Duration | Participants | Deliverable |
@@ -439,7 +430,6 @@ Withdrawal procedure: The plenary votes to withdraw. The secretary publishes a w
 - **Standard document quality**: Every standard document must be reviewed for clarity, completeness, and absence of ambiguity by at least two reviewers before publication. Ambiguous standards cause more harm than no standard at all.
 - **Inter-laboratory comparison**: Periodically distribute identical test specimens to all testing facilities that certify compliance with a given standard. Compare results across facilities. If any facility's results deviate by more than 10% from the median, investigate their testing procedure and equipment calibration. This round-robin testing catches systematic errors in individual laboratories before they cause widespread compliance failures.
 - **Appeals process**: When a standard is challenged as technically incorrect or unreasonably burdensome, provide a formal appeals mechanism. The appellant presents technical evidence; the standards body responds with technical counter-evidence. A senior technical panel (not the original working group) renders a binding decision. This process prevents standards from becoming fossilized errors.
-
 
 ## De Facto Standards (Market-Driven)
 

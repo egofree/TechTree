@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Agrimonia pilosa](../images/plants/plants_agrimonia-pilosa.jpg)
-
-> *A picture of hairy agrimony (Agrimonia pilosa) flowering in July.*
-
-> *Image: lidia80, CC0*
-
-![Agrimonia pilosa flowering](../images/plants/plants_medicinal-plants_agrimonia-pilosa.jpg)
-
-> *A picture of hairy agrimony (Agrimonia pilosa) flowering in July.*
-
-> *Image: lidia80, CC0*
-
-
 Agrimonia pilosa also known as hairy agrimony , is a flowering plant in the family Rosaceae . It is distributed primarily over the Korean Peninsula , Japan, China, Siberia , and Eastern Europe
 
 Hairy agrimony has been a staple of East Asian herbal medicine for centuries, valued for its astringent, anti-inflammatory, and hemostatic properties. The plant's tannin-rich aerial parts are prepared as decoctions to treat digestive ailments, mouth and throat inflammation, and superficial wounds. Its yellow flower spikes also yield a pale yellow dye when processed with alum mordant.
@@ -192,7 +179,6 @@ Agrimony grows well alongside other Rosaceae family members and benefits from pr
 - [Medicinal Plants](medicinal-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Medicinal Plants](medicinal-plants.md) — downstream capability
-
 
 ### Material Handling
 

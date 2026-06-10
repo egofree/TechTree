@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Safflower](../images/plants/plants_safflower.jpg)
-
-> *OLYMPUS DIGITAL CAMERA*
-
-> *Image: Esin Üstün from Istanbul, Turkey, CC BY 2.0*
-
 Safflower
 
 *Carthamus tinctorius* (Asteraceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Safflower provides leaves, seeds/nuts, flowers as its primary edible product and ranks 69/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Succeeds in ordinary garden soil. Safflower thrives in heavy clays with good water-holding capacity, but will also grow satisfactorily in deep sandy or clay loams with good drainage. It needs soil moisture from the time of planting until it is flowering. It requires a well-drained soil and a position in full sun. Safflower is reported to tolerate an annual precipitation of 20 to 137cm, an annual average temperature range of 6.3 to 27.5deg.C and a pH in the range of 5.4 to 8.2. Plants are reported to tolerate bacteria, disease, drought, frost, fungus, high pH, phage, salt, sand, rust, virus and wind. Safflower grows in the temperate zone in areas where wheat and barley do well, and grows slowly during periods of cool short days in early part of season. Seedlings can withstand temperatures lower than many species; however, varieties differ greatly in their tolerance to frost; in general, frost damages budding and flowering thus reducing yields and quality. Safflower is a long-day plant, requiring a photoperiod of about 14 hours. It is shade and weed intolerant, will not grow as a weed because other wild plants overshadow it before it becomes established. It is about as salt tolerant as cotton, but less so than barley. Safflower matures in from 110-150 days from planting to harvest as a spring crop, as most of it is grown, and from 200 or more days as an autumn-sown crop. It should be harvested when the plant is thoroughly dried. Since the seeds do not shatter easily, it may be harvested by direct combining. The crop is allowed to dry in the fields before threshing. Plants are self-fertile, though cross-pollination also takes place. Plants have a sturdy taproot that can penetrate 2.5 metres into the soil. Safflower has been grown for thousands of years for the dye that can be obtained from the flowers. This is not much used nowadays, having been replaced by chemical dyes, but the plant is still widely cultivated commercially for its oil-rich seed in warm temperate and tropical areas of the world. There are many named varieties. A number of spineless cultivars have been developed, but at present these produce much lower yields of oil than the spiny varieties. Safflower is unlikely to be a worthwhile crop in Britain since it only ripens its seed here in long hot summers. There is more chance of success in the drier eastern part of the country with its usually warmer summers, the cooler moister conditions in the west tend to act against the production of viable seed. Propagation: Sow seed in spring with gentle heat in a greenhouse. Germination usually occurs within 2–4 weeks at 15°C. Once large enough to handle, prick seedlings into individual pots and plant into permanent positions in late spring or early summer. Seed can also be sown in situ in April or May, though plants may not ripen their seed under those conditions.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -275,4 +268,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants safflower](../images/plants/plants_safflower.jpeg)

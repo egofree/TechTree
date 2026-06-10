@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Onion](../images/plants/plants_onion.jpg)
-
-> *Onion processing plant in Boardman, Oregon. 11/5/2014 Photo by Kirsten Strough*
-
-> *Image: USDAgov, Public domain*
-
 Onion
 
 *Allium cepa* (Amaryllidaceae) is a vegetable crop species of major importance for civilization bootstrapping. Bulb onion provides leaves, roots, seeds/nuts as its primary edible product and ranks 18/100 on the nutrition score.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Prefers a sunny sheltered position in a rich light well-drained soil. Prefers a pH of at least 6.5. Plants tolerate a pH in the range of 4.5 to 8.3. Onions are best grown in a Mediterranean climate, the hot dry summers ensuring that the bulbs are ripened fully. For best growth, however, cool weather is desirable at the early stages of growth. Plants are frost-tolerant but prolonged temperatures below 10°c cause the bulb to flower. Optimum growth takes place at temperatures between 20 and 25°c. Bulb formation takes place in response to long-day conditions. Plants are perennial but the cultivated forms often die after flowering in their second year though they can perennate by means of off-sets. The onion was one of the first plants to be cultivated for food and medicine. It is very widely cultivated in most parts of the world for its edible bulb and leaves, there are many named varieties capable of supplying bulbs all the year round. This species was derived in cultivation from A. oschaninii. Most forms are grown mainly for their edible bulbs but a number of varieties, the spring onions and everlasting onions, have been selected for their edible leaves. There are several sub-species:- Allium cepa 'Perutile' is the everlasting onion with a growth habit similar to chives, it is usually evergreen and can supply fresh leaves all winter. Allium cepa aggregatum includes the shallot and the potato onion. These are true perennials, the bulb growing at or just below the surface of the ground and increasing by division. Plants can be divided annually when they die down in the summer to provide bulbs for eating and propagation. Allium cepa proliferum is the tree onion, it produces bulbils instead of flowers in the inflorescence. These bulbils have a nice strong onion flavour and can be used raw, cooked or pickled. Onions grow well with most plants, especially roses, carrots, beet and chamomile, but they inhibit the growth of legumes. This plant is a bad companion for alfalfa, each species negatively affecting the other. Members of this genus are rarely if ever troubled by browsing deer. Alliums are typically harvested in late spring to early summer, when the bulbs mature and the tops begin to yellow. Allium species typically flower in late spring to early summer, depending on the species and local climate conditions. Allium species generally have a moderate growth rate, with bulbs typically taking about 100 to 150 days from planting to harvest, depending on the variety and growing conditions. Propagation: Early sowings can be made in February in a greenhouse for planting out in late spring. The main sowing is in March or April in a well-prepared outdoor seedbed. A further sowing of winter-hardy varieties (Japanese onions are widely used for this) can be made outdoors in August; these overwinter and produce bulbs in June of the following year. Onion sets can be planted out in March or April. Sets are produced by sowing seed thickly in an outdoor seedbed in May or June on soil that is not too rich — seedlings will remain small in their first year, producing bulbs of about 1–2cm diameter. These are harvested in late summer, stored in a cool, frost-free place over winter, and planted out the following April. A proportion will bolt to seed but most should develop into good-sized bulbs.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

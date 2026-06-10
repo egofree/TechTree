@@ -8,14 +8,11 @@
 > **Timeline**: Years 5-50+
 > **Outputs**: fortifications, defensive_structures, walls, towers, castle_fortifications
 
-
-
 Fortification engineering is the design and construction of defensive structures that protect people, resources, and infrastructure from military attack. From simple log palisades to star forts resisting cannon bombardment, fortifications represent the largest material investments any community makes in its defense.
 
 Fortifications are fundamentally civil engineering projects with defensive design criteria. A stone curtain wall uses the same masonry techniques as a building wall, but with specified thickness (1.5-3.0 m), height (6-12 m), and crenellation for defense. An earthen rampart is a compacted-soil structure with slope stability requirements. The engineering skills overlap directly with [construction](../construction/index.md), [mining](../mining/index.md) for quarrying, and [chemistry](../chemistry/cement.md) for mortar production.
 
 The critical design principle for all fortifications is layered defense in depth: no single wall or obstacle should be the only barrier between attackers and the defended objective. Concentric castle design, multiple ditches, interlocking fields of fire, and interior lines of communication ensure that breaching one element exposes attackers to defense from the next. A well-designed fortification with a competent garrison historically resists attack at 3:1 odds or worse.
-
 
 ## Prerequisites
 
@@ -26,7 +23,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 - [Cement and mortar](../chemistry/cement.md) — lime mortar for stone wall bonding, hydraulic mortar for wet locations
 - [Foundations](../foundations/index.md) — timber working for palisades, gates, and scaffolding
 - [Governance](../economics-organization/governance.md) — labor mobilization for major construction projects
-
 
 ## Bill of Materials
 
@@ -39,8 +35,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 | Wet moat | Water supply + clay lining | 10-15 cm puddled clay | Inlet/outlet works, timber sluice gates | [Chemistry: Cement](../chemistry/cement.md) |
 | Star fort bastion | Earth + stone facing | 5000 m3 earth, 500 m3 stone | 10,000 m3 excavation for ditches | [Mining](../mining/index.md) |
 | Gabion wall (2 m) | Willow/hazel withies + earth | 200-300 gabions, 60-100 cm dia | Iron wire for tying, stakes for anchoring | [Foundations](../foundations/index.md) |
-
-
 
 ## Palisades & Basic Field Defenses (Years 0-5)
 
@@ -150,8 +144,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 
 **Barbed wire obstacle**: 3-5 belts of concertina wire, each 10-15 m deep, spaced 20-30 m apart. Wire: 2-strand twisted wire with barbs at 10-15 cm intervals, 1.6-2.0 mm wire diameter. Concertina coil: 75-100 cm diameter, 15 m stretched length per coil. Delays assaulting infantry 3-5 minutes per belt under fire -- decisive tactical advantage for defenders.
 
-
-
 ## Fortification Material Quantities
 
 | Fortification Type | Material per 100 m Frontage | Labor (worker-days) | Construction Time |
@@ -191,7 +183,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 | Musket | 50-80 | From parapet to glacis | 4 m |
 | Cannon (siege) | 200-600 | From bastion to approach works | N/A (platform) |
 
-
 ## Wall Construction Techniques
 
 **Ashlar masonry**: Dressed stone blocks (rectangular, flat faces, tight joints <5 mm) laid in regular courses. Each stone dressed to precise dimensions by stonemason using chisel and hammer. Joint filled with lime mortar (see [Cement](../chemistry/cement.md)). Strongest masonry type -- tight joints resist sapping and weathering. Production rate: 2-5 dressed ashlar stones per mason per day (dressing is the bottleneck). Stone types by strength: granite (compressive strength 100-250 MPa), limestone (30-100 MPa), sandstone (20-170 MPa).
@@ -208,7 +199,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 
 **Concrete (Portland cement era)**: 1:2:4 mix (cement:sand:gravel) by volume, compressive strength 20-40 MPa at 28 days. Reinforced with steel rebar (deformed bars, 10-25 mm diameter, 150-300 mm spacing). Reinforced concrete fortification: 300-1000 mm wall thickness resists artillery shells. Requires industrial chemistry for Portland cement production -- see [Cement](../chemistry/cement.md).
 
-
 ## Gate & Entry Defense in Detail
 
 **Reinforced doors**: Oak planks (8-15 cm thick) bonded and reinforced with iron straps (5-10 mm x 40-80 mm flat bar) clinched through door with iron nails. Iron hinges (pivot type -- pin set in stone threshold and lintel) supporting 200-500 kg door weight. Locking: massive iron crossbar (timber or iron, 3-5 m long x 15-20 cm section) set in stone pockets on interior wall. Multiple locking bars common -- two or three stacked vertically.
@@ -216,7 +206,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 **Portcullis detail**: Iron-bound oak grating (3-5 m wide x 3-4 m high). Horizontal bars: 8-12 cm square oak, wrapped with iron plate (3-5 mm). Vertical bars: 5-8 cm square oak, iron-bound. Spacing: 15-25 cm between verticals (too narrow to crawl through). Weight: 500-1500 kg. Raised by chain hoist or counterweight system (counterweight in wall shaft). Dropped by releasing latch -- falls under gravity. Murder holes above gate passage allow defenders to drop projectiles onto anyone trapped under closed portcullis.
 
 **Drawbridge mechanics**: Counterweighted bascule bridge (hinged at gatehouse end). Counterweight in pit below bridge level -- when chains release, counterweight pulls bridge up. Alternative: chain-lifted bridge wound by windlass in gatehouse chamber. Bridge span: 3-5 m (width of moat at crossing point). Bridge deck: 10-15 cm oak planks on timber framework, iron-strapped joints. Defensive: when raised, the gap is an unbridgeable void over the moat.
-
 
 ## Water Supply & Drainage
 
@@ -226,7 +215,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 
 **Drainage**: Interior courtyards and wall walks must drain to prevent waterlogging and structural damage. Stone-lined drainage channels (15-30 cm wide, 5-10 cm deep) with 1-2% gradient. Drain outlets through wall base: stone spouts projecting 20-30 cm from wall face (prevent water running down wall and eroding mortar). French drain (gravel-filled trench) behind retaining walls relieves hydrostatic pressure on earth ramparts -- prevents waterlogged soil from collapsing the wall.
 
-
 ## Scaling Notes
 
 - **Village stockade (50-200 people)**: Simple palisade + ditch enclosing 50x50 m to 100x100 m area. Construction: 200-400 worker-days. Materials: 300-1000 logs, local earth. No specialized skills required beyond basic woodworking. Provides defense against raiders and wildlife.
@@ -234,7 +222,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 - **Castle (noble seat, 30-100 garrison)**: Keep + inner ward + curtain wall + towers + gatehouse + moat. Construction: 5-20 years, 5000-20000 worker-days. Stone: 2000-10000 m3. Requires master stonemason, organized supply chain for stone and mortar.
 - **Star fort (military garrison, 500-3000 soldiers)**: 4-8 bastions, 500-2000 m perimeter, ditches, glacis, covered way, powder magazine, barracks. Construction: 1-5 years, 50000-200000 worker-days. Earth moving is the primary labor (5000-20000 m3 per bastion). Requires military engineer for layout, large labor force, and state-level funding.
 - **Garrison sizing**: Minimum 1 soldier per 2-3 m of curtain wall for effective defense. Castle: 30-100 soldiers. Star fort: 500-3000 soldiers. Under-garrisoned fortifications cannot man all sectors simultaneously, creating exploitable weak points.
-
 
 ## Troubleshooting
 
@@ -251,7 +238,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 | Cistern water contamination | Open cistern, animal/bird access, sediment | Cover cistern with stone cap; install sand filter at inlet; clean sediment annually |
 | Drawbridge mechanism jamming | Rusted chains, swollen timber, counterweight shift | Oil chains and pivot points weekly; use seasoned oak for bridge; inspect counterweight shaft for debris |
 
-
 ## Safety Considerations
 
 - **Construction falls**: Working on wall tops and scaffolding 6-12 m above ground is the primary construction hazard. Scaffold planks must be secured against wind lift. Workers on wall walks use temporary railings until crenellations are complete. Estimated historical fatality rate: 1-3 deaths per major construction project from falls alone.
@@ -261,7 +247,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 - **Siege hazards for defenders**: Boiling oil or water dropped from murder holes splashes on defenders as well as attackers. Ensure murder hole openings have raised lips to prevent back-splash. Overloaded wall walks can collapse under the weight of defenders and ammunition -- distribute weight and avoid concentrating fighters at single points.
 - **Powder magazine explosion risk**: Gunpowder storage in fortifications requires bomb-proof construction (earth-bermed, stone-vaulted chamber). No naked flames, no metal-sparking tools, single entrance with blast deflection wall. Magazine detonation destroys adjacent structures and kills garrison within 50 m.
 - **Structural overload during siege**: Sustained bombardment weakens walls unpredictably. Evacuate wall walks under cannon fire. Inspect walls after bombardment for structural cracks before re-manning. Partially collapsed wall can give way without warning under the weight of defenders.
-
 
 ## Field Fortification Tactics
 
@@ -273,7 +258,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 
 **Camouflage and deception**: Field fortifications concealed from enemy observation using natural materials (branches, sod, netting). Dummy positions constructed to draw fire and mislead enemy about true defensive layout. Decoy fires, false trench lines, and fabricated equipment visible from the air or elevated positions. Effective deception delays enemy reconnaissance and causes misallocation of artillery fire.
 
-
 ## Fortification Lifecycle & Maintenance
 
 **Weathering and erosion**: Earthen fortifications erode 5-15 cm per year from rainfall, wind, and freeze-thaw cycles. Requires annual re-grading and re-compacting of slopes. Stone walls: mortar joints erode faster than stone -- repointing required every 50-100 years (chisel out degraded mortar to 25-50 mm depth, pack with fresh lime mortar). Timber elements (palisades, revetments, gates) rot in 5-15 years depending on species and soil contact -- oak lasts longest, pine shortest.
@@ -281,7 +265,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 **Garrison requirements**: Minimum garrison: 1 soldier per 2-3 m of curtain wall for effective defense. Castle: 30-100 soldiers. Star fort: 500-3000 soldiers. Garrison must include specialists: engineers (maintain structures, operate siege engines), smiths (repair armor and weapons), fletchers (maintain arrow supply), cooks, water bearers. Fortification without adequate garrison is merely an obstacle -- a small garrison cannot man all walls simultaneously, creating weak points for attackers to exploit.
 
 **Supply storage**: Fortress stores for sustained siege: grain (2 kg per soldier per day x siege duration x garrison size), salted meat/fish, dried legumes, beer or wine (water safety), firewood (2-3 kg per soldier per day for cooking), ammunition (arrows: 50-100 per defender, powder and shot for artillery), medical supplies. Storage rooms: vaulted stone chambers on ground floor of keep or towers -- cool, dry, protected from fire.
-
 
 ## Limitations
 
@@ -297,7 +280,6 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 - **Obsolescence cycle**: Fortifications are fixed investments that cannot relocate. A star fort built in 1600 may be obsolete by 1700 as artillery improves. Abandoned fortifications cannot be easily repurposed -- stone walls are expensive to demolish, earthworks erode into landscape. Fortification planning requires forecasting siege technology decades ahead -- inherently uncertain.
 - **Historical attrition**: Most fortifications were captured by treachery, surprise, or starvation -- not by assault. Direct assault on prepared fortifications has historically low success rate (20-30%). Besiegers prefer to wait for defenders to run out of food or negotiate surrender. This means logistics and morale matter more than wall thickness in most sieges.
 - **Redundancy principle**: No single defensive element should be critical. Multiple walls, multiple gates, multiple water sources, multiple lines of fire. If any one element falls, the defense continues from the next layer. Concentric castle design embodies this principle -- breach the outer wall and you face a taller inner wall with fresh defenders.
-
 
 ## See Also
 

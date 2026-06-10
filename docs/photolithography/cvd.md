@@ -12,24 +12,6 @@ Chemical vapor deposition (CVD) grows thin solid films on a substrate by decompo
 
 ## CVD Variants
 
-![Chemical Vapor Deposition Setup](../images/photolithography/photolithography_cvd.jpg)
-
-> *CVD is used for synthesizing materials in a controlled manner. Here is a 3-zone furnace with the requisite gas lines to transport the gas.*
-
-> *Image: Aksy88, CC BY-SA 4.0*
-
-![Ruthenium crystal (CVD 99.95%)](../images/photolithography/photolithography_cvd-process.jpg)
-
-> *99.95% pure ruthenium crystal*
-
-> *Image: François Nguyen, CC BY 2.0*
-
-![MCVD german](../images/photolithography/photolithography_cvd-schematic.png)
-
-> *Modified Chemical Vapor Deposition (MCVD) process for optical fiber manufacturing (German labeling)*
-
-> *Image: Kirnehkrib, CC BY-SA 3.0*
-
 Three major CVD variants cover the full temperature and film-quality spectrum needed in IC fabrication:
 
 | Type | Pressure | Temperature | Deposition rate | Uniformity | Primary use |

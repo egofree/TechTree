@@ -14,12 +14,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 ## Materials
 
-![Diagram showing the Earth's energy budget, which includes the greenhouse effect (NASA)](../images/energy/energy_solar-thermal.png)
-
-> *This diagram shows the Earth's energy budget, which includes the greenhouse effect. The following description is an edited quote from a public-domain source (Lindsey, 2009): On average, 340 watts per square meter (W.m-2) of solar energy arrives at the top of the atmosphere.  Earth returns an equa...*
-
-> *Image: Robert Simmon, Public domain*
-
 - **Glass** — Flat window glass (3-6 mm) for flat-plate collectors; curved or bent glass for parabolic troughs. See [Glass](../glass/basic.md).
 - **Copper tubing** — For heat exchangers and absorber plates. See [Copper & Bronze](../metals/copper-bronze.md).
 - **Mirror material** — Silvered glass (silver deposit on glass backing), polished metal (aluminum, stainless steel), or aluminized polymer film.

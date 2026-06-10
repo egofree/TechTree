@@ -12,30 +12,6 @@ Coal is the highest-energy solid fuel available to a bootstrapping civilization,
 
 ## Coal Types & Properties
 
-![A catechism on the combustion of coal and the prevention of smoke; a practical treatise](../images/energy/energy_coal.jpg)
-
-> *A completely revised edition of the author's A practical treatise on the combustion of coal*
-
-> *Image: Barr, William M. (William Miller), Public domain*
-
-![A catechism on the combustion of coal and the prevention of smoke; a practical treatise](../images/energy/energy_fuels_coal.jpg)
-
-> *A completely revised edition of the author's A practical treatise on the combustion of coal*
-
-> *Image: Barr, William M. (William Miller), Public domain*
-
-![Renewable-H2 and activated charcoal production process from biomass pyrolysis](../images/energy/energy_fuels_charcoal.png)
-
-> *Renewable-H2 and activated charcoal production process from biomass pyrolysis.*
-
-> *Image: Rey, José Ramón Copa, Cecilia Mateos-Pedrero, Andrei Longo, Bruna Rijo, Paulo Brito, Paulo Ferreira, and Catarina Nobre., CC BY-SA 4.0*
-
-![Carbonization Link Map - 1](../images/energy/energy_charcoal-production-diagram.png)
-
-> *A link-map providing processes that go into and occur as a result of carbonization.*
-
-> *Image: IUPAC, Public domain*
-
 **Strengths**:
 - Highest energy density of any solid fuel (bituminous: 25-35 MJ/kg, anthracite: 35+ MJ/kg)
 - Abundant and geologically widespread — found on every continent

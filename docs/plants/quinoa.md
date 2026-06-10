@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Quinoa](../images/plants/plants_quinoa.jpg)
-
-> *Quinoa (Chenopodium quinoa)*
-
-> *Image: Philipp, CC0*
-
 Quinoa
 
 *Chenopodium quinoa* (Amaranthaceae) is a staple food crop species of major importance for civilization bootstrapping. Quinoa provides leaves, seeds/nuts as its primary edible product and ranks 77/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 a cultivated food crop. A plant of higher elevations in the tropics, it has also been successfully grown in the temperate and subtropical zones. Plants tolerate light frosts at any stage in their development except when flowering. An easily grown plant, it requires a rich moist well-drained soil and a warm position if it is to do really well, but it also succeeds in less than optimum conditions. Tolerates a pH range from 6 to 8.5 and moderate soil salinity. Plants are quite wind resistant. Plants are drought tolerant once they are established. The plant is day-length sensitive and many varieties fail to flower properly away from equatorial regions, however those varieties coming from the south of its range in Chile are more likely to do well in Britain. Different cultivars take from 90 - 220 days from seed sowing to harvest. Yields as high as 5 tonnes per hectare have been recorded in the Andes, which compares favourably with wheat in that area. Young plants look remarkably like the common garden weed fat hen (Chenopodium album). Be careful not to weed the seedlings out in error. The seed is not attacked by birds because it has a coating of bitter tasting saponins. These saponins are very easily removed by soaking the seed overnight and then thoroughly rinsing it until there is no sign of any soapiness in the water. The seed itself is very easy to harvest by hand on a small scale and is usually ripe in August. Cut down the plants when the first ripe seeds are falling easily from the flower head, lay out the stems on a sheet in a warm dry position for a few days and then simply beat the stems against a wall or some other surface, the seed will fall out easily if it is fully ripe and then merely requires winnowing to get rid of the chaff. Propagation: Sow seed in April directly in situ, either broadcast or in rows approximately 25 cm apart, thinning plants to around 10 cm spacing. Germination is rapid, even in fairly dry conditions. Take care not to weed out seedlings, as they closely resemble some common garden weeds.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Sesame](../images/plants/plants_sesame.jpg)
-
-> *Native to African and India, now planted widely for its seeds and oil. Photo from near Tanzania--Mozambique border, were it is known as Sim Sim.*
-
-> *Image: Dick Culbert from Gibsons, B.C., Canada, CC BY 2.0*
-
 Sesame
 
 *Sesamum indicum* (Pedaliaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Sesame, Oil-seed sesame provides leaves, seeds/nuts, spice/beverage as its primary edible product and ranks 65/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Sesame can be grown from the warm temperate zone to the tropics, so long as there is a growing season of at least 5 months. In the tropics, it can be grown at elevations up to 1,500 metres. It grows best in areas where annual daytime temperatures are within the range of 20 - 30°c, but can tolerate 10 - 40°c. It prefers a mean annual rainfall in the range 500 - 1,000mm, but tolerates 300 - 1,500mm. High relative humidity or heavy rains may increase the incidence of fungal diseases. Requires a well-drained porous soil and a warm sunny sheltered position. Succeeds in most well-drained soils of moderate fertility. Prefers a pH in the range 5.5 - 7.5, tolerating 4.5 - 8. A sheltered position is preferred, sesame is susceptible to wind damage after the main stem has elongated. Depending upon variety, a crop of sesame can be produced within 40 - 180 days from sowing the seed. The average yield of sesame seed in the world is about 350 kilos per hectare, but yields can be up to 3 tonnes. There are many named varieties. Sesame grows well with sweet corn but it grows badly with sorghum. The British climate is probably too cool in the summer to successfully grow this crop, though some people have reported success. Early sowing in the greenhouse and some protection when first planting it out will help. Sesame grows well with sweet corn but it grows badly with sorghum. Propagation: Sow seed in early spring in a greenhouse. Prick out seedlings into individual pots when large enough to handle and plant out after the last expected frosts, giving protection under a cloche until they are growing away well. In warm temperate zones where frosts are very rare, light or non-existent, seed can be sown in situ in spring or autumn.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -274,4 +267,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants sesame](../images/plants/plants_sesame.jpeg)

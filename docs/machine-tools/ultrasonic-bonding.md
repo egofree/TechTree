@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Henry W. Putnam Machines for Bonding Wire Fastenings for Bottle Toppers](../images/machine-tools/machine-tools_ultrasonic-bonding.jpg)
-
-> *Henry W. Putnam Machines for Bonding Wire Fastenings for Bottle Toppers*
-
-> *Image: Department of the Interior. Patent Office. (1849 - 1925), Public domain*
-
 Solid-state joining via 20-60 kHz mechanical vibration under pressure. Wire bonding: 25μm Au wire at 0.5-2.0W, 20-100ms bond time, dominant IC interconnection method (over 10 trillion bonds per year). Thermosonic Au ball bonding (150-250°C stage temperature) and ultrasonic Al wedge bonding (room temperature). Also joins thin foils, battery tabs, and dissimilar metals without brittle intermetallics.
 
 Wire bonding connects the integrated circuit die to the package leads or substrate using fine gold or aluminum wire. In thermosonic ball bonding, a spark (electronic flame-off) melts the end of the gold wire into a free-air ball, which is pressed onto the aluminum bond pad while ultrasonic energy and heat are applied, creating a metallurgical bond. The wire is then looped to the lead finger where a second bond (stitch) is made. Aluminum wedge bonding uses a similar process at room temperature, with a wedge tool pressing the wire against the pad.

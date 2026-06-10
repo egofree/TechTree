@@ -8,7 +8,6 @@
 > **Outputs**: honey, beeswax, propolis, pollination_services
 > **Critical**: yes
 
-
 Beekeeping (apiculture) is the managed cultivation of honey bees (*Apis mellifera*) for honey, beeswax, propolis, and pollination services. Honey bees are the only domesticated insect — they require no feeding (they forage), produce multiple high-value materials, and provide pollination that increases crop yields 20-30% on average. A single well-managed hive yields 10-25 kg honey and 0.5-2 kg beeswax per year while supporting agriculture within a 1-2 km foraging radius.
 
 The species *Apis mellifera* (Western honey bee) is the primary managed bee worldwide. Native to Europe, Africa, and western Asia, it has been introduced to every continent except Antarctica. Colonies are perennial superorganisms — a single queen, 10,000-80,000 workers, and 0-2,000 drones functioning as a reproductive unit. Workers maintain the hive at 34-36°C brood temperature and 50-60% relative humidity regardless of external conditions, using collective thermoregulation (wing-muscle vibration for heating, evaporative cooling via water spreading for cooling).
@@ -28,12 +27,6 @@ The species *Apis mellifera* (Western honey bee) is the primary managed bee worl
 | Foraging trips per bee per day | 10-15 trips | 50-100 flowers per trip |
 
 ## Prerequisites
-
-![Apiculture, ruche, planche - Beekeeping, beehives, historical, in France, plate with line drawings etc. - Public domain illustration from Larousse du XXème siècle 1932](../images/animals/animals_beekeeping.jpg)
-
-> *Apiculture, ruche, planche - Beekeeping, beehives, historical, in France, plate with line drawings etc. - Public domain illustration from Larousse du XXème siècle 1932Éditions Larousse is a French publishing house specialising in reference works such as dictionaries. It was founded by Pierre Larousse and its best-known work is the Petit Larousse.*
-
-> *Image: EN NOIR &amp; BLANC, CC0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -61,7 +54,6 @@ Materials listed per single hive unit. Quantities vary by hive type.
 | Cotton or linen cloth | 0.5-1 m² | [`textiles.weaving`](../textiles/weaving.md) | Straining and filtering |
 | Smoker fuel | 0.5-1 kg per inspection | Dried plant material | Wood chips, burlap, pine needles |
 | Wire (for frame hives) | 2-3 m per frame | [`metals.copper-bronze`](../metals/copper-bronze.md) | Embed in foundation for comb support |
-
 
 ## Log Hive Beekeeping
 
@@ -312,7 +304,6 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 - Brood comb wax contains impurities requiring extra purification steps
 - Wax is flammable (flash point ~210°C) — requires temperature control during rendering
 
-
 ## Apis mellifera Biological Parameters
 
 | Parameter | Value | Source/Basis |
@@ -354,7 +345,6 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 | Subtropical | 8-10 months | 15-25 kg | 25-40 kg | Nearly year-round foraging |
 | Tropical | Year-round | 10-20 kg | 15-30 kg | *A. mellifera* competes with native *Apis* spp. |
 
-
 ## Spring (Colony Buildup)
 
 First inspection when temperature exceeds 15°C. Check for queen presence (eggs and young larvae present). Assess food stores — feed sugar syrup (1:1 sugar:water by weight) if stores are low before nectar flow begins. Add supers or bars as population expands. Monitor for swarm cells (queen cups on comb bottom edges) and split colonies or add space to prevent swarming. Replace old or damaged comb. Entrance reducer open to medium setting as temperatures rise. Pollen availability drives brood production — protein from pollen is essential for larval development. A colony consumes 15-30 kg pollen per year.
@@ -378,7 +368,6 @@ Final honey harvest — leave 15-20 kg honey on the hive for winter food. Assess
 Minimal intervention. Bees form a tight cluster around the queen, maintaining 20-35°C at cluster center by vibrating flight muscles. The cluster slowly moves upward through the honey stores over winter. Do not open hive below 10°C — breaking the cluster exposes brood to cold and wastes energy. Heft hive periodically to estimate remaining honey stores by weight (a full deep frame weighs ~3.5 kg, empty ~0.5 kg — experienced beekeepers can judge stores by tilting the hive from the back). If dangerously light, feed fondant or candy board on top bars (not liquid syrup — bees cannot evaporate moisture in cold weather). Clear dead bees from entrance to maintain ventilation. Check for animal damage (woodpeckers, mice). Ensure hive is not exposed to persistent cold wind.
 
 **Timing**: Weeks 44-10 (November-February). Colony consumes 15-20 kg honey for heating energy. Winter mortality rate: 10-30% in managed colonies (varroa-related losses account for most).
-
 
 ## Honey
 
@@ -435,7 +424,6 @@ Position hives 50-100 m from crop boundary. Shelter from prevailing wind. Mornin
 3. **Top-bar hive** (Year 5-8): Construct top-bar hives from sawn lumber. Transfer colonies from skeps. Non-destructive inspection enables disease monitoring and swarm prevention. Honey yields double. Begin systematic pollination of adjacent crops. Select calm colonies for breeding.
 4. **Frame hive with extraction** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
 
-
 ## Safety
 
 ### Bee Stings and Venom Toxicity
@@ -491,7 +479,6 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [`chemistry.lubricants`](../chemistry/lubricants.md) — beeswax belt dressing for machinery
 - [`agriculture.crop-rotation`](../agriculture/crop-rotation.md) — pollination services increase crop yields
 - [`agriculture.seed-saving`](../agriculture/seed-saving.md) — bee pollination essential for seed production in many crops
-
 
 ## Troubleshooting
 

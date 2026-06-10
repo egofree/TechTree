@@ -332,4 +332,3 @@ These four metals converge at specific points in GPU fabrication:
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
 
-![metals specialty semiconductor](../images/metals/metals_specialty-semiconductor.jpg)

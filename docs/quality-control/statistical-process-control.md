@@ -10,14 +10,6 @@
 
 ## Prerequisites
 
-![Control Chart (tr)](../images/quality-control/quality-control_statistical-process-control.png)
-
-> *DanielPenfield 22:16, 30 June 2007 (UTC)*
-
-> *Image: ControlChart.svg: The original uploader was DanielPenfield at English Wikipedia.
-derivative work : DeeMusil (talk) - ControlChart cz.svg
-derivative work: Anerka (talk), CC BY-SA 3.0*
-
 Statistical process control requires measurement infrastructure and data analysis capability:
 
 - [Measurement and metrology](../measurement/index.md) — calibrated instruments that produce quantitative measurements
@@ -27,7 +19,6 @@ Statistical process control requires measurement infrastructure and data analysi
 ## Safety
 
 No physical hazards — SPC is an analytical discipline. Workstation ergonomics apply: proper posture, adequate lighting, and regular breaks during extended data analysis sessions.
-
 
 Semiconductor manufacturing involves hundreds of sequential process steps, each introducing variability. Without statistical process control, defects accumulate undetected through the process chain, destroying yield. A single out-of-control diffusion furnace can ruin an entire batch of 25 wafers, each containing thousands of die worth tens of thousands of dollars. SPC provides the statistical framework to detect process shifts before they produce scrap, transforming manufacturing from reactive firefighting into proactive quality management.
 
@@ -251,7 +242,6 @@ Before any SPC study, validate the measurement system. A Gage R&R study quantifi
 - Gage R&R > 30%: **Unacceptable** — measurement system must be improved before SPC is meaningful
 
 **Semiconductor-specific**: For critical dimension (CD) measurement, the SEM (Scanning Electron Microscope) or CD-SEM Gage R&R must be <5% because the process tolerances are extremely tight (±2-5 nm on 20-40 nm gate lengths). This requires temperature-controlled metrology rooms and automated measurement routines that minimize operator influence.
-
 
 ## SPC Software Requirements
 

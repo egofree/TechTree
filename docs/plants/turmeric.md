@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Turmeric](../images/plants/plants_turmeric.jpg)
-
-> *Turmeric plants*
-
-> *Image: Akshaya govindasamy, CC BY-SA 4.0*
-
 Turmeric
 
 *Curcuma longa* (Zingiberaceae) is a medicinal & spice plant species of major importance for civilization bootstrapping. Turmeric provides leaves, roots, flowers as its primary edible product and ranks 65/100 on the nutrition score.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are normally grown from pieces of the rhizome. Pieces with one or two buds are used. Larger side tubers are best. They are planted 6-8 cm deep. The distance between plants needs to be 30-40 cm. They can also be grown from seed where these occur. The roots are harvested as the leaves start to die back. Propagation: Seed - best sown as soon as it is ripe. Germinates best at temperatures around 20°c. Division of the rhizome when the plant is dormant.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

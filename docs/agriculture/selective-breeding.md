@@ -425,4 +425,3 @@ Animal handling during breeding operations presents specific hazards that differ
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
 
-![agriculture selective breeding](../images/agriculture/agriculture_selective-breeding.jpg)

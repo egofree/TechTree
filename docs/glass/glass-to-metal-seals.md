@@ -8,7 +8,6 @@
 > **Outputs**: glass_to_metal_seals, hermetic_feedthroughs, matched_seals, compression_seals, fritted_seals
 > **Critical**: Yes — hermetic glass-to-metal seals are essential for vacuum tubes (the first active electronic devices), transistor packages, and all feedthrough connectors that pass electrical signals through vacuum or pressurized enclosures.
 
-
 Glass-to-metal seals join glass to metal with a vacuum-tight bond that survives thermal cycling. The central challenge is the mismatch in coefficients of thermal expansion (CTE) between glass (typically 3–9 × 10⁻⁶/°C) and metal (typically 5–20 × 10⁻⁶/°C). If the CTE difference is too large, cooling from the sealing temperature (800–1100°C) creates stresses that crack the glass or break the bond.
 
 Three fundamental strategies solve this problem: **matched seals** where glass and metal have nearly identical CTEs, **unmatched (compression) seals** where the metal contracts more than the glass and squeezes it in compression, and **fritted seals** using a low-melting glass powder interlayer. Each approach has distinct material requirements, manufacturing processes, and application domains.
@@ -16,12 +15,6 @@ Three fundamental strategies solve this problem: **matched seals** where glass a
 Without glass-to-metal seals: no vacuum tubes (the anode, cathode, and grid leads must pass through the glass envelope), no hermetic transistor packages (TO-5, TO-18 metal cans with glass feedthroughs), no high-reliability connectors for aerospace or medical implants, and no electrical feedthroughs for [vacuum chambers](../vacuum/chambers.md).
 
 ## Prerequisites
-
-![Matched glass-to-metal seals](../images/glass/glass_glass-to-metal-seals.jpg)
-
-> *Přizpůsobené zátavy kovu a skla*
-
-> *Image: Antonín Ryska, CC BY-SA 4.0*
 
 - **Materials**: [Borosilicate glass](advanced.md) tubing and rod (CTE 3.3 × 10⁻⁶/°C for matched seals), [specialty alloys](../metals/alloys.md) (Kovar — Fe-29Ni-17Co, CTE ~5.0 × 10⁻⁶/°C), soda-lime glass (CTE ~9 × 10⁻⁶/°C for compression seals), mild steel or stainless steel (CTE 11–17 × 10⁻⁶/°C for compression seals), frit glass powder (low-melting lead borosilicate or zinc borate glass), hydrogen and forming gas (5% H₂ / 95% N₂) for oxide control
 - **Tools**: Sealing furnace (800–1100°C with controlled atmosphere), glassworking lathe ([advanced glassblowing](advanced-glassblowing.md)), diamond saw for metal pin preparation, furnace with hydrogen or forming gas atmosphere for pre-oxidation, optical pyrometer for temperature control

@@ -10,18 +10,6 @@
 
 ## Photoresists
 
-![80 nm pitch contact](../images/photolithography/photolithography_resists-masks.jpg)
-
-> *Top: Mask layout for 6% transmission attenuated phase-shift mask. Bottom: Corresponding top-down image at wafer level. The targeted pattern is a dense contact hole array where the feature repeats every 80 nm in x and y on the wafer. The image is formed with optimized polarized cross-pole illumination on a 193 nm immersion tool (1.3 NA). An interesting aspect of this pattern is that it has reduced sensitivity to small variations of the mask feature width. While the imaging process here benefits from reduced sensitivity to focus and mask CD error factors, the sensitivity to dose errors is very strong, due to the significant presence of unmodulated light in the background of the exposure. This prevents areas of destructive interference from being completely dark. The normalized image log-slope is equal to 1.0.*
-
-> *Image: Guiding light at en.wikipedia / Later version(s) were uploaded by Oleg Alexandrov at en.wikipedia., CC BY-SA 3.0*
-
-![Temple and ASML containers in Tainan May 2025](../images/photolithography/photolithography_resists-masks-process.jpg)
-
-> *Air cargo containers for ASML machines in a truck lot in Sucuo Village in Tainan, down the street from a temple*
-
-> *Image: 4300streetcar, CC BY 4.0*
-
 **Bitumen resist** (simplest, historical — Niépce, 1826):
 - Dissolve bitumen of Judea (natural asphalt) in lavender oil or turpentine. Coat on substrate. Expose to UV through mask (hours of exposure — very slow). Exposed areas harden (polymerize), unexposed areas dissolve in solvent. Low resolution (~100 μm+), very slow, but requires zero chemistry infrastructure.
 
@@ -399,4 +387,3 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
 
-![photolithography resists masks diagram](../images/photolithography/diagram:photolithography_resists-masks.jpg)

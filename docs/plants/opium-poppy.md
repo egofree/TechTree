@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Opium Poppy](../images/plants/plants_opium-poppy.jpg)
-
-> *Opium poppy (Papaver somniferum): flowering and fruiting plants. Colour process print, c. 1924. Iconographic Collections*
-
-> *Image: Wikimedia Commons contributor, CC BY 4.0*
-
 Opium Poppy
 
 *Papaver somniferum* (Papaveraceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Opium poppy, Breadseed poppy provides leaves, seeds/nuts, flowers as its primary edible product and ranks 72/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Prefers a rich well-drained sandy loam in a sunny position. Requires a moist soil but does not do well on wet clays. Prefers a sandy loam or a chalky soil. Plants often self-sow in British gardens. The opium poppy is a very ornamental plant that is often cultivated in the flower garden. There are many named varieties, some of which have been developed for their edible uses. The plant is widely grown, often illegally, in warm temperate and tropical climates for the substances contained in its sap. These are often used medicinally as pain killers, especially in the treatment of terminally ill patients suffering extreme pain, they are also used for their narcotic effects by some people. These substances are highly addictive and lead to a shortening of the life span if used with any frequency. In cool temperate zones the plant does not produce sufficient of the narcotic principles to make their extraction feasible and cultivation of the plant is perfectly legal in Britain. Plants have ripened their seeds as far north as latitude 69°n in Norway. Members of this genus are rarely if ever troubled by browsing deer or rabbits. Propagation: Sow seed in spring or autumn directly in situ.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

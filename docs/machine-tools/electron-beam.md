@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Electron beam welder](../images/machine-tools/machine-tools_electron-beam.jpg)
-
-> *Electron beam welder*
-
-> *Image: Zobač, CC0*
-
 Focused electron beam (30-150kV accelerating voltage, 10-100mA beam current) welding in vacuum chamber. Deep narrow penetration (depth-to-width 10:1 to 30:1), minimal heat input and distortion. Zero porosity, zero contamination. Critical for UHV vacuum chamber fabrication (leak rates below 10⁻¹⁰ mbar·L/s), refractory metals, and aerospace components. Single-pass penetration up to 200mm in steel.
 
 The vacuum environment is both the primary advantage and the main logistical constraint of electron beam welding. The absence of atmospheric gases eliminates oxidation, nitrogen pickup, and porosity. The weld metal is as clean or cleaner than the base metal. This makes EBW the preferred process for joining reactive and refractory metals (titanium, zirconium, niobium, tantalum, tungsten) that rapidly oxidize or embrittle when welded in air. The workpiece must fit entirely within the vacuum chamber, which limits the maximum weldable component size.

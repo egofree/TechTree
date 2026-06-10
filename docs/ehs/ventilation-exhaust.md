@@ -8,16 +8,9 @@
 > **Timeline**: Years 30-70
 > **Outputs**: lev_systems, gas_cabinets, abatement_systems, scrubbers, exhaust_monitoring
 
-
 Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and vapors that must be captured at the source and rendered safe before discharge to atmosphere. General dilution ventilation is entirely inadequate — a 1 ppm silane leak in a fab ballroom would require 25,000 room air changes per hour to dilute below the TLV. Local exhaust ventilation (LEV), gas cabinets with dedicated exhaust, and point-of-use abatement systems are the primary engineering controls for semiconductor chemical hazards. This document covers the design, operation, and maintenance of ventilation and exhaust systems specific to semiconductor manufacturing.
 
 ## Decision Framework: Exhaust System Selection
-
-![The Toilet exhaust fan-Indian Railways-India442](../images/ehs/ehs_ventilation-exhaust.jpg)
-
-> *the train no:11014(lokmania tilak) train's A/c coach toilet on november-2011*
-
-> *Image: Tha-uzhavan, CC BY-SA 3.0*
 
 | Exhaust Source | Recommended System | Key Design Parameter | Abatement Required |
 |---------------|-------------------|---------------------|-------------------|
@@ -46,7 +39,6 @@ Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and va
 | Wet packed-bed scrubber | Acid gases (HF, HCl, Cl₂) | >99% | Low (pump energy) | Spent caustic solution | Medium |
 | Dry adsorbent cartridge | Low-flow organics, backup polishing | 90-99% (until breakthrough) | Very low | Spent media (hazardous waste) | Low-Medium |
 | Central acid scrubber (multi-stage) | Aggregated acid exhaust | >99.9% | Medium | Spent NaOH + CaF₂ sludge | High |
-
 
 ## Principles
 
@@ -87,7 +79,6 @@ Semiconductor wet processing benches (acid etching, cleaning, rinsing) generate 
 - Exhaust duct material: Polypropylene (PP) for general acids. PVDF (polyvinylidene fluoride) for HF service. FRP for mixed acid/solvent service. Never use PVC for HF (permeation over time)
 - Drain trap: Wet seal (P-trap) prevents sewer gases from back-flowing into the bench
 - Exhaust monitoring: Continuous flow sensor in exhaust duct — alarm if flow drops below 80% of design (indicates blockage or fan failure)
-
 
 ## Gas Cabinet Design
 
@@ -133,7 +124,6 @@ Gas cabinets house high-pressure cylinders of toxic and pyrophoric gases used in
 - No dead legs or low points where condensate can accumulate (corrosion and blockage risk)
 - Flexible connections at tool exhaust ports with approved chemical-resistant flex ducts
 - Fire dampers NOT installed in toxic gas exhaust (prevents gas buildup in case of fire)
-
 
 ## Point-of-Use (POU) Abatement
 
@@ -245,7 +235,6 @@ Large fabs use centralized scrubbing systems that serve multiple tools through a
 - Automatic bypass to emergency scrubber if primary system fails (ensures continuous treatment)
 - Instrumentation: Gas analyzer at inlet and outlet for compliance monitoring (DRE verification). Automatic shutoff of gas supply to tools if scrubber goes offline
 
-
 ## Makeup Air Handling
 
 Semiconductor cleanrooms require massive air handling capacity to maintain cleanliness (ISO Class 1-5) and temperature/humidity control:
@@ -264,7 +253,6 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 - Heat pipe system: Sealed pipes with refrigerant transfer heat from exhaust to supply air with no cross-contamination
 - Energy recovery effectiveness: 50-70% of sensible heat recovered
 - Cannot use enthalpy wheels (rotating heat exchangers) for toxic or corrosive exhaust streams due to cross-contamination risk
-
 
 ## Inspection and Testing
 

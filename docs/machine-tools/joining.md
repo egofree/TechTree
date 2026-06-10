@@ -22,18 +22,6 @@ For the metallurgy of producing iron and steel stock to be joined, see [Iron & S
 
 ## Articles in this Section
 
-![A welder at work joining two pieces of metal together](../images/machine-tools/machine-tools_joining.jpg)
-
-> *A welder at work joining two pieces of metal together in Accra*
-
-> *Image: Kwameghana(Bright Kwame Ayisi), CC BY-SA 4.0*
-
-![Brazing and soldering processes - AWS A3.0 2001](../images/machine-tools/machine-tools_brazing-diagram.png)
-
-> *Brazing and soldering processes classification chart*
-
-> *Image: Meisam, Public domain*
-
 - **[Welding](./welding.md)** — Forge welding, oxy-acetylene welding, SMAW (stick), TIG (GTAW), MIG (GMAW), resistance spot/seam welding, electron beam welding, ultrasonic welding & wire bonding, friction stir welding, laser welding, and diffusion bonding. Covers vacuum chamber fabrication, hermetic sealing, and weld quality inspection.
 - **[Brazing & Soldering](./brazing-soldering.md)** — Brass brazing (spelter brazing), silver brazing (hard soldering), and soft soldering. Filler alloy joining where the base metal does not melt. Brazing for structural joints; soldering for electrical connections, plumbing, and sheet metal seams.
 - **[Riveting](./riveting.md)** — Hot and cold riveting, joint configurations (lap, butt with cover plates, boiler seams), rivet patterns, and inspection. Mechanical joining with no heat at the joint.

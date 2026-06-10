@@ -8,7 +8,6 @@
 > **Outputs**: alumina ceramics, zirconia ceramics, silicon carbide, silicon nitride, refractory linings, ceramic insulation, technical ceramics
 > **Critical**: Yes — structural and insulating ceramics required for furnaces above 1500°C, semiconductor processing, and steel production
 
-
 Basic pottery and fireclay refractories serve well up to about 1200-1400°C. Beyond that — for steel furnaces, glass tanks, silicon processing, and chemical reactors — you need advanced ceramics: materials engineered for extreme temperatures, chemical resistance, wear resistance, and electrical insulation. This capability transforms ceramics from a craft into an industrial materials science.
 
 The jump from earthenware to technical ceramics requires:
@@ -17,14 +16,7 @@ The jump from earthenware to technical ceramics requires:
 - **Precision forming** (dry pressing, isostatic pressing, slip casting with controlled rheology)
 - **Controlled atmospheres** (reducing, inert, or vacuum sintering)
 
-
 ## Materials
-
-![Advanced sic board](../images/ceramics/ceramics_advanced-ceramics.jpg)
-
-> *Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can offer good heat stability, high mechanical strength at high temperature, excellent thermal stability and distortion resistance at high temperature. Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can be used in daily ceramics widely, such as reinforced ceramics, white ceramic and high-class ceramics. Through the burning of 1400℃, its products can offer mild, bright and white enamel feeling, Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can save the energy and increase the volume of kiln therefore Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can increase the efficiency and economy. At the same time, Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ is harmless to environment.*
-
-> *Image: Hshkrc, CC BY-SA 4.0*
 
 - **Bauxite ore** (40-60% Al₂O₃) — sourced from [Mining](../mining/processing.md) of lateritic deposits
 - **Zircon sand** (ZrSiO₄) — from heavy mineral sand deposits via [Mining](../mining/processing.md)
@@ -67,7 +59,6 @@ The jump from earthenware to technical ceramics requires:
 | Sawdust (porosity agent) | 50-100 kg | [Plants](../plants/index.md) | No substitute — gas escape critical |
 | NaCl (impurity remover) | 20-50 kg | [Chemistry](../chemistry/index.md) | None |
 | Electrical energy | 6,000-12,000 kWh | [Power Generation](../energy/index.md) | No alternative — resistance heating required |
-
 
 ## Alumina (Al₂O₃) Ceramics
 
@@ -454,7 +445,6 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 - Magnesia refractories have high thermal expansion (~13.5 × 10⁻⁶/°C) leading to poor thermal shock resistance — require careful expansion joint design (5-10 mm per meter of length)
 - Carbon/graphite refractories cannot be used in oxidizing atmospheres above ~400°C — they burn
 
-
 ## Ceramic Material Properties Comparison
 
 | Property | Alumina | Zirconia (Y-TZP) | SiC (sintered) | Si₃N₄ (GPSSN) |
@@ -478,7 +468,6 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 | SiC (reaction-bonded) | 1400-1600°C | Vacuum/inert | 0.5-2 h | <1% | None |
 | Si₃N₄ (GPSSN) | 1800-2000°C | N₂ (1-10 MPa) | 2-4 h | 15-20% | None |
 | Si₃N₄ (hot-pressed) | 1700-1800°C | N₂ | 1-2 h | 15-20% | 20-30 MPa |
-
 
 ## Powder Production Scale
 
@@ -511,7 +500,6 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 | Si₃N₄ decomposition during sintering | Insufficient nitrogen pressure at temperatures >1800°C | Increase N₂ pressure to 5-10 MPa; verify furnace pressure seal integrity |
 | Zirconia spontaneous cracking (aging) | Low-temperature degradation — tetragonal→monoclinic transformation in humid environment | Use higher stabilizer content (3 mol% Y₂O₃ minimum); avoid prolonged exposure to 100-300°C in moisture; consider cubic-stabilized grade for humid environments |
 
-
 ## Dust Hazards (Silicosis)
 
 Many ceramic raw materials produce fine dust during crushing, grinding, and powder handling:
@@ -537,7 +525,6 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 - **HF etching** of ceramics requires full acid-handling PPE: face shield, HF-rated gloves (neoprene), apron. Calcium gluconate gel must be immediately available (HF antidote for skin exposure). HF causes deep tissue burns with delayed pain — exposure may not be felt for hours.
 - **Binders and solvents** used in ceramic processing (PVA, PEG, organic solvents) require standard chemical safety practices. Use in ventilated areas.
 
-
 ## Incoming Raw Material Inspection
 
 - **Bauxite**: Test Al₂O₃ content by XRF or wet chemistry. Target: ≥40% Al₂O₃. Reject if Fe₂O₃ >20% (excessive red mud generation).
@@ -556,7 +543,6 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 - **Dimensions**: Caliper measurement. Standard tolerance ±1% as-fired; ±0.1 mm diamond-ground.
 - **Hardness**: Vickers or Rockwell test. Alumina: >1500 HV. SiC: >2400 HV.
 - **Visual**: No cracks, chips, or surface defects >0.5 mm. Dye penetrant inspection for critical parts.
-
 
 ## Material Selection Guide
 

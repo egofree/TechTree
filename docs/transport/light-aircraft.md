@@ -8,16 +8,9 @@
 > **Outputs**: light_aircraft, aerial_reconnaissance, short_range_cargo
 > **Critical**: No
 
-
 Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum construction — enable rapid long-distance transport, aerial survey, and emergency medical evacuation. They require internal combustion engines (100-300 hp), gasoline fuel, aluminum or composite airframes, and basic avionics (magnetic compass, altimeter, airspeed indicator). Before aviation, covering 500 km takes days by ground; a light aircraft does it in 2-3 hours.
 
 ## Prerequisites
-
-![Reality Fairytale of the Horse and the Deer light aircraft as geese swans in Berendeyevo 2013](../images/transport/transport_light-aircraft.jpg)
-
-> *Three light aircraft perform during the air show in the 2013 episode “ChudoGeroi.rf in Berendeyevo Tsarstvo” of the project “Reality Fairytale of the Horse and the Deer” in Russia. In the narrative framework of the project, the ritual circle dance “The Fairy-Tale Heart of Russia” preceded the air show, in which fairy-tale imagery received scenic embodiment: the aircraft were interpreted as geese-swans, a blue Agusta helicopter as a wizard-like figure, and a powered paraglider as an image of Zmey Gorynych. Photograph by Maksim Kuznetsov. Project author and producer: Inna Ismailova. 2013.*
-
-> *Image: Max Kuznetsov (photographer), Inna Ismailova (producer), CC BY-SA 4.0*
 
 - [Aviation fundamentals](aviation.md) — aerodynamics, propulsion, and flight mechanics
 - [Internal combustion engines](../energy/engine.md) — aircraft powerplant design and fuels

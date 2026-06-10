@@ -8,7 +8,6 @@
 > **Outputs**: potable_water, filtered_water
 > **Critical**: Yes — waterborne diseases are among the greatest killers in pre-industrial civilizations; treatment reduces mortality by 50-80%
 
-
 Purifying raw water for safe human consumption. Waterborne diseases — cholera (Vibrio cholerae), typhoid (Salmonella typhi), dysentery (Shigella spp.), and giardiasis (Giardia lamblia) — are among the greatest killers in all pre-industrial civilizations. The 1854 Broad Street cholera outbreak in London killed 616 people in two weeks from a single contaminated well. Simple treatment methods dramatically reduce disease burden and are achievable with minimal technology.
 
 Water treatment operates on a spectrum from coarse to fine:
@@ -18,7 +17,6 @@ Water treatment operates on a spectrum from coarse to fine:
 3. **Disinfection** — kill or inactivate remaining pathogens (99.99%+ reduction)
 
 Each stage is valuable on its own. The combination provides safe drinking water. This capability covers methods available from stone-age conditions through early industrial development.
-
 
 ## Materials
 - [Raw water](procurement.md) from any source
@@ -49,7 +47,6 @@ Each stage is valuable on its own. The combination provides safe drinking water.
 | Concrete or ferrocement for tank | 2-5 m³ | [Chemistry: Cement](../chemistry/cement.md) | Stone or brick with waterproof lining |
 | Drainage pipe (perforated) | 5-15 m | [Metals](../metals/index.md) or [Ceramics](../ceramics/index.md) | Bamboo (short-lived) |
 | Chlorine (calcium hypochlorite) | 0.5-2 kg/month | [Chemistry](../chemistry/acids-bases.md) | Boiling (requires 10× fuel) |
-
 
 ## Slow Sand Filtration
 
@@ -279,7 +276,6 @@ The key scaling breakpoint is the jump from household to community scale: this r
 - [Chemistry](../chemistry/acids-bases.md) — chlorination chemicals, coagulants for rapid filtration
 - [Health: Sanitation](../health/sanitation.md) — clean water is fundamental to sanitation
 - [SEM Tech Water Treatment](sem-tech-water-treatment.md) — advanced desalination and purification
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

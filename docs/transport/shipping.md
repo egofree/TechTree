@@ -10,12 +10,6 @@
 
 ## Water Transport
 
-![Water transport in Georgetown Guyana 1](../images/transport/transport_shipping.jpg)
-
-> *Water transport in Georgetown Guyana*
-
-> *Image: John Cray, CC BY-SA 4.0*
-
 **Canal construction**:
 - **Route**: Follow contour lines to minimize elevation change. Where elevation must change, use locks.
 - **Lock construction**: Stone or timber chamber 5-8 m wide × 25-35 m long. Gates at each end (mitre gates — V-shaped, water pressure holds closed). Fill/empty chamber via paddles (sluice valves in gates). Raise/lower boats 2-5 m per lock. Lock cycle time: 10-20 minutes.
@@ -229,7 +223,6 @@
 **Sail area**: SA/D ratio (sail area in m² divided by displacement in m³ raised to the 2/3 power) of 15-20 for comfortable cruising, 20-25 for performance cruisers, and 25-30 for racing yachts. A 100-tonne vessel (97 m³ displacement) at SA/D = 18 requires 18 × 97^(2/3) = 18 × 21.1 = 380 m² of sail area.
 
 **Power requirement for engine propulsion**: P = Δ^(2/3) × V³ / K, where P is shaft power in kW, Δ is displacement in tonnes, V is speed in knots, and K is a hull form factor (150-170 for fine-lined vessels, 170-200 for full-bodied cargo hulls). A 420-tonne vessel at 8 knots with K = 180: P = 420^(2/3) × 8³ / 180 = 57.2 × 512 / 180 = 163 kW (218 HP).
-
 
 ## Materials
 

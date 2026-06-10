@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Cacao](../images/plants/plants_cacao.jpg)
-
-> *Theobroma cacao*
-
-> *Image: Nativeplants garden, CC BY-SA 4.0*
-
 Cacao
 
 *Theobroma cacao* (Malvaceae) is a beverage & stimulant crop species of major importance for civilization bootstrapping. Cacao provides fruit, seeds/nuts, spice/beverage as its primary edible product and ranks 65/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are grown from seed. Seed can be sown in pots in a nursery then transplanted or can be sown directly. Seedlings need shade. Plants can also be grown from cuttings. Cuttings from side branches are used. Cuttings are normally raised in a nursery. Seeds should be removed from the pod and dried but should not be stored for more than 3 months. Seeds germinate in 1 week. Plants should be spaced 3 m apart. Plants can be pruned. Flowers are pollinated by insects. Propagation: Seed loses viability within 5–7 days of being separated from the pulp, so sow as soon as ripe in individual containers in a shaded position, covering with about 5mm of potting compost. Fresh seed germinates readily without a dormancy period, usually sprouting within 7–10 days. Seedlings grow slowly. Air layering, leaf-bud cuttings and grafting are also possible.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -308,4 +301,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants cacao](../images/plants/plants_cacao.jpeg)

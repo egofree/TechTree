@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Castor](../images/plants/plants_castor.jpg)
-
-> *Castor, aviso à roues, lancé à la Seyne-sur-Mer en 1861 sur la Charente.*
-
-> *Image: Unknown authorUnknown author, Public domain*
-
 Castor
 
 *Ricinus communis* (Euphorbiaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Castor bean, Castor Oil Plant provides leaves, roots, seeds/nuts as its primary edible product.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Prefers a well-drained moisture retentive clay or sandy loam in full sun. Requires a rich soil and daytime temperatures above 20°c for the seedlings to grow well, though the seed may fail to set if temperatures rise above 38°C for an extended period. The plant requires 140 - 180 days of warm temperatures in the growing season in order to produce good crops of seed, and is readily killed by frost. The plant is reported to tolerate an annual precipitation in the range of 20 to 429cm, an annual temperature in the range of 7.0 to 27.8°C and a pH of 4.5 to 8.3. The castor-oil plant is a fast-growing shrub in the wild, reaching up to 12 metres in height, though it is much smaller when cultivated in the temperate zone. A very ornamental plant, although it is not winter hardy in Britain, it can be grown outdoors as an annual bedding plant for sub-tropical displays, and can flower and produce fruit in its first year in warm summers. It has been known to ripen a crop of seeds as far north as Christiana in Norway. Providing the plants water needs are met, yields of around 1 tonne per hectare have been achieved, with exceptional cases of up t 5 tonnes per hectare. It has a long history of cultivation as an oil-bearing and medicinal plant, having been grown in ancient Egypt. It is still widely cultivated for its seed in tropical and sub-tropical zones. There are many named varieties, some developed for ornamental use and others for oil production. Plants may need support in exposed areas. Propagation: Sow seed in early spring in a warm greenhouse, in individual pots. When large enough to handle, prick seedlings out into individual pots and plant out after the last expected frosts. Seed retains viability for 2–3 years.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -299,4 +292,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants castor](../images/plants/plants_castor.jpeg)

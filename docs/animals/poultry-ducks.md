@@ -8,18 +8,11 @@
 > **Outputs**: duck_eggs, duck_meat, duck_feathers, down, manure
 > **Critical**: No — excellent for wet environments but chickens are more universally adaptable
 
-
 Domestic ducks comprise two primary species: the mallard-derived duck (*Anas platyrhynchos domesticus*) and the Muscovy duck (*Cairina moschata*), a distinct species descended from tree-dwelling wild Muscovies of Central and South America. Ducks are exceptionally hardy, disease-resistant foragers that thrive in wetter environments where chickens struggle. They consume slugs, snails, aquatic plants, insects, and weeds that other poultry ignore, making them outstanding biological pest controllers in gardens, rice paddies, and orchards.
 
 Duck eggs are larger than chicken eggs (70-80 g vs 50-65 g), richer in fat and protein, and prized for baking (higher egg white protein produces lighter, higher-rising cakes and pastries). Duck breeds range from the prolific Khaki Campbell (250-340 eggs per year) to the heavy Pekin (4-5 kg, the standard meat duck). Adult weight spans 1.5-5 kg depending on breed, with Muscovy drakes reaching 5-7 kg. Ducks are generally more disease-resistant than chickens and better suited to free-range systems in damp climates.
 
 ## Prerequisites
-
-![Ducks, Nacka ( 1090797)](../images/animals/animals_poultry_ducks.jpg)
-
-> *Ducks on Saltsjön in Nacka*
-
-> *Image: Matti Blume, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -257,8 +250,6 @@ Pekin ducks should reach 3.0-3.5 kg at 7-9 weeks; Khaki Campbells reach 1.5-2.0 
 **Water consumption**: Monitor daily water intake per flock. Ducks drink 500-1000 mL per day under normal conditions and up to 1500 mL at temperatures above 30°C.
 
 A sudden change of 20% or more in water consumption often indicates illness 24-48 hours before visible symptoms appear — water monitoring is the earliest health warning system available to duck keepers.
-
-
 
 ## Troubleshooting
 

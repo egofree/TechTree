@@ -11,13 +11,6 @@
 
 ## Prerequisites
 
-![Typical Semiconductor Ultrapure Water System Configuration](../images/ultra-pure/ultra-pure_upw.jpg)
-
-> *Outline for a typical ultrapure water purification system for a semiconductor plant.*
-
-> *Image: Slava Libman, CC BY-SA 4.0*
-
-
 UPW production requires multi-stage industrial water treatment:
 
 - [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — reverse osmosis, electrodeionization, and advanced pretreatment
@@ -27,7 +20,6 @@ UPW production requires multi-stage industrial water treatment:
 Ultra-pure water (UPW) is the single most consumed material in semiconductor fabrication — a typical wafer fab uses 5-10 million liters per day. UPW must achieve **18.2 MΩ·cm resistivity** at 25°C (theoretical maximum for pure water), with total organic carbon (TOC) below 1 ppb, dissolved oxygen below 5 ppb, particles smaller than 0.05 μm removed, and metallic impurities at sub-ppt concentrations. A single 0.1 μm particle on a wafer can destroy an entire die at advanced nodes.
 
 Standard water treatment (see [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md)) produces drinking water at <500 mg/L TDS — roughly 3-4 orders of magnitude above semiconductor requirements. UPW production is a multi-stage process chain where each stage targets specific contamination classes: suspended solids → dissolved ions → organic molecules → dissolved gases → bacteria and particles → trace metals.
-
 
 ## Semiconductor UPW Specifications (SEMI F63)
 
@@ -147,7 +139,6 @@ Modern fabs reclaim 60-80% of used UPW. Reclaimed water is treated and recycled,
 
 **Zero liquid discharge (ZLD)**: In water-scarce regions, reverse osmosis concentrate and other waste streams are evaporated and crystallized to eliminate liquid discharge. Energy-intensive (25-40 kWh/m³ of concentrate) but eliminates wastewater.
 
-
 ## Small Fab (1,000 wafers/month, 200mm)
 
 - UPW demand: ~200,000 L/day
@@ -243,4 +234,3 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../../index.md)*
 
-![ultra pure reverse osmosis](../images/ultra-pure/ultra-pure_reverse-osmosis.jpg)

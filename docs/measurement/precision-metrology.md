@@ -8,22 +8,14 @@
 > **Outputs**: length_standards, mass_standards, timekeeping, precision_instruments, calibration_chain, electrical_standards
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-
 Precision manufacturing (Machine Tools) and all semiconductor work requires consistent, calibrated measurement. Without standardized units and measuring instruments, interchangeable parts and repeatable processes are impossible. A machinist who cannot verify dimensions to ±0.01 mm cannot produce interchangeable parts. A semiconductor fab without calibrated flow meters and temperature sensors cannot control a process window.
 
 ## Prerequisites
-
-![Precision Engineering Metrology of Small Holes (5940488905)](../images/measurement/measurement_precision-metrology.jpg)
-
-> *NIST researchers and collaborators have developed a new method for measuring the interior dimensions of small holes with an uncertainty of only 35 nanometers. Here, a glass probe is inserted into an optical "ferrule," a device for connecting optical fibers used in communications systems. Courtesy of National Institute of Standards and Technology Disclaimer: Any mention of commercial products within NIST web pages is for information only; it does not imply recommendation or endorsement by NIST. Use of NIST Information: These World Wide Web pages are provided as a public service by the National Institute of Standards and Technology (NIST). With the exception of material marked as copyrighted, information presented on these pages is considered public information and may be distributed or copied. Use of appropriate byline/photo/image credits is requested.*
-
-> *Image: National Institute of Standards and Technology, Public domain*
 
 - [Foundations](../foundations/index.md) — basic counting, arithmetic, and record-keeping
 - [Metals / Casting](../metals/casting.md) — cast iron for surface plates and straightedges
 - [Metals](../metals/index.md) — steel for gauge blocks, invar for length standards
 - [Optics / Precision Instruments](../optics/precision-instruments.md) — interferometric measurement and optical flats
-
 
 ## Base Unit Standards
 
@@ -236,7 +228,6 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - [Machine Tools](../machine-tools/index.md) — feeds, speeds, tolerances — the primary application of metrology
 - [Optics](../optics/index.md) — optical flats, precision instruments, interferometric testing
 - [Silicon Crystal Growth](../silicon/crystal-growth.md) — precision metrology in semiconductor manufacturing
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

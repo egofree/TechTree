@@ -8,7 +8,6 @@
 > **Outputs**: structured_curricula, skill_certification, practitioner_ladders
 > **Critical**: Yes — without structured learning sequences, knowledge transfer becomes ad hoc and unreliable, producing practitioners of inconsistent quality
 
-
 Education pathways are the structured sequences through which knowledge and skill are transmitted from experienced practitioners to new ones. While [Education & Training](education.md) covers the institutional forms (apprenticeships, trade schools, universities), this capability addresses the *content architecture* of learning: how skills are decomposed into teachable units, sequenced into progressive curricula, assessed at each stage, and certified upon completion. A civilization bootstrapping from scratch must not only preserve knowledge in [Writing](writing.md) and [Printing](printing.md) — it must design deliberate pathways that turn written knowledge into embodied skill.
 
 The distinction matters: a library of technical manuals without a structured pathway produces readers, not practitioners. The guild apprentice system (4-7 years), the polytechnic curriculum (3-4 years), and the modern competency-based training framework each represent a different approach to the same problem — compressing decades of accumulated knowledge into a practical training timeline.
@@ -29,7 +28,6 @@ The distinction matters: a library of technical manuals without a structured pat
 | Workshop consumables | 50-200 kg metal stock, chemicals, etc./year | [Metals](../metals/index.md), [Chemistry](../chemistry/index.md) | Scavenged materials, reduced exercise count |
 | Drafting instruments | 1 set per student | [Metals](../metals/index.md) | Shared sets (4 students per set) |
 | Measurement tools | 1 set per 2 students | [Measurement](../measurement/precision-metrology.md) | Shared sets with scheduled access |
-
 
 ## Skill Decomposition
 
@@ -62,7 +60,6 @@ Establish a fixed annual cycle for curriculum updates. Month 1: collect data fro
 ## Practitioner Exchange Program
 
 Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop, learning different methods and approaches. This prevents local skill stagnation and spreads innovations. Budget one exchange per journeyman per year. The hosting workshop benefits from the visiting practitioner's fresh perspective; the visitor brings back new techniques to their home workshop.
-
 
 ## Training Duration by Skill Domain
 
@@ -133,7 +130,6 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 - **Feedback loops**: Collect structured feedback from graduates (6 months, 1 year, 3 years post-certification) on curriculum gaps, missing skills, and over-prepared areas. Use feedback to revise the pathway annually.
 - **Training program audit**: Review training effectiveness annually by sampling graduate performance on standardized tasks. If fewer than 80% of recent graduates pass the practical competency assessment on first attempt, the curriculum or instruction quality needs revision. Track the correlation between training hours, instructor-to-student ratio, and assessment pass rates to optimize resource allocation.
 - **Record keeping**: Maintain a training record for every student, documenting: modules completed, assessment results (pass/fail with scores), hours of supervised practice, instructor evaluations, and any safety incidents. These records serve as both individual certification evidence and aggregate data for curriculum improvement. Store records permanently — a practitioner's training history may need verification decades later.
-
 
 ## Apprenticeship-Only Pathway
 

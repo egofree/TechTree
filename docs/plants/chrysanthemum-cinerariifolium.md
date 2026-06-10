@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Pyrethrum](../images/plants/plants_chrysanthemum-cinerariifolium.jpg)
-
-> *Nestled near the Musanze volcanoes, fields of pyrethrum flowers flourish, supporting sustainable agriculture and local communities.*
-
-> *Image: Adygrafix250, CC BY 4.0*
-
 Pyrethrum (*Chrysanthemum cinerariifolium*, formerly *Pyrethrum cinerariifolium*) is a perennial daisy native to the Dalmatian region of Croatia, cultivated for the insecticidal compounds (pyrethrins) concentrated in its flower heads. Pyrethrins are fast-acting neurotoxins that kill insects on contact by disrupting sodium channel function in nerve cells. They are among the safest insecticides for mammals, with very low mammalian toxicity (LD50 > 1,500 mg/kg) while being lethal to insects at concentrations of 0.1-1.0%.
 
 Pyrethrins provide rapid knockdown (paralysis within seconds of contact) and kill most flying and crawling insects within minutes. They break down rapidly in sunlight (half-life of hours), leaving no toxic residue. This makes them ideal for treating food storage areas, living spaces, and crops close to harvest.
@@ -202,11 +196,6 @@ conditions is more important than attempting to grow unsuitable crops in margina
 environments. Where this species is well-adapted, it should be a priority for cultivation;
 where conditions are marginal, alternative species should be preferred.
 
-
-
-
-
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants chrysanthemum cinerariifolium](../images/plants/plants_chrysanthemum-cinerariifolium.jpeg)

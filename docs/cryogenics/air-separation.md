@@ -8,16 +8,9 @@
 > **Outputs**: cryogenic_distillation, liquid_nitrogen, liquid_oxygen, liquid_argon
 > **Critical**: No — PSA and membrane alternatives exist for moderate purities; cryogenic ASU provides highest purity and scale
 
-
 Cryogenic air separation exploits the different boiling points of air's components — nitrogen (-196°C), oxygen (-183°C), and argon (-186°C) — to produce high-purity gases and liquids at industrial scale. This file covers the cryogenic engineering of the separation process: the Claude and Linde cycles, expansion turbine integration, double-column thermodynamic coupling, and column internal design. For product specifications, argon purification, PSA alternatives, and plant operations, see [Air Separation & Bulk Gas Production](../chemistry/air-separation.md) in the Chemistry domain.
 
 ## Prerequisites
-
-![A-cryogenic-air-separation-plant-that-produces-argon-in-addition-to-oxygen-and-nitrogen](../images/cryogenics/cryogenics_air-separation.png)
-
-> *A Diagram of a Cryogenic Air seperation Unit*
-
-> *Image: M Pintile, CC BY-SA 3.0*
 
 - [Refrigeration Fundamentals](refrigeration.md) — thermodynamic cycles for achieving cryogenic temperatures
 - [Basic Gas Handling](../gas-handling/basic.md) — gas compression, piping, and purification
@@ -364,8 +357,6 @@ Cryogenic distillation is the only method that produces all three products at hi
 - **[Gas Liquefaction & Storage](liquefaction-storage.md)**: Dewar design, cold boxes, insulation systems
 - **[Air Separation & Bulk Gas Production](../chemistry/air-separation.md)**: Complete ASU process, argon production, PSA alternatives
 - **[Basic Gas Handling](../gas-handling/basic.md)**: Gas compression and purification infrastructure
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*

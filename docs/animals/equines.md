@@ -8,7 +8,6 @@
 > **Outputs**: draft_power, transport, manure, hides
 > **Critical**: Yes — primary large draft and transport animals for field work, hauling, and riding
 
-
 Equines — horses (*Equus caballus*) and donkeys (*Equus africanus asinus*) — are the primary large draft and transport animals for a bootstrapping civilization. Horses provide the greatest pulling power per animal, while donkeys offer superior endurance, disease resistance, and ability to thrive on poor forage. Together they cover the full range of traction, packing, and riding needs from farm work to long-distance transport. Both species were domesticated by 3500-4000 BCE and have been central to every major agricultural and transport system since.
 
 | Parameter | Horse (500 kg) | Donkey (200 kg) | Mule (400 kg) |
@@ -48,7 +47,6 @@ Materials listed per 2-horse team per year.
 | Harness leather | 1-2 sets, repairs as needed | [`leather`](leather.md) | Rope traces for light work |
 | Salt | 20-30 kg loose salt | [`mining`](../mining/index.md) | Salt block, free-choice |
 | Bedding (straw/shavings) | 2,000-4,000 kg | [`plants`](../plants/index.md) | For stabled horses |
-
 
 ## Draft Power
 
@@ -167,7 +165,6 @@ Materials listed per 2-horse team per year.
 - Donkeys' freeze-and-assess response ("stubbornness") frustrates force-based trainers
 - Poorly trained equines are dangerous — a 500 kg frightened horse can kill
 
-
 ## Feed Requirements by Workload (500 kg Horse)
 
 | Work Level | Dry Matter/day | Hay/Pasture | Grain Supplement | Water/day |
@@ -268,7 +265,6 @@ Understanding why equines behave and fail in specific ways makes the management 
 - [`transport`](../transport/index.md) — roads, vehicles, and logistics systems enabled by equine transport
 - [`agriculture`](../agriculture/index.md) — plowing, cultivation, and harvesting with equine power
 - [`leather`](leather.md) — equine hide processing and harness leather
-
 
 ## See Also
 

@@ -8,7 +8,6 @@
 > **Outputs**: vermicompost, worm_castings, worm_tea, worms
 > **Critical**: No — vermiculture produces premium compost but is not the only path to soil fertility; thermophilic composting is a viable alternative
 
-
 Vermiculture is the controlled breeding of earthworms to process organic waste into vermicompost — a dark, crumbly, nutrient-rich soil amendment superior to thermophilic compost in plant-available nutrients, microbial diversity, and growth-stimulating compounds. The primary species used is *Eisenia fetida* (red wiggler), a surface-dwelling worm adapted to decomposing organic matter rather than soil.
 
 A well-managed vermicompost system converts kitchen waste, manure, and soft plant material into premium fertilizer in 2-4 months, faster than hot composting (3-6 months) and with no turning required. The process operates at ambient temperatures (15-25°C), consumes no fuel, and produces no odors when managed correctly. Worm castings contain 1.5-2.5% nitrogen, 1.0-1.5% phosphorus, and 1.0-1.5% potassium in plant-available form, plus humic acids and plant growth hormones not found in thermally produced compost.
@@ -18,12 +17,6 @@ Vermiculture complements rather than replaces hot composting. Hot composting han
 This article is a child of [Soil Management](./soil-management.md), which covers the full range of composting and soil fertility methods. Vermicompost also provides nutrient supplements for [Aquaponics](./aquaponics.md) systems.
 
 ## Prerequisites
-
-![Vermicast in 2kg bag](../images/agriculture/agriculture_soil-management_vermiculture.png)
-
-> *Vermicast in 2kg bag*
-
-> *Image: Renatotcm, CC BY-SA 4.0*
 
 **Materials**:
 - Worm stock (*Eisenia fetida*): 1 kg per 0.5 m² of bin surface area (approximately 1,000 worms per kg)
@@ -48,7 +41,6 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 - Temperature management capability (indoor space or insulated bins for cold climates)
 - Drainage for bins (elevated on blocks with collection tray beneath)
 
-
 ## Wooden Worm Bin (Household Scale, 1 m × 2 m × 0.6 m)
 
 | Material | Quantity | Source | Alternatives |
@@ -70,7 +62,6 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 | Porous bag (burlap, mesh) | 1 | [Textiles](../textiles/fibers.md) | Old pillowcase, nylon stocking |
 | Air pump + airstone | 1 unit | [Electronics](../electronics/index.md) or commercial | Daily manual stirring (non-aerated tea) |
 | Dechlorinated water | 10-20 L | [Water Procurement](../water/procurement.md) (let sit 24 hrs) | Rainwater |
-
 
 ## Species Selection and Stocking
 
@@ -310,7 +301,6 @@ Application:
 - Non-aerated tea (steeped 7-14 days) may contain anaerobic pathogens — use only as soil drench, not foliar spray on food crops
 - Requires an air pump and airstone — if these are unavailable, only non-aerated tea can be produced
 
-
 ## Vermicompost Nutrient Analysis
 
 | Nutrient | Concentration (% dry weight) | Form |
@@ -393,7 +383,6 @@ Application:
 - **Heavy metals**: Worms bioaccumulate certain heavy metals (cadmium, lead, mercury) from contaminated feedstocks. Do not use vermicompost from worms fed on industrially contaminated waste near food crops. Use clean kitchen waste, manure from healthy animals, and garden trimmings.
 - **Treated lumber**: Do not use copper-chrome-arsenate (CCA) treated wood for bin construction — the preservative chemicals leach into the bedding and are toxic to worms at low concentrations. Use untreated timber, concrete, or food-grade plastic.
 
-
 ## Vermicompost Maturity Indicators
 
 | Parameter | Finished Vermicompost | Immature/Incomplete | Test Method |
@@ -412,7 +401,6 @@ Application:
 | Moisture | 70-80% | <60% or >85% | Squeeze test: 1-2 drops fall |
 | pH | 6.5-7.5 | <5.5 or >8.0 | pH paper on wet bedding extract |
 | Food remaining | All consumed within 48 hours | Food accumulating >72 hours | Visual check of feeding pocket |
-
 
 ## Vermicompost System Selection
 

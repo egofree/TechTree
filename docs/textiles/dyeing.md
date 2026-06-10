@@ -8,16 +8,9 @@
 > **Outputs**: dyed_cloth
 > **Critical**: No
 
-
 Dyeing transforms undyed cloth and yarn into colored textiles using natural pigments extracted from plants, minerals, and insects. Color-fast results depend on proper mordanting (fixing dye to fiber), the right dye plants for the target hue, and careful control of bath temperature, pH, and duration. Protein fibers (wool, silk) take dye far more readily than cellulose fibers (linen, cotton) — a critical distinction that shapes the entire dyeing workflow.
 
 ## Prerequisites
-
-![A man dyeing silk red in boiling water in Kumbakonam, Tamil Nadu](../images/textiles/textiles_dyeing.jpg)
-
-> *A man dyeing silk red in boiling water in Kumbakonam, Tamil Nadu*
-
-> *Image: Matthew T Rader, CC BY-SA 4.0*
 
 - [Chemistry](../chemistry/index.md) — mordant chemistry, pH control, and extraction
 - [Textiles / Fibers](fibers.md) — fiber preparation and properties
@@ -155,7 +148,6 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 - Tjanting tools for batik: copper spout (1-3 mm opening) on a wooden or bamboo handle. Wax melting pot (small iron or ceramic vessel with direct heat).
 - pH testing: litmus paper or pH indicator solution. Critical for indigo vat management and mordant bath preparation.
 
-
 *Dependencies: [Spinning](spinning.md) for yarn, [Weaving](weaving.md) for cloth, [Chemistry](../chemistry/index.md) for alum and iron sulfate production at scale*
 
 ## Safety & Hazards
@@ -165,8 +157,6 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 - **Hot liquid burns**: Dye vats are heated to near-boiling (80-100°C). Splashes cause scald burns. Use long stirring sticks. Face protection when adding materials to hot vats.
 - **Urine fermentation**: Historical indigo vats use fermented urine (ammonia source). Unpleasant odor, ammonia fumes irritating to eyes and respiratory tract. Ventilate dye work areas.
 - **Wax burns (batik)**: Molten wax at 60-80°C causes burns. Use double-boiler heating to prevent overheating and flash fire. Never heat wax over open flame — risk of ignition at ~200°C. Keep a lid nearby to smother wax fires.
-
-
 
 ## Mordant Chemistry Detail
 

@@ -8,21 +8,13 @@
 > **Outputs**: diagnostic_instruments, surgical_instruments, sterilization_equipment
 > **Critical**: Yes — without reliable medical instruments, diagnosis and surgery depend on improvised tools with higher failure rates
 
-
 A bootstrapping civilization needs basic medical instrumentation to diagnose illness, perform surgery, and prevent infection. Without reliable diagnostic tools, treatable conditions go unrecognized. Without sterile surgical instruments, minor procedures become life-threatening. The instruments described here span the range from simple mechanical diagnostics (stethoscopes, thermometers, blood pressure cuffs) through surgical tools (scalpels, forceps, retractors, sutures) to sterilization equipment (autoclaves). All are achievable with metallurgy, glassworking, and basic chemical production capabilities.
-
 
 Medical instruments fall into three functional categories: diagnostic (stethoscopes, thermometers, sphygmomanometers, otoscopes), surgical (scalpels, forceps, needle holders, retractors, sutures), and sterilization (autoclaves, chemical sterilants). The fabrication requirements range from basic metalworking (forging, grinding, heat-treating steel for surgical tools) to precision glassworking (thermometer capillary tubes) to simple pressure vessel construction (autoclaves).
 
 The critical threshold is sterility: an instrument that cannot be sterilized is a vector for infection rather than a tool for healing. Boiling provides adequate sterilization for most purposes; autoclaving (steam at 121°C, 15 psi, 15 minutes) provides complete sterilization including bacterial spores.
 
 ## Materials
-
-![Bronze medical instruments, tweezers, another tools, Kanellopoulos Museum, 225058](../images/health/health_medical-instruments.jpg)
-
-> *(31) Bronze medical instruments, (32) bronze tweezers and (33) bronze tools. Kanellopoulos Museum at Athens.*
-
-> *Image: Zde, CC BY-SA 4.0*
 
 | Material | Instruments | Properties Required |
 |----------|------------|-------------------|
@@ -125,7 +117,6 @@ The ophthalmoscope illuminates the retina through the pupil. Contains a light so
 - Otoscope requires a light source (bulb or LED) and magnifying lens — both require glass and electrical or chemical production
 - Ophthalmoscope examination has a steep learning curve — incompetent examination yields no useful information
 - Disposable specula are ideal for cross-contamination prevention but require plastic or paper production
-
 
 ## Scalpel
 
@@ -232,7 +223,6 @@ Suture sizes follow the USP scale: 5-0 = 0.1 mm diameter, 4-0 = 0.15 mm, 3-0 = 0
 - Silk is braided, creating crevices that can harbor bacteria — higher infection risk than monofilament
 - Production of synthetic absorbable sutures (Vicryl, PDS) requires polymer chemistry capability unavailable at early bootstrap stages
 
-
 ## Autoclave (Steam Sterilization)
 
 The gold standard. Saturated steam at 121°C and 103 kPa (15 psi) gauge pressure kills all microorganisms, including bacterial spores, in 15-30 minutes exposure time. The mechanism is protein coagulation: moist heat at 121°C denatures proteins far more effectively than dry heat at the same temperature.
@@ -297,7 +287,6 @@ Silk suture is produced by degumming Bombyx mori cocoon silk (removing sericin w
 
 Linen (flax fiber) was historically used before silk became widely available. It is stronger than silk in dry conditions but weakens significantly when wet. Cotton thread, boiled and sterilized, served as the cheapest suture material in resource-limited settings throughout the 19th and early 20th centuries.
 
-
 ## Scalpel Handle Fabrication
 
 Machine from stainless steel rod (304 or 316) on a lathe. The blade slot is milled to a standardized width (6 mm for #3 handle, 8 mm for #4 handle). Surface finish to 0.8 μm Ra for cleaning. No sharp edges except the blade slot engagement surface. Passivate in 20% nitric acid for 30 minutes to remove free iron and enhance the chromium oxide passive layer.
@@ -361,7 +350,6 @@ The lens quality matters for accurate diagnosis. A simple plano-convex lens (gro
 - **Sharps disposal**: Used needles, scalpel blades, and broken glass must be placed in rigid, puncture-resistant containers (polypropylene, marked with biohazard symbol) before disposal. Never recap needles (the most common cause of needlestick injuries). Never overfill sharps containers past the fill line. Full containers are sealed and incinerated or autoclaved before disposal. Needlestick injuries require immediate reporting, baseline bloodborne pathogen testing, and post-exposure prophylaxis (hepatitis B immune globulin within 24 hours, HIV antiretrovirals within 72 hours of exposure).
 - **Instrument fabrication hazards**: Grinding and sharpening scalpel blades produces fine steel dust containing chromium (from stainless steel alloys) that is a respiratory irritant and suspected carcinogen. Perform all grinding operations with local exhaust ventilation or outdoors. Heat-treating steel at 800-900°C in a forge creates carbon monoxide if combustion is incomplete in enclosed spaces. Ensure forge areas are well-ventilated. Quenching hot steel in oil can cause flash fires; use water quenching for carbon steel, oil quenching only for alloy steels that require slower cooling rates to avoid cracking.
 - **Thermometer glassblowing hazards**: Sealing borosilicate capillary tubes requires temperatures above 800°C from a gas-oxygen torch. Burns are the primary risk. Eye protection (didymium glass lenses) is required to filter sodium flare from the molten glass, which is bright enough to cause flash burns to the cornea. The small mercury charge (0.5-1.5 g) is introduced into the finished capillary by vacuum filling; perform this in a fume hood or well-ventilated area to avoid mercury vapor inhalation.
-
 
 **Sterilization Verification**: Verify autoclave performance with biological indicators (Geobacillus stearothermophilus spores, kill at 121°C in 15 min) placed in the most difficult-to-sterilize location. Chemical indicators (Class 5 integrating indicators) on every pack. Bowie-Dick test for vacuum autoclaves: uniform color change confirms air removal. Record temperature with chart recorder or data logger for regulatory documentation.
 

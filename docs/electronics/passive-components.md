@@ -16,12 +16,6 @@ This document covers construction methods for each passive component type at thr
 
 ## Materials
 
-![Passive Components fitted](../images/electronics/electronics_passive-components.jpg)
-
-> *Back on the main PCB I fitted the 5 resistors, 2 diodes and the disk ceramic capacitor.*
-
-> *Image: tony_duell, CC BY 2.0*
-
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-2.0 mm, purity >99.9%
 - **Carbon/graphite**: From [charcoal](../energy/charcoal.md) processing or mined graphite, purity >95%
 - **Ceramic dielectrics**: Titanium dioxide (TiO₂), barium titanate (BaTiO₃) from [ceramics](../ceramics/kilns.md) production
@@ -347,4 +341,3 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
 
-![electronics component types](../images/electronics/electronics_component-types.png)

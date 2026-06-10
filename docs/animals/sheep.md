@@ -8,7 +8,6 @@
 > **Outputs**: wool, mutton, milk, lanolin, sheepskins, manure
 > **Critical**: Yes — premier fiber and meat species with lowest infrastructure requirements
 
-
 Sheep are the most versatile small ruminant for a bootstrapping civilization — producing wool (the premier natural fiber for textiles), meat (lamb and mutton), milk (for cheese and fermented products), and pelts. Their modest size (mature weight 60-120 kg depending on breed) makes them easier to handle than cattle, and their gregarious flocking instinct simplifies herding. Gestation is 147 days (range 144-152), with typical litters of singles for hill breeds, twins for lowland breeds, and occasional triplets. A well-managed flock of 50-100 ewes on 10-15 hectares of improved pasture can sustain a small community with food, fiber, and fertilizer.
 
 Sheep are particularly valuable in early-stage agriculture because they graze closer to the ground than cattle, use vegetation that cattle refuse, and produce nitrogen-rich manure (0.7% N fresh weight, 2-3 kg/day per animal) that builds soil fertility. Their relatively low infrastructure requirements — simple shelters for winter and lambing, basic fencing — make them accessible at an early stage of development.
@@ -25,12 +24,6 @@ Sheep are particularly valuable in early-stage agriculture because they graze cl
 | Productive lifespan | 5-7 lambing seasons | Lowland breeds |
 
 ## Prerequisites
-
-![Bovidae Ovis aries (Ouessant Sheep) 1](../images/animals/animals_sheep.jpg)
-
-> *Ovis aries SHEEP (Ouessant Sheep). Wildpark Schwentinental.*
-
-> *Image: NasserHalaweh, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -56,7 +49,6 @@ Materials listed per 50-ewe flock per year.
 | Dewormer (anthelmintic) | 1-3 L | [`health.medicine`](../health/medicine.md) | Pasture rotation as primary control |
 | Iodine solution (7%) | 0.5-1 L | [`health.medicine`](../health/medicine.md) | Other antiseptics |
 | Lambing pens (1.5-2.0 m² each) | 5-8 pens | [`foundations.tools-basic`](../foundations/tools-basic.md) | Portable panels or straw bales |
-
 
 ## Wool Production
 
@@ -182,7 +174,6 @@ Materials listed per 50-ewe flock per year.
 - Flystrike kills sheep within 48-72 hours if undetected
 - Labor-intensive monitoring during parasite season (2-4 week intervals)
 
-
 ## Production Benchmarks by Breed Type
 
 | Parameter | Merino (Wool) | Suffolk (Meat) | East Friesian (Dairy) | Corriedale (Dual) |
@@ -261,7 +252,6 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 - [`food-processing`](../food-processing/index.md) — sheep milk cheese (pecorino, feta, Roquefort), yogurt
 - [`agriculture`](../agriculture/index.md) — pasture management, crop residues as winter feed, manure as fertilizer
 - [`animals.pest-management`](pest-management.md) — guardian dogs, predator control strategies
-
 
 ## See Also
 

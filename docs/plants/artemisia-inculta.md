@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Artemisia inculta](../images/plants/plants_artemisia-inculta.jpg)
-
-> *Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica.*
-
-> *Image: Scan by NYPL, Public domain*
-
-![Botanical illustration of Artemisia inculta](../images/plants/plants_medicinal-plants_artemisia-inculta.jpg)
-
-> *Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica.*
-
-> *Image: Scan by NYPL, Public domain*
-
-
 Artemisia inculta is a rare perennial species of aromatic undershrub in the family Asteraceae , native to North Africa and select regions of the Middle East
 
 Artemisia inculta grows where almost nothing else will: the rocky, rain-starved margins of the Sahara. Its low, woody form hunkers against the ground, producing silvery leaves loaded with bitter sesquiterpene lactones and essential oils. Local populations in North Africa have used these compounds for digestive complaints and fever treatment for generations. The plant's rarity in the wild makes cultivation a practical necessity for anyone wanting a reliable supply.
@@ -190,7 +177,6 @@ The greatest threat to Artemisia inculta is over-collection from wild population
 - [Medicinal Plants](medicinal-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Medicinal Plants](medicinal-plants.md) — downstream capability
-
 
 ### Material Handling
 

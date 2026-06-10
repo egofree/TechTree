@@ -12,12 +12,6 @@ Semiconductor fabrication consumes chemicals at purity levels 1000× stricter th
 
 ## Photoresist Chemistry
 
-![Wien filter](../images/chemistry/chemistry_semiconductor-chemicals.jpg)
-
-> *Principle of the mass selection with a Wien Filter*
-
-> *Image: Kriegor27, Public domain*
-
 Photoresists are radiation-sensitive polymer films that transfer a mask pattern onto a wafer surface. They are the enabling material of photolithography — without them, there is no integrated circuit fabrication.
 
 ### DNQ/Novolac Positive Resist (g-line/i-line)

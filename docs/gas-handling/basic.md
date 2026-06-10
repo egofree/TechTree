@@ -10,12 +10,6 @@
 
 ## Infrastructure
 
-![Army Basic Training- Gas Chamber (Episode 5) 2G63uJgr92g](../images/gas-handling/gas-handling_basic.jpg)
-
-> *#YourFutureStartsHere: Gas Chamber One of the biggest fears applicants have is their ability to succeed at Basic Combat Training. It's important for new trainees to remember that the #USArmy wants them to succeed. It's not meant to be easy. It's designed to be challenging. In this episode, US Army Recruiting Command (USAREC) Recruiter Staff Sgt. Archie Masibay takes us through the Gas Chamber. This exercise is meant to give the trainees confidence in themselves and their equipment.*
-
-> *Image: The U.S. Army, CC BY 3.0*
-
 **Piping, valves, pumps**:
 - **Pipes**: Cast iron (water, dilute alkalis), lead (H₂SO₄ <80%), copper (organic solvents, water), ceramic (acids at high temperature), glass (laboratory scale). Steel for steam and high-pressure gas.
 - **Valves**: Bronze gate valves, cast iron plug valves, glass stopcocks (laboratory). PTFE-packed valves for HF service.
@@ -318,7 +312,6 @@ Key rule: Use NPT for non-critical applications. Switch to compression fittings 
 - **[SEM Tech](../chemistry/sem-tech.md)**: Chlorine and hydrogen gas handling in chlor-alkali cells
 - **[Welding](../machine-tools/joining.md)**: Shielding gas (Ar, CO₂, He) distribution for welding
 - **[Cylinder Filling](cylinder-filling.md)**: High-pressure cylinder filling and certification
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*

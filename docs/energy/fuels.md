@@ -10,18 +10,6 @@
 
 ## Why Fuels Matter
 
-![World fuel production and consumption](../images/energy/energy_fuels.jpg)
-
-> *World fuel production and consumption*
-
-> *Image: Wikideas1, Public domain*
-
-![Coke ovens Avilés](../images/energy/energy_fuels_coke.jpg)
-
-> *Coke ovens for steel production at Avilés, Asturias, Spain (Ensidesa Works)'Untitled'*
-
-> *Image: Procsilas Moscas from Asturias, Spain, CC BY 2.0*
-
 **Strengths** (wood as fuel):
 - Universally available — grows on every continent except Antarctica
 - Renewable — trees regrow in 20-80 years
@@ -267,4 +255,3 @@ Transesterification produces biodiesel with properties much closer to petroleum 
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
-![energy fuels coal diagram](../images/energy/diagram:energy_fuels-coal.jpg)

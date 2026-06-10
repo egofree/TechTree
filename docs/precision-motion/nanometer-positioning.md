@@ -12,12 +12,6 @@ The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves
 
 ## Prerequisites
 
-![Thermal bimorph actuator](../images/precision-motion/precision-motion_nanometer-positioning.png)
-
-> *Bimorph microcantilever actuator*
-
-> *Image: Seok-Won Kang, Joe Fragala, Su-Ho Kim and Debjyoti Banerjee, CC BY 4.0*
-
 - [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md): Precision machining of stage components to sub-micron tolerance, surface grinding of guide rails
 - [Precision Encoders & Feedback](./precision-encoders.md): Position measurement systems (optical encoders, laser interferometers) for closed-loop control
 - [Vibration Isolation](./vibration-isolation.md): Passive or active isolation systems providing VC-D or better floor environment

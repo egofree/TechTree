@@ -8,19 +8,11 @@
 > **Outputs**: pharmaceuticals, dosage_forms, quality_controlled_drugs, sterile_pharmaceuticals
 > **Critical**: Yes — without reliable pharmaceutical production, disease treatment depends on variable plant preparations and infection mortality remains high
 
-
 Pharmaceutical production covers the scaled manufacture of drugs from extraction through final dosage form, with quality control at each stage. This capability extends [pharmacology](pharmacology.md) — which covers drug sources and basic preparation — into reproducible, quality-controlled production suitable for treating an entire community. The transition from compounding individual doses to batch manufacturing is the inflection point where pharmaceutical capability becomes a public health infrastructure rather than a cottage craft.
 
 The key challenge in bootstrap pharmaceutical production is quality assurance. Without modern analytical instruments (HPLC, mass spectrometry), drug potency and purity must be verified through simpler methods: melting point determination, thin-layer chromatography, microbial limit testing, and dissolution testing. These methods are adequate for the drug classes available in a bootstrap setting: analgesics, antimalarials, antiseptics, anesthetics, and basic antibiotics (sulfonamides).
 
-
 ## Materials
-
-![Ciba (pharmaceutical production), Summit, New Jersey. LOC gsc.5a29510](../images/health/health_pharmaceutical-production.jpg)
-
-> *Title: Ciba (pharmaceutical production), Summit, New Jersey. Abstract/medium: Gottscho-Schleisner Collection (Library of Congress) Physical description: 1 negative :*
-
-> *Image: Gottscho-Schleisner Collection, Public domain*
 
 - Active pharmaceutical ingredients (APIs): extracted from plants or synthesized (see [pharmacology](pharmacology.md))
 - Excipients: starch, lactose, sucrose, gelatin, talc, magnesium stearate
@@ -61,7 +53,6 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 | Disintegrant (starch or microcrystalline cellulose) | 20-50 g | Grain processing | No disintegrant (slower dissolution) |
 | Lubricant (talc or magnesium stearate) | 5-15 g | Mining or chemical synthesis | Steric acid, sodium benzoate |
 | Glaze/coating (sugar solution or shellac) | 50-100 g | Sugar refining or [beekeeping](../animals/beekeeping.md) | None (uncoated tablets) |
-
 
 ## Tablet Manufacturing
 
@@ -138,7 +129,6 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 - Aseptic filling demands a clean environment and trained operators — a single contamination event ruins the entire batch
 - Glass ampoules require flame-sealing capability; rubber-stoppered vials require aluminum crimping tools
 
-
 ## Tablet Manufacturing Parameters
 
 | Parameter | Target Range | Test Method | Out-of-Spec Action |
@@ -207,7 +197,6 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 - **Finished product testing**: Every batch receives: identity test (TLC or color reaction), assay (90-110% of label claim), disintegration (<15 min), weight uniformity (n=20, RSD <3%), hardness (4-8 kgf). Sterile products additionally receive: sterility test (14-day incubation), pyrogen test (rabbit test or LAL assay if available), particulate matter count.
 - **Stability testing**: Retain samples from each batch. Store at 25°C/60% RH (long-term) and 40°C/75% RH (accelerated). Test at 0, 1, 3, 6, 12 months. If product remains within specification at 40°C for 6 months → estimate 2-year shelf life at room temperature. Assign expiry dates conservatively — expired drugs may be toxic (e.g., degraded tetracycline causes Fanconi syndrome).
 - **Documentation**: Batch records must include: starting material weights and lot numbers, process parameters at each step, in-process test results, yield calculations, deviations from standard procedure, final QC results, release decision with signature. Retain all batch records for minimum 2 years past product expiry date.
-
 
 ## Dosage Form Options
 

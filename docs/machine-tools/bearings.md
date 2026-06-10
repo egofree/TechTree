@@ -14,12 +14,6 @@ For the machine tool construction sequence, see [Iterative Bootstrap](./iterativ
 
 ## Plain (Journal) Bearings
 
-![Rolling-element bearings-diagram](../images/machine-tools/machine-tools_bearings.png)
-
-> *Łożyska toczne: a) kulkowe zwykłe; b) baryłkowe wzdłużne; c) wzdłużne jednokierunkowe*
-
-> *Image: Jonasz at Polish Wikipedia, CC BY-SA 3.0*
-
 The simplest and most robust bearing type. A cylindrical shaft rotates inside a slightly larger cylindrical housing, separated by a thin film of lubricant.
 
 **Construction steps for a babbitt-lined journal bearing**:

@@ -8,16 +8,9 @@
 > **Outputs**: submarine_cable_capacity, intercontinental_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-
 Submarine telegraph cables were the first global communications infrastructure, connecting continents across ocean floors. The technical challenges were immense: maintaining electrical insulation under 4-8 km of seawater pressure, protecting the conductor from mechanical damage during laying and over decades of service, and amplifying signals through thousands of ohms of cable resistance and microfarads of capacitance. The first successful transatlantic cable (1866) reduced information transit time between Europe and North America from 10 days (fast steamship) to minutes — a compression factor of ~10,000.
 
 ## Prerequisites
-
-![BT submarine cable system support centre - geograph.org.uk - 1680884](../images/telecom/telecom_submarine-cables.jpg)
-
-> *BT submarine cable system support centre*
-
-> *Image: Peter Facey, CC BY-SA 2.0*
 
 - [Metals](../metals/index.md) — copper conductor production and wire drawing
 - [Gutta-percha](../polymers/gutta-percha.md) — the critical insulation material
@@ -102,7 +95,6 @@ The fundamental challenge: the enormous capacitance of a long conductor surround
 - **Red Sea and Indian Ocean**: Europe to India via Suez. Red Sea route (2,500 km) completed 1860.
 - **Pacific**: Honolulu to San Francisco (~3,800 km), completed 1902.
 
-
 ## Submarine Cable (per km, deep-sea type)
 
 | Material | Quantity per km | Specification | Source |
@@ -131,7 +123,6 @@ The fundamental challenge: the enormous capacitance of a long conductor surround
 | Battery bank | 50-200 cells | Daniell or gravity cells, 50-200 V total | [Chemistry](../chemistry/index.md) |
 | Key and relay equipment | 2-4 sets | Standard telegraph instruments | [Metals](../metals/index.md) |
 | Cable engine (receiving end) | 1 | Brake drum and tension monitor | [Metals](../metals/index.md) |
-
 
 ## Cable Electrical Parameters
 
@@ -165,7 +156,6 @@ The fundamental challenge: the enormous capacitance of a long conductor surround
 | 500 (Mediterranean) | 850 | 160 | 0.14 | 20-40 |
 | 1,000 | 1,700 | 320 | 0.54 | 10-20 |
 | 3,200 (transatlantic) | 5,440 | 1,024 | 5.6 | 1-2 (1866) to 300+ (1920s) |
-
 
 ## Short Cable (50-200 km, cross-channel)
 

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Water Yam](../images/plants/plants_water-yam.jpg)
-
-> *Dioscorea alata (Purple yam) tuber. Mindanao, Philippines. Locally known as ube (pronounced "ooh-beh" or "ooh-bee").*
-
-> *Image: Obsidian Soul, CC BY-SA 3.0*
-
 Water Yam
 
 *Dioscorea alata* (Dioscoreaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Greater yam provides leaves, roots as its primary edible product and ranks 40/100 on the nutrition score.
@@ -124,7 +118,6 @@ Some wild and uncultivated *Dioscorea* species contain dioscorine, a toxic alkal
 | Anthracnose risk | High | Hot, wet, humid conditions |
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -277,4 +270,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants water yam](../images/plants/plants_water-yam.jpeg)

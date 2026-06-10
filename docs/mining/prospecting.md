@@ -12,12 +12,6 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 
 ## Prerequisites
 
-![Gold Prospectors Association of America volunteer gold panning presentation (47851068932)](../images/mining/mining_prospecting.jpg)
-
-> *Almost 1,500 Anchorage-area sixth-graders and 270 adult participants spent the week learning about gold panning, fly tying, hydrology, bear safety, and atlatl hunting, during the 45th annual Outdoor Week held on the public lands surrounding the Campbell Creek Science Center. The event introduces sixth graders to outdoor recreation and natural resources careers. Joining the BLM organizers were 19 partner organizations and 90 volunteers. Gold Prospectors Association of America volunteer giving a gold panning presentation. Photo by Lisa Gleason (BLM)*
-
-> *Image: BLM Alaska, Public domain*
-
 - [Writing & Record-Keeping](../knowledge/writing.md) — recording sample locations and assay results
 - [Measurement](../measurement/precision-metrology.md) — compass, level, and assay instruments
 - [Black Powder](black-powder.md) — blasting for test pits and adits

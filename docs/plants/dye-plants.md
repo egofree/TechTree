@@ -8,19 +8,11 @@
 > **Outputs**: natural_dyes, plant_pigments
 > **Critical**: No — color is important for signaling and trade but not strictly required for survival
 
-
 Plants that yield natural colorants for dyeing textiles, leather, wood, ink, and coatings. Natural dyes have been the primary source of color for human material culture from prehistory through the 19th century, when synthetic aniline dyes superseded them. In a bootstrap context, dye plants provide the only practical path to colored textiles before the organic chemistry infrastructure needed for synthetic dyes exists. Color serves not only aesthetics but signaling (military uniforms, trade goods, social markers) and functional purposes (UV protection, mildew resistance from tannin-rich dyes).
 
 This capability covers the cultivation, harvesting, and primary extraction of dye substances from plant material. The downstream application of dyes to fiber and cloth is covered in [Dyeing](../textiles/dyeing.md).
 
 ## Dye Extraction Methods
-
-![Indian indigo dye lump](../images/plants/plants_dye-plants.jpg)
-
-> *Piece of indigo plant dye from India, c. 6.35 cm (2.5 in) square.*
-
-> *Image: Photo by Evan Izer (Palladian), CC BY-SA 2.5*
-
 
 The three principal methods for extracting color from plant material, listed in order of increasing complexity:
 

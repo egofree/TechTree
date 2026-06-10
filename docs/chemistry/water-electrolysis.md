@@ -10,12 +10,6 @@
 
 ## Overview
 
-![AEM water electrolysis working principle with HER and OER](../images/chemistry/chemistry_water-electrolysis.png)
-
-> *AEM water electrolysis working principle with HER and OER*
-
-> *Image: Kavin Teenakul, CC BY-SA 4.0*
-
 Electrolytic splitting of water into hydrogen and oxygen using PEM or alkaline electrolyzers. Provides high-purity hydrogen for ammonia synthesis, metal refining, and fuel cells without fossil fuel inputs.
 
 The reaction is simple: 2H₂O → 2H₂ + O₂. The engineering is not. Three electrolyzer technologies compete. Alkaline electrolysis (KOH electrolyte, 60-90°C, nickel electrodes) is the mature, cheap route that avoids precious metal catalysts. PEM electrolysis (proton exchange membrane, 50-80°C, platinum and iridium catalysts) is more compact and responds faster to variable power input. Solid oxide electrolysis (ceramic oxide electrolyte, 700-850°C) has the highest theoretical efficiency but faces severe materials degradation from thermal cycling.

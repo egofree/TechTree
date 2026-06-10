@@ -8,7 +8,6 @@
 > **Outputs**: fiber, packing_transport, guard_services, manure
 > **Critical**: No — valuable for luxury fiber and guard services but not essential for basic food security
 
-
 South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) — are dual-purpose livestock providing luxury fiber (alpacas) and pack transport plus guard duties (llamas). Domesticated in the Andes over 6,000 years ago, they are exceptionally well-adapted to marginal land, require minimal infrastructure compared to other livestock, and have few health problems. Alpacas produce 2-5 kg of fine fleece every 12-18 months in a range of 22 natural colors. Llamas carry 25-30% of their body weight as pack animals and a single llama can serve as an effective guardian for a flock of 200+ sheep against canine and coyote predators.
 
 | Parameter | Alpaca | Llama |
@@ -25,12 +24,6 @@ South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) 
 | Manure/day | 5-8 kg | 8-12 kg |
 
 ## Prerequisites
-
-![A llama and its offspring - geograph.org.uk - 1801614](../images/animals/animals_camelids.jpg)
-
-> *A llama and its offspring. Llamas in pasture beside the driveway to Priory Farm &gt; 1801601. Whatever it was that the youngster did, its mother is not amused. Llamas are members of the camelid family and originate from South America, where they are used as a pack animals, and for fibre and meat production. An adult llama is between 1.60 to 1.80 metres tall at the top of the head. Wikipedia: Llama. Apart from their different sizes, llamas can be distinguished from alpacas by the shape and size of their ears: alpacas &gt; Geograph (photo 740556) have shorter and straight ears whereas the ears of llamas are banana-shaped.*
-
-> *Image: Evelyn Simak, CC BY-SA 2.0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -53,7 +46,6 @@ Materials listed per 10-alpaca fiber herd per year.
 | Shearing equipment | 1 set hand shears or clippers | [`foundations.tools-basic`](../foundations/tools-basic.md) | Electric shears preferred |
 | Halter and lead rope | 10 sets | [`textiles`](../textiles/index.md) | For handling and training |
 | Fencing (1.0-1.2 m woven wire) | Perimeter of pasture | [`metals`](../metals/index.md) | Standard sheep fencing suffices |
-
 
 ## Fiber Production (Alpaca)
 
@@ -176,7 +168,6 @@ Materials listed per 10-alpaca fiber herd per year.
 - Crias born without passive immunity — 4-hour colostrum window is critical and unforgiving
 - First-time mothers may have poor maternal behavior — require monitoring
 
-
 ## Fiber Grading (Alpaca)
 
 | Grade | Micron Range | Quality | Use |
@@ -267,7 +258,6 @@ Camelids evolved in the Andes at 3,500-5,000 m elevation, where air pressure is 
 - [`animals.domestication`](domestication.md) — camelid domestication history and comparative livestock data
 - [`animals.pest-management`](pest-management.md) — guard llama use for predator control in livestock operations
 - [`agriculture`](../agriculture/index.md) — manure application and pasture management for camelid operations
-
 
 ## See Also
 

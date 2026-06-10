@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Cotton](../images/plants/plants_cotton.jpeg)
-
-> *Karyotype of Cotton (Gossypium hirsutum). 2n=52. DAPI-stained chromosomes (blue) at metaphase are stained with anti-CENH3 (red), which localizes to the centromere region.*
-
-> *Image: Song Luo, Jennifer Mach, Bradley Abramson, Rolando Ramirez, Robert Schurr, Pierluigi Barone, Gregory Copenhaver, Otto Folkerts, CC BY 2.5*
-
-![Karyotype of Cotton (Gossypium hirsutum)](../images/plants/plants_cotton.png)
-
-> *Karyotype of Cotton (Gossypium hirsutum). 2n=52. DAPI-stained chromosomes (blue) at metaphase are stained with anti-CENH3 (red), which localizes to the centromere region.*
-
-> *Image: Song Luo, Jennifer Mach, Bradley Abramson, Rolando Ramirez, Robert Schurr, Pierluigi Barone, Gregory Copenhaver, Otto Folkerts, CC BY 2.5*
-
-
 Cotton
 
 *Gossypium hirsutum* (Malvaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. American cotton provides seeds/nuts as its primary edible product.
@@ -75,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 It grows best in areas where annual daytime temperatures are within the range 22 - 36°c, but can tolerate 15 - 42°c. It prefers a mean annual rainfall in the range 750 - 1,200mm, but tolerates 450 - 1,500mm. Prefers a very sunny position in a light, fertile soil. Plants can tolerate a range of well-drained soils, including moderate levels of salt. Prefers a pH in the range 6 - 7.5, tolerating 5 - 9.5. Requires a position sheltered from strong winds. The plant is usually cultivated as an annual, taking 150 - 220 days to mature a crop. Seed-cotton yields vary between 0.8 - 3 tonnes/ha, or 0.2 - 1.1 tonnes/ha of fibre. Carbon Farming - Cultivation: regional crop. Management: standard, coppice. Perennial cotton has longer fibres and is considered superior to annual cottons. Perennial cottons are suited to arid and humid conditions while annual cottons were bred for colder climates and for mechanical harvesting. Perennial cottons are cultivated in the tropics on a smaller scale and include Gossypium arboreum burmanicum, Gossypium arboreum indicum, Gossypium arboreum soudanense, Gossypium barbadense braziliense, Gossypium barbadense darwinii, Gossypium herbaceum acerifolium, Gossypium herbaceum africanum, Gossypium hirsutum marie-galante, Gossypium hirsutum punctatum, Gossypium hirsutum taitense. Currently perennial cottons are harvested by hand. Researching perennial cottons varieties and production methods would help develop them as good carbon farming plants and help to alleviate the terrible problems caused by annual cottons. Propagation: Propagate from seed. In zones 8–10 it can be sown directly after the last frost. In zones 5–7, treat like tomatoes. Seed germinates in 7–21 days at 70°F. Plant 18–30 inches apart in rows 5 feet apart. Plants begin flowering in mid-summer.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

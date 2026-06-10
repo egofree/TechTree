@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Allium paniculatum](../images/plants/plants_allium-paniculatum.jpg)
-
-> *Άλλιο το φοβοειδές (Allium paniculatum), Επταπύργιο, Θεσσαλονίκη, 05-06-2021*
-
-> *Image: PLAKLE, CC BY-SA 4.0*
-
-![Άλλιο το φοβοειδές (Allium paniculatum), Επταπύργιο, Θεσσαλονίκη, 05-06-2021](../images/plants/plants_fiber-plants_allium-paniculatum.jpg)
-
-> *Άλλιο το φοβοειδές (Allium paniculatum), Επταπύργιο, Θεσσαλονίκη, 05-06-2021*
-
-> *Image: PLAKLE, CC BY-SA 4.0*
-
-
 Allium paniculatum , common name pale garlic , is a species of monocot in the family Amaryllidaceae . It is widely cultivated and is now naturalized in several places outside its native range. Allium paniculatum produces several egg-shaped bulbs, each up to 1
 
 Pale garlic is unusual among fiber plants: it produces both an edible bulb and a leaf crop that yields serviceable fiber. This dual-purpose nature makes it worth cultivating in marginal soils where higher-yielding fiber crops like flax or hemp would struggle. The plant asks almost nothing of the soil and thrives in the rocky, dry conditions common across the Mediterranean basin.
@@ -192,7 +179,6 @@ The plant's small size compared to dedicated fiber crops like sisal or hemp mean
 - [Fiber Plants](fiber-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Fiber Plants](fiber-plants.md) — downstream capability
-
 
 ### Material Handling
 

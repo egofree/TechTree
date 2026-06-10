@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Jute](../images/plants/plants_jute.jpg)
-
-> *Jute — Capsules of Jute Plants. a, Corchorus capsularis; b, C. olitorius*
-
-> *Image: AnonymousUnknown author, Public domain*
-
 Jute
 
 *Corchorus olitorius* (Malvaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Jute, Bush Okra provides fruit, leaves, seeds/nuts as its primary edible product and ranks 61/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants grow well in the lowland tropics, up to an elevation of around 700 metres. They are reported to tolerate an annual precipitation between 400 and 4290mm, an annual average temperature range of 16.8 to 27.5°c. Prefers a very fertile, humus-rich, well-drained alluvial soil, though it is extremely tolerant of soil conditions. It grows best in a hot humid climate. Tolerates very wet conditions according to one report whilst another says that it does not tolerate waterlogged soils. Some cultivars are sensitive to excess water in the soil, especially when they are young. Tolerates a pH in the range of 4.5 to 8.2. There are two important cultivar-groups:- Olitorius Group. These are the forms mainly grown for their edible leaves. They are characterized by a plant height lower than 2 metres, often not more than 1 metre, and a more or less heavily branched plant habit. There are many named forms within this group. Textilis Group. These are the forms mainly grown for their fibre. The plants are usually larger, up to 4 metres, perhaps even 5 metres tall, and only slightly branched at the top. The first harvest, by cutting shoots 20 - 30cm long, may take place 4 - 6 weeks after transplanting, at a height of 10 - 20cm above the ground. This cutting stimulates the development of side shoots. Subsequently, every 2 - 3 weeks, a cutting may take place, with a total of 2 - 8 cuttings possible. For a once-over harvest from a direct sown crop, the plants are uprooted or cut at ground level when they are 30 - 40cm tall, 3 - 5 weeks after emergence and before the development of fruits. In Nigeria, a yield of 20 - 25kg from a 10 square metre bed (25 tonnes per hectare) may be expected from 3 - 9 cuttings of 'Amugbadu' during a period of 3 - 4 months. A yield of 38 tonnes per hectare was obtained from a well-fertilized field of cultivar 'Ewondo' in the Cameroon. Farmers however, usually obtain average yields of 5 - 15 tonnes. The world average jute yield is about 1.9 tonnes of raw fibre per hectare, but yields of 5 tonnes have been obtained in Bangladesh with improved cultivars grown under optimal agronomic conditions. Intercropped with Vigna, jute has yielded 3,270 kilos compared to 2290 kilos when monocropped. A commercially cultivated vegetable and an important vegetable in arid areas. Part of the national dish of Egypt. Propagation: Pre-soak seed for 24 hours in warm water, then sow in situ. Seeds are often broadcast into fine seedbeds at the beginning of the wet season; mixing them with sand helps achieve even distribution. Seeds can be slow to germinate, but soaking in hot water can help overcome this. A spacing of 20–30cm between plants is suitable.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -309,4 +302,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants jute](../images/plants/plants_jute.jpeg)

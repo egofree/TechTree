@@ -10,12 +10,6 @@
 
 ## Overview
 
-![AIEEE 2003 Question Paper](../images/chemistry/chemistry_sem-tech.jpg)
-
-> *The question paper for AIEEE, Physics, Chemistry Mathematics in 2003*
-
-> *Image: Myself, Public domain*
-
 Membrane electrolysis cells producing ultra-pure chlorine and caustic soda for semiconductor manufacturing. Uses ion-exchange membranes instead of asbestos diaphragms, achieving higher purity required for wafer processing chemicals.
 
 SEM Tech membrane technology uses off-the-shelf water softener resin beads, pulverized and dispersed in a PVC or CPVC binder matrix, to form ion exchange membranes at less than $1 per square foot. Conventional perfluorinated membranes (Nafion) cost $100-400 per square foot. The tradeoff is durability: SEM Tech membranes last months to a year at pH 0 and ORP above 1.5V, compared to 2-4 years for Nafion. For a bootstrapping civilization, the cost difference makes SEM Tech the practical starting point.

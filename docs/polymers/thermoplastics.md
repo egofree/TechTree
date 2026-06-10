@@ -8,26 +8,11 @@
 > **Outputs**: polyethylene, PVC, nylon, polystyrene, PTFE
 > **Critical**: No — thermoplastics expand material capability but the critical path uses metals and ceramics at earlier stages
 
-
 Thermoplastic polymers soften when heated and harden when cooled — a reversible process that enables melting, shaping, and recycling. Unlike [thermosets](./thermosets.md) (which permanently crosslink during cure), thermoplastics can be repeatedly remelted and reprocessed, making them the dominant class of polymers by volume. Global thermoplastic production exceeds 350 million tonnes/year, with polyethylene alone accounting for over 100 million tonnes.
 
 The thermoplastics covered here span from polyethylene (achievable at Chemistry stage with high-pressure reactors) through PVC and nylon (Chemistry–Vacuum stages) to PTFE and polycarbonate (advanced petrochemical industry). Processing methods — injection molding, extrusion, blow molding, thermoforming, compression molding — convert raw polymer granules into finished products. Feedstocks come from [petrochemical cracking](../chemistry/petroleum-alternatives.md); polymerization reactors and extruders rely on [machine tools](../machine-tools/index.md).
 
-
 ## Prerequisites
-
-![Convection Heating from Lambiase - "Joinability of different thermoplastic polymers with aluminium AA6082 sheets by mechanical clinching"](../images/polymers/polymers_thermoplastics.jpg)
-
-> *Convection Heating System*
-
-> *Image: Francesco Lambiase, CC BY-SA 4.0*
-
-![Convection Heating from Lambiase - "Joinability of different thermoplastic polymers with aluminium AA6082 sheets by mechanical clinching"](../images/polymers/polymers_thermoplastics.png)
-
-> *Convection Heating System*
-
-> *Image: Francesco Lambiase, CC BY-SA 4.0*
-
 
 ### Materials
 - Ethylene, propylene, styrene, vinyl chloride monomer (from [petrochemicals](../chemistry/petroleum-alternatives.md))
@@ -47,7 +32,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Cooling water (for mold cooling and extrusion sizing — 5-20 liters/minute)
 - Compressed air (for blow molding — 0.2-1.5 MPa)
 - Ventilation (for polymer fume extraction during melt processing)
-
 
 ## Polyethylene (HDPE) — per tonne polymer
 
@@ -75,7 +59,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | Adipic acid (HOOC(CH₂)₄COOH) | 0.57 tonnes | [Petrochemicals](../chemistry/petroleum-alternatives.md) — cyclohexane + HNO₃ oxidation | Nylon 6 from caprolactam (single monomer route) |
 | Hexamethylenediamine (HMDA) | 0.52 tonnes | [Petrochemicals](../chemistry/petroleum-alternatives.md) — butadiene + HCN → adiponitrile → hydrogenation | From acrylonitrile electrolytic dimerization |
 | Nitrogen (inert atmosphere) | 50-100 m³ | [Air separation](../chemistry/air-separation.md) | Argon (more expensive) |
-
 
 ## Polyethylene (LDPE and HDPE)
 
@@ -336,7 +319,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Dimensional control depends on consistent screw speed, temperature, and puller speed — requires active monitoring and adjustment
 - Start-up waste — 5-20 kg of material wasted during start-up until process stabilizes and dimensions are on-spec
 
-
 ## Thermoplastic Properties Comparison
 
 | Property | LDPE | HDPE | PP | Rigid PVC | Nylon 6,6 | PS (crystal) | PTFE |
@@ -396,7 +378,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **Plastic dust explosions**: Fine thermoplastic powders (PE, PVC, PS) form explosive dust clouds. PE dust MEC: 20-30 g/m³. PS dust Kst: 110-160 bar·m/s (St Class 1). Ground all equipment. Maintain ventilation. Clean up accumulated dust regularly.
 - **VCM exposure** (PVC production): Confirmed human carcinogen (IARC Group 1). Closed systems, continuous air monitoring, explosion-proof equipment. See [Synthetic Polymers](./synthetic.md) for full hazard data. Residual VCM in finished PVC: <1 ppm (food-grade: <0.1 ppm).
 
-
 ## Incoming Resin
 - **Melt Flow Index (MFI)**: ASTM D1238. Verify MFI is within specification (±10% of nominal). Out-of-range MFI indicates wrong grade, degradation, or contamination.
 - **Moisture content**: Karl Fischer titration. Nylon and PET must be <0.2% before processing. PE, PP, PVC: <0.05%.
@@ -412,7 +393,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **OD and wall thickness**: Ultrasonic gauge or caliper at 3 points per 1 m sample. Wall thickness tolerance: ±5-10%.
 - **Surface quality**: Visual — no sharkskin, die lines, or discoloration.
 - **Pressure test** (PVC pipe): Hydrostatic test at 2× working pressure for 1 hour. No leaks, no deformation.
-
 
 ## Blow Molding
 - **Extrusion blow molding**: Continuous parison extruded downward, enclosed in split mold, inflated with compressed air (0.2-1.0 MPa). Produces bottles, jerry cans, fuel tanks. Blow ratio (max diameter / initial parison diameter): 2:1 to 7:1. Mold can be aluminum or wood for low-pressure products.
@@ -440,7 +420,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **[Electrolysis](../chemistry/electrolysis.md)**: Chlorine and NaOH production for PVC
 - **[Electrical Systems](../electronics/electrical-systems.md)**: Wire and cable insulation using PE, PVC, and silicone
 - **[Data Storage](../computing/data-storage.md)**: Optical disc substrates (polycarbonate, PMMA)
-
 
 ---
 

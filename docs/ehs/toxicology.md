@@ -8,18 +8,11 @@
 > **Outputs**: toxic_substance_databases, exposure_limits, antidote_protocols, material_safety_data
 > **Critical**: No — enhances safety but chemical handling can proceed at basic level without formal toxicology
 
-
 Toxicology covers the identification, quantification, and management of toxic substances encountered in industrial, pharmaceutical, and environmental contexts. This capability extends [chemical-safety](chemical-safety.md) — which focuses on semiconductor process chemicals — into general toxicology for the full range of industrial chemicals a bootstrap civilization will encounter: smelting fumes, acid mists, organic solvents, heavy metals, and plant/animal toxins.
 
 The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison." Every substance is toxic at sufficient dose; the task is to define safe exposure limits and manage risks accordingly. For industrial chemicals, this means establishing TLV-TWA (Threshold Limit Value — Time Weighted Average) concentrations that workers can breathe for 8 hours per day, 40 hours per week, over a working lifetime without adverse effect. For acute exposures, it means knowing IDLH (Immediately Dangerous to Life or Health) concentrations and having antidotes available.
 
 ## Decision Framework: Exposure Assessment Method
-
-![Branches of Environmental Toxicology - Entox-fields lrg](../images/ehs/ehs_toxicology.png)
-
-> *Branches of Environmental Toxicology*
-
-> *Image: Toxtutor, CC BY-SA 3.0*
 
 | Scenario | Recommended Method | Accuracy | Cost | Turnaround |
 |----------|-------------------|----------|------|------------|
@@ -46,7 +39,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Specific antidote administration | Minutes | High for specific poisons | Medium (wrong antidote can harm) | Known poison with available antidote (HF → Ca gluconate, cyanide → thiosulfate) |
 | Supportive care only (O₂, fluids, monitoring) | Minutes | Variable | Low | Unknown poison, no specific antidote available |
 | Gastric lavage / activated charcoal | Minutes-Hours | Moderate (time-dependent) | Medium (aspiration risk) | Recent oral ingestion (<1 hour) |
-
 
 ## Materials
 
@@ -87,7 +79,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | pH paper (0-14 range) | 1 strip per test | Indicator chemistry | Litmus paper (blue/red only, limited range) |
 | Sodium thiosulfate | 5-10 g per cyanide emergency | [Chemistry](../chemistry/index.md) | Sodium nitrite + thiosulfate kit (Cyanide Antidote Kit) |
 | Sample collection bottles | 1-5 per assessment | [Glass](../glass/index.md) | Any clean sealed container |
-
 
 ## Toxic Substance Identification
 
@@ -234,7 +225,6 @@ H₂S is a broad-spectrum cellular toxin that inhibits cytochrome c oxidase (the
 
 HF penetrates skin rapidly because the fluoride ion is small and lipophilic at low pH. It binds tissue calcium and magnesium, causing liquefactive necrosis of deep tissue while the skin surface may appear normal for hours. Pain out of proportion to visible injury is the hallmark of HF exposure. Calcium gluconate gel works by providing free calcium ions that bind the fluoride before it can deplete tissue calcium stores. Apply gel generously and massage into the affected area for at least 15 minutes. Reapply every 4-6 hours until pain-free for 4 hours.
 
-
 ## TLV-TWA Values for Common Industrial Chemicals
 
 | Chemical | TLV-TWA (ppm) | TLV-STEL (ppm) | PEL (ppm) | IDLH (ppm) | Primary Target Organ |
@@ -340,7 +330,6 @@ HF penetrates skin rapidly because the fluoride ion is small and lipophilic at l
 | Carbon monoxide | Carboxyhemoglobin (COHb) | Blood | End of shift | >3.5% (non-smoker), >10% (smoker): investigate exposure |
 | Cadmium | Urinary cadmium | Urine | Not critical | >5 μg/g creatinine: kidney damage risk |
 | Benzene | Urinary S-phenylmercapturic acid | Urine | End of shift | >25 μg/g creatinine: exposure above acceptable level |
-
 
 ## Toxic Substances by Industrial Sector
 

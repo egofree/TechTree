@@ -8,7 +8,6 @@
 > **Outputs**: precision_lenses, optical_flats, interferometers, autocollimators, optical_comparators
 > **Critical**: No — precision optics enhance capability but basic optics function without them
 
-
 Semiconductor manufacturing tolerances shrink with every generation. Photolithography lenses demand surface figures better than λ/20 (25 nm). Mask flatness must be within λ/10 per centimeter. Alignment stages require angular positioning to arcsecond accuracy. Producing and verifying these surfaces needs instruments that measure what the eye cannot see, pushing optical fabrication from craft into metrology-grade precision.
 
 ## Prerequisites
@@ -91,7 +90,6 @@ The three-plate method produces optically flat surfaces without any pre-existing
 
 If A fits B and B fits C and C fits A, all three must be flat. Any curvature would cause a mismatch in at least one pairing. After 3-5 cycles through each grit stage, all three plates achieve flatness within λ/4 (140 nm) over their full aperture. Further polishing with fine figuring brings them to λ/10 or better.
 
-
 ## Autocollimator
 
 An autocollimator measures small angular deviations with extreme precision. Layout: light source → reticle (illuminated crosshair) → beam splitter → objective lens → target mirror → reflected light returns through objective → beam splitter → eyepiece with measuring scale.
@@ -104,7 +102,6 @@ When the target mirror is exactly perpendicular to the optical axis, the reflect
 
 A pentagonal prism or mirror arrangement that deflects light by exactly 90°, regardless of small angular errors in the mounting. Used to establish perpendicular reference lines for machine tool alignment and construction. Accuracy: ±1 arcsecond for a quality pentagonal prism. Simpler than an autocollimator for 90° checks, and more compact than a precision engineer's square.
 
-
 ## Fizeau Interferometer
 
 The Fizeau interferometer is the primary instrument for measuring surface flatness of optical components. A monochromatic light source (helium discharge lamp, λ = 587.6 nm, or laser) illuminates a reference flat (typically λ/20 flatness) resting on the test surface. A thin air wedge between the two surfaces creates interference fringes. Straight, equally spaced fringes indicate a flat surface. Curved or irregular fringes reveal surface errors.
@@ -116,7 +113,6 @@ The Fizeau interferometer is the primary instrument for measuring surface flatne
 ## Newton's Rings
 
 When a slightly curved lens surface rests on a flat reference surface, the air gap between them creates concentric circular interference fringes (Newton's rings). The radius of the nth dark ring is rₙ = √(nλR), where R is the radius of curvature. Counting rings from the center quantifies the deviation from flatness or the radius of curvature. Quick, requires only a reference flat and a monochromatic light source. Accuracy: λ/2 per ring, limited by contact pressure and cleanliness.
-
 
 ## Tubular Vial Level
 
@@ -138,7 +134,6 @@ A profile projector (optical comparator) casts a magnified shadow of a workpiece
 - **Stage micrometers**: The workpiece stage moves in X-Y on precision micrometer screws (0.001 mm resolution). Measure feature positions by moving the stage to align the crosshair with each edge and reading the micrometers.
 
 **Applications**: Thread profile inspection, gear tooth measurement, small machined parts, stampings, and molded components. Non-contact: measures soft, fragile, or flexible parts without deformation. The workhorse inspection instrument in any precision machine shop.
-
 
 ## Toolmaker's Microscope
 
@@ -241,7 +236,6 @@ Before any precision flatness measurement, the optical flat and the test piece m
 - **Acetone and isopropanol**: Both solvents are flammable (acetone flash point -20°C, isopropanol 12°C). Use in well-ventilated areas away from ignition sources. Acetone defats skin and causes cracking with repeated contact. Isopropanol is less aggressive but still drying. Wear nitrile gloves for prolonged solvent use. Store in flammable-liquid cabinets with grounding to prevent static ignition.
 - **Optical flat breakage**: Fused silica optical flats are brittle and expensive. A dropped 100 mm diameter flat shatters into sharp fragments. Handle over a padded surface. Never place a flat face-down on a hard bench. Use a protective carrier (wooden or foam-lined case) for transport between instruments.
 
-
 ## Limitations
 
 - **Surface figure accuracy**: Hand-figured lenses and flats achieve λ/4 to λ/10 (63-25 nm) surface accuracy at best. Machine-generated surfaces are less accurate without computer-controlled polishing. λ/20 or better requires interferometric guiding during polishing — a feedback loop that takes considerable skill to master.
@@ -274,4 +268,3 @@ Before any precision flatness measurement, the optical flat and the test piece m
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Optics](./index.md) • [All Domains](../../index.md)*
 
-![optics precision instruments](../images/optics/optics_precision-instruments.jpg)

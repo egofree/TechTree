@@ -8,16 +8,9 @@
 > **Outputs**: draft_animals, wool, hides, milk, meat, dung
 > **Critical**: Yes — core knowledge for managing all livestock species productively
 
-
 A bootstrapping civilization needs reliable sources of labor, food, fiber, and fertilizer. Wild animal populations cannot sustainably provide these at scale — hunting depletes stocks faster than they recover, and wild animals cannot be directed toward productive work. Animal husbandry transforms captive livestock into a managed resource: draft power for plowing and transport (1-2 hp sustained per ox), milk and meat as concentrated protein sources, wool and hides for textiles, and manure to sustain crop yields. Without systematic breeding, feeding, health management, and seasonal planning, livestock herds stagnate, succumb to disease, and fail to meet settlement needs.
 
 ## Prerequisites
-
-![20220306 Shandong Vocational College of Animal Husbandry and Veterinary Medicine 04](../images/animals/animals_animal-husbandry.jpg)
-
-> *​山东省畜牧兽医职业学院*
-
-> *Image: Ngguls, CC BY-SA 4.0*
 
 - [Livestock domestication](domestication.md) — captive breeding populations of cattle, sheep, goats, pigs, or poultry
 - [Food and agriculture](../foundations/food-agriculture.md) — fodder production (pasture, hay, grain) to feed stock through winter
@@ -25,7 +18,6 @@ A bootstrapping civilization needs reliable sources of labor, food, fiber, and f
 - [Water access](../agriculture/irrigation.md) — reliable clean water supply (40-100 L/day per cattle head)
 - [Medicine](../health/medicine.md) — basic disease diagnosis and treatment capability
 - [Iron working](../metals/iron-steel.md) — for horseshoes, harness hardware, fencing staples, and tools
-
 
 Animal husbandry — the domestication, breeding, and management of livestock — provides labor power (oxen, horses, mules), raw materials (wool, leather, tallow, bone), and food (milk, meat, eggs). It is a prerequisite for pre-industrial transport, textile production, and sustainable agriculture.
 

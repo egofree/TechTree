@@ -248,8 +248,3 @@ All handling of ultra-high-purity aluminum must avoid contamination at the ppm a
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*
-![metals semiconductor grade](../images/metals/metals_semiconductor-grade.jpg)
-
-![metals aluminum semiconductor grade](../images/metals/metals_aluminum-semiconductor-grade.png)
-
-![aluminum semiconductor grade diagram](../images/metals/diagram:metals_aluminum-semiconductor-grade.png)

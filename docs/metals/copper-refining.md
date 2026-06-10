@@ -10,12 +10,6 @@
 
 ## Overview
 
-![LEACHING (SEPARATING) TANKS AT THE ELECTROWINNING COPPER REFINING PLANT](../images/metals/metals_copper-refining.jpg)
-
-> *LEACHING (SEPARATING) TANKS AT THE ELECTROWINNING COPPER REFINING PLANT*
-
-> *Image: Cornelius M. Keyes, Public domain*
-
 Purification of copper to high conductivity grades through fire refining and electrolytic refining. Fire refining removes bulk impurities by controlled oxidation in an anode furnace. Electrolytic refining produces 99.99% pure copper cathodes suitable for electrical wire and electronic components. Without electrolytic refining, copper cannot reach the purity needed for efficient electrical conductors.
 
 Copper refining is a two-stage process. Fire refining (also called poling) takes blister copper from the smelter and removes sulfur, iron, and other impurities by oxidation in a reverberatory or rotary anode furnace. The molten copper is then "poled" by plunging green wood poles into the bath. The steam and hydrocarbon gases from the burning wood reduce excess oxygen. This produces tough-pitch copper suitable for general applications. The name "tough-pitch" comes from the fracture surface appearance of properly poled copper, which shows a columnar structure.

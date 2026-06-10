@@ -8,15 +8,11 @@
 > **Outputs**: timber_frames, masonry_walls, roofing_systems, waterproofing, scaffolding, hoisting_equipment
 > **Critical**: Yes — all permanent structures require building materials; without them, civilization remains limited to temporary shelters
 
-
-
 Building materials and methods cover the production and use of timber, stone, brick, roofing, waterproofing, scaffolding, and hoisting systems for permanent construction. These materials form the structural backbone of every building in the bootstrap chain — from houses and workshops to factories and fortifications.
 
 The capability begins with timber framing (the first structural material workable with hand tools) and progresses through stone masonry, fired brick, and manufactured roofing as the industrial base develops. Each material has specific structural properties, construction techniques, and failure modes that dictate where and how it can be used.
 
 Position in the dependency chain: [basic tools](../foundations/tools-basic.md) enable timber work and stone dressing. Downstream, [structural engineering](./structural-engineering.md) applies these materials to designed structures, and [industrial buildings](./industrial-buildings.md) requires heavy-duty versions of all these materials for factory construction.
-
-
 
 ## Materials
 
@@ -47,7 +43,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Lime pit: For slaking quicklime and storing lime putty.
 - Scaffold timber: 75-100 mm diameter poles for temporary works.
 
-
 ## Bill of Materials
 
 | Material | Quantity per 100 m² Floor Area | Source | Alternatives |
@@ -59,8 +54,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Roofing slate or tile | 1,500-3,000 pieces | [Mining](../mining/index.md) or [Ceramics](../ceramics/index.md) | Thatch (temporary, fire risk), metal sheet |
 | Nails and hardware | 20-50 kg | [Iron & Steel](../metals/iron-steel.md) | Timber pegs (19-25 mm oak or ash) |
 | Rope (scaffolding/hoisting) | 100-300 m | [Rope Making](../textiles/rope-making.md) | Withies (flexible willow/hazel branches) |
-
-
 
 ## Timber Framing
 
@@ -299,8 +292,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Roof geometry creates lateral spreading forces — tie beams or rigid connections mandatory to prevent wall bow-out
 - Working at height during construction — fall hazard for carpenters and roofers
 
-
-
 ## Structural Timber Properties
 
 | Property | Softwood (Pine) | Hardwood (Oak) | Notes |
@@ -344,7 +335,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | firing temperature | 900-1050°C | 1050-1150°C |
 | Color | Red/orange/buff | Dark red/blue |
 
-
 ## Scaling Notes
 
 - **Single building (50-100 m² floor area)**: 2-4 workers, 1-3 months construction. Materials: 5-10 m³ timber, 10-30 m³ stone or 3000-8000 bricks, 2-5 m³ mortar. Hand tools only.
@@ -356,7 +346,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - **Scaling timber production**: A mature oak forest yields 3-5 m³/ha/year sustainable harvest. A 100 m² timber-framed building requires 8-15 m³ — equivalent to 2-5 hectares of mature forest for one year.
 
 - **Scaling brick production**: A single clamp kiln fires 5,000-20,000 bricks per batch (1-2 weeks cycle). A 100 m² brick house requires 3,000-8,000 bricks — one kiln firing. Industrial-scale continuous kilns (Hoffman kiln) produce 20,000-50,000 bricks/day.
-
 
 ## Troubleshooting
 
@@ -370,7 +359,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Excessive floor deflection (springy floor) | Joists undersized, excessive spacing | Reduce joist spacing to 400 mm; increase joist depth (rule of thumb: span mm / 15 = depth mm); add mid-span bridging |
 | Roof sagging at midspan | Tie beam failure (tension split), rafter undersized | Replace tie beam with larger section; add collar tie at mid-height of rafters; consider queen-post truss for longer spans |
 | Masonry wall bulging outward | Lateral load (earth pressure, wind), inadequate wall thickness | Increase wall thickness to minimum L/20 where L = wall height; add buttresses at 2-3 m spacing; install wall ties for cavity walls |
-
 
 ## Safety
 
@@ -386,7 +374,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 - **Scaffold collapse**: Scaffold capacity: 1.2 kN/m² (light duty — workers and hand tools only). Never use scaffolding for material storage. Inspect all rope lashings daily — replace any rope showing wear, fraying, or UV degradation. Maximum scaffold height without intermediate tie-in to structure: 6 m.
 
-
 ## Quality Control
 
 - **Timber moisture content**: Test with probe-type moisture meter before assembly. Accept: 12-18% for structural use. Reject: >20% (risk of shrinkage and joint loosening). Test 10% of timbers per delivery.
@@ -398,7 +385,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - **Wall plumb and level**: Check every 1 m of height. Tolerance: ±10 mm plumb per 3 m, ±6 mm level per 3 m. Out-of-tolerance walls must be corrected before proceeding.
 
 - **Roof watertightness**: Flood-test flat roofs with 25 mm standing water for 24 hours. Sloped roofs: inspect after first heavy rain. No leaks acceptable at completion.
-
 
 ## Variations and Alternatives
 
@@ -418,7 +404,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - **Use brick when**: standardized modular construction is desired, quality control is important, intermediate cost between timber and stone.
 - **Use mud brick only when**: climate is dry (<500 mm annual rainfall), no kiln firing is available, temporary construction is acceptable.
 
-
 ## See Also
 
 - [Lime Production](../ceramics/lime.md) — Lime mortar for masonry construction
@@ -433,4 +418,3 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../../index.md)*
 
-![construction foundation types](../images/construction/construction_foundation-types.png)

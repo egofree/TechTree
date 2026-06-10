@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Fluid catalytic cracker power recovery](../images/petroleum/petroleum_cracking.png)
-
-> *Schematic diagram of a power recovery system in a fluid catalytic cracker*
-
-> *Image: Mbeychok, Public domain*
-
-
-![Steamcracker process](../images/petroleum/petroleum_petrochemicals_steam-cracking.png)
-
-> *Block flow diagram of the steam cracking process*
-
-> *Image: Gholami, Z., Gholami, F., Tišler, Z., &amp; Vakili, M., CC BY-SA 4.0*
-
 FCC converts heavy gas oil to gasoline (45-60% yield) and propylene using zeolite Y catalyst at 500-550°C. Hydrocracking converts VGO to diesel and jet fuel at 350-430°C and 80-200 bar with hydrogen. Reforming produces BTX aromatics and hydrogen from naphtha at 490-530°C over Pt-Re catalyst.
 
 Fluid catalytic cracking is the workhorse conversion unit in a refinery. Hot regenerated catalyst particles contact atomized feedstock in the riser reactor, where the catalytic reaction cracks large hydrocarbon molecules into smaller, more valuable ones in seconds. Spent catalyst, coated with coke, is separated by cyclones and regenerated in a separate vessel by burning off the coke with air. The continuous catalyst circulation between reactor and regenerator provides both the heat for cracking and the catalyst regeneration.

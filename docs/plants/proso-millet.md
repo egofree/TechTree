@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Proso Millet](../images/plants/plants_proso-millet.jpg)
-
-> *A photo of proso millet heads during dry down, taken in western Nebraska in the summer of 2017 at the University of Nebraska high plains agricultural lab.*
-
-> *Image: Jschnable, CC BY 4.0*
-
 Proso Millet
 
 *Panicum miliaceum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. True millet, Common millet, Proso provides seeds/nuts as its primary edible product and ranks 52/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Requires a moderately fertile well-drained soil in full sun. Succeeds in ordinary garden soil. Tolerates heat and also drought when it is established. European millet is frequently cultivated in warm temperate and sub-tropical zones for its edible seed, there are many named varieties. Cultivation in Britain is somewhat problematic, the plants require good summers to do well and a dry period in late summer is required in order to ripen and dry the seed. We have had fairly good results on our trial grounds in Cornwall by starting the seed off early in a greenhouse, though this is a fairly labour-intensive method and therefore much less efficient than growing the more traditional temperate zone cereals. Yields are also considerably lower than other cereals that can be grown in this country, although the nutritional value of millets is said to be superior to wheat, oats, etc. Propagation: Sow seed in spring in a greenhouse, covering only just lightly. Germination should occur within a week. Prick out seedlings into trays or individual pots and plant out after the last expected frosts.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -262,4 +255,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants proso millet](../images/plants/plants_proso-millet.jpeg)

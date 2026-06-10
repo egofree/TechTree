@@ -9,12 +9,6 @@
 
 ## Overview
 
-![Lowell hydraulic experiments.](../images/machine-tools/machine-tools_hydraulic-systems.jpg)
-
-> *Book describing the experiments performed by James B. Francis in Lowell, Massachusetts relating to hydraulic motors and the flow of water.*
-
-> *Image: James Bicheno Francis, Public domain*
-
 Application of pressurized fluid power to the specific demands of machine tools: pressing, clamping, fixturing, and controlled feed drives. While [Hydraulic Power](../energy/hydraulics.md) covers the generation of hydraulic energy (pumps, reservoirs, basic circuits), this article addresses the integration of that power into machine tool systems — the hydraulic press frame, the clamping circuit that holds a workpiece against cutting forces, and the hydraulic feed drive that advances a tool at a constant rate into the work.
 
 Machine tool hydraulics differ from general hydraulic systems in three key ways. First, positional accuracy matters: a hydraulic clamp must hold a workpiece without drifting, and a hydraulic feed must advance at a rate that does not fluctuate with load variation. Second, the forces are often extreme but must be repeatable — a hydraulic press producing a forming stroke today must produce the same force and speed tomorrow. Third, the hydraulic system must coexist with precision machine surfaces and cutting fluids without cross-contamination. Hydraulic oil leaking onto a precision-ground lathe bed destroys both the oil's cleanliness budget and the machine's accuracy.

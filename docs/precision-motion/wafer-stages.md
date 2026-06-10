@@ -197,7 +197,6 @@ The reticle (photomask) stage holds and positions the mask during exposure. It o
 | Scan synchronization | N/A | < 1 nm to wafer |
 | Settling time | 10-30 ms | 5-15 ms |
 
-
 ## Laser Interferometer Position Measurement
 
 Position measurement for the wafer and reticle stages is done by laser interferometry (see [Precision Encoders](./precision-encoders.md) for full details):
@@ -214,7 +213,6 @@ Regular calibration maintains positioning accuracy:
 - **Stage grid calibration**: The interferometer system maps the stage's entire travel area, correcting for mirror figure errors, cosine errors, and atmospheric refractivity variations.
 - **Focus calibration**: A separate sensor measures wafer surface height at each die site before exposure, building a height map for Z-axis corrections.
 - **Calibration interval**: Typically every 1-4 weeks for production scanners, more frequently during process development.
-
 
 ## Stage Resonance Frequencies
 

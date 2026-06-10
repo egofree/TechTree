@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Kenaf](../images/plants/plants_kenaf.jpg)
-
-> *H1-1 Road South of Skukuza, Kruger NP, Mpumalanga, SOUTH AFRICA*
-
-> *Image: Bernard DUPONT from FRANCE, CC BY-SA 2.0*
-
 Kenaf
 
 *Hibiscus cannabinus* (Malvaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Vegetable kenaf, Indian hemp provides fruit, leaves, seeds/nuts as its primary edible product and ranks 63/100 on the nutrition score.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Prefers a well-drained humus rich fertile soil in full sun. Tolerates most soils but prefers a light sandy soil. Plants are adapted to a wide range of soils and climatic conditions. Kenaf is reported to tolerate an annual precipitation in the range of 57 to 410cm, an annual temperature range of 11.1 to 27.5°C and a pH in the range of 4.3 to 8.2 (though it prefers neutral to slightly acid). The plant is frost-sensitive and damaged by heavy rains with strong winds. Kenaf is widely cultivated in tropical and subtropical areas of the world, where it is grown mainly as a fibre crop but also for its seeds and leaves. It is not very hardy outdoors in Britain; it requires a frost-free climate. It can, however, probably be grown as an annual. A fast-growing plant, it can be harvested in 3 - 4 months from seed. The plant requires temperatures in the range of 15 - 25°c. It succeeds as a crop as far north in N. America as Indiana, Iowa, Kansas and Nebraska. Plants are daylight sensitive, they remain vegetative and do not flower until the daylength is less than 12.5 hr/day. Two weeks of very cloudy days will induce flowering as daylength approaches 12.5 hr. The plant has a deep-penetrating taproot with deep-seated laterals. Plants, including any varieties, are partially self-fertile. Kenaf is typically harvested in late summer to early autumn when the plants reach maturity. Kenaf usually flowers in summer. Kenaf grows rapidly, reaching 2 to 3 meters (6 to 10 feet) within 4 to 5 months after planting. Propagation: Sow seed in early spring in a warm greenhouse. Germination is usually fairly rapid. Prick seedlings into individual pots when large enough. For annual cultivation, plant out into permanent positions in early summer with frame or cloche protection until established. To grow as perennials, keep plants in the greenhouse through their first year and plant out in early summer of the following year. Take half-ripe cuttings in July or August in a frame, and overwinter in a warm greenhouse before planting out after the last expected frosts.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -270,4 +263,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants kenaf](../images/plants/plants_kenaf.jpeg)

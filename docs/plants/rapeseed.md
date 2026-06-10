@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Rapeseed](../images/plants/plants_rapeseed.jpg)
-
-> *Rapeseed (Brassica napus), also known as rape, oilseed rape, rapa, rapaseed and (in the case of one particular group of cultivars) canola, is a bright yellow flowering member of the family Brassicaceae (mustard or cabbage family).*
-
-> *Image: Richard Bartz, Munich aka Makro Freak, CC BY-SA 2.5*
-
 Rapeseed
 
 *Brassica napus* (Brassicaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Canola provides leaves, seeds/nuts, flowers as its primary edible product.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Succeeds in full sun in a well-drained fertile preferably alkaline soil. Succeeds in any reasonable soil. Prefers a heavy soil and cool moist conditions. Sunny days and cool nights are favourable for plant growth whilst dry weather at harvest time is essential. Colza is reported to tolerate an annual precipitation of 30 to 280cm, an annual average temperature range of 5 to 27°C and a pH in the range of 4.2 to 8.2. Very young plants are susceptible to cold damage, -4°C either killing or injuring seedlings, whereas -2°C has no affect when the plants are more than one month old. Brassica napus is an aggregate species, probably derived through cultivation. It is thought that crosses of Brassica oleracea subsp. oleracea with B. rapa gave rise to the subsp. B. napus pabularia, from which subsp. napus and subsp. rapifera and other cvs were derived. The aggregate species includes forms with swollen edible roots (B. napus napobrassica, the garden swede), forms grown for their oil-rich seeds (B. napus napus, the oilseed rape), forms grown for their edible leaves (B. napus pabularia, the rape kales) whilst the form grown as a green manure is B. napus arvensis. All these forms are treated separately here. The oil obtained from the seed is high in erucic acid and glucosinolates, both of which have anti-nutritional properties. Cultivars have been developed that have a low content of these items and are therefore suitable for food. Colza is 70% self-pollinating and 30% cross-pollinated. Even if wind and insects are absent, seed are still produced. Yield increases with honeybees. The growth of this plant is inhibited by field mustard and hedge mustard growing nearby. This species is closely related to B. rapa. Propagation: Seed - sow in situ in early spring to mid-August for a green manure crop.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

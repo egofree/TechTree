@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Finger Millet](../images/plants/plants_finger-millet.jpg)
-
-> *Finger Millet Field at Peddamunagalachedu Village*
-
-> *Image: Kavali Chandrakanth KCK, CC BY-SA 4.0*
-
 Finger Millet
 
 *Eleusine coracana* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Finger millet provides leaves, seeds/nuts, shoots as its primary edible product and ranks 56/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 It is grown from seed. Often plants are grown mixed with sorghum or maize. Good soil preparation is needed to reduce weed competition. Seed can be broadcast or drilled. Young plants need to be weeded and thinned. Seed viability drops to about 50 % after 2 years. Spacing of 5 cm apart in rows 30-33 cm apart or 10-12 cm apart in rows 25 cm apart are recommended. About 25-35 kg of seed per hectare are needed if seed are broadcast. 5-10 kg per hectare are required if seed are drilled. Using fertiliser can dramatically increase yield. 125 kg per hectare of sulphate of ammonia when plants are 15 cm high is used in Uganda. Propagation: Sow seed in early spring in a greenhouse, only just covering it. Germination should occur within 2 weeks. Prick seedlings out into individual pots as soon as they are large enough to handle and plant out in late spring after the last expected frosts. Seed can also be sown in mid to late spring in situ, though it may not ripen if the summer is cool.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

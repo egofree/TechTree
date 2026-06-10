@@ -8,17 +8,9 @@
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
 > **Critical**: No
 
-
 Without propulsion technology, civilization is limited to ground and water transport. Aircraft enable rapid reconnaissance, cargo delivery over difficult terrain, and serve as a powerful morale boost for the entire project. The Wright brothers flew in 1903 with bicycle-shop tools and a custom engine. With modern ultralight plans in hand, the challenge is manufacturing capability, not invention.
 
-
 ## Internal Combustion Engine for Aircraft
-
-![Replica of a Blériot XI monoplane and the Vuia 1 plane at the Museum of Aviation in Košice](../images/transport/transport_aviation.jpg)
-
-> *Replica of a Blériot XI monoplane from the early 20th century, designed and successfully flown by French engineer Louis Blériot and other aviation pioneers. A replica of the Vuia 1, an experimental aircraft from the beginning of the 20th century, designed by Romanian aviation pioneer Traian Vuia.*
-
-> *Image: ZemplinTemplar, CC BY-SA 4.0*
 
 **Engine design** (single-cylinder or twin-cylinder, air-cooled):
 - **Configuration**: Horizontally opposed twin (boxer) — compact, good balance, air cooling. Displacement 500-1200 cc. Power target 20-65 HP at 2000-3500 RPM. Weight target <30 kg (power-to-weight >0.5 HP/kg).
@@ -158,7 +150,6 @@ Without propulsion technology, civilization is limited to ground and water trans
 - Ground test infrastructure (engine test stand, runway)
 - Progressive flight test program with inspection protocol
 
-
 ## Basic Instruments
 
 **Altimeter** (barometric):
@@ -282,7 +273,6 @@ Without propulsion technology, civilization is limited to ground and water trans
 | 65 HP | 13-18 | 21-29 | 21-29 |
 
 Note: Ethanol requires roughly 40% more volume than gasoline for the same energy output (stoichiometric ratio 9:1 vs. 14.7:1). Carburetor jets must be enlarged accordingly.
-
 
 ## Limitations
 

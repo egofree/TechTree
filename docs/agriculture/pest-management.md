@@ -8,7 +8,6 @@
 > **Outputs**: crop_protection, pest_control_methods, beneficial_habitat
 > **Critical**: No — crop losses to pests are significant (10-40%) but rarely cause total civilization-level failure
 
-
 Pest management is the practice of preventing, reducing, or controlling damage to crops caused by insects, pathogens, weeds, birds, and mammals. In a bootstrapping civilization without synthetic pesticides, pest management relies on biological knowledge, physical barriers, cultural practices, and targeted use of naturally occurring substances. The goal is not pest elimination — that is neither achievable nor desirable — but keeping pest populations below economic threshold levels where the cost of damage exceeds the cost of control.
 
 Unmanaged pest pressure causes 10-40% crop losses in temperate agriculture and 30-60% in tropical agriculture. Historical records of locust plagues, blight epidemics (Irish potato famine, 1845-1849), and stored grain infestations demonstrate that pests can collapse food systems. The integrated approach — combining multiple control tactics so that no single pest can overcome all defenses — is the most robust strategy for a civilization that cannot manufacture chemical pesticides.
@@ -43,7 +42,6 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 - [Compost system](soil-management.md) for healthy soil that produces vigorous, pest-resistant plants
 - Storage facilities with rodent-proofing and ventilation (see [Food Processing → Preservation](../food-processing/preservation.md))
 
-
 ## Companion Planting Border (100 m of Field Edge)
 
 | Material | Quantity | Source | Alternatives |
@@ -72,7 +70,6 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 | Wire or bamboo hoops (supports) | 50-100 pieces | [Tools](../foundations/tools-basic.md) | Flexible willow whips |
 | Stones or sandbags (to seal edges) | 100-200 | On-site | Earth from furrows |
 | Twine or wire (to secure) | 100-200 m | [Textiles](../textiles/fibers.md) | Willow withes |
-
 
 ## Cultural Controls
 
@@ -167,7 +164,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Highly toxic to fish and aquatic invertebrates — cannot be used near waterways
 - UV degradation means short effective window — must be applied in late afternoon and repeated every 3-5 days
 
-
 ## Economic Threshold Levels (ETL) for Key Pests
 
 | Pest | Crop | ETL (pests per plant or per sample) | Damage at ETL | Control Action |
@@ -249,7 +245,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - **Diatomaceous earth (DE) inhalation**: DE is abrasive silica. Breathing DE dust damages lung tissue. Wear a mask when applying. Use food-grade DE only (pool-grade DE is more hazardous). Apply with a duster, not by tossing handfuls.
 - **Botanical spray eye contact**: All botanical sprays (neem, pyrethrum, garlic-chili) cause eye irritation. Avoid spraying toward face. Rinse eyes with clean water for 15 minutes if contact occurs.
 
-
 ## Pest Monitoring Standards
 
 | Monitoring Tool | Placement Density | Frequency | What to Record | Action Threshold |
@@ -269,7 +264,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Insect presence | 0 live insects per kg sample | Sieve 1 kg sample through 2 mm mesh; count insects |
 | Rodent contamination | No droppings in grain sample | Visual inspection of grain surface and container perimeter |
 | Diatomaceous earth coverage | 1 kg per tonne grain, evenly mixed | Dust visible on all grain surfaces when scooped |
-
 
 ## Pest Management Strategy by Scale
 

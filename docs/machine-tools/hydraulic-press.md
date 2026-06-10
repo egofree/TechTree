@@ -10,12 +10,6 @@
 
 ## Overview
 
-![The first synthetic diamonds made by this Hydraulic Press apparatus](../images/machine-tools/machine-tools_hydraulic-press.jpg)
-
-> *The first synthetic diamonds (diamond grit) were produced in the early 1950s by researchers at the Allmanna Svenska Elektriska Aktiebolaget Laboratory in Stockholm, Sweden by using this Hydraulic Press apparatus.*
-
-> *Image: SaiduzzamanUmU, CC BY-SA 4.0*
-
 A hydraulic press multiplies a small input force into a large output force using Pascal's law — pressure applied to a confined fluid transmits equally in all directions. A small-diameter pump cylinder pressurizes hydraulic oil, which acts on a large-diameter ram cylinder. The force multiplication equals the ratio of ram area to pump area: F_out = F_in × (A_ram / A_pump). A shop press with a 150 mm diameter ram and a 20 mm diameter pump cylinder multiplies force 56×. At 20 MPa system pressure, the 150 mm ram produces 350 kN (35 tonnes) of force.
 
 The hydraulic press occupies a specific niche in the machine shop: high force at low speed with controllable pressure. Hammers deliver impact energy; mechanical presses deliver force at a specific crank angle; hydraulic presses deliver steady, adjustable force at any point in the stroke. This makes them ideal for pressing bearings, bending thick bracketry, stamping small parts, straightening shafts, and laminating materials. For [metal forming](forming.md) operations requiring controlled deformation rather than impact, the hydraulic press is the standard tool.

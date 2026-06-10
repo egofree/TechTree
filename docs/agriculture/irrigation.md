@@ -8,7 +8,6 @@
 > **Outputs**: irrigation_water, irrigated_land, water_delivery_infrastructure
 > **Critical**: Yes — in arid and semi-arid climates, irrigation is the difference between productive agriculture and subsistence failure
 
-
 Irrigation is the controlled delivery of water to crops at times and quantities that natural rainfall does not provide. Without irrigation, agriculture is limited to regions and seasons where precipitation meets crop water requirements — roughly 500-800 mm during the growing season for most cereals. Irrigation extends cultivation into arid regions, lengthens growing seasons, and stabilizes yields against drought. The earliest irrigation systems — simple diversion canals from rivers — predate written records and were the enabling technology for the first civilizations in Mesopotamia, the Nile valley, the Indus valley, and China.
 
 The core engineering challenge is moving water from a source (river, well, spring, reservoir) to the root zone of plants at the right time, in the right amount, without eroding soil, waterlogging roots, or wasting labor. Different methods suit different scales, terrains, and water sources. This capability covers gravity-fed channels, furrow irrigation, basin flooding, water-lifting devices (shaduf, Archimedes screw, saqiya), and low-pressure drip systems. It does not cover pumps powered by electric motors or internal combustion engines — those belong to [Water → Distribution](../water/distribution.md).
@@ -41,7 +40,6 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Cleared and graded land suitable for canal or furrow construction
 - Access to water source with legal/social allocation (water rights, communal scheduling)
 
-
 ## Gravity Canal System (1 km canal, 50 L/sec capacity)
 
 | Material | Quantity | Source | Alternatives |
@@ -73,7 +71,6 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 | Filter screen (coarse cloth) | 2-4 m² | [Textiles](../textiles/fibers.md) | Sand filter box at intake |
 | Emitters (perforated clay plugs) | 2,000-5,000 units | [Ceramics](../ceramics/pottery.md) | Small holes drilled in bamboo |
 | Gravel for bed preparation | 5-10 m³ | River gravel | Sand base |
-
 
 ## Gravity Canal Construction
 
@@ -148,7 +145,6 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Construction requires precise helical blade fabrication — more complex than a shaduf (10-20 hours of carpentry)
 - Blade-to-casing gap of >5 mm causes 20-40% efficiency loss — regular adjustment needed
 - Limited to lifts of 1-5 m — deeper wells require Persian wheel or bucket chain systems
-
 
 ## Crop Water Requirements by Growth Stage
 
@@ -238,7 +234,6 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 - **Physical injury from water-lifting devices**: Shaduf and scoop wheel mechanisms have moving parts that pinch fingers and strike heads. Keep clothing and hair clear of rotating shafts. Maintain wooden pivots — worn pivots cause sudden drops.
 - **Hypothermia**: Working in flooded fields in cold weather. Water conducts heat 25× faster than air. Limit exposure to cold irrigation water to 2-3 hours maximum. Wear waterproof boots and change wet clothes promptly.
 
-
 ## Canal Flow Verification
 
 | Parameter | Acceptable Range | Test Method |
@@ -257,7 +252,6 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Wetting depth | 30-60 cm below surface | Push a steel rod into soil — it stops at dry layer |
 | Distribution uniformity | >75% (ratio of minimum to maximum infiltration) | Measure soil moisture at 5+ points across the field 24 hours after irrigation |
 | Salinity (if applicable) | <4 dS/m in root zone (salt-sensitive crops) | Taste test: salty taste indicates problem; confirm with conductivity meter when available |
-
 
 ## Irrigation Method Selection by Situation
 

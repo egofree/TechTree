@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Squash](../images/plants/plants_squash.jpg)
-
-> *starr-110822-8269-plant-Cucurbita_pepo-summer_squash_yellow_zucchini_flower_and_fruit-Hawea_Pl_Olinda*
-
-> *Image: Forest and Kim Starr, CC BY 2.0*
-
 Squash
 
 *Cucurbita pepo* (Cucurbitaceae) is a vegetable crop species of major importance for civilization bootstrapping. Marrow, Pumpkin provides fruit, leaves, seeds/nuts as its primary edible product.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Requires a rich, well-drained moisture retentive soil and a very warm, sunny and sheltered position. Prefers a pH of 5.5 to 5.9, but tolerates up to 6.8. Plants are tolerant of light shade (This comment is probably more applicable to warmer climates than Britain.). A frost-tender annual plant, the pumpkin or marrow is widely cultivated in temperate and tropical zones for its edible fruit. It has long been grown as a domestic plant and a number of different groups have been developed. Botanists have tried to classify these groups, though there is considerable overlap and clear distinctions are not always possible. Since they are very similar in their cultivation needs, we have treated all the groups together in this entry. The botanists classification is as follows:- C. pepo pepo. This includes the vegetable marrows, zucchinis, pumpkins and ornamental gourds. There are many named varieties and these can vary considerably in size, shape and flavour. The cultivars with larger and rounder fruits are usually called pumpkins, the fruits are harvested in the autumn and can be stored for a few months. The marrows are smaller than pumpkins and generally sausage-shaped. These can also be harvested in the autumn and stored for a few months, but it is more usual to eat them whilst they are still very small, when they are known as courgettes. Harvesting the fruits of the marrows when very small stimulates the plant into making more flowers (and hence fruits) so it can be a very productive way of using the plant. Pumpkins and marrows succeed outdoors most summers in Britain, in fact many of these varieties are well adapted to cool growing conditions and therefore do well in the British climate. C. pepo pepo fraterna. This is the probable progenitor of the marrows and so is of potential value in any breeding programmes. C. pepo ovifera. This group includes various summer squashes including the acorn, crookneck and patty pan squashes. C. pepo ovifera ozarkana. A probable ancestor of the summer squashes, it could be of value in breeding programmes. C. pepo texana. The texas gourd, or wild marrow, is another form that could be of value in breeding programmes. Plants produce both male and female flowers. These are insect pollinated but in cool weather it is worthwhile hand pollinating. Most cultivars are day-length neutral and so are able to flower and fruit throughout the British summer. A fast-growing plant, trailing forms can be used to provide a summer screen. This species does not hybridize naturally with other edible members of this genus. Squashes and pumpkins can be differentiated from each other by their fruit stalk, it is angular and polygonal in pumpkins but thick, soft and round in squashes. Pumpkins grow well with sweetcorn and thornapple but they dislike growing near potatoes. They also grow well with nasturtiums, mint, beans and radishes. Propagation: Sow seed in April in a greenhouse in rich soil; germination should take place within 2 weeks. Sow 2 or 3 seeds per pot and thin to the best plant. The seed requires a minimum temperature of 13°C to germinate. Grow on quickly and plant out after the last expected frosts, giving cloche or frame protection for at least the first few weeks outdoors until plants are growing strongly.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

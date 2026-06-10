@@ -10,12 +10,6 @@
 
 ## Overview
 
-![English Oak](../images/plants/plants_quercus-robur.png)
-
-> *Karyotype of Pedunculate oak (Quercus robur). 2n=2x=24.*
-
-> *Image: Vedrana Vičić Bočkor , Darko Barišić , Tomislav Horvat, Željka Maglica, Aleksandar Vojta, Vlatka Zoldoš, CC BY 2.5*
-
 English oak (*Quercus robur*) is the most important timber tree of European history. Its wood built the ships that explored and traded across every ocean, the barrels that stored wine, beer, and provisions on long voyages, the beams that held up cathedrals, and the tannin bark that turned animal hides into durable leather. No other single tree species has contributed as many essential materials to the development of Western technology.
 
 Oak wood is strong, hard, and durable. The heartwood is rated Class 2 (durable), lasting 15-25 years in ground contact and indefinitely when kept dry. Density ranges from 560 to 700 kg/m³ at 12% moisture content. The characteristic medullary rays produce the distinctive "silver grain" pattern visible on quarter-sawn surfaces. These rays also make oak resistant to splitting along the plane of the rays, a property exploited in barrel-making and boat-building.

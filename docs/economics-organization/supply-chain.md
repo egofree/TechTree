@@ -8,8 +8,6 @@
 > **Outputs**: procurement_planning, inventory_management, logistics_coordination
 > **Critical**: Yes — semiconductor manufacturing is impossible without supply chain coordination involving hundreds of specialist inputs
 
-
-
 Supply chain coordination is the planning and management of multi-step production sequences, procurement of inputs from diverse sources, and inventory management across distributed operations. It extends [trade](./trade.md) from simple bilateral exchange to planned, multi-party procurement networks; it extends [accounting](./accounting.md) from passive record-keeping to active planning and optimization.
 
 This capability becomes essential when production involves more than 3 sequential specialist steps. A single blacksmith working alone needs no supply chain, since he mines his own ore, smelts it, and forges tools. But a blast furnace operation requires coordinated inputs of iron ore, limestone flux, charcoal, firebrick, and specialized labor from at least 5 different sources, timed to arrive at the furnace in the correct sequence and quantity. Coordinating this flow is supply chain management.
@@ -19,8 +17,6 @@ At the highest end of the tech tree, semiconductor fabrication requires supply c
 **Why supply chains determine technological ceiling**: The complexity of any manufactured product is limited by the number of distinct inputs that can be reliably coordinated. A stone axe requires 2 inputs (stone, wood). An iron knife requires 5 (ore, charcoal, limestone, handle wood, leather). A blast furnace requires 10+. A semiconductor fab requires 300-500+. Each input adds a potential point of failure: the supplier fails, the transport is disrupted, the quality varies, the price spikes. Supply chain management is the discipline of managing this compounding risk. Every additional input that cannot be reliably sourced is a hard ceiling on what can be produced.
 
 **Why buffer stock is not waste**: Holding inventory costs money (storage space, spoilage, capital tied up). The temptation is to minimize inventory and buy only what is needed. This works when supply is perfectly reliable. It fails catastrophically when a single delayed shipment halts the entire production line. A blast furnace that runs out of charcoal mid-batch does not simply pause. The iron solidifies in the hearth, the furnace lining cracks from thermal cycling, and restarting takes days. The cost of the charcoal buffer (maybe 8 tonnes sitting in a shed) is trivial compared to the cost of a ruined furnace charge (weeks of lost production). The safety factor in buffer stock calculations exists because the cost of stockout is always much higher than the cost of the buffer.
-
-
 
 ## Materials
 
@@ -45,7 +41,6 @@ At the highest end of the tech tree, semiconductor fabrication requires supply c
 - Warehouses at each production stage: Buffer storage to decouple sequential operations.
 - Communication channels between supply chain nodes: Messengers, signal systems, or written correspondence for order transmission and status updates.
 
-
 ## Bill of Materials (BOM)
 
 Supply chain coordination is an organizational capability. The "materials" are documentation and communication:
@@ -57,8 +52,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Storage shelving | 10-50 m of shelf space for records | [Woodworking](../foundations/index.md) | Stone niches, stacked chests |
 | Warehouse space | 50-500 m³ per production stage | [Construction](../construction/index.md) | Open-air covered storage (weather risk) |
 | Messenger/communication system | 1-5 dedicated messengers or signal stations | [Transport](../transport/index.md) | Semaphore, courier relay |
-
-
 
 ## Mapping the Supply Chain
 
@@ -157,8 +150,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Just-in-time (JIT) | Low | Low (fragile) | Low | Minimal | Highly reliable transport and supply |
 | Strategic stockpiling | Moderate | Very High | High | Very High | Unreliable supply or strategic materials |
 
-
-
 ## Supply Chain Performance Metrics
 
 | Metric | Manual System (Stone/Bronze) | Organized System (Iron Age) | Industrial System | Semiconductor-Grade |
@@ -192,7 +183,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Copper to market | 5-10 | 50 km | Pack mule (150 kg) | 33-67 mule trips |
 | Brick to construction site | 30 | 3 km | Hand cart (200 kg) | 150 cart trips |
 
-
 ## Scaling Notes
 
 - **Minimum viable supply chain**: A single production operation with 3-5 inputs from 2-3 suppliers. Manageable with a clay tablet and weekly review.
@@ -201,7 +191,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - **Multi-tier supply chains**: When inputs themselves require multi-step production (e.g., firebrick requires clay + kiln + fuel), the supply chain becomes multi-tier. Each tier adds lead time and variability. Track each tier independently.
 - **Information latency**: The time between a supply disruption and the coordinator's awareness of it determines the buffer stock needed. Messenger-based systems have 1-7 day latency. Signal systems (semaphore) reduce this to hours. Electronic communication reduces it to seconds.
 - **Semiconductor-grade supply chains**: Modern semiconductor fabrication involves 300-500+ distinct chemical and material inputs, each requiring purity levels of 99.999-99.9999999%. The supply chain for each input is itself a multi-tier network. Total managed relationships: 1,000-5,000+.
-
 
 ## Troubleshooting
 
@@ -220,14 +209,12 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Supplier quality declining over time | Supplier cutting corners; raw material depletion at source | Re-qualify supplier annually with incoming inspection test; visit supplier site to verify process; negotiate quality penalties in purchase contracts |
 | Wrong material delivered (grade, size, type) | Unclear specification in purchase order; supplier mislabeling | Write specifications with measurable criteria (e.g., "iron ore >55% Fe, <0.1% S, lump size 20-50 mm"); require supplier to label each shipment with batch number and grade |
 
-
 ## Safety
 
 - **Warehouse hazards**: Stored materials can collapse, catch fire, or release toxic substances. Stack heavy materials no higher than 2 m; separate flammable materials from ignition sources; ventilate chemical storage areas.
 - **Transport hazards**: Materials in transit are vulnerable to accidents, spillage, and contamination. Secure all loads; inspect containers before loading; transport hazardous materials in dedicated vehicles with appropriate signage.
 - **Information integrity**: Supply chain data is safety-critical when it involves food, medicine, or hazardous materials. Incorrect inventory records can lead to consuming spoiled food or expired chemicals. Implement date tracking (expiry dates) and first-expired-first-out (FEFO) for perishable and degradable items.
 - **Ergonomic risks**: Loading and unloading operations cause back injuries. Limit individual lift to 25 kg; use mechanical aids (carts, pulleys, ramps) for heavier loads; train workers in proper lifting technique.
-
 
 ## Quality Control
 
@@ -236,7 +223,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - **Inventory accuracy**: Monthly physical count vs. ledger. Target: >98% accuracy at the item level.
 - **Forecast accuracy review**: Compare monthly forecasts to actual consumption. Track forecast error and adjust methods when error exceeds ±25%.
 - **Document control**: All supply chain documents (orders, receipts, inspections) filed and retrievable for minimum 2 years. Audit trail must be complete and unbroken.
-
 
 ## Variations and Alternatives
 
@@ -248,7 +234,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Vertical integration | Production organization owns its own supply sources (mines, forests, farms) | Industrial | When supply security outweighs flexibility |
 | Just-in-time (JIT) | Materials arrive exactly when needed, minimal buffer stock | Advanced | When transport and supply are highly reliable |
 | Buffer-heavy (strategic stockpiling) | Large inventories maintained as insurance against disruption | Any era | When supply is unreliable or strategically critical |
-
 
 ## See Also
 

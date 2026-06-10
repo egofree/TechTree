@@ -9,16 +9,12 @@
 > **Critical**: Yes — electronic-grade chemicals at 9N+ purity are required for all wafer etching, cleaning, and deposition processes
 > **Tags**: materials=[chemicals], era=semiconductor, critical
 
-
 Semiconductor fabrication uses dozens of chemicals at purity levels 6-9 orders of magnitude above standard reagent grade. Electronic-grade hydrofluoric acid (HF) must contain less than 100 ppt (parts per trillion) of each metallic impurity — Fe, Cu, Ni, Cr, Zn, Na, K, Ca, and dozens of others. Standard ACS reagent-grade HF typically contains 0.5-5 ppm of metallic impurities — 5,000-50,000× too contaminated for wafer processing.
 
 The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-grade (9N+ purity) is not incremental improvement. It requires fundamentally different equipment, materials, environments, and analytical capabilities. Standard distillation in glass apparatus introduces trace metals from the glass itself. Sub-boiling distillation in PTFE or quartz apparatus is the minimum entry point for electronic-grade production.
 
 ## Prerequisites
 
-![Simple RO schematic](../images/ultra-pure/ultra-pure_high-purity-chemicals.png)
-
-> *Key:
 A – Applied pressure
 B – Seawater in
 C – Contaminants
@@ -26,9 +22,6 @@ D – Semi-permeable membrane
 E – Potable water out
 
 F – Distribution*
-
-> *Image: Colby Fisher, CC BY-SA 3.0*
-
 
 - [Acids](../chemistry/acids.md) — bulk acid production as starting material
 - [Solvents](../chemistry/solvents.md) — industrial solvent production
@@ -101,7 +94,6 @@ The 100 ppt per-element limit is the SEMI C35 threshold for electronic grade. Fo
 - **Transition metals (Fe, Cu, Ni, Cr)**: Form deep-level traps in silicon that reduce carrier lifetime and increase junction leakage. Copper is particularly harmful because it diffuses rapidly through silicon at process temperatures. Iron creates recombination centers that degrade solar cell efficiency.
 - **Heavy metals (Pb, Cd, Zn, Sn)**: Contaminate epitaxial layers and create crystal defects during high-temperature processing. Lead and cadmium are also restricted by RoHS regulations.
 - **Alkaline earths (Ca, Mg, Ba)**: Similar to alkali metals in their effect on gate oxide integrity, though less mobile. Calcium contamination affects oxide uniformity.
-
 
 ## Sub-Boiling Distillation
 
@@ -185,7 +177,6 @@ Nanofiltration and ultrafiltration membranes remove particles, colloids, and hig
 - Palladium membrane diffusion for ultra-pure hydrogen (only H₂ permeates Pd at 300-400°C)
 
 **Liquid-phase adsorption**: Activated carbon (acid-washed, ultra-pure grade) removes organic contaminants from acids and solvents.
-
 
 ## Electronic-Grade Hydrofluoric Acid (HF)
 

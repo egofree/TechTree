@@ -8,14 +8,11 @@
 > **Timeline**: Years 0-30+
 > **Outputs**: weapons, blades, spears, bows, small_arms, muskets
 
-
-
 Weapons and edged tools encompass the development of offensive and defensive instruments from stone-age knapping through black-powder firearms. This capability tracks the material science, engineering, and production techniques required to manufacture weapons at each technological tier — from flint hand-axes to rifled muskets.
 
 Weapon development is a direct proxy for metallurgical capability. The progression from stone to bronze to iron to steel to firearms maps exactly onto the bootstrap chain's material science development. A community that can produce consistent 0.5% carbon steel and heat-treat it to HRC 50 has the industrial base for edged weapons, agricultural tools, and machine components alike. Firearms add the requirement for precision bore-drilling, consistent black powder manufacture, and lead casting — capabilities that also serve mining, construction, and chemical industries.
 
 Weapon production scales from individual craftsmanship (a single smith making swords) to industrial arsenals (thousands of muskets per month with interchangeable parts). The resource demands are significant: a 1000-soldier force equipped with muskets consumes 30-120 kg of black powder and 60-70 kg of lead per minute of combat, requiring industrial-scale [chemistry](../chemistry/index.md) and [mining](../mining/index.md).
-
 
 ## Prerequisites
 
@@ -27,7 +24,6 @@ Weapon production requires progressively more advanced materials and industrial 
 - [Explosives and propellants](../chemistry/explosives.md) — black powder for firearms
 - [Machine tools](../machine-tools/index.md) — barrel boring for firearms, interchangeable parts for arsenal production
 - [Mining](../mining/index.md) — iron ore, copper, tin, lead, and saltpeter extraction
-
 
 ## Bill of Materials
 
@@ -41,8 +37,6 @@ Weapon production requires progressively more advanced materials and industrial 
 | Crossbow (steel prod) | Spring steel | 400-1200 lb prod | Iron/steel bolt 60-100 g, spanning mechanism | [Iron & Steel](../metals/iron-steel.md) |
 | Matchlock musket | Wrought iron/low-C steel | 3-5 kg barrel stock | Saltpeter 15-25 g/shot, lead ball 25-35 g/shot, hemp match cord | [Explosives](../chemistry/explosives.md) |
 | Arrows (war, per 12) | Iron/steel | 240-600 g total points | Ash shafts 60-80 cm, goose feathers 36, birch tar | [Textiles](../textiles/index.md) |
-
-
 
 ## Stone-Age Weapons (Years 0-5)
 
@@ -181,8 +175,6 @@ Weapon production requires progressively more advanced materials and industrial 
 - High material consumption — 15-25 g powder and 25-35 g lead per shot requires industrial supply chain
 - Misfire rate 20-30% — unreliable ignition in damp conditions; slow match is visible at night
 
-
-
 ## Crossbow
 
 **Construction**: Prod (bow limb) from composite (horn + sinew + wood) or steel. Steel prod: 50-100 cm span, 400-1200 lb draw weight (requires spanning lever, cranequin, or windlass for cocking). Bolt: 30-50 cm, 60-100 g, iron or steel bodkin point. Muzzle velocity: 50-70 m/s. Kinetic energy: 100-200 J. Effective range: 40-60 m armor-piercing, 100-150 m unarmored target. Rate of fire: 1-2 bolts per minute (spanning mechanism adds significant reload time). Advantage over hand bow: requires less training for proficiency, higher armor penetration at close range.
@@ -223,8 +215,6 @@ Weapon production requires progressively more advanced materials and industrial 
 
 **Javelin**: Light throwing spear (1.5-2.0 m, 300-600 g total). Throwing range: 20-35 m. Enhanced by thong (ankyle): 30-50 cm leather strap wound around shaft -> imparts spin and additional lever arm, increasing range 20-30% and accuracy. Roman pilum: heavy javelin (1.5-2.0 kg, 1.5-2.0 m) with long iron shank (60-90 cm) and pyramidal point. Designed to penetrate shield and bend on impact (enemy cannot throw it back). Effective range: 15-25 m.
 
-
-
 ## Weapon Performance Comparison
 
 | Weapon | Blade/Projectile | Energy at Target (J) | Effective Range (m) | Rate of Fire |
@@ -262,13 +252,11 @@ Weapon production requires progressively more advanced materials and industrial 
 | Effective range (aimed) | 50-80 m | 50-80 m | 300-500 m |
 | Misfire rate | 20-30% | 10-15% | <5% (percussion) |
 
-
 ## Weapon Maintenance
 
 **Blade care**: Steel blades rust within hours in humid conditions. Field maintenance: wipe with oiled cloth (linseed or animal fat oil) after every use. Rust removal: fine sand or emery cloth, then oil. Edge maintenance: leather strop for fine sharpening, whetstone (coarse then fine grit) for resharpening damaged edges. A well-maintained sword blade lasts decades; neglected blade rusts to uselessness in months.
 
 **Firearm maintenance**: Black powder residue is hygroscopic and corrosive. After firing, barrel must be cleaned with hot water (dissolves salt residue), dried, and oiled within 24 hours or rust begins. Cleaning kit: worm (corkscrew puller for stuck balls), brush, cleaning jag (fits patch), oil bottle. Touch hole (vent) must be kept clear -- blocked vent prevents ignition. Lock mechanism: disassemble and clean weekly in active service.
-
 
 ## Scaling Notes
 
@@ -277,7 +265,6 @@ Weapon production requires progressively more advanced materials and industrial 
 - **Arsenal production (500+ weapons/month)**: Requires division of labor (barrel-makers, lock-filers, stock-makers, assemblers), water-powered boring mills, and consistent steel supply. A state arsenal with 50-100 workers produces 1000+ muskets per month. Prerequisites: [machine tools](../machine-tools/index.md) for barrel boring, [industrial chemistry](../chemistry/index.md) for powder, [mining](../mining/index.md) for lead and saltpeter.
 - **Arrow production scaling**: 100 archers expend 2000-6000 arrows per battle. Fletchers must produce 100-300 arrows/day to sustain an archery corps. Requires organized supply of shafts, points, feathers, and glue.
 - **Training time bottleneck**: Bow proficiency requires 2-5 years of muscle development. Musket drill: 4-8 weeks. When raising forces quickly, firearms are decisive despite higher material cost. Pike drill: 2-4 weeks for formation competence.
-
 
 ## Troubleshooting
 
@@ -294,7 +281,6 @@ Weapon production requires progressively more advanced materials and industrial 
 | Bronze casting porosity | Insufficient mold venting, pour temperature too low | Add vent channels to mold; heat melt to 1100-1200 degrees C before pouring |
 | Spearhead separates from shaft | Hafting failure (binding or adhesive) | Use socket construction when possible; ensure birch tar is fresh; rawhide binding must be wet-stretched then dried tight |
 
-
 ## Safety Considerations
 
 - **Black powder handling**: Gunpowder is an explosive. Store in cool, dry location away from sparks and open flame. Maximum 25 kg in any single storage container. Transport in wax-sealed leather or ceramic containers. A single spark in a powder magazine destroys the building and kills everyone inside. No metal tools that can spark near powder -- use wooden mauls and copper implements.
@@ -304,7 +290,6 @@ Weapon production requires progressively more advanced materials and industrial 
 - **Firearm barrel obstruction**: Firing a musket with a blocked barrel (mud, snow, previous ball stuck) causes catastrophic barrel failure -- the barrel bursts, sending iron fragments in all directions. Always run the ramrod down the barrel to confirm clear bore before loading.
 - **Quenching hazards**: Quenching hot steel in water or oil produces violent steam or oil spatter. Wear face shield and leather apron. Oil quench tanks can ignite if steel is too hot -- keep fire extinguishing sand nearby.
 - **Heat treatment fumes**: Salt bath nitriding (advanced heat treatment) produces toxic fumes. Work in ventilated area. Standard forge work produces CO -- ensure chimney or cross-ventilation in smithy.
-
 
 ## Limitations
 
@@ -318,7 +303,6 @@ Weapon production requires progressively more advanced materials and industrial 
 - **Wear and replacement**: A steel sword blade lasts 5-20 years with regular maintenance but can fail in a single combat if it strikes bone, stone, or another blade edge-on. Musket barrels erode after 500-1000 shots (black powder residue is corrosive, bore gradually enlarges -> reduced accuracy and velocity). Arrow shafts break on impact -- expect 30-50% loss per engagement. Weapon attrition in sustained campaigning requires continuous resupply from rear workshops.
 
 - **Combined arms**: No single weapon dominates. Spears hold formation, bows provide ranged fire, swords and axes for close combat, polearms counter cavalry, firearms deliver decisive ranged lethality. Effective military organizations integrate multiple weapon types in mutual support.
-
 
 ## See Also
 

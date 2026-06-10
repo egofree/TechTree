@@ -16,12 +16,6 @@ This document covers transformer construction, core and winding manufacturing, i
 
 ## Materials
 
-![Power Distribution Line Pole with Distribution Transformers](../images/energy/energy_power-distribution.png)
-
-> *This file contains a picture of a 4.16kV distribution line with three distribution transformers attached, delivering power to a local load*
-
-> *Image: Rsparks3, CC0*
-
 - **Copper wire** — Drawn from electrorefined copper (99.99% purity). Magnet wire from 0.05 mm to 5.0 mm diameter with enamel insulation. See [Wire Drawing](electricity.md).
 - **Silicon steel sheet** — 3-4% silicon-iron alloy, 0.23-0.50 mm thick, for laminated cores. Reduces eddy current losses. See [Iron & Steel](../metals/iron-steel.md).
 - **Insulation materials** — Kraft paper (0.05-0.25 mm), pressboard (1-3 mm), varnish (shellac or synthetic), enamel for magnet wire. Higher temperature classes use mica, glass fiber, or silicone. See [Polymers](../polymers/thermoplastics.md).

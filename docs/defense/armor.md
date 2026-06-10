@@ -8,22 +8,13 @@
 > **Outputs**: armor, helmets, shields, body_armor, plate_armor
 > **Critical**: No — specialized military capability dependent on metallurgical and textile industrial base
 
-
-
 Armor and protective systems encompass the materials, construction techniques, and design principles for personal and structural defense against weapons. From rawhide jerkins to full plate harness, armor development mirrors the metallurgical and textile capabilities of each technological tier.
 
 Armor design is fundamentally an exercise in materials engineering: managing the tradeoff between protection, weight, mobility, and cost. A 25 kg plate harness distributes load across the body and permits running and climbing, while a 10 kg mail hauberk concentrated on the shoulders causes faster fatigue. Each armor type addresses specific threat vectors -- quilted padding absorbs blunt force, mail stops slashing, plate defeats thrusting and missiles. Layered defense combining multiple types provides broader protection than any single material.
 
 Armor production consumes significant resources. A full plate harness requires 200-500 worker-hours from a skilled armorer. Mail requires 50-180 worker-days of ring production and assembly. These costs limit armor distribution -- historically, infantry wore padded jacks or brigandines while only elite heavy cavalry could afford plate. The industrial base for armor production is the same as for tools and construction: [iron and steel production](../metals/iron-steel.md), [textile manufacturing](../textiles/index.md), and [leatherworking](../foundations/index.md).
 
-
 ## Prerequisites
-
-![2023 Manila Auto Salon - Isuzu D-Max Armored Vehicle 2023 by Impenetra Armor Protective Systems](../images/defense/defense_armor.jpg)
-
-> *2023 Isuzu D-Max Armored Vehicle (a customized version of the 3.0 Single Cab 4x4 trim model) displayed during the 2023 Motul Manila Auto Salon, Sport Truck Show at SMX Convention Center Manila.*
-
-> *Image: Ethan Llamas, CC BY 4.0*
 
 Armor and protective systems draw on multiple industrial capabilities. While basic organic armor (rawhide, quilted gambeson) can be produced with [stone and wood tools](../foundations/tools-basic.md) and [textile manufacturing](../textiles/index.md), metal armor requires organized production:
 
@@ -31,7 +22,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - [Non-ferrous metals](../metals/index.md) — bronze for scale armor (copper-tin alloy casting)
 - [Textiles](../textiles/index.md) — linen and wool for gambeson padding, canvas for brigandine shells
 - [Leatherworking](../foundations/index.md) — rawhide processing, tanning, and shaping for organic armor and straps
-
 
 ## Bill of Materials
 
@@ -45,8 +35,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 | Mail hauberk | Iron/steel wire | 25,000-45,000 rings, 10-15 kg | Rivets (10,000-20,000), leather for edge binding | [Iron & Steel](../metals/iron-steel.md) |
 | Full plate harness | Medium-C steel | 20-30 kg steel | Leather straps, buckles, quilted arming doublet | [Iron & Steel](../metals/iron-steel.md) |
 | Shield (round) | Lime/poplar planks | 5-8 planks, 60-90 cm diameter | Rawhide facing, iron boss, iron rim band | [Foundations](../foundations/index.md) |
-
-
 
 ## Leather & Organic Armor (Years 0-10)
 
@@ -254,8 +242,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - Encumbers one arm — shield bearer has reduced offensive capability
 - Bulky to carry on march — shields are awkward to transport when not in combat formation
 
-
-
 ## Armor vs Weapon Interaction
 
 | Armor Type | Sword Cut | Sword Thrust | Arrow (50 lb bow) | Crossbow (800 lb) | Musket Ball |
@@ -291,7 +277,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 | Mail hauberk | 10-15 | Full torso + upper arms + thighs | 2-4 months (workshop) | All slashing, moderate thrusts with gambeson |
 | Full plate harness | 20-30 | Full body | 2-6 months (armorer) | All edged weapons, arrows, crossbow bolts (80-95%) |
 
-
 ## Scaling Notes
 
 - **Village militia (20-50 fighters)**: Equip with quilted gambesons and shields. Production: 5-10 days per gambeson, basic woodworking for shields. Total material: 100-350 m2 linen or wool, 50-100 kg iron for shield bosses and rim bands. No specialist armorer needed -- leatherworkers and weavers can produce organic armor.
@@ -299,7 +284,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - **State army (1000+ fighters)**: Requires arsenal production with division of labor. Wire-drawing shop, ring-assembly shop, plate-forging shop. Steel consumption: 20,000-30,000 kg for plate harness per 1000 soldiers. Only feasible with organized [iron production](../metals/iron-steel.md) and state-level resource mobilization.
 - **Horse armor (barding)**: Adds 20-35 kg per horse. Only for elite heavy cavalry with large draft horses (destrier: 600-800 kg). Horse armor production comparable to human plate armor but larger -- 300-600 worker-hours per set.
 - **Armor recovery and recycling**: Battlefield salvage reduces new production demand by 30-50%. Captured armor repaired and reissued. Scrap mail rings melted and re-drawn. Damaged plate re-forged. This recycling loop is essential for sustaining armies in prolonged campaigns.
-
 
 ## Troubleshooting
 
@@ -316,7 +300,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 | Scale armor lacing cut through | Exposed lacing at scale edges, worn cord | Use doubled linen or sinew cord; lace through holes (not around edges); inspect before battle |
 | Gauntlet fingers too stiff | Too many small plates, insufficient articulation | Reduce plate count per finger; ensure plates overlap in flexion direction |
 
-
 ## Safety Considerations
 
 - **Heat exhaustion in enclosed armor**: Full plate harness with closed visor creates internal temperature of 40-50 degrees C within 15 minutes of sun exposure. Heat stroke is a real combat risk. Knights fought in short bursts (15-30 minutes) with rest periods. In desert or hot-weather operations, enclosed plate is impractical without extensive hydration and shade discipline. Monitor fighters for confusion, dizziness, and cessation of sweating.
@@ -327,7 +310,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - **Eye injury during riveting**: Mail rivet peening sends small metal fragments flying. Wear eye protection during ring closing operations. Long-term mail makers develop cataracts from accumulated eye injuries without protection.
 - **Leatherworking chemicals**: Rawhide processing uses lime (CaO) for dehairing, which causes chemical burns. Wear gloves when handling lime solutions. Tannins used in leather curing are also skin irritants with prolonged exposure.
 
-
 ## Armor Production & Craftsmanship
 
 **Mail workshop organization**: Master mailer supervises 2-5 journeymen and apprentices. Wire drawing: iron rod drawn through successively smaller holes in steel draw plate -> wire. Drawing lubricated with tallow or oil. Wire diameter checked with gauge plate. Ring forming: wire wound on mandrel, cut with chisel. Ring closing: each ring overlapped, punched hole, rivet inserted and peened. Assembly: rings linked in 4-in-1 pattern (each ring passes through 4 others). Production rate: complete hauberk in 2-4 months by workshop of 4-6 workers.
@@ -336,20 +318,17 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 
 **Fitting and customization**: Plate armor fitted to individual wearer -- essential for comfort and mobility. Measurements: torso circumference, shoulder width, arm length, thigh length. Adjustments: plates can be re-heated and re-shaped. Straps: leather (cowhide, 3-5 mm) with iron buckles. Padding: quilted linen garment (arming doublet) with leather points (laces) for attaching armor plates. Custom-fitted plate armor takes 2-6 months to produce.
 
-
 ## Horse Armor (Barding)
 
 **Plate barding**: Steel plates protecting war horse. Coverage: chanfron (head), crinet (neck), peytral (chest), flanchard (flanks), crupper (hindquarters). Weight: 20-35 kg total -- horse carries 100-150 kg combined rider + armor. Horse must be large draft type (destrier: 600-800 kg) to carry armored rider at speed. Horse armor production: comparable complexity to human plate armor but larger -- 300-600 worker-hours. Only for elite heavy cavalry.
 
 **Mail barding**: Mail curtain hung from saddle covering horse's neck, chest, and flanks. Weight: 15-25 kg. Simpler to produce than plate barding (mail scales more easily to non-standard shapes). Common in Islamic and Central Asian cavalry traditions.
 
-
 ## Modern Protective Systems (Years 30+)
 
 **Steel helmet**: M1-style steel helmet: 1.0-1.2 mm manganese steel (Hadfield steel: 12-14% Mn, 1.0-1.2% C), heat-treated to HB 230-350. Weight: 1.0-1.4 kg. Stops pistol bullets and shell fragments at >50 m. Liner (plastic or composite) provides stand-off and impact absorption. Does NOT stop rifle bullets at combat ranges.
 
 **Body armor (early)**: Silk or nylon fabric layered vest (15-30 layers) stops low-velocity pistol bullets (.38 Special, 9mm) by catching and deforming projectile in fabric weave. Flak jacket (Korean War): 6-12 layers nylon duck, 3-5 kg -- stops artillery fragments, not bullets. Modern body armor requires synthetic fibers beyond bootciv scope (Kevlar, 1965).
-
 
 ## Limitations
 
@@ -363,7 +342,6 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - **Layered defense principle**: No single armor type is optimal for all threats. Historical soldiers combined layers: quilted gambeson (blunt force, base layer) + mail (slashing) + plate (missile, thrusting). Each layer addresses a different threat vector. Removing any layer creates a vulnerability -- the combination is more effective than the sum of individual pieces.
 - **Transport and storage**: Full plate armor stored in purpose-built chest (wood, iron-bound, 40x30x30 cm). Mail hung on wall peg or mannequin to prevent tangling. Shields stored flat in racks. Armor requires 0.5-1.0 m2 of storage space per set -- significant logistical burden for armies on campaign. Baggage train carries reserve armor and repair materials (rivets, leather straps, oil).
 - **Armor recovery**: Battlefield salvage of armor from the dead and wounded is standard practice in all pre-industrial armies. Scavenged armor repaired and reissued. Captured enemy armor reused -- plate armor has no allegiance markings on the steel itself. After major battles, armorers work for days repairing salvaged equipment. This recycling loop reduces the industrial demand for new armor production by 30-50%.
-
 
 ## See Also
 

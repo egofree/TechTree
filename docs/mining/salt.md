@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Khewra Salt Mines5](../images/mining/mining_salt.jpg)
-
-> *The Khewra Salt Mine is in Khewra, north of Pind Dadan Khan, Jhelum District, Punjab, Pakistan. The mine is in mountains that are part of a salt range, extending about 200 km from the Jhelum river south of Pothohar Plateau. Facts 1. The mine is second largest in the world &amp; famous for its production of pink salt or Himalayan salt &amp; is a major tourist attraction, drawing up to 250,000 visitors a year. 2. The mine was discovered by Alexander Army's horses, when they were found licking the stones in 326 B.C. 3. The main tunnel at ground level was developed by Dr. H. Warth, a mining engineer, in 1872 during British rule. After independence, The Pakistan Mineral Development Corporation took over the mine, which still remains the largest source of salt in the country, producing more than 350,000 tons per annum of about 99% pure halite. Estimates of Reserves vary from 82 to 600 million tons. 4. Covering an area of 110 sq. km, 228 meters deep (with 11 separate stories), has over 40 km of tunnels running some 730 meters, into the mountain. A total of 18 working levels where extraction takes place out of which 6 are below the surface. 5. It is home to a 6-bed hospital for people suffering from Asthma. This hospital is located at level 5. 6. It has a number of saltwater pools that give off beautiful colors when projected with light. A tunnel inside is named the crystal valley. It has rock salt crystals in the roof &amp; walls &amp; they shine when light falls upon them. The view is jaw-dropping. 7. There are replicas of Badshahi Masjid, Great Wall of China, Sheesh Mahal, Nathia Gali &amp; Ayubia a model of Mall road of Lahore &amp; Minar-e-Pakistan. It also has a 25-meter bridge called Pul-E-Saraat. 8. It’s cool 21°c year round because no Sunlight or Moonlight enters the mine. 9. To keep the huge space from collapsing, only 50% of the salt is mined, &amp; remaining works as a prop (supporting pillars). 10. There are beautiful alternate bands of red &amp; white color salt &amp; don’t forget to take home a Khewra salt bedside lamp from the souvenir shop.*
-
-> *Image: Shahzaib Damn Cruze, CC BY-SA 4.0*
-
 Extraction of halite (rock salt) and brine from underground deposits, salt pans, and seawater evaporation. Salt is essential for food preservation, chlor-alkali electrolysis (chlorine and caustic soda), and as a chemical feedstock. Enables the foundational inorganic chemistry of the industrial revolution.
 
 Salt is one of the few minerals that humans consume directly in large quantities. Beyond its role as a flavoring agent, salt preserves meat and fish by drawing out moisture and inhibiting bacterial growth — without refrigeration, salting is the primary long-term food preservation method. Industrially, salt feeds the chlor-alkali process (electrolysis of brine to produce chlorine gas and sodium hydroxide), which underpins bleaching, disinfection, and much of the chemical industry. Salt also serves as a raw material for soda ash (sodium carbonate) production via the Solvay process.
@@ -289,4 +283,3 @@ Proper handling of input materials and products is essential for consistent resu
 
 *Part of the [Bootciv Tech Tree](../../index.md) · [Mining](./index.md) · [All Domains](../../index.md)*
 
-![mining salt diagram](../images/mining/diagram:mining_salt.jpg)

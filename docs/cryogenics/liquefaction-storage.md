@@ -8,16 +8,9 @@
 > **Outputs**: cryogenic_storage, liquid_gases, dewar_vessels, cold_boxes
 > **Critical**: No — cryogenic storage is the most efficient bulk gas delivery method but compressed gas cylinders are an alternative
 
-
 Gas liquefaction converts atmospheric gases into compact, dense liquids for storage, transport, and use. Liquid nitrogen (LIN) at -196°C has 694× the density of gaseous N₂ at STP; liquid oxygen (LOX) at -183°C is 860× denser than gaseous O₂. This density advantage makes cryogenic storage the only practical method for supplying thousands of tonnes of gas per year to a semiconductor fabrication facility. This file covers the engineering of liquefaction systems, storage vessels (dewars), cold box insulation, and cryogenic fluid handling.
 
 ## Prerequisites
-
-![Figure 1- Process of Obtaining and Processing Liquefied Natural Gas (LNG) for Transport (23647734200)](../images/cryogenics/cryogenics_liquefaction-storage.jpg)
-
-> *This image is excerpted from a U.S. GAO report: www.gao.gov/products/GAO-16-104 MARITIME TRANSPORTATION: Implications of Using U.S. Liquefied-Natural-Gas Carriers for Exports*
-
-> *Image: U.S. Government Accountability Office from Washington, DC, United States, Public domain*
 
 - [Refrigeration Fundamentals](refrigeration.md) — thermodynamic cycles and expansion engines
 - [Gas Handling](../gas-handling/basic.md) — gas compression and purification
@@ -376,8 +369,6 @@ Key rule: Use compressed gas for small, intermittent demand. Switch to cryogenic
 - **[Air Separation & Bulk Gas Production](../chemistry/air-separation.md)**: Product storage specifications, ASU operations
 - **[Basic Gas Handling](../gas-handling/basic.md)**: Gas cylinders, piping, and distribution at ambient temperature
 - **[Vacuum Technology](../gas-handling/vacuum.md)**: Vacuum pumps and measurement for insulation systems
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*

@@ -14,12 +14,6 @@ The trade-off is manufacturing complexity. Producing functional solar cells dema
 
 ## Overview
 
-![Utah solar; a photovoltaic power station (36293687776)](../images/energy/energy_photovoltaics.jpg)
-
-> *Utah solar; a photovoltaic power station.*
-
-> *Image: Photo by Reegan Moen. – U.S. Department of Energy from United States, Public domain*
-
 ## P-N Junction Physics
 
 The photovoltaic effect occurs when photons with energy above the semiconductor bandgap create electron-hole pairs near a p-n junction. The built-in electric field at the junction separates these carriers, driving electrons toward the n-type side and holes toward the p-type side. This produces a voltage (~0.5-0.7 V per cell for silicon) and, when connected to a load, a current proportional to the incident light intensity.

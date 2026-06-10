@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Diagram of Velox steam generator set](../images/energy/energy_boiler.png)
-
-> *Diagram showing the main components of a quick-acting stand-by power plant with a Velox steam generator.*
-
-> *Image: Unknown, not credited in publication., Public domain*
-
 A boiler is a pressure vessel that converts water into steam by transferring heat from combustion gases through metal walls. Two fundamental architectures exist: **fire-tube** (hot gases pass through tubes surrounded by water) and **water-tube** (water flows through tubes surrounded by hot gases). In both cases, the rate of steam production is limited by the heat transfer surface area and the temperature differential between the combustion gases and the boiling water.
 
 The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boiler efficiency / Enthalpy of vaporization (~2260 kJ/kg at atmospheric pressure, less at higher pressure). A boiler burning 10 kg/hour of coal (28 MJ/kg) at 70% efficiency produces: 10 × 28,000 × 0.70 / 2260 ≈ 87 kg/hour of steam. Boiler pressure is determined by the steam demand: low-pressure (0.5-2 bar) for heating and early engines; medium-pressure (5-15 bar) for most engines and industrial processes; high-pressure (20-100+ bar) for steam turbines and power generation.

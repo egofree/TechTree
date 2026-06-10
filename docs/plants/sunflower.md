@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Sunflower](../images/plants/plants_sunflower.jpg)
-
-> *Sunflower (Helianthus annuus) blooming in director's lawn, IIT Mandi, HP, India. 27 Jun. 2021.*
-
-> *Image: Adarsh Patel, CC BY-SA 4.0*
-
 Sunflower
 
 *Helianthus annuus* (Asteraceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Sunflower provides roots, seeds/nuts, flowers as its primary edible product and ranks 73/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 An easily grown plant, it succeeds in most soils, including poor soils provided they are deep and well-drained, but it grows best in a deep rich soil. Plants are intolerant of acid or waterlogged conditions. Especially when grown for its edible seed, the plant prefers a sunny position though it also tolerates light shade. Requires a neutral or preferably calcareous soil. As sunflowers have highly efficient root systems, they can be grown in areas which are too dry for many other crops. Established plants are quite drought-resistant except during flowering. The sunflower tolerates an annual precipitation of 20 - 400cm, an average annual temperature in the range of 6 - 28°C and a pH in the range of 4.5 - 8.7. The young growth is extremely attractive to slugs, plants can be totally destroyed by them. Members of this genus are rarely if ever troubled by browsing deer or rabbits. The sunflower is a very ornamental plant that is widely grown in gardens and is also a major commercial crop for its edible seed and many other uses. It grows well in Britain, but it does not ripen its seed reliably in this country and so is not suitable for commercial cultivation at the present. It is the state flower of Kansas. Three distinct groups of sunflowers are cultivated:- Giant types grow from 1.8 - 4.2 metres tall with flower heads 30 - 50cm in diameter. The seeds are large, white or gray in colour, sometimes with black stripes, and are the best for culinary purposes, though the oil content is lower than for other types. 'Grey Stripe', 'Hopi Black Dye', 'Mammoth Russian' and 'Sundak' are examples of this type. Semi-dwarf types grow from 1.3 - 1.8 m tall, are early maturing and have heads 17 - 23 cm diameter. The seeds are smaller, black, gray or striped, the oil content is also higher. Examples include 'Pole Star' and 'Jupiter' Dwarf types grow from 0.6 - 1.4 m tall, are early maturing and have heads 14 - 16 cm in diameter[269. The seeds are small but the oil content is the highest. Examples include 'Advance' and 'Sunset'. Some forms are being bred for greater cold tolerance and should be more reliable in Britain. Plants tend to grow better in the south and south-west of England. Most forms require a four month frost-free growing season, though some Russian cultivars can mature a crop in 70 days. When plants are grown in cooler latitudes the seed contains higher proportions of polyunsaturated fatty oils. The plant has a strong taproot that can penetrate the soil to depth of 3 metres, it also has a large lateral spread of surface roots. Sunflowers grow badly with potatoes but they do well with cucumbers and corn. A very greedy and vigorous plant, it can inhibit the growth of nearby plants. Plants tend to impoverish the soil if they are grown too often in the same place. In garden design, as well as the above-ground architecture of a plant, root structure considerations help in choosing plants that work together for their optimal soil requirements including nutrients and water. The predictable growth behaviour makes it easier to maintain without having to apply containment methods. Propagation: Sow seed in mid spring directly in situ. For an earlier start, sow 2–3 seeds per pot in a greenhouse in early spring using a fairly rich compost. Thin to the strongest seedling, give occasional liquid feeds to prevent nutrient deficiency, and plant out in late spring or early summer. Seed harvested at 12% moisture content and stored properly will remain viable for several years.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

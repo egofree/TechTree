@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Brushing Lacquer by China Paint](../images/chemistry/chemistry_paint.jpg)
-
-> *Brushing lacquer (460ml) by the China Paint Manufacturing Company (1932) Limited.*
-
-> *Image: Mk2010, CC BY-SA 3.0*
-
 Pigment grinding, binder formulation, and coating production including titanium dioxide whites, alkyd paints, and zinc oxide anti-corrosion coatings.
 
 Paint is a complex mixture of pigments (for color and opacity), binders (for adhesion and film formation), solvents (for application viscosity), and additives (for specific properties like drying time, flow, and mold resistance). The two main categories are organic coatings (paints, varnishes, lacquers) and inorganic coatings (ceramic glazes, cementitious coatings). This article focuses on organic paint production, specifically titanium dioxide pigment manufacture and alkyd resin binder synthesis.

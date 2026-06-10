@@ -8,7 +8,6 @@
 > **Outputs**: meat, eggs, feathers, manure, pest_control
 > **Critical**: Yes — fastest-converting livestock; first animals to establish after securing grain production
 
-
 Poultry farming is the managed raising of domesticated birds for meat, eggs, feathers, and other products. Poultry are the fastest-converting livestock — turning grain and forage into high-quality protein within weeks rather than months. They require less space, less feed, and less infrastructure than any mammalian livestock, making them the first animals a settlement should establish after securing grain production. Seven primary species span a wide range of sizes, temperaments, and specializations, from the universal chicken to the pest-hunting guinea fowl to the self-foraging pigeon.
 
 | Species | Adult Weight | Eggs/Year | Incubation (days) | Feed/Day (g) | Space/Bird (m²) |
@@ -22,12 +21,6 @@ Poultry farming is the managed raising of domesticated birds for meat, eggs, fea
 | [Pigeons](poultry-pigeons.md) | 350-800 g | 400+ potential | 17 | 30-50 | 0.2 (loft) |
 
 ## Prerequisites
-
-![Poultry farming and viticulture - geograph.org.uk - 6120883](../images/animals/animals_poultry.jpg)
-
-> *Poultry farming and viticulture*
-
-> *Image: Jonathan Billinger, CC BY-SA 2.0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -50,7 +43,6 @@ Materials listed for a 50-bird mixed flock per year.
 | Bedding (straw, shavings) | 500-1,000 kg | [`plants`](../plants/index.md) | Deep litter method |
 | Wire mesh (1-2 cm openings) | 20-30 m² | [`metals`](../metals/index.md) | For vents and run enclosures |
 | Feed storage (metal bins) | 3-4 units (35-50 L each) | [`metals`](../metals/index.md) | Rodent-proof containers |
-
 
 ## Egg Production
 
@@ -172,7 +164,6 @@ Materials listed for a 50-bird mixed flock per year.
 - Broody behavior is unreliable in many modern breeds — heritage breeds retain the instinct
 - Chicks are fragile for the first 2 weeks — mortality 5-10% even with good management
 
-
 ## Manure Composition by Species
 
 | Species | Nitrogen (%) | Phosphorus (%) | Potassium (%) | Manure/Bird/Year (kg) |
@@ -277,7 +268,6 @@ Why the 14-16 hour light requirement matters: Egg production in chickens is trig
 - [`textiles`](../textiles/index.md) — feathers and down for insulation and bedding
 - [`animals.pest-management`](pest-management.md) — integrated pest management with poultry
 - [`knowledge`](../knowledge/index.md) — homing pigeons for long-distance messaging
-
 
 ## See Also
 

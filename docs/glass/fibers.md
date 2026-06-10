@@ -16,12 +16,6 @@ The ratio of glass surface area to volume increases by a factor of 10,000-100,00
 
 ## Glass Fiber Composition and Melting Reference
 
-![Glass Fiber Paper](../images/glass/glass_fibers.jpg)
-
-> *Glass-fiber paper for use as a separator in supercapacitors*
-
-> *Image: D.S. Soriano, CC BY-SA 4.0*
-
 Each glass fiber type requires a specific composition that determines its melting behavior, fiber-forming properties, and final performance. The compositions below are given in oxide weight percentages.
 
 **Glass fiber composition comparison**:

@@ -8,9 +8,7 @@
 > **Timeline**: Years 15-40
 > **Outputs**: high_temperature_sensing, self_generating_sensor, precision_resistance_sensing
 
-
 Electrical thermostats use electrical properties of materials (thermoelectric voltage, resistance change, magnetic actuation) to sense temperature. Unlike the mechanical and fluid types, these require some form of electrical measurement circuitry but gain much wider temperature ranges and better accuracy in return. The thermocouple is self-generating (needs no power at the sensor), the RTD provides the highest accuracy and stability of any contact sensor, and the reed switch offers sealed contactless switching.
-
 
 ## Thermocouple-Based Thermostat
 
@@ -72,7 +70,6 @@ Electrical thermostats use electrical properties of materials (thermoelectric vo
 - Calibration drift of 1-5°C per 1000 hours at high temperature
 - Lower accuracy than RTDs or thermistors without careful calibration
 
-
 ## Resistance Thermometer (RTD) Thermostat
 
 **Principle**: A fine platinum wire (or thin-film platinum element) increases in electrical resistance predictably with temperature. The Pt100 standard specifies 100.0 Ω at 0°C with a temperature coefficient of +0.385 Ω/°C. At 100°C, the resistance is 138.5 Ω. The resistance is measured using a Wheatstone bridge circuit: three fixed resistors and the RTD form the bridge, and a galvanometer or amplifier detects the imbalance voltage when the RTD resistance deviates from the setpoint value. The bridge output drives a relay or control circuit.
@@ -130,7 +127,6 @@ Electrical thermostats use electrical properties of materials (thermoelectric vo
 - Slow response when sheathed for protection
 - Lead resistance errors require four-wire measurement for accuracy
 
-
 ## Reed Switch Thermostat
 
 **Principle**: A permanent magnet is mounted on a bimetallic element. As temperature changes, the bimetallic element bends, moving the magnet relative to a sealed glass reed switch. The reed switch contains two ferromagnetic reed blades hermetically sealed in an inert gas atmosphere. When the magnet approaches, the magnetic field magnetizes the reed blades, causing them to attract each other and snap together, closing the circuit. When the magnet moves away, the field weakens and the reeds spring apart. The reed switch provides contactless switching: the magnet never touches the switch, and the contacts are sealed inside a glass envelope, immune to dust, oxidation, and corrosion.
@@ -185,7 +181,6 @@ Electrical thermostats use electrical properties of materials (thermoelectric vo
 - Sensitive to external magnetic fields that can cause false triggering
 - Limited temperature range (-40 to 120°C) set by magnet and bimetallic properties
 - Not proportional; on/off switching only
-
 
 ## Scaling Notes
 
@@ -245,8 +240,6 @@ Electrical thermostat technologies scale from individual sensor fabrication to a
 - **Electrical hazards**: Electronic comparator circuits operate from mains-derived power supplies. All thermostat circuits that switch mains-powered heaters must include proper fusing, grounding, and isolation. A relay contact failure (welded contacts) leaves the heater permanently on, which can cause fires. Always include an independent high-limit cutoff (bimetallic strip thermostat wired in series with the heater) as a backup.
 - **Mercury in thermometers**: Calibration using mercury-in-glass thermometers carries mercury exposure risk if the thermometer breaks. Mercury vapor at 20°C exceeds safe workplace limits in unventilated spaces after a spill. Clean any mercury spill with zinc dust or a commercial mercury absorbent. Never vacuum mercury.
 - **RFI/EMI from relay switching**: Relay contacts switching inductive loads (heater coils, solenoid valves) produce electromagnetic interference that can disrupt nearby electronic equipment. Add snubber circuits (RC network: 0.1 μF + 100 Ω in series) across relay contacts driving inductive loads. Use solid-state relays (SSRs) for zero-crossing switching when interference is a concern.
-
-
 
 ---
 

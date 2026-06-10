@@ -10,12 +10,6 @@
 
 ## Overview
 
-![TX-Diagram-pt](../images/chemistry/chemistry_photographic-chemistry.jpg)
-
-> *Existem diagramas T-x de três misturas binárias. O gráfico à esquerda é de uma mistura ideal de A e B, sem formação de azeótropo, com as linhas de líquido e vapor saturados variando desde a temperatura de ebulição de A, a mais baixa, até a de B, a mais alta. O gráfico central é de uma mistura binária de C e D que forma um azeótropo de mínimo. Veja que a temperatura no azeótropo é menor do que as temperaturas de ebulição de C e de D quando puros. O gráfico à direita é de uma mistura binária E e F que forma um azeótropo de máximo. A temperatura no azeótropo é maior do que as temperaturas de ebulição de E e F quando puros.*
-
-> *Image: U.m at Portuguese Wikipedia, Public domain*
-
 Silver halide emulsion preparation, photographic plate coating, and light-sensitive chemical synthesis for imaging and photoresist precursor production.
 
 Silver halide photography was the dominant imaging technology for over 150 years before digital sensors replaced it. The chemistry involves three main stages: sensitization (forming silver halide crystals in gelatin emulsion), exposure (creating a latent image by photolytic decomposition of silver halide), and development (amplifying the latent image by chemical reduction of exposed silver halide to metallic silver). While no longer the primary imaging technology, photographic chemistry remains relevant for understanding photosensitive materials, chemical amplification processes, and the handling of silver compounds.

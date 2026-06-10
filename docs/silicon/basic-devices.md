@@ -10,24 +10,6 @@
 
 ## Basic Semiconductor Devices
 
-![Shockley Semiconductor Laboratory, sculptures of Shockley diodes and 2N696 transistor, June 2019](../images/silicon/silicon_basic-devices.jpg)
-
-> *The photograph shows three sculptures of semiconductor devices at 391 San Antonio Road, Mountain View, California. According to a nearby wall-mounted historical marker the two on the left are four-layer diodes ("Shockley diode") and the third sculpture is a 2N696 silicon transistor. The middle sculpture appears as it would have been sold with it's protective cap. The leftmost sculpture shows the same device but with the protective cover removed so as to show where the silicon chip would have been located within the device.*
-
-> *Image: Baltakatei, CC BY-SA 4.0*
-
-![Cross-section of different transistors](../images/silicon/silicon_basic-devices-crosssection.jpg)
-
-> *Cross-section of different transistors. The one of far left shows that of Gate-All-Around Architecture*
-
-> *Image: Rajamouli2000 at English Wikipedia, Public domain*
-
-![Pn Junction Diffusion and Drift-tr](../images/silicon/silicon_basic-devices-diagram.png)
-
-> *Diagram of the diffusion across a pn junction, with the resultant uncovered space charges, the electric field and the drift currents.*
-
-> *Image: VectorVoyager: translation, CC0*
-
 ### Solar Cells (Primary Target — simplest useful semiconductor device)
 
 **Structure**: Large-area (100-300 cm²) pn junction on single-crystal or multicrystalline silicon wafer.
@@ -381,4 +363,3 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
 
-![silicon basic devices diagram](../images/silicon/diagram:silicon_basic-devices.jpg)

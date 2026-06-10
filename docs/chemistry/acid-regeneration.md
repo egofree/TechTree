@@ -209,4 +209,3 @@ Spent membranes from the regeneration system contain absorbed metals and acid re
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
-![chemistry acid regeneration](../images/chemistry/chemistry_acid-regeneration.png)

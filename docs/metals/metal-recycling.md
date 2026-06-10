@@ -264,4 +264,3 @@ Bronze Age metalworkers recycled bronze routinely — broken tools and weapons w
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
 
-![metals metal recycling diagram](../images/metals/diagram:metals_metal-recycling.jpg)

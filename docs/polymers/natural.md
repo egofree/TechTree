@@ -8,23 +8,9 @@
 > **Outputs**: vulcanized_rubber, tires, drive_belts
 > **Critical**: Yes — rubber is the only natural elastomer; seals, belts, tires, and hoses all depend on it
 
-
 Industrial machinery requires flexible, elastic materials that can seal gaps, transmit power, absorb vibration, and conform to irregular surfaces. Metal is rigid, wood is brittle, leather stretches permanently, and textiles are porous. Natural rubber — the only naturally occurring elastomer — uniquely combines elasticity (400-650% elongation with full recovery), water resistance, electrical insulation, and moldability. Before synthetic elastomers (which require petrochemical infrastructure), natural rubber from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is the only option for tires, drive belts, gaskets, hoses, and vibration dampers. Vulcanization with sulfur transforms raw rubber from a sticky, temperature-sensitive gum into a durable engineering material.
 
 ## Prerequisites
-
-![Vulcanization of POLYIsoprene V.2](../images/polymers/polymers_natural.png)
-
-> *Schematic Structure Example of the Vulcanization_of_POLYIsoprene with n = 0, 1, 2, 3 ...*
-
-> *Image: Jü, CC0*
-
-![Vulcanization of POLYIsoprene V.2](../images/polymers/polymers_rubber_natural.png)
-
-> *Schematic Structure Example of the Vulcanization_of_POLYIsoprene with n = 0, 1, 2, 3 ...*
-
-> *Image: Jü, CC0*
-
 
 - [Foundations](../foundations/index.md) — basic agricultural and processing infrastructure
 - [Distillation](../chemistry/distillation.md) — ethanol for shellac dissolution and ammonia for latex preservation
@@ -251,4 +237,3 @@ Beyond rubber and shellac, several natural materials provide adhesive properties
 
 [← Back to Polymers](index.md)
 
-![polymers rubber natural](../images/polymers/polymers_rubber_natural.jpg)

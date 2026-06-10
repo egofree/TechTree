@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Diagram showing Rolling Mill Forces & Tensions](../images/machine-tools/machine-tools_rolling-mill.jpg)
-
-> *Picture showing the Rolling Forces &amp; Tensions acting on the strip in an inter-stand of a Tandem Rolling Mill*
-
-> *Image: AutoElectEngr, CC BY-SA 4.0*
-
 A rolling mill reduces the cross-section of heated (or cold) metal by passing it between counter-rotating cylindrical rolls. Each pass reduces thickness by 10-30% and elongates the workpiece proportionally. The rolls grip the metal by friction and draw it through the narrowing gap. Force on each roll is determined by the material's flow stress at temperature, the contact area (roll bite), and the reduction ratio. For hot steel at 1000°C, yield stress is approximately 50-80 MPa — low enough for hand-powered mills to process bar up to 10 mm thick. Cold rolling requires higher force but produces work-hardened, dimensionally precise sheet.
 
 Rolling is the only practical method for producing uniform bar stock, sheet, and plate in quantity. These materials feed every downstream process: [machining](machining.md), [forming](forming.md), [construction](../construction/index.md), and [electrical wiring](../energy/electricity.md). Without rolling, all stock must be forged by hammer — a process limited to ±1-3 mm dimensional accuracy and low throughput. The rolling mill transforms metallurgical output (ingots, blooms) into the standardized shapes that industrial production requires.

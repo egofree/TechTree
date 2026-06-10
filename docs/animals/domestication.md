@@ -8,7 +8,6 @@
 > **Outputs**: livestock, breeding_stock, manure, dairy, meat, eggs
 > **Critical**: Yes — foundation node enabling all livestock and poultry species
 
-
 Domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Before domestication, humans rely entirely on hunting and gathering — protein intake is unpredictable, labor is limited to human muscle, and fiber comes only from wild plants. Domesticated animals provide continuous output: daily milk, annual fleece, seasonal offspring, steady draft power, and manure that sustains crop yields. A single dairy cow produces 3,000–6,000 liters of milk per year — equivalent to the protein from dozens of wild game animals, without the uncertainty of the hunt.
 
 Without livestock you cannot plow: hand-digging limits farms to 0.5–1 hectare per family; ox-plowed farms reach 5–10 hectares. You cannot produce milk or dairy — the most efficient conversion of pasture to human-edible calories. You cannot source wool or leather from managed herds (hunt-based supply is seasonal and unreliable). You cannot maintain soil fertility — without manure, yields decline 2–5% per year under continuous cropping. You cannot produce eggs — the highest feed-to-protein conversion ratio of any food animal. You cannot transport goods beyond human carrying capacity. Without livestock, settlements remain small, farms remain limited, and surplus production is impossible.
@@ -36,7 +35,6 @@ Domestication is not a one-time event. It requires continuous daily management �
 | Grain supplement | Oats, barley, or cracked corn | 500–1000 kg | For working oxen, lactating cows, and poultry through winter |
 | Shelter (3-sided shed) | Timber frame, thatch or shingle roof, 3–4 m² per cattle beast | 50–60 m² floor area | Separate areas for cattle, small ruminants, and poultry |
 | Water trough | Wood or stone, 100–200 L capacity | 2–3 units | Clean, fresh water daily; freeze-proof in winter |
-
 
 Animal domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Fifteen primary farmed species — eight mammalian livestock, seven poultry, plus insects — form the core of any pre-industrial animal husbandry system. Each fills a distinct niche in the settlement ecology, from traction power and milk production to waste conversion and pest control.
 
@@ -236,8 +234,6 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 **Fire safety in barns**: Barn fires are catastrophic — they kill animals too panicked to flee and destroy winter feed stores. Store hay only after it has dried to below 18% moisture (probe with a hay moisture meter; above 25% moisture, spontaneous combustion is possible within 3-7 days of baling). Never store gasoline, oils, or other flammables in animal housing. Use lanterns with enclosed flames (or better, electric lighting when available). Maintain a firebreak of 10 m between hay storage and animal housing. Keep sand or water buckets near the barn entrance for emergency fire suppression.
 
 **Predator protection**: Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Guard dogs (raised with the flock from puppyhood, 2-3 dogs per 100 head of sheep) are the most effective deterrent. Llamas and donkeys also guard sheep and goats against canids. Night housing in predator-proof enclosures (tight fencing, covered where hawks are a threat) reduces losses. Remove carrion promptly — it attracts predators. Electric fencing (one wire at 25 cm and one at 60 cm, 3,000-5,000 V pulse) deters most predators but requires wire and an energizer.
-
-
 
 ## See Also
 

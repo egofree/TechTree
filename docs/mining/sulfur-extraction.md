@@ -10,18 +10,6 @@
 
 ## Overview
 
-![Sulfur extraction drawing (pipe end)](../images/mining/mining_sulfur-extraction.jpg)
-
-> *Sulfur extraction drawing (pipe end)*
-
-> *Image: Percy Cyril Lesley Thorne, Public domain*
-
-![Frasch Process](../images/mining/mining_sulfur-extraction-diagram.png)
-
-> *Pictorial representation of the Frasch process. Adapted from Wolfgang Nehb, Karel Vydra (2005), “Sulfur”, in Ullmann’s Encyclopedia of Industrial Chemistry, Weinheim: Wiley-VCH, DOI:10.1002/14356007.a25_507.pub2*
-
-> *Image: Rifleman 82 (talk), Public domain*
-
 Extraction of elemental sulfur from volcanic deposits (native sulfur collection), pyrite roasting, Frasch process (superheated water injection into underground deposits), and Claus process (recovery from sour gas). Sulfur is the gateway feedstock for sulfuric acid production — the most produced industrial chemical and foundation of the chemical industry.
 
 Sulfuric acid consumes more sulfur than any other application. It is used in steel pickling, fertilizer production, petroleum refining, chemical synthesis, and battery production. A civilization that cannot produce sulfuric acid cannot produce phosphate fertilizers, cannot refine petroleum, cannot make most synthetic chemicals. Sulfur availability is therefore a civilizational bottleneck — without it, the chemical industry does not exist.

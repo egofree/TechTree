@@ -432,4 +432,3 @@ The $5/kWh target depends on SEM Tech membranes achieving adequate selectivity a
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
-![energy redox flow battery](../images/energy/energy_redox-flow-battery.jpg)

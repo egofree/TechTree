@@ -8,16 +8,9 @@
 > **Outputs**: meat, angora_wool, manure, pelts
 > **Critical**: Yes — fastest path to animal protein with minimal infrastructure
 
-
 Rabbits (*Oryctolagus cuniculus*) are the highest-efficiency terrestrial livestock for converting plant material to meat. A single doe produces 180-300 kg of dressed meat per year through her offspring — more protein output per unit of feed than any other mammal. Rabbits require minimal space (stackable cages), reproduce rapidly (28-31 day gestation, 6-12 kits per litter, 4-6 litters per year), and reach slaughter weight in 10-12 weeks. Angora rabbits produce one of the finest natural fibers (12-16 microns), and rabbit manure is uniquely "cold" — it can be applied directly to growing crops without composting.
 
 ## Prerequisites
-
-![Rabbits for sale in Yogyakarta](../images/animals/animals_rabbits.jpg)
-
-> *DSC00429/Java/Jogyakarta/Rabbit for Sale*
-
-> *Image: DANIEL JULIE from Paris, France, CC BY 2.0*
 
 - [Basic tools](../foundations/tools-basic.md) — wire, wood, and fasteners for cage construction
 - [Food and agriculture](../foundations/food-agriculture.md) — hay, greens, and grain for feed
@@ -51,7 +44,6 @@ Materials listed per 10-doe rabbitry per year.
 | Nest boxes | 10-12 boxes | [`foundations.tools-basic`](../foundations/tools-basic.md) | 30 × 25 × 20 cm |
 | Pine shavings/straw | 200-400 kg | [`plants`](../plants/index.md) | For nesting |
 | Water system | Nipple or crock | [`water`](../water/index.md) | 1 per 5 rabbits |
-
 
 ## Meat Production
 
@@ -144,7 +136,6 @@ Materials listed per 10-doe rabbitry per year.
 - First-time does may have smaller litters and poor nest-building
 - Kits born naked and blind — die within hours without nest warmth
 - Cannibalism risk if doe is underfed or stressed post-kindling
-
 
 ## Production Benchmarks
 

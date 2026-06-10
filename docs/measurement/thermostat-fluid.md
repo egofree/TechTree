@@ -8,9 +8,7 @@
 > **Timeline**: Years 10-30
 > **Outputs**: remote_sensing, proportional_control, mercury_switching
 
-
 Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, enabling remote temperature sensing (the sensor can be meters from the controller) and frictionless switching via mercury. They build directly on the mechanical types: the mercury tilt thermostat uses a bimetallic coil to move a mercury ampoule, and the liquid expansion thermostat replaces thermal expansion of a metal rod with thermal expansion of a liquid. These types bridge the gap between purely mechanical devices and the electrical/electronic types that follow.
-
 
 ## Mercury Tilt Thermostat
 
@@ -77,7 +75,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Operating range limited by mercury freezing (-38°C) and boiling (357°C)
 - Requires advanced glassblowing to create hermetic platinum-to-glass seals
 
-
 ## Mercury-in-Glass Contact Thermometer
 
 **Principle**: A mercury thermometer with a special capillary tube containing two platinum wire electrodes sealed into the glass at a precise, adjustable position. The mercury column rises with temperature. When it reaches the electrode tips, it bridges the gap between them, completing an electrical circuit. This provides a precise, visual temperature indication combined with electrical switching. The setpoint can be adjusted by moving one electrode (via a threaded magnetic adjuster or a calibrated screw mechanism) up or down the capillary.
@@ -136,8 +133,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Very limited switching current (a few milliamps); must drive a relay, not a heater directly
 - Slow response due to thermal mass of mercury column
 - Requires precision glassworking skill to fabricate
-
-
 
 ## Liquid Expansion Thermostat (Bulb & Bellows)
 
@@ -202,7 +197,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Fill liquid limits maximum temperature (silicone oil degrades above 250°C)
 - Bulb and capillary volume must be carefully matched to bellows stroke
 
-
 ## Vapor Pressure Thermostat
 
 **Principle**: A sealed bulb is partially filled with a volatile liquid, leaving the rest of the volume filled with its saturated vapor. The vapor pressure above a liquid depends solely on temperature (Clausius-Clapeyron relation), not on the quantity of liquid. As the bulb temperature rises, more liquid evaporates and vapor pressure increases exponentially with temperature. This pressure is transmitted through a capillary to a bellows or bourdon tube, which actuates a switch or valve. The key distinction from the liquid expansion type: vapor pressure systems use the *pressure* of the vapor phase, not the *volume expansion* of the liquid phase.
@@ -264,7 +258,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Each volatile liquid covers a limited range; switching ranges means rebuilding
 - Hermetic seal failure causes total loss of function
 
-
 ## Gas Expansion Thermostat
 
 **Principle**: A sealed bulb filled with an inert gas (nitrogen or helium) connected by capillary to a pressure-sensing element (bellows or bourdon tube). Unlike liquid or vapor systems, the gas follows the ideal gas law: P × V = n × R × T. Since the volume is fixed (sealed system), pressure is directly proportional to absolute temperature (Gay-Lussac's Law: P/T = constant). This gives a perfectly linear pressure-temperature relationship, unlike the exponential behavior of vapor pressure systems. The gas expansion thermostat has the widest useful range of any sealed-system type.
@@ -318,7 +311,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Any gas leak causes complete calibration failure
 - Bulb and capillary must withstand maximum pressure at highest temperature
 - Ambient temperature changes along the capillary affect the reading
-
 
 ## Wax Pellet Thermostat (Wax Actuator)
 
@@ -382,7 +374,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Wax degrades and changes properties after many thousands of thermal cycles
 - Hysteresis between melting and solidification temperatures
 
-
 ## Thermostatic Radiator Valve (TRV)
 
 **Principle**: A self-contained proportional valve that combines a temperature sensor (wax pellet or liquid-filled bulb) with a valve body in a single unit. The sensor directly operates the valve stem: as room temperature rises above the setpoint, the expanding wax or liquid pushes the valve stem toward the closed position, reducing hot water flow through the radiator. As the room cools, the sensor contracts and a return spring opens the valve. The TRV provides continuous proportional control (not just on/off) without any external power source.
@@ -445,7 +436,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Wax or liquid sensor drifts slightly over years of operation
 - No remote control capability; setpoint adjusted only at the valve
 
-
 ## Pneumatic Thermostat
 
 **Principle**: A temperature-sensitive element (bimetallic strip, liquid-filled bulb, or gas-filled bulb) modulates the clearance in a nozzle-flapper assembly. Compressed air (typically 3-15 psi / 0.2-1.0 bar) is supplied to the nozzle. The flapper (a thin metal plate) is positioned by the temperature sensor. As temperature rises, the sensor moves the flapper closer to the nozzle, restricting airflow and building up back-pressure in the signal line. This variable air pressure (3 psi = full cooling, 15 psi = full heating, or vice versa) drives pneumatic actuators on valves, dampers, and other equipment. The pneumatic thermostat provides continuous proportional control with no electrical power.
@@ -506,7 +496,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Complex calibration requiring pressure gauges and temperature baths
 - Limited to environments where compressed air infrastructure exists
 
-
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
@@ -529,8 +518,6 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - **Pressurized systems**: Gas expansion thermostats operate at 5-10 bar fill pressure. At maximum temperature (800°C), internal pressure can reach 25+ bar. A ruptured bellows or failed braze joint releases high-pressure gas and hot liquid. Test all pressure-containing assemblies hydrostatically at 1.5× maximum working pressure before filling with gas. Never exceed the rated temperature of the sensing bulb.
 - **Volatile fill liquid hazards**: Methyl chloride (refrigeration thermostats) is toxic, flammable, and a suspected carcinogen. Acetone is extremely flammable (flash point -20°C). Toluene is flammable and a reproductive toxin. Handle fill liquids in ventilated areas with appropriate respiratory protection. Use grounding and bonding when transferring flammable liquids to prevent static ignition.
 - **Compressed air**: Pneumatic thermostats operate from compressed air at 18-20 psi. While this is low pressure, compressed air injected into the skin through a cut or abrasion causes an air embolism (a medical emergency). Never point compressed air nozzles at skin. Wear safety glasses when working with pneumatic systems — particulate in the air stream can cause eye injury.
-
-
 
 ---
 

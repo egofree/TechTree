@@ -275,9 +275,7 @@ Proper handling of input materials and products is essential for consistent resu
 - Finished timepieces should be stored in a stable environment (moderate temperature and humidity) and wound regularly to maintain mechanism health. A chronometer that sits unwound for months may develop oil thickening and pivot degradation.
 - Segregate waste streams: brass filings for recycling, steel scraps for re-melting.
 
-
 ---
 
 *Part of the [Bootciv Tech Tree](../../index.md) · [Measurement](./index.md) · [All Domains](../../index.md)*
 
-![measurement horology](../images/measurement/measurement_horology.jpg)

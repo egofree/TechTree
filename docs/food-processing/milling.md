@@ -8,11 +8,9 @@
 > **Timeline**: Years 0-20
 > **Outputs**: flour, bran, grits, meal
 
-
 Grain milling converts harvested grain into flour — the single most important food processing operation in civilization. A workforce that eats bread is 2-3x more calorie-efficient than one eating whole-grain porridge. Milling also produces bran (animal feed), grits (coarse meal), and germ (oil source). The progression from hand-powered stone grinding to water-powered millstones to roller milling mirrors the broader energy revolution: each step multiplies throughput by 5-10x while reducing human labor.
 
 This capability begins with stone-age saddle querns (covered in [Agriculture & Food Production](../foundations/food-agriculture.md)) and extends through industrial roller milling. The focus here is on the technological progression beyond hand querns.
-
 
 ## Stone Milling Materials
 
@@ -32,7 +30,6 @@ This capability begins with stone-age saddle querns (covered in [Agriculture & F
 | Screens (plansifter) | 20-40 screens per sifter | [Metals](../metals/index.md) — steel wire, nylon | Silk (traditional, less durable) |
 | Electrical energy | 30-50 kWh per tonne wheat | [Energy](../energy/index.md) | Steam engine (via belt drive), water wheel |
 | Water (tempering) | 100-150 L per tonne grain | [Water](../water/index.md) | Moisture must reach 15-16% before milling |
-
 
 ## Milling Technology Progression
 
@@ -174,7 +171,6 @@ Proper grain storage is critical to prevent losses between harvest and milling:
 - **Storage losses**: Typical 5-15% losses in developing-world storage due to insects (weevils, borers), rodents, and mold. Proper storage reduces this to <2%.
 - **Quality testing before milling**: Visual inspection (mold, insect damage, foreign material). Moisture meter reading. Test weight (heavier grain = plumper kernels = more flour). Falling number test (measures α-amylase activity — too high indicates sprouting damage).
 
-
 ## Milling Throughput by Technology Stage
 
 | Stage | Power Source | Output (kg flour/hour) | Extraction Rate | Labor (persons) | Energy Input |
@@ -249,7 +245,6 @@ Proper grain storage is critical to prevent losses between harvest and milling:
 - **Aflatoxin risk**: Mold-contaminated grain (Aspergillus flavus) produces aflatoxin, a potent carcinogen. Grain must be visually inspected and moisture kept below 13% for storage. UV fluorescence screening detects contaminated lots.
 - **Flour dust explosion**: Flour dust is explosive at concentrations of 40-60 g/m³ in air. All electrical equipment in mills must be explosion-proof. Dust collection systems (cyclone separators + bag filters) are mandatory. Ignition sources (sparks, static, open flames) must be eliminated. Historical flour mill explosions were a major industrial hazard.
 - **Rotating machinery**: Roller mills and millstones have powerful rotating components. Guard all belt drives and gear trains. Emergency stop mechanism accessible from operator position. Never reach into a running roller mill.
-
 
 ## Millstone Dressing and Maintenance
 

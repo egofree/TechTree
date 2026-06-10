@@ -10,13 +10,6 @@
 
 ## Prerequisites
 
-![Onesti Refinery, Atmospheric and Vacuum Distillation Units no. 1 and 2](../images/petroleum/petroleum_refining_distillation.jpg)
-
-> *„Instalațiile D.A.V. —1 și D.A.V. —2 de la Rafinăria Onești”*
-
-> *Image: Unknown authorUnknown author, Public domain*
-
-
 Petroleum refining requires a substantial industrial base:
 
 - [Distillation technology](../chemistry/distillation.md) — fractionation columns, heat exchangers, condensers
@@ -269,7 +262,6 @@ Refineries produce marketable products by blending components from multiple proc
 
 Blended from straight-run diesel, hydrocracked diesel (highest quality, cetane 55-65), and FCC light cycle oil (lowest quality, cetane 20-35, used in limited quantities). Target: cetane number >50, sulfur <10 ppm, cold filter plugging point below ambient minimum temperature.
 
-
 ## Simple (Hydroskimming) Refinery
 
 ADU + VDU + catalytic reformer + hydrotreaters. Can process light sweet crude into gasoline, diesel, kerosene, fuel oil, and asphalt. Cannot convert heavy residue into lighter products. Minimum ~50,000 bbl/day throughput. Suitable for light crudes.
@@ -302,8 +294,6 @@ A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, ste
 - **Lubricant base stocks**: [Lubricants](../chemistry/lubricants.md)
 - **Petrochemical feedstocks**: [Petrochemical Feedstocks](petrochemicals.md)
 - **Coal tar alternative**: [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md)
-
-
 
 ## Troubleshooting
 

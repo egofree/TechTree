@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Barut 2346918 01](../images/mining/mining_black-powder.jpg)
-
-> *Barut*
-
-> *Image: Satirdan kahraman, CC BY-SA 4.0*
-
 Gunpowder manufacture (75% KNO₃, 15% charcoal, 10% sulfur) for mining blasting. Process: pulverize ingredients separately, wet-mix, press into cakes, crumble and sieve to grain sizes. Corning process ensures uniform burn rate. Enables breaking rock far beyond fire-setting and hand-tool limits.
 
 Black powder represents the first practical chemical explosive. Before its adoption in mining, the only methods for breaking hard rock were fire-setting (heating rock with a fire, then cracking it with cold water quenching) and laborious hammer-and-chisel work. Black powder blasts remove orders of magnitude more rock per worker-day, transforming mining from a slow, manual operation into an industrial-scale materials extraction process. The key constraint on production is saltpeter supply — potassium nitrate must be harvested from nitrate-bearing earth or produced by controlled composting of organic waste, both of which are land- and time-intensive.
@@ -290,4 +284,3 @@ Proper handling of input materials and products is essential for consistent resu
 
 *Part of the [Bootciv Tech Tree](../../index.md) · [Mining](./index.md) · [All Domains](../../index.md)*
 
-![mining extraction black powder diagram](../images/mining/diagram:mining_extraction-black-powder.jpg)

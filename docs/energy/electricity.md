@@ -11,18 +11,6 @@
 
 ## Electricity Generation
 
-![Figure 14- Geographic Distribution of Electricity Generation from Fossil Fuel Electricity Generating Units, 2010 (7315637614)](../images/energy/energy_electricity.jpg)
-
-> *This image is excerpted from a U.S. GAO report: www.gao.gov/products/GAO-12-545R Air Emissions and Electricity Generation at U.S. Power Plants*
-
-> *Image: U.S. Government Accountability Office from Washington, DC, United States, Public domain*
-
-![Schematic-diagram-of-the-automatic-voltage-regulator](../images/energy/energy_power-systems-diagram.png)
-
-> *Schematic diagram of a power distribution voltage regulator*
-
-> *Image: Guo, Min; Jin, Qingren; Yao, Zhiyang; Chen, Weidong, CC BY 3.0*
-
 **Strengths**:
 - Voltaic piles provide the first electrical source — no moving parts, works with basic materials (copper, zinc, brine)
 - Daniell cell produces stable 1.1V — sufficient for telegraph operation and electroplating

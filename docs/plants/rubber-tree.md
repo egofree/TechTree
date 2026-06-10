@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Rubber Tree](../images/plants/plants_rubber-tree.jpg)
-
-> *leaves of rubber tree*
-
-> *Image: Vis M, CC BY-SA 4.0*
-
 Rubber Tree
 
 *Hevea brasiliensis* (Euphorbiaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Para rubber tree, Caoutchouc tree provides leaves, seeds/nuts as its primary edible product.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are grown from seeds. Seeds need to be planted fresh. They can also be grown from cuttings. Propagation: Seed viability is very short at 7–10 days, so seed should be sown as soon as possible, either in situ with 2 or more seeds per hole followed by selective thinning, or in a nursery bed. Germination takes 1–3 weeks depending on conditions and seed freshness, and is best at around 25°C. Seedlings reach 1–1.5 metres in height within 6 months. Seed storage behaviour is recalcitrant; viability can be maintained for up to 3 months in moist storage using moist charcoal and sawdust in a perforated polythene bag kept at 7–10°C. Whole seed moisture content is 36%; the lowest safe moisture content is 20%, and no seeds survive desiccation to 15%. Seeds are killed by exposure to -5°C for 3–4 hours. Commercial clonal seed is stored at around 4°C, which typically results in reduced but tolerable germination rates. Vegetative propagation is carried out by budding or cuttings; seedlings root well from cuttings, but material from older rubber-bearing trees takes very poorly or not at all.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -296,4 +289,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants rubber tree](../images/plants/plants_rubber-tree.jpeg)

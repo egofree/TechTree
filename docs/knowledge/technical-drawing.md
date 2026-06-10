@@ -14,12 +14,6 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 
 ## Prerequisites
 
-![Technical Drawing of Government Marble Confederate Headstone](../images/knowledge/knowledge_technical-drawing.jpg)
-
-> *Technical drawing from 1968 showing the specifications for a government-issued Confederate headstone with the Southern Cross of Honor emblem.*
-
-> *Image: Veterans Administration, Public domain*
-
 - **Materials**: Drawing paper (smooth, dimensionally stable — vellum or kraft paper), pencils (H through B grades), ink ([Writing](writing.md))
 - **Tools**: T-square or parallel straightedge, set square (30-60-90° and 45°), compass, dividers, ruling pen, protractor, French curves, eraser, drawing board
 - **Knowledge**: Geometry (planar constructions, projection theory), arithmetic, basic algebra, [Measurement](../measurement/precision-metrology.md) systems (units, tolerances)
@@ -34,7 +28,6 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 | Ink (India/carbon) | 5-10 mL per inked drawing | [Writing](writing.md) | Pencil-only drawings (lower reproducibility) |
 | Drafting tape | 4-8 strips per sheet | [Chemistry](../chemistry/index.md) (adhesive) | Pins (damages paper) |
 | Eraser (rubber/art gum) | Consumable | [Polymers](../polymers/index.md) | Bread crumbs (historical eraser) |
-
 
 ## Manual Drafting Procedure
 
@@ -52,7 +45,6 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 
 When internal features cannot be shown clearly with hidden lines, cut the imaginary object along a plane and draw the exposed interior. Section views use hatching (parallel lines at 45°, 2-4 mm spacing) to indicate cut material. Different materials use different hatch patterns: steel (45° parallel lines), cast iron (45° lines with alternating dots), copper alloys (45° lines alternating direction), and wood (grain pattern). Label the cutting plane with letters (A-A, B-B) and annotate the section view accordingly.
 
-
 ## Dimensioning Rules
 
 Follow these rules to produce unambiguous dimensioned drawings:
@@ -62,7 +54,6 @@ Follow these rules to produce unambiguous dimensioned drawings:
 - Stagger parallel dimension lines so arrowheads do not align vertically (prevents misreading).
 - Dimension from a common datum (one edge or feature) rather than chain-dimensioning (each dimension from the previous), to avoid tolerance accumulation.
 - Include a general tolerance note in the title block for dimensions without explicit tolerances (e.g., "General tolerances: ±0.5 mm linear, ±1° angular").
-
 
 ## Standard Sheet Sizes (ISO A-series)
 
@@ -139,7 +130,6 @@ Follow these rules to produce unambiguous dimensioned drawings:
 - **Accuracy check**: Verify all dimensions against the design calculation. Check arithmetic for derived dimensions. Verify that tolerances are achievable with the specified manufacturing method.
 - **Standard compliance**: Verify drawing conforms to the adopted standard (projection method, dimensioning style, line types, title block format). Non-standard drawings cause confusion and errors.
 - **Peer review**: Every drawing is checked by a second person before release. The checker uses a different color pencil to mark corrections. The original drafter incorporates all corrections before final approval.
-
 
 ## First-Angle vs. Third-Angle Projection
 

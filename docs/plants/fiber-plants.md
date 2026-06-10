@@ -8,17 +8,11 @@
 > **Outputs**: plant_fibers, raw_fiber
 > **Critical**: Yes — cordage and textiles from plant fibers are Year 0 necessities for shelter, tools, and clothing
 
-
 Fiber plants are the botanical source of the cordage, thread, and woven materials that underpin every stage of civilization bootstrapping. Before metal wire or synthetic polymers, all rope, twine, netting, basketry, and textiles came from plant (and animal) fibers. Cordage is a Year 0 necessity — binding spear points to shafts, lashing shelter frames, making snares and fishnets, carrying loads with simple bags. As material culture advances, spun and woven plant fibers become clothing, sailcloth, canvas, sacks, hammocks, and eventually the belts and drive bands for early machinery.
 
 This capability covers the cultivation, harvesting, and primary extraction of bast (stem), leaf, and seed fibers from plant species. The downstream processing of extracted fibers into yarn, cordage, and cloth is covered in [Fiber Preparation](../textiles/fibers.md) and [Spinning](../textiles/spinning.md).
 
 ## Fiber Categories by Plant Anatomy
-
-![Basket with lid title QS:P1476,en:"Basket with lid "label QS:Len,"Basket with lid "label QS:Lit,"Cestino con coperchio"](../images/plants/plants_fiber-plants.jpg)
-
-> *Image: Wikimedia Commons contributor, CC0*
-
 
 Different plant organs yield fibers with distinct properties, requiring different extraction methods:
 
@@ -307,8 +301,6 @@ Different applications benefit from combining fibers with complementary properti
 - Feeds into: [Spinning](../textiles/spinning.md) (material — plant_fibers)
 - Related: [Edible Plants](./edible-plants.md) (dual-use species — flax seeds, agave, coconut)
 - Related: [Structural Plants](./structural-plants.md) (thatching and wattle materials)
-
-
 
 ## Troubleshooting
 

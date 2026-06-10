@@ -10,12 +10,6 @@
 
 ## Principle
 
-![Textiles: a silk-spinning frame. Engraving.](../images/textiles/textiles_spinning-frame.jpg)
-
-> *Textiles: a silk-spinning frame. Engraving. Iconographic Collections Keywords: Benjamin Cole*
-
-> *Image: Wikimedia Commons contributor, CC BY 4.0*
-
 Mechanized spinning replaces hand drafting and twisting with powered rollers and high-speed spindles. Three systems dominate industrial spinning, each suited to different yarn types:
 
 **Water frame (Arkwright, 1769)**: Pairs of rollers draw fiber out (drafting), each successive pair rotating faster than the last. A typical 4-pair roller system increases surface speed 4-8× from first to last pair, attenuating the roving to the target thickness. The final pair feeds the attenuated fiber to a flyer that inserts twist. The water frame produces firm, even yarn suitable for warp — the critical bottleneck that limited hand spinning to weft-only production. Roller diameters: 25 mm typical, ground smooth to ±0.02 mm.

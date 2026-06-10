@@ -21,12 +21,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ## Materials
 
-![Antamina Mine Tailings Pond](../images/mining/mining_tailings-reprocessing.jpg)
-
-> *The tailings pond of the Antamina Tailings Dam at the Atamina Dam in Peru.*
-
-> *Image: Xtremizta, CC BY-SA 2.0*
-
 | Material | Specification | Source |
 |----------|--------------|--------|
 | Mine tailings | Accessible tailings deposit with assay data | Existing mine waste (historical or active) |
@@ -272,4 +266,3 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../../index.md)*
 
-![mining tailings reprocessing diagram](../images/mining/diagram:mining_tailings-reprocessing.jpg)

@@ -10,18 +10,6 @@
 
 ## Overview
 
-![Planet Mechanics wood gasifier](../images/chemistry/chemistry_petroleum-alternatives_wood-gasification.jpg)
-
-> *A schematic showing the wood gasifier built by Dick Strawbridge and Jem Stansfield for the show "Planet Mechanics". Parts: A: wood B: fire C: air inlet (air going to 4 nozzles) D: reduction zone; contains charcoal; smoke goes trough the accumulated charcoal and reacts with it. H2O and CO2 becomes H2 and CO D1: top grating (movable) D2: lower grating (not movable) D3: handle: used to stir up the wood to provide evenly high temperature over top grating E: smoke F: single-cyclone seperator (coarse filter) G: partially filtered smoke H: radiator (reduces heat of gas and hence condenses the gas, making it more flammable/potent) I: cooled, partially filtered smoke J: fine filter (consisting of clay balls on top of a grating) K: wood gas (= fully filtered, cooled smoke) L: air/gas mixer (replaces IC engine carburetor) L1: air inlet valve (operated via handle mounted to gear stick) L2: choke valve*
-
-> *Image: KVDP, CC0*
-
-![Wood gasification boiler](../images/chemistry/chemistry_wood-gasification.jpg)
-
-> *Wood gasification boiler scheme*
-
-> *Image: Ignatus, CC BY-SA 3.0*
-
 Producer gas generation from biomass via shaft gasifier: partial combustion produces CO+H₂+N₂ mixture (~5-6 MJ/m³). Gas cleaning via water scrubbing, sawdust filter, cyclone. Can power internal combustion engines directly. Powered vehicles during WWII fuel shortages. Bridge technology before natural gas infrastructure.
 
 Wood gasification sits between complete combustion (excess air, products are CO₂ and H₂O) and pyrolysis (no air, products are charcoal, tar, and wood gas). By carefully limiting the air supply, the biomass is partially oxidized, providing the heat to drive endothermic reactions that convert the remaining solid carbon and volatile matter into combustible gases. The resulting producer gas contains carbon monoxide (15-25%), hydrogen (10-20%), methane (1-3%), carbon dioxide (8-12%), and nitrogen (50-55% from the air blast). The nitrogen dilution is the main drawback: it halves the heating value compared to oxygen-blown syngas (CO + H₂, ~11 MJ/m³).
@@ -212,4 +200,3 @@ The Imbert gasifier design has been extensively documented in wartime manuals an
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
-![chemistry petroleum alternatives wood gasification](../images/chemistry/chemistry_petroleum-alternatives_wood-gasification.png)

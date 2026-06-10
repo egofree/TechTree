@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Black Pepper](../images/plants/plants_black-pepper.jpg)
-
-> *Piper nigrum, black pepper being still green in the Jardin du Roi, Mahe, Seychelles.*
-
-> *Image: NorbertNagel, CC BY-SA 4.0*
-
 Black Pepper
 
 *Piper nigrum* (Piperaceae) is a medicinal & spice plant species of major importance for civilization bootstrapping. Pepper provides fruit, seeds/nuts, spice/beverage as its primary edible product and ranks 73/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 A plant of the hot and humid lowland tropics, where it grows best at elevations up to 500 metres, but can be grown up to 2,000 metres. It grows best in areas where annual daytime temperatures are within the range 22 - 35°c, but can tolerate 10 - 40°c. It prefers a mean annual rainfall in the range 2,500 - 4,000mm, but tolerates 2,000 - 5,500mm. Grows best in sheltered positions in semi-shade. Prefers a neutral soil rich in organic matter. Prefers a pH in the range 6 - 7, tolerating 5 - 7.5. Level ground is most suitable for the production of pepper, prov ided there is no flooding, but it is often grown in rolling country or on hill slopes of varying steepness. The plant begins to bear in 3 - 4 years, can reach full production after 7 years and has an economic life of about 12 - 20 years. Optimum yields at low capital input are 6 tonnes per hectare of the unprocessed (green) peppers; 2 tonnes of the sundried (black) peppers; or 1.67 tonnes of the washed and dried (white) peppers. In gardens with higher inputs, yields may be 8 - 9 tonnes of green pepper in the first harvest and 12 - 20 tonnes in the sixth or seventh harvest. The root system can be 4 metres or more deep. Flowering Time: Mid Summer. Bloom Color: White/Near White. Spacing: 12-15 ft. (3.6-4.7 m). Propagation: Propagate by seed or by cuttings — very easy. Use shoots of wood about 45cm long, taken from parts of the plant that have already flowered.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

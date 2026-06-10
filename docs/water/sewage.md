@@ -8,21 +8,13 @@
 > **Outputs**: treated_wastewater, sewage_disposal, biogas
 > **Critical**: Yes — cholera epidemics in 19th-century cities demonstrated that sewage management is a prerequisite for urban civilization at any scale
 
-
 Collection, conveyance, and treatment of wastewater and sewage. In any settled community, the volume of wastewater generated (drinking, cooking, washing, latrine flush) rapidly contaminates surface and groundwater sources if not managed. Cholera epidemics in 19th-century cities demonstrated that sewage management is not optional — it is a prerequisite for urban civilization at any scale.
 
 A community of 1,000 people generates approximately 50-200 m³ of wastewater per day (50-200 liters per person per day). This wastewater contains pathogens (cholera, typhoid, E. coli, hepatitis, rotavirus, giardia, cryptosporidium, helminths), organic matter (200-400 mg/L biochemical oxygen demand), suspended solids (200-500 mg/L), and nutrients (nitrogen 20-50 mg/L, phosphorus 5-15 mg/L). Untreated discharge creates disease cycles: sewage contaminates water supply → population sickens → more sewage from sick population.
 
 This capability covers the full range of sewage management from pit latrines (achievable from Year 0) through activated sludge treatment (requiring industrial infrastructure).
 
-
 ## Materials
-
-![AERATING SEWAGE IS ONE STEP OF THE PROCESS AT THE BACK RIVER SEWAGE TREATMENT PLANT](../images/water/water_sewage.jpg)
-
-> *AERATING SEWAGE IS ONE STEP OF THE PROCESS AT THE BACK RIVER SEWAGE TREATMENT PLANT*
-
-> *Image: Jim Pickerell, Public domain*
 
 - [Cement and concrete](../chemistry/cement.md) — for tanks, pipes, and treatment structures
 - [Clay pipes](../ceramics/kilns.md) or [cast iron pipes](../metals/iron-steel.md) — for sewer networks
@@ -49,7 +41,6 @@ This capability covers the full range of sewage management from pit latrines (ac
 | Clay or concrete pipe (100-200 mm) | 500-2,000 m | [Ceramics](../ceramics/index.md) | Cast iron (higher pressure rating) |
 | Gravel for leach fields | 10-50 m³ | Quarry or river | Crushed stone |
 | Sand for filter beds | 20-100 m³ | Quarry or river | No substitute |
-
 
 ## Pit Latrines
 
@@ -268,7 +259,6 @@ The most common secondary treatment method in industrialized nations. Requires e
 - [Ceramics](../ceramics/index.md) — clay pipes and tank linings
 - [Health: Sanitation](../health/sanitation.md) — sewage treatment is the infrastructure backbone of public sanitation
 - [Agriculture](../agriculture/index.md) — treated effluent and composted sludge for irrigation and fertilization
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

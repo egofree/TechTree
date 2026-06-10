@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![WikiAfrica Higher Education training with Politecnico](../images/knowledge/knowledge_education.jpg)
-
-> *This is a screenshot from one the WikiAfrica Higher Education training with Politecnico di Milano in March 2022.*
-
-> *Image: Tochiprecious, CC BY-SA 4.0*
-
 - **Materials**: Paper, ink, and printed textbooks from [Printing](printing.md); workshop consumables (metal stock, chemicals, wood) for hands-on practice
 - **Tools**: Drafting instruments, measurement tools from [Measurement](../measurement/precision-metrology.md), workshop equipment for practical exercises (lathe, mill, forge, chemistry glassware)
 - **Knowledge**: [Writing](writing.md) system for documentation, spoken language for instruction, mathematical literacy (arithmetic minimum) for technical subjects
@@ -31,7 +25,6 @@
 | Drafting instruments | 1 set per student | [Metals](../metals/index.md) | Shared sets (4 students per set) |
 | Measurement tools | 1 set per 2 students | [Measurement](../measurement/precision-metrology.md) | Shared with scheduled access |
 | Safety equipment (PPE) | 1 set per student | [Chemistry](../chemistry/index.md), [Textiles](../textiles/fibers.md) | Improvised protection (lower safety) |
-
 
 ## Education System
 
@@ -209,8 +202,6 @@
 - **Knowledge decay quantified**: Studies of industrial skills show that complex manual skills (precision welding, instrument-grade machining) degrade noticeably after 6 months of inactivity, falling to 70-80% of peak performance after 12 months without practice. Theoretical knowledge (mathematics, physics) decays more slowly but benefits from periodic review exercises. Schedule mandatory refresher sessions for critical skills at intervals no longer than the demonstrated decay half-life for each skill category.
 - **Training program audit**: Review training effectiveness annually by sampling graduate performance on standardized tasks. If fewer than 80% of recent graduates pass the practical competency assessment on first attempt, the curriculum or instruction quality needs revision. Track the correlation between training hours, instructor-to-student ratio, and assessment pass rates to optimize resource allocation.
 
-
-
 ## Cross-Domain Dependencies
 
 - Education requires [Writing](../knowledge/writing.md) for documentation. Trains practitioners for [Machine Tools](../machine-tools/iterative-bootstrap.md), [Metals](../metals/iron-steel.md), [Ceramics](../ceramics/pottery.md), [Textiles](../textiles/weaving.md). Uses [Printing](../knowledge/printing.md) textbooks.
@@ -249,4 +240,3 @@
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../../index.md)*
 
-![knowledge education](../images/knowledge/knowledge_education.png)

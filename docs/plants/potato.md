@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Potato](../images/plants/plants_potato.jpg)
-
-> *Solanum tuberosum (potato) flowers*
-
-> *Image: Ввласенко, CC BY-SA 3.0*
-
 Potato
 
 *Solanum tuberosum* (Solanaceae) is a staple food crop species of major importance for civilization bootstrapping. Potato provides leaves, roots as its primary edible product and ranks 47/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are grown from tubers. Due to virus diseases it is necessary to get fresh seed tubers each few years. Large tubers can be cut to include a bud or "eye". A seed piece of 40-50 g is suitable. It is best to inter-crop as this stops bacterial wilt spreading. The plant is surrounded by dirt when 20-25 cm tall. Later the tubers need to be kept covered with dirt. Providing extra light (4-5 hours) allows plants to form flowers and true seed to be collected. Propagation: Sow seed in early spring in a warm greenhouse. Prick out seedlings into a fairly rich compost as soon as they are large enough to handle and grow them on quickly. Plant out after the last expected frosts. Alternatively, propagate by division. Harvest tubers in autumn after frost has cut back the top-growth, store in a cool frost-free place over winter, and replant in April.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -284,4 +277,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants potato](../images/plants/plants_potato.jpeg)

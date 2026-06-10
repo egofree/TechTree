@@ -8,9 +8,7 @@
 > **Timeline**: Years 40-60+
 > **Outputs**: non_contact_temperature_sensing, calibration_grade_measurement, shape_memory_actuation
 
-
 Advanced thermostats cover three specialized niches: shape memory alloy actuators for compact, high-force thermal switching; quartz crystal sensors for calibration-grade precision; and infrared pyrometers for non-contact temperature measurement at extreme temperatures. These types are not needed for general-purpose temperature control but become essential at the frontier of semiconductor manufacturing and high-temperature process control.
-
 
 ## Shape Memory Alloy (SMA) Thermostat
 
@@ -60,7 +58,6 @@ Advanced thermostats cover three specialized niches: shape memory alloy actuator
 - Fatigue and drift after many thousands of thermal cycles
 - Expensive alloy requiring precise composition control during melting
 - Slow response compared to electronic switching (seconds to actuate)
-
 
 ## Quartz Crystal Temperature Sensor Thermostat
 
@@ -116,7 +113,6 @@ Advanced thermostats cover three specialized niches: shape memory alloy actuator
 - Limited range compared to thermocouples (-50 to 250°C)
 - Slow thermal response due to metal can packaging
 - Overkill for most applications; hard to justify the cost and complexity
-
 
 ## Infrared/Radiation Pyrometer Thermostat
 
@@ -180,7 +176,6 @@ Advanced thermostats cover three specialized niches: shape memory alloy actuator
 - Struggles with polished metals (low emissivity, weak signal)
 - Needs blackbody calibration source for reliable accuracy
 
-
 ## Scaling Notes
 
 Advanced thermostat technologies scale with the underlying materials science capability:
@@ -239,7 +234,6 @@ Each advanced thermostat type requires specific calibration and verification:
 - **IR-transparent optics hazards**: Germanium lenses and zinc selenide windows used in IR pyrometers are brittle and can shatter if dropped. Germanium is also a heavy metal with toxicity concerns if ingested or inhaled as dust. Handle optics with care, wear gloves, and do not grind or machine germanium without respiratory protection.
 - **NiTi (Nitinol) alloy processing**: Melting nickel and titanium together requires temperatures above 1300°C in an inert atmosphere. Titanium powder is pyrophoric (ignites spontaneously in air). Nickel and its compounds are skin sensitizers and suspected carcinogens. Melt NiTi in sealed, argon-purged furnaces only. Do not grind or machine NiTi without dust collection and respiratory protection.
 - **Blackbody calibration sources**: Operating at temperatures up to 1200°C, these sources present severe burn and fire hazards. Enclose the hot cavity in a heat-shielded housing. Allow adequate cooling time (2-4 hours for a 1200°C source) before opening or handling. Use infrared viewers or cameras, never direct visual observation, to check cavity conditions at high temperature.
-
 
 ---
 

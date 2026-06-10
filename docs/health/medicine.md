@@ -8,19 +8,11 @@
 > **Outputs**: surgical_capability, medical_treatment
 > **Critical**: Yes — basic medical capability reduces preventable death more than any other single intervention
 
-
 Medicine and surgery in a bootstrap civilization encompasses pharmaceutical production from plant and synthetic sources, basic surgical capability (wound management, fracture reduction, amputation), diagnostic examination, emergency procedures, and infection control. The foundational tier relies on plant-derived medicines and manual techniques; later stages add synthetic pharmaceuticals, laboratory diagnostics, and increasingly sophisticated surgical interventions.
 
 Access to even basic medical capability — wound irrigation, fracture immobilization, antiseptic practice, and a handful of essential drugs (ether for anesthesia, morphine for pain, quinine for malaria) — dramatically reduces preventable death. Lister's introduction of antisepsis in 1867 alone cut surgical mortality from ~50% to ~15%. The gap between "no medical capability" and "basic wound care + essential drugs" is larger than the gap between "basic care" and "modern hospital medicine" in terms of lives saved.
 
-
 ## Pharmaceutical Materials
-
-![Medicine and Surgery in the Great War.](../images/health/health_medicine.jpg)
-
-> *Exhibition: 1968-9: Medicine and Surgery in the Great War. General view. Wellcome Images Keywords: Wellcome Exhibitions; War*
-
-> *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 | Material | Source | Use |
 |----------|--------|-----|
@@ -63,7 +55,6 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 | Autoclave / pressure cooker | Sterilization | Metal vessel + heat source |
 | Bone saw | Amputation | Steel + woodworking tools |
 | Tourniquet | Hemorrhage control | Cloth + stick windlass |
-
 
 ## Performing Wound Irrigation and Closure
 
@@ -288,7 +279,6 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Ethanol**: 70% concentration (by weight) is optimal. Applied to intact skin before procedures. Denatures bacterial proteins and disrupts cell membranes. Not effective against spores or some viruses. Fast-acting (15-30 seconds contact). Flammable.
 - **Povidone-iodine (Betadine)**: 2.5% iodine in a polymer carrier (povidone). Broad-spectrum: bacteria (including MRSA), fungi, viruses, spores (with prolonged contact). Applied to intact skin and mucous membranes. Less irritating than tincture of iodine. Inactivated by blood and organic material — clean wound before applying. Do not use on large open wounds or burns (systemic iodine absorption causes thyroid dysfunction).
 - **Chlorhexidine 4%**: Persistent antimicrobial activity (remains effective on skin for hours after application). More effective than povidone-iodine for surgical hand scrubs. Not effective against spores. Rare allergic reactions. Less inactivated by blood than iodine. Used for surgical site preparation and hand hygiene.
-
 
 ## Safety & Hazards
 

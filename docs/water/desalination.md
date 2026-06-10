@@ -8,7 +8,6 @@
 > **Outputs**: fresh_water, brine
 > **Critical**: No — essential only in water-scarce coastal or brackish regions; most civilizations can develop without it initially
 
-
 Removing dissolved salts from seawater (35,000 mg/L TDS) or brackish water (1,000-10,000 mg/L TDS) to produce fresh water suitable for agriculture, industry, and human consumption. Desalination becomes necessary when freshwater sources are insufficient — arid coastal regions, island communities, and drought-prone areas. Global desalination capacity exceeds 100 million m³/day, with reverse osmosis accounting for roughly 70% of installed capacity.
 
 Desalination methods fall into three families:
@@ -18,7 +17,6 @@ Desalination methods fall into three families:
 3. **Emerging/hybrid** — forward osmosis, membrane distillation, solar stills
 
 This capability covers the three dominant methods: multi-stage flash distillation, reverse osmosis, and electrodialysis. Pretreatment and post-treatment are critical for all methods.
-
 
 ## Materials
 - [Seawater or brackish water](procurement.md) as feed
@@ -57,7 +55,6 @@ This capability covers the three dominant methods: multi-stage flash distillatio
 | Stainless steel piping (316L) | 500-2,000 m | [Metals](../metals/index.md) | Duplex stainless, titanium |
 | Concrete (intake/outfall) | 50-200 m³ | [Chemistry: Cement](../chemistry/cement.md) | — |
 | Antiscalant | 2-10 L/day | [Chemistry](../chemistry/index.md) | Acid dosing (sulfuric acid) |
-
 
 ## Reverse Osmosis (RO)
 
@@ -244,7 +241,6 @@ All desalination methods produce concentrated brine. For seawater RO at 40% reco
 - [Polymers](../polymers/index.md) — membrane materials and production
 - [Energy: Electricity](../energy/electricity.md) — power supply for desalination
 - [Water Distribution](distribution.md) — post-desalination water delivery
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

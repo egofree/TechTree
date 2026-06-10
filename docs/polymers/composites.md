@@ -8,7 +8,6 @@
 > **Outputs**: fiberglass_composites, carbon_fiber_composites, composite_laminates
 > **Critical**: No — composites provide high strength-to-weight but metals and wood serve most structural needs
 
-
 Fiber-reinforced polymer composites combine high-strength fibers (glass, carbon, aramid) with a binding matrix resin (polyester, epoxy, vinyl ester) to produce materials stronger and lighter than either component alone. Composites dominate aerospace structures, marine hulls, chemical-resistant tanks, electrical enclosures, and sporting goods — anywhere the combination of high strength-to-weight ratio, corrosion resistance, and design flexibility justifies the manufacturing effort.
 
 The key advantage of composites over metals is **anisotropy**: fibers can be oriented to carry load in the directions where strength is needed, without wasting material on directions that see little stress. A steel beam is equally strong in all directions (isotropic), but a composite laminate can be 5× stronger along the fiber direction than across it — enabling highly optimized structures. The trade-off is manufacturing complexity: composite properties depend on fiber type, fiber volume fraction, matrix selection, layup method, and cure cycle, all of which must be controlled simultaneously.
@@ -16,19 +15,6 @@ The key advantage of composites over metals is **anisotropy**: fibers can be ori
 This article covers fiber properties, layup methods, matrix selection, manufacturing techniques, and phase-dependent milestones for composite production.
 
 ## Prerequisites
-
-![Drilled hole in carbon fiber reinforced polymer (CFRP) sample](../images/polymers/polymers_composites.jpg)
-
-> *Drilling defects of carbon fiber reinforced polymer (CFRP)*
-
-> *Image: Andrew Hrechuk, CC BY 4.0*
-
-![Drilled hole in carbon fiber reinforced polymer (CFRP) sample](../images/polymers/polymers_composites.gif)
-
-> *Drilling defects of carbon fiber reinforced polymer (CFRP)*
-
-> *Image: Andrew Hrechuk, CC BY 4.0*
-
 
 - [Glass fibers](../glass/fibers.md) — E-glass or S-glass fiber reinforcement (continuous roving, woven fabric, or chopped strand mat)
 - [Thermoset resins](thermosets.md) — polyester, epoxy, or vinyl ester matrix resins with catalyst and hardener
@@ -45,7 +31,6 @@ This article covers fiber properties, layup methods, matrix selection, manufactu
 - **Recycling challenge**: Thermoset matrix composites cannot be remelted. Recycling options are limited to grinding into filler (low-value), pyrolysis (burn off resin, recover fiber — degrades fiber properties 10-30%), or solvent dissolution (recovers clean fiber but requires harsh chemicals). Carbon fiber recycling is economically viable at scale; fiberglass recycling is not.
 - **Moisture absorption**: Epoxy and polyester matrices absorb 0.5-2.0% moisture by weight over time. Moisture plasticizes the matrix, reducing Tg by 20-40°C and decreasing stiffness and strength. Composite structures in marine or humid environments must be designed with degraded "wet" properties, not dry-room values.
 - **UV degradation**: Polyester and epoxy resins degrade under UV exposure (surface chalking, microcracking). UV-resistant gel coats or paint systems are required for outdoor exposure.
-
 
 ## Fiberglass Properties
 
@@ -82,7 +67,6 @@ All values are PAN-based carbon fiber (polyacrylonitrile precursor). Carbon fibe
 | Elongation at break | 3.6% | 2.5% | 1.5% |
 
 Kevlar 49 is the standard composite reinforcement grade. Outstanding impact resistance — absorbs 3-5× more energy per unit weight than steel. Flame resistant (chars above 400°C, does not melt or drip). Negative coefficient of thermal expansion in fiber direction (contracts when heated) — useful for dimensional stability in space structures.
-
 
 ## Hand Layup
 
@@ -181,7 +165,6 @@ Epoxy: highest mechanical properties, lowest shrinkage (<2%), best adhesion to f
 
 Vinyl ester: hybrid chemistry — epoxy backbone with unsaturated ester end-groups. Combines epoxy's chemical resistance with polyester's room-temperature MEKP cure. Best choice for corrosion-resistant tanks, pipes, and chemical equipment. Cost: 2× polyester, 0.5× epoxy.
 
-
 ## Calibration / Verification
 
 ### Void Content (Burn Test — ASTM D2584)
@@ -201,7 +184,6 @@ Press the Barcol impressor into the cured laminate surface. Read hardness direct
 ### Laminate Thickness Check
 
 Measure at 5 points with calipers (±0.1 mm). Variation must be <10% of nominal thickness. Excessive variation indicates uneven layup or inconsistent roller pressure.
-
 
 ## Fiber Production
 
@@ -319,7 +301,6 @@ structural reinforcement in hybrid composites.
 - **Epoxy sensitization**: Uncured epoxy resin and amine hardeners cause allergic contact dermatitis after repeated skin exposure. Once sensitized, the allergy is permanent. Wear nitrile gloves and change them immediately if contaminated with resin. Minimize all skin contact with uncured materials.
 - **Carbon fiber dust**: Electrically conductive — airborne carbon fiber dust can short-circuit electronic equipment, including control systems and computers in the workshop. Also a respiratory irritant and potential lung hazard. Use respiratory protection when machining carbon fiber composites. Isolate carbon fiber cutting/sanding from electronic equipment. Clean with HEPA vacuum. Use sealed enclosures for CNC machining of carbon fiber parts.
 
-
 ## Cross-Domain Dependencies
 
 - Fiber from [Glass Fibers](../glass/fibers.md) or [Textile Fibers](../textiles/fibers.md). Matrix from [Thermosets](../polymers/thermosets.md) or [Thermoplastics](../polymers/thermoplastics.md). [Coatings](../chemistry/coatings.md) for gel coat.
@@ -352,4 +333,3 @@ structural reinforcement in hybrid composites.
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
 
-![polymers composites](../images/polymers/polymers_composites.png)

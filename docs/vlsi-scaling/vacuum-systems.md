@@ -12,12 +12,6 @@ Vacuum systems — pumps, chambers, gauges, and seals — provide the low-pressu
 
 ## Prerequisites
 
-![Centralized-vacuum-systems](../images/vlsi-scaling/vlsi-scaling_vacuum-systems.jpg)
-
-> *centralized vacuum systems for indutries*
-
-> *Image: Zior79, CC BY-SA 4.0*
-
 - [Gas Handling Vacuum](../gas-handling/vacuum.md) — vacuum fundamentals, roughing pump types, and basic leak detection
 - [Steel](../metals/index.md) — stainless steel for vacuum chambers and fittings
 - [Precision Metrology](../measurement/precision-metrology.md) — gauge calibration and measurement traceability

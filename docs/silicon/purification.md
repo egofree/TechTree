@@ -10,18 +10,6 @@
 
 ## Purification Pathways
 
-![Crystal structure of Silicon Material](../images/silicon/silicon_purification.jpg)
-
-> *Crystal structure of Silicon Material created by xcrysden*
-
-> *Image: MmRoma, CC0*
-
-![Silicon purification processes](../images/silicon/silicon_purification-diagram.png)
-
-> *Silicon purification processes. Schematic diagram of the conventional Siemens process and the alternative Fluidized bed reactor (FBR) process.*
-
-> *Image: Rfassbind, Public domain*
-
 ### Option A: Chemical Purification (Siemens-like Process)
 
 This is the standard industrial route to semiconductor-grade polysilicon (99.9999999%+ purity).

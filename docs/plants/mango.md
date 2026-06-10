@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Mango](../images/plants/plants_mango.jpg)
-
-> *Mango (Mangifera indica L.) flower and fruit with a purple-eyed butterfly (Papilio sp.). Coloured aquatint by W. Hooker after J. Forbes, 1768. Iconographic Collections Keywords: William Hooker; James Forbes*
-
-> *Image: Wikimedia Commons contributor, CC BY 4.0*
-
 Mango
 
 *Mangifera indica* (Anacardiaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Mango, Bowen Mango provides fruit, leaves, seeds/nuts as its primary edible product.

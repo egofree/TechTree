@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Teff](../images/plants/plants_teff.jpg)
-
-> *Teff (Eragrostis tef);*
-
-> *Image: Rasbak, CC BY-SA 3.0*
-
 Teff
 
 *Eragrostis tef* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Teff provides seeds/nuts as its primary edible product and ranks 65/100 on the nutrition score.
@@ -122,7 +116,6 @@ Beyond injera, teff flour produces several foods:
 | Protein content | ~13% | Comparable to wheat |
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

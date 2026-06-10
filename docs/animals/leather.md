@@ -8,7 +8,6 @@
 > **Outputs**: leather, rawhide, tanned_hides
 > **Critical**: Yes — leather drive belts, gaskets, and protective gear are essential for pre-industrial machinery
 
-
 Before synthetic rubber and plastics, leather was the only flexible, durable, abrasion-resistant sheet material available. It drives factory machinery — leather belts transmit power from steam engines to individual machines. It protects workers — heat-resistant gloves and aprons shield against molten metal and hot surfaces. It carries goods — harness, saddles, and straps are the backbone of animal-drawn transport. It provides footwear — the single most important protective equipment for human labor. No other material combines leather's tensile strength (20-50 MPa), flex endurance (50,000+ cycles), and workability with hand tools.
 
 Without leather: no power transmission belts (every pre-electrical factory runs on leather drive belts — without them, line shaft power cannot reach individual machines), no durable footwear (humans walking 10-20 km/day on rough ground wear out shoes in weeks without leather soles), no watertight gaskets and seals for pumps and engines, no harness for draft animals (no plowing, no cart transport without leather harness), no protective clothing for foundry work and welding, no bookbinding material that lasts centuries, no drum heads or bellows for musical instruments and forge equipment.
@@ -16,12 +15,6 @@ Without leather: no power transmission belts (every pre-electrical factory runs 
 Leather production requires livestock (cattle, sheep, goats) for hides, lime (Ca(OH)₂) from limestone for dehairing, and tannins from tree bark or chromium salts for tanning. The process takes 2-8 weeks for vegetable tanning or 1 day for chrome tanning. Each adult cattle hide yields 1.5-3.0 m² of finished leather — enough for one pair of boots or 2-3 drive belts.
 
 ## Prerequisites
-
-![Leather production, Arsk national footwear factory (2023-04-14) 03](../images/animals/animals_leather.jpg)
-
-> *Коврик диванный (1960-е гг., кожа цветная, бархат, мозаика), ичиги (1968 г., кожа цветная, мозаика). Арская фабрика национальной обуви. Национальная художественная галерея «Хазинэ».*
-
-> *Image: Vyacheslav Kirillin, CC BY-SA 4.0*
 
 - **Materials**: [Cattle, sheep, and goat hides](./cattle.md) (25-45 kg fresh per cattle hide, must be processed within 4-6 hours in warm climates), [salt (NaCl)](../chemistry/acids.md) for curing (25-35 kg per cattle hide), [lime (Ca(OH)₂)](../ceramics/lime.md) for dehairing (6-10% on hide weight), [sodium sulfide (Na₂S)](../chemistry/index.md) for unhairing (1.5-3.0% on hide weight), [tannin source](../plants/fiber-plants.md) (oak bark 15-25 kg per cattle hide, or quebracho/mimosa extract), [oils and fats](./animal-materials.md) for fat-liquoring (cod liver oil, neat's-foot oil, or fish oil at 4-10% on leather weight)
 - **Tools**: [Fleshing knife](../machine-tools/index.md) (curved blade, 30-40 cm wide), [fleshing beam](../machine-tools/index.md) (wooden cylinder, 20-30 cm diameter), [tanning pits or drums](./index.md) (stone/concrete pits 2×2×2 m, or wooden drums 1.5-3.0 m diameter), [bark mill](../machine-tools/index.md) (stone or iron rollers for grinding tannin bark), [splitting machine](../machine-tools/machining.md) (band-knife type for splitting hides), [clicker press](../machine-tools/index.md) (hydraulic, 10-30 tonnes, for cutting shapes)
@@ -42,7 +35,6 @@ Leather production requires livestock (cattle, sheep, goats) for hides, lime (Ca
 | Fat-liquor (fish oil emulsion) | Sulfated cod liver oil or synthetic | 0.2-0.5 kg | 4-10% on leather weight; lubricates fibers for flexibility |
 | Water | Clean, 15-20°C for soaking | 1,500-3,000 L | 300-500% of hide weight for soaking; 30-50 m³ total process water |
 | Dye (optional) | Acid or direct dye | 0.05-0.25 kg | 1-5% on leather weight; for colored leather |
-
 
 Leather — animal hide preserved through tanning — provides durable, flexible material for belts, footwear, harnesses, gaskets, book covers, and protective clothing. Vegetable tanning (tannins from bark) and chrome tanning (dichromate salts) are the primary methods. Leather drive belts were the universal power transmission medium in factories before electricity.
 
@@ -258,8 +250,6 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 - [Food & Agriculture](../foundations/food-agriculture.md) — livestock production as the source of hides
 - [Knowledge: Writing](../knowledge/writing.md) — parchment and vellum for manuscripts
 - [Energy: Steam Power](../energy/steam-power.md) — leather belts for power transmission from steam engines
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Animals](./index.md) • [All Domains](../../index.md)*

@@ -8,7 +8,6 @@
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-
 Chemical analysis, material identification, and dimensional metrology at sub-micrometer precision all depend on optical instruments that measure how light interacts with matter. Spectroscopy identifies elements by their emission and absorption fingerprints. Refractometry quantifies solution concentration. Interferometry measures length to nanometer resolution. Without these instruments, semiconductor process control is guesswork.
 
 ### Instrument Performance Summary
@@ -224,7 +223,6 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 - **Laser hazards in interferometry**: Helium-neon lasers (632.8 nm, 0.5-5 mW) used as interferometer sources cause retinal damage from direct or specularly reflected beam exposure. Even diffuse reflections at close range exceed safe exposure limits. Classify the laser, label the workspace, and provide wavelength-matched safety goggles for all personnel in the interferometer area.
 - **Chemical hazards in colorimetry**: Photographic processing (for spectroscopic plates) involves developers containing hydroquinone (skin sensitizer, toxic by ingestion), stop baths (acetic acid, corrosive), and fixers (sodium thiosulfate, low toxicity but generates sulfur dioxide when acidified). Work in ventilated areas, wear nitrile gloves, and store chemicals in labeled containers away from food and drink.
 
-
 ## Limitations
 
 - **Optical glass quality**: Spectroscopes, refractometers, and interferometers all depend on the quality of their optical components. Inhomogeneity, striae, and stress birefringence in glass degrade measurement accuracy. High-quality optical glass requires controlled melting, fine annealing, and homogeneity testing — a significant manufacturing investment.
@@ -252,7 +250,6 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 - [Optics](../optics/index.md) — optical coatings, precision instruments, inspection
 - [Chemistry](../chemistry/index.md) — optical glass materials, chemical analysis applications
 - [Photolithography](../photolithography/index.md) — overlay metrology and alignment measurement
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*

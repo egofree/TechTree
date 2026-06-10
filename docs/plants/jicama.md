@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Jicama](../images/plants/plants_jicama.jpg)
-
-> *Pachyrhizus erosus growing as a weed in a nature park in Cairns, Queensland*
-
-> *Image: Steve Fitzgerald, CC BY-SA 4.0*
-
 Jicama
 
 *Pachyrhizus erosus* (Fabaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Yam bean, Jicama provides leaves, roots, seeds/nuts as its primary edible product and ranks 55/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 It is grown from seeds and also grows wild. Seed should be presoaked for 12 hours in warm water to encourage rapid germination. Seed germinate within 2 weeks. Plants can be grown by dividing the root clump and growing plants from the thickened roots. Cuttings will grow. A spacing of 50 cm between plants is suitable. Topping the plant by picking out the growing point and removing the flowers is supposed to help tubers form. Propagation: Pre-soak seed for 12 hours in warm water, then sow in situ. Root tubers can be divided. Cuttings are also an option.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -260,4 +253,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants jicama](../images/plants/plants_jicama.jpeg)

@@ -8,7 +8,6 @@
 > **Outputs**: beef, dairy, tallow, leather_hides, manure, draft_power
 > **Critical**: Yes — most productive multi-purpose livestock species
 
-
 Cattle are the single most productive domesticated species for a bootstrapping civilization. A mature cow converts pasture and roughage into high-value protein (meat and milk), provides draft power for plowing and transport, produces leather and tallow as industrial materials, and generates 30-40 kg of nitrogen-rich manure per day that sustains soil fertility. Mature weight ranges from 400-800 kg (cows at the lower end, bulls and oxen at the upper). Gestation is 283 days (range 279-290), producing a single calf per pregnancy (twins in roughly 1-2% of births).
 
 No other livestock species matches cattle for combined output of food, fiber, power, and fertilizer. Their size makes them capital assets — each animal represents significant investment in feed, housing, and labor, but returns proportionally high value over a productive lifespan of 10-15 years.
@@ -25,12 +24,6 @@ No other livestock species matches cattle for combined output of food, fiber, po
 | Manure production | 30-40 kg/day | 8-12 tonnes/year |
 
 ## Prerequisites
-
-![Salzburg Zoo Hellbrunn Watusi cattle Bos taurus taurus watusi-0153](../images/animals/animals_cattle.jpg)
-
-> *Female Watusi cattle Bos taurus taurus watusi in Salzburg Zoo*
-
-> *Image: Isiwal, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -55,7 +48,6 @@ Materials listed per 20-cow operation per year.
 | Iodine solution (7%) | 2-4 L | [`health.medicine`](../health/medicine.md) | Betadine antiseptic |
 | Fencing materials | Wire, posts, hardware | [`metals.iron-steel`](../metals/index.md) | Hedgerows, stone walls |
 | Breeding bull or AI supplies | 1 bull per 25 cows | Natural service or [`health.medicine`](../health/medicine.md) | AI straws (requires liquid nitrogen) |
-
 
 ## Dairy Management
 
@@ -210,7 +202,6 @@ Materials listed per 20-cow operation per year.
 - Drought reduces pasture productivity by 40-60%, requiring supplemental feed
 - Overgrazing degrades pasture rapidly — recovery takes 1-3 years
 
-
 ## Production Benchmarks by Breed Type
 
 | Parameter | Holstein (Dairy) | Jersey (Dairy) | Hereford (Beef) | Dual-Purpose |
@@ -303,7 +294,6 @@ No other single species produces as many different valuable outputs as cattle. A
 - [`food-processing`](../food-processing/index.md) — butter, cheese, and fermented milk products from raw milk
 - [`agriculture`](../agriculture/index.md) — pasture management, crop rotation, manure as fertilizer
 - [`health.medicine`](../health/medicine.md) — disease treatment, vaccination, veterinary supplies
-
 
 ## See Also
 

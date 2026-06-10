@@ -8,7 +8,6 @@
 > **Outputs**: copper_interconnects, plated_nickel, plated_gold, plated_tin, copper_filled_vias
 > **Critical**: Yes — copper damascene electroplating is the only practical method to fill high-aspect-ratio interconnect features below 250 nm
 
-
 Semiconductor interconnects — the microscopic copper wiring that connects transistors on a chip — require void-free metal fill in trenches and vias as narrow as 25 nm with aspect ratios up to 10:1. Physical vapor deposition (PVD) and chemical vapor deposition (CVD) cannot achieve conformal coverage in these deep, narrow features: sputtered atoms have limited step coverage, and CVD precursors have sticking coefficients that prevent bottom-up fill. Electroplating solves this through additive-controlled deposition kinetics — suppressor molecules dominate on flat surfaces while accelerator molecules concentrate at feature bottoms, creating bottom-up fill that packs copper into sub-50 nm trenches without voids. No other deposition method achieves this.
 
 ## Prerequisites
@@ -18,7 +17,6 @@ Semiconductor interconnects — the microscopic copper wiring that connects tran
 - [Copper production](../metals/non-ferrous.md) — copper sulfate and anode material
 - [Semiconductor fab processes](../photolithography/fab-processes.md) — damascene patterning and CMP planarization
 - [Cleanroom capability](../photolithography/cleanrooms.md) — contamination control for plating baths
-
 
 Electroplating deposits metal from solution onto a conductive substrate by reducing metal cations at the cathode using externally applied current. While the fundamental principle is shared with electrorefining (see [Electrolysis](../chemistry/electrolysis.md)), semiconductor electroplating demands far greater precision: feature sizes from 25 nm to 10 μm, aspect ratios up to 10:1, and film uniformity of ±5% across 300 mm wafers. The copper damascene process — where electroplated copper fills etched trenches and vias in the dielectric — has been the dominant interconnect technology since its introduction by IBM in 1997, replacing physical vapor deposition (PVD) aluminum at the 250 nm node and below.
 

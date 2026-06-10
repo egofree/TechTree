@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Oat](../images/plants/plants_oat.jpg)
-
-> *Avena sativa Aaltertroshaver (middle), Triticum dicoccum (left), Avena sativa black oat (right)*
-
-> *Image: Rasbak, CC BY-SA 3.0*
-
 Oat
 
 *Avena sativa* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Oats provides seeds/nuts as its primary edible product and ranks 61/100 on the nutrition score.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Oats are an easily grown crop that succeeds in any moderately fertile soil in full sun. They prefer a poor dry soil and tolerate cool moist conditions. Plants are reported to tolerate an annual precipitation of 20 to 180cm, an average annual temperature range of 5 to 26°C, and a pH of 4.5 to 8.6. They thrive on a wide range of soils of ample, but not excessive, fertility. Well-drained neutral soils in regions where annual rainfall is 77cm or more are best. Loam soils are best, especially silt and clay loams. The plants are also reported to tolerate aluminium, disease, frost, fungus, herbicides, hydrogen fluoride, mycobacterium, nematode, rust, SO2, smut, and virus. Oats have a long history of cultivation as a food crop and are believed to be derived chiefly from two species, wild oat (A. fatua L.) and wild red oat (A. sterilis L.). They are widely cultivated for their seed, used as a source of protein, as well as for hay, as winter cover, and are used as a pasture crop in the growing or 'milk' stage. Oats are long-day plants, grown in cool climates in the Old and New World temperate zones, succeeding under variable conditions. Oats usually are not very winter hardy, although winter hardy cvs have been developed. A very hardy plant according to another report, the cultivated oat succeeds as far north as latitude 70°n and is widely cultivated in temperate zones for its edible seed, there are many named varieties. Although lower yielding than wheat (Triticum spp.), it is able to withstand a wider range of climatic conditions and is therefore more cultivated in cooler and wetter areas. Hot dry weather just before heading causes heads to blast and yields of seed to decrease. Self-pollination is normal, but cross-pollination by wind also occurs. If you wish to save the seed for sowing, each variety should be isolated about 180 metres away from other varieties. Oats grow well with vetch but they inhibit the growth of apricot trees. Oats are in general easily grown plants but, especially when grown on a small scale, the seed is often completely eaten out by birds. Some sort of netting seems to be the best answer on a garden scale. Avena sativa, commonly known as common oat, is a cool-season annual typically suited to USDA Hardiness Zones 3 through 10. While not a perennial, it is relatively cold-tolerant during its early growth stages and can withstand light frosts, making it ideal for early spring or fall planting depending on the region. Oats grow best in temperatures between 55 and 75°F (13 to 24°C) and are generally sown in the spring in colder zones or in the fall in warmer zones for use as a winter cover crop. Though it won’t survive hard frosts like some perennial grasses, its fast growth and tolerance of cooler conditions make it a popular choice for short-season grain production, as well as for use as green manure, forage, or mulch in regenerative and organic farming systems. Propagation: Seed - sow in situ in early spring or in the autumn. Only just cover the seed. Germination should take place within 2 weeks.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

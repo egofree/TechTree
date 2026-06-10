@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Common Bean](../images/plants/plants_common-bean.png)
-
-> *Karyotype of Common bean (Phaseolus vulgaris). 2n=22.*
-
-> *Image: Dongying Gao, Dongyan Zhao, Brian Abernathy, Aiko Iwata-Otsubo, Alfredo Herrera-Estrella, Ning Jiang and Scott A. Jackson, CC BY 4.0*
-
 Common Bean
 
 *Phaseolus vulgaris* (Fabaceae) is a staple food crop species of major importance for civilization bootstrapping. Common bean provides leaves, seeds/nuts as its primary edible product and ranks 65/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are grown from seed. Seed should preferably be planted on raised beds. Climbing types need stakes. Plants are self fertilised. Seeds remain viable for 2 years. Germination is normally good if seed have been well stored. In many places these beans are inter-cropped with other plants. If they are grown on their own, bush types can be spaced at 25 cm by 25 cm. Or they can be put closer together in rows wider apart to make weeding and harvesting easier. For dried beans, once the pods are mature and turning yellow, the whole plants are pulled, then dried and threshed. About 50-75 kg of seed will sow a hectare. Most French bean varieties are daylength neutral so day length does not affect flowering. Propagation: Pre-soak the seed for 12 hours in warm water and sow in mid-spring in a greenhouse. Germination should occur within 10 days. Prick seedlings out into individual pots when large enough to handle, and plant out after the last expected frosts. Seed can also be sown in situ in late spring, though it may not ripen in a cool summer.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

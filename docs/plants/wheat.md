@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Wheat](../images/plants/plants_wheat.jpg)
-
-> *Wheat field near Israeli moshav*
-
-> *Image: Davidbena, CC BY-SA 4.0*
-
 Wheat
 
 *Triticum aestivum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Wheat provides seeds/nuts as its primary edible product and ranks 58/100 on the nutrition score.
@@ -158,7 +152,6 @@ Wheat straw (the dried stalks after threshing) is a valuable co-product:
 | Straw energy content | ~15 MJ/kg | Dry basis, lower than firewood |
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -312,4 +305,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants wheat](../images/plants/plants_wheat.jpeg)

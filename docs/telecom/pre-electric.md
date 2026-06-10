@@ -8,7 +8,6 @@
 > **Outputs**: visual_signaling, semaphore_networks, beacon_systems
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-
 Before electrical communication, civilizations developed optical and acoustic signaling systems for transmitting information across distances. These systems range from simple signal fires visible for 5-50 km to sophisticated semaphore networks capable of relaying complex messages at 150-300 km/h across hundreds of kilometers. Every pre-electric signaling system encodes information into a physical medium (light, sound, smoke) that propagates through the environment.
 
 **Fundamental constraint**: Pre-electric systems are line-of-sight limited. The curvature of the Earth restricts visibility from a tower of height *h* to approximately sqrt(2Rh) meters, where R is Earth's radius (6,371 km). A 10 m tower sees ~11 km; a 30 m tower sees ~20 km; a 100 m tower on a hill 200 m above surroundings sees ~60 km.
@@ -193,7 +192,6 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 - Shortest useful range for most instruments — 3-10 km for drums and horns, not suitable for long-distance networks
 - Relay speed slowest of all methods — drum relay networks propagate at only 8-15 km/h through villages
 
-
 ## Signal Fire Station
 
 | Material | Quantity per Station | Specification | Source |
@@ -222,7 +220,6 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | Tripod and gimbal mount | 1 | Iron or brass, two-axis adjustment | [Metals](../metals/index.md) |
 | Shutter mechanism | 1 | Flat disc or flap, spring-loaded | [Metals](../metals/index.md) |
 | Sighting rod or scope | 1 | For aiming at target station | [Glass](../glass/index.md) |
-
 
 ## Signal Propagation Comparison
 
@@ -255,7 +252,6 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | 130 (horn/tuba) | 3-5 | 2-4 | Moderate |
 | 500-1000 (bell) | 3-10 | 2-5 | Moderate to high |
 | 2000+ (whistle) | 1-3 | 0.5-2 | High (absorbed rapidly) |
-
 
 ## Local Communication (1-10 km)
 
@@ -309,7 +305,6 @@ The electrical telegraph solved all five problems simultaneously. When telegraph
 - [Electrical Telegraph Networks](electric-telegraph.md) — The electrical successor that overcame all pre-electric limitations
 - [Writing & Record-Keeping](../knowledge/writing.md) — Encoding systems that pre-electric signaling borrows from
 - [Telegraph Communication](../transport/telegraph.md) — The electrical telegraph hardware details
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*

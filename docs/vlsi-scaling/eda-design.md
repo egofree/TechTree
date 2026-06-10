@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![Inverter Layout - Magic](../images/vlsi-scaling/vlsi-scaling_eda-design.png)
-
-> *VLSI Layout of an Inverter Circuit using Magic software*
-
-> *Image: Jovianeye, CC BY-SA 3.0*
-
 - [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — process gas chemistry for semiconductor fabrication
 - [Computing](../computing/index.md) — computer hardware to run EDA tools
 - [Electronics Assembly](../electronics/assembly.md) — PCB and package design for IC integration
@@ -442,6 +436,3 @@ Adopt EDA capabilities in this sequence as compute resources grow:
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
 
-![vlsi scaling packaging diagram](../images/vlsi-scaling/vlsi-scaling_packaging-diagram.png)
-
-![vlsi scaling eda design diagram](../images/vlsi-scaling/diagram:vlsi-scaling_eda-design.webp)

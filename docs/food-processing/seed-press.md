@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Seed Drilling - geograph.org.uk - 1530670](../images/food-processing/food-processing_seed-press.jpg)
-
-> *This farmer was drilling seed in a large field just of the minor road from Milborne St Andrew to Ansty via hewish farm*
-
-> *Image: Nigel Mykura, CC BY-SA 2.0*
-
 A seed press extracts oil from oilseeds (sunflower, rapeseed, sesame, flax, peanut) by applying high pressure to conditioned seed flakes, forcing the oil through a cage of bars or perforated plate while retaining the compressed meal (press cake) inside. Two designs serve bootstrap-scale production:
 
 **Screw press (expeller)**: A rotating screw shaft with progressively decreasing channel depth forces seed material through a cylindrical cage of bars with narrowing gaps. The screw compresses the material progressively — pressure increases from the feed end (near atmospheric) to the discharge end (50-150 bar). Oil flows out through the cage bar gaps; compressed meal exits as a solid cake at the discharge choke. The screw both conveys and compresses, making it a continuous process: feed seed in one end, oil flows out the sides, cake exits the other.

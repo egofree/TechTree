@@ -10,12 +10,6 @@
 
 ## Overview
 
-![An Afghan student carries his certificate of completion and new tool after graduating from the Trade Training School Multinational Base Tarin Kot, Uruzgan province, Afghanistan, Oct. 13, 2011 111013-F-QS178-016](../images/foundations/foundations_carpentry.jpg)
-
-> *An Afghan student carries his certificate of completion and new tool after graduating from the Trade Training School Multinational Base Tarin Kot, Uruzgan province, Afghanistan, Oct. 13, 2011. Students attended the four-month course to learn basic skills in carpentry, plumbing, framing and roofing, concrete and block laying, as well as tiling and painting; upon graduation they received a tool bag with tools used to perform the skills they learned.*
-
-> *Image: SSgt Jocelyn Ford, Public domain*
-
 Shaping and joining wood into structures, furniture, patterns, and tool handles using hand saws, planes, chisels, and measuring tools. Carpentry provides wooden patterns for metal casting, structural framing for buildings, and finished goods. The fundamental wood-working capability that supports construction and manufacturing.
 
 The craft develops in direct relationship with available tools. Stone blades can split and scrape green wood; bronze adds durability to edge tools; iron saws and plane blades enable precise dimensioning; steel edges hold sharpness long enough for production work. Each metallurgical advance improves what a carpenter can achieve, but the fundamental operations — measuring, marking, cutting to a line, and joining pieces — remain constant across technology levels.
@@ -227,4 +221,3 @@ Proper handling of input materials and products is essential for consistent resu
 
 *Part of the [Bootciv Tech Tree](../../index.md) · [Foundations](./index.md) · [All Domains](../../index.md)*
 
-![foundations carpentry diagram](../images/foundations/diagram:foundations_carpentry.png)

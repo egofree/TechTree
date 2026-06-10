@@ -8,23 +8,15 @@
 > **Outputs**: anodized_aluminum, hard_anodized_surfaces, anodized_titanium, oxide_coatings
 > **Critical**: No — anodizing produces durable oxide coatings for semiconductor equipment but alternative surface treatments exist
 
-
 Aluminum components in corrosive, high-wear, or high-purity environments need surface protection that paint cannot provide and electroplating cannot deliver without adhesion failures. Anodizing grows a ceramic oxide layer directly from the aluminum substrate — the coating is integral to the metal and cannot peel, chip, or delaminate because it IS the metal, oxidized in place. The oxide thickness is voltage-controlled (1.2-1.4 nm/V), giving precise, repeatable coatings from 5 μm (decorative) to 100+ μm (hard anodizing for wear resistance). No other surface treatment produces an integral ceramic coating on aluminum with this level of control.
 
 ## Prerequisites
-
-![Anodizzazione dell'alluminio](../images/electrochemistry/electrochemistry_anodizing.png)
-
-> *Struttura colonnare del rivestimento di anodizzazione dell'alluminio.*
-
-> *Image: Matteo Bordiga, CC BY-SA 4.0*
 
 - [Acids](../chemistry/acids.md) — sulfuric acid for Type II/III baths, oxalic acid additive
 - [Aluminum production](../metals/aluminum.md) — aluminum workpieces and alloy selection
 - [Electricity](../energy/electricity.md) — DC power supply (12-75 V, 500-10,000 A)
 - [Water treatment](../chemistry/alkalis.md) — clean rinse water and sealing bath chemistry
 - [Titanium](../metals/index.md) — for titanium anodizing applications
-
 
 Anodizing is an electrochemical oxidation process that converts a metal surface into a durable, controlled oxide layer. Unlike electroplating (which deposits metal onto a surface from an external source), anodizing grows the oxide from the substrate itself — the coating is integral to the metal and cannot peel, chip, or delaminate. The workpiece is the anode (hence "anodizing") in an electrolytic cell, and oxygen generated at the anode reacts with the metal to form a dense oxide.
 

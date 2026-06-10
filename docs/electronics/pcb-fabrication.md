@@ -16,12 +16,6 @@ This document covers the full PCB fabrication process from laminate production t
 
 ## Materials
 
-![35c3-9529-eng-deu-Artistic PCB Design and Fabrication webm-hd](../images/electronics/electronics_pcb-fabrication.jpg)
-
-> *9529-Artistic PCB Design and Fabrication*
-
-> *Image: c3voc – media.ccc.de, CC BY 4.0*
-
 - **Copper foil**: Electrodeposited (ED) or rolled, 17.5 μm (½ oz) or 35 μm (1 oz) thickness, >99.8% purity. From [copper electrorefining](../chemistry/electrolysis.md).
 - **Fiberglass cloth**: Woven E-glass fabric (thickness 0.05-0.35 mm, styles 106, 1080, 2113, 2116, 7628). From [glass fiber](../glass/fibers.md) production.
 - **Epoxy resin**: Difunctional or multifunctional bisphenol-A/epichlorohydrin epoxy, flame-retardant grade (FR-4 = Flame Retardant 4). From [thermoset polymer](../polymers/thermosets.md) chemistry.
@@ -333,4 +327,3 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
 
-![electronics pcb manufacturing](../images/electronics/electronics_pcb-manufacturing.jpg)

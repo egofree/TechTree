@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Coil spring hot forming](../images/metals/metals_springs.jpg)
-
-> *Hot forming of coil spring. A manufacturing process of Monroe Springs in Australia.*
-
-> *Image: Energy Saver, CC BY 3.0*
-
 Springs store mechanical energy through elastic deformation and release it on demand. Every mechanism of industrial civilization depends on them: valve springs in steam engines and internal combustion engines, suspension springs in rail vehicles and road vehicles, return springs in locks and latches, contact springs in electrical switches, and measuring springs in instruments and gauges. Without springs, valves do not close, suspensions do not absorb shock, and electrical contacts do not maintain pressure.
 
 A spring is any elastic element that deflects under load and returns to its original shape when the load is removed. The key material property is the elastic limit (also called yield strength in tension): the stress below which deformation is fully reversible. Spring steel achieves elastic limits of 700-1300 MPa after proper heat treatment, compared to 200-350 MPa for annealed mild steel. This high elastic limit, combined with good fatigue resistance, makes heat-treated high-carbon and alloy steels the dominant spring materials.

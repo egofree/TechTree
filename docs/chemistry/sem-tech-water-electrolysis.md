@@ -259,4 +259,3 @@ Even with a conservative 50% reduction in stack cost (not the full 95% membrane 
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
-![chemistry sem tech water electrolysis](../images/chemistry/chemistry_sem-tech-water-electrolysis.jpg)

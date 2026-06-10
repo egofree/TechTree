@@ -210,7 +210,6 @@ Inline resistivity measurement is the primary continuous indicator of UPW ionic 
 
 **Temperature compensation**: Resistivity is strongly temperature-dependent (18.2 MΩ·cm at 25°C but only ~12 MΩ·cm at 50°C). Inline temperature measurement with automatic compensation to 25°C reference is essential.
 
-
 ## Incoming Chemical Inspection
 
 Every batch of electronic-grade chemical must be tested before release to the fab:
@@ -297,6 +296,3 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../../index.md)*
 
-![ultra pure distillation](../images/ultra-pure/ultra-pure_distillation.png)
-
-![ultra pure water purification](../images/ultra-pure/ultra-pure_water-purification.png)

@@ -8,23 +8,9 @@
 > **Outputs**: shellac_flakes, shellac_solution, french_polish, phonograph_records
 > **Critical**: No — useful for insulation and finishing, but not a civilization bootstrap bottleneck
 
-
 Before synthetic polymers are available, civilization needs a fast-drying, non-toxic, natural resin for wood finishing, electrical insulation, food and pharmaceutical coatings, adhesive bonding, and thermoplastic molding. Shellac is the only natural material that combines all of these properties: it dries in minutes (not hours), bonds to nearly any substrate, is food-safe, provides dielectric insulation, and can be re-dissolved in ethanol for repair or rework. No other single natural substance matches this combination.
 
 ## Prerequisites
-
-![Shellac flakes closeup](../images/polymers/polymers_rubber_shellac.jpg)
-
-> *Closeup photo of two different colors of shellac flakes, for the shellac article. The one on the left is "Orange #1 Waxy" (the most-used, classic, historically-accurate shellac), and the one on the right is "Dewaxed Bona" shellac.*
-
-> *Image: Nuberger13 at en.wikipedia, Public domain*
-
-![Shellac flakes closeup](../images/polymers/polymers_shellac.jpg)
-
-> *Closeup photo of two different colors of shellac flakes, for the shellac article. The one on the left is "Orange #1 Waxy" (the most-used, classic, historically-accurate shellac), and the one on the right is "Dewaxed Bona" shellac.*
-
-> *Image: Nuberger13 at en.wikipedia, Public domain*
-
 
 - [Ethanol production](../chemistry/distillation.md) — shellac dissolves in ethanol; denatured spirit is the standard solvent
 - [Polymers overview](rubber.md) — parent node for natural polymer processing
@@ -231,8 +217,6 @@ Shellac is one of the safest finishing materials available — the primary hazar
 Shellac was one of the first materials traded on a large scale between Asia and Europe. The British East India Company exported shellac from India starting in the late 18th century, with peak exports reaching 30,000-50,000 tonnes per year in the early 20th century (India produced ~85% of the world's shellac supply — the state of Bihar was the center of production). The development of synthetic substitutes gradually reduced demand: phenolic resins replaced shellac in electrical insulation (1920s-1930s), vinyl records replaced shellac 78 RPM records (late 1940s-1950s), synthetic varnishes (polyurethane, polyester) replaced shellac in wood finishing (1950s-1960s), and synthetic dyes replaced lac dye in textiles (late 19th century). By the 1970s, global shellac production had fallen to ~10,000 tonnes/year. Current production is estimated at 5,000-10,000 tonnes/year, primarily for food/pharmaceutical coatings (confectioner's glaze and enteric tablet coatings — shellac's food safety and controlled-release properties remain unmatched by synthetic alternatives), wood finishing (French polish for antique restoration and fine furniture — the aesthetic qualities of shellac finish are prized by woodworkers), and niche applications where its unique properties (fast drying, food safety, natural origin, reversibility with ethanol) remain valuable.
 
 **Shellac's enduring value**: Despite 100+ years of synthetic alternatives, shellac survives because it combines properties that no single synthetic material matches: non-toxic (GRAS food-safe), fast-drying (15-30 minutes — faster than any synthetic varnish), reversible (dissolves in ethanol — allows repair and restoration), excellent adhesion to almost any substrate, natural product (renewable, biodegradable), and produces a distinctive warm, deep finish that synthetic finishes cannot replicate. These properties ensure shellac's continued use in specialized applications long after its mass-market roles have been taken over by synthetics.
-
-
 
 ## Comparison with Synthetic Finishes
 

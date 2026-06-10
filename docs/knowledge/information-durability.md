@@ -8,7 +8,6 @@
 > **Outputs**: archival_media, migration_protocols, preservation_standards
 > **Critical**: Yes — the bootstrapping effort spans 50-200+ years; without durable information preservation, critical knowledge is lost between generations
 
-
 Information durability is the systematic practice of ensuring that knowledge survives the passage of time. It encompasses the selection of storage media based on projected lifespan, environmental controls for archival storage, periodic migration of content from degrading media to fresh copies, format preservation strategies that ensure future readers can decode stored information, and the organizational discipline to maintain all of these continuously across generations.
 
 This capability addresses the *human systems* for preserving information — the policies, procedures, and institutional structures that keep knowledge alive. The technical infrastructure for data storage (magnetic media, optical discs, flash memory) is covered in [Computing: Data Storage](../computing/data-storage.md). The boundary is clear: knowledge domain = human organizational systems for preservation; computing domain = physical hardware for data storage.
@@ -35,7 +34,6 @@ A bootstrap civilization faces a uniquely severe durability challenge: the entir
 | Microfilm (silver halide) | 100-500 years | Medium | ~100 pages/frame, 2,000+ frames/roll | [Chemistry](../chemistry/index.md), [Optics](../optics/index.md) |
 | Magnetic tape | 10-30 years | Low | 100+ GB/cartridge | [Computing](../computing/data-storage.md) |
 | Optical disc (CD/DVD) | 50-100+ years (claimed) | Very low | 700 MB-50 GB/disc | [Computing](../computing/data-storage.md) |
-
 
 ## Archival Media Selection
 
@@ -71,8 +69,6 @@ For the most critical knowledge (Tier 1), create self-decoding archives:
 2. **Reading instructions**: Begin each archive with explicit instructions for decoding the medium itself. For paper: "This document contains written symbols representing spoken language. Read left to right, top to bottom." For digital media: describe the binary encoding, character set, and file format in human-readable text stored alongside the digital data.
 3. **Visual dictionaries**: Include illustrated glossaries where each technical term is shown with a drawing of the object it names. A future reader who has lost the language can reconstruct vocabulary from pictures.
 4. **Mathematical primers**: Include basic numeracy instruction (counting, arithmetic, geometry) as the foundation for all technical content. Mathematics is the closest thing to a universal language.
-
-
 
 ## Media Lifespan by Storage Condition
 
@@ -153,7 +149,6 @@ The Rosetta approach ensures that future readers can decode stored information e
 - **Condition surveys**: Inspect a random sample of 5-10% of holdings annually. Record condition (intact, minor damage, significant damage, critical). If more than 5% of surveyed items show significant degradation, investigate environmental controls and accelerate migration schedule.
 - **Migration verification**: After every migration (copying to new media), verify 100% of migrated content against the original. For digital migration, use checksums (SHA-256 or equivalent). For physical copying, compare character-by-character on a random sample (minimum 10% of pages).
 - **Catalog accuracy**: Maintain a complete catalog of all holdings, including location, medium, condition, migration history, and scheduled next migration. Audit catalog against physical holdings annually — every item must be locatable within 5 minutes from catalog entry.
-
 
 ## Multi-Media Redundancy (Rosetta Strategy)
 

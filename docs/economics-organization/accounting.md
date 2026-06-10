@@ -18,8 +18,6 @@ Accounting emerges when the volume of economic activity exceeds what can be trac
 
 The capability depends on [core mathematics](../mathematics/core-mathematics.md) for arithmetic operations (addition, subtraction, multiplication for quantities and values) and on [writing](../knowledge/writing.md) for permanent records that can be reviewed, audited, and referenced over time. Accounting transforms economic activity from a memory-based oral system into a document-based system that scales indefinitely.
 
-
-
 ## Materials
 
 - **Recording media**: Clay tablets (50-500 per year for active accounts), papyrus/paper (20-100 sheets per year), or wax tablets for temporary records. Quantity scales with transaction volume.
@@ -41,7 +39,6 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - Secure records storage: Dry, fire-protected space for ledgers. Accounting records are irreplaceable — loss of records means loss of economic memory.
 - Work surfaces: Tables or desks for writing and calculation.
 
-
 ## Bill of Materials (BOM)
 
 | Material | Quantity per Year (Community of 1,000) | Source | Alternatives |
@@ -51,8 +48,6 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Ink (if using papyrus/paper) | 1-2 L | [Chemistry](../chemistry/index.md) — iron gall or carbon ink | Charcoal + water (temporary, fades) |
 | Abacus or counting board | 1-2 | [Woodworking](../foundations/index.md) | Pebbles on lined surface (less efficient) |
 | Storage chests/shelves | 2-5 | [Woodworking](../foundations/index.md) | Niche in stone wall (fireproof) |
-
-
 
 ## Setting Up an Accounting System
 
@@ -120,8 +115,6 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - Physical inventory counting is labor-intensive — requires temporary halt to production for accurate count
 - Summary reports simplify complex reality — a single net income figure can mask important details
 
-
-
 ## Accounting Precision Requirements
 
 | Metric | Bronze-Age (Clay Tablets) | Iron-Age (Papyrus/Paper) | Industrial (Bound Ledgers) |
@@ -178,7 +171,6 @@ Tracking the cost of producing specific goods is essential for pricing, identify
 | **Total cost per tonne iron** | | | **30.0-33.5 kg grain** |
 | Iron trade value (per tonne) | | | **150-250 kg grain** |
 
-
 ## Scaling Notes
 
 - **Minimum viable accounting**: A single clay tablet or sheet tracking 3-5 categories (food stores, tool inventory, trade debts, outstanding obligations). Viable for communities of 50-100 people.
@@ -186,7 +178,6 @@ Tracking the cost of producing specific goods is essential for pricing, identify
 - **Specialization of accountants**: At ~500-1,000 transactions/month, a dedicated bookkeeper is needed. This person does not produce goods — they produce information. The cost is justified when accounting-identified savings (reduced waste, better purchasing decisions, fraud detection) exceed the bookkeeper's salary.
 - **Archive growth**: Accounting records accumulate at 200-500 tablets/pages per year. Within 10 years, storage becomes a significant concern. Designate a records room with fire protection and climate control (dry conditions for clay; moderate humidity for paper).
 - **Transition to computing**: Manual accounting limits practical transaction volume to ~500/day per bookkeeper. Beyond this, computing aids (mechanical calculators, then electronic computers) are needed. See [computing](../computing/index.md).
-
 
 ## Troubleshooting
 
@@ -199,14 +190,12 @@ Tracking the cost of producing specific goods is essential for pricing, identify
 | Accountant overwhelmed with volume | Transaction growth exceeded staffing | Hire additional bookkeeper; subdivide accounts by type; implement batch processing for routine transactions |
 | Fraudulent entries discovered | Insider manipulation of records | Segregate duties (one person records, another approves); require dual signatures on payments; conduct surprise audits |
 
-
 ## Safety
 
 - **Fire risk**: Accounting records are typically stored on flammable media (papyrus, paper). A fire that destroys the ledgers erases the community's economic memory. Mitigate with fireproof storage (stone vaults), duplicate records stored in a separate building, and fire suppression (sand buckets, water access).
 - **Ergonomic hazards**: Bookkeepers work hunched over ledgers for 6-10 hours/day, risking back pain, eye strain, and repetitive wrist injury. Mandate breaks every 60-90 minutes; provide proper seating and lighting; limit daily accounting work to 8 hours.
 - **Ink toxicity**: Iron gall ink (common for permanent records) contains ferrous sulfate and tannins — mildly toxic with chronic skin exposure. Carbon ink is safer. Ensure adequate ventilation in writing areas.
 - **Information security**: Accounting records reveal the community's financial position, inventories, and vulnerabilities. Restrict access to authorized personnel only. Maintain a log of who accesses the ledgers.
-
 
 ## Quality Control
 
@@ -215,7 +204,6 @@ Tracking the cost of producing specific goods is essential for pricing, identify
 - **Independent review**: A second person (not the primary bookkeeper) reviews all entries monthly, looking for unusual patterns, missing documentation, or mathematical errors.
 - **Transaction documentation**: Every ledger entry must reference a source document (receipt, invoice, tally stick). Entries without source documents are flagged for investigation.
 - **Archival integrity**: Records older than 1 year are sealed and stored. Any access to archived records is logged and requires authorization.
-
 
 ## Variations and Alternatives
 
@@ -250,7 +238,6 @@ Tracking the cost of producing specific goods is essential for pricing, identify
 | Industrial | Paper ledgers | Mechanical calculator | 50,000-500,000 entries | Standardized financial statements |
 | Modern | Electronic | Digital computer | Unlimited | Real-time accounting, automated reconciliation |
 
-
 ## See Also
 
 - [Core Mathematics](../mathematics/core-mathematics.md) — the arithmetic foundation for all accounting
@@ -263,4 +250,3 @@ Tracking the cost of producing specific goods is essential for pricing, identify
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Economics & Organization](./index.md) • [All Domains](../../index.md)*
 
-![economics organization accounting](../images/economics-organization/economics-organization_accounting.jpg)

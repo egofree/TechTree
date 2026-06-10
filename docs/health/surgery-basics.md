@@ -8,11 +8,9 @@
 > **Outputs**: surgical_capability, wound_management, sterile_technique
 > **Critical**: Yes — without surgical capability, traumatic injuries and complicated births are routinely fatal
 
-
 Surgery basics covers wound management, basic surgical techniques, sterilization, and anesthesia fundamentals for a bootstrap medical system. Before modern hospitals, the majority of preventable deaths came from infected wounds, uncontrolled bleeding, and obstructed labor. Establishing sterile technique, hemostasis (bleeding control), and reliable wound closure transforms a 50% mortality rate for serious wounds into a 5-10% rate.
 
 The prerequisite chain runs: [sanitation](sanitation.md) → clean environment → [medical instruments](medical-instruments.md) → sterile tools → surgery. The leap from "cleaning wounds" to "opening a body cavity and repairing damage" requires each prior capability to be in place. Sterilization failures kill faster than the original injury — a dirty instrument introduces bacteria directly into tissue planes that the immune system cannot easily reach.
-
 
 ## Materials
 
@@ -55,7 +53,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 | Sterile gloves | 1 pair | [Polymers](../polymers/rubber.md) — latex | Thorough hand washing + sterile technique without gloves |
 | Bandage (cotton/linen) | 1-3 m | [Textiles](../textiles/index.md) | Strips of clean cloth |
 | Saline (0.9% NaCl) | 500-2000 mL | Salt + purified water, boiled | Clean boiled water |
-
 
 ## Wound Assessment and Preparation
 
@@ -127,7 +124,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - Autoclave requires a pressure vessel — construction demands competent welding and hydrostatic testing at 1.5× working pressure
 - Boiling does not kill spores — instruments used for penetrating wounds (where tetanus risk is high) must be autoclaved or dry-heated
 - Sterile technique breaks down if packs are touched with non-sterile hands or placed on contaminated surfaces
-
 
 ## Sterilization Parameters
 
@@ -208,7 +204,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - **Instrument condition**: Inspect scalpel blades for dullness (require less force = more control). Verify hemostats lock and release properly. Ensure needle holders grip the needle without rotation.
 - **Wound evaluation criteria**: At each dressing change, document: wound edges (approximated or gapping), presence of drainage (clear/serous = normal; purulent/foul = infection), surrounding skin (redness extending >2 cm from wound = cellulitis), and pain level.
 - **Outcome tracking**: Record all surgical procedures with: patient identifier, procedure type, duration, complications (infection, hemorrhage, dehiscence), and outcome at 7 and 30 days. Calculate infection rate: target <5% for clean wounds, <10% for clean-contaminated wounds.
-
 
 ## Wound Closure Methods
 
@@ -322,4 +317,3 @@ External hemorrhoids that thrombose (form a painful clot) and internal hemorrhoi
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
 
-![health surgery basics](../images/health/health_surgery-basics.jpg)

@@ -12,14 +12,7 @@ Radiation safety covers ionizing radiation fundamentals, shielding design, dose 
 
 The fundamental principle: ALARA — As Low As Reasonably Achievable. No level of ionizing radiation is considered completely safe. All exposure must be justified by benefit and minimized by shielding, distance, and time management. The three pillars of radiation protection: time (minimize time near source), distance (increase distance — dose falls with the square of distance), and shielding (interpose absorbing material between source and person).
 
-
 ## Materials
-
-![Radiation safety badges, Jax Laboratory](../images/ehs/ehs_radiation-safety.jpg)
-
-> *Radiation safety badges at the Jackson Laboratory (Jax), Bar Harbor, Maine.*
-
-> *Image: Wladimir Labeikovsky, CC BY-SA 2.0*
 
 - Shielding materials: lead sheet (0.5-3 mm for X-ray), concrete (15-30 cm for general shielding), steel plate, barium sulfate (for painted shielding)
 - Dosimetry materials: photographic film (film badge dosimeter), thermoluminescent crystals (TLD — LiF:Mg,Ti), or optically stimulated luminescence (OSL) badges (requires electronics)
@@ -57,7 +50,6 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | Film badge dosimeters | 1 per worker per month | [Photography](../knowledge/printing.md) — silver halide film | Electronic dosimeter (requires electronics, reusable) |
 | Geiger-Müller counter | 1 per radiation area | [Electronics](../electronics/index.md) + Geiger tube | Ionization chamber (simpler electronics, no GM tube needed) |
 | Warning signs (trefoil) | Per access point | Printed or painted | Hand-drawn trefoil with "RADIATION" label |
-
 
 ## Shielding Design for X-Ray Room
 
@@ -147,7 +139,6 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 2. **Contain spills**: If radioactive material spills, alert personnel, isolate area, and don PPE. Cover spill with absorbent material. Work from outside inward to prevent spread. Place contaminated materials in labeled waste container.
 3. **Decontaminate surfaces**: Wash with detergent and water. For stubborn contamination, use chelating agents (0.1 M EDTA solution for radioactive metals) or mild acid (1% citric acid). Monitor with GM counter after each wash cycle. Continue until count rate is at background level.
 4. **Personnel decontamination**: For skin contamination, wash gently with soap and water. Do not abrade skin (drives contamination deeper). For hair contamination, shampoo repeatedly. If internal contamination suspected (inhalation, ingestion), collect urine samples for bioassay.
-
 
 ## Radiation Dose Limits
 
@@ -251,7 +242,6 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 - **Shielding integrity**: Survey new installations with calibrated meter before first use. Re-survey annually or after any modification. Document all survey results with: date, instrument serial number, calibration due date, locations measured, readings, and investigator name.
 - **Leak testing sealed sources**: Wipe-test sealed radioactive sources (e.g., calibration check sources) quarterly with filter paper. Count wipe with GM counter or liquid scintillation counter. Activity on wipe must be <185 Bq (5 nCi). If above limit, source is leaking — remove from use, isolate, and decontaminate.
 - **Record keeping**: Lifetime dose records for each occupationally exposed worker. Exposure records retained for duration of employment + 30 years. Survey records for each radiation area maintained indefinitely.
-
 
 ## Shielding Materials Comparison
 

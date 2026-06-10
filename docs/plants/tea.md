@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Tea](../images/plants/plants_tea.jpg)
-
-> *Taken in Tkibuli*
-
-> *Image: Lazaregagnidze, CC BY-SA 3.0*
-
 Tea
 
 *Camellia sinensis* (Theaceae) is a beverage & stimulant crop species of major importance for civilization bootstrapping. Tea provides leaves, seeds/nuts, flowers as its primary edible product.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are normally grown by cuttings or layering. They can be grown from seed. Because the seed out breed, this produces a mixture of plants. For seed production special trees are kept and not pruned. The capsule matures after 9-12 months. Seed need to be sown fresh. Seeds can be sown in a nursery and transplanted, or sown and staked in the field. When seedlings are about 3-4 years old they are pruned back to about 10 cm from the ground then transplanted. From cuttings short stem cuttings with a single leaf and its bud in the leaf axil are used. These are grown in moist, shaded propagating nurseries. The cuttings are transplanted after about 1 year. Tea is commercially planted at 5,000-7,000 plants per hectare. That is a spacing of 1.2 m by 1.5 m. Trees are pruned to encourage side branches. The bush height is normally pruned to about 60 cm. The leaves grow in flushes at 70-90 day cycles. Two to four leaves are plucked each 7-14 days from the tree but only every 70-90 days from any one branch shoot. Plants are pruned back each 2-5 years. Propagation: Seed - can be sown as soon as it is ripe in a greenhouse. Stored seed should be pre-soaked for 24 hours in warm water and the hard covering around the micropyle should be filed down to leave a thin covering. It usually germinates in 1 - 3 months at 23°c. Prick out the seedlings into individual pots when they are large enough to handle and grow them on in light shade in the greenhouse for at least their first winter. Plant them out into their permanent positions when they are more than 15cm tall and give them some protection from winter cold for their first year or three outdoors. Seedlings take 4 - 12 years before they start to produce seed. There are approximately 500 seeds per kilo. Cuttings of almost ripe wood, 10 - 15cm with a heel, August/September in a shaded frame. High percentage but slow. Cuttings of firm wood, 7 - 10cm with a heel, end of June in a frame. Keep in a cool greenhouse for the first year. Leaf-bud cuttings, July/August in a frame.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

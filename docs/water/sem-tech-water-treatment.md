@@ -12,7 +12,6 @@ The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech Membran
 
 For the underlying electrodialysis principles and membrane science, see [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md).
 
-
 Water desalination and purification are essential capabilities for any settlement, regardless of scale. Brackish groundwater — containing 1,000–10,000 mg/L of total dissolved solids (TDS) — is the most common impaired water source worldwide. Conventional approaches (reverse osmosis, multi-stage flash distillation) require either high-pressure pumping systems or large thermal energy inputs, both of which demand industrial infrastructure.
 
 Electrodialysis using SEM Tech membranes offers an alternative path: moderate-voltage DC power drives ion transport through inexpensive membranes, producing fresh water without high-pressure equipment or exotic materials. The process is modular, scales linearly, and can be powered directly from solar panels or wind turbines without inverters (DC operation).
@@ -20,13 +19,6 @@ Electrodialysis using SEM Tech membranes offers an alternative path: moderate-vo
 **Speculative status**: SEM Tech ED desalination has not yet been demonstrated. The membranes have been validated for chlor-alkali electrolysis at TRL 5, but complete ED desalination stacks using SEM Tech membranes remain untested. Performance estimates below are drawn from conventional ED practice and projected SEM Tech membrane properties.
 
 ## Membrane Water Treatment Technologies
-
-![Drinking-water-treatment-process-6-638](../images/water/water_treatment-flow.jpg)
-
-> *A diagram showing the process of water purification including a house, buckets of water, etc.*
-
-> *Image: Unknown authorUnknown author, CC BY-SA 4.0*
-
 
 Several membrane-based water treatment technologies exist, each suited to different feed conditions:
 
@@ -209,7 +201,6 @@ Building a SEM Tech ED desalination stack requires the following materials, orga
 - Cleaning-in-place (CIP) circulation system — tank, pump, and hoses for chemical cleaning
 - Spare membrane material and spacer gaskets
 - Multimeter — for checking stack resistance and electrode continuity
-
 
 ## Step 1: Fabricate membranes
 
@@ -533,7 +524,6 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Chemical exposure**: Cleaning solutions (acid for scale removal, alkali for organic fouling) require standard chemical handling PPE — goggles, gloves, aprons.
 - **Product water quality**: ED removes only dissolved ions. Suspended solids, microorganisms, and organic contaminants pass through unaffected. Post-treatment (disinfection, filtration) is required for drinking water applications.
 
-
 ## Rising Product Water TDS
 
 **Symptom**: Product water conductivity increases despite normal operation.
@@ -624,9 +614,6 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — ED principles and process variants
 - [SEM Tech Hydroponics](../agriculture/sem-tech-hydroponics.md) — water reuse in controlled growing systems
 
-
-
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
 
-![water sem tech water treatment](../images/water/water_sem-tech-water-treatment.png)

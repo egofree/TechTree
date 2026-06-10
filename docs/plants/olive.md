@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Olive](../images/plants/plants_olive.jpg)
-
-> *Nature reserve Olive-Gardens, Lun, Croatia.*
-
-> *Image: Palauenc05, CC BY-SA 4.0*
-
 Olive
 
 *Olea europaea* (Oleaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Olive, African olive, European olive provides fruit, leaves as its primary edible product.
@@ -66,7 +60,6 @@ This species grows as a perennial or annual depending on climate and management.
 Easily grown in a loamy soil and tolerating infertile soils, it prefers a well-drained deep fertile soil. A drought resistant plant once established, it succeeds in dry soils. Requires a sunny position. Tolerates salty air. Plants are slow-growing and very long-lived. The olive is very commonly cultivated in Mediterranean climates for its edible seed, there are many named varieties. Trees can produce a crop when they are 6 years old and continue producing a commercial yield for the next 50 years - many trees continue to give good yields for hundreds of years, even when their trunk is hollow. They succeed outdoors in the milder areas of Britain, though plants rarely produce fruit when grown in this country, preferring warm temperate regions with mild moist winters and hot dry summers. Some reports say that trees often fruit in south-western England. Generally, older trees are hardy to about -10°c. They require the protection of a south facing wall when grown in the London area. At least some cultivars are self-fertile. Some cultivars have been selected mainly for their fruits whilst others have been selected for their oil. 'Mission' is grown for its edible fruits. It is vigorous, prolific and very cold resistant. 'Moraiolo' is grown for its oil, it is very hardy and strong-growing. Flower production depends on a 12 - 15 week period of diurnally fluctuating temperatures with at least 2 months averaging below 10°c. Pruning can encourage non-fruiting water-shoots. Weighing down or arching the branches can encourage fruiting. The plants fruit best on wood that is one year old so any pruning should take this into account. An olive branch is a traditional symbol of peace, laurel leaves were used by the ancient Greeks to crown winners of the Olympic games. Plants have male flowers and bisexual flowers. Olives can be self-fertile, but cross-pollination with another variety often improves fruit set and yield. Olives are typically harvested in Autumn, from late September to November (Northern Hemisphere), depending on the variety and region. Olive trees flower in Spring, usually from April to June (Northern Hemisphere), with flowers appearing in clusters. Olives have a slow to moderate growth rate, generally growing about 1-2 feet per year until maturity, which can take 3 to 5 years for fruiting, and full production may take 7 to 10 years. Propagation: Seed - sow late winter in a shady position in a greenhouse. Home produced seed should be given a period of cold stratification first. Where possible, it is best to sow the seed as soon as it is ripe in a greenhouse in the autumn. Prick out the seedlings into individual pots when they are large enough to handle and grow them on in the greenhouse for at least their first winter, perhaps for their first 2 - 3 winters. Plant them out into their permanent positions in early summer and give them some protection from winter cold for at least their first winter outdoors. Cuttings of half-ripe wood, 5 - 10cm with a heel, July/August in a frame. Good percentage.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

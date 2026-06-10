@@ -10,18 +10,6 @@
 
 ## Overview
 
-![Lactic acid fermentation occurs by converting pyruvate into lactate](../images/chemistry/chemistry_fermentation.png)
-
-> *Lactic acid fermentation occurs by converting pyruvate into lactate*
-
-> *Image: Unknown author, CC BY-SA 4.0*
-
-![Lactic acid fermentation occurs by converting pyruvate into lactate](../images/chemistry/chemistry_petroleum-alternatives_fermentation.png)
-
-> *Lactic acid fermentation occurs by converting pyruvate into lactate*
-
-> *Image: Unknown author, CC BY-SA 4.0*
-
 Microbial and chemical production of solvents and fuels without petroleum: ethanol via grain malting/mashing/fermentation/distillation, acetone-butanol via Weizmann process (Clostridium acetobutylicum), acetic acid via vinegar oxidation or catalytic route, methanol from wood pyrolysis or synthesis gas. Critical non-petroleum chemical feedstock path.
 
 Fermentation chemistry is the biological route to chemical feedstocks that would otherwise require petroleum. Before the petrochemical industry existed, all industrial solvents came from fermentation and wood distillation. The Weizmann process, developed during World War I to produce acetone for cordite manufacture, demonstrated that bacteria could produce industrial quantities of specific chemicals. This process also produces butanol, which became valuable as a lacquer solvent for the automobile industry.
@@ -224,4 +212,3 @@ For a bootstrapping civilization, the most accessible fermentation product is et
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
-![chemistry petroleum alternatives fermentation](../images/chemistry/chemistry_petroleum-alternatives_fermentation.jpg)

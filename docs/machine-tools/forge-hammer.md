@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Belly helve hammer, Wortley Top Forge - geograph.org.uk - 257521](../images/machine-tools/machine-tools_forge-hammer.jpg)
-
-> *Belly helve hammer, Wortley Top Forge Water powered forging hammer.*
-
-> *Image: Chris Allen, CC BY-SA 2.0*
-
 A power hammer lifts a heavy ram (tup) and releases it to strike the workpiece on an anvil, delivering repeated blows at 5-300 strikes per minute depending on the mechanism. The mechanized blow replaces the two-person striker team (smith + sledge man), multiplying both the force and consistency of hand forging. The ram is raised by one of several mechanisms — a cam and spring (helve hammer), a crank and leaf spring (spring helve), or compressed air/steam (air hammer) — and falls by gravity. The impact energy (E = m × g × h) determines the working capacity: a 25 kg ram falling 300 mm delivers 73 J per blow.
 
 Power hammers are the bridge between hand forging and industrial-scale metal shaping. A single operator with a 25 kg spring helve hammer can produce in one hour what a smith and striker team produce in a full day. The consistency of machine-guided blows enables closed-die forging — placing hot metal in a shaped die cavity and hammering it to fill the die precisely — which produces interchangeable parts with 0.5-2 mm dimensional tolerance. Without power hammers, the [iterative bootstrap](iterative-bootstrap.md) slows dramatically: every crankshaft, connecting rod, gear blank, and tool steel billet must be shaped by hand, a process that is slow, inconsistent, and limited to small cross-sections.

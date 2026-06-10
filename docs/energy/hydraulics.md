@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Hydraulic power centre, Stanley Dock, Liverpool - geograph.org.uk - 5061821](../images/energy/energy_hydraulics.jpg)
-
-> *Hydraulic power centre, Stanley Dock, Liverpool*
-
-> *Image: Stephen Richards, CC BY-SA 2.0*
-
 Generation and control of mechanical force through pressurized fluid systems. Hydraulic presses, jacks, and actuators multiply small input forces into enormous output forces, enabling heavy forming, lifting, and clamping operations essential for construction, metalworking, and industrial machinery.
 
 A hydraulic system transmits force through an incompressible fluid, typically mineral oil, confined in sealed circuits. Pascal's principle dictates that pressure applied at any point in a confined fluid transmits equally throughout the fluid, allowing a small piston driving fluid into a large piston to multiply force proportionally to the area ratio. This force multiplication, combined with precise control through directional valves and pressure regulators, makes hydraulics indispensable for applications requiring both high force and controllable motion.

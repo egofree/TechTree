@@ -8,16 +8,9 @@
 > **Outputs**: rope, tarred_rope, spliced_rope, lifting_slings
 > **Critical**: No
 
-
 Rope is the universal load-bearing element of pre-industrial and early industrial civilization: lifting, pulling, rigging, hoisting, binding, and power transmission all depend on it. Rope quality depends on fiber choice, twist geometry, and construction method. The ideal rope fiber is strong, long-staple, flexible, and resistant to degradation. No single fiber excels at all criteria — selection depends on application.
 
 ## Prerequisites
-
-![Charles E. Donnellan's Machine for Making Straw Rope](../images/textiles/textiles_rope-making.jpg)
-
-> *Charles E. Donnellan's Machine for Making Straw Rope*
-
-> *Image: Department of the Interior. Patent Office. (1849 - 1925), Public domain*
 
 - [Fiber Preparation](fibers.md) — prepared fibers for rope making
 - [Spinning](spinning.md) — yarn production as intermediate step

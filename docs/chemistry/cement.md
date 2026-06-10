@@ -10,12 +10,6 @@
 
 ## Portland Cement Manufacture
 
-![Concrete Bridge at Cement, California](../images/chemistry/chemistry_cement.jpg)
-
-> *Photo No. 76.: Concrete Bridge at Cement, California, Solano County (1911)*
-
-> *Image: Unknown author, Public domain*
-
 **Raw materials**:
 - **Limestone** (CaCO₃): 60-65% of raw mix. Provides CaO. Mine, crush to <20 mm.
 - **Clay** or shale: 35-40%. Provides SiO₂ (silica), Al₂O₃ (alumina), Fe₂O₃ (iron oxide). Dug, dried, crushed.

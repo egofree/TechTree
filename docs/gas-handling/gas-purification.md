@@ -16,20 +16,6 @@ This capability covers four purification methods ordered by increasing specifici
 
 ## Prerequisites
 
-![Mixed gas CCR loop schematic](../images/gas-handling/gas-handling_cylinder-schematic.png)
-
-> *Schematic diagram of electronically controlled closed circuit mixed gas rebreather. 1 Dive/surface valve and loop non-return valves 2 Exhaust hose 3 Scrubber (axial flow) 4 Counterlung 5 Overpressure valve 6 Inhalation valve 7 Oxygen cylinder 8 Oxygen cylinder valve 9 Absolute pressure oxygen reg...*
-
-> *Image: Peter Southwood, CC BY-SA 3.0*
-
-
-![Quadruple expansion compound, section (Heat Engines, 1913)](../images/gas-handling/gas-handling_valve-types.jpg)
-
-> *Fig. 139  Quadruple expansion compound engine, built by Fleming &amp; Ferguson of Paisley.  Cylinder diameters: 10¼", 14", 20", 28" Stroke: 20" Boiler pressure: 200 psi indicated horsepower: 360*
-
-> *Image: Andy Dingley (scanner), Public domain*
-
-
 - **Materials**: Steel piping, copper tubing, PTFE gaskets, activated carbon, silica gel, molecular sieves (zeolites), copper catalyst, palladium membrane material
 - **Tools and equipment**: [Basic gas handling](basic.md) — compressors, piping, valves, pressure regulators; [Electric furnaces](../energy/electric-furnaces.md) for regeneration heating; [Machine tools](../machine-tools/index.md) for vessel fabrication
 - **Knowledge**: Thermodynamics of adsorption, catalytic reaction kinetics, gas chromatography for purity verification
@@ -47,7 +33,6 @@ This capability covers four purification methods ordered by increasing specifici
 | Stainless steel 316L tubing | 50-200 m per train | [Metals](../metals/index.md) | Copper tubing (not for ultra-high purity) |
 | Heating elements (Nichrome) | 2-10 kW per regeneration heater | [Energy](../energy/index.md) — resistance wire | Gas-fired heaters (less precise temperature control) |
 | Calcium chloride (CaCl₂) | 10-50 kg per rough dryer | [Chemistry](../chemistry/index.md) — limestone + HCl | Not regenerable — discard after saturation |
-
 
 ## Scrubbing (Bulk Contaminant Removal)
 
@@ -252,7 +237,6 @@ Different gases require different purification stages arranged in series. The ge
 - [Vacuum Technology](vacuum.md) — vacuum system bake-out and outgassing management
 - [Core Fab Processes](../photolithography/fab-processes.md) — gas purity requirements for CVD and PVD
 - [Cylinder Filling](cylinder-filling.md) — cylinder filling with purified gases
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*

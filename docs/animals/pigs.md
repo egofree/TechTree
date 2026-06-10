@@ -8,7 +8,6 @@
 > **Outputs**: pork, lard, bacon, bristles, leather, manure, waste_disposal
 > **Critical**: Yes — fastest feed-to-meat conversion, waste recycling
 
-
 Pigs are the most efficient converter of feed to meat among domesticated livestock. They produce 70-80% of their live weight as usable carcass (compared to 55-60% for cattle), and they consume virtually anything organic — crop residues, kitchen scraps, whey from cheese making, culled fruits and vegetables, and forest mast (acorns, beechnuts). Mature weight ranges from 150-300 kg for modern breeds, 100-180 kg for traditional landraces. Gestation is 114 days ("three months, three weeks, three days"), with litter sizes of 8-12 piglets for improved breeds and 6-8 for traditional types.
 
 Pigs reach market weight (90-110 kg) in just 5-7 months — the fastest turnaround of any major livestock species. This rapid growth, combined with high feed conversion efficiency (2.5-3.5 kg feed per kg of gain), makes pigs the premier meat-producing animal for a bootstrapping settlement. A single sow producing two litters per year (16-24 piglets) yields 1,500-2,500 kg of pork annually.
@@ -27,12 +26,6 @@ Beyond meat, pigs produce lard (15-30 kg per animal for fat-type breeds) — a v
 | Lard yield | 15-30 kg per animal | Fat-type breeds |
 
 ## Prerequisites
-
-![Pigs Sus scrofa domesticus 390 Possuja C](../images/animals/animals_pigs.jpg)
-
-> *Pigs, Sus scrofa domesticus, at ELMA (Living Countryside) Fair in Helsinki 2003*
-
-> *Image: Anneli Salo, CC BY-SA 3.0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -56,7 +49,6 @@ Materials listed per 5-sow operation per year.
 | Iodine solution (7%) | 0.5-1 L | [`health.medicine`](../health/medicine.md) | Other antiseptic |
 | Farrowing pen materials | 3-5 pens (3-4 m² each) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Portable panels |
 | Electric fencing | 2-3 strands, 3,000-5,000 V | [`energy`](../energy/index.md) | Woven wire, hog panels |
-
 
 ## Farrowing Management
 
@@ -180,7 +172,6 @@ Materials listed per 5-sow operation per year.
 - Fresh pork is highly perishable — must chill to 4°C within 1 hour
 - Cook pork to 71°C internal temperature — Trichinella risk from undercooked meat
 
-
 ## Growth Performance by System
 
 | Parameter | Modern (Confinement) | Heritage (Pasture) | Heavy (Cured Products) |
@@ -270,7 +261,6 @@ Why waste feeding works so well with pigs: Because pigs are monogastric, they ca
 - [`food-processing`](../food-processing/index.md) — bacon curing, ham smoking, sausage making, lard storage
 - [`agriculture`](../agriculture/index.md) — crop residues as feed, pig manure as fertilizer, pasture rotation
 - [`health.medicine`](../health/medicine.md) — disease treatment, zoonotic disease prevention
-
 
 ## See Also
 

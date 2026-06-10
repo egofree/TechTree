@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Quebracho](../images/plants/plants_schinopsis-lorentzii.jpg)
-
-> *Aspidosperma quebracho-blanco. Apocynaceae. Fotos tomadas en bosque parque sobre blanqueal al margen del Arroyo Vera, departamento de Soriano, Uruguay.*
-
-> *Image: Andrés González, CC BY-SA 3.0*
-
 Quebracho (*Schinopsis lorentzii*) is a South American hardwood tree whose name comes from the Spanish "quebra hacha" (axe-breaker), referring to its extreme hardness. The wood is among the hardest and densest of any commercial timber (1,200-1,300 kg/m³ when dry, it sinks in water). More important than its timber, quebracho heartwood contains 20-30% tannin by dry weight, making it one of the most concentrated natural tannin sources on Earth.
 
 Quebracho tannins are condensed tannins (profisetinidins) that produce leather with excellent firmness, water resistance, and durability. The tannin extract from quebracho is a major industrial product, exported from Argentina and Paraguay since the late 19th century. Quebracho-tanned leather has a distinctive red-brown color and is particularly valued for sole leather, belting, and heavy industrial leather goods.
@@ -199,12 +193,6 @@ growing season length) determine its geographic suitability. Matching crops to l
 conditions is more important than attempting to grow unsuitable crops in marginal
 environments. Where this species is well-adapted, it should be a priority for cultivation;
 where conditions are marginal, alternative species should be preferred.
-
-
-
-
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

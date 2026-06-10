@@ -8,7 +8,6 @@
 > **Outputs**: semiconductor_seals, chemical_resistant_linings, cleanroom_elastomers
 > **Critical**: No — essential for semiconductor manufacturing but not required for basic civilization infrastructure
 
-
 Semiconductor fabrication equipment demands elastomeric seals, gaskets, O-rings, and liners that withstand aggressive chemicals (HF, H₂SO₄, HNO₃, H₃PO₄, organic solvents), elevated temperatures, vacuum integrity, and ultra-clean conditions where a single particle or trace contaminant can destroy a wafer. Material selection is critical — the wrong elastomer in a wet bench can leach metal ions into the process stream, killing device yield. Standard rubber (NR, NBR) degrades rapidly in oxidizing acids and most semiconductor process chemicals; only fluorinated elastomers (FKM, FFKM) and certain specialty grades (EPDM for UPW) survive.
 
 ## Prerequisites
@@ -226,7 +225,6 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 | PTFE liner cold-flow failure | Sustained pressure >10 bar at elevated temperature | Add metal reinforcement; reduce operating pressure; consider PVDF alternative |
 | FKM failure in acetone/NMP service | FKM is incompatible with ketones and esters (F-rating) | Switch to EPDM (A-rated for acetone/NMP) or PTFE-encapsulated |
 
-
 ## See Also
 
 - [Rubber Production](rubber.md) — overview of rubber and elastomer manufacturing
@@ -242,4 +240,3 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
 
-![polymers rubber semiconductor apps](../images/polymers/polymers_rubber-semiconductor-apps.jpg)

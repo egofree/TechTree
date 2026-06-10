@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Sisal](../images/plants/plants_sisal.jpg)
-
-> *Fleurs des alpes et des montagnes : Agave Sisal*
-
-> *Image: Omzo93, CC BY-SA 4.0*
-
 Sisal
 
 *Agave sisalana* (Asparagaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Sisal, Hemp provides leaves, flowers, bark/sap as its primary edible product.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 It grows best in areas where annual daytime temperatures are within the range 15 - 27c, but can tolerate 10 - 45c. It can be killed by temperatures of -5c or lower. It prefers a mean annual rainfall in the range 900 - 1,250mm, but tolerates 500 - 1,800mm. Requires a sunny position in a well-drained soil. Prefers a pH in the range 6 - 7.5, tolerating 5.5 - 8. The plant has escaped from cultivation in many of the areas in which it is cultivated and has become invasive in some areas including several of the Pacific Islands and Australia. Harvesting the leaves for fibre can begin 2 - 4 years after planting, depending on temperature, and usually continues for about 10, occasionally up to 20, years before the plant flowers and dies. The average yield is about 0.9 tonnes/ha of dried fibres. On the best plantations in East Africa, yearly yields of 2.0 - 2.5 tonnes/ha of dried fibres are obtained. A monocarpic species - the plant lives for several years without flowering but dies once it does flower. However, it normally produces plenty of suckers during its life and these continue growing, taking about 10 - 15 years in a warm climate, considerably longer in colder ones, before flowering. The roots rarely go deeper than about 35cm. One ton of fibre removes about 30 kg N, 5 kg P, 80 kg K, 65 kg Ca and 40 kg Mg from the field. Because the fibres contain few minerals, most of the nutrients can be returned to the land with the pulp. The main harvest of the agave hearts (piñas) occurs after about 7 to 10 years, typically in late winter to early spring, depending on the climate and growing conditions. Agave usually flowers once it reaches maturity, which can be after 7 to 10 years. The flowering period generally occurs from late spring to summer. Propagation: Plants are normally grown from suckers or from bulbils on the flower stalk. Very few seeds will grow. Seed can be collected by allowing pods to dry on the plant before breaking them open. Propagation is also possible by dividing offsets. The whole plant dies after flowering, which normally occurs after 7 years.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -312,4 +305,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants sisal](../images/plants/plants_sisal.jpeg)

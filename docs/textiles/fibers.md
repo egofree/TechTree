@@ -8,16 +8,9 @@
 > **Outputs**: prepared_fibers
 > **Critical**: No
 
-
 Fiber preparation transforms raw plant stems, animal fleece, and silk cocoons into clean, organized fibers ready for spinning into yarn. Each fiber source requires different processing: flax and hemp need retting, breaking, and hackling; wool requires washing, carding, and combing; cotton needs ginning; silk demands reeling from cocoons. The quality of the prepared fiber directly determines the quality of the final textile — poorly retted flax produces weak linen, inadequately scoured wool causes uneven dyeing.
 
 ## Prerequisites
-
-![Microstructure of Cotton Fibers 15% 10](../images/textiles/textiles_fibers.jpg)
-
-> *Twisted, interwoven cotton fibers at the micron scale with variable cellulose thickness producing delicate light interference. Captured at Satbayev University, Department of Chemical Processes and Industrial Ecology.*
-
-> *Image: Aiym Maksatkyzy, CC BY-SA 4.0*
 
 - [Animal Materials](../animals/animal-materials.md) — wool, hair, and silk sources
 - [Sheep](../animals/sheep.md), [Goats](../animals/goats.md), [Rabbits](../animals/rabbits.md), [Camelids](../animals/camelids.md) — fiber animal husbandry
@@ -177,7 +170,6 @@ For rope and cordage production, see [Rope Making](rope-making.md).
 - **Chemical processing**: Mercerization uses concentrated NaOH (caustic burns). Fiber bleaching uses chlorine compounds or hydrogen peroxide (chemical burns, oxygen enrichment fire risk). PPE for all chemical treatments.
 - **Gin machinery**: Saw gin blades are sharp and rotate at high speed (300-400 rpm). Entanglement hazard — keep hands clear of hopper and cylinder. Guard the drive mechanism. Roller gins present nip points between the rollers — maintain guards.
 
-
 *Dependencies: [Agriculture](../agriculture/index.md) for fiber crop cultivation, [Spinning](spinning.md) for converting prepared fibers to yarn*
 
 ## Fiber Cultivation Yields
@@ -303,4 +295,3 @@ Proper storage prevents fiber degradation before processing:
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
 
-![textiles fibers](../images/textiles/textiles_fibers.png)

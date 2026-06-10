@@ -12,12 +12,6 @@ Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positionin
 
 ## Prerequisites
 
-![Home-Built Vibration Isolation Platform using Squash Balls](../images/precision-motion/precision-motion_vibration-isolation.jpg)
-
-> *A Home-Built Vibration Isolation Platform using Squash Balls*
-
-> *Image: Quirkipedia, CC0*
-
 - [Nanometer Positioning](./nanometer-positioning.md) — stage requirements that define isolation specifications
 - [Precision Metrology](../measurement/precision-metrology.md) — vibration measurement and calibration equipment
 - [Gas Handling](../gas-handling/index.md) — compressed air supply for pneumatic isolators
@@ -191,7 +185,6 @@ Each isolation axis uses a combination of:
 | Active power consumption | 0 W | 50-500 W |
 | Cost multiplier | 1× | 3-10× |
 
-
 ## Isolation Pit Design
 
 For the best vibration performance, precision equipment is installed on a massive concrete block isolated from the building floor:
@@ -220,7 +213,6 @@ Beyond the isolation system, the fab environment is designed to minimize vibrati
 - **HVAC design**: Low-vibration air handlers with flexible duct connections. Vibration-isolated compressor mounts. Air velocity in ducts near tools limited to < 5 m/s to minimize aerodynamic vibration.
 - **Raised access floors**: Precision tools often mounted on isolated pads below the raised floor, not on the raised floor itself which amplifies foot traffic vibration.
 
-
 ## Accelerometer Specifications for Vibration Monitoring
 
 | Parameter | Value | Notes |
@@ -240,7 +232,6 @@ When vibration exceeds specification:
 2. **Time-domain correlation**: Compare vibration spikes to equipment operation logs (wafer stage acceleration events, pump cycling).
 3. **Propagation path analysis**: Measure vibration at multiple points (floor, base, stage) to identify the transmission path.
 4. **Source remediation**: Fix the source if possible (balance rotating equipment, add dampers, reschedule heavy traffic). Add isolation if the source cannot be fixed.
-
 
 ## Optical Table Isolation
 

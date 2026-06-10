@@ -20,12 +20,6 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 
 ## Prerequisites
 
-![Gas sensor with Arduino](../images/chemistry/chemistry_air-separation.jpg)
-
-> *Sensore di gas, realizzato con Arduino*
-
-> *Image: Giacomo Alessandroni, CC BY-SA 4.0*
-
 **Materials**:
 - [Compressed air supply](../gas-handling/basic.md) — atmospheric air at 5-10 bar
 - [Electrical power](../energy/electricity.md) — 200-500 kW for small cryogenic plant, 20-50 MW for large plant
@@ -340,4 +334,3 @@ Lithium-exchanged zeolite (LiLSX) selectively adsorbs N₂ from air at near-ambi
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
-![chemistry air separation diagram](../images/chemistry/diagram:chemistry_air-separation.jpg)

@@ -12,12 +12,6 @@ Adding tin to copper produces bronze: harder, lower melting point (~950 °C for 
 
 ## Prerequisites
 
-![Yue People Western Han Bronze Production (10081835786)](../images/metals/metals_bronze.jpg)
-
-> *Guangxi Provincial Museum, Nanning. Complete indexed photo collection at WorldHistoryPics.com.*
-
-> *Image: Gary Todd from Xinzheng, China, CC0*
-
 - [Copper smelting](copper.md) — copper ingot production
 - [Tin metal](non-ferrous.md) — from cassiterite (SnO₂)
 - [Beekeeping](../animals/beekeeping.md) — beeswax for lost-wax casting patterns

@@ -10,20 +10,6 @@
 
 ## Prerequisites
 
-![Weaving Inle 3](../images/textiles/textiles_weaving.jpg)
-
-> *Woman weaving in Inle Lake, Myanmar*
-
-> *Image: Philip Nalangan, CC BY-SA 4.0*
-
-
-![Weft and Warp](../images/textiles/textiles_weaving-steps.jpg)
-
-> *Exemplo de inserção de trama na formação de tecido. Imagem feita por mim.*
-
-> *Image: Tecer.jpg: Original uploader was Jonidutra at pt.wikipedia
-derivative work: Aboalbiss (talk), CC BY-SA 3.0*
-
 - [Spinning](spinning.md) — yarn supply for warp and weft
 - [Fiber Preparation](fibers.md) — prepared fiber for spinning
 - [Iron & Steel](../metals/iron-steel.md) — heddle wire, ratchets, reed dents

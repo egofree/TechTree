@@ -11,12 +11,6 @@
 
 ## Black Powder
 
-![USNS Black Powder and USNS Westwind](../images/chemistry/chemistry_black-powder.jpg)
-
-> *Submarine tenders USNS Black Powder and USNS Westwind moored at Sub Base King's Bay on 14 JUN 2022.*
-
-> *Image: Fritzmann2002, CC BY-SA 4.0*
-
 **Chemistry**: 75% KNO₃ (potassium nitrate), 15% charcoal, 10% sulfur. The three components serve distinct roles: nitrate provides oxygen for rapid combustion, charcoal is the fuel, sulfur lowers ignition temperature and increases burn rate.
 
 The combustion proceeds in two stages. Sulfur ignites first (ignition temperature ~190°C, vs ~340°C for charcoal alone with KNO₃). The burning sulfur heats the surrounding mixture enough to decompose KNO₃ into KNO₂ + ½O₂. The released oxygen gas then reacts with carbon from the charcoal: C + O₂ → CO₂ (ΔH = -393 kJ/mol) and 2C + O₂ → 2CO (ΔH = -221 kJ/mol). The overall reaction for the standard 75:15:10 mixture produces roughly 40% gaseous products (CO₂, CO, N₂, H₂O vapor, and some H₂S from sulfur) and 60% solid residue (K₂CO₃, K₂SO₄, K₂S). The solid residue is the white smoke characteristic of black powder. The gas volume at STP is approximately 280 L/kg, generating peak pressures of 2,000-6,000 bar in confined spaces depending on grain size and loading density.

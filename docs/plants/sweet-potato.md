@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Sweet Potato](../images/plants/plants_sweet-potato.jpg)
-
-> *This is an image with the theme "Farm to Plate" from:*
-
-> *Image: Ivykas, CC BY-SA 4.0*
-
 Sweet Potato
 
 *Ipomoea batatas* (Convolvulaceae) is a staple food crop species of major importance for civilization bootstrapping. Sweet Potato, Black Sweet Potato, Sweet Potato Vine provides leaves, roots, shoots as its primary edible product.

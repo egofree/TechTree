@@ -8,7 +8,6 @@
 > **Outputs**: radio_communication, wireless_telegraphy, broadcast_capability
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-
 Wired communication (telegraph, telephone) requires physical infrastructure — poles, wires, and cable-laying across terrain. This limits communication to locations connected by wire, making it impossible to reach ships at sea, aircraft in flight, or remote settlements without enormous infrastructure investment. Radio communication eliminates the wire: electromagnetic waves propagate through free space, carrying information across oceans and over mountains with no physical connection between transmitter and receiver. The challenge is generating, modulating, detecting, and amplifying these waves with the technology available at each stage of the bootstrapping process — from spark-gap transmitters and crystal detectors (requiring only basic electrical components) to vacuum tube transmitters and superheterodyne receivers (requiring glassblowing and vacuum technology).
 
 ## Prerequisites
@@ -18,7 +17,6 @@ Wired communication (telegraph, telephone) requires physical infrastructure — 
 - [Glass](../glass/index.md) — vacuum tube envelopes and Leyden jar capacitors
 - [Metals](../metals/index.md) — copper wire for coils and antennas, brass for spark gaps, tungsten for tube filaments
 - [Semiconductor materials](../electronics/index.md) — mineral crystals for detector diodes (galena, carborundum)
-
 
 Radio communication transmits information via electromagnetic waves propagating through free space, eliminating the need for wires between transmitter and receiver. The progression from spark-gap transmitters (1895-1910) through crystal detectors to vacuum tube transmitters and receivers (1906-1920) represents one of the most rapid technology evolutions in history — from laboratory curiosity to intercontinental communication in under 20 years.
 
@@ -100,7 +98,6 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 
 **Superheterodyne receiver (Armstrong, 1918)**: The dominant receiver architecture for 100+ years. The incoming RF signal is mixed with a local oscillator to produce an intermediate frequency (IF, typically 455 kHz for AM). IF stages provide fixed-frequency amplification and filtering, offering superior selectivity and stability.
 
-
 ## Spark-Gap Transmitter Station (1 kW)
 
 | Material | Quantity | Specification | Source |
@@ -124,7 +121,6 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 | Crystal detector (galena) | 1 | PbS crystal in cup with cat's whisker | [Mining](../mining/index.md) |
 | Headphones | 1 pair | 2000-4000 ohm magnetic, high sensitivity | [Metals](../metals/index.md) |
 | Ground rod/wire | 1 | Copper rod 1-2 m + 10 m wire | [Metals](../metals/index.md) |
-
 
 ## Transmitter Specifications by Era
 
@@ -167,7 +163,6 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 | Medium wave (MF) | 300-3000 kHz | 100-1000 m | Ground + sky wave | 100-2,000 km |
 | Short wave (HF) | 3-30 MHz | 10-100 m | Sky wave (ionospheric) | 500-15,000 km |
 | Very high freq (VHF) | 30-300 MHz | 1-10 m | Line of sight | 5-100 km |
-
 
 ## Short-Range Station (5-50 km)
 

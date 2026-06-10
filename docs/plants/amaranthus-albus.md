@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Amaranthus albus](../images/plants/plants_amaranthus-albus.jpg)
-
-> *Amaranthus albus at Wadi Mujib in Jordan*
-
-> *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
-
-![Amaranthus albus kz04](../images/plants/plants_fiber-plants_amaranthus-albus.jpg)
-
-> *Amaranthus albus at Wadi Mujib in Jordan*
-
-> *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
-
-
 Amaranthus albus is an annual species of flowering plant native to the Americas. Its common names include common tumbleweed , tumble pigweed , tumbleweed , prostrate pigweed , pigweed amaranth , white amaranth and white pigweed
 
 Tumble pigweed is an unglamorous plant that earns its keep through sheer productivity. It sprouts in disturbed soil without any encouragement, produces edible protein-rich seeds, and yields stem fiber coarse enough for rope. Where more demanding crops fail, amaranth still grows. The mature plant's habit of detaching at the base and tumbling across the landscape, scattering seeds as it goes, is both its weed reputation and its seeding strategy.
@@ -192,7 +179,6 @@ Amaranth seed is small and requires careful winnowing to achieve clean grain for
 - [Fiber Plants](fiber-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Fiber Plants](fiber-plants.md) — downstream capability
-
 
 ### Material Handling
 

@@ -8,7 +8,6 @@
 > **Outputs**: coinage, standardized_units_of_account, price_signals
 > **Critical**: No
 
-
 Currency is a standardized medium of exchange that solves the fundamental limitation of [barter](./trade.md): the double-coincidence problem. Instead of requiring two parties who simultaneously want each other's goods, currency introduces a universally accepted intermediary — money — that any party will accept because they know they can use it to buy what they need later.
 
 Currency serves three functions simultaneously: medium of exchange (accepted for all transactions), unit of account (prices expressed in standard units), and store of value (holds purchasing power over time). Early commodity monies (grain, cattle, salt) served all three functions poorly — grain rots, cattle die, salt dissolves. Metal coinage, introduced once [metallurgy](../metals/index.md) provides reliable copper, silver, and gold, solves all three functions simultaneously: durable, divisible, portable, and intrinsically valuable.
@@ -44,7 +43,6 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - Minting facility: A secure, controlled space for coin production.
 - Secure storage (vaults): Strong rooms for storing coinage reserves. Thick walls (≥0.5 m stone or 5 cm iron-reinforced wood), locked doors.
 
-
 ## Coin Production (per 1,000 copper coins, ~5 g each)
 
 | Material | Quantity | Source | Alternatives |
@@ -55,7 +53,6 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Coin dies (bronze or iron) | 1 pair (obverse + reverse) | [Iron-Steel Production](../metals/iron-steel.md) | Hardened stone (lower detail, faster wear) |
 | Standardized weights (for calibration) | 1 set (1 g to 500 g) | [Precision Metrology](../measurement/precision-metrology.md) | Reference coins from trusted source |
 | Hammer (1-3 kg) | 1 | [Basic Tools](../foundations/index.md) | Any heavy striking tool |
-
 
 ## Establishing the Currency Standard
 
@@ -108,7 +105,6 @@ The development of currency requires [metals](../metals/index.md) for producing 
 9. **Initial distribution**: Introduce coins by paying them to specialist workers, soldiers, or officials as wages. Accept coins back as payment for taxes, market fees, or state goods. This bootstraps circulation.
 
 10. **Withdraw and remint debased coins**: Over time, coins in circulation lose weight through wear, clipping, and deliberate debasement. Schedule periodic recoinage: recall worn coins, remelt, and restrike at the standard weight. Charge a minting fee (seigniorage) of 2-5% to fund the operation.
-
 
 ## Coinage Parameters
 
@@ -225,4 +221,3 @@ The development of currency requires [metals](../metals/index.md) for producing 
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Economics & Organization](./index.md) • [All Domains](../../index.md)*
 
-![economics organization currency](../images/economics-organization/economics-organization_currency.jpg)

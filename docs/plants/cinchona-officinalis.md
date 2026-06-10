@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Cinchona](../images/plants/plants_cinchona-officinalis.jpg)
-
-> *Native from Costa Rica to Bolivia, known as Quino. More widely planted as a quinine source. Photo from Colombia.*
-
-> *Image: Dick Culbert, CC BY 2.0*
-
 Cinchona (*Cinchona officinalis* and related species) is a genus of evergreen trees native to the Andes mountains of South America, cultivated for the quinine alkaloids in their bark. Quinine is the oldest and most important antimalarial drug, responsible for enabling European colonization of tropical regions and saving millions of lives from malaria over four centuries.
 
 The bark contains 1-8% total alkaloids by dry weight, of which quinine is the most therapeutically important (typically 30-60% of total alkaloids). Other alkaloids include quinidine (antiarrhythmic), cinchonine, and cinchonidine. The alkaloid concentration varies by species, with *C. ledgeriana* containing the highest quinine levels (5-8% total alkaloids) and *C. officinalis* being more cold-tolerant.
@@ -203,8 +197,6 @@ No single crop provides complete nutrition, and dietary diversity is essential f
 health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
 vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
 
-
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants cinchona officinalis](../images/plants/plants_cinchona-officinalis.jpeg)

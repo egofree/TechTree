@@ -8,7 +8,6 @@
 > **Outputs**: balanced_nutrient_solution
 > **Critical**: No — this is an advanced optimization of hydroponic nutrient management; conventional hydroponics with manual pH adjustment is a functional alternative
 
-
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](../chemistry/sem-tech.md)) enable precise nutrient ion management in hydroponic growing systems. While SEM Tech's primary application is chlor-alkali electrolysis, the same membrane platform — pulverized pre-functionalized resin beads in a PVC/CPVC binder — can be applied to electrodialysis for controlled-environment agriculture.
 
 Hydroponics grows plants in nutrient-enriched water without soil. Plants absorb macronutrients (nitrogen as NO₃⁻ or NH₄⁺, phosphorus as H₂PO₄⁻, potassium as K⁺) and micronutrients (Fe²⁺, Mn²⁺, Zn²⁺, Cu²⁺, B(OH)₄⁻, MoO₄²⁻) dissolved in water. Maintaining the correct ionic balance and pH (typically 5.5-6.5) is critical for plant health.
@@ -49,7 +48,6 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 - Workshop space for membrane fabrication and stack assembly
 - [SEM Tech membrane manufacturing capability](../chemistry/sem-tech.md)
 
-
 ## Membrane Materials (10 cell pairs, 200 cm² active area)
 
 | Material | Quantity | Source | Notes |
@@ -79,7 +77,6 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 | Food-grade HDPE tanks (5-20 L) | 2-3 units | General supply | Concentrate and reservoir tanks |
 | Hose barbs, connectors, valves | Assorted | Hardware store | Plumbing connections |
 | Sediment filter (50-100 micron) | 1 unit | Water filter supply | Downstream particulate capture |
-
 
 ## Membrane Fabrication
 
@@ -187,7 +184,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - Does not remove pathogens — separate UV, ozone, or biological treatment is required for disease management
 - Ion transport rate at 10 mA/cm² across 200 cm²: 26.8 meq/min — adequate for gradual correction but too slow for rapid emergency adjustments
 
-
 ## Membrane Specifications for Hydroponic ED
 
 | Parameter | CEM (Cation) | AEM (Anion) |
@@ -274,7 +270,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - **Concentrated nutrient solutions**: ED concentrate streams contain high levels of dissolved ions. Standard chemical handling practices apply: gloves, eye protection, and clearly labeled containers. Concentrated potassium hydroxide (used in some hydroponic formulations) is caustic and requires the same precautions as any strong base (pH >13 in concentrated form; causes chemical burns on skin contact).
 - **Membrane integrity**: Degraded membranes could release resin particles into the nutrient solution. A sediment filter (50-100 micron) downstream of the ED module catches any particulate matter. Inspect filter monthly and replace when clogged.
 
-
 ## ED Stack Performance Verification
 
 | Parameter | Target | Test Method |
@@ -294,7 +289,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Calcium | 80-200 mg/L | Adjust via concentrate re-dosing |
 | Nitrate-N | 100-200 mg/L | Supplement if depleted; remove excess via ED |
 | Iron | 2-5 mg/L | Add chelated iron supplement (ED cannot selectively add iron) |
-
 
 ## Nutrient Management Method Comparison
 

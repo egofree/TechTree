@@ -10,12 +10,6 @@
 
 ## Overview
 
-![The Chemistry of Paints and Painting title QS:P1476,en:"The Chemistry of Paints and Painting "label QS:Len,"The Chemistry of Paints and Painting "](../images/chemistry/chemistry_bleaching.jpg)
-
-> *"Bibliographical notes": p. xvii-xviii*
-
-> *Image: Arthur Herbert Church, Public domain*
-
 Electrolytic production of chlorine and sodium hypochlorite for textile bleaching, water treatment, and pulp processing.
 
 Bleaching enters the industrial timeline once brine electrolysis produces chlorine gas and caustic soda in usable quantities. The chemistry converts salt and electricity into sodium hypochlorite, an oxidizing agent that destroys chromophores in textile fibers and kills microorganisms in drinking water. Before electrochemical chlorine, textile whitening relied on months of sun exposure or sour milk treatment.
@@ -215,4 +209,3 @@ For small-scale operations, a simple undivided electrolysis cell producing hypoc
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
-![chemistry bleaching diagram](../images/chemistry/diagram:chemistry_bleaching.jpg)

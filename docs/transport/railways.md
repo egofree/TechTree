@@ -10,12 +10,6 @@
 
 ## Railways
 
-![Tondu railway station MMB 01](../images/transport/transport_railways.jpg)
-
-> *Tondu railway station, looking north along the platform.*
-
-> *Image: mattbuck (category), CC BY-SA 3.0*
-
 **Track construction**:
 - **Subgrade**: Graded and compacted earth foundation. Ballast: crushed stone (10-15 cm layer) for drainage and load distribution.
 - **Rails**: Initially iron straps on wooden stringers (strap rail — iron bar 2.5-5 cm wide × 1-1.5 cm thick nailed to timber). By the Energy stage: wrought iron or steel T-rails (inverted-T cross section, 15-30 kg/m, rolled in iron rolling mill). Rail length: 5-10 m sections, joined by fish plates (steel plates bolted through rail web holes).
@@ -213,7 +207,6 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Shunting (switching) injuries**: Yard crews coupling and uncoupling cars, operating hand-thrown points, and riding moving cars are at high risk for crushing, amputation, and fall injuries. The "hump man" who rides cars down the classification hump to apply hand brakes faces particular risk. All yard movements require positive communication between switch crew and engineer (hand signals or whistle codes). Never ride the leading car into a standing cut.
 - **Slip and fall on ballast**: Walking on loose crushed stone ballast is inherently unstable. Rail workers frequently sprain ankles or fall, especially at night or when carrying equipment. Wear ankle-supporting boots with stiff soles. Walk between the rails (on the sleeper tops) rather than on the ballast shoulder. Use a lantern after dark.
 - **Electrification hazard** (later stage): Once electric traction is introduced, overhead catenary wires carry 1500-25,000 V. Any contact with or near these wires is immediately lethal. Clearance below the wire: minimum 4.5 m at maximum wire sag (hot weather, maximum span). Maintenance on or near the catenary requires the section to be de-energized and grounded. Never raise any object (pole, ladder, scaffold) within 2 m of a live catenary wire.
-
 
 ## Materials
 

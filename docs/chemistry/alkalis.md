@@ -10,12 +10,6 @@
 
 ## Alkali Production
 
-![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_alkalis.jpg)
-
-> *A picture of the chemical ethanolamine. Taken for the Wikipedia page on Ethanolamine.*
-
-> *Image: Carbamatesalts, CC BY-SA 4.0*
-
 **Leblanc process** (first synthetic soda ash):
 - **Step 1**: NaCl + H₂SO₄ → NaHSO₄ + HCl (salt cake furnace, 150-200°C, then 550-600°C for complete reaction to Na₂SO₄). HCl byproduct captured as hydrochloric acid.
 - **Step 2**: Na₂SO₄ + 2C (coke/charcoal) + CaCO₃ (limestone) → Na₂CO₃ + CaS + 2CO₂. Black ash furnace, 900-1000°C. Mix and roast for 1-2 hours.
@@ -293,4 +287,3 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
-![chemistry alkalis diagram](../images/chemistry/diagram:chemistry_alkalis.png)

@@ -14,12 +14,6 @@ These six non-ferrous metals collectively enable galvanizing, battery storage, e
 
 ## Prerequisites
 
-![Non ferrous Metal Working Waste from Barton upon Humber](../images/metals/metals_non-ferrous.jpg)
-
-> *Copper alloy, with a silvery sheen Manufacturing waste. Cuboid fragment of dense metallic casting waste, with angular surfaces and a distinctively silvery sheen overall. Suggested date: Medieval to Post-Medieval, 1300-1700. Length: 41mm, Width: 41mm, Thickness: 28mm, Weight: 93.83gms.*
-
-> *Image: North Lincolnshire Museum, Martin Foreman, 2011-04-01 10:32:36, CC BY-SA 2.0*
-
 - [Acids](../chemistry/acids.md) — acid leaching for ore processing
 - [Copper & Bronze](copper-bronze.md) — smelting foundation
 - [Mining](../mining/index.md) — ore extraction and beneficiation

@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![Agricultural libraries information notes](../images/knowledge/knowledge_libraries.jpg)
-
-> *Has supplement for internal distribution only NAL holdings: v.1,no.1- Jan.1975- Subjects: Agricultural libraries Periodicals; Agriculture United States Information services Periodicals; Agriculture Bibliography Periodicals*
-
-> *Image: National Agricultural Library (U.S.), Public domain*
-
 - **Materials**: Paper, ink, binding materials from [Printing](printing.md); shelving lumber (oak, ash) or steel angle-iron; acid-free folders and boxes for archival storage
 - **Tools**: [Writing](writing.md) instruments for catalog cards, measuring tools for environmental monitoring (thermometers, hygrometers), basic woodworking tools for shelving
 - **Knowledge**: [Writing](writing.md) for documentation and cataloging, [Education](education.md) for trained librarians, classification system design
@@ -31,7 +25,6 @@
 | Environmental monitors | 4-8 hygrometers + thermometers | [Measurement](../measurement/index.md) | Hair-tension hygrometer (less precise) |
 | Binding repair materials | Japanese tissue, wheat starch paste, linen thread | [Textiles](../textiles/fibers.md), [Agriculture](../agriculture/index.md) | Standard paper patches (less durable) |
 | Fire suppression equipment | Sand buckets, water pumps, CO₂ extinguishers | [Chemistry](../chemistry/index.md) | Water buckets only (limited effectiveness) |
-
 
 ## Library Construction
 
@@ -273,7 +266,6 @@ Once semiconductor manufacturing is available:
 - Vacuum freeze-drying requires specialized equipment that may not exist in a bootstrap context — air-drying causes more distortion and ink bleeding
 - Ozone treatment for smoke odor weakens paper — the treatment itself causes damage, forcing a trade-off between odor removal and paper strength
 - Mass deacidification (Wei T'o process) requires industrial-scale chemical processing — unavailable until chemical manufacturing reaches moderate capability
-
 
 ## Cross-Domain Dependencies
 

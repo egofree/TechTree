@@ -12,18 +12,6 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 ## Absorption Refrigeration
 
-![United States Cooling Degree Day map, 1961-1990](../images/energy/energy_cooling.jpg)
-
-> *Annual cooling degree days in the United States, based on normal period 1961-1990.*
-
-> *Image: Unknown author, Public domain*
-
-![United States Cooling Degree Day map, 1961-1990](../images/energy/energy_cooling.png)
-
-> *Annual cooling degree days in the United States, based on normal period 1961-1990.*
-
-> *Image: Unknown author, Public domain*
-
 **Ammonia-water system** (the first practical refrigeration cycle, industrially deployed from the 1850s):
 
 **Materials**:

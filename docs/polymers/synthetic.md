@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Raw synthetic rubbers](../images/polymers/polymers_rubber_synthetic.jpg)
-
-> *Raw synthetic rubbers*
-
-> *Image: Vis M, CC BY-SA 4.0*
-
-![Raw synthetic rubbers](../images/polymers/polymers_synthetic.jpg)
-
-> *Raw synthetic rubbers*
-
-> *Image: Vis M, CC BY-SA 4.0*
-
-
 Synthetic rubbers are elastomers produced by polymerizing petroleum-derived or chemically synthesized monomers. Unlike natural rubber (cis-1,4-polyisoprene from Hevea trees), synthetic rubbers can be tailored for specific resistance properties: oil, heat, ozone, chemicals, or flame. Three families anchor industrial synthetic rubber production: nitrile rubber (NBR), polychloroprene (neoprene), and silicone elastomers.
 
 Nitrile rubber, a copolymer of acrylonitrile and butadiene, excels at resisting oils, fuels, and solvents. The acrylonitrile content (typically 18 to 50 percent) controls the balance between oil resistance and low-temperature flexibility. Higher acrylonitrile content improves oil resistance but raises the glass transition temperature, making the rubber stiff at cold temperatures. NBR is the standard material for fuel hoses, O-rings, gaskets, and oil seals in engines and hydraulic systems.
@@ -257,7 +244,6 @@ Environmental regulations affect scaling in several ways. Emulsion polymerizatio
 - [Chemistry](../chemistry/index.md) — downstream capability
 - [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — downstream capability
 - [Metal Forming](../metals/forming.md) — downstream capability
-
 
 ---
 

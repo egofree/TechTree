@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Teak](../images/plants/plants_tectona-grandis.jpg)
-
-> *Teak plants at Gudilova temples in Visakhapatnam*
-
-> *Image: Adityamadhav83, CC BY 4.0*
-
 Teak (*Tectona grandis*) is a tropical hardwood renowned for its exceptional natural durability, dimensional stability, and resistance to rot, insects, and weather. It is the gold standard timber for shipbuilding, outdoor furniture, and any application where wood must withstand decades of exposure to rain, sun, and seawater without chemical treatment.
 
 The wood contains natural oils (tectoquinone and other compounds) that repel insects and resist fungal decay. Teak is one of very few timbers rated as Class 1 durability (very durable), meaning it can last 25+ years in ground contact and 100+ years above ground in exposed conditions. Density ranges from 610 to 750 kg/m³ at 12% moisture content.
@@ -207,4 +201,3 @@ conditions is more important than attempting to grow unsuitable crops in margina
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants tectona grandis](../images/plants/plants_tectona-grandis.jpeg)

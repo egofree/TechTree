@@ -8,7 +8,6 @@
 > **Outputs**: gas_piping, distribution_manifolds, leak_tested_systems
 > **Critical**: No — basic piping from gas-handling.basic covers the same function at lower scale
 
-
 Gas distribution piping systems deliver process gases from a central supply (cylinder manifold, bulk tank, or gas generator) to multiple points of use throughout a facility. While [Basic Gas Handling](basic.md) covers individual piping connections and fittings, this capability addresses the system-level design, installation, testing, and commissioning of complete gas distribution networks — from the gas supply room to the process tool connection points.
 
 A semiconductor fab gas distribution system typically spans 10-500 meters of piping per gas species, with 5-30 different gases distributed to 20-200+ tool connection points. Each gas species requires dedicated piping — no mixing of gas types in shared lines. The system must deliver gas at the specified pressure and flow rate, with minimal pressure drop, zero contamination, and no leaks, for 10-30 years of service life with minimal maintenance.
@@ -35,7 +34,6 @@ The design process starts with demand analysis (flow rates and pressures at each
 | Pipe supports (U-bolt, clevis, spring) | 10-20 per 100 m | [Machine tools](../machine-tools/forming.md) — fabricated from steel | Trapeze hangers (multiple pipes on one support) |
 | Valves (ball, gate, diaphragm) | 5-15 per 100 m | [Machine tools](../machine-tools/machining.md) | Plug valves (higher torque, less common) |
 | Pipe insulation (mineral wool, foam) | 100 m (if required) | [Chemistry](../chemistry/index.md) | Pre-insulated pipe (factory-applied, higher cost) |
-
 
 ## System Design
 
@@ -96,7 +94,6 @@ The design process starts with demand analysis (flow rates and pressures at each
 **Weaknesses:**
 - Degreasing with trisodium phosphate solution leaves moisture that must be completely dried before introducing reactive gases — incomplete drying creates contamination
 - Purge verification requires a calibrated O₂ monitor at the outlet — without measurement, the actual O₂ concentration is unknown
-
 
 ## Pipe Sizing — Maximum Flow Rates for Gas Service (m³/h at STP)
 

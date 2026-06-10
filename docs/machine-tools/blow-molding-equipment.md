@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Merlyn Smith molding a flange in Glass Fabrication department](../images/machine-tools/machine-tools_blow-molding-equipment.jpg)
-
-> *General view of Merlyn Smith molding a flange on a six-inch pipe manufactured in the Dow Chemical Company's Glass Fabrication department. Founded in 1925, the department was responsible for the fabrication and repair of specialty glass equipment used at the Company's plant in Midland, Michigan. In this photograph, the pipe is seen being rotated in a lathe to keep it properly aligned during the molding process.*
-
-> *Image: Dow Chemical Company, Public domain*
-
 Blow molding produces hollow plastic parts by extruding or injecting a tube of molten polymer (the parison), enclosing it in a split mold, and inflating it with compressed air against the mold cavity walls. The polymer solidifies on contact with the cooled mold surface, taking the mold's shape. The process is limited to hollow parts with uniform wall thickness but offers the lowest tooling cost of any hollow-part production method — blow molds cost $3,000-30,000 versus $10,000-100,000+ for injection molds.
 
 Two principal methods exist: **extrusion blow molding** (continuous parison extruded downward, mold closes around it, air inflates) and **injection blow molding** (preform first injection-molded, then reheated and stretch-blown for biaxial molecular orientation). Extrusion blow molding is simpler and cheaper — the standard method for PE bottles, jerry cans, and drums. Injection blow molding produces PET beverage bottles with dramatically improved tensile strength (300%+ improvement) and gas barrier properties, but requires an [injection molding machine](injection-molding-machine.md) for the preform stage.

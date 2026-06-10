@@ -8,21 +8,13 @@
 > **Outputs**: vegetable_oil, tallow, lard, olive_oil, linseed_oil, soap_stock, oilseed_meal, rendered_fat
 > **Critical**: No — oil processing enhances food quality and enables soap, but basic nutrition and hygiene have alternatives
 
-
 Oil and fat processing extracts edible and industrial lipids from plant seeds, fruit pulp, and animal tissues. Cooking oils triple the caloric density of meals and enable high-temperature cooking methods (frying, sautéing) that inactivate foodborne pathogens. Rendered animal fats (tallow, lard) serve triple duty as cooking fat, soap-making feedstock (see [Chemistry: Soap](../chemistry/soap.md)), and candle fuel. Industrial oils (linseed, tung) become paints, varnishes, and wood preservatives.
 
 Without processed fats, cooking relies on boiling and roasting — methods that cannot achieve temperatures above 100°C (boiling) or require constant attention (roasting). Frying oil reaches 170-190°C, creating Maillard browning that makes food palatable and digestible. A workforce fed on fat-supplemented diets has 20-30% higher caloric intake than one eating only boiled grains and vegetables.
 
 The extraction progression moves from simple pressing (stone-age, 40-60% yield) to expeller pressing (iron-age, 70-80% yield) to solvent extraction (industrial, 95%+ yield). Rendering animal fat requires only fire and containers — achievable from Year 0.
 
-
 ## Materials
-
-![Palm oil - hand processing yellow vegetable fat from fruit pulp of African Oil Palm - Elaeis guineensis](../images/food-processing/food-processing_oil-processing.jpg)
-
-> *Cooked fruits from the African oil palm are mashed in a mortar and pestle. The separated fruit pulp fibers are first squeezed to extract the reddish oil. Shown here, the fibers and hard nuts are then returned to the mortar with added hot water to dissolve an opaque yellow, nutritious, high in fat and calories liquid used in popular central African recipes such as 'Moambe' across west and central Africa. Congo.*
-
-> *Image: T.K. Naliaka, CC BY-SA 4.0*
 
 - **Oilseeds**: Sunflower, rapeseed (canola), sesame, flax (linseed), cottonseed, peanut, or hemp seed. Oil content varies 20-50% by weight. Source: [Agriculture](../foundations/food-agriculture.md).
 - **Olives**: 15-30% oil by weight. Source: [Agriculture](../foundations/food-agriculture.md) — requires Mediterranean or similar climate.
@@ -67,7 +59,6 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 | Flax (linseed) | 35-45% | 55-70% | 107°C (unrefined) | Industrial, paint |
 | Coconut (copra) | 60-70% | 60-75% | 177°C (refined) | Cooking, soap |
 | Palm fruit | 20-25% (fruit), 45-55% (kernel) | 70-85% | 232°C (refined) | Cooking, soap, industrial |
-
 
 ## Olive Oil Production (Cold Press)
 
@@ -156,7 +147,6 @@ Rendering melts fat from animal tissues by heating. Two methods:
 - Requires heavier pot (cast iron preferred) to distribute heat evenly without water as a temperature buffer
 - Higher temperature (110-130°C) increases fire risk and burn hazard compared to wet rendering's 90-95°C simmer
 - Fat can scorch if not stirred regularly — scorched fat has off-flavors and reduced shelf life
-
 
 ## Pressing Parameters by Oilseed
 

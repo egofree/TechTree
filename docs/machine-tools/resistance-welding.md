@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Resistance Spot Welded Aluminum Sheet with Adhesive applicated](../images/machine-tools/machine-tools_resistance-welding.jpg)
-
-> *Dupont BETAMATE 1640 adhesive is applied to the aluminum sheet (AL6-HDI). A second sheet, without adhesive, is joined using resistance spot welding. (Experiment &amp; Photo: MPA University of Stuttgart)*
-
-> *Image: Fezer, Andreas; Sung-Min Wi (Sungminwi); Kubik, Jochen; Kaiserauer, Axel, CC BY 4.0*
-
 Spot welding (copper electrodes, 5000-20000A, 1-10 cycles at 50Hz) and seam welding (roller electrodes, overlapping spots for continuous gas-tight seams). No filler, no gas, no flux. Uses resistance heating at the workpiece interface: H = I²Rt. Projection welding for nuts and brackets. Critical for automotive body assembly and battery tab welding.
 
 Resistance welding generates heat at the joint interface through electrical resistance. The workpiece material, the contact resistance between the two sheets, and the bulk resistance of the material itself all contribute. Heat is concentrated at the interface between the workpieces because the contact resistance there is highest. Electrode force and current are applied for a precise number of cycles, forming a nugget of fused metal at the interface that solidifies under continued electrode pressure.

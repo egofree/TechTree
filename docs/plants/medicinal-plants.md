@@ -8,47 +8,11 @@
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
 > **Critical**: Yes — herbal remedies are the earliest and most accessible healthcare technology, directly reducing mortality
 
-
 Identification, cultivation, preparation, and application of plant species with therapeutic properties for treating illness, injury, and disease. Plants synthesize hundreds of chemical compounds for defense against insects, fungi, and herbivores — many of these compounds have pharmacological effects on humans. Medicinal plants are the foundation of all pharmacology and the earliest healthcare technology available from Year 0.
 
 Basic herbal remedies reduce mortality from infection, fever, pain, and digestive disorders. This directly improves labor productivity and population survival, creating the positive feedback loop that enables specialist labor to develop subsequent technologies. Of the 57 medicinal-use species cataloged in the botanical survey, five are prioritized in the tech tree as representative species covering the major therapeutic categories.
 
 ## Active Compound Extraction
-
-![Deadly Nightshade-Medicinal Herbs Poisonous Plants-136-80](../images/plants/plants_medicinal-plants.png)
-
-> *Deadly Nightshade Plate No. 80, from Medicinal herbs and poisonous plants, 1918 or Medicinal herbs and poisonous plants*
-
-> *Image: David Ellis, Public domain*
-
-
-
-![Agrimonia pilosa flowering](../images/plants/plants_medicinal-plants_agrimonia-pilosa.jpg)
-
-> *A picture of hairy agrimony (Agrimonia pilosa) flowering in July.*
-
-> *Image: lidia80, CC0*
-
-
-![Aloe officinalis (inflorescence) 01](../images/plants/plants_medicinal-plants_aloe-officinalis.jpg)
-
-> *Greenhouses of the Botanical garden (Saint Petersburg). Aloe officinalis var. angustifolia*
-
-> *Image: Kor!An (Корзун Андрей), CC BY-SA 3.0*
-
-
-![Artemisia douglasiana 90](../images/plants/plants_medicinal-plants_artemisia-douglasiana.jpg)
-
-> *This picture shows mugworts from all angles, as you can see both sides of the leaves, the stem, and the bud.*
-
-> *Image: Jerry Kirkhart from Los Osos, Calif., CC BY 2.0*
-
-
-![Botanical illustration of Artemisia inculta](../images/plants/plants_medicinal-plants_artemisia-inculta.jpg)
-
-> *Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica.*
-
-> *Image: Scan by NYPL, Public domain*
 
 Plants store active compounds in different tissues — leaves, stems, roots, bark, flowers, and seeds — each requiring appropriate extraction methods. The method chosen depends on the compound's solubility and heat sensitivity.
 
@@ -291,8 +255,6 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 **Quality control for herbal preparations**:
 - Verify plant identity before processing using multiple characters (leaf shape, stem cross-section, flower structure, aroma). Misidentification is the leading cause of adverse reactions. Maintain a pressed herbarium voucher specimen for each batch — if a problem arises later, the voucher confirms the source material.
 - Label every container with: botanical name (Latin binomial), plant part, harvest date and location, preparation method, batch number, recommended dose range, and expiration date. This labeling discipline enables traceability and dose consistency across batches — essential when potency varies with growing conditions and harvest timing.
-
-
 
 ## Troubleshooting
 

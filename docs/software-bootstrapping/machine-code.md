@@ -209,4 +209,3 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../../index.md)*
 
-![software bootstrapping machine code](../images/software-bootstrapping/software-bootstrapping_machine-code.jpg)

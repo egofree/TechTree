@@ -8,7 +8,6 @@
 > **Outputs**: sustained_soil_fertility, nitrogen_fixation, diversified_crops
 > **Critical**: Yes — without rotation, continuous cropping depletes soil in 3-5 years, making long-term agriculture impossible
 
-
 Crop rotation is the practice of growing a planned sequence of different crop species on the same land across successive growing seasons. The fundamental principle is that different crops have different nutrient demands, root depths, pest associations, and growth habits. By alternating crops, the farmer exploits these differences to break pest cycles, replenish soil nutrients, manage soil structure, and reduce weed pressure — all without external chemical inputs.
 
 Without crop rotation, growing the same crop repeatedly on the same land (monoculture) depletes specific nutrients, builds up crop-specific pathogens and pests, and degrades soil structure. Historical data is unambiguous: continuous wheat cropping on temperate soils without fertilizer inputs yields 1.5-2.0 tonnes/ha in year one, declining to 0.5-0.8 tonnes/ha by year five and 0.2-0.4 tonnes/ha by year ten. The same land under a well-managed rotation sustains 1.5-3.0 tonnes/ha indefinitely.
@@ -16,12 +15,6 @@ Without crop rotation, growing the same crop repeatedly on the same land (monocu
 The most powerful element of rotation is nitrogen fixation by legumes. Leguminous crops (beans, peas, clover, vetch, lentils, alfalfa) host Rhizobium bacteria in root nodules that convert atmospheric N₂ to plant-available ammonium (NH₄⁺). A good legume stand fixes 40-200 kg N/ha per season — enough to supply the nitrogen needs of the following grain crop without any synthetic fertilizer. This biological nitrogen fixation is the primary nitrogen source for agriculture in a bootstrapping civilization and remains relevant even after [Ammonia Production](../chemistry/ammonia.md) is established, as a free, low-energy supplement.
 
 ## Prerequisites
-
-![The Johnson farm has a diverse crop rotation with a cover crop (five images) (14627772232)](../images/agriculture/agriculture_crop-rotation.jpg)
-
-> *JOHNSONS SEEING RESULTS; KEEPING UP WITH CHANGING SOIL CONDITIONS NATURAL RESOURCES CONSERVATION SERVICE, Huron, SD, July 11, 2014– Over the past decade, fluctuating precipitation levels have forced the Johnson Farm in Central Spink, SD, to broaden their understanding of soil health management strategies. Excessive moisture the last several years has led to the loss of valuable top soil, caused soil erosion, degradation of soil structure, and an increase in the number of acres being affected by high water tables resulting salinity concerns at the soil surface. Brian Johnson, a fourth generation farmer, and his dad, Alan operate a diversified no-till row crop and cow/calf operation near Frankfort, SD. With row crops consisting of a rotation of corn, soybeans, wheat, alfalfa, and the addition cover crops being the Johnson’s primary focus, they are discovering the increasing value of implementing a variety of soil health management practices. “Because of the excess water, we had trouble planting crops and experienced an increase in our overall crop loss,” Brian says. “Dad started using a no-till farming system 25-years ago to help preserve moisture, but with excess moisture, we discovered some challenges to our no-till management system.” No-till historically has been instrumental in helping the Johnson’s build orgainc matter, and build and maintain soil structure by allowing for development of soil pores that hold water and air, which aids plants in taking up valuable nutrients from the soil. When sub-soil horizons are saturated, plant roots are deprived of air, causing plants to drown out. Excessive water leading to saturated subsoils has caused Johnsons to adopt additional conservation practices including cover crops on prevent plant acres and following small grain crops, adoption of perennial grasses on high water table or saline affected acres, and implementation of tile drainage management systems. Because of the high water tables in areas of our normally high producing cropland acres, we started seeing salinity issues on about 80 acres of our cropland,” Brian says. “As a result, we started talking about options with Shane Jordan, District Conservationist with the USDA Natural Resources Conservation Service (NRCS), Redfield, and learned that salt-tolerant perennial vegetation such as Tall Wheatgrass and Western Wheatgrass in these areas could reduce surface evaporation and control encroachment of salinity characteristics into adjacent high producing cropland acres.” In saline affected soils, a salt problem occurs because layers of low permeability soil or subsoil restrict water flow causing capillary rise, which transports salts to the soil surface where it evaoporates causing a salt concentration on the surface. High surface salt concentrations contribute to the reduction of seed germination and crop yeild potential. To help in managing areas of excessive moisture issues, Johnson’s have primarily used the USDA’s Conservation Reserve Program (CRP) and the Conservation Stewardship Program (CSP). Jordan says, “The Johnsons have seen positive results by enrolling their saline-affected areas into the CRP, which has helped in lowering the water table and consequently reducing salinity problems in those areas. It has also resulted in an economic saving by not having to invest high dollar seed and fertiler into areas that simply were not meeting the necessary yield expectation to be economically feasible. Many farmers in the area are reporting to Jordan that the cropland adjacent to those perennial areas is also being improved as a result of better management of sub-soil water. Jordan explains, “The overall production of the field is being improved through the use of these conservation management strategies. The Johnson’s no-till farming system is another component that is essential to the success of planning for both wet and dry years.” The Johnson’s are also four years into a five-year commitment with cover crops thanks to enhancements options through CSP. Johnson’s have been implementing the use of deep rooted covers crops (radishes/turnips), a soil quality enhancements through CSP, following small grains in their cropping system as a preventative water management tool and soil health management strategy. “Growing cover crops promotes biologically active, healthy soils, “ Brian says. “Between cover crops and crop residue breakdown, we are able to maintain an active soil biology all year, which facilitates increased organic matter, increased organic matter means improved soil quality and better water-holding capacity in our soils. Once you get that cycle in place, soil quality improves each year.” Jordan says, “Farmers can’t control when, or how much precipitation they get, but they can control how their soil handles the moisture through their management strategies whether through improved cropping sytems by diversifing beyond corn/soybean rotations and considering the addition of short-term perennial grass/legume species into their cropping systems , efficient management of nutrients, effective tile management strategies, and/or use of cover crops.”Tyically, implementing a single strategy will not solve the problem. Farmers and ranchers need to start by correctly identify their resource concerns and forming strategies for long-term sustainability. Then, implement a combination of conservation and agronomic strategies in order to effectively maximize yield potential/acre and operational profitibility.” Contacts: Colette Kessler, Public Affairs Specialist colette.kessler@sd.usda.gov www.sd.nrcs.usda.gov (605) 224-2476, Ext 5 Shane Jordan, District Conservationist Redfield, SD (605) 472-0102, Ext 3 shane.jordan@sd.usda.gov USDA is an Equal Opportunity Provider and Employer*
-
-> *Image: USDA NRCS South Dakota, Public domain*
 
 **Materials**:
 - Diverse seed stock: at minimum one grain, one legume, and one root/brassica crop
@@ -45,7 +38,6 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 - [Irrigation](irrigation.md) or adequate rainfall (500+ mm during growing season)
 - Record-keeping system (even simple tally marks) to track what was planted where and when
 
-
 ## Three-Field Rotation (1 Hectare per Field, 3 Hectare Total)
 
 | Material | Quantity per Cycle | Source | Alternatives |
@@ -64,7 +56,6 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 | Turnip or root crop seed | 1-3 kg | [Seed Saving](seed-saving.md) | Radish, beet, carrot |
 | Barley or oat seed | 50-80 kg | [Seed Saving](seed-saving.md) | Rye |
 | Clover seed | 8-15 kg | [Seed Saving](seed-saving.md) | Alfalfa, vetch |
-
 
 ## Three-Field Rotation (Medieval Standard)
 
@@ -145,7 +136,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - 2-4 week waiting period between incorporation and planting delays the next crop
 - Fresh green material causes temporary nitrogen tie-up as soil microbes decompose it
 - Rye cover crop must be terminated before seed set or it volunteers as a weed in the next crop
-
 
 ## Nitrogen Budget by Rotation System (kg N/ha/year)
 
@@ -231,7 +221,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - **Sweet clover poisoning**: Moldy sweet clover (Melilotus) hay contains dicoumarol, an anticoagulant. Animals hemorrhage internally. Do not feed moldy sweet clover hay.
 - **Physical injury during field operations**: Plowing, hoeing, and harvesting involve repetitive strain and sharp tools. Rotate tasks between workers. Use ergonomic tool handles (straight, not curved, for hoes). Sharpen tools regularly — dull tools require more force and cause more accidents.
 
-
 ## Rotation Effectiveness Indicators
 
 | Indicator | Measurement Method | Target | Warning Threshold |
@@ -252,7 +241,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Beans (grain harvested) | 1.0-2.0 | 25-45 | 20-40 (in leaves + stems) |
 | Clover (green manure, plowed) | 3-6 biomass | 0 (all returned) | 80-200 (total biomass N) |
 | Turnips (roots harvested) | 3-5 roots | 20-35 | 10-20 (in tops if returned) |
-
 
 ## Rotation Systems Comparison
 

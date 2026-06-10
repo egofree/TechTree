@@ -8,16 +8,9 @@
 > **Timeline**: Years 30-70
 > **Outputs**: acid_waste_treatment, solvent_recovery, heavy_metal_precipitation, effluent_monitoring
 
-
 Semiconductor manufacturing generates complex waste streams that differ fundamentally from general industrial waste: hydrofluoric acid waste containing dissolved silicon and fluoride ions, heavy metal waste from metallization processes (copper, aluminum, tungsten), mixed acid waste from etching and cleaning, solvent waste from photoresist processing, and toxic gas scrubber blowdown containing arsenic and phosphorus compounds. These waste streams cannot be discharged to municipal sewer systems without treatment — fluoride must be reduced from thousands of ppm to <10 ppm, heavy metals must be precipitated to <1 ppm, and solvent concentrations must be reduced to <50 ppm. This document defines waste treatment processes specific to semiconductor manufacturing.
 
 ## Decision Framework: Waste Treatment Selection
-
-![OGUN STATE WASTE MANAGEMENT AND SANITATION AGENCY 02](../images/ehs/ehs_waste-management.jpg)
-
-> *This is an image with the theme "Health and Wellness in Africa" from:*
-
-> *Image: Munir The Illuminator, CC BY-SA 4.0*
 
 | Waste Stream | Primary Treatment | Polishing (if needed) | Discharge Limit | Key Risk |
 |-------------|------------------|----------------------|----------------|---------|
@@ -47,7 +40,6 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 | Distillation recovery (solvents) | 90-98% recovery | Low-Medium (energy) | High (distillation unit) | Still bottoms (hazardous) | High |
 | Ion exchange polishing (metals) | To <0.1 mg/L per metal | Medium (regeneration chemicals) | Medium | Spent regenerant (concentrated metal) | Medium |
 
-
 ## Semiconductor Waste Categories
 
 | Waste Category | Sources | Primary Constituents | Treatment Method |
@@ -62,7 +54,6 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 | Sludge | Wastewater treatment precipitation | CaF₂, metal hydroxides, metal sulfides | Dewatering, stabilization, landfill (hazardous) |
 | Spent process chemicals | Spent etchants, spent cleaning solutions | Varies — see category above | Segregated by primary contaminant |
 | Abatement system waste | Spent scrubber media, spent adsorbent | Impregnated carbon/alumina with adsorbed toxic gases | Hazardous waste disposal (sealed containers) |
-
 
 ## Fluoride Removal
 
@@ -114,7 +105,6 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - Neutralize with NaOH: HNO₃ + NaOH → NaNO₃ + H₂O; HCl + NaOH → NaCl + H₂O
 - Result: Sodium nitrate and sodium chloride solution — dischargeable to sewer
 - Watch for nitrogen oxide (NOₓ) evolution during neutralization of concentrated nitric acid — ventilate treatment area
-
 
 ## Sources
 
@@ -188,7 +178,6 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - Used as a polishing step after precipitation to achieve <0.1 mg/L total metals
 - Regeneration: Acid strip (5-10% H₂SO₄ or HCl) recovers concentrated metal solution for recycling or further treatment
 
-
 ## Solvent Waste Categories
 
 **Photoresist solvents**: PGMEA (propylene glycol monomethyl ether acetate), ethyl lactate — from photoresist formulation and application
@@ -248,7 +237,6 @@ TMAH is used as a photoresist developer and silicon etchant. It is highly toxic 
 - **Never discharge untreated** — even diluted TMAH is toxic to aquatic organisms at <10 mg/L
 - Spill response: Absorb with inert material, treat as hazardous waste
 
-
 ## Continuous Monitoring Parameters
 
 Semiconductor fab wastewater discharge is monitored continuously at the outfall:
@@ -272,7 +260,6 @@ Semiconductor fab wastewater discharge is monitored continuously at the outfall:
 - **Daily composite**: 24-hour flow-proportioned composite sample collected by automatic sampler. Analyzed for metals, fluoride, TSS, COD, TOC.
 - **Grab samples**: Collected during batch discharges, process upsets, or for parameters that cannot be composited (pH, residual chlorine, hexavalent chromium)
 - **Quarterly comprehensive analysis**: Full scan of all metals, semi-volatile organics, and priority pollutants for permit compliance
-
 
 ## Source Reduction Strategies
 

@@ -8,16 +8,9 @@
 > **Outputs**: foup_transport, agv_systems, overhead_hoist_transport, fab_logistics
 > **Critical**: No — manual transport with push carts works at lower throughput; automation increases fab productivity but is not a prerequisite
 
-
 A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer visits 400-700 process steps across dozens of different tools. At any moment, thousands of FOUPs (each holding 25 wafers) must move between stockers (storage), process tools, and inspection stations. A single mis-delivered or delayed FOUP can idle a $20 million tool. Automated material transport is the logistics backbone that keeps the fab running at peak throughput.
 
 ## Prerequisites
-
-![Sapporo Fire Bureau Material Transport Car](../images/automation/automation_material-transport.jpg)
-
-> *Sapporo Fire Bureau Material Transport Car*
-
-> *Image: Triangle-Heart, CC BY-SA 4.0*
 
 - [Equipment Communication](equipment-communication.md) — SECS/GEM protocol for tool coordination and FOUP tracking
 - [Cleanrooms](../photolithography/cleanrooms.md) — cleanroom environment with raised flooring and structural support for OHT rails
@@ -56,7 +49,6 @@ A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer
 | Maintenance access | Difficult (overhead work) | Easy (floor level) | Medium (floor rails) |
 | Throughput per vehicle | 15-25 FOUP/hr | 6-12 FOUP/hr | 20-40 FOUP/hr |
 
-
 ## Design Standards
 
 The FOUP is the standardized wafer carrier for 300 mm fabs, defined by SEMI E1.9 and related standards.
@@ -84,7 +76,6 @@ The FOUP is the standardized wafer carrier for 300 mm fabs, defined by SEMI E1.9
 - **Vibration limits**: 0.1 g RMS maximum in the 10-500 Hz frequency range during transport. Vibration causes wafer micro-motion against support structures, generating particles.
 - **Orientation**: FOUP must remain upright (wafer slots horizontal) at all times. Tilting beyond ±10° risks wafers sliding out of slots. Never invert — wafers fall out.
 - **Temperature**: Store and transport between 18-28°C. Temperature cycling causes condensation inside sealed FOUP, contaminating wafers.
-
 
 ## AGV Design and Operation
 
@@ -130,7 +121,6 @@ AGVs are self-navigating vehicles that transport FOUPs along the fab floor betwe
 - Pedestrian collision risk in shared aisles — speed limited to 0.5 m/s near people
 - Lower throughput per vehicle (6-12 FOUP/hr) requires larger fleet for same capacity
 - Navigation errors from floor contamination (metal chips, liquid spills interfere with tape sensors)
-
 
 ## OHT Design and Operation
 
@@ -222,7 +212,6 @@ Stocker systems store FOUPs when they are not actively being processed. A large 
 - **Access time**: 15-60 seconds for any FOUP (time for crane to travel to shelf, pick FOUP, return to I/O port). Average access time: 30 seconds.
 - **Environment**: Stocker interior maintained at ISO Class 4-5 with continuous HEPA filtration. Nitrogen purge option for moisture-sensitive wafers.
 
-
 ## MES Integration
 
 The Manufacturing Execution System coordinates all material transport:
@@ -249,7 +238,6 @@ The Manufacturing Execution System coordinates all material transport:
 - **OHT collision**: Overhead vehicles can collide at switches or merge points. Zone control, anti-collision sensors, and emergency stop systems prevent collisions. System must fail-safe — on communication loss, vehicle stops and lowers FOUP to nearest safe position.
 - **AGV pedestrian safety**: Floor-level AGVs share space with fab operators. AGVs must detect humans and stop. Bumper sensors (contact), ultrasonic proximity (preventive), and floor markings (travel paths) mitigate collision risk. Maximum AGV speed in pedestrian areas: 0.5 m/s.
 - **FOUP contamination**: Transport system must not introduce particles into FOUP interior. Vehicle gripper mechanisms must be cleanroom-compatible. FOUP exterior cleaning (wiper or air knife) before loading onto tool load port.
-
 
 ## Transport Hierarchy
 
@@ -290,8 +278,6 @@ Most 300 mm fabs use raised access flooring (perforated panels 300-600 mm above 
 - **AGV floor flatness**: Raised floor panels must be level within ±1.5 mm over 3 meters for AGV navigation accuracy. Panels must support AGV wheel loads (concentrated 500-1,000 N per wheel) without deflection. Panel deflection under load causes AGV navigation errors.
 - **Panel gap management**: Gaps between raised floor panels must be ≤1 mm to prevent AGV wheels catching. Anti-static panels (resistivity 10⁶-10⁹ Ω/sq) prevent static discharge damage to passing FOUPs.
 - **Floor loading**: Raised floor rated for 5-12 kPa uniform load. FOUP stockers (2,000-5,000 kg) require reinforced floor sections or direct slab mounting.
-
-
 
 ## Troubleshooting
 

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Ginger](../images/plants/plants_ginger.jpg)
-
-> *Ginger (Zingiber officinale) is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine.*
-
-> *Image: Khlshnuramalina, CC BY-SA 4.0*
-
 Ginger
 
 *Zingiber officinale* (Zingiberaceae) is a medicinal & spice plant species of major importance for civilization bootstrapping. Ginger provides leaves, roots, flowers as its primary edible product and ranks 63/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 A plant of the moist to wet tropics, where it is found at elevations up to 1,900 metres. It grows best in areas where annual daytime temperatures are within the range 19 - 29°c, but can tolerate 13 - 35°c. Low temperatures will induce dormancy. It prefers a mean annual rainfall in the range 1,400 - 3,000mm, but tolerates 700 - 4,000mm. Prefers a well-drained, humus-rich, neutral to alkaline soil and a position in full sun or partial shade. When grown on slopes the production may result in severe erosion unless adequate soil-conservation methods have been employed. Prefers a pH in the range 6 - 7, tolerating 4.3 - 7.5. Commercially, plants are given a ten month growing season from planting out a root, being harvested when the stalks begin to wither. Ginger originated in South East Asia, but is nowhere known in a wild state. Yields of green ginger can be up to 38 tonnes/ha. The expected yield of dried ginger may be 1.5 - 7.5 tonnes/ha. The dried ginger constitutes about 25% of the raw rhizome's weight. There are some named varieties. Flowering Time: Late Winter/Early Spring(early summer, mid summer, late summer). Bloom Color: Chartreuse (Yellow-Green) Purple. Spacing: 12-15 in. (30-38 cm). Propagation: Seed. Division as new growth begins.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

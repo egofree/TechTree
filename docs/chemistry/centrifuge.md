@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Centrifuge in Laboratory 1](../images/chemistry/chemistry_centrifuge.jpg)
-
-> *A centrifuge with its lid open inside a lab room.*
-
-> *Image: Ivangiesen, CC0*
-
 A centrifuge separates solids from liquids (or two immiscible liquids) by applying centrifugal force many times greater than gravity. Where gravity settling takes hours or days, a centrifuge accomplishes the same separation in minutes or seconds. The centrifugal acceleration is proportional to the square of the rotational speed multiplied by the bowl radius: a = ω²R. At 5,000 RPM in a 200 mm radius bowl, the centrifugal acceleration reaches approximately 5,500 × g — a force that drives even micron-sized particles to the bowl wall rapidly.
 
 Three main configurations serve chemical processing: **disc-stack** (stack of closely spaced conical discs inside a bowl, continuous or semi-continuous, for fine particles and liquid-liquid separation), **basket** (perforated cylindrical basket lined with filter cloth, batch operation, for coarser particles and dewatering), and **decanter** (horizontal scroll-discharge centrifuge, continuous, for high-solids slurries). The disc-stack handles fine particles down to 0.5 µm and is standard for fermentation broth clarification, oil-water separation, and catalyst recovery. The basket centrifuge is simpler to construct and suited for crystalline product recovery. The decanter handles the highest solids loading (up to 60% feed solids) and operates fully continuously.

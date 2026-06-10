@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Ramie](../images/plants/plants_ramie.jpg)
-
-> *Boehmeria nivea in Batumi, Georgia (Caucasus)*
-
-> *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
-
 Ramie
 
 *Boehmeria nivea* (Urticaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Ramie provides leaves, roots, seeds/nuts as its primary edible product.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 It can be grown from seed. It is more commonly grown from cuttings of the rhizome. Sections 15-25 cm long are planted at a depth of 5-8 cm. Suckers and stem cuttings can also be used. Propagation: Seed - sow in pots and only just cover the seed. When they are large enough to handle, prick the seedlings out into individual pots and plant them out when at least 20cm tall. Division. Very easy, larger divisions can be planted straight into their permanent positions whilst smaller clumps are best planted in a nursery until they are growing away well. Layering. Basal cuttings. Harvest new shoots when they are about 10 - 15cm long with plenty of underground stem. Pot them up into individual pots and keep them in light shade until they are rooting well.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -282,4 +275,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants ramie](../images/plants/plants_ramie.jpeg)

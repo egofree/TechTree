@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![Book-keeping by double and single entry [microform] : with an appendix on précis writing and indexing : designed for self-instruction and for use in schools &amp; colleges : adapted expressly for the preparation of candidates for civil service &amp; teachers' examinations](../images/knowledge/knowledge_writing.jpg)
-
-> *Filmed from a copy of the original publication held by the National Library of Canada 43 Subjects: Bookkeeping; Abstracting; Tenue des livres; Résumés analytiques*
-
-> *Image: Dominion Business College (Kingston, Ont.), Public domain*
-
 - **Materials**: Clay for tablets, reeds for styluses, animal skins for parchment, plant fibers for paper, soot and iron salts for ink, beeswax for writing tablets
 - **Tools**: [Basic Tools](../foundations/tools-basic.md) (knives for quill cutting, moulds for paper), reeds and quills for pens, kilns for firing clay tablets
 - **Knowledge**: Spoken language, basic counting and numeracy, observation of natural materials (clay properties, plant fibers, animal skins)
@@ -32,7 +26,6 @@
 | Ink (iron gall) | 50-100 mL | Iron sulfate + oak galls + gum arabic | Carbon ink (soot + gum arabic, waterproof) |
 | Beeswax (tablets) | 200-500 g per tablet | [Animals: Beekeeping](../animals/beekeeping.md) | Pitch or resin (less pleasant to write in) |
 | Quill pens (goose) | 5-10 per month | [Animals](../animals/animal-materials.md) | Reed pens (wear faster), steel nibs (require wire-drawing) |
-
 
 ## Writing System Development
 
@@ -234,8 +227,6 @@ For paper production, movable type, press construction, typesetting, printing in
 
 **Digitization for redundancy**: Photograph or scan critical documents at 300-600 DPI minimum for text, 600-1200 DPI for illustrations and technical drawings. Store in lossless formats (TIFF for archival masters, PDF/A for access copies). Maintain at least two geographically separate copies. Digitization does not replace physical preservation — digital media degrade (bit rot, format obsolescence) — but provides access and insurance against catastrophic physical loss.
 
-
-
 ## Cross-Domain Dependencies
 
 - Writing enables [Education](../knowledge/education.md) and all technical knowledge transfer. Clay fired in [Kilns](../ceramics/kilns.md). Ink related to [Dyeing](../textiles/dyeing.md). Mass reproduction via [Printing](../knowledge/printing.md).
@@ -279,4 +270,3 @@ For paper production, movable type, press construction, typesetting, printing in
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../../index.md)*
 
-![knowledge writing](../images/knowledge/knowledge_writing.jpg)

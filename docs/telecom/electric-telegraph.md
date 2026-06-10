@@ -63,7 +63,6 @@ The first automatic safety system enabled by telegraph technology. Block signali
 - Typical block post spacing: 2-3 km on busy lines, 5-10 km on rural lines. A 100 km route needs 20-50 block posts.
 - Each block post requires a signalman (24/7 staffing on busy lines). Three shifts per post. A 50-block-post line requires 150 signalmen continuously.
 
-
 ## Overhead Pole Line (per km)
 
 | Material | Quantity per km | Specification | Source |
@@ -85,7 +84,6 @@ The first automatic safety system enabled by telegraph technology. Block signali
 | Interior wiring | 2-5 km | 0.5-1.0 mm copper, insulated with gutta-percha or cotton | [Polymers](../polymers/index.md) |
 | Patch cords | 50-100 | 1-2 m flexible cord with plug terminals | [Polymers](../polymers/index.md) |
 | Zinc electrodes | 50-100 kg/year | Consumable, replaced every 2-6 months per cell | [Metals](../metals/index.md) |
-
 
 ## Signal Propagation
 
@@ -118,7 +116,6 @@ The first automatic safety system enabled by telegraph technology. Block signali
 | Block post spacing (busy lines) | 2-3 km | Higher density for higher traffic |
 | Block post spacing (rural lines) | 5-10 km | Lower traffic justifies wider spacing |
 | Collision reduction | ~95% | Compared to time-interval signaling |
-
 
 ## Local Network (10-50 km, single city)
 

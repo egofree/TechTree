@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Winch on remains Of Fish Cellars And Net Lofts At Middle And East Of Beach](../images/construction/construction_hoist-winch.jpg)
-
-> *Remains Of Fish Cellars And Net Lofts At Middle And East Of Beach (architectural structure in Fowey, Cornwall, UK)*
-
-> *Image: Jowaninpensans, CC BY-SA 4.0*
-
 A winch converts rotational force (from a hand crank or motor) into linear pulling force by winding rope or cable around a drum. The mechanical advantage comes from the leverage ratio between the crank arm and the drum radius. A crank arm of 300 mm turning a drum of 100 mm radius gives a 3:1 force advantage — a 100 N push on the crank produces 300 N of pull on the rope. Combined with a ratchet and pawl mechanism, the winch holds loads in any position without continuous operator effort.
 
 A hoist adds a pulley system (block and tackle) to the winch for vertical lifting. A single fixed pulley changes direction without adding force. A block and tackle with N rope segments between pulleys multiplies the lifting force N× while dividing the lifting speed by N. A 4-sheave block and tackle (4 rope segments) on a 5 kN winch lifts 20 kN (≈2 tonnes) at one-quarter the rope speed.

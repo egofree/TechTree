@@ -10,22 +10,6 @@
 
 ## Overview
 
-![Jerusalem Artichoke](../images/plants/plants_jerusalem-artichoke.jpg)
-
-> *Helianthus tuberosus in the Parco fluviale alta Val d'Elsa park in Colle di Val d'Elsa.*
-
-> *Image: This Photo was taken by Wolfgang Moroder.  
-
-Feel free to use my photos, but please mention me as the author and send me a  message. 
-
-
-
-This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.
-
-
-
-Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract., CC BY-SA 3.0*
-
 Jerusalem Artichoke
 
 *Helianthus tuberosus* (Asteraceae) is a root & tuber crop species of major importance for civilization bootstrapping. Jerusalem artichoke provides leaves, roots, flowers as its primary edible product and ranks 30/100 on the nutrition score.
@@ -80,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 A very easily grown plant, it grows best in a loose circumneutral loam but succeeds in most soils and conditions in a sunny position. Plants are more productive when grown in a rich soil. Heavy soils produce the highest yields, but the tubers are easily damaged at harvest-time so lighter well-drained sandy loams are more suitable. Dislikes shade. Likes some lime in the soil. Jerusalem artichoke is reported to tolerate an annual precipitation of 31 to 282cm, an average annual temperature of 6.3 to 26.6°C and a pH in the range of 4.5 to 8.2. Jerusalem artichokes were cultivated as a food plant by the N. American Indians and they are today often grown in temperate areas for their edible tubers. There are some named varieties. The plant is a suitable crop in any soil and climate where corn (Zea mays) will grow. It survives in poor soil and in areas as cold as Alaska. It also tolerates hot to sub-zero temperatures. The first frost kills the stems and leaves, but the tubers can withstand freezing for months. The plants are particularly suited to dry regions and poor soils where they will out-yield potatoes. Tuber production occurs in response to decreasing day-length in late summer. Yields range from 1 - 2kg per square metre. The tubers are very cold-tolerant and can be safely left in the ground in the winter to be harvested as required. They can be attacked by slugs, however, and in sites prone to slug damage it is probably best to harvest the tubers in late autumn and store them over the winter. It is almost impossible to find all the tubers at harvest time, any left in the soil will grow away vigorously in the spring. Plants do not flower in northern Europe. They are sensitive to day-length hours, requiring longer periods of light from seedling to maturation of plant, and shorter periods for tuber formation. They do not grow where day-lengths vary little. The plant is good weed eradicator, it makes so dense a shade that few other plants can compete. The young growth is extremely attractive to slugs, plants can be totally destroyed by them. Members of this genus are rarely if ever troubled by browsing deer or rabbits. Plants only produce flowers in Britain after a long hot summer and seed is rarely formed. Grows well with corn. Plants can be invasive. Propagation: Sow seed in spring in a cold frame. When seedlings are large enough to handle, prick them out into individual pots and grow on in the greenhouse through their first winter, then plant out in late spring or early summer after the last expected frosts. Propagation is most commonly done by tubers: harvest in late autumn or winter and either replant immediately or store in a cool but frost-free place and plant out in early spring. Tubers should be planted as early as possible once the soil can be worked, as late planting seriously reduces yield and tuber size. Plant whole tubers or pieces of about 50g, covered to a depth of 10cm. Pieces larger than 50g do not increase yield, while pieces smaller than 50g will reduce it. Planting too deep can delay emergence, weaken sprouts, and cause tubers to develop deeper, making harvest more difficult. For basal cuttings in spring, harvest shoots when about 10–15cm long with plenty of underground stem, pot into individual pots, and keep in light shade in a cold frame or greenhouse until rooting well before planting out in summer.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

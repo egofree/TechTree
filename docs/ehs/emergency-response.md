@@ -8,16 +8,9 @@
 > **Timeline**: Years 30-70
 > **Outputs**: emergency_procedures, spill_response, evacuation_plans, first_aid_protocols, emergency_equipment
 
-
 Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas leaks that ignite spontaneously, toxic hydride gas releases at concentrations measured in parts per billion, hydrofluoric acid exposures that cause systemic poisoning through skin absorption, and mixed-chemical fires producing toxic combustion products. Standard industrial emergency response is insufficient — a firefighter applying water to a silane fire could spread the burning gas; a first responder entering an arsine release without SCBA becomes a victim within minutes. This document defines emergency response procedures specific to semiconductor chemical hazards.
 
 ## Decision Framework: Emergency Response Level
-
-![Anti Crime and Community Emergency Response Team 03](../images/ehs/ehs_emergency-response.jpg)
-
-> *Anti Crime and Community Emergency Response Team (Philippines) motorcade in Poblacion, Baliwag.*
-
-> *Image: RamaGaspar, CC BY-SA 4.0*
 
 | Trigger | Response Level | Actions | Who |
 |---------|---------------|---------|-----|
@@ -38,7 +31,6 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 4. **Configure alarm system**: Three-tier (alert, evacuation, shelter-in-place) with distinct tones and strobes. Gas detection hardwired to alarm panel.
 5. **Train all personnel**: Annual emergency response training for all fab workers. Quarterly drills (evacuation, spill, tabletop). Document attendance.
 6. **Establish external contacts**: Pre-arrange hazmat response with local fire department. Notify hospital of potential chemical exposures (HF, arsine) so they stock antidotes.
-
 
 ## Eyewash Stations
 
@@ -123,7 +115,6 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 - Two-way radio (intrinsically safe rated)
 - Caustic scrubber solution (20% NaOH) for emergency neutralization of AsH₃/PH₃
 
-
 ## Hydrofluoric Acid Exposure
 
 **Skin contact** (most common HF emergency):
@@ -189,7 +180,6 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 **Eye contact**: Flush at eyewash station 15-30 minutes. Hold eyelids open. Alkali burns require longer flushing than acid burns. All chemical eye exposures require ophthalmological evaluation.
 
-
 ## Alarm System
 
 Semiconductor fabs use a multi-tier alarm system:
@@ -221,7 +211,6 @@ Semiconductor fabs use a multi-tier alarm system:
 - Personnel accountability: Head count against daily access roster. Missing persons reported to emergency response team immediately
 - Wind socks visible at assembly points to determine wind direction (inform evacuees which direction is downwind — stay upwind)
 
-
 ## Response Team Roles
 
 **First responder** (nearest qualified person):
@@ -250,7 +239,6 @@ Semiconductor fabs use a multi-tier alarm system:
 | Gas leak response | Annually | 60-90 min | Emergency response team + management |
 | Full-scale exercise (multi-agency) | Annually | 2-4 hours | All internal responders + fire department + hospital |
 | Tabletop exercise (scenario-based) | Quarterly | 60 min | Emergency response team + management |
-
 
 ## Inspection Schedule
 

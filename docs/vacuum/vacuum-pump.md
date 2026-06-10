@@ -12,12 +12,6 @@ This article covers the construction of three vacuum pump families that together
 
 ## Principle
 
-![Fruitland RCF500 Rotary Vane Vacuum Pump](../images/vacuum/vacuum_vacuum-pump.jpg)
-
-> *Fruitland's RCF500 rotary vane vacuum pump.*
-
-> *Image: Gwhite4444, CC BY-SA 4.0*
-
 A vacuum pump removes gas molecules from a sealed volume, progressively lowering the pressure. Three construction families cover the range needed for semiconductor processing:
 
 **Rotary vane pump**: An eccentric rotor with spring-loaded vanes rotates inside a cylindrical stator. Each vane sweeps a crescent-shaped volume of gas from the inlet port to the exhaust valve, compressing it to above atmospheric pressure for expulsion. Oil fills the microscopic clearances between vanes and stator wall, creating a gas-tight seal. The pump achieves 10⁻²–10⁻³ Torr and serves as the roughing pump for all high-vacuum systems.
@@ -202,5 +196,4 @@ Oil-free (dry) pumps are increasingly important for semiconductor manufacturing.
 ---
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [Vacuum Pumps](vacuum-pump.md) • [All Domains](../../index.md)*
-
 

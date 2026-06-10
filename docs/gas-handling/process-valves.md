@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Duisburg, Landschaftspark Duisburg-Nord -- 2020 -- 7824-6](../images/gas-handling/gas-handling_process-valves.jpg)
-
-> *Valves at in the steam generation at Landschaftspark Duisburg-Nord, Duisburg, North Rhine-Westphalia, GermanyThe Duisburg-Nord Landscape Park (also known as “LaPaNo” or “LaPaDu” for short) is a landscape park covering around 180 hectares surrounding a disused steelworks in Duisburg-Meiderich. The former plant was founded in 1902 by August Thyssen as a “joint-stock company for metallurgical operations” to supply his Siemens-Martin steelworks in Bruckhausen and Styrum, and went into operation on May 16, 1903, with the firing up of blast furnace 1. In 1985, blast furnace 5 was shut down after just twelve years of operation due to overcapacity on the European steel market, making it the last remaining blast furnace. In the 1990s, the halls, buildings, and outdoor areas were redesigned according to plans by architects Peter Latz + Partner. In 1994, the park was opened to the public.*
-
-> *Image: Dietmar Rabich, CC BY-SA 4.0*
-
 Industrial process valves control fluid flow in chemical reactors, steam distribution, gas pipelines, and high-pressure process systems. Unlike [water distribution valves](../water/water-valves.md), which operate near ambient temperature at moderate pressure with non-corrosive media, process valves must handle steam above 200°C, corrosive chemicals (acids, alkalis, chlorinated solvents), flammable or toxic gases, and pressures from vacuum to 200+ bar — sometimes several of these simultaneously on a single valve.
 
 A chemical plant with 500 process vessels needs 2,000-5,000 valves. Each must be specified by body material, pressure class, seat material, end connection, and actuator type to match the service. A carbon-steel gate valve that lasts 30 years in steam service will corrode through in weeks if installed in a sulfuric acid line. A bronze globe valve rated for 16 bar water will fail catastrophically at 16 bar steam (200°C) because bronze loses half its yield strength between 20°C and 200°C.

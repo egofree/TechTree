@@ -8,7 +8,6 @@
 > **Outputs**: fish, vegetables, herbs, filtered_water
 > **Critical**: No — aquaponics provides high-density integrated food production but is not the only path to reliable agriculture; conventional soil-based farming and separate aquaculture are viable alternatives
 
-
 Aquaponics is an integrated food production system that combines fish farming (aquaculture) with soil-less plant cultivation in a single recirculating water loop. Fish produce ammonia-rich waste; bacteria convert that ammonia to nitrate; plants absorb the nitrate as fertilizer; the cleaned water returns to the fish tank. The result is two crops (fish and plants) from one water input, with the plants serving as the water filtration system for the fish and the fish providing free fertilizer for the plants.
 
 Aquaponics is a **lower-technology** approach than chemical hydroponic systems. Where hydroponics requires precise chemical pH adjustment (adding phosphoric acid or potassium hydroxide), aquaponics achieves pH stability through natural biological buffering — calcium carbonate from crushed shells, bones, or limestone dissolves slowly to maintain pH in the 6.5-7.0 range. The nitrogen cycle is driven entirely by naturally occurring bacteria. No chemical inputs are needed for the core system beyond fish food and supplemental minerals (iron, calcium, potassium) that fish food does not provide in sufficient quantity. The more advanced [hydroponic pH control](./sem-tech-hydroponics.md) systems, which use electromembrane electrodialysis for ion-by-ion nutrient management, build upon the principles established by aquaponics but require substantially more industrial infrastructure.
@@ -47,7 +46,6 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 - Sheltered location (greenhouse, indoor room, or covered area) for temperature control
 - Water source for initial fill and make-up water (see [Water Procurement](../water/procurement.md))
 
-
 ## Household Aquaponic System (1000 L fish tank)
 
 | Material | Quantity | Source | Alternatives |
@@ -69,7 +67,6 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 | Crushed eggshells or oyster shells | 500 g-2 kg | Calcium supplement + pH buffer | Kitchen waste, coastal collection |
 | Wood ash | 100-200 g per 100 L weekly | Potassium supplement | [Fire-Making](../foundations/fire.md) |
 | Chelated iron (iron DTPA) | 2-5 mg/L every 2-4 weeks | Iron supplement (prevents chlorosis) | [Chemistry](../chemistry/index.md) or commercial |
-
 
 ## System Design and Assembly
 
@@ -269,7 +266,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - System requires daily monitoring (5-10 minutes) — neglect for more than 24 hours can kill fish
 - First-time systems commonly lose fish during the learning curve — start with inexpensive fish
 
-
 ## Fish Growth Rates in Aquaponics
 
 | Species | Optimal Temperature (°C) | Time to 500 g | Feed Conversion Ratio | Stocking Density (kg/m³) |
@@ -343,7 +339,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - **Heavy metals**: Do not use galvanized metal (zinc-coated) components in the system — zinc is toxic to fish at concentrations as low as 0.1 mg/L. Copper is also toxic to fish (and to invertebrates like shrimp and snails) at concentrations above 0.02 mg/L. Use plastic, stainless steel, or ceramic components for plumbing and fittings. Lead solder in plumbing is a contamination risk — use lead-free connections.
 - **Plant food safety**: Fish waste can contain human pathogens if the fish are fed manure or contaminated feed. Use only clean feed sources (commercial pellets, BSF larvae raised on food waste, duckweed from clean water). Wash all aquaponic produce before eating. Leafy greens grown in media beds may have gravel particles trapped in leaves — rinse thoroughly.
 
-
 ## Water Quality Monitoring Schedule
 
 | Parameter | Frequency | Target | Action Threshold |
@@ -363,7 +358,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Plant growth rate | Species-specific (see table) | <50% of expected rate | Days from transplant to harvest |
 | Water clarity | Clear to slightly green | Brown or opaque | Visual inspection (turbidity indicates solids problem) |
 | Bell siphon cycle frequency | 3-4 cycles per hour | <2 or >6 per hour | Time fill and drain cycles |
-
 
 ## Aquaponics vs Other Growing Methods
 

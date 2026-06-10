@@ -10,12 +10,6 @@
 
 ## Overview
 
-![European Ash](../images/plants/plants_fraxinus-excelsior.jpg)
-
-> *Fraxinus. Leaf adaxial side. Herbarium of the city Elektrostal Moscow Oblast, 2020 year. Created by scanography. Collection D.Makeev. Scale 1 unit = 1 mm. These are original colors. Please do not make edit.*
-
-> *Image: Dmitry Makeev, CC BY-SA 4.0*
-
 European ash (*Fraxinus excelsior*) produces wood with exceptional toughness, flexibility, and shock resistance. It is the traditional choice for tool handles, baseball bats, wagon wheel rims, bentwood furniture, and any application where wood must absorb repeated impacts without splitting. The wood bends readily when steamed, making it the basis of the bentwood industry that produces chairs, baskets, and boat frames.
 
 Ash wood has a pale cream to light brown color with a pronounced, straight grain. The ring-porous structure creates a distinctive visual pattern that resembles oak but without the medullary rays. Density ranges from 590 to 700 kg/m³ at 12% moisture content, placing it among the heavier European hardwoods.
@@ -207,4 +201,3 @@ This species represents an important component of a diversified food production 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants fraxinus excelsior](../images/plants/plants_fraxinus-excelsior.jpeg)

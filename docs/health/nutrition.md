@@ -8,11 +8,9 @@
 > **Outputs**: nutritional_guidelines, deficiency_prevention_protocols
 > **Critical**: No — but deficiency diseases are among the fastest-acting civilization-killers; scurvy incapacitates in 4-8 weeks of vitamin C deprivation
 
-
 Nutrition science in a bootstrap civilization focuses on the biochemistry of human metabolism: which nutrients are required in what quantities, how to obtain them from available food sources, and how to recognize and treat deficiency diseases before they cripple the workforce. The discipline bridges [food processing](../food-processing/index.md) (which transforms raw materials into edible products) and [diagnostics](diagnostics.md) (which detects deficiency states through physical signs and laboratory tests).
 
 The gap between "eating food" and "eating nutritionally complete food" is deceptively large. A population subsisting on milled white rice, salted meat, and no fresh produce can survive for months while progressively losing the capacity for physical labor to beriberi, scurvy, and anemia. Historical navies lost more sailors to scurvy than to combat; the British Royal Navy's adoption of citrus rations in 1795 was arguably the single most consequential nutritional decision in military history.
-
 
 ## Macronutrients
 
@@ -236,7 +234,6 @@ Monitor workforce for early deficiency signs:
 | Vitamin A | Night blindness | History (difficulty seeing at dusk) | Any cases → add liver, sweet potatoes, or carrots to diet |
 | Iodine (goiter) | Thyroid enlargement | Neck palpation | Any cases → iodize salt (KI at 20-40 mg/kg) |
 
-
 ## Food Safety in Processing
 
 Food safety failures can incapacitate a workforce faster than any nutritional deficiency. Contaminated food causes acute illness (hours to days), while deficiencies develop over weeks to months. A single batch of improperly preserved meat or contaminated grain can sicken an entire work crew.
@@ -364,7 +361,6 @@ Corn-dependent populations that do not treat corn with alkali develop pellagra b
 4. **Wash**: Drain and rinse the corn 2-3 times to remove the loose pericarp and excess lime. The corn is now "nixtamal" and can be ground into masa (dough) for tortillas, tamales, or similar foods.
 5. **Nutritional improvement**: Untreated corn contains approximately 1.5 mg/g total niacin but only 0.3 mg/g bioavailable. Nixtamalized corn has approximately 1.2 mg/g bioavailable niacin, a 4× improvement. The process also increases calcium content from ~7 mg/100 g to ~150 mg/100 g and improves the protein quality score.
 
-
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
@@ -392,4 +388,3 @@ Corn-dependent populations that do not treat corn with alkali develop pellagra b
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
 
-![health nutrition](../images/health/health_nutrition.jpg)

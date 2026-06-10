@@ -8,9 +8,7 @@
 > **Timeline**: Years 5-20
 > **Outputs**: on_off_control, temperature_switching, mechanical_actuation
 
-
 Mechanical thermostats use thermal expansion of metals to actuate switches without any external power source. They range from the simplest possible temperature switch (a single metal rod pushing a contact) to mass-produced bimetallic discs that protect billions of appliances. All four types covered here share the same operating principle: differential thermal expansion of metals produces mechanical motion that trips a switch. They require only basic metalworking to build and operate reliably across millions of cycles.
-
 
 ## Single-Metal Expansion Rod Thermostat
 
@@ -66,7 +64,6 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 - Mounting flexure introduces false temperature readings
 - Slow response due to large thermal mass of the rod
 
-
 ## Rod-and-Tube Thermostat
 
 **Principle**: A low-expansion rod (iron or steel, α ≈ 12 × 10⁻⁶/°C) runs inside a high-expansion tube (copper or brass, α ≈ 17-19 × 10⁻⁶/°C). Both are fixed together at one end. When heated, the tube grows faster than the rod, creating relative displacement between the free ends. The differential expansion ΔL = L₀ × (α_tube - α_rod) × ΔT amplifies the usable motion compared to a single-metal rod, since both elements respond to the same temperature but at different rates.
@@ -121,7 +118,6 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 - Differential expansion still produces modest motion, limiting precision
 - Mechanical deadband of 3-8°C prevents tight control
 - Spring must be carefully calibrated to avoid overriding the expansion force
-
 
 ## Bimetallic Strip Thermostat
 
@@ -182,7 +178,6 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 - Deadband of 1-8°C prevents tight temperature regulation
 - No remote sensing capability; sensor must be at the control point
 
-
 ## Bimetallic Snap-Action Disc Thermostat
 
 **Principle**: A shallow dished disc stamped from bimetallic sheet stores elastic energy in its curved shape. As temperature rises, differential expansion builds stress in the disc. At a critical temperature, the stress overcomes the geometric stability of the dome, and the disc snaps suddenly to an inverted curvature. This snap transition is extremely fast (milliseconds) and produces a clean, decisive mechanical motion ideal for switching. The snap temperature is determined by the disc geometry (diameter, dish depth, thickness) and the bimetallic combination. Once set by stamping, the trip temperature is fixed.
@@ -237,7 +232,6 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 - Requires precision stamping dies for consistent disc geometry
 - Narrow operating range (30-300°C) determined by bimetallic combination
 - Disc-to-disc variation of ±2-3°C even with careful production
-
 
 ## Scaling Notes
 
@@ -297,7 +291,6 @@ Mechanical thermostats scale from individual bench assembly to mass production:
 - **Thermal burns during calibration**: Calibration involves heating the thermostat to its trip temperature, which may exceed 300°C. Use tongs or heat-resistant gloves to handle hot thermostats. Allow adequate cooling time before handling with bare hands. A 300°C metal component causes a deep burn on contact in less than 1 second.
 - **Metal fume exposure**: Brazing bimetallic strips (silver solder at 620°C) produces metal oxide fumes. Cadmium-bearing silver solders (still found in older stock) produce cadmium oxide fume, which is extremely toxic. Use cadmium-free silver solder only. Braze under local exhaust ventilation or in a well-ventilated area.
 - **Lead exposure**: Some bimetallic strip alloys and solder types contain lead. Handle with gloves. Wash hands before eating. Do not sand or grind lead-containing alloys without respiratory protection (P100 respirator).
-
 
 ---
 

@@ -208,4 +208,3 @@ The compression press is simpler to build than an injection molding machine — 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
 
-![machine tools compression press](../images/machine-tools/machine-tools_compression-press.jpg)

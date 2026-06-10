@@ -18,19 +18,7 @@ This article covers the lubrication theory shared across all types and links to 
 
 ## Lubrication Regimes
 
-![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_lubricants.jpg)
-
-> *A picture of the chemical ethanolamine. Taken for the Wikipedia page on Ethanolamine.*
-
-> *Image: Carbamatesalts, CC BY-SA 4.0*
-
-![18-24hp Enfield engine, lubrication system, diagram (Heat Engines, 1913)](../images/chemistry/chemistry_lubricants-diagram.jpg)
-
-> *Fig. 210 
-
 Diagrammatic sketch of the lubrication system of the Enfield engine*
-
-> *Image: Andy Dingley (scanner), Public domain*
 
 ### Boundary Lubrication
 

@@ -8,7 +8,6 @@
 > **Outputs**: goose_meat, goose_eggs, down, feathers, manure, guardian_services
 > **Critical**: No — most feed-efficient poultry on pasture but slow-reproducing and seasonal
 
-
 Domestic geese are the largest poultry species commonly kept, derived primarily from the greylag goose (*Anser anser domesticus*) in Europe and the swan goose (*Anser cygnoides domesticus*) in Asia. Adults weigh 5-12 kg depending on breed, with ganders (males) consistently heavier than geese (females). Geese are long-lived (20-30 years in managed care), exceptionally hardy, and among the most efficient converters of pasture to meat of any livestock — on good grass, geese obtain 70-80% of their dietary needs from grazing alone, requiring minimal supplemental feed.
 
 Geese serve multiple roles beyond meat and egg production: they are effective weeders in cotton fields, strawberry beds, and orchards (selectively grazing grasses and broadleaf weeds while ignoring established crops); they provide loud alarm calls that deter predators and intruders (guardian behavior); and their down (the fine underplumage) is one of the most effective natural insulating materials known. A single goose yields 100-150 g of raw down, enough for a small pillow.
@@ -16,12 +15,6 @@ Geese serve multiple roles beyond meat and egg production: they are effective we
 Egg production is modest (30-50 eggs per year) but each egg is substantial (150-200 g, roughly three times the weight of a chicken egg). Geese are seasonal layers, producing eggs primarily in late winter through spring (February to May in the northern hemisphere). Their strong pair bonds, territorial nature, and longevity make them unique among poultry — geese recognize individual humans and respond differently to familiar keepers versus strangers.
 
 ## Prerequisites
-
-![Bar-headed Geese in Koonthalulam, India, by Dr. Tejinder Singh Rawal](../images/animals/animals_poultry_geese.jpg)
-
-> *Bar-headed Geese in Koonthalulam, India, by Dr. Tejinder Singh Rawal*
-
-> *Image: Tsrawal, CC BY-SA 3.0*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -253,8 +246,6 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 **Breeding records**: Track gander-to-goose ratio (optimal 1:2-3), fertility rate (percentage of eggs showing development when candled at day 7), and hatch rate per breeding pair. Replace ganders producing less than 50% fertility.
 
 **Down yield**: Record weight of raw down per bird at processing. Target: 100-150 g per mature goose. Track processed down quality (fill power, measured as cubic inches per ounce) to optimize harvest timing and processing methods.
-
-
 
 ## Troubleshooting
 

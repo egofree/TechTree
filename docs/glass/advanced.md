@@ -8,7 +8,6 @@
 > **Outputs**: borosilicate_glass, fused_silica, quartz_crucibles, glass_tubing, glass_apparatus
 > **Critical**: Yes — borosilicate enables laboratory glassware for all chemistry; fused silica crucibles are consumables for CZ crystal growth (semiconductor-grade silicon).
 
-
 Advanced glass production extends basic glassmaking ([basic glass](basic.md)) into specialty compositions and precision forming methods required for scientific apparatus, optical components, and semiconductor manufacturing. Three product families define this capability:
 
 - **Borosilicate glass** (Pyrex-type): thermal-shock-resistant laboratory ware and chemical apparatus.
@@ -18,12 +17,6 @@ Advanced glass production extends basic glassmaking ([basic glass](basic.md)) in
 Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quartz crucibles as a consumable. [Glass fibers](fibers.md) draw from the same melting expertise. [Photomask substrates](photomask-substrates.md) require ultra-flat, high-purity fused silica blanks.
 
 ## Prerequisites
-
-![Google Glass Explorer Optics Schematic](../images/glass/glass_advanced.jpg)
-
-> *Cross section of an eyepiece (200), for use in a head mounted display (HMD) with components: 120 - viewer's eye 200 - heads-up display eyepiece including: 201 - ambient scene side of eyepiece 202 - eyeward side of eyepiece 203 - forward light propagation path 204 - reverse light propagation path 205 - frame holding components 210 - in-coupling Polarizing Beam Splitter (PBS) 215 - out-coupling partially reflecting half-silvered mirror 230 - illumination region 235 - viewing region 240 - illumination assembly including an LED array with red, green, and blue LEDs and a polarization conversion system composed of a reflector, a wedge with a microlens array, a polarizing diffuser, and a crossed wire-grid polarizer.[1] 245 - Liquid Crystal on Silicon (LCoS) display 250 - plano-convex collimating lens with astigmatism correction; 81.87mm vertical radius, 83.20mm horizontal radius 255 - reflector; formed using a reflective coating on lens 250 270 - external scene*
-
-> *Image: Gupta, Anurag.; Amirparviz, Babak; Sharma, Sumit; Raffle, Hayes S.; Wang, Chia-Jean, Public domain*
 
 **Materials**:
 - [Basic glass](basic.md) production capability (soda-lime glass melting, annealing)
@@ -54,7 +47,6 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 | Electrical energy | 100-400 kWh | [Power generation](../energy/electricity.md) — baseload required | Gas-fired furnace (lower temperature ceiling) |
 | Hydrogen gas (H₂) | 10-50 L/hour for torch work | [Electrolysis](../chemistry/electrolysis.md) | No alternative for fused silica working |
 | Oxygen gas (O₂) | 5-25 L/hour for torch work | [Air separation](../chemistry/air-separation.md) | Compressed air (insufficient for fused silica) |
-
 
 ## Borosilicate Glass
 
@@ -325,7 +317,6 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Fiber diameter sensitive to melt temperature (±5°C causes measurable diameter change)
 - Sizing chemistry adds complexity — bare glass fibers abrade each other and lose strength rapidly
 
-
 ## Glass Composition Comparison
 
 | Parameter | Soda-lime | Borosilicate | Fused silica | Optical crown | Optical flint |
@@ -400,7 +391,6 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Wall thickness: micrometer at 3 points per cross-section. Accept: ±0.1 mm.
 - Straightness: roll on flat surface. Maximum bow: 2 mm per meter.
 
-
 ## Glass Ceramics (Vycor-Type)
 
 Melt a borosilicate glass with specific composition (75% SiO₂, 20% B₂O₃, 5% Na₂O). Form into desired shape by conventional glass forming. Heat treat at 500-600°C to induce phase separation. Leach in hot acid (HCl or H₂SO₄) to dissolve the sodium-borate phase, leaving a porous silica skeleton (~70% of original volume, pore size 2-10 nm). Heat to 900-1000°C to consolidate. Result: 96% SiO₂ glass with CTE 0.75 × 10⁻⁶/°C. Can be formed at conventional glassworking temperatures (before leaching), unlike fused silica which requires 1800-2100°C.
@@ -433,4 +423,3 @@ Immerse thin glass (1-3 mm) in molten KNO₃ at 400-450°C for 4-16 hours. Large
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
 
-![glass advanced](../images/glass/glass_advanced.png)

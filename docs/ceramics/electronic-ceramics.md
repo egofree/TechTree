@@ -8,7 +8,6 @@
 > **Outputs**: MLCC capacitors, ferrite cores, PZT actuators, getter materials, ceramic substrates, varistors, thermistors
 > **Critical**: Yes — passive components (capacitors, inductors, varistors) required for every semiconductor device and power supply
 
-
 Electronic ceramics are a specialized class of ceramics whose useful properties are electrical, magnetic, or electromechanical rather than structural. While [Advanced Ceramics & Refractories](advanced-ceramics.md) covers structural alumina, zirconia, SiC, and Si₃N₄, this capability addresses the functional ceramics that enable capacitors, inductors, piezoelectric actuators, varistors, thermistors, and vacuum tube maintenance. Without electronic ceramics, semiconductor devices lack the passive components they need to function, and vacuum systems cannot maintain the ultra-high purity environments that fabrication demands.
 
 The critical electronic ceramic families:
@@ -18,7 +17,6 @@ The critical electronic ceramic families:
 - **Lead zirconate titanate (PZT)** — piezoelectric actuators, sensors, and transducers
 - **Getters (Zr-V-Fe, Ba)** — chemically active materials that maintain vacuum in sealed devices
 - **Alumina substrates** — 96% Al₂O₃ base for thick-film hybrid circuits and IC packaging
-
 
 ## Materials
 
@@ -64,7 +62,6 @@ The critical electronic ceramic families:
 | MnCO₃ or MnO (≥99%) | 150-200 g | [Mining](../mining/processing.md) | MnO₂ (requires reduction during calcination) |
 | ZnO (≥99.5%) | 120-170 g | [Chemistry](../chemistry/acids-bases.md) | No substitute — composition controls permeability |
 | PVA binder | 30-50 g | [Polymers](../polymers/index.md) | PEG, methylcellulose |
-
 
 ## Barium Titanate (BaTiO₃) — MLCC Capacitors
 
@@ -518,7 +515,6 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 - Self-heating in NTC thermistors (power dissipation causes temperature rise above ambient) limits minimum measurable temperature difference
 - Varistor capacitance (100-10,000 pF) can interfere with high-frequency circuits
 
-
 ## Electronic Ceramic Property Comparison
 
 | Property | BaTiO₃ (X7R) | MnZn Ferrite | PZT-5A | 96% Al₂O₃ Substrate |
@@ -539,7 +535,6 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 | PZT | 1200-1300°C | Sealed (PbO atmosphere) | 1-3 h | 12-18% |
 | ZnO varistor | 1100-1350°C | Air | 1-4 h | 15-20% |
 | NTC thermistor | 1100-1300°C | Air | 1-3 h | 15-18% |
-
 
 ## MLCC Scale
 
@@ -568,7 +563,6 @@ PZT manufacturing at any scale requires lead oxide handling infrastructure: vent
 | NTC thermistor resistance drift | Incomplete sintering, residual stress in encapsulation | Increase sintering temperature or time; age at 150°C for 48+ hours; verify encapsulation does not stress element |
 | NEG won't activate | Surface contamination, insufficient activation temperature | Clean NEG surface before installation; increase activation temperature to 450°C; verify chamber reaches <10⁻⁶ Torr before activation |
 
-
 ## Lead Compounds
 
 PZT manufacturing involves PbO (lead oxide), which is highly toxic:
@@ -586,7 +580,6 @@ BaCO₃ (used in BaTiO₃ synthesis) is toxic if ingested — soluble barium com
 ## Beryllium Oxide
 
 BeO substrates are safe in fired, monolithic form but **extremely hazardous as powder or dust**. Chronic beryllium disease (CBD, berylliosis) is a disabling granulomatous lung disease caused by inhaling BeO particles <10 μm. Sensitization can occur at very low exposure levels (<0.2 μg/m³). Machining, grinding, or breaking BeO ceramics must be done with wet methods and full respiratory protection (P100). Most applications now substitute AlN (aluminum nitride).
-
 
 ## Incoming Raw Material Checks
 
@@ -607,7 +600,6 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 - **Ferrite cores**: Permeability within ±20% of specification. Core loss < specification at rated frequency and flux density.
 - **PZT elements**: d₃₃ within ±15% of target. Coupling coefficient k₃₃ within ±10%. Density >95% theoretical.
 - **Varistors**: V₁mA within ±10%. α >25. Surge current test: survive 8/20 μs impulse at rated current without degradation.
-
 
 ## Passive Component Technology Selection
 
@@ -646,4 +638,3 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*
 
-![ceramics electronic ceramics](../images/ceramics/ceramics_electronic-ceramics.jpg)

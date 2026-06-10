@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Pearl Millet](../images/plants/plants_pearl-millet.jpg)
-
-> *Bajra*
-
-> *Image: Vis M, CC BY-SA 4.0*
-
 Pearl Millet
 
 *Pennisetum glaucum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Bullrush millet, Pearl millet provides seeds/nuts as its primary edible product and ranks 63/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are grown from seed. It is usually sown directly into the field. The plant density is adjusted to suit rainfall and soil fertility. The spacing is 45 cm apart up to 200 cm apart. It is also intercropped with other crops such as cowpea, sorghum and peanut. Crops are normally weeded 2 or 3 times. Propagation: Sow seed in spring in a greenhouse. Once seedlings are large enough to handle, prick them out into individual pots and plant them out in early summer.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

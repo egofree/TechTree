@@ -29,7 +29,6 @@ Physical engineering — building furnaces, machining parts, generating electric
 
 This capability covers Boolean algebra (the mathematics of digital circuits), information theory (the mathematics of communication), and computation theory (the mathematics of what can and cannot be computed). Together, these formal systems bridge the gap between continuous physical engineering and the discrete world of digital technology.
 
-
 ## Origins and Motivation
 
 George Boole (1815-1864) sought to reduce logical reasoning to algebraic calculation. His insight: logical statements can be represented as variables taking values True (1) or False (0), and logical operations (AND, OR, NOT) follow algebraic laws. This mathematical system turned out to be exactly what digital circuit designers need — every logic gate, every processor instruction, every digital communication protocol is an application of Boolean algebra.
@@ -118,7 +117,6 @@ Not all operations are necessary. Two gate types are each "universal" — any Bo
 
 **Engineering application**: Design an alarm system that activates when (motion detected AND system armed) OR (glass break detected AND system armed) OR (door opened AND system armed AND NOT override). Each condition is a Boolean variable; the alarm logic is a Boolean function.
 
-
 ## The Measurement Problem
 
 How much information does a message contain? How much can you compress a data stream? What is the maximum rate at which you can send data over a noisy channel? Claude Shannon answered these questions in 1948, founding information theory.
@@ -166,7 +164,6 @@ This is the **Shannon limit**. It says you can transmit data at any rate below C
 Redundancy (extra bits beyond the information content) enables error correction. The coding gain is the reduction in required signal-to-noise ratio for the same error rate. Modern codes (LDPC, Turbo codes) achieve coding gains of 8-10 dB — meaning they can operate reliably with 6-10× less transmit power than uncoded transmission.
 
 **Engineering application**: Deep-space probes (Voyager, Mars rovers) use powerful error-correcting codes because their signals are incredibly weak by the time they reach Earth. Without coding, the data would be unrecoverable.
-
 
 ## Formal Languages
 
@@ -237,7 +234,6 @@ Using mathematical proof techniques to verify that a system meets its specificat
 
 **Engineering application**: Verifying that a digital circuit implementation matches its Boolean specification. Verifying that a communication protocol cannot deadlock. Verifying that safety-critical software (medical devices, avionics) meets its requirements.
 
-
 ## Digital Circuit Design Pipeline
 
 1. **Specification**: Describe desired behavior in a hardware description language (HDL like Verilog/VHDL)
@@ -278,7 +274,6 @@ Steps 1-2 are pure information theory. Step 5 requires coding theory and statist
 - **Core mathematics** (`mathematics.core-mathematics`): Algebra (Boolean algebra is a specialized algebra), set theory (formal languages operate on sets of strings), and logical reasoning
 - **Applied mathematics** (`mathematics.applied-mathematics`): Probability theory (information theory requires probability), linear algebra (coding theory uses matrix operations)
 - **Enables**: Digital logic design (`computing.digital-logic`), communication systems, data storage (`computing.data-storage`), formal verification, and compiler construction
-
 
 ## Safety
 

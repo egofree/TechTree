@@ -8,7 +8,6 @@
 > **Outputs**: compost, humus, biochar, amended_soil, mulch, green_manure
 > **Critical**: Yes — depleted soils collapse within 3-5 years of continuous cropping; soil management is the foundation of agricultural permanence
 
-
 Soil management is the foundation of sustainable agriculture. Every civilization that has exhausted its soils has collapsed; every civilization that has maintained soil fertility has endured. The core principle is simple: return to the soil what you take from it, and add more than you remove. In practice this means composting organic waste, rotating crops, managing pH and mineral balance, and building organic matter content over years and decades.
 
 A well-managed agricultural soil contains 3-5% organic matter by weight, holds water like a sponge (200-300 liters per cubic meter), supports billions of microorganisms per gram, and produces higher crop yields with fewer inputs than depleted soil. A degraded soil with less than 1% organic matter compacts, crusts, erodes, and requires ever-increasing fertilizer to maintain yields — a losing spiral.
@@ -18,12 +17,6 @@ This article covers composting methods (turned windrow, static pile, vermicompos
 Position in the dependency chain: soil management depends on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic cultivation and harvest knowledge) and supports [Crop Rotation](crop-rotation.md) (rotation builds on soil fertility), [Pest Management](pest-management.md) (healthy soil produces pest-resistant plants), and [Irrigation](irrigation.md) (soil structure determines water infiltration).
 
 ## Prerequisites
-
-![The SOIL composting waste treatment facility for Cap-Haitien Haiti (15737660637)](../images/agriculture/agriculture_soil-management.jpg)
-
-> *Haiti - Social Business UDDTs in Haiti.*
-
-> *Image: SuSanA Secretariat, CC BY 2.0*
 
 **Materials**:
 - Organic waste (crop residues, kitchen waste, manure, leaves, straw)
@@ -51,7 +44,6 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 - Storage for finished compost (covered area or bins)
 - Space for cover crop cultivation within rotation system
 
-
 ## Turned Windrow Composting System (5 tonnes capacity)
 
 | Material | Quantity | Source | Alternatives |
@@ -71,7 +63,6 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 | Metal drum with lid (200 L) | 1-2 | [Metals](../metals/index.md) or scavenged | Earth pit kiln |
 | Water (for quenching) | 50-200 L | [Water Procurement](../water/procurement.md) | — |
 | Compost or manure (for biochar activation) | 100-200 kg | On-site compost | Manure slurry, compost tea |
-
 
 ## Turned Windrow Composting
 
@@ -300,7 +291,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - Excessive phosphorus fertilization causes plants to abandon the symbiosis — counterproductive if P is already abundant
 - Inoculant must come from healthy ecosystems — collecting from diseased or contaminated soil introduces pathogens
 
-
 ## Compost Feedstock C:N Ratios
 
 | Material | C:N Ratio | Category |
@@ -380,7 +370,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - **Humanure precautions**: If composting human waste, never shortcut the thermophilic phase. Never apply inadequately composted humanure to food crops. Maintain separate tools for handling raw humanure and finished compost. Wash hands thoroughly after handling any composting materials.
 - **Lime handling**: Agricultural lime (calcium carbonate) is a mild irritant. Dolomite lime contains silica dust. Wear a mask when spreading dry lime to avoid inhalation. Eye protection recommended — lime dust in eyes causes irritation.
 
-
 ## Compost Maturity Indicators
 
 | Parameter | Finished Compost | Immature/Incomplete | Test Method |
@@ -401,7 +390,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Earthworms per m² | 30-100 | <10 | Dig 30×30×30 cm block, hand-sort |
 | Infiltration rate | 15-30 mm/hr | <5 mm/hr (compacted) | Timed pouring of known water volume into ring |
 | Root depth | >30 cm (crop-dependent) | <15 cm (compacted or acidic) | Dig cross-section with shovel |
-
 
 ## Composting Method Selection
 

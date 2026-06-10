@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Garlic](../images/plants/plants_garlic.jpg)
-
-> *Garlic bulbs and cloves*
-
-> *Image: Ivar Leidus, CC BY-SA 4.0*
-
 Garlic
 
 *Allium sativum* (Amaryllidaceae) is a vegetable crop species of major importance for civilization bootstrapping. Garlic provides leaves, roots, seeds/nuts as its primary edible product and ranks 55/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Succeeds in most soils but prefers a sunny position in a moist light well-drained soil. Dislikes very acid soils. Tolerates a pH in the range 4.5 to 8.3. The bulb is liable to rot if grown in a wet soil. Hardy to at least -10°c. The bulbs should be planted fairly deeply. Garlic has a very long history of use as a food and a medicine. It was given to the Egyptian labourers when building the pyramids because it was believed to confer strength and protect from disease, it was also widely used by the Romans. It is widely cultivated in most parts of the world for its edible bulb, which is used mainly as a flavouring in foods. There are a number of named varieties. Bulb formation occurs in response to increasing daylength and temperature. It is also influenced by the temperature at which the cloves were stored prior to planting. Cool storage at temperatures between 0 and 10°c will hasten subsequent bulb formation, storage at above 25°c will delay or prevent bulb formation. Grows well with most plants, especially roses, carrots, beet and chamomile, but it inhibits the growth of legumes. This plant is a bad companion for alfalfa, each species negatively affecting the other. Members of this genus are rarely if ever troubled by browsing deer. Alliums are typically harvested in late spring to early summer, when the bulbs mature and the tops begin to yellow. Allium species typically flower in late spring to early summer, depending on the species and local climate conditions. Allium species generally have a moderate growth rate, with bulbs typically taking about 100 to 150 days from planting to harvest, depending on the variety and growing conditions. Propagation: Plant cloves in late autumn for an early summer harvest, or in late winter to early spring, though autumn planting typically gives better yields. Set cloves with their noses just below the soil surface. Bulbs left in the ground year-round will often produce tender young leaves during winter.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

@@ -17,12 +17,6 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 ## Prerequisites
 
-![Wind turbines, Wind power, Mirny, Crimea](../images/energy/energy_wind.jpg)
-
-> *Wind turbines. Wind farm. Wind power. Donuzlav wind farm is located near the towns of Novoozernoe and Mirny. The installed capacity is 19+ MW. It consists of 150+ USW 56-100 windmills with a rated output of 100+ kW. Mirny, Crimea.*
-
-> *Image: Vyacheslav Argenberg, CC BY 4.0*
-
 - [Lubricants](../chemistry/lubricants.md) — bearing lubrication for rotating machinery
 - [Textiles](../textiles/index.md) — sail cloth for traditional windmills
 - [Iron & Steel](../metals/iron-steel.md) — shafts, gears, and tower construction

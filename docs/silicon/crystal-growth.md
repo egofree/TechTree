@@ -12,24 +12,6 @@ The CZ puller is the most mechanically demanding piece of equipment in the silic
 
 ## Why Single Crystal Silicon
 
-![FZU AV CR Silicon Single Crystal C](../images/silicon/silicon_crystal-growth.jpg)
-
-> *A sample of a silicon single crystal presented during a tour of the Department of Thin Films and Nanostructures in the Solid State Physics Section at the Institute of Physics of the Czech Academy of Sciences, located on the grounds of the former Czechoslovak Sugar Industry Research Institute in Prague-Střešovice (at the address: Cukrovarnická 112/10)*
-
-> *Image: Mojmir Churavy, CC BY-SA 4.0*
-
-![FZU AV CR Silicon Single Crystal C](../images/silicon/silicon_crystal-growth-cutaway.jpg)
-
-> *A sample of a silicon single crystal presented during a tour of the Department of Thin Films and Nanostructures in the Solid State Physics Section at the Institute of Physics of the Czech Academy of Sciences, located on the grounds of the former Czechoslovak Sugar Industry Research Institute in P...*
-
-> *Image: Mojmir Churavy, CC BY-SA 4.0*
-
-![Czochralski method crucibles](../images/silicon/silicon_crystal-growth-diagram.jpg)
-
-> *Title: Crucibles used in Czochralski method  Desc: Two unused crucibles - smaller one is placed in the big crucible, which is not the case during the crystal growth process. Only one crucible is placed in the crystal puller. A piece of polysilicon is placed on the bottom. Author: Twisp Date: 24.0...*
-
-> *Image: No machine-readable author provided. Twisp assumed (based on copyright claims)., Public domain*
-
 Polycrystalline silicon contains grain boundaries between individual crystal grains. These boundaries are electrically active: they act as recombination centers where electron-hole pairs recombine without contributing to current flow. In polycrystalline silicon, minority carrier lifetime drops from >1,000 μs (single crystal) to <10 μs. For solar cells, this means lower efficiency (10-12% for poly-Si vs. 15-20% for single crystal). For semiconductor devices, grain boundaries are fatal: they cause unpredictable leakage currents, threshold voltage shifts, and junction shorts.
 
 Dislocations within the crystal have a similar effect. Even a single dislocation threading through a transistor's active region can cause device failure. This is why the Dash necking process (described below) is so critical: it eliminates dislocations from the growing crystal.

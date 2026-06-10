@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Cowpea](../images/plants/plants_cowpea.jpg)
-
-> *A widely planted and variable crop with names such as Blackeye Pea. Photo from near Liparamba, Tanzania.*
-
-> *Image: Dick Culbert from Gibsons, B.C., Canada, CC BY 2.0*
-
 Cowpea
 
 *Vigna unguiculata* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Cowpea, Black-eyed pea provides leaves, roots, seeds/nuts as its primary edible product.
@@ -66,7 +60,6 @@ This species grows as a perennial or annual depending on climate and management.
 It is grown from seeds. Seed collection is easy. Seeds remain viable for several years if carefully stored. A seeding rate of about 20 kg per ha is suitable and seed are sometimes broadcast then thinned. Cowpeas mostly inbreed giving pure lines.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

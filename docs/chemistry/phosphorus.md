@@ -10,12 +10,6 @@
 
 ## Overview
 
-![The chemistry of foods and nutrition](../images/chemistry/chemistry_phosphorus.jpg)
-
-> *Caption title*
-
-> *Image: W. O. (Wilbur Olin) Atwater, Public domain*
-
 Extraction of phosphorus from phosphate rock via acidulation or thermal reduction, and production of phosphoric acid and phosphate fertilizers. Phosphorus compounds are essential for agriculture (fertilizer), food additives, detergents, and semiconductor doping. The phosphorus cycle is a key civilizational bottleneck.
 
 Phosphorus is an essential element for life (DNA, ATP, bones) and for agriculture (phosphate fertilizers). Industrial phosphorus production involves reducing phosphate rock with coke in an electric arc furnace at high temperature, producing white phosphorus vapor that is condensed under water. White phosphorus is pyrophoric (ignites spontaneously in air) and extremely toxic, requiring careful handling and storage under water. Subsequent processing converts white phosphorus to red phosphorus (stable, non-toxic), phosphoric acid, and phosphate salts.

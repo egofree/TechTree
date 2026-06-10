@@ -12,12 +12,6 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 
 ## Prerequisites
 
-![Employment in selected energy subsectors, 2019](../images/energy/energy_storage.jpg)
-
-> *The power grids section includes transmission, distribution, and storage. Low-carbon power generation includes nuclear and renewables. EV's includes the manufacturing of batteries. This graphic was published as part of the World Energy Employment report.*
-
-> *Image: International Energy Agency, CC BY 4.0*
-
 - [Chemistry](../chemistry/index.md) — battery chemistry and electrolyte production
 - [Electricity Generation](electricity.md) — generators, motors, transformers, wire
 - [Metals](../metals/index.md) — lead, nickel, iron for battery construction
@@ -247,4 +241,3 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
-![energy storage](../images/energy/energy_storage.png)

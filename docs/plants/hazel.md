@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Hazel](../images/plants/plants_hazel.jpg)
-
-> *Hazelnuts (Corylus avellana) – whole with two kernels (one is peeled)*
-
-> *Image: Ivar Leidus, CC BY-SA 4.0*
-
 Hazel
 
 *Corylus avellana* (Betulaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Hazel nuts, Cob-nut Hazel, Filberts provides leaves, seeds/nuts, flowers as its primary edible product and ranks 68/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 An easily grown plant, it succeeds in most soils, but is in general more productive of seeds when grown on soils of moderate fertility. It does less well in rich heavy soils or poor ones. Does well in a loamy soil. Very suitable for an alkaline soil, but it dislikes very acid soils. Succeeds in a pH range 4.5 to 8.5, but prefers a range of 5 to 7. Plants are fairly wind tolerant. A very hardy plant, succeeding in all areas of Britain. The flowers, however, are produced in late winter and early spring and can be damaged by heavy frosts at this time. A parent, together with C. maxima, of many cultivated forms of filberts and cob nuts. There are many named varieties. Plants are self-fertile but a more certain crop is obtained if more than one cultivar is grown. The main difference between cob nuts and filberts is that the husk of a filbert is longer than the seed and often completely encloses it, whilst the husk on a cob nut is shorter than the seed. Squirrels are a major pest of this plant, often decimating the crop of nuts. Often grown as a coppiced shrub in woodlands, the stems have a variety of uses. Members of this genus bear transplanting well and can be easily moved even when relatively large. A food plant for the caterpillars of many lepidoptera species. A clumping plant, forming a colony from shoots away from the crown but with a limited spread. Most Corylus species are not self-fertile and require cross-pollination from another variety to produce nuts. Hazelnuts are typically harvested in late summer to early autumn, when the nuts have matured and fallen from the trees. Hazels flower in late winter to early spring, with male catkins producing pollen before the female flowers emerge. Corylus species are considered medium to fast-growing, reaching a height of about 3 to 6 meters (10 to 20 feet) within 5 to 10 years, depending on the specific variety and growing conditions. Propagation: Seed is best sown as soon as it is harvested in autumn in a cold frame, germinating in late winter or spring. Stored seed should be pre-soaked in warm water for 48 hours, then given 2 weeks of warm stratification followed by 3–4 months of cold stratification; it germinates in 1–6 months at 20°C. When large enough to handle, prick seedlings out into individual pots and grow on in a cold frame or sheltered spot outdoors through their first winter, then plant out in late spring or early summer. Layering in autumn is easy and takes about 6 months. Division of suckers in early spring is very easy; divisions can be planted straight into permanent positions.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -269,4 +262,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants hazel](../images/plants/plants_hazel.jpeg)

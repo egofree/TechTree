@@ -14,12 +14,6 @@ The technology chain runs from powder production → blending → compaction →
 
 ## Prerequisites
 
-![Centrifugal atomization schematic](../images/metals/metals_powder-metallurgy.jpg)
-
-> *Schematic for centrifugal atomization*
-
-> *Image: R. A. Freitas Jr. and W. P. Gilbreath, Public domain*
-
 - [Alloys](alloys.md) — alloy design, phase diagrams, heat treatment fundamentals
 - [Electric furnaces](../energy/electric-furnaces.md) — sintering temperatures (1100-2500°C)
 - [Hydrogen and silane](../chemistry/hydrogen-silane.md) — reducing atmospheres for sintering

@@ -20,11 +20,9 @@ Inspection and sampling plans require measurement infrastructure:
 
 No physical hazards — inspection is a measurement and analytical activity. When using optical instruments, ensure proper lighting and take breaks to prevent eye strain. When inspecting in production areas, follow site safety requirements (ESD precautions in electronics areas, chemical safety in wet process areas).
 
-
 Every manufactured part cannot be inspected 100% in volume production — the cost and time would be prohibitive. A 300 mm wafer may contain 100,000+ die; inspecting every die on every wafer through 500+ process steps is impossible. Acceptance sampling provides a statistically rigorous method to evaluate batch quality by inspecting a small, representative sample, accepting conforming lots and rejecting nonconforming ones. The challenge is designing sampling plans that reliably detect bad lots while minimizing the cost of inspection.
 
 In semiconductor manufacturing, incoming inspection validates raw materials (photoresist, etching gases, silicon wafers), in-process inspection monitors critical steps, and final test verifies functional die. Each stage requires a different sampling strategy with appropriate AQL (Acceptable Quality Level) targets.
-
 
 ## Decision Framework: Choosing a Sampling Plan
 
@@ -205,7 +203,6 @@ MIL-STD-105E defines a dynamic system that adjusts inspection severity based on 
 
 This dynamic switching creates a feedback loop: consistently good suppliers earn reduced inspection (saving time and money), while problematic suppliers face tightened scrutiny (protecting the consumer).
 
-
 ## Incoming Inspection
 
 Validates raw materials and components before they enter the production process. In semiconductor manufacturing:
@@ -240,7 +237,6 @@ The last quality gate before product shipment. For semiconductor die:
 
 **Final electrical test (ATE)**: Automated test equipment verifies full specification compliance (speed, power, functionality across temperature range — typically tested at −40°C, +25°C, +85°C or +125°C). 100% of packaged parts.
 
-
 ## Variables Sampling
 
 When measurements are on a continuous scale (dimensions, voltages, weights), variables sampling plans are more efficient than attribute plans — they require smaller sample sizes for equivalent protection.
@@ -263,7 +259,6 @@ When a supplier has demonstrated consistent quality over an extended period (20+
 - **Skip-lot frequency**: Inspect 1 lot in 2, or 1 lot in 3, or 1 lot in 4 depending on quality history.
 - **Skipping criteria**: 20 consecutive lots accepted, no quality complaints, no process changes at supplier.
 - **Return to normal**: Any skipped-lot failure or supplier quality issue immediately returns to 100% lot inspection.
-
 
 ## MIL-STD-883 (Microcircuit Test Methods)
 
@@ -334,4 +329,3 @@ The foundational standard for integrated circuit testing, defining test methods,
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../../index.md)*
 
-![quality control inspection sampling](../images/quality-control/quality-control_inspection-sampling.png)

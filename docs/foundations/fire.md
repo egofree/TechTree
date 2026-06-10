@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![Fire-making Apparatus in the U.S. National Museum D9.2](../images/foundations/foundations_fire.jpg)
-
-> *Two fire making apparatus from the Smithsonian.*
-
-> *Image: Walter Hough, Public domain*
-
 None required — fire-making is a root human capability achievable with naturally available materials. Dry wood, suitable stone (flint, chert), and basic cordage from plant or animal fibers are sufficient for friction fire and spark-based ignition methods.
 
 ## Fire-Making

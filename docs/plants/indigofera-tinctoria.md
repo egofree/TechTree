@@ -10,12 +10,6 @@
 
 ## Overview
 
-![True Indigo](../images/plants/plants_indigofera-tinctoria.jpg)
-
-> *True Indigo (Indigofera tinctoria)*
-
-> *Image: Dinesh Valke, CC BY-SA 4.0*
-
 True indigo (*Indigofera tinctoria*) is a tropical legume that produces the most important blue dye in human history. The plant contains indican, a glucoside that, when processed through fermentation and oxidation, yields indigotin, the intense blue pigment that gave indigo its name. For over 5,000 years, indigo was the primary source of blue colorant across Asia, Africa, and the Americas.
 
 The dye extracted from indigo leaves is chemically identical regardless of the plant species used. What makes *Indigofera tinctoria* special is its high indican content (0.2-0.8% of fresh leaf weight) and its tropical adaptability. It grows as a semi-woody shrub 1-2 meters tall, produces multiple harvests per year, and fixes nitrogen in the soil as a legume.

@@ -16,12 +16,6 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 ## Materials
 
-![Schematic-Condensing-Geothermal-PowerPlant-Eng](../images/energy/energy_geothermal.png)
-
-> *Schmatic drawing of a condensing (single flash) geothermal power plant (based on:What is geothermal energy?, International Geothermal Association)*
-
-> *Image: S-kei, CC0*
-
 - **Steel casing and tubing** — Well casing (200-500 mm diameter, 8-12 mm wall, API grade J55 or K55). Production tubing (75-150 mm). See [Iron & Steel](../metals/iron-steel.md).
 - **Cement** — Well cement (API Class G or H) for casing-to-borehole annulus seal. See [Chemistry](../chemistry/acids-bases.md).
 - **Reinforced concrete** — For power plant foundations, cooling tower basins, and containment structures.

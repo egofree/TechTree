@@ -8,7 +8,6 @@
 > **Outputs**: refrigeration_cycles, cryogenic_cooling, expansion_engines
 > **Critical**: No — refrigeration enables cryogenics and food preservation but is not a direct semiconductor process
 
-
 Refrigeration is the active removal of heat from a region to maintain its temperature below that of the surroundings. Every refrigeration system moves heat against its natural direction of flow (hot→cold) by expending work. This file covers the thermodynamic principles and cycle architectures that enable cooling from ambient temperature down to cryogenic temperatures (-150°C and below).
 
 The progression from industrial refrigeration (0 to -40°C) to cryogenics (-150 to -270°C) is not merely a matter of "more of the same." Below approximately -150°C, the thermodynamic and material constraints change qualitatively: ordinary refrigerants condense or freeze, heat capacities drop, thermal contractions become severe, and insulation requirements become dominant. Understanding these transitions is essential for designing systems that operate reliably at cryogenic temperatures.
@@ -364,9 +363,6 @@ Key decision: Below -150°C, conventional vapor-compression stops working — th
 - **[Basic Gas Handling](../gas-handling/basic.md)**: Gas compression and purification infrastructure
 - **[Air Separation & Bulk Gas Production](../chemistry/air-separation.md)**: ASU process and product specifications
 
-
-
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*
 
-![cryogenics refrigeration](../images/cryogenics/cryogenics_refrigeration.png)

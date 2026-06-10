@@ -259,6 +259,3 @@ The three metals in this document converge at specific points in GPU fabrication
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
 
-![metals refractory specialty](../images/metals/metals_refractory-specialty.png)
-
-![metals refractory specialty diagram](../images/metals/diagram:metals_refractory-specialty.jpg)

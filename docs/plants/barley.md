@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Barley](../images/plants/plants_barley.jpg)
-
-> *Four-row barley*
-
-> *Image: Lucash, CC BY-SA 3.0*
-
 Barley
 
 *Hordeum vulgare* (Amaranthaceae) is a staple food crop species of major importance for civilization bootstrapping. Barley, Common barley provides seeds/nuts as its primary edible product.
@@ -66,7 +60,6 @@ This species grows as a perennial or annual depending on climate and management.
 Succeeds in most soils and in climates ranging from sub-arctic to sub-tropical. Easily grown in light soils. Prefers a calcareous soil. Best grown in a sunny position. Barley first came under cultivation about 12,000 years ago. It is widely cultivated in Temperate areas of the world for its edible seed, there are many named varieties. It succeeds further north than most other cereal crops (it succeeds in Norway at latitude 70° N), and at higher altitudes (it is a staple crop in Tibet). The Coeleste group contains the hull-less barleys. Although lower yielding than the type, these hull-less seeds are much easier to harvest making them a much easier crop to grow on a small scale. Propagation: Seed - sow in situ in March or October and only just cover the seed. Make sure the soil surface does not dry out if the weather is dry. Germination takes place within 2 weeks.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

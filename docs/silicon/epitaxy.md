@@ -10,18 +10,6 @@
 
 ## Overview
 
-![Atomic-Scale Growth by Pulsed Laser Deposition (4225677770)](../images/silicon/silicon_epitaxy.jpg)
-
-> *Pulsed Laser Deposition is used to grow oxide-based energy materials by stacking single atomic layers to design epitaxial thin films and superlattice crystals suitable for discovering new functionalities. This allows the formation of atomically-sharp interfacial structures that convert, manipulate, or store energy.*
-
-> *Image: Oak Ridge National Laboratory, CC BY 2.0*
-
-![PlasmaCVD-JP](../images/silicon/silicon_epitaxy-diagram.png)
-
-> *Schematic diagram of a plasma CVD (Chemical Vapor Deposition) system.*
-
-> *Image: S-kei, Public domain*
-
 CVD epitaxial growth of single-crystal silicon layers on polished wafer substrates using trichlorosilane or silane at 900-1200°C. Enables independently doped device layers (p/p+ or n/n+ configurations) with autodoping control via reduced pressure and buffer layers.
 
 Epitaxy, from the Greek epi (upon) and taxis (arrangement), deposits a crystalline silicon layer that inherits the atomic ordering of the substrate beneath it. Unlike polycrystalline or amorphous silicon deposits, an epitaxial layer is a single crystal with the same lattice orientation as the wafer. This matters because transistors built on a single-crystal epilayer have far fewer defects and higher carrier mobility than those built on polycrystalline silicon.
@@ -287,4 +275,3 @@ The HCl pre-etch step before epitaxial growth deserves attention because it sets
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Silicon](./index.md) · [All Domains](../../index.md)*
 
-![silicon wafering epitaxy diagram](../images/silicon/diagram:silicon_wafering-epitaxy.png)

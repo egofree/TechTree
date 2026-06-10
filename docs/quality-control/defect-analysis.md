@@ -21,7 +21,6 @@ Defect analysis requires data collection and statistical tools:
 
 No physical hazards — defect analysis is an analytical discipline. Workstation ergonomics apply: proper posture, adequate lighting, and regular breaks during extended data analysis sessions.
 
-
 Semiconductor fabrication involves 500+ sequential process steps across photolithography, etch, deposition, implantation, and CMP. Each step introduces potential defects — particles, pattern distortions, contamination, thickness non-uniformity. A single killer defect on a die renders it non-functional, yet a modern 300 mm wafer contains hundreds of thousands of die. Understanding which defects matter, where they come from, and how to eliminate them is the central engineering challenge of semiconductor yield management.
 
 Yield for mature semiconductor nodes typically runs 60-90%, meaning 10-40% of manufactured die are thrown away. For leading-edge nodes, yield drops below 50% during initial production. At a fab producing 50,000 wafers per month with each wafer worth $5,000-50,000, every percentage point of yield improvement translates to millions of dollars in revenue. Defect analysis provides the systematic methodology to identify, prioritize, and eliminate yield-limiting mechanisms.
@@ -36,7 +35,6 @@ Yield for mature semiconductor nodes typically runs 60-90%, meaning 10-40% of ma
 | Need to predict yield from defect density | Yield modeling (Murphy/Seeds) | Quantifies relationship between D₀, die area, and expected yield |
 | Sudden yield drop in production | Root cause analysis (5 Whys, Kepner-Tregoe) | Drills from symptoms to fundamental correctable cause |
 | Need to compare multiple process options | DOE with defect analysis | Quantifies which process variables affect defect rates |
-
 
 ## Step 1: Establish Data Collection Infrastructure
 1. Deploy inline inspection tools at critical process steps (post-lithography, post-etch, post-CMP)
@@ -340,7 +338,6 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 - **Tool commonality analysis**: Cross-reference defective wafers with the specific tools they passed through. If all defective wafers used Chamber 3 of the etch tool but good wafers used Chambers 1, 2, and 4, Chamber 3 is the likely source.
 - **Time-series correlation**: Correlate defect rate with process parameter logs (temperature, pressure, gas flow). A step-change in etch temperature coinciding with the defect onset is strong evidence of a causal relationship.
 
-
 ## Analysis Method Trade-offs
 
 | Method | Best For | Time Investment | Data Required | Skill Level | Cost |
@@ -403,4 +400,3 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../../index.md)*
 
-![quality control defect analysis](../images/quality-control/quality-control_defect-analysis.jpg)

@@ -8,31 +8,9 @@
 > **Outputs**: edible_plants, food_crops, vegetables, fruits, seeds
 > **Critical**: Yes — edible plants are the caloric foundation of all human civilization
 
-
 Every human settlement needs reliable caloric intake to survive, work, and reproduce. Wild foraging sustains small groups at low population density, but cannot support specialist labor, surplus production, or population growth. The transition from foraging to cultivation of edible plants is the inflection point where civilization becomes possible: staple crops produce 2-40 tonnes of food per hectare per year, supporting 5-20 people per hectare vs. 0.01-0.1 people per hectare from wild harvest alone. Identifying which plants are edible, how to cultivate them efficiently, how to process them for safety and digestibility, and how to store surpluses for lean seasons are all essential survival knowledge.
 
 ## Prerequisites
-
-![Garden of Edible and Useful Plants - geograph.org.uk - 2971849](../images/plants/plants_edible-plants.jpg)
-
-> *Garden of Edible and Useful Plants*
-
-> *Image: don cload, CC BY-SA 2.0*
-
-
-
-![Balanites aegyptiaca, Sariska TR, AJT Johnsingh. DSCN1388](../images/plants/plants_edible-plants_balanites-aegyptiaca.jpg)
-
-> *Balanites aegyptiaca, Sariska TR, AJT Johnsingh. DSCN1388*
-
-> *Image: Ajtjohnsingh, CC BY-SA 4.0*
-
-
-![Water Droplet on Bitter Orange Leaf](../images/plants/plants_edible-plants_bitter-orange.jpg)
-
-> *A highly-detailed photograph of a water droplet delicately balanced on a green bitter orange leaf.*
-
-> *Image: بدر, CC BY-SA 4.0*
 
 - [Plants & Botanical Resources](./index.md) — botanical knowledge and species identification
 - [Fire-making](../foundations/fire.md) — cooking, drying, roasting, and smoke-preservation
@@ -40,7 +18,6 @@ Every human settlement needs reliable caloric intake to survive, work, and repro
 - [Water / Irrigation](../agriculture/irrigation.md) — reliable water supply for crop cultivation
 - [Soil Management](../agriculture/soil-management.md) — maintaining fertility through rotation and amendment
 - [Seed Saving](../agriculture/seed-saving.md) — maintaining viable planting stock year to year
-
 
 Edible plants are the primary caloric and nutritional source for any human population. Before agriculture, wild foraging provides immediate food security — roots, greens, fruits, seeds, and stems sustain small groups with minimal tools. As populations grow, deliberate cultivation of staple crops becomes essential to produce surplus, which in turn enables specialist labor and all downstream civilization.
 

@@ -18,8 +18,6 @@ Barter, the direct exchange of goods for goods, is the simplest form of trade. I
 
 Trade depends on [transport](../transport/index.md) to move goods between locations and on [writing](../knowledge/writing.md) for contracts, inventories, and price records. The transport network defines the geographic reach of the market; writing defines the complexity of trade relationships that can be managed.
 
-
-
 ## Materials
 
 - **Surplus goods**: At least one party must have goods beyond their own consumption needs. Minimum viable trade surplus: 10-20% of production above personal/family needs.
@@ -40,7 +38,6 @@ Trade depends on [transport](../transport/index.md) to move goods between locati
 - Market spaces: Physical locations where traders meet. Can be informal (crossroads gathering) or formal (dedicated market square).
 - Storage at trade points: Warehouses or secure areas for goods awaiting exchange.
 
-
 ## Bill of Materials (BOM)
 
 Trade is an organizational capability. Physical inputs are minimal:
@@ -51,8 +48,6 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Writing surfaces for records | 10-50 clay tablets or 5-20 papyrus sheets per trading season | [Writing](../knowledge/writing.md) | Tally sticks, knotted cords, memory (limit: ~30 transactions) |
 | Storage at market | 10-50 m³ covered storage per market day | [Construction](../construction/index.md) | Open-air stacking (weather risk) |
 | Market space | 100-500 m² flat ground | Natural terrain | Dedicated market building (for permanent markets) |
-
-
 
 ## Establishing a Barter System
 
@@ -122,8 +117,6 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Currency-based | Unlimited | Unlimited | Yes | Moderate (coin trust) | Complex economies — see [currency](./currency.md) |
 | Fair-based | 50-200 km draw | 100+ types | Optional | High (fair reputation) | Seasonal large-scale exchange |
 
-
-
 ## Trade Route Parameters
 
 | Route Type | Range (one-way) | Speed | Cargo Capacity | Cost per tonne-km |
@@ -168,7 +161,6 @@ Trade is an organizational capability. Physical inputs are minimal:
 
 **Labor value as a cross-check**: As a rough baseline, the grain equivalent of a good reflects the labor time embedded in it. Unskilled labor produces about 5-8 kg grain equivalent per day. A knife requires roughly 2 days of a blacksmith's time (including ore smelting, forging, and sharpening), and a blacksmith's labor is worth about 2x unskilled labor. So: 2 days × 2 × 6 kg = 24 kg grain, plus raw material costs, yielding a 25-30 kg grain range for an iron knife. This cross-check helps when trading in unfamiliar goods where no established exchange rate exists.
 
-
 ## Scaling Notes
 
 - **Minimum viable trade**: Two specialists with complementary surpluses. The smallest trade loop has 2 parties; the smallest multilateral loop has 3 (A gives to B, B gives to C, C gives to A).
@@ -176,7 +168,6 @@ Trade is an organizational capability. Physical inputs are minimal:
 - **Information bottleneck**: Traders need to know market conditions (supply, demand, prices) at their destination. Without rapid communication, price arbitrage opportunities persist for weeks. Written price lists carried by traders partially address this.
 - **Trust radius**: Barter-based trade works within communities where repeated interaction creates trust (Dunbar's number: ~150 people). Beyond this, formal contracts and enforcement mechanisms are needed — see [governance](./governance.md).
 - **Transition to currency**: When trade volume exceeds ~50-100 distinct goods with fluctuating relative values, maintaining a complete exchange rate matrix becomes impractical (N×(N-1)/2 pairs for N goods). Currency reduces this to N prices, each expressed in a single unit of account. See [currency](./currency.md).
-
 
 ## Troubleshooting
 
@@ -196,7 +187,6 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Seasonal shortages of key goods | No off-season storage or import plan | Build community warehouses; contract with distant suppliers for off-season delivery; encourage local production of imported goods |
 | Exchange ratio for new good has no reference | No prior trades establish baseline value | Calculate from labor input (days of skilled work × 2 × daily grain value); compare to similar existing goods; negotiate first trade and record agreed ratio for future reference |
 
-
 ## Safety
 
 - **Travel hazards**: Trade routes expose traders to robbery, accidents, and exposure. Mitigate with armed caravans (minimum 5-10 people for routes >20 km from settlement), weather planning, and route marking.
@@ -204,14 +194,12 @@ Trade is an organizational capability. Physical inputs are minimal:
 - **Debt slavery**: Unrepayable trade debts can lead to bondage. Establish debt limits (maximum debt = 50% of annual productive output) and seasonal debt forgiveness (e.g., at harvest).
 - **Market crowd safety**: Markets with >200 people in confined spaces risk stampedes and disease transmission. Ensure adequate space (minimum 2 m² per person), ventilation, and waste disposal.
 
-
 ## Quality Control
 
 - **Goods inspection**: Each good traded must meet minimum quality standards. Grain: <5% chaff, <2% foreign matter. Metal tools: functional (hold edge, no cracks). Pottery: no cracks, watertight.
 - **Weight verification**: All traded goods measured against standardized weights at point of exchange. Discrepancies >5% trigger renegotiation.
 - **Transaction recording**: Every trade documented with date, parties, goods, quantities. Records stored for minimum 1 year for dispute resolution.
 - **Periodic market audits**: Monthly review of trade records to identify patterns of fraud, default, or market manipulation.
-
 
 ## Variations and Alternatives
 
@@ -235,7 +223,6 @@ Trade networks grow in predictable stages as production complexity increases:
 | 3. Regional trade | 30-200 km | Metals, luxury goods, timber, grain | 50-200 traders | Fixed trade routes, caravans, seasonal fairs |
 | 4. Long-distance trade | 200-2,000 km | Tin, copper, obsidian, spices, silk | 200+ professional traders | Permanent trade posts, currency, written contracts |
 | 5. Industrial supply chains | Unlimited | All manufactured inputs | Thousands | See [supply chain coordination](./supply-chain.md) |
-
 
 ## See Also
 

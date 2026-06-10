@@ -12,12 +12,6 @@ Energy refining covers the processing of crude fuels into usable forms: fraction
 
 ## Prerequisites
 
-![Energy Minister Moshe Shahal](../images/energy/energy_refining.jpg)
-
-> *Energy Minister Moshe Shahal.*
-
-> *Image: IPPA photographer, CC BY 4.0*
-
 - [Fuels](fuels.md) — raw fuel sources and combustion fundamentals
 - [Mining](../mining/index.md) — petroleum and coal extraction
 - [Chemistry](../chemistry/index.md) — distillation, cracking, and chemical processing

@@ -8,13 +8,11 @@
 > **Outputs**: raw_water, groundwater, rainwater
 > **Critical**: Yes — no water source means no settlement, no agriculture, no industry
 
-
 Locating and extracting water from natural sources. Before any distribution network or treatment plant can function, a reliable source must be found, developed, and maintained. This capability covers the full range of procurement methods available from stone-age conditions through early industrial development.
 
 A human requires 2-5 liters of drinking water per day for survival. At 50 liters per person per day for drinking, cooking, and basic hygiene, a settlement of 1,000 people needs 50 m³/day. Industrial processes (brewing, tanning, metalworking cooling) add 2-10× that volume. Water procurement is the first and most fundamental capability for any settlement — without it, nothing else proceeds.
 
 Water sources fall into three categories: surface water (rivers, lakes, streams), groundwater (wells, springs, aquifers), and captured precipitation (rainwater, snowmelt). Each has different reliability, quality, and development effort.
-
 
 ## Materials
 - [Stone and wood tools](../foundations/tools-basic.md) — digging sticks, shovels, stone hammers for early construction
@@ -45,7 +43,6 @@ Water sources fall into three categories: surface water (rivers, lakes, streams)
 | Rope (natural fiber) | 20-50 m | [Textiles](../textiles/rope-making.md) | Chain (metal) |
 | Bucket (wood or metal) | 1-2 | [Metals](../metals/index.md) or woodworking | Clay vessel |
 | Sand and gravel (filter pack) | 1-5 m³ | River or quarry | None — essential for well protection |
-
 
 ## Water Source Identification
 
@@ -296,7 +293,6 @@ The jump from village to town scale is the critical threshold: it requires mecha
 - [Health: Sanitation](../health/sanitation.md) — water supply enables sanitation practices
 - [Foundations: Basic Tools](../foundations/tools-basic.md) — digging implements and construction tools
 - [Metals: Iron & Steel](../metals/iron-steel.md) — pipe and pump components for developed sources
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

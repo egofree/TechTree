@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![Agriculture, Food Production and Outdoor Resources committee members (5392044042)](../images/foundations/foundations_food-agriculture.jpg)
-
-> *Agriculture, Food Production and Outdoor Resources committee members*
-
-> *Image: Missouri News Horizon, CC BY 2.0*
-
 Agriculture and food production depend on several enabling capabilities:
 
 - [Stone and wood tools](tools-basic.md) — digging sticks, hoes, sickles, and processing implements

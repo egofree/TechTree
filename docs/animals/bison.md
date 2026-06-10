@@ -8,16 +8,9 @@
 > **Outputs**: meat, hides, horn, bone, manure
 > **Critical**: No — valuable grassland livestock but specialized; cattle are more versatile
 
-
 The American bison (*Bison bison*) is the largest terrestrial animal in North America, with mature bulls weighing 700-900 kg and cows 400-550 kg. Bison are naturally hardy — they evolved on the Great Plains and require no shelter in most climates, no grain finishing, and have resistance to many cattle diseases. Bison meat is significantly leaner and higher in protein than beef. However, their wild temperament demands specialized handling facilities and experienced management. Bison production is a long-term investment: 18-24 months to slaughter on grass, but with far lower input costs than cattle once the infrastructure is established.
 
 ## Prerequisites
-
-![American bison k5680-1](../images/animals/animals_bison.jpg)
-
-> *Bison bison. Original caption: "scientists are helping users of American rangelands meet the challenge of managing multiple uses sustainably.")*
-
-> *Image: Jack Dykinga, Public domain*
 
 - [Domestication](domestication.md) — livestock handling, taming, and herd management principles
 - [Agriculture](../agriculture/index.md) — pasture management and rotational grazing systems
@@ -51,7 +44,6 @@ Materials listed per 20-cow bison herd per year.
 | Steel pipe corral | 50-100 m panels | [`metals`](../metals/index.md) | Schedule 40, 5 cm pipe minimum |
 | Hydraulic squeeze chute | 1 unit | [`metals`](../metals/index.md) | Essential for veterinary work |
 | Salt and mineral | 200-400 kg | [`mining`](../mining/index.md) | Free-choice loose mineral |
-
 
 ## Grass-Finished Meat Production
 
@@ -139,7 +131,6 @@ Materials listed per 20-cow bison herd per year.
 - Thick hide requires extended tanning time (7-10 days liming vs 3-5 for cattle)
 - Large hide size demands more tanning materials and larger vats
 - Wild temperament makes hide recovery more labor-intensive than cattle processing
-
 
 ## Bison vs Cattle Nutritional Comparison (per 100 g, cooked)
 

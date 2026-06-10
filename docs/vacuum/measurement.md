@@ -245,7 +245,6 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 - **Ion gauge high voltage**: Bayard-Alpert gauges have 150-200 V on the grid and the filament runs at ~1800°C. Never touch the gauge connections while powered. Use insulated connectors. The gauge envelope is glass — handle carefully to avoid breakage.
 - **Penning gauge high voltage**: 2-5 kV between electrodes. Maintain clearances per electrical safety standards. The magnetic field from the permanent magnet can attract ferromagnetic objects (keep steel tools away from the gauge body).
 
-
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

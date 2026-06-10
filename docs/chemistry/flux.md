@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Katedra za menadžment i produkciju pozorišta, radija i kulture, FDU, Flux radio 03](../images/chemistry/chemistry_flux.jpg)
-
-> *Management and Production Department, the Faculty of Dramatic Arts, Flux radio Project*
-
-> *Image: Faculty of Dramatic Arts in Belgrade, CC BY-SA 4.0*
-
 Production of welding and metallurgical fluxes from borax, limestone, fluorspar, and rosin to prevent oxidation and improve joint quality during metal joining and casting.
 
 Fluxes are among the oldest chemical technologies in metallurgy. Without flux, molten metal surfaces oxidize instantly in air, forming a skin of metal oxide that prevents the filler metal from wetting and bonding to the base metal. Flux dissolves this oxide layer and floats it away, allowing clean metal-to-metal contact and a sound joint. In smelting, flux combines with the gangue (unwanted minerals) in the ore to form a low-melting-point slag that separates cleanly from the molten metal.

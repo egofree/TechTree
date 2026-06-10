@@ -10,12 +10,6 @@
 
 ## Prerequisites
 
-![The Printing Press. Step 4. Setting the Paper](../images/knowledge/knowledge_printing.jpg)
-
-> *The paper is set onto the tympan, a board to hold the paper on. Small pins keep it in place*
-
-> *Image: Brett Osteen, CC BY-SA 3.0*
-
 - **Materials**: Wood pulp or cotton/linen rag for paper, soot and linseed oil for ink, lead/antimony/tin for type metal, leather or cloth for binding
 - **Tools**: [Machine Tools: Machining](../machine-tools/machining.md) for precision type molds and press parts, [Metals: Iron & Steel](../metals/iron-steel.md) for press frame and components, [Textiles: Fibers](../textiles/fibers.md) for paper felts and binding thread
 - **Knowledge**: [Writing](writing.md) systems and literacy, basic chemistry for pulping and ink formulation
@@ -32,7 +26,6 @@
 | Linen thread | 2-5 kg (binding) | [Textiles](../textiles/fibers.md) | Hemp cord (coarser) |
 | Leather or cloth | 50-100 m² (binding covers) | [Animals](../animals/animal-materials.md) or [Textiles](../textiles/fibers.md) | Paper covers (less durable) |
 | Wood (press frame) | 200-300 kg oak or elm | Forestry | Cast iron frame (heavier, more rigid) |
-
 
 ## Paper Production
 
@@ -238,7 +231,6 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 **Lithography** (Alois Senefelder, 1796): Draw or write on a flat slab of fine-grained limestone (Bavarian Solnhofen limestone is the historical standard) with a grease-based crayon or tusche (liquid grease ink). The grease is absorbed into the stone pores. Dampen the stone surface with water — the water wets the bare stone but is repelled by the greasy drawn areas. Roll oil-based ink over the dampened stone — the ink adheres only to the greasy drawn areas and is repelled by the water film on bare stone. Press paper onto the inked stone to transfer the image. Lithography prints directly from the flat surface (no carving required), allowing the artist to draw freely with a crayon, producing tonal gradation impossible in woodcut or engraving. A lithographic stone can produce 5,000-10,000 impressions before the image degrades.
 
 **Screen printing** (serigraphy): Stretch a fine mesh screen (silk historically, now polyester or nylon, 80-200 threads per inch depending on detail required) tightly over a wooden or aluminum frame. Block areas of the screen that should not print using a stencil (paper, film, or photo-emulsion). Force ink through the open mesh areas onto the substrate below using a squeegee (rubber blade). Screen printing deposits a thicker ink film (20-40 μm) than any other printing method, producing vivid, opaque color even on dark surfaces. Used for posters, signage, textile printing, and circuit board patterning. Mesh count determines detail resolution: 80 threads/inch for heavy coverage on textiles, 200 threads/inch for fine line work on paper.
-
 
 ## Cross-Domain Dependencies
 

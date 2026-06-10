@@ -8,19 +8,11 @@
 > **Outputs**: kilns, furnaces, ovens
 > **Critical**: Yes — the kiln is the single most enabling piece of infrastructure in the bootstrap sequence; without controlled high-temperature chambers there is no pottery, metals, glass, lime, or chemistry
 
-
 Kilns are the controlled high-temperature chambers that enable ceramics, metallurgy, glass, lime, and chemistry. Without kilns that can reliably reach and hold specific temperatures, there is no pottery, no bricks, no metal smelting, no glass, no lime mortar, and no chemical processing. The kiln is arguably the single most enabling piece of infrastructure in the entire bootstrap sequence, second only to fire itself.
 
 This document covers the design and construction of kilns from the simplest earth-covered pit to industrial tunnel kilns. For firing protocols (temperature schedules, atmosphere control, pyrometry), see [Kiln Firing Protocols](./kiln-firing.md). For clay preparation and forming, see [Pottery & Clay Products](./pottery.md).
 
-
 ## Materials
-
-![A new Maerz Kiln, under construction - geograph.org.uk - 1550690](../images/ceramics/ceramics_kilns.jpg)
-
-> *A new Maerz Kiln, under construction A Maerz Kiln, used for producing burnt limestone products. This one is due for commissioning in early November 2009, so the construction is more or less complete. Some external cladding will no doubt be added at the end. Once up and running, the kiln will produce high quality quicklime for use in industrial effluent treatment, concrete building blocks, steelmaking and soil stabilisation.*
-
-> *Image: Richard Law, CC BY-SA 2.0*
 
 - **Clay** (common earthenware clay for basic kilns; [fire clay](pottery.md) for permanent kilns — kaolin-rich, high alumina, low iron)
 - **Sand and gravel** (for foundation and drainage)
@@ -60,7 +52,6 @@ This document covers the design and construction of kilns from the simplest eart
 | Steel banding or tie rods | 20-50 kg | [Metals](../metals/index.md) | Buttressed earth/stone walls |
 | Refractory mortar (fireclay + sand) | 100-300 kg | [Pottery](pottery.md) | Dry-laid brick (less airtight) |
 | Chimney brick | 100-300 bricks | [Pottery](pottery.md) | Steel pipe (shorter life) |
-
 
 ## Scove Kiln (Simplest — No Construction Required)
 
@@ -463,7 +454,6 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 - Start-up and shutdown takes 24-48 hours — thermal shock to refractory lining limits how quickly the kiln can be brought to temperature
 - Kiln car sand seals wear and leak — loss of seal allows cold air infiltration, causing uneven firing and excess fuel use. Seal maintenance is ongoing
 
-
 ## Kiln Type Comparison
 
 | Kiln Type | Max Temp | Efficiency | Capacity | Cycle Time | Construction Cost |
@@ -499,7 +489,6 @@ Wall thickness determines steady-state heat loss. For insulating firebrick (ther
 
 Use composite wall: dense firebrick hot-face (2-3 courses, 65 mm each) for structural strength, backed by insulating firebrick (2-4 courses). Ceramic fiber blanket layer (25-50 mm) between insulating brick and steel shell further cuts losses by 15-25%.
 
-
 ## From Scove to Production
 
 1. **Scove/pit** (0-2 years): Proof of concept. 5-50 pieces per firing. Fuel: wood, dung.
@@ -534,7 +523,6 @@ Actual consumption is 3-7× higher due to kiln wall losses, flue gas losses, and
 | Reduction atmosphere too strong (black ware, bloating) | Damper closed too far, insufficient air | Open damper slightly; look for clear flame at spy hole (not heavy smoke); reduce fuel rate |
 | Tunnel kiln temperature drift | Burner malfunction, thermocouple drift, or push rate change | Check and clean burners; verify thermocouple calibration; maintain consistent push interval |
 
-
 ## Carbon Monoxide Poisoning
 
 Wood and charcoal-fueled kilns produce CO in enclosed spaces. CO is colorless, odorless, lethal at 0.1% concentration (1,000 ppm) for 1-hour exposure (NIOSH IDLH: 1,200 ppm). Ventilate all kiln areas — work outdoors or with forced draft. Install CO detectors in enclosed firing spaces. Evacuate at >50 ppm. Chronic exposure at 30-50 ppm causes headaches and fatigue.
@@ -555,7 +543,6 @@ Wood and charcoal stores are fire risks. Keep fuel separated from kilns by minim
 
 Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal cycling damage) can collapse. Inspect kiln structure before each firing campaign — look for cracks >3 mm width, bulging walls, loose bricks, or mortar deterioration. Never lean against or stand on a kiln during firing.
 
-
 ## Kiln Performance Testing
 
 - **Peak temperature**: Verify with pyrometric cones or thermocouple. Must reach rated temperature for the ware type (e.g., cone 6 ≈ 1222°C for stoneware).
@@ -573,7 +560,6 @@ Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal c
 - **Pre-firing inspection**: Check walls for cracks, spalling, or loose bricks. Check chimney for blockages. Check dampers for free movement.
 - **Post-firing inspection**: Document any new cracks or damage. Measure crack width — cracks >3 mm require repair before next firing.
 - **Annual assessment**: Measure wall thickness at multiple points. Replace firebrick when erosion exceeds 20% of original thickness.
-
 
 ## Kiln Selection Guide by Product
 

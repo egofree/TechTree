@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Grape](../images/plants/plants_grape.jpeg)
-
-> *A diagram of a grape cluster*
-
-> *Image: Викидим, CC BY-SA 4.0*
-
-![Grape cluster diagram](../images/plants/plants_grape.png)
-
-> *A diagram of a grape cluster*
-
-> *Image: Викидим, CC BY-SA 4.0*
-
-
 Grape
 
 *Vitis vinifera* (Vitaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Grapevine, European grape provides fruit, leaves, flowers as its primary edible product and ranks 59/100 on the nutrition score.
@@ -75,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Prefers a deep rich moist well-drained moderately fertile loam. Grows best in a calcareous soil, but dislikes excessively chalky soils. Prefers a pH in the range 6.5 to 7 but tolerates a range from 4.3 to 8.6. Succeeds in sun or partial shade though a warm sunny sheltered position is required for the fruit to ripen. Very commonly grown in the temperate zones of the world for its edible fruit, there are many named varieties, some of which have been developed for their use as a dried fruit, others for dessert use and others for wine. Good and regular crops are a bit problematical in Britain, grapes are on the northern most limits of their range in this country and the British summer often does not provide enough heat to properly ripen the fruit. Late frosts can also damage young growth in spring, though dormant shoots are very hardy, tolerating temperatures down to about -20°c. Nonetheless, there are a number of commercial vineyards in Britain (usually producing wine grapes) and, given a suitably sunny and sheltered position, good dessert grapes can also be grown. In general it is best to grow the dessert varieties against the shelter of a south or west facing wall. There are a number of varieties that have been bred to cope with cooler summers. Grapes are very susceptible to attacks by phylloxera, this disease is especially prevalent in some areas of Europe and it almost destroyed the grape industry. However, American species of grapes that are resistant to phylloxera are now used as rootstocks and this allows grapes to be grown in areas where the disease is common. Britain is free of the disease at the present (1989) and grapes are usually grown on their own roots. Plants in this genus are notably susceptible to honey fungus. The flowers are intensely fragrant. Grapes grow well in the company of hyssop, chives, basil and charlock. They grow badly with radishes, both the grapes and the radishes developing an off taste. Plants climb by means of tendrils. Any pruning should be carried out in winter when the plants are dormant otherwise they bleed profusely. The cultivated grape is thought to have been derived from V. vinifera sylvestris. (Gmel.)Hegi. This form has dioecious flowers and produces small black grapes. Woody. Growth habit is a single or multiple shooting vine from a crown. Grapes are usually harvested in late summer to early autumn, specifically from late summer through fall, depending on the variety and climate. Grapes typically flower in late spring to early summer. Grapes are considered fast-growing vines, often reaching maturity within 3 to 4 years, depending on the variety and growing conditions. Many varieties of Vitis vinifera are self-fertile, meaning they can produce fruit without cross-pollination. Propagation: Seed is best sown in a cold frame as soon as it is ripe. Six weeks of cold stratification improves germination, so stored seed should also be sown in a cold frame as soon as it is obtained. Germination usually occurs in the first spring, but may take another 12 months. Prick out seedlings into individual pots once large enough to handle, grow on in a cold frame through their first winter, then plant out in early summer. Cuttings of mature wood from the current season's growth can be taken in December or January and rooted in a frame. These can be 15–30cm long, or short single-bud sections around 5cm long. For the shorter sections, remove a thin strip of bark about 3cm long from the lower half of one side to encourage callusing and root formation — these smaller cuttings need a more sheltered environment than the longer ones. Layering is also an option.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

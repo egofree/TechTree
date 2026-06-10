@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Sweet Chestnut](../images/plants/plants_sweet-chestnut.jpg)
-
-> *National Trust managed coppiced Sweet Chestnut woodland at Hindhead Common showing semi-mature sapplings that have sprouted from stumps (or stools) of trees that were felled several years previously. The sapplings, which are pole-like compared to the original tree provide a sustainable source of timber that can be used for poles and the like.*
-
-> *Image: Martinvl, CC BY-SA 4.0*
-
 Sweet Chestnut
 
 *Castanea sativa* (Fagaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. European Chestnut, Sweet chestnut, Spanish chestnut provides seeds/nuts as its primary edible product and ranks 46/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Prefers a good well-drained slightly acid loam in a sunny position but it also succeeds in dry soils. Once established, it is very drought tolerant. Plants are very tolerant of highly acid, infertile dry sands. Averse to calcareous soils but succeeds on harder limestones. Tolerates maritime exposure though it is slower growing in such a position. The dormant plant is very cold-hardy in Britain, though the young growth in spring, even on mature plants, is frost-tender. The sweet chestnut is often cultivated for its edible seed in warm temperate zones, there are several named varieties. Both 'Marron de Lyon' and 'Paragon' produce fruits with a single large kernel (rather than 2 - 4 smaller kernels) and so are preferred for commercial production. Castanea sativa x crenata: The hybrid sweet chestnut ‘Marigoule’ is a good choice If you only want to grow one tree as Marigoule is a partly self-fertile cultivar. Sweet chestnuts require a warm dry summer in order to ripen their fruit properly in Britain and even then these seeds are generally inferior in size and quality to seeds grown in continental climates. Most species in this genus are not very well adapted for the cooler maritime climate of Britain, preferring hotter summers, but this species grows well here. An excellent soil-enriching understorey in pine forests. Flowers are produced on wood of the current year's growth and they are very attractive to bees.. Plants are fairly self-sterile. They hybridize freely with other members of this genus. At one time this tree was widely grown in coppiced woodlands for its wood, but the practise of coppicing has fallen into virtual disuse. Trees regrow very quickly after being cut down, producing utilizable timber every 10 years. This species is not often seen in Cornwall though it grows very well there. Trees take 30 years from seed to come into bearing. Plants in this genus are notably resistant to honey fungus. In garden design, as well as the above-ground architecture of a plant, root structure considerations help in choosing plants that work together for their optimal soil requirements including nutrients and water. Thick or swollen - fibrous or tap root. Propagation: Sow seed as soon as it is ripe, either in a cold frame or in an outdoor seedbed, and protect it from mice and squirrels. The seed has short viability and must not be allowed to dry out. It can be stored moist in a cool place such as the salad compartment of a fridge for a few months, but should be checked regularly for signs of germination. Germination typically occurs in late winter or early spring. Seedlings raised outdoors can be left in situ for one to two years before being moved to permanent positions. Plants grown in pots can go out to permanent positions in summer or autumn, with some cold protection in their first winter.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

@@ -10,13 +10,6 @@
 
 ## Overview
 
-![ISO and UTS Thread Dimensions bg](../images/machine-tools/machine-tools_fasteners-diagram.png)
-
-> *A diagram of an ISO metric or Unified thread, showing dimensions relative to the pitch (P) and thread height (H). Note that while diferent standards, ISO and UTS share the same geometry, but not absolute dimensions. Also shown is the location rounding permissible in internal (dark grey, top) and ...*
-
-> *Image: ISO_and_UTS_Thread_Dimensions.svg: Inductiveload
-derivative work: Спас Колев (talk), Public domain*
-
 Precision thread cutting on lathes to produce standardized screws, bolts, nuts, and threaded rods enabling interchangeable parts.
 
 Thread standardization was a transformative milestone in industrial development. Before standardized threads, every bolt and nut were hand-matched pairs. Replacement required custom fitting by a skilled machinist. The introduction of uniform thread forms (Whitworth, Sellers, Metric) meant that any bolt of a given specification would fit any corresponding nut, enabling mass production of assembled goods and field repair of machinery using replacement parts from stock.
@@ -245,4 +238,3 @@ Heat treatment after thread forming is standard for structural fasteners. Quench
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*
 
-![machine tools fasteners](../images/machine-tools/machine-tools_fasteners.jpg)

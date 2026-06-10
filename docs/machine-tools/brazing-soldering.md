@@ -12,12 +12,6 @@ Brazing and soldering join metals using a filler alloy that melts below the base
 
 ## Brazing
 
-![Brazing and soldering processes - AWS A3.0 2001](../images/machine-tools/machine-tools_brazing-diagram.png)
-
-> *Brazing and soldering processes classification chart*
-
-> *Image: Meisam, Public domain*
-
 Brazing joins metals using a filler alloy that melts above 450°C but below the melting point of the base metal. Capillary action draws molten filler into the joint gap. The base metal never melts, which means dissimilar metals can be joined and heat distortion is minimal.
 
 **Brass brazing (spelter brazing)**:

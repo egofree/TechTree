@@ -12,12 +12,6 @@ This article covers the construction of reactive ion etching (RIE) and inductive
 
 ## Overview
 
-![Halogen-, hydride- and methyl-compounds in plasma etching](../images/photolithography/photolithography_plasma-etcher.png)
-
-> *different chemical compounds have various properties*
-
-> *Image: Pepinpeterkapichler, CC BY-SA 4.0*
-
 Plasma etching is the primary pattern transfer method in semiconductor manufacturing. After photolithography defines a photoresist mask on the wafer surface, plasma etching transfers that mask pattern into the underlying film (SiO₂, silicon, aluminum, or other materials) by combining chemical reactions with directional ion bombardment. The result is anisotropic etching — vertical sidewalls with minimal lateral undercut — which is essential for sub-micron feature definition. Wet chemical etching, by contrast, etches isotropically (equal rates in all directions), making it unusable for features below ~2 μm.
 
 Two plasma etching configurations are addressed in this article. Reactive Ion Etching (RIE) uses a single RF power source to generate plasma and accelerate ions toward the wafer, providing etch rates of 20-1000 nm/min. Inductively Coupled Plasma RIE (ICP-RIE) adds a separate RF-driven antenna coil that generates high-density plasma independently of the ion energy, enabling etch rates of 100-5000 nm/min with better control of anisotropy and less substrate damage.

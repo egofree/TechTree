@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Cassava](../images/plants/plants_cassava.jpg)
-
-> *Flower of Manihot esculenta (commonly called cassava)*
-
-> *Image: Vijayanrajapuram, CC BY-SA 4.0*
-
 Cassava
 
 *Manihot esculenta* (Euphorbiaceae) is a staple food crop species of major importance for civilization bootstrapping. Chimoio provides leaves as its primary edible product.
@@ -62,7 +56,6 @@ This species grows as a perennial or annual depending on climate and management.
 ## Process Description
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

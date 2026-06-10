@@ -12,12 +12,6 @@ This article covers the construction of stainless steel vacuum chambers for semi
 
 ## Principle
 
-![Recoating process in the vacuum chamber (max v364527s)](../images/vacuum/vacuum_vacuum-chamber.jpg)
-
-> *Recoating process in the vacuum chamber for the tertiary UT4 mirror. Guillaume Blanchard is measuring the clearance.*
-
-> *Image: ESO/Max Alexander, CC BY 4.0*
-
 A vacuum chamber is a sealed vessel that maintains a controlled low-pressure environment while providing access ports for pumping, gas delivery, electrical power, cooling, and optical observation. The chamber must withstand 1 atmosphere (101 kPa, 14.7 psi) of external pressure without buckling, maintain leak rates below 10⁻⁸ atm·cc/s for semiconductor processes, and present a clean internal surface that does not outgas contaminants into the process volume.
 
 The governing structural equation for a cylindrical chamber under external pressure is the compressive hoop stress: σ = P × D / (2 × t), where P = atmospheric pressure (~0.1 MPa), D = chamber diameter, and t = wall thickness. For a 300 mm diameter chamber with 5 mm wall thickness: σ = 3 MPa — well below the 200 MPa yield strength of 304L stainless steel. However, thin-walled cylinders under external pressure fail by elastic buckling at stresses far below yield, so a buckling safety factor of 4-6 is required.

@@ -8,7 +8,6 @@
 > **Outputs**: bsf_larvae, protein_meal, chicken_feed, fish_feed, frass_fertilizer, compost
 > **Critical**: Yes — closes the nutrient loop by converting waste streams into animal feed protein
 
-
 In a bootstrapping civilization, protein is the limiting nutrient for both humans and livestock. Fish meal (the traditional animal feed protein source) requires ocean fishing fleets. Soybean meal requires large-scale agriculture, oil pressing, and transport. BSF farming converts waste — food scraps, manure, brewery grain, crop residues — into 40-45% protein feed using nothing more than a wooden box and organic waste. The conversion efficiency is extraordinary: 1.4-2.0 kg of wet biowaste produces 1 kg of fresh larvae in 14-18 days. No other protein production system matches this speed and efficiency with zero purchased inputs.
 
 Without BSF farming: no cost-effective animal feed protein without fishing or soybean farming (both require infrastructure far beyond early settlement capability), no closed-loop waste management (organic waste accumulates, attracts vermin, and loses its nutrient value), no high-protein supplement for aquaculture (fish farming depends on protein feed — without BSF or fish meal, farmed fish grow 50-70% slower), no rapid composting pathway (BSF larvae process waste 5-10× faster than traditional composting). Without BSF farming, every scrap of animal feed protein must come from land-intensive grain or labor-intensive wild harvest.
@@ -36,7 +35,6 @@ BSF farming closes the loop between waste and food production. Settlement waste 
 | Dry carbon material | Straw, sawdust, or dry leaves | 5-10 kg/day | Mix with wet waste to control moisture |
 | Drying screens | Wire mesh on wooden frames, 1 × 2 m | 2-3 frames | For sun-drying harvested prepupae |
 | Storage containers | Sealed buckets or barrels with tight lids | 2-4 | For dried larvae; must be rodent-proof and dry |
-
 
 Insect farming with Black Soldier Fly (BSF, *Hermetia illucens*) converts organic waste into high-protein animal feed and nutrient-rich fertilizer using minimal land, water, and infrastructure. BSF larvae consume almost any organic matter — food waste, manure, brewery grain, slaughter byproducts — and convert it to body mass at remarkable efficiency: 1 tonne of biowaste yields 150-200 kg of fresh larvae in just 14-18 days.
 
@@ -250,4 +248,3 @@ BSF larvae bioaccumulate certain contaminants from their substrate: heavy metals
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
 
-![animals insect farming](../images/animals/animals_insect-farming.jpg)

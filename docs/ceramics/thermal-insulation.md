@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Damaged thermal insulation at Hilfswerks Atzenbrugg, Heiligeneich 02 EPS](../images/ceramics/ceramics_thermal-insulation.jpg)
-
-> *expanded polystyrene insulation and paint*
-
-> *Image: Herzi Pinki, CC BY-SA 4.0*
-
 Thermal insulation materials slow the movement of heat between a hot zone and a cooler environment. In an industrial civilization, the ability to retain heat in furnaces, kilns, steam pipes, and buildings directly determines energy efficiency and process viability. This capability covers three product families: mineral wool (spun from molten rock or slag), ceramic fiber blankets (alumina-silica fibers for temperatures above 1000 degrees C), and foam insulation (polymer-based closed-cell boards for ambient-temperature applications).
 
 Mineral wool production traces back to the observation that volcanic eruptions produce natural fiber blankets when molten basalt hits the air. Industrial mineral wool replicates this by melting basalt, diabase, or blast furnace slag at 1300 to 1500 degrees C, then spinning the melt through a high-speed rotor or blowing it with steam jets. The resulting tangled mat of glassy fibers traps still air, which is the actual insulating medium. Ceramic fiber takes the same principle to higher temperatures by using alumina and silica raw materials that resist recrystallization at 1200+ degrees C. Foam insulation boards, the youngest of the three families, trap gas bubbles inside a polymer matrix for building envelopes and refrigeration.
@@ -234,7 +228,6 @@ Transport costs favor regional production. Mineral wool and foam boards are low-
 - [Cryogenics](../cryogenics/index.md) — upstream dependency (material)
 - [Basic Glass Production](../glass/basic.md) — downstream capability
 - [Ceramics & Refractories](index.md) — downstream capability
-
 
 ---
 

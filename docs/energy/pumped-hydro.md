@@ -12,12 +12,6 @@ Pumped hydroelectric storage is the oldest and most proven large-scale energy st
 
 ## Prerequisites
 
-![Pumped-storage hydroelectricity Żar from Kiczera 2](../images/energy/energy_storage_pumped-hydro.jpg)
-
-> *Pumped-storage hydroelectricity Żar seen from Kiczera*
-
-> *Image: Jendrusk, CC BY-SA 4.0*
-
 - [Electricity Generation](electricity.md) — grid infrastructure and motor/generator technology
 - [Gravity Systems](gravity.md) — gravity-based power principles
 - [Water Turbines](water-turbines.md) — reversible pump-turbine design

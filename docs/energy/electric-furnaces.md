@@ -12,12 +12,6 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 
 ## Electric Arc Furnace (EAF)
 
-![Electric arc furnaces - geograph.org.uk - 517378](../images/energy/energy_electric-furnaces.jpg)
-
-> *Electric arc furnaces steel mill. Part of the Sheffield Forgemaster complex at Brightside. The furnaces are contained in the building at the rear. The tall buildings at the front filter the dust and gases from the furnaces.*
-
-> *Image: Alan Murray-Rust, CC BY-SA 2.0*
-
 **Strengths**:
 - Achieves 3,000-3,500°C in the arc column — the highest temperatures achievable in any industrial furnace
 - Melts 100% scrap steel — enables steel recycling without virgin iron ore
@@ -248,4 +242,3 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
 
-![energy electric furnaces electrode manufacturing diagram](../images/energy/diagram:energy_electric-furnaces-electrode-manufacturing.jpg)

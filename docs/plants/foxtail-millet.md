@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Foxtail Millet](../images/plants/plants_foxtail-millet.jpg)
-
-> *Foxtail millet (Setaria italica) seeds, India. It is an annual grass grown for human food.*
-
-> *Image: Salil Kumar Mukherjee, CC BY-SA 4.0*
-
 Foxtail Millet
 
 *Setaria italica* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Foxtail millet, Indian millet provides seeds/nuts as its primary edible product and ranks 62/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are grown by seed. Seed can be broadcast or drilled. Pure stands require 8-10 kg/ha of seed. Plants are harvested by cutting off the ears. Propagation: Sow seed in early spring in a greenhouse, barely covering it. Germination is usually quick and good. Prick out seedlings into individual pots as soon as they are large enough to handle and grow them on quickly. Plant out in late spring after the last expected frosts. For larger quantities, seed can be sown in situ in mid-spring, though plants may come into flower later and may not ripen seed in a cool summer.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

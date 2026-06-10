@@ -8,15 +8,11 @@
 > **Outputs**: structural_designs, load_calculations, foundation_plans, connection_details
 > **Critical**: Yes — every permanent structure from houses to factories requires structural engineering to avoid collapse
 
-
-
 Structural engineering ensures buildings and structures support their intended loads without excessive deflection, cracking, or collapse. Three fundamental principles govern all structural design: equilibrium (forces must balance), compatibility (deformations must be physically possible), and constitutive relations (material behavior under stress defines capacity).
 
 This capability provides the calculation methods and design tables for beams, columns, arches, trusses, foundations, and connections. It translates the properties of [building materials](./building-materials.md) — timber, masonry, concrete, and steel — into safe, efficient structural designs.
 
 The capability depends on [iron and steel](../metals/iron-steel.md) for structural steel members and reinforcing bar, and on [core mathematics](../mathematics/core-mathematics.md) for the arithmetic, geometry, and algebra needed for structural calculations. Downstream, [industrial buildings](./industrial-buildings.md) and [fortifications](../defense/fortifications.md) apply these design methods to specific building types.
-
-
 
 ## Materials
 
@@ -41,7 +37,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Drawing office or workspace for design calculations and sketches.
 - Reference tables: Section properties (Ixx, area, mass per meter) for standard steel profiles.
 
-
 ## Bill of Materials
 
 | Item | Quantity per Project | Source | Notes |
@@ -50,8 +45,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Drafting supplies | 2-5 sets per engineer | [Basic Tools](../foundations/index.md) | Straightedge, compass, protractor |
 | Reference tables | 1 copy per engineer | [Printing](../knowledge/printing.md) | Steel section properties, timber grades |
 | Testing equipment | 1 set per workshop | [Precision Metrology](../measurement/precision-metrology.md) | Calipers, scales, hardness tester |
-
-
 
 ## Beam Design
 
@@ -252,8 +245,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Buckling of compression members — requires careful bracing and design
 - Fabrication accuracy — member lengths must be within ±2 mm for proper fit; field modifications are difficult
 
-
-
 ## Steel Beam Selection Table (S235, fy = 235 MPa)
 
 | Section | Depth (mm) | Mass (kg/m) | Ixx (cm⁴) | Max UDL Span (m) at 10 kN/m |
@@ -303,7 +294,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | 20 mm bolt in timber (75 mm thick) | ~15 kN | Softwood, single shear |
 | Timber peg (25 mm oak) | ~2-4 kN | Mortise-tenon joint |
 
-
 ## Scaling Notes
 
 - **House (single-story, 100 m²)**: Timber beams (50 × 200 mm at 600 mm spacing) for floor and roof. Timber posts (100 × 100 mm) or masonry walls for vertical support. Strip footing 500 mm wide × 300 mm deep. No structural steel needed. Design time: 1-2 days by experienced designer.
@@ -313,7 +303,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - **Industrial building (15-30 m spans)**: Steel roof trusses (Pratt or Warren), HEB columns, crane runway beams. Truss design by method of joints. Design time: 2-4 weeks for complete structural design.
 
 - **Bridge (5-20 m span)**: Truss or beam bridge. Requires understanding of moving loads (vehicle axle loads), fatigue (repeated loading), and scour (water erosion of foundations). See [Transport](../transport/index.md) for bridge design details.
-
 
 ## Troubleshooting
 
@@ -327,7 +316,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Truss sag at midspan | Bottom chord in compression (reversed loading), connection slip | Check for uplift loads (wind) causing stress reversal; tighten or replace slipped connections; add bottom chord lateral bracing |
 | Concrete column spalling | Rebar corrosion from inadequate cover, freeze-thaw | Chip damaged concrete; clean rebar; apply corrosion inhibitor; repair with polymer-modified mortar; increase cover in future designs |
 | Timber beam splitting at connection | Notch or bolt hole creating stress concentration | Avoid notching beams (reduce capacity by 50%+ at notch); move bolt holes away from high-stress zones; use metal connectors instead of through-bolts |
-
 
 ## Safety
 
@@ -343,7 +331,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 
 - **Overload testing hazard**: When load-testing completed structures, stand clear of the structure during loading. Monitor deflection in real-time. If deflection exceeds calculated values by >50%, stop loading and investigate — the structure may be weaker than designed.
 
-
 ## Quality Control
 
 - **Material verification**: Verify steel grade with mill certificates or hardness test. Verify concrete strength with test cylinders (3 per 50 m³). Verify timber grade by visual inspection (knots, grain, moisture content).
@@ -355,7 +342,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - **Deflection monitoring**: Measure beam and truss deflection under known load. Compare to calculated values. Acceptable tolerance: ±20% of calculated deflection.
 
 - **Foundation settlement monitoring**: Survey reference points on foundations weekly during construction and monthly for the first year. Document all readings. Flag any settlement exceeding predictions by >50%.
-
 
 ## Variations and Alternatives
 
@@ -376,7 +362,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - **Use RC beams when**: fire resistance required, corrosion environment, multi-story construction where formwork is reusable.
 - **Use trusses when**: span >10 m, lightweight roof system needed, prefabrication is advantageous.
 - **Use arches when**: only compression materials available (stone, brick), no tensile capacity in the structural material.
-
 
 ## See Also
 

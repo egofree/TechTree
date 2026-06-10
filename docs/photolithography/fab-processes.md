@@ -10,12 +10,6 @@
 
 ## Core Fab Processes
 
-![A80386DX-25 SX218](../images/photolithography/photolithography_fab-processes.jpg)
-
-> *A80386DX-25 microprocessor; Micro-architecture i386; Data width 32 bit; Frequency 25 MHz; S-spec number SX218; Package 132-pin ceramic PGA; 1.45" x 1.45" (3.68 cm x 3.68 cm); Manufacturing process 1 micron; High speed CHMOS IV technology; 275,000 transistors; Typical/Maximum power dissipation 1.2 Watt / 1.68 Watt. Manufacturer: Intel*
-
-> *Image: Mister rf, CC BY-SA 4.0*
-
 ### Thermal Oxidation
 
 Thermal oxidation grows SiO₂ directly on the silicon wafer surface by exposing it to oxygen or steam at 900-1200°C. Unlike deposited oxides (from CVD), thermally grown oxide has the highest electrical quality because it forms a continuous, dense Si-O network directly from the silicon lattice — making it the only viable choice for gate dielectrics where even a single defect can destroy a transistor. Two variants cover the full thickness range: dry oxidation (Si + O₂ → SiO₂, slow but highest quality) for gate oxides, and wet oxidation (Si + 2H₂O → SiO₂, ~5-10× faster) for thick field and masking oxides.
@@ -241,6 +235,3 @@ A single-level metal NMOS process requires ~80-100 individual operations (includ
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
 
-![photolithography fab processes diagram](../images/photolithography/photolithography_fab-processes-diagram.png)
-
-![photolithography fab processes plasma etching diagram](../images/photolithography/diagram:photolithography_fab-processes-plasma-etching.jpg)

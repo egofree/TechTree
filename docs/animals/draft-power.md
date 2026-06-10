@@ -8,7 +8,6 @@
 > **Outputs**: plowing, hauling, milling, mine hoisting, irrigation pumping
 > **Critical**: Yes — draft power is the primary motive force for agriculture, transport, and mining before steam engines
 
-
 Draft animals were the primary motive force for agriculture, transport, mining, and milling from the Neolithic through the early Industrial Revolution. A single ox delivers 0.5-0.75 HP sustained, a horse 0.75-1.5 HP. These numbers look modest compared to steam engines, but the infrastructure to harness animal power is simple: wood, leather, rope, and iron. No boilers. No machined cylinders. No high-temperature fuel.
 
 The efficiency gap between a bad harness and a good one is enormous. A horse in a breast strap harness tops out around 500 kg of draw. The same horse in a proper collar harness pulls 1500-2000 kg. That threefold improvement costs nothing but knowledge and some padded leather. Getting harnessing right is the single highest-return investment in the draft power chain.
@@ -20,7 +19,6 @@ The efficiency gap between a bad harness and a good one is enormous. A horse in 
 - [Domestication](domestication.md) — animal husbandry and training
 - [Basic tools](../foundations/tools-basic.md) — wood and leather working for harness and vehicles
 - [Leather](leather.md) — harness and collar materials
-
 
 ## Neck Yoke (Oxen)
 
@@ -65,7 +63,6 @@ Breeching is a leather strap, 8-10 cm wide, passing around the horse's haunches 
 
 Without breeching, a loaded wagon on a downhill runs into the horse. The options are: breeching (correct), a person with a drag brake (less reliable), or the horse getting crushed (bad). Every horse-drawn vehicle working in hilly terrain needs breeching.
 
-
 ## Ard Plow (Scratch Plow)
 
 The ard is the simplest plow: a wooden beam with an angled share that scratches a furrow into the soil without inverting it.
@@ -93,7 +90,6 @@ Timing depends on soil type and climate, but general principles hold:
 - **Spring plowing**: for spring-sown crops (oats, barley, vegetables). Soil should be moist but not wet. Plowing wet clay produces clods that bake hard and resist breaking. Test by squeezing a handful: it should crumble, not form a sticky ball.
 - **Fall plowing**: for winter-sown crops (winter wheat, rye). Exposes soil to freeze-thaw cycles that break clods naturally. Inverts vegetation and manure, letting it decompose over winter.
 - **Depth by crop**: shallow-rooted grains need 15-20 cm. Deep-rooted vegetables (carrots, parsnips, potatoes) need 25-30 cm. Pasture renovation: 10-15 cm is sufficient.
-
 
 ## Two-Wheel Cart
 
@@ -143,7 +139,6 @@ A vertical wooden drum, 6-10 m in diameter, mounted on a central pivot post. The
 ## Operation
 
 The horse whim replaced hand winding for shafts deeper than about 20 m. Below that depth, the weight of rope plus ore makes manual winding impractical. A whim can service shafts to 100-150 m depth, beyond which the rope weight becomes prohibitive and steam winding engines take over.
-
 
 ## Animal-Powered Millstones
 

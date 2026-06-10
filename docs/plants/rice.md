@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Rice](../images/plants/plants_rice.jpg)
-
-> *Rice plant (Oryza sativa)*
-
-> *Image: Kalaiyarasiselvam, CC BY-SA 4.0*
-
 Rice
 
 *Oryza sativa* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Rice provides seeds/nuts as its primary edible product and ranks 52/100 on the nutrition score.

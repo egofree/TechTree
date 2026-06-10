@@ -14,14 +14,6 @@ Beyond hygiene, soap and its derivatives are critical for textile processing (wo
 
 ## Prerequisites
 
-![Soap and Detergent manufacturing process 03](../images/chemistry/chemistry_soap.png)
-
-> *A schematic of the soap/detergent making process. The schematic was based on an image from the book "Wereldwijzer" by Marshall Cavendish. Permission was given by Marshall Cavendish for use at Wikimedia Commons. As clearly visible in the schematic, the making of synthetic soap is a very complex and ecologically harmful process (due to the need to manufacture a large amount of chemical ingredients; eg sulphates, phosphates, silicates, parfum, ...). As such, soap substitutes are a better option for certain purposes (eg personal hygiene); simple chemical detergents as NOH, KOH (thus without any extra added chemicals) are a good option for certain other purposes.*
-
-> *Image: Soap_and_Detergent_manufacturing_process_02.png: *Soap_Detergent_manufacturing.JPG: KVDP
-derivative work: Azcolvin429 (talk)
-derivative work: Northumbrian (talk), Public domain*
-
 - [Alkalis](alkalis.md) — NaOH and KOH production for saponification
 - [Petroleum alternatives](petroleum-alternatives.md) — feedstocks for synthetic detergents
 - [Non-ferrous metals](../metals/non-ferrous.md) — copper and zinc equipment for processing

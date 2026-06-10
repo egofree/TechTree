@@ -10,19 +10,6 @@
 
 ## Overview
 
-![Artemisia douglasiana](../images/plants/plants_artemisia-douglasiana.jpg)
-
-> *This picture shows mugworts from all angles, as you can see both sides of the leaves, the stem, and the bud.*
-
-> *Image: Jerry Kirkhart from Los Osos, Calif., CC BY 2.0*
-
-![Artemisia douglasiana 90](../images/plants/plants_medicinal-plants_artemisia-douglasiana.jpg)
-
-> *This picture shows mugworts from all angles, as you can see both sides of the leaves, the stem, and the bud.*
-
-> *Image: Jerry Kirkhart from Los Osos, Calif., CC BY 2.0*
-
-
 Artemisia douglasiana , known as California mugwort , Douglas's sagewort , or dream plant , is a western North American species of aromatic herb in the sunflower family
 
 California mugwort is a generous plant for the medicine-maker. Once a colony is established, it produces harvestable material year after year without replanting, thanks to its aggressive rhizome network. The leaves yield a herb with anti-inflammatory and antimicrobial properties useful in salves, poultices, and teas. The plant also serves as a smudging herb in Indigenous ceremonial traditions. Its only drawback is that it refuses to stay where you put it, spreading through any soil it can reach.
@@ -192,7 +179,6 @@ California mugwort provides habitat value in cultivated settings. The dense grow
 - [Medicinal Plants](medicinal-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Medicinal Plants](medicinal-plants.md) — downstream capability
-
 
 ### Material Handling
 

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Flax](../images/plants/plants_flax.jpg)
-
-> *Linseed flax (Linum usitatissimum), near Whitsbury. This delicate looking plant has been an invaluable element in the economy of many civilizations since at least 5000BC. Cloth spun from flax has been found in ancient tombs. It was used for clothing and hangings in houses and temples; for sails and the thread for fishing nets; for ropes and bow strings; and, knotted with sow, stuffed into the cracks of boats. To make cloth the flax was soaked, dried in the sun, tied into bundles. and then as a medieval account has it, 'knockyd, beten, rodded and gnodded, ribbed and heklyd and at last sponne'. Equally important is its yield of oil. Commercial crops of linseed have been grown in many parts of the world for use in paints, varnish and putty, as fattening food for cattle and in veterinary medicine. Externally it may be used as a poultice for boils, inflammation and wounds.*
-
-> *Image: Trish Steel, CC BY-SA 2.0*
-
 Flax
 
 *Linum usitatissimum* (Linaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Flax, Common flax provides seeds/nuts as its primary edible product.

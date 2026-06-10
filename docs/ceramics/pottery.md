@@ -8,23 +8,9 @@
 > **Outputs**: pottery, crucibles, refractory_linings
 > **Critical**: Yes — refractory vessels for metallurgy and chemistry cannot be made without ceramics; pottery is the foundation of all high-temperature industry
 
-
 Pottery provides containers for storage, transport, cooking, and — critically — refractory vessels for metallurgy and chemistry. Fired clay is the only material available from Year 0 that can hold molten metal, withstand furnace temperatures, and resist chemical attack. Without ceramic crucibles, there is no metallurgy. Without refractory linings, there are no furnaces. Pottery is not decorative — it is the enabling technology for everything that involves heat.
 
 ## Prerequisites
-
-![A potter designing on clay pots before the final finishing](../images/ceramics/ceramics_pottery.jpg)
-
-> *Hands of Resilience is a research project off the last edition of Kaduna Fashion and Arts Festival(KAFART) with the main theme being "Into The Art of Making" an exhibition which explores the concept of creation and making of fashion and art works, celebrating the output and techniques employed, as well as the cultural, environmental and societal elements that contribute to the final product.*
-
-> *Image: VKeem, CC BY-SA 4.0*
-
-
-![Firing sequences inside kiln firing](../images/ceramics/ceramics_pottery_kiln-firing.jpg)
-
-> *Firing sequences inside kiln firing*
-
-> *Image: Encik Tekateki, CC0*
 
 - [Fire](../foundations/fire.md) — controlled combustion for kiln firing
 - [Basic tools](../foundations/tools-basic.md) — digging, crushing, and forming implements

@@ -211,4 +211,3 @@ The choice between direct CO₂ hydrogenation and the RWGS-mediated route depend
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
 
-![chemistry e methanol](../images/chemistry/chemistry_e-methanol.jpg)

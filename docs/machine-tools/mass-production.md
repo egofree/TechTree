@@ -11,12 +11,7 @@ Mass production manufactures identical parts to controlled tolerance so that any
 
 ## The Interchangeability Problem
 
-![SR und FK Diagram-Kurve2](../images/machine-tools/machine-tools_mass-production-diagram.jpg)
-
-> *Schematic of the wear course of development with graded tolerances (SR) on the evaluation of measurement results. For ease of reference, the corresponding error classes for the qualitative assessment are located.
 The tolerance limits in this image reflect the typical profile of a plant life. Afte...*
-
-> *Image: Marx, CC BY 3.0*
 
 A craftsman building a single mechanism files, scrapes, and fits each part individually — a bearing is reamed to match its specific shaft, a bracket is drilled to match its specific hole pattern. This works for one-off production but fails at scale: if a part breaks, the replacement must be hand-fitted too, and no two machines are truly identical.
 
@@ -377,4 +372,3 @@ Mass production concentrates multiple hazards in a single facility. The combinat
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
 
-![machine tools mass production](../images/machine-tools/machine-tools_mass-production.jpg)

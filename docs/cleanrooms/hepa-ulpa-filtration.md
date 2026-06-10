@@ -10,13 +10,6 @@
 
 ## Prerequisites
 
-![Cleanroom HVAC Air Circulation (Fan Filter Unit-FFU). DesignTek Consulting Group](../images/cleanrooms/cleanrooms_hepa-ulpa-filtration.webp)
-
-> *Cleanroom HVAC Air Circulation (Fan Filter Unit-FFU). DesignTek Consulting Group*
-
-> *Image: GRIZZ24, CC BY-SA 4.0*
-
-
 HEPA/ULPA filter manufacturing and testing requires specific material capabilities:
 
 - [Glass manufacturing](../glass/index.md) — borosilicate glass fiber production for filter media
@@ -339,4 +332,3 @@ Air changes per hour (ACH) is the number of times the total room volume of air i
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Clean Room Technology](./index.md) • [All Domains](../../index.md)*
 
-![cleanrooms iso classification](../images/cleanrooms/cleanrooms_iso-classification.png)

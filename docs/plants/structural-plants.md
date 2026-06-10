@@ -8,19 +8,11 @@
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
 > **Critical**: Yes — all early construction depends on plant-derived structural materials
 
-
 Plant species harvested for their structural properties — timber, poles, thatch, and woven building materials. Before fired brick, concrete, or steel, all construction depended on plant-derived materials: timber frames for buildings, woven wattle panels plastered with clay, thatched reed or straw roofs, and split-lath fencing. Even after stone and metal become available, wood remains indispensable for scaffolding, formwork, tool handles, and temporary structures.
 
 This capability covers the selection, harvesting, processing, and structural use of woody plants, large grasses, and reeds for construction. All early shelter — from wattle-and-daub huts to timber-framed longhouses — depends on these materials.
 
 ## Harvesting
-
-![Aquilegia formosa 1](../images/plants/plants_structural-plants.jpg)
-
-> *A specimen of Aquilegia formosa in Illinois, USA.*
-
-> *Image: Daniel Schwen, CC BY-SA 4.0*
-
 
 **Tree felling**:
 - **Stone axes**: Hard stone (basalt, granite) ground to a cutting edge, mounted on a handle with birch tar or rawhide binding. Slow — 1-4 hours to fell a 30 cm diameter tree. Axe blade must be wider than the handle to prevent binding.
@@ -338,8 +330,6 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 - **Saw injuries**: Hand saws and axes cause lacerations. Keep blades sharp (dull tools require more force and are harder to control). Cut away from the body. Secure the workpiece before cutting.
 - **Structural collapse**: Green timber settles and joints loosen as wood dries. Design joints with wooden pegs that can be re-driven. Inspect roof trusses seasonally. Never exceed beam spans — a cracked beam under load fails without warning.
 - **Rot and decay**: Inspect structural posts at ground line annually. Probe with a knife — soft wood indicates rot. Replace compromised members immediately. A rotted post can collapse the entire frame.
-
-
 
 ## Troubleshooting
 

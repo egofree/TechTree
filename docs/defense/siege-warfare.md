@@ -8,8 +8,6 @@
 > **Timeline**: Years 5-50+
 > **Outputs**: siege_engines, cannons, military_logistics, artillery, field_fortifications
 
-
-
 Siege engineering encompasses the offensive and logistical operations required to capture fortified positions, and the counter-measures defenders employ to resist them. From battering rams against timber palisades to cannon bombardment of stone walls, siege warfare drives the development of mechanical engineering, metallurgy, and large-scale logistics.
 
 Siege operations are the most resource-intensive military activities in the pre-industrial world. A major siege requires thousands of soldiers, tens of thousands of kilograms of powder and shot, massive timber stocks for siege engine construction, and a supply chain delivering tonnes of food and materiel daily. The logistics of sustaining a siege often determine its outcome more than the weapons employed. Historically, disease and starvation killed 3-10 times more soldiers than combat during sieges.
@@ -19,7 +17,6 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 **Why fortification design determines siege tactics**: A timber palisade (0.15-0.20 m thick, 2.5-3.0 m high) falls to a battering ram in minutes. A stone curtain wall (2.0-3.0 m thick, 6-10 m high) requires cannon, mining, or a prolonged battering campaign. A star fort with earthen glacis and interlocking bastions (trace italienne) can only be reduced by systematic approach trenches, parallel by parallel, over months. The defender's fortification investment determines the attacker's required time, materiel, and casualties. This is why fortification construction is the most cost-effective defense investment a community can make: every meter of wall thickness and every geometric improvement in the trace multiplies the resources an attacker must commit.
 
 **Why the 3:1 attacker ratio is a rule, not a suggestion**: A defender behind fortifications occupies a prepared position with known terrain, stored supplies, and protection from missiles. To storm a breach, the attacker must cross open ground under fire, climb through rubble, and fight in a confined space where numerical advantage is neutralized. Historical analysis of sieges from the ancient world through the 19th century shows that attackers need roughly 3 soldiers for every 1 defender to have a reasonable probability of success. Below 2:1, the attack almost always fails. Above 5:1, the attack usually succeeds quickly. This ratio holds because the defender's advantages (cover, prepared positions, interior lines) offset roughly two-thirds of the attacker's numerical superiority.
-
 
 ## Prerequisites
 
@@ -31,7 +28,6 @@ Siege operations depend on a broad industrial base for materials and logistics:
 - [Mining engineering](../mining/index.md) — tunneling techniques for siege mining and counter-mining
 - [Transport](../transport/index.md) — supply wagons, roads, and logistics for sustaining field armies
 - [Governance](../economics-organization/governance.md) — organized resource mobilization for large siege operations
-
 
 ## Bill of Materials
 
@@ -45,8 +41,6 @@ Siege operations depend on a broad industrial base for materials and logistics:
 | Black powder (per day of bombardment) | Saltpeter + charcoal + sulfur | 500-2000 kg powder | Lead shot 500-2000 kg, stone shot as alternative | [Explosives](../chemistry/explosives.md) |
 | Siege mining timber | Oak/pine pit props | 2-5 m3 per 10 m of tunnel | Clay pipe for ventilation, bellows | [Foundations](../foundations/index.md) |
 | Fascine bundle | Brushwood/brine | 30-60 cm dia x 2-3 m long | Withy ties (10-15 per bundle) | Local sourcing |
-
-
 
 ## Battering Ram (Years 5-15)
 
@@ -141,8 +135,6 @@ Siege operations depend on a broad industrial base for materials and logistics:
 - Must be built on-site — too large to transport assembled
 - Fixed position once built — cannot be repositioned quickly to adjust aim
 
-
-
 ## Early Cannon (13th-14th century)
 
 Wrought iron or cast bronze barrel. Bore: 50-200 mm diameter. Barrel length: 6-12x bore diameter. Propellant: black powder (see [Explosives](../chemistry/explosives.md) for composition: 75% KNO3, 15% charcoal, 10% sulfur). Projectile: stone sphere (cheaper) or iron sphere (denser, more kinetic energy). Muzzle velocity: 300-500 m/s.
@@ -165,8 +157,6 @@ Wrought iron or cast bronze barrel. Bore: 50-200 mm diameter. Barrel length: 6-1
 Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard (1453, siege of Constantinople): ~750 mm bore, 8 m barrel, cast bronze, 600 kg stone shot, 50 kg powder charge, range ~1500 m, rate of fire 3 shots per day (barrel required cooling). Breached Theodosian Walls (5 m thick) after 6 weeks of bombardment.
 
 **Cannonball vs wall**: Impact energy = 1/2 mv squared. A 25 kg iron ball at 400 m/s delivers 2,000,000 J (2 MJ). This energy fractures stone and compresses mortar at impact point, creating a crater 30-60 cm deep x 50-100 cm diameter per shot. Repeated strikes at same point create breach: 50-200 shots to open 2-3 m wide breach in 2 m stone wall.
-
-
 
 ## Siege Engine Performance Comparison
 
@@ -202,8 +192,6 @@ Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard 
 | Fodder (hay) | -- | -- | 1000-2000 kg |
 | Fodder (grain) | -- | -- | 400-1000 kg |
 
-
-
 ## Underground Mining (Sapping)
 
 Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m high (minimal cross-section to reduce cave-in risk before deliberate collapse). Timber shoring: pit props at 0.5-1.0 m intervals. When tunnel reaches under wall foundation, burn props to collapse tunnel -> wall settles and cracks, or breaches entirely.
@@ -220,7 +208,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Explosive mining (post-gunpowder)**: Gunpowder charge placed in chamber excavated under wall foundation. Charge size: 500-5000 kg depending on wall thickness and foundation depth. Tamping: chamber backfilled with compacted earth and sand to contain blast energy (directed upward into wall foundation). Ignition: slow match fuse or (later) electrical detonation. Effect: massive underground explosion creates crater, wall foundation loses support, section collapses into crater. Safer and faster than fire-setting method.
 
-
 ## Artillery Battery Construction
 
 **Gun platform**: Level platform (3-5 m x 3-5 m per gun) constructed of compacted earth and timber, 1-2 m above surrounding terrain for clear line of fire over approach works. Platform must support cannon weight (500-5000 kg) plus recoil forces -- timber cribbing with earth fill, anchored by stakes. Recoil absorption: earth and timber platform allows gun to recoil 1-3 m, then manhandled back into position. Rate of fire for siege cannon: 6-12 shots per hour (reload + aiming + barrel cooling).
@@ -228,8 +215,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 **Powder magazine**: Bomb-proof storage for gunpowder. Earth-bermed timber or stone structure, minimum 50 m from gun positions. Powder stored in barrels (50-100 kg each) on raised timber platforms (keep dry). Strict safety: no naked flames, no metal tools that spark (use wooden mauls and copper-tipped implements), single entrance with deflection wall (blast directed sideways if magazine detonates). Magazine capacity: 5000-50000 kg powder for sustained siege.
 
 **Shot furnace**: Furnace for heating solid iron shot to red heat before firing -- "hot shot" ignites wooden structures and ships. Furnace: brick-lined, charcoal-fired, heats 12-25 kg iron balls to 600-800 degrees C in 20-30 minutes. Handling: iron tongs to load hot shot into cannon (wet wad between powder charge and hot shot prevents premature ignition). Devastating against wooden ships and siege engines -- penetrates wood, ignites from inside. Cannot be used with explosive shells (premature detonation risk).
-
-
 
 ## Supply Requirements per Soldier per Day
 
@@ -249,7 +234,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Supply chain vulnerability**: An army that cannot feed itself disintegrates in 3-5 days. Historical campaigns lost more soldiers to starvation and disease than combat (ratio typically 3:1 to 10:1). Logistics infrastructure (roads, wagons, depots) determines military capability more than weapons -- see [Transport](../transport/index.md) for road and railway construction.
 
-
 ## Field Fortifications (Years 5-50+)
 
 **Marching camp**: Entrenched camp constructed at end of each day's march (Roman model). Standard layout: rectangular, 4 gates, ditch (1.5 m wide x 1.0 m deep), rampart (0.5-1.0 m high from ditch spoil), palisade (wooden stakes carried by each soldier). Construction time: 2-4 hours for 1000-man camp. Provides: defended perimeter against night attack, organized interior (tents in regular grid, commander's tent on central axis), secure base for next day's operations.
@@ -257,7 +241,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 **Redoubt**: Small enclosed field fortification (20-50 m square) with earthen parapet and ditch. Cannon or musket positions on each face. Construction: 500-2000 worker-hours. Provides strongpoint in defensive line or fortified position for artillery battery.
 
 **Abatis and entanglement**: Felled trees, sharpened stakes, and barbed wire creating obstacle zone 20-50 m deep in front of defensive position. Purpose: delay attacking infantry 3-10 minutes under defensive fire, converting open ground into kill zone. See [Fortifications](fortifications.md) for detailed obstacle specifications.
-
 
 ## Fortification Dimensions by Type
 
@@ -308,13 +291,11 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Why earth defeats cannon that stone cannot**: A stone wall is rigid. A cannonball striking stone transfers its kinetic energy into fracturing the stone and dislodging mortar. Repeated strikes create a breach. An earth rampart is plastic. The same cannonball buries into the earth, displacing a small volume of material but not creating a structural failure. The rampart can absorb hundreds of hits and remain functional. This is why the trace italienne (star fort with earth ramparts) replaced medieval stone castles within a century of cannon becoming common. The transition was not gradual. Stone walls that had stood for centuries became obsolete in decades.
 
-
 ## Naval Siege Warfare
 
 **Blockade**: Naval force prevents supply by sea -- starving fortress into surrender. Requires naval supremacy in local waters. Blockade squadron: 3-10 ships depending on harbor size. Blockade runners intercepted by patrol vessels. Effectiveness: complete naval blockade reduces defender's supply to internal stores only -- surrender typically follows in 2-6 months if no relief force arrives.
 
 **Bombardment from sea**: Ships-of-the-line carry 30-120 guns each (24-36 pounder cannon). Broadside weight: 200-500 kg of iron shot per volley. Range: 500-1000 m (ships carry heavier guns than field artillery). Ship bombardment of coastal fortifications: limited by ship motion (gun platform unstable) and fortification return fire (fortress guns on stable platform, more accurate). Historically, shore fortifications usually win gunnery duels against ships.
-
 
 ## Terrain-Specific Siege Tactics
 
@@ -352,7 +333,6 @@ The terrain around a fortification constrains which siege methods are viable and
 - Attacker can land troops on undefended beaches, flank the landward defenses, and assault from the rear.
 - Best defensive design: bastioned trace with interlocking fields of fire covering both land and sea approaches. Cannon positioned at 15-30 m elevation give defenders range advantage over ships (gravity extends effective range by 10-20%).
 
-
 ## Scaling Notes
 
 - **Raid defense (50-200 attackers)**: Basic palisade + ditch sufficient. No siege engines expected. Garrison of 20-50 defenders behind simple fortifications can resist. No specialized siege knowledge required.
@@ -360,7 +340,6 @@ The terrain around a fortification constrains which siege methods are viable and
 - **Major siege (5000-20000 attackers vs castle or city)**: Full siege engine complement: trebuchets, mining, cannon (if available). Requires organized siege train with engineers, miners, carpenters. Powder consumption: 500-2000 kg/day during bombardment phase. Both sides require organized supply chains -- the first to run out of food loses.
 - **State-level siege (30000+ attackers vs star fort)**: Trace italienne defense requires systematic approach: parallel trenches, saps, counter-battery fire, mining and counter-mining. Duration: 3-12 months. Powder: 50000+ kg total. Shot: 10000-50000 projectiles. Labor for earthworks: 50000-200000 worker-days. Only feasible with state-level logistics and [governance](../economics-organization/governance.md).
 - **Training scaling**: Siege engineers require years of training. Losing engineering crews to disease or sortie can halt a siege. Preserve technical specialists -- they are harder to replace than infantry.
-
 
 ## Troubleshooting
 
@@ -377,7 +356,6 @@ The terrain around a fortification constrains which siege methods are viable and
 | Supply convoy ambushed | Insufficient escort, predictable route | Escort with 10-20% of combat force; vary routes and timing; scout ahead with cavalry |
 | Disease outbreak in siege camp | Contaminated water, poor sanitation, overcrowding | Locate camp upstream of latrines; dig latrines 50+ m from water sources; space tents 3+ m apart; bury dead daily |
 
-
 ## Safety Considerations
 
 - **Cannon burst**: The most catastrophic siege accident. A cannon barrel that bursts under pressure sends bronze or iron fragments in a 360-degree cone at lethal velocity. Stand to the sides of the cannon (never directly behind), use linstocks (10+ m slow match) for ignition, never exceed rated powder charge. If a barrel shows cracks or bulges, retire it immediately.
@@ -389,14 +367,12 @@ The terrain around a fortification constrains which siege methods are viable and
 - **Lead exposure from ammunition handling**: Casting lead balls produces toxic fumes. Melt lead outdoors or in well-ventilated spaces. Chronic lead exposure causes colic, neuropathy, and death. Wash hands after handling lead ammunition. Pre-industrial armies did not understand lead toxicity -- modern practitioners must take precautions.
 - **Disease in siege camps**: Dysentery, typhus, and cholera kill more soldiers in sieges than combat. Latrines must be downhill and 50+ m from water sources. Boil or filter all drinking water. Space tents to allow air circulation. Isolate sick soldiers immediately. These precautions were not understood historically but are critical for any sustained operation.
 
-
 ## Limitations
 
 - **Logistics as primary constraint**: Every siege is a race between starving out the defenders and running out of supplies yourself. Besieger must maintain supply lines while cutting defender's. Disease (dysentery, typhus) kills 2-10x more soldiers than combat in sieges.
 - **Weather dependency**: Winter sieges extremely difficult (frozen ground prevents mining, supply lines disrupted, troop morale collapses). Campaign season: April-October in temperate climates.
 - **Engineering bottleneck**: Siege engines and cannon require skilled craftsmen (carpenters, blacksmiths, foundrymen). Loss of engineering crew to disease or sortie can halt siege entirely.
 - **Defender advantages**: Interior lines, fortified positions, prepared supplies, known terrain. Historically, 3:1 attacker advantage required for reasonable chance of success against well-fortified position with competent garrison.
-
 
 ## See Also
 

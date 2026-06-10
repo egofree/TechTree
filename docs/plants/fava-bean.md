@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Fava Bean](../images/plants/plants_fava-bean.jpg)
-
-> *This is an image with the theme "Farm to Plate" from:*
-
-> *Image: Mhmd.abdrzg, CC BY-SA 4.0*
-
 Fava Bean
 
 *Vicia faba* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Broad bean, Faba bean provides leaves, seeds/nuts, flowers as its primary edible product and ranks 74/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 The crop is grown from seed. Seeds are sown at 15 to 40 cm spacing. If the seed pod formation is poor, it can be improved by pinching out the tops of the plants when in flower. Hand pollination also helps. Plants are self pollinated but also cross pollinated by insects. Propagation: Seed - pre-soak for 24 hours in warm water and then sow in situ in succession. Germination should take place in about 7 - 10 days. By making fresh sowings every 3 weeks you will have a continuous supply of fresh young seeds throughout the growing season.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

@@ -8,7 +8,6 @@
 > **Outputs**: viable_seed, adapted_varieties, seed_stock
 > **Critical**: Yes — without saved seed, each growing season depends on finding wild seed; saved seed is the foundation of agricultural continuity
 
-
 Seed saving is the practice of harvesting, processing, drying, storing, and testing seeds from one growing season to plant in the next. It is the oldest biotechnology: for 10,000+ years, every farmer on Earth was a seed saver and plant breeder. The transition from wild seed gathering to deliberate seed saving and selection marks the beginning of agriculture itself. Without saved seed, each generation of crops must be re-established from wild populations — a process that wastes a growing season and loses any genetic improvements made by previous selection.
 
 Beyond simple preservation, seed saving enables adaptation. By selecting seed from the best-performing plants each generation — earliest maturing, most drought-tolerant, most pest-resistant, highest yielding — the farmer creates locally adapted crop varieties that outperform generic seed stock within 5-10 generations. This is mass selection: the simplest and most powerful plant breeding method, requiring no knowledge of genetics, only careful observation and record-keeping. Every heirloom variety in existence was created this way.
@@ -18,12 +17,6 @@ The critical constraint is viability. Seeds are living organisms in a dormant st
 Position in the dependency chain: seed saving builds on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic cultivation and harvest) and supports every other agriculture capability — [Crop Rotation](crop-rotation.md) requires diverse seed stocks, [Pest Management](pest-management.md) depends on locally adapted pest-resistant varieties, and [Irrigation](irrigation.md) needs crops adapted to irrigated conditions.
 
 ## Prerequisites
-
-![1920 Griffith and Turner Co. : farm and garden supplies](../images/agriculture/agriculture_seed-saving.jpg)
-
-> *Griffith and Turner Co.:Farm and Garden Supplies [Seed] Catalogue from 1920 by Griffith and Turner Co. From the Henry G. Gilbert Nursery and Seed Trade Catalog Collection at the USDA National Agricultural Library.*
-
-> *Image: Griffith and Turner Co, Public domain*
 
 **Materials**:
 - Mature, healthy crop plants from which to save seed
@@ -51,7 +44,6 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Cool, dark storage location (cellar, underground pit, or cool room)
 - Isolation distances between varieties to prevent cross-pollination (varies by crop: 15-1,500 m)
 
-
 ## Seed Processing Station (Annual, Multi-Crop)
 
 | Material | Quantity | Source | Alternatives |
@@ -72,7 +64,6 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 | Clean sand or cloth | 2-5 kg sand or 1 m² cloth | Local source | Paper (if available), moss |
 | Water | As needed | [Water Procurement](../water/procurement.md) | — |
 | Counting markers (pebbles or beans) | 100 | On-site | Tally marks on wood |
-
 
 ## Selection: Choosing Which Plants to Save Seed From
 
@@ -211,7 +202,6 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 - Destructive test (seeds used for germination testing cannot be planted afterward)
 - Environmental conditions during the test (temperature fluctuations, drying out) can produce misleading results
 
-
 ## Seed Viability Period by Species (Proper Storage: 5°C, 40% RH, Dark)
 
 | Crop | Viability (years) | Germination Rate Year 1 (%) | 50% Viability (years) | Notes |
@@ -331,7 +321,6 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 - **Physical injury during threshing**: Flails, beating sticks, and winnowing baskets create dust. Wear a cloth mask over nose and mouth during threshing to avoid inhaling grain dust (causes respiratory irritation and can trigger asthma). Use gloves to prevent blisters during prolonged flail use.
 - **Heavy lifting**: Full seed storage containers (50 L clay jar of grain: 30-40 kg). Lift with legs, not back. Use two-person carry for containers above 25 kg. Store containers at waist height when possible to avoid bending and reaching.
 
-
 ## Seed Quality Standards
 
 | Parameter | Acceptable | Reject | Test Method |
@@ -357,7 +346,6 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Wheat | 2026 | Largest heads, earliest maturity | 50 | 500 | 10% | Drought year — selected for yield under stress |
 | Beans | 2026 | Most pods, no disease symptoms | 40 | 300 | 13% | Selected for resistance to anthracnose |
 | Tomato | 2026 | Largest fruit, best flavor, early ripening | 25 | 150 | 17% | 3rd year of selection; flavor improving |
-
 
 ## Seed Processing Methods by Crop Type
 

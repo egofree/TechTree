@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Apple](../images/plants/plants_apple.jpg)
-
-> *These are flowers of the apple tree (Malus domestica).*
-
-> *Image: Relativity, CC BY-SA 4.0*
-
 Apple
 
 *Malus domestica* (Rosaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Apple provides fruit as its primary edible product.

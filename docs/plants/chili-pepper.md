@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Chili Pepper](../images/plants/plants_chili-pepper.jpg)
-
-> *The chili pepper (chile pepper, chilli), the fruit from the genus Capsicum. Evidence of the use of chili peppers in Southeast Asia can be found in stone inscriptions from the Bagan period of the 13th century Myanmar. Tabu, Kalaw, Shan Hills, Myanmar.*
-
-> *Image: Vyacheslav Argenberg, CC BY 4.0*
-
 Chili Pepper
 
 *Capsicum annuum* (Solanaceae) is a vegetable crop species of major importance for civilization bootstrapping. Capsicum provides fruit, leaves, spice/beverage as its primary edible product and ranks 40/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Requires a very warm sunny position and a fertile well-drained soil. Prefers a light sandy soil that is slightly acid. Tolerates a pH in the range 4.3 to 8.3. Plants can tolerate a small amount of frost, but this species does not normally do well outdoors in an average British summer and so it is usually grown in a greenhouse in this country. However, if a very warm sheltered position outdoors is chosen then reasonable crops could be obtained in good summers. This species is widely grown throughout the world, but especially in warm temperate to tropical climates, for its edible fruit - the sweet and chilli peppers. There are many named varieties. There are five basic forms of fruits, each form having various varieties. These forms are:- Cerasiforme. These have small cherry-shaped pungent fruits. Conioides. These fruits are cone-shaped and up to 5cm long. Many of them are grown as ornamentals, but some are also cultivated for food.. Fasciculatum. Also cone-shaped, but with pungent red fruits up to 7.5cm long. Grossum. These are the sweet peppers with large bell-shaped fruits and thick flesh. Longum. These are the cultivated hot cayenne and chilli peppers with long thin fruits up to 30cm long. The pungency of peppers depends upon the presence of a single gene, cultivars that lack this gene are the sweet peppers. A short-lived evergreen perennial in the tropics, though the plants are grown as annuals in temperate zones. Sweet pepper plants are good companions for basil and okra. They should not be grown near apricot trees, however, because a fungus that the pepper is prone to can cause a lot of harm to the apricot tree. In garden design, as well as the above-ground architecture of a plant, root structure considerations help in choosing plants that work together for their optimal soil requirements including nutrients and water. Peppers are usually harvested in late summer to autumn, depending on the variety and climate. Capsicum annuum typically flowers from late spring to early summer. Propagation: Sow seed in late winter to early spring in a warm greenhouse; germination typically takes 3–4 weeks at 20°C. Prick seedlings out into individual pots of reasonably rich soil and grow on quickly. For outdoor cultivation, plant out after the last expected frosts and protect with a cloche or frame until plants are well established.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -265,4 +258,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants chili pepper](../images/plants/plants_chili-pepper.jpeg)

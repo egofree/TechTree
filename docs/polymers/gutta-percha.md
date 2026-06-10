@@ -8,23 +8,9 @@
 > **Outputs**: gutta_percha_sheet, cable_insulation, dental_points, molded_parts
 > **Critical**: No — uniquely useful for submarine cable insulation, but not a civilization-wide bottleneck
 
-
 Submarine telegraph cables require an insulation material that is waterproof, electrically insulating, resistant to biological degradation in seawater, and manufacturable in continuous lengths around a copper conductor. Before synthetic polymers, no material except gutta-percha combined all four properties. Natural rubber absorbs too much water (~1% vs. <0.2%), causing electrical leakage. Waxed cloth is porous. Lead sheathing is too heavy and inflexible. Glass and ceramic are rigid and brittle. Gutta-percha — a natural thermoplastic from tropical tree leaves — was the only material that made transatlantic telegraph communication possible for nearly 100 years (1840s-1940s).
 
 ## Prerequisites
-
-![Stand der Gutta-Percha-Companie, Hannover Gruß von der Weltausstellung Louisiana Purchase Exposition New York 1904 Grands Prix Herrn ... Tabarz Großtabarz Bildseite](../images/polymers/polymers_gutta-percha.jpg)
-
-> *Mit einem "Gruß von der Weltausstellung" 1904 in Louisiana informierten Mitarbeiter vom "Stand der Continental-Caoutchouk- und Gutta-Percha-Companie, Hannover" (heute: Continental AG) den umseitigen Adressaten: "Soeben hat uns die Leitung der Weltausstellung für unsere Leistungen die höchste Auszeichnung, den Grand Prix verliehen. Die Modelle für die neue Saison 1905 Continental Pneumatik Centrum Pneumatik Cyclop Pneumatik erregen hier besichtigtes Aufsehen."*
-
-> *Image: differents, CC BY-SA 3.0*
-
-![1910 circa anonym Fotografie Continental Caoutchouc- und Gutta-Percha-Compagnie (Continental AG) in Hannover](../images/polymers/polymers_rubber_gutta-percha.jpg)
-
-> *Fabrikgebäude der Continental Caoutchouc- und Gutta-Percha-Compagnie (Continental AG) in Hannover und eine Dame mit Hut, um 1910 fotografiert von der Eisenbahnbrücke über die Kopernikusstraße ...*
-
-> *Image: ungenannt, Public domain*
-
 
 - [Rubber production](rubber.md) — basic elastomer and natural polymer processing knowledge
 - Tropical climate access — *Palaquium gutta* trees require lowland tropical rainforest conditions
@@ -219,8 +205,6 @@ Gutta-percha is one of the safer polymer materials to handle — it is non-toxic
 - **Thermal burns**: Molding operations heat gutta-percha to 80-100°C. While below water's boiling point, molten gutta-percha is sticky and adheres to skin, causing burns that are difficult to remove quickly. Use thermal gloves and tools when handling hot material. Unlike thermoplastic polymers (which are processed at 200-300°C and cause severe burns), gutta-percha's low processing temperature means burns are generally first-degree rather than second- or third-degree — but the sticky nature prolongs contact time.
 - **Dust inhalation**: Sawing, filing, or grinding hardened gutta-percha produces fine dust. Use dust extraction or wear respirator. Gutta-percha dust is not known to be toxic (it is biocompatible and used in dentistry) but any fine particulate (<10 μm) is a respiratory hazard with chronic exposure — the body cannot clear particles that penetrate deep into the lungs, and long-term exposure can cause pneumoconiosis-like conditions.
 - **Allergic reactions**: Some individuals develop contact dermatitis from gutta-percha — reported primarily among dental workers handling gutta-percha points. The reaction is typically a delayed hypersensitivity (Type IV) response to residual proteins or processing chemicals. Dental patients with gutta-percha root canal fillings rarely develop reactions due to the material's isolation from the immune system within the root canal.
-
-
 
 ## Comparison: Gutta-Percha vs. Natural Rubber vs. Polyethylene
 

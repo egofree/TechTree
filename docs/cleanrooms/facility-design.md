@@ -10,13 +10,6 @@
 
 ## Prerequisites
 
-![Laminar Flow Reinraum](../images/cleanrooms/cleanrooms_facility-design.png)
-
-> *Air Flow principle for unidirectional (laminar) flow Cleanrooms*
-
-> *Image: Rudolf Simon, M+W Group GmbH, Stuttgart, Germany, CC BY-SA 3.0*
-
-
 Cleanroom facility construction requires significant industrial capability:
 
 - [HEPA/ULPA filtration](hepa-ulpa-filtration.md) — filter modules that the ceiling grid must support and seal

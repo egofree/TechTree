@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Maize](../images/plants/plants_maize.jpg)
-
-> *Zea mays (Corn) Hawaiian Supersweet 10 in veggie garden flowers and fruit at Hawea Pl Olinda, Maui, Hawaii. July 20, 2020 #200720-7807 - Image by Starr Environmental*
-
-> *Image: Forest and Kim Starr, CC BY 2.0*
-
 Maize
 
 *Zea mays* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Corn, Maize provides leaves, seeds/nuts, flowers as its primary edible product and ranks 68/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Requires a warm position a well drained soil and ample moisture in the growing season. Prefers a pH in the range 5.5 to 6.8. Requires a rich soil if it is to do well. Corn is widely cultivated for its edible seed, especially in tropical and warm temperate zones of the world, there are many named varieties. Unfortunately, the plant is not frost tolerant and so needs to be started off under glass in Britain if a reasonable crop is to be grown. There are five main types:- Sweetcorn is of fairly recent development. It has very sweet, soft-skinned grains that can be eaten raw or cooked before they are fully ripe. Cultivars have been developed that can produce a worthwhile crop even in the more northerly latitudes of Britain if a suitable warm sunny sheltered site is chosen[238, K. Popcorn is a primitive form with hard-skinned grains. When roasted, these grains 'explode' to form the popular snack 'popcorn'. Waxy corn is used mainly in the Far East. It has a tapioca-like starch. Flint corn, which shrinks on drying, can have white, yellow, purple, red or blue-black grains. It is not so sweet and also takes longer to mature so is a problematic crop in Britain. There are many other uses for this plant as detailed below. Dent corn has mostly white to yellow grains. This and Flint corn are widely grown for oils, cornflour, cereals and silage crops. Corn grows well with early potatoes, legumes, dill, cucurbits and sunflowers, it dislikes growing with tomatoes. In garden design, as well as the above-ground architecture of a plant, root structure considerations help in choosing plants that work together for their optimal soil requirements including nutrients and water. Propagation: Sow seed in April in individual pots in a greenhouse, grow on quickly, and plant out after the last expected frosts. A direct outdoor sowing — particularly of less sweet varieties — can be attempted in May.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

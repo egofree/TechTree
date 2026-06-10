@@ -199,6 +199,3 @@ The CMP step following copper electroplating is a precisely controlled polishing
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Electrochemistry](./index.md) · [All Domains](../../index.md)*
 
-![electrochemistry copper damascene](../images/electrochemistry/electrochemistry_copper-damascene.jpg)
-
-![electrochemistry electroplating copper damascene](../images/electrochemistry/electrochemistry_electroplating-copper-damascene.jpg)

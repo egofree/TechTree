@@ -8,7 +8,6 @@
 > **Outputs**: raw_silk, silk_thread, cocoons, sericin
 > **Critical**: No — silk is valuable but not essential for bootstrapping
 
-
 Textile production requires strong, fine, continuous fibers for weaving high-quality cloth. Wool and cotton are staple fibers (short lengths that must be spun), limiting thread strength and uniformity. Silk is the only natural continuous filament — a single cocoon yields 300-900 m of unbroken thread with higher strength-to-weight ratio than steel. For applications demanding fine, strong, lightweight fabric (parachutes, surgical sutures, electrical insulation, luxury textiles), no other natural fiber matches silk. The challenge is that silkworm rearing demands disciplined environmental control (±3°C, 70-80% humidity), a reliable mulberry leaf supply fed 3-4 times daily, and precise timing across a 25-30 day rearing cycle.
 
 ## Prerequisites
@@ -18,7 +17,6 @@ Textile production requires strong, fine, continuous fibers for weaving high-qua
 - [Fire-making](../foundations/fire.md) — heating reeling basins, steam stifling, temperature control
 - [Water access](../agriculture/irrigation.md) — clean water for reeling basin, humidity control, and cleaning
 - [Textile fiber processing](../textiles/fibers.md) — downstream spinning, weaving, and finishing capability
-
 
 Sericulture is the controlled rearing of silkworms (*Bombyx mori*) for silk fiber production. It is the only animal husbandry practice where the output is a continuous filament rather than a staple fiber that must be spun from short lengths. A single cocoon yields 300-900 m of continuous silk thread, and the resulting fiber has a higher strength-to-weight ratio than steel. No other natural material matches silk's combination of tensile strength, fineness, and luster.
 
@@ -49,7 +47,6 @@ Productive lifespan of a mulberry tree is 30-50 years. Annual pruning maintains 
 Fresh mulberry leaves contain 20-25% dry matter. Of that dry matter: 15-28% crude protein, 2-4% crude fat, 8-12% crude fiber, and 10-15% minerals. The high protein content drives silkworm growth and silk protein synthesis. Water-stressed trees produce lower-protein leaves, which translates directly into smaller cocoons and less silk.
 
 One hectare of mature mulberry supports 10-15 boxes of silkworm eggs per rearing cycle (200,000-300,000 larvae). With 2-3 cycles per year depending on climate, a single hectare can sustain a substantial silk operation.
-
 
 ## Lifecycle
 
@@ -107,7 +104,6 @@ Silkworms are susceptible to several diseases that spread rapidly in crowded rea
 - **Muscardine** (fungal): White or green fungus growing on and mummifying larvae. Caused by excessive humidity. Remove infected individuals. Reduce moisture. Disinfect trays with 2% formaldehyde solution or slaked lime wash between rearing cycles.
 
 Prevention is the only viable strategy. Disinfect all trays, racks, and the rearing room between cycles. Keep temperature and humidity within the prescribed ranges. Remove dead or diseased larvae promptly. Never reuse trays from a diseased batch without full disinfection.
-
 
 ## Timing
 
@@ -174,7 +170,6 @@ Silk's material properties make it unique among natural fibers:
 Raw silk contains 20-30% sericin by weight. Sericin is a gummy protein that coats the fibroin filaments, binding them together and giving raw silk a stiff, yellowish character. Degumming, boiling the silk in soapy water for 30-60 minutes, removes most of the sericin and produces "thrown silk" with its characteristic softness, luster, and white or cream color.
 
 Silk is the strongest natural fiber. Its strength-to-weight ratio exceeds that of steel wire of the same diameter. It retains strength when wet (unlike rayon, which loses 30-40% of its wet strength). It takes dye brilliantly due to the protein fiber's affinity for both acid and basic dyes. It has low electrical conductivity, making it useful as an insulating material.
-
 
 ## Textiles
 

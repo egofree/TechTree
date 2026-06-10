@@ -8,28 +8,11 @@
 > **Outputs**: pharmaceuticals
 > **Critical**: Yes — without pharmacological knowledge, drug preparation is unstandardized and potentially dangerous
 
-
 Pharmacology in a bootstrap civilization covers the extraction, preparation, formulation, quality control, and safe administration of therapeutic substances. The earliest phase relies on plant-derived medicines (salicin from willow bark, morphine from opium poppy, quinine from cinchona bark). As chemical manufacturing capability develops, synthetic pharmaceuticals become available — aspirin from Kolbe-Schmitt synthesis, ether and chloroform for anesthesia, phenol for antisepsis. Quality control advances from simple organoleptic testing (appearance, odor, taste) to thin-layer chromatography and microbial limit testing.
 
 The transition from "herbal medicine" to "reproducible pharmaceutical production" is one of the most impactful leaps in medical capability. Plant-derived drugs vary in potency by batch, season, and growing conditions. Standardized synthetic production delivers consistent doses — the difference between "probably effective" and "reliably effective."
 
-
 ## Drug Source Materials
-
-![The Pharmacology Barnstar Hires](../images/health/health_pharmacology.jpg)
-
-> *The WikiProject Pharmacology barnstar*
-
-> *Image: Original idea by DonabelSDSU.bot
-
-![The Pharmacology Barnstar Hires](../images/health/health_pharmacology.png)
-
-> *The WikiProject Pharmacology barnstar*
-
-> *Image: Original idea by DonabelSDSU.bot
-Original remastering by Antonu, CC BY-SA 3.0*
-
-Original remastering by Antonu, CC BY-SA 3.0*
 
 | Material | Active Compound | Harvest/Source | Preparation |
 |----------|----------------|---------------|-------------|
@@ -68,7 +51,6 @@ Original remastering by Antonu, CC BY-SA 3.0*
 | Drying oven (50-105°C) | Moisture determination | Metalworking + electricity |
 | Tablet press (simple single-punch) | Tablet formation | Machine tools |
 | Autoclave | Sterile preparation | Metal vessel + heat |
-
 
 ## Preparing a Willow Bark Decoction
 
@@ -314,7 +296,6 @@ Original remastering by Antonu, CC BY-SA 3.0*
 - **Total aerobic microbial count**: <10⁵ CFU/g (colony-forming units per gram) for oral dosage forms. Plate diluted sample on nutrient agar, incubate at 35°C for 48-72 hours, count colonies. Exceeding this limit indicates poor hygiene during production or degraded raw materials.
 - **Specific pathogens**: Absence of *E. coli*, *Salmonella*, *S. aureus*, and *P. aeruginosa* in 1 g (oral products) or 10 g (topical products). Test by enrichment culture in selective broth, then subculture on selective agar (MacConkey for *E. coli*, bismuth sulfite for *Salmonella*).
 - **Heavy metals**: Lead <20 ppm, arsenic <5 ppm, cadmium <1 ppm, mercury <1 ppm. Test by colorimetric methods (lead: extract with dithizone in chloroform, compare color intensity to standards) or, at advanced capability, atomic absorption spectroscopy. Contamination sources: soil (plants absorb metals from contaminated ground), processing equipment (lead solder, brass fittings), and vehicle/industrial emissions near growing areas.
-
 
 ## Limitations
 

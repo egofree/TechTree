@@ -8,16 +8,9 @@
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_measurement, leak_detection
 > **Critical**: Yes — vacuum technology is required for semiconductor thin-film deposition, lithography, and packaging; no alternative exists
 
-
 Vacuum technology creates and maintains low-pressure environments essential for semiconductor manufacturing, optical coatings, and metallurgy. Thin-film deposition, ion implantation, and electron-beam lithography all require controlled atmospheres at pressures from rough vacuum (10-50 Torr) to ultra-high vacuum (10⁻¹⁰ Torr). Each decade of lower pressure demands progressively more sophisticated pumps, seals, and measurement instruments. Without vacuum capability, semiconductor fabrication is impossible.
 
 ## Prerequisites
-
-![Efficient cleaning with modern vacuum technology in a well-lit indoor space](../images/gas-handling/gas-handling_vacuum.jpg)
-
-> *A user operates a vacuum cleaner with bright lights at the brush head, revealing dust and debris on a hardwood floor in a tidy living room during daylight.*
-
-> *Image: Shixart1985, CC BY 2.0*
 
 - [Gas Handling Basics](basic.md) — positive-pressure gas distribution, piping, and valves
 - [Mechanical Manufacturing](../machine-tools/index.md) — precision machining for pump components

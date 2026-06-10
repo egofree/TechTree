@@ -8,25 +8,11 @@
 > **Outputs**: phenolic_resins, epoxy_resins, polyester_resins, polyurethane_foam, FR4_laminate
 > **Critical**: No — thermosets are valuable but alternatives (thermoplastics, ceramics, metals) exist for most applications
 
-
 Thermosetting polymers are plastics that undergo an irreversible chemical reaction (cross-linking) during curing, forming a three-dimensional molecular network. Unlike thermoplastics (which soften when heated and can be reprocessed), thermosets permanently set into their final shape — once cured, they cannot be melted, remolded, or recycled by simple reheating. This irreversible cross-linking is both their defining characteristic and their primary advantage: thermosets resist heat deformation, chemical attack, and creep far better than thermoplastics.
 
 The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyester, polyurethane, and melamine-formaldehyde — serve distinct roles: phenolics for electrical insulation and heat-resistant components; epoxies for high-performance adhesives, coatings, and composite matrices; polyesters for fiberglass-reinforced structures (boats, tanks, pipes); polyurethanes for foams, elastomers, and coatings; and melamine for decorative laminates and dinnerware.
 
 ## Prerequisites
-
-![IUPAC definition for polymer](../images/polymers/polymers_thermosets.jpg)
-
-> *A substance composed of macromolecules.*
-
-> *Image: International Union of Pure and Applied Chemistry (IUPAC), CC BY-SA 4.0*
-
-![IUPAC definition for polymer](../images/polymers/polymers_thermosets.png)
-
-> *A substance composed of macromolecules.*
-
-> *Image: International Union of Pure and Applied Chemistry (IUPAC), CC BY-SA 4.0*
-
 
 - [Chemistry](../chemistry/index.md) — organic synthesis and polymerization fundamentals
 - [Petroleum alternatives](../chemistry/petroleum-alternatives.md) — benzene, propylene, methanol, and butane feedstocks for monomer synthesis (see Feedstock Synthesis section below)
@@ -35,7 +21,6 @@ The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyest
 - [Machine tools](../machine-tools/index.md) — molds, presses, and processing equipment
 - [Glass fibers](../glass/fibers.md) — fiberglass reinforcement for polyester composites
 - [Thermoplastics](thermoplastics.md) — complementary polymer processing knowledge
-
 
 ## Feedstock Synthesis
 
@@ -67,7 +52,6 @@ Two industrial routes:
 **Iron-molybdenum oxide**: Methanol + excess air over Fe₂O₃/MoO₃ at 300-400°C. Near-complete conversion (95-98%). Lower temperature, higher yield.
 
 Methanol feedstock: synthesis gas (CO + 2H₂ → CH₃OH over Cu/ZnO/Al₂O₃ at 250°C, 50-100 atm). See [Fuels](../energy/fuels.md).
-
 
 ## Phenol-Formaldehyde (Bakelite)
 
@@ -273,8 +257,6 @@ Ordered by approximate phase availability:
 - **Epoxy sensitization**: Repeated skin contact with uncured epoxy resin or amine hardeners causes allergic contact dermatitis that becomes permanent once sensitized — even trace future exposure triggers severe rash. Once sensitized, a worker may be unable to continue any epoxy-related work. The sensitization rate varies by hardener type: aliphatic amines (DETA, TETA) are the strongest sensitizers (10-20% of exposed workers develop sensitization within 1-2 years of regular contact); cycloaliphatic amines and anhydrides are moderate sensitizers; epoxy resin itself is a weak sensitizer. Wear nitrile gloves, change gloves if contaminated with resin or hardener, and minimize all skin contact. Use barrier creams as a supplement, never a substitute for gloves. The molecular size of the sensitizing agent matters — small amine molecules (MW ~100-200) penetrate skin easily; larger epoxy molecules (MW ~400-1000) penetrate less readily but can still cause sensitization over time.
 - **Ammonia (respiratory irritant)**: Used as a base catalyst in the resole route for phenol-formaldehyde. Ammonia gas is a powerful respiratory and eye irritant — 300 ppm is immediately dangerous to life. Handle concentrated ammonia solutions in ventilated areas. Wear eye protection and a respirator if ventilation is insufficient.
 - **Styrene (IARC Group 2A)**: Present as reactive diluent in unsaturated polyester resin at 30-40% by weight. CNS depressant at 100+ ppm. Possible carcinogen. OSHA PEL 50 ppm TWA. Room-temperature hand layup with open molds produces significant styrene emissions — typical worker exposure 20-80 ppm without local exhaust ventilation. Install local exhaust at mold work surfaces. Use low-styrene-emission resin grades (wax additives form a surface barrier, reducing emissions by 50-70%).
-
-
 
 ## Thermoset vs Thermoplastic Selection Guide
 

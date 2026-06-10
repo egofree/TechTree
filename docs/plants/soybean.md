@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Soybean](../images/plants/plants_soybean.jpg)
-
-> *Low-temperature scanning electron micrograph of soybean cyst nematode and its egg. Magnified 1,000 times.*
-
-> *Image: Agricultural Research Service, Public domain*
-
 Soybean
 
 *Glycine max* (Fabaceae) is a staple food crop species of major importance for civilization bootstrapping. Soybean, Soya provides leaves, seeds/nuts, spice/beverage as its primary edible product and ranks 72/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 It is grown from seed. Seeds need to be inoculated with bacteria before planting. The correct one is Bradyrhizobium japonicum. Plants need to be about 20 cm apart. Propagation: Pre-soak seed for 12 hours in warm water, then sow in early spring in a greenhouse at 12–16°C; germination should occur within two weeks. Once large enough to handle, prick seedlings out into individual pots and plant out in late spring or early summer after the last expected frosts. Seed can also be pre-soaked for 12 hours and sown in situ in late spring, though yields will be poor unless the summer is very hot.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -296,4 +289,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants soybean](../images/plants/plants_soybean.jpeg)

@@ -8,7 +8,6 @@
 > **Outputs**: scientific_glassware, thermometer_tubes, vacuum_enclosures, complex_laboratory_apparatus
 > **Critical**: Yes — precision glass apparatus (thermometers, condensers, vacuum vessels) enables experimental chemistry, physics, and semiconductor manufacturing
 
-
 Basic glass production makes windows, bottles, and simple vessels. But scientific and industrial civilization requires precision glass apparatus — thermometers, distillation columns, vacuum-tight enclosures, optical lenses, and laboratory vessels that survive thermal cycling. These cannot be formed by blowing into a pipe or pressing into a mold. They require borosilicate glass (3× more thermally shock-resistant than soda-lime), lathe-assisted forming for symmetry, and controlled annealing for stress relief. Without precision glassware, there is no experimental chemistry, no temperature measurement beyond crude estimation, no vacuum technology, and no optics beyond simple magnifying glasses.
 
 Without advanced glassblowing: no thermometers (the capillary tube inside a mercury or alcohol thermometer requires drawing glass to 0.1-0.5 mm bore — impossible without precision glassblowing), no distillation apparatus for chemical purification, no vacuum-tight vessels for physics experiments or electronics (vacuum tubes require glass-to-metal seals), no optical lenses for microscopes or telescopes, no laboratory reaction vessels that survive heating and cooling. Each of these capabilities blocks downstream technologies: no precision chemistry → no synthetic materials, no vacuum tubes → no electronics, no optics → no precision measurement.
@@ -16,12 +15,6 @@ Without advanced glassblowing: no thermometers (the capillary tube inside a merc
 The dependency chain: advanced glassblowing requires borosilicate glass (which requires boric acid and precise batch chemistry), a glassworking lathe (which requires machine tools), and oxygen-fuel torches (which require gas supply). The first practical borosilicate glass was developed by Otto Schott in 1887 after testing over 100 compositions — the systematic approach matters. Once available, precision glassware unlocks experimental science at every level.
 
 ## Prerequisites
-
-![Glass Beach Fort Bragg 2](../images/glass/glass_advanced_glassblowing.jpg)
-
-> *The Glass beach in Fort Bragg, California.*
-
-> *Image: Jef Poskanzer, CC BY 2.0*
 
 - **Materials**: [Borosilicate glass tubing and rod](./advanced.md) (standard sizes: 5-50 mm OD tube, 3-12 mm rod), [oxygen and propane or natural gas](../energy/fuels.md) for torch fuel, [silicon carbide abrasive](../machine-tools/bearings-abrasives.md) (220-1200 grit for grinding joints), [cerium oxide](../mining/processing.md) (for optical polishing), [high-vacuum grease](../chemistry/index.md) (Apiezon type for ground glass seals)
 - **Tools**: [Glassworking lathe](../machine-tools/index.md) (headstock + tailstock, 10-60 RPM, 0.5-2.0 m bed), [surface-mix torch](../machine-tools/index.md) (propane-oxygen, ~2500°C flame), [hand tools](../machine-tools/index.md) (graphite paddles, tweezers, shears, jacks, calipers), [annealing oven](../energy/index.md) (electric, 600-1200°C, programmable controller), [blowhose with mouthpiece](./index.md) for inflating workpieces, [crossed polarizers](./index.md) for stress inspection
@@ -42,7 +35,6 @@ The dependency chain: advanced glassblowing requires borosilicate glass (which r
 | Blowhose assembly | Rubber hose + mouthpiece + rubber stoppers | 1 unit | Allows inflating workpiece while both hands work tools |
 | Didymium safety glasses | Shade 3-5, sodium flare filter | Per worker | Non-negotiable — sodium flare causes eye damage without filters |
 | Silicon carbide abrasive | 220, 400, 600, 1200 grit | 1 kg each | For grinding ground glass joints to precision taper |
-
 
 Advanced glassblowing extends basic glass forming into precision scientific and industrial apparatus: thermometer capillaries, condensers, distillation columns, vacuum-tight enclosures, and complex multi-port vessels. It requires borosilicate or lead glass for thermal shock resistance, lathe-assisted forming, and annealing ovens for stress relief.
 
@@ -255,6 +247,3 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
 
-![glass annealing diagram](../images/glass/glass_annealing-diagram.png)
-
-![glass furnace cutaway](../images/glass/glass_furnace-cutaway.png)

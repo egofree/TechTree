@@ -14,12 +14,6 @@ For bronze alloying, see [Bronze Production](bronze.md).
 
 ## Prerequisites
 
-![A train bringing copper ore out of the mines, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land LCCN2017877450](../images/metals/metals_copper.jpg)
-
-> *Title: A train bringing copper ore out of the mines, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land Abstract/medium: 1 slide : color.*
-
-> *Image: Wolcott, Marion Post, 1910-1990, photographer, Public domain*
-
 - [Fire management](../foundations/fire.md) — controlled combustion for furnace operation
 - [Charcoal production](../energy/charcoal.md) — fuel achieving 1100-1300 °C in forced-draft furnaces
 - [Mining](../mining/index.md) — ore extraction and beneficiation

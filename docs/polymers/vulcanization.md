@@ -244,10 +244,7 @@ The choice of cure system is driven by the application requirements and the rubb
 - [Polymers Domain](./index.md) — domain overview and related capabilities
 - [Rubber Production](rubber.md) — upstream dependency (tool) - the raw rubber and compounding knowledge from the parent capability are prerequisites for all vulcanization work
 
-
-
 ---
 
 *Part of the [Bootciv Tech Tree](../../index.md) · [Polymers](./index.md) · [All Domains](../../index.md)*
 
-![polymers vulcanization](../images/polymers/polymers_vulcanization.jpg)

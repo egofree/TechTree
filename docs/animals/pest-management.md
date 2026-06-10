@@ -8,7 +8,6 @@
 > **Outputs**: biological_pest_control, crop_protection, guardian_services, rodent_suppression
 > **Critical**: No — valuable for crop protection but not a foundation node
 
-
 Rats, mice, insects, and predators destroy 10-40% of global food production before it reaches human mouths. A single rat consumes 10-15 kg of grain per year and contaminates 10× that amount with urine and feces. A locust swarm of 1 km² contains 40-80 million insects consuming 1-2 tonnes of vegetation per day. Before synthetic pesticides (which require industrial chemistry infrastructure), biological pest control — using domesticated and managed animals — was the primary defense. It remains effective, sustainable, and requires no industrial supply chain.
 
 Without pest management: no reliable grain storage (rodents consume 5-15% of stored grain annually in unprotected facilities — a family storing 2 tonnes of grain for winter loses 100-300 kg to rats and mice), no orchard production at scale (codling moth damages 20-80% of untreated apples), no livestock grazing without predator losses (unprotected sheep flocks lose 10-30% of lambs to coyotes, wolves, and foxes), no rice production in snail-infested paddies (golden apple snail destroys 25-50% of young rice plants). Each of these losses compounds across the settlement.
@@ -37,11 +36,9 @@ No single animal or method provides complete protection. Effective pest manageme
 | Poultry coop and run | Predator-proof, ventilated, 0.1 m² per bird indoor | 1 unit | Covered run essential — hawks, foxes, raccoons |
 | Owl box mounting hardware | Lag bolts, brackets, mounting plate | Per box | Must support box + owl weight (~1.5 kg) at 4-6 m height |
 
-
 Biological pest control uses domesticated and managed animals to suppress rodents, insects, and predators that threaten food stores and crops. Before synthetic pesticides (which require industrial chemistry), animal-based pest management was the primary defense. It still works. A single barn owl family kills 1000-2000 rodents per year. A flock of 15 guinea fowl per hectare can suppress tick and grasshopper populations by 80% without touching the crops. Guardian dogs reduce predator losses in sheep flocks by 80-95%.
 
 This page covers four strategies: rodent control via cats, terriers, and raptors; avian insect control via poultry species; livestock guardian animals for predator defense; and an integrated management framework that coordinates all of them across seasons.
-
 
 ## Domestic Cats (Felis catus)
 
@@ -74,7 +71,6 @@ Barn owls are nocturnal raptors that hunt rodents almost exclusively. They requi
 ## Combined Rodent Strategy
 
 Deploy cats for daytime interior patrol (barns, granaries), terriers for targeted clearing of heavy infestations, and owl boxes for continuous nocturnal suppression in surrounding fields. The three methods are complementary: cats work buildings, terriers work below-floor burrows, owls work open ground. A farm with all three active sees rodent damage to stored grain drop by 70-90%.
-
 
 ## Free-Range Chickens
 
@@ -112,7 +108,6 @@ Guinea fowl are the premier tick-control bird. They range wider than chickens, v
 | Ducks | Slugs, snails, aquatic insects | Wet, irrigated | 5-20 |
 | Guinea fowl | Ticks, grasshoppers, beetles | Dry, brushy | 15-25 |
 
-
 ## Guardian Dogs
 
 Livestock guardian dogs (LGDs) live with the flock or herd as full-time residents. Breeds developed for this work over millennia include the Great Pyrenees (France/Spain), Anatolian Shepherd (Turkey), Maremma (Italy), Kuvasz (Hungary), and Tibetan Mastiff.
@@ -142,7 +137,6 @@ Llamas are South American camelids with strong territorial instincts. They alert
 - **Physical defense**: if the predator approaches, the llama charges, kicks with powerful hind legs, and may stomp. Effective against coyotes, foxes, and stray dogs. Not sufficient against wolves or bears (llamas have been killed by wolves in areas with high wolf populations).
 - **Advantages**: long lifespan (20-25 years), no special feeding (they graze the same pasture as sheep), low maintenance. A single llama guards for 15+ years.
 - **Limitation**: llamas are vulnerable to the same predators as sheep in areas with large carnivores. They complement but do not replace guardian dogs in wolf or bear country.
-
 
 ## Orchard Chickens (Codling Moth Control)
 
@@ -218,7 +212,6 @@ Walk fields weekly during the growing season. Count pest populations using stand
 - [Health](../health/index.md) — zoonotic disease prevention, tick-borne illness reduction
 - [Medicine](../health/medicine.md) — rabies vaccination, parasite treatment for working animals
 - [Construction](../construction/index.md) — predator-proof fencing and grain storage construction
-
 
 ## Safety
 

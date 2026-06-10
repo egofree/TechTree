@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Beet](../images/plants/plants_beet.jpg)
-
-> *Red beet (Beta vulgaris) in the vegetables counter, Burlöv outside Malmö.*
-
-> *Image: Dag Endresen, CC BY 2.0*
-
 Beet
 
 *Beta vulgaris* (Amaranthaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Beetroot provides leaves, roots as its primary edible product and ranks 40/100 on the nutrition score.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants are grown from seed. Normally the plants are planted in the final site because transplanting is difficult. When the small clump of seeds or seed ball are planted more than one seedling will result. Plants get a soft heart due to boron deficiency. This is treated with borax. Propagation: Seed - sow in situ.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

@@ -10,13 +10,6 @@
 
 ## Prerequisites
 
-![Turbulenter Reinraum](../images/cleanrooms/cleanrooms_contamination-control.png)
-
-> *Air flow principle in turbulent cleanrooms*
-
-> *Image: Rudolf Simon, M+W Group GmbH, Stuttgart, Germany, CC BY-SA 2.0 de*
-
-
 Contamination control protocols depend on the physical cleanroom infrastructure:
 
 - [HEPA/ULPA filtration](hepa-ulpa-filtration.md) — filter hardware that removes particles from the air supply
@@ -335,4 +328,3 @@ The rigor of contamination control protocols scales with the target ISO class. R
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Clean Room Technology](./index.md) • [All Domains](../../index.md)*
 
-![cleanrooms first cleanroom](../images/cleanrooms/cleanrooms_first-cleanroom.png)

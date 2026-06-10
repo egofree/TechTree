@@ -10,13 +10,6 @@
 
 ## Vacuum Pumps
 
-![Vacuum sewerage pump diagram](../images/vacuum/vacuum_pump-cutaway.png)
-
-> *Vacuum sewerage pump diagram on a patent. "Fig. 5 is an end view of the main receiving apparatus at the pumping station."*
-
-> *Image: Charles Thieme Liernur, Public domain*
-
-
 For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaphragm principles), see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers pump selection, advanced pump types, performance specifications, and system design.
 
 ## Pump Classification by Pressure Range
@@ -255,7 +248,6 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 - **Diffusion pump fire hazard**: Cooling water failure → oil overheats → decomposition gases (flammable) → air ingress → ignition. Mandatory: water flow interlock that cuts heater power.
 - **Cryopump cold burn hazard**: Cold head at 10-20 K causes immediate frostbite on contact. Use cryogenic gloves. LN₂ cold traps: same hazard plus LOX condensation risk if trap is vented while still cold (see [Gas Handling: Vacuum](../gas-handling/vacuum.md)).
 - **Electrical hazard**: Ion pumps operate at 3-7 kV DC. TSP filaments at 30-50 A. Diffusion pump heaters at 200-500°C surface temperature. Lock-out/tag-out procedures for all maintenance.
-
 
 ## Troubleshooting
 

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Rye](../images/plants/plants_rye.jpg)
-
-> *Secale cereale illustration (01)*
-
-> *Image: Wikimedia Commons contributor, Public domain*
-
 Rye
 
 *Secale cereale* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Rye provides seeds/nuts, spice/beverage as its primary edible product and ranks 63/100 on the nutrition score.
@@ -68,7 +62,6 @@ This species grows as a perennial or annual depending on climate and management.
 An easily grown plant, it succeeds in most soils but prefers a well-drained light soil in a sunny position. It thrives on infertile, submarginal areas and is renouned for its ability to grow on sandy soils. Established plants are drought tolerant. The plant is reported to tolerate an annual precipitation in the range of of 22 to 176cm, an annual temperature in the range of of 4.3 to 21.3°C and a pH of 4.5 to 8.2. Rye is a widely cultivated temperate zone cereal crop. It is able to withstand severe climatic conditions and can be grown much further north and at higher altitudes than wheat. Average yields vary widely from country to country, the world average is around 1.6 tonnes per hectare with yields of almost 7 tonnes per hectare achieved in Norway. There are many named varieties. Rye is a rather variable species and botanists have divided it into a number of sub-species, all of which could be of value in breeding programmes. These sub-species are briefly listed below:- S. cereale afghanicum (Vavilov.)K.Hammer. Native to the Caucasus, western Asia and India. S. cereale ancestrale Zhuk. Native to western Asia. S. cereale dighoricum Vavilov. Native to the Caucasus and eastern europe. S. cereale segetale Zhuk. Native to temperate Asia. Rye grows well with cornflowers and pansies, though it inhibits the growth of poppies and couch grass. In garden design, as well as the above-ground architecture of a plant, root structure considerations help in choosing plants that work together for their optimal soil requirements including nutrients and water. Propagation: Sow seed in March or October in situ, barely covering the seed. Germination should occur within two weeks.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

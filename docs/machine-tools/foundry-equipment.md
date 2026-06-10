@@ -10,12 +10,6 @@
 
 ## Overview
 
-![W.W. Sly Manufacturing Company of Cleveland, cleaning mills and foundry equipment exhibit, Alaska-Yukon-Pacific-Exposition, Seattle, Washington, 1909](../images/machine-tools/machine-tools_foundry-equipment.jpg)
-
-> *Caption on image: F.H. Nowell. Official Photographer. Alaska Yukon Pacific Exposition. X2949. PH Coll 727.387 Subjects (LCTGM): W.W. Sly Manufacturing Company--Exhibitions &amp; displays--Washington (State)--Seattle; Alaska-Yukon-Pacific Exposition (1909 : Seattle, Wash.)--Facilities--Washington (State)--Seattle Subjects (LCSH): Foundries--Washington (State)--Seattle--Equipment and supplies*
-
-> *Image: Frank H. Nowell, Public domain*
-
 Foundry equipment melts metal, contains molten metal, and shapes it into castings. The three essential subsystems are: (1) the furnace and crucible that heat metal above its melting point, (2) the flask and mold that define the casting shape, and (3) the ladle and pouring equipment that transfer molten metal safely from furnace to mold. Each subsystem must withstand repeated thermal cycling between ambient temperature and 700-1500°C without cracking, deforming, or contaminating the melt.
 
 Foundry equipment is the prerequisite for all metal casting. Without it, metal parts can only be shaped by forging (which requires a [forge hammer](forge-hammer.md)) or machining from solid stock (which wastes 20-80% of material as chips). Casting produces complex shapes — engine blocks, machine tool frames, gear blanks, pump housings — that would be impossible or impractical to forge or machine from solid. The [iterative bootstrap](iterative-bootstrap.md) sequence depends on castings at every stage: the first lathe bed, the first milling machine column, the first gear housing.

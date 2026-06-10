@@ -8,25 +8,11 @@
 > **Outputs**: lime, quicklime, mortar, plaster, whitewash
 > **Critical**: Yes — lime is the primary binder for construction, a flux for metallurgy, and a chemical feedstock for industry; no other single material touches as many domains at as many stages of development
 
-
 Lime is one of the most versatile industrial materials in the bootstrap sequence. Produced from abundant limestone by a simple thermal process (heating to ~900°C), quicklime and its derivatives — slaked lime, lime mortar, lime plaster, whitewash — serve as the primary binder for construction, a flux for metallurgy, a chemical feedstock for industry, and a treatment agent for agriculture and water purification. No other single material touches as many domains at as many stages of development.
 
 The lime cycle is elegantly simple: heat limestone to drive off CO₂, add water to create a workable paste, let it re-absorb CO₂ from air to harden back into stone. This reversible cycle, understood since antiquity, underpins all lime-based construction and makes lime the gateway material to cement, concrete, and modern binders.
 
 ## Prerequisites
-
-![Lemon and lime production, 2022](../images/ceramics/ceramics_lime.jpg)
-
-> *Global map of countries by lemon and lime production, 2022*
-
-> *Image: Our World in Data, CC BY 4.0*
-
-![Lemon and lime production, 2022](../images/ceramics/ceramics_lime.png)
-
-> *Global map of countries by lemon and lime production, 2022*
-
-> *Image: Our World in Data, CC BY 4.0*
-
 
 - **Materials**: [Limestone](../mining/index.md) (CaCO₃ >95% purity, crushed to 50-100 mm pieces), [fuel](../energy/charcoal.md) (wood, charcoal, or coal — 2-4 kg fuel per kg quicklime), water for slaking (3-4 parts water to 1 part lime by volume for putty)
 - **Tools**: [Kiln or furnace](kilns.md) (batch shaft or continuous shaft design), [thermometer or pyrometric cones](../measurement/index.md) (target 900-1100°C), rake/shovel for loading and drawing, screen (2-5 mm mesh) for grading slaked lime, tub or pit for slaking
@@ -58,7 +44,6 @@ Not all limestone is equal for lime production. Key properties:
 - **Open-pit**: Strip soil overburden, break limestone with wedges and hammers (or black powder once available). Break stone into 10-20 cm pieces for kiln loading.
 - **Cliff face / outcrop**: Work exposed face horizontally. Pry loose blocks with iron crowbars. Stack waste rock for later crushing.
 - **River gravel**: Some limestone is found as rounded cobbles in river beds. Wash to remove silt, sort by size. Lower quality (water-worn, may contain impurities) but requires no quarrying.
-
 
 ## Calcination (Burning)
 
@@ -129,7 +114,6 @@ Temperature reaches ~150°C during slaking of pure quicklime. The reaction produ
 - **Quicklime (CaO)**: Store in dry, airtight containers. Quicklime is hygroscopic — absorbs moisture and CO₂ from air, gradually reverting to calcium carbonate (air-slaking). Even 5% air-slaking noticeably reduces quality. Sealed barrels or covered bins in a dry building.
 - **Lime putty**: Store in covered pit or tub under a layer of water. Exclude air to prevent premature carbonation. Keeps indefinitely if kept wet and covered. Putty that has dried out can be re-soaked, though quality degrades.
 - **Hydrated lime powder**: Store in moisture-proof bags. Less reactive than quicklime — easier to handle and transport.
-
 
 ## Simple Batch Kiln (First Kiln)
 
@@ -203,7 +187,6 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 
 **Natural cement**: Overfired hydraulic lime (1100-1200°C) produces a quick-setting cement. Grind the resulting clinker to fine powder. Mix with water — sets in 15-30 minutes. Stronger than hydraulic lime. Roman cement (natural cement from septaria nodules) was the standard water-resistant binder before Portland cement. The step from natural cement to Portland cement is small — it requires only a slightly higher firing temperature (1400-1450°C) and a precisely controlled raw mix.
 
-
 ## Mixing
 
 - **Proportions**: Slaked lime putty + sand + water. Ratio 1:2 to 1:3 (lime:sand by volume). More sand = stronger but less workable. More lime = more plastic and sticky but weaker.
@@ -224,7 +207,6 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 - **Flexibility**: Lime mortar is more flexible than cement mortar — accommodates minor building movement without cracking. This is why historic lime-mortared buildings survive earthquakes better than rigid cement-mortared ones.
 - **Self-healing**: Microcracks in lime mortar allow CO₂ to penetrate and carbonate the freshly exposed lime, naturally sealing the crack. Cement mortars cannot self-heal.
 - **Breathability**: Lime mortar is vapor-permeable — allows moisture to evaporate from walls. Reduces damp, rot, and freeze-thaw damage. Essential for historic building conservation and healthy buildings.
-
 
 ## Interior Plaster
 
@@ -271,7 +253,6 @@ Lime (or more precisely, the lye derived from wood ashes) is the key reagent in 
 - **Graining out**: Add salt (NaCl) to the hot mixture — salt causes soap to separate and float to top as curds. Salt addition: ~100 g per kg of fat. Remove soap curds, press to remove excess liquid, mold and dry.
 - **Advantages**: Faster than cold process (no 4-6 week cure). Produces harder, longer-lasting soap. Glycerol remains in the lye solution (recoverable by distillation as a valuable byproduct).
 - **Salt requirement**: Need ~1 kg salt per 10 kg of soap. Salt is produced by evaporating seawater or mining rock salt (halite).
-
 
 ## Steel and Metallurgy
 
@@ -327,8 +308,6 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 - **Iron & Steel** (flux and refractory): [iron-steel.md](../metals/iron-steel.md)
 - **[Glass](../glass/index.md)** (limestone as raw material): [glass.md](../glass/index.md)
 - **[Chemistry](../chemistry/index.md)** (alkali production): [alkalis.md](../chemistry/index.md)
-
-
 
 ## Troubleshooting
 

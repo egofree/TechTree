@@ -238,4 +238,3 @@ Grease and solid lubricant production involves several distinct hazard categorie
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
 
-![chemistry lubricants grease solid](../images/chemistry/chemistry_lubricants-grease-solid.jpg)

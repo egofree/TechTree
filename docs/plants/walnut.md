@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Walnut](../images/plants/plants_walnut.jpg)
-
-> *Blooming walnut (Juglans regia)*
-
-> *Image: Ввласенко, CC BY-SA 3.0*
-
 Walnut
 
 *Juglans regia* (Juglandaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Walnut, English walnut, Persian Walnut provides seeds/nuts, bark/sap as its primary edible product.
@@ -119,7 +113,6 @@ Walnut (*Juglans regia*) produces one of the world's most valuable hardwood timb
 | Full production | 15-20 years | Grafted stock |
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

@@ -8,16 +8,9 @@
 > **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Vibration Isolation](./vibration-isolation.md)
 > **Critical**: Yes — sub-nanometer position feedback is required for photolithography wafer stages
 
-
 Nanometer positioning stages (see [Nanometer Positioning](./nanometer-positioning.md)) are only as accurate as their position feedback. A piezo stage may have 0.01 nm actuator resolution, but if the position sensor measures to only 10 nm, the effective positioning accuracy is 10 nm. This document covers the encoder and interferometer technologies that close the feedback loop for nanometer-precision motion: optical scale encoders, laser interferometers, and the signal processing that extracts sub-nanometer position from optical measurements.
 
 ## Prerequisites
-
-![US patent 2886717 detail - Ferranti diffraction system](../images/precision-motion/precision-motion_precision-encoders.png)
-
-> *The Ferranti measurement system - using diffraction gratings for 5 micrometer precision over up to 1.5 meter span. US patent 2886717, by D. T. N. Williamson, filed 14-03-1953*
-
-> *Image: en:David Theodore Nelson Williamson, Public domain*
 
 - [Nanometer Positioning](nanometer-positioning.md) — the actuation systems these encoders serve
 - [Optics](../optics/index.md) — optical components and laser sources
@@ -176,7 +169,6 @@ Wafer stages require simultaneous X, Y, and angular measurement:
 | Measurement range | 0-1.5 m | 0-3 m |
 | Update rate | 10-50 kHz | 50-200 kHz |
 | Number of axes | 5-7 per stage | 3-12 per stage |
-
 
 ## Analog Interpolation
 

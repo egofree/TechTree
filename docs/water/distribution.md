@@ -8,13 +8,11 @@
 > **Outputs**: water_distribution, irrigation, pressurized_water
 > **Critical**: Yes — without distribution, water procurement and treatment serve only those at the source
 
-
 Transporting water from source to point of use. Once a reliable water source exists (see [Water Procurement](procurement.md)), the next challenge is moving water to where people need it — for drinking, washing, irrigation, and industrial processes. Distribution systems range from simple gravity channels (achievable from Year 0) to pressurized pipe networks (requiring [metallurgy](../metals/index.md) and [pumps](../energy/steam-power.md)).
 
 Every distribution system exploits three principles: gravity (water flows downhill), pressure (water moves from high to low pressure), and containment (pipes and channels prevent loss and contamination). The engineering challenge is applying these principles at the scale needed, with the materials available.
 
 A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distributed water. Agricultural irrigation adds 10-50× that volume. Industrial processes (brewing, tanning, metal cooling) add further demand. Distribution infrastructure scales from a single channel serving a hamlet to aqueduct networks serving cities of millions.
-
 
 ## Materials
 - [Water source](procurement.md) with reliable yield
@@ -45,7 +43,6 @@ A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distribut
 | Cast iron pipe (100 mm) | 100 m | [Metals](../metals/iron-steel.md) | Steel (welded), lead (avoid for potable) |
 | Cement mortar for joints | 0.2-0.5 m³ | [Chemistry: Cement](../chemistry/cement.md) | Clay seal, rubber gaskets |
 | Sand for pipe bedding | 1-3 m³ | River or quarry | No substitute — protects pipe from settling |
-
 
 ## Gravity-Fed Open Channels
 
@@ -241,7 +238,6 @@ Storage buffers supply against variable demand and source fluctuations.
 - [Ceramics](../ceramics/index.md) — for clay pipe manufacture
 - [Sewage Collection](sewage.md) — distribution infrastructure parallels sewage collection
 - [Basic Water Treatment](basic-treatment.md) — treatment plants receive water via distribution
-
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

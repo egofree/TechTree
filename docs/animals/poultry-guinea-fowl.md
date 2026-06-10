@@ -12,12 +12,6 @@ Helmeted guinea fowl (*Numida meleagris*) are hardy, disease-resistant poultry o
 
 ## Prerequisites
 
-![Guinea fowl 2](../images/animals/animals_poultry_guinea-fowl.jpg)
-
-> *Kpaankɔɣu*
-
-> *Image: Zugusung, CC BY-SA 4.0*
-
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Free-range area (1-2 hectares per 20-30 birds) | [`agriculture`](../agriculture/soil-management.md) | Guinea fowl are free-range specialists |

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Electric motor working process](../images/energy/energy_electric-motor.png)
-
-> *Electric motor working process diagram*
-
-> *Image: K.Venkataramana, CC BY-SA 4.0*
-
 An electric motor converts electrical energy into mechanical rotation through the interaction of magnetic fields. Current-carrying conductors in a magnetic field experience a force (Lorentz force): F = I × L × B, where I is current, L is conductor length, and B is magnetic flux density. In a motor, the armature (rotor) windings carry current in a magnetic field produced by field poles (stator), creating torque that rotates the shaft.
 
 Electric motors are the universal prime mover for factory mechanization. Once [electricity generation](electricity.md) is established, motors replace line shafts, belts, and steam engines for individual machine drive — each machine gets its own motor, eliminating the mechanical complexity and danger of shaft-and-belt power distribution. A civilization that can build motors and generators has the foundation for all modern manufacturing: machine tools, pumps, compressors, conveyors, and fans all run on electric motors.

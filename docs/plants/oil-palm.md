@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Oil Palm](../images/plants/plants_oil-palm.jpg)
-
-> *Fruit of Elaeis guineensis (oil palm) produced by a young palm at the botanical garden of Portoviejo, Ecuador.*
-
-> *Image: Cayambe, CC BY-SA 3.0*
-
 Oil Palm
 
 *Elaeis guineensis* (Arecaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. African Oil palm provides fruit, leaves, seeds/nuts as its primary edible product and ranks 62/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Plants succeed in moist to very wet tropical climates up to elevations of 1,300m. Commercial cultivation is below 700m and preferably lower than 300 m. It grows best in areas where annual daytime temperatures are within the range 20 - 35°c, but can tolerate 12 - 38°c. The plant is quite tolerant, though, and succeeds in southern China where there are light frosts and mean daily temperatures can drop below 10°c for weeks on end. It prefers a mean annual rainfall in the range 1,500 - 3,000mm, but tolerates 1,000 - 8,000mm. Optimally, there should be at least 150 mm of rain each month of the year, ideally falling mostly at night. Plants grow well in full sun, even when small. Grows and thrives on wide range of tropical soils, provided they have adequate water supply. Requires a humus-rich soil. Waterlogged, highly lateritic, extremely sandy, stony or peaty soils should be avoided. Tolerant of temporary flooding, provided the water is not stagnant. Prefers a pH range 4.5 - 6, tolerating 3.2 - 8. The root system is adventitious, forming a dense mat with a radius of 3 - 5m in the upper 40 - 60cm of the soil. Some primary roots are directly below the base of the trunk descending for anchorage for more than 1.5m; the roots produce pneumatodes under very moist conditions. It is a succession species favoured by slash and burn, and its gene pool has expanded as farmers clear land and create more open habitat for the germination of its seeds. Plants can commence bearing 3 years after the seed has germinated. The plant produces both male and female flowers, but not usually at the same time. An individual inflorescence will be all male or all female flowers; after a series of inflorescences of one sex the plant will then produce a series of inflorescences of the opposite sex. Plants flower all year. The fruit is produced in clusters approx 100 fruits. The inflorescence is produced from about every second leaf axil. There are up to 1,500 deep violet fruits (ripening to orange-red) in each roundish dense cluster, weighing 30 kg or more. Yields of 5 tonnes of oil per hectare have been obtained from mature plants. Spacing: 15-20 ft. (4.7-6 m) 20-30ft. (6-9m) . Propagation: Pre-soak seed for 24 hours in warm water and sow in containers; germination takes 2–5 months. Commercially, seeds are placed in intact 500-gauge polythene bags arranged on wooden boxes in a germinator at 39–40°C for 75–80 days. They are then soaked in cold water for 3 days with the water changed every 24 hours, drained, dried in shade, and kept at room temperature. Seeds are examined every 2 weeks — drying seeds are sprayed with water and germinated seeds are removed for potting. This method achieves an 80% germination rate.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

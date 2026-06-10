@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Coffee](../images/plants/plants_coffee.jpg)
-
-> *A coffee plant (Coffea arabica), its flower and fruit segments bordered by six scenes illustrating its use by man. Coloured lithograph, c. 1840. Iconographic Collections Keywords: Coffee*
-
-> *Image: Wikimedia Commons contributor, CC BY 4.0*
-
 Coffee
 
 *Coffea arabica* (Rubiaceae) is a beverage & stimulant crop species of major importance for civilization bootstrapping. Arabian coffee provides leaves, seeds/nuts, spice/beverage as its primary edible product.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Coffea arabica can be grown at elevations from 1,300 to 2,800 metres in equatorial regions, with 1,500 - 1,900 metres being most common. The minimum elevation reduces to about 500 metres at a latitude around 15°N or S, whilst in the subtropics, it can be grown from sea level to 1,000 metres. The plant can tolerate low temperatures but not frost. It grows best in areas where annual daytime temperatures are within the range of 14 - 28°c but can tolerate 10 - 34°c. It prefers a mean annual rainfall in the range 1,400 - 2,300mm, but tolerates 750 - 4,200mm. With too much rainfall, the plant tends to develop wood at the expense of flowers and fruits. One to two months of less than 50mm rain facilitates uniform flowering. Heavy rain during and after harvest is not desirable. Coffea arabica prefers a position in light shade. Shading improves leaf and shoot growth but reduces root growth. Coffea arabica prefers deep friable soil on undulating land. Plants are unsuited to stiff clay or sandy soils but are considered tolerant of acid soils. It prefers a pH in the range of 5.5 - 7, tolerating 4.3 - 8.4. Plants can begin to bear within 2 - 3 years and fully bear at the age of 6 - 8 years. The optimum yield of clean, dry coffee beans is 2- 3 tonnes/ha, obtained in Kenya. The average yields are about 0.5 tonnes/ha in Brazil and 0.9 tonnes/ha in Africa. Coffee plants can produce economic yields for 30 - 40 years on average, though this can vary from 10 - 70 years and plants of 80 - 100 years are known. Two to four years after planting, Coffea arabica produces small, white, highly fragrant flowers. The sweet fragrance resembles the sweet smell of jasmine flowers. Following the flowers, red berries appear, which are harvested for the coffee beans inside. The plant is tetraploid, and over 30 mutations have been recognized. In bisexual flowers, pollen is shed shortly after the flower opens, and the stigma is receptive immediately. Self-pollination can occur, as seed sets, even when the flowers are bagged. Pollination is also by honeybees, which collect nectar and pollen from the flowers. Inferior coffee results from picking berries too early or too late. Dwarf varieties are available. Propagation: Propagation is usually by seed. Optimum germination temperature is around 30–32°C; below 10°C germination is very slow. Seed viability is comparatively short and it is advisable to sow within two months of harvesting, as older seed takes longer to germinate and loses viability over time. Seeds can be planted with the attached parchment, but germination is quicker when this is removed. Seedlings can be raised in shaded nurseries and planted into permanent positions when 6–12 months old. Propagation is also possible by layering, air layering, budding, or single leaf-bud cuttings, which is the most commonly used cutting method.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

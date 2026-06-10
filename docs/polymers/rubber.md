@@ -8,28 +8,13 @@
 > **Outputs**: rubber, elastomers, gaskets, seals
 > **Critical**: Yes — flexible seals and vibration isolation required for all mechanical systems, pneumatic tires, and chemical-resistant barriers
 
-
 Elastomers are polymers that recover shape after large deformation (elongation 400-650% with full recovery). They fill roles no rigid material can: flexible seals, vibration dampers, tires, hoses, chemical-resistant gloves, electrical insulation, and adhesives. The rubber family divides into two branches — natural rubber (from latex) and synthetic elastomers (from petrochemical or fermentation monomers) — with different feedstocks and property profiles.
 
 Rubber is unique among engineering materials — it combines high elasticity with useful tensile strength (17-28 MPa when vulcanized). Before vulcanized rubber, seals required precisely machined metal-to-metal fits, hoses were rigid, and pneumatic tires did not exist. The discovery of vulcanization (Goodyear, 1839) transformed raw natural rubber from a temperature-sensitive curiosity into one of the most important industrial materials. Cross-linking polyisoprene chains with sulfur converts the material from a thermoplastic into a durable elastomer with stable properties across a useful temperature range (-50 to +100°C).
 
 See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types (NBR, neoprene, silicone, PU), [Thermoplastics](./thermoplastics.md) for melt-processable polymers, and [Thermosets](./thermosets.md) for crosslinked plastics.
 
-
 ## Prerequisites
-
-![Philips'chamber of commerce atlas; a graphic survey of the world's trade with a commercial compendium and gazetteer index](../images/polymers/polymers_rubber.jpg)
-
-> *Sujet : Commerce Monde Langue : anglais Éditeur : G. Philip (London) C.S. Hammond (New York)*
-
-> *Image: George Philip and Son (Londres). Auteur du texte, Public domain*
-
-
-![1910 circa anonym Fotografie Continental Caoutchouc- und Gutta-Percha-Compagnie (Continental AG) in Hannover](../images/polymers/polymers_rubber_gutta-percha.jpg)
-
-> *Fabrikgebäude der Continental Caoutchouc- und Gutta-Percha-Compagnie (Continental AG) in Hannover und eine Dame mit Hut, um 1910 fotografiert von der Eisenbahnbrücke über die Kopernikusstraße ...*
-
-> *Image: ungenannt, Public domain*
 
 ### Materials
 - Latex from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
@@ -50,7 +35,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Coagulation tanks (aluminum or ceramic-lined)
 - Ventilation for mixing and milling areas (dust and fume extraction)
 
-
 ## Vulcanized Rubber Compound (per 100 kg rubber)
 
 | Material | Quantity | Source | Alternatives |
@@ -69,7 +53,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 |----------|----------|--------|-------------|
 | Fresh latex (30-40% rubber) | 250-335 kg | [Hevea tapping](./natural.md) | Guayule slurry, dandelion root extract |
 | Formic acid (HCOOH, 85%) | 1.5-2.0 kg | [Chemistry](../chemistry/fermentation.md) — methanol + CO oxidation | Acetic acid (white vinegar, slower coagulation), alum |
-
 
 ## Hevea Latex Tapping
 
@@ -290,7 +273,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Not equivalent to virgin rubber — cannot fully replace virgin rubber in critical applications (tire treads, high-pressure seals)
 - Energy-intensive — grinding and heating to 150-200°C for 4-8 hours requires significant energy input
 
-
 ## Vulcanization Parameters by Rubber Type
 
 | Parameter | Natural Rubber (NR) | Nitrile (NBR) | Neoprene (CR) | EPDM |
@@ -352,7 +334,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - **Vulcanization burns**: Autoclave steam at 3-10 bar (144-180°C saturation temperature) and press platens at 140-180°C cause severe scalds and thermal burns. Use thermal gloves rated to 200°C and face shields when handling hot molds. Never open autoclave door under pressure — verify pressure gauge reads 0 bar before opening.
 - **Ammonia fumes** (latex preservation): Latex preserved with 0.3-0.7% ammonia releases NH₃ vapor. Irritating to eyes and respiratory tract above 25 ppm. OSHA PEL: 50 ppm (8-hour TWA). Use local exhaust ventilation in latex storage and processing areas.
 
-
 ## Incoming Rubber
 - **Moisture content**: Weigh 10 g sample, dry at 105°C for 2 hours, reweigh. Accept: <0.5% moisture loss.
 - **Dirt content**: Dissolve 10 g rubber in toluene, filter through 44 μm sieve, weigh residue. SMR 20: ≤0.10% dirt.
@@ -367,7 +348,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 ## Field Tests (No Lab Equipment)
 - **Cure test**: Stretch a 100 mm strip to 300% elongation. Good cure springs back within 5% of original length. Undercure = permanent stretch. Overcure = cracking/snapping.
 - **Hardness thumb test**: Press thumbnail firmly into surface. Shore A 40-60 rubber indents slightly. Shore A 70-90 resists indentation. Not precise but useful for quick checks.
-
 
 ## Alternative Rubber Sources (Non-Tropical)
 
@@ -407,9 +387,7 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 - **[Coatings](../chemistry/coatings.md)**: Rubber-based coatings and sealants
 - **[Machine Tools](../machine-tools/joining.md)**: Equipment for rubber processing machinery
 
-
 ---
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
 
-![polymers rubber](../images/polymers/polymers_rubber.png)

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Lesser Yam](../images/plants/plants_lesser-yam.jpg)
-
-> *Dioscorea esculenta, commonly known as the lesser yam, is a yam species. It is also known as Suthni in India.*
-
-> *Image: Salil Kumar Mukherjee, CC BY-SA 4.0*
-
 Lesser Yam
 
 *Dioscorea esculenta* (Dioscoreaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Lesser yam provides leaves, roots as its primary edible product and ranks 48/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Normally small tubers are planted (50 - 75 g) but cut portions of a tuber can be used. Using either the top section or the bottom section of a tuber gives better establishment and yield than middle portions. Using larger tubers gives larger individual tubers and higher yields for individual plants. Using a plant spacing of 30 cm between plants and 100 cm between rows about 2,000 kg of planting material are used if 70 g tubers are used. Tubers are planted 8-12 cm below the ground. It is possible to grow plants from stem cuttings where a leaf and node are propagated under mist. This method is normally only for increasing the amount of planting material of a selected variety. Planting in mounds makes harvesting easier. It also assists drainage and improves aeration. A spacing of 80 - 100 cm between plants is suitable. Planting is normally adjusted to fit in with the beginning of the rainy season. The growing season of 9-10 months is long and an extended wet season is therefore desirable. Stakes are required. Stakes 2 m long are sufficient. Lesser yams compete poorly with living plants used as shade. Weed control is probably most crucial during the first 3 months. As early growth of the plant is sustained from the tuber, fertilisers can be applied slightly after planting. Added nitrogen fertiliser is more effectively used when plants are staked. Nitrogen is of more benefit for leaf growth in the early stages of plant development. Potassium is beneficial but often phosphorus applications do not give significant responses as lesser yams are efficient at extracting it from the soil. High yields can be obtained. Propagation: Seed is not normally used to propagate this species. Tuber cuttings are used instead: pieces weighing around 50–80g with dormant buds are planted in situ 4–8cm deep with the stem pointing downward. Cut pieces are often left in the sun for several hours beforehand to encourage wound healing and reduce fungal infection risk.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -261,4 +254,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants lesser yam](../images/plants/plants_lesser-yam.jpeg)

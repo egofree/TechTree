@@ -8,18 +8,11 @@
 > **Outputs**: fish, shellfish, fish_oil, dried_fish, smoked_fish, fish_sauce, fish_guano
 > **Critical**: Yes — highest protein conversion efficiency of any animal production system
 
-
 Aquaculture converts water surfaces into protein production systems. Fish convert feed to body mass at ratios of 1.2-2.0:1 (kg feed per kg gain), far more efficient than any land livestock. A 1000 m² pond stocked with carp can produce 200-600 kg of fish per year on minimal supplemental feeding, yielding protein that requires no pasture, no fencing, and no winter housing.
 
 The practice splits into freshwater pond farming (the primary focus here) and coastal shellfish cultivation. Both rely on the same principles: provide the right environment, stock at appropriate densities, and manage water quality. Pond fish farming works from stone-age materials alone. Clay for lining, timber for drains, woven nets for harvest, and manure for fertilizing the water column.
 
 ## Prerequisites
-
-![Switch from a Regular fish farm to RAS](../images/animals/animals_aquaculture.jpg)
-
-> *Switch from an extensive flow-through raceway system to a water efficient RAS technology will decrease the share of medium- and small-scale aquaculture farms in Total fisheries groundwater abstraction to 4.5-6.0% instead of current 37% .*
-
-> *Image: Narek75, CC BY-SA 4.0*
 
 - [Insect farming](insect-farming.md) — insect meal as supplemental fish feed
 - [Basic tools](../foundations/tools-basic.md) — digging, net-making, and construction implements

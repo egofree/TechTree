@@ -8,26 +8,11 @@
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
 
-
 Brewing and distilling are the earliest industrial biotechnology. Beer and wine were historically safer to drink than water (the ethanol and low pH kill pathogens), making them workforce fuel rather than luxury goods. Distillation produces concentrated spirits (water purification: whiskey, brandy, rum) and industrial ethanol (solvent, fuel, chemical feedstock). The same fermentation knowledge that produces beer and wine also produces vinegar (acetic acid), a critical food preservative and cleaning agent.
 
 For industrial fermentation chemistry (ethanol, acetone, butanol as chemical feedstocks), see [Chemistry: Fermentation](../chemistry/fermentation.md). This document covers the food and beverage side of fermentation.
 
-
 ## Beer Brewing Materials
-
-![Twenty-Five Years of Brewing with an Illustrated History of American Beer Dedicated to the Friends of George Ehret](../images/food-processing/food-processing_brewing.jpg)
-
-> *Twenty-Five Years of Brewing with an Illustrated History of American Beer Dedicated to the Friends of George Ehret*
-
-> *Image: George Ehret, Public domain*
-
-
-![Setting the Chiller Flow (8425914640)](../images/food-processing/food-processing_brewing-diagram.jpg)
-
-> *Observing the brewing process at THAT Brewery, Pine AZ THAT Brewery, Pine AZ*
-
-> *Image: cogdogblog, CC BY 2.0*
 
 | Material | Quantity per 100 L beer (5% ABV) | Source | Alternatives |
 |----------|:---------------------------------:|--------|-------------|
@@ -55,7 +40,6 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 | Copper (still construction) | 2-5 kg per 100 L still | [Metals](../metals/index.md) | Stainless steel (no sulfur removal) |
 | Cooling water | 200-500 L per distillation run | [Water](../water/index.md) | Recirculated with cooling tower |
 | Oak barrels (aging, whiskey) | 1 barrel per 200 L | [Forestry](../plants/index.md) | Stainless steel (unaged spirit) |
-
 
 ## Beer Brewing
 
@@ -203,7 +187,6 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 - Traditional Orleans method requires 1-3 months and large barrel inventory — capital-intensive for the throughput
 - Distilled white vinegar production requires a separate distillation step, adding energy cost (5-10 MJ/L)
 
-
 ## Fermentation Yields and Efficiency
 
 | Product | Feedstock | Yield (L product per kg feedstock) | ABV | Primary Process Temperature |
@@ -273,7 +256,6 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 - **Pressure in stills**: Pot stills must have pressure relief valves. Column stills operate at slight positive pressure. Overpressure can cause explosion. Never block a still outlet.
 - **Fire hazard**: Ethanol vapor is flammable at 3.3-19% concentration in air. Distillation areas must be well-ventilated. No open flames near stills.
 - **CO₂ asphyxiation**: Fermentation produces CO₂ (2 mol per mol glucose). In enclosed spaces, CO₂ accumulates at floor level (density 1.98 kg/m³ vs. air 1.29 kg/m³). Ventilation: minimum 5 air changes per hour for commercial fermentation rooms. CO₂ monitors at floor level mandatory. Evacuate at >5,000 ppm (0.5%).
-
 
 ## Quality Control in Brewing
 

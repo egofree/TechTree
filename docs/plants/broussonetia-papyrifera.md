@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Paper Mulberry](../images/plants/plants_broussonetia-papyrifera.jpg)
-
-> *Paper mulberry (Broussonetia papyrifera). Balcalı - Adana, Turkey.*
-
-> *Image: Zeynel Cebeci, CC BY-SA 4.0*
-
 Paper mulberry (*Broussonetia papyrifera*) is a fast-growing deciduous tree native to East Asia, cultivated for millennia for its inner bark fiber. The bark produces strong, flexible sheets that are beaten into tapa cloth (bark cloth), the primary textile of many Pacific Island cultures. The same bark fiber is the raw material for some of the finest handmade papers in China and Japan, including the durable paper used for woodblock printing, calligraphy, and documents that last centuries.
 
 The tree grows 10-15 meters tall with a spreading crown. It is dioecious (separate male and female trees) and spreads aggressively by root suckers, forming dense thickets if not managed. The bark is the primary product: the inner bark (phloem) contains long, strong fibers 5-12 mm in length that bond naturally when beaten together on a flat surface.

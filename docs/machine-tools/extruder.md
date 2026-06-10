@@ -208,4 +208,3 @@ The extruder is also the most energy-intensive polymer processing machine: 0.15-
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
 
-![machine tools extruder](../images/machine-tools/machine-tools_extruder.jpg)

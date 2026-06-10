@@ -10,24 +10,6 @@
 
 ## Electrolysis Scale-Up
 
-![AEM water electrolysis working principle with HER and OER](../images/chemistry/chemistry_electrolysis.png)
-
-> *AEM water electrolysis working principle with HER and OER*
-
-> *Image: Kavin Teenakul, CC BY-SA 4.0*
-
-![Schematic diagram of electrolysis-electrodialysis concentrated HIx solution](../images/chemistry/chemistry_electrolysis-diagram.jpg)
-
-> *Schematic diagram of electrolysis-electrodialysis concentrated HIx solution.*
-
-> *Image: NoteDamn, Public domain*
-
-![Experimental Electrolysis Cell](../images/chemistry/chemistry_water-splitting-diagram.png)
-
-> *An experimental electrolysis cell attached to a function generator so the voltage, waveform and frequency of the current can be changed and tested for different results.*
-
-> *Image: Hossein Moayedi, CC BY 4.0*
-
 **Chlor-alkali process** (most important industrial electrolysis):
 - **Cell types**:
   - **Diaphragm cell**: Asbestos or polymer diaphragm separates anode and cathode compartments. Prevents Cl₂ and NaOH from mixing (would form NaOCl — bleach). Products: Cl₂ gas, H₂ gas, 10-12% NaOH solution (requires evaporation to 50%).

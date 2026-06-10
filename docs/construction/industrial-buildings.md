@@ -8,15 +8,11 @@
 > **Outputs**: industrial_facilities, machine_foundations, vibration_isolation, crane_runways, factory_floors
 > **Critical**: Yes — precision manufacturing requires vibration-isolated foundations; heavy industry requires crane runways and reinforced floors
 
-
-
 Industrial buildings differ fundamentally from residential construction. They must support heavy point loads from machinery (5-50 tonnes per machine), resist dynamic forces from forging hammers and stamping presses (5-50 kJ per blow), provide clear spans of 15-30 m for production lines, and accommodate overhead cranes moving 5-50 tonnes. The building is not just shelter — it is an integral part of the production system.
 
 Every machine tool, forge hammer, steam engine, and generator requires a foundation designed to carry its weight and resist its dynamic forces. A lathe with 0.01 mm tolerance cannot sit on a floor that deflects 0.1 mm under a passing forklift. A forge hammer delivering 50 kJ blows will destroy its own foundation and the surrounding building if not properly isolated.
 
 This capability depends on [building materials](./building-materials.md) for basic construction, [structural engineering](./structural-engineering.md) for design calculations, [electricity](../energy/electricity.md) for power distribution, and [cement and concrete](../chemistry/cement.md) for reinforced concrete structures.
-
-
 
 ## Materials
 
@@ -44,7 +40,6 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Power supply for concrete mixers, vibrators, and cranes.
 - Water supply for concrete mixing and curing.
 
-
 ## Bill of Materials
 
 | Material | Quantity per 1000 m² Factory | Source | Alternatives |
@@ -57,8 +52,6 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Crane rail (QU70-QU120) | 100-200 m | [Iron & Steel](../metals/iron-steel.md) | Standard railway rail (lower capacity) |
 | Waterproofing membrane | 500-1000 m² | [Chemistry](../chemistry/index.md) | Bituminous coating (shorter lifespan) |
 | Expansion joint filler | 50-100 m | [Polymers](../polymers/index.md) or cork | Bitumen-impregnated fiberboard |
-
-
 
 ## Steel-Frame Factory Construction
 
@@ -237,8 +230,6 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Limited resistance to chemical spillage — acids and solvents attack concrete surface; requires chemical-resistant coating (epoxy, minimum 3 mm)
 - Heavy equipment point loads may exceed design — always check concentrated loads separately from uniform load rating
 
-
-
 ## Vibration Isolation Parameters
 
 | Equipment Type | Max Floor Velocity (mm/s) | Max Floor Displacement (mm) | Isolation Method |
@@ -390,7 +381,6 @@ Footing depth: minimum 0.5 m below frost line for isolated pad footings. In a 1.
 | 25 | 491 | 3.85 | 400-500 |
 | 32 | 804 | 6.31 | 400-500 |
 
-
 ## Scaling Notes
 
 - **Small workshop (100-300 m²)**: Single-story, timber or light steel frame, 150 mm concrete floor on compacted subbase. No crane. Hand-operated hoists. Construction: 4-8 weeks.
@@ -400,7 +390,6 @@ Footing depth: minimum 0.5 m below frost line for isolated pad footings. In a 1.
 - **Large industrial plant (2000-10,000 m²)**: Multi-bay steel frame, heavy-duty floors (300 mm, 20-50 kN/m²), multiple cranes (10-50 tonnes), vibration-isolated precision areas. Requires full construction crew (20-50 workers), concrete batching plant, 20-50 tonne erection crane. Construction: 6-18 months.
 
 - **Machine foundation scaling**: Lathe (1-5 t): 1.5-2.5 m deep block, 1.2× machine footprint. Forge hammer (5-50 kJ): 10-15× hammer weight, timber/cork padding, sand gap isolation. Steam engine (50-500 HP): 2-3 m deep, isolated from floor slab. Generator (100-1000 kVA): mass ≥5× generator mass, anti-vibration mounts at base.
-
 
 ## Troubleshooting
 
@@ -414,7 +403,6 @@ Footing depth: minimum 0.5 m below frost line for isolated pad footings. In a 1.
 | Floor joint spalling | Joint edges not supported, heavy forklift traffic | Install joint armor (steel angle) at load-bearing joints; fill joints with semi-rigid epoxy |
 | Machine foundation settling unevenly | Weak soil pocket under one corner, inadequate subgrade preparation | Underpin settled corner with concrete pile or grout injection; for new foundations: probe subgrade before pouring |
 | Roof leaking at penetration (vent, skylight) | Inadequate flashing, no curb, sealant failure | Install raised curb (150 mm) around penetration; flash with 0.5 mm copper; reseal annually |
-
 
 ## Safety
 
@@ -445,7 +433,6 @@ Every joint in an industrial building is a potential failure point. Joints must 
 
 **Welded joints**: Full-penetration groove welds develop the full strength of the connected members. Fillet welds develop strength proportional to the weld throat (effective throat = 0.7 × leg length). Minimum fillet weld leg: 5 mm for materials up to 12 mm thick, 6 mm for 12-20 mm, 8 mm for 20-35 mm. All structural welds in crane runway beams and primary frame connections should be inspected by magnetic particle testing or ultrasonic testing. A defective weld in a crane runway beam can initiate a fatigue crack that propagates to failure under cyclic crane loading within months.
 
-
 ## Quality Control
 
 - **Concrete testing**: Take 3 test cylinders per 50 m³ poured. Crush at 7 and 28 days. Reject batches that fail to meet 28-day specified strength. Slump test at delivery: 75-125 mm. Reject concrete with slump >150 mm (excess water weakens concrete).
@@ -457,7 +444,6 @@ Every joint in an industrial building is a potential failure point. Joints must 
 - **Floor flatness**: Straightedge test at 3 m intervals in two directions. Maximum gap: ≤3 mm general, ≤1.5 mm precision. Document all measurements.
 
 - **Crane runway alignment**: Rail straightness ±1 mm per 10 m, gauge ±0.5 mm. Runway beam camber within L/1000 of design.
-
 
 ## Variations and Alternatives
 
@@ -475,7 +461,6 @@ Every joint in an industrial building is a potential failure point. Joints must 
 - **Use mat foundation when**: multiple machines close together, soil <150 kN/m², differential settlement must be minimized.
 - **Use table foundation when**: precision equipment (grinders, CMMs), vibration must be <0.1 mm/s at floor level.
 - **Use direct mount when**: light equipment (<500 kg), no dynamic loads, vibration not a concern.
-
 
 ## See Also
 

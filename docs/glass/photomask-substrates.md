@@ -8,7 +8,6 @@
 > **Outputs**: photomask_blanks, ule_glass, precision_optical_substrates
 > **Critical**: Yes — photomask substrates directly determine minimum feature size and yield in IC fabrication; no photolithography without them
 
-
 Photomask substrates are the flat glass plates that carry the circuit pattern image projected onto silicon wafers during photolithography. A photomask blank consists of an ultra-flat glass substrate, a thin opaque film (typically chromium, 60-100 nm), and optionally an anti-reflective coating. The glass substrate must be dimensionally stable, optically transparent at exposure wavelengths, and free of defects that would print onto the wafer. Photomask quality directly determines the yield and minimum feature size achievable in IC fabrication — a single substrate defect can render an entire wafer useless.
 
 Photomask substrates demand glass tolerances 10-100× tighter than standard optical glass. Where a telescope mirror might accept λ/4 (158 nm at 633 nm) surface error over its aperture, a photomask substrate must achieve flatness better than 250 nm over the entire 152 mm × 152 mm (6-inch) active area, with near-zero thermal expansion to prevent pattern distortion during exposure.
@@ -237,4 +236,3 @@ Damaged or obsolete photomask blanks can be reclaimed, reducing the cost of subs
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
 
-![glass photomask substrates](../images/glass/glass_photomask-substrates.png)

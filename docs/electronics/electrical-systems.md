@@ -14,12 +14,6 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 
 ## Materials
 
-![Electrical Systems Testing Inc Nelson Engineering Former Headquarters 2021](../images/electronics/electronics_electrical-systems.jpg)
-
-> *Former site of Electrical Systems Testing Inc./Nelson Engineering at 11600 Markon Drive, Garden Grove, California 92641.*
-
-> *Image: DigitalIceAge, CC BY 4.0*
-
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-10 mm, purity >99.9%
 - **Insulation materials**: [Thermoplastics](../polymers/thermoplastics.md) — PVC (160-200°C extrusion), XLPE (150-180°C + cross-linking), PTFE (350-400°C)
 - **Silicon steel laminations**: 3% Si-Fe, 0.23-0.35 mm thick, for transformer and motor cores

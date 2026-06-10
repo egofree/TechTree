@@ -137,7 +137,6 @@ Mixed xylenes contain three isomers with very close boiling points: para-xylene 
 
 **Isomerization**: After extracting para-xylene, the remaining xylenes (now depleted in para-xylene) are isomerized back toward equilibrium over a Pt/zeolite catalyst at 250-400°C, regenerating para-xylene for another extraction cycle. Overall para-xylene yield from mixed xylenes: 85-90% after multiple extract-isomerize cycles.
 
-
 ## From Ethylene
 
 **Polyethylene** (largest single plastics product, ~120 million tonnes/year):
@@ -210,7 +209,6 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 - **Polymers**: Converts feedstocks into materials — [Polymers & Composites](../polymers/index.md)
 - **Alternative chemistry**: Coal tar and fermentation routes — [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md)
 - **Distillation fundamentals**: Column design and operation — [Distillation](../chemistry/distillation.md)
-
 
 ## Toxic and Carcinogenic Exposures
 

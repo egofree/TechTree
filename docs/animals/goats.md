@@ -8,7 +8,6 @@
 > **Outputs**: goat_milk, chevon, cashmere, mohair, goatskins, manure, brush_clearing
 > **Critical**: No — versatile but replaceable by sheep/cattle combination
 
-
 Goats are the most adaptable and resilient domesticated livestock species. They thrive in arid, mountainous, and marginal environments where cattle and sheep struggle, browsing on woody vegetation that other ruminants refuse. Mature weight ranges from 30-80 kg (does 30-55 kg, bucks 50-80 kg), making them manageable without specialized handling equipment. Gestation is 150 days (range 145-155), producing litters of 1-3 kids with twins as the most common outcome. A doe's productive lifespan is 8-12 years.
 
 Goats produce milk that is more digestible than cow milk (smaller fat globules, different protein structure), meat (chevon) with a dressed yield of 45-50%, and specialty fibers (cashmere, mohair) that are among the most valuable natural textile fibers. Their browsing behavior makes them excellent brush clearers — 8-12 goats per hectare on browse can suppress invasive woody plants and reclaim overgrown land for cultivation.
@@ -25,12 +24,6 @@ Goats produce milk that is more digestible than cow milk (smaller fat globules, 
 | Productive lifespan | 8-12 years | Doe |
 
 ## Prerequisites
-
-![Capra aegagrus hircus, Moers](../images/animals/animals_goats.jpg)
-
-> *Ein Ziegenbock im Moerser Schlosspark.*
-
-> *Image: kaʁstn Disk/Cat, CC BY-SA 3.0 de*
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -53,7 +46,6 @@ Materials listed per 20-doe operation per year.
 | Fencing materials | 1,200-1,500 m perimeter | [`metals`](../metals/index.md) | Electric netting for paddocks |
 | Iodine solution (7%) | 0.5 L | [`health.medicine`](../health/medicine.md) | Other antiseptic |
 | Disbudding iron (dairy kids) | 1 tool | [`metals`](../metals/index.md) | Required for hornless dairy goats |
-
 
 ## Dairy Management
 
@@ -180,7 +172,6 @@ Materials listed per 20-doe operation per year.
 - Predator losses higher on brush than open pasture (cover for coyotes)
 - Toxic plant risk — goats sample everything, including poisonous species
 
-
 ## Production Benchmarks by Breed Type
 
 | Parameter | Saanen (Dairy) | Boer (Meat) | Angora (Mohair) | Cashmere |
@@ -269,7 +260,6 @@ Why goat milk is more digestible: goat milk fat globules are 2-3 microns in diam
 - [`textiles.fibers`](../textiles/fibers.md) — cashmere dehairing, mohair spinning, textile production
 - [`food-processing`](../food-processing/index.md) — goat cheese (chèvre, feta), yogurt, fermented products
 - [`agriculture`](../agriculture/index.md) — brush clearing as land reclamation, manure as fertilizer
-
 
 ## See Also
 

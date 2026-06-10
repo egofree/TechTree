@@ -8,13 +8,11 @@
 > **Outputs**: sourdough_bread, sauerkraut, kimchi, soy_sauce, miso, tempeh, pickles, vinegar
 > **Critical**: No — fermentation enhances nutrition and preservation but other methods can substitute
 
-
 Food fermentation is the controlled cultivation of microorganisms — lactic acid bacteria, yeasts, molds, and acetic acid bacteria — to transform raw foods into more stable, nutritious, and digestible products. Unlike the alcoholic fermentation covered in [Brewing & Distilling](brewing.md), food fermentation focuses on non-alcoholic transformations: vegetables into sauerkraut and kimchi, soybeans into soy sauce and tempeh, milk into yogurt and cheese (see [Dairy Processing](dairy.md)), and flour into sourdough bread.
 
 Fermentation is the earliest biotechnology. Every human civilization independently developed fermented foods. The process preserves food by producing acids that lower pH below 4.6 (the threshold where *Clostridium botulinum* cannot grow), produces B vitamins and bioavailable minerals, breaks down anti-nutritional factors (phytic acid, trypsin inhibitors), and creates novel flavors that improve palatability of monotonous diets.
 
 For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](../chemistry/fermentation.md). For beer and wine, see [Brewing & Distilling](brewing.md).
-
 
 ## Materials
 
@@ -51,7 +49,6 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 | Wheat flour | 1.0-1.2 kg per kg sourdough starter | [Grain Milling](milling.md) | Rye flour (more active fermentation) |
 | Sea salt (coarse) | 150-250 g per L soy sauce | [Mining](../mining/processing.md) | Rock salt, solar salt |
 | Ceramic crocks (5-20 L) | 1 per batch | [Ceramics](../ceramics/index.md) | Glass jars, wooden barrels |
-
 
 ## Sourdough Bread
 
@@ -183,7 +180,6 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 - Temperature must stay below 38°C throughout the 24-48 hour fermentation — Rhizopus dies above this threshold, and spoilage bacteria take over
 - Dehulling soybeans is labor-intensive by hand (rub between palms or pass through coarse screen) — commercial dehullers save hours per batch
 - Fresh tempeh has only 3-5 days refrigerated shelf life — must be consumed or frozen soon after production
-
 
 ## Fermentation Parameters by Product
 

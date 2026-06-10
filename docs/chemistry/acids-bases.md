@@ -12,12 +12,6 @@ Industrial acids and alkalis underpin nearly all chemical processing: ore leachi
 
 ## Sulfuric Acid Production
 
-![Acids Bases and Salts GCSE Chemistry](../images/chemistry/chemistry_acids-bases.jpg)
-
-> *GCSE Chemistry module: 'Acids, Bases and Salts' By the end of this topic you will have covered: - Acids and bases - Making salts - Carboxylic acids GCSE revision videos and apps from LearnersCloud: LearnersCloud GCSE Chemistry To find out more and to start a free trial visit: LearnersCloud GCSE revision*
-
-> *Image: LearnersCloud, CC BY-SA 3.0*
-
 Sulfuric acid (H₂SO₄) is the most-produced industrial chemical globally (~200 million tonnes/year). Its production volume is a direct indicator of industrial capacity. Two processes exist: the lead chamber process (70% H₂SO₄, simpler, for bootstrapping) and the contact process (96-98% H₂SO₄, more efficient, requires vanadium catalyst).
 
 **Lead chamber process** (operational at smaller scale):
@@ -302,4 +296,3 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 
 *Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
 
-![chemistry acids bases diagram](../images/chemistry/diagram:chemistry_acids-bases.png)

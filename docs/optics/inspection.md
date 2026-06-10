@@ -8,23 +8,9 @@
 > **Outputs**: lenses, microscopes, optical_comparators
 > **Critical**: No — optical inspection enhances quality control but parts can be made without it
 
-
 Manufacturing precision components requires verifying that surfaces, dimensions, and defects meet specification. The unaided human eye resolves ~100 μm features — far too coarse for machined tolerances (±0.01 mm) or optical surfaces (λ/4 = 160 nm flatness). Without magnification, interferometry, and comparison techniques, there is no way to confirm that a lens surface is correct, a machined part meets tolerance, or a semiconductor wafer is defect-free. Optical inspection bridges the gap between what the machine produces and what the specification demands.
 
 ## Prerequisites
-
-![OCI Rotating Telescope Optical Inspection (GSFC 20210826 PACE 86491)](../images/optics/optics_inspection.jpg)
-
-> *Mechanical technician, Andrew Scharmann, installs a shim and inspects an optic on the Ocean Color Instrument (OCI) rotating telescope prior to integrating other hardware and optical components. OCI is a highly advanced optical spectrometer that will be used to measure properties of light over portions of the electromagnetic spectrum. It will enable continuous measurement of light at finer wavelength resolution than previous NASA satellite sensors, extending key system ocean color data records for climate studies. OCI is PACE's (Plankton, Aerosol, Cloud, ocean Ecosystem) primary sensor built at Goddard Space Flight Center in Greenbelt, MD.*
-
-> *Image: NASA Goddard Space Flight Center / Denny Henry/NASA, Public domain*
-
-
-![Optical coating - Thin film coating - Stripe filters - CILAS](../images/optics/optics_inspection_optical-coatings.jpg)
-
-> *Optical coating - Thin film coating - Stripe filters - CILAS*
-
-> *Image: CILAS, CC BY-SA 3.0*
 
 - [Glass production](../glass/index.md) — optical glass blanks for lenses and flats
 - [Machine tools](../machine-tools/index.md) — grinding, lapping, and polishing capability

@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Buckwheat](../images/plants/plants_buckwheat.jpg)
-
-> *817 V300*
-
-> *Image: STRONGlk7, CC BY-SA 3.0*
-
 Buckwheat
 
 *Fagopyrum esculentum* (Polygonaceae) is a staple food crop species of major importance for civilization bootstrapping. Buckwheat, Japanese buckwheat, Silverhull buckwheat provides leaves, seeds/nuts, flowers as its primary edible product and ranks 57/100 on the nutrition score.
@@ -70,7 +64,6 @@ This species grows as a perennial or annual depending on climate and management.
 Fagopyrum esculentum is a plant of the temperate and subtropical zones, though it can also be grown at higher elevations, generally above 1,500 metres, in the tropics. It grows best in areas where annual daytime temperatures are within the range 17 - 27°c, but can tolerate 7 - 40°c. It is very sensitive to frost. It prefers a mean annual rainfall in the range 700 - 1,000mm, but tolerates 400 - 1,300mm. A very easily grown plant, it prefers dry sandy soils but succeeds in most conditions, including poor, heavy or acid soils and even sub-soils. It prefers a pH in the range 5 - 6.5, tolerating 4.4 - 7.5. It prefers a cool moist climate, but it also succeeds in dry and arid regions. Hot drying temperatures and drying weather at blooming time blast the flowers and prevent seed formation. The plant has a poorly developed root system that makes it rather sensitive to drought. Fagopyrum esculentum is cultivated in many parts of the world for its edible seed. It is a prolific producer of seeds, and these are often spread by animal activity. It easily escapes from cultivation and can become established as a weed of cultivated and waste ground, though it is easy to control and does not usually become a pest. Buckwheat is a fast-growing plant that can reach its full height within 4 - 6 weeks. Flower formation starts 20 days after emergence, the plant continuing to flower until complete senescence and death of the whole plant. After the onset of flowering, the leaves and stems continue to grow while the fruits develop; hence seed ripening is very uneven, making harvesting difficult. From the middle of the flowering period onwards, when the leaf area has reached its maximum, further growth of the vegetative parts is slow, and producing ripe seed becomes the main focus of the plant. The seed is ready for harvesting 70 - 130 days after emergence, depending on cultivar and ecological conditions[141 , 183 , 299 , 418 ]. The seed is harvested when most of it (at least 75%) is mature, and most leaves have yellowed and dropped. The crop is harvested by mowing, after which the stems are bundled and put in heaps to dry. Farmers prefer to harvest early in the morning or late in the afternoon, or even at night, when the plants are slightly damp from dew, to reduce grain shattering. The average seed yield in the United States is 0.9 - 1 tonne per hectare; in Kenya, it is 1 tonne, and in Russia 1 - 1.3 tonnes; but up to 4 tonnes can be obtained. The seed ripens irregularly over a period of several weeks, so it is difficult to harvest. Plants have poor frost resistance, but they are disease and insect resistant. They inhibit the growth of winter wheat. There are some named varieties. The flowers have a pleasant sweet honey scent and are extremely attractive to bees and hoverflies. Propagation: Sow seed in situ from mid-spring to early summer. Germination typically occurs within 5 days. Earlier sowings are intended for a seed or leaf crop; later sowings are used mainly for leaf crops or green manure.
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 
@@ -275,4 +268,3 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
 
-![plants buckwheat](../images/plants/plants_buckwheat.jpeg)

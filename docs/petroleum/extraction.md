@@ -10,13 +10,6 @@
 
 ## Prerequisites
 
-![BAUER MBG 12 Rotary Drilling Rig at Construct Expo Utilaje 2010](../images/petroleum/petroleum_extraction_rotary.jpg)
-
-> *BAUER MBG 12 Rotary Drilling Rig seen in Bucharest, Romania at Romexpo during the 2010 Construct Expo Utilaje international exhibition for construction equipment, machinery and hand tools*
-
-> *Image: Gabinho, CC BY 3.0*
-
-
 Petroleum extraction requires specific industrial capabilities:
 
 - [Mining engineering](../mining/index.md) — drilling equipment, geological survey, and earth-moving
@@ -40,7 +33,6 @@ Crude oil is the highest energy-density liquid fuel readily available in nature 
 
 The extraction progression follows a clear technological ladder: surface collection → cable-tool drilling → rotary drilling → enhanced recovery. Each step requires the tools and materials from the previous industrial stage.
 
-
 ## Natural Oil Seeps
 
 Oil reaches the surface in many geological settings where an impermeable cap rock has been breached by erosion, faulting, or unconformity. Ancient civilizations from Mesopotamia to the Caspian collected petroleum from seeps for waterproofing, medicinal use, and lamp fuel.
@@ -61,7 +53,6 @@ Where oil has migrated to the surface and degraded extensively (bacteria consume
 **Surface mining**: Strip-mine oil sand deposits within 75 m of surface. Mine with power shovels and trucks. Crush and mix with hot water (50-80°C) and NaOH (0.1-0.5% as pH modifier) in a separation vessel. Bitumen attaches to air bubbles and floats as froth (Clark Hot Water Extraction Process). Froth diluted with naphtha and centrifuged to remove residual sand and water. Bitumen yield: ~90% recovery from mined ore. Energy cost: ~700-900 MJ per barrel of synthetic crude (high — energy return on investment ~3-5:1 vs. ~10-20:1 for conventional drilling).
 
 **In-situ methods**: For deeper oil sands, steam-assisted gravity drainage (SAGD) injects steam through a horizontal well, reducing bitumen viscosity from ~10⁶ cP to ~10 cP at 200-250°C. Mobilized bitumen drains to a lower parallel production well and is pumped to surface. Requires ~2.5-3.5 barrels of steam per barrel of oil recovered.
-
 
 ## Cable-Tool Principle
 
@@ -102,7 +93,6 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 ## Historical Context
 
 Colonel Edwin Drake's 1859 well at Titusville, Pennsylvania reached 21 m using cable-tool drilling and struck oil at ~1,000 liters/day — the first commercial oil well. By 1900, cable-tool rigs had drilled thousands of wells to depths of 500-1,500 m across Pennsylvania, Ohio, Texas, and Romania. The technique remained dominant until rotary drilling surpassed it in the 1920s-1930s.
-
 
 ## Rotary Drilling Principle
 
@@ -159,7 +149,6 @@ Modern drilling rarely stays vertical. Directional drilling uses a bent sub (ang
 | Hole diameter | 15-60 cm (reduces with depth as casing is set) |
 | Rig crew | 5-8 persons per shift, 2-3 shifts |
 | Rig power | 500-3,000 HP (diesel or electric) |
-
 
 ## Natural Flow (Artesian)
 
@@ -259,7 +248,6 @@ Inject water into injection wells to maintain reservoir pressure and physically 
 
 **Polymer flooding**: Add water-soluble polymer (polyacrylamide, 250-1,500 ppm) to injection water. Increases water viscosity, improving the sweep efficiency (less water bypassing oil through high-permeability channels). Recovery: 5-15% additional OOIP over waterflooding alone.
 
-
 ## Blowout Prevention
 
 A blowout — uncontrolled flow of oil and gas from the well — is the most catastrophic drilling accident. Prevention requires:
@@ -296,8 +284,6 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 - **Steam power**: Powers early drilling rigs and modern EOR steam generation — [Steam Power](../energy/steam-power.md)
 - **Refining**: Extraction provides the crude oil feedstock — [Petroleum Refining](refining.md)
 - **Chemistry alternatives**: Coal tar and fermentation as petroleum-independent paths — [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md)
-
-
 
 ## See Also
 

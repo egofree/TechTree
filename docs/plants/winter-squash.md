@@ -10,12 +10,6 @@
 
 ## Overview
 
-![Winter Squash](../images/plants/plants_winter-squash.jpg)
-
-> *late to germinate, but now going strongwinter squash - kabocha*
-
-> *Image: sakura from between places, CC BY 2.0*
-
 Winter Squash
 
 *Cucurbita maxima* (Cucurbitaceae) is a vegetable crop species of major importance for civilization bootstrapping. Pumpkin, Winter squash provides fruit, leaves, seeds/nuts as its primary edible product and ranks 71/100 on the nutrition score.
@@ -133,7 +127,6 @@ Winter squash seeds are a nutritious byproduct (24.5% protein, 34-54% oil) that 
 | Soup simmer time | 20-30 minutes | Until squash disintegrates |
 
 ### Distribution and Growing Conditions
-
 
 ### Identification
 

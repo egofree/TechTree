@@ -8,63 +8,51 @@
 > **Outputs**: spc_charts, cpk_indices, process_capability_analysis, six_sigma_metrics, control_limits
 > **Critical**: No — manufacturing can operate without SPC but yields will be lower and defect costs higher
 
+## Overview
+
+Statistical process control answers a fundamental manufacturing question: "Is this process producing consistent output, or has something changed?" By sampling process output over time and plotting results on control charts, operators distinguish between normal random variation (common cause) and abnormal shifts (special cause). Reacting to common cause wastes effort; ignoring special cause produces defects.
+
+Without SPC, manufacturing relies on 100% inspection (expensive — inspectors miss defects) or hope (no methodology). SPC replaces both with a statistical system that detects problems before defective products accumulate. The transition from "inspect quality in" to "build quality in" is one of the most consequential shifts in manufacturing philosophy, and SPC is the mathematical tool that makes it possible.
+
+Semiconductor manufacturing involves hundreds of sequential process steps, each introducing variability. A single out-of-control diffusion furnace can ruin 25 wafers containing thousands of die worth tens of thousands of dollars. Semiconductor yield runs 60-90% for mature nodes but drops below 50% for leading-edge technology. At these yields, the difference between Cpk 1.0 and 1.33 can mean profit or loss on an entire fab. SPC is not optional — it is the operating system of manufacturing quality.
+
 ## Prerequisites
 
-Statistical process control requires measurement infrastructure and data analysis capability:
-
-- [Measurement and metrology](../measurement/index.md) — calibrated instruments that produce quantitative measurements
+- [Measurement and metrology](../measurement/index.md) — calibrated instruments with resolution ≥10× finer than the tolerance being controlled
 - [Computing](../computing/index.md) — data recording, statistical calculation, and chart generation
-- [Applied mathematics](../mathematics/applied-mathematics.md) — probability, statistics, and normal distribution theory
+- [Applied mathematics](../mathematics/applied-mathematics.md) — probability, statistics, normal distribution theory
+- Data collection forms, reference standards, and a calibration system traceable to national standards
+- Understanding of statistical distributions (normal, binomial, Poisson) and which applies to each data type
 
 ## Safety
 
-No physical hazards — SPC is an analytical discipline. Workstation ergonomics apply: proper posture, adequate lighting, and regular breaks during extended data analysis sessions.
-
-Semiconductor manufacturing involves hundreds of sequential process steps, each introducing variability. Without statistical process control, defects accumulate undetected through the process chain, destroying yield. A single out-of-control diffusion furnace can ruin an entire batch of 25 wafers, each containing thousands of die worth tens of thousands of dollars. SPC provides the statistical framework to detect process shifts before they produce scrap, transforming manufacturing from reactive firefighting into proactive quality management.
-
-Semiconductor yield runs 60-90% for mature process nodes but drops below 50% for leading-edge technology. At these yields, the difference between a Cpk of 1.0 and 1.33 can mean the difference between profit and loss on an entire fab. SPC is not optional — it is the operating system of manufacturing quality.
+No physical hazards — SPC is an analytical discipline. Workstation ergonomics apply: proper posture, adequate lighting, and regular breaks during extended data analysis sessions. Repetitive measurement tasks can cause hand and wrist strain; vary tasks and use ergonomically designed instruments.
 
 ## Control Charts
 
-Control charts are the primary SPC tool. They plot process measurements over time with statistically-derived control limits that distinguish common-cause variation (inherent noise) from special-cause variation (assignable problems requiring correction).
+Control charts plot process measurements over time with statistically-derived control limits that distinguish common-cause variation from special-cause variation.
 
-## Decision Framework: Selecting the Right Control Chart
+### Selecting the Right Chart
 
-| Data Type | Distribution | Recommended Chart | Example Application |
-|-----------|-------------|-------------------|---------------------|
-| Continuous measurements (dimensions, temperatures) | Normal | X-bar and R charts | Gate CD, oxide thickness, etch rate |
-| Proportion defective per subgroup | Binomial | p-chart | Wafer sort yield, visual defect rate |
+| Data Type | Distribution | Chart | Application |
+|-----------|-------------|-------|-------------|
+| Continuous (dimensions, temperatures) | Normal | X-bar and R | Gate CD, oxide thickness, etch rate, machining dimensions |
+| Proportion defective | Binomial | p-chart | Wafer sort yield, visual defect rate |
 | Count of defects per unit | Poisson | c-chart | Particles per wafer, scratches per panel |
 | Defect density (variable area) | Poisson | u-chart | Defects per cm² across different wafer sizes |
-| Individual measurements (no subgroup) | Normal | Individuals (I-MR) chart | Furnace temperature readings taken once per run |
+| Individual measurements | Normal | I-MR | Furnace temperature, one reading per run |
 
-## Control Chart Trade-offs
+### Control Limit Formulas
 
-| Chart Type | Sensitivity to Shifts | Sample Size | Complexity | False Alarm Rate | Best For |
-|-----------|----------------------|-------------|------------|-----------------|----------|
-| X-bar/R | High (detects ±1σ shift in ~5 samples) | n=2-10 per subgroup | Medium | 0.27% (3σ limits) | High-volume parameters with rational subgroups |
-| p-chart | Moderate (requires large n for sensitivity) | n=50-500 | Low | Varies with p and n | Attribute pass/fail data, yield tracking |
-| c-chart | Moderate | Fixed unit area | Low | Varies with c̄ | Particle counts, defect counts per wafer |
-| I-MR | Lower than X-bar/R | n=1 | Low | Higher (no subgroup averaging) | Low-frequency measurements, expensive tests |
+| Chart | Center Line | UCL | LCL |
+|-------|-----------|-----|-----|
+| X-bar | X̄ (grand mean) | X̄ + A₂ × R̄ | X̄ − A₂ × R̄ |
+| R | R̄ (average range) | D₄ × R̄ | D₃ × R̄ |
+| p | p̄ | p̄ + 3√(p̄(1−p̄)/n) | max(0, p̄ − 3√(p̄(1−p̄)/n)) |
+| c | c̄ | c̄ + 3√c̄ | max(0, c̄ − 3√c̄) |
+| u | ū | ū + 3√(ū/aᵢ) | max(0, ū − 3√(ū/aᵢ)) |
 
-## X-bar and R Charts (Variables Data)
-
-The most widely used control chart pair for continuous measurements (dimensions, temperatures, voltages, weights).
-
-**X-bar chart** monitors the process mean:
-- Subgroups of n = 2-10 items sampled at regular intervals (typically n = 5)
-- Plot the subgroup mean x̄ for each sampling period
-- Center line (CL) = grand mean x̄̄ (average of all subgroup means)
-- Upper control limit (UCL) = x̄̄ + A₂ × R̄
-- Lower control limit (LCL) = x̄̄ − A₂ × R̄
-
-**R chart** monitors within-subgroup variability:
-- Plot the subgroup range R = x_max − x_min for each subgroup
-- Center line = R̄ (average range)
-- UCL = D₄ × R̄
-- LCL = D₃ × R̄
-
-**Control chart constants** (for subgroup size n):
+### Control Chart Constants
 
 | n | A₂ | D₃ | D₄ | d₂ |
 |---|----|----|----|----|
@@ -78,110 +66,90 @@ The most widely used control chart pair for continuous measurements (dimensions,
 | 9 | 0.337 | 0.184 | 1.816 | 2.970 |
 | 10 | 0.308 | 0.223 | 1.777 | 3.078 |
 
-The constant d₂ converts the average range to an estimate of process standard deviation: σ̂ = R̄ / d₂. This estimate is critical for process capability calculations.
+d₂ converts average range to estimated standard deviation: σ̂ = R̄ / d₂.
 
-**Sampling frequency**: For semiconductor manufacturing, subgroups are typically taken every 1-4 hours for critical parameters (furnace temperature, implant dose, etch rate) and every shift for less critical parameters. Each wafer in a batch lot is a natural subgroup member; a lot of 25 wafers provides 5 subgroups of 5.
+### Sampling Plans
 
-## p-Chart (Attribute Data — Proportion Defective)
+**Variables sampling for continuous production (X-bar/R charts):**
 
-Monitors the fraction of nonconforming items in each subgroup.
+| Production Rate | Subgroup Size | Frequency | Rationale |
+|----------------|--------------|-----------|-----------|
+| < 50 parts/hr | 3-5 | Every 1-2 hours | Low-volume; each subgroup represents one lot |
+| 50-500 parts/hr | 5 | Every 30-60 min | Standard production; detects shifts within 1 hour |
+| 500-5000 parts/hr | 5 | Every 15-30 min | High-volume; fast detection required |
+| > 5000 parts/hr | 5-10 | Every 5-15 min | Real-time monitoring needed |
+| Critical semiconductor params | 5 wafers | Every lot | Cpk tracked per lot |
 
-- Subgroup size n (typically 50-500 items inspected)
-- p = number defective / n for each subgroup
-- Center line p̄ = total defective / total inspected
-- UCL = p̄ + 3√(p̄(1−p̄)/n)
-- LCL = max(0, p̄ − 3√(p̄(1−p̄)/n))
+**Lot-by-lot acceptance sampling (ANSI/ASQ Z1.4):**
 
-The control limits vary with subgroup size if n changes between samples. When subgroup sizes vary by more than 20%, use standardized p-chart: z_i = (p_i − p̄) / √(p̄(1−p̄)/n_i), with UCL = 3, LCL = −3.
+| Lot Size | Sample (AQL 1.0%) | Ac | Sample (AQL 0.65%) | Ac |
+|----------|-------------------|----|---------------------|----|
+| 26-50 | 8 | 0 | 8 | 0 |
+| 51-90 | 13 | 0 | 13 | 0 |
+| 91-150 | 20 | 0 | 20 | 0 |
+| 151-280 | 32 | 1 | 32 | 0 |
+| 281-500 | 50 | 1 | 50 | 1 |
+| 501-1200 | 80 | 2 | 80 | 1 |
+| 1201-3200 | 125 | 3 | 125 | 2 |
+| 3201-10,000 | 200 | 5 | 200 | 3 |
 
-**Application**: Wafer sort yield (fraction of die passing electrical test per wafer), visual defect rate after photolithography steps, packaging defect rate.
+Ac = maximum defective units allowed before rejecting the lot.
 
-## c-Chart (Count of Defects per Unit)
+### Western Electric Rules
 
-Monitors the number of defects per inspection unit when the opportunity for defects is constant.
-
-- c = count of defects in each inspection unit
-- Center line c̄ = average defects per unit
-- UCL = c̄ + 3√c̄
-- LCL = max(0, c̄ − 3√c̄)
-
-Assumes Poisson distribution. Valid when defect occurrences are independent and the inspection area is constant.
-
-**Application**: Particle count per wafer after cleanroom processing, scratches per panel, voids per solder joint under X-ray inspection.
-
-## u-Chart (Defects per Unit, Variable Area)
-
-Monitors defect density when the inspection area varies between samples.
-
-- u = c / a (defects per unit area)
-- Center line ū = total defects / total area
-- UCL = ū + 3√(ū/a_i)
-- LCL = max(0, ū − 3√(ū/a_i))
-
-Where a_i is the area of the i-th sample.
-
-**Application**: Defects per cm² across different wafer sizes (150 mm vs 200 mm vs 300 mm), contamination per batch with varying lot sizes.
-
-## Western Electric Rules (Out-of-Control Detection)
-
-The Western Electric rules supplement the basic 3-sigma limits by detecting non-random patterns that indicate process shifts, trends, or cycles — even when no point exceeds the 3-sigma limits. These rules are applied to zone-based charts divided into three zones on each side of the center line:
-
-- **Zone A**: Between 2σ and 3σ from the center line
-- **Zone B**: Between 1σ and 2σ from the center line
-- **Zone C**: Within 1σ of the center line
-
-## Detection Rules
+The rules detect non-random patterns indicating shifts, trends, or cycles — even when no point exceeds 3σ limits. Zones: A (2σ-3σ), B (1σ-2σ), C (within 1σ).
 
 | Rule | Pattern | Interpretation |
 |------|---------|----------------|
-| Rule 1 | Any single point beyond Zone A (beyond 3σ) | Large sudden shift |
-| Rule 2 | 2 out of 3 consecutive points in Zone A (same side) | Moderate shift |
-| Rule 3 | 4 out of 5 consecutive points in Zone B (same side) | Small sustained shift |
-| Rule 4 | 8 consecutive points on one side of the center line | Process mean drift |
-| Rule 5 | 6 consecutive points increasing or decreasing | Trend (tool wear, degradation) |
-| Rule 6 | 14 consecutive points alternating up and down | Over-adjustment (stratification) |
-| Rule 7 | 15 consecutive points in Zone C (either side) | Too little variation — stratification or data manipulation |
+| 1 | 1 point beyond Zone A (beyond 3σ) | Large sudden shift |
+| 2 | 2 of 3 consecutive in Zone A (same side) | Moderate shift |
+| 3 | 4 of 5 consecutive in Zone B (same side) | Small sustained shift |
+| 4 | 8 consecutive on one side of center line | Process mean drift |
+| 5 | 6 consecutive increasing or decreasing | Trend (tool wear, degradation) |
+| 6 | 14 consecutive alternating up and down | Over-adjustment or stratification |
+| 7 | 15 consecutive in Zone C | Too little variation — data manipulation or stratification |
 
-**False alarm rate**: Applying all rules simultaneously yields approximately 1 false alarm per 150 subgroup samples (compared to 1 per 370 for 3-sigma limits alone). The increased sensitivity is worth the occasional false alarm in semiconductor manufacturing where undetected process shifts are extremely costly.
+Applying all rules yields ~1 false alarm per 150 subgroups (vs 1 per 370 for 3σ alone). The increased sensitivity is worthwhile in semiconductor manufacturing where undetected shifts are extremely costly.
 
-## Process Capability Indices
+## Process Capability
 
-Process capability compares the natural process spread to the specification limits, quantifying how well a centered, stable process meets requirements.
+Process capability compares the natural process spread to specification limits.
 
-## Cp (Process Capability)
+**Cp** = (USL − LSL) / (6σ) — potential capability assuming perfect centering.
 
-Measures potential capability — how the process spread relates to specification width, assuming perfect centering.
+**Cpk** = min[(USL − μ̄) / (3σ), (μ̄ − LSL) / (3σ)] — actual capability accounting for centering. Cpk ≤ Cp always; Cpk = Cp only when perfectly centered.
 
-**Cp = (USL − LSL) / (6σ)**
+**Pp/Ppk** use overall (total) standard deviation instead of within-subgroup estimate. Used for preliminary assessment or when process is not yet in statistical control. If Ppk ≈ Cpk, the process is stable. If Ppk << Cpk, significant between-subgroup variation exists.
 
-Where USL = upper specification limit, LSL = lower specification limit, σ = process standard deviation (estimated from R̄/d₂ or from S chart).
+### Capability Targets
 
-A Cp of 1.0 means the process spread exactly fills the specification window (3σ on each side). A Cp of 1.33 means there is room for 4σ between the process mean and each specification limit.
+| Cpk | Sigma Level | Defect Rate (ppm) | Assessment |
+|-----|-------------|-------------------|------------|
+| 0.50 | 1.5σ | 133,614 | Inadequate: significant out-of-spec output |
+| 0.67 | 2.0σ | 45,500 | Poor: ~4.5% defective |
+| 1.00 | 3.0σ | 2,700 | Marginal: barely within specification |
+| 1.10 | 3.3σ | 967 | Below minimum; must improve |
+| 1.33 | 4.0σ | 63 | Minimum acceptable for semiconductor |
+| 1.50 | 4.5σ | 6.8 | Good: general precision target |
+| 1.67 | 5.0σ | 0.6 | Excellent: critical dimensions |
+| 2.00 | 6.0σ | 0.002 | Six Sigma: near-zero defect goal |
 
-## Cpk (Process Capability — Centered)
+### Cpk Worked Example
 
-Accounts for process centering. The actual capability is limited by the specification limit closest to the process mean.
+Given shafts with diameter spec 25.000 ± 0.025 mm (USL = 25.025, LSL = 24.975):
 
-**Cpk = min[(USL − μ̄) / (3σ), (μ̄ − LSL) / (3σ)]**
+From 30 subgroups of n = 5 (150 readings): X̄ = 25.003 mm, R̄ = 0.018 mm, σ̂ = R̄/d₂ = 0.018/2.326 = 0.00774 mm
 
-Where μ̄ is the process mean. Cpk ≤ Cp always. Cpk = Cp only when the process is perfectly centered between the specification limits.
+- **Cp** = (25.025 − 24.975) / (6 × 0.00774) = 0.050/0.0464 = **1.08**
+- **Cpk** = min((25.025 − 25.003)/0.0232, (25.003 − 24.975)/0.0232) = min(0.95, 1.21) = **0.95**
 
-## Capability Targets
+Cpk = 0.95 means not capable. The process mean must shift toward spec center, or variation must be reduced. Expected defect rate: ~5,200 ppm (0.52%).
 
-| Cpk Value | Sigma Level | Defect Rate (ppm) | Interpretation |
-|-----------|-------------|-------------------|----------------|
-| 0.67 | 2σ | 45,500 | Inadequate — process produces ~4.5% defective |
-| 1.00 | 3σ | 2,700 | Marginal — barely within specification |
-| 1.33 | 4σ | 63 | **Minimum acceptable** for semiconductor manufacturing |
-| 1.50 | 4.5σ | 6.8 | Good — suitable for established processes |
-| 1.67 | 5σ | 0.57 | Excellent — required for critical dimensions |
-| 2.00 | 6σ | 0.002 | Six Sigma — near-zero defect goal |
+### Semiconductor Cpk Requirements
 
-**Semiconductor Cpk requirements** by process step:
-
-| Process Step | Critical Parameter | Minimum Cpk | Typical Cpk Target |
-|-------------|-------------------|-------------|-------------------|
-| Gate lithography | CD (critical dimension) | 1.33 | 1.50 |
+| Process Step | Critical Parameter | Minimum Cpk | Target Cpk |
+|-------------|-------------------|-------------|-----------|
+| Gate lithography | Critical dimension | 1.33 | 1.50 |
 | Gate etch | Etch bias | 1.33 | 1.50 |
 | Implant | Dose uniformity | 1.33 | 1.50 |
 | CMP | Oxide thickness | 1.33 | 1.67 |
@@ -189,119 +157,117 @@ Where μ̄ is the process mean. Cpk ≤ Cp always. Cpk = Cp only when the proces
 | Metal deposition | Thickness | 1.33 | 1.50 |
 | Wafer sort | Probe yield | 1.00 | 1.33 |
 
-## Pp and Ppk (Process Performance)
+## CUSUM and EWMA Charts
 
-Used for preliminary process assessment or when the process is not yet in statistical control. Uses the overall (total) standard deviation instead of the within-subgroup estimate:
+Shewhart charts detect large shifts (≥1.5σ) reliably. For detecting small, persistent shifts, two alternatives offer superior sensitivity:
 
-**Pp = (USL − LSL) / (6s_total)**
+- **CUSUM (Cumulative Sum)**: Accumulates deviations from target. Detects sustained shifts of 0.5-1.5σ that Shewhart charts miss. More complex to set up (requires choosing reference value k and decision interval h) but significantly more sensitive to gradual drifts.
+- **EWMA (Exponentially Weighted Moving Average)**: Weights recent data more heavily than older data. Provides a smoothed estimate of the process mean. The smoothing parameter λ (typically 0.05-0.25) controls sensitivity vs stability trade-off.
 
-Where s_total is calculated from all individual measurements (not from R̄/d₂). Pp and Ppk account for both within-subgroup and between-subgroup variation. If Ppk ≈ Cpk, the process is stable. If Ppk << Cpk, significant between-subgroup variation exists (process not centered or drifting).
+Both are used for critical parameters where early detection of small shifts matters: semiconductor manufacturing, pharmaceutical production, and chemical process control.
 
-## Six Sigma Methodology
+**Pre-control** is a simplified alternative using specification zones rather than statistical limits. Easier to implement than full SPC but less rigorous — useful as a stepping stone or for low-volume production where insufficient data exists for control limit calculation.
 
-Six Sigma aims to reduce process variation to achieve defect rates below 3.4 defects per million opportunities (DPMO), corresponding to Cpk ≥ 1.50 with a 1.5σ mean shift assumption.
+## Six Sigma and DMAIC
 
-**Strengths**:
-- Structured DMAIC methodology provides repeatable framework for quality improvement
-- Quantitative approach: every improvement measured against baseline Cpk with statistical validation
-- Compounding gains: improving per-step yield from 99.9% to 99.95% increases 500-step total yield from 60.6% to 77.8%
+Six Sigma aims to reduce variation to below 3.4 DPMO, corresponding to Cpk ≥ 1.50 with a 1.5σ mean shift assumption. Compounding gains are powerful: improving per-step yield from 99.9% to 99.95% increases 500-step total yield from 60.6% to 77.8%.
 
-**Weaknesses**:
-- Requires extensive data collection infrastructure (SECS/GEM integration, FDC systems)
-- DMAIC cycle time of 2-6 weeks per improvement project — too slow for rapid process development
-- Assumes approximately normal data distributions — non-normal processes require transformations
+### DMAIC Cycle
 
-## DMAIC Cycle
+1. **Define**: Identify the quality problem, define scope and goals, map the process (SIPOC). For semiconductor: define the yield-limiting step (e.g., "improve gate CD Cpk from 1.10 to 1.50").
 
-The structured improvement methodology:
+2. **Measure**: Collect baseline data. Validate measurement system (Gage R&R — measurement variation must be <10% of total). Establish Cpk baseline and initial control charts.
 
-1. **Define**: Identify the quality problem, define the project scope and goals, map the process at high level (SIPOC: Supplier-Input-Process-Output-Customer). For semiconductor: define the yield-limiting step, target yield improvement (e.g., "improve gate CD Cpk from 1.10 to 1.50").
+3. **Analyze**: Identify root causes using hypothesis testing (t-tests, ANOVA), regression, correlation, multi-vari charts. Determine which input variables most strongly influence the output. Example: "which of temperature, pressure, gas flow, and time most affects etch rate uniformity?"
 
-2. **Measure**: Collect baseline data. Validate measurement system (Gage R&R study — measurement variation must be <10% of total observed variation). Establish current process capability (Cpk baseline). Create initial control charts.
+4. **Improve**: Design and implement changes using Design of Experiments (DOE). Full or fractional factorial designs (2^k or 2^(k-p)) systematically vary factors to find optimal settings. Target: Cpk improvement ≥ 0.33.
 
-3. **Analyze**: Identify root causes using statistical tools — hypothesis testing (t-tests, ANOVA), regression analysis, correlation studies, multi-vari charts. Determine which input variables (factors) most strongly influence the output (response). Typical semiconductor analysis: "which of temperature, pressure, gas flow, and time most affects etch rate uniformity?"
+5. **Control**: Implement SPC on the improved process. Update control limits. Document SOPs. Establish response plans for out-of-control conditions. Hand off to production team.
 
-4. **Improve**: Design and implement process changes using Design of Experiments (DOE). Full factorial or fractional factorial designs (2^k or 2^(k-p)) systematically vary factors to find optimal settings. Verify improvement with confirmation runs. Target: Cpk improvement of at least 0.33 (from 1.0 to 1.33, or from 1.33 to 1.67).
+**Limitations**: DMAIC cycle time of 2-6 weeks per project — too slow for rapid process development. Requires extensive data infrastructure (SECS/GEM, FDC systems). Assumes approximately normal data distributions — non-normal processes require transformations.
 
-5. **Control**: Implement SPC on the improved process. Update control limits based on new process capability. Document standard operating procedures (SOPs). Establish response plans for out-of-control conditions. Hand off from improvement team to production team.
+## Gage R&R
 
-## Gage R&R (Repeatability & Reproducibility)
+Before any SPC study, validate the measurement system. Gage R&R quantifies how much observed variation comes from the measurement system itself.
 
-Before any SPC study, validate the measurement system. A Gage R&R study quantifies how much of the observed process variation comes from the measurement system itself.
+**Study design**: 10 parts × 3 operators × 2 trials = 60 measurements. Parts should span the expected process range.
 
-**Study design**: 10 parts, measured by 3 operators, 2 trials each (10 × 3 × 2 = 60 measurements). Parts should span the expected process range.
+**Components**: Repeatability (equipment variation — same operator, same part), Reproducibility (appraiser variation — different operators), Part variation (the signal we want to measure).
 
-**Components of variation**:
-- **Repeatability** (equipment variation, EV): Same operator measures same part multiple times. Variation due to instrument resolution and stability.
-- **Reproducibility** (appraiser variation, AV): Different operators measure same parts. Variation due to technique differences.
-- **Part variation** (PV): True differences between parts — the signal we want to measure.
+| Gage R&R | Assessment | Action |
+|----------|-----------|--------|
+| < 10% | Acceptable | Adequate for SPC |
+| 10-30% | Marginal | Acceptable for non-critical; improve for critical |
+| > 30% | Unacceptable | Must improve before collecting SPC data |
 
-**Acceptance criteria**:
-- Gage R&R < 10% of total variation: **Acceptable** measurement system
-- Gage R&R 10-30%: **Marginal** — acceptable depending on application criticality
-- Gage R&R > 30%: **Unacceptable** — measurement system must be improved before SPC is meaningful
+**Improvement strategies**: Repeatability >10% → instrument resolution too coarse (need 10× finer than tolerance) or fixture allows positioning variation. Reproducibility >10% → operators use different technique; write detailed procedure with photos and retrain. Both high → instrument is inadequate; replace before attempting SPC.
 
-**Semiconductor-specific**: For critical dimension (CD) measurement, the SEM (Scanning Electron Microscope) or CD-SEM Gage R&R must be <5% because the process tolerances are extremely tight (±2-5 nm on 20-40 nm gate lengths). This requires temperature-controlled metrology rooms and automated measurement routines that minimize operator influence.
+**Semiconductor-specific**: For critical dimension measurement, CD-SEM Gage R&R must be <5% because tolerances are extremely tight (±2-5 nm on 20-40 nm gate lengths). Requires temperature-controlled metrology rooms and automated routines that minimize operator influence.
 
 ## SPC Software Requirements
 
-SPC in semiconductor manufacturing generates large volumes of data requiring automated analysis:
+Semiconductor SPC generates large data volumes requiring automated analysis:
 
-- **Data collection**: Automatic data feeds from process tools (SECS/GEM protocol in semiconductor fabs — SECS = Semiconductor Equipment Communication Standard, GEM = Generic Equipment Model). Every furnace run, etch chamber, and lithography exposure tool reports process parameters in real time.
+- **Data collection**: Automatic feeds from process tools via SECS/GEM protocol (SECS = Semiconductor Equipment Communication Standard, GEM = Generic Equipment Model). Every furnace, etch chamber, and lithography tool reports parameters in real time.
 - **Chart generation**: Real-time X-bar/R, p, c charts with automatic control limit calculation and Western Electric rule checking.
-- **Alarm management**: Out-of-control detection triggers alarms routed to the appropriate process engineer. Alarm includes the parameter, the rule violated, the subgroup data, and the recommended response.
-- **Cpk tracking**: Running Cpk calculations for all critical parameters, with trending and automatic reporting. Dashboards showing Cpk by process step, by tool, and by product.
-- **Data storage**: Historical data retention for capability studies, customer audits, and continuous improvement. Minimum 2 years of data for most parameters; 5+ years for critical parameters.
+- **Alarm management**: Out-of-control triggers routed to process engineers with parameter, rule violated, subgroup data, and recommended response.
+- **Cpk tracking**: Running calculations for all critical parameters with trending dashboards by process step, tool, and product.
+- **Data storage**: Minimum 2 years retention; 5+ years for critical parameters. Required for capability studies, customer audits, and continuous improvement.
 
 ## SPC Implementation Sequence
 
-1. **Identify critical parameters** (CTQ — Critical to Quality): Work with product engineering to identify the 20-50 parameters most strongly correlated with yield and reliability. Focus SPC resources on these first.
-2. **Validate measurement systems** (Gage R&R): Ensure each CTQ parameter has an adequate measurement system before attempting SPC.
-3. **Establish baseline capability**: Collect 25-50 subgroups of data (minimum 125-250 individual measurements for n=5 subgroups). Calculate initial control limits and Cpk.
-4. **Bring process into control**: Identify and eliminate special causes. Tighten process to achieve Cpk ≥ 1.33 on all CTQ parameters.
-5. **Maintain and improve**: Ongoing monitoring with continuous improvement. Monthly Cpk reviews. Quarterly capability trending. Annual process audit.
+1. **Identify CTQ parameters** (Critical to Quality): The 20-50 parameters most strongly correlated with yield and reliability.
+2. **Validate measurement systems** (Gage R&R): Ensure each CTQ has an adequate measurement system.
+3. **Establish baseline capability**: 25-50 subgroups (minimum 125-250 measurements for n=5). Calculate initial control limits and Cpk.
+4. **Bring process into control**: Eliminate special causes. Target Cpk ≥ 1.33 on all CTQ parameters.
+5. **Maintain and improve**: Ongoing monitoring. Monthly Cpk reviews, quarterly trending, annual process audit.
+
+## Scaling Notes
+
+- **Bench scale (single process)**: One chart, one operator, paper-based charting. Minimum viable SPC for critical dimensions on a single production line.
+- **Pilot scale (production line)**: Multiple charts covering key parameters. Dedicated quality technician. Statistical support for chart interpretation.
+- **Production scale (factory-wide)**: SPC across all critical processes. Real-time data collection, automated charting. Statistical engineering group providing analysis and improvement recommendations. Six Sigma DMAIC projects for systemic quality issues.
 
 ## Integration Points
 
 | Phase | Contribution |
 |-------|-------------|
-| Machine Tools | Basic SPC for dimensional tolerances on machined parts, gauge R&R for micrometers and calipers |
-| Silicon | Wafer-level SPC for crystal growth parameters (pull rate, temperature gradient, rotation speed) |
-| Photolithography | CD control charts, overlay registration SPC, defect density tracking per exposure tool |
-| VLSI Scaling | Advanced SPC with multi-variate analysis, fault detection and classification (FDC), run-to-run control |
-| Electronics | Solder paste volume SPC, component placement accuracy, reflow profile monitoring |
+| Machine Tools | Basic SPC for dimensional tolerances, gauge R&R for micrometers and calipers |
+| Silicon | Wafer-level SPC for crystal growth (pull rate, temperature gradient, rotation) |
+| Photolithography | CD control charts, overlay registration SPC, defect density per exposure tool |
+| VLSI Scaling | Multi-variate analysis, fault detection and classification (FDC), run-to-run control |
+| Electronics | Solder paste volume SPC, placement accuracy, reflow profile monitoring |
 
 ## Key Deliverables
 
-- Control chart system for all critical process parameters (X-bar/R, p, c as appropriate)
-- Cpk ≥ 1.33 for all CTQ parameters, trending toward Cpk ≥ 1.67
-- Gage R&R < 10% for all measurement systems used in SPC
+- Control chart system for all CTQ parameters
+- Cpk ≥ 1.33, trending toward ≥ 1.67
+- Gage R&R < 10% for all measurement systems
 - Western Electric rule monitoring with alarm system
-- SPC data collection infrastructure (SECS/GEM integration)
+- SECS/GEM data collection infrastructure
 - DMAIC improvement methodology with trained practitioners
 
 ## Limitations
 
-- **Data quality dependency**: SPC is only as good as its data. Incomplete data, measurement errors, and sampling bias all degrade chart effectiveness. Gage R&R must be validated before any SPC implementation.
-- **Lagging indicator**: Control charts detect shifts after they occur, not before. Predictive models (run-to-run control, machine learning-based FDC) supplement SPC but require historical data and computing resources.
-- **Subgroup rationality**: Control chart effectiveness depends on rational subgrouping — items within a subgroup should be produced under essentially the same conditions. Incorrect subgrouping (mixing tools, shifts, or material lots within a subgroup) inflates within-subgroup variation and masks between-subgroup shifts.
-- **Normality assumption**: X-bar/R charts assume approximately normal data. Semiconductor processes sometimes produce non-normal distributions (skewed particle counts, bounded parameters like yield). Transformations (log, Box-Cox) or non-parametric methods may be needed.
-- **Cost of measurement**: Every SPC measurement consumes production time and may require destructive testing. Sampling plans must balance measurement cost against detection sensitivity.
+- **Data quality dependency**: SPC is only as good as its data. Incomplete data, measurement errors, and sampling bias degrade effectiveness.
+- **Lagging indicator**: Charts detect shifts after they occur. Predictive models (run-to-run control, ML-based FDC) supplement SPC but require historical data and computing resources.
+- **Subgroup rationality**: Effectiveness depends on rational subgrouping — items within a subgroup should be produced under the same conditions. Mixing tools, shifts, or lots masks shifts.
+- **Normality assumption**: X-bar/R charts assume approximately normal data. Non-normal distributions (skewed particle counts, bounded yield) require transformations (log, Box-Cox) or non-parametric methods.
+- **Measurement cost**: Every measurement consumes production time. Sampling plans must balance cost against detection sensitivity.
 
 ## Troubleshooting
 
-| Problem | Probable Cause | Solution |
-|---------|---------------|----------|
-| Control chart shows frequent out-of-control signals (>1 per 20 samples) but process yield is acceptable | Control limits calculated from too few initial subgroups (<25); measurement system variation inflating chart noise (Gage R&R >10%); irrational subgrouping mixing different tools or shifts | Recalculate control limits from ≥25 subgroups collected under stable conditions; run Gage R&R study — if >10%, fix measurement system before trusting chart; restructure subgroups to ensure each contains items from same tool, same shift, same material lot |
-| X-bar chart shows trend (Rule 5: 6 consecutive points increasing/decreasing) | Tool wear progressing (etch rate drift, CMP pad degradation); raw material lot change causing gradual shift; temperature controller drift | Identify the physical cause — check tool maintenance logs for wear items; verify raw material certification for recent lot changes; recalibrate temperature sensors; trend is a strength of SPC (detects gradual degradation early) |
-| Cpk drops below 1.33 with no out-of-control signals on X-bar chart | Process mean has shifted closer to one spec limit without exceeding 3σ limits; specification limits tightened by engineering change; increased within-subgroup variation visible only on R chart | Check both X-bar and R charts — R chart may show increased variability; recalculate Cpk from last 25 subgroups; compare current mean to specification midpoint; if process has drifted, adjust process target back to spec center |
-| Gage R&R study result >30% (unacceptable) | Measurement instrument lacks resolution (graduations >10% of tolerance); operator technique inconsistent between trials; environmental conditions (temperature, vibration) affecting measurement | Upgrade instrument to resolution ≥10× finer than tolerance; write and enforce standardized measurement procedure (same fixturing, same force, same reading method); stabilize measurement environment (temperature-controlled room, vibration-isolated table for precision work) |
-| p-chart control limits vary wildly between subgroups | Subgroup sizes vary significantly (different batch sizes, different inspection counts); p̄ very close to 0 or 1 making limits unstable | Use standardized p-chart (z-scores) when subgroup sizes vary >20%; if p̄ <0.05, consider c-chart or u-chart instead; ensure consistent subgroup sizes by standardizing inspection quantity |
-| c-chart shows many points below lower control limit (fewer defects than expected) | Inspection criteria changed (new inspector less strict); defect detection tool sensitivity reduced (particle counter clogged); process genuinely improved but limits not recalculated | Verify inspection method has not changed — compare defect photos across time periods; check particle counter calibration and airflow; if process genuinely improved, collect 25 new subgroups and recalculate control limits |
-| Rule 7 triggering (15 consecutive points in Zone C — too little variation) | Data rounding or truncation reducing apparent variation; subgrouping across multiple similar tools averaging out differences; operator selecting "good" samples (data manipulation) | Check data recording — are values rounded to resolution that collapses Zone C?; restructure subgroups to represent single tool/stream, not averaged across tools; audit data collection for selection bias; this rule catches falsification — investigate seriously |
-| Ppk << Cpk (large gap between performance and capability) | Significant between-subgroup variation (batch-to-batch, tool-to-tool, shift-to-shift differences); process mean wandering over time; special causes present that within-subgroup statistics don't capture | Decompose variation sources: separate tool, shift, lot, and time effects using multi-vari analysis; run ANOVA on tool groups to identify which tool is the outlier; implement tool-specific control limits if tools differ systematically |
-| Western Electric Rule 6 (14 points alternating up and down) | Over-adjustment — operator tweaking process after each measurement instead of letting common-cause variation run; two alternating input streams mixed into one chart (two suppliers, two tools, day/night shift) | Stop manual adjustments — SPC requires intervention only on genuine out-of-control signals; split the chart by stream (separate charts for each tool, shift, or supplier) to eliminate stratification |
-| Cpk calculation gives nonsensical result (negative or >5) | Data not normally distributed (heavily skewed particle counts, bounded yield data); specification limits entered incorrectly (USL < LSL); calculation error from mixing within-subgroup and total variation | Test data for normality (Anderson-Darling or Shapiro-Wilk); if non-normal, apply Box-Cox transformation or use non-parametric capability analysis; verify spec limits are entered correctly; confirm Cpk uses within-subgroup σ̂ = R̄/d₂, not total standard deviation |
+| Problem | Cause | Solution |
+|---------|-------|----------|
+| Frequent OOC signals (>1/20) but yield acceptable | Too few baseline subgroups; high Gage R&R; irrational subgrouping | Recalculate from ≥25 stable subgroups; fix measurement system; restructure subgroups by tool/shift/lot |
+| Trend (Rule 5: 6 points trending) | Tool wear, material lot change, controller drift | Check maintenance logs; verify material certification; recalibrate sensors |
+| Cpk < 1.33, no OOC on X-bar | Mean shifted toward one spec; specs tightened; R chart shows increased variability | Check both X-bar and R charts; recalculate from last 25 subgroups; compare mean to spec midpoint |
+| Gage R&R > 30% | Instrument resolution insufficient; operator inconsistency; environmental effects | Upgrade to 10× finer resolution; standardize measurement procedure; stabilize environment |
+| p-chart limits vary wildly | Subgroup sizes vary >20%; p̄ near 0 or 1 | Use standardized p-chart (z-scores); consider c/u chart for low p̄ |
+| Rule 7 (15 points in Zone C) | Data rounding; subgrouping across multiple tools; data manipulation | Check recording resolution; restructure subgroups for single tool/stream; audit for selection bias |
+| Ppk << Cpk | Between-subgroup variation (batch-to-batch, tool-to-tool) | Decompose by tool, shift, lot using multi-vari; ANOVA to identify outlier tool; tool-specific limits |
+| Rule 6 (14 points alternating) | Over-adjustment; two input streams mixed | Stop manual adjustments; split chart by stream (tool/shift/supplier) |
+| Cpk nonsensical (negative or >5) | Non-normal data; wrong spec limits; mixing σ types | Test normality (Anderson-Darling); apply Box-Cox transform; verify specs; confirm σ̂ = R̄/d₂ |
 
 ## See Also
 
@@ -311,4 +277,4 @@ SPC in semiconductor manufacturing generates large volumes of data requiring aut
 - [Computing](../computing/index.md) — SPC software and data analysis
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control](./index.md) • [All Domains](../../index.md)*

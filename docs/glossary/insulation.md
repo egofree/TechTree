@@ -26,4 +26,4 @@ Thermal insulation performance is measured by thermal conductivity (k-value, W/m
 
 - [Distillation](../chemistry/distillation.md)
 - [Electricity](../energy/electricity.md)
-- [Copper & Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)

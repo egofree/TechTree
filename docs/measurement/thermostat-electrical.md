@@ -133,7 +133,7 @@ Electrical thermostats use electrical properties of materials (thermoelectric vo
 
 **Prerequisites**:
 - [Rolling mill](../machine-tools/forming.md) for producing thin bimetallic strips
-- Two metals with different expansion coefficients ([brass](../metals/copper-bronze.md) + [steel](../metals/iron-steel.md))
+- Two metals with different expansion coefficients ([brass](../metals/bronze.md) + [steel](../metals/iron-steel.md))
 - [Bonding method](../machine-tools/joining.md) for bimetallic strip (riveting, brazing)
 - [Spring tempering](../metals/iron-steel.md) capability
 - [Permanent magnet](../metals/non-ferrous.md) (ferrite or alnico)

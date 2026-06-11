@@ -2,7 +2,7 @@
 
 > **Node ID**: textiles.sewing-tailoring
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`metals.copper-bronze`](../metals/copper-bronze.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
+> **Dependencies**: [`metals.copper`](../metals/copper.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
 > **Enables**: [`construction`](../construction/index.md), [`transport.shipping`](../transport/shipping.md)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
@@ -14,7 +14,7 @@ Sewing transforms flat woven cloth into shaped, functional products: garments, t
 
 - [Weaving](weaving.md) — woven cloth as the primary material
 - [Iron & Steel](../metals/iron-steel.md) — steel wire for needle manufacture
-- [Copper & Bronze](../metals/copper-bronze.md) — early needle and thimble materials
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) — early needle and thimble materials
 
 ## Needle Making
 

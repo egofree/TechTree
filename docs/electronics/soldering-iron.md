@@ -20,7 +20,7 @@ Position in the dependency chain: the soldering iron depends on [Iron & Steel](.
 
 - [Electricity](../energy/electricity.md) — 120 V or 230 V AC supply (or 12-24 V DC for low-voltage irons)
 - [Iron & Steel](../metals/iron-steel.md) — steel tube for body, iron plating for tips
-- [Copper](../metals/copper-bronze.md) — copper rod for tip stock (thermal conductivity 401 W/m·K)
+- [Copper](../metals/copper.md) — copper rod for tip stock (thermal conductivity 401 W/m·K)
 - [Ceramics](../ceramics/index.md) — alumina or mullite tube for heater insulation
 - [Nichrome wire](../metals/alloys.md) — NiCr 80/20 resistance wire for the heating element
 - [Wire drawing](../machine-tools/machining.md) — for producing nichrome wire and copper wire

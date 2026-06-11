@@ -8,7 +8,7 @@
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
 > **Critical**: true
 
-Specialty alloys are engineered metallic systems where precise additions of alloying elements transform base metals into materials with exceptional corrosion resistance, high-temperature strength, wear resistance, or specific physical properties. Unlike plain carbon steels and basic bronzes (covered in [Iron & Steel](iron-steel.md) and [Copper & Bronze](copper-bronze.md)), specialty alloys require controlled-atmosphere melting, precise compositional analysis, and multi-step heat treatments. They represent the frontier of metallurgical capability — the materials that enable chemical processing equipment, gas turbines, medical implants, and precision tooling.
+Specialty alloys are engineered metallic systems where precise additions of alloying elements transform base metals into materials with exceptional corrosion resistance, high-temperature strength, wear resistance, or specific physical properties. Unlike plain carbon steels and basic bronzes (covered in [Iron & Steel](iron-steel.md) and [Copper](copper.md) and [Bronze](bronze.md)), specialty alloys require controlled-atmosphere melting, precise compositional analysis, and multi-step heat treatments. They represent the frontier of metallurgical capability — the materials that enable chemical processing equipment, gas turbines, medical implants, and precision tooling.
 
 Alloy development depends on understanding phase diagrams, solid-state phase transformations, and the interplay between composition, processing, and microstructure. The key strengthening mechanisms — solid solution, precipitation, dispersion, and grain-boundary hardening — are combined to produce properties far beyond what any pure metal can achieve.
 
@@ -127,7 +127,7 @@ Superalloys are nickel, iron-nickel, or cobalt-based alloys designed for service
 
 ## Specialty Copper Alloys
 
-Beyond the basic brasses and bronzes covered in [Copper & Bronze](copper-bronze.md), several copper alloys serve critical specialized roles:
+Beyond the basic brasses and bronzes covered in [Copper](copper.md) and [Bronze](bronze.md), several copper alloys serve critical specialized roles:
 
 **Beryllium copper (Be-Cu)**:
 - **Composition**: Cu-2% Be-0.3% Co (typical, C17200). Solution-treated at 780-800°C, quenched, then aged at 315-350°C.

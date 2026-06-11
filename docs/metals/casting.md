@@ -235,7 +235,7 @@ Foundry work involves the highest temperatures in the machine shop. Safety disci
 - [Ceramics](../ceramics/index.md) — crucibles, refractory linings, and kiln furniture for foundry use
 - [Energy: Charcoal](../energy/charcoal.md) — charcoal and coke for furnace fuel
 - [Chemistry: Refractories](../chemistry/refractories.md) — furnace linings and refractory materials
-- [Metals: Copper-Bronze](./copper-bronze.md) — bronze and brass casting alloys
+- [Bronze casting](./bronze.md) — bronze and brass casting alloys
 - [Metals: Aluminum](./aluminum.md) — aluminum casting alloys and properties
 - [Energy: Steam Power](../energy/steam-power.md) — cast iron engine cylinders and boiler components
 - [Construction](../construction/index.md) — cast iron structural components

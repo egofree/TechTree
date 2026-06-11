@@ -15,4 +15,4 @@ Electrolyte management is a recurring concern in bootstrap industry: impurity bu
 
 - [Energy Storage](../energy/storage.md)
 - [Aluminum Production](../metals/aluminum.md)
-- [Copper and Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)

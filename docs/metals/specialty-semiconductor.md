@@ -168,7 +168,7 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 | Electromigration activation energy | 0.7-1.0 eV | Higher than Al (0.5-0.6 eV) — better EM life |
 | Cu diffusivity in SiO₂ | ~10⁻¹⁴ cm²/s at 400°C | Rapid — absolutely requires barrier |
 
-Bulk copper extraction and electrolytic refining are covered in [Copper & Bronze Production](copper-bronze.md). Semiconductor-grade copper for electroplating is discussed below.
+Bulk copper extraction and electrolytic refining are covered in [Copper Production](copper.md) and [Bronze Production](bronze.md). Semiconductor-grade copper for electroplating is discussed below.
 
 ## Dual Damascene Process
 

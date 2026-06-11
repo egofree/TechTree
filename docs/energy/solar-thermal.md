@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.solar-thermal
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels.charcoal`](charcoal.md), [`ceramics.pottery`](../ceramics/pottery.md), [`metals.copper-bronze`](../metals/copper-bronze.md)
+> **Dependencies**: [`energy.fuels.charcoal`](charcoal.md), [`ceramics.pottery`](../ceramics/pottery.md), [`metals.copper`](../metals/copper.md)
 > **Enables**: [`energy.steam-power`](steam-power.md), [`energy.electricity`](electricity.md)
 > **Timeline**: Years 5-30
 > **Outputs**: solar_heat, solar_steam, concentrated_solar_power, solar_furnace_heat
@@ -15,7 +15,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 ## Materials
 
 - **Glass** — Flat window glass (3-6 mm) for flat-plate collectors; curved or bent glass for parabolic troughs. See [Glass](../glass/basic.md).
-- **Copper tubing** — For heat exchangers and absorber plates. See [Copper & Bronze](../metals/copper-bronze.md).
+- **Copper tubing** — For heat exchangers and absorber plates. See [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md).
 - **Mirror material** — Silvered glass (silver deposit on glass backing), polished metal (aluminum, stainless steel), or aluminized polymer film.
 - **Steel** — For structural supports, tracking mechanisms, and receiver tubes. See [Iron & Steel](../metals/iron-steel.md).
 - **Insulation** — Mineral wool, fiberglass, or cork for reducing thermal losses from receivers and piping.
@@ -38,7 +38,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
-| Copper tubing (15 mm OD, 1 mm wall) | 15-20 m | [Copper & Bronze](../metals/copper-bronze.md) | Stainless steel tubing (lower conductivity) |
+| Copper tubing (15 mm OD, 1 mm wall) | 15-20 m | [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) | Stainless steel tubing (lower conductivity) |
 | Flat glass sheet (4 mm, 2 m²) | 1 sheet | [Glass](../glass/basic.md) | Polycarbonate sheet (lower temp rating, UV degrades) |
 | Steel sheet (1 mm, absorber plate backing) | 2 m² | [Iron & Steel](../metals/iron-steel.md) | Aluminum sheet |
 | Mineral wool insulation (50 mm) | 4 m² | [Chemistry](../chemistry/index.md) | Cork, straw (lower R-value) |
@@ -70,7 +70,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 5. **Operate**: The collector heats water to 50-80°C on sunny days. A 2 m² collector in a temperate climate produces 6-10 kWh thermal per day in summer, 2-4 kWh in winter.
 
 **Materials**:
-- [Copper tubing](../metals/copper-bronze.md) (15 mm OD, 1 mm wall, 15-20 m serpentine)
+- [Copper tubing](../metals/copper.md) (15 mm OD, 1 mm wall, 15-20 m serpentine)
 - [Flat glass sheet](../glass/index.md) (4 mm thick, 2 m², low-iron tempered glass preferred)
 - [Steel sheet](../metals/iron-steel.md) (1 mm thick, 2 m², absorber plate backing)
 - [Mineral wool insulation](../chemistry/index.md) (50 mm thick, 4 m², 50-100 kg/m³ density)
@@ -330,7 +330,7 @@ Low-temperature solar thermal applications do not require concentration:
 - **[Electricity Generation](electricity.md)** — Grid connection for CSP power plants
 - **[Power Distribution](power-distribution.md)** — Transformers and grid infrastructure for utility-scale CSP
 - **[Glass Manufacturing](../glass/index.md)** — Mirror and receiver tube glass production
-- **[Copper & Bronze](../metals/copper-bronze.md)** — Copper tubing for heat exchangers
+- **[Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)** — Copper tubing for heat exchangers
 - **[Iron & Steel](../metals/iron-steel.md)** — Structural steel for collector mounts and piping
 
 ---

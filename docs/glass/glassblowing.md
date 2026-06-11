@@ -176,7 +176,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 **Prerequisites**:
 - [Tungsten wire](../metals/refractory-metals.md) or [molybdenum wire](../metals/refractory-metals.md) (for borosilicate seals)
-- [Copper wire](../metals/copper-bronze.md) or Dumet wire (for soda-lime seals)
+- [Copper wire](../metals/copper.md) or Dumet wire (for soda-lime seals)
 - Glass tubing matched to the metal CTE
 - Gas-oxygen torch
 

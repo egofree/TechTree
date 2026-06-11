@@ -19,7 +19,7 @@ This combines the core path with the most helpful parallel capabilities into tie
 
 ## Tier 1: Industrial Base (Years 5–20)
 
-- [ ] Copper smelting and bronze alloying (`metals.copper-bronze`)
+- [ ] Copper smelting and bronze alloying (`metals.copper`, `metals.bronze`)
 - [ ] Iron bloomery smelting → wrought iron → steel (`metals.iron-steel`)
 - [ ] Basic metalworking tools (anvils, hammers, files, tongs)
 - [ ] Water/wind power harnessing (`energy.gravity`, `energy.wind`)

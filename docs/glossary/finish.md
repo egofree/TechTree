@@ -13,6 +13,6 @@ Finish quality affects both performance and longevity. Rough surfaces corrode fa
 
 ## Appears In
 
-- [Copper and Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)
 - [Structural Plants](../plants/structural-plants.md)
 - [Aviation](../transport/aviation.md)

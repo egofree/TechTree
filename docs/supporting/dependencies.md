@@ -71,13 +71,13 @@ Capabilities whose outputs are hard prerequisites for downstream work.
 |----------|--------|---------|-------------|
 | Quartz (SiO₂) | Mining | `silicon.mg-si-production`, `glass.advanced` | Critical |
 | Iron ore | Mining | `metals.iron-steel`, all downstream domains | Critical |
-| Copper ore | Mining | `metals.copper-bronze`, `energy.electricity` (wire) | Critical |
+| Copper ore | Mining | `metals.copper`, `energy.electricity` (wire) | Critical |
 | Carbon (charcoal/coke) | `energy.fuels` | Reducing agent and fuel for metals through silicon | Critical |
 | Coal | Mining | `energy.fuels.coal`, `energy.fuels.coke` (electrodes) | High |
 | Limestone | Mining | `metals` (flux), `chemistry.alkalis` (Solvay) | High |
 | Sulfur/pyrite | Mining | `chemistry.acids` (sulfuric acid) | Critical |
 | Fluorite (CaF₂) | Mining | `chemistry.acids` (HF production) | Critical |
-| Tin ore (cassiterite) | Mining | `metals.copper-bronze` (bronze) | Medium |
+| Tin ore (cassiterite) | Mining | `metals.bronze` | Medium |
 | Clay | Mining | `ceramics.pottery`, `ceramics.kilns` | High |
 | Aluminum ore (bauxite) | Mining | `chemistry.electrolysis`, `machine-tools.casting` | Medium |
 

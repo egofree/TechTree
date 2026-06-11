@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.solar-thermal.collector
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.solar-thermal`](solar-thermal.md), [`glass.basic`](../glass/basic.md), [`metals.copper-bronze`](../metals/copper-bronze.md)
+> **Dependencies**: [`energy.solar-thermal`](solar-thermal.md), [`glass.basic`](../glass/basic.md), [`metals.copper`](../metals/copper.md)
 > **Enables**: [`energy.steam-power`](steam-power.md), [`energy.cooling`](cooling.md)
 > **Timeline**: Years 5-20
 > **Outputs**: solar_heat, heated_water, process_heat
@@ -24,7 +24,7 @@ The selective surface is the key enabling technology for all solar thermal colle
 
 | Material | Quantity | Specifications | Source | Alternatives |
 |----------|----------|----------------|--------|-------------|
-| [Copper tubing](../metals/copper-bronze.md) | 15-20 m | 15 mm OD, 1 mm wall, serpentine pattern | [Copper & Bronze](../metals/copper-bronze.md) | Stainless steel tubing (lower conductivity) |
+| [Copper tubing](../metals/copper.md) | 15-20 m | 15 mm OD, 1 mm wall, serpentine pattern | [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) | Stainless steel tubing (lower conductivity) |
 | [Flat glass sheet](../glass/basic.md) | 1 sheet | 4 mm thick, 2 m², low-iron tempered | [Glass](../glass/basic.md) | Polycarbonate (UV degrades, lower temp) |
 | [Steel sheet (absorber plate)](../metals/iron-steel.md) | 2 m² | 0.5-1.0 mm, painted matte black | [Iron & Steel](../metals/iron-steel.md) | Copper sheet (better conductivity, expensive) |
 | [Mineral wool insulation](../chemistry/index.md) | 1-2 m² | 50 mm thick, 50-100 kg/m³ | [Chemistry](../chemistry/index.md) | Cork (lower R-value), straw (fire risk) |
@@ -216,7 +216,7 @@ A simple field test for flat-plate collector performance: on a clear day with so
 - [Steam Power](steam-power.md) — steam generation from solar-heated fluid
 - [Steam Turbines](steam-turbines.md) — power generation from solar-generated steam
 - [Glass Manufacturing](../glass/basic.md) — mirror and cover glass production
-- [Copper & Bronze](../metals/copper-bronze.md) — tubing for absorber plates and receivers
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) — tubing for absorber plates and receivers
 - [Cooling Systems](cooling.md) — absorption cooling driven by solar heat
 - [Fuels](fuels.md) — comparative energy sources for backup heating
 

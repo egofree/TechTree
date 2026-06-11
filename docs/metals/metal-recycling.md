@@ -39,7 +39,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Magnetic separator | Ferrous/non-ferrous separation | [Mining Processing](../mining/processing.md) |
 | Shredder or shear | Size reduction of bulky scrap | [Machine Tools](../machine-tools/index.md) |
 | Electric arc furnace or cupola | Remelting steel scrap | [Steelmaking](steelmaking.md) |
-| Crucible furnace or reverberatory furnace | Non-ferrous remelting | [Copper & Bronze](copper-bronze.md) |
+| Crucible furnace or reverberatory furnace | Non-ferrous remelting | [Copper](copper.md) and [Bronze](bronze.md) |
 | Spectrometer or spark tester | Alloy identification | [Measurement](../measurement/index.md) |
 
 ## Knowledge
@@ -105,7 +105,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 3. **Fire refine.** Charge anode furnace or reverberatory furnace with sorted copper scrap. Melt at 1150–1200°C under a reducing atmosphere. Oxidize impurities by air injection, then poling with green wood (reduces Cu₂O back to Cu). Cast into anodes for electrolytic refining, or directly into shapes if purity is adequate.
 
-4. **Electrolytic refine (if required).** For semiconductor-grade or electrical-grade copper, dissolve anodes in CuSO₄/H₂SO₄ electrolyte and plate onto starter cathodes at 200–300 A/m². See [Copper & Bronze](copper-bronze.md).
+4. **Electrolytic refine (if required).** For semiconductor-grade or electrical-grade copper, dissolve anodes in CuSO₄/H₂SO₄ electrolyte and plate onto starter cathodes at 200–300 A/m². See [Copper](copper.md) and [Bronze](bronze.md).
 
 ## Energy Requirements by Metal
 
@@ -255,7 +255,7 @@ Bronze Age metalworkers recycled bronze routinely — broken tools and weapons w
 - [Iron & Steel Production](iron-steel.md) — primary iron smelting and steelmaking processes
 - [Steelmaking](steelmaking.md) — EAF and BOF modern steelmaking details
 - [Aluminum Production](aluminum.md) — primary aluminum smelting (the process recycling avoids)
-- [Copper & Bronze](copper-bronze.md) — primary copper smelting and electrolytic refining
+- [Copper](copper.md) and [Bronze](bronze.md) — primary copper smelting and electrolytic refining
 - [Mining Extraction](../mining/extraction.md) — ore extraction (the upstream process recycling reduces)
 - [Energy](../energy/engine.md) — power supply for electric furnaces
 - [Waste Management](../ehs/waste-management.md) — disposal of non-recyclable residues

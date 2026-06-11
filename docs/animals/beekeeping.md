@@ -3,7 +3,7 @@
 > **Node ID**: animals.beekeeping
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`foundations.fire`](../foundations/fire.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
-> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`health.medicine`](../health/medicine.md), [`health.pharmacology`](../health/pharmacology.md), [`knowledge.writing`](../knowledge/writing.md), [`metals.copper-bronze`](../metals/copper-bronze.md)
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`health.medicine`](../health/medicine.md), [`health.pharmacology`](../health/pharmacology.md), [`knowledge.writing`](../knowledge/writing.md), [`metals.copper`](../metals/copper.md), [`metals.bronze`](../metals/bronze.md)
 > **Timeline**: Years 0-10
 > **Outputs**: honey, beeswax, propolis, pollination_services
 > **Critical**: yes
@@ -37,7 +37,7 @@ The species *Apis mellifera* (Western honey bee) is the primary managed bee worl
 | Clay or ceramic containers | [`ceramics.pottery`](../ceramics/pottery.md) | For honey storage and wax rendering |
 | Textile cloth (muslin, linen) | [`textiles.weaving`](../textiles/weaving.md) | For straining honey and filtering wax |
 | Access to flowering vegetation | [`foundations.food-agriculture`](../foundations/food-agriculture.md) | Nectar and pollen sources within 2 km |
-| Metalworking (optional, for frame hives) | [`metals.copper-bronze`](../metals/copper-bronze.md) | For precision tools (wire, nails, hinges) |
+| Metalworking (optional, for frame hives) | [`metals.copper`](../metals/copper.md) | For precision tools (wire, nails, hinges) |
 
 ## Materials per Hive
 
@@ -53,7 +53,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 | Cow dung + clay | 2-3 kg mixture | Local | Weatherproof coating for skeps |
 | Cotton or linen cloth | 0.5-1 m² | [`textiles.weaving`](../textiles/weaving.md) | Straining and filtering |
 | Smoker fuel | 0.5-1 kg per inspection | Dried plant material | Wood chips, burlap, pine needles |
-| Wire (for frame hives) | 2-3 m per frame | [`metals.copper-bronze`](../metals/copper-bronze.md) | Embed in foundation for comb support |
+| Wire (for frame hives) | 2-3 m per frame | [`metals.copper`](../metals/copper.md) | Embed in foundation for comb support |
 
 ## Log Hive Beekeeping
 
@@ -155,7 +155,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 
 **Principle**: Stackable rectangular boxes (supers) with precisely spaced removable frames. The critical innovation is "bee space" (7-9 mm) — bees respect this gap and do not glue surfaces together with propolis or comb. Frames hold foundation sheets embossed with hexagonal cell pattern (5.2-5.4 mm cell diameter) that guides comb construction. This enables non-destructive extraction via centrifugal force, comb reuse, and easy colony inspection.
 
-**Prerequisites**: [`foundations.tools-basic`](../foundations/tools-basic.md) (saw, hammer, square), [`metals.copper-bronze`](../metals/copper-bronze.md) (wire for frame reinforcement, nails), precision woodworking capability (consistent dimensions ±1 mm).
+**Prerequisites**: [`foundations.tools-basic`](../foundations/tools-basic.md) (saw, hammer, square), [`metals.copper`](../metals/copper.md) (wire for frame reinforcement, nails), precision woodworking capability (consistent dimensions ±1 mm).
 
 **Materials**: Sawn lumber for boxes and frames. Beeswax foundation sheets or plastic foundation. Thin wire (copper or steel) for frame wiring. Nails or screws. Metal clips or staples. Paint or preservative for exterior.
 
@@ -380,7 +380,7 @@ Minimal intervention. Bees form a tight cluster around the queen, maintaining 20
 
 (melting point 62-64°C, density 0.95 g/cm³)
 
-- **Investment casting (lost-wax method)**: Critical application for metallurgy — see [`metals.copper-bronze`](../metals/copper-bronze.md). Wax pattern → ceramic shell mold → melt out wax → pour molten metal. Enables complex shapes impossible with sand casting.
+- **Investment casting (lost-wax method)**: Critical application for metallurgy — see [`metals.bronze`](../metals/bronze.md). Wax pattern → ceramic shell mold → melt out wax → pour molten metal. Enables complex shapes impossible with sand casting.
 - **Writing tablets**: Wooden frame filled with beeswax, inscribed with stylus, smoothed by gentle heating. Reusable writing surface — standard in antiquity before cheap paper. See [`knowledge.writing`](../knowledge/writing.md).
 - **Candles**: Beeswax burns cleaner than tallow (no smoke, no rancid odor, brighter flame). Burn rate: 8-10 hours per 100 g. Dip wick (cotton or linen) repeatedly in melted wax to build up diameter.
 - **Waterproofing**: Rub beeswax into leather, canvas, or paper. Heat gently to penetrate fibers. Water-repellent finish for boots, bags, tents.
@@ -472,7 +472,7 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 ## Cross-Domain Links
 
 - [`foundations.fire`](../foundations/fire.md) — smoker fuel and fire for wax melting
-- [`metals.copper-bronze`](../metals/copper-bronze.md) — lost-wax investment casting using beeswax patterns
+- [`metals.bronze`](../metals/bronze.md) — lost-wax investment casting using beeswax patterns
 - [`knowledge.writing`](../knowledge/writing.md) — beeswax writing tablets
 - [`health.medicine`](../health/medicine.md) — honey wound treatment (osmotic + H₂O₂ antibacterial)
 - [`health.pharmacology`](../health/pharmacology.md) — honey as medicinal binder and preservative
@@ -502,7 +502,7 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [Agriculture & Food Production](../foundations/food-agriculture.md) — pollination services
 - [Medicine](../health/medicine.md) — honey as wound dressing and medicine
 - [Pharmacology](../health/pharmacology.md) — propolis and bee venom therapy
-- [Copper & Bronze](../metals/copper-bronze.md) — lost-wax casting with beeswax
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) — lost-wax casting with beeswax
 - [Writing](../knowledge/writing.md) — beeswax tablets
 
 ---

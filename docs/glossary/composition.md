@@ -6,7 +6,7 @@ The chemical and physical makeup of a material — what elements, compounds, and
 
 ## Context in the Tech Tree
 
-Composition control appears throughout the tech tree. In [Copper & Bronze Production](../metals/copper-bronze.md), alloy composition (tin content 5-15%) determines whether the casting is hard and brittle or soft and ductile. In [Iron & Steel Production](../metals/iron-steel.md), carbon content (0.05-2.0%) is the difference between wrought iron, mild steel, and cast iron — materials with vastly different properties from the same base element. In [Glass Production](../glass/basic.md), the ratio of silica to soda to lime controls melting temperature, workability, and chemical resistance.
+Composition control appears throughout the tech tree. In [Copper Production](../metals/copper.md) and [Bronze Production](../metals/bronze.md), alloy composition (tin content 5-15%) determines whether the casting is hard and brittle or soft and ductile. In [Iron & Steel Production](../metals/iron-steel.md), carbon content (0.05-2.0%) is the difference between wrought iron, mild steel, and cast iron — materials with vastly different properties from the same base element. In [Glass Production](../glass/basic.md), the ratio of silica to soda to lime controls melting temperature, workability, and chemical resistance.
 
 In [Steelmaking](../metals/steelmaking.md), the composition of the sintering mix (ore fines, flux, coke breeze) determines the permeability, strength, and reducibility of the sinter product. In [Blast Furnace](../metals/blast-furnace.md) operations, the composition of furnace atmospheres (CO/CO₂ ratio) determines whether the atmosphere is reducing or oxidizing — critical for controlling metal quality.
 
@@ -28,7 +28,7 @@ The critical insight for bootstrapping is that approximate composition control (
 
 ## Appears In
 
-- [Copper & Bronze Production](../metals/copper-bronze.md)
+- [Copper Production](../metals/copper.md) and [Bronze Production](../metals/bronze.md)
 - [Iron & Steel Production](../metals/iron-steel.md)
 - [Glass Production](../glass/basic.md)
 - [Steelmaking](../metals/steelmaking.md)

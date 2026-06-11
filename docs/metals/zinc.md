@@ -3,7 +3,7 @@
 > **Node ID**: metals.zinc
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`mining.extraction`](../mining/extraction.md), [`energy`](../energy/index.md), [`chemistry.acids-bases`](../chemistry/acids-bases.md)
-> **Enables**: [`metals.copper-bronze`](copper-bronze.md) (brass), [`metals.iron-steel`](iron-steel.md) (galvanizing), [`energy.storage`](../energy/storage.md) (zinc batteries)
+> **Enables**: [`metals.copper`](copper.md) (brass), [`metals.iron-steel`](iron-steel.md) (galvanizing), [`energy.storage`](../energy/storage.md) (zinc batteries)
 > **Timeline**: Years 15-25
 > **Outputs**: zinc, zinc_oxide, zinc_alloys
 > **Critical**: Yes — zinc provides corrosion protection for steel (galvanizing), is essential for brass alloy, and enables zinc-air batteries for energy storage
@@ -102,7 +102,7 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 
 ## Zinc Alloys
 
-**Brass (Cu-Zn)**: The most important zinc alloy. Brass produced since Roman times by cementation: heat copper metal with zinc oxide (smithsonite) and charcoal in a covered crucible at 1000-1200°C. Zinc vapor reduces and alloys with copper directly. Modern method: melt copper (mp 1085°C), add zinc (mp 420°C — add late to minimize volatilization losses of 2-5%). Common alloys: cartridge brass (70% Cu, 30% Zn) — excellent cold working, tensile strength 300-900 MPa (depending on cold work), used for ammunition cases, hardware. Muntz metal (60% Cu, 40% Zn) — harder, stronger, used for structural bolts, condenser tubes. Admiralty brass (71% Cu, 28% Zn, 1% Sn) — tin inhibits dezincification in seawater. Free-cutting brass (62% Cu, 35% Zn, 3% Pb) — lead particles act as chip breakers for machining at 100-300 SFM. See [Copper & Bronze](copper-bronze.md).
+**Brass (Cu-Zn)**: The most important zinc alloy. Brass produced since Roman times by cementation: heat copper metal with zinc oxide (smithsonite) and charcoal in a covered crucible at 1000-1200°C. Zinc vapor reduces and alloys with copper directly. Modern method: melt copper (mp 1085°C), add zinc (mp 420°C — add late to minimize volatilization losses of 2-5%). Common alloys: cartridge brass (70% Cu, 30% Zn) — excellent cold working, tensile strength 300-900 MPa (depending on cold work), used for ammunition cases, hardware. Muntz metal (60% Cu, 40% Zn) — harder, stronger, used for structural bolts, condenser tubes. Admiralty brass (71% Cu, 28% Zn, 1% Sn) — tin inhibits dezincification in seawater. Free-cutting brass (62% Cu, 35% Zn, 3% Pb) — lead particles act as chip breakers for machining at 100-300 SFM. See [Copper](copper.md) and [Bronze](bronze.md).
 
 **Zamak die-casting alloys**: Zamak 3 (96% Zn, 4% Al, 0.03% Mg, 0.002% Cu) — the most common zinc die-casting alloy. Melting point: 381°C (low — energy-efficient casting). Tensile strength: 280 MPa (as-cast), 35% elongation. Impact strength: 58 J. Density: 6.6 g/cm³. Cast at 400-425°C into steel dies at 13-27 MPa injection pressure. Dimensional accuracy: ±0.05 mm for 25 mm dimensions. Used for automotive components, hardware, toys, electrical fittings. Casting cycle: 5-15 seconds (high productivity — 200-500 shots/hour per machine). Die life: 100,000-1,000,000 shots (steel dies). Zamak 5 (adds 1% Cu for higher strength: 330 MPa tensile, 35 J impact).
 
@@ -255,7 +255,7 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 
 ## See Also
 
-- [Copper & Bronze](copper-bronze.md) — brass production (Cu-Zn alloy), the most important zinc alloy
+- [Copper](copper.md) and [Bronze](bronze.md) — brass production (Cu-Zn alloy), the most important zinc alloy
 - [Iron & Steel](iron-steel.md) — galvanizing steel for corrosion protection
 - [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid co-produced from roaster SO₂ gas
 - [Electrolysis](../chemistry/electrolysis.md) — zinc electrowinning technology

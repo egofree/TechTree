@@ -35,7 +35,7 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 | [Silicon steel laminations](../metals/iron-steel.md) | 30-60 kg | 0.35-0.50 mm thick, 3% Si | [Iron & Steel](../metals/iron-steel.md) | Low-carbon steel laminations (higher core loss) |
 | [Steel shaft](../metals/iron-steel.md) | 1 piece | 40-60 mm diameter × 300-500 mm, 1045 steel, turned | [Machining](../machine-tools/machining.md) | — |
 | [Cast iron frame/yoke](../metals/casting.md) | 1 piece | 200-300 mm diameter ring, 10-20 kg | [Foundry](../metals/casting.md) | Fabricated steel frame |
-| [Copper commutator segments](../metals/copper-bronze.md) | 20-40 segments | Hard-drawn copper, trapezoidal cross-section | [Wire Drawing](electricity.md) | — |
+| [Copper commutator segments](../metals/copper.md) | 20-40 segments | Hard-drawn copper, trapezoidal cross-section | [Wire Drawing](electricity.md) | — |
 | [Carbon brushes](../chemistry/index.md) | 4-8 pieces | Carbon-graphite composite, 15-25 mm × 8-15 mm | [Chemistry](../chemistry/index.md) | Copper gauze brushes (higher wear, sparking) |
 | [Bearings](../machine-tools/bearings-abrasives.md) | 2 pcs | Ball bearings, sealed, shaft diameter matched | [Machine Tools](../machine-tools/index.md) | Babbitt sleeve bearings |
 | [Insulation materials](../polymers/thermoplastics.md) | 2-5 kg | Shellac, kraft paper, pressboard, cotton tape | [Polymers](../polymers/index.md) | Silk, mica |
@@ -49,7 +49,7 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 | [Copper magnet wire (rotor)](electricity.md) | 5-15 kg | 0.5-1.5 mm, field winding | [Wire Drawing](electricity.md) | — |
 | [Silicon steel laminations](../metals/iron-steel.md) | 80-150 kg | 0.35-0.50 mm thick, stator and rotor cores | [Iron & Steel](../metals/iron-steel.md) | Low-carbon steel (50% higher core loss) |
 | [Steel shaft](../metals/iron-steel.md) | 1 piece | 50-80 mm diameter × 400-600 mm, turned | [Machining](../machine-tools/machining.md) | — |
-| [Slip rings](../metals/copper-bronze.md) | 2-3 pcs | Brass or copper, 40-80 mm diameter | [Foundry](../metals/index.md) | — |
+| [Slip rings](../metals/bronze.md) | 2-3 pcs | Brass or copper, 40-80 mm diameter | [Foundry](../metals/index.md) | — |
 | [Carbon brushes](../chemistry/index.md) | 4-6 pcs | Carbon-graphite, for slip rings | [Chemistry](../chemistry/index.md) | Copper gauze |
 | [Bearings](../machine-tools/bearings-abrasives.md) | 2 pcs | Ball bearings, sealed | [Machine Tools](../machine-tools/index.md) | Sleeve bearings |
 | [Cast iron frame](../metals/casting.md) | 1 piece | 300-500 mm diameter, 30-50 kg | [Foundry](../metals/casting.md) | Fabricated steel |

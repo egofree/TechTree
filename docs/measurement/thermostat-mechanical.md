@@ -2,7 +2,7 @@
 
 > **Node ID**: measurement.thermostat-mechanical
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`metals`](../metals/copper-bronze.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.forming`](../machine-tools/forming.md)
+> **Dependencies**: [`metals`](../metals/copper.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.forming`](../machine-tools/forming.md)
 > **Enables**: [`measurement.thermostat-fluid`](./thermostat-fluid.md), [`measurement.thermostat-electrical`](./thermostat-electrical.md)
 > **Critical**: No — manual temperature monitoring is a functional alternative
 > **Timeline**: Years 5-20
@@ -20,10 +20,10 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 - Flat reference surface for mounting
 
 **Materials**:
-- [Iron rod](../metals/iron-steel.md) or [bronze rod](../metals/copper-bronze.md) (10-15 mm diameter, 400-600 mm length)
+- [Iron rod](../metals/iron-steel.md) or [bronze rod](../metals/bronze.md) (10-15 mm diameter, 400-600 mm length)
 - [Mounting bracket](../metals/iron-steel.md) (cast iron or forged steel)
 - [Leaf spring](../metals/iron-steel.md) or [coil spring](../metals/iron-steel.md) (steel, 5-20 N force)
-- [Electrical contact points](../metals/copper-bronze.md) (brass or copper strips, 1-2 mm thick) or mechanical lever for damper control
+- [Electrical contact points](../metals/bronze.md) (brass or copper strips, 1-2 mm thick) or mechanical lever for damper control
 - [Adjustable set screw](../machine-tools/machining.md) (threaded steel, 6-8 mm) with locknut
 
 **Construction**:
@@ -69,16 +69,16 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 **Principle**: A low-expansion rod (iron or steel, α ≈ 12 × 10⁻⁶/°C) runs inside a high-expansion tube (copper or brass, α ≈ 17-19 × 10⁻⁶/°C). Both are fixed together at one end. When heated, the tube grows faster than the rod, creating relative displacement between the free ends. The differential expansion ΔL = L₀ × (α_tube - α_rod) × ΔT amplifies the usable motion compared to a single-metal rod, since both elements respond to the same temperature but at different rates.
 
 **Prerequisites**:
-- [Metal tube drawing](../metals/copper-bronze.md) (capillary tube, 1-3 mm OD)
+- [Metal tube drawing](../metals/copper.md) (capillary tube, 1-3 mm OD)
 - [Brazing or welding capability](../machine-tools/joining.md)
 - Two metals with different thermal expansion coefficients
 - [Basic machining](../machine-tools/machining.md) (lathe for turning rod to fit inside tube)
 
 **Materials**:
-- [Outer tube: copper or brass](../metals/copper-bronze.md) (10 mm OD, 8 mm ID, 300-500 mm length)
+- [Outer tube: copper or brass](../metals/copper.md) (10 mm OD, 8 mm ID, 300-500 mm length)
 - [Inner rod: iron or steel](../metals/iron-steel.md) (7.5 mm diameter, same length as tube, sliding fit inside)
-- [Mounting flange: steel or brass disc](../metals/copper-bronze.md) (30 mm diameter, 3 mm thick) brazed to one end of both tube and rod
-- [Contact mechanism](../metals/copper-bronze.md): brass contact strips, adjustable set screw with locknut
+- [Mounting flange: steel or brass disc](../metals/bronze.md) (30 mm diameter, 3 mm thick) brazed to one end of both tube and rod
+- [Contact mechanism](../metals/bronze.md): brass contact strips, adjustable set screw with locknut
 - [Return spring](../metals/iron-steel.md) (steel, 3-5 N)
 
 **Construction**:
@@ -125,16 +125,16 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 
 **Prerequisites**:
 - [Rolling mill](../machine-tools/forming.md) (to produce thin, uniform metal strips)
-- Two metals with different expansion coefficients (e.g., [brass](../metals/copper-bronze.md) α ≈ 19 × 10⁻⁶/°C + [steel](../metals/iron-steel.md) α ≈ 12 × 10⁻⁶/°C, or [steel](../metals/iron-steel.md) + [invar](../metals/alloys.md) α ≈ 1.2 × 10⁻⁶/°C)
+- Two metals with different expansion coefficients (e.g., [brass](../metals/bronze.md) α ≈ 19 × 10⁻⁶/°C + [steel](../metals/iron-steel.md) α ≈ 12 × 10⁻⁶/°C, or [steel](../metals/iron-steel.md) + [invar](../metals/alloys.md) α ≈ 1.2 × 10⁻⁶/°C)
 - [Bonding method](../machine-tools/joining.md): riveting, brazing, or explosive welding
 - [Spring tempering](../metals/iron-steel.md) capability
 
 **Materials**:
-- [Brass strip](../metals/copper-bronze.md) (high-expansion side): 0.3 mm thick, 12 mm wide, 100 mm long, half-hard temper
+- [Brass strip](../metals/bronze.md) (high-expansion side): 0.3 mm thick, 12 mm wide, 100 mm long, half-hard temper
 - [Steel strip](../metals/iron-steel.md) (low-expansion side): 0.3 mm thick, 12 mm wide, 100 mm long, spring temper
-- [Brass rivets](../metals/copper-bronze.md) (1.5 mm diameter, 4-5 mm long), 6-8 pieces
+- [Brass rivets](../metals/bronze.md) (1.5 mm diameter, 4-5 mm long), 6-8 pieces
 - [Contact point: silver](../metals/precious-metals.md) or [tungsten](../metals/refractory-metals.md) contact tip (2-3 mm diameter) brazed to the free end
-- [Adjustable contact screw](../metals/copper-bronze.md) (brass, M4) with locknut
+- [Adjustable contact screw](../metals/bronze.md) (brass, M4) with locknut
 - [Mounting bracket](../metals/iron-steel.md) (steel)
 
 **Construction**:
@@ -184,7 +184,7 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 
 **Prerequisites**:
 - [Rolling mill](../machine-tools/forming.md) (to produce thin, uniform metal strips)
-- Two metals with different expansion coefficients (e.g., [brass](../metals/copper-bronze.md) + [steel](../metals/iron-steel.md), or [steel](../metals/iron-steel.md) + [invar](../metals/alloys.md))
+- Two metals with different expansion coefficients (e.g., [brass](../metals/bronze.md) + [steel](../metals/iron-steel.md), or [steel](../metals/iron-steel.md) + [invar](../metals/alloys.md))
 - [Bonding method](../machine-tools/joining.md): riveting, brazing, or explosive welding
 - [Spring tempering](../metals/iron-steel.md) capability
 - [Precision stamping dies](../machine-tools/machining.md) (for repeatable disc geometry)
@@ -193,8 +193,8 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 **Materials**:
 - [Bimetallic sheet](../metals/alloys.md) (steel/brass or steel/invar, 0.3-0.5 mm thick, stamped to 15-25 mm diameter discs)
 - [Silver contact points](../metals/precious-metals.md) (2 mm diameter, brazed to disc center on both sides)
-- [Housing](../metals/copper-bronze.md): steel or brass cup (30 mm diameter, 10 mm deep) with mounting threads
-- [Electrical terminals](../metals/copper-bronze.md) (brass, riveted to housing)
+- [Housing](../metals/bronze.md): steel or brass cup (30 mm diameter, 10 mm deep) with mounting threads
+- [Electrical terminals](../metals/bronze.md) (brass, riveted to housing)
 
 **Construction**:
 

@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.iron-steel
 > **Domain**: [Metallurgy](./index.md)
-> **Dependencies**: [`metals.copper-bronze`](copper-bronze.md)
+> **Dependencies**: [`metals.copper`](copper.md), [`metals.bronze`](bronze.md)
 > **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md), [`energy.cooling`](../energy/cooling.md), [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power`](../energy/steam-power.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`metals.casting`](./casting.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.joining`](../machine-tools/joining.md), [`marine.infrastructure`](../marine/infrastructure.md), [`marine.propulsion`](../marine/propulsion.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](alloys.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`metals.steelmaking`](steelmaking.md), [`transport.railways`](../transport/railways.md), [`transport.telegraph`](../transport/telegraph.md)
 > **Timeline**: Years 5-15
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
@@ -347,7 +347,7 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 
 ## See Also
 
-- [Copper & Bronze](copper-bronze.md) — prerequisite metallurgy
+- [Copper](copper.md) and [Bronze](bronze.md) — prerequisite metallurgy
 - [Blast Furnace](blast-furnace.md) — pig iron and cast iron production
 - [Steelmaking](steelmaking.md) — converting iron to steel
 - [Specialty Alloys](alloys.md) — stainless steel, tool steel, and superalloys

@@ -3,7 +3,7 @@
 > **Node ID**: foundations.fire
 > **Domain**: [Foundations](./index.md)
 > **Dependencies**: None (root capability)
-> **Enables**: [`animals.beekeeping`](../animals/beekeeping.md), [`ceramics.pottery`](../ceramics/pottery.md), [`energy.fuels`](../energy/fuels.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.copper-bronze`](../metals/copper-bronze.md), [`plants`](../plants/index.md)
+> **Enables**: [`animals.beekeeping`](../animals/beekeeping.md), [`ceramics.pottery`](../ceramics/pottery.md), [`energy.fuels`](../energy/fuels.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.copper`](../metals/copper.md), [`plants`](../plants/index.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fire
 > **Critical**: Yes — fire is a root capability enabling cooking, metallurgy, ceramics, and chemical processing
@@ -194,7 +194,7 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 
 - **[Energy → Charcoal](../energy/charcoal.md)**: Full charcoal production detail, industrial-scale methods, coke production
 - **[Ceramics → Pottery](../ceramics/pottery.md)**: Pottery kiln firing temperatures and techniques
-- **[Metals → Copper-Bronze](../metals/copper-bronze.md)**: Forge-based metallurgy requiring controlled fire temperatures
+- **[Metals → Copper](../metals/copper.md)**: Forge-based metallurgy requiring controlled fire temperatures
 
 ## Safety & Hazards
 
@@ -221,7 +221,7 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 
 - [Stone & Wood Tools](tools-basic.md) — companion root capability for cutting and shaping
 - [Fuels](../energy/fuels.md) — charcoal, coal, and coke production from fire
-- [Copper & Bronze](../metals/copper-bronze.md) — first metallurgy enabled by fire
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) — first metallurgy enabled by fire
 - [Beekeeping](../animals/beekeeping.md) — smoke for hive management
 - [Pottery](../ceramics/pottery.md) — kiln-fired ceramics
 - [Plants Index](../plants/index.md) — plant processing with fire

@@ -16,7 +16,7 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 
 **Prerequisites**:
 - [Rolling mill](../machine-tools/forming.md) for producing thin metal strips
-- Two metals with different expansion coefficients ([brass](../metals/copper-bronze.md) + [steel](../metals/iron-steel.md))
+- Two metals with different expansion coefficients ([brass](../metals/bronze.md) + [steel](../metals/iron-steel.md))
 - [Bonding method](../machine-tools/joining.md) for bimetallic strip (riveting, brazing)
 - [Spring tempering](../metals/iron-steel.md) capability
 - [Glassblowing capability](../glass/glassblowing.md)
@@ -89,7 +89,7 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - [Borosilicate glass capillary tube](../glass/advanced.md) (0.15-0.25 mm bore, 6 mm OD, 300 mm length)
 - [Mercury](../chemistry/distillation.md) (2-5 g, distilled)
 - [Platinum wire](../metals/precious-metals.md) (0.1-0.2 mm diameter): two pieces, one fixed (sealed into bulb end), one adjustable
-- [Brass or stainless steel head fitting](../metals/copper-bronze.md) with threaded adjuster
+- [Brass or stainless steel head fitting](../metals/bronze.md) with threaded adjuster
 - [Iron slug](../metals/iron-steel.md) (for magnetic adjustment, if making adjustable type): 1.5 mm diameter, 3 mm long
 - [Reference thermometer](./temperature-pressure.md) for calibration
 
@@ -139,15 +139,15 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 **Principle**: A sealed metal bulb connected by a thin capillary tube to a bellows or diaphragm. The bulb is filled with a liquid (oil, alcohol, or glycol mixture) that expands when heated. The expanding liquid pushes through the capillary and pressurizes the bellows, which extends with force proportional to temperature. The bellows motion operates a switch, valve, or lever. The key advantage: the sensing bulb can be placed remotely from the controller, connected only by the capillary tube. This allows temperature sensing inside furnaces, pipes, or tanks while the control mechanism sits safely outside.
 
 **Prerequisites**:
-- [Metal tube drawing](../metals/copper-bronze.md) (capillary tube, 1-3 mm OD)
-- [Bellows fabrication](../metals/copper-bronze.md) (hydraulic forming or deep drawing)
+- [Metal tube drawing](../metals/copper.md) (capillary tube, 1-3 mm OD)
+- [Bellows fabrication](../metals/bronze.md) (hydraulic forming or deep drawing)
 - [Hermetic sealing](../machine-tools/joining.md) (brazing, welding)
 - [Liquid fill material](../chemistry/solvents.md) (silicone oil, mineral oil, or alcohol)
 
 **Materials**:
-- [Sensing bulb: copper or stainless steel tube](../metals/copper-bronze.md) (12 mm OD, 1 mm wall, 100-200 mm long), one end capped
-- [Capillary tube: copper or stainless steel](../metals/copper-bronze.md) (1.5 mm OD, 0.3 mm ID, 1-5 m length)
-- [Bellows: brass or stainless steel](../metals/copper-bronze.md), 20-30 mm diameter, 10-15 mm stroke
+- [Sensing bulb: copper or stainless steel tube](../metals/copper.md) (12 mm OD, 1 mm wall, 100-200 mm long), one end capped
+- [Capillary tube: copper or stainless steel](../metals/copper.md) (1.5 mm OD, 0.3 mm ID, 1-5 m length)
+- [Bellows: brass or stainless steel](../metals/bronze.md), 20-30 mm diameter, 10-15 mm stroke
 - [Fill liquid: silicone oil](../chemistry/solvents.md) (range -50 to 250°C) or [mineral oil](../chemistry/solvents.md) (range -20 to 200°C)
 - [Switch mechanism](../electronics/passive-components.md): microswitch or contact assembly
 - [Return spring](../metals/iron-steel.md): steel, calibrated force
@@ -202,16 +202,16 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 **Principle**: A sealed bulb is partially filled with a volatile liquid, leaving the rest of the volume filled with its saturated vapor. The vapor pressure above a liquid depends solely on temperature (Clausius-Clapeyron relation), not on the quantity of liquid. As the bulb temperature rises, more liquid evaporates and vapor pressure increases exponentially with temperature. This pressure is transmitted through a capillary to a bellows or bourdon tube, which actuates a switch or valve. The key distinction from the liquid expansion type: vapor pressure systems use the *pressure* of the vapor phase, not the *volume expansion* of the liquid phase.
 
 **Prerequisites**:
-- [Metal tube drawing](../metals/copper-bronze.md) (capillary tube, 1-3 mm OD)
-- [Bellows fabrication](../metals/copper-bronze.md) (hydraulic forming or deep drawing)
+- [Metal tube drawing](../metals/copper.md) (capillary tube, 1-3 mm OD)
+- [Bellows fabrication](../metals/bronze.md) (hydraulic forming or deep drawing)
 - [Hermetic sealing](../machine-tools/joining.md) (brazing, welding)
 - Volatile liquid appropriate to the temperature range (see table below)
 - [Vacuum filling equipment](../vacuum/pumps.md) (to control the fill quantity and eliminate air)
 
 **Materials**:
-- [Sensing bulb: copper or stainless steel tube](../metals/copper-bronze.md) (12 mm OD, 1 mm wall, 100-200 mm long), one end capped
-- [Capillary tube: copper or stainless steel](../metals/copper-bronze.md) (1.5 mm OD, 0.3 mm ID, 1-5 m length)
-- [Bellows: brass or stainless steel](../metals/copper-bronze.md), 20-30 mm diameter, 10-15 mm stroke
+- [Sensing bulb: copper or stainless steel tube](../metals/copper.md) (12 mm OD, 1 mm wall, 100-200 mm long), one end capped
+- [Capillary tube: copper or stainless steel](../metals/copper.md) (1.5 mm OD, 0.3 mm ID, 1-5 m length)
+- [Bellows: brass or stainless steel](../metals/bronze.md), 20-30 mm diameter, 10-15 mm stroke
 - Volatile fill liquid (select based on operating range):
   - [Methyl chloride](../chemistry/solvents.md) (-60 to 70°C, refrigeration)
   - [Ethyl chloride](../chemistry/solvents.md) (-20 to 120°C)
@@ -263,8 +263,8 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 **Principle**: A sealed bulb filled with an inert gas (nitrogen or helium) connected by capillary to a pressure-sensing element (bellows or bourdon tube). Unlike liquid or vapor systems, the gas follows the ideal gas law: P × V = n × R × T. Since the volume is fixed (sealed system), pressure is directly proportional to absolute temperature (Gay-Lussac's Law: P/T = constant). This gives a perfectly linear pressure-temperature relationship, unlike the exponential behavior of vapor pressure systems. The gas expansion thermostat has the widest useful range of any sealed-system type.
 
 **Prerequisites**:
-- [Metal tube drawing](../metals/copper-bronze.md) (capillary tube, 1-3 mm OD)
-- [Bellows fabrication](../metals/copper-bronze.md) (hydraulic forming or deep drawing)
+- [Metal tube drawing](../metals/copper.md) (capillary tube, 1-3 mm OD)
+- [Bellows fabrication](../metals/bronze.md) (hydraulic forming or deep drawing)
 - [Hermetic sealing](../machine-tools/joining.md) (brazing, welding)
 - [Inert gas supply](../chemistry/air-separation.md) (nitrogen cylinder or generated by air liquefaction/fractionation)
 - [Vacuum pump](../vacuum/pumps.md) for filling
@@ -323,12 +323,12 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - Spring tempering
 
 **Materials**:
-- [Wax pellet housing: brass cup](../metals/copper-bronze.md) (20 mm diameter, 25 mm deep, 1 mm wall)
-- [Piston: brass rod](../metals/copper-bronze.md) (8 mm diameter, 20 mm long, lapped to sliding fit in housing)
+- [Wax pellet housing: brass cup](../metals/bronze.md) (20 mm diameter, 25 mm deep, 1 mm wall)
+- [Piston: brass rod](../metals/bronze.md) (8 mm diameter, 20 mm long, lapped to sliding fit in housing)
 - [Wax](../chemistry/petroleum-alternatives.md): microcrystalline petroleum wax or beeswax blend, selected for melting range
 - [Rubber boot](../polymers/rubber.md): nitrile rubber or natural rubber, 0.5 mm thick, shaped like an accordion fold
 - [Return spring](../metals/iron-steel.md): steel, 30-80 N at full compression, 15-20 mm free length
-- [Copper guide ring](../metals/copper-bronze.md) (to prevent wax extrusion past piston)
+- [Copper guide ring](../metals/copper.md) (to prevent wax extrusion past piston)
 
 **Construction**:
 
@@ -383,18 +383,18 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - [Precision cylinder boring and piston machining](../machine-tools/machining.md)
 - [Rubber boot seal fabrication](../polymers/rubber.md)
 - [Spring tempering](../metals/iron-steel.md)
-- [Metal tube drawing](../metals/copper-bronze.md) (if using liquid bulb sensor)
-- [Bellows fabrication](../metals/copper-bronze.md) (if using liquid bulb sensor)
+- [Metal tube drawing](../metals/copper.md) (if using liquid bulb sensor)
+- [Bellows fabrication](../metals/bronze.md) (if using liquid bulb sensor)
 - [Hermetic sealing](../machine-tools/joining.md) (brazing, welding)
 - [Valve body machining](../machine-tools/machining.md) (brass valve body, precision bore)
 - [Spring selection and calibration](../metals/iron-steel.md)
 
 **Materials**:
-- [Valve body: hot-pressed brass forging](../metals/copper-bronze.md), 15 mm (1/2") or 22 mm (3/4") BSP threads
-- [Valve stem: brass](../metals/copper-bronze.md) (6 mm diameter, 30 mm long)
-- [Valve seat: brass or stainless steel](../metals/copper-bronze.md), lapped to seal against valve disc
+- [Valve body: hot-pressed brass forging](../metals/bronze.md), 15 mm (1/2") or 22 mm (3/4") BSP threads
+- [Valve stem: brass](../metals/bronze.md) (6 mm diameter, 30 mm long)
+- [Valve seat: brass or stainless steel](../metals/bronze.md), lapped to seal against valve disc
 - [Valve disc](../polymers/rubber.md): nitrile rubber or [PTFE](../polymers/thermoplastics.md) (compressed against seat)
-- [Sensor housing: brass](../metals/copper-bronze.md) (miniature wax pellet or liquid-filled bulb, 15 mm diameter)
+- [Sensor housing: brass](../metals/bronze.md) (miniature wax pellet or liquid-filled bulb, 15 mm diameter)
 - [Return spring](../metals/iron-steel.md): steel, calibrated force
 - [Setpoint dial](../polymers/thermoplastics.md): plastic or brass knob with temperature markings
 
@@ -404,7 +404,7 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 
 2. **Make the valve stem and disc**: Turn the brass valve stem to 5.95 mm diameter (sliding fit in the 6.0 mm bore). Press a PTFE disc (8 mm diameter, 2 mm thick) onto the end of the stem. The PTFE disc provides a compliant seal against the brass valve seat. PTFE deforms slightly under pressure to fill minor seat imperfections, unlike a metal-to-metal seal that requires lapped surfaces.
 
-3. **Build the sensor**: Construct a miniature wax pellet actuator (10 mm diameter, 20 mm long): select [wax](../chemistry/petroleum-alternatives.md) for the room-temperature range (15-25°C), bore a [brass housing](../metals/copper-bronze.md), machine a [brass piston](../metals/copper-bronze.md), fill with wax, and seal with a [rubber boot](../polymers/rubber.md). Alternatively, use a small liquid-filled bulb with [alcohol](../chemistry/solvents.md) or [butane](../chemistry/petroleum-alternatives.md) as the fill fluid, connected to a miniature bellows that pushes the valve stem.
+3. **Build the sensor**: Construct a miniature wax pellet actuator (10 mm diameter, 20 mm long): select [wax](../chemistry/petroleum-alternatives.md) for the room-temperature range (15-25°C), bore a [brass housing](../metals/bronze.md), machine a [brass piston](../metals/bronze.md), fill with wax, and seal with a [rubber boot](../polymers/rubber.md). Alternatively, use a small liquid-filled bulb with [alcohol](../chemistry/solvents.md) or [butane](../chemistry/petroleum-alternatives.md) as the fill fluid, connected to a miniature bellows that pushes the valve stem.
 
 4. **Connect sensor to valve stem**: Mount the sensor housing directly above the valve body, with the sensor piston pushing down on the valve stem. As the wax expands, it pushes the valve stem downward, closing the valve against the seat. The return spring pushes the valve stem upward (opening the valve) when the wax contracts.
 
@@ -443,17 +443,17 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 **Prerequisites**:
 - [Compressed air supply](../energy/storage.md) (clean, dry, regulated to 18-20 psi supply)
 - [Precision nozzle](../machine-tools/machining.md) (0.5-1.0 mm orifice)
-- [Relay valve](../metals/copper-bronze.md) (amplifier: boosts the weak nozzle back-pressure signal to actuator-driving pressure)
+- [Relay valve](../metals/bronze.md) (amplifier: boosts the weak nozzle back-pressure signal to actuator-driving pressure)
 - [Pneumatic actuators](../energy/storage.md) (diaphragm or piston type) on controlled equipment
 - [Temperature sensor](./thermostat-mechanical.html#bimetallic-strip-thermostat) (bimetallic strip, or [liquid/gas bulb](#liquid-expansion-thermostat-bulb-bellows))
 
 **Materials**:
-- [Nozzle: brass or stainless steel](../metals/copper-bronze.md), 0.8 mm orifice
-- [Flapper: phosphor bronze strip](../metals/copper-bronze.md) (0.1 mm thick, 8 mm wide, 30 mm long)
+- [Nozzle: brass or stainless steel](../metals/bronze.md), 0.8 mm orifice
+- [Flapper: phosphor bronze strip](../metals/bronze.md) (0.1 mm thick, 8 mm wide, 30 mm long)
 - [Bimetallic strip](../metals/alloys.md) (steel/brass, 0.3 mm thick, 8 mm wide, 60 mm long, connected to flapper)
-- [Restrictor orifice](../metals/copper-bronze.md): brass plug with 0.15 mm drilled hole (in the supply line)
-- [Relay valve](../metals/copper-bronze.md): brass body with diaphragm and spool valve
-- [Air supply tubing](../metals/copper-bronze.md): copper or polyethylene, 6 mm OD
+- [Restrictor orifice](../metals/bronze.md): brass plug with 0.15 mm drilled hole (in the supply line)
+- [Relay valve](../metals/bronze.md): brass body with diaphragm and spool valve
+- [Air supply tubing](../metals/copper.md): copper or polyethylene, 6 mm OD
 - [Mounting base](../metals/iron-steel.md) with air connections
 
 **Construction**:

@@ -41,7 +41,7 @@ Synchronous speed: n_s = 120 × f / p, where f = supply frequency (Hz) and p = n
 | [Silicon steel laminations](../metals/iron-steel.md) | 20-40 kg | 0.35-0.50 mm thick, 3% Si | [Iron & Steel](../metals/iron-steel.md) | Low-carbon steel (higher loss) |
 | [Steel shaft](../metals/iron-steel.md) | 1 piece | 35-50 mm diameter × 250-400 mm | [Machining](../machine-tools/machining.md) | — |
 | [Cast iron frame](../metals/casting.md) | 1 piece | 150-250 mm diameter | [Foundry](../metals/casting.md) | Fabricated steel |
-| [Copper commutator](../metals/copper-bronze.md) | 1 assembly | 20-40 segments, hard-drawn copper | [Wire Drawing](electricity.md) | — |
+| [Copper commutator](../metals/copper.md) | 1 assembly | 20-40 segments, hard-drawn copper | [Wire Drawing](electricity.md) | — |
 | [Carbon brushes](../chemistry/index.md) | 4 pcs | Carbon-graphite, matched to commutator size | [Chemistry](../chemistry/index.md) | Copper gauze (high wear) |
 | [Bearings](../machine-tools/bearings-abrasives.md) | 2 pcs | Ball bearings, shaft diameter matched | [Machine Tools](../machine-tools/index.md) | Sleeve bearings |
 | [Insulation](../polymers/thermoplastics.md) | 1-3 kg | Shellac, kraft paper, cotton tape | [Polymers](../polymers/index.md) | Silk, mica |

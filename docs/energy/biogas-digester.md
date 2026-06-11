@@ -40,7 +40,7 @@ Biogas does have limitations that prevent it from serving as a primary industria
 | [Steel plate (gas holder)](../metals/iron-steel.md) | 15-25 kg | 3 mm thick, welded into dome or floating bell | [Iron & Steel](../metals/iron-steel.md) | Flexible PVC membrane (limited life) |
 | [PVC pipe (inlet/outlet)](../polymers/thermoplastics.md) | 6-10 m | 110 mm OD, standard wall | [Polymers](../polymers/thermoplastics.md) | Clay pipe (higher leakage) |
 | [Galvanized steel pipe (gas)](../metals/iron-steel.md) | 5-10 m | 25 mm OD, threaded fittings | [Iron & Steel](../metals/iron-steel.md) | PVC pipe (lower pressure rating) |
-| [Brass or steel valves](../metals/copper-bronze.md) | 2-3 pcs | 25 mm, gas-rated | [Metals](../metals/index.md) | Wooden plug (not recommended) |
+| [Brass or steel valves](../metals/bronze.md) | 2-3 pcs | 25 mm, gas-rated | [Metals](../metals/index.md) | Wooden plug (not recommended) |
 | [Waterproof cement additive](../chemistry/index.md) | 5-10 kg | Sodium silicate or bitumen coating | [Chemistry](../chemistry/index.md) | Plastic sheet (less permanent) |
 | [Iron oxide chips (H₂S filter)](../chemistry/index.md) | 5-10 kg | Wood shavings coated with iron oxide | [Chemistry](../chemistry/index.md) | Activated carbon (expensive) |
 

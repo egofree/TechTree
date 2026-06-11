@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.non-ferrous
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper-bronze`](copper-bronze.md), [`mining`](../mining/index.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper`](copper.md), [`metals.bronze`](bronze.md), [`mining`](../mining/index.md)
 > **Enables**: [`chemistry.soap`](../chemistry/soap.md), [`metals.alloys`](alloys.md), [`metals.finishing`](finishing.md), [`metals.precious-metals`](precious-metals.md)
 > **Timeline**: Years 15-40
 > **Outputs**: zinc, lead, tin, nickel, magnesium, titanium sponge
@@ -10,12 +10,12 @@
 
 Beyond iron and copper lies a family of metals whose properties — low melting points, corrosion resistance, extreme lightness, or exceptional strength-to-weight ratios — fill niches that steel and copper cannot. Zinc protects steel from rust. Lead stores energy in batteries. Tin enables solder. Nickel stabilizes stainless steel. Magnesium offers the lightest structural frame. Titanium survives where nothing else will. Each demands its own extraction chemistry, often more complex than iron or copper smelting.
 
-These six non-ferrous metals collectively enable galvanizing, battery storage, electronics assembly, alloying, lightweight structures, and aerospace applications. Their production represents a significant step up in industrial complexity from [Copper & Bronze](copper-bronze.md) and [Iron & Steel](iron-steel.md), requiring controlled atmospheres, vacuum processes, and in some cases electrochemistry.
+These six non-ferrous metals collectively enable galvanizing, battery storage, electronics assembly, alloying, lightweight structures, and aerospace applications. Their production represents a significant step up in industrial complexity from [Copper](copper.md) and [Bronze](bronze.md) and [Iron & Steel](iron-steel.md), requiring controlled atmospheres, vacuum processes, and in some cases electrochemistry.
 
 ## Prerequisites
 
 - [Acids](../chemistry/acids.md) — acid leaching for ore processing
-- [Copper & Bronze](copper-bronze.md) — smelting foundation
+- [Copper](copper.md) and [Bronze](bronze.md) — smelting foundation
 - [Mining](../mining/index.md) — ore extraction and beneficiation
 - [Blast Furnace](blast-furnace.md) — high-temperature smelting capability
 
@@ -47,7 +47,7 @@ Zinc is the fourth most consumed metal worldwide (after iron, aluminum, and copp
 **Applications**:
 - **Galvanizing** (50%): Hot-dip zinc coating on steel (see [Iron & Steel](iron-steel.md)). Coating thickness 45-85 μm. Atmospheric corrosion protection: 20-100+ years depending on environment.
 - **Die-casting alloys** (15%): Zamak (Zn-4Al-1Cu-0.05Mg). Melts at 380°C, excellent fluidity, dimensional accuracy ±0.05 mm. Used for automotive components, hardware, toys. Limited to <150°C service temperature.
-- **Brass** (15%): Cu-Zn alloy (see [Copper & Bronze](copper-bronze.md)). Zinc as alloying element.
+- **Brass** (15%): Cu-Zn alloy (see [Copper](copper.md) and [Bronze](bronze.md)). Zinc as alloying element.
 - **Sacrificial anodes**: Zinc blocks bolted to ship hulls, pipelines, storage tanks. Preferentially corrode, protecting the steel structure.
 
 ## Lead
@@ -82,7 +82,7 @@ Lead is the densest common metal (11.34 g/cm³), extraordinarily malleable, and 
 
 ## Tin
 
-Tin has been used since the Bronze Age — bronze is Cu-Sn alloy (see [Copper & Bronze](copper-bronze.md)). Pure tin is soft and ductile with a low melting point, making it essential for solder, tinplate, and bearing alloys. Global production is small (~300,000 tonnes/year) but strategically critical for electronics.
+Tin has been used since the Bronze Age — bronze is Cu-Sn alloy (see [Copper](copper.md) and [Bronze](bronze.md)). Pure tin is soft and ductile with a low melting point, making it essential for solder, tinplate, and bearing alloys. Global production is small (~300,000 tonnes/year) but strategically critical for electronics.
 
 **Ores**:
 - **Cassiterite** (SnO₂): The only economically important tin mineral. Black to brown, very high specific gravity (6.8-7.1). Placer deposits (stream tin) were the historical source — mined by panning and sluicing. Hard-rock veins in Bolivia, Indonesia. Ore grade: 0.5-2% Sn in hard rock; 0.01-0.1% in placers.
@@ -207,7 +207,7 @@ Non-ferrous metals have significant interdependencies:
 
 - **Zinc** is required for the Parkes process (lead desilverization) and for sacrificial protection of steel (galvanizing).
 - **Lead** provides the initial battery storage essential before lithium systems exist (see [Electrical Systems](../energy/electricity.md)).
-- **Tin** enables electronics solder — no tin, no reliable circuit assembly. Also critical for bronze production (see [Copper & Bronze](copper-bronze.md)).
+- **Tin** enables electronics solder — no tin, no reliable circuit assembly. Also critical for bronze production (see [Copper](copper.md) and [Bronze](bronze.md)).
 - **Nickel** makes stainless steel possible — without nickel, only ferritic (lower-chromium, magnetic, less corrosion-resistant) stainless steels can be produced.
 - **Magnesium** is consumed by the Kroll process to produce titanium; conversely, titanium equipment serves in magnesium electrolysis cells.
 - **Titanium** production requires chlorine (from electrolysis of NaCl/KCl — see [Chemistry](../chemistry/index.md)), magnesium, and inert gas (argon from air separation).
@@ -276,7 +276,7 @@ Non-ferrous metals have significant interdependencies:
 
 ## See Also
 
-- [Copper & Bronze](copper-bronze.md) — foundation non-ferrous metals
+- [Copper](copper.md) and [Bronze](bronze.md) — foundation non-ferrous metals
 - [Iron & Steel](iron-steel.md) — ferrous metals that non-ferrous metals complement
 - [Alloys](alloys.md) — alloying these metals into engineering materials
 - [Metal Finishing](finishing.md) — galvanizing, plating, and surface treatments

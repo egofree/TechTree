@@ -26,5 +26,5 @@ Corrosion — the gradual oxidation of metals in service — is managed through 
 
 - [Pottery](../ceramics/pottery.md)
 - [Pharmacology](../health/pharmacology.md)
-- [Copper & Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)
 - [Rubber](../polymers/rubber.md)

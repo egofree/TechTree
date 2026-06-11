@@ -6,7 +6,7 @@
 
 ## Context in the Tech Tree
 
-Annealing — heating a material to a specific temperature and cooling it under controlled conditions — appears at three distinct scales in the tech tree. In [Basic Glass Production](../glass/basic.md), annealing removes internal thermal stress from glassware. In [Copper & Bronze](../metals/copper-bronze.md) and [Iron & Steel](../metals/iron-steel.md), it restores ductility to work-hardened metals and prepares steel for further processing. In [Advanced Processes](../vlsi-scaling/advanced-processes.md), annealing repairs crystal lattice damage after ion implantation and activates dopants in semiconductor wafers.
+Annealing — heating a material to a specific temperature and cooling it under controlled conditions — appears at three distinct scales in the tech tree. In [Basic Glass Production](../glass/basic.md), annealing removes internal thermal stress from glassware. In [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) and [Iron & Steel](../metals/iron-steel.md), it restores ductility to work-hardened metals and prepares steel for further processing. In [Advanced Processes](../vlsi-scaling/advanced-processes.md), annealing repairs crystal lattice damage after ion implantation and activates dopants in semiconductor wafers.
 
 ## Technical Details
 
@@ -26,6 +26,6 @@ In semiconductor manufacturing, annealing serves a dual purpose: repairing latti
 
 - [Basic Glass Production](../glass/basic.md)
 - [Advanced Glass](../glass/advanced.md)
-- [Copper & Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)
 - [Iron & Steel](../metals/iron-steel.md)
 - [Advanced Processes](../vlsi-scaling/advanced-processes.md)

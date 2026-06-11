@@ -47,7 +47,7 @@ The development of currency requires [metals](../metals/index.md) for producing 
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
-| Copper (≥95% purity) | 5.0-5.5 kg | [Copper-Bronze Production](../metals/copper-bronze.md) | Bronze alloy (Cu+Sn), silver (for higher denomination) |
+| Copper (≥95% purity) | 5.0-5.5 kg | [Copper Production](../metals/copper.md) and [Bronze Production](../metals/bronze.md) | Bronze alloy (Cu+Sn), silver (for higher denomination) |
 | Charcoal (for melting) | 2-3 kg | [Charcoal Production](../energy/charcoal.md) | Coal, wood (less controlled heat) |
 | Clay or stone molds (flan casting) | 1-2 sets | [Pottery](../ceramics/index.md) | Sand molds (less precise) |
 | Coin dies (bronze or iron) | 1 pair (obverse + reverse) | [Iron-Steel Production](../metals/iron-steel.md) | Hardened stone (lower detail, faster wear) |

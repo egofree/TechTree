@@ -36,7 +36,7 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 | [Wrought iron rivets](../metals/iron-steel.md) | 2000-4000 pcs | 16-25 mm diameter | [Iron & Steel](../metals/iron-steel.md) | Welded seams (later technology) |
 | [Cast iron furnace grate](../metals/casting.md) | 50-100 kg | Bar grate, 25 mm bars at 30 mm spacing | [Foundry](../metals/casting.md) | Steel bar grate |
 | [Cast iron fire doors](../metals/casting.md) | 2 pcs | With air damper control | [Foundry](../metals/casting.md) | Steel fabrication |
-| [Brass safety valves (2)](../metals/copper-bronze.md) | 2 pcs | Spring-loaded, rated to 110% of working pressure | [Foundry](../metals/copper-bronze.md) | Weighted lever type |
+| [Brass safety valves (2)](../metals/bronze.md) | 2 pcs | Spring-loaded, rated to 110% of working pressure | [Foundry](../metals/bronze.md) | Weighted lever type |
 | [Steel steam dome](../metals/iron-steel.md) | 50-100 kg | 300-500 mm diameter, 400-600 mm tall | [Forming](../metals/iron-steel.md) | — |
 | [Firebrick lining](../ceramics/kilns.md) | 100-200 pcs | 230 × 115 × 65 mm, rated to 1400°C | [Ceramics](../ceramics/kilns.md) | Castable refractory |
 

@@ -262,7 +262,7 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - [Electric furnaces](../energy/electric-furnaces.md) — sintering and heat treatment equipment
 - [Machine tools](../machine-tools/index.md) — post-sintering grinding and machining
 - [Casting](./casting.md) — alternative forming method for lower-melting metals
-- [Copper](copper-bronze.md) — conductor materials for electrical applications
+- [Copper](copper.md) — conductor materials for electrical applications
 - [Semiconductors](../electronics/index.md) — high-purity silicon and germanium production
 - [Measurement](../measurement/index.md) — density, hardness, and dimensional inspection
 

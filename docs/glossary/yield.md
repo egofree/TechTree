@@ -39,7 +39,7 @@ In metallurgical processes, yield losses come from oxidation (metal lost to dros
 - [Fuels](../energy/fuels.md)
 - [Charcoal](../energy/charcoal.md)
 - [Coke](../energy/coke.md)
-- [Copper & Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)
 - [Non-Ferrous Metals](../metals/non-ferrous.md)
 - [Steelmaking](../metals/steelmaking.md)
 - [Black Powder](../mining/black-powder.md)

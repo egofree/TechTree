@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.precious-metals
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.non-ferrous`](non-ferrous.md), [`metals.copper-bronze`](copper-bronze.md), [`chemistry.acids`](../chemistry/acids.md)
+> **Dependencies**: [`metals.non-ferrous`](non-ferrous.md), [`metals.copper`](copper.md), [`chemistry.acids`](../chemistry/acids.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 15-50
 > **Outputs**: gold, silver, semiconductor-grade gold wire, silver paste, refined precious metals
@@ -230,7 +230,7 @@ Precious metal production depends heavily on existing metallurgical and chemical
 - **Aqua regia refining** requires both HCl and HNO₃ from mineral acid production (see [Mineral Acids](../chemistry/acids.md)).
 - **Wohlwill and Moebius electrolytic refining** require stable DC power at controlled voltage and current density (see [Electricity Generation](../energy/electricity.md)).
 - **Parkes process** requires zinc metal (see [Non-Ferrous Metals](non-ferrous.md)) and lead smelting infrastructure.
-- **Copper anode slime** is only available from electrolytic copper refining (see [Copper & Bronze](copper-bronze.md)).
+- **Copper anode slime** is only available from electrolytic copper refining (see [Copper](copper.md) and [Bronze](bronze.md)).
 
 **Suggested build order**:
 1. **Alluvial gold panning and mercury amalgamation** (Years 15-25): Simple gravity recovery and mercury processing. Produces gold for coinage and limited electrical use. Mercury hazard limits scale.
@@ -318,7 +318,7 @@ Precious metal production depends heavily on existing metallurgical and chemical
 ## See Also
 
 - [Non-Ferrous Metals](non-ferrous.md) — base metals smelting
-- [Copper & Bronze](copper-bronze.md) — primary non-ferrous metallurgy
+- [Copper](copper.md) and [Bronze](bronze.md) — primary non-ferrous metallurgy
 - [Acids](../chemistry/acids.md) — aqua regia and refining solutions
 - [Metal Finishing](finishing.md) — surface treatment of precious metals
 - [Electroplating](../electrochemistry/electroplating.md) — gold and silver plating

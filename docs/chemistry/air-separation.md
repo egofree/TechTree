@@ -24,7 +24,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - [Compressed air supply](../gas-handling/basic.md) — atmospheric air at 5-10 bar
 - [Electrical power](../energy/electricity.md) — 200-500 kW for small cryogenic plant, 20-50 MW for large plant
 - Molecular sieve adsorbent (3Å or 4Å zeolite for H₂O removal, 13X zeolite for CO₂ removal)
-- [Copper](../metals/copper-bronze.md) or [stainless steel](../metals/iron-steel.md) tubing for heat exchangers
+- [Copper](../metals/copper.md) or [stainless steel](../metals/iron-steel.md) tubing for heat exchangers
 
 **Tools and equipment**:
 - Multi-stage reciprocating air compressor (5-10 bar, 3-5 stages)
@@ -45,7 +45,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Atmospheric air | 4.5-5.0 tonnes | Ambient | No alternative |
 | Electrical energy (cryogenic) | 200-400 kWh | [Power generation](../energy/electricity.md) | PSA uses 200-350 kWh/Nm³ O₂ |
 | Molecular sieve (13X zeolite) | 0.1-0.5 kg (consumable, 3-7 year life) | [Chemistry](../chemistry/index.md) — synthetic aluminosilicate | Activated alumina for water removal |
-| Copper tubing (heat exchanger) | 50-200 kg (one-time) | [Copper production](../metals/copper-bronze.md) | Stainless steel (lower thermal conductivity) |
+| Copper tubing (heat exchanger) | 50-200 kg (one-time) | [Copper production](../metals/copper.md) | Stainless steel (lower thermal conductivity) |
 | Perlite insulation | 5-20 m³ (cold box fill) | [Mining](../mining/processing.md) — expanded volcanic glass | Mineral wool, multi-layer insulation |
 | Palladium catalyst (argon polishing) | 0.1-1 kg (5-10 year life) | [Precious metals](../metals/precious-metals.md) | No alternative for O₂ removal from crude argon |
 

@@ -66,7 +66,7 @@ Magnetic material production sits downstream of [Iron & Steel Production](iron-s
 | Nickel | 140 g | [Non-Ferrous Metals](non-ferrous.md) | No substitute — defines coercivity |
 | Cobalt | 240 g | [Non-Ferrous Metals](non-ferrous.md) | Alnico 2 (no Co) — lower performance |
 | Aluminum | 80 g | [Aluminum Production](aluminum.md) | No substitute |
-| Copper | 30 g | [Copper & Bronze](copper-bronze.md) | Omit for simpler grades |
+| Copper | 30 g | [Copper](copper.md) and [Bronze](bronze.md) | Omit for simpler grades |
 | Titanium (Alnico 8/9 variants) | 5-8 g | [Non-Ferrous Metals](non-ferrous.md) | Omit for Alnico 5 |
 
 ### Ferrite (Barium Hexaferrite) Permanent Magnet

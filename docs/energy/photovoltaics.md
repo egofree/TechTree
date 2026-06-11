@@ -157,7 +157,7 @@ For a standard aluminum back-surface-field (Al-BSF) cell — the simplest commer
 | [Tempered glass (front cover)](../glass/basic.md) | 250-350 m² | 3.2 mm, low-iron, >91% transmission | [Glass](../glass/basic.md) | Standard tempered glass (~88% transmission, 3-4% efficiency loss) |
 | [EVA encapsulant film](../polymers/index.md) | 500-700 m² | 0.5 mm thick, cross-linkable | [Polymers](../polymers/index.md) | PVB (polyvinyl butyral) film |
 | [Back sheet (Tedlar/PET)](../polymers/index.md) | 250-350 m² | Multi-layer, UV-resistant, moisture barrier | [Polymers](../polymers/index.md) | Tempered glass (bifacial design) |
-| [Solder ribbon (interconnection)](../metals/copper-bronze.md) | 10-20 km | Tinned copper, 1.5-2.0 mm wide, 0.15-0.20 mm thick | [Copper](../metals/copper-bronze.md) | Conductive adhesive (lower reliability) |
+| [Solder ribbon (interconnection)](../metals/copper.md) | 10-20 km | Tinned copper, 1.5-2.0 mm wide, 0.15-0.20 mm thick | [Copper](../metals/copper.md) | Conductive adhesive (lower reliability) |
 
 ## Quantitative Parameters
 

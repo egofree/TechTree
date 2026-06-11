@@ -33,7 +33,7 @@ Position in the dependency chain: the steam engine depends on [Steam Power](stea
 | [Wrought iron or steel piston rod](../metals/iron-steel.md) | 1 piece | 60-120 mm diameter × 1.5-3 m long, turned | Forge/machine shop | None — precision-turned shaft required |
 | [Cast iron flywheel](../metals/casting.md) | 1 piece | 1.5-3 m diameter, 500-1500 kg | Foundry | Built-up flywheel (plate + spokes) |
 | [Wrought iron or steel connecting rod](../metals/iron-steel.md) | 1 piece | 50-80 mm × 100-150 mm cross-section, forged | Forge | Steel casting |
-| [Brass valve fittings](../metals/copper-bronze.md) | 5-10 kg | Steam valve, throttle valve, drain cocks | Foundry | Bronze fittings |
+| [Brass valve fittings](../metals/bronze.md) | 5-10 kg | Steam valve, throttle valve, drain cocks | Foundry | Bronze fittings |
 | [Hemp or leather packing](../plants/fiber-plants.md) | 2-5 kg | Piston rings and gland packing | Agriculture | Asbestos rope (historical, avoid) |
 | [Wrought iron steam pipes](../metals/iron-steel.md) | 20-50 kg | 50-100 mm bore, flanged joints | Forge/machine shop | Copper pipes (expensive) |
 | [Steel bolts and nuts](../metals/steelmaking.md) | 10-20 kg | M16-M30, Grade 5.8+ | Machine shop | Riveted joints |

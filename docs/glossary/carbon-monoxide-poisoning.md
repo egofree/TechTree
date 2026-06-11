@@ -6,7 +6,7 @@ Indoor fires (hearths, fire-banked coals in shelters) produce carbon monoxide. C
 
 ## Context in the Tech Tree
 
-Carbon monoxide poisoning is the most lethal acute hazard in the entire tech tree, present from the earliest [Fire-Making](../foundations/fire.md) through [Kilns](../ceramics/kilns.md) and [Copper & Bronze](../metals/copper-bronze.md) smelting. Every stage that involves combustion in or near enclosed spaces carries a CO poisoning risk. The danger is insidious: CO produces no warning irritation, and victims may not realize they are being poisoned until they lose consciousness.
+Carbon monoxide poisoning is the most lethal acute hazard in the entire tech tree, present from the earliest [Fire-Making](../foundations/fire.md) through [Kilns](../ceramics/kilns.md) and [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md) smelting. Every stage that involves combustion in or near enclosed spaces carries a CO poisoning risk. The danger is insidious: CO produces no warning irritation, and victims may not realize they are being poisoned until they lose consciousness.
 
 ## Technical Details
 
@@ -26,4 +26,4 @@ Prevention is straightforward: ventilation. Every enclosed space with any combus
 
 - [Kilns](../ceramics/kilns.md)
 - [Fire-Making](../foundations/fire.md)
-- [Copper & Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)

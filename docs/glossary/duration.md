@@ -14,7 +14,7 @@ In coke production, the coking duration depends on oven width and target volatil
 
 In vacuum systems, bake-out duration at 150-300°C runs 24-48 hours while continuously pumping. Longer bake-outs achieve lower ultimate pressures because water desorption from stainless steel surfaces is the dominant gas load, and it proceeds on a time scale of hours to days. The duration requirement means vacuum systems for semiconductor processing cannot achieve specification quickly — pump-down and bake-out must be planned as part of the facility schedule.
 
-In copper-bronze metallurgy, the duration of alloying heat treatment affects the microstructure and therefore the mechanical properties of the finished alloy. Longer annealing durations allow diffusion to homogenize the cast structure, reducing brittleness.
+In copper and bronze metallurgy, the duration of alloying heat treatment affects the microstructure and therefore the mechanical properties of the finished alloy. Longer annealing durations allow diffusion to homogenize the cast structure, reducing brittleness.
 
 In knowledge systems, the 5-10 year scribal training duration reflects the complexity of cuneiform (600+ signs) and the need to master mathematical tables, legal formulas, and administrative conventions. This duration set the minimum investment for literacy and concentrated knowledge in a small professional class — roughly 1-5% of the population in ancient civilizations.
 
@@ -28,4 +28,4 @@ In knowledge systems, the 5-10 year scribal training duration reflects the compl
 - [Coke Production](../energy/coke.md)
 - [Vacuum Systems](../gas-handling/vacuum.md)
 - [Writing Systems](../knowledge/writing.md)
-- [Copper & Bronze](../metals/copper-bronze.md)
+- [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md)

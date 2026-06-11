@@ -15,7 +15,7 @@ Before electronic computers, automated computation and control require electrome
 - [Mechanical computing](mechanical.md) — cams, linkages, governors, and mechanical automation
 - [Electricity](../energy/electricity.md) — power generation and distribution for relay and solenoid systems
 - [Iron and steel](../metals/iron-steel.md) — relay contacts, cam blanks, spring wire, armature cores
-- [Copper wire](../metals/copper-bronze.md) — relay coils, motor windings, solenoid coils
+- [Copper wire](../metals/copper.md) — relay coils, motor windings, solenoid coils
 - [Paper production](../chemistry/pulp-chemicals.md) — punch card stock and paper tape
 - [Precision machining](../machine-tools/index.md) — cam profiles, drum bearings, relay armature tolerances
 

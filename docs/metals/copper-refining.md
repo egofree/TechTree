@@ -3,7 +3,7 @@
 > **Node ID**: metals.copper-refining
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`Electronics`](../electronics/index.md), [`Electricity Generation & Distribution`](../energy/electricity.md)
-> **Enables**: [`Electrolysis`](../chemistry/electrolysis.md), [`Copper & Bronze Production`](copper-bronze.md)
+> **Enables**: [`Electrolysis`](../chemistry/electrolysis.md), [Copper Production](copper.md) and [Bronze Production](bronze.md)
 > **Timeline**: Years 15-25
 > **Outputs**: refined-copper, electrolytic-copper, copper-cathodes
 > **Critical**: No
@@ -232,7 +232,7 @@ Fire-refined anodes that are not immediately consumed in the electrolytic tank h
 - [Electronics](../electronics/index.md) — upstream dependency (material)
 - [Electricity Generation & Distribution](../energy/electricity.md) — upstream dependency (material)
 - [Electrolysis](../chemistry/electrolysis.md) — downstream capability
-- [Copper & Bronze Production](copper-bronze.md) — downstream capability
+- [Copper Production](copper.md) and [Bronze Production](bronze.md) — downstream capability
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*

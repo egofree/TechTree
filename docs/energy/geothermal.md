@@ -19,7 +19,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 - **Steel casing and tubing** — Well casing (200-500 mm diameter, 8-12 mm wall, API grade J55 or K55). Production tubing (75-150 mm). See [Iron & Steel](../metals/iron-steel.md).
 - **Cement** — Well cement (API Class G or H) for casing-to-borehole annulus seal. See [Chemistry](../chemistry/acids-bases.md).
 - **Reinforced concrete** — For power plant foundations, cooling tower basins, and containment structures.
-- **Copper tubing** — For heat exchangers in binary cycle plants and ground-source heat pumps. See [Copper & Bronze](../metals/copper-bronze.md).
+- **Copper tubing** — For heat exchangers in binary cycle plants and ground-source heat pumps. See [Copper](../metals/copper.md) and [Bronze](../metals/bronze.md).
 - **Refrigerant or working fluid** — Isobutane, isopentane, or R245fa for binary cycle plants; water/steam for flash plants. See [Chemistry](../chemistry/acids-bases.md).
 - **HDPE or steel pipe** — For ground-source heat pump ground loops. See [Polymers](../polymers/thermoplastics.md).
 
@@ -165,7 +165,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 - [Heat pump compressor](./index.md) (scroll or reciprocating, 2.5-5 kW electrical input for 10 kW thermal output)
 - [Bentonite grout](../chemistry/index.md) (thermal conductivity >0.8 W/m·K), 500-1,500 kg per borehole
 - [Antifreeze fluid](../chemistry/index.md) (propylene glycol, 25-30% by volume in water, freeze point -10°C to -15°C)
-- [Copper refrigerant tubing](../metals/copper-bronze.md) (6-12 mm OD, ACR grade, nitrogen-purged)
+- [Copper refrigerant tubing](../metals/copper.md) (6-12 mm OD, ACR grade, nitrogen-purged)
 - [Refrigerant](../chemistry/index.md) (R410A or R32, 1.0-2.5 kg charge per 10 kW unit)
 
 **Calibration / Verification**:

@@ -386,7 +386,7 @@ Classifies the primary physical substances an entity produces or transforms. Ass
 
 | Tag | Definition | Example Entities |
 |-----|-----------|-----------------|
-| `metals` | Metallic elements and alloys | `metals.copper-bronze`, `metals.iron-steel` |
+| `metals` | Metallic elements and alloys | `metals.copper`, `metals.bronze`, `metals.iron-steel` |
 | `silicon` | Silicon and silicon compounds | `silicon.mg-si-production`, `silicon.purification` |
 | `glass` | Amorphous silica-based materials | `glass.basic`, `glass.advanced` |
 | `ceramics` | Crystalline inorganic non-metals | `ceramics`, `ceramics.pottery` |

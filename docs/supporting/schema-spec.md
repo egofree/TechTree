@@ -66,7 +66,7 @@ Classifies the primary physical substances a node produces or transforms.
 
 | Tag | Definition | Example Nodes |
 |-----|-----------|---------------|
-| `metals` | Metallic elements and alloys | `metals.copper-bronze`, `metals.iron-steel` |
+| `metals` | Metallic elements and alloys | `metals.copper`, `metals.bronze`, `metals.iron-steel` |
 | `silicon` | Silicon and silicon compounds | `silicon.mg-si-production`, `silicon.purification` |
 | `glass` | Amorphous silica-based materials | `glass.basic`, `glass.advanced` |
 | `ceramics` | Crystalline inorganic non-metals | `ceramics`, `ceramics.pottery` |

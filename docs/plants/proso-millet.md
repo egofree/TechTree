@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: An annual millet grass which grows up to 1 m high. It spreads to 15 cm across. It has a fibrous root system. The stalks are tufted. They are hairy at the base and on the nodes. The leaves are 30-50 cm long by 1-5 cm wide. They are narrow and flat. The edge is slightly rough with a few long hairs nea
+- Species identification: An annual millet grass which grows up to 1 m high. It spreads to 15 cm across. It has a fibrous root system. The stalks are tufted, hairy at the base and on the nodes. The leaves are 30-50 cm long by 1-5 cm wide, narrow and flat, with a slightly rough edge and a few long hairs near the base. The seed head is much branched. The flower is yellow. The fruit is a small, round grain 2-3 mm in diameter. There are several races.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators
@@ -67,7 +67,7 @@ Requires a moderately fertile well-drained soil in full sun. Succeeds in ordinar
 
 ### Identification
 
-An annual millet grass which grows up to 1 m high. It spreads to 15 cm across. It has a fibrous root system. The stalks are tufted. They are hairy at the base and on the nodes. The leaves are 30-50 cm long by 1-5 cm wide. They are narrow and flat. The edge is slightly rough with a few long hairs near the base. The seed head is much branched. The flower is yellow. The fruit is a grain. There are several races.
+An annual millet grass which grows up to 1 m high. It spreads to 15 cm across. It has a fibrous root system. The stalks are tufted, hairy at the base and on the nodes. The leaves are 30-50 cm long by 1-5 cm wide, narrow and flat, with a slightly rough edge and a few long hairs near the base. The seed head is much branched and open. The flower is yellow. The fruit is a small, round grain 2-3 mm in diameter. There are several recognized races including miliaceum (prostrate), contractum (compact panicle), and compactum (tight seed head).
 
 ### Harvesting and Threshing
 
@@ -124,6 +124,13 @@ The dehulled grain is the primary edible product. Cook whole as a rice substitut
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
+| Yield (grain, dryland) | 500-1,000 kg/ha | Traditional varieties, rainfed |
+| Yield (improved) | 1,200-1,800 kg/ha | Improved varieties with fertilizer |
+| Growing period | 60-90 days | One of the fastest-maturing cereals |
+| Seeding rate | 8-15 kg/ha | Broadcast or drill |
+| Sowing depth | 1-2.5 cm | Shallow planting; seed is small |
+| Row spacing | 20-30 cm | Drill planting; broadcast requires no rows |
+| Germination | 5-7 days | At soil temperature 15-20°C |
 | Hardiness zones | 5-9 | USDA |
 | Edible parts | Seeds/Nuts | Primary harvest |
 
@@ -159,7 +166,7 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 | Disease (fungal/bacterial) | Poor air circulation, excessive moisture, infected seed | Space plants adequately; avoid overhead watering; use clean seed from disease-free plants; practice crop rotation |
 | Low yield | Nutrient deficiency, water stress, overcrowding, or shade | Amend soil with compost or manure; ensure adequate water at critical growth stages; thin to recommended spacing; plant in full sun |
 | Storage losses | Insufficient drying, rodent/insect damage, high humidity | Dry product thoroughly before storage; use sealed containers; inspect stored product regularly; keep storage area clean and dry |
-| Quality or safety note | See species-specific notes | It suits people with Coeliacs disease because it contains no glutin. It has a high alkaline content that makes it easily digested. There are about 500 |
+| Quality or safety note | See species-specific notes | Gluten-free, suitable for coeliac disease. High alkaline content aids digestion. There are about 500 *Panicum* species. |
 
 ## Safety Considerations
 

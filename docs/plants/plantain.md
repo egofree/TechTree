@@ -12,21 +12,21 @@
 
 Plantain
 
-*Musa × paradisiaca* (Musaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Plantain Banana provides fruit, flowers, shoots as its primary edible product.
+*Musa × paradisiaca* (Musaceae) is a giant herbaceous perennial of major importance for civilization bootstrapping. Although often called a "banana tree," the plantain has no woody trunk — what appears to be a trunk is actually tightly rolled leaf sheaths (pseudostem). Plantain provides fruit, flowers, shoots as its primary edible product.
 
 Edible parts: Flowers, Fruit, Shoots, Stem Salt. Fruit - raw or cooked. Dessert forms are sweet and succulent when fully ripe and are widely eaten out of hand, though they are very versatile and are used in a wide variety of other ways. For example, they are commonly used with other juicier fruits to make smoothies, they can be baked, cooked in cakes, dried for later use etc. Plantains are richer in starch and contain less sugars. Whilst these are more commonly cooked as a vegetable, when fully ripe they make a very acceptable raw fruit. Male inflorescences are eaten in curries or cooked with coconut milk. The inner stem can be boiled and eaten, or can be dried and made into a flour and starch. Blanched shoots that sprout from the base can be roasted and eaten. The leaves are commonly used for wrapping foods that are to be cooked - especially glutinous rice dishes. They impart a distinctive flavour and a greenish colour. Nectar of the flowers is consumed. The ashes of the plant can be used as a salt substitute.
 
-For civilization bootstrapping, plantain is significant because of its role as a fruit & nut tree. Reliable food production is the foundation upon which all other technological development rests. Understanding the cultivation, processing, and storage of *Musa × paradisiaca* enables communities to establish food security and allocate labor to non-subsistence activities.
+For civilization bootstrapping, plantain is significant because of its role as a perennial starch staple. Reliable food production is the foundation upon which all other technological development rests. Understanding the cultivation, processing, and storage of *Musa × paradisiaca* enables communities to establish food security and allocate labor to non-subsistence activities.
 
-*Musa × paradisiaca* is a member of the Musaceae family. As a fruit & nut tree, it provides essential calories, protein, or other nutrients needed to sustain human populations during the bootstrap process. The ability to produce food reliably from cultivated plants is what separates sedentary civilizations from hunter-gatherer societies, because food surplus allows specialization of labor into toolmaking, construction, and eventually metallurgy and beyond.
+*Musa × paradisiaca* is a member of the Musaceae family. As a perennial starchy fruit crop, it provides essential calories, potassium, and complex carbohydrates needed to sustain human populations during the bootstrap process. The ability to produce food reliably from cultivated plants is what separates sedentary civilizations from hunter-gatherer societies, because food surplus allows specialization of labor into toolmaking, construction, and eventually metallurgy and beyond.
 
-This species grows as a perennial or annual depending on climate and management. Propagation is primarily by Seed - sow the large seed in individual pots in the spring in a warm greenhouse at about 20°c. Grow the seedlings on in a rich soil, giving occasional liquid feeds. Keep the plants in the greenhouse for at least three years before trying them outdoors. Division of suckers in late spring. Dig up the suckers with care, trying to cause the least disturbance to the main plant. Pot them up and grow them on in a lightly shaded position in a greenhouse until they are well established.. Harvest timing depends on the plant part used: fruit, flowers, shoots are typically ready at specific growth stages or seasons.
+This species grows as a giant herbaceous perennial (not a tree — the pseudostem dies after fruiting and new suckers replace it). Propagation is primarily by vegetative means — division of suckers (offshoots from the corm at the plant base). Sword suckers (narrow leaves, attached to the mother plant) are preferred over water suckers (broad leaves, weaker root system). Separate suckers with a sharp spade or machete, retaining some corm tissue and roots. Plant directly in the field at 2.5 × 2.5 m spacing (1,600 plants/ha) or 2 × 2 m (2,500 plants/ha). Plant suckers 30 cm deep in well-prepared holes with compost. Tissue culture (micropropagation from meristem tips) produces disease-free plantlets at scale but requires sterile laboratory conditions. Harvest timing is 9-12 months from planting for the first crop (ratoon crops follow every 6-9 months from regenerating suckers).
 
 ## Prerequisites
 
 ### Materials
 
-- Propagation material: Seed - sow the large seed in individual pots in the spring in a warm greenhouse at about 20°c. Grow the seedlings on in a rich soil, giving occasional liquid feeds. Keep the plants in the greenhouse for at least three years before trying them outdoors. Division of suckers in late spring. Dig up the suckers with care, trying to cause the least disturbance to the main plant. Pot them up and grow them on in a lightly shaded position in a greenhouse until they are well established.
+- Propagation material: Sword suckers (preferred) or water suckers from established plants. Select healthy, pest-free suckers 1-1.5 m tall with a piece of the mother corm attached. Alternatively, macropropagated plantlets from a nursery.
 - Compost or organic matter for soil amendment
 - Mulch material for moisture retention and weed suppression
 
@@ -57,7 +57,13 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Cultivation and Propagation
 
-The optimal temperature for fruit production is about 27°c, and night time temperatures should not fall much below 18°c when the fruit is ripening or flavour can be impaired. Requires a sunny sheltered position in a well-drained fertile soil with a pH between 6 and 7.5. There are very many named varieties, but two main types can be distinguished:- Dessert bananas which become very sweet when fully ripe. Plantains, which contain more carbohydrate and are more commonly cooked. Propagation: Seed - sow the large seed in individual pots in the spring in a warm greenhouse at about 20°c. Grow the seedlings on in a rich soil, giving occasional liquid feeds. Keep the plants in the greenhouse for at least three years before trying them outdoors. Division of suckers in late spring. Dig up the suckers with care, trying to cause the least disturbance to the main plant. Pot them up and grow them on in a lightly shaded position in a greenhouse until they are well established.
+The optimal temperature for fruit production is about 27°C, and night time temperatures should not fall much below 18°C when the fruit is ripening or flavour can be impaired. Requires a sunny sheltered position in a well-drained fertile soil with a pH between 6 and 7.5. There are very many named varieties, but two main types can be distinguished: dessert bananas which become very sweet when fully ripe, and plantains which contain more carbohydrate and are more commonly cooked.
+
+**Propagation by suckers**: Select sword suckers (1-1.5 m tall, narrow tapered leaves) from healthy mother plants. Cut the sucker from the mother corm with a clean, sharp spade, retaining 2-3 kg of corm tissue and any attached roots. Trim all leaves except the two youngest. Plant in prepared holes 30-40 cm deep, 60 × 60 cm wide, filled with a mix of topsoil and compost. Spacing: 2.5 × 2.5 m (1,600 plants/ha) for large varieties, 2 × 2 m (2,500 plants/ha) for medium varieties.
+
+**Field management**: Apply a heavy mulch of organic matter (20-40 tonnes/ha) around the base annually — plantain is a heavy feeder requiring 200-400 kg N/ha/year. Remove excess suckers, maintaining 2-3 plants per stool (family unit) of different ages for continuous production. Desucker by cutting unwanted suckers at ground level and pouring kerosene or inserting a wooden peg into the cut to prevent regrowth. Windbreaks are essential in exposed sites — the pseudostem is fragile and tall plants lodge (fall over) easily in strong winds.
+
+**Ratoon management**: After the mother plant fruits and is cut down, select 1-2 of the strongest suckers to replace it (ratoon crop). Ratoon yields decline 10-20% per cycle. Replant the entire field after 4-6 ratoon cycles (5-8 years) as yields decline and pest/disease pressure builds.
 
 ### Distribution and Growing Conditions
 
@@ -106,6 +112,17 @@ The fruit is the primary edible product, consumed at all ripeness stages with di
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
+| Yield (plantation) | 6-15 tonnes/ha | Fresh bunch weight; traditional varieties, low input |
+| Yield (intensive) | 20-30 tonnes/ha | Improved varieties with fertilizer and pest management |
+| Bunch weight | 10-40 kg | Per bunch; depends on variety and management |
+| Fingers per bunch | 20-100 | Individual fruits per bunch |
+| Plant density | 1,600-2,500 plants/ha | 2.5 × 2.5 m or 2 × 2 m spacing |
+| Time to first harvest | 9-12 months | From sucker planting |
+| Ratoon crop interval | 6-9 months | Subsequent crops from regenerating suckers |
+| Plantation lifespan | 5-8 years | Before replanting needed (4-6 ratoon cycles) |
+| Optimal temperature | 25-30°C | Daytime; night minimum 18°C for fruit quality |
+| Rainfall requirement | 1,500-2,500 mm/year | Distributed evenly; drought reduces bunch size |
+| Soil pH | 6.0-7.5 | Prefers deep, well-drained, fertile loam |
 | Edible parts | Fruit, Flowers, Shoots | Primary harvest |
 
 ## Processing and Storage
@@ -134,7 +151,7 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Poor germination | Old seed, wrong soil temperature, planted too deep, or insufficient moisture | Use fresh seed; verify germination temperature range; plant at recommended depth; maintain soil moisture during germination |
+| Poor sucker establishment | Damaged corm, insufficient roots, planted too shallow, or pest damage (weevil borer) | Select vigorous sword suckers with intact corm tissue; plant 30 cm deep; inspect corm for weevil galleries before planting; apply wood ash to cut surfaces |
 | Pest damage | Insect infestation or browsing animals | Hand-pick pests; use companion planting with repellent species; install fencing for larger pests |
 | Disease (fungal/bacterial) | Poor air circulation, excessive moisture, infected seed | Space plants adequately; avoid overhead watering; use clean seed from disease-free plants; practice crop rotation |
 | Low yield | Nutrient deficiency, water stress, overcrowding, or shade | Amend soil with compost or manure; ensure adequate water at critical growth stages; thin to recommended spacing; plant in full sun |
@@ -201,9 +218,9 @@ Antidiarrhoeal Antitussive Astringent Dysentery Epilepsy Haemostatic Skin Vesica
 
 ### Cultivar Selection
 
-Within *Musa × paradisiaca*, considerable variation exists in yield, disease resistance, climate adaptation, and quality characteristics. When establishing a plantain crop, select varieties adapted to local conditions: day length, temperature range, rainfall pattern, and soil type. Landrace varieties — locally adapted populations maintained by traditional farmers — often outperform modern cultivars under low-input conditions because they have been selected for resilience rather than maximum yield under optimal conditions.
+Within *Musa × paradisiaca*, considerable variation exists in yield, disease resistance, climate adaptation, and quality characteristics. When establishing a plantain crop, select varieties adapted to local conditions: temperature range, rainfall pattern, soil type, and altitude. Landrace varieties — locally adapted populations maintained by traditional farmers — often outperform modern cultivars under low-input conditions because they have been selected for resilience rather than maximum yield under optimal conditions.
 
-Seed saving from the best-performing plants each generation gradually adapts the variety to local conditions. Select for vigor, disease resistance, appropriate maturity timing, and product quality. Maintain genetic diversity by saving seed from multiple plants rather than a single individual, which preserves the population's ability to adapt to changing conditions and disease pressures.
+Since plantain is vegetatively propagated, cultivar selection is maintained through sucker selection rather than seed saving. Always select suckers from the healthiest, highest-yielding mother plants. Avoid suckers from plants showing signs of Panama disease (Fusarium wilt), Black Sigatoka, or banana bunchy top virus — these diseases transmit through infected planting material. Maintain genetic diversity by planting multiple varieties in the same field, which reduces the risk of total loss from a single disease or pest outbreak.
 
 ### Crop Rotation and Companion Planting
 

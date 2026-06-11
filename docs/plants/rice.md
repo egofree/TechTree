@@ -24,13 +24,13 @@ For civilization bootstrapping, rice is significant because of its role as a sta
 
 *Oryza sativa* is a member of the Poaceae family. As a staple food crop, it provides essential calories, protein, or other nutrients needed to sustain human populations during the bootstrap process. The ability to produce food reliably from cultivated plants is what separates sedentary civilizations from hunter-gatherer societies, because food surplus allows specialization of labor into toolmaking, construction, and eventually metallurgy and beyond.
 
-This species grows as a perennial or annual depending on climate and management. Propagation is primarily by Propagate by seed.. Harvest timing depends on the plant part used: seeds/nuts are typically ready at specific growth stages or seasons.
+This species grows as an annual in cultivation (perennial in the wild). Propagation is by seed. For transplanted rice: sow seed densely in a nursery bed (40-60 kg/ha seed requirement), cover lightly with 1-2 cm of soil or mud. Germination occurs in 3-5 days at 25-30°C. Transplant seedlings at 20-25 days old (3-4 leaf stage) into flooded paddies at 20 × 20 cm to 25 × 25 cm spacing (160,000-250,000 hills/ha), 2-3 seedlings per hill, pressed 3-5 cm into the mud. For direct-seeded rice: broadcast 80-120 kg/ha of pre-germinated seed onto puddled soil or drill 60-80 kg/ha into rows 20-25 cm apart at 2-3 cm depth. Harvest timing depends on variety: 90-200 days from sowing.
 
 ## Prerequisites
 
 ### Materials
 
-- Propagation material: Propagate by seed.
+- Propagation material: Rice seed (paddy). Pre-germinate by soaking in water for 24-36 hours, then incubate in a warm, moist place for 24-48 hours until the radicle (root) emerges 2-3 mm. Use 40-60 kg/ha for transplanted rice, 80-120 kg/ha for direct-seeded rice.
 - Compost or organic matter for soil amendment
 - Mulch material for moisture retention and weed suppression
 
@@ -61,7 +61,31 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Cultivation and Propagation
 
-Rice can be grown in the moist tropics and subtropics, succeeding at elevations up to 2,500 metres. It grows best in areas where annual daytime temperatures are within the range 20 - 30°c, but can tolerate 10 - 36°c. Growth ceases below 10°c and plants have no tolerance to frost. It prefers a mean annual rainfall in the range 1,500 - 2,000mm, but tolerates 1,000 - 4,000mm. Requires a wet to inundated soil and a position in full sun. Prefers a pH in the range 5.5 - 7, tolerating 4.5 - 9. Depending upon variety, rice can mature a crop of seed in anything from 60 - 200 days. There are many named varieties that have been developed to suit a wide diversity of climates and soil types. These can be grouped into two main forms:- Lowland - this is grown in land that is flooded during the growing season. Upland - this form does not require submersion by water. There are many different cultivars of each form. Some of these cultivars are starchy and are more suited to use in cakes, soups, pastry, breakfast foods etc. Other cultivars have a sweeter, glutinous texture, these are used for special purposes such as sweetmeats. Within these divisions, the varieties are further defined by whether they have short, medium or long grains. Long grained forms usually have the highest value, though short-grained forms are preferred in many countries. Flowering Time: Late Summer/Early Fall. Bloom Color: Cream/Tan. Spacing: 18-24 in. (45-60 cm). Propagation: Propagate by seed.
+Rice can be grown in the moist tropics and subtropics, succeeding at elevations up to 2,500 metres. It grows best in areas where annual daytime temperatures are within the range 20 - 30°C, but can tolerate 10 - 36°C. Growth ceases below 10°C and plants have no tolerance to frost. It prefers a mean annual rainfall in the range 1,500 - 2,000mm, but tolerates 1,000 - 4,000mm. Requires a wet to inundated soil and a position in full sun. Prefers a pH in the range 5.5 - 7, tolerating 4.5 - 9. Depending upon variety, rice can mature a crop of seed in anything from 60 - 200 days. There are many named varieties that have been developed to suit a wide diversity of climates and soil types. These can be grouped into two main forms: Lowland (grown in flooded paddies) and Upland (dryland, no submersion required). Flowering Time: Late Summer/Early Fall. Bloom Color: Cream/Tan. Spacing: 20-25 cm between hills.
+
+### Nursery and Transplanting
+
+The transplanted method produces the highest yields and is the dominant system in Asia:
+
+1. **Nursery bed preparation**: Prepare a seedbed 1 m wide, incorporate compost. Soak seed for 24-36 hours in water, drain, and incubate in sacks for 24-48 hours until the white radicle emerges 2-3 mm.
+2. **Sowing**: Broadcast pre-germinated seed on the nursery bed at 30-40 g/m². Cover with a thin layer of soil or ash. Keep moist but not flooded for the first 3 days, then maintain 1-2 cm of standing water.
+3. **Seedling growth**: Transplant at 20-25 days (3-4 leaf stage). Ideal seedling: 15-20 cm tall with a strong root mass. Pull seedlings carefully, wash roots, bundle in handfuls.
+4. **Transplanting**: Plant 2-3 seedlings per hill, pressed 3-5 cm into the mud, at 20 × 20 cm spacing (250,000 hills/ha) or 25 × 25 cm (160,000 hills/ha). Transplant within 30 minutes of pulling — delayed transplanting reduces survival.
+
+### Water Management (Paddy Rice)
+
+Water control is the key advantage of lowland rice cultivation — flooding suppresses weeds and regulates soil chemistry:
+
+1. **Land preparation**: Plow the field 2-3 times at 10-15 cm depth. Puddle (harrow in standing water) to create a smooth, level surface. Level the field precisely — a 2-3 cm height difference across the paddy causes uneven water depth and poor growth.
+2. **Flooding schedule**: Maintain 3-5 cm of water for the first 2 weeks after transplanting (shallow, to encourage root establishment). Increase to 5-10 cm during active tillering (weeks 3-6). Reduce to 2-3 cm during panicle initiation. Drain completely 2-3 weeks before harvest to allow grains to ripen and the field to dry for harvesting.
+3. **Intermittent irrigation**: Where water is scarce, alternate wetting and drying (AWD) — irrigate to 5 cm, let the water subside until the soil surface develops cracks, then re-flood. AWD reduces water use by 25-30% with minimal yield loss.
+
+### Direct-Seeded Rice
+
+Where labor for transplanting is unavailable, direct seeding is an alternative with lower yields but much lower labor input:
+
+1. **Wet seeding**: Broadcast pre-germinated seed onto puddled, drained soil. Press seed into the mud with a wooden plank. Re-flood after 3-5 days when seedlings are anchored. Seed rate: 80-120 kg/ha.
+2. **Dry seeding**: Drill seed 2-3 cm deep into dry soil in rows 20-25 cm apart. Seed rate: 60-80 kg/ha. Irrigate after sowing. Weed competition is the primary challenge — weed within the first 20 days or yield loss is severe.
 
 ### Distribution and Growing Conditions
 
@@ -155,6 +179,17 @@ Seeds (grain) are the primary edible product. Rice must be hulled before consump
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
+| Yield (paddy, traditional) | 2-4 tonnes/ha | Traditional varieties, hand labor |
+| Yield (paddy, improved) | 5-8 tonnes/ha | Improved varieties with fertilizer and water management |
+| Growing period | 90-200 days | Variety dependent; early = 90-120 days, late = 150-200 days |
+| Seed rate (transplanted) | 40-60 kg/ha | Nursery bed then transplant |
+| Seed rate (direct-seeded) | 80-120 kg/ha | Broadcast or drill |
+| Transplant spacing | 20 × 20 to 25 × 25 cm | 160,000-250,000 hills/ha |
+| Sowing depth | 2-3 cm | Direct-seeded; transplanted pressed 3-5 cm into mud |
+| Germination | 3-5 days | At 25-30°C after pre-germination |
+| Panicle grains | 100-300 per panicle | Variety dependent |
+| Optimal temperature | 20-30°C | Daytime; growth ceases below 10°C |
+| Rainfall requirement | 1,500-2,000 mm/year | Or irrigation equivalent |
 | Hardiness zones | 9-12 | USDA |
 | Edible parts | Seeds/Nuts | Primary harvest |
 
@@ -177,7 +212,7 @@ Handle rice produce with clean hands and tools to prevent contamination. Remove 
 - **Bench scale**: Individual plants or small garden plot (10-50 plants). Output for direct household consumption. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
 - **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Requires basic hand tools and family-level labor. Surplus can be traded or stored.
 - **Production scale**: Multi-hectare cultivation with mechanized planting, harvesting, and processing. Requires plow animals or tractors, grain mills or processing equipment, and bulk storage facilities. Enables community-level food security and trade.
-  Reported production data: There are about 20 Oryza species. The B Vitamins are in the outer layers of brown rice.
+  Reported production data: Paddy rice yields average 2-4 tonnes/ha under traditional management, reaching 5-8 tonnes/ha with improved varieties and water management. Growing period ranges from 90-200 days depending on variety.
 
 Key scaling challenges include maintaining genetic diversity at plantation scale, managing pest and disease pressure in monoculture, and matching post-harvest processing capacity to harvest volume. Seed saving and variety selection at bench scale directly informs decisions about which cultivars to scale up.
 

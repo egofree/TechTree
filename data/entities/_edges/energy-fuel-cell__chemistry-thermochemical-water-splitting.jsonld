@@ -1,9 +1,9 @@
 {
   "@context": "../../context.jsonld",
-  "@id": "edge/energy.fuel-cell__chemistry.thermochemical-water-splitting",
+  "@id": "edge/energy.fuel-cell__chemistry.electrolysis.thermochemical-water-splitting",
   "@type": "Dependency",
   "edgeType": "material",
   "flow": "primary",
   "from": "energy.fuel-cell",
-  "to": "chemistry.thermochemical-water-splitting"
+  "to": "chemistry.electrolysis.thermochemical-water-splitting"
 }

@@ -3,7 +3,7 @@
   "@id": "electrolytic_hydrogen",
   "@type": "Product",
   "name": "Electrolytic Hydrogen",
-  "source": "chemistry.electrolysis.water-splitting",
+  "source": "chemistry.electrolysis.thermochemical-water-splitting",
   "tags": {
     "material": [
       "gases"

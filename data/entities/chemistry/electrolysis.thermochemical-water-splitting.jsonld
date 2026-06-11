@@ -4,7 +4,7 @@
   "critical": false,
   "description": "Non-electrolytic water splitting via thermochemical cycles (S-I, metal oxide redox) and photocatalytic methods. Decomposes water using heat or light rather than electricity. S-I cycle efficiency 30-40%, requires high-temperature heat source (800-2000°C).",
   "early_win": false,
-  "id": "chemistry.thermochemical-water-splitting",
+  "id": "chemistry.electrolysis.thermochemical-water-splitting",
   "level": "process",
   "name": "Thermochemical Water Splitting",
   "outputs": [

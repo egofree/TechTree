@@ -7,6 +7,7 @@ graph TD
         direction TB
         electronics_assembly["Electronics Assembly"]
         electronics_electrical-systems["Electrical Systems"]
+        electronics_packaging-testing["Semiconductor Packaging & Testing"]
         electronics_packaging["IC Packaging & Interconnect"]
         electronics_passive-components["Passive Components"]
         electronics_pcb-fabrication["PCB Fabrication"]
@@ -32,10 +33,11 @@ graph TD
     measurement_thermostat-electrical("Electrical Thermostats")
     measurement_thermostat-electronic("Electronic Thermostats")
     metals("Metals")
-    metals_copper-bronze("Copper & Bronze Production")
+    metals_copper("Copper Production")
     metals_copper-refining("Copper Refining")
     metals_precious-metals("Precious Metal Production (Gold & Silver)")
     metals_rare-earths("Rare Earth and Specialty Elements")
+    photolithography_fab-processes("Core Fab Processes")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
     silicon_basic-devices("Basic Semiconductor Devices")
@@ -43,6 +45,7 @@ graph TD
 
     %% ==================== EDGES ====================
     electronics_assembly -.-> electronics_packaging
+    electronics_packaging-testing --> electronics_semiconductor-devices
     electronics_power-electronics -.-> electronics_semiconductor-devices
     electronics --> electronics_passive-components
     automation_equipment-communication -.-> electronics
@@ -54,8 +57,10 @@ graph TD
     electronics_electrical-systems --> chemistry_electrolysis
     electronics_electrical-systems -.-> energy_electricity
     electronics_electrical-systems --> polymers_thermoplastics
+    electronics_packaging-testing --> photolithography_fab-processes
+    electronics_packaging-testing --> polymers_thermosets
     electronics_pcb-fabrication --> chemistry_acids
-    electronics_pcb-fabrication --> metals_copper-bronze
+    electronics_pcb-fabrication --> metals_copper
     electronics_semiconductor-devices --> silicon_basic-devices
     electronics --> chemistry
     electronics -.-> machine-tools
@@ -86,6 +91,7 @@ graph TD
     class electronics domain
     class electronics_assembly capability
     class electronics_electrical-systems capability
+    class electronics_packaging-testing critical
     class electronics_packaging capability
     class electronics_passive-components critical
     class electronics_pcb-fabrication critical
@@ -105,10 +111,11 @@ graph TD
     class measurement_thermostat-electrical external
     class measurement_thermostat-electronic external
     class metals external
-    class metals_copper-bronze external
+    class metals_copper external
     class metals_copper-refining external
     class metals_precious-metals external
     class metals_rare-earths external
+    class photolithography_fab-processes external
     class polymers_thermoplastics external
     class polymers_thermosets external
     class silicon_basic-devices external

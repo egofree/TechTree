@@ -91,7 +91,6 @@ foundations_internal: "Foundations — Internal Structure" {
   foundations_food-agriculture: "Agriculture & Food Production"
   foundations_sawmilling: "Sawmilling & Timber Processing"
   foundations_tools-basic: "Stone & Wood Tools"
-  foundations_water-procurement: Water Procurement
 }
 
 # ==================== DOMAIN NODE ====================
@@ -173,9 +172,6 @@ food-processing_oil-processing: "Oil & Fat Processing" {
 health: "Public Health, Sanitation & Medicine" {
   shape: rectangle
 }
-health_sanitation: "Water Supply & Sanitation" {
-  shape: rectangle
-}
 knowledge: "Knowledge Preservation & Education" {
   shape: rectangle
 }
@@ -201,9 +197,6 @@ metals: Metals {
   shape: rectangle
 }
 metals_copper: Copper Production {
-  shape: rectangle
-}
-metals_copper-bronze: "Copper & Bronze Production" {
   shape: rectangle
 }
 mining: "Mining Engineering & Extractive Metallurgy" {
@@ -236,12 +229,13 @@ textiles_fibers: Fiber Preparation {
 transport_roads: "Road & Bridge Construction" {
   shape: rectangle
 }
+water_procurement: Water Procurement {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 foundations_carpentry -> foundations: { class: tool-edge }
 foundations_food-agriculture -> foundations_tools-basic: { class: tool-edge }
-foundations_water-procurement -> foundations_tools-basic: { class: tool-edge }
-foundations_water-procurement -> foundations: { class: tool-edge }
 animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
 animals_beekeeping -> foundations_fire: { class: tool-edge }
 animals_beekeeping -> foundations_tools-basic: { class: tool-edge }
@@ -272,7 +266,6 @@ foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
 foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
 foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
-health_sanitation -> foundations_water-procurement: { class: material-edge }
 health -> foundations: { class: tool-edge }
 knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
 knowledge_writing -> foundations_tools-basic: { class: tool-edge }
@@ -282,7 +275,6 @@ machine-tools -> foundations_carpentry: { class: material-edge }
 marine -> foundations: { class: tool-edge }
 mathematics_core-mathematics -> foundations: { class: tool-edge }
 measurement_precision-metrology -> foundations: { class: tool-edge }
-metals_copper-bronze -> foundations_fire: { class: material-edge }
 metals_copper -> foundations_fire: { class: material-edge }
 metals -> foundations: { class: tool-edge }
 mining_extraction -> foundations_tools-basic: { class: tool-edge }
@@ -294,6 +286,7 @@ telecom_pre-electric -> foundations: { class: tool-edge }
 textiles_fibers -> foundations_tools-basic: { class: tool-edge }
 textiles -> foundations: { class: tool-edge }
 transport_roads -> foundations_tools-basic: { class: tool-edge }
+water_procurement -> foundations_tools-basic: { class: tool-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
@@ -302,7 +295,6 @@ foundations_fire.class: capability
 foundations_food-agriculture.class: capability
 foundations_sawmilling.class: capability
 foundations_tools-basic.class: capability
-foundations_water-procurement.class: capability
 agriculture_soil-management.class: external
 animals.class: external
 animals_aquaculture.class: external
@@ -328,7 +320,6 @@ energy_fuels_charcoal.class: external
 food-processing.class: external
 food-processing_oil-processing.class: external
 health.class: external
-health_sanitation.class: external
 knowledge.class: external
 knowledge_writing.class: external
 machine-tools.class: external
@@ -338,7 +329,6 @@ mathematics_core-mathematics.class: external
 measurement_precision-metrology.class: external
 metals.class: external
 metals_copper.class: external
-metals_copper-bronze.class: external
 mining.class: external
 mining_extraction.class: external
 plants.class: external
@@ -349,6 +339,7 @@ telecom_pre-electric.class: external
 textiles.class: external
 textiles_fibers.class: external
 transport_roads.class: external
+water_procurement.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

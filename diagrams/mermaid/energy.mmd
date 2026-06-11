@@ -54,7 +54,7 @@ graph TD
     chemistry_e-methanol("E-Methanol Synthesis")
     chemistry_electrodialysis("Electrodialysis")
     chemistry_electrolysis("Electrolysis")
-    chemistry_electrolysis_water-splitting("Water Electrolysis (H₂/O₂)")
+    chemistry_electrolysis_thermochemical-water-splitting("Thermochemical Water Splitting")
     chemistry_explosives("Explosives and Propellants")
     chemistry_explosives_black-powder("Black Powder Manufacture")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
@@ -72,6 +72,8 @@ graph TD
     food-processing("Food Processing")
     food-processing_brewing("Brewing & Distilling")
     food-processing_milling("Grain Milling")
+    food-processing_pasteurization("Pasteurization")
+    food-processing_refrigeration("Refrigeration")
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     glass("Glass")
@@ -199,7 +201,7 @@ graph TD
     energy_electricity --> metals_wire-drawing
     energy_engine -.-> metals
     energy_engine --> petroleum_refining
-    energy_fuel-cell --> chemistry_electrolysis_water-splitting
+    energy_fuel-cell --> chemistry_electrolysis_thermochemical-water-splitting
     energy_fuel-cell --> chemistry
     energy_fuels_charcoal -.-> foundations_fire
     energy_fuels_coal -.-> ceramics_kilns
@@ -243,6 +245,8 @@ graph TD
     energy -.-> metals
     food-processing_brewing -.-> energy
     food-processing_milling -.-> energy
+    food-processing_pasteurization --> energy
+    food-processing_refrigeration --> energy
     food-processing --> energy_biomass-energy
     food-processing -.-> energy
     gas-handling --> energy
@@ -355,7 +359,7 @@ graph TD
     class chemistry_e-methanol external
     class chemistry_electrodialysis external
     class chemistry_electrolysis external
-    class chemistry_electrolysis_water-splitting external
+    class chemistry_electrolysis_thermochemical-water-splitting external
     class chemistry_explosives external
     class chemistry_explosives_black-powder external
     class chemistry_lubricants external
@@ -373,6 +377,8 @@ graph TD
     class food-processing external
     class food-processing_brewing external
     class food-processing_milling external
+    class food-processing_pasteurization external
+    class food-processing_refrigeration external
     class foundations_fire external
     class gas-handling external
     class glass external

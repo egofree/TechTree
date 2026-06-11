@@ -92,7 +92,6 @@ metals_internal: "Metals — Internal Structure" {
   metals_blacksmithing: Blacksmithing
   metals_bronze: Bronze Production
   metals_casting: Metal Casting
-  metals_copper-bronze: "Copper & Bronze Production"
   metals_copper-refining: Copper Refining
   metals_copper: Copper Production
   metals_finishing: "Metal Finishing & Surface Treatment"
@@ -250,6 +249,12 @@ energy_storage: "Energy Storage & Diversification" {
 food-processing_oil-processing: "Oil & Fat Processing" {
   shape: rectangle
 }
+food-processing_pasteurization: Pasteurization {
+  shape: rectangle
+}
+food-processing_refrigeration: Refrigeration {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -367,6 +372,15 @@ telecom_telephone: Telephone Systems {
 textiles_sewing-tailoring: "Sewing & Tailoring" {
   shape: rectangle
 }
+textiles_spinning-frame_mule: Spinning Mule {
+  shape: rectangle
+}
+textiles_spinning-frame_ring: Ring Spinning Frame {
+  shape: rectangle
+}
+textiles_spinning-frame_water: Water Frame {
+  shape: rectangle
+}
 transport: "Transportation & Logistics" {
   shape: rectangle
 }
@@ -401,15 +415,14 @@ metals_aluminum -> metals_aluminum: { class: material-edge }
 metals_blacksmithing -> metals_iron-steel: { class: material-edge }
 metals_bronze -> metals_copper: { class: material-edge }
 metals_bronze -> metals_non-ferrous: { class: material-edge }
-metals_copper-bronze -> metals_copper-bronze: { class: material-edge }
-metals_copper-refining -> metals_copper-bronze: { class: material-edge }
+metals_copper-refining -> metals_copper: { class: material-edge }
 metals_finishing -> metals_non-ferrous: { class: material-edge }
 metals_forming -> metals_aluminum: { class: material-edge }
 metals_forming -> metals_steelmaking: { class: material-edge }
 metals_iron-steel_blast-furnace -> metals_iron-steel: { class: tool-edge }
-metals_iron-steel -> metals_copper-bronze: { class: tool-edge }
+metals_iron-steel -> metals_bronze: { class: tool-edge }
 metals_metal-recycling -> metals_steelmaking: { class: tool-edge }
-metals_non-ferrous -> metals_copper-bronze: { class: tool-edge }
+metals_non-ferrous -> metals_copper: { class: tool-edge }
 metals_pipe-making -> metals_casting: { class: tool-edge }
 metals_powder-metallurgy -> metals_alloys: { class: material-edge }
 metals_precious-metals -> metals_non-ferrous: { class: tool-edge }
@@ -441,7 +454,7 @@ economics-organization_coinage -> metals_forming: { class: tool-edge }
 economics-organization_currency -> metals: { class: material-edge }
 electrochemistry_anodizing -> metals_aluminum: { class: material-edge }
 electrochemistry -> metals_finishing: { class: tool-edge }
-electronics_pcb-fabrication -> metals_copper-bronze: { class: material-edge }
+electronics_pcb-fabrication -> metals_copper: { class: material-edge }
 electronics -> metals_copper-refining: { class: material-edge }
 electronics -> metals_rare-earths: { class: material-edge }
 electronics -> metals: { class: material-edge }
@@ -463,11 +476,13 @@ energy_stirling-engine -> metals_casting: { class: material-edge }
 energy_storage -> metals: { class: tool-edge }
 energy -> metals: { class: tool-edge }
 food-processing_oil-processing -> metals_iron-steel: { class: tool-edge }
+food-processing_pasteurization -> metals: { class: tool-edge }
+food-processing_refrigeration -> metals: { class: tool-edge }
 gas-handling_cylinder-filling -> metals_iron-steel: { class: material-edge }
 gas-handling -> metals_pipe-making: { class: material-edge }
 glass_basic_float-glass -> metals_non-ferrous: { class: tool-edge }
 glass_glass-to-metal-seals -> metals_alloys: { class: material-edge }
-health_medical-instruments -> metals_copper-bronze: { class: material-edge }
+health_medical-instruments -> metals_bronze: { class: material-edge }
 knowledge_printing -> metals_iron-steel: { class: tool-edge }
 machine-tools_fasteners -> metals_iron-steel: { class: material-edge }
 machine-tools_forming -> metals_iron-steel: { class: material-edge }
@@ -493,9 +508,7 @@ metals_aluminum_semiconductor-grade -> energy_electricity: { class: tool-edge }
 metals_aluminum -> chemistry_alkalis: { class: material-edge }
 metals_aluminum -> chemistry_electrolysis: { class: tool-edge }
 metals_blacksmithing -> energy_furnace-design: { class: tool-edge }
-metals_copper-bronze -> animals_beekeeping: { class: material-edge }
-metals_copper-bronze -> ceramics: { class: tool-edge }
-metals_copper-bronze -> foundations_fire: { class: material-edge }
+metals_bronze -> animals_beekeeping: { class: material-edge }
 metals_copper-refining -> chemistry_electrolysis: { class: tool-edge }
 metals_copper -> ceramics: { class: tool-edge }
 metals_copper -> foundations_fire: { class: material-edge }
@@ -506,6 +519,9 @@ metals_finishing -> chemistry_paint: { class: material-edge }
 metals_forming -> machine-tools: { class: tool-edge }
 metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
 metals_iron-steel_blast-furnace -> energy_fuels_coke: { class: material-edge }
+metals_iron-steel -> textiles_spinning-frame_mule: { class: material-edge }
+metals_iron-steel -> textiles_spinning-frame_ring: { class: material-edge }
+metals_iron-steel -> textiles_spinning-frame_water: { class: material-edge }
 metals_powder-metallurgy -> chemistry_hydrogen-silane: { class: tool-edge }
 metals_powder-metallurgy -> energy_electric-furnaces: { class: tool-edge }
 metals_precious-metals -> chemistry: { class: material-edge }
@@ -533,7 +549,7 @@ telecom_radio -> metals: { class: material-edge }
 telecom_submarine-cables -> metals: { class: material-edge }
 telecom_telephone -> metals: { class: material-edge }
 telecom -> metals: { class: material-edge }
-textiles_sewing-tailoring -> metals_copper-bronze: { class: tool-edge }
+textiles_sewing-tailoring -> metals_bronze: { class: tool-edge }
 transport_aviation -> metals_aluminum: { class: material-edge }
 transport_railways -> metals_forming: { class: material-edge }
 transport_railways -> metals_iron-steel: { class: material-edge }
@@ -551,7 +567,6 @@ metals_aluminum_semiconductor-grade.class: process
 metals_blacksmithing.class: earlyWin
 metals_bronze.class: capability
 metals_casting.class: capability
-metals_copper-bronze.class: capability
 metals_copper-refining.class: capability
 metals_copper.class: capability
 metals_finishing.class: capability
@@ -615,6 +630,8 @@ energy_steam-power_steam-turbines.class: external
 energy_stirling-engine.class: external
 energy_storage.class: external
 food-processing_oil-processing.class: external
+food-processing_pasteurization.class: external
+food-processing_refrigeration.class: external
 foundations.class: external
 foundations_fire.class: external
 gas-handling.class: external
@@ -654,6 +671,9 @@ telecom_radio.class: external
 telecom_submarine-cables.class: external
 telecom_telephone.class: external
 textiles_sewing-tailoring.class: external
+textiles_spinning-frame_mule.class: external
+textiles_spinning-frame_ring.class: external
+textiles_spinning-frame_water.class: external
 transport.class: external
 transport_aviation.class: external
 transport_railways.class: external

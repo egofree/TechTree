@@ -35,6 +35,7 @@ graph TD
     energy_hydraulics("Hydraulic Power")
     energy_steam-power("Steam Power")
     food-processing("Food Processing")
+    food-processing_traditional-preservation("Traditional Preservation")
     foundations("Foundations")
     foundations_tools-basic("Stone & Wood Tools")
     knowledge_surveying("Surveying & Cartography")
@@ -66,6 +67,7 @@ graph TD
     chemistry_flux --> mining
     chemistry_phosphorus --> mining
     energy_fuels_coal --> mining_extraction
+    food-processing_traditional-preservation --> mining_salt
     food-processing --> mining_salt
     metals_precious-metals --> mining
     metals_rare-earths --> mining
@@ -129,6 +131,7 @@ graph TD
     class energy_hydraulics external
     class energy_steam-power external
     class food-processing external
+    class food-processing_traditional-preservation external
     class foundations external
     class foundations_tools-basic external
     class knowledge_surveying external

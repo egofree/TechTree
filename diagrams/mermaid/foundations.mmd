@@ -10,7 +10,6 @@ graph TD
         foundations_food-agriculture["Agriculture & Food Production"]
         foundations_sawmilling["Sawmilling & Timber Processing"]
         foundations_tools-basic["Stone & Wood Tools"]
-        foundations_water-procurement["Water Procurement"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -42,7 +41,6 @@ graph TD
     food-processing("Food Processing")
     food-processing_oil-processing("Oil & Fat Processing")
     health("Public Health, Sanitation & Medicine")
-    health_sanitation("Water Supply & Sanitation")
     knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
     machine-tools("Machine Tools Bootstrap")
@@ -52,7 +50,6 @@ graph TD
     measurement_precision-metrology("Precision Metrology & Standards")
     metals("Metals")
     metals_copper("Copper Production")
-    metals_copper-bronze("Copper & Bronze Production")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction("Mining Extraction")
     plants("Plants & Botanical Resources")
@@ -63,12 +60,11 @@ graph TD
     textiles("Textiles, Fiber & Cordage")
     textiles_fibers("Fiber Preparation")
     transport_roads("Road & Bridge Construction")
+    water_procurement("Water Procurement")
 
     %% ==================== EDGES ====================
     foundations_carpentry -.-> foundations
     foundations_food-agriculture -.-> foundations_tools-basic
-    foundations_water-procurement -.-> foundations_tools-basic
-    foundations_water-procurement -.-> foundations
     animals_aquaculture -.-> foundations_tools-basic
     animals_beekeeping -.-> foundations_fire
     animals_beekeeping -.-> foundations_tools-basic
@@ -99,7 +95,6 @@ graph TD
     foundations_food-agriculture --> animals_pigs
     foundations_food-agriculture --> animals_rabbits
     foundations_food-agriculture --> plants_edible-plants
-    health_sanitation --> foundations_water-procurement
     health -.-> foundations
     knowledge_writing -.-> foundations_food-agriculture
     knowledge_writing -.-> foundations_tools-basic
@@ -109,7 +104,6 @@ graph TD
     marine -.-> foundations
     mathematics_core-mathematics -.-> foundations
     measurement_precision-metrology -.-> foundations
-    metals_copper-bronze --> foundations_fire
     metals_copper --> foundations_fire
     metals -.-> foundations
     mining_extraction -.-> foundations_tools-basic
@@ -121,6 +115,7 @@ graph TD
     textiles_fibers -.-> foundations_tools-basic
     textiles -.-> foundations
     transport_roads -.-> foundations_tools-basic
+    water_procurement -.-> foundations_tools-basic
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -142,7 +137,6 @@ graph TD
     class foundations_food-agriculture capability
     class foundations_sawmilling capability
     class foundations_tools-basic capability
-    class foundations_water-procurement capability
     class agriculture_soil-management external
     class animals external
     class animals_aquaculture external
@@ -168,7 +162,6 @@ graph TD
     class food-processing external
     class food-processing_oil-processing external
     class health external
-    class health_sanitation external
     class knowledge external
     class knowledge_writing external
     class machine-tools external
@@ -178,7 +171,6 @@ graph TD
     class measurement_precision-metrology external
     class metals external
     class metals_copper external
-    class metals_copper-bronze external
     class mining external
     class mining_extraction external
     class plants external
@@ -189,4 +181,5 @@ graph TD
     class textiles external
     class textiles_fibers external
     class transport_roads external
+    class water_procurement external
     class EdgeLegend,MatNote,ToolNote legend

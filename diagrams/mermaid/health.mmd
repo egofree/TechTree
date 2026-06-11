@@ -6,6 +6,8 @@ graph TD
     subgraph health_internal ["Public Health, Sanitation & Medicine — Internal Structure"]
         direction TB
         health_diagnostics["Diagnostics"]
+        health_emergency-care["Emergency Care"]
+        health_infectious-disease["Infectious Disease Management"]
         health_medical-instruments["Medical Instrument Manufacturing"]
         health_medicine["Medicine & Surgery"]
         health_nutrition["Nutrition"]
@@ -32,18 +34,26 @@ graph TD
     energy_steam-power("Steam Power")
     food-processing("Food Processing")
     food-processing_dairy("Dairy Processing")
+    food-processing_pasteurization("Pasteurization")
     food-processing_preservation("Food Preservation")
+    food-processing_traditional-preservation("Traditional Preservation")
     foundations("Foundations")
-    foundations_water-procurement("Water Procurement")
     knowledge_writing("Writing & Record-Keeping")
-    metals_copper-bronze("Copper & Bronze Production")
+    metals_bronze("Bronze Production")
     plants_edible-plants("Edible Plants")
     plants_medicinal-plants("Medicinal Plants")
     polymers_rubber("Rubber Production")
+    water_procurement("Water Procurement")
 
     %% ==================== EDGES ====================
     health_diagnostics -.-> health_medical-instruments
     health_diagnostics -.-> health
+    health_emergency-care -.-> health_medicine
+    health_emergency-care --> health_pharmacology
+    health_emergency-care -.-> health_surgery-basics
+    health_infectious-disease -.-> health_medicine
+    health_infectious-disease --> health_pharmacology
+    health_infectious-disease --> health_sanitation
     health_medical-instruments -.-> health
     health_medicine -.-> health_sanitation
     health_nutrition -.-> health_diagnostics
@@ -58,11 +68,13 @@ graph TD
     ehs_radiation-safety -.-> health_occupational-health
     ehs_toxicology -.-> health_pharmacology
     food-processing_dairy -.-> health_sanitation
+    food-processing_pasteurization -.-> health_sanitation
     food-processing_preservation -.-> health_sanitation
+    food-processing_traditional-preservation -.-> health_sanitation
     food-processing -.-> health_sanitation
     health_diagnostics -.-> chemistry
     health_medical-instruments -.-> energy_steam-power
-    health_medical-instruments --> metals_copper-bronze
+    health_medical-instruments --> metals_bronze
     health_medicine --> animals_beekeeping
     health_medicine -.-> knowledge_writing
     health_nutrition -.-> chemistry
@@ -72,7 +84,7 @@ graph TD
     health_pharmacology --> animals_beekeeping
     health_pharmacology -.-> chemistry_distillation
     health_sanitation -.-> ceramics
-    health_sanitation --> foundations_water-procurement
+    health_sanitation --> water_procurement
     health --> chemistry_soap
     health --> chemistry_solvents
     health --> chemistry
@@ -98,6 +110,8 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class health domain
     class health_diagnostics capability
+    class health_emergency-care critical
+    class health_infectious-disease critical
     class health_medical-instruments capability
     class health_medicine capability
     class health_nutrition capability
@@ -118,12 +132,14 @@ graph TD
     class energy_steam-power external
     class food-processing external
     class food-processing_dairy external
+    class food-processing_pasteurization external
     class food-processing_preservation external
+    class food-processing_traditional-preservation external
     class foundations external
-    class foundations_water-procurement external
     class knowledge_writing external
-    class metals_copper-bronze external
+    class metals_bronze external
     class plants_edible-plants external
     class plants_medicinal-plants external
     class polymers_rubber external
+    class water_procurement external
     class EdgeLegend,MatNote,ToolNote legend

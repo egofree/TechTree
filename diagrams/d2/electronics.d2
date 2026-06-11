@@ -88,6 +88,7 @@ classes: {
 electronics_internal: "Electronics — Internal Structure" {
   electronics_assembly: Electronics Assembly
   electronics_electrical-systems: Electrical Systems
+  electronics_packaging-testing: "Semiconductor Packaging & Testing"
   electronics_packaging: "IC Packaging & Interconnect"
   electronics_passive-components: Passive Components
   electronics_pcb-fabrication: PCB Fabrication
@@ -139,7 +140,7 @@ measurement_thermostat-electronic: Electronic Thermostats {
 metals: Metals {
   shape: rectangle
 }
-metals_copper-bronze: "Copper & Bronze Production" {
+metals_copper: Copper Production {
   shape: rectangle
 }
 metals_copper-refining: Copper Refining {
@@ -149,6 +150,9 @@ metals_precious-metals: "Precious Metal Production (Gold & Silver)" {
   shape: rectangle
 }
 metals_rare-earths: Rare Earth and Specialty Elements {
+  shape: rectangle
+}
+photolithography_fab-processes: Core Fab Processes {
   shape: rectangle
 }
 polymers_thermoplastics: Thermoplastic Polymers {
@@ -166,6 +170,7 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 
 # ==================== EDGES ====================
 electronics_assembly -> electronics_packaging: { class: tool-edge }
+electronics_packaging-testing -> electronics_semiconductor-devices: { class: material-edge }
 electronics_power-electronics -> electronics_semiconductor-devices: { class: tool-edge }
 electronics -> electronics_passive-components: { class: material-edge }
 automation_equipment-communication -> electronics: { class: tool-edge }
@@ -177,8 +182,10 @@ electronics_assembly -> silicon_basic-devices: { class: material-edge }
 electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
 electronics_electrical-systems -> energy_electricity: { class: tool-edge }
 electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
+electronics_packaging-testing -> photolithography_fab-processes: { class: material-edge }
+electronics_packaging-testing -> polymers_thermosets: { class: material-edge }
 electronics_pcb-fabrication -> chemistry_acids: { class: material-edge }
-electronics_pcb-fabrication -> metals_copper-bronze: { class: material-edge }
+electronics_pcb-fabrication -> metals_copper: { class: material-edge }
 electronics_semiconductor-devices -> silicon_basic-devices: { class: material-edge }
 electronics -> chemistry: { class: material-edge }
 electronics -> machine-tools: { class: tool-edge }
@@ -196,6 +203,7 @@ vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 electronics.class: domain
 electronics_assembly.class: capability
 electronics_electrical-systems.class: capability
+electronics_packaging-testing.class: critical
 electronics_packaging.class: capability
 electronics_passive-components.class: critical
 electronics_pcb-fabrication.class: critical
@@ -215,10 +223,11 @@ machine-tools.class: external
 measurement_thermostat-electrical.class: external
 measurement_thermostat-electronic.class: external
 metals.class: external
-metals_copper-bronze.class: external
+metals_copper.class: external
 metals_copper-refining.class: external
 metals_precious-metals.class: external
 metals_rare-earths.class: external
+photolithography_fab-processes.class: external
 polymers_thermoplastics.class: external
 polymers_thermosets.class: external
 silicon_basic-devices.class: external

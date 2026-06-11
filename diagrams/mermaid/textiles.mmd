@@ -10,6 +10,10 @@ graph TD
         textiles_finishing["Fabric Finishing"]
         textiles_rope-making["Rope and Cordage"]
         textiles_sewing-tailoring["Sewing & Tailoring"]
+        textiles_spinning-frame["Spinning Frame"]
+        textiles_spinning-frame_mule["Spinning Mule"]
+        textiles_spinning-frame_ring["Ring Spinning Frame"]
+        textiles_spinning-frame_water["Water Frame"]
         textiles_spinning["Spinning"]
         textiles_weaving["Weaving"]
     end
@@ -36,7 +40,8 @@ graph TD
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
     marine("Marine & Naval Engineering")
-    metals_copper-bronze("Copper & Bronze Production")
+    metals_bronze("Bronze Production")
+    metals_iron-steel("Iron & Steel Production")
     plants_dye-plants("Dye Plants")
     plants_fiber-plants("Fiber Plants")
     transport_aviation("Aviation")
@@ -50,6 +55,12 @@ graph TD
     textiles_rope-making --> textiles_spinning
     textiles_sewing-tailoring --> textiles_weaving
     textiles_sewing-tailoring -.-> textiles
+    textiles_spinning-frame_mule -.-> textiles_spinning-frame
+    textiles_spinning-frame_ring -.-> textiles_spinning-frame
+    textiles_spinning-frame_water -.-> textiles_spinning-frame
+    textiles_spinning --> textiles_spinning-frame_mule
+    textiles_spinning --> textiles_spinning-frame_ring
+    textiles_spinning --> textiles_spinning-frame_water
     textiles_spinning --> textiles_weaving
     textiles_weaving --> textiles_dyeing
     construction --> textiles_rope-making
@@ -58,6 +69,9 @@ graph TD
     knowledge_printing --> textiles_fibers
     machine-tools -.-> textiles
     marine --> textiles
+    metals_iron-steel --> textiles_spinning-frame_mule
+    metals_iron-steel --> textiles_spinning-frame_ring
+    metals_iron-steel --> textiles_spinning-frame_water
     plants_dye-plants --> textiles_dyeing
     plants_fiber-plants --> textiles_spinning
     textiles_dyeing --> chemistry
@@ -69,7 +83,7 @@ graph TD
     textiles_fibers -.-> foundations_tools-basic
     textiles_fibers --> plants_fiber-plants
     textiles_finishing -.-> chemistry_alkalis
-    textiles_sewing-tailoring -.-> metals_copper-bronze
+    textiles_sewing-tailoring -.-> metals_bronze
     textiles --> animals_leather
     textiles --> chemistry_bleaching
     textiles --> chemistry_pulp-chemicals
@@ -97,6 +111,10 @@ graph TD
     class textiles_finishing capability
     class textiles_rope-making capability
     class textiles_sewing-tailoring capability
+    class textiles_spinning-frame critical
+    class textiles_spinning-frame_mule process
+    class textiles_spinning-frame_ring process
+    class textiles_spinning-frame_water process
     class textiles_spinning capability
     class textiles_weaving capability
     class animals_animal-materials external
@@ -117,7 +135,8 @@ graph TD
     class knowledge_printing external
     class machine-tools external
     class marine external
-    class metals_copper-bronze external
+    class metals_bronze external
+    class metals_iron-steel external
     class plants_dye-plants external
     class plants_fiber-plants external
     class transport_aviation external

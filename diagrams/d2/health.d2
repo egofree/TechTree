@@ -87,6 +87,8 @@ classes: {
 # ==================== INTERNAL NODES ====================
 health_internal: "Public Health, Sanitation & Medicine — Internal Structure" {
   health_diagnostics: Diagnostics
+  health_emergency-care: Emergency Care
+  health_infectious-disease: Infectious Disease Management
   health_medical-instruments: Medical Instrument Manufacturing
   health_medicine: "Medicine & Surgery"
   health_nutrition: Nutrition
@@ -137,19 +139,22 @@ food-processing: Food Processing {
 food-processing_dairy: Dairy Processing {
   shape: rectangle
 }
+food-processing_pasteurization: Pasteurization {
+  shape: rectangle
+}
 food-processing_preservation: Food Preservation {
+  shape: rectangle
+}
+food-processing_traditional-preservation: Traditional Preservation {
   shape: rectangle
 }
 foundations: Foundations {
   shape: rectangle
 }
-foundations_water-procurement: Water Procurement {
-  shape: rectangle
-}
 knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
-metals_copper-bronze: "Copper & Bronze Production" {
+metals_bronze: Bronze Production {
   shape: rectangle
 }
 plants_edible-plants: Edible Plants {
@@ -161,10 +166,19 @@ plants_medicinal-plants: Medicinal Plants {
 polymers_rubber: Rubber Production {
   shape: rectangle
 }
+water_procurement: Water Procurement {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 health_diagnostics -> health_medical-instruments: { class: tool-edge }
 health_diagnostics -> health: { class: tool-edge }
+health_emergency-care -> health_medicine: { class: tool-edge }
+health_emergency-care -> health_pharmacology: { class: material-edge }
+health_emergency-care -> health_surgery-basics: { class: tool-edge }
+health_infectious-disease -> health_medicine: { class: tool-edge }
+health_infectious-disease -> health_pharmacology: { class: material-edge }
+health_infectious-disease -> health_sanitation: { class: material-edge }
 health_medical-instruments -> health: { class: tool-edge }
 health_medicine -> health_sanitation: { class: tool-edge }
 health_nutrition -> health_diagnostics: { class: tool-edge }
@@ -179,11 +193,13 @@ health_surgery-basics -> health: { class: tool-edge }
 ehs_radiation-safety -> health_occupational-health: { class: tool-edge }
 ehs_toxicology -> health_pharmacology: { class: tool-edge }
 food-processing_dairy -> health_sanitation: { class: tool-edge }
+food-processing_pasteurization -> health_sanitation: { class: tool-edge }
 food-processing_preservation -> health_sanitation: { class: tool-edge }
+food-processing_traditional-preservation -> health_sanitation: { class: tool-edge }
 food-processing -> health_sanitation: { class: tool-edge }
 health_diagnostics -> chemistry: { class: tool-edge }
 health_medical-instruments -> energy_steam-power: { class: tool-edge }
-health_medical-instruments -> metals_copper-bronze: { class: material-edge }
+health_medical-instruments -> metals_bronze: { class: material-edge }
 health_medicine -> animals_beekeeping: { class: material-edge }
 health_medicine -> knowledge_writing: { class: tool-edge }
 health_nutrition -> chemistry: { class: tool-edge }
@@ -193,7 +209,7 @@ health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
 health_pharmacology -> animals_beekeeping: { class: material-edge }
 health_pharmacology -> chemistry_distillation: { class: tool-edge }
 health_sanitation -> ceramics: { class: tool-edge }
-health_sanitation -> foundations_water-procurement: { class: material-edge }
+health_sanitation -> water_procurement: { class: material-edge }
 health -> chemistry_soap: { class: material-edge }
 health -> chemistry_solvents: { class: material-edge }
 health -> chemistry: { class: material-edge }
@@ -206,6 +222,8 @@ plants_medicinal-plants -> health_pharmacology: { class: material-edge }
 # ==================== STYLING ====================
 health.class: domain
 health_diagnostics.class: capability
+health_emergency-care.class: critical
+health_infectious-disease.class: critical
 health_medical-instruments.class: capability
 health_medicine.class: capability
 health_nutrition.class: capability
@@ -226,14 +244,16 @@ ehs_toxicology.class: external
 energy_steam-power.class: external
 food-processing.class: external
 food-processing_dairy.class: external
+food-processing_pasteurization.class: external
 food-processing_preservation.class: external
+food-processing_traditional-preservation.class: external
 foundations.class: external
-foundations_water-procurement.class: external
 knowledge_writing.class: external
-metals_copper-bronze.class: external
+metals_bronze.class: external
 plants_edible-plants.class: external
 plants_medicinal-plants.class: external
 polymers_rubber.class: external
+water_procurement.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

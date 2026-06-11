@@ -11,7 +11,6 @@ graph TD
         metals_blacksmithing["Blacksmithing"]
         metals_bronze["Bronze Production"]
         metals_casting["Metal Casting"]
-        metals_copper-bronze["Copper & Bronze Production"]
         metals_copper-refining["Copper Refining"]
         metals_copper["Copper Production"]
         metals_finishing["Metal Finishing & Surface Treatment"]
@@ -81,6 +80,8 @@ graph TD
     energy_stirling-engine("Stirling Engine")
     energy_storage("Energy Storage & Diversification")
     food-processing_oil-processing("Oil & Fat Processing")
+    food-processing_pasteurization("Pasteurization")
+    food-processing_refrigeration("Refrigeration")
     foundations("Foundations")
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
@@ -120,6 +121,9 @@ graph TD
     telecom_submarine-cables("Submarine Cable Systems")
     telecom_telephone("Telephone Systems")
     textiles_sewing-tailoring("Sewing & Tailoring")
+    textiles_spinning-frame_mule("Spinning Mule")
+    textiles_spinning-frame_ring("Ring Spinning Frame")
+    textiles_spinning-frame_water("Water Frame")
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
     transport_railways("Railways")
@@ -138,15 +142,14 @@ graph TD
     metals_blacksmithing --> metals_iron-steel
     metals_bronze --> metals_copper
     metals_bronze --> metals_non-ferrous
-    metals_copper-bronze --> metals_copper-bronze
-    metals_copper-refining --> metals_copper-bronze
+    metals_copper-refining --> metals_copper
     metals_finishing --> metals_non-ferrous
     metals_forming --> metals_aluminum
     metals_forming --> metals_steelmaking
     metals_iron-steel_blast-furnace -.-> metals_iron-steel
-    metals_iron-steel -.-> metals_copper-bronze
+    metals_iron-steel -.-> metals_bronze
     metals_metal-recycling -.-> metals_steelmaking
-    metals_non-ferrous -.-> metals_copper-bronze
+    metals_non-ferrous -.-> metals_copper
     metals_pipe-making -.-> metals_casting
     metals_powder-metallurgy --> metals_alloys
     metals_precious-metals -.-> metals_non-ferrous
@@ -178,7 +181,7 @@ graph TD
     economics-organization_currency --> metals
     electrochemistry_anodizing --> metals_aluminum
     electrochemistry -.-> metals_finishing
-    electronics_pcb-fabrication --> metals_copper-bronze
+    electronics_pcb-fabrication --> metals_copper
     electronics --> metals_copper-refining
     electronics --> metals_rare-earths
     electronics --> metals
@@ -200,11 +203,13 @@ graph TD
     energy_storage -.-> metals
     energy -.-> metals
     food-processing_oil-processing -.-> metals_iron-steel
+    food-processing_pasteurization -.-> metals
+    food-processing_refrigeration -.-> metals
     gas-handling_cylinder-filling --> metals_iron-steel
     gas-handling --> metals_pipe-making
     glass_basic_float-glass -.-> metals_non-ferrous
     glass_glass-to-metal-seals --> metals_alloys
-    health_medical-instruments --> metals_copper-bronze
+    health_medical-instruments --> metals_bronze
     knowledge_printing -.-> metals_iron-steel
     machine-tools_fasteners --> metals_iron-steel
     machine-tools_forming --> metals_iron-steel
@@ -230,9 +235,7 @@ graph TD
     metals_aluminum --> chemistry_alkalis
     metals_aluminum -.-> chemistry_electrolysis
     metals_blacksmithing -.-> energy_furnace-design
-    metals_copper-bronze --> animals_beekeeping
-    metals_copper-bronze -.-> ceramics
-    metals_copper-bronze --> foundations_fire
+    metals_bronze --> animals_beekeeping
     metals_copper-refining -.-> chemistry_electrolysis
     metals_copper -.-> ceramics
     metals_copper --> foundations_fire
@@ -243,6 +246,9 @@ graph TD
     metals_forming -.-> machine-tools
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     metals_iron-steel_blast-furnace --> energy_fuels_coke
+    metals_iron-steel --> textiles_spinning-frame_mule
+    metals_iron-steel --> textiles_spinning-frame_ring
+    metals_iron-steel --> textiles_spinning-frame_water
     metals_powder-metallurgy -.-> chemistry_hydrogen-silane
     metals_powder-metallurgy -.-> energy_electric-furnaces
     metals_precious-metals --> chemistry
@@ -270,7 +276,7 @@ graph TD
     telecom_submarine-cables --> metals
     telecom_telephone --> metals
     telecom --> metals
-    textiles_sewing-tailoring -.-> metals_copper-bronze
+    textiles_sewing-tailoring -.-> metals_bronze
     transport_aviation --> metals_aluminum
     transport_railways --> metals_forming
     transport_railways --> metals_iron-steel
@@ -301,7 +307,6 @@ graph TD
     class metals_blacksmithing earlyWin
     class metals_bronze capability
     class metals_casting capability
-    class metals_copper-bronze capability
     class metals_copper-refining capability
     class metals_copper capability
     class metals_finishing capability
@@ -365,6 +370,8 @@ graph TD
     class energy_stirling-engine external
     class energy_storage external
     class food-processing_oil-processing external
+    class food-processing_pasteurization external
+    class food-processing_refrigeration external
     class foundations external
     class foundations_fire external
     class gas-handling external
@@ -404,6 +411,9 @@ graph TD
     class telecom_submarine-cables external
     class telecom_telephone external
     class textiles_sewing-tailoring external
+    class textiles_spinning-frame_mule external
+    class textiles_spinning-frame_ring external
+    class textiles_spinning-frame_water external
     class transport external
     class transport_aviation external
     class transport_railways external

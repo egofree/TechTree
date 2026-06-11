@@ -7,7 +7,6 @@ graph TD
         direction TB
         chemistry_acid-regeneration["Acid Regeneration"]
         chemistry_acids-bases["Acids & Bases (Comprehensive Reference)"]
-        chemistry_acids_contact-process["Contact Process (H₂SO₄)"]
         chemistry_acids["Mineral Acid Production"]
         chemistry_adhesives-coatings["Adhesives & Specialty Coatings"]
         chemistry_air-separation["Air Separation & Bulk Gas Production"]
@@ -24,7 +23,7 @@ graph TD
         chemistry_electrolysis_chlor-alkali["Chlor-Alkali Process"]
         chemistry_electrolysis["Electrolysis"]
         chemistry_electrolysis_sem-tech["Semiconductor-Grade Electrolysis"]
-        chemistry_electrolysis_water-splitting["Water Electrolysis (H₂/O₂)"]
+        chemistry_electrolysis_thermochemical-water-splitting["Thermochemical Water Splitting"]
         chemistry_explosives_black-powder["Black Powder Manufacture"]
         chemistry_explosives_detonation-blasting["Detonation & Blasting Systems"]
         chemistry_explosives_high-explosives["High Explosives (TNT, RDX, ANFO)"]
@@ -39,7 +38,7 @@ graph TD
         chemistry_lubricants-natural["Natural Lubricants: Animal Fats & Vegetable Oils"]
         chemistry_lubricants-synthetic["Synthetic Lubricants & Specialty Fluids"]
         chemistry_lubricants["Lubricants, Oils & Fluid Mechanics"]
-        chemistry_packaging-testing["Semiconductor Packaging & Testing"]
+        chemistry_packaging-testing["Analytical Testing & Pharmaceutical Packaging"]
         chemistry_paint["Paint & Coating Manufacturing"]
         chemistry_petroleum-alternatives_fermentation["Fermentation Chemistry"]
         chemistry_petroleum-alternatives["Petroleum & Alternative Chemistry"]
@@ -96,6 +95,7 @@ graph TD
     energy_wind("Wind Power")
     food-processing_brewing("Brewing & Distilling")
     food-processing_preservation("Food Preservation")
+    food-processing_refrigeration("Refrigeration")
     foundations("Foundations")
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
@@ -142,6 +142,7 @@ graph TD
     photolithography_fab-processes("Core Fab Processes")
     photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
+    polymers_rubber_natural("Natural Rubber & Vulcanization")
     polymers_rubber_shellac("Shellac Production")
     polymers_rubber_synthetic("Synthetic Rubbers")
     polymers_thermoplastics("Thermoplastic Polymers")
@@ -165,7 +166,6 @@ graph TD
     water_sewage("Sewage Collection & Treatment")
 
     %% ==================== EDGES ====================
-    chemistry_acids --> chemistry_acids_contact-process
     chemistry_acids --> chemistry_ammonia
     chemistry_acids -.-> chemistry_electrolysis
     chemistry_ammonia --> chemistry_air-separation
@@ -284,7 +284,7 @@ graph TD
     electronics --> chemistry
     energy_cooling --> chemistry_petroleum-alternatives
     energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
-    energy_fuel-cell --> chemistry_electrolysis_water-splitting
+    energy_fuel-cell --> chemistry_electrolysis_thermochemical-water-splitting
     energy_fuel-cell --> chemistry
     energy_gravity --> chemistry_lubricants
     energy_hydraulics --> chemistry_lubricants
@@ -295,6 +295,7 @@ graph TD
     energy_wind --> chemistry_lubricants
     food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
     food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
+    food-processing_refrigeration --> chemistry
     gas-handling_gas-purification --> chemistry_acids
     gas-handling_gas-purification -.-> chemistry_air-separation
     gas-handling --> chemistry
@@ -340,6 +341,7 @@ graph TD
     photolithography_resists-masks --> chemistry_photographic-chemistry
     photolithography_resists-masks --> chemistry
     photolithography --> chemistry
+    polymers_rubber_natural --> chemistry_distillation
     polymers_rubber_shellac --> chemistry_distillation
     polymers_rubber_synthetic --> chemistry_petroleum-alternatives
     polymers_rubber_synthetic --> chemistry
@@ -385,7 +387,6 @@ graph TD
     class chemistry domain
     class chemistry_acid-regeneration capability
     class chemistry_acids-bases capability
-    class chemistry_acids_contact-process process
     class chemistry_acids capability
     class chemistry_adhesives-coatings capability
     class chemistry_air-separation capability
@@ -402,7 +403,7 @@ graph TD
     class chemistry_electrolysis_chlor-alkali process
     class chemistry_electrolysis capability
     class chemistry_electrolysis_sem-tech process
-    class chemistry_electrolysis_water-splitting process
+    class chemistry_electrolysis_thermochemical-water-splitting process
     class chemistry_explosives_black-powder process
     class chemistry_explosives_detonation-blasting process
     class chemistry_explosives_high-explosives process
@@ -417,7 +418,7 @@ graph TD
     class chemistry_lubricants-natural earlyWin
     class chemistry_lubricants-synthetic capability
     class chemistry_lubricants critical
-    class chemistry_packaging-testing capability
+    class chemistry_packaging-testing earlyWin
     class chemistry_paint capability
     class chemistry_petroleum-alternatives_fermentation process
     class chemistry_petroleum-alternatives capability
@@ -468,6 +469,7 @@ graph TD
     class energy_wind external
     class food-processing_brewing external
     class food-processing_preservation external
+    class food-processing_refrigeration external
     class foundations external
     class foundations_fire external
     class gas-handling external
@@ -514,6 +516,7 @@ graph TD
     class photolithography_fab-processes external
     class photolithography_fab-processes_cmp external
     class photolithography_resists-masks external
+    class polymers_rubber_natural external
     class polymers_rubber_shellac external
     class polymers_rubber_synthetic external
     class polymers_thermoplastics external

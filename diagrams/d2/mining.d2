@@ -146,6 +146,9 @@ energy_steam-power: Steam Power {
 food-processing: Food Processing {
   shape: rectangle
 }
+food-processing_traditional-preservation: Traditional Preservation {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -203,6 +206,7 @@ chemistry_explosives_detonation-blasting -> mining: { class: tool-edge }
 chemistry_flux -> mining: { class: material-edge }
 chemistry_phosphorus -> mining: { class: material-edge }
 energy_fuels_coal -> mining_extraction: { class: material-edge }
+food-processing_traditional-preservation -> mining_salt: { class: material-edge }
 food-processing -> mining_salt: { class: material-edge }
 metals_precious-metals -> mining: { class: material-edge }
 metals_rare-earths -> mining: { class: material-edge }
@@ -253,6 +257,7 @@ energy_fuels_coal.class: external
 energy_hydraulics.class: external
 energy_steam-power.class: external
 food-processing.class: external
+food-processing_traditional-preservation.class: external
 foundations.class: external
 foundations_tools-basic.class: external
 knowledge_surveying.class: external

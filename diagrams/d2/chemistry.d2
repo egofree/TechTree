@@ -88,7 +88,6 @@ classes: {
 chemistry_internal: "Chemistry — Internal Structure" {
   chemistry_acid-regeneration: Acid Regeneration
   chemistry_acids-bases: "Acids & Bases (Comprehensive Reference)"
-  chemistry_acids_contact-process: "Contact Process (H₂SO₄)"
   chemistry_acids: Mineral Acid Production
   chemistry_adhesives-coatings: "Adhesives & Specialty Coatings"
   chemistry_air-separation: "Air Separation & Bulk Gas Production"
@@ -105,7 +104,7 @@ chemistry_internal: "Chemistry — Internal Structure" {
   chemistry_electrolysis_chlor-alkali: Chlor-Alkali Process
   chemistry_electrolysis: Electrolysis
   chemistry_electrolysis_sem-tech: Semiconductor-Grade Electrolysis
-  chemistry_electrolysis_water-splitting: "Water Electrolysis (H₂/O₂)"
+  chemistry_electrolysis_thermochemical-water-splitting: Thermochemical Water Splitting
   chemistry_explosives_black-powder: Black Powder Manufacture
   chemistry_explosives_detonation-blasting: "Detonation & Blasting Systems"
   chemistry_explosives_high-explosives: "High Explosives (TNT, RDX, ANFO)"
@@ -120,7 +119,7 @@ chemistry_internal: "Chemistry — Internal Structure" {
   chemistry_lubricants-natural: "Natural Lubricants: Animal Fats & Vegetable Oils"
   chemistry_lubricants-synthetic: "Synthetic Lubricants & Specialty Fluids"
   chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics"
-  chemistry_packaging-testing: "Semiconductor Packaging & Testing"
+  chemistry_packaging-testing: "Analytical Testing & Pharmaceutical Packaging"
   chemistry_paint: "Paint & Coating Manufacturing"
   chemistry_petroleum-alternatives_fermentation: Fermentation Chemistry
   chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry"
@@ -245,6 +244,9 @@ food-processing_brewing: "Brewing & Distilling" {
   shape: rectangle
 }
 food-processing_preservation: Food Preservation {
+  shape: rectangle
+}
+food-processing_refrigeration: Refrigeration {
   shape: rectangle
 }
 foundations: Foundations {
@@ -385,6 +387,9 @@ photolithography_fab-processes_cmp: "Chemical Mechanical Planarization (CMP)" {
 photolithography_resists-masks: "Photoresists, Masks & Lithography" {
   shape: rectangle
 }
+polymers_rubber_natural: "Natural Rubber & Vulcanization" {
+  shape: rectangle
+}
 polymers_rubber_shellac: Shellac Production {
   shape: rectangle
 }
@@ -450,7 +455,6 @@ water_sewage: "Sewage Collection & Treatment" {
 }
 
 # ==================== EDGES ====================
-chemistry_acids -> chemistry_acids_contact-process: { class: material-edge }
 chemistry_acids -> chemistry_ammonia: { class: material-edge }
 chemistry_acids -> chemistry_electrolysis: { class: tool-edge }
 chemistry_ammonia -> chemistry_air-separation: { class: material-edge }
@@ -569,7 +573,7 @@ electronics_pcb-fabrication -> chemistry_acids: { class: material-edge }
 electronics -> chemistry: { class: material-edge }
 energy_cooling -> chemistry_petroleum-alternatives: { class: material-edge }
 energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
-energy_fuel-cell -> chemistry_electrolysis_water-splitting: { class: material-edge }
+energy_fuel-cell -> chemistry_electrolysis_thermochemical-water-splitting: { class: material-edge }
 energy_fuel-cell -> chemistry: { class: material-edge }
 energy_gravity -> chemistry_lubricants: { class: material-edge }
 energy_hydraulics -> chemistry_lubricants: { class: material-edge }
@@ -580,6 +584,7 @@ energy_storage -> chemistry: { class: material-edge }
 energy_wind -> chemistry_lubricants: { class: material-edge }
 food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
+food-processing_refrigeration -> chemistry: { class: material-edge }
 gas-handling_gas-purification -> chemistry_acids: { class: material-edge }
 gas-handling_gas-purification -> chemistry_air-separation: { class: tool-edge }
 gas-handling -> chemistry: { class: material-edge }
@@ -625,6 +630,7 @@ photolithography_fab-processes -> chemistry_dopant-etch-gases: { class: material
 photolithography_resists-masks -> chemistry_photographic-chemistry: { class: material-edge }
 photolithography_resists-masks -> chemistry: { class: material-edge }
 photolithography -> chemistry: { class: material-edge }
+polymers_rubber_natural -> chemistry_distillation: { class: material-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
 polymers_rubber_synthetic -> chemistry_petroleum-alternatives: { class: material-edge }
 polymers_rubber_synthetic -> chemistry: { class: material-edge }
@@ -657,7 +663,6 @@ water_basic-treatment -> chemistry_bleaching: { class: material-edge }
 chemistry.class: domain
 chemistry_acid-regeneration.class: capability
 chemistry_acids-bases.class: capability
-chemistry_acids_contact-process.class: process
 chemistry_acids.class: capability
 chemistry_adhesives-coatings.class: capability
 chemistry_air-separation.class: capability
@@ -674,7 +679,7 @@ chemistry_electrodialysis.class: capability
 chemistry_electrolysis_chlor-alkali.class: process
 chemistry_electrolysis.class: capability
 chemistry_electrolysis_sem-tech.class: process
-chemistry_electrolysis_water-splitting.class: process
+chemistry_electrolysis_thermochemical-water-splitting.class: process
 chemistry_explosives_black-powder.class: process
 chemistry_explosives_detonation-blasting.class: process
 chemistry_explosives_high-explosives.class: process
@@ -689,7 +694,7 @@ chemistry_lubricants-mineral.class: capability
 chemistry_lubricants-natural.class: earlyWin
 chemistry_lubricants-synthetic.class: capability
 chemistry_lubricants.class: critical
-chemistry_packaging-testing.class: capability
+chemistry_packaging-testing.class: earlyWin
 chemistry_paint.class: capability
 chemistry_petroleum-alternatives_fermentation.class: process
 chemistry_petroleum-alternatives.class: capability
@@ -740,6 +745,7 @@ energy_storage.class: external
 energy_wind.class: external
 food-processing_brewing.class: external
 food-processing_preservation.class: external
+food-processing_refrigeration.class: external
 foundations.class: external
 foundations_fire.class: external
 gas-handling.class: external
@@ -786,6 +792,7 @@ photolithography_cleanrooms.class: external
 photolithography_fab-processes.class: external
 photolithography_fab-processes_cmp.class: external
 photolithography_resists-masks.class: external
+polymers_rubber_natural.class: external
 polymers_rubber_shellac.class: external
 polymers_rubber_synthetic.class: external
 polymers_thermoplastics.class: external

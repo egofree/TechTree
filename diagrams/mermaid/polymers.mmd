@@ -23,12 +23,13 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
     chemistry_distillation("Distillation")
-    chemistry_packaging-testing("Semiconductor Packaging & Testing")
+    chemistry_packaging-testing("Analytical Testing & Pharmaceutical Packaging")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     computing_data-storage("Data Storage Systems")
     ehs_ppe("Personal Protective Equipment")
     electronics_assembly("Electronics Assembly")
     electronics_electrical-systems("Electrical Systems")
+    electronics_packaging-testing("Semiconductor Packaging & Testing")
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
     foundations_fire("Fire-Making")
@@ -46,6 +47,7 @@ graph TD
     %% ==================== EDGES ====================
     polymers_composites --> polymers_thermosets
     polymers_rubber_gutta-percha -.-> polymers_rubber
+    polymers_rubber_natural -.-> polymers_rubber
     polymers_rubber_shellac -.-> polymers_rubber
     polymers_rubber -.-> polymers_rubber_vulcanization
     chemistry_packaging-testing --> polymers_thermosets
@@ -53,6 +55,7 @@ graph TD
     ehs_ppe -.-> polymers
     electronics_assembly --> polymers_thermosets
     electronics_electrical-systems --> polymers_thermoplastics
+    electronics_packaging-testing --> polymers_thermosets
     energy_storage --> polymers_rubber
     gas-handling -.-> polymers_seals-gaskets
     health --> polymers_rubber
@@ -61,6 +64,7 @@ graph TD
     photolithography_resists-masks --> polymers_thermosets
     polymers_composites --> glass_fibers
     polymers_composites -.-> machine-tools
+    polymers_rubber_natural --> chemistry_distillation
     polymers_rubber_natural -.-> foundations_fire
     polymers_rubber_shellac --> chemistry_distillation
     polymers_rubber_synthetic --> chemistry_petroleum-alternatives
@@ -109,6 +113,7 @@ graph TD
     class ehs_ppe external
     class electronics_assembly external
     class electronics_electrical-systems external
+    class electronics_packaging-testing external
     class energy_storage external
     class foundations external
     class foundations_fire external

@@ -22,12 +22,13 @@ graph TD
     ceramics("Ceramics & Refractories")
     chemistry("Chemistry")
     chemistry_dopant-etch-gases("Dopant & Etch Gases")
-    chemistry_packaging-testing("Semiconductor Packaging & Testing")
+    chemistry_packaging-testing("Analytical Testing & Pharmaceutical Packaging")
     chemistry_photographic-chemistry("Photographic Chemistry")
     chemistry_semiconductor-chemicals("Semiconductor Process Chemicals")
     cleanrooms("Clean Room Technology")
     computing_electronic("Electronic Computing")
     economics-organization_supply-chain("Supply Chain Coordination")
+    electronics_packaging-testing("Semiconductor Packaging & Testing")
     energy_electricity("Electricity Generation & Distribution")
     gas-handling("Gas Handling")
     gas-handling_basic("Basic Gas Handling")
@@ -57,6 +58,7 @@ graph TD
     %% ==================== EDGES ====================
     chemistry_packaging-testing --> photolithography_fab-processes
     computing_electronic --> photolithography_fab-processes
+    electronics_packaging-testing --> photolithography_fab-processes
     glass_photomask-substrates --> photolithography_fab-processes
     metals_specialty-semiconductor --> photolithography_fab-processes
     photolithography_cleanrooms -.-> ceramics
@@ -133,6 +135,7 @@ graph TD
     class cleanrooms external
     class computing_electronic external
     class economics-organization_supply-chain external
+    class electronics_packaging-testing external
     class energy_electricity external
     class gas-handling external
     class gas-handling_basic external

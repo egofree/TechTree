@@ -92,7 +92,10 @@ food-processing_internal: "Food Processing — Internal Structure" {
   food-processing_fermentation: Food Fermentation
   food-processing_oil-processing: "Oil & Fat Processing"
   food-processing_milling: Grain Milling
+  food-processing_pasteurization: Pasteurization
   food-processing_preservation: Food Preservation
+  food-processing_refrigeration: Refrigeration
+  food-processing_traditional-preservation: Traditional Preservation
 }
 
 # ==================== DOMAIN NODE ====================
@@ -103,6 +106,9 @@ agriculture_crop-rotation: "Crop Rotation & Nutrient Cycling" {
   shape: rectangle
 }
 ceramics: "Ceramics & Refractories" {
+  shape: rectangle
+}
+chemistry: Chemistry {
   shape: rectangle
 }
 chemistry_petroleum-alternatives_fermentation: Fermentation Chemistry {
@@ -124,6 +130,9 @@ health_nutrition: Nutrition {
   shape: rectangle
 }
 health_sanitation: "Water Supply & Sanitation" {
+  shape: rectangle
+}
+metals: Metals {
   shape: rectangle
 }
 metals_iron-steel: "Iron & Steel Production" {
@@ -149,9 +158,18 @@ food-processing_milling -> energy: { class: tool-edge }
 food-processing_oil-processing -> ceramics: { class: tool-edge }
 food-processing_oil-processing -> foundations_food-agriculture: { class: material-edge }
 food-processing_oil-processing -> metals_iron-steel: { class: tool-edge }
+food-processing_pasteurization -> energy: { class: material-edge }
+food-processing_pasteurization -> health_sanitation: { class: tool-edge }
+food-processing_pasteurization -> metals: { class: tool-edge }
 food-processing_preservation -> ceramics: { class: material-edge }
 food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 food-processing_preservation -> health_sanitation: { class: tool-edge }
+food-processing_refrigeration -> chemistry: { class: material-edge }
+food-processing_refrigeration -> energy: { class: material-edge }
+food-processing_refrigeration -> metals: { class: tool-edge }
+food-processing_traditional-preservation -> ceramics: { class: material-edge }
+food-processing_traditional-preservation -> health_sanitation: { class: tool-edge }
+food-processing_traditional-preservation -> mining_salt: { class: material-edge }
 food-processing -> agriculture_crop-rotation: { class: material-edge }
 food-processing -> energy_biomass-energy: { class: material-edge }
 food-processing -> energy: { class: tool-edge }
@@ -169,9 +187,13 @@ food-processing_dairy.class: capability
 food-processing_fermentation.class: earlyWin
 food-processing_oil-processing.class: earlyWin
 food-processing_milling.class: earlyWin
+food-processing_pasteurization.class: capability
 food-processing_preservation.class: capability
+food-processing_refrigeration.class: capability
+food-processing_traditional-preservation.class: earlyWin
 agriculture_crop-rotation.class: external
 ceramics.class: external
+chemistry.class: external
 chemistry_petroleum-alternatives_fermentation.class: external
 defense.class: external
 energy.class: external
@@ -179,6 +201,7 @@ energy_biomass-energy.class: external
 foundations_food-agriculture.class: external
 health_nutrition.class: external
 health_sanitation.class: external
+metals.class: external
 metals_iron-steel.class: external
 mining_salt.class: external
 water.class: external

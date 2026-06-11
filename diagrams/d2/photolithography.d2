@@ -109,7 +109,7 @@ chemistry: Chemistry {
 chemistry_dopant-etch-gases: "Dopant & Etch Gases" {
   shape: rectangle
 }
-chemistry_packaging-testing: "Semiconductor Packaging & Testing" {
+chemistry_packaging-testing: "Analytical Testing & Pharmaceutical Packaging" {
   shape: rectangle
 }
 chemistry_photographic-chemistry: Photographic Chemistry {
@@ -125,6 +125,9 @@ computing_electronic: Electronic Computing {
   shape: rectangle
 }
 economics-organization_supply-chain: Supply Chain Coordination {
+  shape: rectangle
+}
+electronics_packaging-testing: "Semiconductor Packaging & Testing" {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
@@ -206,6 +209,7 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 # ==================== EDGES ====================
 chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
 computing_electronic -> photolithography_fab-processes: { class: material-edge }
+electronics_packaging-testing -> photolithography_fab-processes: { class: material-edge }
 glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
 metals_specialty-semiconductor -> photolithography_fab-processes: { class: material-edge }
 photolithography_cleanrooms -> ceramics: { class: tool-edge }
@@ -269,6 +273,7 @@ chemistry_semiconductor-chemicals.class: external
 cleanrooms.class: external
 computing_electronic.class: external
 economics-organization_supply-chain.class: external
+electronics_packaging-testing.class: external
 energy_electricity.class: external
 gas-handling.class: external
 gas-handling_basic.class: external

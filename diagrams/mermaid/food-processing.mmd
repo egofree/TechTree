@@ -11,7 +11,10 @@ graph TD
         food-processing_fermentation["Food Fermentation"]
         food-processing_oil-processing["Oil & Fat Processing"]
         food-processing_milling["Grain Milling"]
+        food-processing_pasteurization["Pasteurization"]
         food-processing_preservation["Food Preservation"]
+        food-processing_refrigeration["Refrigeration"]
+        food-processing_traditional-preservation["Traditional Preservation"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -20,6 +23,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture_crop-rotation("Crop Rotation & Nutrient Cycling")
     ceramics("Ceramics & Refractories")
+    chemistry("Chemistry")
     chemistry_petroleum-alternatives_fermentation("Fermentation Chemistry")
     defense("Defense & Military Engineering")
     energy("Energy")
@@ -27,6 +31,7 @@ graph TD
     foundations_food-agriculture("Agriculture & Food Production")
     health_nutrition("Nutrition")
     health_sanitation("Water Supply & Sanitation")
+    metals("Metals")
     metals_iron-steel("Iron & Steel Production")
     mining_salt("Salt / Halite Production")
     water("Water")
@@ -44,9 +49,18 @@ graph TD
     food-processing_oil-processing -.-> ceramics
     food-processing_oil-processing --> foundations_food-agriculture
     food-processing_oil-processing -.-> metals_iron-steel
+    food-processing_pasteurization --> energy
+    food-processing_pasteurization -.-> health_sanitation
+    food-processing_pasteurization -.-> metals
     food-processing_preservation --> ceramics
     food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
     food-processing_preservation -.-> health_sanitation
+    food-processing_refrigeration --> chemistry
+    food-processing_refrigeration --> energy
+    food-processing_refrigeration -.-> metals
+    food-processing_traditional-preservation --> ceramics
+    food-processing_traditional-preservation -.-> health_sanitation
+    food-processing_traditional-preservation --> mining_salt
     food-processing --> agriculture_crop-rotation
     food-processing --> energy_biomass-energy
     food-processing -.-> energy
@@ -77,9 +91,13 @@ graph TD
     class food-processing_fermentation earlyWin
     class food-processing_oil-processing earlyWin
     class food-processing_milling earlyWin
+    class food-processing_pasteurization capability
     class food-processing_preservation capability
+    class food-processing_refrigeration capability
+    class food-processing_traditional-preservation earlyWin
     class agriculture_crop-rotation external
     class ceramics external
+    class chemistry external
     class chemistry_petroleum-alternatives_fermentation external
     class defense external
     class energy external
@@ -87,6 +105,7 @@ graph TD
     class foundations_food-agriculture external
     class health_nutrition external
     class health_sanitation external
+    class metals external
     class metals_iron-steel external
     class mining_salt external
     class water external

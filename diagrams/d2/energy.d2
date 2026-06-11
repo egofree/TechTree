@@ -155,7 +155,7 @@ chemistry_electrodialysis: Electrodialysis {
 chemistry_electrolysis: Electrolysis {
   shape: rectangle
 }
-chemistry_electrolysis_water-splitting: "Water Electrolysis (H₂/O₂)" {
+chemistry_electrolysis_thermochemical-water-splitting: Thermochemical Water Splitting {
   shape: rectangle
 }
 chemistry_explosives: Explosives and Propellants {
@@ -207,6 +207,12 @@ food-processing_brewing: "Brewing & Distilling" {
   shape: rectangle
 }
 food-processing_milling: Grain Milling {
+  shape: rectangle
+}
+food-processing_pasteurization: Pasteurization {
+  shape: rectangle
+}
+food-processing_refrigeration: Refrigeration {
   shape: rectangle
 }
 foundations_fire: Fire-Making {
@@ -464,7 +470,7 @@ energy_electricity -> metals_magnetic-materials: { class: material-edge }
 energy_electricity -> metals_wire-drawing: { class: material-edge }
 energy_engine -> metals: { class: tool-edge }
 energy_engine -> petroleum_refining: { class: material-edge }
-energy_fuel-cell -> chemistry_electrolysis_water-splitting: { class: material-edge }
+energy_fuel-cell -> chemistry_electrolysis_thermochemical-water-splitting: { class: material-edge }
 energy_fuel-cell -> chemistry: { class: material-edge }
 energy_fuels_charcoal -> foundations_fire: { class: tool-edge }
 energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
@@ -508,6 +514,8 @@ energy -> ceramics_thermal-insulation: { class: material-edge }
 energy -> metals: { class: tool-edge }
 food-processing_brewing -> energy: { class: tool-edge }
 food-processing_milling -> energy: { class: tool-edge }
+food-processing_pasteurization -> energy: { class: material-edge }
+food-processing_refrigeration -> energy: { class: material-edge }
 food-processing -> energy_biomass-energy: { class: material-edge }
 food-processing -> energy: { class: tool-edge }
 gas-handling -> energy: { class: material-edge }
@@ -607,7 +615,7 @@ chemistry_ammonia.class: external
 chemistry_e-methanol.class: external
 chemistry_electrodialysis.class: external
 chemistry_electrolysis.class: external
-chemistry_electrolysis_water-splitting.class: external
+chemistry_electrolysis_thermochemical-water-splitting.class: external
 chemistry_explosives.class: external
 chemistry_explosives_black-powder.class: external
 chemistry_lubricants.class: external
@@ -625,6 +633,8 @@ electronics_wire-insulation.class: external
 food-processing.class: external
 food-processing_brewing.class: external
 food-processing_milling.class: external
+food-processing_pasteurization.class: external
+food-processing_refrigeration.class: external
 foundations_fire.class: external
 gas-handling.class: external
 glass.class: external

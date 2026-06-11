@@ -138,6 +138,9 @@ food-processing_oil-processing: "Oil & Fat Processing" {
 food-processing_preservation: Food Preservation {
   shape: rectangle
 }
+food-processing_traditional-preservation: Traditional Preservation {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -157,9 +160,6 @@ metals: Metals {
   shape: rectangle
 }
 metals_copper: Copper Production {
-  shape: rectangle
-}
-metals_copper-bronze: "Copper & Bronze Production" {
   shape: rectangle
 }
 metals_iron-steel_blast-furnace: Blast Furnace and Cast Iron {
@@ -200,8 +200,8 @@ energy -> ceramics_thermal-insulation: { class: material-edge }
 food-processing_dairy -> ceramics: { class: material-edge }
 food-processing_oil-processing -> ceramics: { class: tool-edge }
 food-processing_preservation -> ceramics: { class: material-edge }
+food-processing_traditional-preservation -> ceramics: { class: material-edge }
 health_sanitation -> ceramics: { class: tool-edge }
-metals_copper-bronze -> ceramics: { class: tool-edge }
 metals_copper -> ceramics: { class: tool-edge }
 metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
 photolithography_cleanrooms -> ceramics: { class: tool-edge }
@@ -229,6 +229,7 @@ energy_fuels_coke.class: external
 food-processing_dairy.class: external
 food-processing_oil-processing.class: external
 food-processing_preservation.class: external
+food-processing_traditional-preservation.class: external
 foundations.class: external
 foundations_fire.class: external
 foundations_tools-basic.class: external
@@ -236,7 +237,6 @@ glass_basic.class: external
 health_sanitation.class: external
 metals.class: external
 metals_copper.class: external
-metals_copper-bronze.class: external
 metals_iron-steel_blast-furnace.class: external
 mining.class: external
 photolithography_cleanrooms.class: external

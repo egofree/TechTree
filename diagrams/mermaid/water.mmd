@@ -23,6 +23,8 @@ graph TD
     chemistry_water-treatment("Industrial Water Treatment")
     ehs_waste-management("Waste Management")
     food-processing("Food Processing")
+    foundations_tools-basic("Stone & Wood Tools")
+    health_sanitation("Water Supply & Sanitation")
     metals_pipe-making("Pipe and Tube Manufacturing")
     ultra-pure_upw("Ultra-Pure Water Production")
 
@@ -33,9 +35,11 @@ graph TD
     chemistry_water-treatment --> water_sewage
     ehs_waste-management -.-> water_sewage
     food-processing --> water
+    health_sanitation --> water_procurement
     ultra-pure_upw --> water
     water_basic-treatment --> chemistry_bleaching
     water_distribution --> metals_pipe-making
+    water_procurement -.-> foundations_tools-basic
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -64,6 +68,8 @@ graph TD
     class chemistry_water-treatment external
     class ehs_waste-management external
     class food-processing external
+    class foundations_tools-basic external
+    class health_sanitation external
     class metals_pipe-making external
     class ultra-pure_upw external
     class EdgeLegend,MatNote,ToolNote legend

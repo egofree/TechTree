@@ -108,7 +108,7 @@ chemistry: Chemistry {
 chemistry_distillation: Distillation {
   shape: rectangle
 }
-chemistry_packaging-testing: "Semiconductor Packaging & Testing" {
+chemistry_packaging-testing: "Analytical Testing & Pharmaceutical Packaging" {
   shape: rectangle
 }
 chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
@@ -124,6 +124,9 @@ electronics_assembly: Electronics Assembly {
   shape: rectangle
 }
 electronics_electrical-systems: Electrical Systems {
+  shape: rectangle
+}
+electronics_packaging-testing: "Semiconductor Packaging & Testing" {
   shape: rectangle
 }
 energy_storage: "Energy Storage & Diversification" {
@@ -169,6 +172,7 @@ telecom_submarine-cables: Submarine Cable Systems {
 # ==================== EDGES ====================
 polymers_composites -> polymers_thermosets: { class: material-edge }
 polymers_rubber_gutta-percha -> polymers_rubber: { class: tool-edge }
+polymers_rubber_natural -> polymers_rubber: { class: tool-edge }
 polymers_rubber_shellac -> polymers_rubber: { class: tool-edge }
 polymers_rubber -> polymers_rubber_vulcanization: { class: tool-edge }
 chemistry_packaging-testing -> polymers_thermosets: { class: material-edge }
@@ -176,6 +180,7 @@ computing_data-storage -> polymers_thermoplastics: { class: material-edge }
 ehs_ppe -> polymers: { class: tool-edge }
 electronics_assembly -> polymers_thermosets: { class: material-edge }
 electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
+electronics_packaging-testing -> polymers_thermosets: { class: material-edge }
 energy_storage -> polymers_rubber: { class: material-edge }
 gas-handling -> polymers_seals-gaskets: { class: tool-edge }
 health -> polymers_rubber: { class: material-edge }
@@ -184,6 +189,7 @@ photolithography_fab-processes_cmp -> polymers_thermosets: { class: material-edg
 photolithography_resists-masks -> polymers_thermosets: { class: material-edge }
 polymers_composites -> glass_fibers: { class: material-edge }
 polymers_composites -> machine-tools: { class: tool-edge }
+polymers_rubber_natural -> chemistry_distillation: { class: material-edge }
 polymers_rubber_natural -> foundations_fire: { class: tool-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
 polymers_rubber_synthetic -> chemistry_petroleum-alternatives: { class: material-edge }
@@ -219,6 +225,7 @@ computing_data-storage.class: external
 ehs_ppe.class: external
 electronics_assembly.class: external
 electronics_electrical-systems.class: external
+electronics_packaging-testing.class: external
 energy_storage.class: external
 foundations.class: external
 foundations_fire.class: external

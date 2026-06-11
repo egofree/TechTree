@@ -118,6 +118,12 @@ ehs_waste-management: Waste Management {
 food-processing: Food Processing {
   shape: rectangle
 }
+foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+health_sanitation: "Water Supply & Sanitation" {
+  shape: rectangle
+}
 metals_pipe-making: Pipe and Tube Manufacturing {
   shape: rectangle
 }
@@ -132,9 +138,11 @@ chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 chemistry_water-treatment -> water_sewage: { class: material-edge }
 ehs_waste-management -> water_sewage: { class: tool-edge }
 food-processing -> water: { class: material-edge }
+health_sanitation -> water_procurement: { class: material-edge }
 ultra-pure_upw -> water: { class: material-edge }
 water_basic-treatment -> chemistry_bleaching: { class: material-edge }
 water_distribution -> metals_pipe-making: { class: material-edge }
+water_procurement -> foundations_tools-basic: { class: tool-edge }
 
 # ==================== STYLING ====================
 water.class: domain
@@ -150,6 +158,8 @@ chemistry_electrodialysis.class: external
 chemistry_water-treatment.class: external
 ehs_waste-management.class: external
 food-processing.class: external
+foundations_tools-basic.class: external
+health_sanitation.class: external
 metals_pipe-making.class: external
 ultra-pure_upw.class: external
 

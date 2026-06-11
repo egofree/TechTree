@@ -40,7 +40,7 @@ Capabilities in this domain:
 
 - [SEM Tech Lithium Separation](sem-tech-lithium-separation.md) — selective ion recovery from brines
 
-- [Semiconductor Packaging & Testing](packaging-testing.md) — Wafer backgrinding, die singulation (diamond blade dicing), die attach (eutectic or epoxy), wire bonding (Au ball bonding, Al wedge), encapsulation (transfer molding with epoxy-silica compound), lead forming, wafer probing (DC parametric + functional), burn-in, and final test.
+- [Analytical Testing & Pharmaceutical Packaging](packaging-testing.md) — Analytical methods (titration, gravimetry, spectrophotometry, HPLC), statistical quality control (SPC), pharmaceutical packaging materials (glass, plastic, aluminum), stability testing (ICH conditions), and finished product release testing.
 
 - [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — Petroleum extraction (surface seeps → cable-tool → rotary drilling), refining (batch distillation → fractional distillation → thermal cracking), coal tar chemistry (benzene, phenol, naphthalene from coke ovens), fermentation (ethanol, acetone, acetic acid, methanol), and wood gasification.
 

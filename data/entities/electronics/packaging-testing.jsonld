@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Semiconductor die packaging and testing: wafer backgrinding, die singulation, die attach (eutectic or epoxy), wire bonding (Au ball, Al wedge), encapsulation (transfer molding), lead forming, wafer probing (DC parametric + functional), burn-in testing, final test, reliability qualification (JEDEC, AEC-Q100, MIL-STD-883).",
+  "early_win": false,
+  "id": "electronics.packaging-testing",
+  "level": "capability",
+  "name": "Semiconductor Packaging & Testing",
+  "outputs": [
+    "packaged_ics",
+    "tested_ics",
+    "yield_data"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals",
+      "polymers",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

@@ -17,4 +17,6 @@ Capabilities in this domain:
 - [Soldering Iron](soldering-iron.md) — Temperature-controlled soldering irons for electronics assembly, repair, and wire joining.
 
 - [Electronic Test Equipment](test-equipment.md) — Multimeters, oscilloscopes, signal generators, and power supplies for circuit testing and characterization.
+
+- [Semiconductor Packaging & Testing](packaging-testing.md) — Wafer backgrinding, die singulation, die attach, wire bonding, encapsulation, wafer probing, burn-in testing, reliability qualification (JEDEC, AEC-Q100, MIL-STD-883).
 [↑ Back to Tech Tree](../../index.md)

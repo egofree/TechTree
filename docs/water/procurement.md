@@ -270,6 +270,62 @@ The jump from village to town scale is the critical threshold: it requires mecha
 - **Simple bacterial test**: Hydrogen sulfide (H₂S) presence/absence test — a strip or bottle that turns black if fecal contamination is present. Low cost, no laboratory required.
 - **Yield measurement**: For wells, measure static water level and pumping level. The difference (drawdown) indicates aquifer response. Record seasonally to track long-term aquifer health.
 
+## Dew Collection
+
+Spread wool or linen cloth over grass before dawn, weighted with stones to keep contact with the vegetation. Wring out the cloth at sunrise. Yield: 0.5-2 liters per m² of cloth per night in humid climates. This method works best in coastal or high-humidity areas where nighttime condensation is heavy. Multiple cloths increase total yield. A frame of 4-6 m² of cloth spread over grassy ground can produce 3-8 liters per night. The collected water requires no treatment if the cloth is clean. Wool absorbs more moisture than linen but is heavier to wring out.
+
+## Solar Still
+
+Dig a pit 60-100 cm in diameter and 40-60 cm deep. Place a collection container in the center. Cover the pit with a clear plastic sheet, sealing the edges with soil or stones. Weight the center of the sheet with a stone so it forms a cone shape pointing down into the container. Moisture evaporates from the soil, condenses on the plastic, runs to the lowest point, and drips into the container. Yield: 0.5-2 liters per day depending on soil moisture. Adding green vegetation or urine to the pit soil increases output by 30-50%. This technique produces distilled water, which is free of pathogens and salts. For higher yield, dig multiple stills rather than making one larger pit. A still 1 m in diameter works better than a 2 m one because the condensation distance from soil to plastic is shorter.
+
+## Ground Catchment
+
+Where no roof is available, a prepared ground surface collects rainfall. Smooth a sloped area with compacted clay or stone paving, directing runoff to a central collection point. A 100 m² catchment surface receiving 500 mm of annual rain yields 50,000 liters of potential collection. Actual recovery is 50-80% due to evaporation, surface absorption, and minor losses. Clay loses less water to absorption than sandy soil. Contouring the catchment into shallow channels increases flow speed and reduces evaporation losses. A stone-paved catchment with 2-3% slope achieves recovery rates of 70-85%, among the highest for ground-level collection.
+
+## Hillside Seep Collection
+
+Where groundwater seeps from a hillside rather than emerging at a single point, collect it with a gravel-filled trench. Dig a trench 30-40 cm wide and 40-60 cm deep along the seep line, running perpendicular to the slope. Fill with clean gravel or crushed stone. Place a perforated clay pipe or stone channel at the bottom of the trench to carry collected water to a storage tank. A seep trench 10 m long can collect 50-200 liters per day depending on the groundwater flow rate. Cover the trench surface with clay to prevent surface water from entering and contaminating the supply.
+
+## Water Containers
+
+**Clay pots**: Clay pots hold 5-20 liters and are carried on the head or hip. They keep water cool through slow evaporation through the porous walls, lowering stored water temperature by 5-8°C below ambient. Breakage rate runs 10-20% per year depending on handling and wall thickness. Fire-hardened pots survive longer than sun-dried ones. A well-made pot with walls 8-12 mm thick weighs 2-4 kg empty and lasts 3-5 years with careful handling.
+
+**Wooden buckets**: Cedar or oak staves bound with iron or wooden bands produce buckets of 8-15 liters capacity. More durable than clay pots with a service life of 5-15 years if kept moist (dry wood shrinks and leaks). Iron bands last 3-5 years before rusting through; wooden bands require replacement every 2-3 years but need no metal. Soak new buckets in water for 24-48 hours before use to swell the staves and seal gaps.
+
+**Leather water bags**: Goat or sheep hide sewn with sinew produces lightweight containers of 2-5 liters. Treated hides (scraped, stretched, and smoked) last 1-3 years before leaking. These bags suit travel because they are light, flexible, and collapse when empty. A large goatskin bag holds 4-5 liters and weighs under 500 g empty, making it practical for hunting parties or scouting expeditions.
+
+## Rainwater Harvesting System Sizing
+
+**Collection efficiency**: A well-maintained roof catchment system with gutters captures 80-90% of incident rainfall. Losses come from evaporation (3-5%), splash and overflow (5-10%), and first-flush diversion (1-2 mm per storm event). A 100 m² roof in a 600 mm/year rainfall zone with 85% collection efficiency yields approximately 51,000 liters annually.
+
+**First-flush diverter**: The first rain after a dry period carries dust, bird droppings, leaves, and insect debris from the roof surface. Discard the first 1-2 mm of rainfall before directing flow to storage. A simple diverter uses a small tank or pipe segment that fills first. Once full (typically 50-100 liters for a 100 m² roof), a floating ball or manual valve redirects subsequent flow to the main storage cistern. This single step removes 80-90% of rooftop contaminants.
+
+**Tank sizing for dry season**: Calculate storage to bridge the longest expected dry period. For a household of 5 at 50 liters per person per day (conservation mode) through a 4-month dry season: 5 × 50 × 120 days = 30,000 liters (30 m³). Add 25% margin for evaporation and seepage losses: 37.5 m³. A single cistern of this size is feasible in concrete or stone, or split into two 19 m³ cisterns for redundancy.
+
+**Catchment-to-storage ratio**: As a rule, the catchment area should be sized to fill the storage tank at least 1.5-2× during the wet season, allowing for below-average rainfall years.
+
+**System redundancy**: Never depend on a single water source or single storage structure. A community water plan should include at least two independent sources (well + rainwater catchment, or spring + river with treatment) and distribute storage across multiple cisterns.
+
+**Seasonal inspection cycle**: Before the wet season, clean gutters and first-flush diverters, check cistern lids and screens for integrity, and verify overflow pipes are clear. After the wet season, inspect cistern interiors for sediment accumulation, check lime plaster for cracks or spalling, and repair before the next refill cycle.
+
+## Field Water Quality Testing
+
+**Secchi disk clarity**: Lower a white disk 20 cm in diameter into the water on a calibrated cord. The depth at which it disappears from view is the Secchi depth. Readings below 1.5 m indicate turbidity too high for drinking without treatment. Clear water bodies register 4-10 m Secchi depth.
+
+**Litmus pH testing**: Dip litmus paper into the water sample. The color change indicates approximate pH on a range of 4.5-8.5. Drinking water should fall between 6.5-8.5 pH. Water below pH 6.5 (acidic) corrodes metal pipes and may contain dissolved heavy metals. Water above pH 8.5 (alkaline) tastes unpleasant and reduces the effectiveness of chlorine disinfection.
+
+**Conductivity cell for dissolved solids**: Two electrodes immersed in water measure electrical conductivity, which correlates with total dissolved solids (TDS). A handheld conductivity meter reads in microsiemens per cm (μS/cm). Convert to approximate TDS in mg/L by multiplying by 0.5-0.7. Drinking water TDS should be below 1,000 mg/L. Readings above 2,000 mg/L indicate brackish water unsuitable for long-term consumption.
+
+## Emergency Disinfection Methods
+
+**Solar disinfection (SODIS)**: Fill clear PET plastic bottles with clear (not turbid) water and expose to full sun for 6 hours. UV-A radiation and thermal heating inactivate pathogens. Works best at water temperatures above 50°C and in water clear enough to read text through. Cloudy weather requires 2 consecutive days of exposure. Does not work with glass (blocks UV-A) or tinted plastic. Turbid water must be filtered first.
+
+**Iodine disinfection**: Add 2-4 drops of 2% tincture of iodine per liter of clear water. Stir and wait 30 minutes before drinking. Iodine kills bacteria and viruses but is less effective against Cryptosporidium cysts. Not suitable for pregnant women or individuals with thyroid conditions. Water treated with iodine has a noticeable taste; adding vitamin C (ascorbic acid) after the 30-minute wait neutralizes both the taste and residual iodine.
+
+## Well Maintenance
+
+**Annual shock chlorination**: Pump the well dry or draw down the water level. Add chlorine (sodium hypochlorite or calcium hypochlorite) to achieve approximately 500 mg/L free chlorine in the well water. For a 1 m diameter well with 5 m of water depth (~3,900 L), this requires roughly 2 L of 10% sodium hypochlorite solution. Agitate by surging (raising and lowering a bailer) to distribute chlorine throughout the water column and over the well walls. Let stand 12-24 hours with the well sealed. Pump the well until chlorine odor dissipates before returning to service. This procedure controls iron bacteria slime, coliform contamination, and biofilm buildup on well casings.
+
 ## Variations and Alternatives
 
 - **Qanats (infiltration galleries)**: Persian water tunnels that tap groundwater at the base of hills and deliver it to valleys via gently sloping underground tunnels. Gradient: 0.05-0.5%. No pumping required. Some have operated for 2,000+ years. Labor-intensive to construct but extremely long-lived.
@@ -285,6 +341,13 @@ The jump from village to town scale is the critical threshold: it requires mecha
 | Roof catchment | Household, any climate | 50-500 L/day | Very low | 0+ |
 | River intake | Large settlements | Unlimited | Moderate | 5+ |
 | Qanat | Arid regions, hills | 43,200-4,320,000 L/day | High | 5+ |
+| Solar still | Emergency, arid | 0.5-2 L/day | Very low | 0+ |
+| Dew collection | Coastal, humid | 3-8 L/night per 4-6 m² | Very low | 0+ |
+
+## Cross-Domain Links
+
+- [Ceramics → Pottery](../ceramics/pottery.md) for construction of clay pots, pipes, tiles, and cistern linings
+- [Animals → Domestication](../animals/domestication.md) for livestock water requirements (cattle: 30-50 liters/day, goats: 5-10 liters/day, horses: 30-45 liters/day)
 
 ## See Also
 
@@ -293,6 +356,7 @@ The jump from village to town scale is the critical threshold: it requires mecha
 - [Health: Sanitation](../health/sanitation.md) — water supply enables sanitation practices
 - [Foundations: Basic Tools](../foundations/tools-basic.md) — digging implements and construction tools
 - [Metals: Iron & Steel](../metals/iron-steel.md) — pipe and pump components for developed sources
+- [Agriculture](../agriculture/index.md) — irrigation systems requiring reliable water supply
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*

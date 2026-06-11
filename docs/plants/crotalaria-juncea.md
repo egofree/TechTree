@@ -194,9 +194,7 @@ Sunn hemp fiber produces a coarse yarn that is too rough for clothing but excell
 
 ### Sunn Hemp Summary
 
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+*Content to be added: fiber yield data, extraction efficiency, processing parameters.*
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

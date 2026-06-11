@@ -2,7 +2,7 @@
 
 > **Node ID**: health.sanitation
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`foundations.water-procurement`](../foundations/water-procurement.md)
+> **Dependencies**: [`ceramics`](../ceramics/index.md), [`water.procurement`](../water/procurement.md)
 > **Enables**: [`food-processing`](../food-processing/index.md), [`food-processing.dairy`](../food-processing/dairy.md), [`food-processing.preservation`](../food-processing/preservation.md), [`health.medicine`](medicine.md), [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: clean_water, sanitation

@@ -88,8 +88,6 @@ Hadfield steel (invented 1882) is the archetype of a work-hardening alloy:
 - **Machining difficulty**: Nearly impossible to machine conventionally — any cutting tool work-hardens the surface ahead of the cut. Must be ground, or machined with extreme care using sharp tools and minimal feed. Cast to near-net shape whenever possible.
 - **Welding**: Requires careful preheat and post-weld solution treatment to restore austenitic structure in the heat-affected zone. Without re-solutionizing, the HAZ becomes embrittled by carbide precipitation and partial martensitic transformation.
 
-- **Welding**: Requires careful preheat and post-weld solution treatment to restore austenitic structure in the heat-affected zone. Without re-solutionizing, the HAZ becomes embrittled by carbide precipitation and partial martensitic transformation.
-
 **Strengths**:
 - Work-hardening rate 10-15× that of plain carbon steel — surface hardness increases from HB 200 to HB 500-550 under impact, while core remains ductile.
 - Excellent combination of impact resistance and abrasive wear resistance in a single material — ideal for rock crusher jaws, ball mill liners, and excavator bucket teeth.
@@ -146,8 +144,6 @@ Beyond the basic brasses and bronzes covered in [Copper & Bronze](copper-bronze.
 - **90/10 Cu-Ni** (C70600): 90% Cu, 10% Ni, 1.5% Fe, 0.5% Mn. Excellent seawater corrosion resistance — the nickel stabilizes the protective oxide film. Biofouling resistance (copper ions inhibit marine organism attachment). Used for seawater desalination tubing, ship hull cladding, offshore platform piping.
 - **70/30 Cu-Ni** (C71500): Higher strength and slightly better corrosion resistance than 90/10, but more expensive. Used for condenser tubes in power plants, naval ship piping.
 
-- **Health hazard**: Beryllium dust and fumes cause chronic beryllium disease (berylliosis) — a serious and potentially fatal lung condition. Machining requires strict dust control, ventilation, and respiratory protection. See Safety section.
-
 **Strengths**:
 - Be-Cu achieves HRC 36-44 — the highest hardness of any copper alloy — while maintaining non-sparking and non-magnetic properties.
 - Cupronickel (90/10 and 70/30) provides excellent seawater corrosion resistance with inherent biofouling resistance (copper ions inhibit marine organism attachment).
@@ -176,8 +172,6 @@ Titanium alloys occupy a critical niche: high strength-to-weight ratio (density 
 **α titanium alloys**:
 - Commercially pure titanium (CP Grades 1-4, varying oxygen content from 0.18% to 0.40%): Single-phase α. Oxygen is an interstitial strengthener — Grade 4 (0.40% O) has ~550 MPa yield vs. Grade 1 (0.18% O) at ~170 MPa. Used where corrosion resistance is paramount: chemical plant equipment, marine, architectural, heat exchanger tubing. Grade 1 is used for deep-drawing applications due to excellent formability.
 
-- **Limitations**: Poor tribological properties (galling, poor wear resistance) — requires surface treatments or coatings for bearing surfaces. Low thermal conductivity makes machining difficult (heat concentrates at the cutting edge). Reactive with oxygen above ~600°C — all hot working must be done in inert atmosphere or with protective coatings.
-
 **Strengths**:
 - Ti-6Al-4V provides strength-to-weight ratio (σ/ρ ≈ 200 kN·m/kg) matching 7075-T6 aluminum at 580°C service temperature — irreplaceable for jet engine fan blades.
 - Titanium's osseointegration ability (direct bone-to-implant bonding) is unique among structural metals — the foundation of orthopedic and dental implant technology.
@@ -201,8 +195,6 @@ Primary aluminum production is covered in [Aluminum](aluminum.md). The major all
 - **Music wire** (0.8-1.0% C): Patent-drawn (austenitized, quenched in lead bath at ~500°C to form fine pearlite, then cold-drawn). Tensile strength up to 3,000 MPa in the finest gauges — among the strongest steel products. Used for precision springs, piano wire, valve springs.
 - **Chrome-vanadium spring steel** (0.5% C, 0.8% Cr, 0.15% V, e.g., AISI 6150): Oil-quenched and tempered to HRC 42-48. Vanadium refines grain size, improving fatigue life. Used for automotive leaf and coil springs, torsion bars.
 - **Chrome-silicon spring steel** (0.55% C, 0.7% Cr, 1.5% Si, e.g., AISI 9254): Silicon raises the elastic limit and improves temper resistance. Oil-quenched from 860-900°C, tempered at 400-450°C. Used for high-stress valve springs, clutch springs. Silicon also increases resistance to stress relaxation at elevated temperatures.
-
-**Casting alloys** (e.g., A356 = Al-7Si-0.3Mg): Silicon improves castability (fluidity, reduced shrinkage). Heat-treatable via Mg₂Si precipitation. Used for engine blocks, transmission cases, wheels. Al-Si eutectic (12.6% Si) provides the best fluidity — hypereutectic alloys (e.g., A390, 17% Si) used for wear-resistant cylinder liners where primary Si particles provide abrasion resistance.
 
 **Casting alloys** (e.g., A356 = Al-7Si-0.3Mg): Silicon improves castability (fluidity, reduced shrinkage). Heat-treatable via Mg₂Si precipitation. Used for engine blocks, transmission cases, wheels. Al-Si eutectic (12.6% Si) provides the best fluidity — hypereutectic alloys (e.g., A390, 17% Si) used for wear-resistant cylinder liners where primary Si particles provide abrasion resistance.
 
@@ -233,8 +225,6 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 - **Strength-to-weight ratio**: Critical for aerospace and transport. Ti-6Al-4V (σ/ρ ≈ 200 kN·m/kg) vs. 7075-T6 (≈ 200) vs. 4340 steel (≈ 80). Titanium and high-strength aluminum are comparable per unit mass, but steel is 3× denser.
 - **Corrosion resistance**: Determine the specific environment (oxidizing vs. reducing, chlorides, acids, temperature). Select by PREN (pitting resistance equivalent number): PREN = %Cr + 3.3×%Mo + 16×%N. Higher PREN = better localized corrosion resistance.
 - **Temperature capability**: Ferritic steels to ~500°C, austenitic stainless to ~750°C, Ni-superalloys to ~1,000°C (cooled components in gas turbines to ~1,100°C). Creep rate accelerates exponentially with temperature — a factor of 10× per 20-30°C increase in many alloys.
-- **Fabricability**: Weldability, castability, machinability, formability. A high-performance alloy that cannot be fabricated into the required shape is useless. Welding is the most common limitation — high-strength alloys are often unweldable due to hot cracking, HAZ softening, or stress corrosion susceptibility.
-
 - **Fabricability**: Weldability, castability, machinability, formability. A high-performance alloy that cannot be fabricated into the required shape is useless. Welding is the most common limitation — high-strength alloys are often unweldable due to hot cracking, HAZ softening, or stress corrosion susceptibility.
 
 **Strengths**:

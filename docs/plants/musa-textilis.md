@@ -194,9 +194,7 @@ Abaca (Manila hemp) rope was so critical to the US Navy that the Philippine prod
 
 ### Abaca Summary
 
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+*Content to be added: fiber yield data, extraction efficiency, processing parameters.*
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

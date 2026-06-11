@@ -20,7 +20,7 @@ The Drake well at Titusville, Pennsylvania, used cable-tool drilling to reach ap
 
 Primary outputs: `crude_oil`.
 
-The cable-tool method's principal advantage for bootstrapping is that it can be built and operated with iron-age metallurgy and basic mechanical skills, providing access to subsurface petroleum deposits without the industrial infrastructure required for rotary drilling.
+The cable-tool method's principal advantage for bootstrapping is that it can be built and operated with ironage metallurgy and basic mechanical skills, providing access to subsurface petroleum deposits without the industrial infrastructure required for rotary drilling.
 
 Early cable-tool wells in Pennsylvania produced from shallow sandstone formations at depths of 50-300 m. As these shallow fields depleted, drillers pushed deeper, eventually reaching 1,000+ m in the Appalachian basin. The transition to wire rope from manila cable in the 1870s enabled these deeper wells, as manila rope could not reliably support the tool weights needed at depth. Each technology improvement in cable construction directly translated to deeper well capability.
 
@@ -195,8 +195,6 @@ The jars in the tool string serve a specific mechanical purpose. They consist of
 - **Auger drilling**: Rotary hand auger for very shallow wells in soft soil. Limited to 10-20 m in unconsolidated material. No rock penetration capability.
 
 Cable-tool drilling is largely obsolete in modern petroleum operations but remains relevant for water well drilling, mineral exploration, and geotechnical investigation in remote areas where transporting a rotary rig is impractical. The method provides an entry point for early bootstrapping of petroleum extraction capability, as the rig can be constructed with basic ironworking and woodworking skills plus a steam engine for power.
-
-The cable-tool method produces less formation damage than rotary drilling in some circumstances because it does not force drilling mud into the producing formation under pressure. This can result in better initial well productivity in certain reservoir types, particularly low-pressure sandstone reservoirs where mud invasion would permanently reduce permeability near the wellbore.
 
 The tempering screw allows the driller to control the rate at which the bit feeds into the rock, adjusting for formation hardness and preventing the tool string from sticking in soft formations. The driller's judgment in reading the cable vibration and sound of the bit is the primary control input, making cable-tool drilling as much craft as engineering.
 

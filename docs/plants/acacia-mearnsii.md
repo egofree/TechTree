@@ -194,9 +194,7 @@ Black wattle bark contains condensed tannins (proanthocyanidins) that are chemic
 
 ### Black Wattle Summary
 
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+*Content to be added: tannin yield data, extraction efficiency, bark harvest cycles.*
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

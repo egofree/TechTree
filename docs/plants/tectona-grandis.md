@@ -189,14 +189,7 @@ Teak's dimensional stability (low volumetric shrinkage of 7-8%) makes it suitabl
 
 ### Teak Summary
 
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
-vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
-
-The crop's specific growing requirements (soil type, rainfall, temperature range, and
-growing season length) determine its geographic suitability. Matching crops to local
-conditions is more important than attempting to grow unsuitable crops in marginal
+*Content to be added: timber yield data, growth rates, rotation cycles, wood properties.*
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

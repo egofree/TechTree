@@ -192,10 +192,7 @@ Cinchona bark was so valuable in the 19th century that explorers risked their li
 
 ### Cinchona Summary
 
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
-vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+*Content to be added: active compound yield, harvest timing, preparation methods.*
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

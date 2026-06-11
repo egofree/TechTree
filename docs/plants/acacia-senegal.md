@@ -195,8 +195,7 @@ Gum arabic is classified as a dietary fiber and has been shown to have prebiotic
 
 ### Gum Arabic Summary
 
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
+*Content to be added: gum yield data, harvest timing, collection methods.*
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

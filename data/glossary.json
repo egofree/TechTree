@@ -74942,7 +74942,7 @@
       "slug": "annual-shock-chlorination",
       "definition": "Pump the well dry or draw down the water level. Add chlorine (sodium hypochlorite or calcium hypochlorite) to achieve approximately 500 mg/L free chlorine in the well water. For a 1 m diameter well with 5 m of water depth (~3,900 L), this requires roughly 2 L of 10% sodium hypochlorite solution. Agitate by surging (raising and lowering a bailer) to distribute chlorine throughout the water column and over the well walls. Let stand 12-24 hours with the well sealed. Pump the well until chlorine ...",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -74951,7 +74951,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -91789,7 +91789,7 @@
       "definition": "(wort sterilization and hopping): - **Duration**: 60-90 minutes rolling boil. Purpose: sterilize wort, isomerize hop acids (bitterness), coagulate proteins (hot break), concentrate sugars. - **Hops**: Add at start of boil for bitterness (60+ minutes, α-acid isomerization ~30% efficient), middle for flavor (15-30 minutes), end for aroma (0-10 minutes, volatile oils preserved). - **Hop bittering**: α-acids (humulone, cohumulone, adhumulone) isomerize during boil. Bitterness measured in Internat...",
       "source_articles": [
         "food-processing.brewing",
-        "foundations.water-procurement",
+        "water.procurement",
         "health.medicine",
         "health.surgery-basics"
       ],
@@ -91803,7 +91803,7 @@
       "see_also": [],
       "node_refs": [
         "food-processing.brewing",
-        "foundations.water-procurement",
+        "water.procurement",
         "health.medicine",
         "health.surgery-basics"
       ],
@@ -105463,7 +105463,7 @@
       "slug": "catchment-to-storage-ratio",
       "definition": "As a rule, the catchment area should be sized to fill the storage tank at least 1.5-2× during the wet season, allowing for below-average rainfall years. A 100 m² roof with 600 mm annual rainfall, of which 450 mm falls in a 4-month wet season, captures roughly 38,000 liters during the wet months. This fills a 30 m³ tank with margin to spare in a normal year but may fall short in a drought year receiving only 60% of average rainfall. Oversizing the catchment or adding supplementary ground catch...",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -105472,7 +105472,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -119764,7 +119764,7 @@
       "slug": "collection-efficiency",
       "definition": "A well-maintained roof catchment system with gutters captures 80-90% of incident rainfall. Losses come from evaporation (3-5%), splash and overflow (5-10%), and first-flush diversion (1-2 mm per storm event). A 100 m² roof in a 600 mm/year rainfall zone with 85% collection efficiency yields approximately 51,000 liters annually.",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -119773,7 +119773,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -125283,7 +125283,7 @@
       "slug": "conductivity-cell-for-dissolved-solids",
       "definition": "Two electrodes immersed in water measure electrical conductivity, which correlates with total dissolved solids (TDS). A handheld conductivity meter reads in microsiemens per cm (μS/cm). Convert to approximate TDS in mg/L by multiplying by 0.5-0.7 (the conversion factor depends on the mix of dissolved ions). Drinking water TDS should be below 1,000 mg/L. Readings above 2,000 mg/L indicate brackish water unsuitable for long-term consumption. Calibration requires a known-concentration potassium ...",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -125292,7 +125292,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -126744,7 +126744,7 @@
         "energy.steam-power.steam-turbines",
         "energy.storage",
         "energy.wind",
-        "foundations.water-procurement",
+        "water.procurement",
         "gas-handling.basic",
         "gas-handling.vacuum",
         "metals.casting",
@@ -126832,7 +126832,7 @@
         "energy.steam-power.steam-turbines",
         "energy.storage",
         "energy.wind",
-        "foundations.water-procurement",
+        "water.procurement",
         "gas-handling.basic",
         "gas-handling.vacuum",
         "metals.casting",
@@ -224662,7 +224662,7 @@
       "slug": "iodine-disinfection",
       "definition": "Add 2-4 drops of 2% tincture of iodine per liter of clear water. Stir and wait 30 minutes before drinking. Iodine kills bacteria and viruses but is less effective against Cryptosporidium cysts. Not suitable for pregnant women or individuals with thyroid conditions. Water treated with iodine has a noticeable taste; adding vitamin C (ascorbic acid) after the 30-minute wait neutralizes both the taste and residual iodine.",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -224671,7 +224671,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -238993,7 +238993,7 @@
       "slug": "litmus-ph-testing",
       "definition": "Dip litmus paper into the water sample. The color change indicates approximate pH on a range of 4.5-8.5. Drinking water should fall between 6.5-8.5 pH. Water below pH 6.5 (acidic) corrodes metal pipes and may contain dissolved heavy metals. Water above pH 8.5 (alkaline) tastes unpleasant and reduces the effectiveness of chlorine disinfection. Narrow-range pH paper provides 0.5-unit resolution for roughly distinguishing acceptable from marginal sources.",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -239002,7 +239002,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -334714,7 +334714,7 @@
       "slug": "seasonal-inspection-cycle",
       "definition": "Before the wet season, clean gutters and first-flush diverters, check cistern lids and screens for integrity, and verify overflow pipes are clear. After the wet season, inspect cistern interiors for sediment accumulation (drain and remove silt if depth exceeds 5 cm), check lime plaster for cracks or spalling, and repair before the next refill cycle. Annual maintenance of catchment infrastructure prevents the gradual capacity losses that accumulate when small problems go unaddressed for years.",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -334723,7 +334723,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -335015,7 +335015,7 @@
       "slug": "secchi-disk-clarity",
       "definition": "Lower a white disk 20 cm in diameter into the water on a calibrated cord. The depth at which it disappears from view is the Secchi depth. Readings below 1.5 m indicate turbidity too high for drinking without treatment. Clear water bodies register 4-10 m Secchi depth. This simple test requires only a white-painted disk and a marked rope.",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -335024,7 +335024,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -351231,7 +351231,7 @@
       "slug": "solar-disinfection-sodis",
       "definition": "Fill clear PET plastic bottles (1-2 L) with clear water. Expose to full sunlight for 6 hours (or 2 days if cloudy). UV-A radiation (320-400 nm) and thermal heating (water reaches 45-55°C) inactivate pathogens. Effectiveness: >99.9% bacteria, >99% viruses. Does not work with turbid water (>30 NTU) or bottles larger than 2 L (insufficient UV penetration). Simple, free, no chemicals or energy required — suitable as an emergency measure. Limitations: slow, weather-dependent, small batch sizes.",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations",
@@ -351241,7 +351241,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -374127,7 +374127,7 @@
       "slug": "system-redundancy",
       "definition": "Never depend on a single water source or single storage structure. A community water plan should include at least two independent sources (well + rainwater catchment, or spring + river with treatment) and distribute storage across multiple cisterns. If one cistern cracks or one source becomes contaminated, the remaining infrastructure covers essential needs at reduced consumption. Pipe storage cisterns in series so that overflow from the first fills the second, maximizing capture from intense...",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -374136,7 +374136,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -375294,7 +375294,7 @@
       "slug": "tank-sizing-for-dry-season",
       "definition": "Calculate storage to bridge the longest expected dry period. For a household of 5 at 50 liters per person per day (conservation mode) through a 4-month dry season: 5 × 50 × 120 days = 30,000 liters (30 m³). Add 25% margin for evaporation and seepage losses: 37.5 m³. A single cistern of this size is feasible in concrete or stone, or split into two 19 m³ cisterns for redundancy. In arid regions with 6-month dry seasons, a 50 m³ tank is the minimum practical size for household supply.",
       "source_articles": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "domains": [
         "foundations"
@@ -375303,7 +375303,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "foundations.water-procurement"
+        "water.procurement"
       ],
       "needs_image": false,
       "needs_diagram": false,

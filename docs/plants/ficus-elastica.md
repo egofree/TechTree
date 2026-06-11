@@ -190,13 +190,7 @@ The India rubber tree produces aerial prop roots that descend from branches to t
 
 ### India Rubber Tree Summary
 
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
-vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
-
-The crop's specific growing requirements (soil type, rainfall, temperature range, and
-growing season length) determine its geographic suitability. Matching crops to local
+*Content to be added: latex yield data, tapping cycles, rubber processing parameters.*
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

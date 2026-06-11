@@ -173,8 +173,6 @@ Modern plasma etchers process one wafer at a time (single-wafer tools) for unifo
 - **Pilot production**: Cassette-to-cassette automation, 4-6 gas lines, 300-1000 W RF, 0.1-1 μm/min etch rate. Recipe-driven process control with OES endpoint.
 - **Volume production**: Cluster tool (multiple process chambers on a central vacuum transport), ICP source for high-density plasma, 2000+ W total power, etch rates up to 10 μm/min. Throughput of 40-60 wafers per hour per chamber.
 
-Single-wafer processing displaced batch etching in the late 1980s when feature sizes shrank below one micrometer. One wafer per chamber allows independent control of each wafer's conditions, improving yield at the cost of needing more chambers for the same throughput. Cluster tools with 2-4 chambers per platform are the standard production configuration.
-
 Single-wafer processing displaced batch etching in the late 1980s when feature sizes shrank below one micrometer. One wafer per chamber allows independent control of each wafer's process conditions, improving yield at the cost of needing more chambers for the same throughput. Cluster tools with 2-4 chambers per platform are the standard production configuration, wafers moving between process modules through a central vacuum transport without breaking vacuum.
 
 ## Troubleshooting

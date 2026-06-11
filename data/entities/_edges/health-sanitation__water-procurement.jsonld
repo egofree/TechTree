@@ -1,9 +1,9 @@
 {
   "@context": "../../context.jsonld",
-  "@id": "edge/health.sanitation__foundations.water-procurement",
+  "@id": "edge/health.sanitation__water.procurement",
   "@type": "Dependency",
   "edgeType": "material",
   "flow": "primary",
   "from": "health.sanitation",
-  "to": "foundations.water-procurement"
+  "to": "water.procurement"
 }

@@ -3,7 +3,7 @@
 > **Node ID**: telecom.radio
 > **Domain**: [Telecommunications](./index.md)
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`glass`](../glass/index.md), [`metals`](../metals/index.md), [`telecom.electric-telegraph`](electric-telegraph.md)
-> **Enables**: [`telecom.submarine-cables`](submarine-cables.md), [`telecom.telephone`](telephone.md)
+> **Enables**: broadcast communication, maritime/aviation radio, vacuum tube technology
 > **Timeline**: Years 30-60
 > **Outputs**: radio_communication, wireless_telegraphy, broadcast_capability
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
@@ -188,6 +188,238 @@ Crystal receiver + low-power spark or tube transmitter (0.1-0.5 kW). Ship-to-sho
 | Key clicking (interference) | Spark gap arcing during key-up; abrupt current interruption | Install key filter (RC network across key contacts); use shielded key enclosure; ensure spark gap quenching with magnetic blowout or rotary gap |
 | Frequency drift | LC circuit temperature changes; mechanical vibration; poor component stability | Use rigid coil construction; shield tuned circuit from heat sources; allow warm-up time before critical transmissions |
 | Audio distortion at receiver | Overdriven tube stages; overloaded headphones; detector non-linearity | Reduce RF gain; use higher-impedance headphones; adjust detector bias point (carborundum type) |
+
+## Vacuum Tube Construction Procedure
+
+The vacuum tube is the enabling component of radio amplification and oscillation. Construction requires precision glassblowing, vacuum technology, and metallurgical skill. Early tubes (1904-1920) were handmade individually; mass production methods (exhaust machines, glass lathes) came later.
+
+### Filament (Cathode)
+
+The heated filament emits electrons via thermionic emission. Filament temperature, wire diameter, and material determine emission current and operating life.
+
+**Receiving tube filament**:
+- **Material**: Pure tungsten wire for early tubes; thoriated tungsten (1.0-2.0% thorium oxide by weight) from ~1920 onward provides higher emission at lower temperature and longer life.
+- **Diameter**: 0.02-0.05 mm (roughly 44-34 AWG). A typical 01A-type filament is 0.03 mm diameter, 30-40 mm active length.
+- **Form**: Hairpin (inverted V) or straight wire suspended between two support posts. Tension maintained by a spring hook on one support to compensate for thermal expansion.
+- **Operating temperature**: Pure tungsten 2200-2500°C (bright yellow-white); thoriated tungsten 1700-1900°C (orange). Lower temperature reduces evaporation and extends life.
+- **Emission**: Pure tungsten ~5-15 mA/cm²; thoriated tungsten ~50-200 mA/cm² at operating temperature. A receiving tube filament emitting 5-15 mA total.
+- **Heater power**: 1.25 W typical (5.0 V × 0.25 A for type 01A). Transmitter tubes: 38-100 W filament power.
+
+**Transmitter tube filament**:
+- **Diameter**: 0.10-0.30 mm (roughly 38-28 AWG), or thicker ribbon for high-power tubes.
+- **Material**: Thoriated tungsten or tantalum for tubes up to ~1 kW. Above 1 kW, directly heated cathodes use pure tungsten mesh or coated nickel sleeves on refractory cores.
+- **Support**: Rigid molybdenum support posts (0.5-1.5 mm diameter), welded or clamped to the filament wire.
+
+### Plate (Anode) Forming
+
+The plate collects electrons emitted by the filament. Shape, material, and surface finish affect dissipation capacity and secondary emission.
+
+**Receiving tube plate**:
+- **Material**: Nickel sheet, 0.10-0.25 mm thick, 99.0%+ purity.
+- **Form**: Rectangular or cylindrical sleeve surrounding the grid and filament. Typical dimensions: 10-25 mm tall, 8-15 mm wide (rectangular) or 8-12 mm diameter (cylindrical).
+- **Surface finish**: Blackened by carbonization or sandblasted to increase radiative cooling. Carbon coating applied by heating the nickel in a hydrocarbon atmosphere (benzene vapor or acetylene at 600-800°C for 5-15 minutes).
+- **Dissipation**: 1-5 W for receiving tubes. Adequate for class-A amplifier operation.
+
+**Transmitter tube plate**:
+- **Material**: Tantalum (0.3-1.0 mm thick) or molybdenum for 50-250 W tubes. Graphite anodes for tubes above 500 W (better thermal mass and radiation).
+- **Form**: Cylindrical or finned designs to maximize radiative surface area. A 250 W tube plate may be 30-50 mm diameter, 50-80 mm tall, with 4-8 cooling fins.
+- **Dissipation**: 50-300 W typical. Tantalum plates glow cherry-red at full dissipation. External forced-air cooling required above 100 W dissipation.
+
+### Grid Construction
+
+The grid controls electron flow between filament and plate. Precise, uniform spacing is critical for consistent amplification.
+
+- **Material**: Nickel or molybdenum wire, 0.05-0.15 mm diameter (45-34 AWG).
+- **Winding**: Helical winding on two parallel support rods (nickel or molybdenum, 0.3-0.8 mm diameter). Winding pitch: 0.5-2.0 mm between turns (12-50 turns per cm). The grid helix is typically 8-20 mm long and 3-8 mm in diameter.
+- **Tension**: Wire wound under 5-20 g tension to maintain uniform spacing. Uneven spacing causes microphonic noise and gain variation.
+- **Insulation**: Grid support rods welded to the glass stem at separate feedthrough pins, electrically isolated from filament and plate connections.
+
+### Glass Envelope and Sealing
+
+The glass envelope maintains vacuum and provides structural support for the internal elements.
+
+**Glass composition**: Lead glass (20-30% PbO) preferred for its high resistivity, low dielectric loss at RF frequencies, and good thermal expansion match to dumet seals. Soda-lime glass acceptable for low-cost tubes but has higher leakage current.
+
+**Bulb dimensions**:
+- Receiving tubes: 25-45 mm maximum bulb diameter, 60-90 mm overall height. Wall thickness 0.5-1.0 mm.
+- Transmitter tubes (250 W): 50-75 mm diameter, 120-180 mm height. Wall thickness 1.0-2.0 mm.
+
+**Glass-to-metal seal (dumet)**:
+- **Dumet wire**: 42% nickel / 58% iron core with copper cladding (25% of wire diameter). The composite thermal expansion coefficient (~6.5 × 10⁻⁶/°C) matches lead glass (~9 × 10⁻⁶/°C) closely enough to prevent seal cracking during thermal cycling. Typical dumet pin diameter: 0.8-1.5 mm.
+- **Sealing procedure**: Heat the glass stem (flattened glass pinch with embedded dumet pins) and the dumet pins simultaneously to 700-800°C (glass softening point). Press the softened glass around the dumet pins to form a vacuum-tight seal. The copper cladding oxidizes slightly during sealing, bonding chemically with the glass. Borax flux may be applied to the dumet before sealing to improve wetting.
+
+**Stem assembly**: Internal element supports (filament posts, grid rods, plate tab) are welded to the dumet pins before sealing. The stem is then sealed to the glass bulb by heating the bulb neck and stem shoulder to 700-800°C and fusing them together on a glass lathe (rotating to ensure uniform seal). Typical seal length: 8-15 mm of glass-to-glass fusion.
+
+### Evacuation
+
+The tube must be evacuated to a pressure where residual gas molecules do not interfere with electron flow (ionization causes reverse current, gas noise, and eventual cathode poisoning).
+
+**Roughing stage**:
+- Mechanical rotary pump (oil-sealed vane or piston type) reduces pressure from atmospheric to ~1 Torr (1 mm Hg). Time: 2-10 minutes per tube.
+- Monitor with a thermocouple gauge or Pirani gauge.
+
+**High-vacuum stage**:
+- Mercury diffusion pump or oil diffusion pump reduces pressure from ~1 Torr to 10⁻⁵ to 10⁻⁷ Torr. A single-stage mercury pump achieves ~10⁻⁵ Torr; a two-stage system reaches 10⁻⁷ Torr.
+- Pumping time: 5-30 minutes per tube, depending on internal surface area and outgassing rate. During pumping, bake the tube envelope with an external flame or oven at 300-400°C to drive off adsorbed moisture and gas from the glass and internal metal surfaces.
+- Monitor with an ionization gauge. Target: <10⁻⁵ Torr for receiving tubes, <10⁻⁶ Torr for transmitter tubes.
+
+**Tipping off**: Once the target vacuum is reached, heat the glass exhaust tube (the "tubulation" connecting the tube to the pump) with an oxygen-gas flame and melt it closed ("tip-off"). The tip is pulled off cleanly, leaving a sealed glass nub. This must be done while the pump is running to prevent backflow.
+
+### Getter Activation
+
+The getter absorbs residual and slowly evolving gases during tube life, maintaining the vacuum over thousands of operating hours.
+
+**Getter material**:
+- **Barium**: Most common for receiving tubes. Barium-aluminum alloy (50-70% Ba) or barium-magnesium, in the form of a small pellet, ribbon, or coated ring. Typical mass: 10-50 mg of active barium.
+- **Magnesium**: Used in some early tubes and high-power tubes. Less effective than barium but easier to handle in air (barium is pyrophoric when pure).
+- **Phosphorus (red)**: Used as an auxiliary getter in some transmitting tubes.
+
+**Placement**: Getter attached to a support wire inside the tube, positioned away from the active electrode region (typically near the top of the bulb, above the plate). The support wire may be a separate external lead or may be heated by induction.
+
+**Activation procedure**:
+1. After tip-off, heat the getter by RF induction (a coil around the outside of the bulb, 200-500 kHz, inducing eddy currents in the getter metal) or by direct flame heating of the getter support wire. Barium flash temperature: 800-1000°C.
+2. The getter metal vaporizes and condenses on the coolest part of the inner glass surface (typically the dome), depositing as a bright silver mirror (barium) or dull gray coating (magnesium).
+3. The freshly deposited getter film is highly reactive and chemically binds residual gases (O₂, N₂, H₂O, CO₂, CO) through absorption and chemical reaction. Barium absorbs up to 30-50x its own volume of gas.
+4. Verification: a properly flashed tube shows a uniform, bright mirror deposit. A mottled or dark deposit indicates excessive residual gas or incomplete flash.
+
+**Effect**: A properly gettered tube maintains <10⁻⁶ Torr internal pressure throughout its operating life (1,000-10,000 hours). Without a getter, tube vacuum degrades within 100-500 hours due to gas evolution from internal surfaces under electron bombardment.
+
+## Antenna Mast Construction
+
+Antenna height is the single most important factor in long-wave and medium-wave radio performance. A 50 m vertical radiator at 300 kHz has ~5-15% radiation efficiency; raising it to 100 m improves efficiency to 15-35%. Mast construction must balance structural strength against material and labor cost.
+
+### Structural Design
+
+**Mast types**:
+- **Self-supporting lattice tower**: Triangular or square cross-section, tapering from base to top. Suitable for heights up to 50 m. Requires no guy wires but needs a massive foundation. Material: angle iron or flat-bar steel, bolted or riveted joints.
+- **Guyed mast**: Slender lattice or tubular steel column supported by guy wires at one or more levels. Economical for heights above 30 m. Guyed masts up to 200 m are practical with 1920s-era steel and rigging.
+
+**Design loads**:
+- **Wind pressure**: Design for 100-150 km/h survival (0.6-1.3 kPa on projected area). Antenna wire adds wind load: a 4 mm wire presents ~4 mm × length projected area.
+- **Ice loading**: 25 mm radial ice adds 25-50% to wind load on lattice members. Ice zones require 1.5× structural safety factor.
+- **Antenna wire tension**: Vertical wire at 100-300 N tension. Wind-induced sway adds lateral loads to the mast top.
+
+### Guy Wire Sizing
+
+Guy wires stabilize the mast against wind-induced bending and buckling. Three guy directions at 120° spacing is the minimum; four at 90° is common.
+
+**Guy wire specifications**:
+
+| Mast Height | Guy Levels | Guy Wire Diameter | Breaking Strength | Anchor Distance |
+|-------------|------------|-------------------|-------------------|-----------------|
+| 20-30 m | 1 level (at top) | 4-6 mm steel wire rope | 10-20 kN | 12-20 m from base |
+| 30-50 m | 1-2 levels | 6-8 mm steel wire rope | 20-35 kN | 20-35 m from base |
+| 50-80 m | 2 levels (1/3, 2/3 height) | 8-10 mm steel wire rope | 35-55 kN | 30-55 m from base |
+| 80-120 m | 2-3 levels | 10-14 mm steel wire rope | 55-100 kN | 50-80 m from base |
+| 120-200 m | 3-4 levels | 12-18 mm steel wire rope | 80-160 kN | 70-130 m from base |
+
+- **Material**: Galvanized steel wire rope (6 × 7 or 6 × 19 construction). Galvanizing provides 10-25 year corrosion life in non-marine atmospheres.
+- **Pre-tension**: Guy wires pre-tensioned to 10-15% of breaking strength. Check tension with a dynamometer or by measuring natural frequency (pluck test). Re-tension annually (thermal cycling and creep cause loosening).
+- **Insulators**: Ceramic or porcelain guy-strain insulators inserted in each guy wire at 10-20 m intervals to prevent the guy from coupling RF energy to ground. Insulator rating: 5-15 kV RF per unit. Without insulators, guy wires detune the antenna and waste transmitter power.
+- **Turnbuckles**: Forged steel turnbuckles at each anchor allow tension adjustment. Safety wire through the turnbuckle body prevents accidental loosening.
+
+### Foundation Requirements
+
+Foundations transfer mast compression and guy tension into the ground. Foundation design depends on soil bearing capacity.
+
+**Mast base foundation**:
+- **Self-supporting tower**: Reinforced concrete pad, 1.5-3.0 m square, 0.5-1.0 m deep, on compacted soil (bearing capacity >150 kPa). Each tower leg on a separate pad or a combined pad with pier pedestals.
+- **Guyed mast**: Smaller base — concrete cylinder or pier, 0.6-1.0 m diameter, 1.0-1.5 m deep. Mast base carries primarily compressive load (guy wires resist overturning).
+- **Grounding**: Bond the mast base to the station ground system (buried copper radials) with 2-4 mm copper wire. Ground resistance <5 ohm.
+
+**Guy anchor foundations**:
+
+| Guy Tension | Anchor Type | Concrete Volume | Depth | Soil Type |
+|-------------|-------------|-----------------|-------|-----------|
+| <20 kN | Deadman (log or steel beam) | 0.3-0.5 m³ | 1.0-1.5 m | Any (compact backfill) |
+| 20-50 kN | Concrete block | 0.5-1.0 m³ | 1.0-2.0 m | Clay, loam |
+| 50-100 kN | Concrete mass or screw anchor | 1.0-2.0 m³ | 1.5-2.5 m | Firm soil |
+| >100 kN | Reinforced concrete deadman | 2.0-4.0 m³ | 2.0-3.0 m | Rock or firm soil |
+
+- **Deadman anchor**: Horizontal timber beam or steel section buried at the specified depth. Guy wire attaches to a steel rod passing through the deadman to the surface. For temporary installations, a buried log (200-300 mm diameter, 1.0-1.5 m long) suffices for guy tensions up to 15 kN.
+- **Concrete anchor**: Cast-in-place concrete block with embedded steel eye bolt or U-bolt. Minimum 7-day cure before applying guy tension; 28-day for full rated load.
+- **Backfill**: Compact soil in 200 mm lifts around the anchor. Poorly compacted backfill reduces holding capacity by 30-50%.
+
+### Erection Procedure (Guyed Mast, 50 m)
+
+1. **Prepare foundations**: Cast base pier and guy anchor foundations. Allow concrete to cure 7+ days. Install anchor rods and base leveling nuts.
+2. **Pre-assemble mast sections on ground**: Bolt lattice sections together horizontally on sawhorses or timber blocks. Install antenna mounting hardware, climbing steps, and aviation warning markers (if required) while the mast is accessible.
+3. **Rig guy wires**: Attach guy wires to mast at designated levels with thimbles and wire rope clips (minimum 3 clips per termination, spaced at 6× wire diameter). Thread guy wires through turnbuckles at anchors.
+4. **Raise the mast**: Use a gin pole (temporary lifting boom) or a crane. For a 50 m guyed mast, raise the base end first while the top end slides along the ground on a timber skid. A winch or tractor provides pulling force.
+5. **Set the base**: Lower the mast base onto the foundation pier. Level with adjusting nuts. Shim if necessary.
+6. **Tension guy wires**: At each level, pull guy wires hand-tight, then use a come-along or turnbuckle to reach design pre-tension. Work symmetrically — tension one wire of each trio, then the next, to avoid bending the mast.
+7. **Plumb the mast**: Check verticality with a transit or theodolite from two positions 90° apart. Adjust guy wire tension to plumb the mast within 0.5° of vertical (±0.4 m deviation at 50 m height).
+8. **Install antenna wire**: Hoist the vertical antenna wire (copper or copperweld, 2-4 mm diameter) using a halyard through a pulley at the mast top. Connect the base of the antenna wire to the tuning coil and transmitter coupling. Connect the mast itself to the ground system.
+9. **Final check**: Verify all bolt torques, wire rope clip tightness, guy wire tension, and ground connections. Test the antenna with a low-power signal and measure SWR (standing wave ratio) or antenna current.
+
+## Inductor Winding Specifications
+
+Inductors (coils) are essential in every radio circuit — tuned circuits, loading coils, RF chokes, and transformer windings. Inductance value, Q factor (quality factor), and current-carrying capacity depend on geometry, wire gauge, and core material.
+
+### Single-Layer Air-Core Solenoid
+
+The most common inductor for radio tuning circuits. Predictable inductance, low loss, no core saturation.
+
+**Inductance formula** (Wheeler's formula, single-layer solenoid):
+
+L (uH) = (r² × n²) / (9 × r + 10 × l)
+
+where r = coil radius in inches, l = winding length in inches, n = total turns. Accuracy: ±1% for coils where l > 0.4 × r.
+
+**Specification table for common tuning inductors**:
+
+| Inductance (uH) | Form Dia. (mm) | Wire Dia. (mm) | Turns | Winding Length (mm) | AWG | Application |
+|-----------------|----------------|-----------------|-------|---------------------|-----|-------------|
+| 10 | 50 | 1.5 | 18 | 30 | 15 | VHF tank circuit |
+| 25 | 50 | 1.2 | 28 | 38 | 17 | HF receiving tank |
+| 50 | 65 | 1.0 | 32 | 42 | 18 | HF transmitting tank |
+| 100 | 75 | 0.8 | 48 | 55 | 20 | MF receiving tank |
+| 200 | 75 | 0.6 | 65 | 70 | 22 | LF loading coil |
+| 500 | 100 | 0.5 | 85 | 100 | 24 | Antenna loading (LF) |
+
+**Q factor**: Single-layer air-core solenoids on dry forms achieve Q = 100-250 at 1 MHz. Q is highest when coil diameter ≈ winding length (the "square" coil optimum). Q degrades at higher frequencies due to skin effect and proximity effect.
+
+**Skin effect**: At 1 MHz, RF current penetrates copper only ~0.066 mm. Wire thicker than ~0.2 mm carries most current on the surface. For high-Q coils above 500 kHz, use Litz wire (multiple insulated strands, each thinner than the skin depth, woven together) or copper tubing (large surface area, low RF resistance).
+
+**Wire gauge selection**:
+- **Receiving circuits** (current <50 mA): 24-30 AWG (0.5-0.25 mm) sufficient. Q limited by form losses more than wire resistance at MF.
+- **Transmitter tank circuits** (current 0.5-5 A): 14-18 AWG (1.6-1.0 mm) for 100-500 W transmitters. 10-14 AWG (2.6-1.6 mm) for 1-5 kW.
+- **Antenna loading coils** (current 1-20 A): 10-14 AWG (2.6-1.6 mm) minimum. Heavy loading coils (200-400 uH at 5-20 A) may require 8-12 AWG (3.3-2.0 mm) or copper strip/tubing.
+
+### Form Materials
+
+The coil form (bobbin) provides mechanical support. Form material affects Q through dielectric losses at RF frequencies.
+
+| Material | Loss at 1 MHz | Moisture Sensitivity | Max Temp | Suitability |
+|----------|---------------|---------------------|----------|-------------|
+| Ceramic (porcelain, steatite) | Very low | None | >1000°C | Best — low loss, stable, dimensionally precise |
+| Phenolic (Bakelite) | Low | Low | 120°C | Good — machinable, cheap, widely available |
+| Dry hardwood (oak, maple) | Moderate | High (varies with humidity) | 100°C | Acceptable if dried and wax-impregnated |
+| PVC | Moderate-high | None | 70°C | Poor — high dielectric loss above 500 kHz |
+| Cardboard/paper | High | Very high | 80°C | Unacceptable — lossy and dimensionally unstable |
+
+- **Wood form preparation**: Turn hardwood on a lathe to the required diameter. Dry at 100°C for 24 hours. Soak in molten beeswax or paraffin at 80-100°C for 2-4 hours to seal moisture and reduce dielectric loss. Wax-impregnated wood forms achieve Q within 10-20% of phenolic.
+- **Ceramic forms**: Turn on a potter's wheel or press in a mold, then fire at 1000-1200°C. Glaze the outer surface for dimensional stability. Ceramic forms provide the most stable inductance over temperature and humidity.
+
+### Winding Procedure (Single-Layer Solenoid)
+
+1. **Prepare the form**: Cut the cylindrical form to length (winding length + 10-15 mm margin at each end). Drill two 1-2 mm holes at each end of the winding region for wire anchor points.
+2. **Anchor the start**: Thread the wire through the start hole, leaving a 50-100 mm lead. Bend the wire flat against the form surface.
+3. **Wind the coil**: Rotate the form slowly (by hand or on a lathe at low speed). Lay each turn tight against the previous turn, maintaining even tension (5-20 N for 0.5-1.5 mm wire). Count turns. Wind 2-3 extra turns beyond the calculated number for fine-tuning.
+4. **Anchor the finish**: Thread the wire through the end hole. For variable inductors, leave 4-8 intermediate tap points (bare a 3-5 mm section of wire and solder a tinned copper lead to it).
+5. **Secure the winding**: Apply a thin coat of shellac, varnish, or wax over the completed winding to lock turns in place. Allow to dry/cure fully before use.
+6. **Measure and adjust**: Measure inductance with a grid-dip oscillator or by resonating the coil with a known capacitor (L = 1 / ((2πf)² × C)). Remove turns 1-2 at a time if inductance is high; add turns if low.
+
+### Loading Coil for Electrically Short Antennas
+
+A loading coil at the base of a short vertical antenna resonates the antenna-plus-coil system at the desired frequency, compensating for the antenna's capacitive reactance.
+
+**Design example — 50 m antenna at 300 kHz**:
+- Antenna capacitance: ~200-300 pF. Capacitive reactance at 300 kHz: ~1800-2700 ohm.
+- Required inductance: ~200-400 uH to resonate at 300 kHz (f = 1/(2π√(LC))).
+- Coil current at 1 kW transmitter power: ~1.5-3.0 A RMS.
+- Required Q: >100 for reasonable efficiency. Coil resistance must be <5-15 ohm.
+- Specification: 200-300 uH, wound on 100-150 mm diameter phenolic or ceramic form, 2.0-3.0 mm wire (12-10 AWG), 80-120 turns, single layer. Power dissipation in the coil: 5-30 W (depending on Q). The coil will warm noticeably during extended transmission — ventilate the coil housing.
 
 ## Safety Considerations
 

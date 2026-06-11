@@ -174,6 +174,147 @@ SOFC systems can internally reform hydrocarbon fuels, eliminating the need for a
 
 Fuel cell degradation rates, typically measured as voltage loss per thousand hours of operation, determine the economic lifetime of the stack. PEM fuel cells for stationary power target degradation rates below 1% per 1,000 hours, yielding a 5-7 year stack life before performance drops below the economic threshold. SOFC degradation is dominated by electrode microstructural changes and chromium poisoning from metallic interconnects, while PEM degradation is dominated by membrane thinning and catalyst particle growth.
 
+## MEA Manufacturing
+
+The membrane electrode assembly is fabricated by applying catalyst layers to the proton exchange membrane and laminating gas diffusion layers (GDL) to both sides. MEA quality dominates cell performance — non-uniform catalyst distribution, delamination, and membrane defects all cause premature failure.
+
+### Catalyst Ink Preparation
+
+1. Mix platinum on carbon support catalyst (40-60 wt% Pt on Vulcan XC-72 or equivalent carbon black) with a 5% Nafion solution (ionomer binder) and isopropanol or ethanol as solvent. Typical ratio: 1 g Pt/C, 5 mL ionomer solution, 15-20 mL solvent. The Nafion ionomer in the catalyst layer provides proton-conducting pathways from every catalyst site to the membrane.
+2. Ultrasonicate the mixture for 30-60 minutes to achieve a uniform ink dispersion. The catalyst must be fully wetted and agglomerates broken down to sub-micron size. Inadequate dispersion produces non-uniform catalyst layers with dead zones.
+3. Target platinum loading: 0.2-0.4 mg Pt/cm² for the anode (hydrogen oxidation requires less catalyst) and 0.3-0.5 mg Pt/cm² for the cathode (oxygen reduction is the kinetically slower reaction and requires more catalyst). Total loading of 0.5-0.9 mg Pt/cm² is typical for commercial MEAs.
+
+### Catalyst Application Methods
+
+**Decal transfer**: The catalyst ink is sprayed or tape-cast onto a PTFE release sheet, dried at 80-100°C, then hot-pressed onto the membrane at 130-150°C and 50-100 kg/cm² for 60-180 seconds. The decal method produces sharp catalyst boundaries and uniform thickness. Preferred for production MEAs.
+
+**Direct painting/spraying**: The catalyst ink is airbrushed directly onto the membrane in thin layers, drying each pass at 60-80°C before applying the next. Simpler tooling but less precise thickness control. Suitable for prototype and small-batch MEAs.
+
+**Catalyst-coated substrate (CCS)**: The catalyst ink is applied to the gas diffusion layer (carbon paper or cloth) rather than the membrane, then the coated GDL is laminated to the membrane during hot pressing. Easier to handle coated GDLs than thin membranes, but the catalyst-membrane interface may be less intimate.
+
+### Gas Diffusion Layer
+
+The GDL serves three functions: distributes reactant gas across the catalyst layer, conducts electrons to the bipolar plate, and manages water transport. Two common materials:
+
+- **Carbon fiber paper** (Toray TGP-H-060 or equivalent): 180-200 μm thick, 75-80% porosity, treated with 5-20 wt% PTFE for hydrophobicity. Stiffer and easier to handle. Preferred for most PEM applications.
+- **Carbon fiber cloth** (Zoltek PANEX or equivalent): woven fabric, 300-400 μm thick, more flexible and damage-tolerant than paper but higher electrical contact resistance. Used in applications subject to vibration or thermal cycling.
+
+The GDL is typically treated with PTFE (Teflon) to create hydrophobic pore channels that prevent water flooding while maintaining gas permeability. A microporous layer (MPL) of carbon black and PTFE, 20-50 μm thick, is often applied between the GDL and catalyst layer to improve electrical contact and water management.
+
+### Hot-Press Bonding
+
+The final MEA is assembled by hot-pressing the catalyst-coated membrane between two GDL sheets:
+
+1. Stack components: bipolar plate — GDL — catalyst/membrane/catalyst — GDL — bipolar plate, with PTFE or Kapton gasket spacers to define the active area.
+2. Hot press at 130-150°C and 50-150 kg/cm² for 60-300 seconds. The temperature softens the Nafion ionomer (glass transition ~110°C), allowing the catalyst layer to bond to the membrane surface.
+3. Cool under pressure to prevent delamination from differential thermal contraction.
+4. Inspect for wrinkles, pinholes (hold up to light source), and edge seal integrity. Any membrane defect that spans both catalyst layers creates an internal hydrogen-oxygen short circuit.
+
+## Bipolar Plate Fabrication
+
+Bipolar plates distribute reactant gases across the electrode surface through machined flow field channels, conduct current between cells, provide mechanical compression, and manage heat and water removal. They account for 30-40% of stack cost and 60-80% of stack weight.
+
+### Graphite Composite Plates
+
+Graphite-polymer composite plates are the most common for PEM fuel cells due to excellent corrosion resistance without coating:
+
+1. Mix graphite powder (75-85% by weight) with a thermoset resin binder — vinyl ester, phenolic, or epoxy. Higher graphite content improves conductivity but reduces mechanical strength.
+2. Compression mold the mixture at 150-200°C and 10-30 MPa in a matched metal die that forms the flow field pattern directly. Mold cycle time: 5-15 minutes per plate. Alternatively, mold flat plates and machine flow fields separately.
+3. Post-cure at 180-220°C to fully crosslink the resin. Incomplete cure leads to resin leaching and contamination of the membrane.
+4. Machine flow field channels if not molded in: channel depth 0.5-1.5 mm, width 0.5-2.0 mm, rib width (land between channels) 0.5-1.5 mm. CNC milling or die-sinking EDM for graphite composites.
+5. Seal plate edges with a gasket groove (O-ring or flat gasket) machined around the active area perimeter and all manifold ports.
+
+Typical plate dimensions: active area 100-400 cm², plate thickness 2-5 mm, through-plane conductivity >50 S/cm, flexural strength >25 MPa, gas permeability <2×10⁻⁶ cm³/(cm²·s).
+
+### Metal Plates
+
+Stainless steel (316L or 317L), titanium, or nickel alloy plates offer higher mechanical strength, thinner profile (0.1-1.0 mm), and suitability for high-volume stamping:
+
+1. Stamp or hydroform flow field channels into thin metal sheet using progressive dies. Stamping achieves channel tolerances of ±25 μm at production rates of 10-20 parts per minute.
+2. Apply a conductive, corrosion-resistant coating: gold (0.1-0.3 μm, expensive but effective), titanium nitride (TiN, 1-3 μm via PVD), or carbon-based coating (DLC, 0.5-2 μm). Without coating, stainless steel corrodes in the acidic fuel cell environment (pH 2-4 at the electrode), releasing metal ions that poison the membrane and catalyst.
+3. Weld or braze inlet and outlet manifold connections. Laser welding provides hermetic seals for internal cooling channels in water-cooled plates.
+
+### Flow Field Designs
+
+The channel pattern determines gas distribution uniformity, pressure drop, and water removal effectiveness:
+
+- **Serpentine**: Single continuous channel snaking across the plate. Simple, good water removal (high flow velocity pushes water through), but high pressure drop and non-uniform gas concentration (depleted along the path). Most common for small to medium stacks.
+- **Parallel**: Multiple channels running straight across the plate. Low pressure drop but poor water management — water accumulates in low-velocity channels causing flow maldistribution. Used in large active area stacks where pressure drop must be minimized.
+- **Interdigitated**: Inlet channels dead-end, forcing gas through the GDL to reach outlet channels. Excellent water removal from the GDL but very high pressure drop requiring powerful air compressors. Increases effective catalyst utilization at the cost of parasitic power.
+- **Pin-type (columnar)**: Array of raised pins with gas flowing through the open spaces. Lowest pressure drop, good for high-flow applications. Less common in PEM due to water pooling between pins.
+
+## Nafion Membrane Alternatives
+
+Nafion (perfluorosulfonic acid, PFSA) is the industry-standard PEM electrolyte but has significant drawbacks: high cost ($500-700/m² for Nafion 117), dependence on perfluorinated chemistry (environmentally persistent), and hydration requirements that limit operating temperature to below 100°C. Alternatives exist at various stages of maturity:
+
+### Hydrocarbon Membranes
+
+Sulfonated poly(ether ether ketone) (SPEEK) and sulfonated poly(ether sulfone) (SPES) membranes offer 60-80% of Nafion's proton conductivity at 10-20% of the material cost. Synthesis requires sulfonation of the base polymer (PEEK or PES) with concentrated sulfuric acid at room temperature over 4-8 hours, followed by casting from DMAc or NMP solvent and drying at 80-120°C. Degree of sulfonation (DS) controls the ion exchange capacity: DS 50-70% balances conductivity against excessive water swelling. Limitations: lower chemical durability than PFSA (peroxide radical attack degrades hydrocarbon backbones faster), and mechanical strength decreases above 80°C in humid conditions.
+
+### Polybenzimidazole (PBI) Membranes
+
+PBI membranes doped with phosphoric acid achieve proton conductivity without external humidification at temperatures of 120-200°C, eliminating the water management complexity of Nafion. PBI is synthesized from 3,3',4,4'-tetraaminobiphenyl and diphenyl isophthalate via polycondensation. The phosphoric acid doping level (typically 5-15 moles H₃PO₄ per repeat unit) determines conductivity. PBI-based fuel cells (developed commercially by BASF as Celtec) operate at 160-180°C, tolerate CO concentrations up to 1-3% in the fuel stream (versus <10 ppm for Nafion), and do not require reactant humidification. Trade-offs: phosphoric acid leaching over time, lower peak power density than humidified Nafion cells, and higher temperature demands more robust stack materials.
+
+### SEM Tech Ion Exchange Membranes
+
+As detailed in the [SEM Tech Fuel Cells](sem-tech-fuel-cells.md) article, pulverized pre-functionalized ion exchange resin in a PVC/CPVC binder costs less than $1/ft² and has demonstrated chemical durability in harsh electrolysis conditions. Fuel cell application remains at TRL 2-3 (unvalidated). Proton conductivity under fuel cell humidified conditions, gas crossover rates, and long-term durability are uncharacterized for this application. If viable, the cost reduction is transformative.
+
+### Radiation-Grafted Membranes
+
+Polyethylene or poly(vinylidene fluoride) (PVDF) base films irradiated with electron beam or gamma radiation, then grafted with styrene and sulfonated to create ion-conducting pathways. The radiation dose (10-50 kGy) controls grafting degree, which in turn determines ion exchange capacity and conductivity. Cost is 20-40% of Nafion with comparable conductivity at moderate grafting levels. Limitations: mechanical stability degrades at high grafting degrees (above 50%), and long-term chemical stability is inferior to PFSA. Demonstrated in fuel cells for thousands of hours in laboratory settings.
+
+## Stack Assembly Procedure
+
+Assembling a fuel cell stack from individual MEAs, bipolar plates, gaskets, and end plates requires precision alignment and controlled compression to achieve uniform contact pressure across all cells without over-compressing or damaging the MEAs.
+
+### Components Preparation
+
+1. Inspect all MEAs for pinholes (backlight test), edge seal integrity, and correct active area dimensions.
+2. Clean bipolar plates with isopropanol to remove machining oils and particulate contamination. Verify flow field channels are free of debris.
+3. Prepare gaskets: PTFE, silicone rubber, or fiberglass-reinforced silicone sheets, 0.2-0.5 mm thick. Gasket thickness is selected to achieve 15-25% compression of the GDL at design bolt torque. Too little compression causes gas leaks and high contact resistance; too much crushes the GDL, blocking gas diffusion.
+4. Verify end plates are flat (surface roughness <1.6 μm Ra) and manifold port alignment matches the bipolar plates.
+
+### Stacking Sequence
+
+For each cell in the stack, assemble in this order from the anode end plate toward the cathode:
+
+1. Bipolar plate (anode side facing up)
+2. Anode gasket, seated in the gasket groove on the bipolar plate
+3. Gas diffusion layer (anode side) — centered within the gasket opening
+4. MEA — catalyst layers facing the respective GDLs, membrane centered
+5. Gas diffusion layer (cathode side)
+6. Cathode gasket
+7. Bipolar plate (cathode side of current plate = anode side of next plate)
+
+Repeat for each cell. A 100-cell stack at 5 mm per cell (plate + gasket + GDL + MEA) produces a stack approximately 500 mm long under compression.
+
+### Compression and Torque
+
+1. Align the stack on four or eight tie rods passing through the end plates. Use alignment bushings or dowel pins to maintain cell-to-cell registration within ±0.1 mm.
+2. Apply compression gradually in a cross-bolt pattern (similar to cylinder head bolt tightening). For a stack with eight tie rods (M12 or M14 threaded rod, 316 stainless):
+   - Stage 1: Snug all nuts to 5 N·m in cross pattern
+   - Stage 2: Tighten to 15 N·m in cross pattern
+   - Stage 3: Tighten to final torque of 20-30 N·m in cross pattern (specific value determined by gasket design and target compression)
+   - Stage 4: Re-torque after 24 hours to compensate for gasket creep
+3. Target compression pressure: 1-3 MPa uniformly distributed across the active area. Measure stack height at four corners to verify parallelism within 0.2 mm. Non-uniform compression causes localized high contact resistance (loose areas) or GDL crushing (over-tight areas).
+4. Do not exceed the MEA manufacturer's maximum compression — typically 20-30% strain on the GDL. Over-compression permanently deforms the carbon fiber structure and increases gas diffusion resistance.
+
+### Manifold and Sealing
+
+1. Connect external reactant manifolds (hydrogen, air/oxygen, coolant) to the stack end plates or side manifolds. Internal manifolding routes gas through holes in each bipolar plate; external manifolding uses separate piping on the stack sides.
+2. Pressure-test the assembled stack with nitrogen at 1.5× operating pressure (typically 1.5-3 atm gauge) for 30 minutes. Monitor for pressure decay indicating internal or external leaks. Acceptable leak rate: <10 mL/min for hydrogen, <50 mL/min for air.
+3. Verify coolant circuit integrity with water at 2× operating pressure. Any cross-leak between coolant and reactant channels contaminates the MEA.
+
+### Initial Conditioning
+
+New MEAs require a break-in (conditioning) procedure to fully hydrate the membrane and activate the catalyst layer:
+
+1. Purge the stack with nitrogen for 10 minutes to displace air.
+2. Supply humidified hydrogen to the anode and humidified nitrogen to the cathode at 60-65°C. Maintain open circuit voltage (OCV) for 1-2 hours while the membrane absorbs water and reaches equilibrium hydration.
+3. Switch cathode to humidified air and begin drawing current at low load (0.1 A/cm²). Hold for 1 hour.
+4. Ramp current density in steps: 0.2, 0.4, 0.6, 0.8, 1.0 A/cm², holding 30 minutes at each step. Cell voltage should stabilize within 5 mV at each step.
+5. Verify all individual cell voltages are within 10% of the stack average. Cells that deviate more than 10% indicate assembly defects, uneven compression, or a faulty MEA.
+
 ## References
 
 - [Energy](index.md) — parent capability

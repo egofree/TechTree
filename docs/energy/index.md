@@ -14,6 +14,8 @@ Capabilities in this domain:
 
 - [Energy Refining](refining.md) — Processing crude fuels into usable forms through fractional distillation, coal tar distillation, and thermal cracking.
 
+- [Fuel Cell](fuel-cell.md) — Proton exchange membrane, solid oxide, and molten carbonate fuel cells: MEA manufacturing, bipolar plate fabrication, stack assembly, and Nafion alternatives.
+
 - [SEM Tech Fuel Cells](sem-tech-fuel-cells.md) — electrochemical power generation
 
 - [Charcoal Production](charcoal.md) — Charcoal production via earth-covered pit and simple kiln methods.

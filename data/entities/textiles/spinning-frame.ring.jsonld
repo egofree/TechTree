@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Thorpe ring spinning frame (1828): C-shaped traveler rotates around a ring at high speed, simultaneously inserting twist and winding yarn. Continuous motion, simpler mechanism than mule. Dominant spinning system since 1900.",
+  "early_win": false,
+  "id": "textiles.spinning-frame.ring",
+  "level": "process",
+  "name": "Ring Spinning Frame",
+  "outputs": [
+    "yarn",
+    "bulk_yarn"
+  ],
+  "parent": "textiles.spinning-frame",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 18-25"
+}

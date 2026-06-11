@@ -16,6 +16,9 @@ Capabilities in this domain:
 - [Sewing & Tailoring](sewing-tailoring.md) — Needle making, thread selection, seam construction, garment production, and industrial sewing.
 
 - [Spinning Frame](spinning-frame.md) — Water-powered and powered spinning frames (water frame, spinning mule, ring frame) for mechanized yarn production.
+  - [Water Frame](spinning-frame-water.md) — Arkwright roller-drafting frame producing firm warp yarn (Ne 10-40).
+  - [Spinning Mule](spinning-frame-mule.md) — Crompton carriage-drafting mule producing the finest yarn (Ne 20-200+).
+  - [Ring Frame](spinning-frame-ring.md) — Thorpe traveler-and-ring frame, dominant spinning system since 1900.
 
 - [Carding Machine](carding-machine.md) — Mechanical carding engines for disentangling and aligning fibers for spinning preparation.
 

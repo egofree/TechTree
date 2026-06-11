@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Arkwright water frame (1769): roller drafting with flyer winding. Pairs of rollers draw fiber, each pair rotating faster than the last. Produces firm, even warp yarn suitable for loom warps.",
+  "early_win": false,
+  "id": "textiles.spinning-frame.water",
+  "level": "process",
+  "name": "Water Frame",
+  "outputs": [
+    "warp_yarn",
+    "medium_count_yarn"
+  ],
+  "parent": "textiles.spinning-frame",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-20"
+}

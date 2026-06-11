@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Crompton spinning mule (1779): combines roller drafting with carriage travel. Carriage moves outward while spindles rotate, drafting and twisting simultaneously. Produces the finest, most uniform yarn of any system (Ne 20-200+).",
+  "early_win": false,
+  "id": "textiles.spinning-frame.mule",
+  "level": "process",
+  "name": "Spinning Mule",
+  "outputs": [
+    "fine_yarn",
+    "premium_yarn"
+  ],
+  "parent": "textiles.spinning-frame",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 17-25"
+}

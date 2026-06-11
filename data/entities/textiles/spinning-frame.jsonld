@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Mechanized spinning frames replacing hand spinning with powered rollers and high-speed spindles. Three systems: water frame (warp yarn), spinning mule (finest yarn), ring frame (mass production).",
+  "early_win": false,
+  "id": "textiles.spinning-frame",
+  "level": "capability",
+  "name": "Spinning Frame",
+  "outputs": [
+    "yarn",
+    "warp_yarn",
+    "weft_yarn"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

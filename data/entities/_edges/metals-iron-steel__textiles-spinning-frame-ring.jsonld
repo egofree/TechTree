@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.iron-steel__textiles.spinning-frame.ring",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "metals.iron-steel",
+  "to": "textiles.spinning-frame.ring"
+}

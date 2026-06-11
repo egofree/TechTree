@@ -7,231 +7,255 @@
 > **Timeline**: Years 5-50
 > **Outputs**: vulcanized_elastomers, cured_seals, molded_rubber_parts
 
-Vulcanization is the irreversible chemical process that converts raw rubber (thermoplastic, sticky, temperature-sensitive) into a durable elastomer with stable mechanical properties across a useful temperature range. The process was discovered by Charles Goodyear in 1839 when he accidentally heated a rubber-sulfur mixture on a stove. This single discovery enabled every application of rubber that matters: tires, seals, gaskets, hoses, belts, and vibration isolators. See [Rubber Production](./rubber.md) for an overview and [Natural Rubber](./natural.md) for raw rubber processing.
+Vulcanization converts raw rubber (thermoplastic, sticky, temperature-sensitive) into a durable elastomer with stable mechanical properties. Discovered by Charles Goodyear in 1839, it enables every rubber application that matters: tires, seals, gaskets, hoses, belts, and vibration isolators. Sulfur atoms form covalent bridges (polysulfide chains —Sₓ—, x = 1–8) between adjacent polymer chains at allylic carbon positions, creating a three-dimensional molecular network that prevents permanent chain slippage. Modern cure packages add accelerators (speed the reaction, lower temperatures), activators (zinc oxide + stearic acid), antioxidants/antiozonants (environmental protection), and reinforcing fillers (carbon black, silica — improving tensile strength and abrasion resistance 5–10× over unfilled polymer). See [Rubber Production](./rubber.md) and [Natural Rubber](./natural.md).
 
-## Vulcanization Chemistry
+## Compounding Ingredients
 
-**Sulfur cross-linking mechanism**: Sulfur atoms form covalent bridges (polysulfide chains —Sₓ—, where x = 1–8) between adjacent polymer chains at allylic carbon positions. These bridges create a three-dimensional molecular network that prevents permanent chain slippage under deformation. The cross-linked rubber recovers its original shape after stretching because the network stores elastic energy.
+### Reinforcing Fillers
 
-**Cross-link types and properties**:
-
-| Cross-link Type | Sulfur Chain Length | Thermal Stability | Mechanical Strength | Fatigue Resistance |
+| Filler | Loading (phr) | Tensile (MPa) | Hardness Δ (Shore A) | Primary Use |
 |---|---|---|---|---|
-| Polysulfide (—Sₓ—, x ≥ 3) | Long | Low (breaks >130°C) | High tear strength | Excellent |
-| Disulfide (—S₂—) | Medium | Medium | Good | Good |
-| Monosulfide (—S—) | Short | High (stable to 160°C) | Lower tear strength | Moderate |
-| Carbon-carbon (peroxide) | None | Very high (stable >200°C) | Moderate | Lower |
-
-## Cure Systems
-
-Three main cure system families control the type and density of cross-links:
-
-**Conventional Vulcanization (CV)**:
-- Sulfur: 2.0–3.5 phr
-- Accelerator: 0.5–1.5 phr (e.g., CBS, TBBS)
-- Zinc oxide: 5 phr, stearic acid: 2 phr
-- Cross-links: predominantly polysulfide (x = 4–8)
-- Properties: excellent fatigue resistance, high tear strength, lower thermal stability
-- Applications: tire carcass and sidewalls, vibration isolators, conveyor belts
-- Cure conditions: 140–160°C, 10–30 minutes
-
-**Efficient Vulcanization (EV)**:
-- Sulfur: 0.4–0.8 phr
-- Accelerator: 3.0–5.0 phr (high accelerator-to-sulfur ratio)
-- Cross-links: predominantly mono- and disulfide
-- Properties: superior thermal stability, lower reversion, lower fatigue resistance
-- Applications: engine mounts, seals for elevated temperature service, radiator hoses
-- Cure conditions: 150–170°C, 8–20 minutes
-
-**Semi-Efficient Vulcanization (SEV)**:
-- Sulfur: 1.0–1.8 phr
-- Accelerator: 1.5–3.0 phr
-- Cross-links: mix of poly-, di-, and monosulfide
-- Properties: balance of CV and EV characteristics
-- Applications: general-purpose molded goods, O-rings, gaskets
-- Cure conditions: 140–160°C, 10–25 minutes
-
-## Cure Parameters by Rubber Type
-
-| Rubber Type | Cure Agent | Temperature (°C) | Time (min) | Pressure (MPa) | Notes |
-|---|---|---|---|---|---|
-| Natural Rubber (NR) | Sulfur 2–3 phr | 140–160 | 15–60 | 5–20 | CV system; reversion above optimum |
-| SBR | Sulfur 1.5–2.5 phr | 150–170 | 10–30 | 5–20 | Less reversion than NR |
-| NBR | Sulfur 1.5–2.0 phr | 150–170 | 10–25 | 5–20 | Metal oxide co-cure possible |
-| Neoprene (CR) | ZnO 5 + MgO 4 phr | 150–180 | 5–20 | 5–20 | Metal oxide cure, no sulfur needed |
-| EPDM | Sulfur 1–2 phr or peroxide | 160–180 | 8–20 | 5–20 | Peroxide for better heat aging |
-| Silicone (VMQ) | Peroxide 0.5–2% | 150–175 | 5–15 | 5–15 | Pt-catalyst for LSR at 100–150°C |
-| FKM (Viton) | Bisphenol or peroxide | 170–200 | 5–15 | 7–20 | Post-cure 200–250°C, 4–24 hrs |
-| Butyl (IIR) | Sulfur 1.5–2.5 phr | 150–170 | 15–30 | 5–20 | Halobutyl cures faster |
-
-## Vulcanization Equipment
-
-**[Compression molding press](../machine-tools/compression-press.md)**:
-- [Hydraulic press](../machine-tools/hydraulic-press.md), 10–200 tons clamp force. Platens heated by steam, oil, or electric cartridges.
-- Temperature control ±2°C across the platen surface. Steam-heated platens use 3–10 bar steam.
-- Operation: load uncured rubber preform into mold cavity, close press, maintain temperature and pressure for the specified cure time, open press, demold part.
-- Cycle time: 5–60 minutes depending on part thickness (cure time scales approximately with the square of the thickest section — a 6 mm thick part needs ~4× the cure time of a 3 mm part because heat must penetrate to the center).
-- Typical mold: tool steel (P20 or H13), chrome-plated for release. Mold temperature: 150–180°C. Flash groove design controls excess material.
-
-**Transfer molding**:
-- Rubber preform placed in a pot above the mold cavity. A plunger forces rubber through a runner system into the closed mold.
-- Better dimensional accuracy than compression molding, especially for complex shapes with inserts.
-- Runner volume wastes 5–15% of material (scrap).
-- Used for: rubber-to-metal bonded parts, complex seals, electrical connectors with embedded contacts.
-
-**Injection molding**:
-- Rubber strip fed continuously into a screw injection unit. The screw plasticates (warms and softens) the rubber, then injects it into a closed mold at 50–200 MPa injection pressure.
-- Fastest cycle time: 2–10 minutes total (fill time 5–30 seconds + cure time).
-- Best dimensional consistency. Lowest flash.
-- Requires precise barrel temperature control (60–90°C — warm enough to flow but not so hot as to begin curing before injection, called "scorch safety").
-- Used for: high-volume O-rings, shoe soles, automotive bushings, precision seals.
-
-**Autoclave (steam pan) curing**:
-- Rubber articles (hoses, belts, extruded profiles) placed in a steam autoclave at 3–10 bar steam pressure (corresponding to 134–180°C).
-- Batch process: load, close door, pressurize with steam, cure for specified time, depressurize, unload.
-- Cure time depends on steam pressure and article thickness: 30–120 minutes typical.
-- Used for: hoses (wrapped on mandrels), conveyor belts (built on flat tables, cured in long autoclaves), extruded weatherstripping.
-
-## Cure Monitoring and Control
-
-**Oscillating Disc Rheometer (ODR) / Moving Die Rheometer (MDR)**:
-- The standard instrument for measuring vulcanization behavior. A small rubber sample (5–10 g) is heated to the test temperature (typically 150°C or 160°C) in a sealed die. A disc or die oscillates at small amplitude (±0.5° or ±1°), and the torque required for oscillation is measured continuously.
-- **Torque curve interpretation**:
-  - Minimum torque (M_L): measures compound viscosity before cure begins — related to processability.
-  - Scorch time (t_s2): time for torque to rise 2 dNm above M_L — the "safe processing window" before the compound begins curing. Longer scorch time = more processing safety.
-  - Cure time (t_90): time for torque to reach 90% of the total rise (M_H − M_L) — the practical cure time for production.
-  - Maximum torque (M_H): related to cross-link density and final modulus.
-  - Reversion: if torque decreases after M_H (common with NR at high temperature), the compound is overcuring — cross-links are breaking.
-
-**Practical cure time selection**: Production cure time = t_90 + safety margin (typically +10–20%). For thick parts, add extra time for heat penetration to the center (rule of thumb: add 1 minute per mm of thickness above 3 mm).
-
-## Post-Cure Processing
-
-After demolding, vulcanized rubber parts require:
-- **Deflashing**: Remove flash (excess material at mold parting lines) by:
-  - Manual trimming (tumbling knives, scissors — labor-intensive)
-  - Cryogenic deflashing (liquid nitrogen at −80°C to −120°C embrittles the flash, then tumbled with media — the frozen flash cracks off cleanly from the still-flexible part body)
-  - Buffing (abrasive wheel grinding — for precision surfaces)
-- **Post-cure oven** (for FKM, silicone, and some peroxide-cured compounds): Heat to 200–250°C for 4–24 hours in a circulating air oven. Drives off volatile byproducts and completes residual cross-linking. Essential for FKM — without post-cure, compression set is unacceptably high (>50% vs. <25% after proper post-cure).
-
-## Hardness Scales
-
-Rubber hardness is measured by the depth of indentation of a standardized indenter under a specified force. Two scales are used for elastomeric materials:
-
-**Shore A (soft to medium elastomers)**:
-- Range: 0–100 (practical rubber range: 20–95)
-- Indenter: Truncated cone (35° apex, flat tip 0.79 mm diameter)
-- Spring force: 0.55–8.05 N
-- Typical values:
-  - Shore A 20–30: very soft (gel insoles, soft foam grips, erasers)
-  - Shore A 40–50: soft rubber (sponge rubber, soft door seals, rubber bands ~A35–A45)
-  - Shore A 50–60: medium-soft (automotive weatherstripping, shoe soles ~A50–A65)
-  - Shore A 60–70: medium (general-purpose seals, O-rings, tire tread ~A60–A70)
-  - Shore A 70–80: medium-hard (industrial O-rings, conveyor belt covers, drive belt teeth)
-  - Shore A 80–90: hard rubber (hard bushings, printing rolls, shoe heels)
-  - Shore A 90–95: very hard (ebonite range, hard wheel materials)
-
-**Shore D (hard rubber and rigid plastics)**:
-- Range: 0–100 (practical rubber range: 30–85)
-- Indenter: Sharp cone (30° apex, sharp tip)
-- Spring force: 0–44.5 N
-- Typical values:
-  - Shore D 30–40: hard rubber (ebonite at moderate sulfur loading)
-  - Shore D 50–60: very hard rubber (highly filled ebonite, hard cast polyurethane)
-  - Shore D 60–75: rigid materials (nylon, HDPE, cast PU rollers)
-  - Shore D 75–85: very rigid (polycarbonate, cast PU industrial wheels)
-
-**Approximate overlap between scales**:
-- Shore A 95 ≈ Shore D 35
-- Shore A 98 ≈ Shore D 45
-- Shore A 100 ≈ Shore D 55
-
-**Hardness selection guide for O-rings and seals**:
-
-| Application | Shore A | Reasoning |
-|---|---|---|
-| Low-pressure static seals | 40–50 | Conforms to irregular surfaces |
-| General-purpose O-rings | 70 | Standard (AS568 O-rings default to A70) |
-| High-pressure dynamic seals | 80–90 | Resists extrusion into clearance gaps |
-| Rotary shaft seals | 70–80 | Balance of sealing force and wear resistance |
-| Vibration isolators | 40–60 | Low stiffness for maximum isolation |
-| Backup rings | 85–95 | High modulus prevents extrusion |
-
-## Compounding Ingredients Detail
-
-**Reinforcing fillers**:
-
-| Filler | Loading (phr) | Effect on Tensile (MPa) | Effect on Hardness (Shore A) | Primary Use |
-|---|---|---|---|---|
-| None (gum stock) | 0 | 17–28 (NR) / 1–3 (SBR) | 30–40 | Reference |
-| Carbon black N110 | 40–50 | 25–32 | +20–30 | Tire treads (max abrasion resistance) |
-| Carbon black N330 | 30–50 | 20–28 | +15–25 | General purpose (tires, belts) |
+| None (gum stock) | 0 | 17–28 (NR) / 1–3 (SBR) | 30–40 baseline | Reference |
+| Carbon black N110 | 40–50 | 25–32 | +20–30 | Tire treads (max abrasion) |
+| Carbon black N330 | 30–50 | 20–28 | +15–25 | General purpose |
 | Carbon black N660 | 30–50 | 18–25 | +12–20 | Carcass, sidewalls |
-| Precipitated silica | 10–30 | 18–24 | +10–15 | Green tires (low rolling resistance) |
-| Calcium carbonate | 50–100 | 10–15 | +8–12 | Low-cost extension (non-critical) |
+| Precipitated silica | 10–30 | 18–24 | +10–15 | Green tires (low roll resist.) |
+| Calcium carbonate | 50–100 | 10–15 | +8–12 | Low-cost extension |
 | Clay | 30–80 | 10–18 | +5–10 | Low-cost extension |
 
-**Accelerator systems**:
+Carbon black particle size (N110–N990 grades) and structure (DBP absorption) determine reinforcement. Smaller particles give higher tensile strength but harder mixing. Processing oils (aromatic, naphthenic, or paraffinic — matched to polymer type) soften the compound for easier mixing and lower molding viscosity.
 
-| Accelerator | Abbreviation | Phr | Cure Rate | Scorch Safety | Cross-links |
+### Accelerator Systems
+
+| Accelerator | Abbr. | Phr | Cure Rate | Scorch Safety | Cross-links |
 |---|---|---|---|---|---|
 | Mercaptobenzothiazole | MBT | 0.5–2.0 | Medium | Low | Polysulfide |
-| Mercaptobenzothiazole disulfide | MBTS | 0.5–2.0 | Medium-slow | Medium | Polysulfide |
+| MBT disulfide | MBTS | 0.5–2.0 | Medium-slow | Medium | Polysulfide |
 | N-Cyclohexyl-2-benzothiazole sulfenamide | CBS | 0.5–1.5 | Delayed action | High | Polysulfide |
 | N-tert-Butyl-2-benzothiazole sulfenamide | TBBS | 0.5–1.5 | Delayed action | High | Polysulfide |
 | Tetramethylthiuram disulfide | TMTD | 0.2–0.5 | Ultra-fast | Low | Short (EV-like) |
 | Diphenylguanidine | DPG | 0.3–1.0 | Slow (secondary) | High | Polysulfide |
 
-**Antioxidants and antiozonants**:
-- TMQ (polymerized 2,2,4-trimethyl-1,2-dihydroquinoline): 1–2 phr. General-purpose antioxidant, prevents oxidative chain scission during service. Inexpensive, widely used in tire compounds.
-- 6PPD (N-(1,3-dimethylbutyl)-N'-phenyl-p-phenylenediamine): 1–3 phr. Combined antioxidant and antiozonant. Protects tire sidewalls from ozone cracking — the primary failure mode for outdoor-exposed rubber. Migrates to the rubber surface to react with ozone before it can attack the polymer backbone.
-- Wax (paraffin or microcrystalline, 1–2 phr): Blooms to the rubber surface forming a physical barrier against ozone. Effective for static seals but not dynamic applications (flexing breaks the wax film).
+### Antioxidants and Antiozonants
+
+- **TMQ** (polymerized 2,2,4-trimethyl-1,2-dihydroquinoline): 1–2 phr. General-purpose antioxidant, prevents oxidative chain scission.
+- **6PPD** (N-(1,3-dimethylbutyl)-N'-phenyl-p-phenylenediamine): 1–3 phr. Combined antioxidant/antiozonant. Migrates to surface to react with ozone before it attacks the polymer backbone.
+- **Wax** (paraffin or microcrystalline, 1–2 phr): Blooms to surface forming a physical ozone barrier. Effective for static seals only (flexing breaks the film).
+
+## Equipment
+
+- **Banbury internal mixer**: Two counter-rotating rotors in a water-cooled chamber. Batch: 50–200 kg in 3–8 min. Generates enough shear to raise temperature to 160°C in under 5 min — why two-stage mixing (masterbatch first, curatives second) is essential.
+- **Two-roll mill**: Counter-rotating steel rolls with adjustable gap. For sheeting, blending, and adding heat-sensitive curatives to warm compound without scorch.
+- **[Compression molding press](../machine-tools/compression-press.md)**: [Hydraulic press](../machine-tools/hydraulic-press.md), 10–200 tons. Steam/oil/electric heated platens, ±2°C control. Load preform, close press, cure, demold. Cycle: 5–60 min depending on thickness (cure time scales ~ with square of thickest section).
+- **Transfer molding**: Preform in pot above cavity; plunger forces rubber through runners. Better dimensional accuracy for complex shapes with inserts. Runner waste: 5–15%.
+- **Injection molding**: Screw plasticates rubber at 60–90°C (scorch safety), injects at 50–200 MPa. Fastest cycle: 2–10 min total. Best consistency, lowest flash.
+- **Autoclave (steam pan)**: 3–10 bar steam (134–180°C) for hoses, belts, extruded profiles. Batch: 30–120 min.
+
+## Step-by-Step Procedure
+
+1. **Weighing**: All ingredients per formulation card. A 10% error in accelerator shifts cure time by 30%. Typical: 10–20 ingredients per compound.
+2. **Masterbatch mixing (Banbury)**: Load raw rubber, masticate 30–60 sec. Add fillers, oil, ZnO, stearic acid sequentially at 40–80 RPM. Temperature rises to 130–160°C from shear. Dump onto two-roll mill, sheet off. This non-curable masterbatch contains everything except curatives.
+3. **Final mixing (two-roll mill or Banbury)**: Add masterbatch + sulfur, accelerators, heat-sensitive additives. Temperature must stay below scorch point (~110°C). Two-roll mill preferred for visual inspection of dispersion.
+4. **Shaping**: Extrusion (profiles, hoses), calendering (sheet, fabric coating), or pre-forming (cutting blanks). Time-sensitive — scorch clock running. Shaping equipment must be near mixing area and presses.
+5. **Curing (compression molding)**: Place blank in mold, close press at 10–20 MPa, heat to cure temperature (150–180°C), hold for calculated cure time. General rule: ~1 min/mm thickness at 160°C. Undercure = spongy center; overcure = reversion (NR) or excessive hardness.
+6. **Demolding**: Remove cured part. Trim flash by hand, cryogenic deflashing (LN₂ at −80 to −120°C embrittles flash), or buffing.
+7. **Post-cure (optional)**: Hot air oven, 4–24 hrs at 150–250°C. Standard for peroxide-cured parts, FKM, silicone, and seal applications requiring low compression set.
+
+## Cure Systems
+
+### Cross-link Types
+
+| Cross-link Type | Sulfur Chain | Thermal Stability | Strength | Fatigue |
+|---|---|---|---|---|
+| Polysulfide (x ≥ 3) | Long | Low (breaks >130°C) | High tear | Excellent |
+| Disulfide (—S₂—) | Medium | Medium | Good | Good |
+| Monosulfide (—S—) | Short | High (stable to 160°C) | Lower tear | Moderate |
+| Carbon-carbon (peroxide) | None | Very high (>200°C) | Moderate | Lower |
+
+### Conventional Vulcanization (CV)
+
+Sulfur 2.0–3.5 phr, accelerator 0.5–1.5 phr (CBS/TBBS), ZnO 5 phr, stearic acid 2 phr. Predominantly polysulfide cross-links (x = 4–8). Excellent fatigue resistance, high tear strength, lower thermal stability. Tire carcasses, sidewalls, conveyor belts. 140–160°C, 10–30 min.
+
+### Efficient Vulcanization (EV)
+
+Sulfur 0.4–0.8 phr, accelerator 3.0–5.0 phr. Predominantly mono-/disulfide. Superior thermal stability, lower reversion, lower fatigue. Engine mounts, high-temp seals, radiator hoses. 150–170°C, 8–20 min.
+
+### Semi-Efficient Vulcanization (SEV)
+
+Sulfur 1.0–1.8 phr, accelerator 1.5–3.0 phr. Mixed cross-links. Balance of CV and EV. General molded goods, O-rings, gaskets. 140–160°C, 10–25 min.
+
+### Non-Sulfur Systems
+
+- **Peroxide cure**: Dicumyl peroxide (DCP) 1–3 phr, decomposes at 150–175°C creating C–C cross-links. Stable >200°C. No sulfur odor. For silicone, EPDM, specialty compounds. Cannot cure in contact with air (use mold or N₂). Incompatible with many antioxidants. Peroxide-cured NR suffers chain scission.
+- **Metal oxide cure**: ZnO 5 + MgO 4 phr for neoprene. MgO scavenges HCl. No sulfur needed.
+- **Bisphenol cure**: Bisphenol AF + phosphonium salt for FKM. Requires post-cure 200–250°C, 4–24 hrs.
+- **Radiation cure**: Electron beam or gamma radiation creates C–C cross-links without heat or chemicals. For wire/cable insulation. High capital cost, no byproducts.
+- **Resin cure**: Alkylphenol-formaldehyde resins crosslink butyl rubber and EPDM. Non-staining, heat-resistant. Tire inner liners, curing bladders.
+
+## Cure Parameters by Rubber Type
+
+| Rubber Type | Cure Agent | Temp (°C) | Time (min) | Pressure (MPa) | Notes |
+|---|---|---|---|---|---|
+| NR | Sulfur 2–3 phr | 140–160 | 15–60 | 5–20 | CV; reversion above optimum |
+| SBR | Sulfur 1.5–2.5 phr | 150–170 | 10–30 | 5–20 | Less reversion than NR |
+| NBR | Sulfur 1.5–2.0 phr | 150–170 | 10–25 | 5–20 | Metal oxide co-cure possible |
+| Neoprene (CR) | ZnO 5 + MgO 4 phr | 150–180 | 5–20 | 5–20 | Metal oxide cure |
+| EPDM | Sulfur 1–2 phr or peroxide | 160–180 | 8–20 | 5–20 | Peroxide for better heat aging |
+| Silicone (VMQ) | Peroxide 0.5–2% | 150–175 | 5–15 | 5–15 | Pt-catalyst for LSR |
+| FKM (Viton) | Bisphenol or peroxide | 170–200 | 5–15 | 7–20 | Post-cure 200–250°C |
+| Butyl (IIR) | Sulfur 1.5–2.5 phr | 150–170 | 15–30 | 5–20 | Halobutyl cures faster |
+
+## Cure Monitoring and Control
+
+**Oscillating Disc Rheometer (ODR) / Moving Die Rheometer (MDR)**: 5–10 g sample heated to test temperature in sealed die. Disc oscillates at ±0.5° or ±1°; torque measured continuously. Key readings:
+
+- **Minimum torque (M_L)**: Compound viscosity before cure — processability indicator.
+- **Scorch time (t_s2)**: Time for torque to rise 2 dNm above M_L — the safe processing window.
+- **Cure time (t_90)**: Time to 90% of total rise (M_H − M_L) — practical production cure time.
+- **Maximum torque (M_H)**: Related to cross-link density and final modulus.
+- **Reversion**: Torque decrease after M_H (common with NR at high temperature) — cross-links breaking.
+
+**Production cure time** = t_90 + 10–20% safety margin. For thick parts: add ~1 min/mm above 3 mm thickness.
+
+## Hardness Scales
+
+Rubber hardness = depth of indentation of a standardized indenter under specified force.
+
+**Shore A** (soft to medium elastomers): Range 0–100 (practical: 20–95). Truncated cone indenter (35° apex, 0.79 mm flat tip). Spring force 0.55–8.05 N.
+
+| Shore A Range | Feel / Application |
+|---|---|
+| 20–30 | Very soft: gel insoles, erasers |
+| 40–50 | Soft: sponge rubber, rubber bands (~A35–A45) |
+| 50–60 | Medium-soft: weatherstripping, shoe soles (~A50–A65) |
+| 60–70 | Medium: general seals, O-rings, tire tread (~A60–A70) |
+| 70–80 | Medium-hard: industrial O-rings, conveyor covers, drive belt teeth |
+| 80–90 | Hard: bushings, printing rolls, shoe heels |
+| 90–95 | Very hard: ebonite range, hard wheel materials |
+
+**Shore D** (hard rubber and rigid plastics): Range 0–100 (practical: 30–85). Sharp cone (30° apex). Spring force 0–44.5 N.
+
+**Scale overlap**: Shore A 95 ≈ D 35 · A 98 ≈ D 45 · A 100 ≈ D 55
+
+**O-ring/seal hardness selection**:
+
+| Application | Shore A | Reasoning |
+|---|---|---|
+| Low-pressure static seals | 40–50 | Conforms to irregular surfaces |
+| General-purpose O-rings | 70 | AS568 standard default |
+| High-pressure dynamic seals | 80–90 | Resists extrusion into gaps |
+| Rotary shaft seals | 70–80 | Seal force vs. wear balance |
+| Vibration isolators | 40–60 | Low stiffness for max isolation |
+| Backup rings | 85–95 | High modulus prevents extrusion |
+
+## Vulcanizate Properties
+
+**Effect of carbon black loading on NR** (CV: 2.5 phr sulfur, 0.6 phr CBS):
+
+| CB (phr) | Grade | Shore A | Tensile (MPa) | 300% Modulus (MPa) | Elong. (%) | Tear (kN/m) | Abrasion (mm³) |
+|---|---|---|---|---|---|---|---|
+| 0 (gum) | — | 35–40 | 20–28 | 1–2 | 700–800 | 20–30 | 300–500 |
+| 20 | N330 | 45–50 | 25–30 | 4–6 | 600–700 | 35–45 | 150–250 |
+| 40 | N330 | 55–60 | 28–32 | 8–12 | 500–600 | 45–55 | 80–150 |
+| 60 | N330 | 65–72 | 25–30 | 12–18 | 400–500 | 40–50 | 60–120 |
+| 80 | N330 | 75–82 | 22–28 | 16–22 | 300–400 | 35–45 | 80–140 |
+
+Tensile peaks at 40–50 phr (optimal polymer-filler adsorption); above 60 phr, filler crowding creates stress concentrations reducing strength.
+
+**Effect of crosslink density** (NR, 50 phr N330):
+
+| Sulfur (phr) | CBS (phr) | Crosslink | Shore A | Tensile (MPa) | Elong. (%) | Comp. Set 22h/70°C (%) |
+|---|---|---|---|---|---|---|
+| 2.5 (CV) | 0.6 | Polysulfidic (x=4–6) | 60–65 | 28–32 | 500–600 | 20–30 |
+| 1.5 (semi-EV) | 1.2 | Mixed (x=2–4) | 60–65 | 26–30 | 450–550 | 15–25 |
+| 0.5 (EV) | 2.5 | Monosulfidic (x=1) | 60–65 | 24–28 | 400–500 | 10–20 |
+| 0 (peroxide) | — | C–C direct | 60–65 | 22–26 | 350–450 | 8–15 |
+
+Hardness stays constant because CB loading is fixed. CV gives best fatigue (flexible polysulfidic bridges); peroxide gives best compression set and heat resistance (C–C stable to 250°C).
+
+## Cure Schedules by Part Thickness
+
+Rubber is a thermal insulator (~0.15 W/m·K). Center of thick parts heats slowly — outer surface cures first and insulates the core.
+
+| Thickness | 150°C | 160°C | 170°C | Notes |
+|---|---|---|---|---|
+| 2 mm | 4–6 min | 3–4 min | 2–3 min | Thin parts cure fast |
+| 5 mm | 7–10 min | 5–7 min | 4–5 min | Standard O-ring |
+| 10 mm | 12–18 min | 8–12 min | 6–8 min | ~1 min/mm at 160°C |
+| 20 mm | 20–30 min | 15–20 min | 10–15 min | Engine mounts |
+| 50 mm | 45–60 min | 30–45 min | 20–30 min | Large bushings |
+| 100 mm | 90–120 min | 60–90 min | 45–60 min | Solid tires, rollers |
+
+**Test for undercure**: Slice through thickest section; if center indents easily with a fingernail and feels tacky, it is undercured (reduces tensile 30–60%, compression set 50–80%).
 
 ## Reversion and Overcure
 
-Natural rubber undergoes "reversion" when overcured — the polysulfide cross-links thermally break, and the main chain undergoes chain scission. This reduces cross-link density, softens the rubber, and degrades mechanical properties. Indicators:
-- Decreasing torque on rheometer after peak (the classic "reversion curve")
-- Soft, sticky surface on demolded parts
-- Reduced tensile strength and increased permanent set
-- Darkening of compound color
+NR undergoes reversion when overcured — polysulfide cross-links thermally break, main chain undergoes scission. Indicators: decreasing rheometer torque after peak, soft/sticky demolded surface, reduced tensile strength, darkened color. **Prevention**: Use EV systems (lower sulfur, higher accelerator) for high-temperature applications. Tradeoff: EV has lower tear strength and fatigue resistance. Synthetic rubbers (SBR, BR, NBR) are less prone to reversion — one reason SBR is blended with NR in tires.
 
-**Prevention**: Use EV systems (lower sulfur, higher accelerator) for applications requiring extended cure at high temperature. EV systems produce thermally stable mono- and disulfide cross-links that resist reversion. The tradeoff: EV-cured rubber has lower tear strength and fatigue resistance than CV-cured rubber.
+## Post-Cure Processing
 
-Synthetic rubbers (SBR, BR, NBR) are less prone to reversion than NR — their cross-links are more thermally stable. This is one reason SBR is blended with NR in tire compounds: the SBR component provides reversion resistance during high-temperature curing.
+- **Deflashing**: Manual trimming (labor-intensive), cryogenic deflashing (LN₂ at −80 to −120°C embrittles flash, tumbled with media), or buffing (abrasive wheel for precision surfaces).
+- **Post-cure oven**: Essential for FKM (without it, compression set >50% vs. <25% after proper post-cure), silicone, and peroxide-cured compounds. 200–250°C, 4–24 hrs in circulating air. Drives off volatiles and completes residual cross-linking.
 
-## Non-Sulfur Cure Systems
+## Safety
 
-**Peroxide cure** (for silicone, EPDM, and some specialty compounds):
-- Dicumyl peroxide (DCP): 1–3 phr. Decomposes at 150–175°C to generate free radicals that create carbon-carbon cross-links between polymer chains.
-- Carbon-carbon bonds are more thermally stable than sulfur cross-links (stable above 200°C vs. polysulfide breakdown at 130–150°C).
-- No sulfur odor. No nitrosamine concerns.
-- Limitation: peroxide-cured compounds cannot be cured in contact with oxygen (air inhibits surface cure — use a mold or nitrogen atmosphere). Peroxide is incompatible with many antioxidants (they scavenge the free radicals needed for cross-linking).
+- **Thermal burns**: Platens at 140–180°C, autoclave steam at 3–10 bar. Steam burns are severe due to latent heat (2260 kJ/kg). Thermal gloves, face shields, long sleeves mandatory.
+- **Press crush hazard**: 10–20 MPa pressure. Two-hand trip systems, light curtains, or interlocking guards required.
+- **Sulfur dioxide**: Released during cure, especially from sulfur-rich systems. Respiratory irritant. Local exhaust ventilation at each press (15–20 air changes/hr).
+- **Accelerator sensitization**: Thiazoles and thiurams cause persistent allergic contact dermatitis. Gloves mandatory. Use nitrosamine-safe alternatives (TBzTD, ZBEC) where possible.
+- **Carbon black dust**: IARC Group 2B (possible carcinogen). MEC ~35 g/m³ (sulfur), 50–100 g/m³ (CB). Ground equipment, LEV, respirators (N95/P100, fit-tested). Closed feed systems for Banbury mixers.
+- **PPE**: Nitrile gloves (chemicals), Kevlar/aramid gloves (hot parts), safety glasses with side shields, steel-toe boots with metatarsal guards near presses.
+- **Emergencies**: Press entrapment — emergency stop + means to open under load. Sulfur fire — dry chemical or CO₂ (not water on molten sulfur). Chemical spill — absorbent, hazardous waste collection.
 
-**Metal oxide cure** (for neoprene):
-- Zinc oxide (5 phr) + magnesium oxide (4 phr). MgO scavenges HCl released during aging.
-- No sulfur needed. Good aging properties.
+## Quality Control
 
-**Bisphenol cure** (for FKM):
-- Bisphenol AF + phosphonium salt accelerator. Requires high-temperature post-cure (200–250°C, 4–24 hours).
-- Produces cross-links with excellent chemical and thermal resistance.
+### Acceptance Criteria
 
-## Safety & Hazards
+- **Elastomers**: Tensile, elongation, Shore A hardness within spec. Compression set below max (typically 20–35% after 22h @ 70°C).
+- **Seals**: Dimensions ±0.1–0.5 mm. No flash, porosity, or defects. Hardness ±5 Shore A.
+- **Molded parts**: Complete cavity fill, no short-shots or knit lines.
 
-- **Vulcanization burns**: Press platens at 140–180°C and autoclave steam at 3–10 bar cause severe thermal burns and scalds. Steam burns are especially severe due to latent heat of condensation (2260 kJ/kg at 1 atm). Use thermal gloves, face shields, and long sleeves.
-- **Nitrosamine formation**: Certain accelerators (TMTD, DTDM, MOR) form N-nitrosamines during vulcanization — confirmed carcinogens. Use nitrosamine-safe alternatives (TBzTD, ZBEC) where possible.
-- **Dust explosion risk**: Sulfur powder (MEC ~35 g/m³), carbon black (MEC 50–100 g/m³), and rubber crumb form explosive dust-air mixtures. Ground equipment, use local exhaust ventilation, eliminate ignition sources.
-- **Volatile organic compounds (VOCs)**: Vulcanization releases a complex mixture of volatile organic compounds including H₂S, SO₂, mercaptans, and various hydrocarbon fragments. Adequate ventilation is mandatory — typical exhaust rates of 15–20 air changes per hour for curing areas.
+### Testing Methods
+
+- **Shore A durometer**: Quick, non-destructive. Three readings averaged. Min 6 mm thickness (ASTM D2240); stack thin parts.
+- **Stress-strain (ASTM D412)**: Dumbbell specimen, pull to break. Tensile, elongation, modulus at 100/300%. Curve shape reveals filler reinforcement and crosslink density.
+- **Compression set (ASTM D395)**: 25% compression, 22h at service temperature. Below 20% = well-cured; above 35% suggests undercure or poor bonding.
+- **Cure rheometer (MDR, ASTM D5289)**: Uncured sample between oscillating dies. Defines scorch time, t_90, M_H. The gate between compounding and production.
+- **Visual inspection**: Flash, porosity, short-shots, knit lines. Optical comparators or machine vision for high-volume.
+
+### Sampling Protocol
+
+- MDR on every batch before release to molding floor (~15 min test). Failed MDR = rejected or adjusted.
+- Shore A on first 3 parts per mold at start of each shift. Control chart tracking.
+- Tensile + compression set on one cured slab per batch per day.
+- Visual inspection of every part (or statistical sampling with AQL limits for high volume).
+
+## Scaling Notes
+
+- **Bench**: 10–20 ton platen press, hand-loaded. ~dozen parts/hr. Prototyping, formulation development.
+- **Pilot**: 50–200 ton press, multi-cavity, semi-automatic. 100–500 parts/hr.
+- **Production (compression/transfer)**: 200–1000 ton battery, robotic extractors. Thousands of parts/hr per line.
+- **Production (injection)**: 500–2000 ton machines, 1–5 min cycles. Best consistency, highest tooling cost.
+- **Continuous vulcanization**: Extruded profiles through salt bath, microwave tunnel, or fluidized bed. Meters per minute.
+
+Cure time is set by chemistry and thickness — it doesn't decrease with scale. Throughput comes from more cavities, more presses, or faster formulations. Compound shelf life (1–4 weeks with curatives, extendable to 8 weeks refrigerated at 10–15°C) means compounding and molding must be coordinated — ideally on the same site with just-in-time delivery.
 
 ## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|
-| Undercure (tacky surface, low hardness) | Insufficient cure time or temperature too low | Increase cure time; verify mold/platen temperature; check accelerator activity (may be aged) |
-| Overcure (hard, brittle rubber) | Excessive cure time or too much sulfur | Reduce cure time; decrease sulfur dosage; use delayed-action accelerator |
-| Porosity (bubbles in molded part) | Moisture in compound or trapped air | Pre-dry raw rubber; increase press pressure; add vacuum step to molding cycle |
-| Poor adhesion to metal insert | Contaminated insert surface or insufficient brass plating | Clean insert with solvent; verify brass plating quality; use bonding agent (chemical primers) |
-| Blooming (white surface deposit) | Excess sulfur or unreacted accelerators migrating to surface | Reduce sulfur below solubility limit; use efficient vulcanization (EV) system with less sulfur |
-| Uneven cure across thick section | Poor heat transfer to center of part | Increase cure time for thick sections; use step-cure profile; preheat compound before molding |
+| Undercure (tacky, spongy) | Insufficient time/temp, aged accelerator | Check MDR; increase cure time; verify mold temp; check curative addition |
+| Overcure (hard, brittle) | Excessive time/temp or sulfur | Reduce time; lower sulfur; use delayed-action accelerator |
+| Reversion (NR softening) | Prolonged high temp breaking crosslinks | Reduce time/temp; switch to EV; consider SBR/BR blend |
+| Porosity (bubbles) | Trapped air/moisture, poor venting | Pre-dry compound; add mold vents; increase press pressure; vacuum assist |
+| Poor adhesion to insert | Contaminated surface, inadequate plating | Solvent clean; verify brass plating; apply bonding agent (Chemlok) |
+| Blooming (white deposit) | Excess unreacted sulfur/accelerator | Reduce curative below solubility; use EV system |
+| Flash too thick | Low pressure, worn mold faces | Increase pressure; refinish mold; check blank weight |
+| Backrinding (parting-line tears) | Rubber expanding before crosslink stabilizes | Lower mold temp, extend cure; pre-warm blank; relocate parting line |
+| Air trapping (thick-section voids) | Air sealed before vents clear | Add vents; use transfer molding; vacuum assist |
+| Surface roughness (orange peel) | High viscosity, turbulent flow | Lower Mooney viscosity; raise mold temp; polish mold surface |
+
+Start troubleshooting with the MDR trace: if compound is in spec, the problem is in molding (temp, pressure, venting). If MDR is out of spec, the problem is in compounding (weighing, mixing, raw material variation).
 
 ## See Also
 

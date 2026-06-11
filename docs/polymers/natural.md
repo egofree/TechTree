@@ -73,42 +73,9 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 
 **Applications**: Tires, drive belts, seals, gaskets, electrical insulation, vibration dampers, hoses.
 
-## Gutta-Percha
+## Gutta-Percha and Shellac
 
-**Source**: Leaves (not bark) of *Palaquium gutta* and related trees, native to Southeast Asia.
-
-**Chemistry**: Trans-1,4-polyisoprene — a geometric isomer of natural rubber (which is cis-1,4-polyisoprene). The trans configuration packs more tightly, making gutta-percha hard and non-elastic at room temperature.
-
-**Properties**: Hard, horn-like at room temperature. Thermoplastic — softens at ~70°C, becomes pliable and moldable. Non-conductive electrically. Resistant to water, many acids, and biological degradation.
-
-**Harvesting**: Collect fallen leaves (sustainable) or fell trees and collect latex (destructive). Coagulate by pressing leaves in hot water — the gutta-percha separates and floats. Knead and wash to purify.
-
-**Applications**:
-- **Submarine telegraph cables**: First major industrial use (1840s-1850s). Gutta-percha was the only practical electrical insulation for underwater cables until polyethylene replaced it in the 1940s. Its resistance to saltwater and low electrical conductivity made transatlantic telegraph cables possible.
-- **Dental fillings**: Root canal gutta-percha points are still used in modern dentistry. Biocompatible and easily shaped when warmed.
-- **Golf balls ("gutties")**: Replaced feather-filled balls in the 1850s. Cheap, durable, could be molded. Later replaced by rubber-core balls.
-- **Tool handles, electrical insulation, sealing gaskets**: Any application requiring a hard, moldable, insulating material.
-
-## Shellac
-
-**Source**: Secretion of the lac bug (*Kerria lacca*), a scale insect that feeds on trees in India and Southeast Asia. The insect secretes a resinous cocoon (sticklac) on tree branches.
-
-**Harvesting and processing**:
-1. Scrape sticklac from branches (contains insect bodies, twigs, and resin).
-2. Crush and wash in water to remove insect bodies and water-soluble dyes (lac dye was historically valuable as a red textile dye).
-3. Dry → seed lac (granular, brown).
-4. Dissolve in alcohol (ethanol), filter to remove impurities.
-5. Evaporate solvent → shellac flakes (orange/amber or bleached white).
-
-**Properties**: Dissolves readily in ethanol and alkaline water. Dries hard in minutes (fastest-drying natural finish). Good adhesion to wood and metal. Moderate water resistance (watermarks on tabletops). Brittle — cracks if flexed.
-
-**Applications**:
-- **Wood finishing**: French polish (shellac + alcohol, applied with cloth pad). High-gloss, warm-toned finish for fine furniture.
-- **Phonograph records**: Shellac was the primary binder in 78 RPM records (with fillers like slate dust) before vinyl (PVC) replaced it in the 1950s.
-- **Electrical insulation**: Coil windings, transformer insulation, early electronics.
-- **Sealing wax**: Traditional document seals.
-- **Primer/sealer**: Seals porous surfaces before painting. "Knotting" — shellac seals resinous knots in softwood to prevent bleed-through.
-- **Food coating**: Glaze on candies and pills (pharmaceutical "confectioner's glaze").
+Gutta-percha (trans-1,4-polyisoprene) and shellac (lac bug resin) are natural polymers covered in their own dedicated articles. See [Gutta-Percha](gutta-percha.md) for submarine cable insulation, dental applications, and thermoplastic processing. See [Shellac](shellac.md) for wood finishing, phonograph records, electrical insulation, and food coatings.
 
 ## Amber
 
@@ -192,7 +159,7 @@ The traditional ribbed smoked sheet (RSS) smokehouse is a simple structure desig
 
 ## Natural Adhesives
 
-Beyond rubber and shellac, several natural materials provide adhesive properties:
+Beyond rubber, several natural materials provide adhesive properties (see [Shellac](shellac.md) for shellac-based adhesives):
 
 - **Casein glue**: Curdle milk with acid (vinegar) to precipitate casein protein. Mix casein curds with lime (calcium hydroxide) and water. The alkaline lime denatures the protein, creating a strong, water-resistant bond as it dries. Used for woodworking (especially aircraft construction in WWII — casein-bonded plywood), label adhesives, and paint binder (casein paint). Moderate water resistance but not fully waterproof.
 - **Hide glue (animal glue)**: Boil animal hides, bones, or connective tissue in water → collagen denatures → gelatin. Concentrate by evaporation → solid glue cakes or liquid glue. Reversible with heat and water — a advantage for furniture repair (joints can be disassembled by applying hot water and steam). Used for millennia in woodworking, musical instrument construction, bookbinding, and sizing paper. Strong bond on wood but poor water resistance.

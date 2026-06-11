@@ -8,7 +8,7 @@
 > **Outputs**: patterned_wafers, photomasks, exposure_systems
 > **Critical**: Yes — lithography resolution is the primary determinant of achievable feature size
 
-Lithography in the VLSI scaling context covers advanced patterning techniques beyond contact/proximity printing: projection steppers (g-line, i-line), DUV excimer laser systems (KrF 248 nm, ArF 193 nm), immersion lithography, and extreme ultraviolet (EUV). Resolution enhancement techniques (RET) — OPC, phase-shift masks, off-axis illumination — push each wavelength generation to its physical limits. For the foundational lithography processes (contact printing, basic resist chemistry, mask fabrication), see [Core Fab Processes](../photolithography/fab-processes.md) and [Resists & Masks](../photolithography/resists-masks.md).
+This article covers **DUV lithography systems** (g-line through ArF immersion) in full depth: projection scanner design, projection optics, resolution enhancement techniques, computational lithography, immersion systems, mask technology, overlay control, photoresist processing, and throughput/cost analysis. A compact EUV overview is included as part of the wavelength generation progression. For the full EUV deep dive (source technology, CO₂ laser systems, EUV resist chemistry, high-NA EUV, and extreme-node multiple patterning), see [Advanced Lithography](advanced-lithography.md). For the foundational lithography processes (contact printing, basic resist chemistry, mask fabrication), see [Core Fab Processes](../photolithography/fab-processes.md) and [Resists & Masks](../photolithography/resists-masks.md).
 
 ## Prerequisites
 
@@ -171,7 +171,7 @@ At 193 nm (ArF), the maximum dry NA is ~0.93, limited by the practical maximum l
 
 **Higher-index fluids research**: Second-generation immersion fluids (aqueous solutions or organic liquids with n > 1.55 at 193 nm) were investigated to push NA above 1.45. No material achieved the required purity, transparency, and stability simultaneously. High-NA EUV became the preferred path instead.
 
-**High-NA EUV (future)**: Standard EUV NA = 0.28-0.33 (4:1 reduction). High-NA EUV targets NA = 0.55 with 8:1 anamorphic reduction (different X/Y magnification). Resolution: ~8 nm half-pitch single exposure (enabling ~2 nm node without multiple patterning). Mirrors ~1 m+ diameter, new mask format (no backward compatibility). Estimated cost: $500-700M per scanner. First production expected 2025-2027.
+**High-NA EUV (future)**: Standard EUV NA = 0.28-0.33 (4:1 reduction). High-NA EUV targets NA = 0.55 with 8:1 anamorphic reduction — see [Advanced Lithography](advanced-lithography.md) for full details.
 
 **Strengths**:
 - Water immersion (n = 1.44) raises NA from 0.93 (dry) to 1.35 — single change extends 193 nm wavelength through 4+ technology nodes
@@ -183,7 +183,7 @@ At 193 nm (ArF), the maximum dry NA is ~0.93, limited by the practical maximum l
 
 ## EUV Lithography
 
-EUV at 13.5 nm is absorbed by all materials including gases, requiring reflective optics throughout. The most complex manufacturing machine ever built.
+EUV at 13.5 nm is absorbed by all materials including gases, requiring reflective optics throughout. The most complex manufacturing machine ever built. For the expanded treatment of EUV source technology (CO₂ laser chain, collector optics), EUV resist chemistry (RLS trade-off, metal-oxide resists), high-NA EUV, and extreme-node patterning, see [Advanced Lithography](advanced-lithography.md).
 
 **EUV source**:
 - CO₂ laser (10-30 kW CW equivalent) → Sn droplets (25-30 μm diameter) at 50-80 kHz → pre-pulse flattens droplet → main pulse (~100 ns, ~0.5-1 J) creates 30-50 eV plasma emitting at 13.5 nm.
@@ -372,7 +372,7 @@ Select your lithography system based on target node and available capital:
 - [Vacuum Systems](vacuum-systems.md) — vacuum for lithography tools
 - [Advanced Processes](advanced-processes.md) — downstream patterning steps
 - [Continuous Scaling](continuous-scaling.md) — feature size reduction roadmap
-- [Advanced Lithography](advanced-lithography.md) — next-generation lithography
+- [Advanced Lithography](advanced-lithography.md) — EUV deep dive: source technology, EUV resists, high-NA EUV, extreme-node patterning
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*

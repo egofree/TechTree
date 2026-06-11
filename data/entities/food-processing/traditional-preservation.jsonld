@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Drying, salting/curing, and smoking — the oldest preservation methods that remove water or create hostile chemistry to inhibit microbial growth. Achievable with stone-age technology.",
+  "early_win": true,
+  "early_win_note": "Sun drying and salt curing preserve food for months with no energy input or industrial infrastructure",
+  "id": "food-processing.traditional-preservation",
+  "level": "capability",
+  "name": "Traditional Preservation",
+  "outputs": [
+    "dried_food",
+    "salted_food",
+    "smoked_food"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0+"
+}

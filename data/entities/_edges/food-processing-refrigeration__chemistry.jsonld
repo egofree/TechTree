@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.refrigeration__chemistry",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "food-processing.refrigeration",
+  "to": "chemistry"
+}

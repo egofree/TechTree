@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Mechanical cooling that slows microbial growth, chemical degradation, and enzymatic activity. Extends fresh food shelf life by 5-20× but requires continuous energy input. Includes ice harvesting, cold storage, and cold chain logistics.",
+  "early_win": false,
+  "id": "food-processing.refrigeration",
+  "level": "capability",
+  "name": "Refrigeration",
+  "outputs": [
+    "refrigerated_food"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-30"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.traditional-preservation__mining-salt",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "food-processing.traditional-preservation",
+  "to": "mining.salt"
+}

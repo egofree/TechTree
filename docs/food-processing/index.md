@@ -4,9 +4,15 @@ Capabilities in this domain:
 
 - [Grain Milling](milling.md) — Stone querns through water/wind-powered millstones to industrial roller milling. Flour is the foundation of workforce nutrition.
 - [Food Fermentation](fermentation.md) — Controlled cultivation of microorganisms to transform raw foods into more stable, nutritious, and digestible products: sauerkraut, soy sauce, tempeh, sourdough, and vinegar.
-- [Food Preservation](preservation.md) — Drying, salting, smoking, fermentation, canning, pasteurization, and refrigeration. Eliminates seasonal starvation and enables urban workforce concentration.
+- [Food Preservation](preservation.md) — Overview hub: spoilage mechanisms, water activity thresholds, safety reference, and links to all preservation methods.
+
+- [Traditional Preservation](traditional-preservation.md) — Drying, salting/curing, and smoking. Stone-age preservation methods that eliminate seasonal starvation with no industrial infrastructure.
 
 - [Canning & Thermal Sterilization](canning.md) — Preserves food by heating in hermetically sealed containers for multi-year shelf-stable storage without refrigeration, enabling long-distance food logistics.
+
+- [Pasteurization](pasteurization.md) — Heat treatment (LTLT, HTST, UHT) that destroys pathogens in liquid foods while preserving flavor and nutritional quality.
+
+- [Refrigeration](refrigeration.md) — Mechanical cooling and cold chain logistics. Extends fresh food shelf life by 5-20× but requires continuous energy input.
 
 - [Dairy Processing](dairy.md) — Milk separation, butter churning, cheese making, and fermented dairy. Converts hours-perishable milk into months-stable protein.
 

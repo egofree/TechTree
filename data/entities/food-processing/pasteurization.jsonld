@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Heat treatment that destroys pathogenic microorganisms without sterilizing the food. Methods include LTLT (63°C/30 min), HTST (72°C/15 sec), and UHT (135-150°C/2-8 sec). Critical for milk, juice, and liquid foods.",
+  "early_win": false,
+  "id": "food-processing.pasteurization",
+  "level": "capability",
+  "name": "Pasteurization",
+  "outputs": [
+    "pasteurized_food"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

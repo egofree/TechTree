@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.traditional-preservation__health-sanitation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "food-processing.traditional-preservation",
+  "to": "health.sanitation"
+}

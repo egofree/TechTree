@@ -51,9 +51,24 @@ Adding tin to copper produces bronze: harder, lower melting point (~950 °C for 
 3. Skim dross (oxides) from surface.
 4. Pour into preheated mold immediately — bronze fluidity degrades with time as it oxidizes.
 
+**Why tin hardens copper**: Tin atoms are larger than copper atoms (atomic radius 1.45 Å vs 1.28 Å). When tin dissolves in the copper crystal lattice, it distorts the lattice and pins dislocations, preventing them from moving freely. This solid-solution strengthening raises hardness from about 40 HB (pure copper, annealed) to 90-120 HB for 10% tin bronze. The effect is similar to adding carbon to iron to make steel.
+
+**Tin losses**: Tin oxidizes more readily than copper at molten metal temperatures. With a charcoal cover and prompt pouring, tin losses stay below 1-2%. Without a cover, losses can reach 5-10% as tin dross (SnO₂). Weigh the tin addition to compensate for expected loss.
+
 **Verification**: Break a small test button from the pour. Fracture surface of 10% tin bronze is fine-grained and grey-pink. A coarse, crystalline fracture indicates excessive tin or contamination. Weigh the test button to check density (8.8 g/cm³ ±0.1 for 10% Sn) — low density indicates gas porosity.
 
 **Expected performance**: 10% tin bronze casts at 950-1050 °C, flows into mold features down to 1 mm width. Hardness: 120-150 HV as-cast, work-hardens to 200-250 HV. Corrosion rate in seawater: <0.025 mm/year.
+
+### Bronze Compositions by Application
+
+| Alloy Type | Cu % | Sn % | Other | Hardness (HB) | Use |
+|-----------|------|------|-------|---------------|-----|
+| Leaded bronze (casting) | 85-88 | 5-8 | 2-5% Pb | 60-80 | Bushings, bearings, decorative |
+| Standard bronze (tools) | 88-90 | 10-12 | — | 90-120 | Tools, weapons, fittings |
+| Bell bronze | 78-80 | 20-22 | — | 140-180 | Bells, cymbals (hard, resonant) |
+| Mirror bronze | 65-70 | 25-30 | — | 150-200 | Mirrors (polishable, brittle) |
+| Phosphor bronze | 90-94 | 5-8 | 0.1-0.5% P | 80-130 | Springs, marine hardware |
+| Leaded gunmetal | 85-88 | 4-6 | 2-5% Pb, 1-3% Zn | 65-90 | Valves, fittings, pump bodies |
 
 **Tin sourcing challenge**: Cassiterite (SnO₂) is geologically rare. If unavailable locally, copper-only tools (softer, need frequent work-hardening by hammering) or arsenical bronze (copper + arsenic-bearing ores, ~1-5% As — effective but toxic during smelting) are alternatives. See [non-ferrous metal production](non-ferrous.md) for tin smelting.
 
@@ -163,6 +178,7 @@ Bronze production scales with furnace capacity and mold-making throughput:
 | Bronze casting has reddish color instead of golden-yellow | Tin content too low — copper-rich alloy | Verify tin charge weight; target 5–12% Sn for proper bronze |
 | Stone mold casting shows dimensional drift after 20+ pours | Mold surfaces eroding from repeated thermal cycling at 950–1100°C | Switch to new mold after 20–50 pours; for production runs >50 units, use carved soapstone or iron permanent molds |
 | Arsenical bronze fumes causing nausea among workers | Inadequate ventilation during smelting of arsenic-bearing ores | Move smelting outdoors or under hood; provide P100 respirators; consider switching to tin bronze if cassiterite is available |
+| Bronze tool edge chips instead of sharpening | Tin content too high (>15%), forming brittle delta phase | Reduce tin to 10–12% for tools; reserve high-tin alloys for bells only |
 
 ## Variations and Alternatives
 

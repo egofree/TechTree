@@ -1,9 +1,9 @@
 {
   "@context": "../../context.jsonld",
-  "@id": "edge/metals.copper-refining__metals.copper-bronze",
+  "@id": "edge/metals.copper-refining__metals.copper",
   "@type": "Dependency",
   "edgeType": "material",
   "flow": "primary",
   "from": "metals.copper-refining",
-  "to": "metals.copper-bronze"
+  "to": "metals.copper"
 }

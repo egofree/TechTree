@@ -1,9 +1,9 @@
 {
   "@context": "../../context.jsonld",
-  "@id": "edge/electronics-pcb-fabrication__metals-copper-bronze",
+  "@id": "edge/electronics.pcb-fabrication__metals.copper",
   "@type": "Dependency",
   "edgeType": "material",
   "flow": "primary",
   "from": "electronics.pcb-fabrication",
-  "to": "metals.copper-bronze"
+  "to": "metals.copper"
 }

@@ -23,7 +23,7 @@
       "name": "Copper ore (malachite, chalcopyrite)",
       "source": "Mining",
       "used_in": [
-        "metals.copper-bronze",
+        "metals.copper",
         "energy.electricity"
       ],
       "criticality": "critical",
@@ -33,7 +33,7 @@
       "name": "Carbon (charcoal/coke)",
       "source": "Wood pyrolysis / coal distillation",
       "used_in": [
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel",
         "energy.fuels.coke",
         "silicon.mg-si-production"

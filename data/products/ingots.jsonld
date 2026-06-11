@@ -3,7 +3,7 @@
   "@id": "ingots",
   "@type": "Product",
   "name": "Ingots",
-  "source": "metals.copper-bronze",
+  "source": "metals.copper",
   "tags": {
     "lifecycle": [
       "waste-source",

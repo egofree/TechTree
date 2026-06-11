@@ -74,7 +74,7 @@ tier_0_survival:
 tier_1_industrial:
   timeline: Years 5-20
   items:
-  - id: metals.copper-bronze
+  - id: metals.copper
     name: Copper smelting and bronze alloying
     domain: metals
     metrics: 'Smelt 10+ kg copper per batch at 1085+°C; achieve 90% purity; produce 5+ kg bronze with 5-12% tin alloy'
@@ -336,7 +336,7 @@ pathways:
         provide ready lime source for early cement and mortar.'
     - tier: tier_1_industrial
       items:
-      - metals.copper-bronze
+      - metals.copper
       - machine-tools.iterative-bootstrap
       - energy.steam-power
       - energy.electricity
@@ -390,7 +390,7 @@ pathways:
     - tier: tier_1_industrial
       items:
       - metals.iron-steel
-      - metals.copper-bronze
+      - metals.copper
       - machine-tools.iterative-bootstrap
       - metals.casting
       - energy.steam-power
@@ -450,7 +450,7 @@ pathways:
         shelter. Prioritize malaria and parasite control. Laterite soils need composting and ash amendment.'
     - tier: tier_1_industrial
       items:
-      - metals.copper-bronze
+      - metals.copper
       - metals.iron-steel
       - machine-tools.iterative-bootstrap
       - energy.steam-power

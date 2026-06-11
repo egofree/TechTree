@@ -18672,7 +18672,7 @@
       "slug": "7030-cupronickelglossary7030-cupronickelmd",
       "definition": "(C71500: 69% Cu, 30% Ni, 0.7% Fe, 0.5% Mn): Higher strength (~380 MPa annealed, ~520 MPa cold-worked) and superior corrosion resistance in high-velocity seawater (up to 3.5 m/s). Used for naval ship hulls, submarine pipework, offshore platform systems. More expensive (higher Ni content) but lasts longer in severe service. Added chromium (C71900, 30% Ni + 2.8% Cr) for weldability and localized corrosion resistance.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -18683,7 +18683,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -18692,7 +18692,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -18790,7 +18790,7 @@
       "slug": "9010-cupronickelglossary9010-cupronickelmd",
       "definition": "(C70600: 88.5% Cu, 10% Ni, 1.5% Fe, 0.5% Mn): Tensile strength ~320 MPa (annealed), ~440 MPa (cold-worked). Excellent resistance to seawater corrosion, biofouling, and stress corrosion cracking. Used for seawater piping, condenser tubes, heat exchangers, desalination plant tubing. Service life: 20-40 years in flowing seawater. Thermal conductivity: 45 W/m·K (vs. 52 for brass, 390 for pure copper).",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -18801,7 +18801,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -18810,7 +18810,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -19469,7 +19469,7 @@
       "slug": "admiralty-brassglossaryadmiralty-brassmd",
       "definition": "(70% Cu / 29% Zn / 1% Sn): Tin addition improves seawater corrosion resistance. Condenser and heat-exchanger tubing.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -19480,7 +19480,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -19489,7 +19489,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -21367,7 +21367,7 @@
       "slug": "annealingglossaryannealingmd",
       "definition": "(damage recovery + dopant activation): - Implantation amorphizes the crystal lattice. Anneal restores crystallinity and moves dopants to substitutional sites. - **Furnace anneal**: 900-1050°C, 30-60 min in N₂. Simple but causes significant dopant diffusion (redistributes the carefully controlled profile). - **Rapid thermal anneal (RTA)**: Ramp to 1000-1100°C in seconds (halogen lamps), hold 10-30 sec, cool. Minimizes dopant redistribution. Preferred for sub-micron processes. - **Spike anneal*...",
       "source_articles": [
-        "metals.copper-bronze",
+        "metals.copper",
         "vlsi-scaling.advanced-processes"
       ],
       "domains": [
@@ -21380,7 +21380,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze",
+        "metals.copper",
         "vlsi-scaling.advanced-processes"
       ],
       "needs_image": false,
@@ -21390,7 +21390,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -23074,7 +23074,7 @@
     {
       "term": "Beeswax",
       "slug": "beeswaxglossarybeeswaxmd",
-      "definition": "(melting point 62-64°C, density 0.95 g/cm³): - **Investment casting (lost-wax method)**: Critical application for metallurgy — see [metals.copper-bronze](../metals/copper-bronze.md). Wax pattern → ceramic shell mold → melt out wax → pour molten metal. Enables complex shapes impossible with sand casting. - **Writing tablets**: Wooden frame filled with beeswax, inscribed with stylus, smoothed by gentle heating. Reusable writing surface — standard in antiquity before cheap paper. - **Candles**: ...",
+      "definition": "(melting point 62-64°C, density 0.95 g/cm³): - **Investment casting (lost-wax method)**: Critical application for metallurgy — see [metals.copper](../metals/copper.md). Wax pattern → ceramic shell mold → melt out wax → pour molten metal. Enables complex shapes impossible with sand casting. - **Writing tablets**: Wooden frame filled with beeswax, inscribed with stylus, smoothed by gentle heating. Reusable writing surface — standard in antiquity before cheap paper. - **Candles**: ...",
       "source_articles": [
         "animals.beekeeping"
       ],
@@ -23417,7 +23417,7 @@
       "slug": "blister-copperglossaryblister-coppermd",
       "definition": "(98-99% Cu, named for SO₂ blisters trapped during solidification). Duration: 1-3 hours. Temperature: 1150-1250°C.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -23428,7 +23428,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -23437,7 +23437,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -24052,7 +24052,7 @@
       "slug": "calamine-cementation-processglossarycalamine-cementation-processmd",
       "definition": "(pre-industrial): Before metallic zinc was available (zinc boils at 907°C, below its melting point of 419°C, making it difficult to produce as a free metal), brass was made by cementation. Ground calamine (zinc carbonate, ZnCO₃, or zinc oxide, ZnO) is mixed with crushed charcoal and heated with molten copper in a closed crucible at 900-1000°C. Carbon reduces the calamine to zinc vapor, which dissolves directly into the molten copper. Repeated charges of calamine increase zinc content to ~28-3...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -24063,7 +24063,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -24072,7 +24072,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -24481,7 +24481,7 @@
       "slug": "carbonate-oresglossarycarbonate-oresmd",
       "definition": "(malachite, azurite) need no roasting — they decompose directly in the furnace.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -24492,7 +24492,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -24501,7 +24501,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -24605,7 +24605,7 @@
       "slug": "cartridge-brassglossarycartridge-brassmd",
       "definition": "(70% Cu / 30% Zn): Melting range 915-955°C. Tensile strength ~320 MPa (annealed), up to 520 MPa (work-hardened). Excellent deep-drawing capability — the standard alloy for ammunition casings, radiator cores, lamp fixtures. Up to 70% cold reduction before annealing required.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -24616,7 +24616,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -24625,7 +24625,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -27363,7 +27363,7 @@
       "slug": "constantanglossaryconstantanmd",
       "definition": "(55% Cu / 45% Ni, also called Eureka wire, Cupronickel 45): Electrical resistivity ~49 μΩ·cm (vs. 1.7 for pure copper) — among the highest of any copper alloy. Critically, resistivity is nearly constant over a wide temperature range (temperature coefficient of resistance ~±0.00002/°C from 0-100°C, vs. 0.00393/°C for pure copper). This stability makes constantan the standard resistor alloy for precision instruments, strain gauges, and shunt resistors.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -27374,7 +27374,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -27383,7 +27383,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -29924,7 +29924,7 @@
       "slug": "direct-zinc-alloyingglossarydirect-zinc-alloyingmd",
       "definition": "(post-zinc-smelting): Once metallic zinc is available, brass production simplifies. Melt copper in crucible at ~1100°C. Add zinc metal (melts at 419°C, boils at 907°C). Cover crucible with a lid or charcoal layer to minimize zinc vapor loss (zinc volatility is the primary loss mechanism — 3-8% Zn lost as vapor per melt). Stir with a carbon rod. Pour at 950-1050°C depending on alloy. Zinc recovery: 92-97%.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -29935,7 +29935,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -29944,7 +29944,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -32389,7 +32389,7 @@
     {
       "term": "Energy → Charcoal",
       "slug": "energy-charcoalenergycharcoalmd",
-      "definition": "Full charcoal production detail, industrial-scale methods, coke production - **[Ceramics → Pottery](../ceramics/pottery.md)**: Pottery kiln firing temperatures and techniques - **[Metals → Copper-Bronze](../metals/copper-bronze.md)**: Forge-based metallurgy requiring controlled fire temperatures",
+      "definition": "Full charcoal production detail, industrial-scale methods, coke production - **[Ceramics → Pottery](../ceramics/pottery.md)**: Pottery kiln firing temperatures and techniques - **[Metals → Copper-Bronze](../metals/copper.md)**: Forge-based metallurgy requiring controlled fire temperatures",
       "source_articles": [
         "foundations.fire"
       ],
@@ -33914,7 +33914,7 @@
       "slug": "fire-refiningglossaryfire-refiningmd",
       "definition": "(blister → tough pitch): Blister copper is melted in a reverberatory or rotary anode furnace at 1150-1200°C. Two stages: 1. **Oxidation**: Air blown through or over the melt oxidizes impurities (Fe, Zn, Pb, Sn) to slag. Some Cu oxidizes to Cu₂O (dissolved oxygen rises to 0.6-0.9%). 2. **Poling**: Green tree trunks (historically) or natural gas/reductant gas bubbled through the melt reduces dissolved Cu₂O back to Cu, lowering oxygen to 0.03-0.05%. \"Tough pitch\" copper at ~99.5% Cu is cast into...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -33925,7 +33925,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -33934,7 +33934,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -34131,7 +34131,7 @@
       "slug": "flash-smeltingglossaryflash-smeltingmd",
       "definition": "(Outokumpu process, dominant since 1970s): Dry concentrate (moisture <0.3%) is blown with preheated air or oxygen-enriched air (30-95% O₂) through a burner into a tall furnace shaft. The sulfide particles ignite and self-roast in flight — the exothermic oxidation of iron sulfides (2FeS + 3O₂ → 2FeO + 2SO₂) supplies 40-70% of the process heat. Matte (50-70% Cu) collects in the furnace hearth; slag (FeO-SiO₂) floats above. Off-gas: 10-30% SO₂ — strong enough for sulfuric acid production (contac...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -34142,7 +34142,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -34151,7 +34151,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -35016,7 +35016,7 @@
     {
       "term": "foundations.fire",
       "slug": "foundationsfirefoundationsindexmd",
-      "definition": "— smoker fuel and fire for wax melting - **[metals.copper-bronze](../metals/copper-bronze.md)** — lost-wax investment casting using beeswax patterns - **[knowledge.writing](../knowledge/writing.md)** — beeswax writing tablets - **[health.medicine](../health/medicine.md)** — honey wound treatment (osmotic + H₂O₂ antibacterial) - **[health.pharmacology](../health/pharmacology.md)** — honey as medicinal binder and preservative - **[chemistry.lubricants](../chemistry/lubricants.md)** — beeswax be...",
+      "definition": "— smoker fuel and fire for wax melting - **[metals.copper](../metals/copper.md)** — lost-wax investment casting using beeswax patterns - **[knowledge.writing](../knowledge/writing.md)** — beeswax writing tablets - **[health.medicine](../health/medicine.md)** — honey wound treatment (osmotic + H₂O₂ antibacterial) - **[health.pharmacology](../health/pharmacology.md)** — honey as medicinal binder and preservative - **[chemistry.lubricants](../chemistry/lubricants.md)** — beeswax be...",
       "source_articles": [
         "animals.beekeeping"
       ],
@@ -35368,7 +35368,7 @@
       "slug": "free-cutting-brassglossaryfree-cutting-brassmd",
       "definition": "(61.5% Cu / 35.5% Zn / 3% Pb): Lead particles act as chip breakers during machining. Machining speed 3-5× higher than plain brass.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -35379,7 +35379,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -35388,7 +35388,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -38738,7 +38738,7 @@
       "slug": "hydrometallurgical-alternativeglossaryhydrometallurgical-alternativemd",
       "definition": "(SX-EW): Oxide ores (malachite, chrysocolla) unsuitable for froth flotation are leached with dilute sulfuric acid (50-100 g/L) in heap or dump leaching operations. Pregnant leach solution (1-6 g/L Cu²⁺) is concentrated by solvent extraction (LIX reagents in kerosene diluent) to 35-50 g/L Cu, then electrowon directly to cathode copper (99.99% Cu) in electrowinning cells at 180-250 A/m² and 1.8-2.2 V per cell. Energy consumption: 2,200-2,800 kWh per tonne Cu (higher than electrorefining due to ...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -38749,7 +38749,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -38758,7 +38758,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -42021,7 +42021,7 @@
       "slug": "lost-wax-castingglossarylost-wax-castingmd",
       "definition": "(complex shapes — tools, ornaments): 1. **Wax model**: Sculpt in beeswax or tallow. Attach wax sprue and vents. 2. **Clay investment**: Coat in thin clay slip, build up 2-4 layers of clay + grog (~1-3 cm thick). Dry thoroughly (days). 3. **Burnout**: Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax. 4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -42032,7 +42032,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -42041,7 +42041,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -43667,7 +43667,7 @@
     },
     {
       "term": "Metals → Copper-Bronze",
-      "slug": "metals-copper-bronzemetalscopper-bronzemd",
+      "slug": "metals-coppermetalscoppermd",
       "definition": "Forge-based metallurgy requiring controlled fire temperatures",
       "source_articles": [
         "foundations.fire"
@@ -43698,8 +43698,8 @@
       ]
     },
     {
-      "term": "metals.copper-bronze",
-      "slug": "metalscopper-bronzemetalscopper-bronzemd",
+      "term": "metals.copper",
+      "slug": "metalscoppermetalscoppermd",
       "definition": "— lost-wax investment casting using beeswax patterns - **[knowledge.writing](../knowledge/writing.md)** — beeswax writing tablets - **[health.medicine](../health/medicine.md)** — honey wound treatment (osmotic + H₂O₂ antibacterial) - **[health.pharmacology](../health/pharmacology.md)** — honey as medicinal binder and preservative - **[chemistry.lubricants](../chemistry/lubricants.md)** — beeswax belt dressing for machinery",
       "source_articles": [
         "animals.beekeeping"
@@ -43709,7 +43709,7 @@
       ],
       "extraction_method": "bold-pattern",
       "aliases": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "see_also": [],
       "node_refs": [
@@ -44435,7 +44435,7 @@
       "slug": "muntz-metalglossarymuntz-metalmd",
       "definition": "(60% Cu / 40% Zn with trace Fe): Hot-workable, used for structural bolts, condenser tubes.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -44446,7 +44446,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -44455,7 +44455,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -45325,7 +45325,7 @@
       "slug": "nickel-silverglossarynickel-silvermd",
       "definition": "(German silver, 55-65% Cu / 10-30% Ni / 20-30% Zn): Contains no silver — named for its silvery appearance. Resistivity ~25-30 μΩ·cm. Used for tableware, musical instrument bodies (flutes, saxophones), resistor wire, and decorative hardware. The Zn addition lowers cost and improves castability but reduces seawater corrosion resistance compared to binary cupronickel. Melting range: 960-1120°C. Density: 8.4-8.7 g/cm³ depending on composition. Machinability rating: 30-40% of free-cutting brass (t...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -45336,7 +45336,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -45345,7 +45345,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -45883,7 +45883,7 @@
       "slug": "ofhc-copperglossaryofhc-coppermd",
       "definition": "(Oxygen-Free High Conductivity, C10100/C10200): Produced by melting and casting copper under a reducing (CO/N₂) atmosphere or in a vacuum induction furnace, eliminating dissolved oxygen (which forms Cu₂O inclusions in tough-pitch copper). OFHC copper achieves 101% IACS (58.5 MS/m) minimum. Superior ductility, weldability, and hydrogen embrittlement resistance compared to tough-pitch. Essential for vacuum tube components, bus bar for plating cells, and high-reliability electronic connectors. O...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -45894,7 +45894,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -45903,7 +45903,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -47000,7 +47000,7 @@
       "slug": "peirce-smith-converterglossarypeirce-smith-convertermd",
       "definition": "(matte → blister copper): A horizontal cylindrical vessel (3-5 m dia × 9-12 m long), lined with basic refractory (magnesite-chrome), mounted on trunnions for rotation. Molten matte (50-70% Cu) is charged, and air is blown through submerged tuyeres (30-60 mm dia, 40-50 tuyeres along the cylinder length) at 1-2 bar.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -47011,7 +47011,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -47020,7 +47020,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -50497,7 +50497,7 @@
       "slug": "reverberatory-furnaceglossaryreverberatory-furnacemd",
       "definition": "(traditional, 1900s-1970s): A long, shallow hearth furnace (30 m × 10 m) with a refractory roof. Coal, oil, or gas flame heats the roof, which radiates heat onto the charge. Concentrate + flux (silica sand) fed at one end; matte (Cu-Fe-S melt, 30-45% Cu) and slag (iron silicate) separate by density. Operating temperature: 1500-1600°C. Off-gas: 1-2% SO₂ — too dilute for acid plant, historically vented (major pollution source). Matte tapped from furnace bottom, slag skimmed. Fuel consumption: 4...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -50508,7 +50508,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -50517,7 +50517,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -56738,7 +56738,7 @@
       "slug": "temperature-estimation-by-colorglossarytemperature-estimation-by-colormd",
       "definition": "(no instruments): Dark red ~550°C, cherry red ~650°C, bright cherry ~750°C, dark orange ~850°C, orange ~950°C, light yellow ~1050°C, white ~1150°C+.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -56749,7 +56749,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -56758,7 +56758,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -62054,7 +62054,7 @@
       "slug": "yellow-brassglossaryyellow-brassmd",
       "definition": "(60% Cu / 40% Zn): Melting range 880-920°C. Tensile strength ~340 MPa (as-cast). Good castability, moderate strength, golden color. Used for fittings, valves, hardware, decorative castings.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -62065,7 +62065,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -62074,7 +62074,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -71226,7 +71226,7 @@
       "slug": "alloy-composition",
       "definition": "88-95% copper + 5-12% tin. 10% tin is standard \"classic\" bronze. More tin = harder but more brittle.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -71235,7 +71235,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -71249,7 +71249,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -71631,7 +71631,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -73332,7 +73332,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -74706,7 +74706,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 8
         },
@@ -75077,7 +75077,7 @@
           "occurrences": 45
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 19
         },
@@ -75254,7 +75254,7 @@
       "slug": "anode-life",
       "definition": "~21-28 days (anodes are thicker than cathodes and dissolve over two cathode cycles).",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -75263,7 +75263,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -75272,7 +75272,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -75324,7 +75324,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -75375,7 +75375,7 @@
       "definition": "Slime accumulates at tank bottoms (0.2-0.8% of anode mass). Typical composition: 10-30% Ag, 0.5-2% Au, trace Pt, Pd, Se, Te. Slime is collected, roasted, leached, and electrolytically refined to recover precious metals — a critical economic co-product that often pays for the entire refining operation. A smelter processing 1 million tonnes of copper anode per year recovers ~3,000 tonnes of silver and ~30 tonnes of gold from anode slime.",
       "source_articles": [
         "chemistry.electrolysis",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "chemistry",
@@ -75386,7 +75386,7 @@
       "see_also": [],
       "node_refs": [
         "chemistry.electrolysis",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -75400,7 +75400,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -76897,7 +76897,7 @@
           "occurrences": 11
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 4
         },
@@ -83033,7 +83033,7 @@
           "occurrences": 7
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 4
         },
@@ -87075,7 +87075,7 @@
       "source_articles": [
         "glass.advanced",
         "machine-tools.forming",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "glass",
@@ -87088,7 +87088,7 @@
       "node_refs": [
         "glass.advanced",
         "machine-tools.forming",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -87117,7 +87117,7 @@
           "occurrences": 11
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         },
@@ -87162,7 +87162,7 @@
       "slug": "beneficiation",
       "definition": "Hand-sort ore from gangue (waste rock). Crush with stone hammer on stone anvil to ~1-3 cm pieces. Wash to remove clay and fines. Roast sulfide ores in open fire (400-600°C, 4-8 hours) to convert sulfides to oxides and drive off sulfur — essential step for chalcopyrite. - **Carbonate ores** (malachite, azurite) need no roasting — they decompose directly in the furnace.",
       "source_articles": [
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.non-ferrous"
       ],
       "domains": [
@@ -87173,7 +87173,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.non-ferrous"
       ],
       "needs_image": true,
@@ -87183,7 +87183,7 @@
       "tier": "critical",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -97802,10 +97802,10 @@
     {
       "term": "Burnout",
       "slug": "burnout",
-      "definition": "Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax. 4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper-bronze.md)",
+      "definition": "Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax. 4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper.md)",
       "source_articles": [
         "metals.casting",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "glossary",
@@ -97817,7 +97817,7 @@
       "see_also": [],
       "node_refs": [
         "metals.casting",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -97831,7 +97831,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -98021,7 +98021,7 @@
       "definition": "Solid copper or aluminum bars (6-12 mm thick × 30-100 mm wide) for high-current distribution (400-6000A). Bare copper oxidizes — tin or silver plating prevents surface resistance increase. Bolted joints: Belleville spring washers maintain contact pressure during thermal cycling. Joint resistance: <5 μΩ per connection. Bus bar temperature rise: <65°C above ambient at rated current.",
       "source_articles": [
         "electronics.electrical-systems",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "electronics",
@@ -98034,7 +98034,7 @@
       "see_also": [],
       "node_refs": [
         "electronics.electrical-systems",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -98053,7 +98053,7 @@
           "occurrences": 6
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -101538,7 +101538,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -102603,7 +102603,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -102689,7 +102689,7 @@
       "source_articles": [
         "ceramics.kilns",
         "foundations.fire",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "ceramics",
@@ -102702,7 +102702,7 @@
       "node_refs": [
         "ceramics.kilns",
         "foundations.fire",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -102721,7 +102721,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -105614,7 +105614,7 @@
           "occurrences": 16
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 16
         },
@@ -105691,7 +105691,7 @@
       "slug": "cathode-cycle",
       "definition": "7-14 days per harvest. A single cathode grows to ~100-150 kg.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -105700,7 +105700,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -105709,7 +105709,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -107255,7 +107255,7 @@
         "energy.fuel-cell",
         "energy.storage",
         "metals.aluminum",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "chemistry",
@@ -107272,7 +107272,7 @@
         "energy.fuel-cell",
         "energy.storage",
         "metals.aluminum",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -107306,7 +107306,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         },
@@ -108615,7 +108615,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -109379,7 +109379,7 @@
         "energy.fuels.coke",
         "energy.storage",
         "metals.casting",
-        "metals.copper-bronze",
+        "metals.copper",
         "silicon.crystal-growth"
       ],
       "domains": [
@@ -109397,7 +109397,7 @@
         "energy.fuels.coke",
         "energy.storage",
         "metals.casting",
-        "metals.copper-bronze",
+        "metals.copper",
         "silicon.crystal-growth"
       ],
       "needs_image": false,
@@ -109467,7 +109467,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 5
         },
@@ -114620,9 +114620,9 @@
     {
       "term": "Clay investment",
       "slug": "clay-investment",
-      "definition": "Coat in thin clay slip, build up 2-4 layers of clay + grog (~1-3 cm thick). Dry thoroughly (days). 3. **Burnout**: Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax. 4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper-bronze.md)",
+      "definition": "Coat in thin clay slip, build up 2-4 layers of clay + grog (~1-3 cm thick). Dry thoroughly (days). 3. **Burnout**: Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax. 4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper.md)",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "glossary",
@@ -114632,7 +114632,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -114641,7 +114641,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -114681,7 +114681,7 @@
       "slug": "clay-molds",
       "definition": "Fired clay investment around wax model (lost-wax method) or carved directly. More durable, reusable 1-3 times. Better detail than sand.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -114690,7 +114690,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -114699,7 +114699,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -123877,7 +123877,7 @@
       "slug": "concentrate-preparation",
       "definition": "Mined ore (0.5-2% Cu) is crushed, ground to 50-100 μm, and concentrated by froth flotation to 20-35% Cu as a sulfide concentrate (primarily chalcopyrite CuFeS₂, chalcocite Cu₂S, bornite Cu₅FeS₄). Concentrate is filtered to 8-10% moisture and transported to the smelter.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -123886,7 +123886,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -123895,7 +123895,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -127268,7 +127268,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -128805,7 +128805,7 @@
       "slug": "continuous-casting-rod-systems",
       "definition": "The Southwire process casts 8-12 mm rod continuously through a graphite-coated copper whee mold, then hot-rolls it through 8-14 rolling stands to final rod diameter. Line speed: 5-15 m/min. Annual output per line: 50,000-200,000 tonnes. The Properzi process uses a rotating ring mold instead of a wheel. Both produce rod with <0.04% oxygen (tough-pitch grade) suitable for direct wire drawing without additional processing.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -128814,7 +128814,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -128823,7 +128823,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -130980,7 +130980,7 @@
     {
       "term": "Copper anode slime",
       "slug": "copper-anode-slime",
-      "definition": "is only available from electrolytic copper refining (see [Copper & Bronze](copper-bronze.md)).",
+      "definition": "is only available from electrolytic copper refining (see [Copper & Bronze](copper.md)).",
       "source_articles": [
         "metals.precious-metals"
       ],
@@ -131040,7 +131040,7 @@
       "slug": "copper-blow",
       "definition": "Remaining Cu₂S is oxidized: 2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂, then Cu₂S + 2Cu₂O → 6Cu + SO₂. The product is **[blister copper](../glossary/blister-copper.md)** (98-99% Cu, named for SO₂ blisters trapped during solidification). Duration: 1-3 hours. Temperature: 1150-1250°C.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -131049,7 +131049,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -131058,7 +131058,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -136852,7 +136852,7 @@
       "slug": "crucible-design",
       "definition": "Clay-graphite crucibles (~60% fire clay + ~40% powdered graphite or charcoal dust) resist thermal shock and last through many heats. Form over a core, dry slowly, fire to harden. A 10 cm dia × 12 cm tall crucible holds ~2-3 kg molten copper. Always preheat crucibles before adding metal — a cold crucible in molten copper may shatter.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -136861,7 +136861,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -136870,7 +136870,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -136904,7 +136904,7 @@
       "slug": "crucible-or-hearth",
       "definition": "Bowl-shaped depression at furnace base, or separate crucible (fired fire clay) to collect molten copper.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -136913,7 +136913,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -136922,7 +136922,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -138570,7 +138570,7 @@
       "slug": "cupronickel-copper-nickel",
       "definition": "The premier marine alloy family. Nickel content 10-30% with small additions of iron (0.5-2%) and manganese (0.5-1%) for improved impingement corrosion resistance and deoxidation.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -138579,7 +138579,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -138588,7 +138588,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -138953,7 +138953,7 @@
         "electrochemistry.electroplating",
         "energy.blue-energy",
         "energy.fuel-cell",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.finishing"
       ],
       "domains": [
@@ -138974,7 +138974,7 @@
         "electrochemistry.electroplating",
         "energy.blue-energy",
         "energy.fuel-cell",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.finishing"
       ],
       "needs_image": false,
@@ -139024,7 +139024,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -145845,7 +145845,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -156210,7 +156210,7 @@
       "slug": "drawing-forces-and-die-design",
       "definition": "Draw force F = σᵧ × A × ln(A₀/A₁) where σᵧ is yield stress, A₀ and A₁ are initial and final cross-sectional areas. Approach angle of the die cone: 12-18° (steeper angles increase redundant work, shallower angles increase friction). Bearing length: 0.3-0.8× wire diameter. Die wear rate: 1-5 μm bore enlargement per tonne of wire drawn through tungsten carbide dies; diamond dies last 10-50× longer for fine wire.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -156219,7 +156219,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -156228,7 +156228,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -156240,7 +156240,7 @@
       "definition": "Hammer along the length to stretch and thin the stock. Rotate 90° between passes to keep section roughly square.",
       "source_articles": [
         "machine-tools.forming",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "machine-tools",
@@ -156251,7 +156251,7 @@
       "see_also": [],
       "node_refs": [
         "machine-tools.forming",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -156265,7 +156265,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -158951,7 +158951,7 @@
         "food-processing.brewing",
         "gas-handling.vacuum",
         "knowledge.writing",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "energy",
@@ -158968,7 +158968,7 @@
         "food-processing.brewing",
         "gas-handling.vacuum",
         "knowledge.writing",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -159032,7 +159032,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 3
         }
@@ -164145,7 +164145,7 @@
         "electrochemistry.electrochemical-processes",
         "energy.storage",
         "metals.aluminum",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.precious-metals"
       ],
       "domains": [
@@ -164162,7 +164162,7 @@
         "electrochemistry.electrochemical-processes",
         "energy.storage",
         "metals.aluminum",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.precious-metals"
       ],
       "needs_image": false,
@@ -164207,7 +164207,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 4
         },
@@ -165054,7 +165054,7 @@
       "tier": "critical",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -165994,7 +165994,7 @@
       "slug": "enamel-magnet-wire",
       "definition": "Polyurethane, polyester, or polyimide coatings applied by repeated dipping and curing cycles. Film builds of 0.02-0.10 mm. Polyurethane solderable at 380°C (no strip needed). Polyimide (class 220, 220°C continuous rating) for motors and transformers.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -166003,7 +166003,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -166012,7 +166012,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -166779,7 +166779,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -174564,7 +174564,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -181203,7 +181203,7 @@
       "slug": "fine-wire",
       "definition": "Down to 0.05-0.10 mm diameter for winding wire. 20+ draw passes from 8 mm rod. Breakage rate increases below 0.1 mm — precision tension control required.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -181212,7 +181212,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -181221,7 +181221,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -181326,7 +181326,7 @@
       "slug": "finish",
       "definition": "Sand smooth (120 → 220 → 400 grit). Final coat of clear varnish or paint. Check balance after finishing. Mark tracking marks (chalk on each blade tip — spin and observe marks should overlap perfectly from the side).",
       "source_articles": [
-        "metals.copper-bronze",
+        "metals.copper",
         "plants.structural-plants",
         "transport.aviation"
       ],
@@ -181340,7 +181340,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze",
+        "metals.copper",
         "plants.structural-plants",
         "transport.aviation"
       ],
@@ -181361,7 +181361,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         },
@@ -185593,7 +185593,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -186410,7 +186410,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -188565,7 +188565,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -190750,7 +190750,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -192409,7 +192409,7 @@
           "occurrences": 12
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 21
         },
@@ -192567,7 +192567,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -198822,7 +198822,7 @@
           "occurrences": 7
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -205060,7 +205060,7 @@
           "occurrences": 6
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -206130,7 +206130,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 4
         },
@@ -212402,7 +212402,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -215527,7 +215527,7 @@
       "slug": "iacs-conductivity-standard",
       "definition": "The International Annealed Copper Standard defines 100% IACS = 58.0 MS/m (mega-siemens per meter) volumetric electrical conductivity at 20°C. This corresponds to a resistivity of 1.7241 μΩ·cm. Commercial electrolytic tough-pitch copper (C11000) tests at 100-101% IACS. All copper alloys are rated as percentages of this standard. Phosphorus is a potent conductivity reducer — as little as 0.02% P drops conductivity to ~85% IACS.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -215536,7 +215536,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -215545,7 +215545,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -217660,7 +217660,7 @@
       "slug": "increase-blast",
       "definition": "Full bellows operation. Temperature rises to 1100-1300°C. Reaction: 2CuO + C → 2Cu + CO₂ (simplified; actual carbonate ores decompose to oxide first at ~300-400°C, then reduce).",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -217669,7 +217669,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -217678,7 +217678,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -218412,7 +218412,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -222062,7 +222062,7 @@
         "energy.cooling",
         "energy.electricity",
         "marine.infrastructure",
-        "metals.copper-bronze",
+        "metals.copper",
         "telecom.submarine-cables"
       ],
       "domains": [
@@ -222085,7 +222085,7 @@
         "energy.cooling",
         "energy.electricity",
         "marine.infrastructure",
-        "metals.copper-bronze",
+        "metals.copper",
         "telecom.submarine-cables"
       ],
       "needs_image": true,
@@ -222245,7 +222245,7 @@
           "occurrences": 7
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 4
         },
@@ -223330,7 +223330,7 @@
       "slug": "intermediate-annealing",
       "definition": "Work-hardened wire is annealed in a continuous strand annealer (resistive heating to 400-600°C under inert atmosphere) between draw passes. This restores conductivity and ductility. Without annealing, conductivity drops to ~97% IACS due to dislocation scattering.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -223339,7 +223339,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -223348,7 +223348,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -224573,7 +224573,7 @@
     {
       "term": "Investment casting (lost-wax method)",
       "slug": "investment-casting-lost-wax-method",
-      "definition": "Critical application for metallurgy — see [metals.copper-bronze](../metals/copper-bronze.md). Wax pattern → ceramic shell mold → melt out wax → pour molten metal. Enables complex shapes impossible with sand casting.",
+      "definition": "Critical application for metallurgy — see [metals.copper](../metals/copper.md). Wax pattern → ceramic shell mold → melt out wax → pour molten metal. Enables complex shapes impossible with sand casting.",
       "source_articles": [
         "animals.beekeeping"
       ],
@@ -232441,7 +232441,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 5
         },
@@ -232585,7 +232585,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -247246,7 +247246,7 @@
         "measurement.optical-instruments",
         "measurement.precision-metrology",
         "measurement.temperature-pressure",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel",
         "optics.inspection.optical-coatings",
         "optics.precision-instruments",
@@ -247308,7 +247308,7 @@
         "measurement.optical-instruments",
         "measurement.precision-metrology",
         "measurement.temperature-pressure",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel",
         "optics.inspection.optical-coatings",
         "optics.precision-instruments",
@@ -247760,7 +247760,7 @@
           "occurrences": 12
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 3
         },
@@ -250551,7 +250551,7 @@
           "occurrences": 8
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -251677,7 +251677,7 @@
           "occurrences": 10
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 20
         },
@@ -251733,7 +251733,7 @@
       "slug": "melting-and-casting",
       "definition": "Cupronickel alloys melt at 1170-1240°C (range depends on Ni content). Melted in coreless induction furnaces under charcoal cover to prevent oxidation. Deoxidized with magnesium or lithium before pouring. Cast in graphite or metal molds (permanent mold casting). Nickel increases the tendency for inverse segregation (Ni-enriched surface layer) — controlled by mold preheat (200-400°C) and moderate pour speed. Hot-working range: 800-950°C. Cold-working: up to 50% reduction before annealing requir...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -251742,7 +251742,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -251751,7 +251751,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -255292,7 +255292,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -260110,7 +260110,7 @@
           "occurrences": 8
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 16
         },
@@ -260898,7 +260898,7 @@
       "slug": "molten-metal-burns",
       "definition": "Copper and bronze melt at 1085-1200°C and cause devastating deep-tissue burns on skin contact. Molten metal splashes readily when poured into damp or cold molds. Wear heavy leather apron, gauntlet gloves, face shield, and closed-toe boots. Preheat all molds and crucibles to 200-400°C before contact with molten metal — a cold or damp crucible may shatter violently, spraying molten copper. Never pour molten metal into wet molds; trapped moisture flashes to steam and ejects metal explosively.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -260907,7 +260907,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -260916,7 +260916,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -263149,7 +263149,7 @@
       "slug": "multi-die-drawing",
       "definition": "Rod passes through a series of tungsten carbide or diamond drawing dies of decreasing bore diameter. Each die reduces cross-section by 15-25%. Lubrication: soap solution or oil-based drawing compound. A 12-die machine draws 8 mm rod to 1.6 mm wire at ~30 m/s.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -263158,7 +263158,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -263167,7 +263167,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -272619,7 +272619,7 @@
       "slug": "operating-parameters",
       "definition": "Pressure 10-100 mTorr. RF power 50-500 W. Gas flow 10-200 sccm. Wafer temperature: 20-80°C (cooled by helium backside cooling for uniform temperature). Lower pressure → more anisotropic (longer mean free path, more directional ions). Higher power → faster etch but less selective (more physical sputtering damages mask and select materials).",
       "source_articles": [
-        "metals.copper-bronze",
+        "metals.copper",
         "photolithography.fab-processes",
         "telecom.pre-electric"
       ],
@@ -272632,7 +272632,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze",
+        "metals.copper",
         "photolithography.fab-processes",
         "telecom.pre-electric"
       ],
@@ -272643,7 +272643,7 @@
       "tier": "critical",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -272885,7 +272885,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -273250,7 +273250,7 @@
           "occurrences": 6
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 4
         },
@@ -274595,7 +274595,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 15
         },
@@ -276853,11 +276853,11 @@
     {
       "term": "Oxidation",
       "slug": "oxidation",
-      "definition": "Air blown through or over the melt oxidizes impurities (Fe, Zn, Pb, Sn) to slag. Some Cu oxidizes to Cu₂O (dissolved oxygen rises to 0.6-0.9%). 2. **Poling**: Green tree trunks (historically) or natural gas/reductant gas bubbled through the melt reduces dissolved Cu₂O back to Cu, lowering oxygen to 0.03-0.05%. \"Tough pitch\" copper at ~99.5% Cu is cast into... See: [Copper & Bronze Production](../metals/copper-bronze.md)",
+      "definition": "Air blown through or over the melt oxidizes impurities (Fe, Zn, Pb, Sn) to slag. Some Cu oxidizes to Cu₂O (dissolved oxygen rises to 0.6-0.9%). 2. **Poling**: Green tree trunks (historically) or natural gas/reductant gas bubbled through the melt reduces dissolved Cu₂O back to Cu, lowering oxygen to 0.03-0.05%. \"Tough pitch\" copper at ~99.5% Cu is cast into... See: [Copper & Bronze Production](../metals/copper.md)",
       "source_articles": [
         "ceramics.pottery.kiln-firing",
         "health.pharmacology",
-        "metals.copper-bronze",
+        "metals.copper",
         "polymers.rubber.gutta-percha"
       ],
       "domains": [
@@ -276874,7 +276874,7 @@
       "node_refs": [
         "ceramics.pottery.kiln-firing",
         "health.pharmacology",
-        "metals.copper-bronze",
+        "metals.copper",
         "polymers.rubber.gutta-percha"
       ],
       "needs_image": false,
@@ -276934,7 +276934,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 4
         },
@@ -278739,7 +278739,7 @@
       "slug": "paper-oil-insulation",
       "definition": "Kraft paper tape wound in overlapping layers, vacuum-impregnated with mineral oil. High-voltage cable (up to 500 kV). Obsolescent for new installation but widely installed.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -278748,7 +278748,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -278757,7 +278757,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -288799,7 +288799,7 @@
           "occurrences": 6
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -290252,7 +290252,7 @@
       "slug": "poling",
       "definition": "Green tree trunks (historically) or natural gas/reductant gas bubbled through the melt reduces dissolved Cu₂O back to Cu, lowering oxygen to 0.03-0.05%. \"Tough pitch\" copper at ~99.5% Cu is cast into anodes (800-1000 mm × 800-1000 mm × 40-50 mm, ~250-400 kg each) for electrolytic refining.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "glossary",
@@ -290262,7 +290262,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -290271,7 +290271,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -292992,9 +292992,9 @@
     {
       "term": "Pour",
       "slug": "pour",
-      "definition": "Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper-bronze.md)",
+      "definition": "Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper.md)",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "glossary",
@@ -293004,7 +293004,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -293013,7 +293013,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 13
         },
@@ -293080,7 +293080,7 @@
           "occurrences": 12
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 3
         },
@@ -293106,7 +293106,7 @@
       "slug": "pouring-temperature",
       "definition": "~1150-1250°C (copper melts at 1085°C, needs superheat for fluidity). Preheat molds to ~200-400°C to prevent thermal shock and improve fill.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -293115,7 +293115,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -293124,7 +293124,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -293931,7 +293931,7 @@
       "slug": "power-cable",
       "definition": "Stranded copper conductors (19-127 strands, 1-4 mm each) insulated and sheathed. 1 kV to 500 kV ratings. Underground and submarine applications.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -293940,7 +293940,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -293949,7 +293949,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -297077,7 +297077,7 @@
       "slug": "preheat",
       "definition": "Light charcoal in furnace, gentle air blast for 15-30 minutes to dry and preheat walls.",
       "source_articles": [
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel"
       ],
       "domains": [
@@ -297087,7 +297087,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel"
       ],
       "needs_image": false,
@@ -297107,7 +297107,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 8
         },
@@ -299825,7 +299825,7 @@
       "slug": "primary-ores",
       "definition": "Malachite (Cu₂CO₃(OH)₂, green), azurite (Cu₃(CO₃)₂(OH)₂, blue), chalcopyrite (CuFeS₂, brass-yellow) - **Beneficiation**: Hand-sort ore from gangue (waste rock). Crush with stone hammer on stone anvil to ~1-3 cm pieces. Wash to remove clay and fines. Roast sulfide ores in open fire (400-600°C, 4-8 hours) to convert sulfides to oxides and drive off sulfur — essential step for chalcopyrite. - **[Carbonate ores](../glossary/carbonate-ores.md)** (malachite, azurite) need no roasting — they decompo...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -299834,7 +299834,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -299843,7 +299843,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -300697,7 +300697,7 @@
         "knowledge.libraries",
         "machine-tools.forming",
         "metals.aluminum",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel",
         "metals.iron-steel.blast-furnace",
         "metals.precious-metals",
@@ -300763,7 +300763,7 @@
         "knowledge.libraries",
         "machine-tools.forming",
         "metals.aluminum",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel",
         "metals.iron-steel.blast-furnace",
         "metals.precious-metals",
@@ -301264,7 +301264,7 @@
           "occurrences": 23
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 17
         },
@@ -302254,7 +302254,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 4
         },
@@ -302959,7 +302959,7 @@
           "occurrences": 32
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 13
         },
@@ -303918,7 +303918,7 @@
           "occurrences": 16
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 10
         },
@@ -305285,7 +305285,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -305496,7 +305496,7 @@
       "slug": "properties-vs-bronze",
       "definition": "Brass (70/30) density 8.5 g/cm³ vs. bronze (90/10) 8.8 g/cm³. Brass tensile strength 320 MPa (annealed) vs. bronze 240-310 MPa. Bronze superior for bearings (lower friction), marine hardware (resists dezincification), and tools (higher hardness after work-hardening). Brass superior for decorative work (gold color, takes polish), musical instruments (acoustic properties), and machined fittings.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -305505,7 +305505,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -305514,7 +305514,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -308623,7 +308623,7 @@
       "definition": "Test crucible material by ICP-MS (inductively coupled plasma mass spectrometry) or GDMS (glow discharge mass spectrometry). Key impurity limits for semiconductor use: Al <10 ppm, Fe <1 ppm, Na <0.5 ppm. Metallic impurities in the crucible dissolve into molten silicon during CZ growth, doping the crystal uncontrollably. Solar-grade crucibles tolerate higher impurity levels (Al <20 ppm, Fe <5 ppm) because solar cell efficiency is less sensitive to trace contamination.",
       "source_articles": [
         "glass.advanced",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "glass",
@@ -308634,7 +308634,7 @@
       "see_also": [],
       "node_refs": [
         "glass.advanced",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -308648,7 +308648,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -308840,7 +308840,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -309030,7 +309030,7 @@
       "slug": "pvc-insulation",
       "definition": "Extruded polyvinyl chloride jacket, rated to 70°C or 105°C. General-purpose building wire and cable.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -309039,7 +309039,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -309048,7 +309048,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -310623,7 +310623,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -313703,7 +313703,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -315405,7 +315405,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -316603,7 +316603,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -317252,7 +317252,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 7
         },
@@ -319732,7 +319732,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -324449,7 +324449,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 6
         },
@@ -324747,7 +324747,7 @@
           "occurrences": 43
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 36
         },
@@ -324890,7 +324890,7 @@
       "slug": "rod-stock",
       "definition": "Continuously cast and rolled 8-12 mm diameter copper rod (Southwire or Properzi process). Rod is coiled into 2-5 tonne pay-off packs.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -324899,7 +324899,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -324908,7 +324908,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -325221,7 +325221,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -329518,7 +329518,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -331564,7 +331564,7 @@
       "slug": "sand-molds",
       "definition": "Fine, damp silica sand packed around wooden pattern. Pattern removed, copper poured into cavity. Good for simple shapes (ingots, flat tools). Withstands single pour.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -331573,7 +331573,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -331582,7 +331582,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -339441,7 +339441,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         }
@@ -340380,7 +340380,7 @@
       "slug": "sheet",
       "definition": "Begin with a thick slab. Hammer flat with overlapping blows, working from center outward. Anneal frequently (every few minutes of hammering). Target: sheet of 0.5-2 mm thickness. Thinner sheet requires more annealing cycles. Support on a flat anvil or stake while planishing (smooth hammering for flat, uniform surface).",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -340389,7 +340389,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -340403,7 +340403,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 9
         },
@@ -347668,7 +347668,7 @@
       "slug": "slag-and-spark-injuries",
       "definition": "During hot forging and slag skimming, hot slag and metal particles spray out as bright sparks at 700-900°C. Eye protection (safety glasses or face shield) is essential when hammering hot metal. Slag skimmed from molten copper retains dangerous heat for extended periods — set aside on dry sand or refractory surface, never on combustible material.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -347677,7 +347677,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -347686,7 +347686,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -347697,7 +347697,7 @@
       "slug": "slag-blow",
       "definition": "Air oxidizes FeS in the matte to FeO + SO₂. Silica flux added to form fayalite slag (2FeO·SiO₂). Slag is poured off by tilting the converter. Duration: 2-6 hours depending on iron content. This stage removes most iron and sulfur.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -347706,7 +347706,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -347715,7 +347715,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -349367,7 +349367,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 11
         },
@@ -351313,7 +351313,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -353267,7 +353267,7 @@
           "occurrences": 6
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -355403,7 +355403,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -360538,7 +360538,7 @@
       "slug": "starter-sheet-preparation",
       "definition": "Thin copper sheets (~1 mm thick) serve as cathode starter sheets. Produced by stripping the deposited copper from titanium or stainless steel blank cathodes after a short (12-24 hour) plating cycle, or by rolling strip stock to gauge. Starter sheet dimensions match anode dimensions. Mechanically straightened and masked at the top edge to prevent edge growth bridging to adjacent anodes.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -360547,7 +360547,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -360556,7 +360556,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -365468,7 +365468,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -365634,7 +365634,7 @@
       "slug": "stone-molds",
       "definition": "Carved soapstone or fine-grained stone. Reusable dozens of times. Best for standardized items (axe heads, ingots).",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -365643,7 +365643,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -365652,7 +365652,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -370741,7 +370741,7 @@
       "slug": "sulfuric-acid-co-production",
       "definition": "Flash smelter and Peirce-Smith converter off-gases are combined, cooled, cleaned (electrostatic precipitators, wet scrubbers), and fed to a double-contact double-absorption (DCDA) sulfuric acid plant. Conversion efficiency: 99.5-99.9% of SO₂ to H₂SO₄. A smelter processing 1 million tonnes/year of 30% Cu concentrate produces ~1.0-1.2 million tonnes of sulfuric acid (100% H₂SO₄ basis). This acid is sold for leaching, fertilizer production, or chemical manufacture — a major revenue stream. Smelt...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -370750,7 +370750,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -370759,7 +370759,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -375323,7 +375323,7 @@
       "slug": "tankhouse-design",
       "definition": "Rows of concrete or polymer-lined tanks, each ~4-5 m long × 1 m wide × 1.3-1.5 m deep. Each tank holds 30-50 anode-cathode pairs interleaved at 80-120 mm spacing. Tanks are connected electrically in series; electrodes within a tank are in parallel. A tankhouse processing 200,000 tonnes/year copper operates 500-1,000 cells.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -375332,7 +375332,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -375341,7 +375341,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -375882,7 +375882,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -375942,7 +375942,7 @@
       "slug": "tapping-or-recovery",
       "definition": "Copper collects in crucible/hearth. Break open furnace (destructive for early furnaces) or tilt/tap molten copper into mold. Slag (iron silicate, calcium silicate) floats on top — skim off before pouring.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -375951,7 +375951,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -375960,7 +375960,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -378027,7 +378027,7 @@
           "occurrences": 18
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 13
         },
@@ -379367,7 +379367,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 4
         },
@@ -382569,7 +382569,7 @@
       "slug": "thermocouple-use",
       "definition": "Type J (iron-constantan, 0-760°C), Type T (copper-constantan, -200 to 370°C), and Type E (chromel-constantan, -200 to 900°C) thermocouples all use constantan as one leg. Seebeck coefficient: ~50-60 μV/°C for Cu-Constantan pair. Calibration tables standardized (NIST ITS-90). Thermocouple wire is drawn to 0.1-1.0 mm diameter, insulated with fiberglass or ceramic fiber. Junction formed by twisting and welding (gas or resistance weld).",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -382578,7 +382578,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -382587,7 +382587,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -384248,7 +384248,7 @@
           "occurrences": 45
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 19
         },
@@ -385577,7 +385577,7 @@
       "slug": "tin-sourcing-challenge",
       "definition": "Cassiterite (SnO₂) is geologically rare. If unavailable locally, copper-only tools (softer, need frequent work-hardening by hammering) or arsenical bronze (copper + arsenic-bearing ores, ~1-5% As — effective but toxic during smelting) are alternatives.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -385586,7 +385586,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -385595,7 +385595,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -385839,7 +385839,7 @@
           "occurrences": 14
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -388615,7 +388615,7 @@
       "slug": "toxic-fumes-from-arsenical-ores",
       "definition": "Arsenic-bearing copper ores (ennargite, tennantite) release arsenic trioxide vapor during roasting (400-600°C) and smelting. Arsenic fumes cause nausea, vomiting, abdominal pain, and long-term nerve and organ damage. Arsenical bronze production (~1-5% As) is particularly hazardous. Smelt in well-ventilated areas or under a hood. Respiratory protection (particulate filter) required when roasting sulfide or arsenic-bearing ores. Lead, often present as a trace impurity in copper ores, vaporizes ...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -388624,7 +388624,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -388633,7 +388633,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -393261,7 +393261,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 2
         },
@@ -394125,7 +394125,7 @@
       "slug": "tuyere",
       "definition": "Water-cooled copper or cast iron nozzles near the bottom of the bosh, connected to a blowing engine (bellows or, later, steam-driven blower). Deliver preheated air blast into the furnace. Multiple tuyeres (4-8) evenly spaced around circumference for uniform blast distribution.",
       "source_articles": [
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel.blast-furnace"
       ],
       "domains": [
@@ -394137,7 +394137,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.iron-steel.blast-furnace"
       ],
       "needs_image": false,
@@ -394147,7 +394147,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 5
         },
@@ -397228,7 +397228,7 @@
       "definition": "Hammer on end to thicken cross-section. Risk of buckling if length > 3× diameter.",
       "source_articles": [
         "machine-tools.forming",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "machine-tools",
@@ -397239,7 +397239,7 @@
       "see_also": [],
       "node_refs": [
         "machine-tools.forming",
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -397253,7 +397253,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -398512,7 +398512,7 @@
           "occurrences": 9
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 4
         },
@@ -402673,7 +402673,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -409105,7 +409105,7 @@
       "slug": "wax-model",
       "definition": "Sculpt in beeswax or tallow. Attach wax sprue and vents. 2. **Clay investment**: Coat in thin clay slip, build up 2-4 layers of clay + grog (~1-3 cm thick). Dry thoroughly (days). 3. **Burnout**: Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax. 4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper-...",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "glossary",
@@ -409115,7 +409115,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -409124,7 +409124,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -410420,7 +410420,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -412862,7 +412862,7 @@
       "slug": "winding-wire-magnet-wire",
       "definition": "Round or rectangular enameled copper wire for electric motor stators, transformer coils, generator windings, electromagnets. Sizes from 0.05 mm (AWG 44) to 5 mm (AWG 4). A large power transformer contains 50-200 tonnes of winding wire.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -412871,7 +412871,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -412880,7 +412880,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -413567,7 +413567,7 @@
       "slug": "wire",
       "definition": "Iron or copper wire, 2-4 mm diameter. Iron stronger (less sag between poles) but higher resistance (poor conductor). Copper better conductor but requires more support. Galvanized iron wire (zinc-coated for corrosion resistance) is the common compromise. Resistance: ~10-50 Ω/km depending on wire gauge.",
       "source_articles": [
-        "metals.copper-bronze",
+        "metals.copper",
         "telecom.telephone",
         "transport.telegraph"
       ],
@@ -413580,7 +413580,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze",
+        "metals.copper",
         "telecom.telephone",
         "transport.telegraph"
       ],
@@ -413606,7 +413606,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 25
         },
@@ -415997,7 +415997,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "secondary",
           "occurrences": 3
         },
@@ -417571,7 +417571,7 @@
       "slug": "xlpe-insulation",
       "definition": "Cross-linked polyethylene, rated to 90°C continuous, 130°C emergency. Power cable for distribution and transmission.",
       "source_articles": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "domains": [
         "metals"
@@ -417580,7 +417580,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "metals.copper-bronze"
+        "metals.copper"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -417589,7 +417589,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -418109,7 +418109,7 @@
         "food-processing.brewing",
         "food-processing.dairy",
         "glass.photomask-substrates",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.non-ferrous",
         "metals.steelmaking",
         "mining.extraction.black-powder",
@@ -418153,7 +418153,7 @@
         "food-processing.brewing",
         "food-processing.dairy",
         "glass.photomask-substrates",
-        "metals.copper-bronze",
+        "metals.copper",
         "metals.non-ferrous",
         "metals.steelmaking",
         "mining.extraction.black-powder",
@@ -418464,7 +418464,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "metals.copper-bronze",
+          "node_id": "metals.copper",
           "relevance": "primary",
           "occurrences": 4
         },

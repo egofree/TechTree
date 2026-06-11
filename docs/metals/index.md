@@ -2,8 +2,6 @@
 
 Capabilities in this domain:
 
-- [Copper & Bronze Production](copper-bronze.md) — Overview: copper smelting, bronze alloying, casting, refining, and electrical copper.
-
 - [Copper Production](copper.md) — Copper smelting from carbonate and sulfide ores, casting, work-hardening, electrolytic refining, brass production, copper for electrical use, industrial smelting, and copper-nickel alloys.
 
 - [Bronze Production](bronze.md) — Bronze alloying with tin, bronze casting methods, and bronze working techniques.

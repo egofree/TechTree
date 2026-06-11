@@ -3,7 +3,7 @@
 > **Node ID**: petroleum.extraction
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
 > **Dependencies**: [`petroleum`](./index.md)
-> **Enables**: [`cable-tool drilling`](extraction.md), [`rotary drilling`](extraction.md), [`petroleum.refining`](refining.md)
+> **Enables**: [`cable-tool drilling`](cable-tool.md), [`rotary drilling`](rotary.md), [`petroleum.refining`](refining.md)
 > **Timeline**: Years 10-35
 > **Outputs**: crude_oil, natural_gas_liquids, associated_gas
 > **Critical**: No — petroleum provides the highest-value feedstock but coal tar and fermentation alternatives exist for some products
@@ -54,101 +54,13 @@ Where oil has migrated to the surface and degraded extensively (bacteria consume
 
 **In-situ methods**: For deeper oil sands, steam-assisted gravity drainage (SAGD) injects steam through a horizontal well, reducing bitumen viscosity from ~10⁶ cP to ~10 cP at 200-250°C. Mobilized bitumen drains to a lower parallel production well and is pumped to surface. Requires ~2.5-3.5 barrels of steam per barrel of oil recovered.
 
-## Cable-Tool Principle
+## Cable-Tool Drilling
 
-A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dropped onto the rock at the bottom of the borehole. Each impact crushes a few millimeters of rock. Debris (cuttings) is periodically bailed out with a sand pump (a valved tube lowered on a separate cable). The technique is ancient — Chinese brine wells reached 1,000+ m depth using bamboo cables and cast iron bits by the 1800s.
+Cable-tool drilling uses a heavy chisel-shaped bit repeatedly lifted and dropped onto the rock, crushing a few millimeters per stroke. Cuttings are periodically bailed with a sand pump. Depth range 50-1,500 m, penetration rate 0.5-10 m/day. The technique requires minimal infrastructure — a wooden derrick, walking beam, steel cable, and a steam engine or animal power — making it the first drilling method suitable for bootstrapping subsurface petroleum access. Colonel Drake's 1859 well at Titusville used this method. For detailed rig components, step-by-step drilling procedure, bit selection, formation-specific behavior, and troubleshooting, see the dedicated article: **[Cable-Tool Drilling](cable-tool.md)**.
 
-## Cable-Tool Rig Components
+## Rotary Drilling
 
-| Component | Description | Material |
-|-----------|-------------|----------|
-| Derrick | 10-25 m wooden or steel tower supporting cables and pulleys | Timber or steel |
-| Walking beam | Rocking beam 4-8 m long, pivoted at center. One end suspends drill tools, other end connects to power source | Wood with iron bands or steel |
-| Drill cable | Wire rope or manila rope (modern: 2-3 cm steel wire rope) | Steel wire rope |
-| Drill stem | Heavy wall steel bar 3-10 m long, screwed to bit. Provides weight and rigidity | Steel |
-| Drill bit | Chisel or cross-shape, 10-25 cm width. Hardened steel face | Forged steel |
-| Sand pump | Valved tube on separate cable. Lowered to bottom, pushed into cuttings slurry, valve admits mixture, raised to surface | Steel with leather valve |
-| Casing | Iron or steel pipe 10-15 cm diameter. Driven into hole as drilling progresses to prevent collapse and exclude groundwater | Iron or steel |
-| Power source | [Steam engine](../energy/steam-engine.md) (5-20 HP) or horse/ox walking in circle (1-3 HP). Engine dramatically increases drilling speed | — |
-
-## Cable-Tool Drilling Procedure
-
-1. **Site preparation**: Level ground, erect derrick, install walking beam and power source. Dig starter hole 1-2 m deep, set conductor pipe (large diameter pipe to guide initial drilling).
-2. **Spudding**: Lower drill bit on cable. Walking beam lifts bit 0.5-1.5 m and drops it on each stroke. Stroke rate: 20-60 strokes/minute. Drill at vertical — use plumb bob to check every 10 m.
-3. **Cutting removal**: Every 0.5-1.5 m of depth, withdraw drill tools. Lower sand pump to collect crushed rock mixed with water. Bail to surface. Repeat.
-4. **Casing**: Drive iron casing into hole as drilling progresses. Casing prevents hole collapse in soft formations and isolates groundwater from the borehole. Casing joints: threaded and coupled, or welded. Seal with hemp packing and lead wool at each joint.
-5. **Well completion**: When oil-bearing formation is reached (recognized by oil show in bailer samples, gas pressure at wellhead, or drilling rate increase in porous rock), set production casing. Perforate casing at the production zone (shoot perforations with explosive bullets or mechanical perforator). Install wellhead (pipe fittings controlling flow from the well).
-6. **Production**: If reservoir pressure is sufficient (artesian flow), oil flows to surface unassisted. If not, install a downhole pump (sucker rod pump driven by walking beam at surface — the iconic "pumpjack" motion).
-
-## Cable-Tool Performance
-
-| Parameter | Value |
-|-----------|-------|
-| Depth range | 50-2,000 m (practical limit ~1,500 m) |
-| Penetration rate | 3-10 m/day in soft rock, 0.5-2 m/day in hard rock |
-| Borehole diameter | 10-25 cm |
-| Casing requirement | Continuous in soft formations; intermittent in competent rock |
-| Major limitation | Cannot handle soft, unconsolidated formations (hole collapses before casing can be set) |
-
-## Historical Context
-
-Colonel Edwin Drake's 1859 well at Titusville, Pennsylvania reached 21 m using cable-tool drilling and struck oil at ~1,000 liters/day — the first commercial oil well. By 1900, cable-tool rigs had drilled thousands of wells to depths of 500-1,500 m across Pennsylvania, Ohio, Texas, and Romania. The technique remained dominant until rotary drilling surpassed it in the 1920s-1930s.
-
-## Rotary Drilling Principle
-
-A rotating drill bit grinds rock at the bottom of the borehole. Continuous circulation of drilling fluid (mud) carries cuttings to the surface, cools the bit, and maintains hydrostatic pressure against formation fluids. Rotary drilling is faster, reaches deeper, and handles all formation types — it replaced cable-tool for virtually all drilling above 500 m depth.
-
-## Rotary Rig Components
-
-| Component | Description |
-|-----------|-------------|
-| Rotary table | Circular table in rig floor, turned by power source. Inserts into table grip and rotate the kelly (the topmost square or hexagonal section of drill string that slides through the table) |
-| Drawworks | Hoisting drum and brake system for raising and lowering drill string. Wire rope from crown block (top of derrick) to traveling block (above drill string). |
-| Mud pumps | Triplex piston pumps, 5-20 MPa operating pressure, 1,000-3,000 L/min flow rate. Circulate drilling mud down the drill string, out the bit nozzles, and back up the annulus (space between drill pipe and borehole wall). |
-| Drill string | Seamless steel tubes (drill pipe), 5-10 m per joint, screwed together. Inside diameter 50-100 mm. Transmits rotation and carries mud to the bit. Total length equals well depth. |
-| Drill bits | Tri-cone roller bits (three rotating cones with hardened steel or tungsten carbide teeth) or fixed-cutter PDC (polycrystalline diamond compact) bits. Bit diameter: 15-60 cm depending on hole section. |
-| Blowout preventer (BOP) | Stack of hydraulic rams installed below the rig floor at the wellhead. In an emergency (well kicks — formation fluid enters the borehole uncontrollably), the BOP seals the well to prevent uncontrolled flow (blowout). Rams can close around pipe (pipe rams), close completely (blind rams), or shear pipe and seal (shear rams). |
-| Mud system | Mud tanks, shale shaker (vibrating screen removes cuttings from returning mud), desander and desilter (hydrocyclones remove fine particles), mud mixer (bentonite, barite, chemicals blended into water base). |
-
-## Drilling Mud
-
-Drilling mud serves four critical functions simultaneously:
-
-1. **Cuttings transport**: Mud velocity in the annulus carries rock chips to surface. Minimum annular velocity: 0.3-0.6 m/s. Mud viscosity (measured by Marsh funnel, target: 40-60 seconds per quart) ensures cuttings are suspended when circulation stops.
-2. **Hydrostatic pressure control**: Column of mud in the borehole exerts pressure on the formation. Mud weight must exceed formation pore pressure to prevent influx of formation fluids (oil, gas, water). Typical mud weight: 1.05-2.0 g/cm³. Barite (BaSO₄, density 4.5 g/cm³) added as weighting agent.
-3. **Bit cooling and lubrication**: Mud flows through bit nozzles at 30-80 m/s, cooling cutting surfaces and removing heat from friction.
-4. **Wellbore stability**: Mud pressure supports the borehole wall. Filter cake (thin layer of clay particles deposited on the formation face) prevents mud loss into permeable formations and stabilizes the wall.
-
-**Water-based mud (WBM)**: Water + bentonite clay (4-8% by weight provides viscosity and filtration control) + barite (as needed for density) + NaOH (pH 9.5-10.5 for clay stability) + lignite or lignosulfonate (thinner — controls excessive viscosity). The standard mud for most drilling. Simple, inexpensive, environmentally benign.
-
-**Oil-based mud (OBM)**: Diesel or mineral oil continuous phase + water emulsion (10-30%) + emulsifiers + organophilic clay + barite. Superior wellbore stability in water-sensitive shales (clays that swell on water contact, causing hole collapse). Better lubrication for directional drilling. Higher cost, environmental concerns with disposal.
-
-## Rotary Drilling Procedure
-
-1. **Spudding**: Set conductor pipe (large diameter, 30-50 cm, driven or drilled to 10-50 m). Install BOP stack. Rig up mud circulation system.
-2. **Drilling surface hole**: Drill large diameter hole (25-45 cm) to below fresh water aquifers (~100-500 m). Run and cement surface casing. Cement pumped down casing, returns to surface in annulus — isolates aquifers.
-3. **Drilling intermediate hole**: Reduce bit size (20-35 cm). Drill to the cap rock above the target reservoir (~1,000-3,000 m). Run and cement intermediate casing. Monitor mud weight carefully — formation pressure generally increases with depth.
-4. **Drilling production hole**: Final hole section (15-25 cm) drilled through the reservoir. Here, balanced drilling is critical: mud weight must exceed pore pressure but stay below fracture pressure. If mud weight is too low, formation fluid enters the well (kick). If too high, mud fractures the formation and is lost (lost circulation).
-5. **Well logging**: Before completing, lower instruments on wireline to measure formation properties: spontaneous potential (identifies permeable zones), resistivity (identifies hydrocarbon vs. water-bearing zones), gamma ray (identifies clay/shale vs. clean sand/carbonate), density porosity, and sonic travel time. These logs determine which zones to produce.
-6. **Completion**: Run production casing (10-15 cm) through the reservoir. Cement. Perforate at the target zone using shaped-charge perforating guns lowered on wireline (explosive charges create 1-3 cm diameter holes through casing and cement into the formation, connecting reservoir to wellbore). Install tubing (production conduit inside casing) and wellhead (Christmas tree — valve assembly controlling production flow).
-
-## Directional and Horizontal Drilling
-
-Modern drilling rarely stays vertical. Directional drilling uses a bent sub (angled connector near the bit) or rotary steerable system (downhole motor that pushes the bit in a controlled direction) to navigate the drill string along a planned trajectory. Horizontal wells extend 500-3,000 m laterally through the reservoir, exposing far more reservoir rock to the wellbore than a vertical well (which intersects only the reservoir thickness, typically 5-50 m).
-
-**Advantages of horizontal wells**: 3-10× higher productivity than vertical wells in the same reservoir. Enables drilling under obstacles (lakes, cities, environmentally sensitive areas from a surface location outside the boundary). Essential for tight (low-permeability) formations where the well must contact as much rock surface as possible.
-
-**Measurement while drilling (MWD)**: Sensors near the bit transmit directional data (inclination, azimuth) to surface via pressure pulses in the mud column. The driller adjusts trajectory in real-time based on this feedback.
-
-## Rotary Drilling Performance
-
-| Parameter | Value |
-|-----------|-------|
-| Depth range | 100-12,000+ m (typical: 1,000-5,000 m) |
-| Penetration rate | 10-100 m/day (formation-dependent) |
-| Hole diameter | 15-60 cm (reduces with depth as casing is set) |
-| Rig crew | 5-8 persons per shift, 2-3 shifts |
-| Rig power | 500-3,000 HP (diesel or electric) |
+Rotary drilling uses a rotating bit with continuous drilling-mud circulation to cut rock, remove cuttings, cool the bit, and maintain hydrostatic pressure against formation fluids. Depth range 100-5,000+ m, penetration rate 10-100 m/day — dramatically faster and deeper than cable-tool. Rotary drilling handles all formation types and enables directional and horizontal wells (500-3,000 m lateral reach, 3-10× higher productivity than vertical wells). It replaced cable-tool for virtually all drilling above 500 m after the Spindletop discovery in 1901. The method requires steel drill pipe, mud pumps, blowout preventers, and substantial industrial infrastructure. For detailed rig components, mud engineering, step-by-step drilling and completion procedure, casing programs, directional drilling, and troubleshooting, see the dedicated article: **[Rotary Drilling](rotary.md)**.
 
 ## Natural Flow (Artesian)
 
@@ -248,28 +160,6 @@ Inject water into injection wells to maintain reservoir pressure and physically 
 
 **Polymer flooding**: Add water-soluble polymer (polyacrylamide, 250-1,500 ppm) to injection water. Increases water viscosity, improving the sweep efficiency (less water bypassing oil through high-permeability channels). Recovery: 5-15% additional OOIP over waterflooding alone.
 
-## Blowout Prevention
-
-A blowout — uncontrolled flow of oil and gas from the well — is the most catastrophic drilling accident. Prevention requires:
-
-- **Mud weight monitoring**: Continuously measure mud weight in and out. Any decrease in return mud weight indicates gas influx (gas reduces mud density). Immediately increase mud weight.
-- **Kick detection**: Pit volume increase (formation fluid entering wellbore displaces mud into surface tanks), flow rate increase at return line, drilling break (sudden penetration rate increase indicating porous, potentially pressurized zone).
-- **BOP operation**: Close BOP rams immediately on detecting a kick. Kill the well by pumping heavy mud through the choke line (controlled flow path through the BOP) to overbalance formation pressure.
-- **Well control training**: All drilling crews must be trained in well control procedures. Simulated kick exercises regularly.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Lost circulation (mud level drops, no returns) | Fractured formation, cavernous zone, or mud weight too high | Reduce mud weight toward formation pressure. Pump lost-circulation material (LCM): fiber (cellulose, cotton seed hulls), granular (nut shells, graphite), or flakes (mica, cellophane) into the loss zone. If total loss: squeeze cement or use gunk plug (bentonite-cement slurry that sets in the fracture). |
-| Stuck pipe (cannot rotate or pull drill string) | Differential sticking (mud pressure pushes pipe against filter cake in permeable zone), or wellbore collapse, or keyseat (pipe wedged in a sharp dogleg) | Differential sticking: reduce mud weight, spot oil around stuck point to break the filter cake bond, apply tension and jar (mechanical impact tool). Wellbore collapse: circulate clean mud, work pipe up/down. Keyseat: run a keyseat wiper to ream the restriction. Prevention: proper mud weight, minimize time stationary, use spiral-grooved drill collars. |
-| Kick (well flow with pumps off, pit gain) | Formation pore pressure exceeds mud hydrostatic pressure — influx of oil, gas, or saltwater into wellbore | Close BOP immediately. Record shut-in pressures. Kill well using driller's method: pump kill-weight mud through choke line at constant choke pressure, maintaining bottomhole pressure slightly above pore pressure. Do NOT open the well until kill mud fills the entire string. |
-| Hole deviation (bit drifts off vertical) | Crooked-hole tendency in dipping formations, inadequate WOB (weight on bit) control, worn stabilizers | Use packed-hole assembly (stabilizers every 9-18 m to stiffen the BHA). Reduce WOB. Check and replace worn stabilizers. Monitor deviation with surveys every 30-100 m. If excessive: backfill and redrill the deviated section. |
-| Bit bounce / excessive vibration | Worn or damaged bit, hard formation interbeds, whirl (bit rotating off-center) | Reduce RPM and WOB. Check bit condition (pull and inspect if more than 50% cones are worn or teeth broken). For whirl: increase WOB to stabilize bit, or switch to a different bit type (PDC vs. roller cone). |
-| Casing collapse or deformation | External pressure from formation exceeds casing collapse rating, or formation creep (salt beds squeeze casing) | Design casing with adequate collapse resistance (heavier wall or higher-grade steel for salt zones). For deformation already present: run a casing roller/scraper to restore internal diameter, or mill out the restriction. |
-| Excessive torque and drag | Wellbore tortuosity, cuttings bed buildup in deviated hole, or swelling clay (reactive shale) | Improve hole cleaning: increase mud flow rate and viscosity, pipe rotation while tripping. For reactive shale: switch to oil-based mud or KCl/polymer inhibited water-based mud. Short trips to condition the hole. |
-| Poor cement bond (channeling, micro-annulus) | Mud not fully displaced before cementing, gas migration during cement set, or casing not centralized | Centralize casing (one centralizer per joint across production zone). Condition mud (circulate clean before cementing). Use cement preflush (spacers) to displace mud. For gas migration: use gas-blocking cement additives (latex, thixotropic agents). Verify with cement bond log (CBL). |
-
 ## Environmental Protection
 
 - **Casing and cement**: Proper casing and cementing isolates freshwater aquifers from hydrocarbon-bearing zones. Cement bond logs verify isolation quality.
@@ -287,6 +177,8 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 
 ## See Also
 
+- [Cable-Tool Drilling](cable-tool.md) — percussion drilling procedure and equipment
+- [Rotary Drilling](rotary.md) — rotary drilling procedure, mud engineering, and well control
 - [Petroleum Refining](refining.md) — crude oil distillation and cracking
 - [Petrochemicals](petrochemicals.md) — chemical feedstocks from oil
 - [Drilling](../mining/drilling.md) — rotary and cable-tool drilling methods

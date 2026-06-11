@@ -77,6 +77,20 @@ California mugwort follows a perennial herb cycle driven by its rhizome network.
 | Drying time | 5-10 days | Until stems snap cleanly |
 | Harvests per season | 1-2 | Depends on growing conditions and regrowth vigor |
 | Colony spread rate | 30-60 cm per year | Requires containment barriers |
+| Dried herb yield (established colony) | 2,500-3,000 kg/ha | Based on A. vulgaris field trials in Turkey |
+| Fresh herb yield (flowering stage) | 6,000-6,500 kg/ha | A. vulgaris analogue at full bloom |
+| Essential oil content | 0.4-0.5% (dried herb) | α-Thujone dominant chemotype |
+| Essential oil yield | 140-150 kg/ha | At flowering stage, dense planting |
+| Per-plant dried herb yield | 150-400 g | Established colony, 1-2 harvests per season |
+| Seed germination rate | ~30% | Low; vegetative propagation preferred |
+| Rhizome cutting strike rate | ~75% | 2-cm sections, adapted from A. vulgaris protocol |
+| Stem cutting rooting rate | Up to 100% | With IBA/NAA rooting hormone (1,250 ppm) |
+| Days to seed germination | 10-15 | Under mist, warm conditions |
+| Cutting establishment time | 3-4 weeks | Bottom heat at 21°C, mist irrigation |
+| Transplant survival | 85% | Seedlings transplanted at 15 days after germination |
+| Plant spacing | 30-50 cm (initial); fills to 90-120 cm | Mature spread via rhizomes |
+| Years to full colony establishment | 2-3 | From initial planting to dense harvestable stand |
+| Optimal harvest window | Mid-July to late August | Pre-flower to early flower; peak oil in leaves |
 
 ### Cultivation and Harvesting
 
@@ -85,6 +99,22 @@ Plant rhizome segments or container-grown plants in moist, well-drained soil in 
 To control spread, plant in contained beds or install root barriers. Without containment, mugwort will colonize adjacent garden areas aggressively. Division of established colonies every two to three years maintains plant vigor and prevents center die-out.
 
 Harvest aerial parts when flower buds are forming, typically in mid to late summer. At this stage, the essential oil concentration in leaves peaks. Cut stems 15 to 20 cm above ground level using clean pruning shears. The colony will regrow from the rhizome network. Two harvests per season are possible in favorable growing conditions.
+
+### Yield and Propagation
+
+**Seed propagation.** Artemisia douglasiana produces viable seed in some populations, though many cultivated colonies produce few or no viable seeds. Seed germination is approximately 30% under controlled nursery conditions (surface-sown on potting mix, mist irrigation, 24-29°C day / 21°C night). Seeds germinate within 10-15 days. Seedlings are transplanted to individual containers 15 days after germination, with 85% transplant survival. Seed propagation is slower than vegetative methods and produces more variable plants.
+
+**Rhizome division (primary method).** The fastest and most reliable propagation method. Established colonies can be divided in early spring before new growth emerges, or in autumn after flowering. Dig the rhizome mass and separate into sections each containing at least one viable bud. Two-centimeter rhizome sections produce roots and shoots at approximately 75% success rate without hormone treatment. Replant immediately at 30-50 cm spacing. The colony will fill in via rhizome spread within 1-2 growing seasons.
+
+**Stem cuttings.** Herbaceous stem cuttings of at least 12 cm length and 4 mm diameter, collected prior to bud break (February-May in California), achieve up to 100% rooting when treated with IBA/NAA rooting hormone at 1,250 ppm. Cuttings root in 3 weeks under mist with bottom heat (21°C). Transplant rooted cuttings to individual containers for 3 months of active growth before field planting.
+
+**Spacing and establishment.** Plant rhizome divisions or container-grown plants at 30-50 cm spacing in moist, well-drained soil. The colony fills in rapidly via rhizome spread — individual plants expand 30-60 cm per year. Mature colonies form dense stands 90-120 cm across. Install root barriers at planting time to prevent unwanted spread. Full colony establishment for commercial harvest takes 2-3 years from initial planting.
+
+**Yield.** California mugwort is a productive perennial once established. Based on field trials of the closely related Artemisia vulgaris in Turkey, dried herb yield at flowering stage is approximately 2,700 kg/ha, with fresh herb yield of 6,200 kg/ha. Essential oil content ranges 0.4-0.5% of dried herb weight (α-thujone dominant chemotype), yielding approximately 140-150 kg/ha of essential oil. Per-plant yield from an established colony is 150-400 g dried herb per season, depending on moisture, light, and harvest frequency. The lower, larger leaves on the stem contain the highest essential oil concentration and are preferred for medicinal preparations.
+
+**Growing period.** From rhizome division, new shoots emerge within 10-20 days in spring. Rapid vegetative growth occurs April through July. Flower bud formation begins mid-July to early August. The plant reaches peak essential oil content at the pre-flower to early flower stage (mid-July through August). After harvest, regrowth from the rhizome network produces a second flush of growth suitable for a second harvest in 6-8 weeks in favorable conditions. In mild climates, the colony remains evergreen; in colder zones, above-ground growth dies back in winter and regrows from rhizomes in spring.
+
+**Harvest indicators.** Harvest when flower buds are forming but before full flower opening — the lower leaves are green above with intact white felted undersides, and the characteristic camphoraceous aroma is strong when leaves are crushed. Lower leaves are larger and more deeply lobed, with higher essential oil content than upper leaves. Delayed harvest (full flower or seed set) produces lower oil content and tougher, less aromatic herb. Regrowth harvest is indicated by new shoots reaching 30-40 cm from the rhizome crown, typically 6-8 weeks after the first cutting.
 
 ### Processing and Storage
 

@@ -77,6 +77,17 @@ Artemisia inculta cultivation demands restraint with water more than any other i
 | Drying time | 5-10 days | Until leaves crumble easily |
 | Years to first harvest | 2-3 from seed | 1-2 from rooted cuttings |
 | Plant spacing | 30-40 cm | Closer spacing reduces air circulation |
+| Dried aerial biomass yield | 200-360 kg/ha | Low-input arid cultivation (A. herba-alba analogue) |
+| Per-plant dried herb yield | 2-6 g | Low-growing desert subshrub; sparse biomass |
+| Essential oil content | 0.6-1.9% (dried herb, v/w) | Varies by population and harvest stage |
+| Essential oil yield | 1-7 kg/ha | At typical planting densities |
+| Seed germination rate | 60-67% | At 0 mM NaCl; declines sharply with salinity |
+| Cutting strike rate (semi-hardwood) | Variable | Autumn cuttings in sandy medium |
+| Rooting time (cuttings) | 4-6 weeks | Barely moist, sheltered from direct sun |
+| Transplant size | 5-8 cm tall | Minimum for field planting |
+| Establishment phase water needs | Moderate | Critical only during first 2-3 months |
+| Post-establishment irrigation | None required | Survives on natural rainfall in arid climates |
+| Active growth period | Spring through late summer | Dormant in extreme heat and winter cold |
 
 ### Cultivation and Harvesting
 
@@ -87,6 +98,22 @@ For cutting propagation, take 8 to 10 cm semi-hardwood cuttings from current sea
 Established plants require no irrigation in most arid climates, surviving on natural rainfall alone. Excessive water or humidity promotes root rot and fungal disease. A gravel mulch around the base of each plant improves drainage and reflects heat, mimicking native growing conditions.
 
 Harvest aerial parts in late summer when flower buds are forming. Cut stems above the woody base, leaving sufficient growth for regrowth the following season. Use clean cutting tools to prevent disease introduction.
+
+### Yield and Propagation
+
+**Taxonomic note.** Artemisia inculta Delile is considered a synonym of Artemisia herba-alba Asso (white wormwood, desert wormwood) by several authorities. The yield and cultivation data below draw on published research on A. herba-alba, which is the more widely studied name for this species complex native to North African and Middle Eastern arid zones.
+
+**Seed propagation.** Seeds germinate at approximately 60-67% under non-saline conditions (0 mM NaCl at 20-25°C). Germination declines sharply with increasing salinity, dropping to 10.7% at 200 mM NaCl. Surface-sow or barely cover seed in a well-drained seed-starting mix in spring. Light aids germination. Keep the propagation medium barely moist — overwatering is the primary cause of seedling failure. Seedlings are extremely vulnerable to damping-off disease in humid conditions. Transplant to permanent positions when seedlings reach 5-8 cm tall.
+
+**Cutting propagation (preferred for scaling).** Take 8-10 cm semi-hardwood cuttings from current season's growth in early autumn. Remove lower leaves, dip in rooting hormone if available, and plant in a sandy rooting medium. Keep barely moist and sheltered from direct sun. Rooting occurs in 4-6 weeks. Transplant rooted cuttings to permanent positions the following spring. Cutting propagation produces more uniform plants and reaches harvestable size faster (1-2 years versus 2-3 years from seed).
+
+**Spacing.** Plant at 30-40 cm spacing in rocky, gravelly soil. This gives approximately 62,500-110,000 plants per hectare. Closer spacing reduces air circulation and promotes fungal problems in even marginally humid conditions. Apply a gravel mulch around each plant to improve drainage and reflect heat, mimicking the plant's native desert pavement habitat.
+
+**Yield.** Artemisia inculta is a low-yielding species by temperate agricultural standards, reflecting its adaptation to extreme aridity where annual rainfall may be less than 100 mm. Field trials of A. herba-alba in southern Tunisia and Morocco report consumable standing crop of 200-360 kg/ha dried aerial biomass under low-input conditions (no irrigation, no fertilizer). Per-plant yield is 2-6 g dried herb, consistent with the plant's compact growth habit (15-40 cm tall). Essential oil content ranges from 0.6% to 1.9% (v/w) depending on population chemotype and harvest stage, yielding approximately 1-7 kg/ha of essential oil. Annual harvest at the flowering stage produces the highest essential oil yield; harvesting every six months or at the vegetative stage reduces both biomass and oil output.
+
+**Growing period.** Seeds germinate in 14-28 days under warm conditions. Seedling growth is slow — plants reach transplant size (5-8 cm) in 8-12 weeks. From seed, plants require 2-3 years to develop sufficient above-ground biomass for a meaningful harvest. From rooted cuttings, first harvest is possible in 1-2 years. The plant is active in spring through late summer, producing new foliage when temperatures moderate and any rain falls. In the hottest months and in winter, growth slows or ceases. Flower buds form in late summer (July-September depending on latitude). The plant is winter-deciduous in colder portions of its range.
+
+**Harvest indicators.** Harvest when flower buds are forming but before seed set, typically in late July through September. The silvery-gray foliage is at its most aromatic — crushing a leaf between the fingers should release a sharp, bitter, camphoraceous scent. Lower leaves retain their silver-gray color; yellowing or browning of lower foliage indicates the harvest window is closing. The compact flower heads should be visible at the stem tips but not yet open. Essential oil content is highest at this pre-flower stage and declines after seed set. In cultivated plants, the harvest window is approximately 2-4 weeks depending on climate.
 
 ### Processing and Storage
 

@@ -77,12 +77,40 @@ Artemisia capillaris offers two harvest windows: spring collection of young grow
 | Bundle diameter | 5-10 cm | For structural bundles |
 | Minimum stem length | 40 cm | For structural use; shorter stems for fuel or packing |
 | Regrowth from crown | Perennial | Divide every 3-4 years to maintain stem vigor |
+| Dried aerial biomass yield (year 1) | 5,500-6,000 kg/ha | Direct-sown, spring planting (Korean field trials) |
+| Dried aerial biomass yield (year 2+) | 9,000-10,000 kg/ha | Perennial regrowth; dry matter ratio rises to ~40% |
+| Medicinal spring herb yield | 500-1,200 kg/ha dried | Young shoots 10-15 cm, harvested Feb-April |
+| Seed thousand-kernel weight | 0.054 g | Extremely fine seed; surface-sow |
+| Germination rate | 90%+ at 20-25°C | Light required; lower in dark conditions |
+| Days to emergence | 10-18 days | Faster at higher soil temperatures |
+| Optimal sowing date | Mid-March | Earlier sowing produces higher autumn yields |
+| Plant spacing | 15-20 cm | Row spacing 25-30 cm for structural stems |
+| Essential oil content | 0.3-1.0% (dried herb) | Dominated by capillene (60%+ of leaf oil) |
+| Scoparone peak (capitulum) | ~6.5 mg/g DW | Measured at full flower (late August) |
+| Spring medicinal harvest window | 2-4 weeks | Before stems exceed 15 cm and begin to toughen |
+| Autumn structural harvest window | 4-6 weeks | From full flower through seed set |
 
 ### Cultivation and Harvesting
 
 Artemisia capillaris establishes readily from seed in spring. Broadcast seed on prepared soil and rake lightly. Germination occurs within two weeks in warm conditions. Thin seedlings to 15 to 20 cm apart. The plant tolerates poor soils and drought but produces taller, straighter stems with moderate watering during the growing season.
 
 For structural use, allow plants to grow through the full season. Harvest in late summer to early autumn when stems have fully lignified and flower heads have dried. Cut stems at ground level with a sickle, selecting the straightest, longest stems for structural applications. Shorter or crooked stems can be reserved for fuel or packing material.
+
+### Yield and Propagation
+
+**Seed propagation.** Artemisia capillaris produces extremely fine seed (thousand-kernel weight 0.054 g; individual seed ~0.8 mm long). Surface-sow on prepared soil in mid-March to early April. Seed requires light for optimal germination. At 20-25°C in light conditions, germination exceeds 90% within 10-14 days. Sowing later than late April reduces yield; the earliest sowings produce the most robust stems by autumn. Korean field trials found that March 20 sowing produced the highest yields: 1,738 kg/10a fresh biomass (17,380 kg/ha) and 578 kg/10a dried biomass (5,780 kg/ha) in the establishment year, with dry matter averaging 30%. In the second year, perennial regrowth reached 2,387 kg/10a fresh (23,870 kg/ha) with dry matter ratio rising to approximately 40%, yielding roughly 9,500 kg/ha dried aerial biomass.
+
+**Vegetative propagation.** Established clumps can be divided in early spring or autumn. Dig the root crown, separate into sections each with viable buds, and replant at the target spacing. Division every 3-4 years maintains stem vigor and prevents center die-out.
+
+**Spacing.** Thin seedlings to 15-20 cm within rows spaced 25-30 cm apart. This produces approximately 165,000-265,000 plants per hectare. Closer spacing increases total biomass but reduces individual stem quality for structural use. Wider spacing (30-45 cm) improves stem straightness and diameter uniformity but lowers per-hectare yield.
+
+**Dual-season harvest.** The plant provides two distinct harvests from the same planting. The spring medicinal harvest (Yin Chen Hao) takes young shoots at 10-15 cm height, yielding an estimated 500-1,200 kg/ha dried spring herb. This harvest must be completed before the stems toughen — the traditional Chinese saying "Yin Chen is medicine in February, firewood in May" reflects the rapid seasonal decline in medicinal quality. The autumn structural harvest yields 5,500-10,000 kg/ha dried aerial biomass depending on plant age, with the straightest, longest stems sorted for construction use.
+
+**Growing period.** Seeds germinate in 10-18 days depending on soil temperature. Spring-harvested medicinal shoots reach collection height (10-15 cm) approximately 30-45 days after emergence of perennial regrowth. For structural stems, the plant grows through the full season (March-September/October), with flower bud formation in late July, full bloom in late August, and seed maturity in September-October. The optimal structural harvest occurs when flower heads have dried and stems have fully lignified.
+
+**Harvest indicators — medicinal (spring).** Young shoots are 10-15 cm tall with soft, flexible stems. Leaves are gray-green and densely silky-hairy. The aroma is fresh and intensely bitter. Harvest before stems begin to elongate and stiffen. Concentration of scoparone and capillarisin declines sharply once stems exceed 20 cm.
+
+**Harvest indicators — structural (autumn).** Stems are fully lignified and snap rather than bend. Flower heads have dried and begun to shed seed. Lower leaves have senesced. Stem color shifts from green to pale reddish-brown. A sharp snap when bending a stem confirms full lignification.
 
 The plant regrows from the root crown each year, providing a perennial harvest from a single planting. Older crowns produce more numerous but thinner stems; dividing plants every three to four years maintains stem vigor.
 

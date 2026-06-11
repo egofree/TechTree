@@ -123,6 +123,48 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - High SO₂ conversion efficiency (98-99.9%) — minimal sulfur dioxide emissions
 - Process is net energy exporter — SO₂ oxidation exotherm generates steam for power or process heat
 
+**Knowledge prerequisites**:
+- Catalytic oxidation thermodynamics: why the SO₂ + ½O₂ → SO₃ equilibrium shifts toward SO₃ at lower temperatures but the reaction rate drops, requiring multi-bed converters with interstage cooling
+- Vanadium pentoxide catalyst behavior: the V⁵⁺/V⁴⁺ redox cycle, the role of potassium sulfate promoter, and how arsenic and fluorine poison the active phase
+- Gas-phase reactor engineering: heat recovery from exothermic beds, quench vs. heat-exchanger intercooling, and the difference between single and double absorption configurations
+- Acid concentration measurement by density (hydrometer) and titration, plus dew-point moisture analysis for dry chlorine-grade acid
+
+**Process Parameters**:
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Sulfur burner temperature | 800-1,500°C | Must maintain complete combustion; excess air kept to 10-20% above stoichiometric |
+| SO₂ concentration in burner gas | 7-10% by volume | Higher SO₂ (from pure sulfur) gives smaller equipment; lower SO₂ (from pyrite) needs larger converters |
+| Converter inlet temperature (first bed) | 410-440°C | Catalyst ignition temperature; below 400°C V₂O₅ is too slow |
+| Converter outlet temperature (first bed) | 580-620°C | Temperature rises ~50-80°C per bed due to exothermic reaction |
+| Interstage cooling target | Cool to 410-440°C between beds | Lower temperature favors equilibrium but catalyst must stay above 400°C |
+| Final bed temperature | 410-440°C | Lowest feasible temperature for maximum equilibrium conversion |
+| Number of catalyst beds | 4-5 (single absorption), 5-6 (double absorption) | More beds = higher conversion but more equipment |
+| Overall SO₂ conversion | 97-98% (single), >99.5% (double) | DCDA achieves >99.5% via intermediate absorption |
+| V₂O₅ catalyst loading | 150-250 L per tonne/day acid capacity | Ring-shaped pellets, 6-10 mm diameter |
+| Absorption tower acid concentration | 98.0-98.5% H₂SO₄ | Optimal for SO₃ absorption without forming acid mist |
+| Oleum production | 20-65% free SO₃ | Higher free SO₃ = more concentrated oleum |
+| Product acid concentration | 96-98% H₂SO₄ | Diluted from oleum with water or weaker acid |
+| Sulfur feed rate | ~330 kg S per tonne H₂SO₄ (from pure sulfur) | From pyrite: ~600 kg pyrite per tonne H₂SO₄ |
+| Energy balance | Net exporter (exothermic) | 1 tonne H₂SO₄ produces ~1.5 tonnes of steam from waste heat |
+
+**Scaling notes**:
+
+Growing from a quartz-tube bench reactor to a multi-hundred-tonne-per-day plant follows these stages:
+
+- **Bench scale**: Small quartz tube reactor with catalyst charge, heated externally. Produces grams of sulfuric acid. Demonstrates the catalytic conversion principle.
+- **Pilot scale**: Small converter (single catalyst bed) with sulfur burner, absorption column. Produces kilograms per day. Validates catalyst performance and gas purification requirements.
+- **Production scale**: Multi-bed converter with interstage cooling, double absorption (for >99.5% conversion), large absorption towers. Produces hundreds of tonnes per day.
+
+Key scaling challenges: heat recovery from the exothermic oxidation becomes a significant energy efficiency factor at scale. Catalyst bed design must balance pressure drop against conversion efficiency. Gas purification to remove catalyst poisons (especially arsenic) requires multi-stage scrubbing and filtration. Acid-resistant materials of construction (lead-lined steel, stainless steel, or specialized alloys) are necessary throughout.
+
+**Variations and Alternatives**:
+
+- **Lead chamber process**: The older method for sulfuric acid production, using nitrogen oxides as homogeneous catalyst in large lead-lined chambers. Produces only 65-70% acid. Simpler equipment but lower concentration and purity. Largely superseded by the contact process.
+- **Double contact / double absorption (DCDA)**: Adds a second absorption tower partway through the converter to remove SO₃ before the final catalyst beds, shifting the equilibrium to achieve >99.5% conversion. Required by environmental regulations in most jurisdictions.
+- **Single contact / single absorption**: Simpler process with one absorption step. Lower capital cost but lower conversion efficiency, resulting in more SO₂ in the tail gas.
+- **Wet catalysis**: For processes using sulfur from smelter gas or H₂S combustion where the gas contains water vapor. Uses special catalyst formulations resistant to moisture.
+
 **Weaknesses**:
 - Requires vanadium catalyst (V₂O₅) — vanadium is a mined resource, not universally available
 - Sulfur feed must be clean — arsenic, selenium, and halogens poison the catalyst; pyrite requires extensive gas cleaning

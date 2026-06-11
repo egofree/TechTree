@@ -3,7 +3,7 @@
   "@id": "contact_process_sulfuric_acid",
   "@type": "Product",
   "name": "Contact Process Sulfuric Acid",
-  "source": "chemistry.acids.contact-process",
+  "source": "chemistry.acids",
   "tags": {
     "material": [
       "chemicals"

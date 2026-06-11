@@ -3,7 +3,7 @@
   "@id": "vanadium_catalyst",
   "@type": "Product",
   "name": "Vanadium Catalyst",
-  "source": "chemistry.acids.contact-process",
+  "source": "chemistry.acids",
   "tags": {
     "material": [
       "chemicals",

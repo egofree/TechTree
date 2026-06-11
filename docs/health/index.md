@@ -2,10 +2,14 @@
 
 Capabilities in this domain:
 
-- [Medicine & Surgery](medicine.md) — Surgical capability, wound treatment, infection control, and basic medical diagnostics.
+- [Medicine & Surgery](medicine.md) — Hub: overview of medical capabilities, pharmaceutical and surgical materials, equipment, basic diagnostics. Links to sub-articles.
 Original remastering by Antonu, CC BY-SA 3.0*
 
-- [Pharmacology](pharmacology.md) — Plant-derived and synthetic pharmaceutical production, dosage forms, and drug delivery.
+- [Emergency Care](emergency-care.md) — Mass-casualty triage (START), hemorrhage control, burn management, shock resuscitation, fracture reduction and immobilization, dental emergencies, PPE fabrication, gas detection.
+
+- [Infectious Disease Management](infectious-disease.md) — Wound antisepsis, instrument sterilization, plant-derived anti-infectives, major endemic diseases (malaria, cholera, typhoid, pneumonia, TB, tetanus), infection diagnosis laboratory.
+
+- [Pharmacology](pharmacology.md) — Plant-derived and synthetic pharmaceutical production, dosage forms, drug delivery, and quality control.
 
 - [Water Supply & Sanitation](sanitation.md) — Water supply, purification, sewage treatment, hygiene protocols, and quarantine systems.
 

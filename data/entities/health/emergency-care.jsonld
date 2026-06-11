@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Emergency procedures prevent death in the first minutes to hours after injury — triage, hemorrhage control, and burn management are time-critical",
+  "description": "Mass-casualty triage (START), hemorrhage control, burn management, shock resuscitation, fracture reduction and immobilization, dental emergencies, PPE fabrication, and gas detection.",
+  "early_win": false,
+  "id": "health.emergency-care",
+  "level": "capability",
+  "name": "Emergency Care",
+  "outputs": [
+    "triage_capability",
+    "hemorrhage_control",
+    "burn_management",
+    "fracture_management"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-100+"
+}

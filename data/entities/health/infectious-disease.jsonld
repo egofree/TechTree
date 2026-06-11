@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Infectious disease is the leading cause of death in pre-industrial civilizations; basic antisepsis and disease management saves more lives than any advanced intervention",
+  "description": "Wound antisepsis, instrument sterilization, plant-derived anti-infectives, and treatment of major endemic diseases (malaria, cholera, typhoid, pneumonia, TB, tetanus). Includes infection diagnosis laboratory setup.",
+  "early_win": false,
+  "id": "health.infectious-disease",
+  "level": "capability",
+  "name": "Infectious Disease Management",
+  "outputs": [
+    "infection_control",
+    "disease_treatment",
+    "antisepsis"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-100+"
+}

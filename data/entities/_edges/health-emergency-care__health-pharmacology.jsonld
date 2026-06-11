@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/health.emergency-care__health.pharmacology",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "health.emergency-care",
+  "to": "health.pharmacology"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/health.infectious-disease__health.sanitation",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "health.infectious-disease",
+  "to": "health.sanitation"
+}

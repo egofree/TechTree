@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/health.emergency-care__health.surgery-basics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "health.emergency-care",
+  "to": "health.surgery-basics"
+}

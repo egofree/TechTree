@@ -39,7 +39,7 @@ The ion beam path: ion source → extraction electrode → mass analyzer magnet 
 
 | Material | Quantity | Specifications | Source | Alternatives |
 |----------|----------|----------------|--------|-------------|
-| Stainless steel beamline tube | 10-30 m total | 100-200 mm ID, CF-flanged sections | [Vacuum Chamber](../vacuum/vacuum-chamber.md) | — |
+| Stainless steel beamline tube | 10-30 m total | 100-200 mm ID, CF-flanged sections | [Vacuum Chamber](../vacuum/chambers.md) | — |
 | Turbomolecular pumps | 3-5 | 300-1000 L/s each, for beamline sections | [Vacuum Pumps](../vacuum/pumps.md) | Cryopumps |
 | Ion source assembly | 1 | Arc chamber, filament, extraction electrodes | Custom fabrication | — |
 | Tungsten filament (ion source) | Spares | 0.5-1.0 mm wire, for electron emission | [Metals](../metals/index.md) | — |

@@ -28,7 +28,7 @@ Plasma etching uses a glow discharge to generate reactive chemical species (ions
 
 ## Prerequisites
 
-- [Vacuum chamber](../vacuum/vacuum-chamber.md) — stainless steel or aluminum, base pressure <10⁻⁶ Torr
+- [Vacuum chamber](../vacuum/chambers.md) — stainless steel or aluminum, base pressure <10⁻⁶ Torr
 - [Turbomolecular pump](../vacuum/pumps.md) — 300-2000 L/s, with dry backing pump
 - [Gas handling](../gas-handling/index.md) — multiple MFCs for etch gases (Cl₂, BCl₃, CF₄, SF₆, CHF₃, O₂, Ar)
 - [RF power supplies](../energy/electricity.md) — 13.56 MHz, 100-3000 W (bias) + 500-5000 W (ICP source)
@@ -38,9 +38,9 @@ Plasma etching uses a glow discharge to generate reactive chemical species (ions
 
 | Material | Quantity | Specifications | Source | Alternatives |
 |----------|----------|----------------|--------|-------------|
-| Stainless steel 316L chamber | 1 | 300-500 mm diameter, corrosive-gas-rated | [Vacuum Chamber](../vacuum/vacuum-chamber.md) | Aluminum 6061 (lighter, He permeation) |
+| Stainless steel 316L chamber | 1 | 300-500 mm diameter, corrosive-gas-rated | [Vacuum Chamber](../vacuum/chambers.md) | Aluminum 6061 (lighter, He permeation) |
 | Turbomolecular pump (corrosive-rated) | 1 | 300-2000 L/s, Ni-coated rotors, FKM seals | [Vacuum Pumps](../vacuum/pumps.md) | Standard turbo (shorter life in halogen service) |
-| Dry scroll backing pump | 1 | 10-30 L/s, oil-free | [Vacuum Pump](../vacuum/vacuum-pump.md) | — |
+| Dry scroll backing pump | 1 | 10-30 L/s, oil-free | [Vacuum Pump](../vacuum/pumps.md) | — |
 | RF generator (bias, 13.56 MHz) | 1 | 100-3000 W, with matching network | [Energy](../energy/electricity.md) | — |
 | RF generator (ICP source, 13.56 MHz) | 1 | 500-5000 W, with matching network | [Energy](../energy/electricity.md) | — (for RIE-only, not needed) |
 | ICP antenna coil | 1 | 3-5 turn copper or silver-plated copper, around quartz dome | [Metals](../metals/index.md) | — |
@@ -49,13 +49,13 @@ Plasma etching uses a glow discharge to generate reactive chemical species (ions
 | Mass flow controllers | 4-8 | For Cl₂, BCl₃, CF₄, SF₆, CHF₃, O₂, Ar, N₂ | [Gas Handling](../gas-handling/index.md) | — |
 | Capacitance manometer | 1 | 0-100 mTorr range | [Measurement](../measurement/index.md) | — |
 | Optical emission spectrometer (OES) | 1 | For endpoint detection (optional but recommended) | [Optics](../optics/index.md) | — |
-| Load lock chamber | 1 | 5-20 L with gate valve | [Vacuum Chamber](../vacuum/vacuum-chamber.md) | — |
+| Load lock chamber | 1 | 5-20 L with gate valve | [Vacuum Chamber](../vacuum/chambers.md) | — |
 
 ## Process Description
 
 ### Chamber and Pumping
 
-1. **Prepare the vacuum chamber**: Construct a vacuum chamber from 316L stainless steel (corrosive-gas service) or aluminum 6061-T6 per [Vacuum Chamber](../vacuum/vacuum-chamber.md). The chamber must withstand exposure to chlorine and fluorine plasmas. Electropolish the interior to minimize adsorption sites. Install CF flanges for: ICP source (top), turbo pump (bottom), substrate electrode entry, gas injection, pressure gauge, viewport, OES window, and load lock.
+1. **Prepare the vacuum chamber**: Construct a vacuum chamber from 316L stainless steel (corrosive-gas service) or aluminum 6061-T6 per [Vacuum Chamber](../vacuum/chambers.md). The chamber must withstand exposure to chlorine and fluorine plasmas. Electropolish the interior to minimize adsorption sites. Install CF flanges for: ICP source (top), turbo pump (bottom), substrate electrode entry, gas injection, pressure gauge, viewport, OES window, and load lock.
 
 2. **Mount the turbomolecular pump**: Use a turbo rated for corrosive gas service (Ni-coated rotor and stator blades, FKM or PTFE seals). Mount on a CF200 flange with a gate valve. Connect to the dry scroll backing pump. Install a foreline trap or scrubber to neutralize halogen exhaust gases.
 
@@ -231,7 +231,7 @@ RIE is the default for most production etching at features ≥1 μm. ICP-RIE ext
 ## References
 
 - [Core Fab Processes](fab-processes.md) — etching chemistry, process integration, wet vs. dry etching comparison
-- [Vacuum Chamber](../vacuum/vacuum-chamber.md) — chamber construction
+- [Vacuum Chamber](../vacuum/chambers.md) — chamber construction
 - [Gas Handling](../gas-handling/index.md) — toxic gas handling, gas cabinet safety
 - [Sputtering System](sputtering-system.md) — complementary thin-film deposition
 - [CVD Reactor](cvd-reactor.md) — alternative deposition technology

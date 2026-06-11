@@ -10,7 +10,7 @@
 
 ## Vacuum Pumps
 
-For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaphragm principles), see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers pump selection, advanced pump types, performance specifications, and system design.
+For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaphragm principles), see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers pump selection, advanced pump types, performance specifications, system design, and pump construction.
 
 ## Pump Classification by Pressure Range
 
@@ -129,6 +129,106 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 - **Working fluid selection**: DC-704 (tetraphenyl tetramethyl trisiloxane, vapor pressure ~10⁻⁸ Torr at 25°C) for general high-vacuum use. Santovac 5 (polyphenyl ether, vapor pressure ~10⁻⁹ Torr at 25°C) for the cleanest possible diffusion pump vacuum. DC-705 (pentaphenyl trimethyl trisiloxane) for UHV applications. Never use hydrocarbon oils in diffusion pumps — they decompose rapidly and create carbon deposits.
 - **Cold trap requirements**: A liquid nitrogen (LN₂) cooled baffle between the diffusion pump and the chamber is essential. Without it, backstreaming oil vapor contaminates the vacuum chamber at a rate of ~10⁻⁶ g/cm²/min. With a properly maintained LN₂ cold trap: backstreaming <10⁻¹⁰ g/cm²/min. The cold trap also acts as a cryopump for condensable gases (water, CO₂, solvents), improving effective pumping speed.
 - **Cooling water interlock**: The most critical safety system on a diffusion pump. Install a water flow switch that shuts off the heater if cooling water flow drops below minimum. Without cooling, the boiler overheats, oil decomposes (producing flammable gases), and the pump body can reach temperatures that damage seals and nearby equipment. Test the interlock monthly.
+
+## Pump Construction
+
+### Rotary Vane Pump — Materials
+
+| Material | Quantity | Specifications | Source | Alternatives |
+|----------|----------|----------------|--------|-------------|
+| Cast iron (stator body) | 10-50 kg | Gray iron Grade 25+, bored to ±0.01 mm ID | [Iron & Steel](../metals/iron-steel.md) | Steel billet (bored from solid — more machining) |
+| Steel (rotor) | 2-10 kg | 1045 or equivalent, hardened to 45-50 HRC | [Iron & Steel](../metals/iron-steel.md) | Cast iron (lower strength) |
+| Carbon fiber or steel (vanes) | 4-6 pieces | 3-8 mm thick, spring-loaded | [Iron & Steel](../metals/iron-steel.md) | Phenolic composite (shorter life) |
+| Spring steel (vane springs) | 4-6 pieces | Compression springs, 5-20 N force | [Iron & Steel](../metals/iron-steel.md) | — |
+| Vacuum oil | 0.5-8 L | Mineral oil, vapor pressure <5×10⁻⁵ Torr at 25°C | [Lubricants](../chemistry/lubricants.md) | Synthetic vacuum oil (lower VP, higher cost) |
+| Steel shaft | 1 | 15-30 mm diameter, ground to ±0.01 mm | [Iron & Steel](../metals/iron-steel.md) | — |
+| Seals (shaft seal, O-rings) | 2-4 | Viton FKM, rated to 200°C | [Elastomers](../polymers/rubber.md) | Buna-N (lower temp rating) |
+| Electric motor | 1 | 0.25-4 kW, 1450 or 1750 RPM | [Electricity](../energy/electricity.md) | Hand-cranked (impractical for production) |
+
+### Rotary Vane Pump — Construction Steps
+
+1. **Cast and bore the stator**: Cast the stator body in gray iron. Bore the internal cylinder to the nominal diameter ±0.01 mm roundness and ±0.02 mm cylindricity over the full bore length. The bore surface finish must be 0.8 μm Ra or better (honed). The rotor pocket (eccentric offset) is bored off-center by the eccentricity distance (typically 5-15% of bore diameter).
+
+2. **Machine the rotor**: Turn the rotor from 1045 steel on a lathe. Diameter is 2× the eccentricity smaller than the stator bore. Surface finish: 0.8 μm Ra. Hardened to 45-50 HRC by quenching and tempering. Drill and mill vane slots (2-3 slots at equal angles) to width +0.02/+0.05 mm clearance for the vanes. Slot depth: vane width + 2-5 mm for spring pocket.
+
+3. **Fabricate vanes**: Cut vanes from carbon fiber sheet or steel plate to 3-8 mm thickness. Width matches the rotor axial length. Length: rotor radius + eccentricity + 2-3 mm (vane extends past rotor OD to contact stator wall). Surface finish on contact edges: 0.4 μm Ra. Install compression springs in the vane slot bottoms (spring force pushes vanes outward against stator wall).
+
+4. **Machine inlet and exhaust ports**: Drill and tap the inlet port (KF or NPT fitting) into the stator wall at the maximum-volume position. Drill and tap the exhaust port at the minimum-volume position. Install a reed valve or ball check valve at the exhaust (prevents backflow of gas from the oil sump into the pumping chamber).
+
+5. **Assemble shaft and bearings**: Press ball bearings into the bearing housings at each end of the stator. Insert the rotor onto the shaft (keyed or press fit). Install shaft seals (Viton lip seals) on the exterior side of each bearing to prevent oil leakage.
+
+6. **Add oil sump and gas ballast**: Weld or bolt an oil reservoir to the stator base. Fill level: enough oil to submerge the exhaust valve and lubricate vane tips through splash lubrication. Drill and tap a gas ballast port with a needle valve — admits a small amount of atmospheric air during the compression stroke to prevent condensation of vapors in the oil.
+
+7. **Couple motor and test**: Mount the electric motor on a base plate aligned with the pump shaft. Couple with a flexible coupling. Fill with vacuum oil. Run for 30 minutes at atmospheric inlet — verify smooth operation, no unusual vibration or heating (stator body should stabilize below 80°C). Measure ultimate vacuum with a Pirani or thermocouple gauge: target 10⁻² Torr (single-stage) or 5×10⁻⁴ Torr (two-stage).
+
+### Diffusion Pump — Materials
+
+| Material | Quantity | Specifications | Source | Alternatives |
+|----------|----------|----------------|--------|-------------|
+| Steel (pump body) | 20-100 kg | Welded cylindrical shell, 150-400 mm diameter | [Iron & Steel](../metals/iron-steel.md) | Stainless steel (better corrosion resistance) |
+| Copper (jet assembly) | 2-10 kg | Chimney and nozzle stages, brazed assembly | [Metals](../metals/index.md) | — |
+| Diffusion pump oil | 0.2-2 L | DC-704 silicone oil, VP ~10⁻⁸ Torr at 25°C | [Chemistry](../chemistry/index.md) | Santovac 5 (lower VP, higher cost) |
+| Heating element | 1 | 300-5000 W electric heater | [Energy](../energy/electricity.md) | Gas burner (less controllable) |
+| Copper cooling coils | 5-20 m | 6-10 mm OD tubing, soft soldered to body | [Metals](../metals/index.md) | External water jacket (welded) |
+| Thermal insulation | As needed | Mineral wool or ceramic fiber, 25-50 mm | [Ceramics](../ceramics/index.md) | — |
+
+### Diffusion Pump — Construction Steps
+
+1. **Fabricate the pump body**: Roll and weld a steel cylinder (150-400 mm diameter, 300-600 mm tall). Weld a flat bottom plate with ports for the heater, oil drain, and foreline connection. Weld a top flange (CF or ISO-K) for connection to the vacuum chamber. All welds must be full-penetration, ground smooth on the interior, and leak-tested (see [Leak Detection](leak-detection.md)).
+
+2. **Construct the jet assembly**: The jet chimney is a copper or steel tube (30-60% of body diameter) with 3-6 stages of annular nozzles. Each nozzle is a copper ring with angled slots pointing downward and outward. The nozzle angles are critical: top stage at 30-45° from horizontal, lower stages progressively steeper. Braze the nozzle rings to the chimney tube. The assembly sits on three support legs inside the pump body, with the chimney base immersed in the oil sump.
+
+3. **Install the heater**: Mount an electric resistance heater (300-5000 W depending on pump size) on the exterior of the bottom plate. Use a temperature controller with a thermocouple embedded in the oil sump to maintain 150-200°C. Insulate the heater and lower body with mineral wool.
+
+4. **Install cooling system**: Soft-solder copper cooling coils (6-10 mm OD) in a spiral around the upper pump body exterior. Connect to a water supply at 2-5 L/min flow. Alternatively, weld an external water jacket. Install a water flow switch interlocked to the heater — if water flow stops, heater power must cut off immediately (oil overheating → decomposition → fire hazard).
+
+5. **Install cold trap mounting**: Weld a flange at the top of the pump body (between the jet assembly and the chamber connection) for a liquid nitrogen cold trap or chevron baffle. This is essential to prevent oil backstreaming — without it, oil vapor contaminates the vacuum chamber.
+
+6. **Add oil and test**: Charge the pump with diffusion pump oil (DC-704 or equivalent). Connect a backing pump (rotary vane, sized to maintain foreline <0.5 Torr) to the foreline port. Evacuate the foreline to <0.5 Torr before turning on the heater. Heat the oil to operating temperature (150-200°C, 20-30 minutes). Fill the cold trap with LN₂. Measure ultimate vacuum: target 10⁻⁶ to 10⁻⁷ Torr on an ionization gauge.
+
+### Calibration & Verification
+
+**Rotary vane pump**:
+
+1. **Ultimate vacuum test**: Connect a Pirani or thermocouple gauge directly to the inlet (minimize dead volume). Run pump for 30 minutes with gas ballast closed. Record ultimate vacuum: single-stage should reach ~10⁻² Torr, two-stage ~5×10⁻⁴ Torr.
+2. **Pumping speed test**: Admit a known gas flow (via a calibrated leak or mass flow controller) and measure the equilibrium pressure. Pumping speed S = Q/P, where Q is the gas load (Torr·L/s) and P is the measured pressure.
+3. **Oil contamination check**: After pumping wet loads, check oil color. Clear golden = good. Dark or milky = contaminated — change oil immediately.
+
+**Diffusion pump**:
+
+1. **Foreline pressure verification**: Verify the backing pump maintains foreline below 0.5 Torr at maximum expected gas load. If foreline exceeds this, the diffusion pump stalls and oil backstreams.
+2. **Backstreaming test**: Place a clean glass witness slide in the chamber above the cold trap. Pump for 24 hours. Remove slide and inspect under bright light — any oil film indicates cold trap failure or insufficient cooling.
+3. **Cooling water interlock test**: Shut off cooling water while heater is on. Verify the interlock cuts heater power within 30 seconds. If not, adjust or replace the flow switch.
+
+### Expected Performance
+
+**Rotary vane pump**:
+
+| Parameter | Value |
+|-----------|-------|
+| Pumping speed | 1-500 L/min (size-dependent) |
+| Ultimate vacuum (single-stage) | ~10⁻² Torr |
+| Ultimate vacuum (two-stage) | ~5×10⁻⁴ Torr |
+| Oil charge | 0.2-8 L |
+| Motor power | 0.1-4 kW |
+| Noise level | 50-75 dB |
+| Oil change interval | 3-6 months |
+| Vane replacement interval | 2-3 years |
+| Service life | 20+ years with maintenance |
+
+**Diffusion pump**:
+
+| Parameter | Value |
+|-----------|-------|
+| Pumping speed (N₂) | 50-10,000 L/s (size-dependent) |
+| Ultimate vacuum | 10⁻⁶ to 10⁻⁷ Torr (with LN₂ trap) |
+| Foreline tolerance | <0.5 Torr |
+| Heater power | 0.3-10 kW |
+| Oil temperature | 150-200°C |
+| Cooling water | 1-15 L/min |
+| Oil charge | 0.05-2 L |
+| Startup time | 20-30 minutes (heater warmup) |
+| Service life | 20+ years (no moving parts) |
 
 ## Ultra-High Vacuum Pumps
 
@@ -268,7 +368,8 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 
 - **[Gas Handling: Vacuum](../gas-handling/vacuum.md)**: Foundational vacuum pump operating principles
 - **[Vacuum Chambers & Sealing](chambers.md)**: Chamber design and sealing systems
-- **[Vacuum Measurement & Leak Detection](measurement.md)**: Pressure gauges and leak detection
+- **[Vacuum Measurement](measurement.md)**: Pressure gauges and diagnostics
+- **[Leak Detection](leak-detection.md)**: Helium leak detection methods
 - **[Lubricants, Oils & Fluid Mechanics](../chemistry/lubricants.md)**: Vacuum oil specifications
 
 ---

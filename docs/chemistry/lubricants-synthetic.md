@@ -4,7 +4,7 @@
 > **Domain**: [Chemistry](./index.md)
 > **Parent**: [Lubricants, Oils & Fluid Mechanics](lubricants.md)
 > **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.lubricants-mineral`](lubricants-mineral.md)
-> **Enables**: [`vacuum.vacuum-pumps`](../vacuum/vacuum-pump.md)
+> **Enables**: [`vacuum.pumps`](../vacuum/pumps.md)
 > **Timeline**: Years 50-200+
 > **Outputs**: synthetic_oil, vacuum_oil, pfpe_grease
 > **Critical**: No — synthetic lubricants enable demanding applications but are not prerequisites for core capabilities

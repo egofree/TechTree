@@ -204,7 +204,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - Surface roughness (profilometer): Ra, Rz, and Rq measurements. Electropolishing typically reduces Ra by 50-80% from the pre-polished state.
 - Surface composition (XPS/ESCA): X-ray photoelectron spectroscopy measures the Cr/Fe ratio at the surface. A ratio >1.0 indicates effective chromium enrichment.
 - Pitting resistance (ASTM B117 salt spray): Electropolished 316L stainless steel typically achieves 500-2000+ hours to first rust spot, compared to 24-100 hours for mechanically polished surfaces.
-- Outgassing rate: Measured by throughput method in a [vacuum chamber](../vacuum/vacuum-chamber.md). Electropolished + baked 316L: ~10⁻¹⁰ Torr·L/s·cm². Mechanically polished: ~10⁻⁸ Torr·L/s·cm².
+- Outgassing rate: Measured by throughput method in a [vacuum chamber](../vacuum/chambers.md). Electropolished + baked 316L: ~10⁻¹⁰ Torr·L/s·cm². Mechanically polished: ~10⁻⁸ Torr·L/s·cm².
 
 ## Electroforming Process Detail
 

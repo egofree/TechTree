@@ -15,14 +15,6 @@ The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-gr
 
 ## Prerequisites
 
-A – Applied pressure
-B – Seawater in
-C – Contaminants
-D – Semi-permeable membrane
-E – Potable water out
-
-F – Distribution*
-
 - [Acids](../chemistry/acids.md) — bulk acid production as starting material
 - [Solvents](../chemistry/solvents.md) — industrial solvent production
 - [Ultra-Pure Water](upw.md) — 18.2 MΩ·cm water for rinsing and dilution

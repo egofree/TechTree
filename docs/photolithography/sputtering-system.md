@@ -26,7 +26,7 @@ For insulating targets (SiO₂, Al₂O₃), RF power at 13.56 MHz alternates the
 
 ## Prerequisites
 
-- [Vacuum chamber](../vacuum/vacuum-chamber.md) — stainless steel, base pressure <10⁻⁷ Torr
+- [Vacuum chamber](../vacuum/chambers.md) — stainless steel, base pressure <10⁻⁷ Torr
 - [Turbomolecular pump](../vacuum/pumps.md) — 300-2000 L/s, with dry scroll backing pump
 - [Gas handling](../gas-handling/index.md) — Ar sputter gas MFC, reactive gas MFCs (N₂, O₂)
 - [DC and RF power supplies](../energy/electricity.md) — 1-20 kW DC, 300-2000 W RF
@@ -37,9 +37,9 @@ For insulating targets (SiO₂, Al₂O₃), RF power at 13.56 MHz alternates the
 
 | Material | Quantity | Specifications | Source | Alternatives |
 |----------|----------|----------------|--------|-------------|
-| Stainless steel vacuum chamber | 1 | 350-500 mm diameter, CF-flanged | [Vacuum Chamber](../vacuum/vacuum-chamber.md) | — |
+| Stainless steel vacuum chamber | 1 | 350-500 mm diameter, CF-flanged | [Vacuum Chamber](../vacuum/chambers.md) | — |
 | Turbomolecular pump | 1 | 300-2000 L/s N₂, mag-lev or ball bearing | [Vacuum Pumps](../vacuum/pumps.md) | Diffusion pump (oil contamination) |
-| Dry scroll backing pump | 1 | 10-30 L/s, oil-free | [Vacuum Pump](../vacuum/vacuum-pump.md) | Rotary vane (oil backstreaming risk) |
+| Dry scroll backing pump | 1 | 10-30 L/s, oil-free | [Vacuum Pump](../vacuum/pumps.md) | Rotary vane (oil backstreaming risk) |
 | Copper backing plate (target) | 1 per source | Water-cooled, 150-300 mm diameter | [Metals](../metals/index.md) | — |
 | Sputter target material | 1 per source | 3-12 mm thick, bonded to backing plate | Varies by application | — |
 | NdFeB permanent magnets | 1 set per source | Ring and center plug, B ≈ 0.03-0.05 T at target surface | [Metals](../metals/index.md) | SmCo (higher temperature tolerance) |
@@ -49,13 +49,13 @@ For insulating targets (SiO₂, Al₂O₃), RF power at 13.56 MHz alternates the
 | Quartz crystal microbalance (QCM) | 1 | 6 MHz AT-cut crystal, rate monitor | [Measurement](../measurement/index.md) | — |
 | Mechanical shutter | 1 | Pneumatic or magnetic actuation | [Machine Tools](../machine-tools/machining.md) | — |
 | Mass flow controllers | 2-4 | Ar (10-100 sccm), reactive gases | [Gas Handling](../gas-handling/index.md) | — |
-| Load lock chamber | 1 | 5-20 L with gate valve | [Vacuum Chamber](../vacuum/vacuum-chamber.md) | Direct load (vent main chamber each run) |
+| Load lock chamber | 1 | 5-20 L with gate valve | [Vacuum Chamber](../vacuum/chambers.md) | Direct load (vent main chamber each run) |
 
 ## Process Description
 
 ### Chamber and Pumping System
 
-1. **Prepare the vacuum chamber**: Construct or procure a stainless steel vacuum chamber per [Vacuum Chamber](../vacuum/vacuum-chamber.md). Install CF flanges for: the sputter source (top or side), turbomolecular pump (bottom or side), substrate holder entry, gas inlet, pressure gauge, QCM, viewport, and load lock gate valve. Base pressure target: <5×10⁻⁸ Torr after bake-out.
+1. **Prepare the vacuum chamber**: Construct or procure a stainless steel vacuum chamber per [Vacuum Chamber](../vacuum/chambers.md). Install CF flanges for: the sputter source (top or side), turbomolecular pump (bottom or side), substrate holder entry, gas inlet, pressure gauge, QCM, viewport, and load lock gate valve. Base pressure target: <5×10⁻⁸ Torr after bake-out.
 
 2. **Mount the turbomolecular pump**: Bolt the turbo to the chamber via a gate valve and CF flange (CF160 or CF200). Connect the dry scroll backing pump to the turbo exhaust via flexible metal hose. Install a foreline pressure gauge. Verify that the backing pump maintains foreline below 0.1 Torr at maximum gas load.
 
@@ -222,7 +222,7 @@ Sputtering is the default for metals (good adhesion, uniform, alloy-compatible).
 ## References
 
 - [Deposition Systems](../vacuum/deposition-systems.md) — DC/RF sputtering physics, evaporation comparison, deposition parameter tables
-- [Vacuum Chamber](../vacuum/vacuum-chamber.md) — chamber construction and sealing
+- [Vacuum Chamber](../vacuum/chambers.md) — chamber construction and sealing
 - [CVD Reactor](cvd-reactor.md) — alternative deposition technology for conformal films
 - [Gas Handling](../gas-handling/index.md) — gas delivery and MFC specifications
 - [Core Fab Processes](fab-processes.md) — how sputtering fits into the IC fabrication flow

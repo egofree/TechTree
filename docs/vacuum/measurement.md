@@ -147,51 +147,7 @@ The RGA is a miniature quadrupole mass spectrometer permanently mounted on the v
 
 ## Leak Detection Methods
 
-**Helium mass spectrometer leak detection (primary method)**:
-
-The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), connected to the vacuum system via a valve. Two operational modes:
-
-**Vacuum mode (spray probe)** — most common:
-1. Connect leak detector to the vacuum system (at a port near the suspected leak, or on the roughing line).
-2. The system is under vacuum, being pumped by the leak detector's internal turbo pump.
-3. Spray a fine jet of helium gas (from a regulated cylinder with a fine nozzle) on the exterior surface, systematically working around all joints, welds, flanges, and feedthroughs.
-4. When the helium spray passes over a leak, He enters the vacuum system and is detected by the mass spec within seconds (response time depends on internal volume and pumping speed).
-5. Mark the location. Continue searching for additional leaks (systems often have multiple).
-6. **Sensitivity**: 10⁻¹² atm·cc/s (can detect a leak so small it would take 30 years to leak 1 cc of gas).
-
-**Sniffer mode (pressurized system)**:
-1. Pressurize the system with helium (or He/N₂ mixture) to 1-2 bar above atmospheric.
-2. Use a sniffer probe connected to the leak detector to scan exterior surfaces.
-3. Helium escaping through leaks is drawn into the probe and detected.
-4. **Sensitivity**: 10⁻⁷ atm·cc/s (much less sensitive than vacuum mode, but useful for large systems that cannot be evacuated).
-
-**Helium leak detection best practices**:
-- **Start from the top**: Helium is lighter than air and rises. Spray from the top of the system downward so that rising helium from a previous spray doesn't trigger a false positive at a higher location.
-- **Enclose the spray area**: When testing a specific joint or flange, surround it with a plastic bag or tent. Spray helium into the enclosure and wait. This technique finds very small leaks that a transient spray might miss.
-- **Background helium**: Helium is present in air at ~5 ppm. The leak detector automatically subtracts this background. But if the room has recently had helium sprayed (e.g., after extensive leak testing), the ambient He concentration rises, increasing background noise. Ventilate the room between leak testing sessions.
-- **Virtual leaks vs. real leaks**: Helium leak detection only finds real leaks (holes communicating with the exterior). Virtual leaks (trapped internal volumes) do NOT show a He response because the trapped gas is already inside the system. Use the RGA to distinguish: virtual leaks show atmospheric gases (N₂, O₂) without He response.
-
-**Bubble testing** (for gross leaks):
-- Pressurize system to 1-2 bar above atmospheric with dry N₂.
-- Apply commercial leak detection fluid (Snoop, or dilute dish soap) to all joints.
-- Watch for bubble formation. Each bubble indicates a leak.
-- Sensitivity: ~10⁻⁴ atm·cc/s (orders of magnitude less sensitive than He detection).
-- Use for initial gross leak check before He testing, or for systems that cannot be evacuated.
-
-**Pressure rise test** (for overall system integrity):
-1. Pump the system to base pressure.
-2. Isolate the system from all pumps (close all valves).
-3. Monitor pressure rise over time.
-4. Plot pressure vs. time. The curve has two components:
-   - **Outgassing**: Initially rapid, follows 1/t decay. Dominates at short times (<1 hour).
-   - **Real leak**: Constant pressure rise rate (linear with time). Dominates at long times (>1 hour) after outgassing has decreased.
-5. The steady-state leak rate (slope of the linear portion) is: Q_leak = V × (dP/dt), where V is system volume and dP/dt is the pressure rise rate.
-6. **Acceptable leak rates**:
-   - Rough vacuum system: <10⁻³ Pa·L/s
-   - High vacuum system: <10⁻⁶ Pa·L/s
-   - UHV system: <10⁻⁹ Pa·L/s
-
-**Ultrasonic leak detection**: Pressurize the system and scan with an ultrasonic detector (headphones + directional microphone tuned to 40 kHz). Gas flowing through a leak creates ultrasonic turbulence. Can detect leaks down to ~10⁻³ atm·cc/s. Useful for preliminary screening of large systems before He testing.
+Leak detection is covered in detail in the dedicated [Leak Detection & Seal Integrity](leak-detection.md) article, which covers helium mass spectrometer leak detection (vacuum mode, sensitivity 10⁻¹² atm·cc/s; sniffer mode, 10⁻⁷ atm·cc/s), pressure rise testing, bubble testing, and ultrasonic methods. For most vacuum systems, the pressure rise test (isolate the chamber, monitor pressure vs. time — linear rise indicates a real leak, 1/t decay indicates outgassing) combined with RGA monitoring (masses 28 + 32 in 4:1 ratio confirms an air leak) provides the starting point before proceeding to helium spray probe localization.
 
 ## Vacuum System Diagnostics
 
@@ -265,6 +221,7 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 - **[Gas Handling: Vacuum](../gas-handling/vacuum.md)**: Basic vacuum gauge principles, bubble testing, Tesla coil
 - **[Vacuum Pumps](pumps.md)**: Pump selection and specifications
 - **[Vacuum Chambers & Sealing](chambers.md)**: Chamber design and virtual leak prevention
+- **[Leak Detection & Seal Integrity](leak-detection.md)**: Comprehensive leak detection methods and seal integrity
 - **[Measurement](../measurement/index.md)**: General measurement and instrumentation
 
 ---

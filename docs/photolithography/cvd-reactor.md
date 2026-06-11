@@ -30,8 +30,8 @@ Two reactor configurations are addressed:
 
 ## Prerequisites
 
-- [Vacuum chamber](../vacuum/vacuum-chamber.md) — stainless steel chamber for PECVD
-- [Vacuum pump](../vacuum/vacuum-pump.md) — roughing pump for LPCVD; turbomolecular pump for PECVD
+- [Vacuum chamber](../vacuum/chambers.md) — stainless steel chamber for PECVD
+- [Vacuum pump](../vacuum/pumps.md) — roughing pump for LPCVD; turbomolecular pump for PECVD
 - [Gas handling](../gas-handling/index.md) — mass flow controllers, gas manifold, pneumatic valves
 - [Resistance furnace](../energy/electric-furnaces.md) — 3-5 zone furnace for LPCVD tube
 - [Fused silica production](../glass/index.md) — quartz tube for LPCVD reactor
@@ -47,7 +47,7 @@ Two reactor configurations are addressed:
 | Resistance furnace (3-5 zone) | 1 | 600-1200 mm hot zone, ±1°C uniformity, max 1200°C | [Electric Furnaces](../energy/electric-furnaces.md) | — |
 | Quartz boat and paddle | 1 set | Slotted boat for 50-200 wafers, 3-10 mm spacing | [Glass](../glass/index.md) | — |
 | Stainless steel end caps | 2 | With O-ring seals, gas inlet/outlet ports | [Iron & Steel](../metals/iron-steel.md) | — |
-| Rotary vane or scroll pump | 1 | 50-300 L/min, for 0.1-1 Torr operating pressure | [Vacuum Pump](../vacuum/vacuum-pump.md) | — |
+| Rotary vane or scroll pump | 1 | 50-300 L/min, for 0.1-1 Torr operating pressure | [Vacuum Pump](../vacuum/pumps.md) | — |
 | Mass flow controllers | 3-6 | 0-500 sccm range, for SiH₄, NH₃, N₂O, N₂, etc. | [Gas Handling](../gas-handling/index.md) | Needle valves + rotameter (less precise) |
 | Capacitance manometer | 1 | 0-10 Torr range, ±0.5% accuracy | [Measurement](../measurement/index.md) | — |
 | Throttle valve | 1 | Controlled conductance for pressure regulation | [Gas Handling](../gas-handling/index.md) | — |
@@ -57,14 +57,14 @@ Two reactor configurations are addressed:
 
 | Material | Quantity | Specifications | Source | Alternatives |
 |----------|----------|----------------|--------|-------------|
-| Stainless steel chamber | 1 | 300-500 mm diameter, CF-flanged | [Vacuum Chamber](../vacuum/vacuum-chamber.md) | Aluminum (lighter, He permeation) |
+| Stainless steel chamber | 1 | 300-500 mm diameter, CF-flanged | [Vacuum Chamber](../vacuum/chambers.md) | Aluminum (lighter, He permeation) |
 | Aluminum showerhead electrode | 1 | Perforated plate, hundreds of 1-2 mm holes | [Metals](../metals/index.md) | Anodized aluminum (corrosion resistance) |
 | Heated substrate platen | 1 | Resistive or lamp-heated, 200-400°C, ±5°C uniformity | [Electric Furnaces](../energy/electric-furnaces.md) | — |
 | Turbomolecular pump | 1 | 300-2000 L/s, backed by scroll pump | [Vacuum Pumps](../vacuum/pumps.md) | Diffusion pump (oil contamination risk) |
 | RF generator (13.56 MHz) | 1 | 300-3000 W, with automatic matching network | [Energy](../energy/electricity.md) | — |
 | Mass flow controllers | 3-6 | For SiH₄, NH₃, N₂, N₂O, etc. | [Gas Handling](../gas-handling/index.md) | — |
 | Capacitance manometer | 1 | 0-10 Torr range | [Measurement](../measurement/index.md) | — |
-| Load lock chamber | 1 | 5-20 L, with gate valve to main chamber | [Vacuum Chamber](../vacuum/vacuum-chamber.md) | — |
+| Load lock chamber | 1 | 5-20 L, with gate valve to main chamber | [Vacuum Chamber](../vacuum/chambers.md) | — |
 
 ## Process Description
 
@@ -86,7 +86,7 @@ Two reactor configurations are addressed:
 
 ### PECVD Parallel-Plate Reactor
 
-1. **Prepare the vacuum chamber**: Construct or procure a stainless steel vacuum chamber (300-500 mm diameter, 250-350 mm tall) per [Vacuum Chamber](../vacuum/vacuum-chamber.md). Install CF flanges for: turbomolecular pump (bottom), showerhead electrode (top), gas inlet, viewport, pressure gauge, and RGA port.
+1. **Prepare the vacuum chamber**: Construct or procure a stainless steel vacuum chamber (300-500 mm diameter, 250-350 mm tall) per [Vacuum Chamber](../vacuum/chambers.md). Install CF flanges for: turbomolecular pump (bottom), showerhead electrode (top), gas inlet, viewport, pressure gauge, and RGA port.
 
 2. **Machine the showerhead electrode**: Machine a flat aluminum plate (250-400 mm diameter, 10-15 mm thick) with hundreds of through-holes (1-2 mm diameter) distributed in a pattern that provides uniform gas flow across the wafer. The hole pattern is typically concentric rings with decreasing hole density toward the center (to compensate for gas depletion at the edges). Anodize or coat with Y₂O₃ for corrosion resistance against plasma species. Mount the showerhead on a CF flange with a ceramic (alumina) insulator providing electrical isolation from the chamber.
 
@@ -230,7 +230,7 @@ LPCVD is the default for front-end-of-line films where thermal budget permits. P
 ## References
 
 - [Deposition Systems](../vacuum/deposition-systems.md) — process chemistry, CVD vs. PVD selection guide
-- [Vacuum Chamber](../vacuum/vacuum-chamber.md) — chamber construction details
+- [Vacuum Chamber](../vacuum/chambers.md) — chamber construction details
 - [Gas Handling](../gas-handling/index.md) — gas delivery, MFCs, gas cabinet safety
 - [Core Fab Processes](fab-processes.md) — how CVD fits into the full IC fabrication flow
 - [Electric Furnaces](../energy/electric-furnaces.md) — resistance furnace construction

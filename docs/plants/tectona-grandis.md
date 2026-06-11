@@ -187,9 +187,49 @@ rotations yield larger, higher-quality logs.
 
 Teak's dimensional stability (low volumetric shrinkage of 7-8%) makes it suitable for precision joinery where seasonal movement would cause problems. Door panels, window frames, and laboratory furniture benefit from teak's resistance to warping and swelling across humidity changes. This stability, combined with natural durability, makes teak the preferred wood for ship's wheels, navigational instruments, and scientific equipment housings in marine environments.
 
-### Teak Summary
+### Propagation and Seed Treatment
 
-*Content to be added: timber yield data, growth rates, rotation cycles, wood properties.*
+Teak propagation from seed is notoriously difficult due to the hard, thick endocarp (stone) surrounding the seed. Untreated teak seeds show germination rates of only 10-30%, and germination may be spread over several months. Proper seed pre-treatment is essential for commercial nursery production.
+
+**Seed collection and storage:**
+
+1. Collect drupes (fruits) from superior mother trees at age 20-40 years, selected for straight bole, minimal branching, and good heartwood color. Fruits are 12-18 mm in diameter, globose, with a hard woody endocarp surrounded by an inflated papery calyx.
+2. Remove the inflated papery calyx by rubbing fruits between hands or through a coarse screen. The calyx inhibits germination by preventing water contact with the endocarp.
+3. Store cleaned drupes in dry, cool conditions. Teak seeds remain viable for 2-3 years when stored at low moisture content (8-10%) in sealed containers.
+
+**Seed pre-treatment methods (choose one):**
+
+- **Alternate wetting and drying** (most practical): Soak seeds in water for 24 hours, then spread in sun to dry for 24 hours. Repeat this cycle 7-10 times. Germination rate: 50-70%.
+- **Hot water treatment**: Pour water at 80°C over seeds, allow to cool, and soak for 24 hours. Germination rate: 40-60%.
+- **Acid scarification**: Immerse seeds in concentrated sulfuric acid for 10-15 minutes, rinse thoroughly, then soak in water for 12 hours. Germination rate: 60-80%. Requires acid handling precautions.
+- **Mechanical scarification**: Nick or file the endocarp at the pointed end without damaging the seed inside. Germination rate: 50-65%. Labor-intensive but requires no chemicals.
+
+**Nursery practice:**
+
+1. Sow treated seeds in raised nursery beds of sandy loam, 2-3 cm deep, spaced 5-8 cm apart in rows 15-20 cm apart. Cover lightly with fine soil.
+2. Water twice daily. Germination begins in 10-15 days and continues for 30-45 days. Total germination period may extend to 60-90 days due to residual dormancy.
+3. Transplant seedlings to polybags (10×20 cm) at 4-6 weeks when they have 2-4 true leaves. Potting mix: 2 parts sandy loam, 1 part compost.
+4. Grow in nursery for 6-12 months. Ideal seedling height at field planting: 25-40 cm with a root collar diameter of 5-8 mm.
+5. Harden seedlings by reducing shade and water for 2-4 weeks before planting out.
+
+**Field planting and management:**
+
+- Plant at the start of the rainy season. Site preparation: clear vegetation, dig planting holes 30×30×30 cm.
+- Initial spacing: 2×2 m (2,500 trees/ha) to 3×3 m (1,100 trees/ha). Closer spacing promotes height growth and straight boles.
+- Thinning schedule: age 5 (remove 50% of trees), age 10 (remove 50% of remaining), age 15 (remove 30% of remaining). Final stocking: 200-400 trees/ha.
+- Prune lower branches to 50% of tree height during ages 3-8 to produce clear, knot-free butt logs.
+- Weed control is critical during the first 2-3 years. Weed every 2-3 months.
+
+**Yield timelines:**
+
+- Height growth: 1-2 m/year during ages 1-15, slowing to 0.5-1.0 m/year thereafter.
+- Diameter growth: 0.8-1.5 cm/year under good conditions.
+- First commercial thinning: age 5 (small poles, 5-8 cm diameter).
+- Second thinning: age 10-15 (small logs, 15-20 cm diameter).
+- Final harvest (plantation): 20-30 years (30-40 cm diameter, logs 2-4 m clear length).
+- Premium harvest: 40-60 years (50-80 cm diameter, logs 6-12 m clear length).
+- Timber yield: 100-200 m³/ha at 20-year rotation; 150-300 m³/ha at 40-year rotation.
+- Heartwood proportion: 40-60% at 20 years; 60-80% at 40+ years.
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

@@ -181,9 +181,36 @@ that burns at very high temperatures with minimal smoke.
 
 The quebracho industry in Argentina produced over 300,000 tonnes of tannin extract per year at its peak in the mid-20th century. The extract was shipped worldwide for leather tanning, with the majority going to European and North American tanneries. The industry employed thousands of workers in the Gran Chaco region, though working conditions were harsh and the forestry practices often unsustainable. Modern quebracho extraction operates under stricter sustainability requirements, with selective harvesting and mandatory reforestation programs aimed at maintaining the resource for future generations.
 
-### Quebracho Summary
+### Propagation and Seed Treatment
 
-*Content to be added: tannin yield data, extraction efficiency, bark harvest cycles.*
+Quebracho propagation is challenging due to extremely slow growth and specific germination requirements. The tree produces winged samaras (achenes) that mature in late summer to autumn. Seed collection is straightforward — samaras are abundant under mature trees — but germination rates are low without treatment.
+
+**Seed collection and treatment:**
+
+1. Collect freshly fallen samaras from beneath mature trees in autumn. Select plump, well-filled seeds. Discard flat or damaged samaras.
+2. Soak seeds in water at room temperature for 24-48 hours. Discard floaters (empty seeds). Viable seeds sink.
+3. No stratification is required. Sow immediately after soaking.
+4. Sow in nursery beds at 1-2 cm depth in sandy, well-drained soil. Space seeds 5-10 cm apart in rows 20 cm apart.
+5. Germination occurs in 15-30 days at 25-35°C. Germination rate: 20-40% from treated seed, 5-15% from untreated seed.
+6. Seedlings grow slowly. Maintain in nursery for 12-18 months before field planting.
+
+**Nursery practice:**
+
+- Seedlings are sensitive to frost and waterlogging. Provide partial shade for the first 3-6 months.
+- Water regularly but do not saturate. Quebracho seedlings are drought-tolerant once established but vulnerable as seedlings.
+- Transplant to field at 12-18 months when seedlings are 15-25 cm tall. Plant at 4×4 m to 6×6 m spacing.
+- Survival rate after transplant: 40-60% without irrigation; 70-85% with supplementary watering during the first dry season.
+- Growth rate in the first 10 years: 0.3-0.5 m/year height, 0.5-1.0 cm/year trunk diameter.
+
+**Yield timelines:**
+
+- Heartwood formation begins at 20-30 years; commercially significant tannin content not reached until 40-60 years.
+- Minimum harvest age for tannin: 60-80 years (heartwood 20-25% tannin).
+- Optimal tannin yield: 80-120 years (heartwood 25-30% tannin, 40-70% heartwood proportion).
+- Tannin yield per mature tree: 200-600 kg (from heartwood of a single 80+ year tree).
+- Timber volume per hectare (managed native forest): 50-200 m³ over 80-120 year rotation.
+
+Because of the extreme growth period, plantation quebracho is impractical for bootstrap purposes. Natural forest management with selective felling and protection of regeneration is the only viable approach.
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

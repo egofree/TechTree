@@ -5,22 +5,18 @@
 > **Dependencies**: See prerequisites
 > **Enables**: [`Edible Plants`](edible-plants.md)
 > **Timeline**: Years 0-5
-> **Outputs**: edible_plant_material
-> **Critical**: Yes
+> **Outputs**: fresh fruit (vitamin C, lycopene, dietary variety), preserved fruit (sun-dried, sauce, fermented)
+> **Critical**: No — nutritionally valuable but not a calorie staple; grains and tubers are more critical for food security
 
 ## Overview
 
-Wild Tomato
+Wild tomato (*Solanum pimpinellifolium* / *S. lycopersicum var. cerasiforme*) is the ancestor of all cultivated tomatoes. It produces small (1-2 cm) red fruits with intense, concentrated flavor — higher in sugars, acids, and lycopene per unit weight than modern cultivars. The plant is more disease-resistant and heat-tolerant than domesticated varieties, making it valuable for low-input agriculture in warm climates.
 
-*Solanum lycopersicum var. cerasiforme* (Solanaceae) is a vegetable crop species of major importance for civilization bootstrapping. Cherry tomato provides fruit as its primary edible product.
+Wild tomato is an indeterminate, vining perennial in frost-free climates (grown as an annual where frost occurs). Plants reach 1-3 meters in length, producing fruit continuously over 3-6 months. Unlike determinate commercial varieties that produce one concentrated harvest, wild tomatoes bear progressively, providing a steady food supply over an extended season.
 
-Edible parts: Fruit The fruit is eaten.
+For civilization bootstrapping, wild tomato provides essential vitamins (C, A, K), minerals (potassium, folate), and dietary variety. While not a calorie staple like grain or potato, tomatoes are nutritionally complementary: their vitamin C content improves iron absorption from grain-based meals, and their lycopene content provides antioxidant protection. The plant's self-seeding habit and tolerance of marginal conditions make it a reliable supplemental food source.
 
-For civilization bootstrapping, wild tomato is significant because of its role as a vegetable crop. Reliable food production is the foundation upon which all other technological development rests. Understanding the cultivation, processing, and storage of *Solanum lycopersicum var. cerasiforme* enables communities to establish food security and allocate labor to non-subsistence activities.
-
-*Solanum lycopersicum var. cerasiforme* is a member of the Solanaceae family. As a vegetable crop, it provides essential calories, protein, or other nutrients needed to sustain human populations during the bootstrap process. The ability to produce food reliably from cultivated plants is what separates sedentary civilizations from hunter-gatherer societies, because food surplus allows specialization of labor into toolmaking, construction, and eventually metallurgy and beyond.
-
-This species grows as a perennial or annual depending on climate and management. Propagation is primarily by seed or vegetative means. Harvest timing depends on the plant part used: fruit are typically ready at specific growth stages or seasons.
+The fruit is eaten fresh, cooked in sauces, sun-dried for storage, or fermented into preserves. Wild tomatoes have thinner skins than modern cultivars and a higher ratio of flavorful gel to wall tissue.
 
 ## Prerequisites
 
@@ -54,6 +50,38 @@ This species grows as a perennial or annual depending on climate and management.
 - Storage structure protected from moisture, rodents, and insects
 
 ## Process Description
+
+### Cultivation
+
+**Sowing and transplanting:**
+
+1. Start seeds indoors 6-8 weeks before the last expected frost. Sow 3-5 mm deep in seed trays or small pots filled with fine, well-drained compost. Cover lightly — tomato seeds need some light for germination.
+2. Germination temperature: 20-30°C (optimal 25°C). Germination occurs in 5-10 days at optimal temperature; up to 14 days at 20°C.
+3. Transplant seedlings to larger pots when they develop their first true leaves (2-3 weeks after germination). Handle by the seed leaves, not the delicate stem.
+4. Harden off seedlings by gradually exposing them to outdoor conditions over 7-10 days before planting out.
+5. Transplant to the field after all danger of frost has passed and soil temperature is above 15°C. Space 45-60 cm between plants in rows 75-100 cm apart (approximately 15,000-25,000 plants per hectare).
+6. In frost-free tropical climates, direct sow seeds 3-5 mm deep at the start of the rainy season, thinning to final spacing after establishment.
+
+**Growing conditions:**
+
+- **Soil**: Well-drained, pH 6.0-6.8, enriched with compost or aged manure. Heavy clay requires raised beds.
+- **Light**: Full sun (6-8+ hours direct sunlight). Shade reduces yield and delays ripening.
+- **Water**: 25-40 mm per week during the growing season, increasing to 40-50 mm per week during fruiting. Irregular watering causes blossom-end rot and fruit splitting.
+- **Temperature**: Optimal growth 20-28°C. Fruit set fails below 10°C and above 35°C. Protect from frost.
+
+**Crop management:**
+
+- **Support**: Indeterminate wild tomatoes benefit from staking, trellising, or growing through a wire mesh frame. Unsupported plants sprawl on the ground, increasing fruit rot and pest damage. Drive a 1.5-2.0 m stake beside each plant at transplanting and tie the main stem loosely with soft cord as it grows.
+- **Pruning**: Remove suckers (side shoots) that form in the leaf axils below the first flower cluster to concentrate growth into fruit production. Wild types sucker less aggressively than modern indeterminate cultivars.
+- **Mulching**: Apply 5-10 cm of straw, leaf litter, or compost around plants to retain moisture, suppress weeds, and prevent soil splash onto fruit (which spreads disease).
+- **Fertilization**: Side-dress with compost or aged manure when first flowers appear and again at mid-season. Excess nitrogen produces lush foliage at the expense of fruit.
+
+**Yield:**
+
+- **Per plant**: 2-5 kg of fruit over the season (wild type), with individual fruits weighing 5-15 g.
+- **Per hectare**: 15-40 tonnes for managed plantings under good conditions; 5-15 tonnes under low-input conditions.
+- **Days to first harvest**: 55-70 days from transplant (75-90 days from seed).
+- **Harvest duration**: 3-6 months in warm climates (indeterminate varieties produce continuously until frost or disease kills the plant).
 
 ### Harvesting
 
@@ -97,50 +125,32 @@ Wild tomatoes make intensely flavored sauces and preserves due to their high sug
 
 | Parameter | Range | Notes |
 |-----------|-------|-------|
+| Sowing depth | 3-5 mm | Cover lightly; seeds need some light |
+| Germination temperature | 20-30°C | Optimal 25°C |
+| Germination time | 5-14 days | Faster at higher temperatures |
+| Transplant spacing | 45-60 cm × 75-100 cm | 15,000-25,000 plants/ha |
+| Days to first harvest | 55-70 | From transplant |
 | Fruit diameter | 1-2 cm | Wild/cherry type |
+| Fruit weight | 5-15 g | Individual fruit |
+| Yield per plant | 2-5 kg | Over full season |
+| Yield per hectare | 5-40 tonnes | Low-input to managed conditions |
 | Harvest frequency | Every 2-3 days | During peak season |
 | Harvest period | 3-6 months | Indeterminate varieties, warm climate |
+| Optimal growing temperature | 20-28°C | Fruit set fails <10°C or >35°C |
+| Water requirement | 25-50 mm/week | Increase during fruiting |
+| Soil pH | 6.0-6.8 | Well-drained preferred |
 | Seed fermentation | 2-3 days at 20-25°C | Removes gel coating |
 | Seed drying time | 7-10 days | At 25-30°C, shaded |
 | Seed viability | 4-6 years | Good storage conditions |
 | Sun drying time | 6-12 hours over 2-3 days | Cut-side up, covered |
-| Oven drying temp | 50-60°C | 6-12 hours, door propped open |
 | Sauce simmer time | 30-60 minutes | Fresh sauce |
 | Paste reduction time | 2-4 hours | For thick paste |
-| Salt for fermentation | 3-5% by weight | Lactic acid preservation |
-| Chutney simmer time | 1-2 hours | With vinegar/acid |
-
-### Distribution and Growing Conditions
-
-### Identification
-
-A tomato plant with small round fruit. See Lycopersicum esculentum var. cerasiforme.
-
-### Edible Parts and Preparation
-
-## Quantitative Parameters
-
-### Growing Parameters
-
-| Parameter | Value | Notes |
-|-----------|-------|-------|
-| Edible parts | Fruit | Primary harvest |
-
-## Processing and Storage
-
-### Storage
-
-Fresh fruit is highly perishable. Process within days of harvest by drying, fermenting, or preserving. For drying: slice thinly and spread on racks in full sun or near a heat source until leathery and no longer moist inside. Dried fruit stores for months in sealed containers kept cool and dark. Fermented products (wine, vinegar) extend storage further. Some fruits can be stored fresh for weeks in cool conditions.
-
-### Material Handling
-
-Handle wild tomato produce with clean hands and tools to prevent contamination. Remove field heat promptly after harvest by moving product to shade. Process within the recommended timeframe to prevent quality loss. Compost crop residues and processing waste to return organic matter to the soil. Label stored products with harvest date, variety, and any treatments applied.
 
 ## Scaling Notes
 
-- **Bench scale**: Individual plants or small garden plot (10-50 plants). Output for direct household consumption. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
-- **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Requires basic hand tools and family-level labor. Surplus can be traded or stored.
-- **Production scale**: Multi-hectare cultivation with mechanized planting, harvesting, and processing. Requires plow animals or tractors, grain mills or processing equipment, and bulk storage facilities. Enables community-level food security and trade.
+- **Bench scale**: Individual plants or small garden plot (10-50 plants). Output: 20-250 kg of fruit for direct household consumption over 3-6 months. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
+- **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Expected yield: 0.5-15 tonnes. Requires basic hand tools and family-level labor. Surplus can be traded, sun-dried, or processed into sauce for storage.
+- **Production scale**: Multi-hectare cultivation with irrigation and support structures. Expected yield: 15-40 tonnes/ha. Requires stakes or trellises, consistent water supply, and post-harvest processing capacity (drying racks, sauce production). Enables community-level food preservation for off-season use.
 
 Key scaling challenges include maintaining genetic diversity at plantation scale, managing pest and disease pressure in monoculture, and matching post-harvest processing capacity to harvest volume. Seed saving and variety selection at bench scale directly informs decisions about which cultivars to scale up.
 
@@ -148,34 +158,27 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Poor germination | Old seed, wrong soil temperature, planted too deep, or insufficient moisture | Use fresh seed; verify germination temperature range; plant at recommended depth; maintain soil moisture during germination |
-| Pest damage | Insect infestation or browsing animals | Hand-pick pests; use companion planting with repellent species; install fencing for larger pests |
-| Disease (fungal/bacterial) | Poor air circulation, excessive moisture, infected seed | Space plants adequately; avoid overhead watering; use clean seed from disease-free plants; practice crop rotation |
-| Low yield | Nutrient deficiency, water stress, overcrowding, or shade | Amend soil with compost or manure; ensure adequate water at critical growth stages; thin to recommended spacing; plant in full sun |
-| Storage losses | Insufficient drying, rodent/insect damage, high humidity | Dry product thoroughly before storage; use sealed containers; inspect stored product regularly; keep storage area clean and dry |
-| Quality or safety note | See species-specific notes | There are about 1400 Solanum species. |
+| Poor germination | Old seed, cold soil, planted too deep | Use fresh seed (<2 years); maintain 25°C soil; sow at 3-5 mm depth |
+| Blossom-end rot (black sunken spots on fruit base) | Calcium deficiency or irregular watering | Maintain even soil moisture; add crushed limestone or wood ash to soil |
+| Cracked fruit | Irregular watering (dry then wet cycles) | Mulch heavily; water consistently; harvest ripe fruit promptly |
+| Leaf curl / wilt | Fusarium or Verticillium wilt, or aphids | Rotate with non-Solanaceae crops on 3-4 year cycle; remove infected plants; check for aphids on undersides of leaves |
+| Hornworm damage (defoliation) | Tobacco hornworm caterpillars | Hand-pick caterpillars; encourage parasitic wasps by planting nearby flowers |
+| Blight (dark spreading leaf spots) | Early or late blight fungus | Improve air circulation by wider spacing; remove affected leaves; avoid wetting foliage when watering |
+| Low yield | Excess nitrogen, insufficient sun, overcrowding | Reduce nitrogen fertilizer; ensure 6-8 hours sun; thin to recommended spacing |
+| Seeds not germinating after extraction | Gel sac not fully removed by fermentation | Extend fermentation to 3-4 days; wash more thoroughly |
 
 ## Safety Considerations
 
-Working with *Solanum lycopersicum var. cerasiforme* involves the following hazards:
-
-- Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
-- Allergic reactions to plant compounds — sensitive individuals should test small quantities first
-- Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon
-- Musculoskeletal strain from repetitive harvesting motions — vary tasks and take regular breaks
+- All green parts of the tomato plant (leaves, stems, unripe fruit) contain tomatine, a glycoalkaloid that is toxic if consumed in large quantities. Only fully ripe (red) fruit should be eaten fresh. Green fruit is edible when cooked, which partially degrades tomatine.
+- There are approximately 1,400 *Solanum* species, many of which are toxic. Ensure correct identification before consumption. Wild tomato can be confused with deadly nightshade (*Atropa belladonna*) by the inexperienced — confirm identification by the distinctive tomato odor of crushed leaves.
+- Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body.
+- Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon.
 
 ### Personal Protective Equipment
 
-- Sturdy gloves when handling plants with irritant sap, spines, or rough surfaces
+- Sturdy gloves when handling plants or working soil
 - Long sleeves and trousers for field work to reduce skin exposure to irritants and insects
-- Eye protection when using cutting tools overhead or near face level
-- Sun hat and sunscreen for extended field work
-
-### Emergency Procedures
-
-- For suspected plant poisoning: stop eating immediately, save a sample of the plant material, and seek medical attention. Do not induce vomiting unless directed by a medical professional.
-- For tool lacerations: apply direct pressure with a clean cloth, elevate the wound, and seek medical attention for cuts deeper than skin level.
-- For allergic reaction (swelling, difficulty breathing): discontinue exposure immediately and seek emergency medical help.
+- Sun hat for extended field work
 
 ## Quality Control
 
@@ -198,10 +201,6 @@ Working with *Solanum lycopersicum var. cerasiforme* involves the following haza
 For field-scale production, inspect every 10th plant during harvest for disease and pest damage. Grade each batch by size and quality before storage. Record yield per unit area to track productivity trends across seasons and identify declining performance early.
 
 ## Variations and Alternatives
-
-### Notes
-
-There are about 1400 Solanum species.
 
 ### Related Species
 
@@ -227,15 +226,7 @@ Tomatoes should not follow other Solanaceae crops (potato, pepper, eggplant) in 
 
 ### Note on Wild vs. Cultivated Tomato
 
-The ZIM database contains *Solanum lycopersicum* var. *cerasiforme* (wild tomato/cherry tomato ancestor), not the modern cultivated tomato. Wild tomatoes produce smaller fruit but are more disease-resistant and adaptable to marginal conditions. They can serve as rootstock for grafting cultivated varieties or as a genetic reservoir for breeding programs. Cultivated tomatoes (*S. lycopersicum*) are derived from this wild ancestor through millennia of selection.
-
-### Seed Saving
-
-Tomato seeds are extracted by fermenting the seed pulp for 2-3 days, which removes the gel coating that inhibits germination. After fermentation, wash seeds thoroughly in water, drain, and dry on a non-stick surface (glass, ceramic) for 7-10 days. Store dried seeds in paper envelopes in a cool, dry location. Tomato seeds remain viable for 4-6 years under good storage conditions. Select seed from the best plants — earliest fruiting, highest yield, best disease resistance — to gradually improve the local population.
-
-### Harvesting
-
-Harvest fruits when fully colored but still firm. Pick regularly to encourage continued production — overripe fruit left on the plant signals the plant to stop setting new fruit. In warm climates, indeterminate varieties produce continuously for 3-6 months. Determinate varieties produce a concentrated harvest over 2-3 weeks, which is preferable for processing and storage. Handle ripe fruit gently to prevent bruising, which accelerates spoilage.
+The wild tomato (*Solanum pimpinellifolium* / *S. lycopersicum var. cerasiforme*) is the ancestor of all cultivated tomatoes. It produces smaller fruit but is more disease-resistant and adaptable to marginal conditions. Wild tomatoes can serve as rootstock for grafting cultivated varieties or as a genetic reservoir for breeding programs. Cultivated tomatoes (*S. lycopersicum*) are derived from this wild ancestor through millennia of selection.
 
 ## References
 
@@ -245,11 +236,9 @@ Harvest fruits when fully colored but still firm. Pick regularly to encourage co
 - [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Solanaceae
-- Distribution: Antigua &amp; Barbuda, Angola, Barbados, Burkina Faso, Burundi, Benin, Bahamas, Botswana, Congo (DRC), Central African Republic, Congo (Republic), Cote d'Ivoire, Cameroon, Cuba, Cape Verde, Djibouti, Dominica, Dominican Republic, Algeria, Egypt and 48 more
-- Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
+- Distribution: Pantropical and warm temperate regions worldwide
+- Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
-
-Wild tomato (*Solanum pimpinellifolium*) is the ancestor of all cultivated tomatoes. It produces small (1-2 cm) red fruits with intense flavor and higher disease resistance than modern cultivars. The plant self-seeds readily and tolerates heat, drought, and salinity better than domesticated varieties. For seed saving, ferment the pulp for 2-3 days to remove the germination-inhibiting gel, then wash and dry seeds.
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

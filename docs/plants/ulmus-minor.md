@@ -182,9 +182,54 @@ timber properties for wheel-making and water-resistant construction.
 
 Elm wood has a distinctive interlocked grain that produces an attractive, swirling figure on quartersawn surfaces. While this interlocked grain makes the wood difficult to split and hard to machine, it gives elm a toughness that few other timbers can match. In addition to wheel hubs, elm was the traditional choice for chair seats (Windsor chairs), chopping blocks, mallet heads, and any application requiring resistance to splitting under repeated impact.
 
-### Field Elm Summary
+### Propagation and Seed Treatment
 
-*Content to be added: timber yield data, growth rates, rotation cycles, wood properties.*
+Elm is one of the easiest timber trees to propagate from seed, provided fresh seed is collected and sown promptly. The tree also regenerates freely from root suckers, which is an alternative propagation method.
+
+**Seed collection:**
+
+1. Collect samaras (winged seeds) in late spring (May-June in the Northern Hemisphere) as they turn from green to pale brown and begin to separate from the tree. Seeds at the base of the crown ripen first.
+2. Samaras are 15-25 mm long with the seed in the center. Collect by spreading tarps under the tree and shaking branches, or hand-pick from lower branches.
+3. Extract seeds by rubbing samaras through a coarse screen to separate the seed from the wing. Alternatively, sow whole samaras — the wing does not inhibit germination.
+4. Fresh seed viability: 70-90%. Seed viability declines rapidly in storage — sow within 1-2 weeks of collection for best results.
+
+**Seed treatment and sowing:**
+
+1. **Fresh seed (recommended)**: Sow immediately after collection. No stratification or pre-treatment needed. Fresh elm seed germinates readily within 7-14 days at 15-20°C.
+2. **Stored seed**: If sowing is delayed, cold-stratify at 2-5°C in moist sand for 60-90 days before spring sowing. Stored seed germination: 40-60%.
+3. **Sowing depth**: Sow on the surface or cover with 2-3 mm of fine soil. Do not bury deeply — elm seeds need light for optimal germination.
+4. **Nursery beds**: Sow in rows 20-25 cm apart, spacing seeds 3-5 cm within rows. Use well-drained, fertile soil. Water gently to avoid washing seeds away.
+5. **Germination**: 7-14 days for fresh seed at 15-20°C. Germination rate: 70-90% (fresh seed).
+
+**Nursery practice:**
+
+- Seedlings grow rapidly: 30-60 cm in the first year, 60-120 cm in the second year.
+- Transplant to field at 1-2 years of age, during dormancy (late autumn to early spring).
+- Plant at 5-8 m spacing for timber production. Closer spacing (3-4 m) for the first 10 years forces upright growth and self-pruning, then thin to final spacing.
+- Seedlings are tolerant of a wide range of soils including heavy clay, but avoid waterlogged sites.
+- Protect young trees from rabbit and deer browsing with individual tree guards or fencing.
+
+**Vegetative propagation (root suckers):**
+
+- Elm readily produces root suckers, especially from disturbed roots. This is an advantage for regeneration after felling.
+- Transplant suckers with a portion of the parent root in late autumn or early spring. Sucker-derived trees develop the same timber characteristics as seed-grown trees.
+- For disease-resistant cultivar propagation, use root cuttings or grafting.
+
+**Yield timelines:**
+
+- Growth rate: 0.5-1.0 m/year height in youth, slowing after age 20-30.
+- Diameter growth: 0.5-1.0 cm/year under favorable conditions.
+- First thinning: age 10-15 years (small poles).
+- Timber rotation: 40-60 years for trees 40-60 cm diameter.
+- Timber yield: 80-150 m³/ha over a 50-year rotation in mixed woodland.
+- Individual tree yield: 1-3 m³ of sawn timber from a 50-year-old tree with 40+ cm trunk diameter.
+
+**Dutch elm disease management:**
+
+- Plant resistant cultivars (e.g., 'Resista' elms, *Ulmus* hybrids with Asian species) where available.
+- In mixed woodland, keep elm to 10-20% of total stocking to reduce disease transmission.
+- Avoid pruning during the elm bark beetle active season (April-July) to prevent attracting beetles to fresh wounds.
+- Remove and destroy infected trees promptly to slow disease spread.
 
 ---
 *Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*

@@ -62,6 +62,8 @@ Capabilities in this domain:
 
 - [SEM Tech Water Electrolysis](sem-tech-water-electrolysis.md) — PEM water electrolysis for green hydrogen
 
+- [Thermochemical Water Splitting](thermochemical-water-splitting.md) — Non-electrolytic hydrogen production via S-I thermochemical cycles, metal oxide redox cycles, and photocatalytic methods.
+
 - [Ammonia & Fertilizer Production](ammonia.md) — Haber-Bosch synthesis (N₂ + 3H₂ → 2NH₃), Ostwald nitric acid, fertilizer production (ammonium nitrate, urea, superphosphate).
 
 - [Soap & Detergent Production](soap.md) — Saponification of fats with NaOH/KOH, glycerol recovery, synthetic detergents.

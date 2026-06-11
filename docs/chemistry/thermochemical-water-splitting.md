@@ -1,22 +1,20 @@
-# Water Electrolysis (H₂/O₂)
+# Thermochemical Water Splitting
 
-> **Node ID**: chemistry.electrolysis.water-splitting
+> **Node ID**: chemistry.thermochemical-water-splitting
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Fuel Cell`](../energy/fuel-cell.md)
 > **Enables**: Various downstream capabilities
 > **Timeline**: Years 20-35
-> **Outputs**: electrolytic_hydrogen, electrolytic_oxygen
+> **Outputs**: hydrogen, oxygen
 > **Critical**: No
 
 ## Overview
 
-Electrolytic splitting of water into hydrogen and oxygen gases. Alkaline electrolysis (KOH electrolyte, 70-90°C) or PEM electrolysis (solid polymer membrane). Produces ultra-pure hydrogen for ammonia synthesis, semiconductor processing, and fuel cells. Efficiency 60-80%, requires DC electricity at 1.8-2.2V per cell.
+Non-electrolytic water splitting: thermochemical cycles and photocatalytic methods that decompose water using heat or light rather than electricity. Where electrolysis converts electricity to hydrogen, thermochemical cycles convert heat directly, avoiding the Carnot efficiency loss of the electricity generation step. Photocatalytic splitting converts sunlight directly to hydrogen without any intermediate energy conversion.
 
-This article covers non-electrolytic water splitting: thermochemical cycles and photocatalytic methods that decompose water using heat or light rather than electricity. Where electrolysis converts electricity to hydrogen, thermochemical cycles convert heat directly, avoiding the Carnot efficiency loss of the electricity generation step. Photocatalytic splitting converts sunlight directly to hydrogen without any intermediate energy conversion.
+The fundamental constraint is the same regardless of method: breaking the O-H bond in water requires a minimum energy input equal to the Gibbs free energy of water formation (237 kJ/mol at 25°C). Thermochemical cycles supply this energy as heat cycled through a series of reactions. Photocatalysis supplies it as absorbed photons. The energy accounting is inescapable; no method can produce hydrogen with less energy than this thermodynamic minimum.
 
-The fundamental constraint is the same regardless of method: breaking the O-H bond in water requires a minimum energy input equal to the Gibbs free energy of water formation (237 kJ/mol at 25°C). Electrolysis supplies this as electricity. Thermochemical cycles supply it as heat cycled through a series of reactions. Photocatalysis supplies it as absorbed photons. The energy accounting is inescapable; no method can produce hydrogen with less energy than this thermodynamic minimum.
-
-Primary outputs: `electrolytic_hydrogen`, `electrolytic_oxygen`. Thermochemical cycles also produce hydrogen and oxygen, but through chemical intermediates (sulfuric acid, iodine, metal oxides) rather than direct electrical splitting.
+Primary outputs: `hydrogen`, `oxygen`. Thermochemical cycles produce hydrogen and oxygen through chemical intermediates (sulfuric acid, iodine, metal oxides) rather than direct electrical splitting.
 
 ## Prerequisites
 
@@ -128,8 +126,8 @@ The following describes a bench-scale S-I cycle demonstration, the most practica
 
 ### Acceptance Criteria
 
-- **Electrolytic Hydrogen**: Purity >99.9% for ammonia synthesis, >99.99% for semiconductor use. CO below 1 ppm (for fuel cell applications). Moisture below 10 ppm after drying.
-- **Electrolytic Oxygen**: Purity >99.5%. Hydrogen content below 2%.
+- **Hydrogen**: Purity >99.9% for ammonia synthesis. SO₂ below 1 ppm, HI below 1 ppm (contamination from cycle intermediates). Moisture below 10 ppm after drying.
+- **Oxygen**: Purity >99.5%. Hydrogen content below 2%.
 
 ### Testing Methods
 

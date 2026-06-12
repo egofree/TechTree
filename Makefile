@@ -11,8 +11,10 @@ help: ## Show this help message
 
 all: validate diagrams build validate-site ## Run full pipeline: validate → diagrams → build → validate-site
 
-validate: ## Validate data integrity (19 checks)
-	python3 scripts/validate.py
+validate: ## Validate data integrity (24 checks + broken link scan)
+	@python3 scripts/validate.py; RET=$$?; \
+	python3 scripts/scan-broken-links.py || true; \
+	exit $$RET
 
 diagrams: ## Generate Mermaid diagrams from data
 	python3 scripts/generate-diagrams.py --format mermaid

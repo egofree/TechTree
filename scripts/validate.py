@@ -579,6 +579,303 @@ class Validator:
         except Exception as exc:
             return [f"Conformance test error: {exc}"]
 
+    # ---- Quality Audit ----
+
+    def check_entity_doc_sync(self):
+        """Check bidirectional sync between entities and docs for
+        capability/process level."""
+        errors = []
+        missing_docs = 0
+        missing_entities = 0
+
+        # Build set of doc files: (domain, name_without_ext) -> path
+        doc_files = {}
+        if DOCS_DIR.exists():
+            for domain_dir in sorted(DOCS_DIR.iterdir()):
+                if not domain_dir.is_dir():
+                    continue
+                if domain_dir.name in ("supporting", "glossary", "spec"):
+                    continue
+                for md_file in sorted(domain_dir.glob("*.md")):
+                    if md_file.name == "index.md":
+                        continue
+                    name = md_file.stem
+                    doc_files[(domain_dir.name, name)] = md_file
+
+        # Check each non-domain entity has a corresponding doc
+        for eid, entity in sorted(self.entities.items()):
+            level = entity.get("level", "")
+            if level == "domain":
+                continue
+            parts = eid.split(".", 1)
+            if len(parts) < 2:
+                continue
+            domain = parts[0]
+            name = parts[1]
+            if (domain, name) not in doc_files:
+                errors.append(f"entity without doc: {eid}")
+                missing_docs += 1
+
+        # Check each doc has a corresponding entity
+        for (domain, name), md_path in sorted(doc_files.items()):
+            eid = f"{domain}.{name}"
+            if eid not in self.entities:
+                errors.append(f"doc without entity: docs/{domain}/{name}.md")
+                missing_entities += 1
+
+        if self.verbose:
+            print(
+                f"       (missing docs: {missing_docs}, "
+                f"missing entities: {missing_entities})",
+                file=sys.stderr,
+            )
+
+        return errors
+
+    def check_edge_completeness(self):
+        """Check for orphan entities, leaf entities, and unused outputs."""
+        errors = []
+
+        # Build adjacency
+        has_outgoing = set()  # entities that appear as edge 'from'
+        has_incoming = set()  # entities that appear as edge 'to'
+        for edge in self.edges:
+            fid = edge.get("from")
+            tid = edge.get("to")
+            if fid:
+                has_outgoing.add(fid)
+            if tid:
+                has_incoming.add(tid)
+
+        # Orphan detection: no incoming AND no outgoing
+        orphans = []
+        for eid in sorted(self.entities):
+            if eid == "foundations":
+                continue
+            if eid not in has_outgoing and eid not in has_incoming:
+                orphans.append(eid)
+        if orphans:
+            for eid in orphans:
+                errors.append(f"orphan entity (no edges): {eid}")
+            if self.verbose:
+                print(f"       ({len(orphans)} orphans)", file=sys.stderr)
+
+        # Leaf detection: has incoming but no outgoing
+        leaves = []
+        for eid in sorted(self.entities):
+            if eid in has_incoming and eid not in has_outgoing:
+                leaves.append(eid)
+        if self.verbose and leaves:
+            print(
+                f"       ({len(leaves)} leaf entities: no outgoing edges)",
+                file=sys.stderr,
+            )
+
+        # Unused outputs: check if output names appear as product sources
+        output_set = set()
+        output_owners = defaultdict(list)
+        for eid, entity in self.entities.items():
+            for out in entity.get("outputs", []):
+                output_set.add(out)
+                output_owners[out].append(eid)
+
+        product_sources = set()
+        for prod in self.products:
+            src = prod.get("source")
+            if src:
+                product_sources.add(src)
+
+        unused = []
+        for out in sorted(output_set):
+            if out not in product_sources:
+                owners = output_owners[out]
+                unused.append(f"unused output: {out} (from {', '.join(owners[:3])})")
+
+        if unused:
+            for u in unused[:20]:
+                errors.append(u)
+            if len(unused) > 20:
+                errors.append(f"... and {len(unused) - 20} more unused outputs")
+            if self.verbose:
+                print(
+                    f"       ({len(unused)} outputs never used as product source)",
+                    file=sys.stderr,
+                )
+
+        return errors
+
+    def check_content_quality(self):
+        """Check description length, placeholders, empty outputs, timeline format."""
+        errors = []
+        placeholder_patterns = re.compile(
+            r"(todo|tbd|fixme|xxx|placeholder|fill\s+in)", re.IGNORECASE
+        )
+        timeline_pattern = re.compile(
+            r"^(Years?\s+\d+(-\d+)?|Era\s+\w+|~?\d{3,4}\s*(BCE?|CE?|AD)?"
+            r"(-\s*~?\d{3,4})?|\d+(-\d+)\s+(years?|months?|days?))",
+            re.IGNORECASE,
+        )
+
+        for eid, entity in sorted(self.entities.items()):
+            # Description length
+            desc = entity.get("description", "")
+            if len(desc) < 20:
+                snippet = desc[:50]
+                errors.append(
+                    f"{eid}: description too short ({len(desc)} chars): {snippet}"
+                )
+
+            # Placeholder detection
+            if desc and placeholder_patterns.search(desc):
+                snippet = desc[:50]
+                errors.append(f"{eid}: placeholder in description: {snippet}")
+
+            # Empty outputs
+            outputs = entity.get("outputs")
+            if outputs is not None and len(outputs) == 0:
+                errors.append(f"{eid}: empty outputs")
+
+            # Timeline format
+            timeline = entity.get("timeline", "")
+            if timeline and not timeline_pattern.match(timeline):
+                errors.append(f"{eid}: unusual timeline format: {timeline}")
+
+        return errors
+
+    def check_blockquote_metadata_consistency(self):
+        """Check docs blockquote Dependencies/Enables match edge data."""
+        errors = []
+        entity_id_re = re.compile(
+            r"`([a-z][a-z0-9-]*(\.[a-z][a-z0-9-]*)+)`"
+        )
+
+        # Build edge adjacency for quick lookup
+        # incoming[eid] = set of entities that have edges pointing TO eid (dependencies)
+        # outgoing[eid] = set of entities that eid has edges pointing TO (enables)
+        incoming = defaultdict(set)  # eid -> set of 'from' values for edges where to==eid
+        outgoing = defaultdict(set)  # eid -> set of 'to' values for edges where from==eid
+        for edge in self.edges:
+            fid = edge.get("from")
+            tid = edge.get("to")
+            if fid and tid:
+                outgoing[fid].add(tid)
+                incoming[tid].add(fid)
+
+        if not DOCS_DIR.exists():
+            return []
+
+        for domain_dir in sorted(DOCS_DIR.iterdir()):
+            if not domain_dir.is_dir():
+                continue
+            if domain_dir.name in ("supporting", "glossary", "spec"):
+                continue
+            for md_file in sorted(domain_dir.glob("*.md")):
+                if md_file.name == "index.md":
+                    continue
+
+                # Derive source entity ID
+                source_eid = f"{domain_dir.name}.{md_file.stem}"
+                if source_eid not in self.entities:
+                    continue
+
+                try:
+                    content = md_file.read_text(encoding="utf-8")
+                except OSError:
+                    continue
+
+                # Extract Dependencies and Enables lines
+                doc_deps = set()
+                doc_enables = set()
+                current_field = None
+                for line in content.splitlines():
+                    stripped = line.strip()
+                    if stripped.startswith("> **"):
+                        m = re.match(
+                            r"^>\s+\*\*([^*]+)\*\*:\s+(.+)$", stripped
+                        )
+                        if m:
+                            field = m.group(1).strip().lower()
+                            if field == "dependencies":
+                                current_field = "deps"
+                            elif field == "enables":
+                                current_field = "enables"
+                            else:
+                                current_field = None
+                            # Extract IDs from this line
+                            value_line = m.group(2)
+                            ids_found = entity_id_re.findall(value_line)
+                            ids = {match[0] for match in ids_found}
+                            if current_field == "deps":
+                                doc_deps.update(ids)
+                            elif current_field == "enables":
+                                doc_enables.update(ids)
+                    elif stripped.startswith("> ") and current_field:
+                        # Continuation line
+                        ids_found = entity_id_re.findall(stripped)
+                        ids = {match[0] for match in ids_found}
+                        if current_field == "deps":
+                            doc_deps.update(ids)
+                        elif current_field == "enables":
+                            doc_enables.update(ids)
+                    else:
+                        current_field = None
+
+                # Compare doc deps vs actual edges
+                actual_deps = incoming.get(source_eid, set())
+                for claimed in sorted(doc_deps):
+                    if claimed not in actual_deps:
+                        errors.append(
+                            f"{source_eid}: doc claims dep on {claimed} "
+                            f"but no edge exists"
+                        )
+
+                # Compare doc enables vs actual edges
+                actual_enables = outgoing.get(source_eid, set())
+                for claimed in sorted(doc_enables):
+                    if claimed not in actual_enables:
+                        errors.append(
+                            f"{source_eid}: doc claims enables {claimed} "
+                            f"but no edge exists"
+                        )
+
+        return errors
+
+    def check_lifecycle_edge_consistency(self):
+        """Check entities with lifecycle tags have corresponding circular
+        economy edges."""
+        errors = []
+        circular_tags = {"recyclable", "waste-source", "closed-loop"}
+        circular_flows = {"byproduct-reuse", "waste-recovery", "recycling-loop"}
+
+        # Build lookup: entities involved in circular economy edges
+        circular_entities = set()
+        for edge in self.edges:
+            flow = edge.get("flow", "")
+            if flow in circular_flows:
+                fid = edge.get("from")
+                tid = edge.get("to")
+                if fid:
+                    circular_entities.add(fid)
+                if tid:
+                    circular_entities.add(tid)
+
+        for eid, entity in sorted(self.entities.items()):
+            tags = entity.get("tags", {})
+            if not isinstance(tags, dict):
+                continue
+            lifecycle = tags.get("lifecycle", [])
+            if not isinstance(lifecycle, list):
+                continue
+            for tag in lifecycle:
+                if tag in circular_tags:
+                    if eid not in circular_entities:
+                        errors.append(
+                            f"{eid}: has lifecycle tag '{tag}' "
+                            f"but no circular economy edges"
+                        )
+
+        return errors
+
     # ---- Main runner ----
 
     def run(self):
@@ -730,6 +1027,31 @@ class Validator:
                 self.check_conformance,
             )
 
+        # ---- Quality Audit (checks 20-24) ----
+        if self.verbose:
+            print()
+            print("--- Quality Audit ---")
+        self.run_check(
+            "Entity-doc sync (capability/process level)",
+            self.check_entity_doc_sync,
+        )
+        self.run_check(
+            "Edge completeness (orphans, unused outputs)",
+            self.check_edge_completeness,
+        )
+        self.run_check(
+            "Content quality (descriptions, placeholders, timeline)",
+            self.check_content_quality,
+        )
+        self.run_check(
+            "Blockquote metadata vs edge data",
+            self.check_blockquote_metadata_consistency,
+        )
+        self.run_check(
+            "Lifecycle tag ↔ circular economy edge consistency",
+            self.check_lifecycle_edge_consistency,
+        )
+
         # ---- Summary ----
         print()
 
@@ -776,6 +1098,13 @@ class Validator:
         print(
             f"Hierarchy:  {n_ent}/{n_ent} valid {'✓' if hier_ok else 'FAIL'}"
         )
+
+        quality_results = [
+            r for r in self.results
+            if any(kw in r.name.lower() for kw in ("sync", "completeness", "quality", "blockquote", "lifecycle"))
+        ]
+        quality_issues = sum(len(r.errors) for r in quality_results)
+        print(f"Quality:    {quality_issues} issues found (informational)")
 
         print()
         if all_pass:

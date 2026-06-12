@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Zinc is the corrosion protection metal. Without galvanizing, steel structures rust and fail \u2014 a bare steel bridge in a marine atmosphere loses 50-100 \u03bcm/year of section thickness and becomes structurally unsafe within 10-20 years. Zinc sacrifices itself electrochemically to protect steel (electrode potential -0.76 V vs. SHE, compared to iron's -0.44 V). A galvanized coating of 85 \u03bcm provides 50-100+ years of service in rural atmospheres. No other common metal offers this combination of low co...",
+  "early_win": false,
+  "id": "metals.zinc",
+  "level": "capability",
+  "name": "Zinc Production",
+  "outputs": [
+    "zinc_metal",
+    "zinc_oxide",
+    "galvanized_steel"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

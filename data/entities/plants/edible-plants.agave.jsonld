@@ -2,7 +2,7 @@
   "@context": "../../context.jsonld",
   "@type": "Process",
   "critical": false,
-  "description": "Agave",
+  "description": "Agave is a succulent plant native to arid regions of the Americas, cultivated for its edible sap, fibers, and as a food source. The plant produces a tall flowering stalk and thick fleshy leaves that can be roasted for food, fermented for beverages, or processed for sisal-like fiber.",
   "early_win": false,
   "id": "plants.edible-plants.agave",
   "level": "process",

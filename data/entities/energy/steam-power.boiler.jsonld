@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Boiler (Steam Generator) - see documentation for details.",
+  "early_win": false,
+  "id": "energy.steam-power.boiler",
+  "level": "process",
+  "name": "Boiler (Steam Generator)",
+  "outputs": [
+    "steam",
+    "hot_water"
+  ],
+  "parent": "energy.steam-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

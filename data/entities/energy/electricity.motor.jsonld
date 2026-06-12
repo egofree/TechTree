@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Electric Motor - see documentation for details.",
+  "early_win": false,
+  "id": "energy.electricity.motor",
+  "level": "process",
+  "name": "Electric Motor",
+  "outputs": [
+    "mechanical_power"
+  ],
+  "parent": "energy.electricity",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

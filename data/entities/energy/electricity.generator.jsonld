@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Generator (Electrical) - see documentation for details.",
+  "early_win": false,
+  "id": "energy.electricity.generator",
+  "level": "process",
+  "name": "Generator (Electrical)",
+  "outputs": [
+    "electrical_power"
+  ],
+  "parent": "energy.electricity",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

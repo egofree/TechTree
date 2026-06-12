@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Steam Engine (Reciprocating) - see documentation for details.",
+  "early_win": false,
+  "id": "energy.steam-power.steam-engine",
+  "level": "process",
+  "name": "Steam Engine (Reciprocating)",
+  "outputs": [
+    "mechanical_power"
+  ],
+  "parent": "energy.steam-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

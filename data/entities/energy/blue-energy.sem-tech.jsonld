@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Salinity-gradient power generation using SEM Tech electrodialysis membranes to harvest energy from mixing fresh and salt water.",
+  "early_win": false,
+  "id": "energy.blue-energy.sem-tech",
+  "level": "process",
+  "name": "SEM Tech Blue Energy: Salinity-Gradient Power Generation",
+  "outputs": [
+    "electrical_power"
+  ],
+  "parent": "energy.blue-energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

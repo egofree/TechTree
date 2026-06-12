@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Semiconductor fabrication equipment demands elastomeric seals, gaskets, O-rings, and liners that withstand aggressive chemicals (HF, H\u2082SO\u2084, HNO\u2083, H\u2083PO\u2084, organic solvents), elevated temperatures, vacuum integrity, and ultra-clean conditions where a single particle or trace contaminant can destroy a wafer. Material selection is critical \u2014 the wrong elastomer in a wet bench can leach metal ions into the process stream, killing device yield. Standard rubber (NR, NBR) degrades rapidly in oxidizing...",
+  "early_win": false,
+  "id": "polymers.rubber.semiconductor-apps",
+  "level": "process",
+  "name": "Elastomers in Semiconductor Equipment",
+  "outputs": [
+    "semiconductor_elastomers",
+    "clean_seals"
+  ],
+  "parent": "polymers.rubber",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

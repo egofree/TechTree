@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Solar Thermal Collector - see documentation for details.",
+  "early_win": false,
+  "id": "energy.solar-thermal.collector",
+  "level": "process",
+  "name": "Solar Thermal Collector",
+  "outputs": [
+    "thermal_energy",
+    "hot_water"
+  ],
+  "parent": "energy.solar-thermal",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

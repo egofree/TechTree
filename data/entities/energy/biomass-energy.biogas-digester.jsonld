@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Biogas Digester - see documentation for details.",
+  "early_win": false,
+  "id": "energy.biomass-energy.biogas-digester",
+  "level": "process",
+  "name": "Biogas Digester",
+  "outputs": [
+    "biogas",
+    "digestate"
+  ],
+  "parent": "energy.biomass-energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

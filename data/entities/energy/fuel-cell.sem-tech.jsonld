@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Fuel cells convert chemical energy directly into electricity through electrochemical reactions, enabled by SEM Tech membrane technology.",
+  "early_win": false,
+  "id": "energy.fuel-cell.sem-tech",
+  "level": "process",
+  "name": "SEM Tech Fuel Cells: Electrochemical Power Generation",
+  "outputs": [
+    "electrical_power"
+  ],
+  "parent": "energy.fuel-cell",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "chemicals",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

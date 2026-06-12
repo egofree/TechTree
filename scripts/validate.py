@@ -671,7 +671,7 @@ class Validator:
                 file=sys.stderr,
             )
 
-        # Unused outputs: check if output names appear as product sources
+        # Unused outputs: check if output names appear as product IDs
         output_set = set()
         output_owners = defaultdict(list)
         for eid, entity in self.entities.items():
@@ -679,15 +679,15 @@ class Validator:
                 output_set.add(out)
                 output_owners[out].append(eid)
 
-        product_sources = set()
+        product_ids = set()
         for prod in self.products:
-            src = prod.get("source")
-            if src:
-                product_sources.add(src)
+            pid = prod.get("@id") or prod.get("id")
+            if pid:
+                product_ids.add(pid)
 
         unused = []
         for out in sorted(output_set):
-            if out not in product_sources:
+            if out not in product_ids:
                 owners = output_owners[out]
                 unused.append(f"unused output: {out} (from {', '.join(owners[:3])})")
 
@@ -698,7 +698,7 @@ class Validator:
                 errors.append(f"... and {len(unused) - 20} more unused outputs")
             if self.verbose:
                 print(
-                    f"       ({len(unused)} outputs never used as product source)",
+                    f"       ({len(unused)} outputs never used as product)",
                     file=sys.stderr,
                 )
 
@@ -846,7 +846,7 @@ class Validator:
         """Check entities with lifecycle tags have corresponding circular
         economy edges."""
         errors = []
-        circular_tags = {"recyclable", "waste-source", "closed-loop"}
+        circular_tags = {"recyclable", "waste-source", "recycled-feedstock", "closed-loop"}
         circular_flows = {"byproduct-reuse", "waste-recovery", "recycling-loop"}
 
         # Build lookup: entities involved in circular economy edges

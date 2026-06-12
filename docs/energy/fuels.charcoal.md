@@ -2,8 +2,11 @@
 
 > **Node ID**: `energy.fuels.charcoal`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`ceramics.pottery.kiln-firing`](../ceramics/pottery.kiln-firing.md), [`chemistry.explosives`](../chemistry/explosives.md), [`chemistry.explosives.black-powder`](../chemistry/explosives.black-powder.md), [`energy.solar-thermal`](../energy/solar-thermal.md)
-> **Enables**: [`energy.fuels`](../energy/fuels.md), [`foundations.fire`](../foundations/fire.md)
+> **Dependencies**: [`energy.fuels`](./fuels.md), [`foundations.fire`](../foundations/fire.md)
+> **Enables**: [`ceramics.pottery.kiln-firing`](../ceramics/pottery.kiln-firing.md),
+> [`chemistry.explosives`](../chemistry/explosives.md),
+> [`chemistry.explosives.black-powder`](../chemistry/explosives.black-powder.md),
+> [`energy.solar-thermal`](./solar-thermal.md)
 > **Outputs**: charcoal, char_cloth
 > **Timeline**: Years 0-10
 > **Critical**: No

@@ -2,7 +2,6 @@
 
 > **Node ID**: machine-tools.gears
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: [`machining`](./machining.md), [`iron-steel`](../metals/iron-steel.md)
 > **Critical**: Yes — gears are essential for every machine tool drive, transmission, and mechanism
 > **Timeline**: Years 3-15
 > **Outputs**: gears, gear_assemblies

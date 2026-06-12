@@ -2,8 +2,7 @@
 
 > **Node ID**: software-bootstrapping.machine-code
 > **Domain**: [Software Bootstrapping](./index.md)
-> **Dependencies**: [`computing.electronic`](../computing/electronic.md), [`computing.data-storage`](../computing/data-storage.md)
-> **Enables**: [`software-bootstrapping.assemblers`](assemblers.md)
+> **Enables**: [`software-bootstrapping.assemblers`](./assemblers.md)
 > **Timeline**: Years 50-60
 > **Outputs**: binary_programs, bootstrap_loaders
 > **Critical**: Yes — all software begins here; without machine code entry, the computer is inert hardware

@@ -2,8 +2,13 @@
 
 > **Node ID**: health.medicine
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`health.sanitation`](sanitation.md), [`knowledge.writing`](../knowledge/writing.md)
-> **Enables**: [`health.pharmacology`](pharmacology.md), [`health.surgery-basics`](surgery-basics.md), [`health.diagnostics`](diagnostics.md)
+> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md),
+> [`health.sanitation`](./sanitation.md),
+> [`knowledge.writing`](../knowledge/writing.md)
+> **Enables**: [`health.emergency-care`](./emergency-care.md),
+> [`health.infectious-disease`](./infectious-disease.md),
+> [`health.pharmacology`](./pharmacology.md),
+> [`health.surgery-basics`](./surgery-basics.md)
 > **Timeline**: Years 5-100+
 > **Outputs**: surgical_capability, medical_treatment
 > **Critical**: Yes — basic medical capability reduces preventable death more than any other single intervention

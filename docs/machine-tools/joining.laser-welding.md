@@ -2,8 +2,8 @@
 
 > **Node ID**: `machine-tools.joining.laser-welding`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`machine-tools.joining`](../machine-tools/joining.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`machine-tools.joining`](./joining.md)
 > **Outputs**: laser_welds
 > **Timeline**: Years 30-60
 > **Critical**: No

@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.internal-combustion
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels`](fuels.md), [`metals`](../metals/iron-steel.md), [`machine-tools.machining`](../machine-tools/machining.md), [`petroleum.refining`](../petroleum/refining.md)
-> **Enables**: [`energy.electricity.power-systems`](electricity.md), [`marine.propulsion`](../marine/propulsion.md), [`transport`](../transport/index.md), [`transport.aviation`](../transport/aviation.md)
+> **Dependencies**: [`energy.fuels`](./fuels.md), `metals`,
+> [`petroleum.refining`](../petroleum/refining.md)
 > **Timeline**: Years 20-40
 > **Outputs**: gasoline_engines, diesel_engines, mechanical_power
 > **Critical**: No — internal combustion engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing

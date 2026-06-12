@@ -2,8 +2,11 @@
 
 > **Node ID**: metals.steelmaking
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.refractories`](../chemistry/refractories.md), [`energy.fuels`](../energy/fuels.md), [`metals.iron-steel`](iron-steel.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md)
-> **Enables**: [`metals.alloys`](alloys.md), [`metals.forming`](forming.md)
+> **Dependencies**: [`chemistry.refractories`](../chemistry/refractories.md),
+> [`energy.fuels`](../energy/fuels.md), [`metals.iron-steel`](./iron-steel.md),
+> [`metals.iron-steel.blast-furnace`](./iron-steel.blast-furnace.md)
+> **Enables**: [`metals.alloys`](./alloys.md), [`metals.forming`](./forming.md),
+> [`metals.metal-recycling`](./metal-recycling.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel billets, slabs, blooms, flat products, long products
 > **Critical**: Yes — steel is the structural material of industrial civilization; no modern manufacturing without it

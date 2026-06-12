@@ -2,8 +2,8 @@
 
 > **Node ID**: `chemistry.explosives.nitrocellulose`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.explosives`](../chemistry/explosives.md), [`chemistry.solvents`](../chemistry/solvents.md)
+> **Dependencies**: [`chemistry.acids`](./acids.md), [`chemistry.explosives`](./explosives.md),
+> [`chemistry.solvents`](./solvents.md)
 > **Outputs**: nitrocellulose, smokeless_powder, pyroxylin
 > **Timeline**: Years 10-20
 > **Critical**: No

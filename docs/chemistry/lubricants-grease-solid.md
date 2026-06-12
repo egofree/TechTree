@@ -3,8 +3,8 @@
 > **Node ID**: chemistry.lubricants-grease-solid
 > **Domain**: [Chemistry](./index.md)
 > **Parent**: [Lubricants, Oils & Fluid Mechanics](lubricants.md)
-> **Dependencies**: [`chemistry.lubricants-natural`](lubricants-natural.md), [`chemistry.alkalis`](alkalis.md)
-> **Enables**: [`machine-tools.machining`](../machine-tools/machining.md)
+> **Dependencies**: [`chemistry.alkalis`](./alkalis.md),
+> [`chemistry.lubricants-natural`](./lubricants-natural.md)
 > **Timeline**: Years 5-20
 > **Outputs**: grease, solid_lubricant, bearing_lubrication
 > **Critical**: No — grease and solid lubricants extend machine life and simplify bearing design but are not prerequisites for core capabilities

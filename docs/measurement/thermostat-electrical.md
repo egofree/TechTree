@@ -2,8 +2,9 @@
 
 > **Node ID**: measurement.thermostat-electrical
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`measurement.temperature-pressure`](./temperature-pressure.md), [`measurement.electrical-instruments`](./electrical-instruments.md), [`electronics.passive-components`](../electronics/passive-components.md)
-> **Enables**: [`measurement.thermostat-electronic`](./thermostat-electronic.md), [`silicon.crystal-growth`](../silicon/cz-pulling.md)
+> **Dependencies**: `electronics`, [`measurement.electrical-instruments`](./electrical-instruments.md),
+> [`measurement.temperature-pressure`](./temperature-pressure.md)
+> **Enables**: [`measurement.thermostat-electronic`](./thermostat-electronic.md)
 > **Critical**: No — thermocouple-based thermostats are self-generating but not the only option
 > **Timeline**: Years 15-40
 > **Outputs**: high_temperature_sensing, self_generating_sensor, precision_resistance_sensing

@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.equines
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
-> **Enables**: [`animals.draft-power`](draft-power.md), [`transport`](../transport/index.md)
+> **Dependencies**: `animals`, [`animals.domestication`](./domestication.md)
+> **Enables**: [`animals.draft-power`](./draft-power.md)
 > **Timeline**: Years 2-30+
 > **Outputs**: draft_power, transport, manure, hides
 > **Critical**: Yes — primary large draft and transport animals for field work, hauling, and riding

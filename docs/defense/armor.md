@@ -2,8 +2,7 @@
 
 > **Node ID**: defense.armor
 > **Domain**: [Defense](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Enables**: `defense`
 > **Timeline**: Years 5-30+
 > **Outputs**: armor, helmets, shields, body_armor, plate_armor
 > **Critical**: No — specialized military capability dependent on metallurgical and textile industrial base

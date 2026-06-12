@@ -2,8 +2,8 @@
 
 > **Node ID**: water.procurement
 > **Domain**: [Water](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md)
-> **Enables**: [`water.distribution`](distribution.md), [`water.basic-treatment`](basic-treatment.md), [`health.sanitation`](../health/sanitation.md)
+> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: `agriculture`, [`health.sanitation`](../health/sanitation.md)
 > **Timeline**: Years 0-5
 > **Outputs**: raw_water, groundwater, rainwater
 > **Critical**: Yes — no water source means no settlement, no agriculture, no industry

@@ -2,7 +2,9 @@
 
 > **Node ID**: economics-organization.accounting
 > **Domain**: [Economics & Organization](./index.md)
-> **Dependencies**: [`mathematics.core-mathematics`](../mathematics/core-mathematics.md), [`knowledge.writing`](../knowledge/writing.md)
+> **Dependencies**: [`economics-organization.division-of-labor`](./division-of-labor.md),
+> [`knowledge.writing`](../knowledge/writing.md),
+> [`mathematics.core-mathematics`](../mathematics/core-mathematics.md)
 > **Enables**: [`economics-organization.supply-chain`](./supply-chain.md)
 > **Timeline**: Years 5-15
 > **Outputs**: financial_records, inventory_ledgers, cost_accounting

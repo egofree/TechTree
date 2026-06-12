@@ -2,8 +2,7 @@
 
 > **Node ID**: construction.structural-engineering
 > **Domain**: [Construction](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`mathematics.core-mathematics`](../mathematics/core-mathematics.md)
-> **Enables**: [`construction.industrial-buildings`](./industrial-buildings.md), [`defense.fortifications`](../defense/fortifications.md)
+> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 10-40
 > **Outputs**: structural_designs, load_calculations, foundation_plans, connection_details
 > **Critical**: Yes — every permanent structure from houses to factories requires structural engineering to avoid collapse

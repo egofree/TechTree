@@ -2,8 +2,8 @@
 
 > **Node ID**: measurement.thermostat-fluid
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`measurement.thermostat-mechanical`](./thermostat-mechanical.md), [`glass.glassblowing`](../glass/glassblowing.md), [`chemistry.distillation`](../chemistry/distillation.md)
-> **Enables**: [`energy.cooling`](../energy/cooling.md), [`energy.hvac`](../energy/cooling.md)
+> **Dependencies**: `chemistry`, `glass`,
+> [`measurement.thermostat-mechanical`](./thermostat-mechanical.md)
 > **Critical**: No — mechanical and electrical thermostats are functional alternatives
 > **Timeline**: Years 10-30
 > **Outputs**: remote_sensing, proportional_control, mercury_switching

@@ -2,8 +2,9 @@
 
 > **Node ID**: electronics.electrical-systems
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`energy.electricity`](../energy/electricity.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md)
-> **Enables**: [`electronics.assembly`](assembly.md), [`electronics.power-electronics`](power-electronics.md)
+> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md),
+> [`energy.electricity`](../energy/electricity.md),
+> [`polymers.thermoplastics`](../polymers/thermoplastics.md)
 > **Timeline**: Years 15-30
 > **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers, motors
 > **Critical**: Yes — electrical systems deliver power from generators to every industrial machine, lighting circuit, and electronic device; without reliable wiring, switchgear, and protection, electrification is impossible

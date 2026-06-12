@@ -2,8 +2,8 @@
 
 > **Node ID**: textiles.rope-making
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`textiles.fibers`](fibers.md), [`textiles.spinning`](spinning.md)
-> **Enables**: [`construction`](../construction/index.md)
+> **Dependencies**: [`textiles.fibers`](./fibers.md), [`textiles.spinning`](./spinning.md)
+> **Enables**: `construction`
 > **Timeline**: Years 0-10
 > **Outputs**: rope, tarred_rope, spliced_rope, lifting_slings
 > **Critical**: No

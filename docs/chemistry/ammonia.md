@@ -2,8 +2,11 @@
 
 > **Node ID**: chemistry.ammonia
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.air-separation`](air-separation.md), [`chemistry.electrolysis`](electrolysis.md), [`energy.electricity`](../energy/electricity.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`health.pharmacology`](../health/pharmacology.md), [`chemistry.explosives`](explosives.md)
+> **Dependencies**: [`chemistry.air-separation`](./air-separation.md),
+> [`chemistry.electrolysis`](./electrolysis.md), `energy`, `metals`
+> **Enables**: [`chemistry.acids`](./acids.md),
+> [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md),
+> [`chemistry.solvay`](./solvay.md)
 > **Timeline**: Years 20-50
 > **Outputs**: ammonia, ammonium_nitrate, urea, nitric_acid
 > **Critical**: Yes — the Haber-Bosch process feeds roughly half the world's population through synthetic fertilizers. Without industrial ammonia, agriculture is limited to natural nitrogen sources. The nitrogen constraint is one of the hardest limits on civilization growth.

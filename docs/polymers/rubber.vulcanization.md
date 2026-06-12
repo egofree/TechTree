@@ -2,8 +2,7 @@
 
 > **Node ID**: polymers.rubber.vulcanization
 > **Domain**: Polymers & Composites
-> **Dependencies**: [`polymers.rubber.natural`](natural.md)
-> **Enables**: [`polymers.rubber`](rubber.md), [`polymers.composites`](composites.md), [`energy.engine`](../energy/engine.md)
+> **Enables**: [`polymers.rubber`](./rubber.md)
 > **Timeline**: Years 5-50
 > **Outputs**: vulcanized_elastomers, cured_seals, molded_rubber_parts
 

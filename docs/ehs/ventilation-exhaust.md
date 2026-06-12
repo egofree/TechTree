@@ -2,8 +2,7 @@
 
 > **Node ID**: ehs.ventilation-exhaust
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`ehs.chemical-safety`](./chemical-safety.md)
 > **Critical**: No — ventilation protects worker health but basic natural ventilation suffices at earlier bootstrap stages
 > **Timeline**: Years 30-70
 > **Outputs**: lev_systems, gas_cabinets, abatement_systems, scrubbers, exhaust_monitoring

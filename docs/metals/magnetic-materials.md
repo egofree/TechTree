@@ -2,8 +2,7 @@
 
 > **Node ID**: metals.magnetic-materials
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.iron-steel`](iron-steel.md), [`metals.steelmaking`](steelmaking.md)
-> **Enables**: [`energy.electric-motor`](../energy/electric-motor.md), [`energy.generator`](../energy/generator.md), [`energy.power-distribution`](../energy/power-distribution.md)
+> **Enables**: [`energy.electricity`](../energy/electricity.md)
 > **Timeline**: Years 15-25
 > **Outputs**: silicon_steel_laminations, grain_oriented_strip, alnico_magnets, ferrite_magnets
 > **Critical**: false — enables electromagnetic devices but is downstream of steel production

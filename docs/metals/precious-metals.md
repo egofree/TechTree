@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.precious-metals
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.non-ferrous`](non-ferrous.md), [`metals.copper`](copper.md), [`chemistry.acids`](../chemistry/acids.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `chemistry`, `electronics`, `metals`, [`metals.non-ferrous`](./non-ferrous.md),
+> `mining`
 > **Timeline**: Years 15-50
 > **Outputs**: gold, silver, semiconductor-grade gold wire, silver paste, refined precious metals
 > **Critical**: true

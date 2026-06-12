@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.camelids
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
-> **Enables**: [`textiles.fibers`](../textiles/fibers.md), [`animals.pest-management`](pest-management.md)
+> **Dependencies**: `animals`
+> **Enables**: [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 2-15+
 > **Outputs**: fiber, packing_transport, guard_services, manure
 > **Critical**: No — valuable for luxury fiber and guard services but not essential for basic food security

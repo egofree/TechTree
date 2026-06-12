@@ -2,8 +2,9 @@
 
 > **Node ID**: energy.gas-turbine
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`metals.refractory-specialty`](../metals/refractory-specialty.md), [`energy.engine`](engine.md), [`energy.steam-power.steam-turbines`](steam-turbines.md)
-> **Enables**: [`transport.aviation`](../transport/aviation.md), combined-cycle power generation
+> **Dependencies**: [`energy.engine`](./engine.md),
+> [`energy.steam-power.steam-turbines`](./steam-power.steam-turbines.md),
+> [`metals.refractory-specialty`](../metals/refractory-specialty.md)
 > **Timeline**: Years 35-50+
 > **Outputs**: gas_turbine_power, jet_propulsion, combined_cycle_generation
 > **Critical**: No — gas turbines enable the highest-efficiency power generation and jet aviation but are not on the critical path to semiconductor manufacturing

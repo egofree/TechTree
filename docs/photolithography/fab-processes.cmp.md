@@ -2,8 +2,10 @@
 
 > **Node ID**: `photolithography.fab-processes.cmp`
 > **Domain**: [Photolithography](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.semiconductor-chemicals`](../chemistry/semiconductor-chemicals.md), [`polymers.thermosets`](../polymers/thermosets.md), [`precision-motion.nanometer-positioning`](../precision-motion/nanometer-positioning.md), [`ultra-pure.upw`](../ultra-pure/upw.md)
+> **Dependencies**: [`chemistry.semiconductor-chemicals`](../chemistry/semiconductor-chemicals.md),
+> [`polymers.thermosets`](../polymers/thermosets.md),
+> [`precision-motion.nanometer-positioning`](../precision-motion/nanometer-positioning.md),
+> [`ultra-pure.upw`](../ultra-pure/upw.md)
 > **Outputs**: planarized_surfaces, tungsten_plugs, copper_damascene
 > **Timeline**: Years 45-70
 > **Critical**: No

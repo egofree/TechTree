@@ -2,8 +2,8 @@
 
 > **Node ID**: agriculture.pest-management
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`agriculture`](./index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`food-processing`](../food-processing/index.md), [`agriculture.crop-rotation`](crop-rotation.md)
+> **Dependencies**: `agriculture`
+> **Enables**: [`agriculture.crop-rotation`](./crop-rotation.md)
 > **Timeline**: Years 0-15+
 > **Outputs**: crop_protection, pest_control_methods, beneficial_habitat
 > **Critical**: No — crop losses to pests are significant (10-40%) but rarely cause total civilization-level failure

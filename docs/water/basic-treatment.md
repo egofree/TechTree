@@ -2,8 +2,7 @@
 
 > **Node ID**: water.basic-treatment
 > **Domain**: [Water](./index.md)
-> **Dependencies**: [`water.procurement`](procurement.md)
-> **Enables**: [`water.sem-tech-water-treatment`](sem-tech-water-treatment.md), [`health.sanitation`](../health/sanitation.md)
+> **Dependencies**: [`chemistry.bleaching`](../chemistry/bleaching.md)
 > **Timeline**: Years 5-25
 > **Outputs**: potable_water, filtered_water
 > **Critical**: Yes — waterborne diseases are among the greatest killers in pre-industrial civilizations; treatment reduces mortality by 50-80%

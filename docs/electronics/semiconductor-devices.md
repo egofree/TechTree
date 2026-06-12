@@ -2,8 +2,9 @@
 
 > **Node ID**: electronics.semiconductor-devices
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`silicon.basic-devices`](../silicon/basic-devices.md), [`chemistry.acids`](../chemistry/acids.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`electronics.passive-components`](passive-components.md)
-> **Enables**: [`electronics.power-electronics`](power-electronics.md), [`computing.electronic`](../computing/electronic.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
+> **Dependencies**: [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Enables**: [`electronics.packaging-testing`](./packaging-testing.md),
+> [`electronics.power-electronics`](./power-electronics.md)
 > **Timeline**: Years 30-55
 > **Outputs**: diodes, transistors, thyristors, voltage_references
 > **Critical**: Yes — diodes and transistors are the fundamental active components enabling all power conversion, signal processing, and digital logic

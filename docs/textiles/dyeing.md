@@ -2,8 +2,8 @@
 
 > **Node ID**: textiles.dyeing
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md)
-> **Enables**: [`plants.dye-plants`](../plants/dye-plants.md), [`textiles.weaving`](weaving.md)
+> **Dependencies**: `chemistry`
+> **Enables**: [`plants.dye-plants`](../plants/dye-plants.md), [`textiles.weaving`](./weaving.md)
 > **Timeline**: Years 5-10
 > **Outputs**: dyed_cloth
 > **Critical**: No

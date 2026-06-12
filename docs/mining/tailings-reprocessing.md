@@ -2,8 +2,8 @@
 
 > **Node ID**: mining.tailings-reprocessing
 > **Domain**: [Mining Engineering](./index.md)
-> **Dependencies**: [`Mining Extraction`](extraction.md), [`Ore Processing`](processing.md), [`Mineral Acids`](../chemistry/acids.md), [`Machine Tools`](../machine-tools/index.md)
-> **Enables**: [`Mining`](./index.md), [`Metals`](../metals/index.md), [`Chemistry`](../chemistry/index.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), `machine-tools`,
+> [`mining.extraction`](./extraction.md), [`mining.processing`](./processing.md)
 > **Timeline**: Years 25-60+
 > **Outputs**: residual_metals, reprocessed_concentrate, backfill_material, construction_sand
 > **Critical**: No — improves resource efficiency but does not unlock new capabilities

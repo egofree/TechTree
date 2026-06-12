@@ -2,8 +2,10 @@
 
 > **Node ID**: `metals.aluminum.semiconductor-grade`
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`metals.aluminum`](../metals/aluminum.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`metals.aluminum`](./aluminum.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md),
+> [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Outputs**: semiconductor_grade_aluminum, sputtering_targets, high_purity_aluminum
 > **Timeline**: Years 40-70
 > **Critical**: No

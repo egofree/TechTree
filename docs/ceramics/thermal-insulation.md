@@ -2,8 +2,8 @@
 
 > **Node ID**: ceramics.thermal-insulation
 > **Domain**: [Ceramics](./index.md)
-> **Dependencies**: [`Energy`](../energy/index.md), [`Cryogenics`](../cryogenics/index.md)
-> **Enables**: [`Basic Glass Production`](../glass/basic.md), [`Ceramics & Refractories`](index.md)
+> **Dependencies**: `ceramics`, [`glass.basic`](../glass/basic.md)
+> **Enables**: `cryogenics`, `energy`
 > **Timeline**: Years 15-30
 > **Outputs**: mineral-wool, ceramic-fiber, foam-insulation
 > **Critical**: No

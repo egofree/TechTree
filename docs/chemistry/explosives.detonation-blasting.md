@@ -2,8 +2,8 @@
 
 > **Node ID**: `chemistry.explosives.detonation-blasting`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.explosives`](../chemistry/explosives.md), [`chemistry.explosives.high-explosives`](../chemistry/explosives.high-explosives.md), [`mining`](../mining/.md)
+> **Dependencies**: [`chemistry.explosives`](./explosives.md),
+> [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md), `mining`
 > **Outputs**: blasting_systems, demolition_services
 > **Timeline**: Years 5-30+
 > **Critical**: No

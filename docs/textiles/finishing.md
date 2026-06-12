@@ -2,8 +2,8 @@
 
 > **Node ID**: textiles.finishing
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
-> **Enables**: [`textiles.dyeing`](dyeing.md), [`polymers.rubber`](../polymers/rubber.md)
+> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), `textiles`,
+> [`textiles.weaving`](./weaving.md)
 > **Timeline**: Years 8-14
 > **Outputs**: finished_cloth, waterproof_fabric, fireproofed_textiles
 > **Critical**: No

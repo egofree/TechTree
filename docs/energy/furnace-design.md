@@ -2,8 +2,7 @@
 
 > **Node ID**: energy.furnace-design
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md) (refractory linings), [`metals.iron-steel`](../metals/iron-steel.md) (furnace structure)
-> **Enables**: [`energy.electric-furnaces`](electric-furnaces.md), [`metals.iron-steel.blast-furnace`](../metals/blast-furnace.md), [`ceramics.kilns`](../ceramics/kilns.md)
+> **Enables**: [`metals.blacksmithing`](../metals/blacksmithing.md)
 > **Timeline**: Years 5-20
 > **Outputs**: furnace_design, thermal_calculations, refractory_selection
 > **Critical**: No — enables optimization of all furnace types but does not block initial construction

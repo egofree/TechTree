@@ -2,8 +2,9 @@
 
 > **Node ID**: measurement.thermostat-electronic
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`measurement.thermostat-electrical`](./thermostat-electrical.md), [`electronics.semiconductor-devices`](../electronics/semiconductor-devices.md), [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md)
-> **Enables**: [`silicon.crystal-growth`](../silicon/cz-pulling.md), [`measurement.thermostat-advanced`](./thermostat-advanced.md)
+> **Dependencies**: `computing`, `electronics`,
+> [`measurement.thermostat-electrical`](./thermostat-electrical.md)
+> **Enables**: [`measurement.thermostat-advanced`](./thermostat-advanced.md)
 > **Critical**: No — analog electronic control is not the only path to precise temperature regulation
 > **Timeline**: Years 30-60
 > **Outputs**: pid_control, proportional_control, digital_temperature_regulation

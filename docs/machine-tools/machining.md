@@ -4,8 +4,19 @@
 > **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Timeline**: Years 10-25
 > **Outputs**: machined_parts
-> **Dependencies**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
-> **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.edm-cnc`](edm-cnc.md), [`machine-tools.joining.friction-stir`](./joining.md), [`mining.drilling`](../mining/drilling.md)
+> **Dependencies**: [`machine-tools.abrasives`](./abrasives.md),
+> [`machine-tools.bearings-abrasives`](./bearings-abrasives.md),
+> [`machine-tools.hydraulic-systems`](./hydraulic-systems.md),
+> [`machine-tools.iterative-bootstrap`](./iterative-bootstrap.md)
+> **Enables**: [`energy.gravity.water-turbines`](../energy/gravity.water-turbines.md),
+> [`energy.steam-power.steam-turbines`](../energy/steam-power.steam-turbines.md),
+> [`energy.stirling-engine`](../energy/stirling-engine.md),
+> [`knowledge.printing`](../knowledge/printing.md),
+> [`machine-tools.edm-cnc`](./edm-cnc.md), [`machine-tools.fasteners`](./fasteners.md),
+> [`machine-tools.joining.friction-stir`](./joining.friction-stir.md),
+> [`machine-tools.joining.riveting`](./joining.riveting.md),
+> [`machine-tools.mass-production`](./mass-production.md),
+> [`mining.drilling`](../mining/drilling.md)
 > **Critical**: Yes — achieves the precise geometry, surface finish, and dimensional tolerance that make interchangeable parts possible
 
 Machining removes material from a workpiece to achieve precise geometry, surface finish, and dimensional tolerance. This document covers the cutting operations themselves — for machine construction, see [Iterative Bootstrap](./iterative-bootstrap.md); for cutting tool materials and abrasives, see [Bearings & Abrasives](./bearings-abrasives.md); for the formed stock that feeds machining, see [Forming](./forming.md).

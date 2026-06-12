@@ -2,8 +2,8 @@
 
 > **Node ID**: ehs.radiation-safety
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: [`ehs.chemical-safety`](chemical-safety.md), [`health.occupational-health`](../health/occupational-health.md), [`chemistry`](../chemistry/index.md)
-> **Enables**: [`measurement`](../measurement/index.md), [`health.diagnostics`](../health/diagnostics.md)
+> **Dependencies**: `chemistry`, [`ehs.chemical-safety`](./chemical-safety.md),
+> [`health.occupational-health`](../health/occupational-health.md)
 > **Timeline**: Years 30-100+
 > **Outputs**: radiation_protection, shielding_design, dosimetry, contamination_control
 > **Critical**: No — radiation safety becomes essential only when X-ray, nuclear, or semiconductor ion implantation equipment is in use

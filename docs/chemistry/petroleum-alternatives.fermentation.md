@@ -2,8 +2,10 @@
 
 > **Node ID**: `chemistry.petroleum-alternatives.fermentation`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.solvents`](../chemistry/solvents.md), [`food-processing.brewing`](../food-processing/brewing.md), [`food-processing.preservation`](../food-processing/preservation.md)
-> **Enables**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md)
+> **Enables**: [`chemistry.solvents`](./solvents.md),
+> [`food-processing.brewing`](../food-processing/brewing.md),
+> [`food-processing.preservation`](../food-processing/preservation.md)
 > **Outputs**: ethanol, acetone, butanol, acetic_acid, methanol
 > **Timeline**: Years 10-30
 > **Critical**: No

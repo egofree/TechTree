@@ -2,8 +2,9 @@
 
 > **Node ID**: animals.cattle
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: [`animals.animal-materials`](animal-materials.md), [`animals.draft-power`](draft-power.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Dependencies**: `animals`, [`animals.domestication`](./domestication.md)
+> **Enables**: [`animals.animal-materials`](./animal-materials.md),
+> [`animals.draft-power`](./draft-power.md)
 > **Timeline**: Years 1-30+
 > **Outputs**: beef, dairy, tallow, leather_hides, manure, draft_power
 > **Critical**: Yes — most productive multi-purpose livestock species

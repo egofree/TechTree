@@ -2,8 +2,7 @@
 
 > **Node ID**: electronics.wire-insulation
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`polymers.rubber`](../polymers/rubber.md), [`electronics.electrical-systems`](electrical-systems.md)
-> **Enables**: [`electronics.electrical-systems`](electrical-systems.md), [`electronics.assembly`](assembly.md)
+> **Enables**: [`energy.electricity`](../energy/electricity.md)
 > **Timeline**: Years 15-25
 > **Outputs**: enamelled_magnet_wire, rubber_insulated_cable, varnish_dipped_windings
 > **Critical**: Yes — magnet wire is the enabling material for all electromagnetic devices (transformers, motors, inductors, relays); without reliable insulation on windings, every wound component short-circuits internally

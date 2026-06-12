@@ -2,8 +2,8 @@
 
 > **Node ID**: water.distribution
 > **Domain**: [Water](./index.md)
-> **Dependencies**: [`water.procurement`](procurement.md), [`foundations`](../foundations/index.md)
-> **Enables**: [`water.sewage`](sewage.md), [`water.basic-treatment`](basic-treatment.md), [`agriculture`](../agriculture/index.md)
+> **Dependencies**: [`metals.pipe-making`](../metals/pipe-making.md)
+> **Enables**: [`agriculture.irrigation`](../agriculture/irrigation.md)
 > **Timeline**: Years 5-25
 > **Outputs**: water_distribution, irrigation, pressurized_water
 > **Critical**: Yes — without distribution, water procurement and treatment serve only those at the source

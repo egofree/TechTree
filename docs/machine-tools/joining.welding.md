@@ -2,8 +2,8 @@
 
 > **Node ID**: `machine-tools.joining.welding`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
 > **Outputs**: forge_welds, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals
 > **Timeline**: Years 5-70
 > **Critical**: No

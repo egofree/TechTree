@@ -2,8 +2,8 @@
 
 > **Node ID**: electronics.power-electronics
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.passive-components`](passive-components.md), [`electronics.electrical-systems`](electrical-systems.md), [`energy.electricity`](../energy/electricity.md)
-> **Enables**: [`energy.photovoltaics`](../energy/index.md), [`automation`](../automation/index.md), [`machine-tools.cnc`](../machine-tools/edm-cnc.md)
+> **Dependencies**: [`electronics.semiconductor-devices`](./semiconductor-devices.md)
+> **Enables**: [`energy.photovoltaics`](../energy/photovoltaics.md)
 > **Timeline**: Years 35-60
 > **Outputs**: rectifiers, inverters, converters, motor_drives, ups_systems
 > **Critical**: Yes — power electronics enables efficient energy conversion, motor control, and solar/grid integration without which industrial electrification is impossible

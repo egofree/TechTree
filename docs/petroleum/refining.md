@@ -2,8 +2,13 @@
 
 > **Node ID**: petroleum.refining
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), [`petroleum`](./index.md), [`petroleum.extraction`](extraction.md)
-> **Enables**: [`energy.engine`](../energy/engine.md), [`petroleum.petrochemicals`](petrochemicals.md), [`cracking`](refining.md), [`distillation units`](refining.md)
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), `petroleum`,
+> [`petroleum.extraction`](./extraction.md)
+> **Enables**: [`energy.engine`](../energy/engine.md),
+> [`energy.internal-combustion`](../energy/internal-combustion.md),
+> [`petroleum.petrochemicals`](./petrochemicals.md),
+> [`petroleum.refining.cracking`](./refining.cracking.md),
+> [`petroleum.refining.distillation`](./refining.distillation.md)
 > **Timeline**: Years 15-40
 > **Outputs**: gasoline, kerosene, diesel, fuel_oil, lubricating_base_oil, asphalt, lpg, refinery_gas
 > **Critical**: No — refining produces optimal fuels and chemical feedstocks but biomass and coal-derived alternatives exist

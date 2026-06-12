@@ -2,8 +2,7 @@
 
 > **Node ID**: `glass.advanced.glassblowing`
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.fuels`](../energy/fuels.md), [`glass.advanced`](../glass/advanced.md)
+> **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`glass.advanced`](./advanced.md)
 > **Outputs**: scientific_glassware, glass_apparatus, glass_to_metal_seals
 > **Timeline**: Years 10-25
 > **Critical**: No

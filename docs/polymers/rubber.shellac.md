@@ -2,8 +2,8 @@
 
 > **Node ID**: `polymers.rubber.shellac`
 > **Domain**: [Polymers](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.distillation`](../chemistry/distillation.md), [`polymers.rubber`](../polymers/rubber.md)
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md),
+> [`polymers.rubber`](./rubber.md)
 > **Outputs**: shellac, shellac_varnish, phonograph_records
 > **Timeline**: Years 10-25
 > **Critical**: No

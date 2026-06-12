@@ -2,8 +2,8 @@
 
 > **Node ID**: knowledge.surveying
 > **Domain**: [Knowledge](./index.md)
-> **Dependencies**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md), [`Construction & Structural Engineering`](../construction/index.md)
-> **Enables**: [`Mathematics & Formal Sciences`](../mathematics/index.md), [`Measurement & Instrumentation`](../measurement/index.md)
+> **Dependencies**: `mathematics`, `measurement`
+> **Enables**: `construction`, `mining`
 > **Timeline**: Years 5-15
 > **Outputs**: maps, survey-data, topographic-surveys
 > **Critical**: No

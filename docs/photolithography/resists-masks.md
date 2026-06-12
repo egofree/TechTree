@@ -2,7 +2,10 @@
 
 > **Node ID**: photolithography.resists-masks
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Dependencies**: [`chemistry.basic`](../chemistry/index.md), [`glass.basic`](../glass/basic.md), [`polymers.thermosets`](../polymers/thermosets.md)
+> **Dependencies**: `chemistry`,
+> [`chemistry.photographic-chemistry`](../chemistry/photographic-chemistry.md),
+> [`glass.basic`](../glass/basic.md),
+> [`polymers.thermosets`](../polymers/thermosets.md)
 > **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 40-70
 > **Outputs**: photoresists, masks, lithography_tools, patterned_wafers

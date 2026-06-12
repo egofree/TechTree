@@ -2,8 +2,9 @@
 
 > **Node ID**: `polymers.rubber.gutta-percha`
 > **Domain**: [Polymers](./index.md)
-> **Dependencies**: [`marine.infrastructure`](../marine/infrastructure.md), [`telecom`](../telecom/.md), [`telecom.submarine-cables`](../telecom/submarine-cables.md)
-> **Enables**: [`polymers.rubber`](../polymers/rubber.md)
+> **Dependencies**: [`polymers.rubber`](./rubber.md)
+> **Enables**: [`marine.infrastructure`](../marine/infrastructure.md), `telecom`,
+> [`telecom.submarine-cables`](../telecom/submarine-cables.md)
 > **Outputs**: gutta_percha, underwater_insulation, dental_fillings
 > **Timeline**: Years 15-30
 > **Critical**: No

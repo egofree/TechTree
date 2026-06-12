@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.semiconductor-chemicals
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.dopant-etch-gases`](dopant-etch-gases.md)
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md),
+> [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 40-70
 > **Outputs**: photoresist, tmah_developer, boe_etchant, cmp_slurry, cleanroom_chemicals
 > **Critical**: Yes — semiconductor process chemicals (photoresist, etchants, CMP slurries, cleaning solutions) are consumed in every step of integrated circuit fabrication. Without ultra-pure chemicals at ppb trace metal levels, semiconductor manufacturing yields collapse to zero.

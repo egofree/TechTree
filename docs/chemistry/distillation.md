@@ -2,8 +2,14 @@
 
 > **Node ID**: chemistry.distillation
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: [`chemistry.solvents`](solvents.md), [`health.pharmacology`](../health/pharmacology.md), [`petroleum.refining`](../petroleum/refining.md), [`polymers.shellac`](../polymers/shellac.md), [`silicon.purification`](../silicon/purification.md)
+> **Enables**: [`chemistry.chemical-recovery`](./chemical-recovery.md),
+> [`chemistry.solvents`](./solvents.md),
+> [`health.pharmaceutical-production`](../health/pharmaceutical-production.md),
+> [`health.pharmacology`](../health/pharmacology.md),
+> [`petroleum.refining`](../petroleum/refining.md),
+> [`polymers.rubber.natural`](../polymers/rubber.natural.md),
+> [`polymers.rubber.shellac`](../polymers/rubber.shellac.md),
+> [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 20-35
 > **Outputs**: distillation_capability, fractionated_chemicals
 > **Critical**: Yes — distillation is the most important separation technique in the chemical industry, accounting for 40-60% of capital cost in a typical chemical plant. Petroleum refining, solvent purification, silicon chlorosilane separation, and alcohol concentration all depend on distillation. No chemical industry operates without it.

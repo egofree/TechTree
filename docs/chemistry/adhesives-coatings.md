@@ -2,8 +2,7 @@
 
 > **Node ID**: `chemistry.adhesives-coatings`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.coatings`](coatings.md)
-> **Enables**: [`metals.finishing`](../metals/finishing.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md)
+> **Enables**: `construction`
 > **Timeline**: Stone-Age through Semiconductor
 > **Outputs**: adhesives, coatings, anodized_aluminum, galvanized_steel
 > **Critical**: No — adhesives and coatings enhance product durability but do not enable new capabilities until semiconductor packaging

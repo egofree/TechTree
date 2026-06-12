@@ -2,8 +2,6 @@
 
 > **Node ID**: polymers.rubber.semiconductor-apps
 > **Domain**: [Polymers & Composites](./index.md)
-> **Dependencies**: [`polymers.rubber`](rubber.md), [`polymers.synthetic`](synthetic.md), [`polymers.rubber.vulcanization`](rubber.vulcanization.md), [`chemistry.acids`](../chemistry/acids.md)
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
 > **Timeline**: Years 40-200+
 > **Outputs**: semiconductor_seals, chemical_resistant_linings, cleanroom_elastomers
 > **Critical**: No — essential for semiconductor manufacturing but not required for basic civilization infrastructure

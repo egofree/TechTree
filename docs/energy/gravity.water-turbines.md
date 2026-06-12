@@ -2,8 +2,9 @@
 
 > **Node ID**: `energy.gravity.water-turbines`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.gravity`](../energy/gravity.md), [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`energy.gravity`](./gravity.md),
+> [`machine-tools.machining`](../machine-tools/machining.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
 > **Outputs**: water_turbine_power, hydro_generators
 > **Timeline**: Years 20-40
 > **Critical**: No

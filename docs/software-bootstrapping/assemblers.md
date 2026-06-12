@@ -2,8 +2,8 @@
 
 > **Node ID**: software-bootstrapping.assemblers
 > **Domain**: [Software Bootstrapping](./index.md)
-> **Dependencies**: [`software-bootstrapping.machine-code`](machine-code.md), [`computing.data-storage`](../computing/data-storage.md)
-> **Enables**: [`software-bootstrapping.compilers`](compilers.md), [`software-bootstrapping.operating-systems`](operating-systems.md)
+> **Dependencies**: [`software-bootstrapping.machine-code`](./machine-code.md)
+> **Enables**: [`software-bootstrapping.compilers`](./compilers.md)
 > **Timeline**: Years 50-60
 > **Outputs**: assembly_language, object_files, executable_programs
 > **Critical**: Yes — assemblers are the first software tool built for any new architecture, enabling all subsequent software development

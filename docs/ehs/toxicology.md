@@ -2,8 +2,8 @@
 
 > **Node ID**: ehs.toxicology
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: [`ehs.chemical-safety`](chemical-safety.md), [`health.pharmacology`](../health/pharmacology.md), [`chemistry`](../chemistry/index.md)
-> **Enables**: [`health.occupational-health`](../health/occupational-health.md), [`ehs.emergency-response`](emergency-response.md)
+> **Dependencies**: `chemistry`, [`ehs.chemical-safety`](./chemical-safety.md),
+> [`health.pharmacology`](../health/pharmacology.md)
 > **Timeline**: Years 20-100+
 > **Outputs**: toxic_substance_databases, exposure_limits, antidote_protocols, material_safety_data
 > **Critical**: No — enhances safety but chemical handling can proceed at basic level without formal toxicology

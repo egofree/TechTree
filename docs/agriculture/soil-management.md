@@ -2,8 +2,11 @@
 
 > **Node ID**: agriculture.soil-management
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`agriculture`](./index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`agriculture.soil-management.vermiculture`](soil-management-vermiculture.md), [`agriculture.crop-rotation`](crop-rotation.md), [`agriculture.pest-management`](pest-management.md)
+> **Dependencies**: `animals`
+> **Enables**: [`agriculture.crop-rotation`](./crop-rotation.md),
+> [`agriculture.selective-breeding`](./selective-breeding.md),
+> [`agriculture.soil-management.vermiculture`](./soil-management.vermiculture.md),
+> [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: compost, humus, biochar, amended_soil, mulch, green_manure
 > **Critical**: Yes — depleted soils collapse within 3-5 years of continuous cropping; soil management is the foundation of agricultural permanence

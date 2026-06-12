@@ -2,8 +2,23 @@
 
 > **Node ID**: chemistry.electrolysis
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`energy.electricity`](../energy/electricity.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`chemistry.ammonia`](ammonia.md), [`chemistry.dopant-etch-gases`](dopant-etch-gases.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), [`electrochemistry.anodizing`](../electrochemistry/anodizing.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md), [`metals.aluminum`](../metals/aluminum.md), [`metals.finishing`](../metals/finishing.md)
+> **Dependencies**: [`chemistry.electrodialysis`](./electrodialysis.md),
+> [`chemistry.electrolysis.chlor-alkali`](./electrolysis.chlor-alkali.md),
+> [`chemistry.electrolysis.sem-tech`](./electrolysis.sem-tech.md),
+> [`chemistry.lithium-separation`](./lithium-separation.md),
+> [`chemistry.water-electrolysis`](./water-electrolysis.md),
+> [`energy.fuel-cell`](../energy/fuel-cell.md),
+> [`energy.redox-flow-battery`](../energy/redox-flow-battery.md),
+> [`mining.salt`](../mining/salt.md)
+> **Enables**: [`chemistry.acids`](./acids.md), [`chemistry.ammonia`](./ammonia.md),
+> [`chemistry.bleaching`](./bleaching.md),
+> [`chemistry.dopant-etch-gases`](./dopant-etch-gases.md),
+> [`chemistry.hydrogen-silane`](./hydrogen-silane.md),
+> [`chemistry.pulp-chemicals`](./pulp-chemicals.md), `electrochemistry`,
+> [`electronics.electrical-systems`](../electronics/electrical-systems.md),
+> [`metals.aluminum`](../metals/aluminum.md),
+> [`metals.copper-refining`](../metals/copper-refining.md),
+> [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 20-30
 > **Outputs**: electrolysis, chlorine, hydrogen, oxygen, aluminum, caustic_soda, pure_copper
 > **Critical**: Yes — the chlor-alkali process produces chlorine, hydrogen, and NaOH simultaneously, which are required for HCl synthesis, PVC production, semiconductor-grade hydrogen, and aluminum smelting. Electrolysis is one of the most electricity-intensive industrial processes and a prerequisite for the chemical industry.

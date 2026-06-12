@@ -2,8 +2,8 @@
 
 > **Node ID**: `machine-tools.joining.riveting`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: None
-> **Enables**: [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`machine-tools.machining`](./machining.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
 > **Outputs**: riveted_joints
 > **Timeline**: Years 10-30
 > **Critical**: No

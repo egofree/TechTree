@@ -2,8 +2,9 @@
 
 > **Node ID**: mathematics.formal-systems
 > **Domain**: [Mathematics & Formal Sciences](./index.md)
-> **Dependencies**: [`mathematics.core-mathematics`](core-mathematics.md)
-> **Enables**: [`computing.digital-logic`](../computing/digital-logic.md)
+> **Dependencies**: [`mathematics.core-mathematics`](./core-mathematics.md)
+> **Enables**: [`computing.digital-logic`](../computing/digital-logic.md),
+> [`computing.logic-design`](../computing/logic-design.md)
 > **Timeline**: Years 25-70
 > **Outputs**: boolean_algebra, information_theory, formal_languages, automata_theory
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering

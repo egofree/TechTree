@@ -2,8 +2,10 @@
 
 > **Node ID**: chemistry.solvents
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.distillation`](distillation.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.fermentation`](fermentation.md)
-> **Enables**: [`health.pharmacology`](../health/pharmacology.md), [`chemistry.chemical-recovery`](chemical-recovery.md)
+> **Dependencies**: [`chemistry.distillation`](./distillation.md),
+> [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md),
+> [`chemistry.petroleum-alternatives.fermentation`](./petroleum-alternatives.fermentation.md)
+> **Enables**: [`chemistry.explosives.nitrocellulose`](./explosives.nitrocellulose.md), `health`
 > **Timeline**: Years 15-40
 > **Outputs**: ethanol, methanol, ether, turpentine, hydrogen_peroxide
 > **Critical**: No — solvents are used in nearly all chemical processes but are produced from multiple alternative routes

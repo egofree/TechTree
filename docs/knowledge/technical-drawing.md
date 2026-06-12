@@ -2,8 +2,8 @@
 
 > **Node ID**: knowledge.technical-drawing
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`knowledge.writing`](writing.md), [`knowledge.printing`](printing.md), [`measurement`](../measurement/index.md)
-> **Enables**: [`knowledge.standards-bodies`](standards-bodies.md)
+> **Dependencies**: [`knowledge.writing`](./writing.md)
+> **Enables**: [`knowledge.standards-bodies`](./standards-bodies.md)
 > **Timeline**: Years 5-50+
 > **Outputs**: engineering_drawings, blueprints, assembly_diagrams
 > **Critical**: Yes — without standardized drawing conventions, no two workshops can exchange manufacturing specifications

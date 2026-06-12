@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.solar-thermal
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels.charcoal`](charcoal.md), [`ceramics.pottery`](../ceramics/pottery.md), [`metals.copper`](../metals/copper.md)
-> **Enables**: [`energy.steam-power`](steam-power.md), [`energy.electricity`](electricity.md)
+> **Dependencies**: [`energy.fuels.charcoal`](./fuels.charcoal.md)
+> **Enables**: `construction`
 > **Timeline**: Years 5-30
 > **Outputs**: solar_heat, solar_steam, concentrated_solar_power, solar_furnace_heat
 > **Critical**: No — supplemental energy source that reduces fuel consumption and enables high-temperature processes without electricity

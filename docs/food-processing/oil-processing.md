@@ -2,8 +2,8 @@
 
 > **Node ID**: food-processing.oil-processing
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`ceramics`](../ceramics/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`chemistry.soap`](../chemistry/soap.md), [`food-processing.preservation`](preservation.md)
+> **Dependencies**: `ceramics`, [`foundations.food-agriculture`](../foundations/food-agriculture.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 0-20
 > **Outputs**: vegetable_oil, tallow, lard, olive_oil, linseed_oil, soap_stock, oilseed_meal, rendered_fat
 > **Critical**: No — oil processing enhances food quality and enables soap, but basic nutrition and hygiene have alternatives

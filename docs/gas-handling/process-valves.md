@@ -2,8 +2,7 @@
 
 > **Node ID**: gas-handling.process-valves
 > **Domain**: [Gas Handling](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.machining`](../machine-tools/machining.md)
-> **Enables**: [`gas-handling.basic`](basic.md), [`gas-handling.piping-systems`](piping-systems.md), [`energy.steam-power`](../energy/steam-power.md)
+> **Enables**: `gas-handling`
 > **Timeline**: Years 15-35
 > **Outputs**: process_valves, control_valves, check_valves, actuated_valves
 > **Critical**: Yes — chemical plants, steam systems, and gas processing cannot operate safely without valves rated for the service conditions

@@ -2,8 +2,10 @@
 
 > **Node ID**: vacuum.deposition-systems
 > **Domain**: [Vacuum Technology](./index.md)
-> **Dependencies**: [`vacuum.pumps`](./pumps.md), [`vacuum.chambers`](./chambers.md), `gas-handling`, `precision-motion`
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md), [`optics.inspection.optical-coatings`](../optics/optical-coatings.md)
+> **Dependencies**: `gas-handling`, `precision-motion`, [`vacuum.chambers`](./chambers.md),
+> [`vacuum.pumps`](./pumps.md)
+> **Enables**: [`photolithography.fab-processes.cvd`](../photolithography/fab-processes.cvd.md),
+> [`photolithography.fab-processes.pvd`](../photolithography/fab-processes.pvd.md)
 > **Critical**: Yes — vacuum deposition systems (sputtering, evaporation, CVD) are required for all semiconductor thin-film fabrication; no alternative to vacuum-based deposition exists
 > **Timeline**: Years 25-40
 > **Outputs**: sputter_deposition, cvd_films, evaporated_films, load_lock_systems, pump_down_procedures

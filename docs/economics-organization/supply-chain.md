@@ -2,8 +2,11 @@
 
 > **Node ID**: economics-organization.supply-chain
 > **Domain**: [Economics & Organization](./index.md)
-> **Dependencies**: [`transport`](../transport/index.md), [`knowledge.writing`](../knowledge/writing.md), [`economics-organization.accounting`](./accounting.md), [`economics-organization.trade`](./trade.md)
-> **Enables**: [`defense.siege-warfare`](../defense/siege-warfare.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
+> **Dependencies**: [`economics-organization.accounting`](./accounting.md),
+> [`economics-organization.trade`](./trade.md),
+> [`knowledge.writing`](../knowledge/writing.md), `transport`
+> **Enables**: [`defense.siege-warfare`](../defense/siege-warfare.md),
+> [`photolithography.fab-processes`](../photolithography/fab-processes.md)
 > **Timeline**: Years 10-25
 > **Outputs**: procurement_planning, inventory_management, logistics_coordination
 > **Critical**: Yes — semiconductor manufacturing is impossible without supply chain coordination involving hundreds of specialist inputs

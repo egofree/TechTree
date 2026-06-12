@@ -2,8 +2,11 @@
 
 > **Node ID**: economics-organization.division-of-labor
 > **Domain**: [Economics & Organization](./index.md)
-> **Dependencies**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`knowledge.writing`](../knowledge/writing.md)
-> **Enables**: [`construction.industrial-buildings`](../construction/industrial-buildings.md), [`economics-organization.trade`](./trade.md), [`economics-organization.accounting`](./accounting.md), [`economics-organization.governance`](./governance.md)
+> **Dependencies**: [`foundations.food-agriculture`](../foundations/food-agriculture.md),
+> [`knowledge.writing`](../knowledge/writing.md)
+> **Enables**: [`construction.industrial-buildings`](../construction/industrial-buildings.md),
+> [`economics-organization.accounting`](./accounting.md),
+> [`economics-organization.governance`](./governance.md)
 > **Timeline**: Years 0-5
 > **Outputs**: specialist_labor, task_allocation, work_scheduling
 > **Critical**: Yes — every downstream capability from metals to semiconductors implicitly requires specialist workers; generalist production cannot achieve the precision and scale needed

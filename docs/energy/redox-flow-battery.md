@@ -2,8 +2,9 @@
 
 > **Node ID**: energy.redox-flow-battery
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.electricity`](electricity.md), [`energy.storage`](storage.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `chemistry`
+> **Enables**: [`chemistry.electrolysis`](../chemistry/electrolysis.md),
+> [`energy.storage`](./storage.md)
 > **Timeline**: Years 25-40
 > **Outputs**: stored_electrical_energy
 > **Critical**: No — SEM Tech redox flow battery application remains at TRL 5; conventional lead-acid batteries can provide grid storage

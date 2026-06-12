@@ -2,8 +2,11 @@
 
 > **Node ID**: plants.edible-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: [`health`](../health/index.md), [`plants`](./index.md)
-> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`plants.edible-plants.agave`](./edible-plants.md), [`plants.edible-plants.allium-ampeloprasum`](./edible-plants.md), [`plants.edible-plants.artemisia-absinthium`](./edible-plants.md), [`plants.edible-plants.balanites-aegyptiaca`](./edible-plants.md), [`plants.edible-plants.bitter-orange`](./edible-plants.md)
+> **Dependencies**: `health`, `plants`
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md),
+> `plants.edible-plants.agave`, `plants.edible-plants.allium-ampeloprasum`,
+> `plants.edible-plants.artemisia-absinthium`,
+> `plants.edible-plants.balanites-aegyptiaca`, `plants.edible-plants.bitter-orange`
 > **Timeline**: Years 0-10
 > **Outputs**: edible_plants, food_crops, vegetables, fruits, seeds
 > **Critical**: Yes — edible plants are the caloric foundation of all human civilization

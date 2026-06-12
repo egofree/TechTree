@@ -2,8 +2,7 @@
 
 > **Node ID**: chemistry.lithium-separation
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Electrolysis`](electrolysis.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: [`chemistry.electrolysis`](./electrolysis.md)
 > **Timeline**: Years 30-50
 > **Outputs**: lithium_compounds
 > **Critical**: No

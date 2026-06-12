@@ -3,7 +3,7 @@
 > **Node ID**: vacuum.measurement
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `measurement`
-> **Enables**: None (leaf capability)
+> **Enables**: [`vacuum.leak-detection`](./leak-detection.md)
 > **Critical**: No — vacuum measurement enables process control but rough vacuum processes can operate with simple indicators
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_measurement, leak_detection, rga_analysis, pressure_gauges

@@ -2,8 +2,8 @@
 
 > **Node ID**: `petroleum.refining.cracking`
 > **Domain**: [Petroleum](./index.md)
-> **Dependencies**: None
-> **Enables**: [`petroleum.refining`](../petroleum/refining.md), [`petroleum.refining.distillation`](../petroleum/refining.distillation.md)
+> **Dependencies**: [`petroleum.refining`](./refining.md),
+> [`petroleum.refining.distillation`](./refining.distillation.md)
 > **Outputs**: gasoline, diesel, jet_fuel, propylene_from_fcc, btx_aromatics, refinery_hydrogen
 > **Timeline**: Years 25-40
 > **Critical**: No

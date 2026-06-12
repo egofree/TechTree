@@ -2,8 +2,9 @@
 
 > **Node ID**: software-bootstrapping.compilers
 > **Domain**: [Software Bootstrapping](./index.md)
-> **Dependencies**: [`software-bootstrapping.assemblers`](assemblers.md), [`knowledge`](../knowledge/index.md)
-> **Enables**: [`software-bootstrapping.operating-systems`](operating-systems.md), [`software-bootstrapping.dev-tools`](dev-tools.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
+> **Dependencies**: [`software-bootstrapping.assemblers`](./assemblers.md)
+> **Enables**: [`software-bootstrapping.dev-tools`](./dev-tools.md),
+> [`software-bootstrapping.self-hosting`](./self-hosting.md)
 > **Timeline**: Years 55-70
 > **Outputs**: compiled_programs, high_level_languages
 > **Critical**: Yes — compilers enable programming at human-readable abstraction levels, a 5-10× productivity multiplier over assembly language

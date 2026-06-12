@@ -2,8 +2,10 @@
 
 > **Node ID**: petroleum.extraction
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: [`petroleum`](./index.md)
-> **Enables**: [`cable-tool drilling`](cable-tool.md), [`rotary drilling`](rotary.md), [`petroleum.refining`](refining.md)
+> **Dependencies**: `petroleum`
+> **Enables**: [`petroleum.extraction.cable-tool`](./extraction.cable-tool.md),
+> [`petroleum.extraction.rotary`](./extraction.rotary.md),
+> [`petroleum.refining`](./refining.md)
 > **Timeline**: Years 10-35
 > **Outputs**: crude_oil, natural_gas_liquids, associated_gas
 > **Critical**: No — petroleum provides the highest-value feedstock but coal tar and fermentation alternatives exist for some products

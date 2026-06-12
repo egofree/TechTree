@@ -2,8 +2,7 @@
 
 > **Node ID**: polymers.seals-gaskets
 > **Domain**: [Polymers & Composites](./index.md)
-> **Dependencies**: [`polymers.rubber`](./rubber.md) (elastomer feedstock), [`machine-tools.machining`](../machine-tools/machining.md) (precision molds)
-> **Enables**: [`energy.storage`](../energy/storage.md) (pressure vessel seals), [`gas-handling.basic`](../gas-handling/basic.md) (pipe flange gaskets), [`water`](../water/index.md) (pump shaft seals)
+> **Enables**: `gas-handling`
 > **Timeline**: Years 10-30
 > **Outputs**: o-rings, gaskets, compression-packing, lip-seals
 > **Critical**: No — seals are essential for fluid systems but multiple fabrication routes exist

@@ -2,8 +2,11 @@
 
 > **Node ID**: chemistry.soap
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`metals.non-ferrous`](../metals/non-ferrous.md)
-> **Enables**: [`health.occupational-health`](../health/occupational-health.md)
+> **Dependencies**: [`chemistry.alkalis`](./alkalis.md),
+> [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md),
+> [`chemistry.potash`](./potash.md), [`metals.non-ferrous`](../metals/non-ferrous.md)
+> **Enables**: [`chemistry.explosives.nitroglycerin-dynamite`](./explosives.nitroglycerin-dynamite.md),
+> `health`
 > **Timeline**: Years 5-30
 > **Outputs**: soap, glycerol, detergent
 > **Critical**: No — soap and detergents improve sanitation but are not prerequisites for core industrial capabilities

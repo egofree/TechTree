@@ -2,8 +2,7 @@
 
 > **Node ID**: defense.siege-warfare
 > **Domain**: [Defense](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`economics-organization.supply-chain`](../economics-organization/supply-chain.md)
 > **Critical**: No — siege warfare is a specialized military capability dependent on metallurgical and chemical industrial base
 > **Timeline**: Years 5-50+
 > **Outputs**: siege_engines, cannons, military_logistics, artillery, field_fortifications

@@ -2,8 +2,8 @@
 
 > **Node ID**: health.occupational-health
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`health.medicine`](medicine.md)
-> **Enables**: [`health.medicine`](medicine.md), [`mining.processing`](../mining/processing.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), `health`
+> **Enables**: [`ehs.radiation-safety`](../ehs/radiation-safety.md)
 > **Timeline**: Years 10-25
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
 > **Critical**: No — reduces chronic illness and disability but production can proceed at higher human cost without formal occupational health programs

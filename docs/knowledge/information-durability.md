@@ -2,8 +2,9 @@
 
 > **Node ID**: knowledge.information-durability
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`knowledge.writing`](writing.md), [`knowledge.printing`](printing.md), [`knowledge.libraries`](libraries.md), [`knowledge.standards-bodies`](standards-bodies.md)
-> **Enables**: [`computing.data-storage`](../computing/data-storage.md), [`software-bootstrapping`](../software-bootstrapping/index.md)
+> **Dependencies**: [`knowledge.libraries`](./libraries.md),
+> [`knowledge.standards-bodies`](./standards-bodies.md)
+> **Enables**: `software-bootstrapping`
 > **Timeline**: Years 0-200+
 > **Outputs**: archival_media, migration_protocols, preservation_standards
 > **Critical**: Yes — the bootstrapping effort spans 50-200+ years; without durable information preservation, critical knowledge is lost between generations

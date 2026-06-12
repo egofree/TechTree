@@ -2,8 +2,8 @@
 
 > **Node ID**: `energy.electric-furnaces.electrode-manufacturing`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md),
+> [`energy.electric-furnaces`](./electric-furnaces.md)
 > **Outputs**: graphite_electrodes, amorphous_carbon_electrodes
 > **Timeline**: Years 30-50
 > **Critical**: No

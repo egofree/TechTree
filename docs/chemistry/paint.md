@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.paint
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Metal Finishing & Surface Treatment`](../metals/finishing.md), [`Construction & Structural Engineering`](../construction/index.md)
-> **Enables**: [`Paints, Coatings & Inks`](coatings.md)
+> **Dependencies**: [`chemistry.coatings`](./coatings.md)
+> **Enables**: `construction`, [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 15-25
 > **Outputs**: tio2-pigments, alkyd-paints, zinc-oxide-coatings
 > **Critical**: No

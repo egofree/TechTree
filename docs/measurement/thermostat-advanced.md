@@ -2,8 +2,8 @@
 
 > **Node ID**: measurement.thermostat-advanced
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`measurement.thermostat-electronic`](./thermostat-electronic.md), [`silicon.basic-devices`](../silicon/basic-devices.md), [`optics.inspection`](../optics/inspection.md)
-> **Enables**: Semiconductor process monitoring, calibration-grade temperature measurement
+> **Dependencies**: [`measurement.thermostat-electronic`](./thermostat-electronic.md), `optics`,
+> `silicon`
 > **Critical**: No — these are refinements for specialized applications
 > **Timeline**: Years 40-60+
 > **Outputs**: non_contact_temperature_sensing, calibration_grade_measurement, shape_memory_actuation

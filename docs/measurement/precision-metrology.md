@@ -2,8 +2,14 @@
 
 > **Node ID**: measurement.precision-metrology
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`metals.casting`](../metals/casting.md), [`metals`](../metals/index.md), [`optics.precision-instruments`](../optics/precision-instruments.md)
-> **Enables**: [`quality-control.inspection-sampling`](../quality-control/inspection-sampling.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
+> **Dependencies**: `foundations`, `metals`,
+> [`optics.precision-instruments`](../optics/precision-instruments.md)
+> **Enables**: [`economics-organization.currency`](../economics-organization/currency.md),
+> [`machine-tools.mass-production`](../machine-tools/mass-production.md),
+> [`precision-motion.nanometer-positioning`](../precision-motion/nanometer-positioning.md),
+> [`precision-motion.precision-encoders`](../precision-motion/precision-encoders.md),
+> [`quality-control.inspection-sampling`](../quality-control/inspection-sampling.md),
+> [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 0-40+
 > **Outputs**: length_standards, mass_standards, timekeeping, precision_instruments, calibration_chain, electrical_standards
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments

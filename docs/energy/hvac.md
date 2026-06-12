@@ -2,8 +2,10 @@
 
 > **Node ID**: energy.hvac
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Clean Room Technology`](../photolithography/cleanrooms.md), [`Industrial Buildings & Heavy Foundations`](../construction/industrial-buildings.md)
-> **Enables**: [`Energy`](index.md), [`Temperature & Pressure Measurement`](../measurement/temperature-pressure.md)
+> **Dependencies**: `energy`,
+> [`measurement.temperature-pressure`](../measurement/temperature-pressure.md)
+> **Enables**: `cleanrooms`,
+> [`construction.industrial-buildings`](../construction/industrial-buildings.md)
 > **Timeline**: Years 15-30
 > **Outputs**: hvac-systems, industrial-ventilation, climate-control-units
 > **Critical**: No

@@ -2,8 +2,7 @@
 
 > **Node ID**: ehs.emergency-response
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`ehs.chemical-safety`](./chemical-safety.md)
 > **Critical**: No — emergency response protects workers and communities but does not enable new technological capabilities
 > **Timeline**: Years 30-70
 > **Outputs**: emergency_procedures, spill_response, evacuation_plans, first_aid_protocols, emergency_equipment

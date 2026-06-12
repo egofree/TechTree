@@ -2,8 +2,15 @@
 
 > **Node ID**: polymers.thermosets
 > **Domain**: [Polymers](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools`](../machine-tools/index.md)
-> **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md), [`electronics.assembly`](../electronics/assembly.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md), [`polymers.composites`](composites.md)
+> **Dependencies**: `chemistry`,
+> [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md),
+> `machine-tools`
+> **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md),
+> [`electronics.assembly`](../electronics/assembly.md),
+> [`electronics.packaging-testing`](../electronics/packaging-testing.md),
+> [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md),
+> [`photolithography.resists-masks`](../photolithography/resists-masks.md),
+> [`polymers.composites`](./composites.md)
 > **Timeline**: Years 10-50
 > **Outputs**: phenolic_resins, epoxy_resins, polyester_resins, polyurethane_foam, FR4_laminate
 > **Critical**: No — thermosets are valuable but alternatives (thermoplastics, ceramics, metals) exist for most applications

@@ -2,8 +2,8 @@
 
 > **Node ID**: software-bootstrapping.compilers.self-hosting
 > **Domain**: [Software Bootstrapping](./index.md)
-> **Dependencies**: [`software-bootstrapping.compilers`](compilers.md)
-> **Enables**: Self-sustaining software toolchain — the compiler no longer depends on any other language for its own construction
+> **Dependencies**: [`software-bootstrapping.compilers`](./compilers.md)
+> **Enables**: [`software-bootstrapping.dev-tools`](./dev-tools.md)
 > **Timeline**: Years 55-70
 > **Outputs**: self_hosting_compiler
 > **Critical**: Yes — the moment a compiler compiles itself is the moment the software chain becomes self-sustaining; no further assembly or machine code is needed to produce new versions of the compiler

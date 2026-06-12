@@ -2,8 +2,8 @@
 
 > **Node ID**: polymers.composites
 > **Domain**: [Polymers & Composites](./index.md)
-> **Dependencies**: [`glass.fibers`](../glass/fibers.md), [`machine-tools`](../machine-tools/index.md), [`polymers.thermosets`](thermosets.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`glass.fibers`](../glass/fibers.md), `machine-tools`,
+> [`polymers.thermosets`](./thermosets.md)
 > **Timeline**: Years 15-50
 > **Outputs**: fiberglass_composites, carbon_fiber_composites, composite_laminates
 > **Critical**: No — composites provide high strength-to-weight but metals and wood serve most structural needs

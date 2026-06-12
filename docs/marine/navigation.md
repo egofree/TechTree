@@ -2,8 +2,8 @@
 
 > **Node ID**: marine.navigation
 > **Domain**: [Marine & Naval Engineering](./index.md)
-> **Dependencies**: [`knowledge.writing`](../knowledge/writing.md), [`metals`](../metals/index.md)
-> **Enables**: [`marine.infrastructure`](infrastructure.md), [`transport.shipping`](../transport/shipping.md)
+> **Dependencies**: [`knowledge.writing`](../knowledge/writing.md),
+> [`measurement.horology`](../measurement/horology.md), `metals`
 > **Timeline**: Years 0-50+
 > **Outputs**: navigation instruments, nautical charts, position fixing
 > **Critical**: No — specialized maritime capability, not required for land-based civilization

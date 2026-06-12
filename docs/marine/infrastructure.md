@@ -2,8 +2,8 @@
 
 > **Node ID**: marine.infrastructure
 > **Domain**: [Marine & Naval Engineering](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md), [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md),
+> [`polymers.rubber.gutta-percha`](../polymers/rubber.gutta-percha.md)
 > **Timeline**: Years 5-50+
 > **Outputs**: harbor works, dry docks, submarine cables, lighthouses, corrosion protection
 > **Critical**: No — specialized maritime capability, not required for land-based civilization

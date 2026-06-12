@@ -2,8 +2,33 @@
 
 > **Node ID**: metals.iron-steel
 > **Domain**: [Metallurgy](./index.md)
-> **Dependencies**: [`metals.copper`](copper.md), [`metals.bronze`](bronze.md)
-> **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md), [`energy.cooling`](../energy/cooling.md), [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power`](../energy/steam-power.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`metals.casting`](./casting.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.joining`](../machine-tools/joining.md), [`marine.infrastructure`](../marine/infrastructure.md), [`marine.propulsion`](../marine/propulsion.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](alloys.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`metals.steelmaking`](steelmaking.md), [`transport.railways`](../transport/railways.md), [`transport.telegraph`](../transport/telegraph.md)
+> **Dependencies**: [`metals.bronze`](./bronze.md),
+> [`textiles.spinning-frame.mule`](../textiles/spinning-frame.mule.md),
+> [`textiles.spinning-frame.ring`](../textiles/spinning-frame.ring.md),
+> [`textiles.spinning-frame.water`](../textiles/spinning-frame.water.md)
+> **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md),
+> [`energy.cooling`](../energy/cooling.md),
+> [`energy.geothermal`](../energy/geothermal.md),
+> [`energy.gravity.water-turbines`](../energy/gravity.water-turbines.md),
+> [`energy.steam-power`](../energy/steam-power.md),
+> [`energy.steam-power.steam-turbines`](../energy/steam-power.steam-turbines.md),
+> [`food-processing.oil-processing`](../food-processing/oil-processing.md),
+> [`gas-handling.cylinder-filling`](../gas-handling/cylinder-filling.md),
+> [`knowledge.printing`](../knowledge/printing.md),
+> [`machine-tools.fasteners`](../machine-tools/fasteners.md),
+> [`machine-tools.forming`](../machine-tools/forming.md),
+> [`machine-tools.joining`](../machine-tools/joining.md),
+> [`machine-tools.joining.riveting`](../machine-tools/joining.riveting.md),
+> [`machine-tools.joining.welding`](../machine-tools/joining.welding.md),
+> [`marine.infrastructure`](../marine/infrastructure.md),
+> [`marine.propulsion`](../marine/propulsion.md),
+> [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](./alloys.md),
+> [`metals.blacksmithing`](./blacksmithing.md),
+> [`metals.iron-steel.blast-furnace`](./iron-steel.blast-furnace.md),
+> [`metals.steelmaking`](./steelmaking.md), [`metals.wire-drawing`](./wire-drawing.md),
+> [`mining.extraction`](../mining/extraction.md),
+> [`transport.railways`](../transport/railways.md),
+> [`transport.telegraph`](../transport/telegraph.md)
 > **Timeline**: Years 5-15
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
 > **Critical**: true

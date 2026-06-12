@@ -2,8 +2,7 @@
 
 > **Node ID**: animals.leather
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.cattle`](cattle.md), [`animals.sheep`](sheep.md), [`animals.goats`](goats.md), [`ceramics.lime`](../ceramics/lime.md)
-> **Enables**: [`machine-tools.machining`](../machine-tools/machining.md), [`knowledge.writing`](../knowledge/writing.md)
+> **Enables**: `textiles`
 > **Timeline**: Years 5-15
 > **Outputs**: leather, rawhide, tanned_hides
 > **Critical**: Yes — leather drive belts, gaskets, and protective gear are essential for pre-industrial machinery

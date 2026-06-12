@@ -2,8 +2,8 @@
 
 > **Node ID**: quality-control.inspection-sampling
 > **Domain**: [Quality Control](./index.md)
-> **Dependencies**: [`measurement.precision-metrology`](../measurement/precision-metrology.md), [`quality-control`](./index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`measurement.precision-metrology`](../measurement/precision-metrology.md),
+> `quality-control`
 > **Timeline**: Years 40-100+
 > **Outputs**: sampling_plans, aql_tables, inspection_procedures, acceptance_criteria, switching_rules
 > **Critical**: No — 100% inspection is a viable (expensive) fallback; sampling plans reduce cost and time but are not strictly necessary

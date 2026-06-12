@@ -2,8 +2,7 @@
 
 > **Node ID**: `agriculture.soil-management.vermiculture`
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: None
-> **Enables**: [`agriculture.soil-management`](../agriculture/soil-management.md)
+> **Dependencies**: [`agriculture.soil-management`](./soil-management.md)
 > **Outputs**: vermicompost, worm_castings, worm_tea
 > **Timeline**: Years 0-20+
 > **Critical**: No

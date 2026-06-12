@@ -2,8 +2,8 @@
 
 > **Node ID**: telecom.telephone
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`metals`](../metals/index.md), [`telecom.electric-telegraph`](electric-telegraph.md)
-> **Enables**: [`telecom.radio`](radio.md), [`computing.electromechanical`](../computing/electromechanical.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `metals`,
+> [`telecom.electric-telegraph`](./electric-telegraph.md)
 > **Timeline**: Years 25-50
 > **Outputs**: telephone_service, telephone_exchanges, voice_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival

@@ -2,8 +2,7 @@
 
 > **Node ID**: mining.ventilation
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`mining`](./index.md)
-> **Enables**: [`mining.extraction`](extraction.md), [`mining.drilling`](drilling.md)
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), `mining`
 > **Timeline**: Years 10-18
 > **Outputs**: breathable_air, methane_control, dust_suppression
 > **Critical**: No

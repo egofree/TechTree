@@ -2,8 +2,8 @@
 
 > **Node ID**: transport.roads
 > **Domain**: [Transport](./index.md)
-> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`mining`](../mining/index.md)
-> **Enables**: [`transport.railways`](railways.md), [`transport.shipping`](shipping.md)
+> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md),
+> [`foundations.tools-basic`](../foundations/tools-basic.md), `mining`
 > **Timeline**: Years 5-30
 > **Outputs**: roads, bridges
 > **Critical**: No

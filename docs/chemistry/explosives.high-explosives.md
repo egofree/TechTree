@@ -2,8 +2,10 @@
 
 > **Node ID**: `chemistry.explosives.high-explosives`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.explosives.detonation-blasting`](../chemistry/explosives.detonation-blasting.md)
-> **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.ammonia`](../chemistry/ammonia.md), [`chemistry.explosives`](../chemistry/explosives.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md)
+> **Dependencies**: [`chemistry.acids`](./acids.md), [`chemistry.ammonia`](./ammonia.md),
+> [`chemistry.explosives`](./explosives.md),
+> [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md)
+> **Enables**: [`chemistry.explosives.detonation-blasting`](./explosives.detonation-blasting.md)
 > **Outputs**: tnt, rdx, anfo
 > **Timeline**: Years 20-30+
 > **Critical**: No

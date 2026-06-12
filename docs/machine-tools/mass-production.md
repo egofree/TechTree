@@ -4,7 +4,10 @@
 > **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Timeline**: Years 15-30
 > **Outputs**: interchangeable_parts, standardized_assemblies, production_lines
-> **Dependencies**: [`machine-tools.machining`](machining.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md), [`machine-tools.bearings-abrasives`](bearings-abrasives.md)
+> **Dependencies**: [`machine-tools.bearings-abrasives`](./bearings-abrasives.md),
+> [`machine-tools.fasteners`](./fasteners.md),
+> [`machine-tools.machining`](./machining.md),
+> [`measurement.precision-metrology`](../measurement/precision-metrology.md)
 > **Critical**: Yes — transforms individual craftsmanship into repeatable, scalable manufacturing; without it, every mechanism is a one-off requiring skilled fitting
 
 Mass production manufactures identical parts to controlled tolerance so that any part from a batch fits any assembly without hand-fitting. This capability depends on [Machining](./machining.md) for producing parts to tolerance, [Precision Metrology](../measurement/precision-metrology.md) for verifying conformance with gauges and standards, and [Bearings & Abrasives](./bearings-abrasives.md) for the cutting tools and surface finishes that make interchangeability achievable.

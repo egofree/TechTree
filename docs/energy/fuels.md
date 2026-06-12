@@ -3,7 +3,16 @@
 > **Node ID**: energy.fuels
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`foundations.fire`](../foundations/fire.md)
-> **Enables**: [`energy.engine`](engine.md), [`energy.fuels.charcoal`](charcoal.md), [`energy.fuels.coal`](coal.md), [`energy.fuels.coke`](coke.md), [`glass.advanced.glassblowing`](../glass/advanced-glassblowing.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.alloys`](../metals/alloys.md), [`metals.steelmaking`](../metals/steelmaking.md), [`mining.processing`](../mining/processing.md), `plants`, `transport`
+> **Enables**: [`energy.biomass-energy`](./biomass-energy.md), [`energy.engine`](./engine.md),
+> [`energy.fuels.charcoal`](./fuels.charcoal.md),
+> [`energy.fuels.coal`](./fuels.coal.md), [`energy.fuels.coke`](./fuels.coke.md),
+> [`energy.internal-combustion`](./internal-combustion.md),
+> [`energy.refining`](./refining.md),
+> [`glass.advanced.glassblowing`](../glass/advanced.glassblowing.md),
+> [`machine-tools.forming`](../machine-tools/forming.md),
+> [`metals.alloys`](../metals/alloys.md),
+> [`metals.steelmaking`](../metals/steelmaking.md),
+> [`mining.processing`](../mining/processing.md), `plants`, `transport`
 > **Timeline**: Years 0-25
 > **Outputs**: solid_fuels, liquid_fuels, gaseous_fuels
 > **Critical**: Yes — every industrial process requires fuel matched to its temperature and energy-density requirements; no fuels means no smelting, no steam, no engines

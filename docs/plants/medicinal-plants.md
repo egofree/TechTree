@@ -2,8 +2,11 @@
 
 > **Node ID**: plants.medicinal-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), [`plants`](./index.md)
-> **Enables**: [`plants.medicinal-plants.agrimonia-pilosa`](./medicinal-plants.md), [`plants.medicinal-plants.aloe-officinalis`](./medicinal-plants.md), [`plants.medicinal-plants.artemisia-douglasiana`](./medicinal-plants.md), [`plants.medicinal-plants.artemisia-inculta`](./medicinal-plants.md), [`plants.medicinal-plants.botryodiscia`](./medicinal-plants.md)
+> **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), `plants`
+> **Enables**: `plants.medicinal-plants.agrimonia-pilosa`,
+> `plants.medicinal-plants.aloe-officinalis`,
+> `plants.medicinal-plants.artemisia-douglasiana`,
+> `plants.medicinal-plants.artemisia-inculta`, `plants.medicinal-plants.botryodiscia`
 > **Timeline**: Years 0-10
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
 > **Critical**: Yes — herbal remedies are the earliest and most accessible healthcare technology, directly reducing mortality

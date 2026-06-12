@@ -2,8 +2,12 @@
 
 > **Node ID**: glass.basic
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: [`mining`](../mining/index.md)
-> **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`glass.advanced`](advanced.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md)
+> **Dependencies**: [`chemistry.potash`](../chemistry/potash.md), [`glass.basic`](./basic.md)
+> **Enables**: [`ceramics.thermal-insulation`](../ceramics/thermal-insulation.md),
+> [`chemistry.acids`](../chemistry/acids.md),
+> [`energy.photovoltaics`](../energy/photovoltaics.md),
+> [`glass.advanced`](./advanced.md), [`glass.basic`](./basic.md),
+> [`photolithography.resists-masks`](../photolithography/resists-masks.md)
 > **Timeline**: Years 5-15
 > **Outputs**: basic_glass, potash
 > **Critical**: Yes — glass is the universal container material for chemistry, the basis for optics, windows, and laboratory apparatus

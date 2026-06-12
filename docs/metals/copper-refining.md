@@ -2,8 +2,9 @@
 
 > **Node ID**: metals.copper-refining
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Electronics`](../electronics/index.md), [`Electricity Generation & Distribution`](../energy/electricity.md)
-> **Enables**: [`Electrolysis`](../chemistry/electrolysis.md), [Copper Production](copper.md) and [Bronze Production](bronze.md)
+> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md),
+> [`metals.copper`](./copper.md)
+> **Enables**: `electronics`, [`energy.electricity`](../energy/electricity.md)
 > **Timeline**: Years 15-25
 > **Outputs**: refined-copper, electrolytic-copper, copper-cathodes
 > **Critical**: No

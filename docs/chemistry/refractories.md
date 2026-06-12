@@ -2,8 +2,8 @@
 
 > **Node ID**: `chemistry.refractories`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`mining.processing`](../mining/processing.md)
-> **Enables**: [`glass.basic`](../glass/basic.md), [`metals.steelmaking`](../metals/steelmaking.md), [`chemistry.cement`](cement.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md)
+> **Enables**: `glass`, `metals`, [`metals.steelmaking`](../metals/steelmaking.md)
 > **Timeline**: Years 15-35
 > **Outputs**: firebrick, magnesia_refractory, alumina_refractory, silica_refractory
 > **Critical**: Yes — refractory linings are required for every high-temperature industrial process: blast furnaces, cement kilns, glass tanks, ceramic kilns, and incinerators. Without refractories, industrial metallurgy and ceramics are impossible.

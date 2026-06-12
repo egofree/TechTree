@@ -2,8 +2,7 @@
 
 > **Node ID**: animals.pest-management
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md) (crop protection and stored grain preservation)
+> **Dependencies**: [`animals.domestication`](./domestication.md)
 > **Timeline**: Years 0-10
 > **Outputs**: biological_pest_control, crop_protection, guardian_services, rodent_suppression
 > **Critical**: No — valuable for crop protection but not a foundation node

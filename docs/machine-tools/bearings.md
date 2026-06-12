@@ -2,8 +2,7 @@
 
 > **Node ID**: machine-tools.bearings
 > **Domain**: [Machine Tools Bootstrap](./index.md)
-> **Dependencies**: [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
-> **Enables**: [`machine-tools.machining`](machining.md)
+> **Dependencies**: [`machine-tools.iterative-bootstrap`](./iterative-bootstrap.md)
 > **Timeline**: Years 10-25
 > **Outputs**: bearings, ball_bearings, plain_bearings, babbitt_linings
 > **Critical**: Yes — precision enablers for all machine tool construction

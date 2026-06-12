@@ -2,8 +2,10 @@
 
 > **Node ID**: health.medical-instruments
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`health.medicine`](medicine.md), [`metals.copper`](../metals/copper.md)
-> **Enables**: [`health.surgery-basics`](surgery-basics.md), [`health.diagnostics`](diagnostics.md)
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), `health`,
+> [`metals.bronze`](../metals/bronze.md)
+> **Enables**: [`health.diagnostics`](./diagnostics.md),
+> [`health.surgery-basics`](./surgery-basics.md)
 > **Timeline**: Years 15-30
 > **Outputs**: diagnostic_instruments, surgical_instruments, sterilization_equipment
 > **Critical**: Yes — without reliable medical instruments, diagnosis and surgery depend on improvised tools with higher failure rates

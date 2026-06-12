@@ -2,8 +2,14 @@
 
 > **Node ID**: chemistry.explosives
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`energy.charcoal`](../energy/charcoal.md)
-> **Enables**: [`mining.black-powder`](../mining/black-powder.md), [`metals.finishing`](../metals/finishing.md)
+> **Dependencies**: [`chemistry.alkalis`](./alkalis.md),
+> [`energy.fuels.charcoal`](../energy/fuels.charcoal.md)
+> **Enables**: [`chemistry.explosives.black-powder`](./explosives.black-powder.md),
+> [`chemistry.explosives.detonation-blasting`](./explosives.detonation-blasting.md),
+> [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md),
+> [`chemistry.explosives.nitrocellulose`](./explosives.nitrocellulose.md),
+> [`chemistry.explosives.nitroglycerin-dynamite`](./explosives.nitroglycerin-dynamite.md),
+> `defense`, [`mining.extraction.black-powder`](../mining/extraction.black-powder.md)
 > **Timeline**: Years 5-30+
 > **Outputs**: black_powder, nitrocellulose, dynamite, smokeless_powder
 > **Critical**: No — explosives accelerate mining and construction but are not prerequisites for core capabilities

@@ -2,8 +2,9 @@
 
 > **Node ID**: `photolithography.fab-processes.cvd`
 > **Domain**: [Photolithography](./index.md)
-> **Dependencies**: [`silicon`](../silicon/.md)
-> **Enables**: [`gas-handling.basic`](../gas-handling/basic.md), [`vacuum.deposition-systems`](../vacuum/deposition-systems.md)
+> **Dependencies**: [`gas-handling.basic`](../gas-handling/basic.md),
+> [`vacuum.deposition-systems`](../vacuum/deposition-systems.md)
+> **Enables**: `silicon`
 > **Outputs**: cvd_thin_films, deposited_oxide, deposited_nitride, polysilicon_layers, tungsten_plugs
 > **Timeline**: Years 45-70
 > **Critical**: No

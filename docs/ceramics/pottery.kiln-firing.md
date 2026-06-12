@@ -2,8 +2,7 @@
 
 > **Node ID**: `ceramics.pottery.kiln-firing`
 > **Domain**: [Ceramics](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.fuels.charcoal`](../energy/fuels.charcoal.md)
+> **Dependencies**: [`energy.fuels.charcoal`](../energy/fuels.charcoal.md)
 > **Outputs**: fired_ceramics
 > **Timeline**: Years 0-10
 > **Critical**: No

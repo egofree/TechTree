@@ -2,8 +2,9 @@
 
 > **Node ID**: economics-organization.trade
 > **Domain**: [Economics & Organization](./index.md)
-> **Dependencies**: [`transport`](../transport/index.md), [`knowledge.writing`](../knowledge/writing.md)
-> **Enables**: [`economics-organization.currency`](./currency.md), [`economics-organization.supply-chain`](./supply-chain.md)
+> **Dependencies**: [`knowledge.writing`](../knowledge/writing.md), `transport`
+> **Enables**: [`economics-organization.currency`](./currency.md),
+> [`economics-organization.supply-chain`](./supply-chain.md)
 > **Timeline**: Years 1-5
 > **Outputs**: goods_exchange, market_systems, trade_networks
 > **Critical**: No

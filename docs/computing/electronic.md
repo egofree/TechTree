@@ -2,8 +2,12 @@
 
 > **Node ID**: computing.electronic
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: [`computing.electromechanical`](electromechanical.md), [`electronics.assembly`](../electronics/assembly.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
-> **Enables**: [`computing.digital-logic`](digital-logic.md)
+> **Dependencies**: [`computing.electromechanical`](./electromechanical.md),
+> [`electronics.assembly`](../electronics/assembly.md),
+> [`photolithography.fab-processes`](../photolithography/fab-processes.md),
+> [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Enables**: [`computing.computer-architecture`](./computer-architecture.md),
+> [`computing.digital-logic`](./digital-logic.md)
 > **Timeline**: Years 50-70+
 > **Outputs**: electronic_computers
 > **Critical**: No — computing enhances capability but is not strictly required for survival

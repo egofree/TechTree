@@ -2,8 +2,9 @@
 
 > **Node ID**: `textiles.spinning-frame.mule`
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`textiles.spinning`](../textiles/spinning.md)
-> **Enables**: [`textiles.spinning-frame`](../textiles/spinning-frame.md)
+> **Dependencies**: [`textiles.spinning-frame`](./spinning-frame.md)
+> **Enables**: [`metals.iron-steel`](../metals/iron-steel.md),
+> [`textiles.spinning`](./spinning.md)
 > **Outputs**: fine_yarn, premium_yarn
 > **Timeline**: Years 17-25
 > **Critical**: No

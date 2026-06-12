@@ -2,8 +2,10 @@
 
 > **Node ID**: energy.hydraulics
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
-> **Enables**: [`Primary Metal Forming`](../metals/forming.md), [`Lubricants, Oils & Fluid Mechanics`](../chemistry/lubricants.md)
+> **Dependencies**: [`chemistry.lubricants`](../chemistry/lubricants.md),
+> [`machine-tools.hydraulic-systems`](../machine-tools/hydraulic-systems.md),
+> [`metals.forming`](../metals/forming.md)
+> **Enables**: `mining`
 > **Timeline**: Years 15-30
 > **Outputs**: hydraulic-presses, hydraulic-jacks, hydraulic-actuators
 > **Critical**: No

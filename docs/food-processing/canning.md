@@ -2,8 +2,8 @@
 
 > **Node ID**: food-processing.canning
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`metals.iron-steel`](../metals/iron-steel.md), [`energy`](../energy/index.md), [`health.sanitation`](../health/sanitation.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `food-processing`
+> **Enables**: `defense`
 > **Timeline**: Years 10-30
 > **Outputs**: canned_food, retort_pouched_food, sterilized_food, sealed_containers
 > **Critical**: Yes — canning provides the only reliable multi-year food storage method that preserves complete nutrition without refrigeration, enabling urban workforce concentration and long-distance food logistics

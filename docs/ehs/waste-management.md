@@ -2,8 +2,7 @@
 
 > **Node ID**: ehs.waste-management
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `chemistry`, [`water.sewage`](../water/sewage.md)
 > **Critical**: No — waste management reduces environmental impact but is not a prerequisite for core industrial capabilities
 > **Timeline**: Years 30-70
 > **Outputs**: acid_waste_treatment, solvent_recovery, heavy_metal_precipitation, effluent_monitoring

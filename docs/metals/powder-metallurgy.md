@@ -2,8 +2,10 @@
 
 > **Node ID**: metals.powder-metallurgy
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`metals.alloys`](alloys.md)
-> **Enables**: [`measurement`](../measurement/index.md), [`semiconductors`](../electronics/index.md)
+> **Dependencies**: [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md),
+> [`energy.electric-furnaces`](../energy/electric-furnaces.md),
+> [`metals.alloys`](./alloys.md)
+> **Enables**: `measurement`
 > **Timeline**: Years 30-60
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
 > **Critical**: Yes — tungsten filaments, cemented carbide tooling, and specialty alloys cannot be produced any other way

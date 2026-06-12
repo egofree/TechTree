@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.casting
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.iron-steel`](./iron-steel.md)
-> **Enables**: [`machine-tools.iterative-bootstrap`](../machine-tools/iterative-bootstrap.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
+> **Enables**: [`energy.stirling-engine`](../energy/stirling-engine.md),
+> [`metals.pipe-making`](./pipe-making.md)
 > **Timeline**: Years 10-15
 > **Outputs**: cast_iron_parts, cast_aluminum_parts, sand_molds, cast_bronze_parts
 > **Critical**: Yes — casting is the only practical method for producing complex 3D metal parts before machining exists; every machine tool starts as a casting (beds, frames, housings, gear blanks)

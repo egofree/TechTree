@@ -3,7 +3,12 @@
 > **Node ID**: vacuum.pumps
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `machine-tools`
-> **Enables**: [`optics.inspection.optical-coatings`](../optics/optical-coatings.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Enables**: [`machine-tools.joining.electron-beam`](../machine-tools/joining.electron-beam.md),
+> [`optics.inspection.optical-coatings`](../optics/inspection.optical-coatings.md),
+> [`photolithography.fab-processes`](../photolithography/fab-processes.md),
+> [`photolithography.fab-processes.pvd`](../photolithography/fab-processes.pvd.md),
+> [`silicon.basic-devices`](../silicon/basic-devices.md),
+> [`vacuum.deposition-systems`](./deposition-systems.md)
 > **Critical**: Yes — vacuum pumps are required for all semiconductor thin-film deposition, lithography, and packaging processes; no alternative to mechanical vacuum pumping exists
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_pumps, roughing_pumps, high_vacuum_pumps, uhv_pumps

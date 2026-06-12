@@ -2,8 +2,9 @@
 
 > **Node ID**: metals.refractory-specialty
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`metals`](./index.md), [`metals.refractory-metals`](refractory-metals.md)
-> **Enables**: [`metals.specialty-semiconductor`](specialty-semiconductor.md)
+> **Dependencies**: `chemistry`, `metals`
+> **Enables**: [`energy.gas-turbine`](../energy/gas-turbine.md),
+> [`metals.specialty-semiconductor`](./specialty-semiconductor.md)
 > **Timeline**: Years 35-70
 > **Outputs**: tantalum sputtering targets, TaN/Ta diffusion barriers, cobalt silicide contacts, Co CMP slurries, ITO sputtering targets, InGaAs wafers, indium bump bonds
 > **Critical**: No — essential for advanced semiconductor nodes but not required for basic civilization infrastructure

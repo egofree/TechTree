@@ -2,8 +2,7 @@
 
 > **Node ID**: `chemistry.electrolysis.thermochemical-water-splitting`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`energy.fuel-cell`](../energy/fuel-cell.md)
-> **Enables**: None
+> **Enables**: [`energy.fuel-cell`](../energy/fuel-cell.md)
 > **Outputs**: hydrogen, oxygen
 > **Timeline**: Years 20-35
 > **Critical**: No

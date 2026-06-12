@@ -2,8 +2,7 @@
 
 > **Node ID**: foundations.sawmilling
 > **Domain**: [Foundations](./index.md)
-> **Dependencies**: [`Building Materials & Methods`](../construction/building-materials.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: [`construction.building-materials`](../construction/building-materials.md)
 > **Timeline**: Years 5-20
 > **Outputs**: dimensional_lumber, planks, beams, sawdust
 > **Critical**: No

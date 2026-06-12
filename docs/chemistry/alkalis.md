@@ -2,8 +2,12 @@
 
 > **Node ID**: chemistry.alkalis
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`mining.processing`](../mining/processing.md)
-> **Enables**: [`chemistry.explosives`](explosives.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), [`chemistry.soap`](soap.md), [`metals.aluminum`](../metals/aluminum.md), [`textiles.finishing`](../textiles/finishing.md)
+> **Dependencies**: [`foundations.fire`](../foundations/fire.md)
+> **Enables**: [`chemistry.explosives`](./explosives.md),
+> [`chemistry.lubricants-grease-solid`](./lubricants-grease-solid.md),
+> [`chemistry.pulp-chemicals`](./pulp-chemicals.md), [`chemistry.soap`](./soap.md),
+> [`metals.aluminum`](../metals/aluminum.md),
+> [`textiles.finishing`](../textiles/finishing.md)
 > **Timeline**: Years 20-35
 > **Outputs**: soda_ash, caustic_soda, sodium_carbonate
 > **Critical**: Yes — soda ash (Na₂CO₃) and caustic soda (NaOH) are essential for glass manufacturing, soap production, paper pulping, and aluminum extraction. The Solvay process is one of the foundational chemical industries.

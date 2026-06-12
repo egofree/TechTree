@@ -2,8 +2,9 @@
 
 > **Node ID**: animals.sheep
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: [`animals.animal-materials`](animal-materials.md), [`textiles.fibers`](../textiles/fibers.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Dependencies**: `animals`, [`animals.domestication`](./domestication.md)
+> **Enables**: [`animals.animal-materials`](./animal-materials.md),
+> [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 1-25+
 > **Outputs**: wool, mutton, milk, lanolin, sheepskins, manure
 > **Critical**: Yes — premier fiber and meat species with lowest infrastructure requirements

@@ -2,8 +2,10 @@
 
 > **Node ID**: machine-tools.forming
 > **Domain**: [Machine Tools Bootstrap](./index.md)
-> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`energy.fuels`](../energy/fuels.md), [`foundations.fire`](../foundations/fire.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md),
+> [`energy.fuels`](../energy/fuels.md), [`foundations.fire`](../foundations/fire.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`polymers.rubber.synthetic`](../polymers/rubber.synthetic.md)
 > **Timeline**: Years 5-15
 > **Outputs**: formed_metal_parts, bar_stock, sheet_metal, wire, plate, rod
 > **Critical**: Yes — produces the bar stock, sheet, and wire that feed every downstream process

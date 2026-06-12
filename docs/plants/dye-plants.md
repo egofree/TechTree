@@ -2,8 +2,7 @@
 
 > **Node ID**: plants.dye-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: [`plants`](./index.md), [`textiles.dyeing`](../textiles/dyeing.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `plants`, [`textiles.dyeing`](../textiles/dyeing.md)
 > **Timeline**: Years 5-10
 > **Outputs**: natural_dyes, plant_pigments
 > **Critical**: No — color is important for signaling and trade but not strictly required for survival

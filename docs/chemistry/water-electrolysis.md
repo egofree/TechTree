@@ -2,8 +2,9 @@
 
 > **Node ID**: chemistry.water-electrolysis
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Electrolysis`](electrolysis.md)
-> **Enables**: [`E-Methanol Synthesis`](e-methanol.md), [`Fuel Cell`](../energy/fuel-cell.md)
+> **Dependencies**: [`chemistry.e-methanol`](./e-methanol.md),
+> [`energy.fuel-cell`](../energy/fuel-cell.md)
+> **Enables**: [`chemistry.electrolysis`](./electrolysis.md)
 > **Timeline**: Years 20-40
 > **Outputs**: hydrogen, oxygen
 > **Critical**: No

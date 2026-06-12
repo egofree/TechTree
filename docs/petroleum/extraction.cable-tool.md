@@ -2,8 +2,9 @@
 
 > **Node ID**: `petroleum.extraction.cable-tool`
 > **Domain**: [Petroleum](./index.md)
-> **Dependencies**: [`petroleum.extraction.rotary`](../petroleum/extraction.rotary.md)
-> **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`petroleum.extraction`](../petroleum/extraction.md)
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md),
+> [`petroleum.extraction`](./extraction.md)
+> **Enables**: [`petroleum.extraction.rotary`](./extraction.rotary.md)
 > **Outputs**: crude_oil
 > **Timeline**: Years 10-25
 > **Critical**: No

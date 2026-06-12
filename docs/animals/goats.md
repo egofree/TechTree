@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.goats
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: [`textiles.fibers`](../textiles/fibers.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Dependencies**: `animals`, [`animals.domestication`](./domestication.md)
+> **Enables**: [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 1-20+
 > **Outputs**: goat_milk, chevon, cashmere, mohair, goatskins, manure, brush_clearing
 > **Critical**: No — versatile but replaceable by sheep/cattle combination

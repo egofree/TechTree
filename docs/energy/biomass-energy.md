@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.biomass-energy
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels.charcoal`](charcoal.md), [`chemistry.fermentation`](../chemistry/fermentation.md), [`energy.engine`](engine.md)
-> **Enables**: [`energy.electricity`](electricity.md), [`energy.steam-power`](steam-power.md)
+> **Dependencies**: [`energy.fuels`](./fuels.md)
+> **Enables**: `food-processing`
 > **Timeline**: Years 0-30
 > **Outputs**: biogas, producer_gas, biofuel, biomass_heat, biomass_electricity
 > **Critical**: No — biomass supplements other energy sources and provides fuel security when petroleum and coal are unavailable

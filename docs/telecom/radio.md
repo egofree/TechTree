@@ -2,8 +2,8 @@
 
 > **Node ID**: telecom.radio
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`glass`](../glass/index.md), [`metals`](../metals/index.md), [`telecom.electric-telegraph`](electric-telegraph.md)
-> **Enables**: broadcast communication, maritime/aviation radio, vacuum tube technology
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `glass`, `metals`,
+> [`telecom.electric-telegraph`](./electric-telegraph.md)
 > **Timeline**: Years 30-60
 > **Outputs**: radio_communication, wireless_telegraphy, broadcast_capability
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival

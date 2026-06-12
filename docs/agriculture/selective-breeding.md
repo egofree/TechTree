@@ -2,8 +2,9 @@
 
 > **Node ID**: agriculture.selective-breeding
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`agriculture`](./index.md), [`knowledge.writing`](../knowledge/writing.md), [`agriculture.soil-management`](soil-management.md), [`animals.domestication`](../animals/domestication.md)
-> **Enables**: [`agriculture.seed-saving`](seed-saving.md), [`food-processing`](../food-processing/index.md)
+> **Dependencies**: [`agriculture.soil-management`](./soil-management.md),
+> [`animals.domestication`](../animals/domestication.md),
+> [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 5-100+
 > **Outputs**: improved_crop_varieties, improved_livestock_breeds, breeding_records
 > **Critical**: No — but systematic selective breeding dramatically accelerates yield gains compared to unconscious selection alone

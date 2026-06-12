@@ -2,8 +2,8 @@
 
 > **Node ID**: food-processing.brewing
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`energy`](../energy/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/petroleum-alternatives.fermentation.md),
+> `energy`, [`food-processing.fermentation`](./fermentation.md)
 > **Critical**: No — brewing produces beverages and some chemical feedstocks but is not on the critical technology path
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar

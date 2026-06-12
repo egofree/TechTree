@@ -2,8 +2,8 @@
 
 > **Node ID**: `energy.fuels.coal`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: None
-> **Enables**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](../energy/fuels.md), [`mining.extraction`](../mining/extraction.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](./fuels.md),
+> [`mining.extraction`](../mining/extraction.md)
 > **Outputs**: coal
 > **Timeline**: Years 15-25
 > **Critical**: No

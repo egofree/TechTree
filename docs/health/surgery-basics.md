@@ -2,8 +2,9 @@
 
 > **Node ID**: health.surgery-basics
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`health.medicine`](medicine.md), [`health.medical-instruments`](medical-instruments.md), [`health.sanitation`](sanitation.md)
-> **Enables**: [`health.pharmacology`](pharmacology.md), [`health.diagnostics`](diagnostics.md)
+> **Dependencies**: `health`, [`health.medical-instruments`](./medical-instruments.md),
+> [`health.medicine`](./medicine.md), [`health.sanitation`](./sanitation.md)
+> **Enables**: [`health.emergency-care`](./emergency-care.md)
 > **Timeline**: Years 10-100+
 > **Outputs**: surgical_capability, wound_management, sterile_technique
 > **Critical**: Yes — without surgical capability, traumatic injuries and complicated births are routinely fatal

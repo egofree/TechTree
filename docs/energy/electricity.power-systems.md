@@ -2,8 +2,9 @@
 
 > **Node ID**: `energy.electricity.power-systems`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`energy.engine`](../energy/engine.md), [`energy.storage`](../energy/storage.md), [`measurement.electrical-instruments`](../measurement/electrical-instruments.md)
+> **Dependencies**: [`energy.electricity`](./electricity.md), [`energy.engine`](./engine.md),
+> [`energy.storage`](./storage.md),
+> [`measurement.electrical-instruments`](../measurement/electrical-instruments.md)
 > **Outputs**: clean_power_systems, ups_systems, backup_generators, power_distribution_units, power_quality_monitoring
 > **Timeline**: Years 40-100
 > **Critical**: Yes

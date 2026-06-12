@@ -2,8 +2,9 @@
 
 > **Node ID**: `glass.basic.float-glass`
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`gas-handling.basic`](../gas-handling/basic.md), [`metals.non-ferrous`](../metals/non-ferrous.md)
+> **Dependencies**: [`energy.electric-furnaces`](../energy/electric-furnaces.md),
+> [`gas-handling.basic`](../gas-handling/basic.md),
+> [`metals.non-ferrous`](../metals/non-ferrous.md)
 > **Outputs**: float_glass, flat_glass_ribbon
 > **Timeline**: Years 30-50
 > **Critical**: No

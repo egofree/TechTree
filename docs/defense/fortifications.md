@@ -2,8 +2,7 @@
 
 > **Node ID**: defense.fortifications
 > **Domain**: [Defense](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Enables**: `construction`
 > **Critical**: No — military fortifications are specialized defense capabilities dependent on metallurgical and construction industrial base
 > **Timeline**: Years 5-50+
 > **Outputs**: fortifications, defensive_structures, walls, towers, castle_fortifications

@@ -2,8 +2,10 @@
 
 > **Node ID**: chemistry.dopant-etch-gases
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md)
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
+> **Dependencies**: `chemistry`, [`chemistry.electrolysis`](./electrolysis.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md),
+> [`silicon.wafering.epitaxy`](../silicon/wafering.epitaxy.md),
+> [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-70
 > **Outputs**: dopant_gases, etch_gases, fluorine
 > **Critical**: Yes — dopant gases (PH₃, AsH₃, B₂H₆) enable semiconductor doping, and etch gases (CF₄, Cl₂, SF₆) enable pattern transfer in photolithography. Without these gases, semiconductor manufacturing is impossible.

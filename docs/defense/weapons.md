@@ -2,8 +2,7 @@
 
 > **Node ID**: defense.weapons
 > **Domain**: [Defense](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Enables**: `defense`
 > **Critical**: No — weapons are specialized military tools dependent on metallurgical and chemical industrial base
 > **Timeline**: Years 0-30+
 > **Outputs**: weapons, blades, spears, bows, small_arms, muskets

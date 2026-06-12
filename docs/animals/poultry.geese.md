@@ -2,8 +2,7 @@
 
 > **Node ID**: `animals.poultry.geese`
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: None
-> **Enables**: [`animals.poultry`](../animals/poultry.md)
+> **Dependencies**: [`animals.poultry`](./poultry.md)
 > **Outputs**: goose_meat, goose_down, eggs, manure
 > **Timeline**: Years 0-10+
 > **Critical**: No

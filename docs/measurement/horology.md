@@ -2,8 +2,7 @@
 
 > **Node ID**: measurement.horology
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`Marine Navigation`](../marine/navigation.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: [`marine.navigation`](../marine/navigation.md)
 > **Timeline**: Years 10-30
 > **Outputs**: timepieces, escapement_mechanisms, precision_gears, chronometers
 > **Critical**: No

@@ -2,8 +2,7 @@
 
 > **Node ID**: vacuum.leak-detection
 > **Domain**: [Vacuum Technology](./index.md)
-> **Dependencies**: [`vacuum.measurement`](./measurement.md), [`measurement`](../measurement/index.md), [`gas-handling`](../gas-handling/index.md)
-> **Enables**: Semiconductor process tools, UHV systems, hermetic packaging
+> **Dependencies**: `gas-handling`, `measurement`, [`vacuum.measurement`](./measurement.md)
 > **Critical**: No — leak detection improves vacuum system reliability but systems can operate at degraded performance without formal leak testing
 > **Timeline**: Years 25-40
 > **Outputs**: leak_detection_services, hermetic_seals, leak_rate_quantification

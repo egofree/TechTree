@@ -2,8 +2,8 @@
 
 > **Node ID**: `chemistry.explosives.nitroglycerin-dynamite`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.explosives`](../chemistry/explosives.md), [`chemistry.soap`](../chemistry/soap.md)
+> **Dependencies**: [`chemistry.acids`](./acids.md), [`chemistry.explosives`](./explosives.md),
+> [`chemistry.soap`](./soap.md)
 > **Outputs**: nitroglycerin, dynamite
 > **Timeline**: Years 10-20
 > **Critical**: No

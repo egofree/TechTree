@@ -2,8 +2,11 @@
 
 > **Node ID**: metals.specialty-semiconductor
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`metals`](./index.md), [`metals.refractory-specialty`](refractory-specialty.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `chemistry`, [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals`,
+> [`metals.refractory-specialty`](./refractory-specialty.md),
+> [`photolithography.fab-processes`](../photolithography/fab-processes.md),
+> [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md)
+> **Enables**: [`photolithography.fab-processes.pvd`](../photolithography/fab-processes.pvd.md)
 > **Timeline**: Years 40-80
 > **Outputs**: TiN hard masks, Ti diffusion barriers, W contact plugs, Mo gate electrodes, Cu damascene interconnects, Mo/Cu heat sinks
 > **Critical**: Yes — semiconductor interconnect metals (Ti, W, Mo, Cu) are required for all sub-100 nm chip fabrication

@@ -2,8 +2,7 @@
 
 > **Node ID**: `chemistry.electrolysis.sem-tech`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md)
-> **Enables**: None
+> **Enables**: [`chemistry.electrolysis`](./electrolysis.md)
 > **Outputs**: membrane_electrolysis, chlorine, caustic_soda
 > **Timeline**: Years 30-50
 > **Critical**: No

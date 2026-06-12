@@ -2,8 +2,7 @@
 
 > **Node ID**: agriculture.hydroponic-ph-control
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.alkalis`](../chemistry/alkalis.md), [`measurement.electrical-instruments`](../measurement/electrical-instruments.md)
-> **Enables**: [`agriculture.sem-tech-hydroponics`](sem-tech-hydroponics.md), [`agriculture.aquaponics`](aquaponics.md)
+> **Enables**: [`chemistry.electrodialysis`](../chemistry/electrodialysis.md)
 > **Timeline**: Years 25-45
 > **Outputs**: balanced_ph, nutrient_solution
 > **Critical**: No — manual pH adjustment is a functional fallback

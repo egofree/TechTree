@@ -2,8 +2,8 @@
 
 > **Node ID**: `machine-tools.joining.friction-stir`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: None
-> **Enables**: [`machine-tools.joining`](../machine-tools/joining.md), [`machine-tools.machining`](../machine-tools/machining.md)
+> **Dependencies**: [`machine-tools.joining`](./joining.md),
+> [`machine-tools.machining`](./machining.md)
 > **Outputs**: friction_stir_welds
 > **Timeline**: Years 30-60
 > **Critical**: No

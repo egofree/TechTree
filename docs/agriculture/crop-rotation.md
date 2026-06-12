@@ -2,8 +2,10 @@
 
 > **Node ID**: agriculture.crop-rotation
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`agriculture`](./index.md), [`agriculture.soil-management`](soil-management.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`food-processing`](../food-processing/index.md), [`chemistry.ammonia`](../chemistry/ammonia.md)
+> **Dependencies**: [`agriculture.pest-management`](./pest-management.md),
+> [`agriculture.seed-saving`](./seed-saving.md),
+> [`agriculture.soil-management`](./soil-management.md)
+> **Enables**: `food-processing`
 > **Timeline**: Years 0-10+
 > **Outputs**: sustained_soil_fertility, nitrogen_fixation, diversified_crops
 > **Critical**: Yes — without rotation, continuous cropping depletes soil in 3-5 years, making long-term agriculture impossible

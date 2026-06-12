@@ -2,8 +2,7 @@
 
 > **Node ID**: computing.embedded-systems
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: [`computing.computer-architecture`](computer-architecture.md), [`computing.data-storage`](data-storage.md), [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md)
-> **Enables**: [`process-control`](../automation/process-control.md), [`wafer-handling`](../automation/wafer-handling.md), [`equipment-communication`](../automation/equipment-communication.md)
+> **Enables**: `automation`
 > **Timeline**: Years 55-75+
 > **Outputs**: microcontroller_systems, firmware, real_time_control, sensor_interfaces
 > **Critical**: Yes — embedded systems bridge computing hardware and physical process control; without them, semiconductor fab tools cannot be automated

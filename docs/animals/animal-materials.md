@@ -2,8 +2,14 @@
 
 > **Node ID**: animals.animal-materials
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.cattle`](cattle.md), [`animals.domestication`](domestication.md), [`animals.sheep`](sheep.md), [`ceramics.lime`](../ceramics/lime.md)
-> **Enables**: [`chemistry.lubricants`](../chemistry/lubricants.md), [`knowledge.writing`](../knowledge/writing.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.iterative-bootstrap`](../machine-tools/iterative-bootstrap.md), [`textiles.fibers`](../textiles/fibers.md)
+> **Dependencies**: [`animals.cattle`](./cattle.md), [`animals.domestication`](./domestication.md),
+> [`animals.sheep`](./sheep.md), [`ceramics.lime`](../ceramics/lime.md)
+> **Enables**: [`chemistry.lubricants`](../chemistry/lubricants.md),
+> [`chemistry.lubricants-natural`](../chemistry/lubricants-natural.md),
+> [`knowledge.writing`](../knowledge/writing.md),
+> [`machine-tools.forming`](../machine-tools/forming.md),
+> [`machine-tools.iterative-bootstrap`](../machine-tools/iterative-bootstrap.md),
+> [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-10
 > **Outputs**: leather, buckskin, rawhide, tallow, lard, wool_fleece, horn_sheets, bone_tools, sinew_thread, hide_glue, blood_meal
 > **Critical**: Yes — tallow, hide glue, horn, and bone are irreplaceable materials for pre-industrial technology

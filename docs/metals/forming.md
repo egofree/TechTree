@@ -2,8 +2,14 @@
 
 > **Node ID**: metals.forming
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.aluminum`](aluminum.md), [`metals.steelmaking`](steelmaking.md)
-> **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`transport.railways`](../transport/railways.md)
+> **Dependencies**: `machine-tools`, [`metals.aluminum`](./aluminum.md),
+> [`metals.steelmaking`](./steelmaking.md)
+> **Enables**: [`chemistry.acid-regeneration`](../chemistry/acid-regeneration.md),
+> [`economics-organization.coinage`](../economics-organization/coinage.md),
+> [`energy.hydraulics`](../energy/hydraulics.md),
+> [`energy.steam-power`](../energy/steam-power.md),
+> [`metals.wire-drawing`](./wire-drawing.md),
+> [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel slab, plate, sheet, bar, structural shapes, aluminum profiles, forgings
 > **Critical**: Yes — primary forming produces the stock shapes (plate, bar, structural sections) that ALL downstream manufacturing depends on; without rolling and forging, metal remains locked in ingot form

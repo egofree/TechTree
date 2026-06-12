@@ -2,8 +2,9 @@
 
 > **Node ID**: chemistry.e-methanol
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Water Electrolysis`](water-electrolysis.md), [`Energy Storage & Diversification`](../energy/storage.md)
-> **Enables**: [`Energy`](../energy/index.md)
+> **Dependencies**: `energy`
+> **Enables**: [`chemistry.water-electrolysis`](./water-electrolysis.md),
+> [`energy.storage`](../energy/storage.md)
 > **Timeline**: Years 30-50
 > **Outputs**: methanol
 > **Critical**: No

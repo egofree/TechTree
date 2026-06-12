@@ -2,8 +2,9 @@
 
 > **Node ID**: `photolithography.fab-processes.ion-implantation`
 > **Domain**: [Photolithography](./index.md)
-> **Dependencies**: [`silicon`](../silicon/.md)
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`vacuum.chambers`](../vacuum/chambers.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`vacuum.chambers`](../vacuum/chambers.md)
+> **Enables**: `silicon`
 > **Outputs**: ion_implantation, doped_regions, doping_profiles
 > **Timeline**: Years 50-80
 > **Critical**: No

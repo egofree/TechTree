@@ -2,8 +2,13 @@
 
 > **Node ID**: animals.domestication
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`animals.animal-materials`](animal-materials.md), [`animals.cattle`](cattle.md), [`animals.draft-power`](draft-power.md), [`animals.equines`](equines.md), [`animals.goats`](goats.md), [`animals.insect-farming`](insect-farming.md), [`animals.pest-management`](pest-management.md), [`animals.pigs`](pigs.md), [`animals.sericulture`](sericulture.md), [`animals.sheep`](sheep.md)
+> **Dependencies**: `animals`
+> **Enables**: [`agriculture.selective-breeding`](../agriculture/selective-breeding.md),
+> [`animals.animal-materials`](./animal-materials.md), [`animals.cattle`](./cattle.md),
+> [`animals.draft-power`](./draft-power.md), [`animals.equines`](./equines.md),
+> [`animals.goats`](./goats.md), [`animals.insect-farming`](./insect-farming.md),
+> [`animals.pest-management`](./pest-management.md), [`animals.pigs`](./pigs.md),
+> [`animals.sericulture`](./sericulture.md), [`animals.sheep`](./sheep.md)
 > **Timeline**: Years 1-30+
 > **Outputs**: livestock, breeding_stock, manure, dairy, meat, eggs
 > **Critical**: Yes — foundation node enabling all livestock and poultry species

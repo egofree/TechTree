@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.flux
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Metal Joining`](../machine-tools/joining.md)
-> **Enables**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
+> **Dependencies**: `mining`
+> **Enables**: [`machine-tools.joining`](../machine-tools/joining.md)
 > **Timeline**: Years 5-15
 > **Outputs**: borax-flux, limestone-flux, fluorspar-flux, rosin-flux
 > **Critical**: No

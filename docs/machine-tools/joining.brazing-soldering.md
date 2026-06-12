@@ -2,8 +2,7 @@
 
 > **Node ID**: `machine-tools.joining.brazing-soldering`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry`](../chemistry/.md), [`metals.alloys`](../metals/alloys.md)
+> **Dependencies**: `chemistry`, [`metals.alloys`](../metals/alloys.md)
 > **Outputs**: brazed_joints, soldered_joints
 > **Timeline**: Years 5-30
 > **Critical**: No

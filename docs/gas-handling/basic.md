@@ -2,8 +2,15 @@
 
 > **Node ID**: gas-handling.basic
 > **Domain**: [Gas Handling](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`silicon.purification`](../silicon/purification.md)
+> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md),
+> [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md),
+> [`gas-handling.cylinder-filling`](./cylinder-filling.md),
+> [`gas-handling.gas-purification`](./gas-purification.md),
+> [`gas-handling.piping-systems`](./piping-systems.md),
+> [`glass.basic.float-glass`](../glass/basic.float-glass.md),
+> [`photolithography.fab-processes.cvd`](../photolithography/fab-processes.cvd.md),
+> [`photolithography.fab-processes.plasma-etching`](../photolithography/fab-processes.plasma-etching.md),
+> [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 20-35
 > **Outputs**: gas_handling, compressed_gases, purified_gases
 > **Critical**: No — basic gas handling supports many processes but individual processes can use simpler alternatives

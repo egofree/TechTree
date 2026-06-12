@@ -2,8 +2,7 @@
 
 > **Node ID**: food-processing.pasteurization
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`energy`](../energy/index.md), [`health.sanitation`](../health/sanitation.md), [`metals`](../metals/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `energy`, [`health.sanitation`](../health/sanitation.md), `metals`
 > **Critical**: No — pasteurization improves food safety but is not the sole method for achieving it
 > **Timeline**: Years 15-25
 > **Outputs**: pasteurized_food

@@ -2,8 +2,8 @@
 
 > **Node ID**: `energy.fuels.coke`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`metals.iron-steel.blast-furnace`](../metals/iron-steel.blast-furnace.md)
-> **Enables**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](../energy/fuels.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](./fuels.md)
+> **Enables**: [`metals.iron-steel.blast-furnace`](../metals/iron-steel.blast-furnace.md)
 > **Outputs**: coke, coal_gas, coal_tar, ammonia_liquor
 > **Timeline**: Years 15-25
 > **Critical**: No

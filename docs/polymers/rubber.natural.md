@@ -2,8 +2,8 @@
 
 > **Node ID**: `polymers.rubber.natural`
 > **Domain**: [Polymers](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.distillation`](../chemistry/distillation.md), [`foundations.fire`](../foundations/fire.md), [`polymers.rubber`](../polymers/rubber.md)
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md),
+> [`foundations.fire`](../foundations/fire.md), [`polymers.rubber`](./rubber.md)
 > **Outputs**: vulcanized_rubber, tires, drive_belts
 > **Timeline**: Years 5-30
 > **Critical**: No

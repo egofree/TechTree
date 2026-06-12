@@ -2,8 +2,25 @@
 
 > **Node ID**: knowledge.writing
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`animals.beekeeping`](../animals/beekeeping.md), [`chemistry`](../chemistry/index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`health.sanitation`](../health/sanitation.md)
-> **Enables**: [`health.medicine`](../health/medicine.md), [`knowledge.education`](education.md), [`knowledge.libraries`](libraries.md), [`marine.navigation`](../marine/navigation.md), `mathematics`, [`mining.prospecting`](../mining/prospecting.md), [`telecom`](../telecom/index.md), [`telecom.pre-electric`](../telecom/pre-electric.md)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md),
+> [`animals.beekeeping`](../animals/beekeeping.md),
+> [`foundations.food-agriculture`](../foundations/food-agriculture.md),
+> [`foundations.tools-basic`](../foundations/tools-basic.md),
+> [`health.sanitation`](../health/sanitation.md)
+> **Enables**: [`agriculture.selective-breeding`](../agriculture/selective-breeding.md),
+> [`economics-organization.accounting`](../economics-organization/accounting.md),
+> [`economics-organization.division-of-labor`](../economics-organization/division-of-labor.md),
+> [`economics-organization.governance`](../economics-organization/governance.md),
+> [`economics-organization.supply-chain`](../economics-organization/supply-chain.md),
+> [`economics-organization.trade`](../economics-organization/trade.md),
+> [`health.medicine`](../health/medicine.md), [`knowledge.education`](./education.md),
+> [`knowledge.libraries`](./libraries.md),
+> [`knowledge.scientific-method`](./scientific-method.md),
+> [`knowledge.standards-bodies`](./standards-bodies.md),
+> [`knowledge.technical-drawing`](./technical-drawing.md),
+> [`marine.navigation`](../marine/navigation.md), `mathematics`,
+> [`mining.prospecting`](../mining/prospecting.md), `telecom`,
+> [`telecom.pre-electric`](../telecom/pre-electric.md)
 > **Timeline**: Years 0-10
 > **Outputs**: writing_system
 > **Critical**: Yes — without writing, all knowledge is limited to oral transmission; no complex civilization can function without written records for administration, engineering, and science

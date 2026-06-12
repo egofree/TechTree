@@ -2,8 +2,9 @@
 
 > **Node ID**: gas-handling.cylinder-filling
 > **Domain**: [Gas Handling](./index.md)
-> **Dependencies**: [`gas-handling.basic`](basic.md) (compressors, valves), [`metals.iron-steel`](../metals/iron-steel.md) (cylinder material), [`gas-handling.gas-purification`](gas-purification.md) (purified product gas)
-> **Enables**: [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md) (H₂ cylinders), [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md) (specialty gas cylinders), [`energy.storage`](../energy/storage.md) (compressed gas energy storage)
+> **Dependencies**: [`gas-handling.basic`](./basic.md),
+> [`gas-handling.gas-purification`](./gas-purification.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 20-35
 > **Outputs**: filled_cylinders, tested_cylinders, certified_cylinders
 > **Critical**: No — bulk gas can be delivered via pipeline; cylinders provide portable storage

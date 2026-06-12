@@ -2,8 +2,7 @@
 
 > **Node ID**: computing.logic-design
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: [`computing.digital-logic`](digital-logic.md), [`electronics.semiconductor-devices`](../electronics/semiconductor-devices.md), [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md)
-> **Enables**: [`computing.computer-architecture`](computer-architecture.md), [`computing.embedded-systems`](embedded-systems.md)
+> **Dependencies**: [`mathematics.formal-systems`](../mathematics/formal-systems.md)
 > **Timeline**: Years 45-60
 > **Outputs**: combinational_circuits, sequential_circuits, state_machines, programmable_logic
 > **Critical**: Yes — all digital hardware from microcontrollers to GPUs requires systematic logic design

@@ -2,8 +2,9 @@
 
 > **Node ID**: `polymers.rubber.synthetic`
 > **Domain**: [Polymers](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry`](../chemistry/.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools.forming`](../machine-tools/forming.md)
+> **Dependencies**: `chemistry`,
+> [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md),
+> [`machine-tools.forming`](../machine-tools/forming.md)
 > **Outputs**: nitrile_rubber, neoprene, silicone_elastomers
 > **Timeline**: Years 20-50
 > **Critical**: No

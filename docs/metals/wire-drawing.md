@@ -2,8 +2,9 @@
 
 > **Node ID**: metals.wire-drawing
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Electricity Generation & Distribution`](../energy/electricity.md), [`Wire Rope & Steel Cable`](wire-rope.md)
-> **Enables**: [`Iron & Steel Production`](iron-steel.md), [`Primary Metal Forming`](forming.md)
+> **Dependencies**: [`metals.forming`](./forming.md), [`metals.iron-steel`](./iron-steel.md)
+> **Enables**: [`energy.electricity`](../energy/electricity.md),
+> [`metals.wire-rope`](./wire-rope.md)
 > **Timeline**: Years 8-18
 > **Outputs**: drawn-wire, copper-wire, steel-wire, fine-gauge-wire
 > **Critical**: No

@@ -2,8 +2,7 @@
 
 > **Node ID**: computing.data-storage
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: [`computing`](./index.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `computing`, [`polymers.thermoplastics`](../polymers/thermoplastics.md)
 > **Timeline**: Years 35-50
 > **Outputs**: persistent_storage, removable_media, solid_state_memory
 > **Critical**: No — computing enhances capability but is not strictly required for survival

@@ -2,8 +2,11 @@
 
 > **Node ID**: polymers.rubber
 > **Domain**: [Polymers & Composites](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: [`energy.storage`](../energy/storage.md), [`health`](../health/index.md), [`polymers.rubber.gutta-percha`](gutta-percha.md), [`polymers.rubber.shellac`](shellac.md)
+> **Dependencies**: [`polymers.rubber.vulcanization`](./rubber.vulcanization.md)
+> **Enables**: [`energy.storage`](../energy/storage.md), `health`,
+> [`polymers.rubber.gutta-percha`](./rubber.gutta-percha.md),
+> [`polymers.rubber.natural`](./rubber.natural.md),
+> [`polymers.rubber.shellac`](./rubber.shellac.md)
 > **Timeline**: Years 5-50
 > **Outputs**: rubber, elastomers, gaskets, seals
 > **Critical**: Yes — flexible seals and vibration isolation required for all mechanical systems, pneumatic tires, and chemical-resistant barriers

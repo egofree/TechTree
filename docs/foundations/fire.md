@@ -2,8 +2,13 @@
 
 > **Node ID**: foundations.fire
 > **Domain**: [Foundations](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: [`animals.beekeeping`](../animals/beekeeping.md), [`ceramics.pottery`](../ceramics/pottery.md), [`energy.fuels`](../energy/fuels.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.copper`](../metals/copper.md), [`plants`](../plants/index.md)
+> **Enables**: [`animals.beekeeping`](../animals/beekeeping.md),
+> [`ceramics.pottery`](../ceramics/pottery.md),
+> [`chemistry.alkalis`](../chemistry/alkalis.md), [`energy.fuels`](../energy/fuels.md),
+> [`energy.fuels.charcoal`](../energy/fuels.charcoal.md),
+> [`machine-tools.forming`](../machine-tools/forming.md),
+> [`metals.copper`](../metals/copper.md), `plants`,
+> [`polymers.rubber.natural`](../polymers/rubber.natural.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fire
 > **Critical**: Yes — fire is a root capability enabling cooking, metallurgy, ceramics, and chemical processing

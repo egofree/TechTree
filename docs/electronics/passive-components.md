@@ -2,8 +2,7 @@
 
 > **Node ID**: electronics.passive-components
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`chemistry.acids`](../chemistry/acids.md), [`ceramics`](../ceramics/index.md), [`electronics.electrical-systems`](electrical-systems.md)
-> **Enables**: [`electronics.power-electronics`](power-electronics.md), [`electronics.assembly`](assembly.md), [`computing.electronic`](../computing/electronic.md)
+> **Enables**: `electronics`
 > **Timeline**: Years 15-40
 > **Outputs**: resistors, capacitors, inductors, transformers
 > **Critical**: Yes — every electronic circuit requires passive components for filtering, timing, impedance matching, and energy storage

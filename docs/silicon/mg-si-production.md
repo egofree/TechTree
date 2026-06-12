@@ -2,8 +2,9 @@
 
 > **Node ID**: silicon.mg-si-production
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`mining.quarrying`](../mining/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `energy`, [`energy.electric-furnaces`](../energy/electric-furnaces.md), `metals`,
+> `mining`
+> **Enables**: [`silicon.purification`](./purification.md)
 > **Timeline**: Years 30-40
 > **Outputs**: mg_silicon
 > **Critical**: Yes — gateway to all semiconductor and solar cell manufacturing

@@ -2,8 +2,7 @@
 
 > **Node ID**: ultra-pure.high-purity-chemicals
 > **Domain**: [Ultra-Pure Materials](./index.md)
-> **Dependencies**: [Chemistry / Acids](../chemistry/acids.md), [Solvents](../chemistry/solvents.md), [Ultra-Pure Water](upw.md), [Polymers](../polymers/index.md)
-> **Enables**: [`silicon.purification`](../silicon/purification.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
+> **Dependencies**: `chemistry`, [`ultra-pure.upw`](./upw.md)
 > **Timeline**: Years 40-80
 > **Outputs**: high_purity_acids, high_purity_solvents, high_purity_gases
 > **Critical**: Yes — electronic-grade chemicals at 9N+ purity are required for all wafer etching, cleaning, and deposition processes

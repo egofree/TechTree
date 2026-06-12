@@ -2,8 +2,9 @@
 
 > **Node ID**: `machine-tools.joining.electron-beam`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: [`vacuum.chambers`](../vacuum/chambers.md)
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`machine-tools.joining`](../machine-tools/joining.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`machine-tools.joining`](./joining.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Enables**: [`vacuum.chambers`](../vacuum/chambers.md)
 > **Outputs**: electron_beam_welds, hermetic_seals
 > **Timeline**: Years 30-60
 > **Critical**: No

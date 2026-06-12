@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.pigs
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`animals.animal-materials`](animal-materials.md)
+> **Dependencies**: `animals`, [`animals.domestication`](./domestication.md)
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Timeline**: Years 1-20+
 > **Outputs**: pork, lard, bacon, bristles, leather, manure, waste_disposal
 > **Critical**: Yes — fastest feed-to-meat conversion, waste recycling

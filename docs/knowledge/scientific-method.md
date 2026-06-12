@@ -2,8 +2,7 @@
 
 > **Node ID**: knowledge.scientific-method
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`knowledge.writing`](writing.md), [`measurement`](../measurement/index.md), [`mathematics`](../mathematics/index.md)
-> **Enables**: [`knowledge.standards-bodies`](standards-bodies.md), [`quality-control`](../quality-control/index.md), [`chemistry`](../chemistry/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`knowledge.writing`](./writing.md), `mathematics`, `measurement`
 > **Timeline**: Years 5-20
 > **Outputs**: validated_knowledge, experimental_protocols, reproducible_results
 > **Critical**: Yes — without systematic experimental methodology, all downstream engineering disciplines rely on trial-and-error rather than cumulative knowledge

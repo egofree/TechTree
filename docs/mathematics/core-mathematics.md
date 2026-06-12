@@ -2,8 +2,11 @@
 
 > **Node ID**: mathematics.core-mathematics
 > **Domain**: [Mathematics & Formal Sciences](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md)
-> **Enables**: [`computing.mechanical`](../computing/mechanical.md), [`mathematics.applied-mathematics`](applied-mathematics.md), [`mathematics.formal-systems`](formal-systems.md)
+> **Dependencies**: `foundations`
+> **Enables**: [`computing.mechanical`](../computing/mechanical.md),
+> [`economics-organization.accounting`](../economics-organization/accounting.md),
+> [`mathematics.applied-mathematics`](./applied-mathematics.md),
+> [`mathematics.formal-systems`](./formal-systems.md)
 > **Timeline**: Years 0-25
 > **Outputs**: arithmetic, algebra, geometry, trigonometry, number_systems
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering

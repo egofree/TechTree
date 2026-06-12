@@ -2,8 +2,8 @@
 
 > **Node ID**: `chemistry.pulp-chemicals`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.electrolysis`](electrolysis.md)
-> **Enables**: [`textiles.finishing`](../textiles/finishing.md), [`knowledge.printing`](../knowledge/printing.md), [`polymers.synthetic`](../polymers/synthetic.md)
+> **Dependencies**: [`chemistry.alkalis`](./alkalis.md), [`chemistry.electrolysis`](./electrolysis.md)
+> **Enables**: `knowledge`, `textiles`
 > **Timeline**: Years 15-35
 > **Outputs**: wood_pulp, paper, kraft_liquor, tall_oil
 > **Critical**: No — pulp chemicals support paper and textile production but are not prerequisites for core industrial capabilities

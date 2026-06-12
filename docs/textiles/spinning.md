@@ -2,8 +2,12 @@
 
 > **Node ID**: textiles.spinning
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`textiles.weaving`](weaving.md)
-> **Enables**: [`plants.fiber-plants`](../plants/fiber-plants.md), [`textiles.fibers`](fibers.md), [`textiles.rope-making`](rope-making.md)
+> **Dependencies**: [`textiles.spinning-frame.mule`](./spinning-frame.mule.md),
+> [`textiles.spinning-frame.ring`](./spinning-frame.ring.md),
+> [`textiles.spinning-frame.water`](./spinning-frame.water.md),
+> [`textiles.weaving`](./weaving.md)
+> **Enables**: [`plants.fiber-plants`](../plants/fiber-plants.md),
+> [`textiles.fibers`](./fibers.md), [`textiles.rope-making`](./rope-making.md)
 > **Timeline**: Years 0-5
 > **Outputs**: yarn, thread
 > **Critical**: No

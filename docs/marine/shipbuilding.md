@@ -2,8 +2,8 @@
 
 > **Node ID**: marine.shipbuilding
 > **Domain**: [Marine & Naval Engineering](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md), [`transport.shipping`](../transport/shipping.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md),
+> [`transport.shipping`](../transport/shipping.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: vessels, wooden hulls, iron hulls, steel hulls
 > **Critical**: No — specialized maritime capability, not required for land-based civilization

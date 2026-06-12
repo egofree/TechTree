@@ -2,8 +2,16 @@
 
 > **Node ID**: foundations.food-agriculture
 > **Domain**: [Foundations](./index.md)
-> **Dependencies**: [`agriculture.soil-management`](../agriculture/soil-management.md), [`animals.beekeeping`](../animals/beekeeping.md), [`animals.pigs`](../animals/pigs.md), [`animals.rabbits`](../animals/rabbits.md), [`foundations.tools-basic`](tools-basic.md), [`plants.edible-plants`](../plants/edible-plants.md)
-> **Enables**: [`animals.poultry`](../animals/poultry.md), [`food-processing`](../food-processing/index.md), [`knowledge.writing`](../knowledge/writing.md)
+> **Dependencies**: [`agriculture.soil-management`](../agriculture/soil-management.md),
+> [`animals.beekeeping`](../animals/beekeeping.md),
+> [`animals.pigs`](../animals/pigs.md), [`animals.rabbits`](../animals/rabbits.md),
+> [`foundations.tools-basic`](./tools-basic.md),
+> [`plants.edible-plants`](../plants/edible-plants.md)
+> **Enables**: [`animals.poultry`](../animals/poultry.md),
+> [`economics-organization.division-of-labor`](../economics-organization/division-of-labor.md),
+> `food-processing`,
+> [`food-processing.oil-processing`](../food-processing/oil-processing.md),
+> [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: food_surplus, grain, preserved_food
 > **Critical**: Yes — food surplus enables specialization, population growth, and all non-subsistence activities

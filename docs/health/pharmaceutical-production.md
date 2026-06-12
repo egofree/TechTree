@@ -2,8 +2,8 @@
 
 > **Node ID**: health.pharmaceutical-production
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`health.pharmacology`](pharmacology.md), [`chemistry.distillation`](../chemistry/distillation.md), [`health.sanitation`](sanitation.md)
-> **Enables**: [`health.medicine`](medicine.md), [`health.surgery-basics`](surgery-basics.md)
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md),
+> [`health.pharmacology`](./pharmacology.md), [`health.sanitation`](./sanitation.md)
 > **Timeline**: Years 15-100+
 > **Outputs**: pharmaceuticals, dosage_forms, quality_controlled_drugs, sterile_pharmaceuticals
 > **Critical**: Yes — without reliable pharmaceutical production, disease treatment depends on variable plant preparations and infection mortality remains high

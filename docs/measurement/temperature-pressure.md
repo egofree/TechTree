@@ -2,8 +2,11 @@
 
 > **Node ID**: measurement.temperature-pressure
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`metals`](../metals/index.md)
-> **Enables**: [`silicon.crystal-growth.cz-pulling`](../silicon/cz-pulling.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `metals`
+> **Enables**: [`energy.hvac`](../energy/hvac.md),
+> [`measurement.thermostat-electrical`](./thermostat-electrical.md),
+> [`measurement.thermostat-mechanical`](./thermostat-mechanical.md),
+> [`silicon.crystal-growth.cz-pulling`](../silicon/crystal-growth.cz-pulling.md)
 > **Timeline**: Years 25-40
 > **Outputs**: thermocouples, temperature_measurement, electrical_measurement, pressure_measurement
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments

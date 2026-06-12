@@ -2,8 +2,7 @@
 
 > **Node ID**: `electrochemistry.electroplating.copper-damascene`
 > **Domain**: [Electrochemistry](./index.md)
-> **Dependencies**: None
-> **Enables**: [`electrochemistry.electroplating`](../electrochemistry/electroplating.md)
+> **Dependencies**: [`electrochemistry.electroplating`](./electroplating.md)
 > **Outputs**: copper_interconnects, copper_filled_vias
 > **Timeline**: Years 40-80
 > **Critical**: Yes

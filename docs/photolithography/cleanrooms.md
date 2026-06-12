@@ -2,8 +2,7 @@
 
 > **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Dependencies**: [`ceramics.refractories`](../ceramics/index.md), [`chemistry.basic`](../chemistry/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `ceramics`, `chemistry`
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
 > **Critical**: Yes — contamination control is the single largest yield determinant in semiconductor manufacturing

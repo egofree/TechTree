@@ -2,8 +2,7 @@
 
 > **Node ID**: `animals.poultry.coturnix`
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: None
-> **Enables**: [`animals.poultry`](../animals/poultry.md)
+> **Dependencies**: [`animals.poultry`](./poultry.md)
 > **Outputs**: quail_eggs, quail_meat, manure
 > **Timeline**: Years 0-3
 > **Critical**: No

@@ -3,7 +3,6 @@
 > **Node ID**: energy.wind
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry.lubricants`](../chemistry/lubricants.md), `textiles`
-> **Enables**: [`energy.storage`](storage.md), [`energy.electricity`](electricity.md)
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water
 > **Critical**: No — wind supplements water and steam power; wind variability limits reliability without storage or complementary sources

@@ -2,8 +2,7 @@
 
 > **Node ID**: `energy.storage.pumped-hydro`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`energy.gravity`](../energy/gravity.md)
+> **Dependencies**: [`energy.electricity`](./electricity.md), [`energy.gravity`](./gravity.md)
 > **Outputs**: grid_energy_storage, peak_power
 > **Timeline**: Years 25-50
 > **Critical**: No

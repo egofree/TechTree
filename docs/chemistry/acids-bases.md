@@ -2,8 +2,7 @@
 
 > **Node ID**: chemistry.acids-bases
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`chemistry.soap`](soap.md), [`metals.finishing`](../metals/finishing.md)
+> **Enables**: `chemistry`
 > **Timeline**: Years 10-30
 > **Outputs**: sulfuric_acid, hydrochloric_acid, nitric_acid, sodium_hydroxide, sodium_carbonate
 > **Critical**: No — overview capability linking acid and base production; see individual articles for detailed processes

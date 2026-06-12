@@ -2,8 +2,8 @@
 
 > **Node ID**: food-processing.fermentation
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`health.sanitation`](../health/sanitation.md), [`food-processing.milling`](milling.md)
-> **Enables**: [`food-processing.brewing`](brewing.md), [`food-processing.preservation`](preservation.md)
+> **Dependencies**: [`food-processing.milling`](./milling.md)
+> **Enables**: [`food-processing.brewing`](./brewing.md)
 > **Timeline**: Years 0-15
 > **Outputs**: sourdough_bread, sauerkraut, kimchi, soy_sauce, miso, tempeh, pickles, vinegar
 > **Critical**: No — fermentation enhances nutrition and preservation but other methods can substitute

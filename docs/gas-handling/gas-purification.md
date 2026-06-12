@@ -2,8 +2,10 @@
 
 > **Node ID**: gas-handling.gas-purification
 > **Domain**: [Gas Handling](./index.md)
-> **Dependencies**: [`gas-handling.basic`](basic.md) (compressors, piping), [`chemistry.air-separation`](../chemistry/air-separation.md) (cryogenic cooling), [`chemistry.acids`](../chemistry/acids.md) (reagent production)
-> **Enables**: [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md) (ultra-pure H₂), [`silicon.purification`](../silicon/purification.md) (reactor-grade gases), [`photolithography.fab-processes`](../photolithography/fab-processes.md) (process gas purity)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md),
+> [`chemistry.air-separation`](../chemistry/air-separation.md),
+> [`gas-handling.basic`](./basic.md)
+> **Enables**: [`gas-handling.cylinder-filling`](./cylinder-filling.md)
 > **Timeline**: Years 25-45
 > **Outputs**: purified_gases, scrubbed_gases, dried_gases, high_purity_gases
 > **Critical**: Yes — semiconductor fabrication requires gases at 99.999-99.9999% purity; impurities at ppb levels kill device yield

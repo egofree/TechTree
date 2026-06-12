@@ -2,8 +2,9 @@
 
 > **Node ID**: telecom.submarine-cables
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`metals`](../metals/index.md), [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md), [`telecom.electric-telegraph`](electric-telegraph.md), [`transport.shipping`](../transport/shipping.md)
-> **Enables**: [`telecom.radio`](radio.md), [`knowledge.networks`](../knowledge/index.md)
+> **Dependencies**: `metals`, [`polymers.rubber.gutta-percha`](../polymers/rubber.gutta-percha.md),
+> [`telecom.electric-telegraph`](./electric-telegraph.md),
+> [`transport.shipping`](../transport/shipping.md)
 > **Timeline**: Years 25-55
 > **Outputs**: submarine_cable_capacity, intercontinental_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival

@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.pipe-making
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Water Distribution`](../water/distribution.md), [`Gas Handling`](../gas-handling/index.md)
-> **Enables**: [`Metal Casting`](casting.md)
+> **Dependencies**: [`metals.casting`](./casting.md)
+> **Enables**: `gas-handling`, [`water.distribution`](../water/distribution.md)
 > **Timeline**: Years 15-30
 > **Outputs**: metal-pipes, steel-tubes, cast-iron-pipes
 > **Critical**: No

@@ -2,8 +2,8 @@
 
 > **Node ID**: `silicon.wafering.epitaxy`
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`silicon.wafering`](../silicon/wafering.md)
+> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md),
+> [`silicon.wafering`](./wafering.md)
 > **Outputs**: epitaxial_wafers, epitaxial_layers
 > **Timeline**: Years 60-150+
 > **Critical**: No

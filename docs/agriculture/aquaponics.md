@@ -2,8 +2,7 @@
 
 > **Node ID**: agriculture.aquaponics
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`agriculture`](./index.md), [`animals.aquaculture`](../animals/aquaculture.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`agriculture.hydroponic-ph-control`](sem-tech-hydroponics.md), [`food-processing`](../food-processing/index.md)
+> **Dependencies**: [`animals.aquaculture`](../animals/aquaculture.md)
 > **Timeline**: Years 3-10+
 > **Outputs**: fish, vegetables, herbs, filtered_water
 > **Critical**: No — aquaponics provides high-density integrated food production but is not the only path to reliable agriculture; conventional soil-based farming and separate aquaculture are viable alternatives

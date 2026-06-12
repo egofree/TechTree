@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.solvay
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.ammonia`](ammonia.md), [`mining.processing`](../mining/processing.md)
-> **Enables**: [`chemistry.alkalis`](alkalis.md), [`glass.basic`](../glass/basic.md), [`chemistry.soap`](soap.md)
+> **Dependencies**: [`chemistry.ammonia`](./ammonia.md)
+> **Enables**: `glass`
 > **Timeline**: Years 15-30
 > **Outputs**: sodium_carbonate, sodium_bicarbonate, calcium_chloride
 > **Critical**: Yes — the Solvay process is the most efficient route to soda ash (Na₂CO₃), which is required for glass manufacturing, detergent production, and as a chemical feedstock for NaOH production via causticization.

@@ -2,8 +2,8 @@
 
 > **Node ID**: `machine-tools.joining.diffusion-bonding`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`machine-tools.joining`](../machine-tools/joining.md)
+> **Dependencies**: [`energy.electric-furnaces`](../energy/electric-furnaces.md),
+> [`machine-tools.joining`](./joining.md)
 > **Outputs**: diffusion_bonds, hermetic_seals
 > **Timeline**: Years 35-65
 > **Critical**: No

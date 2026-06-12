@@ -2,8 +2,8 @@
 
 > **Node ID**: automation.process-control
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`automation.equipment-communication`](equipment-communication.md), [`quality-control`](../quality-control/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`automation.equipment-communication`](./equipment-communication.md),
+> `quality-control`
 > **Timeline**: Years 60-100+
 > **Outputs**: recipe_management, lot_tracking, process_sequencing, fault_detection, run_to_run_control
 > **Critical**: No — manual recipe execution and lot tracking are possible; automated control improves yield and consistency but does not enable fundamentally new capabilities

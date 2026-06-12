@@ -2,8 +2,7 @@
 
 > **Node ID**: food-processing.refrigeration
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`energy`](../energy/index.md), [`chemistry`](../chemistry/index.md), [`metals`](../metals/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `chemistry`, `energy`, `metals`
 > **Critical**: No — refrigeration extends shelf life but canning and drying provide preservation without ongoing energy input
 > **Timeline**: Years 20-30
 > **Outputs**: refrigerated_food

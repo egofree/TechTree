@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.photographic-chemistry
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Photoresists, Masks & Lithography`](../photolithography/resists-masks.md)
-> **Enables**: [`Chemistry`](index.md), [`Knowledge Preservation & Education`](../knowledge/index.md)
+> **Dependencies**: `chemistry`, `knowledge`
+> **Enables**: [`photolithography.resists-masks`](../photolithography/resists-masks.md)
 > **Timeline**: Years 20-35
 > **Outputs**: silver-halide-emulsions, photographic-plates, photoresist-precursors
 > **Critical**: No

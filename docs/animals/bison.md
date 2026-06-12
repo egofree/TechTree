@@ -2,8 +2,7 @@
 
 > **Node ID**: animals.bison
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md), [`agriculture`](../agriculture/index.md)
-> **Enables**: [`textiles.fibers`](../textiles/fibers.md), [`food-processing`](../food-processing/index.md)
+> **Dependencies**: `animals`
 > **Timeline**: Years 3-20+
 > **Outputs**: meat, hides, horn, bone, manure
 > **Critical**: No — valuable grassland livestock but specialized; cattle are more versatile

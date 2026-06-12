@@ -2,8 +2,23 @@
 
 > **Node ID**: chemistry.acids
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.ammonia`](ammonia.md), [`glass.basic`](../glass/basic.md), [`mining.processing`](../mining/processing.md)
-> **Enables**: [`chemistry.coatings`](coatings.md), [`chemistry.explosives`](explosives.md), [`electrochemistry.anodizing`](../electrochemistry/anodizing.md), [`electrochemistry.electrochemical-processes`](../electrochemistry/electrochemical-processes.md), [`electrochemistry.electroplating`](../electrochemistry/electroplating.md), [`health.occupational-health`](../health/occupational-health.md), [`metals.finishing`](../metals/finishing.md), [`metals.non-ferrous`](../metals/non-ferrous.md), [`silicon.basic-devices`](../silicon/basic-devices.md), [`transport.telegraph`](../transport/telegraph.md)
+> **Dependencies**: [`chemistry.ammonia`](./ammonia.md), [`chemistry.electrolysis`](./electrolysis.md),
+> [`glass.basic`](../glass/basic.md), `mining`,
+> [`mining.sulfur-extraction`](../mining/sulfur-extraction.md)
+> **Enables**: [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md),
+> [`chemistry.explosives.nitrocellulose`](./explosives.nitrocellulose.md),
+> [`chemistry.explosives.nitroglycerin-dynamite`](./explosives.nitroglycerin-dynamite.md),
+> [`chemistry.phosphorus`](./phosphorus.md),
+> [`electrochemistry.anodizing`](../electrochemistry/anodizing.md),
+> [`electrochemistry.electrochemical-processes`](../electrochemistry/electrochemical-processes.md),
+> [`electrochemistry.electroplating`](../electrochemistry/electroplating.md),
+> [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md),
+> [`gas-handling.gas-purification`](../gas-handling/gas-purification.md),
+> [`health.occupational-health`](../health/occupational-health.md),
+> [`metals.finishing`](../metals/finishing.md),
+> [`mining.tailings-reprocessing`](../mining/tailings-reprocessing.md),
+> [`silicon.basic-devices`](../silicon/basic-devices.md),
+> [`transport.telegraph`](../transport/telegraph.md)
 > **Timeline**: Years 20-35
 > **Outputs**: sulfuric_acid, nitric_acid, hydrochloric_acid, hydrofluoric_acid, oleum
 > **Critical**: Yes — sulfuric acid is the single most important industrial chemical; the contact process enables fertilizer production, metal pickling, petroleum refining, and semiconductor wafer processing. No chemical industry operates without mineral acids.

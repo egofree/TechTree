@@ -2,8 +2,9 @@
 
 > **Node ID**: economics-organization.currency
 > **Domain**: [Economics & Organization](./index.md)
-> **Dependencies**: [`metals`](../metals/index.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
-> **Enables**: [`economics-organization.accounting`](./accounting.md)
+> **Dependencies**: [`economics-organization.coinage`](./coinage.md),
+> [`economics-organization.trade`](./trade.md),
+> [`measurement.precision-metrology`](../measurement/precision-metrology.md), `metals`
 > **Timeline**: Years 5-10
 > **Outputs**: coinage, standardized_units_of_account, price_signals
 > **Critical**: No

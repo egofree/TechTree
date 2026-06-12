@@ -2,8 +2,8 @@
 
 > **Node ID**: food-processing.milling
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`energy`](../energy/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `energy`
+> **Enables**: [`food-processing.fermentation`](./fermentation.md)
 > **Critical**: No — mechanized milling increases grain processing throughput but hand milling with stone querns is a functional fallback
 > **Timeline**: Years 0-20
 > **Outputs**: flour, bran, grits, meal

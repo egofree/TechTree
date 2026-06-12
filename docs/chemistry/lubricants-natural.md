@@ -3,8 +3,9 @@
 > **Node ID**: chemistry.lubricants-natural
 > **Domain**: [Chemistry](./index.md)
 > **Parent**: [Lubricants, Oils & Fluid Mechanics](lubricants.md)
-> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
-> **Enables**: [`chemistry.lubricants-grease-solid`](lubricants-grease-solid.md), [`chemistry.lubricants-mineral`](lubricants-mineral.md)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), `foundations`
+> **Enables**: [`chemistry.lubricants-grease-solid`](./lubricants-grease-solid.md),
+> [`chemistry.lubricants-mineral`](./lubricants-mineral.md)
 > **Timeline**: Years 0-5
 > **Outputs**: tallow, lard, vegetable_oil, castor_oil, linseed_oil
 > **Critical**: No — natural lubricants are the first tier; machinery can operate at reduced performance without them

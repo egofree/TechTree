@@ -2,8 +2,9 @@
 
 > **Node ID**: animals.rabbits
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`textiles.fibers`](../textiles/fibers.md)
+> **Dependencies**: `animals`
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md),
+> [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-5
 > **Outputs**: meat, angora_wool, manure, pelts
 > **Critical**: Yes — fastest path to animal protein with minimal infrastructure

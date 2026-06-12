@@ -2,8 +2,11 @@
 
 > **Node ID**: machine-tools.iterative-bootstrap
 > **Domain**: Machine Tools Bootstrap
-> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`machine-tools.casting`](../metals/casting.md)
-> **Enables**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.machining`](machining.md)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md)
+> **Enables**: [`machine-tools.abrasives`](./abrasives.md),
+> [`machine-tools.bearings`](./bearings.md),
+> [`machine-tools.bearings-abrasives`](./bearings-abrasives.md),
+> [`machine-tools.machining`](./machining.md)
 > **Timeline**: Years 10-25
 > **Outputs**: lathe, shaper, mill, drill_press, leadscrew, half_nut, change_gears
 > **Critical**: Yes — machine tools build machine tools; this bootstrap sequence is the only path from hand tools to precision machining

@@ -2,8 +2,6 @@
 
 > **Node ID**: metals.zinc
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`mining.extraction`](../mining/extraction.md), [`energy`](../energy/index.md), [`chemistry.acids-bases`](../chemistry/acids-bases.md)
-> **Enables**: [`metals.copper`](copper.md) (brass), [`metals.iron-steel`](iron-steel.md) (galvanizing), [`energy.storage`](../energy/storage.md) (zinc batteries)
 > **Timeline**: Years 15-25
 > **Outputs**: zinc, zinc_oxide, zinc_alloys
 > **Critical**: Yes — zinc provides corrosion protection for steel (galvanizing), is essential for brass alloy, and enables zinc-air batteries for energy storage

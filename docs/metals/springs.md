@@ -2,8 +2,7 @@
 
 > **Node ID**: metals.springs
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.iron-steel`](iron-steel.md), [`machine-tools.machining`](../machine-tools/machining.md)
-> **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`transport.railways`](../transport/railways.md), [`machine-tools.joining`](../machine-tools/joining.md), [`electronics`](../electronics/index.md)
+> **Enables**: `machine-tools`
 > **Timeline**: Years 10-20
 > **Outputs**: compression_springs, tension_springs, torsion_springs, leaf_springs, belleville_washers
 > **Critical**: false

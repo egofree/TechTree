@@ -2,8 +2,11 @@
 
 > **Node ID**: `metals.iron-steel.blast-furnace`
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.cement`](../chemistry/cement.md), [`metals.steelmaking`](../metals/steelmaking.md)
-> **Enables**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels.coke`](../energy/fuels.coke.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md),
+> [`energy.fuels.coke`](../energy/fuels.coke.md),
+> [`metals.iron-steel`](./iron-steel.md)
+> **Enables**: [`chemistry.cement`](../chemistry/cement.md),
+> [`metals.steelmaking`](./steelmaking.md)
 > **Outputs**: pig_iron, cast_iron, blast_furnace_slag
 > **Timeline**: Years 15-30
 > **Critical**: No

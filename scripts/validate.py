@@ -821,7 +821,8 @@ class Validator:
                         current_field = None
 
                 # Compare doc deps vs actual edges
-                actual_deps = incoming.get(source_eid, set())
+                # Spec: "from depends on to" → entity's deps are outgoing (to values)
+                actual_deps = outgoing.get(source_eid, set())
                 for claimed in sorted(doc_deps):
                     if claimed not in actual_deps:
                         errors.append(
@@ -830,7 +831,8 @@ class Validator:
                         )
 
                 # Compare doc enables vs actual edges
-                actual_enables = outgoing.get(source_eid, set())
+                # Spec: "from depends on to" → entity's enables are incoming (from values)
+                actual_enables = incoming.get(source_eid, set())
                 for claimed in sorted(doc_enables):
                     if claimed not in actual_enables:
                         errors.append(

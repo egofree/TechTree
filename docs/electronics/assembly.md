@@ -2,8 +2,11 @@
 
 > **Node ID**: electronics.assembly
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`glass.fibers`](../glass/fibers.md), [`polymers.thermosets`](../polymers/thermosets.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
-> **Enables**: [`computing.electronic`](../computing/electronic.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
+> **Dependencies**: [`electronics.packaging`](./packaging.md), [`glass.fibers`](../glass/fibers.md),
+> [`polymers.thermosets`](../polymers/thermosets.md),
+> [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Enables**: [`computing.electronic`](../computing/electronic.md),
+> [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-50
 > **Outputs**: pcb_assemblies, soldered_joints, packaged_components
 > **Critical**: Yes — electronics assembly bridges semiconductor device fabrication and functional electronic systems, without which no transistor or IC becomes a usable circuit

@@ -2,8 +2,10 @@
 
 > **Node ID**: chemistry.packaging-testing
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`machine-tools.machining`](../machine-tools/machining.md), [`quality-control.metrology`](../quality-control/metrology.md)
-> **Enables**: [`health.pharmaceuticals`](../health/pharmaceuticals.md)
+> **Dependencies**: `machine-tools`,
+> [`machine-tools.joining.ultrasonic-bonding`](../machine-tools/joining.ultrasonic-bonding.md),
+> [`photolithography.fab-processes`](../photolithography/fab-processes.md),
+> [`polymers.thermosets`](../polymers/thermosets.md)
 > **Timeline**: Years 10-30
 > **Outputs**: tested_products, quality_data, stability_data
 > **Critical**: Yes — analytical testing and pharmaceutical packaging ensure drug product safety, efficacy, and shelf life. Without validated test methods and robust packaging, medicines cannot be reliably delivered to patients.

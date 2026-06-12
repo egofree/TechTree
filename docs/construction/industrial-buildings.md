@@ -2,8 +2,9 @@
 
 > **Node ID**: construction.industrial-buildings
 > **Domain**: [Construction](./index.md)
-> **Dependencies**: [`construction.building-materials`](./building-materials.md), [`energy.electricity`](../energy/electricity.md)
-> **Enables**: [`machine-tools.machining`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`cleanrooms.facility-design`](../cleanrooms/facility-design.md),
+> [`economics-organization.division-of-labor`](../economics-organization/division-of-labor.md),
+> [`energy.electricity`](../energy/electricity.md), [`energy.hvac`](../energy/hvac.md)
 > **Timeline**: Years 15-40
 > **Outputs**: industrial_facilities, machine_foundations, vibration_isolation, crane_runways, factory_floors
 > **Critical**: Yes — precision manufacturing requires vibration-isolated foundations; heavy industry requires crane runways and reinforced floors

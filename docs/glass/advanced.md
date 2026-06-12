@@ -2,8 +2,13 @@
 
 > **Node ID**: glass.advanced
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: [`glass.basic`](basic.md)
-> **Enables**: [`glass.advanced.glassblowing`](advanced-glassblowing.md), [`glass.fibers`](fibers.md), [`glass.photomask-substrates`](photomask-substrates.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
+> **Dependencies**: [`glass.basic`](./basic.md)
+> **Enables**: [`glass.advanced.glassblowing`](./advanced.glassblowing.md),
+> [`glass.fibers`](./fibers.md),
+> [`glass.glass-to-metal-seals`](./glass-to-metal-seals.md),
+> [`glass.photomask-substrates`](./photomask-substrates.md),
+> [`optics.inspection`](../optics/inspection.md),
+> [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 25-40
 > **Outputs**: borosilicate_glass, fused_silica, quartz_crucibles, glass_tubing, glass_apparatus
 > **Critical**: Yes — borosilicate enables laboratory glassware for all chemistry; fused silica crucibles are consumables for CZ crystal growth (semiconductor-grade silicon).

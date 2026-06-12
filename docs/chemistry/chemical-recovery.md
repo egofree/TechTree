@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.chemical-recovery
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Distillation`](distillation.md), [`Electrolysis`](electrolysis.md), [`Solvent Production`](solvents.md), [`Mineral Acids`](acids.md)
-> **Enables**: [`Chemistry`](./index.md), [`Semiconductor Chemicals`](semiconductor-chemicals.md), [`Electronics`](../electronics/index.md)
+> **Dependencies**: [`chemistry.distillation`](./distillation.md)
+> **Enables**: `construction`
 > **Timeline**: Years 20-50+
 > **Outputs**: recovered_solvents, regenerated_acids, recovered_catalysts, distilled_water
 > **Critical**: No — reduces chemical consumption but does not enable new capabilities

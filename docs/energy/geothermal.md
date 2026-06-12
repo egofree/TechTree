@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.geothermal
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.steam-power`](steam-power.md), [`metals.iron-steel`](../metals/iron-steel.md), [`energy.electricity`](electricity.md)
-> **Enables**: [`energy.electricity`](electricity.md), [`energy.cooling`](cooling.md)
+> **Dependencies**: [`energy.electricity`](./electricity.md), [`energy.steam-power`](./steam-power.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 20-50
 > **Outputs**: geothermal_heat, geothermal_steam, geothermal_electricity, ground_source_heat_pump
 > **Critical**: No — geothermal energy is regionally specific, providing baseload power where geological conditions permit

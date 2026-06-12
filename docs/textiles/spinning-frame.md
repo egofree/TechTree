@@ -2,8 +2,9 @@
 
 > **Node ID**: textiles.spinning-frame
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.machining`](../machine-tools/machining.md), [`textiles.spinning`](spinning.md)
-> **Enables**: [`textiles.weaving`](weaving.md) (mass-scale yarn supply)
+> **Enables**: [`textiles.spinning-frame.mule`](./spinning-frame.mule.md),
+> [`textiles.spinning-frame.ring`](./spinning-frame.ring.md),
+> [`textiles.spinning-frame.water`](./spinning-frame.water.md)
 > **Timeline**: Years 15-25
 > **Outputs**: yarn at industrial scale (10-100× hand spinning)
 > **Critical**: Yes — mechanized spinning breaks the hand-spinning bottleneck that limits cloth production to the pace of individual spinners

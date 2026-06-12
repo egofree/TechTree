@@ -2,8 +2,7 @@
 
 > **Node ID**: animals.sericulture
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: [`textiles.fibers`](../textiles/fibers.md)
+> **Dependencies**: [`animals.domestication`](./domestication.md)
 > **Timeline**: Years 2-15
 > **Outputs**: raw_silk, silk_thread, cocoons, sericin
 > **Critical**: No — silk is valuable but not essential for bootstrapping

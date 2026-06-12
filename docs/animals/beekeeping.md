@@ -2,8 +2,13 @@
 
 > **Node ID**: animals.beekeeping
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`foundations.fire`](../foundations/fire.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
-> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`health.medicine`](../health/medicine.md), [`health.pharmacology`](../health/pharmacology.md), [`knowledge.writing`](../knowledge/writing.md), [`metals.copper`](../metals/copper.md), [`metals.bronze`](../metals/bronze.md)
+> **Dependencies**: [`foundations.fire`](../foundations/fire.md),
+> [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md),
+> [`health.medicine`](../health/medicine.md),
+> [`health.pharmacology`](../health/pharmacology.md),
+> [`knowledge.writing`](../knowledge/writing.md),
+> [`metals.bronze`](../metals/bronze.md)
 > **Timeline**: Years 0-10
 > **Outputs**: honey, beeswax, propolis, pollination_services
 > **Critical**: yes

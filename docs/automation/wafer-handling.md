@@ -2,8 +2,7 @@
 
 > **Node ID**: automation.wafer-handling
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`vacuum`](../vacuum/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `machine-tools`, `vacuum`
 > **Timeline**: Years 60-100+
 > **Outputs**: wafer_transfer_capability, cleanroom_robots, load_lock_systems
 > **Critical**: Yes — sub-250nm semiconductor manufacturing requires automated wafer handling; manual handling cannot meet particle and positioning requirements for leading-edge lithography

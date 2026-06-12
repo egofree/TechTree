@@ -3,7 +3,8 @@
 > **Node ID**: energy.gravity
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry.lubricants`](../chemistry/lubricants.md), `textiles`
-> **Enables**: [`energy.gravity.water-turbines`](water-turbines.md), [`energy.storage.pumped-hydro`](pumped-hydro.md)
+> **Enables**: [`energy.gravity.water-turbines`](./gravity.water-turbines.md),
+> [`energy.storage.pumped-hydro`](./storage.pumped-hydro.md)
 > **Timeline**: Years 5-15
 > **Outputs**: water_power, mechanical_rotation, ground_grain, pumped_water
 > **Critical**: No — water power provides reliable mechanical energy but alternative power sources (steam, wind) can substitute where water is unavailable

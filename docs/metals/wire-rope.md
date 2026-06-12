@@ -2,8 +2,7 @@
 
 > **Node ID**: metals.wire-rope
 > **Domain**: [Metallurgy](./index.md)
-> **Dependencies**: [`metals.iron-steel`](iron-steel.md), [`metals.forming`](forming.md), [`metals.steelmaking`](steelmaking.md)
-> **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md), [`transport.railways`](../transport/railways.md), [`energy.steam-power`](../energy/steam-power.md)
+> **Dependencies**: [`metals.wire-drawing`](./wire-drawing.md)
 > **Timeline**: Years 20-35
 > **Outputs**: wire_rope, steel_cable, strand, wire_rope_sling
 > **Critical**: false

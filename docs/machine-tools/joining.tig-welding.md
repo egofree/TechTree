@@ -2,8 +2,10 @@
 
 > **Node ID**: `machine-tools.joining.tig-welding`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: [`vacuum.chambers`](../vacuum/chambers.md)
-> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`energy.electricity`](../energy/electricity.md), [`machine-tools.joining`](../machine-tools/joining.md)
+> **Dependencies**: [`chemistry.air-separation`](../chemistry/air-separation.md),
+> [`energy.electricity`](../energy/electricity.md),
+> [`machine-tools.joining`](./joining.md)
+> **Enables**: [`vacuum.chambers`](../vacuum/chambers.md)
 > **Outputs**: tig_welds, orbital_welds, hermetic_seals
 > **Timeline**: Years 20-50
 > **Critical**: No

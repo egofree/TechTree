@@ -3,7 +3,6 @@
 > **Node ID**: electrochemistry.electrochemical-processes
 > **Domain**: [Electrochemistry & Plating](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md)
-> **Enables**: [`semiconductors`](../electronics/index.md), [`electronics.assembly`](../electronics/assembly.md)
 > **Timeline**: Years 30-80
 > **Outputs**: electropolished_surfaces, electroformed_parts, electroless_nickel, ENIG_surfaces, electroless_copper
 > **Critical**: Yes — electropolishing produces ultra-low-outgassing vacuum chamber surfaces; ENIG is the dominant PCB surface finish with no practical alternative

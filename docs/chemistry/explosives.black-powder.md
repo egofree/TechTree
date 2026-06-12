@@ -2,8 +2,9 @@
 
 > **Node ID**: `chemistry.explosives.black-powder`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.explosives`](../chemistry/explosives.md), [`energy.fuels.charcoal`](../energy/fuels.charcoal.md), [`mining.extraction`](../mining/extraction.md)
+> **Dependencies**: [`chemistry.explosives`](./explosives.md),
+> [`energy.fuels.charcoal`](../energy/fuels.charcoal.md),
+> [`mining.extraction`](../mining/extraction.md)
 > **Outputs**: black_powder
 > **Timeline**: Years 5-10
 > **Critical**: No

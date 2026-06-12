@@ -2,8 +2,9 @@
 
 > **Node ID**: knowledge.education
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`knowledge.writing`](writing.md)
-> **Enables**: [`knowledge.libraries`](libraries.md)
+> **Dependencies**: [`knowledge.writing`](./writing.md)
+> **Enables**: [`knowledge.education-pathways`](./education-pathways.md),
+> [`knowledge.libraries`](./libraries.md)
 > **Timeline**: Years 5-200+
 > **Outputs**: education_system
 > **Critical**: Yes — without structured education, each generation must rediscover knowledge independently; civilization cannot advance beyond what a single lifetime can learn

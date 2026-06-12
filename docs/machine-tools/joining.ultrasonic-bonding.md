@@ -2,8 +2,9 @@
 
 > **Node ID**: `machine-tools.joining.ultrasonic-bonding`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md)
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`machine-tools.joining`](../machine-tools/joining.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`machine-tools.joining`](./joining.md)
+> **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md)
 > **Outputs**: ultrasonic_bonds, wire_bonds
 > **Timeline**: Years 40-70
 > **Critical**: No

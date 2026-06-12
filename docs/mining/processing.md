@@ -2,8 +2,8 @@
 
 > **Node ID**: mining.processing
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`mining.extraction`](extraction.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`mining.extraction`](./extraction.md)
+> **Enables**: [`mining.tailings-reprocessing`](./tailings-reprocessing.md)
 > **Timeline**: Years 0-20
 > **Outputs**: concentrated_ore
 > **Critical**: No

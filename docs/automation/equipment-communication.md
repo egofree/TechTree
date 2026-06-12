@@ -2,8 +2,9 @@
 
 > **Node ID**: automation.equipment-communication
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`computing`](../computing/index.md), [`electronics`](../electronics/index.md)
-> **Enables**: [`automation.material-transport`](material-transport.md), [`automation.process-control`](process-control.md)
+> **Dependencies**: `computing`, `electronics`
+> **Enables**: [`automation.material-transport`](./material-transport.md),
+> [`automation.process-control`](./process-control.md)
 > **Timeline**: Years 50-100+
 > **Outputs**: secs_gem_communication, equipment_state_data, alarm_events, process_trace_data
 > **Critical**: No — manual equipment operation is possible; SECS/GEM automation improves throughput and yield but does not enable fundamentally new process capabilities

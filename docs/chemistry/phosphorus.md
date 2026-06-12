@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.phosphorus
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Silicon Purification`](../silicon/purification.md), [`Agriculture`](../agriculture/index.md)
-> **Enables**: [`Mineral Acid Production`](acids.md), [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
+> **Dependencies**: [`chemistry.acids`](./acids.md), `mining`
+> **Enables**: `agriculture`, [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 15-30
 > **Outputs**: phosphoric-acid, phosphate-fertilizer, phosphorus-compounds
 > **Critical**: No

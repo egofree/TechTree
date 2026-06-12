@@ -2,8 +2,15 @@
 
 > **Node ID**: mining.extraction
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`mining.prospecting`](prospecting.md)
-> **Enables**: [`mining.extraction.black-powder`](black-powder.md), [`mining.processing`](processing.md), [`transport`](../transport/index.md)
+> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md),
+> [`foundations.tools-basic`](../foundations/tools-basic.md),
+> [`metals.iron-steel`](../metals/iron-steel.md),
+> [`mining.prospecting`](./prospecting.md)
+> **Enables**: [`chemistry.explosives.black-powder`](../chemistry/explosives.black-powder.md),
+> [`energy.fuels.coal`](../energy/fuels.coal.md),
+> [`mining.extraction.black-powder`](./extraction.black-powder.md),
+> [`mining.processing`](./processing.md),
+> [`mining.tailings-reprocessing`](./tailings-reprocessing.md), `transport`
 > **Timeline**: Years 0-20
 > **Outputs**: raw_ore
 > **Critical**: No

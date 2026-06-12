@@ -2,8 +2,12 @@
 
 > **Node ID**: metals.non-ferrous
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper`](copper.md), [`metals.bronze`](bronze.md), [`mining`](../mining/index.md)
-> **Enables**: [`chemistry.soap`](../chemistry/soap.md), [`metals.alloys`](alloys.md), [`metals.finishing`](finishing.md), [`metals.precious-metals`](precious-metals.md)
+> **Dependencies**: [`metals.copper`](./copper.md)
+> **Enables**: [`chemistry.soap`](../chemistry/soap.md),
+> [`glass.basic.float-glass`](../glass/basic.float-glass.md),
+> [`metals.alloys`](./alloys.md), [`metals.bronze`](./bronze.md),
+> [`metals.finishing`](./finishing.md),
+> [`metals.precious-metals`](./precious-metals.md)
 > **Timeline**: Years 15-40
 > **Outputs**: zinc, lead, tin, nickel, magnesium, titanium sponge
 > **Critical**: Yes — zinc enables galvanizing (steel longevity), tin enables solder (electronics), nickel enables stainless steel

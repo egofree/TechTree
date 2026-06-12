@@ -2,8 +2,9 @@
 
 > **Node ID**: `textiles.spinning-frame.water`
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`textiles.spinning`](../textiles/spinning.md)
-> **Enables**: [`textiles.spinning-frame`](../textiles/spinning-frame.md)
+> **Dependencies**: [`textiles.spinning-frame`](./spinning-frame.md)
+> **Enables**: [`metals.iron-steel`](../metals/iron-steel.md),
+> [`textiles.spinning`](./spinning.md)
 > **Outputs**: warp_yarn, medium_count_yarn
 > **Timeline**: Years 15-20
 > **Critical**: No

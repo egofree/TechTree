@@ -2,8 +2,9 @@
 
 > **Node ID**: `chemistry.coatings`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
-> **Enables**: [`metals.finishing`](../metals/finishing.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md)
+> **Enables**: [`chemistry.paint`](./paint.md), [`metals.finishing`](../metals/finishing.md),
+> `transport`
 > **Timeline**: Early Industrial
 > **Outputs**: paints, coatings, inks, photoresists
 > **Critical**: No — protective coatings extend infrastructure lifespan but do not enable new capabilities directly

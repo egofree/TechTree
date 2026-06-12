@@ -2,8 +2,8 @@
 
 > **Node ID**: `quality-control.spc`
 > **Domain**: [Quality Control](./index.md)
-> **Dependencies**: [`quality-control.defect-analysis`](../quality-control/defect-analysis.md)
-> **Enables**: [`measurement`](../measurement/.md), [`quality-control`](../quality-control/.md)
+> **Dependencies**: `measurement`, `quality-control`
+> **Enables**: [`quality-control.defect-analysis`](./defect-analysis.md)
 > **Outputs**: spc_charts, cpk_indices, process_capability_analysis, six_sigma_metrics, control_limits
 > **Timeline**: Years 40-100+
 > **Critical**: No

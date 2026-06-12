@@ -2,8 +2,9 @@
 
 > **Node ID**: chemistry.cement
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`mining.processing`](../mining/processing.md)
-> **Enables**: [`construction.foundation`](../construction/index.md), [`machine-tools.machining`](../machine-tools/machining.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md),
+> [`metals.iron-steel.blast-furnace`](../metals/iron-steel.blast-furnace.md)
+> **Enables**: `construction`
 > **Timeline**: Years 20-35
 > **Outputs**: cement, concrete, reinforced_concrete
 > **Critical**: Yes — Portland cement is the second most consumed material on Earth after water. Reinforced concrete is the structural backbone of all industrial infrastructure: factory foundations, dams, roads, chemical plants, and semiconductor fabs.

@@ -2,8 +2,7 @@
 
 > **Node ID**: electronics.pcb-fabrication
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`glass.fibers`](../glass/fibers.md), [`polymers.thermosets`](../polymers/thermosets.md), [`chemistry.acids`](../chemistry/acids.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`electronics.assembly`](assembly.md), [`computing.electronic`](../computing/electronic.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper`](../metals/copper.md)
 > **Timeline**: Years 25-45
 > **Outputs**: pcb_bare_boards, copper_clad_laminate, etched_circuits
 > **Critical**: Yes — PCBs are the universal interconnection substrate for all electronic assemblies from simple controllers to multi-GHz computers

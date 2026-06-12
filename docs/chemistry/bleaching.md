@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.bleaching
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Textiles, Fiber & Cordage`](../textiles/index.md), [`Basic Water Treatment`](../water/basic-treatment.md)
-> **Enables**: [`Electrolysis`](electrolysis.md)
+> **Dependencies**: [`chemistry.electrolysis`](./electrolysis.md)
+> **Enables**: `textiles`, [`water.basic-treatment`](../water/basic-treatment.md)
 > **Timeline**: Years 15-25
 > **Outputs**: sodium-hypochlorite, chlorine-gas, bleached-textiles
 > **Critical**: No

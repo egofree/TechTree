@@ -2,8 +2,10 @@
 
 > **Node ID**: ehs.chemical-safety
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `chemistry`
+> **Enables**: [`ehs.emergency-response`](./emergency-response.md),
+> [`ehs.radiation-safety`](./radiation-safety.md), [`ehs.toxicology`](./toxicology.md),
+> [`ehs.ventilation-exhaust`](./ventilation-exhaust.md)
 > **Critical**: No — chemical safety practices reduce accidents but are not on the critical technology path
 > **Timeline**: Years 30-70
 > **Outputs**: chemical_hazard_protocols, tlv_databases, nfpa_ratings, exposure_control_plans

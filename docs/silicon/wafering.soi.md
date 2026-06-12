@@ -2,8 +2,7 @@
 
 > **Node ID**: `silicon.wafering.soi`
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: None
-> **Enables**: [`silicon.wafering`](../silicon/wafering.md)
+> **Dependencies**: [`silicon.wafering`](./wafering.md)
 > **Outputs**: soi_wafers, buried_oxide_layers
 > **Timeline**: Years 60-150+
 > **Critical**: No

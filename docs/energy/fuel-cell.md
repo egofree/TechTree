@@ -2,8 +2,11 @@
 
 > **Node ID**: energy.fuel-cell
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Electrolysis`](../chemistry/electrolysis.md), [`Water Electrolysis`](../chemistry/water-electrolysis.md), [`Energy Storage & Diversification`](storage.md)
-> **Enables**: [`Chemistry`](../chemistry/index.md), [`Thermochemical Water Splitting`](../chemistry/thermochemical-water-splitting.md)
+> **Dependencies**: `chemistry`,
+> [`chemistry.electrolysis.thermochemical-water-splitting`](../chemistry/electrolysis.thermochemical-water-splitting.md)
+> **Enables**: [`chemistry.electrolysis`](../chemistry/electrolysis.md),
+> [`chemistry.water-electrolysis`](../chemistry/water-electrolysis.md),
+> [`energy.storage`](./storage.md)
 > **Timeline**: Years 30-50
 > **Outputs**: electricity, water, heat
 > **Critical**: No

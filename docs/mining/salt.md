@@ -2,8 +2,9 @@
 
 > **Node ID**: mining.salt
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`Food Processing`](../food-processing/index.md), [`Electrolysis`](../chemistry/electrolysis.md)
-> **Enables**: [`Energy`](../energy/index.md)
+> **Dependencies**: `energy`
+> **Enables**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), `food-processing`,
+> [`food-processing.traditional-preservation`](../food-processing/traditional-preservation.md)
 > **Timeline**: Years 1-10
 > **Outputs**: salt, brine, rock-salt
 > **Critical**: No

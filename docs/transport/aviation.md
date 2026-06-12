@@ -2,8 +2,9 @@
 
 > **Node ID**: transport.aviation
 > **Domain**: [Transport](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.engine`](../energy/engine.md), [`machine-tools`](../machine-tools/index.md), [`metals.aluminum`](../metals/aluminum.md), [`textiles`](../textiles/index.md)
-> **Enables**: [`transport.light-aircraft`](light-aircraft.md), [`marine.navigation`](../marine/navigation.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md),
+> [`energy.engine`](../energy/engine.md), `machine-tools`,
+> [`metals.aluminum`](../metals/aluminum.md), `textiles`
 > **Timeline**: Years 10-50+
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
 > **Critical**: No

@@ -2,8 +2,7 @@
 
 > **Node ID**: health.nutrition
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`food-processing.preservation`](../food-processing/preservation.md), [`health.diagnostics`](diagnostics.md)
-> **Enables**: [`health.pharmacology`](pharmacology.md), [`health.occupational-health`](occupational-health.md)
+> **Dependencies**: `chemistry`, `food-processing`, [`health.diagnostics`](./diagnostics.md)
 > **Timeline**: Years 5-100+
 > **Outputs**: nutritional_guidelines, deficiency_prevention_protocols
 > **Critical**: No — but deficiency diseases are among the fastest-acting civilization-killers; scurvy incapacitates in 4-8 weeks of vitamin C deprivation

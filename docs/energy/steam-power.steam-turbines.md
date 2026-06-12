@@ -2,8 +2,11 @@
 
 > **Node ID**: `energy.steam-power.steam-turbines`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.gas-turbine`](../energy/gas-turbine.md)
-> **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`machine-tools.machining`](../machine-tools/machining.md), [`metals.alloys`](../metals/alloys.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`energy.steam-power`](./steam-power.md),
+> [`machine-tools.machining`](../machine-tools/machining.md),
+> [`metals.alloys`](../metals/alloys.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`energy.gas-turbine`](./gas-turbine.md)
 > **Outputs**: steam_turbine_power, turbine_generators
 > **Timeline**: Years 25-50+
 > **Critical**: No

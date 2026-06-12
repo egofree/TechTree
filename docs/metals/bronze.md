@@ -2,8 +2,11 @@
 
 > **Node ID**: metals.bronze
 > **Domain**: [Metallurgy](./index.md)
-> **Dependencies**: [`metals.copper`](copper.md), [`metals.non-ferrous`](non-ferrous.md)
-> **Enables**: [`health.medical-instruments`](../health/medical-instruments.md), [`textiles.sewing-tailoring`](../textiles/sewing-tailoring.md)
+> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`metals.copper`](./copper.md),
+> [`metals.non-ferrous`](./non-ferrous.md)
+> **Enables**: [`health.medical-instruments`](../health/medical-instruments.md),
+> [`metals.iron-steel`](./iron-steel.md),
+> [`textiles.sewing-tailoring`](../textiles/sewing-tailoring.md)
 > **Timeline**: Years 5-10
 > **Outputs**: bronze, bronze_castings, bronze_ingots, bronze_tools
 > **Critical**: No

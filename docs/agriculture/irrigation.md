@@ -2,8 +2,7 @@
 
 > **Node ID**: agriculture.irrigation
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`agriculture`](./index.md), [`water.procurement`](../water/procurement.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`food-processing`](../food-processing/index.md), [`agriculture.soil-management`](soil-management.md)
+> **Dependencies**: `construction`, `energy`, [`water.distribution`](../water/distribution.md)
 > **Timeline**: Years 0-15+
 > **Outputs**: irrigation_water, irrigated_land, water_delivery_infrastructure
 > **Critical**: Yes — in arid and semi-arid climates, irrigation is the difference between productive agriculture and subsistence failure

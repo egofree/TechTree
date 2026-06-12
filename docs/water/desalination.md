@@ -2,8 +2,7 @@
 
 > **Node ID**: water.desalination
 > **Domain**: [Water](./index.md)
-> **Dependencies**: [`chemistry.electrodialysis`](../chemistry/sem-tech-electrodialysis.md)
-> **Enables**: [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`chemistry.electrodialysis`](../chemistry/electrodialysis.md)
 > **Timeline**: Years 25-45
 > **Outputs**: fresh_water, brine
 > **Critical**: No — essential only in water-scarce coastal or brackish regions; most civilizations can develop without it initially

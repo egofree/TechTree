@@ -2,8 +2,7 @@
 
 > **Node ID**: `chemistry.electrolysis.chlor-alkali`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md)
-> **Enables**: None
+> **Enables**: [`chemistry.electrolysis`](./electrolysis.md)
 > **Outputs**: chlor_alkali_chlorine, chlor_alkali_caustic, chlor_alkali_hydrogen
 > **Timeline**: Years 20-35
 > **Critical**: No

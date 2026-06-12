@@ -2,8 +2,7 @@
 
 > **Node ID**: ultra-pure.analytical-verification
 > **Domain**: [Ultra-Pure Materials](./index.md)
-> **Dependencies**: [Measurement](../measurement/index.md), [Ultra-Pure Water](upw.md), [High-Purity Chemicals](high-purity-chemicals.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `measurement`, [`ultra-pure.upw`](./upw.md)
 > **Timeline**: Years 40-80
 > **Outputs**: contamination_data, purity_certification
 > **Critical**: Yes — analytical verification enables all ultra-pure material production by confirming that purity targets are met

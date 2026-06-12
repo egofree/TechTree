@@ -2,8 +2,8 @@
 
 > **Node ID**: construction.building-materials
 > **Domain**: [Construction](./index.md)
-> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md)
-> **Enables**: [`construction.industrial-buildings`](./industrial-buildings.md), [`construction.structural-engineering`](./structural-engineering.md)
+> **Dependencies**: [`foundations.sawmilling`](../foundations/sawmilling.md),
+> [`foundations.tools-basic`](../foundations/tools-basic.md)
 > **Timeline**: Years 5-25
 > **Outputs**: timber_frames, masonry_walls, roofing_systems, waterproofing, scaffolding, hoisting_equipment
 > **Critical**: Yes — all permanent structures require building materials; without them, civilization remains limited to temporary shelters

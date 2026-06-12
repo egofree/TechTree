@@ -2,8 +2,8 @@
 
 > **Node ID**: water.sewage
 > **Domain**: [Water](./index.md)
-> **Dependencies**: [`water.distribution`](distribution.md), [`chemistry.cement`](../chemistry/cement.md)
-> **Enables**: [`health.sanitation`](../health/sanitation.md), [`agriculture`](../agriculture/index.md)
+> **Enables**: [`chemistry.water-treatment`](../chemistry/water-treatment.md),
+> [`ehs.waste-management`](../ehs/waste-management.md)
 > **Timeline**: Years 10-35
 > **Outputs**: treated_wastewater, sewage_disposal, biogas
 > **Critical**: Yes — cholera epidemics in 19th-century cities demonstrated that sewage management is a prerequisite for urban civilization at any scale

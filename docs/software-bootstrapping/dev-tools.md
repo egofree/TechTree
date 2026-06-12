@@ -2,8 +2,9 @@
 
 > **Node ID**: software-bootstrapping.dev-tools
 > **Domain**: [Software Bootstrapping](./index.md)
-> **Dependencies**: [`software-bootstrapping.compilers`](compilers.md), [`software-bootstrapping.assemblers`](assemblers.md)
-> **Enables**: Productive software development at scale
+> **Dependencies**: [`software-bootstrapping.compilers`](./compilers.md),
+> [`software-bootstrapping.self-hosting`](./self-hosting.md)
+> **Enables**: [`software-bootstrapping.operating-systems`](./operating-systems.md)
 > **Timeline**: Years 60-75
 > **Outputs**: text_editors, debuggers, build_systems
 > **Critical**: No — programs can be written without these tools, but productivity is severely limited

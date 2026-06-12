@@ -2,8 +2,14 @@
 
 > **Node ID**: health.pharmacology
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`chemistry.distillation`](../chemistry/distillation.md), [`health.medicine`](medicine.md)
-> **Enables**: [`health.pharmaceutical-production`](pharmaceutical-production.md), [`plants.medicinal-plants`](../plants/medicinal-plants.md)
+> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md),
+> [`chemistry.distillation`](../chemistry/distillation.md),
+> [`health.medicine`](./medicine.md)
+> **Enables**: [`ehs.toxicology`](../ehs/toxicology.md),
+> [`health.emergency-care`](./emergency-care.md),
+> [`health.infectious-disease`](./infectious-disease.md),
+> [`health.pharmaceutical-production`](./pharmaceutical-production.md),
+> [`plants.medicinal-plants`](../plants/medicinal-plants.md)
 > **Timeline**: Years 10-100+
 > **Outputs**: pharmaceuticals
 > **Critical**: Yes — without pharmacological knowledge, drug preparation is unstandardized and potentially dangerous

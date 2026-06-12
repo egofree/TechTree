@@ -2,8 +2,9 @@
 
 > **Node ID**: `photolithography.fab-processes.pvd`
 > **Domain**: [Photolithography](./index.md)
-> **Dependencies**: None
-> **Enables**: [`metals.specialty-semiconductor`](../metals/specialty-semiconductor.md), [`vacuum.deposition-systems`](../vacuum/deposition-systems.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Dependencies**: [`metals.specialty-semiconductor`](../metals/specialty-semiconductor.md),
+> [`vacuum.deposition-systems`](../vacuum/deposition-systems.md),
+> [`vacuum.pumps`](../vacuum/pumps.md)
 > **Outputs**: metal_thin_films, barrier_layers, adhesion_layers
 > **Timeline**: Years 45-65
 > **Critical**: No

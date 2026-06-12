@@ -2,8 +2,11 @@
 
 > **Node ID**: chemistry.electrodialysis
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Electrolysis`](electrolysis.md)
-> **Enables**: [`Desalination`](../water/desalination.md), [`Hydroponic pH Control`](../agriculture/hydroponic-ph-control.md), [`Blue Energy (Osmotic Power)`](../energy/blue-energy.md), [`Acid Regeneration`](acid-regeneration.md)
+> **Dependencies**: [`agriculture.hydroponic-ph-control`](../agriculture/hydroponic-ph-control.md),
+> [`chemistry.acid-regeneration`](./acid-regeneration.md),
+> [`energy.blue-energy`](../energy/blue-energy.md),
+> [`water.desalination`](../water/desalination.md)
+> **Enables**: [`chemistry.electrolysis`](./electrolysis.md)
 > **Timeline**: Years 25-45
 > **Outputs**: separated_ions, purified_water
 > **Critical**: No

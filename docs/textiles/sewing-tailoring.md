@@ -2,8 +2,8 @@
 
 > **Node ID**: textiles.sewing-tailoring
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`metals.copper`](../metals/copper.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
-> **Enables**: [`construction`](../construction/index.md), [`transport.shipping`](../transport/shipping.md)
+> **Dependencies**: [`metals.bronze`](../metals/bronze.md), `textiles`,
+> [`textiles.weaving`](./weaving.md)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
 > **Critical**: No

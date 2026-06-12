@@ -2,8 +2,9 @@
 
 > **Node ID**: marine.propulsion
 > **Domain**: [Marine & Naval Engineering](./index.md)
-> **Dependencies**: [`energy.engine`](../energy/engine.md), [`energy.steam-power`](../energy/steam-power.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`transport.shipping`](../transport/shipping.md), [`marine.navigation`](navigation.md)
+> **Dependencies**: [`energy.engine`](../energy/engine.md),
+> [`energy.steam-power`](../energy/steam-power.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: marine engines, propellers, paddle wheels
 > **Critical**: No — specialized maritime capability, not required for land-based civilization

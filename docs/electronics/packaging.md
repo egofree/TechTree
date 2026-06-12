@@ -2,8 +2,7 @@
 
 > **Node ID**: electronics.packaging
 > **Domain**: [Electronics](./index.md)
-> **Dependencies**: [`Electronics Assembly`](assembly.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: [`electronics.assembly`](./assembly.md)
 > **Timeline**: Years 30-50
 > **Outputs**: packaged_ics, wire_bonds, leadframes, bga_substrates
 > **Critical**: No

@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.acid-regeneration
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Electrodialysis`](electrodialysis.md)
-> **Enables**: [`Primary Metal Forming`](../metals/forming.md)
+> **Dependencies**: [`metals.forming`](../metals/forming.md)
+> **Enables**: [`chemistry.electrodialysis`](./electrodialysis.md)
 > **Timeline**: Years 25-45
 > **Outputs**: regenerated_acid
 > **Critical**: No

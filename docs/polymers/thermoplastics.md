@@ -2,8 +2,11 @@
 
 > **Node ID**: polymers.thermoplastics
 > **Domain**: [Polymers & Composites](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools`](../machine-tools/index.md)
-> **Enables**: [`computing.data-storage`](../computing/data-storage.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md)
+> **Dependencies**: `chemistry`,
+> [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md),
+> `machine-tools`
+> **Enables**: [`computing.data-storage`](../computing/data-storage.md),
+> [`electronics.electrical-systems`](../electronics/electrical-systems.md)
 > **Timeline**: Years 15-50
 > **Outputs**: polyethylene, PVC, nylon, polystyrene, PTFE
 > **Critical**: No — thermoplastics expand material capability but the critical path uses metals and ceramics at earlier stages

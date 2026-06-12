@@ -2,8 +2,11 @@
 
 > **Node ID**: energy.storage
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: `chemistry`, `energy`, `metals`, [`polymers.rubber`](../polymers/rubber.md)
-> **Enables**: [`energy.electricity.power-systems`](electricity.md)
+> **Dependencies**: `chemistry`, [`chemistry.e-methanol`](../chemistry/e-methanol.md), `energy`,
+> [`energy.fuel-cell`](./fuel-cell.md),
+> [`energy.redox-flow-battery`](./redox-flow-battery.md), `metals`,
+> [`polymers.rubber`](../polymers/rubber.md)
+> **Enables**: [`energy.electricity.power-systems`](./electricity.power-systems.md)
 > **Timeline**: Years 15-200+
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
 > **Critical**: No — energy storage enables renewable intermittency management and power backup but is not on the critical bootstrap path

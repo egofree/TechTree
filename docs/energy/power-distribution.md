@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.power-distribution
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.electricity`](electricity.md), [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`energy.electricity.power-systems`](electricity.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md), [`telecom`](../telecom/index.md)
+> **Dependencies**: [`energy.electricity`](./electricity.md)
+> **Enables**: `telecom`
 > **Timeline**: Years 15-30
 > **Outputs**: distribution_transformers, power_transformers, substations, switchgear, distribution_panels, instrument_transformers
 > **Critical**: Yes — Without transformers, AC power distribution beyond 1-2 km is impractical. No long-distance transmission means no centralized generation means no industrial-scale power.

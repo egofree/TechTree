@@ -2,8 +2,8 @@
 
 > **Node ID**: food-processing.traditional-preservation
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`mining`](../mining/index.md), [`health.sanitation`](../health/sanitation.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `ceramics`, [`health.sanitation`](../health/sanitation.md),
+> [`mining.salt`](../mining/salt.md)
 > **Critical**: No — traditional preservation extends storage life but requires no industrial infrastructure
 > **Timeline**: Years 0+
 > **Outputs**: dried_food, salted_food, smoked_food

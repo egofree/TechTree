@@ -2,8 +2,8 @@
 
 > **Node ID**: `petroleum.extraction.rotary`
 > **Domain**: [Petroleum](./index.md)
-> **Dependencies**: None
-> **Enables**: [`petroleum.extraction`](../petroleum/extraction.md), [`petroleum.extraction.cable-tool`](../petroleum/extraction.cable-tool.md)
+> **Dependencies**: [`petroleum.extraction`](./extraction.md),
+> [`petroleum.extraction.cable-tool`](./extraction.cable-tool.md)
 > **Outputs**: crude_oil
 > **Timeline**: Years 20-35
 > **Critical**: No

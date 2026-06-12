@@ -2,8 +2,7 @@
 
 > **Node ID**: quality-control.defect-analysis
 > **Domain**: [Quality Control](./index.md)
-> **Dependencies**: [`quality-control`](./index.md), [`quality-control.spc`](statistical-process-control.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `quality-control`, [`quality-control.spc`](./spc.md)
 > **Timeline**: Years 40-100+
 > **Outputs**: fmea, pareto_analysis, fishbone_diagrams, yield_models, defect_density, root_cause_analysis
 > **Critical**: No — defect analysis improves yields but production can continue without systematic analysis

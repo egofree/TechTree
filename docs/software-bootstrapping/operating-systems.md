@@ -2,8 +2,8 @@
 
 > **Node ID**: software-bootstrapping.operating-systems
 > **Domain**: [Software Bootstrapping](./index.md)
-> **Dependencies**: [`software-bootstrapping.assemblers`](assemblers.md), [`computing.data-storage`](../computing/data-storage.md)
-> **Enables**: [`software-bootstrapping.dev-tools`](dev-tools.md)
+> **Dependencies**: [`software-bootstrapping.dev-tools`](./dev-tools.md)
+> **Enables**: `computing`
 > **Timeline**: Years 55-70
 > **Outputs**: operating_system, process_management, file_systems
 > **Critical**: Yes — the OS manages hardware resources and provides the execution environment for all application software

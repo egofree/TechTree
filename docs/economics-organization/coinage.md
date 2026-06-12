@@ -2,8 +2,9 @@
 
 > **Node ID**: economics-organization.coinage
 > **Domain**: [Economics-Organization](./index.md)
-> **Dependencies**: [`Currency & Standardized Exchange`](currency.md)
-> **Enables**: [`Primary Metal Forming`](../metals/forming.md), [`Metal Finishing & Surface Treatment`](../metals/finishing.md)
+> **Dependencies**: [`metals.finishing`](../metals/finishing.md),
+> [`metals.forming`](../metals/forming.md)
+> **Enables**: [`economics-organization.currency`](./currency.md)
 > **Timeline**: Years 10-20
 > **Outputs**: coins, struck-alloy-discs
 > **Critical**: No

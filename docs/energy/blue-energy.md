@@ -2,8 +2,7 @@
 
 > **Node ID**: energy.blue-energy
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Electrodialysis`](../chemistry/electrodialysis.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: [`chemistry.electrodialysis`](../chemistry/electrodialysis.md)
 > **Timeline**: Years 35-55
 > **Outputs**: electricity
 > **Critical**: No

@@ -2,8 +2,7 @@
 
 > **Node ID**: mining.sulfur-extraction
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`Mineral Acid Production`](../chemistry/acids.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: [`chemistry.acids`](../chemistry/acids.md)
 > **Timeline**: Years 10-25
 > **Outputs**: elemental_sulfur, sulfur_dioxide, sulfuric_acid_precursor
 > **Critical**: No

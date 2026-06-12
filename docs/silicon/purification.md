@@ -2,8 +2,13 @@
 
 > **Node ID**: silicon.purification
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`gas-handling.basic`](../gas-handling/basic.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `chemistry`, [`chemistry.distillation`](../chemistry/distillation.md),
+> [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md),
+> [`chemistry.phosphorus`](../chemistry/phosphorus.md),
+> [`chemistry.semiconductor-chemicals`](../chemistry/semiconductor-chemicals.md),
+> [`energy.electricity`](../energy/electricity.md),
+> [`gas-handling.basic`](../gas-handling/basic.md),
+> [`silicon.mg-si-production`](./mg-si-production.md), `vacuum`
 > **Timeline**: Years 30-50
 > **Outputs**: purified_silicon, polysilicon, chlorosilanes
 > **Critical**: Yes — 9N+ purity polysilicon is required for all electronic-grade semiconductor devices

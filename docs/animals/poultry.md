@@ -2,8 +2,14 @@
 
 > **Node ID**: animals.poultry
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`animals.domestication`](domestication.md)
-> **Enables**: [`animals.poultry.chickens`](poultry-chickens.md), [`animals.poultry.coturnix`](poultry-coturnix.md), [`animals.poultry.ducks`](poultry-ducks.md), [`animals.poultry.geese`](poultry-geese.md), [`animals.poultry.guinea-fowl`](poultry-guinea-fowl.md), [`animals.poultry.pigeons`](poultry-pigeons.md), [`animals.poultry.turkeys`](poultry-turkeys.md)
+> **Dependencies**: `animals`, [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Enables**: [`animals.poultry.chickens`](./poultry.chickens.md),
+> [`animals.poultry.coturnix`](./poultry.coturnix.md),
+> [`animals.poultry.ducks`](./poultry.ducks.md),
+> [`animals.poultry.geese`](./poultry.geese.md),
+> [`animals.poultry.guinea-fowl`](./poultry.guinea-fowl.md),
+> [`animals.poultry.pigeons`](./poultry.pigeons.md),
+> [`animals.poultry.turkeys`](./poultry.turkeys.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: meat, eggs, feathers, manure, pest_control
 > **Critical**: Yes — fastest-converting livestock; first animals to establish after securing grain production

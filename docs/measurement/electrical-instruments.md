@@ -2,8 +2,9 @@
 
 > **Node ID**: measurement.electrical-instruments
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`measurement`](./index.md)
-> **Enables**: [`computing.electromechanical`](../computing/electromechanical.md), [`telecom.radio`](../telecom/radio.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `measurement`
+> **Enables**: [`energy.electricity.power-systems`](../energy/electricity.power-systems.md),
+> [`measurement.thermostat-electrical`](./thermostat-electrical.md)
 > **Timeline**: Years 20-35
 > **Outputs**: voltmeter, ammeter, ohmmeter, oscilloscope, multimeter, insulation_tester, frequency_counter
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments

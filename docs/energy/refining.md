@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.refining
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels`](fuels.md), [`mining`](../mining/index.md), [`chemistry`](../chemistry/index.md)
-> **Enables**: [`energy.engine`](engine.md), [`petroleum`](../petroleum/index.md)
+> **Dependencies**: [`energy.fuels`](./fuels.md)
+> **Enables**: `marine`
 > **Timeline**: Years 10-25
 > **Outputs**: refined_fuel, distilled_oil, cracked_products
 > **Critical**: No — refining enables liquid fuels for engines but is not required for the earliest bootstrap stages

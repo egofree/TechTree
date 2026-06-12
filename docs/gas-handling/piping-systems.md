@@ -2,8 +2,8 @@
 
 > **Node ID**: gas-handling.piping-systems
 > **Domain**: [Gas Handling](./index.md)
-> **Dependencies**: [`gas-handling.basic`](basic.md) (piping, valves), [`metals.iron-steel`](../metals/iron-steel.md) (steel pipe), [`machine-tools.machining`](../machine-tools/machining.md) (precision pipe threading)
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md) (fab gas distribution), [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md) (specialty gas panels), [`energy.steam-power`](../energy/steam-power.md) (steam distribution)
+> **Dependencies**: [`gas-handling.basic`](./basic.md)
+> **Enables**: `construction`
 > **Timeline**: Years 20-40
 > **Outputs**: gas_piping, distribution_manifolds, leak_tested_systems
 > **Critical**: No — basic piping from gas-handling.basic covers the same function at lower scale

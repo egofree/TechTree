@@ -2,8 +2,8 @@
 
 > **Node ID**: foundations.carpentry
 > **Domain**: [Foundations](./index.md)
-> **Dependencies**: [`Construction & Structural Engineering`](../construction/index.md), [`Machine Tools Bootstrap`](../machine-tools/index.md)
-> **Enables**: [`Foundations`](index.md)
+> **Dependencies**: `foundations`
+> **Enables**: `construction`, `machine-tools`
 > **Timeline**: Years 1-5
 > **Outputs**: wooden-structures, furniture, wooden-patterns
 > **Critical**: No

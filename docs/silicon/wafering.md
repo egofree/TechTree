@@ -2,8 +2,11 @@
 
 > **Node ID**: silicon.wafering
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`silicon.crystal-growth`](crystal-growth.md)
-> **Enables**: [`silicon.basic-devices`](basic-devices.md)
+> **Dependencies**: `silicon`, [`silicon.crystal-growth`](./crystal-growth.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md),
+> [`silicon.basic-devices`](./basic-devices.md),
+> [`silicon.wafering.epitaxy`](./wafering.epitaxy.md),
+> [`silicon.wafering.soi`](./wafering.soi.md)
 > **Timeline**: Years 45-60
 > **Outputs**: silicon_wafers, polished_substrates, epitaxial_wafers
 > **Critical**: Yes — polished wafers are the substrate for all semiconductor device fabrication

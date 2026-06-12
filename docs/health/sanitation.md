@@ -2,8 +2,16 @@
 
 > **Node ID**: health.sanitation
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`water.procurement`](../water/procurement.md)
-> **Enables**: [`food-processing`](../food-processing/index.md), [`food-processing.dairy`](../food-processing/dairy.md), [`food-processing.preservation`](../food-processing/preservation.md), [`health.medicine`](medicine.md), [`knowledge.writing`](../knowledge/writing.md)
+> **Dependencies**: `ceramics`, [`water.procurement`](../water/procurement.md)
+> **Enables**: `food-processing`, [`food-processing.dairy`](../food-processing/dairy.md),
+> [`food-processing.pasteurization`](../food-processing/pasteurization.md),
+> [`food-processing.preservation`](../food-processing/preservation.md),
+> [`food-processing.traditional-preservation`](../food-processing/traditional-preservation.md),
+> [`health.infectious-disease`](./infectious-disease.md),
+> [`health.medicine`](./medicine.md),
+> [`health.pharmaceutical-production`](./pharmaceutical-production.md),
+> [`health.surgery-basics`](./surgery-basics.md),
+> [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: clean_water, sanitation
 > **Critical**: Yes — clean water and sewage disposal prevent more disease than all medical treatments combined

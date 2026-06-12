@@ -2,8 +2,7 @@
 
 > **Node ID**: `petroleum.petrochemicals.steam-cracking`
 > **Domain**: [Petroleum](./index.md)
-> **Dependencies**: None
-> **Enables**: [`petroleum.petrochemicals`](../petroleum/petrochemicals.md)
+> **Dependencies**: [`petroleum.petrochemicals`](./petrochemicals.md)
 > **Outputs**: ethylene, propylene, butadiene, pyrolysis_gasoline
 > **Timeline**: Years 25-50+
 > **Critical**: No

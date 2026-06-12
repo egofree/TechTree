@@ -2,8 +2,9 @@
 
 > **Node ID**: glass.fibers
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: [`glass`](./index.md), [`glass.advanced`](advanced.md)
-> **Enables**: [`electronics.assembly`](../electronics/assembly.md), [`polymers.composites`](../polymers/composites.md)
+> **Dependencies**: `glass`, [`glass.advanced`](./advanced.md)
+> **Enables**: [`electronics.assembly`](../electronics/assembly.md),
+> [`polymers.composites`](../polymers/composites.md)
 > **Timeline**: Years 30-45
 > **Outputs**: fiberglass, insulation_wool, optical_fiber, composite_reinforcement
 > **Critical**: No — glass fibers improve composites and insulation but alternatives (metal, ceramic wool) exist

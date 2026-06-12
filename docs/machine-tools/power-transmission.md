@@ -4,8 +4,7 @@
 > **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Timeline**: Years 10-20
 > **Outputs**: transmitted_mechanical_power
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.machining`](./machining.md)
-> **Enables**: [`machine-tools.iterative-bootstrap`](./iterative-bootstrap.md), [`energy.steam-power`](../energy/steam-power.md)
+> **Enables**: `machine-tools`
 > **Critical**: No — mechanical power transmission enables multi-machine shops driven by a single prime mover, but individual machines can be hand-powered or directly driven
 
 This article covers mechanical power transmission systems — belts, shafts, pulleys, and line shaft layouts. For individual prime movers, see [Steam Power](../energy/steam-power.md) and [Electric Motor](../energy/electric-motor.md). For the machine tools driven by these systems, see [Machining](./machining.md).

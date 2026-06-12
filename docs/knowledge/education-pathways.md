@@ -2,8 +2,8 @@
 
 > **Node ID**: knowledge.education-pathways
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`knowledge.writing`](writing.md), [`knowledge.education`](education.md), [`knowledge.printing`](printing.md)
-> **Enables**: [`knowledge.standards-bodies`](standards-bodies.md), [`knowledge.technical-drawing`](technical-drawing.md)
+> **Dependencies**: [`knowledge.education`](./education.md)
+> **Enables**: [`knowledge.standards-bodies`](./standards-bodies.md)
 > **Timeline**: Years 5-200+
 > **Outputs**: structured_curricula, skill_certification, practitioner_ladders
 > **Critical**: Yes — without structured learning sequences, knowledge transfer becomes ad hoc and unreliable, producing practitioners of inconsistent quality

@@ -2,8 +2,9 @@
 
 > **Node ID**: metals.blacksmithing
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Machine Tools Bootstrap`](../machine-tools/index.md), [`Construction & Structural Engineering`](../construction/index.md)
-> **Enables**: [`Furnace Design Principles`](../energy/furnace-design.md), [`Iron & Steel Production`](iron-steel.md)
+> **Dependencies**: [`energy.furnace-design`](../energy/furnace-design.md),
+> [`metals.iron-steel`](./iron-steel.md)
+> **Enables**: `construction`, `machine-tools`
 > **Timeline**: Years 5-15
 > **Outputs**: hand-forged-tools, hardware-fittings, wrought-iron-goods
 > **Critical**: No

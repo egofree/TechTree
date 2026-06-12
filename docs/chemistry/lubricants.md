@@ -2,8 +2,13 @@
 
 > **Node ID**: chemistry.lubricants
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
-> **Enables**: [`energy.gravity`](../energy/gravity.md), [`energy.wind`](../energy/wind.md), [`machine-tools.machining`](../machine-tools/machining.md)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md),
+> [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md), `foundations`,
+> [`machine-tools.hydraulic-systems`](../machine-tools/hydraulic-systems.md)
+> **Enables**: [`energy.gravity`](../energy/gravity.md),
+> [`energy.hydraulics`](../energy/hydraulics.md),
+> [`energy.stirling-engine`](../energy/stirling-engine.md),
+> [`energy.wind`](../energy/wind.md), `machine-tools`
 > **Timeline**: Years 0-200+
 > **Outputs**: lubricating_oil, grease, cutting_fluid, hydraulic_fluid, vacuum_oil
 > **Critical**: No — lubricants extend machine life and reduce friction but are not prerequisites for core capabilities

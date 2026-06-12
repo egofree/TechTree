@@ -5,8 +5,7 @@
 > **Timeline**: Years 45-80
 > **Outputs**: wafer_stages, reticle_stages, scanner_systems
 > **Critical**: Yes — wafer stages are the enabling technology for photolithography; no alternative method can position wafers with sub-10nm accuracy during exposure at production throughput
-> **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Precision Encoders & Feedback](./precision-encoders.md), [Vibration Isolation](./vibration-isolation.md), [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md)
-> **Enables**: [Advanced Lithography](../vlsi-scaling/advanced-lithography.md), [Vacuum Systems](../vacuum/index.md)
+> **Dependencies**: [`machine-tools.edm-cnc`](../machine-tools/edm-cnc.md)
 
 The wafer stage is the most mechanically demanding single assembly in semiconductor manufacturing. It must position a 300 mm silicon wafer with ±5 nm accuracy while accelerating at 2-10g, scanning at 1-2 m/s, and maintaining flatness below 50 nm — all in a vacuum or controlled atmosphere. This document covers the architecture of stepper and scanner wafer stages, reticle (mask) stages, and the synchronization between them during exposure. For the underlying actuation technologies, see [Nanometer Positioning](./nanometer-positioning.md); for vibration isolation of the stage platform, see [Vibration Isolation](./vibration-isolation.md).
 

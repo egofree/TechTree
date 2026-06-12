@@ -2,8 +2,9 @@
 
 > **Node ID**: measurement.thermostat-mechanical
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`metals`](../metals/copper.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.forming`](../machine-tools/forming.md)
-> **Enables**: [`measurement.thermostat-fluid`](./thermostat-fluid.md), [`measurement.thermostat-electrical`](./thermostat-electrical.md)
+> **Dependencies**: `machine-tools`, [`measurement.temperature-pressure`](./temperature-pressure.md),
+> `metals`
+> **Enables**: [`measurement.thermostat-fluid`](./thermostat-fluid.md)
 > **Critical**: No — manual temperature monitoring is a functional alternative
 > **Timeline**: Years 5-20
 > **Outputs**: on_off_control, temperature_switching, mechanical_actuation

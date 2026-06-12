@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.rare-earths
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Electronics`](../electronics/index.md), [`Photolithography & IC Fabrication`](../photolithography/index.md)
-> **Enables**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
+> **Dependencies**: `mining`
+> **Enables**: `electronics`, `photolithography`
 > **Timeline**: Years 30-50
 > **Outputs**: gallium, indium, germanium, neodymium, rare-earth-oxides
 > **Critical**: No

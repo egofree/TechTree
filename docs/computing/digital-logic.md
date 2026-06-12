@@ -2,8 +2,8 @@
 
 > **Node ID**: computing.digital-logic
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: [`computing`](./index.md), [`computing.electronic`](electronic.md), [`mathematics.formal-systems`](../mathematics/formal-systems.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `computing`, [`computing.electronic`](./electronic.md),
+> [`mathematics.formal-systems`](../mathematics/formal-systems.md)
 > **Timeline**: Years 40-50
 > **Outputs**: logic_gates, combinational_circuits, sequential_circuits, arithmetic_units, memory_elements
 > **Critical**: Yes — all digital hardware from processors to memory requires gate-level logic design

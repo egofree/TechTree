@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.pneumatics
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Construction & Structural Engineering`](../construction/index.md)
-> **Enables**: [`Gas Handling`](../gas-handling/index.md), [`Energy`](index.md)
+> **Dependencies**: `energy`, `gas-handling`
+> **Enables**: `construction`
 > **Timeline**: Years 15-25
 > **Outputs**: compressed-air-systems, pneumatic-tools
 > **Critical**: No

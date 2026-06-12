@@ -2,8 +2,9 @@
 
 > **Node ID**: machine-tools.fasteners
 > **Domain**: [Machine-Tools](./index.md)
-> **Dependencies**: [`Mass Production & Interchangeability`](mass-production.md)
-> **Enables**: [`Iron & Steel Production`](../metals/iron-steel.md), [`Machining`](machining.md)
+> **Dependencies**: [`machine-tools.machining`](./machining.md),
+> [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`machine-tools.mass-production`](./mass-production.md)
 > **Timeline**: Years 10-20
 > **Outputs**: standardized-screws, bolts, nuts, threaded-rods
 > **Critical**: No

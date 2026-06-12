@@ -2,8 +2,8 @@
 
 > **Node ID**: `machine-tools.joining.resistance-welding`
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: None
-> **Enables**: [`energy.electricity`](../energy/electricity.md), [`machine-tools.joining`](../machine-tools/joining.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`machine-tools.joining`](./joining.md)
 > **Outputs**: resistance_welds, spot_welds, seam_welds
 > **Timeline**: Years 20-50
 > **Critical**: No

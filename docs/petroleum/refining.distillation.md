@@ -2,8 +2,8 @@
 
 > **Node ID**: `petroleum.refining.distillation`
 > **Domain**: [Petroleum](./index.md)
-> **Dependencies**: [`petroleum.refining.cracking`](../petroleum/refining.cracking.md)
-> **Enables**: [`petroleum.refining`](../petroleum/refining.md)
+> **Dependencies**: [`petroleum.refining`](./refining.md)
+> **Enables**: [`petroleum.refining.cracking`](./refining.cracking.md)
 > **Outputs**: naphtha, kerosene, diesel, atmospheric_residue, vacuum_gas_oil, vacuum_residue
 > **Timeline**: Years 15-30
 > **Critical**: No

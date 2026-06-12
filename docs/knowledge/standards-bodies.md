@@ -2,8 +2,10 @@
 
 > **Node ID**: knowledge.standards-bodies
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`knowledge.writing`](writing.md), [`knowledge.printing`](printing.md), [`knowledge.technical-drawing`](technical-drawing.md), [`measurement`](../measurement/index.md)
-> **Enables**: [`knowledge.information-durability`](information-durability.md)
+> **Dependencies**: [`knowledge.education-pathways`](./education-pathways.md),
+> [`knowledge.technical-drawing`](./technical-drawing.md),
+> [`knowledge.writing`](./writing.md)
+> **Enables**: [`knowledge.information-durability`](./information-durability.md)
 > **Timeline**: Years 10-200+
 > **Outputs**: technical_standards, measurement_standards, quality_standards, interoperability_specifications
 > **Critical**: Yes — without agreed standards, every workshop produces incompatible parts, measurement systems diverge, and inter-settlement trade in manufactured goods collapses

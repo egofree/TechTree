@@ -2,8 +2,8 @@
 
 > **Node ID**: ceramics.lime
 > **Domain**: [Ceramics & Refractories](./index.md)
-> **Dependencies**: [`ceramics.kilns`](kilns.md), [`mining`](../mining/index.md)
-> **Enables**: [`animals.animal-materials`](../animals/animal-materials.md), [`construction`](../construction/index.md)
+> **Dependencies**: [`ceramics.kilns`](./kilns.md)
+> **Enables**: [`animals.animal-materials`](../animals/animal-materials.md), `construction`
 > **Timeline**: Years 5-15
 > **Outputs**: lime, quicklime, mortar, plaster, whitewash
 > **Critical**: Yes — lime is the primary binder for construction, a flux for metallurgy, and a chemical feedstock for industry; no other single material touches as many domains at as many stages of development

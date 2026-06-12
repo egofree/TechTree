@@ -2,8 +2,8 @@
 
 > **Node ID**: `optics.inspection.optical-coatings`
 > **Domain**: [Optics](./index.md)
-> **Dependencies**: None
-> **Enables**: [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`optics.inspection`](../optics/inspection.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Dependencies**: [`gas-handling.vacuum`](../gas-handling/vacuum.md),
+> [`optics.inspection`](./inspection.md), [`vacuum.pumps`](../vacuum/pumps.md)
 > **Outputs**: ar_coatings, mirror_coatings, optical_filters
 > **Timeline**: Years 35-50+
 > **Critical**: No

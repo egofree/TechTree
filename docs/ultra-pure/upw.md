@@ -2,8 +2,10 @@
 
 > **Node ID**: ultra-pure.upw
 > **Domain**: [Ultra-Pure Materials](./index.md)
-> **Dependencies**: [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md), [Polymers](../polymers/index.md), [Energy](../energy/index.md)
-> **Enables**: [High-Purity Chemicals](high-purity-chemicals.md), [Analytical Verification](analytical-verification.md)
+> **Dependencies**: `water`
+> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md),
+> [`ultra-pure.analytical-verification`](./analytical-verification.md),
+> [`ultra-pure.high-purity-chemicals`](./high-purity-chemicals.md)
 > **Timeline**: Years 40-70
 > **Outputs**: ultra_pure_water
 > **Critical**: Yes — UPW is the most consumed material in semiconductor fabs; a single fab uses 5-10 million liters per day

@@ -2,8 +2,8 @@
 
 > **Node ID**: agriculture.seed-saving
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`agriculture`](./index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`agriculture.crop-rotation`](crop-rotation.md), [`food-processing`](../food-processing/index.md)
+> **Dependencies**: `agriculture`
+> **Enables**: [`agriculture.crop-rotation`](./crop-rotation.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: viable_seed, adapted_varieties, seed_stock
 > **Critical**: Yes — without saved seed, each growing season depends on finding wild seed; saved seed is the foundation of agricultural continuity

@@ -2,8 +2,7 @@
 
 > **Node ID**: ceramics.electronic-ceramics
 > **Domain**: [Ceramics & Refractories](./index.md)
-> **Dependencies**: [`ceramics.advanced-ceramics`](advanced-ceramics.md), [`chemistry`](../chemistry/index.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`ceramics.advanced-ceramics`](./advanced-ceramics.md), `chemistry`
 > **Timeline**: Years 25-70+
 > **Outputs**: MLCC capacitors, ferrite cores, PZT actuators, getter materials, ceramic substrates, varistors, thermistors
 > **Critical**: Yes — passive components (capacitors, inductors, varistors) required for every semiconductor device and power supply

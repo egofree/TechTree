@@ -2,7 +2,6 @@
 
 > **Node ID**: machine-tools.hydraulic-systems
 > **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: [`Hydraulic Power`](../energy/hydraulics.md), [`Machining`](./machining.md)
 > **Critical**: No
 > **Timeline**: Years 15-30
 > **Outputs**: hydraulic-press-systems, hydraulic-clamping-systems, hydraulic-feed-systems

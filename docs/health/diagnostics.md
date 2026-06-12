@@ -2,8 +2,8 @@
 
 > **Node ID**: health.diagnostics
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`health.medicine`](medicine.md), [`health.medical-instruments`](medical-instruments.md), [`chemistry`](../chemistry/index.md)
-> **Enables**: [`health.surgery-basics`](surgery-basics.md), [`health.pharmacology`](pharmacology.md)
+> **Dependencies**: `chemistry`, `health`, [`health.medical-instruments`](./medical-instruments.md)
+> **Enables**: [`health.nutrition`](./nutrition.md)
 > **Timeline**: Years 10-100+
 > **Outputs**: diagnostic_capability, vital_signs_monitoring, laboratory_testing, imaging_capability
 > **Critical**: No — enhances treatment outcomes but medicine can function at a basic level without formal diagnostics

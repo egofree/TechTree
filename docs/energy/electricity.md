@@ -3,8 +3,38 @@
 > **Node ID**: energy.electricity
 > **Also covers**: `chemistry.electrolysis`, `machine-tools.joining`, `energy.power-systems`
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: [`agriculture.hydroponic-ph-control`](../agriculture/hydroponic-ph-control.md), [`chemistry.acid-regeneration`](../chemistry/sem-tech-acid-regeneration.md), [`chemistry.air-separation`](../chemistry/air-separation.md), [`chemistry.e-methanol`](../chemistry/sem-tech-e-methanol.md), [`chemistry.electrodialysis`](../chemistry/sem-tech-electrodialysis.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`chemistry.lithium-separation`](../chemistry/sem-tech-lithium-separation.md), [`chemistry.water-electrolysis`](../chemistry/sem-tech-water-electrolysis.md), [`computing.electromechanical`](../computing/electromechanical.md), [`construction.industrial-buildings`](../construction/industrial-buildings.md), `cryogenics`, `electrochemistry`, `electronics`, [`electronics.electrical-systems`](../electronics/electrical-systems.md), [`energy.electric-furnaces`](electric-furnaces.md), [`energy.electricity.power-systems`](electricity.md), [`energy.redox-flow-battery`](redox-flow-battery.md), [`energy.storage.pumped-hydro`](pumped-hydro.md), [`machine-tools.edm-cnc`](../machine-tools/edm-cnc.md), [`machine-tools.joining`](../machine-tools/joining.md), [`measurement.electrical-instruments`](../measurement/electrical-instruments.md), [`metals.aluminum`](../metals/aluminum.md), [`telecom.electric-telegraph`](../telecom/electric-telegraph.md), [`telecom.radio`](../telecom/radio.md)
+> **Dependencies**: [`electronics.wire-insulation`](../electronics/wire-insulation.md),
+> [`energy.steam-power`](./steam-power.md),
+> [`metals.copper-refining`](../metals/copper-refining.md),
+> [`metals.magnetic-materials`](../metals/magnetic-materials.md),
+> [`metals.wire-drawing`](../metals/wire-drawing.md)
+> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md),
+> [`computing.electromechanical`](../computing/electromechanical.md),
+> [`construction.industrial-buildings`](../construction/industrial-buildings.md),
+> `cryogenics`, `electrochemistry`,
+> [`electronics.electrical-systems`](../electronics/electrical-systems.md),
+> [`energy.electricity.power-systems`](./electricity.power-systems.md),
+> [`energy.geothermal`](./geothermal.md),
+> [`energy.power-distribution`](./power-distribution.md),
+> [`energy.storage.pumped-hydro`](./storage.pumped-hydro.md),
+> [`machine-tools.edm-cnc`](../machine-tools/edm-cnc.md),
+> [`machine-tools.joining.electron-beam`](../machine-tools/joining.electron-beam.md),
+> [`machine-tools.joining.laser-welding`](../machine-tools/joining.laser-welding.md),
+> [`machine-tools.joining.mig-welding`](../machine-tools/joining.mig-welding.md),
+> [`machine-tools.joining.resistance-welding`](../machine-tools/joining.resistance-welding.md),
+> [`machine-tools.joining.tig-welding`](../machine-tools/joining.tig-welding.md),
+> [`machine-tools.joining.ultrasonic-bonding`](../machine-tools/joining.ultrasonic-bonding.md),
+> [`machine-tools.joining.welding`](../machine-tools/joining.welding.md),
+> [`measurement.electrical-instruments`](../measurement/electrical-instruments.md),
+> [`measurement.temperature-pressure`](../measurement/temperature-pressure.md),
+> [`metals.aluminum.semiconductor-grade`](../metals/aluminum.semiconductor-grade.md),
+> [`photolithography.fab-processes.ion-implantation`](../photolithography/fab-processes.ion-implantation.md),
+> [`precision-motion.nanometer-positioning`](../precision-motion/nanometer-positioning.md),
+> [`silicon.purification`](../silicon/purification.md), `telecom`,
+> [`telecom.electric-telegraph`](../telecom/electric-telegraph.md),
+> [`telecom.radio`](../telecom/radio.md),
+> [`telecom.telephone`](../telecom/telephone.md),
+> [`transport.telegraph`](../transport/telegraph.md)
 > **Critical**: Yes — electricity is the universal energy carrier required for electrolysis, electric furnaces, electric motors, electronics, and every semiconductor process
 > **Timeline**: Years 15-30
 > **Outputs**: generators, motors, transformers, wire_cables, electricity, insulated_wire, clean_power_systems, ups_systems, backup_generators, power_distribution_units, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines

@@ -2,8 +2,9 @@
 
 > **Node ID**: plants.fiber-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: [`plants`](./index.md), [`textiles.spinning`](../textiles/spinning.md)
-> **Enables**: [`plants.fiber-plants.allium-paniculatum`](./fiber-plants.md), [`plants.fiber-plants.amaranthus-albus`](./fiber-plants.md), [`textiles.fibers`](../textiles/fibers.md)
+> **Dependencies**: `plants`, [`textiles.spinning`](../textiles/spinning.md)
+> **Enables**: `plants.fiber-plants.allium-paniculatum`, `plants.fiber-plants.amaranthus-albus`,
+> [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-10
 > **Outputs**: plant_fibers, raw_fiber
 > **Critical**: Yes — cordage and textiles from plant fibers are Year 0 necessities for shelter, tools, and clothing

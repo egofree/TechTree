@@ -2,8 +2,14 @@
 
 > **Node ID**: vacuum.chambers
 > **Domain**: [Vacuum Technology](./index.md)
-> **Dependencies**: `machine-tools`, [`machine-tools.joining.electron-beam`](../machine-tools/joining.md), [`machine-tools.joining.tig-welding`](../machine-tools/joining.md), `metals`
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Dependencies**: `machine-tools`,
+> [`machine-tools.joining.electron-beam`](../machine-tools/joining.electron-beam.md),
+> [`machine-tools.joining.tig-welding`](../machine-tools/joining.tig-welding.md),
+> `metals`
+> **Enables**: [`glass.glass-to-metal-seals`](../glass/glass-to-metal-seals.md),
+> [`photolithography.fab-processes.ion-implantation`](../photolithography/fab-processes.ion-implantation.md),
+> [`photolithography.fab-processes.plasma-etching`](../photolithography/fab-processes.plasma-etching.md),
+> [`vacuum.deposition-systems`](./deposition-systems.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_chambers, vacuum_seals, viewports, gate_valves, load_locks
 > **Critical**: Yes — vacuum chambers are required for all semiconductor thin-film deposition and lithography processes

@@ -2,8 +2,9 @@
 
 > **Node ID**: machine-tools.bearings-abrasives
 > **Domain**: [Machine Tools Bootstrap](./index.md)
-> **Dependencies**: [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
-> **Enables**: [`machine-tools.machining`](machining.md)
+> **Dependencies**: [`machine-tools.iterative-bootstrap`](./iterative-bootstrap.md)
+> **Enables**: [`machine-tools.machining`](./machining.md),
+> [`machine-tools.mass-production`](./mass-production.md)
 > **Timeline**: Years 10-25
 > **Outputs**: bearings, ball_bearings, abrasives, cutting_tools, taps, dies, hss_tool_bits
 > **Critical**: Yes — precision enablers for all machine tool construction

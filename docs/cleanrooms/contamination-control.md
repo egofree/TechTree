@@ -2,8 +2,8 @@
 
 > **Node ID**: cleanrooms.contamination-control
 > **Domain**: [Clean Room Technology](./index.md)
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`cleanrooms.hepa-ulpa-filtration`](./hepa-ulpa-filtration.md)
+> **Enables**: `cleanrooms`
 > **Timeline**: Years 40-70
 > **Outputs**: contamination_control_protocols, iso_classification, esd_control, particle_monitoring
 > **Critical**: Yes — semiconductor fabrication at sub-micron nodes is impossible without contamination control; a single particle destroys a die

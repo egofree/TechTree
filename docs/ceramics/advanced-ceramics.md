@@ -2,8 +2,8 @@
 
 > **Node ID**: ceramics.advanced-ceramics
 > **Domain**: [Ceramics & Refractories](./index.md)
-> **Dependencies**: [`ceramics.kilns`](kilns.md), [`ceramics.pottery`](pottery.md), [`mining`](../mining/index.md)
-> **Enables**: [`ceramics.electronic-ceramics`](electronic-ceramics.md), [`silicon`](../silicon/index.md)
+> **Dependencies**: [`ceramics.kilns`](./kilns.md), [`ceramics.pottery`](./pottery.md), `mining`
+> **Enables**: [`ceramics.electronic-ceramics`](./electronic-ceramics.md), `silicon`
 > **Timeline**: Years 15-50
 > **Outputs**: alumina ceramics, zirconia ceramics, silicon carbide, silicon nitride, refractory linings, ceramic insulation, technical ceramics
 > **Critical**: Yes — structural and insulating ceramics required for furnaces above 1500°C, semiconductor processing, and steel production

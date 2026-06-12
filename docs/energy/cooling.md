@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.cooling
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md),
+> `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md)
 > **Critical**: No — refrigeration enables cryogenics and food preservation but simpler cooling methods suffice at earlier bootstrap stages
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration, industrial_cooling, ice_production

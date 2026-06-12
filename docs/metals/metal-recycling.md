@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.metal-recycling
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.iron-steel`](iron-steel.md), [`metals.steelmaking`](steelmaking.md), [`mining.extraction`](../mining/extraction.md), [`energy`](../energy/index.md)
-> **Enables**: [`metals`](./index.md), [`construction`](../construction/index.md), [`electronics`](../electronics/index.md)
+> **Dependencies**: [`metals.steelmaking`](./steelmaking.md)
+> **Enables**: `construction`
 > **Timeline**: Years 15-50+
 > **Outputs**: recycled_steel, recycled_copper, recycled_aluminum, secondary_metal_feedstock
 > **Critical**: No — reduces primary ore demand but does not unlock new capabilities

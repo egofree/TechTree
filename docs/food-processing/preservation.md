@@ -2,8 +2,9 @@
 
 > **Node ID**: food-processing.preservation
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`health.sanitation`](../health/sanitation.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: `ceramics`,
+> [`chemistry.petroleum-alternatives.fermentation`](../chemistry/petroleum-alternatives.fermentation.md),
+> [`health.sanitation`](../health/sanitation.md)
 > **Critical**: No — food preservation extends storage life but canning (a separate capability) is the critical long-term storage method
 > **Timeline**: Years 0-30+
 > **Outputs**: preserved_food, canned_food, pasteurized_food, refrigerated_food, dried_food, salted_food, smoked_food, fermented_food

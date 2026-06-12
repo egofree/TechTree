@@ -2,8 +2,8 @@
 
 > **Node ID**: knowledge.libraries
 > **Domain**: [Knowledge Preservation & Education](./index.md)
-> **Dependencies**: [`knowledge.education`](education.md), [`knowledge.writing`](writing.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`knowledge.education`](./education.md), [`knowledge.writing`](./writing.md)
+> **Enables**: [`knowledge.information-durability`](./information-durability.md)
 > **Timeline**: Years 10-200+
 > **Outputs**: libraries
 > **Critical**: Yes — a library is the institutional memory of a civilization; without organized storage and retrieval, accumulated knowledge becomes inaccessible

@@ -2,8 +2,7 @@
 
 > **Node ID**: `chemistry.petroleum-alternatives.wood-gasification`
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: None
-> **Enables**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md)
 > **Outputs**: producer_gas, syngas
 > **Timeline**: Years 15-40
 > **Critical**: No

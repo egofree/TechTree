@@ -2,8 +2,8 @@
 
 > **Node ID**: vlsi-scaling.advanced-lithography
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
-> **Dependencies**: [`vlsi-scaling.lithography`](lithography.md), [`optics.inspection`](../optics/inspection.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`optics.inspection`](../optics/inspection.md),
+> [`photolithography.resists-masks`](../photolithography/resists-masks.md)
 > **Timeline**: Years 70-200+
 > **Outputs**: euv_capability, advanced_patterning
 > **Critical**: Yes — EUV lithography is the primary enabler of feature size scaling below 7 nm

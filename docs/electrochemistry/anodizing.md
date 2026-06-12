@@ -2,8 +2,8 @@
 
 > **Node ID**: electrochemistry.anodizing
 > **Domain**: [Electrochemistry & Plating](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.aluminum`](../metals/aluminum.md)
-> **Enables**: [`polymers.rubber.semiconductor-apps`](../polymers/rubber.semiconductor-apps.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md),
+> [`metals.aluminum`](../metals/aluminum.md)
 > **Timeline**: Years 25-60
 > **Outputs**: anodized_aluminum, hard_anodized_surfaces, anodized_titanium, oxide_coatings
 > **Critical**: No — anodizing produces durable oxide coatings for semiconductor equipment but alternative surface treatments exist

@@ -5,8 +5,10 @@
 > **Timeline**: Years 35-55
 > **Outputs**: nano_positioning_stages, air_bearing_slides, linear_motor_drives
 > **Critical**: Yes — sub-10nm positioning is required for semiconductor lithography wafer stages; no alternative technology can achieve the positioning accuracy needed for leading-edge IC fabrication
-> **Dependencies**: [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md), [Precision Encoders & Feedback](./precision-encoders.md), [Vibration Isolation](./vibration-isolation.md)
-> **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Advanced Lithography](../vlsi-scaling/advanced-lithography.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md),
+> [`machine-tools.edm-cnc`](../machine-tools/edm-cnc.md),
+> [`measurement.precision-metrology`](../measurement/precision-metrology.md)
+> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md)
 
 The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves ±0.5 μm positioning on ultra-precision CNC machines. Semiconductor lithography demands three orders of magnitude better: wafer stages must position to ±5 nm over 300 mm travel, reticle stages to ±2 nm, and inspection stages to ±1 nm. This document covers the actuation technologies — piezoelectric stages, air bearings, and linear motors — that make nanometer positioning possible. For the measurement systems providing position feedback, see [Precision Encoders](./precision-encoders.md); for the vibration environment that nanometer positioning requires, see [Vibration Isolation](./vibration-isolation.md).
 

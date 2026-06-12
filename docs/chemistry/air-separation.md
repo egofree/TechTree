@@ -2,8 +2,13 @@
 
 > **Node ID**: chemistry.air-separation
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`cryogenics.air-separation`](../cryogenics/air-separation.md), [`energy.electricity`](../energy/electricity.md), [`gas-handling.basic`](../gas-handling/basic.md)
-> **Enables**: [`chemistry.ammonia`](ammonia.md), [`machine-tools.joining`](../machine-tools/joining.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
+> **Dependencies**: [`cryogenics.air-separation`](../cryogenics/air-separation.md),
+> [`energy.electricity`](../energy/electricity.md),
+> [`gas-handling.basic`](../gas-handling/basic.md)
+> **Enables**: [`chemistry.ammonia`](./ammonia.md),
+> [`gas-handling.gas-purification`](../gas-handling/gas-purification.md),
+> [`machine-tools.joining.tig-welding`](../machine-tools/joining.tig-welding.md),
+> [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 20-40
 > **Outputs**: argon, nitrogen, oxygen
 > **Critical**: Yes — high-purity argon is the inert atmosphere for CZ silicon crystal growth; bulk oxygen is required for steelmaking and welding; nitrogen is the universal inert blanket gas for chemistry and metallurgy.

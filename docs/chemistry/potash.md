@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.potash
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Basic Glass Production`](../glass/basic.md), [`Soap & Detergent Production`](soap.md)
-> **Enables**: [`Foundations`](../foundations/index.md)
+> **Dependencies**: `foundations`
+> **Enables**: [`chemistry.soap`](./soap.md), [`glass.basic`](../glass/basic.md)
 > **Timeline**: Years 5-15
 > **Outputs**: potash, pearl-ash, alkaline-solutions
 > **Critical**: No

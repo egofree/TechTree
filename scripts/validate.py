@@ -1068,7 +1068,8 @@ class Validator:
         passed = sum(1 for r in self.results if r.passed)
         total = len(self.results)
 
-        print(f"Schema:     {schema_pass}/{n_total} {'✓' if all_pass else 'FAIL'}")
+        schema_ok = schema_pass == n_total
+        print(f"Schema:     {schema_pass}/{n_total} {'✓' if schema_ok else 'FAIL'}")
 
         dag_ok = all(
             r.passed for r in self.results if "acycl" in r.name.lower()

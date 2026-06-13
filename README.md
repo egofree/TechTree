@@ -9,8 +9,8 @@ This project documents the complete dependency chain from fire and stone tools t
 | Metric | Count |
 |--------|-------|
 | Technology domains | 43 |
-| Capability nodes | 448 |
-| Dependency edges | 985 |
+| Capability nodes | 459 |
+| Dependency edges | 1,061 |
 | Content articles | 582 |
 | Mermaid diagrams | 59 |
 | D2 diagrams | 59 |
@@ -175,8 +175,8 @@ tech-tree-bootstrap/
 │   ├── glossary/       # 6,240 auto-generated glossary entries
 │   └── supporting/     # Schema spec, checklist, resources
 ├── data/               # Structured data (JSON-LD)
-│   ├── entities/       # 448 entity files (JSON-LD)
-│   ├── products/       # 1,196 product/material files (JSON-LD)
+│   ├── entities/       # 459 entity files (JSON-LD)
+│   ├── products/       # 1,272 product/material files (JSON-LD)
 │   ├── schema/         # JSON Schema validation files
 │   ├── glossary.json   # 11,966 glossary terms with relevance ratings
 │   ├── plants.json     # Plant species catalog
@@ -190,7 +190,7 @@ tech-tree-bootstrap/
 ## Validation
 
 ```bash
-python3 scripts/validate.py          # 19 checks: schema, DAG, cross-refs, tags, hierarchy
+python3 scripts/validate.py          # 24 checks: schema, DAG, cross-refs, tags, hierarchy, quality audits
 python3 scripts/generate-diagrams.py # Regenerate Mermaid from data
 ```
 

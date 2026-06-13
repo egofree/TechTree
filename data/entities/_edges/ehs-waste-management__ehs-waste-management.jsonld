@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/ehs.waste-management__ehs.waste-management","@type":"Dependency","edgeType":"material","flow":"recycling-loop","from":"ehs.waste-management","to":"ehs.waste-management"}

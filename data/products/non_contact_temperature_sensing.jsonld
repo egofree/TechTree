@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "non_contact_temperature_sensing",
+  "@type": "Product",
+  "name": "Non Contact Temperature Sensing",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

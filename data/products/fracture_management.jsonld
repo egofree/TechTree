@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fracture_management",
+  "@type": "Product",
+  "name": "Fracture Management",
+  "source": "health",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -4,7 +4,6 @@
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md),
 > [`economics-organization.supply-chain`](../economics-organization/supply-chain.md),
-> [`gas-handling.vacuum`](../gas-handling/vacuum.md),
 > [`metals.aluminum.semiconductor-grade`](../metals/aluminum.semiconductor-grade.md),
 > [`silicon.wafering`](../silicon/wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
 > **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md),

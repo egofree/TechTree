@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "precision_resistance_sensing",
+  "@type": "Product",
+  "name": "Precision Resistance Sensing",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

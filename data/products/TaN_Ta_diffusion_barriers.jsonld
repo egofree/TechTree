@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "TaN_Ta_diffusion_barriers",
+  "@type": "Product",
+  "name": "Tan Ta Diffusion Barriers",
+  "source": "metals",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

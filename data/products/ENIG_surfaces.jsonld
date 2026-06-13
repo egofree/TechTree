@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ENIG_surfaces",
+  "@type": "Product",
+  "name": "Enig Surfaces",
+  "source": "electrochemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

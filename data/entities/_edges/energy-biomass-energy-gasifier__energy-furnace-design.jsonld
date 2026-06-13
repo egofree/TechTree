@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.biomass-energy.gasifier__energy.furnace-design","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.biomass-energy.gasifier","to":"energy.furnace-design"}

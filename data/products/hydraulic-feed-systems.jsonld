@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydraulic-feed-systems",
+  "@type": "Product",
+  "name": "Hydraulic-Feed-Systems",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

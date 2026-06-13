@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/textiles.weaving__textiles.spinning-frame.ring","@type":"Dependency","edgeType":"tool","flow":"primary","from":"textiles.weaving","to":"textiles.spinning-frame.ring"}

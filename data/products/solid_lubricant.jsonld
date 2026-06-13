@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solid_lubricant",
+  "@type": "Product",
+  "name": "Solid Lubricant",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

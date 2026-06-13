@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "plain_bearings",
+  "@type": "Product",
+  "name": "Plain Bearings",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

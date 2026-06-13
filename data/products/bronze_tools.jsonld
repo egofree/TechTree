@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bronze_tools",
+  "@type": "Product",
+  "name": "Bronze Tools",
+  "source": "metals",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

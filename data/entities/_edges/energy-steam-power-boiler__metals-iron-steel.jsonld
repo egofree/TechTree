@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.steam-power.boiler__metals.iron-steel","@type":"Dependency","edgeType":"material","flow":"primary","from":"energy.steam-power.boiler","to":"metals.iron-steel"}

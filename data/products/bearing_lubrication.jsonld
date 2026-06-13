@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bearing_lubrication",
+  "@type": "Product",
+  "name": "Bearing Lubrication",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

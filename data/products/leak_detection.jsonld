@@ -3,7 +3,7 @@
   "@id": "leak_detection",
   "@type": "Product",
   "name": "Leak Detection",
-  "source": "gas-handling.vacuum",
+  "source": "vacuum.leak-detection",
   "tags": {
     "capability": [
       "vacuum"

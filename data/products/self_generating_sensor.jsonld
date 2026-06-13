@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "self_generating_sensor",
+  "@type": "Product",
+  "name": "Self Generating Sensor",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

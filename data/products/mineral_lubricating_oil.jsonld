@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mineral_lubricating_oil",
+  "@type": "Product",
+  "name": "Mineral Lubricating Oil",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

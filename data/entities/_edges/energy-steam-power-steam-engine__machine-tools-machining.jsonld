@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.steam-power.steam-engine__machine-tools.machining","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.steam-power.steam-engine","to":"machine-tools.machining"}

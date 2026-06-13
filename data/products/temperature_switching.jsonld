@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "temperature_switching",
+  "@type": "Product",
+  "name": "Temperature Switching",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

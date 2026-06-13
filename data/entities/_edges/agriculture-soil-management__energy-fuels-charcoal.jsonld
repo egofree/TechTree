@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/agriculture.soil-management__energy.fuels.charcoal","@type":"Dependency","edgeType":"material","flow":"byproduct-reuse","from":"agriculture.soil-management","to":"energy.fuels.charcoal"}

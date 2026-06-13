@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "basic_vacuum_measurement",
+  "@type": "Product",
+  "name": "Basic Vacuum Measurement",
+  "source": "vacuum",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

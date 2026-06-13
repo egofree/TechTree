@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.electricity.generator__metals.iron-steel","@type":"Dependency","edgeType":"material","flow":"primary","from":"energy.electricity.generator","to":"metals.iron-steel"}

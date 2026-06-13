@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/metals.zinc__energy.furnace-design","@type":"Dependency","edgeType":"tool","flow":"primary","from":"metals.zinc","to":"energy.furnace-design"}

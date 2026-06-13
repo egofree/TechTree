@@ -531,7 +531,7 @@ Processing 8266 terms...
     energy.wind -> primary (5 occurrences)
     foundations.fire -> primary (1 occurrences)
     foundations.tools-basic -> secondary (5 occurrences)
-    gas-handling.vacuum -> primary (14 occurrences)
+    vacuum.basic-vacuum -> primary (14 occurrences)
     health.pharmacology -> mentioned (1 occurrences)
     health.sanitation -> primary (4 occurrences)
     knowledge.printing -> primary (4 occurrences)
@@ -850,7 +850,7 @@ Processing 8266 terms...
     energy.electricity -> primary (6 occurrences)
     energy.engine -> secondary (8 occurrences)
     energy.storage -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (4 occurrences)
+    vacuum.basic-vacuum -> primary (4 occurrences)
   Term: 'Aluminum alloying' [bold-pattern] stop=False
     metals.non-ferrous -> primary (1 occurrences)
   Term: 'Aluminum etching' [bold-pattern] stop=False
@@ -1137,7 +1137,7 @@ Processing 8266 terms...
     energy.steam-power -> mentioned (1 occurrences)
     energy.storage -> primary (7 occurrences)
     gas-handling.basic -> secondary (8 occurrences)
-    gas-handling.vacuum -> primary (13 occurrences)
+    vacuum.basic-vacuum -> primary (13 occurrences)
     glass.advanced -> primary (6 occurrences)
     glass.basic -> secondary (4 occurrences)
     glass.fibers -> secondary (8 occurrences)
@@ -1189,7 +1189,7 @@ Processing 8266 terms...
   Term: 'Application rate' [bold-pattern] stop=False
     animals.aquaculture -> primary (2 occurrences)
   Term: 'Application rule' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Application timing' [bold-pattern] stop=False
     ceramics.lime -> primary (1 occurrences)
   Term: 'Applications beyond wire insulation' [bold-pattern] stop=False
@@ -1321,7 +1321,7 @@ Processing 8266 terms...
     energy.cooling -> secondary (3 occurrences)
     energy.engine -> mentioned (2 occurrences)
     energy.storage -> primary (2 occurrences)
-    gas-handling.vacuum -> primary (5 occurrences)
+    vacuum.basic-vacuum -> primary (5 occurrences)
     machine-tools.bearings-abrasives -> primary (2 occurrences)
     metals.casting -> secondary (3 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
@@ -1429,7 +1429,7 @@ Processing 8266 terms...
     mining.extraction -> primary (4 occurrences)
   Term: 'Backfire prevention' [bold-pattern] stop=False
   Term: 'Backing pump requirement' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Backup coats' [bold-pattern] stop=False
     metals.casting -> primary (1 occurrences)
   Term: 'Backup strategy' [bold-pattern] stop=False
@@ -1450,7 +1450,7 @@ Processing 8266 terms...
   Term: 'Baiting and attracting swarms' [bold-pattern] stop=False
     animals.beekeeping -> primary (1 occurrences)
   Term: 'Bake-out procedure' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Bakelite' [bold-pattern] stop=False
     polymers -> mentioned (1 occurrences)
     polymers.thermosets -> secondary (5 occurrences)
@@ -1459,7 +1459,7 @@ Processing 8266 terms...
     metals.aluminum -> primary (6 occurrences)
     metals.finishing -> mentioned (1 occurrences)
   Term: 'Baking during pump-down' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Baking soda (NaHCO₃) via Solvay intermediates' [bold-pattern] stop=False
     chemistry.alkalis -> primary (1 occurrences)
   Term: 'Balance types for drug preparation' [bold-pattern] stop=False
@@ -1606,7 +1606,7 @@ Processing 8266 terms...
   Term: 'Bauxite processing for high-alumina refractories' [bold-pattern] stop=False
     chemistry.refractories -> mentioned (1 occurrences)
   Term: 'Bayard-Alpert hot cathode ion gauge' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Bayer process' [bold-pattern] stop=False
     ceramics.advanced-ceramics -> primary (3 occurrences)
   Term: 'Beam' [bold-pattern] stop=False
@@ -2088,7 +2088,7 @@ Processing 8266 terms...
   Term: 'Boundary scan (JTAG)' [bold-pattern] stop=False
     vlsi-scaling.eda-design -> primary (1 occurrences)
   Term: 'Bourdon tube gauge' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Bow and warp' [bold-pattern] stop=False
     silicon.crystal-growth -> primary (1 occurrences)
   Term: 'Bowel sounds' [bold-pattern] stop=False
@@ -2228,9 +2228,9 @@ Processing 8266 terms...
   Term: 'Bubble test' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
     gas-handling.basic -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Bubble testing' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Bubbles' [bold-pattern] stop=False
     optics.inspection -> primary (3 occurrences)
   Term: 'Bucket chain' [bold-pattern] stop=False
@@ -3444,7 +3444,7 @@ Processing 8266 terms...
     chemistry.soap -> secondary (9 occurrences)
     chemistry.solvents -> secondary (13 occurrences)
     gas-handling.basic -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
     health.medical-instruments -> mentioned (1 occurrences)
     health.medicine -> primary (4 occurrences)
     health.occupational-health -> mentioned (1 occurrences)
@@ -3723,7 +3723,7 @@ Processing 8266 terms...
   Term: 'Cold startup' [bold-pattern] stop=False
     silicon.mg-si-production -> primary (1 occurrences)
   Term: 'Cold trap' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (7 occurrences)
+    vacuum.basic-vacuum -> primary (7 occurrences)
   Term: 'Cold weather considerations' [bold-pattern] stop=False
     foundations.fire -> primary (1 occurrences)
   Term: 'Cold weather operation' [bold-pattern] stop=False
@@ -3995,7 +3995,7 @@ Processing 8266 terms...
   Term: 'Compression' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
     gas-handling.basic -> primary (7 occurrences)
-    gas-handling.vacuum -> secondary (7 occurrences)
+    vacuum.basic-vacuum -> secondary (7 occurrences)
   Term: 'Compression fittings' [bold-pattern] stop=False
     gas-handling.basic -> primary (3 occurrences)
   Term: 'Compression ignition detail' [bold-pattern] stop=False
@@ -4130,7 +4130,7 @@ Processing 8266 terms...
     health.pharmacology -> primary (4 occurrences)
     health.sanitation -> mentioned (1 occurrences)
   Term: 'Conductance' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (10 occurrences)
+    vacuum.basic-vacuum -> primary (10 occurrences)
   Term: 'Conductivity cell for dissolved solids' [bold-pattern] stop=False
     foundations.water-procurement -> primary (1 occurrences)
   Term: 'Conductor preparation' [bold-pattern] stop=False
@@ -4233,7 +4233,7 @@ Processing 8266 terms...
     foundations.tools-basic -> secondary (15 occurrences)
     foundations.water-procurement -> primary (4 occurrences)
     gas-handling.basic -> primary (3 occurrences)
-    gas-handling.vacuum -> primary (5 occurrences)
+    vacuum.basic-vacuum -> primary (5 occurrences)
     machine-tools.bearings-abrasives -> secondary (3 occurrences)
     metals.casting -> primary (3 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
@@ -4428,7 +4428,7 @@ Processing 8266 terms...
   Term: 'Cool to room temperature' [bold-pattern] stop=False
     ceramics.pottery -> primary (1 occurrences)
   Term: 'Cool-down' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Cooling' [bold-pattern] stop=True
     ceramics.advanced-ceramics -> mentioned (2 occurrences)
     ceramics.kilns -> primary (7 occurrences)
@@ -4512,7 +4512,7 @@ Processing 8266 terms...
     energy.cooling -> primary (2 occurrences)
   Term: 'Copper' [bold-pattern] stop=False
     gas-handling.basic -> primary (15 occurrences)
-    gas-handling.vacuum -> primary (16 occurrences)
+    vacuum.basic-vacuum -> primary (16 occurrences)
     health.occupational-health -> mentioned (1 occurrences)
     health.sanitation -> primary (4 occurrences)
     machine-tools.bearings-abrasives -> mentioned (1 occurrences)
@@ -4531,7 +4531,7 @@ Processing 8266 terms...
   Term: 'Copper (Dumet) to soda-lime' [bold-pattern] stop=False
     glass.advanced -> primary (1 occurrences)
   Term: 'Copper (OFHC)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Copper and bronze' [bold-pattern] stop=False
   Term: 'Copper blow' [bold-pattern] stop=False
     metals.copper-bronze -> primary (1 occurrences)
@@ -4787,7 +4787,7 @@ Processing 8266 terms...
     machine-tools.iterative-bootstrap -> primary (1 occurrences)
     machine-tools.joining -> mentioned (1 occurrences)
   Term: 'Critical hazard' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
     plants.edible-plants -> primary (1 occurrences)
   Term: 'Critical path' [bold-pattern] stop=False
     energy.engine -> mentioned (1 occurrences)
@@ -4833,7 +4833,7 @@ Processing 8266 terms...
     knowledge.education -> primary (2 occurrences)
   Term: 'Crosslinking systems' [bold-pattern] stop=False
   Term: 'crossover pressure' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Crown glass' [bold-pattern] stop=False
     glass.advanced -> primary (1 occurrences)
   Term: 'Crowned surface' [bold-pattern] stop=False
@@ -4892,7 +4892,7 @@ Processing 8266 terms...
   Term: 'Cryogenic storage' [bold-pattern] stop=False
     chemistry.air-separation -> primary (1 occurrences)
   Term: 'Cryogenic trap handling' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Cryogenic trapping' [bold-pattern] stop=False
     chemistry.dopant-etch-gases -> primary (1 occurrences)
   Term: 'Crystal orientation' [bold-pattern] stop=False
@@ -5438,7 +5438,7 @@ Processing 8266 terms...
     energy.storage -> secondary (3 occurrences)
     energy.wind -> secondary (3 occurrences)
     gas-handling.basic -> secondary (6 occurrences)
-    gas-handling.vacuum -> primary (11 occurrences)
+    vacuum.basic-vacuum -> primary (11 occurrences)
     health.medical-instruments -> secondary (4 occurrences)
     health.medicine -> mentioned (2 occurrences)
     health.occupational-health -> secondary (9 occurrences)
@@ -5468,7 +5468,7 @@ Processing 8266 terms...
   Term: 'Desizing' [bold-pattern] stop=False
     textiles.finishing -> primary (3 occurrences)
   Term: 'Desorption and readsorption' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Destruction schedule' [bold-pattern] stop=False
     knowledge.libraries -> primary (1 occurrences)
   Term: 'Destructive Distillation of Wood' [bold-pattern] stop=False
@@ -5565,13 +5565,13 @@ Processing 8266 terms...
     chemistry.electrolysis -> primary (16 occurrences)
     chemistry.hydrogen-silane -> secondary (5 occurrences)
     gas-handling.basic -> primary (7 occurrences)
-    gas-handling.vacuum -> secondary (6 occurrences)
+    vacuum.basic-vacuum -> secondary (6 occurrences)
     health.medical-instruments -> primary (1 occurrences)
   Term: 'Diaphragm cell' [bold-pattern] stop=False
     chemistry.electrolysis -> primary (5 occurrences)
   Term: 'Diaphragm pump' [bold-pattern] stop=False
     gas-handling.basic -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Diborane (B₂H₆)' [bold-pattern] stop=False
     chemistry.dopant-etch-gases -> primary (3 occurrences)
   Term: 'Dichromate toxicity' [bold-pattern] stop=False
@@ -5655,7 +5655,7 @@ Processing 8266 terms...
     metals.powder-metallurgy -> primary (2 occurrences)
   Term: 'Diffusion pump' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (12 occurrences)
+    vacuum.basic-vacuum -> primary (12 occurrences)
   Term: 'Diffusion washing' [bold-pattern] stop=False
     chemistry.pulp-chemicals -> mentioned (1 occurrences)
   Term: 'Diffusion/oxidation furnace' [bold-pattern] stop=False
@@ -5785,7 +5785,7 @@ Processing 8266 terms...
     energy.engine -> primary (2 occurrences)
     energy.steam-power -> primary (1 occurrences)
     energy.storage -> primary (3 occurrences)
-    gas-handling.vacuum -> primary (6 occurrences)
+    vacuum.basic-vacuum -> primary (6 occurrences)
     machine-tools.bearings-abrasives -> primary (2 occurrences)
     metals.aluminum -> primary (2 occurrences)
     metals.finishing -> secondary (4 occurrences)
@@ -6220,7 +6220,7 @@ Processing 8266 terms...
   Term: 'Duration' [bold-pattern] stop=False
     energy.engine -> secondary (3 occurrences)
     energy.storage -> secondary (3 occurrences)
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
     knowledge.education -> mentioned (2 occurrences)
     knowledge.printing -> mentioned (2 occurrences)
     knowledge.writing -> primary (1 occurrences)
@@ -6441,7 +6441,7 @@ Processing 8266 terms...
   Term: 'Elastohydrodynamic lubrication (EHL)' [bold-pattern] stop=False
     chemistry.lubricants -> primary (1 occurrences)
   Term: 'Elastomer O-ring seals' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Elastomers' [bold-pattern] stop=False
     polymers -> mentioned (2 occurrences)
     polymers.rubber -> secondary (6 occurrences)
@@ -8519,7 +8519,7 @@ Processing 8266 terms...
   Term: 'Gas atomization' [bold-pattern] stop=False
     metals.powder-metallurgy -> primary (3 occurrences)
   Term: 'Gas ballast' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Gas blowing' [bold-pattern] stop=False
     silicon.mg-si-production -> primary (1 occurrences)
   Term: 'Gas cabinet design' [bold-pattern] stop=False
@@ -8561,7 +8561,7 @@ Processing 8266 terms...
     chemistry.packaging-testing -> mentioned (1 occurrences)
     gas-handling -> mentioned (2 occurrences)
     gas-handling.basic -> primary (4 occurrences)
-    gas-handling.vacuum -> mentioned (1 occurrences)
+    vacuum.basic-vacuum -> mentioned (1 occurrences)
   Term: 'Gas handling system' [bold-pattern] stop=False
     vlsi-scaling.advanced-lithography -> primary (1 occurrences)
   Term: 'Gas hazards in enclosed spaces' [bold-pattern] stop=False
@@ -8995,7 +8995,7 @@ Processing 8266 terms...
     ceramics.kilns -> secondary (3 occurrences)
     ceramics.pottery -> primary (5 occurrences)
   Term: 'Groove design' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Gross weight' [bold-pattern] stop=False
     transport.aviation -> primary (1 occurrences)
   Term: 'Ground control' [bold-pattern] stop=False
@@ -9119,7 +9119,7 @@ Processing 8266 terms...
     gas-handling -> mentioned (2 occurrences)
     stop-word cap: 'Handling' in gas-handling.basic -> mentioned (was secondary)
     gas-handling.basic -> mentioned (6 occurrences)
-    gas-handling.vacuum -> primary (6 occurrences)
+    vacuum.basic-vacuum -> primary (6 occurrences)
     textiles -> mentioned (1 occurrences)
     textiles.dyeing -> mentioned (1 occurrences)
     textiles.finishing -> mentioned (2 occurrences)
@@ -9451,9 +9451,9 @@ Processing 8266 terms...
     chemistry.air-separation -> primary (1 occurrences)
   Term: 'Helium leak detector' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Helium mass spectrometer leak detection' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Helve hammer' [bold-pattern] stop=False
     machine-tools.forming -> primary (2 occurrences)
   Term: 'Hematocrit' [bold-pattern] stop=False
@@ -9525,7 +9525,7 @@ Processing 8266 terms...
   Term: 'Hierarchical design' [bold-pattern] stop=False
     vlsi-scaling.eda-design -> primary (1 occurrences)
   Term: 'High and ultra-high vacuum gauges' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'High carbon steel (0.60-1.00% C)' [bold-pattern] stop=False
     metals.iron-steel -> primary (1 occurrences)
   Term: 'High head (>100 m), low flow' [bold-pattern] stop=False
@@ -9535,7 +9535,7 @@ Processing 8266 terms...
   Term: 'High twist' [bold-pattern] stop=False
     textiles.spinning -> primary (4 occurrences)
   Term: 'High vacuum (10⁻³-10⁻⁸ Torr)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'High voltage' [bold-pattern] stop=False
     energy.electricity -> primary (1 occurrences)
     energy.engine -> mentioned (1 occurrences)
@@ -9560,7 +9560,7 @@ Processing 8266 terms...
   Term: 'High-temperature shift (HTS)' [bold-pattern] stop=False
     chemistry.hydrogen-silane -> primary (1 occurrences)
   Term: 'High-vacuum pump' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (3 occurrences)
+    vacuum.basic-vacuum -> primary (3 occurrences)
   Term: 'High-velocity oxy-fuel (HVOF)' [bold-pattern] stop=False
     metals.finishing -> primary (1 occurrences)
   Term: 'High-voltage laser discharge (15-30 kV)' [bold-pattern] stop=False
@@ -9929,7 +9929,7 @@ Processing 8266 terms...
   Term: 'Implantation process' [bold-pattern] stop=False
     chemistry.dopant-etch-gases -> primary (1 occurrences)
   Term: 'Implosion risk from glass vacuum chambers' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Import' [bold-pattern] stop=False
     mining.drilling -> mentioned (1 occurrences)
     mining.extraction -> mentioned (1 occurrences)
@@ -10829,11 +10829,11 @@ Processing 8266 terms...
     chemistry.packaging-testing -> primary (3 occurrences)
     gas-handling -> mentioned (1 occurrences)
     gas-handling.basic -> secondary (3 occurrences)
-    gas-handling.vacuum -> primary (9 occurrences)
+    vacuum.basic-vacuum -> primary (9 occurrences)
   Term: 'Leak detection interlock' [bold-pattern] stop=False
     gas-handling.basic -> primary (2 occurrences)
   Term: 'Leak detection with RGA' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Leak test' [bold-pattern] stop=False
     chemistry.distillation -> primary (1 occurrences)
     chemistry.dopant-etch-gases -> mentioned (1 occurrences)
@@ -11053,7 +11053,7 @@ Processing 8266 terms...
     energy.steam-power -> primary (2 occurrences)
     energy.storage -> primary (1 occurrences)
     energy.wind -> primary (2 occurrences)
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
     health.sanitation -> primary (2 occurrences)
     knowledge.education -> mentioned (2 occurrences)
     knowledge.printing -> primary (6 occurrences)
@@ -11605,7 +11605,7 @@ Processing 8266 terms...
     chemistry.dopant-etch-gases -> primary (3 occurrences)
     gas-handling.basic -> primary (1 occurrences)
   Term: 'Mass range' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Mass spectrometry' [bold-pattern] stop=False
     chemistry.acids -> mentioned (1 occurrences)
     chemistry.hydrogen-silane -> primary (3 occurrences)
@@ -11659,7 +11659,7 @@ Processing 8266 terms...
     foundations.tools-basic -> secondary (16 occurrences)
     foundations.water-procurement -> secondary (5 occurrences)
     gas-handling.basic -> primary (12 occurrences)
-    gas-handling.vacuum -> primary (18 occurrences)
+    vacuum.basic-vacuum -> primary (18 occurrences)
     health.medical-instruments -> secondary (10 occurrences)
     health.medicine -> primary (3 occurrences)
     health.occupational-health -> secondary (12 occurrences)
@@ -11716,7 +11716,7 @@ Processing 8266 terms...
     gas-handling.basic -> primary (1 occurrences)
   Term: 'Material selection' [bold-pattern] stop=False
     gas-handling.basic -> mentioned (2 occurrences)
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Material selection by gas type' [bold-pattern] stop=False
     gas-handling.basic -> primary (1 occurrences)
   Term: 'Material storage' [bold-pattern] stop=False
@@ -11815,7 +11815,7 @@ Processing 8266 terms...
     knowledge.printing -> primary (1 occurrences)
     knowledge.writing -> mentioned (1 occurrences)
   Term: 'Mechanical pumps' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Mechanical seals' [bold-pattern] stop=False
     ceramics.advanced-ceramics -> primary (3 occurrences)
   Term: 'Mechanical stage' [bold-pattern] stop=False
@@ -11865,9 +11865,9 @@ Processing 8266 terms...
   Term: 'Medium twist' [bold-pattern] stop=False
     textiles.spinning -> primary (1 occurrences)
   Term: 'Medium vacuum (1-10⁻³ Torr)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Medium vacuum gauges' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Medium-scale (kettle process)' [bold-pattern] stop=False
     chemistry.soap -> primary (1 occurrences)
   Term: 'Megger testing hazards' [bold-pattern] stop=False
@@ -12010,7 +12010,7 @@ Processing 8266 terms...
   Term: 'Metal powder handling' [bold-pattern] stop=False
     metals.powder-metallurgy -> primary (1 occurrences)
   Term: 'Metal seals (CF/ConFlat flanges)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Metal tapping' [bold-pattern] stop=False
     chemistry.electrolysis -> primary (1 occurrences)
   Term: 'Metallization' [bold-pattern] stop=False
@@ -12107,7 +12107,7 @@ Processing 8266 terms...
     foundations.tools-basic -> mentioned (4 occurrences)
     stop-word cap: 'Method' in foundations.water-procurement -> mentioned (was secondary)
     foundations.water-procurement -> mentioned (9 occurrences)
-    gas-handling.vacuum -> primary (6 occurrences)
+    vacuum.basic-vacuum -> primary (6 occurrences)
     stop-word cap: 'Method' in health.medicine -> mentioned (was secondary)
     health.medicine -> mentioned (4 occurrences)
     health.occupational-health -> mentioned (2 occurrences)
@@ -12951,11 +12951,11 @@ Processing 8266 terms...
     metals.copper-bronze -> primary (2 occurrences)
   Term: 'Oil' [bold-pattern] stop=False
     gas-handling.basic -> secondary (12 occurrences)
-    gas-handling.vacuum -> primary (50 occurrences)
+    vacuum.basic-vacuum -> primary (50 occurrences)
   Term: 'Oil (fixed)' [bold-pattern] stop=False
     health.pharmacology -> primary (1 occurrences)
   Term: 'Oil diffusion pump fire hazard' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Oil extraction' [bold-pattern] stop=False
     foundations.food-agriculture -> primary (1 occurrences)
   Term: 'Oil fires' [bold-pattern] stop=False
@@ -12972,7 +12972,7 @@ Processing 8266 terms...
     chemistry.petroleum-alternatives -> primary (1 occurrences)
     chemistry.pulp-chemicals -> mentioned (1 occurrences)
   Term: 'Oil requirements' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Oil selection for bootstrap machinery' [bold-pattern] stop=False
     chemistry.lubricants -> primary (1 occurrences)
   Term: 'Oil springs' [bold-pattern] stop=False
@@ -13232,7 +13232,7 @@ Processing 8266 terms...
   Term: 'Outgassing' [bold-pattern] stop=False
     photolithography.cleanrooms -> primary (2 occurrences)
   Term: 'Outgassing and bake-out' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Output' [bold-pattern] stop=True
     energy.cooling -> mentioned (2 occurrences)
     energy.electric-furnaces -> mentioned (1 occurrences)
@@ -13618,7 +13618,7 @@ Processing 8266 terms...
     measurement -> mentioned (1 occurrences)
     measurement.precision-metrology -> primary (3 occurrences)
   Term: 'Penning cold cathode gauge' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Penstock materials' [bold-pattern] stop=False
   Term: 'Penstock pressure' [bold-pattern] stop=False
     energy.gravity -> primary (1 occurrences)
@@ -13660,7 +13660,7 @@ Processing 8266 terms...
     energy.steam-power -> primary (3 occurrences)
     energy.storage -> mentioned (1 occurrences)
     energy.wind -> primary (4 occurrences)
-    gas-handling.vacuum -> primary (8 occurrences)
+    vacuum.basic-vacuum -> primary (8 occurrences)
     measurement.optical-instruments -> primary (5 occurrences)
     optics.inspection -> mentioned (2 occurrences)
     polymers.composites -> secondary (4 occurrences)
@@ -13913,7 +13913,7 @@ Processing 8266 terms...
     photolithography.cleanrooms -> primary (1 occurrences)
     photolithography.resists-masks -> primary (3 occurrences)
   Term: 'Pirani gauge' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Piston' [bold-pattern] stop=False
     energy.cooling -> secondary (3 occurrences)
     energy.electricity -> secondary (3 occurrences)
@@ -13929,7 +13929,7 @@ Processing 8266 terms...
   Term: 'Piston pump' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
     gas-handling.basic -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
     mining.drilling -> mentioned (1 occurrences)
     mining.extraction -> primary (3 occurrences)
   Term: 'Piston rings' [bold-pattern] stop=False
@@ -14735,7 +14735,7 @@ Processing 8266 terms...
     energy.steam-power -> primary (2 occurrences)
     energy.storage -> primary (3 occurrences)
     gas-handling.basic -> primary (1 occurrences)
-    gas-handling.vacuum -> primary (8 occurrences)
+    vacuum.basic-vacuum -> primary (8 occurrences)
     health.medicine -> mentioned (1 occurrences)
     health.occupational-health -> mentioned (1 occurrences)
     health.pharmacology -> primary (1 occurrences)
@@ -15319,7 +15319,7 @@ Processing 8266 terms...
     chemistry.hydrogen-silane -> mentioned (1 occurrences)
   Term: 'PTFE' [bold-pattern] stop=False
     gas-handling.basic -> secondary (11 occurrences)
-    gas-handling.vacuum -> primary (3 occurrences)
+    vacuum.basic-vacuum -> primary (3 occurrences)
   Term: 'PTFE (Teflon)' [bold-pattern] stop=False
     chemistry.acids -> mentioned (2 occurrences)
     chemistry.lubricants -> primary (1 occurrences)
@@ -15374,7 +15374,7 @@ Processing 8266 terms...
     energy.wind -> primary (34 occurrences)
     gas-handling -> secondary (8 occurrences)
     gas-handling.basic -> primary (12 occurrences)
-    gas-handling.vacuum -> secondary (94 occurrences)
+    vacuum.basic-vacuum -> secondary (94 occurrences)
   Term: 'Pump down' [bold-pattern] stop=False
     optics.inspection -> mentioned (1 occurrences)
   Term: 'Pump rod' [bold-pattern] stop=False
@@ -15383,7 +15383,7 @@ Processing 8266 terms...
   Term: 'Pump types for mine drainage' [bold-pattern] stop=False
     mining.extraction -> primary (1 occurrences)
   Term: 'Pump-down sequence' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Pump-turbine runaway' [bold-pattern] stop=False
   Term: 'Pumped hydro (reversible turbines)' [bold-pattern] stop=False
   Term: 'Pumped hydroelectric storage' [bold-pattern] stop=False
@@ -15489,7 +15489,7 @@ Processing 8266 terms...
     foundations.fire -> primary (2 occurrences)
     foundations.food-agriculture -> mentioned (1 occurrences)
     gas-handling.basic -> primary (4 occurrences)
-    gas-handling.vacuum -> primary (3 occurrences)
+    vacuum.basic-vacuum -> primary (3 occurrences)
     glass.advanced -> mentioned (1 occurrences)
     glass.basic -> primary (1 occurrences)
     glass.fibers -> mentioned (2 occurrences)
@@ -16187,7 +16187,7 @@ Processing 8266 terms...
   Term: 'Residual fuel oil / asphalt' [bold-pattern] stop=False
     chemistry.petroleum-alternatives -> primary (1 occurrences)
   Term: 'Residual gas analyzer (RGA)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Resin adhesives' [bold-pattern] stop=False
   Term: 'Resin bath' [bold-pattern] stop=False
     polymers.composites -> primary (1 occurrences)
@@ -16608,7 +16608,7 @@ Processing 8266 terms...
     gas-handling.basic -> primary (1 occurrences)
   Term: 'Rotary vane pump' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (3 occurrences)
+    vacuum.basic-vacuum -> primary (3 occurrences)
   Term: 'Rotary vane vacuum pump' [bold-pattern] stop=False
     chemistry.distillation -> primary (1 occurrences)
   Term: 'Rotary web press' [bold-pattern] stop=False
@@ -16641,15 +16641,15 @@ Processing 8266 terms...
   Term: 'Rough lap' [bold-pattern] stop=False
     optics.precision-instruments -> primary (1 occurrences)
   Term: 'Rough vacuum (760-1 Torr)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Rough vacuum gauges' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Roughing cut' [bold-pattern] stop=False
     machine-tools.machining -> primary (1 occurrences)
   Term: 'Roughing mill' [bold-pattern] stop=False
     metals.forming -> primary (2 occurrences)
   Term: 'Roughing pump' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (6 occurrences)
+    vacuum.basic-vacuum -> primary (6 occurrences)
   Term: 'Round-bottom flask' [bold-pattern] stop=False
     glass.advanced -> primary (1 occurrences)
   Term: 'Roundness measurement' [bold-pattern] stop=False
@@ -16693,7 +16693,7 @@ Processing 8266 terms...
     transport.aviation -> primary (1 occurrences)
     transport.shipping -> mentioned (2 occurrences)
   Term: 'Rule of thumb' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
     machine-tools.forming -> primary (1 occurrences)
     textiles.spinning -> primary (1 occurrences)
   Term: 'Rules and straight edges' [bold-pattern] stop=False
@@ -17045,7 +17045,7 @@ Processing 8266 terms...
   Term: 'Script direction and layout' [bold-pattern] stop=False
     knowledge.writing -> primary (1 occurrences)
   Term: 'Scroll pump' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Scrubbing systems' [bold-pattern] stop=False
     gas-handling.basic -> primary (1 occurrences)
   Term: 'Scutching' [bold-pattern] stop=False
@@ -18570,7 +18570,7 @@ Processing 8266 terms...
     optics.precision-instruments -> primary (4 occurrences)
   Term: 'Stainless steel' [bold-pattern] stop=False
     gas-handling.basic -> secondary (6 occurrences)
-    gas-handling.vacuum -> primary (10 occurrences)
+    vacuum.basic-vacuum -> primary (10 occurrences)
     health.medical-instruments -> primary (8 occurrences)
     health.sanitation -> mentioned (1 occurrences)
     metals -> mentioned (1 occurrences)
@@ -18582,7 +18582,7 @@ Processing 8266 terms...
     metals.powder-metallurgy -> secondary (5 occurrences)
     metals.steelmaking -> secondary (3 occurrences)
   Term: 'Stainless steel (304L / 316L)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Stainless steel 316L' [bold-pattern] stop=False
     gas-handling.basic -> primary (3 occurrences)
   Term: 'Stainless steel and titanium pickling' [bold-pattern] stop=False
@@ -19000,7 +19000,7 @@ Processing 8266 terms...
     foundations.water-procurement -> mentioned (21 occurrences)
     gas-handling -> mentioned (1 occurrences)
     gas-handling.basic -> primary (13 occurrences)
-    gas-handling.vacuum -> mentioned (1 occurrences)
+    vacuum.basic-vacuum -> mentioned (1 occurrences)
     health.medicine -> mentioned (2 occurrences)
     stop-word cap: 'Storage' in health.occupational-health -> mentioned (was secondary)
     health.occupational-health -> mentioned (6 occurrences)
@@ -19414,7 +19414,7 @@ Processing 8266 terms...
     chemistry.coatings -> mentioned (2 occurrences)
     chemistry.electrolysis -> primary (1 occurrences)
     chemistry.refractories -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
     metals.finishing -> primary (7 occurrences)
   Term: 'Surface preparation for electroless' [bold-pattern] stop=False
     metals.finishing -> primary (1 occurrences)
@@ -19742,7 +19742,7 @@ Processing 8266 terms...
     chemistry.soap -> secondary (9 occurrences)
     chemistry.solvents -> secondary (5 occurrences)
     gas-handling.basic -> secondary (12 occurrences)
-    gas-handling.vacuum -> primary (17 occurrences)
+    vacuum.basic-vacuum -> primary (17 occurrences)
     health.medical-instruments -> secondary (10 occurrences)
     health.medicine -> primary (5 occurrences)
     health.occupational-health -> mentioned (2 occurrences)
@@ -19900,7 +19900,7 @@ Processing 8266 terms...
   Term: 'Terrestrial plants' [bold-pattern] stop=False
     animals.aquaculture -> primary (1 occurrences)
   Term: 'Tesla coil' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Tests' [bold-pattern] stop=False
     ceramics.kilns -> mentioned (1 occurrences)
     ceramics.lime -> secondary (8 occurrences)
@@ -20084,7 +20084,7 @@ Processing 8266 terms...
     measurement.temperature-pressure -> secondary (8 occurrences)
   Term: 'Thermocouple (Type K)' [bold-pattern] stop=False
   Term: 'Thermocouple gauge' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (3 occurrences)
+    vacuum.basic-vacuum -> primary (3 occurrences)
   Term: 'Thermocouple use' [bold-pattern] stop=False
     metals.copper-bronze -> primary (1 occurrences)
   Term: 'Thermometer' [bold-pattern] stop=False
@@ -20724,9 +20724,9 @@ Processing 8266 terms...
   Term: 'Turbocharging' [bold-pattern] stop=False
     energy.engine -> primary (1 occurrences)
   Term: 'Turbomolecular pump' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (4 occurrences)
+    vacuum.basic-vacuum -> primary (4 occurrences)
   Term: 'Turbomolecular pump vs. diffusion pump' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Turndown and load following' [bold-pattern] stop=False
     chemistry.air-separation -> primary (1 occurrences)
   Term: 'Turning sails parallel to wind' [bold-pattern] stop=False
@@ -20768,7 +20768,7 @@ Processing 8266 terms...
   Term: 'Two-pass color' [bold-pattern] stop=False
     knowledge.printing -> primary (1 occurrences)
   Term: 'Two-stage pump system' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Two-stage regulator' [bold-pattern] stop=False
     gas-handling.basic -> primary (2 occurrences)
   Term: 'Twyman-Green interferometer' [bold-pattern] stop=False
@@ -20798,7 +20798,7 @@ Processing 8266 terms...
     energy.storage -> secondary (4 occurrences)
     energy.wind -> secondary (3 occurrences)
     gas-handling.basic -> secondary (17 occurrences)
-    gas-handling.vacuum -> primary (6 occurrences)
+    vacuum.basic-vacuum -> primary (6 occurrences)
   Term: 'Type 17-4PH' [bold-pattern] stop=False
     metals.alloys -> primary (1 occurrences)
   Term: 'Type 201' [bold-pattern] stop=False
@@ -21112,10 +21112,10 @@ Processing 8266 terms...
     optics.inspection -> primary (1 occurrences)
     silicon.basic-devices -> primary (1 occurrences)
   Term: 'Vacuum chamber overpressure protection' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Vacuum chambers' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (5 occurrences)
+    vacuum.basic-vacuum -> primary (5 occurrences)
   Term: 'Vacuum distillation' [bold-pattern] stop=False
     chemistry.distillation -> primary (8 occurrences)
     chemistry.lubricants -> mentioned (1 occurrences)
@@ -21130,12 +21130,12 @@ Processing 8266 terms...
   Term: 'Vacuum forming' [bold-pattern] stop=False
     polymers.thermoplastics -> primary (2 occurrences)
   Term: 'Vacuum greases' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Vacuum manifold' [bold-pattern] stop=False
     glass.advanced -> primary (1 occurrences)
   Term: 'Vacuum measurement' [bold-pattern] stop=False
     gas-handling -> mentioned (1 occurrences)
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Vacuum operation' [bold-pattern] stop=False
   Term: 'Vacuum pickup' [bold-pattern] stop=False
     silicon.wafering -> primary (2 occurrences)
@@ -21144,7 +21144,7 @@ Processing 8266 terms...
   Term: 'Vacuum Swing Adsorption (VSA) oxygen' [bold-pattern] stop=False
     chemistry.air-separation -> primary (1 occurrences)
   Term: 'Vacuum system cost scaling' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Vacuum tube' [bold-pattern] stop=False
     computing -> mentioned (1 occurrences)
     computing.electronic -> primary (8 occurrences)
@@ -21157,7 +21157,7 @@ Processing 8266 terms...
   Term: 'Valve bodies' [bold-pattern] stop=False
     metals.casting -> primary (4 occurrences)
   Term: 'Valve conductance' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Valve seat machining' [bold-pattern] stop=False
     energy.engine -> primary (1 occurrences)
   Term: 'Valve springs' [bold-pattern] stop=False
@@ -21186,7 +21186,7 @@ Processing 8266 terms...
     energy.steam-power -> primary (16 occurrences)
     gas-handling -> mentioned (1 occurrences)
     gas-handling.basic -> primary (8 occurrences)
-    gas-handling.vacuum -> secondary (4 occurrences)
+    vacuum.basic-vacuum -> secondary (4 occurrences)
     transport.aviation -> primary (7 occurrences)
     transport.railways -> mentioned (1 occurrences)
     transport.shipping -> mentioned (1 occurrences)
@@ -21341,7 +21341,7 @@ Processing 8266 terms...
     chemistry.petroleum-alternatives -> primary (1 occurrences)
   Term: 'Vinyl chloride monomer (VCM) for PVC' [bold-pattern] stop=False
   Term: 'Virtual leaks' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (2 occurrences)
+    vacuum.basic-vacuum -> primary (2 occurrences)
   Term: 'Viscose process parameters' [bold-pattern] stop=False
     chemistry.pulp-chemicals -> mentioned (1 occurrences)
   Term: 'Viscose rayon' [bold-pattern] stop=False
@@ -21375,11 +21375,11 @@ Processing 8266 terms...
   Term: 'Vitamins and growth factors' [bold-pattern] stop=False
   Term: 'Viton' [bold-pattern] stop=False
     gas-handling.basic -> mentioned (2 occurrences)
-    gas-handling.vacuum -> primary (13 occurrences)
+    vacuum.basic-vacuum -> primary (13 occurrences)
   Term: 'Viton (FKM)' [bold-pattern] stop=False
     gas-handling.basic -> primary (1 occurrences)
   Term: 'Viton O-rings (FKM)' [bold-pattern] stop=False
-    gas-handling.vacuum -> primary (1 occurrences)
+    vacuum.basic-vacuum -> primary (1 occurrences)
   Term: 'Vitreous enamel' [bold-pattern] stop=False
     glass.basic -> primary (1 occurrences)
   Term: 'Voc' [bold-pattern] stop=False

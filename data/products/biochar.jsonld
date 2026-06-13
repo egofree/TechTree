@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "biochar",
+  "@type": "Product",
+  "name": "Biochar",
+  "source": "energy",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

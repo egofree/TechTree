@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "castor_oil",
+  "@type": "Product",
+  "name": "Castor Oil",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

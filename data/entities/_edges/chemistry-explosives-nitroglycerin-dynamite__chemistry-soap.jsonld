@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/chemistry.explosives.nitroglycerin-dynamite__chemistry.soap","@type":"Dependency","edgeType":"material","flow":"byproduct-reuse","from":"chemistry.explosives.nitroglycerin-dynamite","to":"chemistry.soap"}

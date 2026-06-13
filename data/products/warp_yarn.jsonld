@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "warp_yarn",
+  "@type": "Product",
+  "name": "Warp Yarn",
+  "source": "textiles",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

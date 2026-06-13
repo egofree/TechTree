@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "shape_memory_actuation",
+  "@type": "Product",
+  "name": "Shape Memory Actuation",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

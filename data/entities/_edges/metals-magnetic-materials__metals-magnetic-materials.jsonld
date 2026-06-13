@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/metals.magnetic-materials__metals.magnetic-materials","@type":"Dependency","edgeType":"material","flow":"recycling-loop","from":"metals.magnetic-materials","to":"metals.magnetic-materials"}

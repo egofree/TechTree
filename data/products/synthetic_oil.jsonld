@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "synthetic_oil",
+  "@type": "Product",
+  "name": "Synthetic Oil",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cryocoolers",
+  "@type": "Product",
+  "name": "Cryocoolers",
+  "source": "energy",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

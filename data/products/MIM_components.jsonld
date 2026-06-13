@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "MIM_components",
+  "@type": "Product",
+  "name": "Mim Components",
+  "source": "metals",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

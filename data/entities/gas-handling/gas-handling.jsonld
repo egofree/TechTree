@@ -10,11 +10,7 @@
   "outputs": [
     "gas_handling",
     "compressed_gases",
-    "purified_gases",
-    "vacuum_pumps",
-    "vacuum_chambers",
-    "vacuum_measurement",
-    "leak_detection"
+    "purified_gases"
   ],
   "parent": null,
   "pinnacle": false,

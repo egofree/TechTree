@@ -3,7 +3,7 @@
   "@id": "vacuum_measurement",
   "@type": "Product",
   "name": "Vacuum Measurement",
-  "source": "gas-handling.vacuum",
+  "source": "vacuum.measurement",
   "tags": {
     "capability": [
       "vacuum"

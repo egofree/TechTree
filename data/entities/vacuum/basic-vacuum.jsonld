@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Foundational vacuum technology: piston pumps for rough vacuum (1-760 Torr), rotary vane pumps as workhorse (10^-3 to 10^-4 Torr), diffusion pumps for high vacuum (10^-6 to 10^-8 Torr), and basic vacuum chambers in steel or glass. Includes vacuum measurement with Bourdon gauges and Pirani gauges, plus basic leak detection techniques. These are the vacuum fundamentals needed before advancing to turbomolecular, UHV, and semiconductor-grade vacuum systems.",
+  "early_win": false,
+  "id": "vacuum.basic-vacuum",
+  "level": "capability",
+  "name": "Basic Vacuum Technology",
+  "outputs": [
+    "basic_vacuum_pumps",
+    "basic_vacuum_chambers",
+    "basic_vacuum_measurement",
+    "basic_leak_detection"
+  ],
+  "parent": "vacuum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

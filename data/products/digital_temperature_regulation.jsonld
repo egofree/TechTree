@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "digital_temperature_regulation",
+  "@type": "Product",
+  "name": "Digital Temperature Regulation",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

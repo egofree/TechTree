@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "disease_treatment",
+  "@type": "Product",
+  "name": "Disease Treatment",
+  "source": "health",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

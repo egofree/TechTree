@@ -250,7 +250,7 @@
       "source": "Steel piercing/extrusion + fluoropolymer synthesis",
       "used_in": [
         "gas-handling.basic",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "criticality": "high",
       "notes": "High-pressure gas piping and chemically inert gasket/seal material; PTFE for corrosive gas service and ultra-pure gas lines"

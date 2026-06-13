@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nitroglycerin",
+  "@type": "Product",
+  "name": "Nitroglycerin",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

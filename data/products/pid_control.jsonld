@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pid_control",
+  "@type": "Product",
+  "name": "Pid Control",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

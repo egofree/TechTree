@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "remote_sensing",
+  "@type": "Product",
+  "name": "Remote Sensing",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

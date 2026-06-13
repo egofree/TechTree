@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tnt",
+  "@type": "Product",
+  "name": "Tnt",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

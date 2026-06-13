@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydraulic-clamping-systems",
+  "@type": "Product",
+  "name": "Hydraulic-Clamping-Systems",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

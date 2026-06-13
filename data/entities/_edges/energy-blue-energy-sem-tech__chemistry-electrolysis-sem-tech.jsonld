@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.blue-energy.sem-tech__chemistry.electrolysis.sem-tech","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.blue-energy.sem-tech","to":"chemistry.electrolysis.sem-tech"}

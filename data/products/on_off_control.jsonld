@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "on_off_control",
+  "@type": "Product",
+  "name": "On Off Control",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

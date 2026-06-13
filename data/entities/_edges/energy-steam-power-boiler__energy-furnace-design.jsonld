@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.steam-power.boiler__energy.furnace-design","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.steam-power.boiler","to":"energy.furnace-design"}

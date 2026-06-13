@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mercury_switching",
+  "@type": "Product",
+  "name": "Mercury Switching",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

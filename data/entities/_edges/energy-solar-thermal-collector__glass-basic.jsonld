@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.solar-thermal.collector__glass.basic","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.solar-thermal.collector","to":"glass.basic"}

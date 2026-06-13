@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mechanical_actuation",
+  "@type": "Product",
+  "name": "Mechanical Actuation",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

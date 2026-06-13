@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/chemistry.cement__energy.fuels.coal","@type":"Dependency","edgeType":"material","flow":"byproduct-reuse","from":"chemistry.cement","to":"energy.fuels.coal"}

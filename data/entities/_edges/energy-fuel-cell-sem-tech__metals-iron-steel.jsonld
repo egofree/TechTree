@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.fuel-cell.sem-tech__metals.iron-steel","@type":"Dependency","edgeType":"material","flow":"primary","from":"energy.fuel-cell.sem-tech","to":"metals.iron-steel"}

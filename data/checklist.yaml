@@ -169,9 +169,9 @@ tier_2_semiconductor:
   - id: chemistry.acids
     name: Bulk chemical production (acids, alkalis)
     domain: chemistry
-  - id: gas-handling.vacuum
+  - id: vacuum.basic-vacuum
     name: Vacuum pumps and chambers operational
-    domain: gas-handling
+    domain: vacuum
   - id: silicon.mg-si-production
     name: Metallurgical-grade silicon produced
     domain: silicon

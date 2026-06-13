@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "clean_seals",
+  "@type": "Product",
+  "name": "Clean Seals",
+  "source": "polymers",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

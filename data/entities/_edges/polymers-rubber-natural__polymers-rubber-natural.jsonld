@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/polymers.rubber.natural__polymers.rubber.natural","@type":"Dependency","edgeType":"material","flow":"recycling-loop","from":"polymers.rubber.natural","to":"polymers.rubber.natural"}

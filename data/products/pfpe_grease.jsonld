@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pfpe_grease",
+  "@type": "Product",
+  "name": "Pfpe Grease",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

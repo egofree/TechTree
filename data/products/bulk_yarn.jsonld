@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bulk_yarn",
+  "@type": "Product",
+  "name": "Bulk Yarn",
+  "source": "textiles",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "calibration_grade_measurement",
+  "@type": "Product",
+  "name": "Calibration Grade Measurement",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

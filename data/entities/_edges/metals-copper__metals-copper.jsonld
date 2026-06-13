@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/metals.copper__metals.copper","@type":"Dependency","edgeType":"material","flow":"recycling-loop","from":"metals.copper","to":"metals.copper"}

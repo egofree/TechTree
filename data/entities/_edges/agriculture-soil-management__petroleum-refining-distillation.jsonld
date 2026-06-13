@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/agriculture.soil-management__petroleum.refining.distillation","@type":"Dependency","edgeType":"material","flow":"byproduct-reuse","from":"agriculture.soil-management","to":"petroleum.refining.distillation"}

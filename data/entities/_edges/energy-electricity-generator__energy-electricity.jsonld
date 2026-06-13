@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.electricity.generator__energy.electricity","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.electricity.generator","to":"energy.electricity"}

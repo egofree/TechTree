@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_temperature_sensing",
+  "@type": "Product",
+  "name": "High Temperature Sensing",
+  "source": "measurement",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "semiconductor_elastomers",
+  "@type": "Product",
+  "name": "Semiconductor Elastomers",
+  "source": "polymers",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/metals.non-ferrous__metals.non-ferrous","@type":"Dependency","edgeType":"material","flow":"recycling-loop","from":"metals.non-ferrous","to":"metals.non-ferrous"}

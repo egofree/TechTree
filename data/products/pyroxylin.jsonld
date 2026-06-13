@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pyroxylin",
+  "@type": "Product",
+  "name": "Pyroxylin",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

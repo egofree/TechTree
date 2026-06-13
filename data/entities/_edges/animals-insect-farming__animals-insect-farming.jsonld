@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/animals.insect-farming__animals.insect-farming","@type":"Dependency","edgeType":"material","flow":"recycling-loop","from":"animals.insect-farming","to":"animals.insect-farming"}

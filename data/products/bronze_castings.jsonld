@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bronze_castings",
+  "@type": "Product",
+  "name": "Bronze Castings",
+  "source": "metals",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

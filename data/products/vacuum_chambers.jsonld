@@ -3,7 +3,7 @@
   "@id": "vacuum_chambers",
   "@type": "Product",
   "name": "Vacuum Chambers",
-  "source": "gas-handling.vacuum",
+  "source": "vacuum.chambers",
   "tags": {
     "capability": [
       "vacuum"

@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quality_data",
+  "@type": "Product",
+  "name": "Quality Data",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

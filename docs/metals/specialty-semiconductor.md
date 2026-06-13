@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.specialty-semiconductor
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: `chemistry`, [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals`,
+> **Dependencies**: `chemistry`, [`vacuum.pumps`](../vacuum/pumps.md), `metals`,
 > [`metals.refractory-specialty`](./refractory-specialty.md),
 > [`photolithography.fab-processes`](../photolithography/fab-processes.md),
 > [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md)

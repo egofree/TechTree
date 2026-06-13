@@ -20476,7 +20476,7 @@
       "definition": "(Hall-Héroult, later): Al₂O₃ dissolved in molten cryolite (Na₃AlF₆) at 950-1000°C. Carbon anodes. Aluminum deposits at carbon-lined cathode. 4-5V, 100,000+ A. ~13-15 kWh/kg Al. Requires enormous power.",
       "source_articles": [
         "energy.electricity",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "energy",
@@ -20489,7 +20489,7 @@
       "see_also": [],
       "node_refs": [
         "energy.electricity",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -20503,7 +20503,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -28162,7 +28162,7 @@
       "slug": "crossover-pressureglossarycrossover-pressuremd",
       "definition": "(~1 Pa, or ~10⁻² Torr). Below this pressure, molecular flow dominates and the high-vacuum pump becomes effective. Crossover too early → gas load overloads the high-vacuum pump. Crossover too late → wastes time and risks oil backstreaming from roughing pump.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -28173,7 +28173,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -28182,7 +28182,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -29344,7 +29344,7 @@
       "slug": "diaphragm-pumpglossarydiaphragm-pumpmd",
       "definition": "(oil-free roughing): - **Principle**: Flexible PTFE or elastomer diaphragm oscillates in a chamber, drawing gas in through an inlet valve and expelling it through an outlet valve. The diaphragm separates the drive mechanism from the gas stream, so no oil contacts the gas. - **Performance**: Ultimate vacuum 1-10 mbar. Pumping speed 0.5-50 L/min. Not capable of reaching high vacuum on its own, but serves as a clean backing pump for turbomolecular pumps in applications where oil contamination is unacceptable (surface analysis, mass spectrometry, semiconductor processing). - **Advantages**: Oil-free (no backstreaming, no oil changes), chemically resistant with PTFE heads (can pump corrosive vapors), low maintenance (diaphragm replacement every 5,000-10,000 hours). Disadvantages: limited ultimate vacuum, lower pumping speed than comparable rotary vane pumps.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -29355,7 +29355,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -29364,7 +29364,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -29630,7 +29630,7 @@
       "slug": "diffusion-pumpglossarydiffusion-pumpmd",
       "definition": "(high vacuum, no moving parts): - **Principle**: Boiler heats silicone or hydrocarbon oil → vapor jets shoot downward → gas molecules from vacuum chamber diffuse into vapor stream → carried to exhaust → removed by backing pump. No moving parts, very reliable. - **Backing pump requirement**: Diffusion pump requires a mechanical backing pump (rotary vane) to maintain foreline pressure below ~0.5 Torr. Without backing, diffusion pump stalls and oil backstreams into chamber. - **Performance**: Pumping speed 50-10,000 L/s. Ultimate vacuum: ~10⁻⁶ to 10⁻⁸ Torr with proper trapping and baking. - **Oil**: Silicone oil (DC-704, DC-705) or Santovac (polyphenyl ether). Low vapor pressure, high thermal stability. Oil heated to ~150-200°C in boiler. - **Cold trap**: Liquid nitrogen cooled baffle between diffusion pump and chamber. Condenses backstreaming oil vapor. Essential for clean vacuum. LN₂ from the Chemistry stage air liquefaction.",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "domains": [
@@ -29643,7 +29643,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "needs_image": false,
@@ -29653,7 +29653,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -30320,7 +30320,7 @@
       "definition": "Specialty gas distribution for semiconductor manufacturing - **[Hydrogen and Silane](../chemistry/hydrogen-silane.md)**: Pyrophoric gas handling and safety - **[SEM Tech](../chemistry/sem-tech.md)**: Chlorine and hydrogen gas handling in chlor-alkali cells - **[Welding](../machine-tools/joining.md)**: Shielding gas (Ar, CO₂, He) distribution for welding",
       "source_articles": [
         "gas-handling.basic",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -30332,7 +30332,7 @@
       "see_also": [],
       "node_refs": [
         "gas-handling.basic",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -30346,7 +30346,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -35945,7 +35945,7 @@
       "slug": "gas-handling-basicsbasicmd",
       "definition": "Positive-pressure gas distribution, piping, and valves - **[Dopant and Etch Gases](../chemistry/dopant-etch-gases.md)**: Gas panel design and scrubber systems for semiconductor fabs - **[Hydrogen and Silane](../chemistry/hydrogen-silane.md)**: Vacuum requirements for CVD silicon deposition - **[Packaging and Testing](../chemistry/packaging-testing.md)**: Vacuum requirements for IC packaging (hermetic sealing)",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -35956,7 +35956,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -35965,7 +35965,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -38063,7 +38063,7 @@
       "slug": "high-vacuum-pumpglossaryhigh-vacuum-pumpmd",
       "definition": "(turbomolecular or diffusion pump): Takes over at the **[crossover pressure](../glossary/crossover-pressure.md)** (~1 Pa, or ~10⁻² Torr). Below this pressure, molecular flow dominates and the high-vacuum pump becomes effective. Crossover too early → gas load overloads the high-vacuum pump. Crossover too late → wastes time and risks oil backstreaming from roughing pump.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -38074,7 +38074,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -38083,7 +38083,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -38556,7 +38556,7 @@
       "definition": "Pyrophoric gas handling and safety - **[SEM Tech](../chemistry/sem-tech.md)**: Chlorine and hydrogen gas handling in chlor-alkali cells - **[Welding](../machine-tools/joining.md)**: Shielding gas (Ar, CO₂, He) distribution for welding",
       "source_articles": [
         "gas-handling.basic",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -38568,7 +38568,7 @@
       "see_also": [],
       "node_refs": [
         "gas-handling.basic",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -38582,7 +38582,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -43271,7 +43271,7 @@
       "slug": "mechanical-pumpsglossarymechanical-pumpsmd",
       "definition": "(foundation of all vacuum work):",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -43282,7 +43282,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -43291,7 +43291,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -46510,7 +46510,7 @@
       "slug": "packaging-and-testingchemistrypackaging-testingmd",
       "definition": "Vacuum requirements for IC packaging (hermetic sealing)",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -46521,7 +46521,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -46530,7 +46530,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -47706,7 +47706,7 @@
       "slug": "piston-pumpglossarypiston-pumpmd",
       "definition": "(Cornish pump): Cast iron cylinder with leather-packed piston, driven by a surface steam engine through flat rod linkages (rod runs down the shaft). Lift capacity: 50-200 m per stage. Multiple stages for deeper mines. Flow rate: 500-5,000 liters/minute. The Cornish pumping engine was the technology that enabled deep mining in Cornwall and elsewhere from the 18th century onward.",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "mining.extraction"
       ],
       "domains": [
@@ -47719,7 +47719,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "mining.extraction"
       ],
       "needs_image": false,
@@ -47729,7 +47729,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -50981,7 +50981,7 @@
       "slug": "rotary-vane-pumpglossaryrotary-vane-pumpmd",
       "definition": "(workhorse — achieves medium vacuum): - **Principle**: Eccentric rotor in cylindrical stator. Spring-loaded vanes slide in rotor slots, maintaining contact with stator wall. Gas enters inlet port, trapped between vanes and stator, compressed, expelled through exhaust valve. - **Construction**: Cast iron stator (bored to ~0.01 mm tolerance on Machine Tools lathe/boring machine). Steel rotor. Steel or carbon fiber vanes. Oil-filled for sealing and lubrication (oil seals microscopic gaps between vanes and stator). - **Oil requirements**: Low vapor pressure vacuum oil (see [Lubricants](../chemistry/lubricants.md)). Mineral oil with low volatility, or silicone oil. Oil changed regularly — contaminated oil limits ultimate vacuum. - **Performance**: 1-50 L/min (small), 50-500 L/min (medium). Ultimate vacuum: ~10⁻² to 10⁻³ Torr (0.01-0.001 Pa). Single-stage: ~10⁻² Torr. Two-stage: ~10⁻³ Torr. - **Gas ballast**: Small valve admits air during compression phase to prevent condensation of vapors (water, solvents) in pump oil. Essential when pumping wet systems.",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "domains": [
@@ -50994,7 +50994,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "needs_image": false,
@@ -51004,7 +51004,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -51138,7 +51138,7 @@
       "slug": "roughing-pumpglossaryroughing-pumpmd",
       "definition": "(rotary vane or diaphragm): Pulls system from atmospheric pressure (~10⁵ Pa) down to ~0.1-1 Pa. This is the \"rough vacuum\" phase. The roughing pump handles the bulk of the gas load — most of the air molecules are removed in this stage.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -51149,7 +51149,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -51158,7 +51158,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -51828,7 +51828,7 @@
       "slug": "scroll-pumpglossaryscroll-pumpmd",
       "definition": "(oil-free, medium vacuum): - **Principle**: Two interleaving spiral scrolls — one fixed, one orbiting. The orbiting motion creates crescent-shaped gas pockets that progressively decrease in volume, compressing gas from inlet to outlet. No sliding contacts, no oil seal. - **Performance**: Ultimate vacuum ~10⁻² mbar. Pumping speed 5-60 m³/h. Noise level 50-65 dB (quieter than rotary vane). - **Advantages**: Oil-free, low vibration, low maintenance (only scroll tip seals wear). Used as backing pump for small turbomolecular pumps, and for applications requiring clean rough vacuum (freeze drying, degassing, solvent evaporation).",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "domains": [
@@ -51841,7 +51841,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "needs_image": false,
@@ -51851,7 +51851,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -58536,7 +58536,7 @@
       "slug": "turbomolecular-pumpglossaryturbomolecular-pumpmd",
       "definition": "(high/ultra-high vacuum): - **Principle**: Rotor with multiple angled blade stacks spins at 20,000-90,000 RPM. Gas molecules hitting the spinning blades receive a momentum kick in the exhaust direction. Each blade stage provides a small compression ratio; 5-40 stages achieve compression ratios of 10⁸-10¹² for N₂. Compression ratio depends on molecular weight: heavy gases (oil vapors) are pumped much more effectively than light gases (H₂, He). This is why a backing pump is required to handle light gas molecules that pass through the turbo pump relatively unaffected. - **Backing pump requirement**: Rotary vane, diaphragm, or scroll pump maintains foreline pressure below 0.1-1 mbar. Without backing, the turbo pump cannot establish a pressure gradient and stalls. - **Performance**: 10⁻³ to 10⁻¹⁰ mbar (with appropriate backing and baking). Pumping speed 50-5,000 L/s. Compression ratio for N₂: >10⁹; for H₂: ~10³-10⁵ (light gases are the hardest to pump). - **Advantages**: Clean (no oil vapor), fast startup (1-3 minutes to full speed), no backstreaming. Disadvantages: Precision rotor at extreme RPM requires high-quality bearings (ceramic ball bearings or magnetic levitation), expensive to manufacture, vulnerable to mechanical shock and sudden pressure bursts (vents the system slowly).",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "domains": [
@@ -58549,7 +58549,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.pumps"
       ],
       "needs_image": false,
@@ -58559,7 +58559,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -58642,7 +58642,7 @@
       "slug": "two-stage-pump-systemglossarytwo-stage-pump-systemmd",
       "definition": "(standard for high vacuum): - **Roughing pump** (rotary vane or diaphragm): Pulls system from atmospheric pressure (~10⁵ Pa) down to ~0.1-1 Pa. This is the \"rough vacuum\" phase. The roughing pump handles the bulk of the gas load — most of the air molecules are removed in this stage. - **High-vacuum pump** (turbomolecular or diffusion pump): Takes over at the **crossover pressure** (~1 Pa, or ~10⁻² Torr). Below this pressure, molecular flow dominates and the high-vacuum pump becomes effective. Crossover too early → gas load overloads the high-vacuum pump. Crossover too late → wastes time and risks oil backstreaming from roughing pump. - **Pump-down sequence**: Open roughing valve, close high-vacuum valve. Rough to ~1 Pa. Close roughing valve, open high-vacuum valve. Continue pumping to target base pressure (10⁻⁴ to 10⁻⁶ Pa for most semiconductor processes). - **Turbomolecular pump vs. diffusion pump**: Turbo pump — fast startup (1-3 min), clean (no oil vapor), expensive to build (precision rotor at 30,000-90,000 RPM). Diffusion pump — slower startup (15-30 min), requires cold trap to prevent oil backstreaming, simpler construction, lower cost.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -58653,7 +58653,7 @@
       ],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -58662,7 +58662,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -67370,7 +67370,7 @@
         "food-processing.brewing",
         "food-processing.milling",
         "foundations.fire",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.photomask-substrates",
         "health.sanitation",
         "knowledge.printing",
@@ -67445,7 +67445,7 @@
         "food-processing.brewing",
         "food-processing.milling",
         "foundations.fire",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.photomask-substrates",
         "health.sanitation",
         "knowledge.printing",
@@ -67743,7 +67743,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 14
         },
@@ -76325,7 +76325,7 @@
         "energy.engine",
         "energy.steam-power.steam-turbines",
         "energy.storage",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.advanced",
         "health.medicine",
         "machine-tools.edm-cnc",
@@ -76411,7 +76411,7 @@
         "energy.engine",
         "energy.steam-power.steam-turbines",
         "energy.storage",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.advanced",
         "health.medicine",
         "machine-tools.edm-cnc",
@@ -76787,7 +76787,7 @@
           "occurrences": 8
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 15
         },
@@ -77152,7 +77152,7 @@
       "slug": "application-rule",
       "definition": "Use as little as possible. Excess grease migrates to chamber walls, increasing outgassing. Apply a thin film, then wipe off the excess with a lint-free cloth until the surface appears only slightly glossy.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -77161,7 +77161,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -77170,7 +77170,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -79824,7 +79824,7 @@
       "source_articles": [
         "computing.electronic",
         "energy.storage",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.bearings-abrasives",
         "measurement.optical-instruments"
       ],
@@ -79841,7 +79841,7 @@
       "node_refs": [
         "computing.electronic",
         "energy.storage",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.bearings-abrasives",
         "measurement.optical-instruments"
       ],
@@ -79882,7 +79882,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 5
         },
@@ -81884,7 +81884,7 @@
       "slug": "backing-pump-requirement",
       "definition": "Turbo pumps cannot exhaust to atmosphere — they require a backing (roughing) pump to maintain the foreline pressure below 0.1-1.0 Torr. Typical combination: turbo pump + dry scroll backing pump. The backing pump must handle the turbo's exhaust throughput: Q = S × P, where S is pumping speed and P is inlet pressure. At 10⁻⁶ Torr with 1000 L/s speed: Q = 10⁻³ Torr·L/s — easily handled by a 10 L/s scroll pump.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling",
@@ -81895,7 +81895,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": true,
       "needs_diagram": false,
@@ -81904,7 +81904,7 @@
       "tier": "critical",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -82270,7 +82270,7 @@
       "slug": "bake-out-procedure",
       "definition": "Heat the entire vacuum system to 150-400°C while pumping continuously. This accelerates desorption by orders of magnitude. A system that takes 2 weeks to reach 10⁻⁶ Pa without bake-out reaches it in 24-48 hours with bake-out. Stainless steel chambers with copper CF gaskets tolerate the highest bake temperatures (300-400°C). Viton-sealed systems limited to 150°C.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -82279,7 +82279,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -82288,7 +82288,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -82401,7 +82401,7 @@
       "slug": "baking-during-pump-down",
       "definition": "Heating the vacuum chamber to 150-400°C while pumping accelerates outgassing by 10-100×, converting what would be a weeks-long process into hours. The bake-out temperature is chosen based on the most temperature-sensitive component in the system. Stainless steel chambers with copper CF gaskets tolerate 300-400°C. Viton-sealed systems are limited to 150°C. Internal components (viewports, electrical feedthroughs, sample stages) may have lower temperature limits that constrain the overall bake temperature. Thermocouple gauges taped to the chamber exterior at multiple points verify uniform heating. Hot spots above the target temperature can damage seals or warp flanges, creating new leak paths. The pump-down and bake-out sequence is: rough pump to 1 Pa, start heating, continue pumping while temperature ramps up, hold at temperature for 24-48 hours while monitoring pressure, then cool naturally under vacuum before venting.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -82410,7 +82410,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -82419,7 +82419,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -85192,7 +85192,7 @@
       "slug": "bayard-alpert-hot-cathode-ion-gauge",
       "definition": "Heated filament emits electrons (typically at 30-100 mA emission current). Electrons accelerated toward a grid, ionizing gas molecules. Ions collected on a thin central wire (collector). Ion current proportional to pressure. Range: 10⁻³-10⁻¹¹ mbar. Most accurate and widest-range vacuum gauge. Filament can burn out (replaceable tubes). Do not operate above 10⁻³ mbar (filament oxidizes and fails rapidly).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -85201,7 +85201,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -85210,7 +85210,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -93536,7 +93536,7 @@
       "slug": "bourdon-tube-gauge",
       "definition": "Curved hollow metal tube connected to vacuum system. External atmospheric pressure vs. internal pressure difference deflects the tube, moving a needle on a dial. Range: 1000-1 mbar. Simple, rugged, requires no power. Accuracy ±2-5% of full scale. Cannot measure below ~1 mbar. Useful for monitoring roughing pump performance.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -93545,7 +93545,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -93554,7 +93554,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -96348,7 +96348,7 @@
       "slug": "bubble-test",
       "definition": "Pressurize system, spray soap solution on exterior, watch for bubbles. Finds large leaks.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -96357,7 +96357,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -96371,7 +96371,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -96382,7 +96382,7 @@
       "slug": "bubble-testing",
       "definition": "The simplest leak detection method, suitable for finding gross leaks (>10⁻⁴ atm·cc/s). Pressurize the system with dry air or nitrogen to 1-2 bar above atmospheric. Apply a soap solution (commercial leak detection fluid or diluted dish soap) to all joints, welds, and fittings. Watch for bubble formation. Each bubble indicates a leak path. The method is inexpensive and requires no special equipment, but it cannot detect the small leaks that matter in high-vacuum systems.",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.measurement"
       ],
       "domains": [
@@ -96393,7 +96393,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.measurement"
       ],
       "needs_image": false,
@@ -96403,7 +96403,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -113404,7 +113404,7 @@
     {
       "term": "Chromium sputtering",
       "slug": "chromium-sputtering",
-      "definition": "Requires DC magnetron sputtering system (vacuum <5 × 10⁻⁷ Torr, turbomolecular pump), chromium target (99.95% pure), argon gas. Vacuum capability from [`gas-handling.vacuum`](../gas-handling/vacuum.md).",
+      "definition": "Requires DC magnetron sputtering system (vacuum <5 × 10⁻⁷ Torr, turbomolecular pump), chromium target (99.95% pure), argon gas. Vacuum capability from [`vacuum.basic-vacuum`](../gas-handling/vacuum.md).",
       "source_articles": [
         "glass.photomask-substrates"
       ],
@@ -115047,7 +115047,7 @@
       "source_articles": [
         "animals.sericulture",
         "chemistry.petroleum-alternatives",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.photomask-substrates",
         "health.medicine",
         "metals.casting",
@@ -115068,7 +115068,7 @@
       "node_refs": [
         "animals.sericulture",
         "chemistry.petroleum-alternatives",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.photomask-substrates",
         "health.medicine",
         "metals.casting",
@@ -115206,7 +115206,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         },
@@ -119401,7 +119401,7 @@
       "slug": "cold-trap",
       "definition": "Liquid nitrogen cooled baffle between diffusion pump and chamber. Condenses backstreaming oil vapor. Essential for clean vacuum. LN₂ from the Chemistry stage air liquefaction.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -119410,7 +119410,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -119419,7 +119419,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 7
         }
@@ -123155,7 +123155,7 @@
           "occurrences": 8
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "secondary",
           "occurrences": 7
         }
@@ -125144,7 +125144,7 @@
       "slug": "conductance",
       "definition": "When open, a gate valve has nearly the full bore of the connected flange — very high conductance. This is why gate valves are preferred over angle valves on high-vacuum pump lines (where maximum conductance is critical).",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.chambers"
       ],
       "domains": [
@@ -125155,7 +125155,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.chambers"
       ],
       "needs_image": false,
@@ -125165,7 +125165,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 10
         },
@@ -126746,7 +126746,7 @@
         "energy.wind",
         "water.procurement",
         "gas-handling.basic",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "metals.casting",
         "machine-tools.edm-cnc",
         "machine-tools.iterative-bootstrap",
@@ -126834,7 +126834,7 @@
         "energy.wind",
         "water.procurement",
         "gas-handling.basic",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "metals.casting",
         "machine-tools.edm-cnc",
         "machine-tools.iterative-bootstrap",
@@ -127203,7 +127203,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 5
         },
@@ -129816,7 +129816,7 @@
       "definition": "The receiving vessel and transfer line must be cooled from ambient temperature to cryogenic temperature before liquid can accumulate. Initially, cryogenic liquid sprayed into a warm vessel evaporates immediately (flash evaporation). The cold gas cools the vessel walls. Cool-down of a 200 L dewar from +20°C to -196°C requires approximately 30-60 L of LIN (15-30% of capacity). This is \"fill loss.\" 2. **Liquid accumulation**: Once the vessel walls are cold, liquid begins to pool. The fill rate is controlled by the pressure difference between supply and receiving vessels (typically 0.5-2 bar differential). The fill continues until the target liquid level is reached (measured by differential pressure or weight). 3. **Venting**: Vapor generated during cool-down and fill is vented through the receiving vessel's relief valve or vent connection. The vent must be directed to a safe location (outdoors, above roof level) to prevent oxygen deficiency in the work area.",
       "source_articles": [
         "cryogenics.liquefaction-storage",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "cryogenics",
@@ -129827,7 +129827,7 @@
       "see_also": [],
       "node_refs": [
         "cryogenics.liquefaction-storage",
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -129841,7 +129841,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -130901,7 +130901,7 @@
       "slug": "copper-ofhc",
       "definition": "Oxygen-free high-conductivity copper is used for CF flange gaskets, internal heat sinks, and braze joints in vacuum assemblies. OFHC copper has very low outgassing (<10⁻⁹ Torr·L/s·cm² baked) and good thermal conductivity (391 W/m·K), making it the standard sealing material for UHV. Copper gaskets are single-use items. Each time a CF flange is opened, the old gasket is discarded and a new one installed. The knife edges on the flanges cut into the copper to a depth of ~0.8 mm during compression, creating a cold-welded metal-to-metal seal. The compressed copper flows into the knife-edge grooves, forming a gas-tight joint rated to below 10⁻¹² Torr.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -130910,7 +130910,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -130919,7 +130919,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -136005,7 +136005,7 @@
       "slug": "critical-hazard",
       "definition": "Contains cyanogenic glycosides (linamarin, lotaustralin). Bitter varieties contain 50-400 mg HCN equivalent/kg; sweet varieties 15-50 mg/kg. Lethal dose: ~0.5-3.5 mg HCN/kg body weight - **Detoxification process**: Peel roots (cyanogens concentrated in skin). Grate or chip finely. Soak in water for 24-48 hours (hydrolyzes linamarin to HCN, which volatilizes). Alternatively, ferment grated pulp for 3-5 days, then press and toast into farinha flour. Heap fermentation (pile grated roots 30-50 cm deep, cover with leaves, ferment 48-72 hours) is the traditional West African method - Cooking alone does not fully detoxify cassava — enzymatic breakdown must occur before heating inactivates the linamarase enzyme at ~75°C",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "plants.edible-plants"
       ],
       "domains": [
@@ -136017,7 +136017,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "plants.edible-plants"
       ],
       "needs_image": false,
@@ -136027,7 +136027,7 @@
       "tier": "critical",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -137560,7 +137560,7 @@
       "slug": "cryogenic-trap-handling",
       "definition": "Cold traps cooled with liquid nitrogen (LN₂, -196°C) present cold burn and condensation hazards. Skin contact with LN₂-cooled surfaces causes immediate frostbite (tissue destruction identical to burns). Wear insulated cryogenic gloves (not just leather work gloves — cold penetrates thin gloves rapidly) and face shield when handling LN₂ or manipulating cold traps. When filling a cold trap, add LN₂ slowly — rapid pouring causes violent boiling and splashing. **Critical hazard**: if a cold trap is left filled with LN₂ after the vacuum system is vented to air, the trap will condense liquid oxygen from the air (LOX boils at -183°C, warmer than LN₂ at -196°C). LOX is a powerful oxidizer — contact with any organic material (oil, grease, vacuum grease, O-rings) can cause spontaneous ignition or explosion. Always empty cold traps before venting the vacuum system, or warm the trap to above -183°C before air exposure.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -137569,7 +137569,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -137578,7 +137578,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -139764,7 +139764,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -146652,7 +146652,7 @@
         "energy.fuels.coke",
         "food-processing.brewing",
         "food-processing.dairy",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.sanitation",
         "silicon.crystal-growth",
         "transport.aviation",
@@ -146686,7 +146686,7 @@
         "energy.fuels.coke",
         "food-processing.brewing",
         "food-processing.dairy",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.sanitation",
         "silicon.crystal-growth",
         "transport.aviation",
@@ -146839,7 +146839,7 @@
           "occurrences": 6
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 12
         },
@@ -147236,7 +147236,7 @@
       "slug": "desorption-and-readsorption",
       "definition": "After a system reaches base pressure and the bake-out is complete, the chamber walls are relatively clean. But every time the system is vented to air (even with dry nitrogen), water vapor and atmospheric gases adsorb on the internal surfaces. The first pump-down after a vent is always slower than subsequent pump-downs on the same system without venting, because the freshly adsorbed gas layers must be desorbed. For systems that must cycle frequently between vacuum and atmosphere (load-lock chambers, batch process tools), a vent-and-purge approach with dry nitrogen reduces the readsorption load compared to venting with humid ambient air. Dry nitrogen venting leaves the surface with only a thin physisorbed N₂ layer, which pumps away quickly, rather than multiple monolayers of water that require extended pumping to remove.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -147245,7 +147245,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -147254,7 +147254,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -149061,7 +149061,7 @@
           "occurrences": 7
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "secondary",
           "occurrences": 7
         },
@@ -151632,7 +151632,7 @@
         "energy.fuels.coke",
         "energy.steam-power",
         "energy.storage",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.bearings-abrasives",
         "metals.aluminum",
         "metals.steelmaking",
@@ -151671,7 +151671,7 @@
         "energy.fuels.coke",
         "energy.steam-power",
         "energy.storage",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.bearings-abrasives",
         "metals.aluminum",
         "metals.steelmaking",
@@ -151763,7 +151763,7 @@
           "occurrences": 3
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 6
         },
@@ -158949,7 +158949,7 @@
       "source_articles": [
         "energy.fuels.coke",
         "food-processing.brewing",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "knowledge.writing",
         "metals.copper"
       ],
@@ -158966,7 +158966,7 @@
       "node_refs": [
         "energy.fuels.coke",
         "food-processing.brewing",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "knowledge.writing",
         "metals.copper"
       ],
@@ -159012,7 +159012,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -193936,7 +193936,7 @@
       "slug": "gas-ballast",
       "definition": "A valve admits a controlled amount of air into the compression stage to prevent condensation of vapors (water, solvents) in the pump oil. With ballast open, ultimate vacuum degrades by ~10× but the pump handles condensable loads without oil contamination. Essential for pumping down chambers that have been vented to humid air (water vapor is the dominant outgassing species).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling",
@@ -193946,7 +193946,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -193955,7 +193955,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -194520,7 +194520,7 @@
           "occurrences": 7
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "mentioned",
           "occurrences": 2
         }
@@ -201456,7 +201456,7 @@
       "slug": "groove-design",
       "definition": "O-ring sits in a rectangular groove machined into one flange face. Groove depth = 70-80% of O-ring cross-section diameter (compresses the ring 20-30% to create seal). Groove width = 120-140% of cross-section (room for the ring to expand when compressed). Surface finish on groove walls: Ra <1.6 μm (smooth enough to prevent leaks past the ring).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -201465,7 +201465,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -201474,7 +201474,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -203415,7 +203415,7 @@
         "animals.poultry.pigeons",
         "animals.poultry.turkeys",
         "cleanrooms.hepa-ulpa-filtration",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "textiles.rope-making"
       ],
       "domains": [
@@ -203434,7 +203434,7 @@
         "animals.poultry.pigeons",
         "animals.poultry.turkeys",
         "cleanrooms.hepa-ulpa-filtration",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "textiles.rope-making"
       ],
       "needs_image": false,
@@ -203590,7 +203590,7 @@
           "occurrences": 11
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 7
         },
@@ -208384,7 +208384,7 @@
       "slug": "helium-leak-detector",
       "definition": "Mass spectrometer tuned to He. Spray He on exterior, detect He entering vacuum system. Sensitivity ~10⁻¹² atm·cc/s. The gold standard.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -208393,7 +208393,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -208402,7 +208402,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -208442,7 +208442,7 @@
       "slug": "helium-mass-spectrometer-leak-detection",
       "definition": "The most sensitive and widely used method for finding vacuum leaks. A mass spectrometer tuned to helium (mass 4) is connected to the vacuum system. Two modes: (1) Vacuum mode (spray probe): the system is under vacuum and connected to the leak detector. Helium is sprayed on the exterior surface using a fine nozzle. When the spray passes over a leak, helium enters the system and is detected within seconds (response time depends on pumping speed and internal volume). Sensitivity: 10⁻¹² atm·cc/s. (2) Sniffer mode: the system is pressurized with helium (or a helium-air mixture) and a sniffer probe connected to the leak detector is passed over the exterior. Helium escaping through leaks is drawn into the probe. Used for gross leak detection in large systems that cannot easily be evacuated.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -208451,7 +208451,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -208460,7 +208460,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -209827,7 +209827,7 @@
       "slug": "high-vacuum-10-10-torr",
       "definition": "Penning ionization gauge (cold cathode ionizes gas, ion current proportional to pressure). Bayard-Alpert ion gauge (hot cathode version, more accurate). Calibration against McLeod gauge (absolute pressure measurement using compressed gas column — primary standard).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -209836,7 +209836,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -209845,7 +209845,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -216643,7 +216643,7 @@
       "slug": "implosion-risk-from-glass-vacuum-chambers",
       "definition": "Glass bell jars and glass vacuum apparatus are under ~1 atmosphere (14.7 psi) of external pressure when evacuated. A flaw, scratch, or star crack concentrates stress and can cause sudden catastrophic implosion — the glass fragments are accelerated inward by atmospheric pressure, then bounce outward at high velocity. Risk mitigation: inspect all glassware for scratches, chips, and internal stresses before each use. Wrap glass chambers with adhesive-backed shatter film or multiple layers of tape (contains fragments if implosion occurs). Use polycarbonate safety shields between the operator and the glass chamber. Wear safety glasses at all times near evacuated glass systems. For larger chambers, prefer steel or stainless steel construction over glass.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -216652,7 +216652,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -216661,7 +216661,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -233625,7 +233625,7 @@
         "chemistry.electrolysis.sem-tech",
         "chemistry.hydrogen-silane",
         "chemistry.packaging-testing",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.measurement"
       ],
       "domains": [
@@ -233641,7 +233641,7 @@
         "chemistry.electrolysis.sem-tech",
         "chemistry.hydrogen-silane",
         "chemistry.packaging-testing",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.measurement"
       ],
       "needs_image": true,
@@ -233676,7 +233676,7 @@
           "occurrences": 5
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 9
         },
@@ -233765,7 +233765,7 @@
       "slug": "leak-detection-with-rga",
       "definition": "Spray helium outside the vacuum system while monitoring mass 4 on the RGA. A sudden spike in helium partial pressure indicates the location of the leak. Sensitivity: ~10⁻¹² Pa·m³/s, comparable to dedicated helium leak detectors.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -233774,7 +233774,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -233783,7 +233783,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -236912,7 +236912,7 @@
         "energy.wind",
         "food-processing.milling",
         "food-processing.preservation",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.photomask-substrates",
         "health.sanitation",
         "knowledge.printing",
@@ -236980,7 +236980,7 @@
         "energy.wind",
         "food-processing.milling",
         "food-processing.preservation",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.photomask-substrates",
         "health.sanitation",
         "knowledge.printing",
@@ -237221,7 +237221,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 4
         },
@@ -244050,7 +244050,7 @@
       "slug": "maintenance-intervals",
       "definition": "Rotary vane pumps require oil changes every 3-6 months. Diffusion pump fluid degrades over 1-3 years. Turbomolecular pump bearings last 3-5 years. Cryopumps require regeneration (warm-up to release captured gas) every 4-24 hours depending on gas load. Vacuum system maintenance is a recurring operational cost.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -244059,7 +244059,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -244068,7 +244068,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -246841,7 +246841,7 @@
       "slug": "mass-range",
       "definition": "1-100 or 1-200 amu. Resolution: 1 amu (distinguishes adjacent masses).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -246850,7 +246850,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -246859,7 +246859,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -247236,7 +247236,7 @@
         "food-processing.milling",
         "foundations.fire",
         "gas-handling.basic",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.medicine",
         "knowledge.writing",
         "metals.casting",
@@ -247298,7 +247298,7 @@
         "food-processing.milling",
         "foundations.fire",
         "gas-handling.basic",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.medicine",
         "knowledge.writing",
         "metals.casting",
@@ -247615,7 +247615,7 @@
           "occurrences": 16
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 20
         },
@@ -248366,7 +248366,7 @@
       "slug": "material-selection",
       "definition": "Select pipe material based on gas compatibility. Inert gases (N₂, Ar, He, CO₂, compressed air): carbon steel or copper, standard fittings. Corrosive gases (HCl, Cl₂, H₂S, HF): stainless steel 316L with welded joints. Ultra-high-purity semiconductor gases: electropolished stainless steel 316L with orbital-welded joints and VCR fittings. Oxygen service: steel, copper, or Monel, oxygen-clean. Fuel gases (H₂, CH₄): steel or stainless steel. Acetylene: steel only (never copper alloys).",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "precision-motion.nanometer-positioning"
       ],
       "domains": [
@@ -248377,7 +248377,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "precision-motion.nanometer-positioning"
       ],
       "needs_image": true,
@@ -248392,7 +248392,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -251152,7 +251152,7 @@
       "slug": "medium-vacuum-1-10-torr",
       "definition": "Thermocouple gauge or Pirani gauge (heated wire — thermal conductivity of gas depends on pressure). Inexpensive, reliable.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -251161,7 +251161,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -251170,7 +251170,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -254907,7 +254907,7 @@
         "chemistry.petroleum-alternatives.fermentation",
         "energy.fuels.charcoal",
         "foundations.fire",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.pharmacology",
         "measurement.precision-metrology",
         "metals.iron-steel",
@@ -254940,7 +254940,7 @@
         "chemistry.petroleum-alternatives.fermentation",
         "energy.fuels.charcoal",
         "foundations.fire",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.pharmacology",
         "measurement.precision-metrology",
         "metals.iron-steel",
@@ -255207,7 +255207,7 @@
           "occurrences": 9
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 6
         },
@@ -271308,7 +271308,7 @@
       "slug": "oil",
       "definition": "Silicone oil (DC-704, DC-705) or Santovac (polyphenyl ether). Low vapor pressure, high thermal stability. Oil heated to ~150-200°C in boiler.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -271317,7 +271317,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -271331,7 +271331,7 @@
           "occurrences": 13
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 51
         }
@@ -271371,7 +271371,7 @@
       "slug": "oil-diffusion-pump-fire-hazard",
       "definition": "Diffusion pump oil is heated to 150-200°C in the boiler. If the cooling water fails (or was never turned on), oil temperature rises uncontrollably — silicone oil decomposes above ~250-300°C, producing flammable decomposition gases. If air leaks into a hot diffusion pump, the mixture of hot oil vapor and oxygen can ignite. Prevention: interlock cooling water flow to pump heater — if water flow stops, heater must shut off automatically. Never vent a hot diffusion pump to air; always cool the boiler below 50°C before venting. Use high-thermal-stability oils (Santovac, DC-705) that resist decomposition. Keep a Class B fire extinguisher nearby.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -271380,7 +271380,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -271389,7 +271389,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -271521,7 +271521,7 @@
       "slug": "oil-requirements",
       "definition": "Low vapor pressure vacuum oil (see [Lubricants](../chemistry/lubricants.md)). Mineral oil with low volatility, or silicone oil. Oil changed regularly — contaminated oil limits ultimate vacuum.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -271530,7 +271530,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -271539,7 +271539,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -275526,7 +275526,7 @@
       "slug": "outgassing-dominates-at-high-vacuum",
       "definition": "Below 10⁻⁶ Torr, gas load from outgassing (water vapor desorbing from chamber walls, dissolved gas diffusing from bulk materials) exceeds the gas load from leaks. Achieving UHV requires bake-out (heating the entire chamber to 150-400°C for 24-72 hours while pumping) to drive off adsorbed water and reduce outgassing rates by 100-10,000×.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -275535,7 +275535,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -275544,7 +275544,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -281938,7 +281938,7 @@
       "slug": "penning-cold-cathode-gauge",
       "definition": "High voltage (2-5 kV) applied between cathode and anode in a magnetic field. Electrons spiral in the magnetic field, ionizing gas molecules. Ion current is proportional to gas density (pressure). Range: 10⁻³-10⁻⁷ mbar. Robust (no hot filament to burn out). Cannot be used above 10⁻² mbar (arcing). Ignition delay at very low pressures (may read zero briefly until discharge starts).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -281947,7 +281947,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -281956,7 +281956,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -282692,7 +282692,7 @@
         "energy.engine",
         "energy.steam-power",
         "energy.wind",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "measurement.optical-instruments",
         "optics.inspection.optical-coatings",
         "polymers.rubber.gutta-percha",
@@ -282728,7 +282728,7 @@
         "energy.engine",
         "energy.steam-power",
         "energy.wind",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "measurement.optical-instruments",
         "optics.inspection.optical-coatings",
         "polymers.rubber.gutta-percha",
@@ -282863,7 +282863,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 8
         },
@@ -287101,7 +287101,7 @@
       "slug": "pirani-gauge",
       "definition": "Heated wire element (tungsten or platinum) in the vacuum system. Gas molecules conduct heat away from the wire. At higher pressure, more molecules collide with the wire, cooling it (lower resistance). At lower pressure, fewer collisions, wire stays hotter (higher resistance). A Wheatstone bridge circuit measures resistance change and converts to pressure reading. Range: 1-10⁻³ mbar. Gas-type dependent (thermal conductivity varies with gas molecular weight — calibration is typically for N₂ or air; read differently for He, Ar, H₂).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -287110,7 +287110,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -287119,7 +287119,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -307213,7 +307213,7 @@
           "occurrences": 13
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "secondary",
           "occurrences": 123
         }
@@ -307339,7 +307339,7 @@
       "slug": "pump-down-sequence",
       "definition": "Open roughing valve, close high-vacuum valve. Rough to ~1 Pa. Close roughing valve, open high-vacuum valve. Continue pumping to target base pressure (10⁻⁴ to 10⁻⁶ Pa for most semiconductor processes).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -307348,7 +307348,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -307357,7 +307357,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -308691,7 +308691,7 @@
         "computing.mechanical",
         "foundations.fire",
         "gas-handling.basic",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.basic",
         "health.medicine",
         "knowledge.education",
@@ -308722,7 +308722,7 @@
         "computing.mechanical",
         "foundations.fire",
         "gas-handling.basic",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "glass.basic",
         "health.medicine",
         "knowledge.education",
@@ -308775,7 +308775,7 @@
           "occurrences": 4
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 3
         },
@@ -326849,7 +326849,7 @@
       "slug": "rough-vacuum-760-1-torr",
       "definition": "Bourdon tube gauge (mechanical). U-tube manometer (oil or mercury — measures pressure difference directly).",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -326858,7 +326858,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -326867,7 +326867,7 @@
       "tier": "supporting",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -327944,7 +327944,7 @@
       "definition": "Keep foreline piping between the vacuum chamber and the pump as short and wide as practical. A 1 m length of 25 mm ID pipe has a molecular flow conductance of ~30 L/s for N₂. If the pump has a speed of 300 L/s but is connected through this pipe, the effective pumping speed at the chamber is only ~27 L/s. The pipe chokes the pump. Double the pipe diameter → four times the conductance.",
       "source_articles": [
         "construction.industrial-buildings",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.forming",
         "textiles.spinning"
       ],
@@ -327960,7 +327960,7 @@
       "see_also": [],
       "node_refs": [
         "construction.industrial-buildings",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.forming",
         "textiles.spinning"
       ],
@@ -327981,7 +327981,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -359189,7 +359189,7 @@
       "slug": "stainless-steel-304l-316l",
       "definition": "The standard chamber and piping material for high and ultra-high vacuum. Both grades have low outgassing rates (<10⁻⁹ Torr·L/s·cm² after bake-out), good weldability (the \"L\" designation means low carbon, which prevents carbide precipitation and corrosion at weld seams), and adequate mechanical strength. 316L is preferred for corrosive gas applications (contains molybdenum for pitting resistance). Electropolishing the interior surface reduces the effective surface area by roughly 50% compared to mechanically polished surfaces, which directly reduces outgassing by cutting the number of adsorption sites for water and gas molecules. Electropolishing also creates a smooth, chromium-rich passive layer that is easier to clean.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -359198,7 +359198,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -359207,7 +359207,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -366219,7 +366219,7 @@
           "occurrences": 14
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "mentioned",
           "occurrences": 1
         },
@@ -372777,7 +372777,7 @@
       "source_articles": [
         "chemistry.electrolysis",
         "electrochemistry.electrochemical-processes",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.joining",
         "metals.finishing",
         "vacuum.chambers"
@@ -372796,7 +372796,7 @@
       "node_refs": [
         "chemistry.electrolysis",
         "electrochemistry.electrochemical-processes",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.joining",
         "metals.finishing",
         "vacuum.chambers"
@@ -372833,7 +372833,7 @@
           "occurrences": 2
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         },
@@ -377531,7 +377531,7 @@
         "electrochemistry.electrochemical-processes",
         "energy.blue-energy",
         "energy.fuel-cell",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.medicine",
         "machine-tools.forming",
         "machine-tools.joining",
@@ -377574,7 +377574,7 @@
         "electrochemistry.electrochemical-processes",
         "energy.blue-energy",
         "energy.fuel-cell",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.medicine",
         "machine-tools.forming",
         "machine-tools.joining",
@@ -377947,7 +377947,7 @@
           "occurrences": 12
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 17
         },
@@ -379761,7 +379761,7 @@
       "slug": "tesla-coil",
       "definition": "High-frequency spark probe. Spark penetrates small holes in glass apparatus (visible discharge inside). Glass systems only.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -379770,7 +379770,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -379779,7 +379779,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -382532,7 +382532,7 @@
       "slug": "thermocouple-gauge",
       "definition": "Similar principle to Pirani but uses a thermocouple welded to a heated filament to directly measure filament temperature. Range: 5-10⁻³ mbar. Less accurate than Pirani but simpler and more robust.",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.measurement"
       ],
       "domains": [
@@ -382543,7 +382543,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.measurement"
       ],
       "needs_image": false,
@@ -382553,7 +382553,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 3
         },
@@ -393836,7 +393836,7 @@
       "slug": "turbomolecular-pump-vs-diffusion-pump",
       "definition": "Turbo pump — fast startup (1-3 min), clean (no oil vapor), expensive to build (precision rotor at 30,000-90,000 RPM). Diffusion pump — slower startup (15-30 min), requires cold trap to prevent oil backstreaming, simpler construction, lower cost.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -393845,7 +393845,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -393854,7 +393854,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -394509,7 +394509,7 @@
         "ehs.emergency-response",
         "electronics.assembly",
         "energy.electric-furnaces.electrode-manufacturing",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.chambers"
       ],
       "domains": [
@@ -394534,7 +394534,7 @@
         "ehs.emergency-response",
         "electronics.assembly",
         "energy.electric-furnaces.electrode-manufacturing",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "vacuum.chambers"
       ],
       "needs_image": false,
@@ -394714,7 +394714,7 @@
           "occurrences": 17
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 9
         },
@@ -395618,7 +395618,7 @@
       "slug": "ultimate-pressure-limits",
       "definition": "Each pump type has a practical lower pressure limit: rotary vane ~10⁻³ Torr, diffusion pump ~10⁻⁸ Torr, turbomolecular ~10⁻¹⁰ Torr, cryopump ~10⁻¹¹ Torr. Achieving lower pressures requires combining pump types (roughing pump + high-vacuum pump) and careful management of outgassing from chamber walls and internal surfaces.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -395627,7 +395627,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -395636,7 +395636,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -399302,7 +399302,7 @@
       "slug": "vacuum-chamber-overpressure-protection",
       "definition": "If a vacuum system is accidentally connected to a pressure source (wrong valve opened, gas line backfeed), the chamber can be pressurized beyond its design limit. Steel vacuum chambers are designed for external pressure (vacuum) and may have thin walls that fail under internal pressure. Install pressure relief valves (set slightly above atmospheric, typically 1.1-1.5 bar absolute) on all vacuum chambers. Never pressurize a vacuum vessel beyond its rated pressure. If using a chamber for both vacuum and positive pressure, ensure it is rated for both conditions.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -399311,7 +399311,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -399320,7 +399320,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -399958,7 +399958,7 @@
       "slug": "vacuum-system-cost-scaling",
       "definition": "The cost of a vacuum system scales roughly with the chamber volume raised to the 0.7 power and with the inverse of the target pressure. A system for 10⁻⁶ Pa costs ~10× more than one for 10⁻³ Pa of the same volume, primarily due to the need for higher-performance pumps, metal-sealed flanges, and bake-out capability. For bootstrap semiconductor manufacturing, the vacuum requirements for basic evaporation (10⁻⁵ to 10⁻⁶ Torr) are achievable with a rotary vane roughing pump plus a small diffusion pump, at modest cost.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -399967,7 +399967,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -399976,7 +399976,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }
@@ -400248,7 +400248,7 @@
       "slug": "valve-conductance",
       "definition": "Every valve in the system adds flow resistance. Gate valves have the highest conductance (nearly full pipe bore when open). Angle valves have lower conductance (gas must change direction 90°). Factor valve conductance into system design calculations.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -400257,7 +400257,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -400266,7 +400266,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         }
@@ -400482,7 +400482,7 @@
           "occurrences": 8
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "secondary",
           "occurrences": 5
         },
@@ -402948,7 +402948,7 @@
       "source_articles": [
         "chemistry.cement",
         "cleanrooms.contamination-control",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.occupational-health",
         "cleanrooms"
       ],
@@ -402965,7 +402965,7 @@
       "node_refs": [
         "chemistry.cement",
         "cleanrooms.contamination-control",
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "health.occupational-health",
         "cleanrooms"
       ],
@@ -403016,7 +403016,7 @@
           "occurrences": 1
         },
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 5
         },
@@ -403587,7 +403587,7 @@
       "slug": "virtual-leaks",
       "definition": "Not all leaks are holes in the chamber wall. A virtual leak is a trapped volume of gas inside the vacuum system that slowly releases into the chamber over time. Common sources: screw threads with trapped air pockets, blind holes that are not vented, gaps between stacked components, and cracks in welds that communicate with the interior through a long, narrow path. Virtual leaks are frustrating because they cause the system to lose vacuum slowly, but helium leak detection cannot find them (the trapped gas is already inside). Prevention: vent all blind holes (drill a relief hole through to the vacuum side or use vented screws), avoid trapped volumes in mechanical designs, and inspect welds radiographically for internal cracks. If a virtual leak is suspected, the pump-down curve shows a characteristic slow, asymptotic approach to base pressure that does not match the calculated outgassing curve.",
       "source_articles": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.joining"
       ],
       "domains": [
@@ -403598,7 +403598,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum",
+        "vacuum.basic-vacuum",
         "machine-tools.joining"
       ],
       "needs_image": false,
@@ -403608,7 +403608,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 2
         },
@@ -404105,7 +404105,7 @@
       "slug": "viton-o-rings-fkm",
       "definition": "The standard elastomer for O-ring sealed vacuum flanges (ISO-KF and similar). Usable down to ~10⁻⁸ Torr with proper bake-out. Bakeable to 200°C (short excursions to 250°C are possible but accelerate hardening). Above 200°C, Viton begins to decompose, releasing fluorocarbon fragments that contaminate the vacuum system. For pressures below 10⁻⁸ Torr, Viton's outgassing and helium permeation rate become the limiting factor, and metal seals (copper CF gaskets) are required.",
       "source_articles": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "domains": [
         "gas-handling"
@@ -404114,7 +404114,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "gas-handling.vacuum"
+        "vacuum.basic-vacuum"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -404123,7 +404123,7 @@
       "tier": "important",
       "article_relevance": [
         {
-          "node_id": "gas-handling.vacuum",
+          "node_id": "vacuum.basic-vacuum",
           "relevance": "primary",
           "occurrences": 1
         }

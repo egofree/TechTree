@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "burn_management",
+  "@type": "Product",
+  "name": "Burn Management",
+  "source": "health",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -3,7 +3,6 @@
 > **Node ID**: silicon.basic-devices
 > **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md),
-> [`gas-handling.vacuum`](../gas-handling/vacuum.md),
 > [`metals.aluminum.semiconductor-grade`](../metals/aluminum.semiconductor-grade.md),
 > [`silicon.crystal-growth`](./crystal-growth.md), [`silicon.wafering`](./wafering.md),
 > [`vacuum.pumps`](../vacuum/pumps.md)

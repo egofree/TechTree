@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "basic_vacuum_pumps",
+  "@type": "Product",
+  "name": "Basic Vacuum Pumps",
+  "source": "vacuum",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

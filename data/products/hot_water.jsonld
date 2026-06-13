@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hot_water",
+  "@type": "Product",
+  "name": "Hot Water",
+  "source": "energy",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

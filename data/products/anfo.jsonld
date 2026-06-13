@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "anfo",
+  "@type": "Product",
+  "name": "Anfo",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -2,7 +2,7 @@
   "@context": "../../context.jsonld",
   "@type": "Capability",
   "critical": false,
-  "description": "Zinc is the corrosion protection metal. Without galvanizing, steel structures rust and fail \u2014 a bare steel bridge in a marine atmosphere loses 50-100 \u03bcm/year of section thickness and becomes structurally unsafe within 10-20 years. Zinc sacrifices itself electrochemically to protect steel (electrode potential -0.76 V vs. SHE, compared to iron's -0.44 V). A galvanized coating of 85 \u03bcm provides 50-100+ years of service in rural atmospheres. No other common metal offers this combination of low co...",
+  "description": "Zinc distillation from sphalerite (ZnS) ore via roasting at 900-1000°C followed by carbon reduction and fractional distillation (zinc boils at 907°C, enabling vapor-phase separation from iron and lead). Electrolytic refining to 99.99% purity. Hot-dip galvanizing deposits 50-100 \u03bcm Zn on steel via zinc bath at 450-460°C — sacrificial cathodic protection (electrode potential -0.76 V vs SHE) prevents rust even when coating is scratched. Also used for brass alloying (Cu-Zn), die-casting alloys, and zinc oxide production.",
   "early_win": false,
   "id": "metals.zinc",
   "level": "capability",

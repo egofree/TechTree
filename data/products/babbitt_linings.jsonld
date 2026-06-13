@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "babbitt_linings",
+  "@type": "Product",
+  "name": "Babbitt Linings",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.electricity.motor__metals.wire-drawing","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.electricity.motor","to":"metals.wire-drawing"}

@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steam",
+  "@type": "Product",
+  "name": "Steam",
+  "source": "energy",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

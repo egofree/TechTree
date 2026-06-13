@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hemorrhage_control",
+  "@type": "Product",
+  "name": "Hemorrhage Control",
+  "source": "health",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

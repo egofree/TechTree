@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "grinding_wheels",
+  "@type": "Product",
+  "name": "Grinding Wheels",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

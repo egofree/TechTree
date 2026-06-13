@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.blue-energy.sem-tech__energy.blue-energy","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.blue-energy.sem-tech","to":"energy.blue-energy"}

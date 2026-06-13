@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.biomass-energy.biogas-digester__ceramics.kilns","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.biomass-energy.biogas-digester","to":"ceramics.kilns"}

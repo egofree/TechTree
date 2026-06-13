@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "distilled_water",
+  "@type": "Product",
+  "name": "Distilled Water",
+  "source": "chemistry",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

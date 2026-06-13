@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "stirling_mechanical_power",
+  "@type": "Product",
+  "name": "Stirling Mechanical Power",
+  "source": "energy",
+  "tags": {
+    "capability": [],
+    "material": []
+  }
+}

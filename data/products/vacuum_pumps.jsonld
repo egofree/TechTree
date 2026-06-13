@@ -3,7 +3,7 @@
   "@id": "vacuum_pumps",
   "@type": "Product",
   "name": "Vacuum Pumps",
-  "source": "gas-handling.vacuum",
+  "source": "vacuum.pumps",
   "tags": {
     "capability": [
       "vacuum"

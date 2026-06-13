@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/chemistry.solvents__chemistry.solvents","@type":"Dependency","edgeType":"material","flow":"recycling-loop","from":"chemistry.solvents","to":"chemistry.solvents"}

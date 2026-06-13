@@ -11,7 +11,7 @@ This project documents the complete dependency chain from fire and stone tools t
 | Technology domains | 43 |
 | Capability nodes | 459 |
 | Dependency edges | 1,061 |
-| Content articles | 582 |
+| Content articles | 671 |
 | Mermaid diagrams | 59 |
 | D2 diagrams | 59 |
 | Glossary terms | 11,966 |

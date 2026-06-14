@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrodialysis nutrient and pH control for hydroponics using SEM Tech ion-exchange membranes. Continuously and selectively adjusts ion concentrations and pH without adding corrective chemicals, holding pH within plus or minus 0.1 units and extending nutrient solution life from weeks to months.",
+  "early_win": false,
+  "id": "agriculture.sem-tech-hydroponics",
+  "level": "capability",
+  "name": "SEM Tech Hydroponics",
+  "outputs": [
+    "balanced_nutrient_solution"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

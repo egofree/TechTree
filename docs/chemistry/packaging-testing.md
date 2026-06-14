@@ -80,9 +80,9 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 
 - [Solvents](solvents.md) — solvents and reagents for analytical sample preparation
 - [Semiconductor Packaging & Testing](../electronics/packaging-testing.md) — semiconductor die packaging, wire bonding, wafer probing, burn-in
-- [Quality Control](../quality-control/metrology.md) — metrology and measurement standards
+- [Quality Control](../quality-control/index.md) — metrology and measurement standards
 - [Thermoplastics](../polymers/thermoplastics.md) — polymer materials for pharmaceutical packaging
-- [Glass Manufacturing](../glass/container-making.md) — glass container production for pharmaceutical use
+- [Glass Manufacturing](../glass/glassblowing.md) — glass container production for pharmaceutical use
 
 ---
 

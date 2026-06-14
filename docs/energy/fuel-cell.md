@@ -326,7 +326,7 @@ New MEAs require a break-in (conditioning) procedure to fully hydrate the membra
 - [Water Electrolysis](../chemistry/water-electrolysis.md) — upstream dependency (material)
 - [Energy Storage & Diversification](storage.md) — upstream dependency (tool)
 - [Chemistry](../chemistry/index.md) — downstream capability
-- [Water Electrolysis (H₂/O₂)](../chemistry/water-splitting.md) — downstream capability
+- [Water Electrolysis (H₂/O₂)](../chemistry/water-electrolysis.md) — downstream capability
 
 ### Material Handling
 

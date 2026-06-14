@@ -1,8 +1,8 @@
 # SEM Tech Hydroponics: Electromembrane Nutrient and pH Control
 
-> **Node ID**: agriculture.hydroponic-ph-control
+> **Node ID**: agriculture.sem-tech-hydroponics
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`chemistry.sem-tech`](../chemistry/sem-tech.md), [`chemistry.sem-tech-electrodialysis`](../chemistry/sem-tech-electrodialysis.md), [`energy.electricity`](../energy/electricity.md)
+> **Dependencies**: [`chemistry.electrolysis.sem-tech`](../chemistry/electrolysis.sem-tech.md), [`chemistry.electrodialysis`](../chemistry/electrodialysis.md), [`energy.electricity`](../energy/electricity.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: balanced_nutrient_solution

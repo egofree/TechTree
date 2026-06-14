@@ -271,7 +271,7 @@ None required — stone and wood tools are root capabilities achievable with nat
 
 - [Fire-Making](fire.md) — companion root capability for heat and combustion
 - [Agriculture & Food Production](food-agriculture.md) — enabled by stone and wood tools
-- [Water Procurement](water-procurement.md) — wells, containers, and basic plumbing
+- [Water Procurement](../water/procurement.md) — wells, containers, and basic plumbing
 - [Textile Fibers](../textiles/fibers.md) — plant and animal fiber extraction with hand tools
 - [Mining Extraction](../mining/extraction.md) — ore and mineral extraction using basic tools
 - [Pottery](../ceramics/pottery.md) — clay shaping with simple implements

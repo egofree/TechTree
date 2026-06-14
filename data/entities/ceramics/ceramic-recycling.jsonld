@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Crushing and repurposing fired ceramic waste (wasters, kiln furniture, spent refractories) into grog, aggregate, and refractory reclaim to reduce raw clay and mineral consumption.",
+  "early_win": false,
+  "id": "ceramics.ceramic-recycling",
+  "level": "capability",
+  "name": "Ceramic & Refractory Recycling",
+  "outputs": [
+    "recycled_ceramic_aggregate",
+    "grog",
+    "refractory_reclaim",
+    "ceramic_fillers"
+  ],
+  "parent": "ceramics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-50+"
+}

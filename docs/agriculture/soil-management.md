@@ -15,7 +15,7 @@ Soil management is the foundation of sustainable agriculture. Every civilization
 
 A well-managed agricultural soil contains 3-5% organic matter by weight, holds water like a sponge (200-300 liters per cubic meter), supports billions of microorganisms per gram, and produces higher crop yields with fewer inputs than depleted soil. A degraded soil with less than 1% organic matter compacts, crusts, erodes, and requires ever-increasing fertilizer to maintain yields — a losing spiral.
 
-This article covers composting methods (turned windrow, static pile, vermicompost), soil amendments (biochar, lime, greensand), green manures and cover crops, mulching, soil testing, and mycorrhizal inoculation. The companion article on [Vermiculture](./soil-management-vermiculture.md) covers worm-based composting in detail.
+This article covers composting methods (turned windrow, static pile, vermicompost), soil amendments (biochar, lime, greensand), green manures and cover crops, mulching, soil testing, and mycorrhizal inoculation. The companion article on [Vermiculture](./soil-management.vermiculture.md) covers worm-based composting in detail.
 
 Position in the dependency chain: soil management depends on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic cultivation and harvest knowledge) and supports [Crop Rotation](crop-rotation.md) (rotation builds on soil fertility), [Pest Management](pest-management.md) (healthy soil produces pest-resistant plants), and [Irrigation](irrigation.md) (soil structure determines water infiltration).
 
@@ -122,7 +122,7 @@ Compost pile built over a network of perforated pipes or a coarse material base 
 
 ## Vermicomposting
 
-Composting using earthworms (*Eisenia fetida*), which consume organic matter and produce nutrient-rich castings. Faster than hot composting for suitable materials, produces a superior product with higher plant-available nutrients and beneficial microbial communities. See the dedicated article: [Vermiculture](./soil-management-vermiculture.md).
+Composting using earthworms (*Eisenia fetida*), which consume organic matter and produce nutrient-rich castings. Faster than hot composting for suitable materials, produces a superior product with higher plant-available nutrients and beneficial microbial communities. See the dedicated article: [Vermiculture](./soil-management.vermiculture.md).
 
 **Comparison with other methods**:
 
@@ -417,7 +417,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 
 ## See Also
 
-- [Vermiculture](./soil-management-vermiculture.md) — worm-based composting produces the highest-quality soil amendment
+- [Vermiculture](./soil-management.vermiculture.md) — worm-based composting produces the highest-quality soil amendment
 - [Foundations → Agriculture](../foundations/food-agriculture.md) — soil management is the foundation of sustainable crop production
 - [Agriculture → Crop Rotation](crop-rotation.md) — rotation systems that maintain soil fertility over decades
 - [Agriculture → Seed Saving](seed-saving.md) — cover crop seed production and storage

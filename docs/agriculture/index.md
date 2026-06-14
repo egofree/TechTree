@@ -4,7 +4,7 @@ Capabilities in this domain:
 
 - **[Soil Management & Composting](soil-management.md)** — Composting, soil fertility, cover crops, biochar. Foundation of sustained agriculture.
 
-  - **[Vermiculture](soil-management-vermiculture.md)** — Worm composting for premium fertilizer.
+  - **[Vermiculture](soil-management.vermiculture.md)** — Worm composting for premium fertilizer.
 
 - **[Seed Saving & Selection](seed-saving.md)** — Harvesting, storing, and selecting seeds for locally adapted crop varieties. The oldest biotechnology.
 

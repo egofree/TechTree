@@ -1,9 +1,8 @@
 # Ceramic & Refractory Recycling
 
-> **Node ID**: ceramics.ceramic-recycling
+> **Node ID**: `ceramics.ceramic-recycling`
 > **Domain**: [Ceramics & Refractories](./index.md)
-> **Dependencies**: [`Pottery & Clay Products`](pottery.md), [`Advanced Ceramics`](advanced-ceramics.md), [`Kiln Construction`](kilns.md), [`Mining`](../mining/index.md)
-> **Enables**: [`Ceramics`](./index.md), [`Construction`](../construction/index.md), [`Refractories`](../chemistry/refractories.md)
+> **Dependencies**: [`ceramics.pottery`](pottery.md), [`ceramics.advanced-ceramics`](advanced-ceramics.md), [`ceramics.kilns`](kilns.md), [`mining`](../mining/index.md)
 > **Timeline**: Years 10-50+
 > **Outputs**: recycled_ceramic_aggregate, grog, refractory_reclaim, ceramic_fillers
 > **Critical**: No — reduces raw material consumption but does not unlock new capabilities

@@ -219,7 +219,7 @@ BSF larvae outcompete most other insects (including houseflies) for food resourc
 - [Pigs](pigs.md) — BSF larvae as pig feed supplement
 - [Domestication & Husbandry](domestication.md) — livestock feed requirements and protein needs
 - [Soil Management](../agriculture/soil-management.md) — BSF frass as fertilizer; BSF bins as composting method
-- [Vermiculture](../agriculture/soil-management-vermiculture.md) — complementary waste processing; BSF pre-processes waste that worms finish
+- [Vermiculture](../agriculture/soil-management.vermiculture.md) — complementary waste processing; BSF pre-processes waste that worms finish
 - [Food & Agriculture](../foundations/food-agriculture.md) — agricultural waste streams feed BSF larvae; closing nutrient loops
 - [Waste Management](../ehs/index.md) — organic waste processing and sanitation
 - [Chemistry: Oils & Fats](../chemistry/index.md) — BSF oil extraction and processing

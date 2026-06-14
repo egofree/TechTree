@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without systematic animal husbandry, livestock herds stagnate, succumb to disease, and fail to provide reliable draft power, food, fiber, and fertilizer at scale.",
+  "description": "Domestication, breeding, feeding, health management, and seasonal planning for captive livestock. Transforms livestock into a managed resource providing draft power (1-2 hp per ox), concentrated protein (milk, meat, eggs), fiber (wool), materials (hides, tallow), and manure to sustain crop yields.",
+  "early_win": false,
+  "id": "animals.animal-husbandry",
+  "level": "capability",
+  "name": "Animal Husbandry",
+  "outputs": [
+    "draft_animals",
+    "wool",
+    "hides",
+    "milk",
+    "meat",
+    "dung"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.livestock"
+  ],
+  "timeline": "Years 0-10"
+}

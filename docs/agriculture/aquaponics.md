@@ -384,7 +384,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 
 - [Aquaculture](../animals/aquaculture.md) — fish farming techniques, pond construction, fish species, and feeding that underpin aquaponic fish production
 - [Insect Farming](../animals/insect-farming.md) — BSF larvae as fish feed, closing the nutrient loop
-- [Vermiculture](./soil-management-vermiculture.md) — worm castings and worm tea as supplemental plant nutrients in aquaponics
+- [Vermiculture](./soil-management.vermiculture.md) — worm castings and worm tea as supplemental plant nutrients in aquaponics
 - [Soil Management](./soil-management.md) — broader composting and soil fertility context
 - [SEM Tech Hydroponics](./sem-tech-hydroponics.md) — more advanced technology that builds on aquaponics concepts; requires industrial membrane manufacturing
 - [Water Procurement](../water/procurement.md) — water sources for system fill and make-up water

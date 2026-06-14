@@ -18,7 +18,7 @@ In charcoal production, the carbonization cycle runs 3-7 days depending on kiln 
 
 ## Related Terms
 
-- [Efficiency](./efficiency.md) — shorter cycle times improve throughput efficiency
+- Efficiency — shorter cycle times improve throughput efficiency
 - [Duration](./duration.md) — related time concept for process length
 
 ## Appears In

@@ -5,13 +5,55 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph electronics_internal ["Electronics — Internal Structure"]
         direction TB
+        electronics_analog-circuits_amplifier-fundamentals["Amplifier Fundamentals"]
+        electronics_analog-circuits_diode-circuits["Diode Circuits"]
+        electronics_analog-circuits["Analog Circuits"]
+        electronics_analog-circuits_multivibrator-circuits["Multivibrator Circuits"]
+        electronics_analog-circuits_op-amp-circuits["Op-Amp Circuits"]
+        electronics_analog-circuits_oscillator-circuits["Oscillator Circuits"]
+        electronics_analog-circuits_power-amplifiers["Power Amplifiers"]
+        electronics_analog-circuits_timer-circuits["Timer Circuits"]
+        electronics_analog-circuits_transistor-switch-circuits["Transistor Switch Circuits"]
         electronics_assembly["Electronics Assembly"]
+        electronics_circuit-fundamentals_ac-analysis["AC Circuit Analysis"]
+        electronics_circuit-fundamentals_dc-analysis["DC Circuit Analysis"]
+        electronics_circuit-fundamentals["Circuit Fundamentals"]
+        electronics_communications-circuits["Communications Circuits"]
+        electronics_communications-circuits_modulation-circuits["Modulation and Demodulation Circuits"]
+        electronics_communications-circuits_receiver-circuits["Receiver Circuits"]
+        electronics_communications-circuits_rf-oscillator-circuits["RF Oscillator Circuits"]
+        electronics_control-circuits_discrete-logic-circuits["Discrete Logic Circuits"]
+        electronics_control-circuits["Control Circuits"]
+        electronics_control-circuits_ladder-logic["Ladder Logic Design"]
+        electronics_control-circuits_relay-logic["Relay Logic Circuits"]
+        electronics_control-circuits_sequential-logic-circuits["Sequential Logic Circuits"]
         electronics_electrical-systems["Electrical Systems"]
+        electronics_industrial-control_hmi["HMI Design"]
+        electronics_industrial-control_industrial-control-architecture["Industrial Control Architecture"]
+        electronics_industrial-control["Industrial Control"]
+        electronics_industrial-control_plc["PLC Design"]
+        electronics_industrial-control_scada["SCADA System Design"]
+        electronics_interface-circuits_adc-circuits["ADC Circuits"]
+        electronics_interface-circuits_dac-circuits["DAC Circuits"]
+        electronics_interface-circuits["Interface Circuits"]
+        electronics_interface-circuits_sensor-circuits["Sensor Circuits"]
+        electronics_optoelectronic-circuits["Optoelectronic Circuits"]
+        electronics_optoelectronic-circuits_led-driver-circuits["LED Driver Circuits"]
+        electronics_optoelectronic-circuits_optocoupler-circuits["Optocoupler Circuits"]
+        electronics_optoelectronic-circuits_photodetector-circuits["Photodetector Circuits"]
         electronics_packaging-testing["Semiconductor Packaging & Testing"]
         electronics_packaging["IC Packaging & Interconnect"]
         electronics_passive-components["Passive Components"]
         electronics_pcb-fabrication["PCB Fabrication"]
+        electronics_power-conversion-circuits_inverter-circuits["Inverter Circuits"]
+        electronics_power-conversion-circuits["Power Conversion Circuits"]
+        electronics_power-conversion-circuits_vfd-motor-control["VFD Motor Control"]
         electronics_power-electronics["Power Electronics"]
+        electronics_power-supply-circuits_filter-circuits["Filter Circuits"]
+        electronics_power-supply-circuits["Power Supply Circuits"]
+        electronics_power-supply-circuits_linear-regulators["Linear Regulators"]
+        electronics_power-supply-circuits_rectifier-circuits["Rectifier Circuits"]
+        electronics_power-supply-circuits_switching-regulators["Switching Regulators"]
         electronics_semiconductor-devices["Semiconductor Devices"]
         electronics_wire-insulation["Wire Insulation and Enameling"]
     end
@@ -26,6 +68,7 @@ graph TD
     chemistry_acids("Mineral Acid Production")
     chemistry_electrolysis("Electrolysis")
     computing_electronic("Electronic Computing")
+    computing_embedded-systems("Embedded Systems")
     energy_electricity("Electricity Generation & Distribution")
     energy_photovoltaics("Photovoltaic Solar Power")
     glass_fibers("Glass Fiber Production")
@@ -44,9 +87,112 @@ graph TD
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
+    electronics_analog-circuits_amplifier-fundamentals -.-> electronics_analog-circuits_transistor-switch-circuits
+    electronics_analog-circuits_amplifier-fundamentals -.-> electronics_passive-components
+    electronics_analog-circuits_amplifier-fundamentals -.-> electronics_semiconductor-devices
+    electronics_analog-circuits_diode-circuits -.-> electronics_passive-components
+    electronics_analog-circuits_diode-circuits -.-> electronics_semiconductor-devices
+    electronics_analog-circuits_multivibrator-circuits -.-> electronics_analog-circuits_transistor-switch-circuits
+    electronics_analog-circuits_multivibrator-circuits -.-> electronics_passive-components
+    electronics_analog-circuits_multivibrator-circuits -.-> electronics_semiconductor-devices
+    electronics_analog-circuits_op-amp-circuits -.-> electronics_analog-circuits_amplifier-fundamentals
+    electronics_analog-circuits_op-amp-circuits -.-> electronics_passive-components
+    electronics_analog-circuits_op-amp-circuits -.-> electronics_semiconductor-devices
+    electronics_analog-circuits_oscillator-circuits -.-> electronics_analog-circuits_amplifier-fundamentals
+    electronics_analog-circuits_oscillator-circuits -.-> electronics_passive-components
+    electronics_analog-circuits_oscillator-circuits -.-> electronics_semiconductor-devices
+    electronics_analog-circuits_power-amplifiers -.-> electronics_analog-circuits_amplifier-fundamentals
+    electronics_analog-circuits_power-amplifiers -.-> electronics_passive-components
+    electronics_analog-circuits_power-amplifiers -.-> electronics_semiconductor-devices
+    electronics_analog-circuits_timer-circuits -.-> electronics_passive-components
+    electronics_analog-circuits_timer-circuits -.-> electronics_semiconductor-devices
+    electronics_analog-circuits_transistor-switch-circuits -.-> electronics_passive-components
+    electronics_analog-circuits_transistor-switch-circuits -.-> electronics_semiconductor-devices
+    electronics_analog-circuits -.-> electronics_passive-components
+    electronics_analog-circuits -.-> electronics_semiconductor-devices
     electronics_assembly -.-> electronics_packaging
+    electronics_circuit-fundamentals_ac-analysis -.-> electronics_circuit-fundamentals_dc-analysis
+    electronics_circuit-fundamentals_ac-analysis -.-> electronics_electrical-systems
+    electronics_circuit-fundamentals_ac-analysis -.-> electronics_passive-components
+    electronics_circuit-fundamentals_dc-analysis -.-> electronics_electrical-systems
+    electronics_circuit-fundamentals_dc-analysis -.-> electronics_passive-components
+    electronics_circuit-fundamentals -.-> electronics_electrical-systems
+    electronics_circuit-fundamentals -.-> electronics_passive-components
+    electronics_communications-circuits_modulation-circuits -.-> electronics_analog-circuits
+    electronics_communications-circuits_modulation-circuits -.-> electronics_passive-components
+    electronics_communications-circuits_receiver-circuits -.-> electronics_communications-circuits_modulation-circuits
+    electronics_communications-circuits_receiver-circuits -.-> electronics_passive-components
+    electronics_communications-circuits_receiver-circuits -.-> electronics_semiconductor-devices
+    electronics_communications-circuits_rf-oscillator-circuits -.-> electronics_analog-circuits_oscillator-circuits
+    electronics_communications-circuits_rf-oscillator-circuits -.-> electronics_passive-components
+    electronics_communications-circuits_rf-oscillator-circuits -.-> electronics_semiconductor-devices
+    electronics_communications-circuits -.-> electronics_electrical-systems
+    electronics_communications-circuits -.-> electronics_passive-components
+    electronics_control-circuits_discrete-logic-circuits -.-> electronics_analog-circuits_transistor-switch-circuits
+    electronics_control-circuits_discrete-logic-circuits -.-> electronics_passive-components
+    electronics_control-circuits_discrete-logic-circuits -.-> electronics_semiconductor-devices
+    electronics_control-circuits_ladder-logic -.-> electronics_control-circuits_relay-logic
+    electronics_control-circuits_ladder-logic -.-> electronics_electrical-systems
+    electronics_control-circuits_relay-logic -.-> electronics_electrical-systems
+    electronics_control-circuits_relay-logic -.-> electronics_passive-components
+    electronics_control-circuits_sequential-logic-circuits -.-> electronics_control-circuits_discrete-logic-circuits
+    electronics_control-circuits_sequential-logic-circuits -.-> electronics_passive-components
+    electronics_control-circuits_sequential-logic-circuits -.-> electronics_semiconductor-devices
+    electronics_control-circuits -.-> electronics_electrical-systems
+    electronics_industrial-control_hmi -.-> electronics_industrial-control_plc
+    electronics_industrial-control_hmi -.-> electronics_industrial-control
+    electronics_industrial-control_hmi -.-> electronics_semiconductor-devices
+    electronics_industrial-control_industrial-control-architecture -.-> electronics_industrial-control_hmi
+    electronics_industrial-control_industrial-control-architecture -.-> electronics_industrial-control_plc
+    electronics_industrial-control_industrial-control-architecture -.-> electronics_industrial-control_scada
+    electronics_industrial-control_industrial-control-architecture -.-> electronics_industrial-control
+    electronics_industrial-control_plc -.-> electronics_control-circuits_discrete-logic-circuits
+    electronics_industrial-control_plc -.-> electronics_control-circuits_ladder-logic
+    electronics_industrial-control_plc -.-> electronics_control-circuits_relay-logic
+    electronics_industrial-control_plc -.-> electronics_industrial-control
+    electronics_industrial-control_scada -.-> electronics_industrial-control_plc
+    electronics_industrial-control_scada -.-> electronics_industrial-control
+    electronics_industrial-control_scada -.-> electronics_semiconductor-devices
+    electronics_interface-circuits_adc-circuits -.-> electronics_passive-components
+    electronics_interface-circuits_adc-circuits -.-> electronics_semiconductor-devices
+    electronics_interface-circuits_dac-circuits -.-> electronics_passive-components
+    electronics_interface-circuits_dac-circuits -.-> electronics_semiconductor-devices
+    electronics_interface-circuits_sensor-circuits -.-> electronics_interface-circuits_adc-circuits
+    electronics_interface-circuits_sensor-circuits -.-> electronics_passive-components
+    electronics_interface-circuits_sensor-circuits -.-> electronics_semiconductor-devices
+    electronics_interface-circuits -.-> electronics_passive-components
+    electronics_interface-circuits -.-> electronics_semiconductor-devices
+    electronics_optoelectronic-circuits_led-driver-circuits -.-> electronics_passive-components
+    electronics_optoelectronic-circuits_led-driver-circuits -.-> electronics_semiconductor-devices
+    electronics_optoelectronic-circuits_optocoupler-circuits -.-> electronics_optoelectronic-circuits_led-driver-circuits
+    electronics_optoelectronic-circuits_optocoupler-circuits -.-> electronics_optoelectronic-circuits_photodetector-circuits
+    electronics_optoelectronic-circuits_optocoupler-circuits -.-> electronics_passive-components
+    electronics_optoelectronic-circuits_optocoupler-circuits -.-> electronics_semiconductor-devices
+    electronics_optoelectronic-circuits_photodetector-circuits -.-> electronics_passive-components
+    electronics_optoelectronic-circuits_photodetector-circuits -.-> electronics_semiconductor-devices
+    electronics_optoelectronic-circuits -.-> electronics_semiconductor-devices
     electronics_packaging-testing --> electronics_semiconductor-devices
+    electronics_power-conversion-circuits_inverter-circuits -.-> electronics_passive-components
+    electronics_power-conversion-circuits_inverter-circuits -.-> electronics_semiconductor-devices
+    electronics_power-conversion-circuits_vfd-motor-control -.-> electronics_electrical-systems
+    electronics_power-conversion-circuits_vfd-motor-control -.-> electronics_power-conversion-circuits_inverter-circuits
+    electronics_power-conversion-circuits_vfd-motor-control -.-> electronics_power-conversion-circuits
+    electronics_power-conversion-circuits -.-> electronics_semiconductor-devices
     electronics_power-electronics -.-> electronics_semiconductor-devices
+    electronics_power-supply-circuits_filter-circuits -.-> electronics_circuit-fundamentals_ac-analysis
+    electronics_power-supply-circuits_filter-circuits -.-> electronics_passive-components
+    electronics_power-supply-circuits_linear-regulators -.-> electronics_passive-components
+    electronics_power-supply-circuits_linear-regulators -.-> electronics_power-supply-circuits_rectifier-circuits
+    electronics_power-supply-circuits_linear-regulators -.-> electronics_semiconductor-devices
+    electronics_power-supply-circuits_rectifier-circuits -.-> electronics_analog-circuits_diode-circuits
+    electronics_power-supply-circuits_rectifier-circuits -.-> electronics_circuit-fundamentals_ac-analysis
+    electronics_power-supply-circuits_rectifier-circuits -.-> electronics_passive-components
+    electronics_power-supply-circuits_rectifier-circuits -.-> electronics_semiconductor-devices
+    electronics_power-supply-circuits_switching-regulators -.-> electronics_passive-components
+    electronics_power-supply-circuits_switching-regulators -.-> electronics_power-supply-circuits_rectifier-circuits
+    electronics_power-supply-circuits_switching-regulators -.-> electronics_semiconductor-devices
+    electronics_power-supply-circuits -.-> electronics_electrical-systems
+    electronics_power-supply-circuits -.-> electronics_semiconductor-devices
     electronics --> electronics_passive-components
     automation_equipment-communication -.-> electronics
     automation -.-> electronics
@@ -57,6 +203,7 @@ graph TD
     electronics_electrical-systems --> chemistry_electrolysis
     electronics_electrical-systems -.-> energy_electricity
     electronics_electrical-systems --> polymers_thermoplastics
+    electronics_industrial-control -.-> computing_embedded-systems
     electronics_packaging-testing --> photolithography_fab-processes
     electronics_packaging-testing --> polymers_thermosets
     electronics_pcb-fabrication --> chemistry_acids
@@ -89,13 +236,55 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class electronics domain
+    class electronics_analog-circuits_amplifier-fundamentals process
+    class electronics_analog-circuits_diode-circuits process
+    class electronics_analog-circuits capability
+    class electronics_analog-circuits_multivibrator-circuits process
+    class electronics_analog-circuits_op-amp-circuits process
+    class electronics_analog-circuits_oscillator-circuits process
+    class electronics_analog-circuits_power-amplifiers process
+    class electronics_analog-circuits_timer-circuits process
+    class electronics_analog-circuits_transistor-switch-circuits process
     class electronics_assembly capability
+    class electronics_circuit-fundamentals_ac-analysis process
+    class electronics_circuit-fundamentals_dc-analysis process
+    class electronics_circuit-fundamentals capability
+    class electronics_communications-circuits capability
+    class electronics_communications-circuits_modulation-circuits process
+    class electronics_communications-circuits_receiver-circuits process
+    class electronics_communications-circuits_rf-oscillator-circuits process
+    class electronics_control-circuits_discrete-logic-circuits process
+    class electronics_control-circuits capability
+    class electronics_control-circuits_ladder-logic process
+    class electronics_control-circuits_relay-logic process
+    class electronics_control-circuits_sequential-logic-circuits process
     class electronics_electrical-systems capability
+    class electronics_industrial-control_hmi process
+    class electronics_industrial-control_industrial-control-architecture process
+    class electronics_industrial-control capability
+    class electronics_industrial-control_plc process
+    class electronics_industrial-control_scada process
+    class electronics_interface-circuits_adc-circuits process
+    class electronics_interface-circuits_dac-circuits process
+    class electronics_interface-circuits capability
+    class electronics_interface-circuits_sensor-circuits process
+    class electronics_optoelectronic-circuits capability
+    class electronics_optoelectronic-circuits_led-driver-circuits process
+    class electronics_optoelectronic-circuits_optocoupler-circuits process
+    class electronics_optoelectronic-circuits_photodetector-circuits process
     class electronics_packaging-testing critical
     class electronics_packaging capability
     class electronics_passive-components critical
     class electronics_pcb-fabrication critical
+    class electronics_power-conversion-circuits_inverter-circuits process
+    class electronics_power-conversion-circuits capability
+    class electronics_power-conversion-circuits_vfd-motor-control process
     class electronics_power-electronics critical
+    class electronics_power-supply-circuits_filter-circuits process
+    class electronics_power-supply-circuits capability
+    class electronics_power-supply-circuits_linear-regulators process
+    class electronics_power-supply-circuits_rectifier-circuits process
+    class electronics_power-supply-circuits_switching-regulators process
     class electronics_semiconductor-devices critical
     class electronics_wire-insulation critical
     class automation external
@@ -104,6 +293,7 @@ graph TD
     class chemistry_acids external
     class chemistry_electrolysis external
     class computing_electronic external
+    class computing_embedded-systems external
     class energy_electricity external
     class energy_photovoltaics external
     class glass_fibers external

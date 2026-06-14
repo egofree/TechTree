@@ -6,6 +6,7 @@ Writes site/glossary/index.html and site/glossary/{slug}.html.
 """
 
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -20,6 +21,35 @@ from lib.build_utils import (
 )
 from lib.templates import render_page, render_sidebar
 from lib.tt_data import load_all_entities
+
+
+# ---------------------------------------------------------------------------
+# Glossary markdown path rewriter
+#
+# Glossary .md files live in docs/glossary/ and use relative links like
+# ../{domain}/{page}.md to reach sibling docs content.  In the built site,
+# glossary pages render at site/glossary/ while doc pages are under
+# site/docs/{domain}/.  So ../{domain}/ from a glossary page resolves to
+# site/{domain}/ (wrong) instead of site/docs/{domain}/ (correct).
+# This rewrites ../{domain}/ → ../docs/{domain}/ so links work in the site.
+
+_GLOSSARY_LINK_RE = re.compile(r"\]\((\.\./)(?!(?:glossary|assets)/)(?=[a-z])")
+_PROJECT_ROOT_LINK_RE = re.compile(r"\]\((\.\./\.\./[^)]+)\)")
+
+
+def rewrite_glossary_links(md_content: str) -> str:
+    """Rewrite relative markdown links for the glossary site context.
+
+    - ``](../{domain}/...)`` → ``](../docs/{domain}/...)``
+    - ``](../../index.md)`` → ``](../index.html)``
+    """
+    # Insert docs/ prefix for domain-relative links (../ followed by a-z, not ..)
+    md_content = _GLOSSARY_LINK_RE.sub(r"]\1docs/", md_content)
+    # Fix ../../ links that go above the site root
+    md_content = _PROJECT_ROOT_LINK_RE.sub(
+        lambda m: "]" + m.group(1).replace("../../", "../", 1), md_content
+    )
+    return md_content
 
 
 # ---------------------------------------------------------------------------
@@ -83,11 +113,10 @@ def generate_glossary_articles(
         md_path = glossary_md_dir / f"{slug}.md"
 
         if md_path.exists():
-            # Full article page (has .md file)
             md_content = md_path.read_text(encoding="utf-8")
+            md_content = rewrite_glossary_links(md_content)
             html_body = render_markdown(md_content)
         else:
-            # Stub page (no .md file)
             definition = term_data.get("definition", "")
             html_body = f"<p>{definition}</p>"
 
@@ -109,7 +138,10 @@ def generate_glossary_articles(
         if domains:
             domain_links = []
             for d in domains:
-                domain_href = f"../docs/{d}/index.html"
+                if d == "glossary":
+                    domain_href = "../index.html"
+                else:
+                    domain_href = f"../docs/{d}/index.html"
                 domain_links.append(f'<a href="{domain_href}">{d}</a>')
             meta_parts.append(
                 f'<div class="glossary-meta">Domains: {", ".join(domain_links)}</div>'
@@ -327,7 +359,10 @@ def generate_glossary_index(
             if term_domains:
                 domain_links = []
                 for d in term_domains:
-                    domain_href = f"../docs/{d}/index.html"
+                    if d == "glossary":
+                        domain_href = "index.html"
+                    else:
+                        domain_href = f"../docs/{d}/index.html"
                     domain_links.append(f'<a href="{domain_href}">{d}</a>')
                 parts.append(
                     f'<div class="glossary-term-domains">{", ".join(domain_links)}</div>'

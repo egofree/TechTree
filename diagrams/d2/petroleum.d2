@@ -100,6 +100,9 @@ petroleum_internal: "Petroleum Extraction & Refining — Internal Structure" {
 petroleum: "Petroleum Extraction & Refining"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+agriculture_soil-management: "Soil Management & Composting" {
+  shape: rectangle
+}
 chemistry_distillation: Distillation {
   shape: rectangle
 }
@@ -132,6 +135,7 @@ petroleum_refining_cracking -> petroleum_refining: { class: tool-edge }
 petroleum_refining_distillation -> petroleum_refining: { class: tool-edge }
 petroleum_refining -> petroleum_extraction: { class: material-edge }
 petroleum_refining -> petroleum: { class: tool-edge }
+agriculture_soil-management -> petroleum_refining_distillation: { class: material-edge }
 energy_engine -> petroleum_refining: { class: material-edge }
 energy_internal-combustion -> petroleum_refining: { class: material-edge }
 petroleum_extraction_cable-tool -> energy_steam-power: { class: tool-edge }
@@ -149,6 +153,7 @@ petroleum_petrochemicals_steam-cracking.class: process
 petroleum_refining_cracking.class: process
 petroleum_refining_distillation.class: process
 petroleum_refining.class: capability
+agriculture_soil-management.class: external
 chemistry_distillation.class: external
 energy_engine.class: external
 energy_internal-combustion.class: external

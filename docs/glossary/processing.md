@@ -20,7 +20,7 @@ Gutta-percha processing follows a specific sequence: coagulation (boiling leaves
 
 - [Procedure](./procedure.md) — the specific steps within a processing workflow
 - [Powder Preparation](./powder-preparation.md) — a common processing sub-step
-- [Products](./products.md) — the outputs of processing
+- Products — the outputs of processing
 
 ## Appears In
 

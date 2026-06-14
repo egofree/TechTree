@@ -20,7 +20,7 @@ In powder metallurgy, encapsulation loading involves sealing parts in a glass or
 
 - [Operation](./operation.md) — loading is the first step of most operational cycles
 - [Cooling](./cooling.md) — loading density affects cooling uniformity
-- [Mechanisms](./mechanisms.md) — loading forces drive mechanical behavior in materials
+- Mechanisms — loading forces drive mechanical behavior in materials
 
 ## Appears In
 

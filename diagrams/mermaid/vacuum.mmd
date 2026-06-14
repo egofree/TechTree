@@ -5,6 +5,7 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph vacuum_internal ["Vacuum Technology — Internal Structure"]
         direction TB
+        vacuum_basic-vacuum["Basic Vacuum Technology"]
         vacuum_chambers["Vacuum Chambers & Sealing"]
         vacuum_deposition-systems["Deposition Systems"]
         vacuum_leak-detection["Vacuum Leak Detection & Seal Integrity"]
@@ -24,6 +25,7 @@ graph TD
     machine-tools_joining_tig-welding("TIG Welding (GTAW)")
     measurement("Measurement & Instrumentation")
     metals("Metals")
+    metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     optics_inspection_optical-coatings("Optical Coatings")
     photolithography_fab-processes("Core Fab Processes")
     photolithography_fab-processes_cvd("Chemical Vapor Deposition")
@@ -35,12 +37,14 @@ graph TD
     silicon_purification("Silicon Purification")
 
     %% ==================== EDGES ====================
+    vacuum_basic-vacuum -.-> vacuum
     vacuum_deposition-systems -.-> vacuum_chambers
     vacuum_deposition-systems -.-> vacuum_pumps
     vacuum_leak-detection -.-> vacuum_measurement
     automation_wafer-handling -.-> vacuum
     glass_glass-to-metal-seals -.-> vacuum_chambers
     machine-tools_joining_electron-beam -.-> vacuum_pumps
+    metals_specialty-semiconductor -.-> vacuum_pumps
     optics_inspection_optical-coatings -.-> vacuum_pumps
     photolithography_fab-processes_cvd -.-> vacuum_deposition-systems
     photolithography_fab-processes_ion-implantation -.-> vacuum_chambers
@@ -79,6 +83,7 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class vacuum domain
+    class vacuum_basic-vacuum capability
     class vacuum_chambers capability
     class vacuum_deposition-systems capability
     class vacuum_leak-detection capability
@@ -92,6 +97,7 @@ graph TD
     class machine-tools_joining_tig-welding external
     class measurement external
     class metals external
+    class metals_specialty-semiconductor external
     class optics_inspection_optical-coatings external
     class photolithography_fab-processes external
     class photolithography_fab-processes_cvd external

@@ -8,7 +8,7 @@ In smelting and steelmaking, fluxes (limestone, dolomite, fluorspar) serve a dif
 
 ## See Also
 
-- [Materials](./materials.md)
+- Materials
 
 ## Appears In
 

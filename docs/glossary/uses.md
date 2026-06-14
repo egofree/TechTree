@@ -22,7 +22,7 @@ Similarly, the uses of acids illustrate cascading applications: sulfuric acid (t
 - [Construction](./construction.md) — building applications
 - [Process](./process.md) — manufacturing methods that create useful products
 - [Source](./source.md) — raw material origin for products with many uses
-- [Advantages](./advantages.md) — benefits that make a material suitable for diverse uses
+- Advantages — benefits that make a material suitable for diverse uses
 
 ## Appears In
 

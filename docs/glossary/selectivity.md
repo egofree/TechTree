@@ -21,7 +21,7 @@ In chemical separations, selectivity also refers to the ability of a solvent, ca
 - [End-Point Detection](./end-point-detection.md) — knowing when to stop etching
 - [Post-CMP Cleaning](./post-cmp-cleaning.md) — cleaning after planarization
 - [Hydrofluoric Acid (HF)](./hydrofluoric-acid-hf.md) — selective SiO₂ etchant
-- [Applications](./applications.md) — etching applications
+- Applications — etching applications
 
 ## Appears In
 

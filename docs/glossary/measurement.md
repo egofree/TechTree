@@ -18,8 +18,8 @@ Calibration chains trace working instruments back to primary standards. A shop-f
 
 ## Related Terms
 
-- [Materials](./materials.md) — material properties are defined through measurement
-- [Limitations](./limitations.md) — measurement precision limits process capability
+- Materials — material properties are defined through measurement
+- Limitations — measurement precision limits process capability
 - [Calibration](./calibration.md) — calibration ensures measurement accuracy
 
 ## Appears In

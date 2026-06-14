@@ -139,9 +139,6 @@ gas-handling: Gas Handling {
 gas-handling_basic: Basic Gas Handling {
   shape: rectangle
 }
-gas-handling_vacuum: Vacuum Technology {
-  shape: rectangle
-}
 glass_basic: Basic Glass Production {
   shape: rectangle
 }
@@ -229,7 +226,6 @@ photolithography_fab-processes_pvd -> vacuum_deposition-systems: { class: tool-e
 photolithography_fab-processes_pvd -> vacuum_pumps: { class: tool-edge }
 photolithography_fab-processes -> chemistry_dopant-etch-gases: { class: material-edge }
 photolithography_fab-processes -> economics-organization_supply-chain: { class: tool-edge }
-photolithography_fab-processes -> gas-handling_vacuum: { class: tool-edge }
 photolithography_fab-processes -> metals_aluminum_semiconductor-grade: { class: material-edge }
 photolithography_fab-processes -> silicon_wafering: { class: material-edge }
 photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
@@ -277,7 +273,6 @@ electronics_packaging-testing.class: external
 energy_electricity.class: external
 gas-handling.class: external
 gas-handling_basic.class: external
-gas-handling_vacuum.class: external
 glass_basic.class: external
 glass_photomask-substrates.class: external
 machine-tools.class: external

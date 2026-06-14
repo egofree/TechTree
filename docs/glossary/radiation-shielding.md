@@ -21,7 +21,7 @@ Concrete (density ~2.3 g/cm³) is used for room-scale shielding — a 1.5-2 m co
 ## Related Terms
 
 - [Properties](./properties.md) — density and atomic number as shielding-relevant properties
-- [Products](./products.md) — shielding as a product form of dense metals
+- Products — shielding as a product form of dense metals
 - [Requirements](./requirements.md) — shielding thickness specifications
 
 ## Appears In

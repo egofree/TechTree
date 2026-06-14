@@ -16,7 +16,7 @@ For pest management, prevention means physical barriers (sealed grain storage, r
 
 ## Related Terms
 
-- [Respiratory Protection](./respiratory-protection.md) — last line of defense when prevention is insufficient
+- Respiratory Protection — last line of defense when prevention is insufficient
 - [Eye Protection](./eye-protection.md) — PPE for preventing ocular injuries
 - [Requirements](./requirements.md) — specifications that include preventive safety measures
 

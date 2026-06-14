@@ -19,7 +19,7 @@ For bootstrapping, the applications catalog serves as a menu of capabilities unl
 ## Related Terms
 
 - [Construction](./construction.md) — how the application's enabling device or material is built
-- [Principle](./principle.md) — the underlying mechanism that makes the application possible
+- Principle — the underlying mechanism that makes the application possible
 - [Properties](./properties.md) — the material characteristics that determine suitable applications
 - [Process](./process.md) — the manufacturing workflow that produces items for these applications
 

@@ -147,7 +147,16 @@ agriculture: Agriculture {
 agriculture_hydroponic-ph-control: Hydroponic pH Control {
   shape: rectangle
 }
+agriculture_sem-tech-hydroponics: SEM Tech Hydroponics {
+  shape: rectangle
+}
+agriculture_soil-management: "Soil Management & Composting" {
+  shape: rectangle
+}
 animals_animal-materials: Animal-Derived Materials Processing {
+  shape: rectangle
+}
+animals_poultry_pigeons: "Pigeons & Squab" {
   shape: rectangle
 }
 ceramics_electronic-ceramics: Electronic Ceramics {
@@ -207,6 +216,9 @@ energy: Energy {
 energy_blue-energy: "Blue Energy (Osmotic Power)" {
   shape: rectangle
 }
+energy_blue-energy_sem-tech: SEM Tech Blue Energy: Salinity-Gradient Power Generation {
+  shape: rectangle
+}
 energy_cooling: "Cooling Systems & Refrigeration" {
   shape: rectangle
 }
@@ -219,7 +231,16 @@ energy_electricity: "Electricity Generation & Distribution" {
 energy_fuel-cell: Fuel Cell {
   shape: rectangle
 }
+energy_fuel-cell_sem-tech: SEM Tech Fuel Cells: Electrochemical Power Generation {
+  shape: rectangle
+}
 energy_fuels_charcoal: Charcoal Production {
+  shape: rectangle
+}
+energy_fuels_coal: "Coal Mining & Combustion" {
+  shape: rectangle
+}
+energy_fuels_coke: Coke Production {
   shape: rectangle
 }
 energy_gravity: Water Power {
@@ -265,6 +286,9 @@ gas-handling_gas-purification: Gas Purification {
   shape: rectangle
 }
 glass: Glass {
+  shape: rectangle
+}
+glass_advanced_glassblowing: Glassblowing and Scientific Apparatus {
   shape: rectangle
 }
 glass_basic: Basic Glass Production {
@@ -390,6 +414,9 @@ photolithography_resists-masks: "Photoresists, Masks & Lithography" {
 polymers_rubber_natural: "Natural Rubber & Vulcanization" {
   shape: rectangle
 }
+polymers_rubber_semiconductor-apps: Elastomers in Semiconductor Equipment {
+  shape: rectangle
+}
 polymers_rubber_shellac: Shellac Production {
   shape: rectangle
 }
@@ -470,6 +497,7 @@ chemistry_electrolysis -> chemistry_electrolysis_chlor-alkali: { class: material
 chemistry_electrolysis -> chemistry_electrolysis_sem-tech: { class: tool-edge }
 chemistry_electrolysis -> chemistry_lithium-separation: { class: tool-edge }
 chemistry_electrolysis -> chemistry_water-electrolysis: { class: tool-edge }
+chemistry_explosives_nitroglycerin-dynamite -> chemistry_soap: { class: material-edge }
 chemistry_explosives_black-powder -> chemistry_explosives: { class: material-edge }
 chemistry_explosives_detonation-blasting -> chemistry_explosives_high-explosives: { class: tool-edge }
 chemistry_explosives_detonation-blasting -> chemistry_explosives: { class: material-edge }
@@ -499,6 +527,7 @@ chemistry_phosphorus -> chemistry_acids: { class: material-edge }
 chemistry_photographic-chemistry -> chemistry: { class: material-edge }
 chemistry_pulp-chemicals -> chemistry_alkalis: { class: material-edge }
 chemistry_pulp-chemicals -> chemistry_electrolysis: { class: material-edge }
+chemistry_pulp-chemicals -> chemistry_pulp-chemicals: { class: material-edge }
 chemistry_soap -> chemistry_alkalis: { class: material-edge }
 chemistry_soap -> chemistry_petroleum-alternatives: { class: material-edge }
 chemistry_soap -> chemistry_potash: { class: material-edge }
@@ -506,8 +535,12 @@ chemistry_solvay -> chemistry_ammonia: { class: material-edge }
 chemistry_solvents -> chemistry_distillation: { class: tool-edge }
 chemistry_solvents -> chemistry_petroleum-alternatives_fermentation: { class: material-edge }
 chemistry_solvents -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_solvents -> chemistry_solvents: { class: material-edge }
 chemistry_water-electrolysis -> chemistry_e-methanol: { class: material-edge }
 chemistry -> chemistry_acids-bases: { class: material-edge }
+agriculture_sem-tech-hydroponics -> chemistry_electrodialysis: { class: tool-edge }
+agriculture_sem-tech-hydroponics -> chemistry_electrolysis_sem-tech: { class: material-edge }
+agriculture_soil-management -> chemistry_petroleum-alternatives_wood-gasification: { class: material-edge }
 agriculture -> chemistry_phosphorus: { class: material-edge }
 ceramics_electronic-ceramics -> chemistry: { class: material-edge }
 chemistry_acid-regeneration -> metals_forming: { class: material-edge }
@@ -521,6 +554,7 @@ chemistry_alkalis -> foundations_fire: { class: material-edge }
 chemistry_ammonia -> energy: { class: material-edge }
 chemistry_ammonia -> metals: { class: tool-edge }
 chemistry_cement -> ceramics_kilns: { class: tool-edge }
+chemistry_cement -> energy_fuels_coal: { class: material-edge }
 chemistry_cement -> metals_iron-steel_blast-furnace: { class: material-edge }
 chemistry_e-methanol -> energy: { class: material-edge }
 chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
@@ -528,10 +562,12 @@ chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
 chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
+chemistry_electrolysis -> glass_advanced_glassblowing: { class: tool-edge }
 chemistry_electrolysis -> mining_salt: { class: material-edge }
 chemistry_explosives_black-powder -> energy_fuels_charcoal: { class: material-edge }
 chemistry_explosives_black-powder -> mining_extraction: { class: tool-edge }
 chemistry_explosives_detonation-blasting -> mining: { class: tool-edge }
+chemistry_explosives -> animals_poultry_pigeons: { class: material-edge }
 chemistry_explosives -> energy_fuels_charcoal: { class: material-edge }
 chemistry_flux -> mining: { class: material-edge }
 chemistry_hydrogen-silane -> gas-handling_basic: { class: tool-edge }
@@ -544,6 +580,7 @@ chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class
 chemistry_packaging-testing -> machine-tools: { class: tool-edge }
 chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
 chemistry_packaging-testing -> polymers_thermosets: { class: material-edge }
+chemistry_petroleum-alternatives -> energy_fuels_coke: { class: material-edge }
 chemistry_petroleum-alternatives -> foundations: { class: tool-edge }
 chemistry_phosphorus -> mining: { class: material-edge }
 chemistry_photographic-chemistry -> knowledge: { class: tool-edge }
@@ -571,8 +608,11 @@ electrochemistry -> chemistry_electrolysis: { class: tool-edge }
 electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
 electronics_pcb-fabrication -> chemistry_acids: { class: material-edge }
 electronics -> chemistry: { class: material-edge }
+energy_blue-energy_sem-tech -> chemistry_electrodialysis: { class: tool-edge }
+energy_blue-energy_sem-tech -> chemistry_electrolysis_sem-tech: { class: tool-edge }
 energy_cooling -> chemistry_petroleum-alternatives: { class: material-edge }
 energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
+energy_fuel-cell_sem-tech -> chemistry_electrolysis_sem-tech: { class: tool-edge }
 energy_fuel-cell -> chemistry_electrolysis_thermochemical-water-splitting: { class: material-edge }
 energy_fuel-cell -> chemistry: { class: material-edge }
 energy_gravity -> chemistry_lubricants: { class: material-edge }
@@ -631,6 +671,7 @@ photolithography_resists-masks -> chemistry_photographic-chemistry: { class: mat
 photolithography_resists-masks -> chemistry: { class: material-edge }
 photolithography -> chemistry: { class: material-edge }
 polymers_rubber_natural -> chemistry_distillation: { class: material-edge }
+polymers_rubber_semiconductor-apps -> chemistry_electrolysis_sem-tech: { class: tool-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
 polymers_rubber_synthetic -> chemistry_petroleum-alternatives: { class: material-edge }
 polymers_rubber_synthetic -> chemistry: { class: material-edge }
@@ -712,7 +753,10 @@ chemistry_water-electrolysis.class: capability
 chemistry_water-treatment.class: capability
 agriculture.class: external
 agriculture_hydroponic-ph-control.class: external
+agriculture_sem-tech-hydroponics.class: external
+agriculture_soil-management.class: external
 animals_animal-materials.class: external
+animals_poultry_pigeons.class: external
 ceramics_electronic-ceramics.class: external
 ceramics_kilns.class: external
 cleanrooms.class: external
@@ -732,11 +776,15 @@ electronics_electrical-systems.class: external
 electronics_pcb-fabrication.class: external
 energy.class: external
 energy_blue-energy.class: external
+energy_blue-energy_sem-tech.class: external
 energy_cooling.class: external
 energy_electric-furnaces_electrode-manufacturing.class: external
 energy_electricity.class: external
 energy_fuel-cell.class: external
+energy_fuel-cell_sem-tech.class: external
 energy_fuels_charcoal.class: external
+energy_fuels_coal.class: external
+energy_fuels_coke.class: external
 energy_gravity.class: external
 energy_hydraulics.class: external
 energy_redox-flow-battery.class: external
@@ -752,6 +800,7 @@ gas-handling.class: external
 gas-handling_basic.class: external
 gas-handling_gas-purification.class: external
 glass.class: external
+glass_advanced_glassblowing.class: external
 glass_basic.class: external
 health.class: external
 health_diagnostics.class: external
@@ -793,6 +842,7 @@ photolithography_fab-processes.class: external
 photolithography_fab-processes_cmp.class: external
 photolithography_resists-masks.class: external
 polymers_rubber_natural.class: external
+polymers_rubber_semiconductor-apps.class: external
 polymers_rubber_shellac.class: external
 polymers_rubber_synthetic.class: external
 polymers_thermoplastics.class: external

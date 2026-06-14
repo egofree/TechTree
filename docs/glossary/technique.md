@@ -18,8 +18,8 @@ Glassworking techniques illustrate the progression: basic blowing and shaping at
 
 - [Eye Protection](./eye-protection.md) — safety technique for processes with flying debris or chemical splash
 - [Extraction](./extraction.md) — technique for separating desired materials from raw sources
-- [Materials](./materials.md) — the substances upon which techniques operate
-- [Applications](./applications.md) — the end uses that techniques serve
+- Materials — the substances upon which techniques operate
+- Applications — the end uses that techniques serve
 
 ## Appears In
 

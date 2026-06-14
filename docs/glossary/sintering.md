@@ -19,9 +19,9 @@ Powder metallurgy sintering: metal compacts are heated in a reducing atmosphere 
 ## Related Terms
 
 - [Properties](./properties.md) — how sintering affects material properties
-- [Composition](./composition.md) — sintering mix composition
-- [Products](./products.md) — sintered products
-- [Applications](./applications.md) — uses of sintered materials
+- Composition — sintering mix composition
+- Products — sintered products
+- Applications — uses of sintered materials
 - [Process](./process.md) — sintering as a unit process
 
 ## Appears In

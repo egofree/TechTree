@@ -19,8 +19,8 @@ Zinc reduction presents a unique challenge: zinc boils at 907°C but reduction r
 ## Related Terms
 
 - [Reaction](./reaction.md) — the broader class of chemical transformations including reduction
-- [Raw Materials](./raw-materials.md) — the metal oxides that are reduced
-- [Production Rates](./production-rates.md) — throughput of reduction furnaces
+- Raw Materials — the metal oxides that are reduced
+- Production Rates — throughput of reduction furnaces
 
 ## Appears In
 

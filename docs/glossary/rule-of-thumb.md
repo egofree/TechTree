@@ -18,7 +18,7 @@ Other tech tree rules of thumb: furnace power scales as ~500 kWh per tonne of si
 
 ## Related Terms
 
-- [Principle](./principle.md) — the underlying physics that rules of thumb approximate
+- Principle — the underlying physics that rules of thumb approximate
 - [Process Parameters](./process-parameters.md) — the exact values that rules of thumb estimate
 - [Procedure](./procedure.md) — formal steps where rules of thumb inform judgment calls
 

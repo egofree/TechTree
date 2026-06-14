@@ -19,7 +19,7 @@ In semiconductor manufacturing, annealing serves a dual purpose: repairing latti
 ## Related Terms
 
 - [Process](./process.md) — annealing as a fundamental thermal process across domains
-- [Applications](./applications.md) — specific uses of annealed materials
+- Applications — specific uses of annealed materials
 - [Purity Verification](./purity-verification.md) — checking results of annealing in semiconductor contexts
 
 ## Appears In

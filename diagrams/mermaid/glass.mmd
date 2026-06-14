@@ -21,6 +21,7 @@ graph TD
     ceramics_thermal-insulation("Thermal Insulation")
     chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
+    chemistry_electrolysis("Electrolysis")
     chemistry_potash("Potash Production")
     chemistry_refractories("Refractory Materials")
     chemistry_solvay("Solvay Process (Soda Ash)")
@@ -30,6 +31,7 @@ graph TD
     energy_electric-furnaces("Electric Furnaces")
     energy_fuels("Fuel Production")
     energy_photovoltaics("Photovoltaic Solar Power")
+    energy_solar-thermal_collector("Solar Thermal Collector")
     gas-handling_basic("Basic Gas Handling")
     machine-tools("Machine Tools Bootstrap")
     measurement_thermostat-fluid("Fluid & Gas Thermostats")
@@ -41,13 +43,16 @@ graph TD
     polymers_composites("Composite Materials")
     silicon("Silicon")
     silicon_crystal-growth("Crystal Growth & Wafering")
+    silicon_wafering("Wafer Slicing & Polishing")
     telecom("Telecommunications")
     telecom_radio("Radio Communication")
     vacuum_chambers("Vacuum Chambers & Sealing")
 
     %% ==================== EDGES ====================
     glass_advanced_glassblowing -.-> glass_advanced
+    glass_advanced --> glass_advanced
     glass_advanced -.-> glass_basic
+    glass_basic_float-glass --> glass_basic_float-glass
     glass_basic --> glass_basic
     glass_fibers --> glass_advanced
     glass_fibers -.-> glass
@@ -55,9 +60,11 @@ graph TD
     glass_glass-to-metal-seals --> glass_advanced
     ceramics_thermal-insulation --> glass_basic
     chemistry_acids -.-> glass_basic
+    chemistry_electrolysis -.-> glass_advanced_glassblowing
     cleanrooms --> glass
     electronics_assembly --> glass_fibers
     energy_photovoltaics --> glass_basic
+    energy_solar-thermal_collector -.-> glass_basic
     glass_advanced_glassblowing -.-> energy_fuels
     glass_basic_float-glass -.-> energy_electric-furnaces
     glass_basic_float-glass -.-> gas-handling_basic
@@ -76,6 +83,7 @@ graph TD
     photolithography_resists-masks --> glass_basic
     polymers_composites --> glass_fibers
     silicon_crystal-growth --> glass_advanced
+    silicon_wafering -.-> glass_advanced_glassblowing
     silicon -.-> glass
     telecom_radio --> glass
     telecom --> glass
@@ -105,6 +113,7 @@ graph TD
     class ceramics_thermal-insulation external
     class chemistry external
     class chemistry_acids external
+    class chemistry_electrolysis external
     class chemistry_potash external
     class chemistry_refractories external
     class chemistry_solvay external
@@ -114,6 +123,7 @@ graph TD
     class energy_electric-furnaces external
     class energy_fuels external
     class energy_photovoltaics external
+    class energy_solar-thermal_collector external
     class gas-handling_basic external
     class machine-tools external
     class measurement_thermostat-fluid external
@@ -125,6 +135,7 @@ graph TD
     class polymers_composites external
     class silicon external
     class silicon_crystal-growth external
+    class silicon_wafering external
     class telecom external
     class telecom_radio external
     class vacuum_chambers external

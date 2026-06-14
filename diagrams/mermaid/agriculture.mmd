@@ -12,6 +12,7 @@ graph TD
         agriculture_pest-management["Pest Management"]
         agriculture_seed-saving["Seed Saving & Selection"]
         agriculture_selective-breeding["Selective Breeding & Genetic Improvement"]
+        agriculture_sem-tech-hydroponics["SEM Tech Hydroponics"]
         agriculture_soil-management["Soil Management & Composting"]
         agriculture_soil-management_vermiculture["Vermiculture"]
     end
@@ -23,23 +24,37 @@ graph TD
     animals("Animals & Animal Husbandry")
     animals_aquaculture("Aquaculture & Fisheries")
     animals_domestication("Livestock Domestication & Husbandry")
+    animals_goats("Goat Husbandry")
+    animals_pigs("Pig Husbandry")
+    animals_poultry_chickens("Chickens")
+    animals_poultry_coturnix("Coturnix Quail")
+    animals_poultry_pigeons("Pigeons & Squab")
+    animals_poultry_turkeys("Turkeys")
     chemistry_electrodialysis("Electrodialysis")
+    chemistry_electrolysis_sem-tech("Semiconductor-Grade Electrolysis")
+    chemistry_petroleum-alternatives_wood-gasification("Wood Gasification")
     chemistry_phosphorus("Phosphorus and Phosphate Chemistry")
     construction("Construction & Structural Engineering")
     energy("Energy")
+    energy_electricity("Electricity Generation & Distribution")
+    energy_fuels_charcoal("Charcoal Production")
     food-processing("Food Processing")
     foundations_food-agriculture("Agriculture & Food Production")
     knowledge_writing("Writing & Record-Keeping")
+    petroleum_refining_distillation("Atmospheric & Vacuum Distillation")
     water_distribution("Water Distribution")
     water_procurement("Water Procurement")
 
     %% ==================== EDGES ====================
+    agriculture_aquaponics --> agriculture_aquaponics
     agriculture_crop-rotation -.-> agriculture_pest-management
     agriculture_crop-rotation --> agriculture_seed-saving
     agriculture_crop-rotation -.-> agriculture_soil-management
+    agriculture_irrigation --> agriculture_irrigation
     agriculture_pest-management -.-> agriculture
     agriculture_seed-saving -.-> agriculture
     agriculture_selective-breeding -.-> agriculture_soil-management
+    agriculture_soil-management_vermiculture --> agriculture_soil-management_vermiculture
     agriculture_soil-management_vermiculture --> agriculture_soil-management
     agriculture_aquaponics -.-> animals_aquaculture
     agriculture_irrigation -.-> construction
@@ -47,7 +62,20 @@ graph TD
     agriculture_irrigation --> water_distribution
     agriculture_selective-breeding --> animals_domestication
     agriculture_selective-breeding -.-> knowledge_writing
+    agriculture_sem-tech-hydroponics -.-> chemistry_electrodialysis
+    agriculture_sem-tech-hydroponics --> chemistry_electrolysis_sem-tech
+    agriculture_sem-tech-hydroponics -.-> energy_electricity
+    agriculture_soil-management_vermiculture -.-> foundations_food-agriculture
+    agriculture_soil-management --> animals_goats
+    agriculture_soil-management --> animals_pigs
+    agriculture_soil-management --> animals_poultry_chickens
+    agriculture_soil-management --> animals_poultry_coturnix
+    agriculture_soil-management --> animals_poultry_pigeons
+    agriculture_soil-management --> animals_poultry_turkeys
     agriculture_soil-management --> animals
+    agriculture_soil-management --> chemistry_petroleum-alternatives_wood-gasification
+    agriculture_soil-management --> energy_fuels_charcoal
+    agriculture_soil-management --> petroleum_refining_distillation
     agriculture --> chemistry_phosphorus
     agriculture --> water_procurement
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
@@ -76,18 +104,30 @@ graph TD
     class agriculture_pest-management capability
     class agriculture_seed-saving earlyWin
     class agriculture_selective-breeding capability
+    class agriculture_sem-tech-hydroponics capability
     class agriculture_soil-management earlyWin
     class agriculture_soil-management_vermiculture earlyWin
     class animals external
     class animals_aquaculture external
     class animals_domestication external
+    class animals_goats external
+    class animals_pigs external
+    class animals_poultry_chickens external
+    class animals_poultry_coturnix external
+    class animals_poultry_pigeons external
+    class animals_poultry_turkeys external
     class chemistry_electrodialysis external
+    class chemistry_electrolysis_sem-tech external
+    class chemistry_petroleum-alternatives_wood-gasification external
     class chemistry_phosphorus external
     class construction external
     class energy external
+    class energy_electricity external
+    class energy_fuels_charcoal external
     class food-processing external
     class foundations_food-agriculture external
     class knowledge_writing external
+    class petroleum_refining_distillation external
     class water_distribution external
     class water_procurement external
     class EdgeLegend,MatNote,ToolNote legend

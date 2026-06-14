@@ -18,7 +18,7 @@ Each "requires" relationship also implies a knowledge requirement: not just the 
 
 ## Related Terms
 
-- [Raw Materials](./raw-materials.md) — the material inputs that capabilities require
+- Raw Materials — the material inputs that capabilities require
 - [Requirements](./requirements.md) — formal specifications for inputs and outputs
 - [Procedure](./procedure.md) — the know-how that accompanies physical requirements
 

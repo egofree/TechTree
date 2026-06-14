@@ -18,10 +18,10 @@ Assembly processes in the tech tree range from hand-fit (bloomery furnace constr
 
 ## Related Terms
 
-- [Disadvantages](./disadvantages.md) — assembly challenges and failure modes
+- Disadvantages — assembly challenges and failure modes
 - [Performance](./performance.md) — how assembly quality affects system output
-- [Advantages](./advantages.md) — benefits of specific assembly approaches
-- [Principle](./principle.md) — the operational theory behind assembled systems
+- Advantages — benefits of specific assembly approaches
+- Principle — the operational theory behind assembled systems
 
 ## Appears In
 

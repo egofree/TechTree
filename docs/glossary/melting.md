@@ -20,7 +20,7 @@ In glass production, fining agents (antimony trioxide, sodium sulfate) are added
 
 - [Lining](./lining.md) — furnaces require refractory linings to contain melts
 - [Mold](./mold.md) — molten material is cast into molds
-- [Materials](./materials.md) — melting behavior is a fundamental material property
+- Materials — melting behavior is a fundamental material property
 
 ## Appears In
 

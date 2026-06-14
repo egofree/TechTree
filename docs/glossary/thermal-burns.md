@@ -18,7 +18,7 @@ Prevention measures include: thermal gloves rated for the working temperature, t
 
 ## Related Terms
 
-- [Thermal Efficiency by Kiln Type and Fuel](./thermal-efficiency-by-kiln-type-and-fuel.md) — kiln performance metric related to thermal management
+- Thermal Efficiency by Kiln Type and Fuel — kiln performance metric related to thermal management
 - [Thermal](./thermal.md) — general thermal behavior of materials
 - [Thermal Behavior](./thermal-behavior.md) — how materials respond to heat
 

@@ -22,7 +22,7 @@ In industrial cooling, water's high specific heat capacity (4.184 J/g·°C) and 
 - [Construction](./construction.md) — water infrastructure
 - [Cooling](./cooling.md) — water's primary industrial thermal application
 - [Initial Set](./initial-set.md) — concrete hydration stage governed by water-cement ratio
-- [Advantages](./advantages.md) — water's unique properties as solvent and coolant
+- Advantages — water's unique properties as solvent and coolant
 
 ## Appears In
 

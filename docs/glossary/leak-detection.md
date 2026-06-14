@@ -19,7 +19,7 @@ For chemical process safety, explosive-gas detectors (catalytic bead or infrared
 ## Related Terms
 
 - [Operation](./operation.md) — leak detection is part of operational safety procedures
-- [Materials](./materials.md) — material selection affects seal integrity
+- Materials — material selection affects seal integrity
 
 ## Appears In
 

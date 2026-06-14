@@ -5,6 +5,7 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph animals_internal ["Animals & Animal Husbandry — Internal Structure"]
         direction TB
+        animals_animal-husbandry["Animal Husbandry"]
         animals_animal-materials["Animal-Derived Materials Processing"]
         animals_aquaculture["Aquaculture & Fisheries"]
         animals_beekeeping["Apiculture (Beekeeping)"]
@@ -40,6 +41,7 @@ graph TD
     agriculture_selective-breeding("Selective Breeding & Genetic Improvement")
     agriculture_soil-management("Soil Management & Composting")
     ceramics_lime("Lime Production")
+    chemistry_explosives("Explosives and Propellants")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_lubricants-natural("Natural Lubricants: Animal Fats & Vegetable Oils")
     foundations("Foundations")
@@ -58,6 +60,8 @@ graph TD
     transport_roads("Road & Bridge Construction")
 
     %% ==================== EDGES ====================
+    animals_animal-husbandry --> animals_domestication
+    animals_animal-materials --> animals_animal-husbandry
     animals_animal-materials --> animals_cattle
     animals_animal-materials --> animals_domestication
     animals_animal-materials --> animals_sheep
@@ -67,6 +71,7 @@ graph TD
     animals_cattle -.-> animals_domestication
     animals_cattle --> animals
     animals_domestication -.-> animals
+    animals_draft-power -.-> animals_animal-husbandry
     animals_draft-power --> animals_cattle
     animals_draft-power -.-> animals_domestication
     animals_draft-power --> animals_equines
@@ -75,6 +80,7 @@ graph TD
     animals_goats -.-> animals_domestication
     animals_goats --> animals
     animals_insect-farming -.-> animals_domestication
+    animals_insect-farming --> animals_insect-farming
     animals_pest-management -.-> animals_domestication
     animals_pigs -.-> animals_domestication
     animals_pigs --> animals
@@ -93,6 +99,12 @@ graph TD
     animals_sheep --> animals
     agriculture_aquaponics -.-> animals_aquaculture
     agriculture_selective-breeding --> animals_domestication
+    agriculture_soil-management --> animals_goats
+    agriculture_soil-management --> animals_pigs
+    agriculture_soil-management --> animals_poultry_chickens
+    agriculture_soil-management --> animals_poultry_coturnix
+    agriculture_soil-management --> animals_poultry_pigeons
+    agriculture_soil-management --> animals_poultry_turkeys
     agriculture_soil-management --> animals
     animals_animal-materials -.-> ceramics_lime
     animals_aquaculture -.-> foundations_tools-basic
@@ -101,8 +113,10 @@ graph TD
     animals_draft-power -.-> foundations_tools-basic
     animals_poultry --> foundations_food-agriculture
     animals -.-> foundations
+    chemistry_explosives --> animals_poultry_pigeons
     chemistry_lubricants-natural --> animals_animal-materials
     chemistry_lubricants --> animals_animal-materials
+    foundations_food-agriculture --> animals_animal-husbandry
     foundations_food-agriculture --> animals_beekeeping
     foundations_food-agriculture --> animals_pigs
     foundations_food-agriculture --> animals_rabbits
@@ -137,6 +151,7 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class animals domain
+    class animals_animal-husbandry critical
     class animals_animal-materials capability
     class animals_aquaculture capability
     class animals_beekeeping earlyWin
@@ -166,6 +181,7 @@ graph TD
     class agriculture_selective-breeding external
     class agriculture_soil-management external
     class ceramics_lime external
+    class chemistry_explosives external
     class chemistry_lubricants external
     class chemistry_lubricants-natural external
     class foundations external

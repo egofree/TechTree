@@ -21,7 +21,7 @@ In knowledge systems, the 5-10 year scribal training duration reflects the compl
 ## Related Terms
 
 - [Cycle Time](./cycle-time.md) — duration of a single production cycle
-- [Efficiency](./efficiency.md) — shorter durations improve throughput
+- Efficiency — shorter durations improve throughput
 
 ## Appears In
 

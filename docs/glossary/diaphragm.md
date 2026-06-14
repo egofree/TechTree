@@ -19,7 +19,7 @@ In gas handling, diaphragm valves use a flexible metal diaphragm to isolate the 
 ## Related Terms
 
 - [Contamination](./contamination.md) — diaphragm prevents cross-contamination
-- [Electrical Hazards](./electrical-hazards.md) — electrolysis cells carry high current
+- Electrical Hazards — electrolysis cells carry high current
 
 ## Appears In
 

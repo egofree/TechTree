@@ -16,9 +16,9 @@ In polymer extruders, three to six independently controlled barrel zones progres
 
 ## Related Terms
 
-- [Principle](./principle.md) — thermodynamic basis for zone design
-- [Advantages](./advantages.md) — benefits of zoned temperature control
-- [Limitations](./limitations.md) — constraints on zone temperature profiles
+- Principle — thermodynamic basis for zone design
+- Advantages — benefits of zoned temperature control
+- Limitations — constraints on zone temperature profiles
 
 ## Appears In
 

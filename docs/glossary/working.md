@@ -20,9 +20,9 @@ Graphite tools are used for shaping fused silica because graphite does not wet o
 
 - [Fining](./fining.md) — bubble removal during glass melting
 - [Annealing](./annealing.md) — stress relief after working
-- [Raw Materials](./raw-materials.md) — starting materials for working operations
-- [Borosilicate Glass](./borosilicate-glass.md) — a glass type with specific working requirements
-- [Applications](./applications.md) — products created by working
+- Raw Materials — starting materials for working operations
+- Borosilicate Glass — a glass type with specific working requirements
+- Applications — products created by working
 
 ## Appears In
 

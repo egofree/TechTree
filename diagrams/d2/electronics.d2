@@ -86,13 +86,55 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 electronics_internal: "Electronics — Internal Structure" {
+  electronics_analog-circuits_amplifier-fundamentals: Amplifier Fundamentals
+  electronics_analog-circuits_diode-circuits: Diode Circuits
+  electronics_analog-circuits: Analog Circuits
+  electronics_analog-circuits_multivibrator-circuits: Multivibrator Circuits
+  electronics_analog-circuits_op-amp-circuits: Op-Amp Circuits
+  electronics_analog-circuits_oscillator-circuits: Oscillator Circuits
+  electronics_analog-circuits_power-amplifiers: Power Amplifiers
+  electronics_analog-circuits_timer-circuits: Timer Circuits
+  electronics_analog-circuits_transistor-switch-circuits: Transistor Switch Circuits
   electronics_assembly: Electronics Assembly
+  electronics_circuit-fundamentals_ac-analysis: AC Circuit Analysis
+  electronics_circuit-fundamentals_dc-analysis: DC Circuit Analysis
+  electronics_circuit-fundamentals: Circuit Fundamentals
+  electronics_communications-circuits: Communications Circuits
+  electronics_communications-circuits_modulation-circuits: Modulation and Demodulation Circuits
+  electronics_communications-circuits_receiver-circuits: Receiver Circuits
+  electronics_communications-circuits_rf-oscillator-circuits: RF Oscillator Circuits
+  electronics_control-circuits_discrete-logic-circuits: Discrete Logic Circuits
+  electronics_control-circuits: Control Circuits
+  electronics_control-circuits_ladder-logic: Ladder Logic Design
+  electronics_control-circuits_relay-logic: Relay Logic Circuits
+  electronics_control-circuits_sequential-logic-circuits: Sequential Logic Circuits
   electronics_electrical-systems: Electrical Systems
+  electronics_industrial-control_hmi: HMI Design
+  electronics_industrial-control_industrial-control-architecture: Industrial Control Architecture
+  electronics_industrial-control: Industrial Control
+  electronics_industrial-control_plc: PLC Design
+  electronics_industrial-control_scada: SCADA System Design
+  electronics_interface-circuits_adc-circuits: ADC Circuits
+  electronics_interface-circuits_dac-circuits: DAC Circuits
+  electronics_interface-circuits: Interface Circuits
+  electronics_interface-circuits_sensor-circuits: Sensor Circuits
+  electronics_optoelectronic-circuits: Optoelectronic Circuits
+  electronics_optoelectronic-circuits_led-driver-circuits: LED Driver Circuits
+  electronics_optoelectronic-circuits_optocoupler-circuits: Optocoupler Circuits
+  electronics_optoelectronic-circuits_photodetector-circuits: Photodetector Circuits
   electronics_packaging-testing: "Semiconductor Packaging & Testing"
   electronics_packaging: "IC Packaging & Interconnect"
   electronics_passive-components: Passive Components
   electronics_pcb-fabrication: PCB Fabrication
+  electronics_power-conversion-circuits_inverter-circuits: Inverter Circuits
+  electronics_power-conversion-circuits: Power Conversion Circuits
+  electronics_power-conversion-circuits_vfd-motor-control: VFD Motor Control
   electronics_power-electronics: Power Electronics
+  electronics_power-supply-circuits_filter-circuits: Filter Circuits
+  electronics_power-supply-circuits: Power Supply Circuits
+  electronics_power-supply-circuits_linear-regulators: Linear Regulators
+  electronics_power-supply-circuits_rectifier-circuits: Rectifier Circuits
+  electronics_power-supply-circuits_switching-regulators: Switching Regulators
   electronics_semiconductor-devices: Semiconductor Devices
   electronics_wire-insulation: Wire Insulation and Enameling
 }
@@ -117,6 +159,9 @@ chemistry_electrolysis: Electrolysis {
   shape: rectangle
 }
 computing_electronic: Electronic Computing {
+  shape: rectangle
+}
+computing_embedded-systems: Embedded Systems {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
@@ -169,9 +214,112 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 }
 
 # ==================== EDGES ====================
+electronics_analog-circuits_amplifier-fundamentals -> electronics_analog-circuits_transistor-switch-circuits: { class: tool-edge }
+electronics_analog-circuits_amplifier-fundamentals -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_amplifier-fundamentals -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits_diode-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_diode-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits_multivibrator-circuits -> electronics_analog-circuits_transistor-switch-circuits: { class: tool-edge }
+electronics_analog-circuits_multivibrator-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_multivibrator-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits_op-amp-circuits -> electronics_analog-circuits_amplifier-fundamentals: { class: tool-edge }
+electronics_analog-circuits_op-amp-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_op-amp-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits_oscillator-circuits -> electronics_analog-circuits_amplifier-fundamentals: { class: tool-edge }
+electronics_analog-circuits_oscillator-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_oscillator-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits_power-amplifiers -> electronics_analog-circuits_amplifier-fundamentals: { class: tool-edge }
+electronics_analog-circuits_power-amplifiers -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_power-amplifiers -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits_timer-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_timer-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits_transistor-switch-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits_transistor-switch-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_analog-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_analog-circuits -> electronics_semiconductor-devices: { class: tool-edge }
 electronics_assembly -> electronics_packaging: { class: tool-edge }
+electronics_circuit-fundamentals_ac-analysis -> electronics_circuit-fundamentals_dc-analysis: { class: tool-edge }
+electronics_circuit-fundamentals_ac-analysis -> electronics_electrical-systems: { class: tool-edge }
+electronics_circuit-fundamentals_ac-analysis -> electronics_passive-components: { class: tool-edge }
+electronics_circuit-fundamentals_dc-analysis -> electronics_electrical-systems: { class: tool-edge }
+electronics_circuit-fundamentals_dc-analysis -> electronics_passive-components: { class: tool-edge }
+electronics_circuit-fundamentals -> electronics_electrical-systems: { class: tool-edge }
+electronics_circuit-fundamentals -> electronics_passive-components: { class: tool-edge }
+electronics_communications-circuits_modulation-circuits -> electronics_analog-circuits: { class: tool-edge }
+electronics_communications-circuits_modulation-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_communications-circuits_receiver-circuits -> electronics_communications-circuits_modulation-circuits: { class: tool-edge }
+electronics_communications-circuits_receiver-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_communications-circuits_receiver-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_communications-circuits_rf-oscillator-circuits -> electronics_analog-circuits_oscillator-circuits: { class: tool-edge }
+electronics_communications-circuits_rf-oscillator-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_communications-circuits_rf-oscillator-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_communications-circuits -> electronics_electrical-systems: { class: tool-edge }
+electronics_communications-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_control-circuits_discrete-logic-circuits -> electronics_analog-circuits_transistor-switch-circuits: { class: tool-edge }
+electronics_control-circuits_discrete-logic-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_control-circuits_discrete-logic-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_control-circuits_ladder-logic -> electronics_control-circuits_relay-logic: { class: tool-edge }
+electronics_control-circuits_ladder-logic -> electronics_electrical-systems: { class: tool-edge }
+electronics_control-circuits_relay-logic -> electronics_electrical-systems: { class: tool-edge }
+electronics_control-circuits_relay-logic -> electronics_passive-components: { class: tool-edge }
+electronics_control-circuits_sequential-logic-circuits -> electronics_control-circuits_discrete-logic-circuits: { class: tool-edge }
+electronics_control-circuits_sequential-logic-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_control-circuits_sequential-logic-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_control-circuits -> electronics_electrical-systems: { class: tool-edge }
+electronics_industrial-control_hmi -> electronics_industrial-control_plc: { class: tool-edge }
+electronics_industrial-control_hmi -> electronics_industrial-control: { class: tool-edge }
+electronics_industrial-control_hmi -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_industrial-control_industrial-control-architecture -> electronics_industrial-control_hmi: { class: tool-edge }
+electronics_industrial-control_industrial-control-architecture -> electronics_industrial-control_plc: { class: tool-edge }
+electronics_industrial-control_industrial-control-architecture -> electronics_industrial-control_scada: { class: tool-edge }
+electronics_industrial-control_industrial-control-architecture -> electronics_industrial-control: { class: tool-edge }
+electronics_industrial-control_plc -> electronics_control-circuits_discrete-logic-circuits: { class: tool-edge }
+electronics_industrial-control_plc -> electronics_control-circuits_ladder-logic: { class: tool-edge }
+electronics_industrial-control_plc -> electronics_control-circuits_relay-logic: { class: tool-edge }
+electronics_industrial-control_plc -> electronics_industrial-control: { class: tool-edge }
+electronics_industrial-control_scada -> electronics_industrial-control_plc: { class: tool-edge }
+electronics_industrial-control_scada -> electronics_industrial-control: { class: tool-edge }
+electronics_industrial-control_scada -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_interface-circuits_adc-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_interface-circuits_adc-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_interface-circuits_dac-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_interface-circuits_dac-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_interface-circuits_sensor-circuits -> electronics_interface-circuits_adc-circuits: { class: tool-edge }
+electronics_interface-circuits_sensor-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_interface-circuits_sensor-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_interface-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_interface-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_optoelectronic-circuits_led-driver-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_optoelectronic-circuits_led-driver-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_optoelectronic-circuits_optocoupler-circuits -> electronics_optoelectronic-circuits_led-driver-circuits: { class: tool-edge }
+electronics_optoelectronic-circuits_optocoupler-circuits -> electronics_optoelectronic-circuits_photodetector-circuits: { class: tool-edge }
+electronics_optoelectronic-circuits_optocoupler-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_optoelectronic-circuits_optocoupler-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_optoelectronic-circuits_photodetector-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_optoelectronic-circuits_photodetector-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_optoelectronic-circuits -> electronics_semiconductor-devices: { class: tool-edge }
 electronics_packaging-testing -> electronics_semiconductor-devices: { class: material-edge }
+electronics_power-conversion-circuits_inverter-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_power-conversion-circuits_inverter-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_power-conversion-circuits_vfd-motor-control -> electronics_electrical-systems: { class: tool-edge }
+electronics_power-conversion-circuits_vfd-motor-control -> electronics_power-conversion-circuits_inverter-circuits: { class: tool-edge }
+electronics_power-conversion-circuits_vfd-motor-control -> electronics_power-conversion-circuits: { class: tool-edge }
+electronics_power-conversion-circuits -> electronics_semiconductor-devices: { class: tool-edge }
 electronics_power-electronics -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_power-supply-circuits_filter-circuits -> electronics_circuit-fundamentals_ac-analysis: { class: tool-edge }
+electronics_power-supply-circuits_filter-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_power-supply-circuits_linear-regulators -> electronics_passive-components: { class: tool-edge }
+electronics_power-supply-circuits_linear-regulators -> electronics_power-supply-circuits_rectifier-circuits: { class: tool-edge }
+electronics_power-supply-circuits_linear-regulators -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_power-supply-circuits_rectifier-circuits -> electronics_analog-circuits_diode-circuits: { class: tool-edge }
+electronics_power-supply-circuits_rectifier-circuits -> electronics_circuit-fundamentals_ac-analysis: { class: tool-edge }
+electronics_power-supply-circuits_rectifier-circuits -> electronics_passive-components: { class: tool-edge }
+electronics_power-supply-circuits_rectifier-circuits -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_power-supply-circuits_switching-regulators -> electronics_passive-components: { class: tool-edge }
+electronics_power-supply-circuits_switching-regulators -> electronics_power-supply-circuits_rectifier-circuits: { class: tool-edge }
+electronics_power-supply-circuits_switching-regulators -> electronics_semiconductor-devices: { class: tool-edge }
+electronics_power-supply-circuits -> electronics_electrical-systems: { class: tool-edge }
+electronics_power-supply-circuits -> electronics_semiconductor-devices: { class: tool-edge }
 electronics -> electronics_passive-components: { class: material-edge }
 automation_equipment-communication -> electronics: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
@@ -182,6 +330,7 @@ electronics_assembly -> silicon_basic-devices: { class: material-edge }
 electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
 electronics_electrical-systems -> energy_electricity: { class: tool-edge }
 electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
+electronics_industrial-control -> computing_embedded-systems: { class: tool-edge }
 electronics_packaging-testing -> photolithography_fab-processes: { class: material-edge }
 electronics_packaging-testing -> polymers_thermosets: { class: material-edge }
 electronics_pcb-fabrication -> chemistry_acids: { class: material-edge }
@@ -201,13 +350,55 @@ vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 
 # ==================== STYLING ====================
 electronics.class: domain
+electronics_analog-circuits_amplifier-fundamentals.class: process
+electronics_analog-circuits_diode-circuits.class: process
+electronics_analog-circuits.class: capability
+electronics_analog-circuits_multivibrator-circuits.class: process
+electronics_analog-circuits_op-amp-circuits.class: process
+electronics_analog-circuits_oscillator-circuits.class: process
+electronics_analog-circuits_power-amplifiers.class: process
+electronics_analog-circuits_timer-circuits.class: process
+electronics_analog-circuits_transistor-switch-circuits.class: process
 electronics_assembly.class: capability
+electronics_circuit-fundamentals_ac-analysis.class: process
+electronics_circuit-fundamentals_dc-analysis.class: process
+electronics_circuit-fundamentals.class: capability
+electronics_communications-circuits.class: capability
+electronics_communications-circuits_modulation-circuits.class: process
+electronics_communications-circuits_receiver-circuits.class: process
+electronics_communications-circuits_rf-oscillator-circuits.class: process
+electronics_control-circuits_discrete-logic-circuits.class: process
+electronics_control-circuits.class: capability
+electronics_control-circuits_ladder-logic.class: process
+electronics_control-circuits_relay-logic.class: process
+electronics_control-circuits_sequential-logic-circuits.class: process
 electronics_electrical-systems.class: capability
+electronics_industrial-control_hmi.class: process
+electronics_industrial-control_industrial-control-architecture.class: process
+electronics_industrial-control.class: capability
+electronics_industrial-control_plc.class: process
+electronics_industrial-control_scada.class: process
+electronics_interface-circuits_adc-circuits.class: process
+electronics_interface-circuits_dac-circuits.class: process
+electronics_interface-circuits.class: capability
+electronics_interface-circuits_sensor-circuits.class: process
+electronics_optoelectronic-circuits.class: capability
+electronics_optoelectronic-circuits_led-driver-circuits.class: process
+electronics_optoelectronic-circuits_optocoupler-circuits.class: process
+electronics_optoelectronic-circuits_photodetector-circuits.class: process
 electronics_packaging-testing.class: critical
 electronics_packaging.class: capability
 electronics_passive-components.class: critical
 electronics_pcb-fabrication.class: critical
+electronics_power-conversion-circuits_inverter-circuits.class: process
+electronics_power-conversion-circuits.class: capability
+electronics_power-conversion-circuits_vfd-motor-control.class: process
 electronics_power-electronics.class: critical
+electronics_power-supply-circuits_filter-circuits.class: process
+electronics_power-supply-circuits.class: capability
+electronics_power-supply-circuits_linear-regulators.class: process
+electronics_power-supply-circuits_rectifier-circuits.class: process
+electronics_power-supply-circuits_switching-regulators.class: process
 electronics_semiconductor-devices.class: critical
 electronics_wire-insulation.class: critical
 automation.class: external
@@ -216,6 +407,7 @@ chemistry.class: external
 chemistry_acids.class: external
 chemistry_electrolysis.class: external
 computing_electronic.class: external
+computing_embedded-systems.class: external
 energy_electricity.class: external
 energy_photovoltaics.class: external
 glass_fibers.class: external

@@ -18,7 +18,7 @@ In distillation, shell-and-tube condensers at the column overhead achieve total 
 
 ## Related Terms
 
-- [Efficiency](./efficiency.md) — condensers directly improve thermal efficiency
+- Efficiency — condensers directly improve thermal efficiency
 - [Configuration](./configuration.md) — engine layout determines condenser placement
 
 ## Appears In

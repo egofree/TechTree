@@ -9,8 +9,8 @@ Functional analysis also drives maintenance decisions: components whose failure 
 ## See Also
 
 - [Construction](./construction.md)
-- [Limitations](./limitations.md)
-- [Types](./types.md)
+- Limitations
+- Types
 
 ## Appears In
 

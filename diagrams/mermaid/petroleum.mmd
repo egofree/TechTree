@@ -19,6 +19,7 @@ graph TD
     petroleum["Petroleum Extraction & Refining"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    agriculture_soil-management("Soil Management & Composting")
     chemistry_distillation("Distillation")
     energy_engine("Heat Engines")
     energy_internal-combustion("Internal Combustion Engines")
@@ -39,6 +40,7 @@ graph TD
     petroleum_refining_distillation -.-> petroleum_refining
     petroleum_refining --> petroleum_extraction
     petroleum_refining -.-> petroleum
+    agriculture_soil-management --> petroleum_refining_distillation
     energy_engine --> petroleum_refining
     energy_internal-combustion --> petroleum_refining
     petroleum_extraction_cable-tool -.-> energy_steam-power
@@ -69,6 +71,7 @@ graph TD
     class petroleum_refining_cracking process
     class petroleum_refining_distillation process
     class petroleum_refining capability
+    class agriculture_soil-management external
     class chemistry_distillation external
     class energy_engine external
     class energy_internal-combustion external

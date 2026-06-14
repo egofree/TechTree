@@ -18,7 +18,7 @@ For electrode selection in electrolysis, the key criteria are: chemical stabilit
 
 ## Related Terms
 
-- [Products](./products.md) — outputs of selected materials and organisms
+- Products — outputs of selected materials and organisms
 - [Harvesting](./harvesting.md) — the endpoint of selection in agriculture
 
 ## Appears In

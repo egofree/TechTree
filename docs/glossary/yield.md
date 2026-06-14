@@ -20,7 +20,7 @@ In metallurgical processes, yield losses come from oxidation (metal lost to dros
 
 ## Related Terms
 
-- [Applications](./applications.md) — end uses that justify yield optimization
+- Applications — end uses that justify yield optimization
 - [Process](./process.md) — manufacturing sequence where yield is measured
 - [Construction](./construction.md) — building systems that affect yield
 - [Source](./source.md) — raw material origin with inherent yield constraints

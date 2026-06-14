@@ -20,7 +20,7 @@ In aluminum smelting, the primary disadvantage is energy intensity: 13-15 kWh pe
 
 ## Related Terms
 
-- [Efficiency](./efficiency.md) — disadvantages often reduce efficiency
+- Efficiency — disadvantages often reduce efficiency
 - [Design](./design.md) — good design mitigates disadvantages
 
 ## Appears In

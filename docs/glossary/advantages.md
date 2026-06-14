@@ -16,8 +16,8 @@ Beyond polymer processing, advantage analysis applies to every fork in the boots
 
 ## Related Terms
 
-- [Limitations](./limitations.md) — the complementary analysis of constraints and drawbacks
-- [Disadvantages](./disadvantages.md) — explicit comparison of what a method sacrifices
+- Limitations — the complementary analysis of constraints and drawbacks
+- Disadvantages — explicit comparison of what a method sacrifices
 - [Construction](./construction.md) — how a method's advantages relate to its build complexity
 - [Process](./process.md) — the workflow that delivers the advertised advantages
 

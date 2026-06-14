@@ -18,8 +18,8 @@ In crystal growth, the melt temperature is controlled by adjusting power to the 
 
 ## Related Terms
 
-- [Applications](./applications.md) — specific uses of temperature-controlled processes
-- [Principle](./principle.md) — thermodynamic basis for temperature-composition relationships
+- Applications — specific uses of temperature-controlled processes
+- Principle — thermodynamic basis for temperature-composition relationships
 - [Construction](./construction.md) — building temperature-controlled equipment
 - [Vibration Isolation](./vibration-isolation.md) — companion requirement for precision thermal equipment
 

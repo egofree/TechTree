@@ -17,7 +17,9 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture_soil-management("Soil Management & Composting")
+    agriculture_soil-management_vermiculture("Vermiculture")
     animals("Animals & Animal Husbandry")
+    animals_animal-husbandry("Animal Husbandry")
     animals_aquaculture("Aquaculture & Fisheries")
     animals_beekeeping("Apiculture (Beekeeping)")
     animals_draft-power("Animal Draft Power & Harnessing")
@@ -65,6 +67,7 @@ graph TD
     %% ==================== EDGES ====================
     foundations_carpentry -.-> foundations
     foundations_food-agriculture -.-> foundations_tools-basic
+    agriculture_soil-management_vermiculture -.-> foundations_food-agriculture
     animals_aquaculture -.-> foundations_tools-basic
     animals_beekeeping -.-> foundations_fire
     animals_beekeeping -.-> foundations_tools-basic
@@ -91,6 +94,7 @@ graph TD
     food-processing_oil-processing --> foundations_food-agriculture
     food-processing --> foundations_food-agriculture
     foundations_food-agriculture --> agriculture_soil-management
+    foundations_food-agriculture --> animals_animal-husbandry
     foundations_food-agriculture --> animals_beekeeping
     foundations_food-agriculture --> animals_pigs
     foundations_food-agriculture --> animals_rabbits
@@ -138,7 +142,9 @@ graph TD
     class foundations_sawmilling capability
     class foundations_tools-basic capability
     class agriculture_soil-management external
+    class agriculture_soil-management_vermiculture external
     class animals external
+    class animals_animal-husbandry external
     class animals_aquaculture external
     class animals_beekeeping external
     class animals_draft-power external

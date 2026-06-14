@@ -86,6 +86,7 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 vacuum_internal: "Vacuum Technology — Internal Structure" {
+  vacuum_basic-vacuum: Basic Vacuum Technology
   vacuum_chambers: "Vacuum Chambers & Sealing"
   vacuum_deposition-systems: Deposition Systems
   vacuum_leak-detection: "Vacuum Leak Detection & Seal Integrity"
@@ -121,6 +122,9 @@ measurement: "Measurement & Instrumentation" {
 metals: Metals {
   shape: rectangle
 }
+metals_specialty-semiconductor: "Specialty Metals for Semiconductor Interconnects & Barrier Layers" {
+  shape: rectangle
+}
 optics_inspection_optical-coatings: Optical Coatings {
   shape: rectangle
 }
@@ -150,12 +154,14 @@ silicon_purification: Silicon Purification {
 }
 
 # ==================== EDGES ====================
+vacuum_basic-vacuum -> vacuum: { class: tool-edge }
 vacuum_deposition-systems -> vacuum_chambers: { class: tool-edge }
 vacuum_deposition-systems -> vacuum_pumps: { class: tool-edge }
 vacuum_leak-detection -> vacuum_measurement: { class: tool-edge }
 automation_wafer-handling -> vacuum: { class: tool-edge }
 glass_glass-to-metal-seals -> vacuum_chambers: { class: tool-edge }
 machine-tools_joining_electron-beam -> vacuum_pumps: { class: tool-edge }
+metals_specialty-semiconductor -> vacuum_pumps: { class: tool-edge }
 optics_inspection_optical-coatings -> vacuum_pumps: { class: tool-edge }
 photolithography_fab-processes_cvd -> vacuum_deposition-systems: { class: tool-edge }
 photolithography_fab-processes_ion-implantation -> vacuum_chambers: { class: tool-edge }
@@ -181,6 +187,7 @@ vacuum -> metals: { class: material-edge }
 
 # ==================== STYLING ====================
 vacuum.class: domain
+vacuum_basic-vacuum.class: capability
 vacuum_chambers.class: capability
 vacuum_deposition-systems.class: capability
 vacuum_leak-detection.class: capability
@@ -194,6 +201,7 @@ machine-tools_joining_electron-beam.class: external
 machine-tools_joining_tig-welding.class: external
 measurement.class: external
 metals.class: external
+metals_specialty-semiconductor.class: external
 optics_inspection_optical-coatings.class: external
 photolithography_fab-processes.class: external
 photolithography_fab-processes_cvd.class: external

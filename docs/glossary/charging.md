@@ -18,9 +18,9 @@ In lead-acid battery charging, the process applies a voltage above the cell's eq
 
 ## Related Terms
 
-- [Limitations](./limitations.md) — charging constraints in battery and furnace operations
-- [Principle](./principle.md) — the electrochemical or thermal principle behind charging
-- [Plates](./plates.md) — the battery components that receive charge
+- Limitations — charging constraints in battery and furnace operations
+- Principle — the electrochemical or thermal principle behind charging
+- Plates — the battery components that receive charge
 
 ## Appears In
 

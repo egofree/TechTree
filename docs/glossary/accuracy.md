@@ -20,7 +20,7 @@ For mechanical metrology, gauge blocks (Jo-blocks) calibrated to ±0.05 μm serv
 
 - [Calibration](./calibration.md) — process of verifying and correcting instrument accuracy against known standards
 - [Capacity](./capacity.md) — rated output often depends on measurement accuracy at specification boundaries
-- [Principle](./principle.md) — underlying physical or mathematical basis for accurate measurement methods
+- Principle — underlying physical or mathematical basis for accurate measurement methods
 
 ## Appears In
 

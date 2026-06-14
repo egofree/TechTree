@@ -19,9 +19,9 @@ In mining, scaling refers to moving from small test pits to full production: lar
 ## Related Terms
 
 - [NMOS](./nmos.md) — early scaling technology
-- [CMOS](./cmos.md) — complementary MOS scaling
+- CMOS — complementary MOS scaling
 - [Crystal Oscillator](./crystal-oscillator.md) — frequency scaling
-- [Efficiency](./efficiency.md) — scaling improvements in efficiency
+- Efficiency — scaling improvements in efficiency
 - [Structure](./structure.md) — structural changes at different scales
 
 ## Appears In

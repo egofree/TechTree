@@ -20,7 +20,7 @@ In energy storage, the effects of temperature on battery performance are signifi
 
 ## Related Terms
 
-- [Efficiency](./efficiency.md) — effects often relate to efficiency changes
+- Efficiency — effects often relate to efficiency changes
 - [Duration](./duration.md) — effects may vary with exposure duration
 
 ## Appears In

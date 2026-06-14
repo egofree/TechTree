@@ -19,7 +19,7 @@ Hemp fiber is stronger than flax and more rot-resistant, especially in wet condi
 ## Related Terms
 
 - [Cotton](./cotton.md) — softer seed fiber for clothing textiles
-- [Materials](./materials.md) — natural fiber materials across the tech tree
+- Materials — natural fiber materials across the tech tree
 - [Milling](./milling.md) — mechanical processing of plant materials
 
 ## Appears In

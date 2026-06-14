@@ -115,6 +115,9 @@ chemistry_water-treatment: Industrial Water Treatment {
 ehs_waste-management: Waste Management {
   shape: rectangle
 }
+energy_biomass-energy_biogas-digester: Biogas Digester {
+  shape: rectangle
+}
 food-processing: Food Processing {
   shape: rectangle
 }
@@ -137,6 +140,7 @@ agriculture -> water_procurement: { class: material-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 chemistry_water-treatment -> water_sewage: { class: material-edge }
 ehs_waste-management -> water_sewage: { class: tool-edge }
+energy_biomass-energy_biogas-digester -> water_basic-treatment: { class: material-edge }
 food-processing -> water: { class: material-edge }
 health_sanitation -> water_procurement: { class: material-edge }
 ultra-pure_upw -> water: { class: material-edge }
@@ -157,6 +161,7 @@ chemistry_bleaching.class: external
 chemistry_electrodialysis.class: external
 chemistry_water-treatment.class: external
 ehs_waste-management.class: external
+energy_biomass-energy_biogas-digester.class: external
 food-processing.class: external
 foundations_tools-basic.class: external
 health_sanitation.class: external

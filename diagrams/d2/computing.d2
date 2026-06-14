@@ -109,10 +109,16 @@ automation_equipment-communication: Equipment Communication {
 electronics_assembly: Electronics Assembly {
   shape: rectangle
 }
+electronics_industrial-control: Industrial Control {
+  shape: rectangle
+}
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+machine-tools_cam: "Computer-Aided Manufacturing (CAM)" {
   shape: rectangle
 }
 mathematics_core-mathematics: Core Mathematics {
@@ -170,6 +176,8 @@ computing_mechanical -> machine-tools: { class: tool-edge }
 computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
 computing_mechanical -> metals: { class: material-edge }
 computing -> software-bootstrapping_operating-systems: { class: tool-edge }
+electronics_industrial-control -> computing_embedded-systems: { class: tool-edge }
+machine-tools_cam -> computing_electronic: { class: tool-edge }
 measurement_thermostat-electronic -> computing: { class: tool-edge }
 quality-control -> computing: { class: tool-edge }
 software-bootstrapping -> computing: { class: tool-edge }
@@ -188,8 +196,10 @@ computing_mechanical.class: capability
 automation.class: external
 automation_equipment-communication.class: external
 electronics_assembly.class: external
+electronics_industrial-control.class: external
 energy_electricity.class: external
 machine-tools.class: external
+machine-tools_cam.class: external
 mathematics_core-mathematics.class: external
 mathematics_formal-systems.class: external
 measurement_thermostat-electronic.class: external

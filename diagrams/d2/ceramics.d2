@@ -120,6 +120,12 @@ cryogenics: Cryogenics {
 energy: Energy {
   shape: rectangle
 }
+energy_biomass-energy_biogas-digester: Biogas Digester {
+  shape: rectangle
+}
+energy_biomass-energy_gasifier: Biomass Gasifier {
+  shape: rectangle
+}
 energy_fuels_charcoal: Charcoal Production {
   shape: rectangle
 }
@@ -194,6 +200,8 @@ chemistry_cement -> ceramics_kilns: { class: tool-edge }
 chemistry_refractories -> ceramics_kilns: { class: tool-edge }
 construction -> ceramics_lime: { class: material-edge }
 cryogenics -> ceramics_thermal-insulation: { class: material-edge }
+energy_biomass-energy_biogas-digester -> ceramics_kilns: { class: tool-edge }
+energy_biomass-energy_gasifier -> ceramics_kilns: { class: tool-edge }
 energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
 energy_fuels_coke -> ceramics_kilns: { class: tool-edge }
 energy -> ceramics_thermal-insulation: { class: material-edge }
@@ -223,6 +231,8 @@ chemistry_refractories.class: external
 construction.class: external
 cryogenics.class: external
 energy.class: external
+energy_biomass-energy_biogas-digester.class: external
+energy_biomass-energy_gasifier.class: external
 energy_fuels_charcoal.class: external
 energy_fuels_coal.class: external
 energy_fuels_coke.class: external

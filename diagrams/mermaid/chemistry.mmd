@@ -62,7 +62,10 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture("Agriculture")
     agriculture_hydroponic-ph-control("Hydroponic pH Control")
+    agriculture_sem-tech-hydroponics("SEM Tech Hydroponics")
+    agriculture_soil-management("Soil Management & Composting")
     animals_animal-materials("Animal-Derived Materials Processing")
+    animals_poultry_pigeons("Pigeons & Squab")
     ceramics_electronic-ceramics("Electronic Ceramics")
     ceramics_kilns("Kiln Construction")
     cleanrooms("Clean Room Technology")
@@ -82,11 +85,15 @@ graph TD
     electronics_pcb-fabrication("PCB Fabrication")
     energy("Energy")
     energy_blue-energy("Blue Energy (Osmotic Power)")
+    energy_blue-energy_sem-tech("SEM Tech Blue Energy: Salinity-Gradient Power Generation")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces_electrode-manufacturing("Graphite Electrode Manufacturing")
     energy_electricity("Electricity Generation & Distribution")
     energy_fuel-cell("Fuel Cell")
+    energy_fuel-cell_sem-tech("SEM Tech Fuel Cells: Electrochemical Power Generation")
     energy_fuels_charcoal("Charcoal Production")
+    energy_fuels_coal("Coal Mining & Combustion")
+    energy_fuels_coke("Coke Production")
     energy_gravity("Water Power")
     energy_hydraulics("Hydraulic Power")
     energy_redox-flow-battery("Redox Flow Battery")
@@ -102,6 +109,7 @@ graph TD
     gas-handling_basic("Basic Gas Handling")
     gas-handling_gas-purification("Gas Purification")
     glass("Glass")
+    glass_advanced_glassblowing("Glassblowing and Scientific Apparatus")
     glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
     health_diagnostics("Diagnostics")
@@ -143,6 +151,7 @@ graph TD
     photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
     polymers_rubber_natural("Natural Rubber & Vulcanization")
+    polymers_rubber_semiconductor-apps("Elastomers in Semiconductor Equipment")
     polymers_rubber_shellac("Shellac Production")
     polymers_rubber_synthetic("Synthetic Rubbers")
     polymers_thermoplastics("Thermoplastic Polymers")
@@ -181,6 +190,7 @@ graph TD
     chemistry_electrolysis -.-> chemistry_electrolysis_sem-tech
     chemistry_electrolysis -.-> chemistry_lithium-separation
     chemistry_electrolysis -.-> chemistry_water-electrolysis
+    chemistry_explosives_nitroglycerin-dynamite --> chemistry_soap
     chemistry_explosives_black-powder --> chemistry_explosives
     chemistry_explosives_detonation-blasting -.-> chemistry_explosives_high-explosives
     chemistry_explosives_detonation-blasting --> chemistry_explosives
@@ -210,6 +220,7 @@ graph TD
     chemistry_photographic-chemistry --> chemistry
     chemistry_pulp-chemicals --> chemistry_alkalis
     chemistry_pulp-chemicals --> chemistry_electrolysis
+    chemistry_pulp-chemicals --> chemistry_pulp-chemicals
     chemistry_soap --> chemistry_alkalis
     chemistry_soap --> chemistry_petroleum-alternatives
     chemistry_soap --> chemistry_potash
@@ -217,8 +228,12 @@ graph TD
     chemistry_solvents -.-> chemistry_distillation
     chemistry_solvents --> chemistry_petroleum-alternatives_fermentation
     chemistry_solvents --> chemistry_petroleum-alternatives
+    chemistry_solvents --> chemistry_solvents
     chemistry_water-electrolysis --> chemistry_e-methanol
     chemistry --> chemistry_acids-bases
+    agriculture_sem-tech-hydroponics -.-> chemistry_electrodialysis
+    agriculture_sem-tech-hydroponics --> chemistry_electrolysis_sem-tech
+    agriculture_soil-management --> chemistry_petroleum-alternatives_wood-gasification
     agriculture --> chemistry_phosphorus
     ceramics_electronic-ceramics --> chemistry
     chemistry_acid-regeneration --> metals_forming
@@ -232,6 +247,7 @@ graph TD
     chemistry_ammonia --> energy
     chemistry_ammonia -.-> metals
     chemistry_cement -.-> ceramics_kilns
+    chemistry_cement --> energy_fuels_coal
     chemistry_cement --> metals_iron-steel_blast-furnace
     chemistry_e-methanol --> energy
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
@@ -239,10 +255,12 @@ graph TD
     chemistry_electrodialysis -.-> water_desalination
     chemistry_electrolysis -.-> energy_fuel-cell
     chemistry_electrolysis -.-> energy_redox-flow-battery
+    chemistry_electrolysis -.-> glass_advanced_glassblowing
     chemistry_electrolysis --> mining_salt
     chemistry_explosives_black-powder --> energy_fuels_charcoal
     chemistry_explosives_black-powder -.-> mining_extraction
     chemistry_explosives_detonation-blasting -.-> mining
+    chemistry_explosives --> animals_poultry_pigeons
     chemistry_explosives --> energy_fuels_charcoal
     chemistry_flux --> mining
     chemistry_hydrogen-silane -.-> gas-handling_basic
@@ -255,6 +273,7 @@ graph TD
     chemistry_packaging-testing -.-> machine-tools
     chemistry_packaging-testing --> photolithography_fab-processes
     chemistry_packaging-testing --> polymers_thermosets
+    chemistry_petroleum-alternatives --> energy_fuels_coke
     chemistry_petroleum-alternatives -.-> foundations
     chemistry_phosphorus --> mining
     chemistry_photographic-chemistry -.-> knowledge
@@ -282,8 +301,11 @@ graph TD
     electronics_electrical-systems --> chemistry_electrolysis
     electronics_pcb-fabrication --> chemistry_acids
     electronics --> chemistry
+    energy_blue-energy_sem-tech -.-> chemistry_electrodialysis
+    energy_blue-energy_sem-tech -.-> chemistry_electrolysis_sem-tech
     energy_cooling --> chemistry_petroleum-alternatives
     energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
+    energy_fuel-cell_sem-tech -.-> chemistry_electrolysis_sem-tech
     energy_fuel-cell --> chemistry_electrolysis_thermochemical-water-splitting
     energy_fuel-cell --> chemistry
     energy_gravity --> chemistry_lubricants
@@ -342,6 +364,7 @@ graph TD
     photolithography_resists-masks --> chemistry
     photolithography --> chemistry
     polymers_rubber_natural --> chemistry_distillation
+    polymers_rubber_semiconductor-apps -.-> chemistry_electrolysis_sem-tech
     polymers_rubber_shellac --> chemistry_distillation
     polymers_rubber_synthetic --> chemistry_petroleum-alternatives
     polymers_rubber_synthetic --> chemistry
@@ -436,7 +459,10 @@ graph TD
     class chemistry_water-treatment capability
     class agriculture external
     class agriculture_hydroponic-ph-control external
+    class agriculture_sem-tech-hydroponics external
+    class agriculture_soil-management external
     class animals_animal-materials external
+    class animals_poultry_pigeons external
     class ceramics_electronic-ceramics external
     class ceramics_kilns external
     class cleanrooms external
@@ -456,11 +482,15 @@ graph TD
     class electronics_pcb-fabrication external
     class energy external
     class energy_blue-energy external
+    class energy_blue-energy_sem-tech external
     class energy_cooling external
     class energy_electric-furnaces_electrode-manufacturing external
     class energy_electricity external
     class energy_fuel-cell external
+    class energy_fuel-cell_sem-tech external
     class energy_fuels_charcoal external
+    class energy_fuels_coal external
+    class energy_fuels_coke external
     class energy_gravity external
     class energy_hydraulics external
     class energy_redox-flow-battery external
@@ -476,6 +506,7 @@ graph TD
     class gas-handling_basic external
     class gas-handling_gas-purification external
     class glass external
+    class glass_advanced_glassblowing external
     class glass_basic external
     class health external
     class health_diagnostics external
@@ -517,6 +548,7 @@ graph TD
     class photolithography_fab-processes_cmp external
     class photolithography_resists-masks external
     class polymers_rubber_natural external
+    class polymers_rubber_semiconductor-apps external
     class polymers_rubber_shellac external
     class polymers_rubber_synthetic external
     class polymers_thermoplastics external

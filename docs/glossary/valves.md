@@ -19,7 +19,7 @@ For gas handling in semiconductor manufacturing, valves must provide leak-tight 
 ## Related Terms
 
 - [Construction](./construction.md) — valve manufacturing methods
-- [Principle](./principle.md) — fluid dynamics of valve operation
+- Principle — fluid dynamics of valve operation
 - [Mass Flow Controllers (MFCs)](./mass-flow-controllers-mfcs.md) — precision gas metering valves
 - [Gas Cabinet Design](./gas-cabinet-design.md) — safety enclosure for valve assemblies
 - [Carbon Monoxide](./carbon-monoxide.md) — toxic gas requiring reliable valve containment

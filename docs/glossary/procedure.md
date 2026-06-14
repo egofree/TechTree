@@ -18,7 +18,7 @@ In pharmaceutical preparation, procedures prevent dosing errors. Geometric dilut
 
 ## Related Terms
 
-- [Principle](./principle.md) — the underlying mechanism that the procedure implements
+- Principle — the underlying mechanism that the procedure implements
 - [Process Parameters](./process-parameters.md) — the controllable variables within a procedure
 - [Quality Testing](./quality-testing.md) — verification that a procedure produced acceptable results
 

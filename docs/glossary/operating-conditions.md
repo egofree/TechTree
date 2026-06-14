@@ -20,7 +20,7 @@ Process control maintains operating conditions within specified limits using fee
 
 - [Measurement](./measurement.md) — monitoring operating conditions requires measurement
 - [Manufacturing](./manufacture.md) — manufacturing processes are defined by operating conditions
-- [Limitations](./limitations.md) — equipment limitations constrain achievable operating conditions
+- Limitations — equipment limitations constrain achievable operating conditions
 
 ## Appears In
 

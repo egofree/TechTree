@@ -18,10 +18,10 @@ Refractory lining inside the shell protects the steel from direct contact with m
 
 ## Related Terms
 
-- [Principle](./principle.md) — operating principles of shell-based equipment
+- Principle — operating principles of shell-based equipment
 - [Electricity Generation](./electricity-generation.md) — shells in power generation
 - [Construction](./construction.md) — building furnace and boiler shells
-- [Raw Materials](./raw-materials.md) — materials for shell construction
+- Raw Materials — materials for shell construction
 - [Process](./process.md) — processes within the shell
 
 ## Appears In

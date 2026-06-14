@@ -20,9 +20,9 @@ The bootstrap fuel sequence progresses through charcoal to coal, then coke, each
 
 ## Related Terms
 
-- [Coke](./coke.md) — the next fuel in the progression, derived from coal
+- Coke — the next fuel in the progression, derived from coal
 - [Yield](./yield.md) — charcoal yield from different wood types and production methods
-- [Advantages](./advantages.md) — charcoal's benefits over raw wood as a metallurgical fuel
+- Advantages — charcoal's benefits over raw wood as a metallurgical fuel
 - [Carbon Monoxide](./carbon-monoxide.md) — CO hazard during charcoal production
 
 ## Appears In

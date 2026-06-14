@@ -25,6 +25,8 @@ graph TD
     construction("Construction & Structural Engineering")
     cryogenics("Cryogenics")
     energy("Energy")
+    energy_biomass-energy_biogas-digester("Biogas Digester")
+    energy_biomass-energy_gasifier("Biomass Gasifier")
     energy_fuels_charcoal("Charcoal Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
@@ -63,6 +65,8 @@ graph TD
     chemistry_refractories -.-> ceramics_kilns
     construction --> ceramics_lime
     cryogenics --> ceramics_thermal-insulation
+    energy_biomass-energy_biogas-digester -.-> ceramics_kilns
+    energy_biomass-energy_gasifier -.-> ceramics_kilns
     energy_fuels_coal -.-> ceramics_kilns
     energy_fuels_coke -.-> ceramics_kilns
     energy --> ceramics_thermal-insulation
@@ -105,6 +109,8 @@ graph TD
     class construction external
     class cryogenics external
     class energy external
+    class energy_biomass-energy_biogas-digester external
+    class energy_biomass-energy_gasifier external
     class energy_fuels_charcoal external
     class energy_fuels_coal external
     class energy_fuels_coke external

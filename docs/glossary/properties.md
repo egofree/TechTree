@@ -19,8 +19,8 @@ Neoprene's chlorine atom on the polymer backbone provides inherent UV stability 
 ## Related Terms
 
 - [Performance](./performance.md) — how properties translate to real-world capability
-- [Products](./products.md) — items whose function depends on material properties
-- [Applications](./applications.md) — specific uses dictated by property profiles
+- Products — items whose function depends on material properties
+- Applications — specific uses dictated by property profiles
 
 ## Appears In
 

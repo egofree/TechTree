@@ -20,7 +20,7 @@ Electric furnaces are both consumers and indirect enablers of electricity genera
 
 ## Related Terms
 
-- [Efficiency](./efficiency.md) — generation efficiency varies by method
+- Efficiency — generation efficiency varies by method
 - [Condenser](./condenser.md) — condensers improve steam turbine efficiency
 
 ## Appears In

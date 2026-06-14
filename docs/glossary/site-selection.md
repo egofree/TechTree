@@ -23,7 +23,7 @@ Agricultural site selection: soil depth >60 cm for grain crops, pH 6.0-7.5 for m
 - [Drying](./drying.md) — site conditions affect drying operations
 - [Process](./process.md) — site selection as a process
 - [Screening](./screening.md) — screening criteria for sites
-- [Advantages](./advantages.md) — advantages of good site selection
+- Advantages — advantages of good site selection
 - [Storage](./storage.md) — storage considerations in site selection
 
 ## Appears In

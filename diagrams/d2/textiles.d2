@@ -154,6 +154,9 @@ knowledge_printing: Paper and Printing Press {
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
+machine-tools_machining: Machining {
+  shape: rectangle
+}
 marine: "Marine & Naval Engineering" {
   shape: rectangle
 }
@@ -192,6 +195,9 @@ textiles_spinning -> textiles_spinning-frame_ring: { class: material-edge }
 textiles_spinning -> textiles_spinning-frame_water: { class: material-edge }
 textiles_spinning -> textiles_weaving: { class: material-edge }
 textiles_weaving -> textiles_dyeing: { class: material-edge }
+textiles_weaving -> textiles_spinning-frame_mule: { class: tool-edge }
+textiles_weaving -> textiles_spinning-frame_ring: { class: tool-edge }
+textiles_weaving -> textiles_spinning-frame_water: { class: tool-edge }
 construction -> textiles_rope-making: { class: material-edge }
 energy_gravity -> textiles: { class: tool-edge }
 energy_wind -> textiles: { class: tool-edge }
@@ -213,6 +219,9 @@ textiles_fibers -> foundations_tools-basic: { class: tool-edge }
 textiles_fibers -> plants_fiber-plants: { class: material-edge }
 textiles_finishing -> chemistry_alkalis: { class: tool-edge }
 textiles_sewing-tailoring -> metals_bronze: { class: tool-edge }
+textiles_spinning-frame_mule -> machine-tools_machining: { class: tool-edge }
+textiles_spinning-frame_ring -> machine-tools_machining: { class: tool-edge }
+textiles_spinning-frame_water -> machine-tools_machining: { class: tool-edge }
 textiles -> animals_leather: { class: material-edge }
 textiles -> chemistry_bleaching: { class: material-edge }
 textiles -> chemistry_pulp-chemicals: { class: material-edge }
@@ -250,6 +259,7 @@ foundations.class: external
 foundations_tools-basic.class: external
 knowledge_printing.class: external
 machine-tools.class: external
+machine-tools_machining.class: external
 marine.class: external
 metals_bronze.class: external
 metals_iron-steel.class: external

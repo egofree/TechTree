@@ -20,10 +20,10 @@ Efficiency ranges from 95-99% for well-designed power transformers. Losses inclu
 
 ## Related Terms
 
-- [Principle](./principle.md) — electromagnetic induction underlying transformer operation
+- Principle — electromagnetic induction underlying transformer operation
 - [Capacity](./capacity.md) — power rating of transformers
 - [Power Requirement](./power-requirement.md) — electrical loads that transformers serve
-- [Applications](./applications.md) — voltage conversion uses
+- Applications — voltage conversion uses
 - [Construction](./construction.md) — winding and core assembly methods
 
 ## Appears In

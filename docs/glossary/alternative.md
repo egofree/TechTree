@@ -17,8 +17,8 @@ Alternative sourcing extends to every domain: alternative fuels (wood gas for pe
 ## Related Terms
 
 - [Construction](./construction.md) — how an alternative method is built
-- [Advantages](./advantages.md) — what the alternative offers compared to the primary route
-- [Principle](./principle.md) — the underlying mechanism that makes the alternative work
+- Advantages — what the alternative offers compared to the primary route
+- Principle — the underlying mechanism that makes the alternative work
 - [Softening](./softening.md) — related to alternative treatments in some material processes
 
 ## Appears In

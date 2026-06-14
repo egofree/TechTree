@@ -9,7 +9,7 @@ The key advantages of extrusion over other forming methods include high producti
 ## See Also
 
 - [Calcination](./calcination.md)
-- [Precipitation](./precipitation-ceramics.md)
+- Precipitation
 
 ## Appears In
 

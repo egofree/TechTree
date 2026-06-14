@@ -19,7 +19,7 @@ Key performance trade-offs recur across domains: specific energy vs. cycle life 
 - [Properties](./properties.md) — intrinsic material characteristics that determine performance
 - [Quality Testing](./quality-testing.md) — verification that performance meets specification
 - [Requirements](./requirements.md) — minimum acceptable performance thresholds
-- [Production Rates](./production-rates.md) — throughput performance of industrial processes
+- Production Rates — throughput performance of industrial processes
 
 ## Appears In
 

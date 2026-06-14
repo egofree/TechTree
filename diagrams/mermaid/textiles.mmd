@@ -39,6 +39,7 @@ graph TD
     foundations_tools-basic("Stone & Wood Tools")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
+    machine-tools_machining("Machining")
     marine("Marine & Naval Engineering")
     metals_bronze("Bronze Production")
     metals_iron-steel("Iron & Steel Production")
@@ -63,6 +64,9 @@ graph TD
     textiles_spinning --> textiles_spinning-frame_water
     textiles_spinning --> textiles_weaving
     textiles_weaving --> textiles_dyeing
+    textiles_weaving -.-> textiles_spinning-frame_mule
+    textiles_weaving -.-> textiles_spinning-frame_ring
+    textiles_weaving -.-> textiles_spinning-frame_water
     construction --> textiles_rope-making
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
@@ -84,6 +88,9 @@ graph TD
     textiles_fibers --> plants_fiber-plants
     textiles_finishing -.-> chemistry_alkalis
     textiles_sewing-tailoring -.-> metals_bronze
+    textiles_spinning-frame_mule -.-> machine-tools_machining
+    textiles_spinning-frame_ring -.-> machine-tools_machining
+    textiles_spinning-frame_water -.-> machine-tools_machining
     textiles --> animals_leather
     textiles --> chemistry_bleaching
     textiles --> chemistry_pulp-chemicals
@@ -134,6 +141,7 @@ graph TD
     class foundations_tools-basic external
     class knowledge_printing external
     class machine-tools external
+    class machine-tools_machining external
     class marine external
     class metals_bronze external
     class metals_iron-steel external

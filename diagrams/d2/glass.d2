@@ -108,6 +108,9 @@ chemistry: Chemistry {
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
+chemistry_electrolysis: Electrolysis {
+  shape: rectangle
+}
 chemistry_potash: Potash Production {
   shape: rectangle
 }
@@ -133,6 +136,9 @@ energy_fuels: Fuel Production {
   shape: rectangle
 }
 energy_photovoltaics: Photovoltaic Solar Power {
+  shape: rectangle
+}
+energy_solar-thermal_collector: Solar Thermal Collector {
   shape: rectangle
 }
 gas-handling_basic: Basic Gas Handling {
@@ -168,6 +174,9 @@ silicon: Silicon {
 silicon_crystal-growth: "Crystal Growth & Wafering" {
   shape: rectangle
 }
+silicon_wafering: "Wafer Slicing & Polishing" {
+  shape: rectangle
+}
 telecom: Telecommunications {
   shape: rectangle
 }
@@ -180,7 +189,9 @@ vacuum_chambers: "Vacuum Chambers & Sealing" {
 
 # ==================== EDGES ====================
 glass_advanced_glassblowing -> glass_advanced: { class: tool-edge }
+glass_advanced -> glass_advanced: { class: material-edge }
 glass_advanced -> glass_basic: { class: tool-edge }
+glass_basic_float-glass -> glass_basic_float-glass: { class: material-edge }
 glass_basic -> glass_basic: { class: material-edge }
 glass_fibers -> glass_advanced: { class: material-edge }
 glass_fibers -> glass: { class: tool-edge }
@@ -188,9 +199,11 @@ glass_photomask-substrates -> glass_advanced: { class: tool-edge }
 glass_glass-to-metal-seals -> glass_advanced: { class: material-edge }
 ceramics_thermal-insulation -> glass_basic: { class: material-edge }
 chemistry_acids -> glass_basic: { class: tool-edge }
+chemistry_electrolysis -> glass_advanced_glassblowing: { class: tool-edge }
 cleanrooms -> glass: { class: material-edge }
 electronics_assembly -> glass_fibers: { class: material-edge }
 energy_photovoltaics -> glass_basic: { class: material-edge }
+energy_solar-thermal_collector -> glass_basic: { class: tool-edge }
 glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
 glass_basic_float-glass -> energy_electric-furnaces: { class: tool-edge }
 glass_basic_float-glass -> gas-handling_basic: { class: tool-edge }
@@ -209,6 +222,7 @@ optics_inspection -> glass_advanced: { class: material-edge }
 photolithography_resists-masks -> glass_basic: { class: material-edge }
 polymers_composites -> glass_fibers: { class: material-edge }
 silicon_crystal-growth -> glass_advanced: { class: material-edge }
+silicon_wafering -> glass_advanced_glassblowing: { class: tool-edge }
 silicon -> glass: { class: tool-edge }
 telecom_radio -> glass: { class: material-edge }
 telecom -> glass: { class: material-edge }
@@ -225,6 +239,7 @@ glass_photomask-substrates.class: capability
 ceramics_thermal-insulation.class: external
 chemistry.class: external
 chemistry_acids.class: external
+chemistry_electrolysis.class: external
 chemistry_potash.class: external
 chemistry_refractories.class: external
 chemistry_solvay.class: external
@@ -234,6 +249,7 @@ energy.class: external
 energy_electric-furnaces.class: external
 energy_fuels.class: external
 energy_photovoltaics.class: external
+energy_solar-thermal_collector.class: external
 gas-handling_basic.class: external
 machine-tools.class: external
 measurement_thermostat-fluid.class: external
@@ -245,6 +261,7 @@ photolithography_resists-masks.class: external
 polymers_composites.class: external
 silicon.class: external
 silicon_crystal-growth.class: external
+silicon_wafering.class: external
 telecom.class: external
 telecom_radio.class: external
 vacuum_chambers.class: external

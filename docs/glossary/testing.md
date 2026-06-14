@@ -19,10 +19,10 @@ For semiconductor devices, testing progresses from wafer-level parametric tests 
 ## Related Terms
 
 - [Process](./process.md) — the manufacturing sequence being tested
-- [Applications](./applications.md) — end uses that define test requirements
+- Applications — end uses that define test requirements
 - [Fine Grinding](./fine-grinding.md) — precision surfacing verified by optical testing
 - [Annealing](./annealing.md) — thermal treatment whose results require testing
-- [Result](./result.md) — the measured outcome of a test
+- Result — the measured outcome of a test
 
 ## Appears In
 

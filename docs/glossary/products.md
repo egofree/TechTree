@@ -19,7 +19,7 @@ Sericulture produces multiple product grades: reeled silk (continuous filament f
 ## Related Terms
 
 - [Processing](./processing.md) — the methods that produce these products
-- [Applications](./applications.md) — how products are used in downstream processes
+- Applications — how products are used in downstream processes
 - [Properties](./properties.md) — material characteristics that determine product suitability
 
 ## Appears In

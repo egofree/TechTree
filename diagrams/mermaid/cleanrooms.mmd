@@ -22,6 +22,7 @@ graph TD
     measurement("Measurement & Instrumentation")
     metals("Metals")
     photolithography("Photolithography & IC Fabrication")
+    polymers_rubber_semiconductor-apps("Elastomers in Semiconductor Equipment")
 
     %% ==================== EDGES ====================
     cleanrooms_contamination-control -.-> cleanrooms_hepa-ulpa-filtration
@@ -34,6 +35,7 @@ graph TD
     cleanrooms --> metals
     construction_industrial-buildings -.-> cleanrooms_facility-design
     photolithography -.-> cleanrooms
+    polymers_rubber_semiconductor-apps -.-> cleanrooms_contamination-control
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -61,4 +63,5 @@ graph TD
     class measurement external
     class metals external
     class photolithography external
+    class polymers_rubber_semiconductor-apps external
     class EdgeLegend,MatNote,ToolNote legend

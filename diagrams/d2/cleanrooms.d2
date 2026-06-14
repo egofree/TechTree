@@ -119,6 +119,9 @@ metals: Metals {
 photolithography: "Photolithography & IC Fabrication" {
   shape: rectangle
 }
+polymers_rubber_semiconductor-apps: Elastomers in Semiconductor Equipment {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 cleanrooms_contamination-control -> cleanrooms_hepa-ulpa-filtration: { class: tool-edge }
@@ -131,6 +134,7 @@ cleanrooms -> measurement: { class: tool-edge }
 cleanrooms -> metals: { class: material-edge }
 construction_industrial-buildings -> cleanrooms_facility-design: { class: tool-edge }
 photolithography -> cleanrooms: { class: tool-edge }
+polymers_rubber_semiconductor-apps -> cleanrooms_contamination-control: { class: tool-edge }
 
 # ==================== STYLING ====================
 cleanrooms.class: domain
@@ -145,6 +149,7 @@ glass.class: external
 measurement.class: external
 metals.class: external
 photolithography.class: external
+polymers_rubber_semiconductor-apps.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

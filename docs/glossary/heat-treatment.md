@@ -9,7 +9,7 @@ Non-ferrous metals also benefit from heat treatment: aluminum alloys can be solu
 ## See Also
 
 - [Tempering](./tempering.md)
-- [Composition](./composition.md)
+- Composition
 
 ## Appears In
 

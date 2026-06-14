@@ -18,9 +18,9 @@ For plating, surface preparation follows the same degrease-pickle-activate seque
 
 ## Related Terms
 
-- [Disadvantages](./disadvantages.md) — what happens without proper preparation
-- [Advantages](./advantages.md) — benefits of thorough preparation
-- [Principle](./principle.md) — principles behind surface preparation
+- Disadvantages — what happens without proper preparation
+- Advantages — benefits of thorough preparation
+- Principle — principles behind surface preparation
 
 ## Appears In
 

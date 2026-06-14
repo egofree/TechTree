@@ -20,7 +20,7 @@ For vacuum use, internal surfaces are electropolished, cleaned with acetone then
 
 ## Related Terms
 
-- [Applications](./applications.md) — stainless steel applications across domains
+- Applications — stainless steel applications across domains
 - [Stainless Steel 304L/316L](./stainless-steel-304l-316l.md) — specific grade details
 
 ## Appears In

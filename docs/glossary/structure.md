@@ -21,7 +21,7 @@ Semiconductor device structures: the MOSFET has a gate electrode separated from 
 - [Construction](./construction.md) — building structures
 - [Performance](./performance.md) — how structure affects performance
 - [Scaling](./scaling.md) — structural changes at different scales
-- [Advantages](./advantages.md) — advantages of specific structures
+- Advantages — advantages of specific structures
 
 ## Appears In
 

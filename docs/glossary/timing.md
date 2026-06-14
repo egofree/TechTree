@@ -20,8 +20,8 @@ In internal combustion engines, ignition timing (5-40° before top dead center) 
 
 - [Construction](./construction.md) — physical design affecting timing characteristics
 - [Method](./method.md) — timing-dependent processing procedures
-- [Advantages](./advantages.md) — benefits of precise timing control
-- [Limitations](./limitations.md) — timing constraints on system performance
+- Advantages — benefits of precise timing control
+- Limitations — timing constraints on system performance
 - [Range](./range.md) — operating timing specifications
 
 ## Appears In

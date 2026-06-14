@@ -14,7 +14,6 @@ graph TD
     optics["Optics"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
-    gas-handling_vacuum("Vacuum Technology")
     glass_advanced("Advanced Glass Production")
     machine-tools("Machine Tools Bootstrap")
     measurement_optical-instruments("Optical Measurement Instruments")
@@ -32,7 +31,6 @@ graph TD
     measurement_optical-instruments -.-> optics_inspection
     measurement_precision-metrology -.-> optics_precision-instruments
     measurement_thermostat-advanced -.-> optics
-    optics_inspection_optical-coatings -.-> gas-handling_vacuum
     optics_inspection_optical-coatings -.-> vacuum_pumps
     optics_inspection --> glass_advanced
     optics -.-> machine-tools
@@ -58,7 +56,6 @@ graph TD
     class optics_inspection capability
     class optics_inspection_optical-coatings process
     class optics_precision-instruments capability
-    class gas-handling_vacuum external
     class glass_advanced external
     class machine-tools external
     class measurement_optical-instruments external

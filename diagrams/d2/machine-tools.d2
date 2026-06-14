@@ -89,6 +89,7 @@ machine-tools_internal: "Machine Tools Bootstrap — Internal Structure" {
   machine-tools_abrasives: "Abrasives & Cutting Tools"
   machine-tools_bearings-abrasives: "Bearings, Abrasives & Cutting Tools"
   machine-tools_bearings: Bearings
+  machine-tools_cam: "Computer-Aided Manufacturing (CAM)"
   machine-tools_edm-cnc: "EDM, CNC & Precision Grinding"
   machine-tools_fasteners: "Screw Cutting & Fastener Standardization"
   machine-tools_forming: Metal Forming
@@ -137,6 +138,9 @@ chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
 chemistry_packaging-testing: "Analytical Testing & Pharmaceutical Packaging" {
   shape: rectangle
 }
+computing_electronic: Electronic Computing {
+  shape: rectangle
+}
 computing_mechanical: Mechanical Calculation {
   shape: rectangle
 }
@@ -144,6 +148,9 @@ construction: "Construction & Structural Engineering" {
   shape: rectangle
 }
 electronics: Electronics {
+  shape: rectangle
+}
+energy_biomass-energy_gasifier: Biomass Gasifier {
   shape: rectangle
 }
 energy_cooling: "Cooling Systems & Refrigeration" {
@@ -165,6 +172,9 @@ energy_hydraulics: Hydraulic Power {
   shape: rectangle
 }
 energy_steam-power: Steam Power {
+  shape: rectangle
+}
+energy_steam-power_steam-engine: "Steam Engine (Reciprocating)" {
   shape: rectangle
 }
 energy_steam-power_steam-turbines: Steam Turbines {
@@ -257,6 +267,15 @@ silicon: Silicon {
 textiles: "Textiles, Fiber & Cordage" {
   shape: rectangle
 }
+textiles_spinning-frame_mule: Spinning Mule {
+  shape: rectangle
+}
+textiles_spinning-frame_ring: Ring Spinning Frame {
+  shape: rectangle
+}
+textiles_spinning-frame_water: Water Frame {
+  shape: rectangle
+}
 transport: "Transportation & Logistics" {
   shape: rectangle
 }
@@ -274,6 +293,7 @@ vacuum_pumps: Vacuum Pumps {
 machine-tools_abrasives -> machine-tools_iterative-bootstrap: { class: tool-edge }
 machine-tools_bearings-abrasives -> machine-tools_iterative-bootstrap: { class: tool-edge }
 machine-tools_bearings -> machine-tools_iterative-bootstrap: { class: tool-edge }
+machine-tools_cam -> machine-tools_edm-cnc: { class: tool-edge }
 machine-tools_edm-cnc -> machine-tools_machining: { class: tool-edge }
 machine-tools_fasteners -> machine-tools_machining: { class: tool-edge }
 machine-tools_joining_diffusion-bonding -> machine-tools_joining: { class: tool-edge }
@@ -302,16 +322,19 @@ chemistry_packaging-testing -> machine-tools: { class: tool-edge }
 computing_mechanical -> machine-tools: { class: tool-edge }
 construction -> machine-tools: { class: tool-edge }
 electronics -> machine-tools: { class: tool-edge }
+energy_biomass-energy_gasifier -> machine-tools_joining: { class: tool-edge }
 energy_cooling -> machine-tools: { class: tool-edge }
 energy_electric-furnaces -> machine-tools: { class: tool-edge }
 energy_gravity_water-turbines -> machine-tools_machining: { class: tool-edge }
 energy_hydraulics -> machine-tools_hydraulic-systems: { class: tool-edge }
+energy_steam-power_steam-engine -> machine-tools_machining: { class: tool-edge }
 energy_steam-power_steam-turbines -> machine-tools_machining: { class: tool-edge }
 energy_steam-power -> machine-tools_joining: { class: tool-edge }
 energy_steam-power -> machine-tools: { class: tool-edge }
 energy_stirling-engine -> machine-tools_machining: { class: tool-edge }
 glass -> machine-tools: { class: tool-edge }
 knowledge_printing -> machine-tools_machining: { class: tool-edge }
+machine-tools_cam -> computing_electronic: { class: tool-edge }
 machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
 machine-tools_fasteners -> metals_iron-steel: { class: material-edge }
 machine-tools_forming -> animals_animal-materials: { class: material-edge }
@@ -361,6 +384,9 @@ precision-motion_nanometer-positioning -> machine-tools_edm-cnc: { class: tool-e
 precision-motion_wafer-stages -> machine-tools_edm-cnc: { class: tool-edge }
 precision-motion -> machine-tools: { class: tool-edge }
 silicon -> machine-tools: { class: tool-edge }
+textiles_spinning-frame_mule -> machine-tools_machining: { class: tool-edge }
+textiles_spinning-frame_ring -> machine-tools_machining: { class: tool-edge }
+textiles_spinning-frame_water -> machine-tools_machining: { class: tool-edge }
 transport_aviation -> machine-tools: { class: tool-edge }
 transport -> machine-tools: { class: tool-edge }
 vacuum_chambers -> machine-tools_joining_electron-beam: { class: tool-edge }
@@ -373,6 +399,7 @@ machine-tools.class: domain
 machine-tools_abrasives.class: critical
 machine-tools_bearings-abrasives.class: capability
 machine-tools_bearings.class: critical
+machine-tools_cam.class: capability
 machine-tools_edm-cnc.class: capability
 machine-tools_fasteners.class: capability
 machine-tools_forming.class: capability
@@ -401,9 +428,11 @@ chemistry_air-separation.class: external
 chemistry_flux.class: external
 chemistry_lubricants.class: external
 chemistry_packaging-testing.class: external
+computing_electronic.class: external
 computing_mechanical.class: external
 construction.class: external
 electronics.class: external
+energy_biomass-energy_gasifier.class: external
 energy_cooling.class: external
 energy_electric-furnaces.class: external
 energy_electricity.class: external
@@ -411,6 +440,7 @@ energy_fuels.class: external
 energy_gravity_water-turbines.class: external
 energy_hydraulics.class: external
 energy_steam-power.class: external
+energy_steam-power_steam-engine.class: external
 energy_steam-power_steam-turbines.class: external
 energy_stirling-engine.class: external
 foundations_carpentry.class: external
@@ -441,6 +471,9 @@ precision-motion_nanometer-positioning.class: external
 precision-motion_wafer-stages.class: external
 silicon.class: external
 textiles.class: external
+textiles_spinning-frame_mule.class: external
+textiles_spinning-frame_ring.class: external
+textiles_spinning-frame_water.class: external
 transport.class: external
 transport_aviation.class: external
 vacuum_chambers.class: external

@@ -38,9 +38,9 @@ graph TD
     energy_photovoltaics("Photovoltaic Solar Power")
     gas-handling("Gas Handling")
     gas-handling_basic("Basic Gas Handling")
-    gas-handling_vacuum("Vacuum Technology")
     glass("Glass")
     glass_advanced("Advanced Glass Production")
+    glass_advanced_glassblowing("Glassblowing and Scientific Apparatus")
     machine-tools("Machine Tools Bootstrap")
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
@@ -75,7 +75,6 @@ graph TD
     photolithography_fab-processes --> silicon_wafering
     photolithography --> silicon
     silicon_basic-devices --> chemistry_acids
-    silicon_basic-devices -.-> gas-handling_vacuum
     silicon_basic-devices --> metals_aluminum_semiconductor-grade
     silicon_basic-devices -.-> vacuum_pumps
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
@@ -96,6 +95,7 @@ graph TD
     silicon_purification -.-> gas-handling_basic
     silicon_purification -.-> vacuum
     silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
+    silicon_wafering -.-> glass_advanced_glassblowing
     silicon -.-> ceramics_advanced-ceramics
     silicon --> chemistry
     silicon --> energy
@@ -150,9 +150,9 @@ graph TD
     class energy_photovoltaics external
     class gas-handling external
     class gas-handling_basic external
-    class gas-handling_vacuum external
     class glass external
     class glass_advanced external
+    class glass_advanced_glassblowing external
     class machine-tools external
     class measurement_precision-metrology external
     class measurement_temperature-pressure external

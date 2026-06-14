@@ -86,6 +86,7 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 animals_internal: "Animals & Animal Husbandry — Internal Structure" {
+  animals_animal-husbandry: Animal Husbandry
   animals_animal-materials: Animal-Derived Materials Processing
   animals_aquaculture: "Aquaculture & Fisheries"
   animals_beekeeping: "Apiculture (Beekeeping)"
@@ -127,6 +128,9 @@ agriculture_soil-management: "Soil Management & Composting" {
   shape: rectangle
 }
 ceramics_lime: Lime Production {
+  shape: rectangle
+}
+chemistry_explosives: Explosives and Propellants {
   shape: rectangle
 }
 chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
@@ -179,6 +183,8 @@ transport_roads: "Road & Bridge Construction" {
 }
 
 # ==================== EDGES ====================
+animals_animal-husbandry -> animals_domestication: { class: material-edge }
+animals_animal-materials -> animals_animal-husbandry: { class: material-edge }
 animals_animal-materials -> animals_cattle: { class: material-edge }
 animals_animal-materials -> animals_domestication: { class: material-edge }
 animals_animal-materials -> animals_sheep: { class: material-edge }
@@ -188,6 +194,7 @@ animals_camelids -> animals: { class: material-edge }
 animals_cattle -> animals_domestication: { class: tool-edge }
 animals_cattle -> animals: { class: material-edge }
 animals_domestication -> animals: { class: tool-edge }
+animals_draft-power -> animals_animal-husbandry: { class: tool-edge }
 animals_draft-power -> animals_cattle: { class: material-edge }
 animals_draft-power -> animals_domestication: { class: tool-edge }
 animals_draft-power -> animals_equines: { class: material-edge }
@@ -196,6 +203,7 @@ animals_equines -> animals: { class: material-edge }
 animals_goats -> animals_domestication: { class: tool-edge }
 animals_goats -> animals: { class: material-edge }
 animals_insect-farming -> animals_domestication: { class: tool-edge }
+animals_insect-farming -> animals_insect-farming: { class: material-edge }
 animals_pest-management -> animals_domestication: { class: tool-edge }
 animals_pigs -> animals_domestication: { class: tool-edge }
 animals_pigs -> animals: { class: material-edge }
@@ -214,6 +222,12 @@ animals_sheep -> animals_domestication: { class: tool-edge }
 animals_sheep -> animals: { class: material-edge }
 agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
 agriculture_selective-breeding -> animals_domestication: { class: material-edge }
+agriculture_soil-management -> animals_goats: { class: material-edge }
+agriculture_soil-management -> animals_pigs: { class: material-edge }
+agriculture_soil-management -> animals_poultry_chickens: { class: material-edge }
+agriculture_soil-management -> animals_poultry_coturnix: { class: material-edge }
+agriculture_soil-management -> animals_poultry_pigeons: { class: material-edge }
+agriculture_soil-management -> animals_poultry_turkeys: { class: material-edge }
 agriculture_soil-management -> animals: { class: material-edge }
 animals_animal-materials -> ceramics_lime: { class: tool-edge }
 animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
@@ -222,8 +236,10 @@ animals_beekeeping -> foundations_tools-basic: { class: tool-edge }
 animals_draft-power -> foundations_tools-basic: { class: tool-edge }
 animals_poultry -> foundations_food-agriculture: { class: material-edge }
 animals -> foundations: { class: tool-edge }
+chemistry_explosives -> animals_poultry_pigeons: { class: material-edge }
 chemistry_lubricants-natural -> animals_animal-materials: { class: material-edge }
 chemistry_lubricants -> animals_animal-materials: { class: material-edge }
+foundations_food-agriculture -> animals_animal-husbandry: { class: material-edge }
 foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
 foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
@@ -245,6 +261,7 @@ transport_roads -> animals_draft-power: { class: tool-edge }
 
 # ==================== STYLING ====================
 animals.class: domain
+animals_animal-husbandry.class: critical
 animals_animal-materials.class: capability
 animals_aquaculture.class: capability
 animals_beekeeping.class: earlyWin
@@ -274,6 +291,7 @@ agriculture_aquaponics.class: external
 agriculture_selective-breeding.class: external
 agriculture_soil-management.class: external
 ceramics_lime.class: external
+chemistry_explosives.class: external
 chemistry_lubricants.class: external
 chemistry_lubricants-natural.class: external
 foundations.class: external

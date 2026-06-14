@@ -21,7 +21,7 @@ In magnesium production, dolomite is calcined and then mixed with ferrosilicon a
 ## Related Terms
 
 - [Contamination](./contamination.md) — hydration as a form of degradation
-- [Efficiency](./efficiency.md) — refractory life affects process efficiency
+- Efficiency — refractory life affects process efficiency
 
 ## Appears In
 

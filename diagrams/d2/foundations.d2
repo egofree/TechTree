@@ -100,7 +100,13 @@ foundations: Foundations
 agriculture_soil-management: "Soil Management & Composting" {
   shape: rectangle
 }
+agriculture_soil-management_vermiculture: Vermiculture {
+  shape: rectangle
+}
 animals: "Animals & Animal Husbandry" {
+  shape: rectangle
+}
+animals_animal-husbandry: Animal Husbandry {
   shape: rectangle
 }
 animals_aquaculture: "Aquaculture & Fisheries" {
@@ -236,6 +242,7 @@ water_procurement: Water Procurement {
 # ==================== EDGES ====================
 foundations_carpentry -> foundations: { class: tool-edge }
 foundations_food-agriculture -> foundations_tools-basic: { class: tool-edge }
+agriculture_soil-management_vermiculture -> foundations_food-agriculture: { class: tool-edge }
 animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
 animals_beekeeping -> foundations_fire: { class: tool-edge }
 animals_beekeeping -> foundations_tools-basic: { class: tool-edge }
@@ -262,6 +269,7 @@ energy_fuels -> foundations_fire: { class: tool-edge }
 food-processing_oil-processing -> foundations_food-agriculture: { class: material-edge }
 food-processing -> foundations_food-agriculture: { class: material-edge }
 foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
+foundations_food-agriculture -> animals_animal-husbandry: { class: material-edge }
 foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
 foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
@@ -296,7 +304,9 @@ foundations_food-agriculture.class: capability
 foundations_sawmilling.class: capability
 foundations_tools-basic.class: capability
 agriculture_soil-management.class: external
+agriculture_soil-management_vermiculture.class: external
 animals.class: external
+animals_animal-husbandry.class: external
 animals_aquaculture.class: external
 animals_beekeeping.class: external
 animals_draft-power.class: external

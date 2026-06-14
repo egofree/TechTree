@@ -22,7 +22,7 @@ The fundamental lubrication regime matters: boundary lubrication (thin molecular
 
 - [Operation](./operation.md) — lubrication is a routine part of equipment operation
 - [Noise](./noise.md) — poor lubrication causes mechanical noise and wear
-- [Materials](./materials.md) — lubricant selection depends on material compatibility
+- Materials — lubricant selection depends on material compatibility
 
 ## Appears In
 

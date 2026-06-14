@@ -20,8 +20,8 @@ In semiconductor manufacturing, calibration extends to temperature sensors (ther
 
 - [Accuracy](./accuracy.md) — the property that calibration verifies and maintains
 - [Construction](./construction.md) — building calibration standards and reference artifacts
-- [Materials](./materials.md) — reference materials used in calibration procedures
-- [Principle](./principle.md) — the theoretical basis for calibration methods
+- Materials — reference materials used in calibration procedures
+- Principle — the theoretical basis for calibration methods
 
 ## Appears In
 

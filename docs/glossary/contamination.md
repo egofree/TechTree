@@ -18,7 +18,7 @@ In pharmaceutical work, contamination sources include unclean equipment, environ
 
 ## Related Terms
 
-- [Efficiency](./efficiency.md) — contamination reduces process efficiency
+- Efficiency — contamination reduces process efficiency
 - [Dust Inhalation](./dust-inhalation.md) — particulate contamination as health hazard
 
 ## Appears In

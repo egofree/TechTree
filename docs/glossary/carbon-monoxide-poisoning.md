@@ -20,7 +20,7 @@ Prevention is straightforward: ventilation. Every enclosed space with any combus
 
 - [Carbon Monoxide](./carbon-monoxide.md) — the chemical properties and industrial sources of CO
 - [Process](./process.md) — processes that generate CO as a byproduct
-- [Materials](./materials.md) — fuels that produce CO during combustion
+- Materials — fuels that produce CO during combustion
 
 ## Appears In
 

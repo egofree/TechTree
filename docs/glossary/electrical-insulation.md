@@ -22,8 +22,8 @@ Modern insulation (from the 1950s onward) uses polyimide film (Kapton), polyeste
 
 ## Related Terms
 
-- [Electrical Hazards](./electrical-hazards.md) — insulation failures create hazards
-- [Efficiency](./efficiency.md) — good insulation reduces electrical losses
+- Electrical Hazards — insulation failures create hazards
+- Efficiency — good insulation reduces electrical losses
 
 ## Appears In
 

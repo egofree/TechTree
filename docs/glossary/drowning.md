@@ -19,7 +19,7 @@ Safety protocols apply across all water installations: never work alone near dee
 ## Related Terms
 
 - [Construction](./construction.md) — water infrastructure construction creates drowning hazards
-- [Efficiency](./efficiency.md) — safety measures complement operational efficiency
+- Efficiency — safety measures complement operational efficiency
 
 ## Appears In
 

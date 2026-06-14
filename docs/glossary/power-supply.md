@@ -20,7 +20,7 @@ For smaller-scale applications, DC power supplies for battery charging must prov
 
 - [Energy Consumption](./energy-consumption.md) — the power demand that the supply must meet
 - [Requirements](./requirements.md) — specifications the power supply must satisfy
-- [Production Rates](./production-rates.md) — throughput that depends on continuous power availability
+- Production Rates — throughput that depends on continuous power availability
 
 ## Appears In
 

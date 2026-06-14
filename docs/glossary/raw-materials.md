@@ -20,7 +20,7 @@ For silicon production, quartz purity is critical: iron and aluminum impurities 
 
 ## Related Terms
 
-- [Products](./products.md) — what raw materials become after processing
+- Products — what raw materials become after processing
 - [Processing](./processing.md) — transformation of raw materials
 - [Requirements](./requirements.md) — specifications that raw materials must meet
 

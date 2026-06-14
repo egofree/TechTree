@@ -20,7 +20,7 @@ Grinding energy follows Bond's law: the work required is proportional to the squ
 
 - [Manufacture](./manufacture.md) — milling is a manufacturing process step
 - [Melting](./melting.md) — some materials are melted after milling to homogenize
-- [Materials](./materials.md) — milling transforms raw materials to processable form
+- Materials — milling transforms raw materials to processable form
 
 ## Appears In
 

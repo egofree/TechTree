@@ -20,7 +20,7 @@ For safety documentation, purpose also means identifying why specific precaution
 
 - [Procedure](./procedure.md) — the steps that fulfill a purpose
 - [Requirements](./requirements.md) — specifications that define whether purpose is achieved
-- [Products](./products.md) — the tangible outputs that realize the purpose
+- Products — the tangible outputs that realize the purpose
 
 ## Appears In
 

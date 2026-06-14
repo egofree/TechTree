@@ -90,6 +90,7 @@ polymers_internal: "Polymers & Composites — Internal Structure" {
   polymers_rubber_gutta-percha: Gutta-Percha Processing
   polymers_rubber: Rubber Production
   polymers_rubber_natural: "Natural Rubber & Vulcanization"
+  polymers_rubber_semiconductor-apps: Elastomers in Semiconductor Equipment
   polymers_rubber_shellac: Shellac Production
   polymers_rubber_synthetic: Synthetic Rubbers
   polymers_rubber_vulcanization: "Vulcanization & Hardness"
@@ -108,10 +109,16 @@ chemistry: Chemistry {
 chemistry_distillation: Distillation {
   shape: rectangle
 }
+chemistry_electrolysis_sem-tech: Semiconductor-Grade Electrolysis {
+  shape: rectangle
+}
 chemistry_packaging-testing: "Analytical Testing & Pharmaceutical Packaging" {
   shape: rectangle
 }
 chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
+  shape: rectangle
+}
+cleanrooms_contamination-control: Contamination Control {
   shape: rectangle
 }
 computing_data-storage: Data Storage Systems {
@@ -172,9 +179,12 @@ telecom_submarine-cables: Submarine Cable Systems {
 # ==================== EDGES ====================
 polymers_composites -> polymers_thermosets: { class: material-edge }
 polymers_rubber_gutta-percha -> polymers_rubber: { class: tool-edge }
+polymers_rubber_natural -> polymers_rubber_natural: { class: material-edge }
 polymers_rubber_natural -> polymers_rubber: { class: tool-edge }
+polymers_rubber_semiconductor-apps -> polymers_rubber: { class: tool-edge }
 polymers_rubber_shellac -> polymers_rubber: { class: tool-edge }
 polymers_rubber -> polymers_rubber_vulcanization: { class: tool-edge }
+polymers_thermoplastics -> polymers_thermoplastics: { class: material-edge }
 chemistry_packaging-testing -> polymers_thermosets: { class: material-edge }
 computing_data-storage -> polymers_thermoplastics: { class: material-edge }
 ehs_ppe -> polymers: { class: tool-edge }
@@ -191,6 +201,8 @@ polymers_composites -> glass_fibers: { class: material-edge }
 polymers_composites -> machine-tools: { class: tool-edge }
 polymers_rubber_natural -> chemistry_distillation: { class: material-edge }
 polymers_rubber_natural -> foundations_fire: { class: tool-edge }
+polymers_rubber_semiconductor-apps -> chemistry_electrolysis_sem-tech: { class: tool-edge }
+polymers_rubber_semiconductor-apps -> cleanrooms_contamination-control: { class: tool-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
 polymers_rubber_synthetic -> chemistry_petroleum-alternatives: { class: material-edge }
 polymers_rubber_synthetic -> chemistry: { class: material-edge }
@@ -211,6 +223,7 @@ polymers_composites.class: capability
 polymers_rubber_gutta-percha.class: process
 polymers_rubber.class: capability
 polymers_rubber_natural.class: process
+polymers_rubber_semiconductor-apps.class: process
 polymers_rubber_shellac.class: process
 polymers_rubber_synthetic.class: process
 polymers_rubber_vulcanization.class: process
@@ -219,8 +232,10 @@ polymers_thermoplastics.class: capability
 polymers_thermosets.class: capability
 chemistry.class: external
 chemistry_distillation.class: external
+chemistry_electrolysis_sem-tech.class: external
 chemistry_packaging-testing.class: external
 chemistry_petroleum-alternatives.class: external
+cleanrooms_contamination-control.class: external
 computing_data-storage.class: external
 ehs_ppe.class: external
 electronics_assembly.class: external

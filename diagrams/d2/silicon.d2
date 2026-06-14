@@ -157,13 +157,13 @@ gas-handling: Gas Handling {
 gas-handling_basic: Basic Gas Handling {
   shape: rectangle
 }
-gas-handling_vacuum: Vacuum Technology {
-  shape: rectangle
-}
 glass: Glass {
   shape: rectangle
 }
 glass_advanced: Advanced Glass Production {
+  shape: rectangle
+}
+glass_advanced_glassblowing: Glassblowing and Scientific Apparatus {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -232,7 +232,6 @@ measurement_thermostat-advanced -> silicon: { class: tool-edge }
 photolithography_fab-processes -> silicon_wafering: { class: material-edge }
 photolithography -> silicon: { class: material-edge }
 silicon_basic-devices -> chemistry_acids: { class: material-edge }
-silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
 silicon_basic-devices -> metals_aluminum_semiconductor-grade: { class: material-edge }
 silicon_basic-devices -> vacuum_pumps: { class: tool-edge }
 silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
@@ -253,6 +252,7 @@ silicon_purification -> energy_electricity: { class: tool-edge }
 silicon_purification -> gas-handling_basic: { class: tool-edge }
 silicon_purification -> vacuum: { class: tool-edge }
 silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
+silicon_wafering -> glass_advanced_glassblowing: { class: tool-edge }
 silicon -> ceramics_advanced-ceramics: { class: tool-edge }
 silicon -> chemistry: { class: material-edge }
 silicon -> energy: { class: material-edge }
@@ -294,9 +294,9 @@ energy_electricity.class: external
 energy_photovoltaics.class: external
 gas-handling.class: external
 gas-handling_basic.class: external
-gas-handling_vacuum.class: external
 glass.class: external
 glass_advanced.class: external
+glass_advanced_glassblowing.class: external
 machine-tools.class: external
 measurement_precision-metrology.class: external
 measurement_temperature-pressure.class: external

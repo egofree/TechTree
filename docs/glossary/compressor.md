@@ -20,9 +20,9 @@ For air separation, 3-4 stage compressors with inter-stage cooling achieve 5-10 
 
 ## Related Terms
 
-- [Limitations](./limitations.md) — compressor efficiency limits and failure modes
-- [Advantages](./advantages.md) — benefits of different compressor types
-- [Principle](./principle.md) — the thermodynamic principles governing compression
+- Limitations — compressor efficiency limits and failure modes
+- Advantages — benefits of different compressor types
+- Principle — the thermodynamic principles governing compression
 - [Construction](./construction.md) — building compressor components
 
 ## Appears In

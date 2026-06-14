@@ -18,10 +18,10 @@ In semiconductor processing, chemistry becomes precise to the atomic level. Ther
 
 ## Related Terms
 
-- [Applications](./applications.md) — practical uses of chemical processes
+- Applications — practical uses of chemical processes
 - [Construction](./construction.md) — building chemical reactors and apparatus
 - [Properties](./properties.md) — chemical and physical properties of reagents and products
-- [Principle](./principle.md) — the theoretical basis for chemical transformations
+- Principle — the theoretical basis for chemical transformations
 
 ## Appears In
 

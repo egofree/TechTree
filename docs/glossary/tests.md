@@ -21,7 +21,7 @@ Yield maps plot pass/fail results across the wafer surface, revealing spatial pa
 - [Fuel](./fuel.md) — energy source for thermal testing
 - [Sand](./sand.md) — raw material tested for purity
 - [Construction](./construction.md) — test structures built into manufacturing
-- [Advantages](./advantages.md) — benefits of statistical testing approaches
+- Advantages — benefits of statistical testing approaches
 - [Pouring](./pouring.md) — casting operation validated by testing
 
 ## Appears In

@@ -22,7 +22,7 @@ Sanitation system design must ensure adequate flow velocities (>0.6 m/s in sewer
 
 - [Configuration](./configuration.md) — design determines configuration choices
 - [Construction](./construction.md) — designs must be buildable
-- [Dimensions](./dimensions.md) — design specifies dimensional requirements
+- Dimensions — design specifies dimensional requirements
 
 ## Appears In
 

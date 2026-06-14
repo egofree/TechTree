@@ -58,34 +58,7 @@ check_file_completeness() {
 # --- Check 2: No broken internal links ---
 
 check_no_broken_links() {
-    local broken
-    broken=$(while IFS= read -r htmlfile; do
-        [[ -z "$htmlfile" ]] && continue
-        local filedir
-        filedir="$(dirname "$htmlfile")"
-
-        while IFS= read -r href; do
-            [[ -z "$href" ]] && continue
-            [[ "$href" =~ ^(mailto:|tel:|javascript:) ]] && continue
-
-            local target
-            target="$(cd "$filedir" 2>/dev/null && realpath --relative-to="$SITE_DIR" "$href" 2>/dev/null)" || continue
-            local full_target="$SITE_DIR/$target"
-
-            if [[ ! -e "$full_target" ]]; then
-                echo "BROKEN:${htmlfile#$SITE_DIR/}:$href"
-            fi
-        done < <(grep -oP 'href="[^"#]*"' "$htmlfile" 2>/dev/null | sed 's/^href="//;s/"$//')
-    done < <(find "$SITE_DIR" -name "*.html" -type f))
-
-    local broken_count=0
-    if [[ -n "$broken" ]]; then
-        broken_count=$(echo "$broken" | wc -l)
-        echo "$broken" | while IFS=: read -r _ file href; do
-            echo "    Broken link in $file: $href" >&2
-        done
-    fi
-    [[ "$broken_count" -eq 0 ]]
+    python3 "$SCRIPT_DIR/check-site-links.py" "$SITE_DIR" 2>&1
 }
 
 # --- Check 3: No external URLs ---

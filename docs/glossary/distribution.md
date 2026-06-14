@@ -20,7 +20,7 @@ In printing, type distribution refers to returning individual metal type charact
 
 ## Related Terms
 
-- [Efficiency](./efficiency.md) — distribution losses reduce system efficiency
+- Efficiency — distribution losses reduce system efficiency
 - [Contamination](./contamination.md) — particle distribution affects contamination levels
 
 ## Appears In

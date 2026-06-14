@@ -20,7 +20,7 @@ In glass production, wetting the batch materials before mixing suppresses dust. 
 
 - [Source](./source.md) — raw material sources that generate silica dust
 - [Process](./process.md) — processes involving silica
-- [Raw Materials](./raw-materials.md) — silica-containing raw materials
+- Raw Materials — silica-containing raw materials
 
 ## Appears In
 

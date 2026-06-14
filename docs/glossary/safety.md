@@ -17,9 +17,9 @@ The fundamental principle: every industrial process since the Bronze Age has inh
 ## Related Terms
 
 - [Construction](./construction.md) — safe building practices
-- [Advantages](./advantages.md) — benefits of safety-conscious design
-- [Applications](./applications.md) — safety equipment across domains
-- [Principle](./principle.md) — underlying safety principles
+- Advantages — benefits of safety-conscious design
+- Applications — safety equipment across domains
+- Principle — underlying safety principles
 
 ## Appears In
 

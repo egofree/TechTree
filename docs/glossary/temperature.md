@@ -17,10 +17,10 @@ Critical temperature thresholds in bootstrapping include: 100°C (water boiling,
 ## Related Terms
 
 - [Construction](./construction.md) — thermal design of furnaces and kilns
-- [Products](./products.md) — temperature-dependent material outputs
+- Products — temperature-dependent material outputs
 - [Purpose](./purpose.md) — why specific temperatures are targeted
-- [Limitations](./limitations.md) — temperature limits of available materials
-- [Principle](./principle.md) — thermodynamic basis of temperature-dependent reactions
+- Limitations — temperature limits of available materials
+- Principle — thermodynamic basis of temperature-dependent reactions
 
 ## Appears In
 

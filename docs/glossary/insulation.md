@@ -19,7 +19,7 @@ Thermal insulation performance is measured by thermal conductivity (k-value, W/m
 ## Related Terms
 
 - [Lining](./lining.md) — refractory lining provides thermal insulation in furnaces
-- [Materials](./materials.md) — insulation is a fundamental material category
+- Materials — insulation is a fundamental material category
 - [Operation](./operation.md) — insulation affects operating efficiency
 
 ## Appears In

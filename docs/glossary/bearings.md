@@ -18,7 +18,7 @@ Jeweled bearings (agate, synthetic ruby, or sapphire) are used in instruments wh
 
 ## Related Terms
 
-- [Applications](./applications.md) — specific uses of different bearing types
+- Applications — specific uses of different bearing types
 - [Construction](./construction.md) — how bearings are manufactured
 - [Compressor](./compressor.md) — bearings as critical components in compressor design
 

@@ -21,7 +21,7 @@ General mitigation principles apply across all systems: interlock doors to cut p
 ## Related Terms
 
 - [Electrical Insulation](./electrical-insulation.md) — insulation prevents electrical hazards
-- [Efficiency](./efficiency.md) — electrical losses create heat hazards
+- Efficiency — electrical losses create heat hazards
 
 ## Appears In
 

@@ -19,7 +19,7 @@ Prevention requires active ventilation (at minimum a high vent and a low vent fo
 ## Related Terms
 
 - [Carbon Monoxide Poisoning](./carbon-monoxide-poisoning.md) — the acute health effects of CO exposure
-- [Composition](./composition.md) — CO as a component of producer gas and furnace atmospheres
+- Composition — CO as a component of producer gas and furnace atmospheres
 - [Burns](./burns.md) — co-occurring hazard in high-temperature environments
 
 ## Appears In

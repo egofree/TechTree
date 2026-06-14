@@ -16,10 +16,10 @@ The principle extends across the tech tree: coal types (lignite through anthraci
 
 ## Related Terms
 
-- [Limitations](./limitations.md) — constraints that define type boundaries
+- Limitations — constraints that define type boundaries
 - [Construction](./construction.md) — how different types are manufactured
-- [Advantages](./advantages.md) — trade-offs between types
-- [Principle](./principle.md) — physical basis for type distinctions
+- Advantages — trade-offs between types
+- Principle — physical basis for type distinctions
 - [Function](./function.md) — what each type is designed to do
 
 ## Appears In

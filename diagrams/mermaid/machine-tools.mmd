@@ -8,6 +8,7 @@ graph TD
         machine-tools_abrasives["Abrasives & Cutting Tools"]
         machine-tools_bearings-abrasives["Bearings, Abrasives & Cutting Tools"]
         machine-tools_bearings["Bearings"]
+        machine-tools_cam["Computer-Aided Manufacturing (CAM)"]
         machine-tools_edm-cnc["EDM, CNC & Precision Grinding"]
         machine-tools_fasteners["Screw Cutting & Fastener Standardization"]
         machine-tools_forming["Metal Forming"]
@@ -42,9 +43,11 @@ graph TD
     chemistry_flux("Flux Production")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_packaging-testing("Analytical Testing & Pharmaceutical Packaging")
+    computing_electronic("Electronic Computing")
     computing_mechanical("Mechanical Calculation")
     construction("Construction & Structural Engineering")
     electronics("Electronics")
+    energy_biomass-energy_gasifier("Biomass Gasifier")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces("Electric Furnaces")
     energy_electricity("Electricity Generation & Distribution")
@@ -52,6 +55,7 @@ graph TD
     energy_gravity_water-turbines("Water Turbines")
     energy_hydraulics("Hydraulic Power")
     energy_steam-power("Steam Power")
+    energy_steam-power_steam-engine("Steam Engine (Reciprocating)")
     energy_steam-power_steam-turbines("Steam Turbines")
     energy_stirling-engine("Stirling Engine")
     foundations_carpentry("Basic Carpentry")
@@ -82,6 +86,9 @@ graph TD
     precision-motion_wafer-stages("Wafer Stages & Scanner Systems")
     silicon("Silicon")
     textiles("Textiles, Fiber & Cordage")
+    textiles_spinning-frame_mule("Spinning Mule")
+    textiles_spinning-frame_ring("Ring Spinning Frame")
+    textiles_spinning-frame_water("Water Frame")
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
     vacuum_chambers("Vacuum Chambers & Sealing")
@@ -91,6 +98,7 @@ graph TD
     machine-tools_abrasives -.-> machine-tools_iterative-bootstrap
     machine-tools_bearings-abrasives -.-> machine-tools_iterative-bootstrap
     machine-tools_bearings -.-> machine-tools_iterative-bootstrap
+    machine-tools_cam -.-> machine-tools_edm-cnc
     machine-tools_edm-cnc -.-> machine-tools_machining
     machine-tools_fasteners -.-> machine-tools_machining
     machine-tools_joining_diffusion-bonding -.-> machine-tools_joining
@@ -119,16 +127,19 @@ graph TD
     computing_mechanical -.-> machine-tools
     construction -.-> machine-tools
     electronics -.-> machine-tools
+    energy_biomass-energy_gasifier -.-> machine-tools_joining
     energy_cooling -.-> machine-tools
     energy_electric-furnaces -.-> machine-tools
     energy_gravity_water-turbines -.-> machine-tools_machining
     energy_hydraulics -.-> machine-tools_hydraulic-systems
+    energy_steam-power_steam-engine -.-> machine-tools_machining
     energy_steam-power_steam-turbines -.-> machine-tools_machining
     energy_steam-power -.-> machine-tools_joining
     energy_steam-power -.-> machine-tools
     energy_stirling-engine -.-> machine-tools_machining
     glass -.-> machine-tools
     knowledge_printing -.-> machine-tools_machining
+    machine-tools_cam -.-> computing_electronic
     machine-tools_edm-cnc -.-> energy_electricity
     machine-tools_fasteners --> metals_iron-steel
     machine-tools_forming --> animals_animal-materials
@@ -178,6 +189,9 @@ graph TD
     precision-motion_wafer-stages -.-> machine-tools_edm-cnc
     precision-motion -.-> machine-tools
     silicon -.-> machine-tools
+    textiles_spinning-frame_mule -.-> machine-tools_machining
+    textiles_spinning-frame_ring -.-> machine-tools_machining
+    textiles_spinning-frame_water -.-> machine-tools_machining
     transport_aviation -.-> machine-tools
     transport -.-> machine-tools
     vacuum_chambers -.-> machine-tools_joining_electron-beam
@@ -203,6 +217,7 @@ graph TD
     class machine-tools_abrasives critical
     class machine-tools_bearings-abrasives capability
     class machine-tools_bearings critical
+    class machine-tools_cam capability
     class machine-tools_edm-cnc capability
     class machine-tools_fasteners capability
     class machine-tools_forming capability
@@ -231,9 +246,11 @@ graph TD
     class chemistry_flux external
     class chemistry_lubricants external
     class chemistry_packaging-testing external
+    class computing_electronic external
     class computing_mechanical external
     class construction external
     class electronics external
+    class energy_biomass-energy_gasifier external
     class energy_cooling external
     class energy_electric-furnaces external
     class energy_electricity external
@@ -241,6 +258,7 @@ graph TD
     class energy_gravity_water-turbines external
     class energy_hydraulics external
     class energy_steam-power external
+    class energy_steam-power_steam-engine external
     class energy_steam-power_steam-turbines external
     class energy_stirling-engine external
     class foundations_carpentry external
@@ -271,6 +289,9 @@ graph TD
     class precision-motion_wafer-stages external
     class silicon external
     class textiles external
+    class textiles_spinning-frame_mule external
+    class textiles_spinning-frame_ring external
+    class textiles_spinning-frame_water external
     class transport external
     class transport_aviation external
     class vacuum_chambers external

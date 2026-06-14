@@ -23,8 +23,8 @@ Fuel sources progress from wood (universally available, low energy density) to c
 - [Process](./process.md) — processes that transform sourced materials
 - [Yield](./yield.md) — how much product from a given source
 - [Properties](./properties.md) — source material properties
-- [Result](./result.md) — products from source materials
-- [Applications](./applications.md) — uses of sourced materials
+- Result — products from source materials
+- Applications — uses of sourced materials
 
 ## Appears In
 

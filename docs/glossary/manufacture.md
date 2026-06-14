@@ -19,7 +19,7 @@ Black powder manufacture illustrates the general pattern: grind ingredients sepa
 ## Related Terms
 
 - [Manufacturing](./manufacture.md) — the broader production system encompassing manufacture
-- [Materials](./materials.md) — manufactured products are the output of material processing
+- Materials — manufactured products are the output of material processing
 - [Process](./process.md) — manufacture follows defined process steps
 
 ## Appears In

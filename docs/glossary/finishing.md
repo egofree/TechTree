@@ -10,7 +10,7 @@ Finishing operations often determine the perceived quality of a product even tho
 
 - [Finish](./finish.md)
 - [Process](./process.md)
-- [Applications](./applications.md)
+- Applications
 
 ## Appears In
 

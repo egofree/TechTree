@@ -21,9 +21,9 @@ The progression from basic solvent cleaning to RCA cleaning mirrors the tech tre
 ## Related Terms
 
 - [Construction](./construction.md) — building cleaning apparatus and facilities
-- [Principle](./principle.md) — the chemical principles behind solvent cleaning
-- [Applications](./applications.md) — when and where different cleaning protocols are used
-- [Limitations](./limitations.md) — what cleaning cannot remove and failure modes
+- Principle — the chemical principles behind solvent cleaning
+- Applications — when and where different cleaning protocols are used
+- Limitations — what cleaning cannot remove and failure modes
 
 ## Appears In
 

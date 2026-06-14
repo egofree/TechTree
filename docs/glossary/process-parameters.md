@@ -18,7 +18,7 @@ The interrelationship between parameters is critical: changing one often require
 
 ## Related Terms
 
-- [Principle](./principle.md) — the physical or chemical mechanism that the parameters control
+- Principle — the physical or chemical mechanism that the parameters control
 - [Procedure](./procedure.md) — the step sequence that sets process parameters
 - [Requirements](./requirements.md) — the specifications that process parameters must satisfy
 

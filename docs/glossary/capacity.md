@@ -21,9 +21,9 @@ Capacity planning requires understanding both peak and sustained throughput, der
 ## Related Terms
 
 - [Construction](./construction.md) — how capacity is built into system design
-- [Principle](./principle.md) — the operating theory that determines capacity limits
+- Principle — the operating theory that determines capacity limits
 - [Operation](./operation.md) — how to achieve rated capacity in practice
-- [Applications](./applications.md) — matching capacity to use-case requirements
+- Applications — matching capacity to use-case requirements
 
 ## Appears In
 

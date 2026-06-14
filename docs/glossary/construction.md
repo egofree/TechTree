@@ -19,7 +19,7 @@ The gap between a workable design and a buildable design is often the binding co
 ## Related Terms
 
 - [Design](./design.md) — construction follows design intent
-- [Dimensions](./dimensions.md) — construction must meet dimensional requirements
+- Dimensions — construction must meet dimensional requirements
 - [Materials](./crucible.md) — material selection governs construction approach
 
 ## Appears In

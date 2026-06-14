@@ -9,6 +9,7 @@ graph TD
         polymers_rubber_gutta-percha["Gutta-Percha Processing"]
         polymers_rubber["Rubber Production"]
         polymers_rubber_natural["Natural Rubber & Vulcanization"]
+        polymers_rubber_semiconductor-apps["Elastomers in Semiconductor Equipment"]
         polymers_rubber_shellac["Shellac Production"]
         polymers_rubber_synthetic["Synthetic Rubbers"]
         polymers_rubber_vulcanization["Vulcanization & Hardness"]
@@ -23,8 +24,10 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
     chemistry_distillation("Distillation")
+    chemistry_electrolysis_sem-tech("Semiconductor-Grade Electrolysis")
     chemistry_packaging-testing("Analytical Testing & Pharmaceutical Packaging")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    cleanrooms_contamination-control("Contamination Control")
     computing_data-storage("Data Storage Systems")
     ehs_ppe("Personal Protective Equipment")
     electronics_assembly("Electronics Assembly")
@@ -47,9 +50,12 @@ graph TD
     %% ==================== EDGES ====================
     polymers_composites --> polymers_thermosets
     polymers_rubber_gutta-percha -.-> polymers_rubber
+    polymers_rubber_natural --> polymers_rubber_natural
     polymers_rubber_natural -.-> polymers_rubber
+    polymers_rubber_semiconductor-apps -.-> polymers_rubber
     polymers_rubber_shellac -.-> polymers_rubber
     polymers_rubber -.-> polymers_rubber_vulcanization
+    polymers_thermoplastics --> polymers_thermoplastics
     chemistry_packaging-testing --> polymers_thermosets
     computing_data-storage --> polymers_thermoplastics
     ehs_ppe -.-> polymers
@@ -66,6 +72,8 @@ graph TD
     polymers_composites -.-> machine-tools
     polymers_rubber_natural --> chemistry_distillation
     polymers_rubber_natural -.-> foundations_fire
+    polymers_rubber_semiconductor-apps -.-> chemistry_electrolysis_sem-tech
+    polymers_rubber_semiconductor-apps -.-> cleanrooms_contamination-control
     polymers_rubber_shellac --> chemistry_distillation
     polymers_rubber_synthetic --> chemistry_petroleum-alternatives
     polymers_rubber_synthetic --> chemistry
@@ -99,6 +107,7 @@ graph TD
     class polymers_rubber_gutta-percha process
     class polymers_rubber capability
     class polymers_rubber_natural process
+    class polymers_rubber_semiconductor-apps process
     class polymers_rubber_shellac process
     class polymers_rubber_synthetic process
     class polymers_rubber_vulcanization process
@@ -107,8 +116,10 @@ graph TD
     class polymers_thermosets capability
     class chemistry external
     class chemistry_distillation external
+    class chemistry_electrolysis_sem-tech external
     class chemistry_packaging-testing external
     class chemistry_petroleum-alternatives external
+    class cleanrooms_contamination-control external
     class computing_data-storage external
     class ehs_ppe external
     class electronics_assembly external

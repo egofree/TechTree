@@ -6,7 +6,7 @@
 
 Long-distance communication systems spanning pre-electric visual signaling through electrical telegraph networks, telephone exchanges, submarine cables, and radio. The telecommunications domain addresses information transfer across distances impractical for couriers — from semaphore lines relaying military intelligence at 150 km/h to radio waves crossing oceans at light speed.
 
-**SIK Boundary with Transport**: The transport.telegraph node covers telegraph hardware (keys, sounders, batteries, pole-line construction). The telecom domain covers the network architecture, multiplexing, and broader communication systems that build on that hardware. Infrastructure overlap with transport is <25% — transport moves physical goods; telecom moves information. Railway block signaling is the notable intersection, documented via cross-references.
+The transport.telegraph node covers telegraph hardware (keys, sounders, batteries, pole-line construction). The telecom domain covers the network architecture, multiplexing, and broader communication systems that build on that hardware. Railway block signaling is the notable intersection, documented via cross-references.
 
 Capabilities in this domain:
 

@@ -9,15 +9,6 @@ Marine engineering covers the design, construction, propulsion, navigation, and 
 
 The earliest marine engineering — dugout canoe construction — begins in the stone age with fire and axes. Progression through plank-built, clinker, carvel, and iron/steel hull construction tracks the development of metallurgy and machine tools. Marine propulsion evolves from oar and sail to steam and diesel engines. Each transition multiplies cargo capacity and route range.
 
-### SIK Boundary with Transport.Shipping
-
-The SIK Placement Test confirms <20% overlap between marine and transport.shipping:
-- **Infrastructure**: transport.shipping uses ports and canals; marine builds and maintains ships, dry docks, and cable infrastructure (~25% overlap)
-- **Knowledge**: transport.shipping is operational (piloting, cargo); marine is engineering (hull design, propulsion, corrosion) (~20% overlap)
-- **Practitioners**: sailors and cargo handlers vs. shipbuilders, marine engineers, and naval architects (~15% overlap)
-
-Result: standalone marine domain. Cross-reference [transport/shipping.md](../transport/shipping.md) for operational content.
-
 Capabilities in this domain:
 
 - [Hull Construction & Shipbuilding](shipbuilding.md) (`marine.shipbuilding`) — dugout → clinker → carvel → iron/steel hull construction, structural design, fastening methods

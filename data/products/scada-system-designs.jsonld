@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "scada-system-designs",
+  "@type": "Product",
+  "name": "SCADA System Designs",
+  "source": "electronics.industrial-control.scada",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

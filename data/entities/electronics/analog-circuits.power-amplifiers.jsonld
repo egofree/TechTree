@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.power-amplifiers",
+  "name": "Power Amplifiers",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for amplifiers that deliver watts to a load (speaker, antenna, motor) rather than millivolts of signal: class A (single device, linear, 25% max efficiency), class B (complementary push-pull, 78.5% max efficiency, crossover distortion), class AB (small idle bias eliminates crossover), and class D (PWM switching, 90%+ efficiency). Covers heat dissipation, efficiency derivation from the conduction angle, the complementary NPN/PNP output pair, and the class-D block diagram (modulator, H-bridge, LC reconstruction filter). Builds directly on the small-signal biasing and impedance work of amplifier-fundamentals.",
+  "timeline": "Years 30-50",
+  "outputs": [
+    "power-amplifier-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

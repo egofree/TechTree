@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-power-supply-circuits__electronics-electrical-systems",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.power-supply-circuits",
+  "to": "electronics.electrical-systems"
+}

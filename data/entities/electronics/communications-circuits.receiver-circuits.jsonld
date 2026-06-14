@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.communications-circuits.receiver-circuits",
+  "name": "Receiver Circuits",
+  "level": "process",
+  "parent": "electronics.communications-circuits",
+  "description": "Design pedagogy for radio receiver architectures — the tuned-radio-frequency (TRF) receiver, the superheterodyne with its fixed intermediate-frequency amplifier chain, image rejection, FM limiters and discriminators, and automatic gain control at the Forrest Mims Communications Projects level.",
+  "timeline": "Years 20-40",
+  "outputs": [
+    "receiver-circuit-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "electronic",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

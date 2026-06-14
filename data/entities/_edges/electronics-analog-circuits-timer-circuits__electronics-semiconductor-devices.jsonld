@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-timer-circuits__electronics-semiconductor-devices",
+  "@type": "Dependency",
+  "from": "electronics.analog-circuits.timer-circuits",
+  "to": "electronics.semiconductor-devices",
+  "edgeType": "tool",
+  "flow": "primary"
+}

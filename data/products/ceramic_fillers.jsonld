@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ceramic_fillers",
+  "@type": "Product",
+  "name": "Ceramic Fillers",
+  "source": "ceramics.ceramic-recycling",
+  "tags": {
+    "material": ["ceramics"],
+    "capability": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design pedagogy for ADC, DAC, and sensor signal-conditioning circuits that bridge analog and digital domains. Covers sampling, quantization, R-2R ladders, successive-approximation, integrating converters, and conditioning chains for temperature, pressure, light, and strain sensors.",
+  "early_win": false,
+  "id": "electronics.interface-circuits",
+  "level": "capability",
+  "name": "Interface Circuits",
+  "outputs": [
+    "mixed-signal-interface"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

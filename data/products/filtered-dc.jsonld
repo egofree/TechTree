@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "filtered-dc",
+  "@type": "Product",
+  "name": "Filtered DC",
+  "source": "electronics.power-supply-circuits.filter-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "energy"
+    ]
+  }
+}

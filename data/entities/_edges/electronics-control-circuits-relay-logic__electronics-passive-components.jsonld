@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-control-circuits-relay-logic__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.control-circuits.relay-logic",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

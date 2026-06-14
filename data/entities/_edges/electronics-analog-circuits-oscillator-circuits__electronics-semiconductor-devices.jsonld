@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-oscillator-circuits__electronics-semiconductor-devices",
+  "@type": "Dependency",
+  "from": "electronics.analog-circuits.oscillator-circuits",
+  "to": "electronics.semiconductor-devices",
+  "edgeType": "tool",
+  "flow": "primary"
+}

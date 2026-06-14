@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "led-driver-designs",
+  "@type": "Product",
+  "name": "LED Driver Designs",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

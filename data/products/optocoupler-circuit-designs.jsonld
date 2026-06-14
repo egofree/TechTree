@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "optocoupler-circuit-designs",
+  "@type": "Product",
+  "name": "Optocoupler Circuit Designs",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

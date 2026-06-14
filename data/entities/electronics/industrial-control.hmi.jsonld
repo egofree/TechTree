@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.industrial-control.hmi",
+  "name": "HMI Design",
+  "level": "process",
+  "parent": "electronics.industrial-control",
+  "description": "Human-Machine Interface (HMI) design for industrial operator stations — screen hierarchy, color coding conventions, alarm banners, trend displays, operator interaction patterns, and safety interlock enforcement at the UI layer.",
+  "timeline": "Years 35-55",
+  "outputs": [
+    "hmi-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

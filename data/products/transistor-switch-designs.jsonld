@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "transistor-switch-designs",
+  "@type": "Product",
+  "name": "Transistor Switch Designs",
+  "source": "electronics.analog-circuits.transistor-switch-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

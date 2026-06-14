@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-power-supply-circuits-switching-regulators__electronics-power-supply-circuits-rectifier-circuits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.power-supply-circuits.switching-regulators",
+  "to": "electronics.power-supply-circuits.rectifier-circuits"
+}

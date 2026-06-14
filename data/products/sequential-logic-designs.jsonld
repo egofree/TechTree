@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sequential-logic-designs",
+  "@type": "Product",
+  "name": "Sequential Logic Designs",
+  "source": "electronics.control-circuits.sequential-logic-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

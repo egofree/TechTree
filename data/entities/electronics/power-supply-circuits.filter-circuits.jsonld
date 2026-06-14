@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Circuit-level design of passive LC and RC filter networks that smooth rectifier ripple into near-DC and shape signal frequency response. Covers capacitor-input, LC, pi-section, and CLC filters for power supply ripple reduction, plus low-pass, high-pass, band-pass, and band-stop signal filters. Owns the circuit-design pedagogy; active/op-amp filters are deferred to op-amp-circuits.",
+  "early_win": false,
+  "id": "electronics.power-supply-circuits.filter-circuits",
+  "level": "process",
+  "name": "Filter Circuits",
+  "outputs": [
+    "filtered-dc"
+  ],
+  "parent": "electronics.power-supply-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

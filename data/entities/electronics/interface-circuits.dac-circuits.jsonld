@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design pedagogy for digital-to-analog converters (DACs): the R-2R ladder as the dominant binary-weighted resistor network, weighted-resistor (string) architectures, PWM-filtered DACs, and the static/dynamic specifications (resolution, monotonicity, settling time, glitch energy) that govern accuracy and speed. Teaches how to reconstruct an analog voltage from a digital word, building on analog switches from semiconductor-devices and precision matched resistors from passive-components.",
+  "early_win": false,
+  "id": "electronics.interface-circuits.dac-circuits",
+  "level": "process",
+  "name": "DAC Circuits",
+  "outputs": [
+    "dac-designs"
+  ],
+  "parent": "electronics.interface-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

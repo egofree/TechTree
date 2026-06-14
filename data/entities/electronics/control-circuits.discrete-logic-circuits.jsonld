@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.control-circuits.discrete-logic-circuits",
+  "name": "Discrete Logic Circuits",
+  "level": "process",
+  "parent": "electronics.control-circuits",
+  "description": "Build and use combinational logic gates at the circuit and component level: transistor-level inverters and NAND/NOR from discrete BJTs, diode-transistor logic, the 74xx TTL and 4000 CMOS logic families, logic-level parameters, open-collector/open-drain buses, and tri-state buffers.",
+  "timeline": "Years 25-45",
+  "outputs": [
+    "discrete-logic-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

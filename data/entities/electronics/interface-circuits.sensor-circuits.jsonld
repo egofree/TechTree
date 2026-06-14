@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design pedagogy for sensor signal-conditioning circuits that convert a physical quantity (magnetic field, temperature, strain, light, liquid level) into a clean analog voltage or current ready for an ADC. Covers Hall-effect interfaces, reed-switch debounce, NTC thermistor voltage dividers with the beta model, RTD and strain-gauge Wheatstone bridges, light-sensor dividers, conductive and capacitive level sensing, and the conditioning staples (amplification, filtering, linearization, offset null, and the 4-20 mA industrial current loop). Builds on comparator, op-amp, and analog-switch devices from semiconductor-devices and precision resistors/capacitors from passive-components.",
+  "early_win": false,
+  "id": "electronics.interface-circuits.sensor-circuits",
+  "level": "process",
+  "name": "Sensor Circuits",
+  "outputs": [
+    "sensor-circuit-designs"
+  ],
+  "parent": "electronics.interface-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

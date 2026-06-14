@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "regulated-dc-power",
+  "@type": "Product",
+  "name": "Regulated DC Power",
+  "source": "electronics.power-supply-circuits",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

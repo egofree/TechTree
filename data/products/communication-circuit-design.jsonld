@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "communication-circuit-design",
+  "@type": "Product",
+  "name": "Communication Circuit Design",
+  "source": "electronics.communications-circuits",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

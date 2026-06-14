@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-multivibrator-circuits__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.analog-circuits.multivibrator-circuits",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

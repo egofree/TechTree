@@ -167,7 +167,7 @@ M05 M09
 M30
 ```
 
-Modern CNC also supports conversational programming and CAM-generated toolpaths for complex geometry.
+Modern CNC also supports conversational programming and [CAM-generated toolpaths](cam.md) for complex geometry — see [Computer-Aided Manufacturing](cam.md) for the CAD→CAM→G-code pipeline that produces these programs.
 
 ## CNC Precision Capabilities
 

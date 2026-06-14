@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ladder-logic-programs",
+  "@type": "Product",
+  "name": "Ladder Logic Programs",
+  "source": "electronics.control-circuits.ladder-logic",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

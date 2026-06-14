@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design pedagogy for PLC, SCADA, HMI, and integrated industrial-control architectures.",
+  "early_win": false,
+  "id": "electronics.industrial-control",
+  "level": "capability",
+  "name": "Industrial Control",
+  "outputs": [
+    "industrial-control-system"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-55"
+}

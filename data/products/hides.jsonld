@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hides",
+  "@type": "Product",
+  "name": "Hides",
+  "source": "animals.animal-husbandry",
+  "tags": {
+    "capability": [],
+    "material": [
+      "biomass",
+      "fibers"
+    ]
+  }
+}

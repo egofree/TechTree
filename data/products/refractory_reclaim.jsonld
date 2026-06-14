@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refractory_reclaim",
+  "@type": "Product",
+  "name": "Refractory Reclaim",
+  "source": "ceramics.ceramic-recycling",
+  "tags": {
+    "material": ["ceramics"],
+    "capability": []
+  }
+}

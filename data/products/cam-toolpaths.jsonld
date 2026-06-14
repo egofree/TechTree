@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cam-toolpaths",
+  "@type": "Product",
+  "name": "CAM Toolpaths (G-code Programs)",
+  "source": "machine-tools.cam",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-industrial-control-plc__electronics-control-circuits-discrete-logic-circuits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.industrial-control.plc",
+  "to": "electronics.control-circuits.discrete-logic-circuits"
+}

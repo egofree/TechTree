@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "optoelectronic-interface",
+  "@type": "Product",
+  "name": "Optoelectronic Interface",
+  "source": "electronics.optoelectronic-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

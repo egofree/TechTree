@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "circuit-analysis",
+  "@type": "Product",
+  "name": "Circuit Analysis",
+  "source": "electronics.circuit-fundamentals",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

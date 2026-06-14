@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-industrial-control-plc__electronics-industrial-control",
+  "@type": "Dependency",
+  "from": "electronics.industrial-control.plc",
+  "to": "electronics.industrial-control",
+  "edgeType": "tool",
+  "flow": "primary"
+}

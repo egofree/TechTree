@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.timer-circuits",
+  "name": "Timer Circuits",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for the 555 timer IC (the most ubiquitous integrated circuit ever made) and its modes of operation: astable free-running multivibrator, monostable one-shot pulse generator, and voltage-controlled PWM. Covers the internal architecture (two comparators, RS flip-flop, discharge transistor, 1/3-2/3 V_CC resistor divider), the canonical timing formulas, and the canonical applications — LED flasher, time-delay relay, tone generator, and servo PWM.",
+  "timeline": "Years 25-40",
+  "outputs": [
+    "timer-circuit-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

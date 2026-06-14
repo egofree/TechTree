@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "multivibrator-designs",
+  "@type": "Product",
+  "name": "Multivibrator Designs",
+  "source": "electronics.analog-circuits.multivibrator-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ]
+  }
+}

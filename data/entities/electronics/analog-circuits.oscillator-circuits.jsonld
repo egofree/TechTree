@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.oscillator-circuits",
+  "name": "Oscillator Circuits",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for circuits that generate periodic waveforms without an external input: the Barkhausen criterion (loop gain >= 1, phase shift = 360 degrees), RC phase-shift and Wien-bridge oscillators for the audio band, LC oscillators (Colpitts, Hartley, Clapp) for RF, and crystal oscillators (Pierce, AT-cut quartz) for ppm-level frequency stability. The self-sustaining signal source that every clock, transmitter, and tone generator is built upon.",
+  "timeline": "Years 25-40",
+  "outputs": [
+    "oscillator-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

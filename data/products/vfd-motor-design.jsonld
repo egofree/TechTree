@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vfd-motor-design",
+  "@type": "Product",
+  "name": "VFD Motor Design",
+  "source": "electronics.power-conversion-circuits.vfd-motor-control",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-amplifier-fundamentals__electronics-analog-circuits-transistor-switch-circuits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.analog-circuits.amplifier-fundamentals",
+  "to": "electronics.analog-circuits.transistor-switch-circuits"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dc-circuit-analysis",
+  "@type": "Product",
+  "name": "DC Circuit Analysis",
+  "source": "electronics.circuit-fundamentals.dc-analysis",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "switching-regulator-design",
+  "@type": "Product",
+  "name": "Switching Regulator Design",
+  "source": "electronics.power-supply-circuits.switching-regulators",
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "energy"
+    ]
+  }
+}

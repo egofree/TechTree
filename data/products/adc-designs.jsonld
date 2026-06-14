@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "adc-designs",
+  "@type": "Product",
+  "name": "ADC Designs",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

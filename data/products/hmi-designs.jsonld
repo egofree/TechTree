@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hmi-designs",
+  "@type": "Product",
+  "name": "HMI Designs",
+  "source": "electronics.industrial-control.hmi",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

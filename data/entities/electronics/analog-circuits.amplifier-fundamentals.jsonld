@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.amplifier-fundamentals",
+  "name": "Amplifier Fundamentals",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for small-signal linear amplification with a single discrete transistor: the three BJT configurations (common-emitter, common-collector / emitter follower, common-base) and their MOSFET counterparts (common-source, common-drain / source follower). Covers DC biasing (voltage-divider bias, Q-point stability against beta and temperature), coupling and bypass capacitors, the hybrid-pi small-signal model (g_m, r_pi, h-parameters), voltage-gain derivation (A_v = -g_m × R_C for CE), and input/output impedance of each configuration. The discrete-transistor foundation that every op-amp, power-amplifier, and RF stage is built on.",
+  "timeline": "Years 20-35",
+  "outputs": [
+    "amplifier-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "electronic",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

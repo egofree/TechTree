@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-circuit-fundamentals-dc-analysis__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.circuit-fundamentals.dc-analysis",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

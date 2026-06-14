@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.control-circuits.ladder-logic",
+  "name": "Ladder Logic Design",
+  "level": "process",
+  "parent": "electronics.control-circuits",
+  "description": "Ladder diagram notation and design methodology for industrial control — rung/rail structure, XIC/XIO contact symbols, OTE/OTL/OTU coil symbols, timer/counter rungs, and the scan-cycle execution model used to document and program relay-based and PLC-based control systems.",
+  "timeline": "Years 15-30",
+  "outputs": [
+    "ladder-logic-programs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "industrial",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

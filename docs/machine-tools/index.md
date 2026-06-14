@@ -29,6 +29,8 @@ Capabilities in this domain:
 
 - [EDM, CNC & Precision Grinding](edm-cnc.md) — Electrical Discharge Machining (wire EDM, sinker EDM), Computer Numerical Control (servo/stepper drives, 5-axis), and precision/ultra-precision grinding for sub-micron accuracy required by semiconductor equipment.
 
+- [Computer-Aided Manufacturing (CAM)](cam.md) — CAD→CAM→G-code toolpath pipeline: toolpath strategy selection (2D/3D, contour, parallel, adaptive clearing, climb vs conventional), post-processors for machine-specific G-code, and feed/speed optimization by material.
+
 - [Hydraulic Press](hydraulic-press.md) — Fluid-powered press (10-500+ tons) for metal forming, compression molding, and powder compaction using Pascal's principle.
 
 - [Rolling Mill](rolling-mill.md) — Roll-forming equipment for reducing metal stock thickness and producing sheets, bars, and profiles through powered rollers.

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.multivibrator-circuits",
+  "name": "Multivibrator Circuits",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for the three regenerative two-state circuits that bridge linear amplification and free-running timing: the astable (free-running square-wave oscillator, two cross-coupled transistors or an op-amp with RC feedback, f = 1/(0.69 RC)), the monostable (one-shot, a triggered pulse of fixed duration), and the bistable (flip-flop, two stable states with set/reset). Covers threshold/hysteresis design, timing-component selection, and the discrete-transistor and op-amp realizations that the 555 timer later integrates onto one chip.",
+  "timeline": "Years 20-35",
+  "outputs": [
+    "multivibrator-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

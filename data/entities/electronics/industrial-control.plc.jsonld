@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.industrial-control.plc",
+  "name": "PLC Design",
+  "level": "process",
+  "parent": "electronics.industrial-control",
+  "description": "Programmable Logic Controller architecture and programming — rack/chassis hardware (CPU, power supply, I/O modules), opto-isolated input modules, relay/triac/transistor output modules, deterministic scan-cycle execution, IEC 61131-3 programming languages (LD, FBD, ST, SFC, IL), and industrial communication (Modbus, EtherNet/IP, Profinet) for software-reconfigurable factory and process control.",
+  "timeline": "Years 30-50",
+  "outputs": [
+    "plc-control-systems"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

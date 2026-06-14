@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design pedagogy for photodetector circuits — photodiode transimpedance amplifiers, phototransistor light switches, and light-dependent-resistor bridges. Teaches how to convert light into an electrical signal from first principles, building on semiconductor active devices and passive components.",
+  "early_win": false,
+  "id": "electronics.optoelectronic-circuits.photodetector-circuits",
+  "level": "process",
+  "name": "Photodetector Circuits",
+  "outputs": [
+    "photodetector-designs"
+  ],
+  "parent": "electronics.optoelectronic-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50"
+}

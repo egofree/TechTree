@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.circuit-fundamentals.dc-analysis",
+  "name": "DC Circuit Analysis",
+  "level": "process",
+  "parent": "electronics.circuit-fundamentals",
+  "description": "DC circuit analysis from first principles — Ohm's law, Kirchhoff's laws, node/mesh analysis, voltage/current dividers, and power calculations for resistive networks.",
+  "timeline": "Years 15-30",
+  "outputs": [
+    "dc-circuit-analysis"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "industrial",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "photodetector-designs",
+  "@type": "Product",
+  "name": "Photodetector Designs",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

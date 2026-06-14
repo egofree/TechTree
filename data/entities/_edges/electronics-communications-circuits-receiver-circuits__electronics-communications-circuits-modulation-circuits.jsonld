@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-communications-circuits-receiver-circuits__electronics-communications-circuits-modulation-circuits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.communications-circuits.receiver-circuits",
+  "to": "electronics.communications-circuits.modulation-circuits"
+}

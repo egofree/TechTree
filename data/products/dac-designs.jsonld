@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dac-designs",
+  "@type": "Product",
+  "name": "DAC Designs",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

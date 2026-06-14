@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "control-circuit-design",
+  "@type": "Product",
+  "name": "Control Circuit Design",
+  "source": "electronics.control-circuits",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

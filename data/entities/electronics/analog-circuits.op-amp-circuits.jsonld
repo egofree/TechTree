@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.op-amp-circuits",
+  "name": "Op-Amp Circuits",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for the operational amplifier, the most versatile analog IC: the ideal model (infinite gain, infinite input impedance, zero output impedance, virtual short under feedback), the canonical closed-loop topologies (inverting, non-inverting, follower, summing, difference), integration and differentiation, the comparator and Schmitt trigger with hysteresis, and active filters (first-order Sallen-Key low/high-pass and band-pass) that replace inductors with op-amp gain. Links passive-filter theory rather than re-deriving it.",
+  "timeline": "Years 20-35",
+  "outputs": [
+    "op-amp-circuit-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

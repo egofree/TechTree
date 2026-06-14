@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-communications-circuits-receiver-circuits__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.communications-circuits.receiver-circuits",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

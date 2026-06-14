@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Computer-Aided Manufacturing: the CAD to CAM to G-code software pipeline that converts digital part geometry into machine-executable toolpaths. Covers toolpath strategy selection (2D contouring, 3D parallel/adaptive clearing, climb vs conventional milling), post-processing for machine-specific G-code dialects, and feed/speed optimization by material. Bridges digital CAD design and physical CNC execution.",
+  "early_win": false,
+  "id": "machine-tools.cam",
+  "level": "capability",
+  "name": "Computer-Aided Manufacturing (CAM)",
+  "outputs": [
+    "cam-toolpaths"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

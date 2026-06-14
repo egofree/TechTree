@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "timer-circuit-designs",
+  "@type": "Product",
+  "name": "Timer Circuit Designs",
+  "source": "electronics.analog-circuits.timer-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

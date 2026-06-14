@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "grog",
+  "@type": "Product",
+  "name": "Grog (Crushed Fired Ceramic)",
+  "source": "ceramics.ceramic-recycling",
+  "tags": {
+    "material": ["ceramics"],
+    "capability": []
+  }
+}

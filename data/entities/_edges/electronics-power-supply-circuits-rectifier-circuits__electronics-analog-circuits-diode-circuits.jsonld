@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-power-supply-circuits-rectifier-circuits__electronics-analog-circuits-diode-circuits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.power-supply-circuits.rectifier-circuits",
+  "to": "electronics.analog-circuits.diode-circuits"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-power-amplifiers__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.analog-circuits.power-amplifiers",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

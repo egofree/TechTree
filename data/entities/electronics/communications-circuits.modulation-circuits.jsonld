@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.communications-circuits.modulation-circuits",
+  "name": "Modulation and Demodulation Circuits",
+  "level": "process",
+  "parent": "electronics.communications-circuits",
+  "description": "AM/FM modulation and demodulation circuit design — envelope detectors, varactor modulators, mixers, and simple transmitter architecture at introductory level.",
+  "timeline": "Years 20-40",
+  "outputs": [
+    "modulation-circuit-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "electronic",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

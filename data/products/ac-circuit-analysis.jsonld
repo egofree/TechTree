@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ac-circuit-analysis",
+  "@type": "Product",
+  "name": "AC Circuit Analysis",
+  "source": "electronics.circuit-fundamentals.ac-analysis",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

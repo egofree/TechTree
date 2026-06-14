@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/animals.animal-husbandry__animals.domestication",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "animals.animal-husbandry",
+  "to": "animals.domestication"
+}

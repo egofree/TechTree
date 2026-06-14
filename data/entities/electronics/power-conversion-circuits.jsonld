@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design pedagogy for inverter and motor-drive circuits that convert and control electrical power. Covers DC→AC inversion (H-bridge, SPWM sinewave synthesis), variable-frequency drive architecture, and switching-device selection at the circuit-design level, complementing the system-level converter manufacturing covered by power-electronics.",
+  "early_win": false,
+  "id": "electronics.power-conversion-circuits",
+  "level": "capability",
+  "name": "Power Conversion Circuits",
+  "outputs": [
+    "inverter-circuit-design"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

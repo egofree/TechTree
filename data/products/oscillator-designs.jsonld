@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "oscillator-designs",
+  "@type": "Product",
+  "name": "Oscillator Designs",
+  "source": "electronics.analog-circuits.oscillator-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

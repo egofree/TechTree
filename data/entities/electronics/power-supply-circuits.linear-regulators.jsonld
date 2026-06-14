@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Circuit-level design of linear voltage regulators that convert filtered but unregulated DC into a stable, low-noise output rail. Covers zener shunt references, series pass-transistor (emitter-follower) regulators, and low-dropout (LDO) topologies, with thermal design (power dissipation, heatsink sizing, thermal resistance). Owns the circuit-design pedagogy; system-level regulator manufacturing is covered by power-electronics.",
+  "early_win": false,
+  "id": "electronics.power-supply-circuits.linear-regulators",
+  "level": "process",
+  "name": "Linear Regulators",
+  "outputs": [
+    "regulated-dc-power"
+  ],
+  "parent": "electronics.power-supply-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

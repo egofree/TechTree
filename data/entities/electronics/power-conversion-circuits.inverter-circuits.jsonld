@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Circuit-level design pedagogy for DC-to-AC inverters using switching topologies. Covers the H-bridge (four switches arranged in an H), square-wave and SPWM (sinusoidal pulse-width modulation) synthesis, dead-time insertion to prevent shoot-through, MOSFET vs IGBT device selection, and LC output filtering to remove switching harmonics. Owns the circuit DESIGN; system-level inverter manufacturing and grid-tie applications are covered by power-electronics.",
+  "early_win": false,
+  "id": "electronics.power-conversion-circuits.inverter-circuits",
+  "level": "process",
+  "name": "Inverter Circuits",
+  "outputs": [
+    "inverter-circuit-design"
+  ],
+  "parent": "electronics.power-conversion-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

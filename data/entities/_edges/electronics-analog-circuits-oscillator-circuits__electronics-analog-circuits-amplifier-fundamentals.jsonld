@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-oscillator-circuits__electronics-analog-circuits-amplifier-fundamentals",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.analog-circuits.oscillator-circuits",
+  "to": "electronics.analog-circuits.amplifier-fundamentals"
+}

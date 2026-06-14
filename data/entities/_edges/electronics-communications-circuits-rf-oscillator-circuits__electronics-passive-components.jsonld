@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-communications-circuits-rf-oscillator-circuits__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.communications-circuits.rf-oscillator-circuits",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-control-circuits-sequential-logic-circuits__electronics-control-circuits-discrete-logic-circuits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.control-circuits.sequential-logic-circuits",
+  "to": "electronics.control-circuits.discrete-logic-circuits"
+}

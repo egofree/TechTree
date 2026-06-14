@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "receiver-circuit-designs",
+  "@type": "Product",
+  "name": "Receiver Circuit Designs",
+  "source": "electronics.communications-circuits.receiver-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

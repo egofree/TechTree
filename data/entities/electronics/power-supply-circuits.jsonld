@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design pedagogy for rectifier, filter, and voltage-regulator circuits that convert and condition DC power. Covers the AC→DC conversion chain (rectification, ripple filtering, linear and switching regulation) at the circuit-analysis and topology level, complementing the system-level converter manufacturing covered by power-electronics.",
+  "early_win": false,
+  "id": "electronics.power-supply-circuits",
+  "level": "capability",
+  "name": "Power Supply Circuits",
+  "outputs": [
+    "regulated-dc-power"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "industrial-control-system",
+  "@type": "Product",
+  "name": "Industrial Control System",
+  "source": "electronics.industrial-control",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design pedagogy for analog-to-digital converters (ADCs): sampling and the Nyquist limit, quantization and resolution, and the four dominant architectures — SAR (successive approximation), flash (parallel), integrating (dual-slope), and sigma-delta (oversampling + noise shaping). Teaches how to select and design the right ADC for a given resolution/speed/power trade-off, building on comparator and analog-switch devices from semiconductor-devices and precision resistors from passive-components.",
+  "early_win": false,
+  "id": "electronics.interface-circuits.adc-circuits",
+  "level": "process",
+  "name": "ADC Circuits",
+  "outputs": [
+    "adc-designs"
+  ],
+  "parent": "electronics.interface-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

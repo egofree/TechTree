@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-optoelectronic-circuits-optocoupler-circuits__electronics-optoelectronic-circuits-photodetector-circuits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.optoelectronic-circuits.optocoupler-circuits",
+  "to": "electronics.optoelectronic-circuits.photodetector-circuits"
+}

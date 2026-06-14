@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.communications-circuits.rf-oscillator-circuits",
+  "name": "RF Oscillator Circuits",
+  "level": "process",
+  "parent": "electronics.communications-circuits",
+  "description": "Design pedagogy for radio-frequency oscillator circuits — Colpitts and Hartley LC oscillators tuned for the RF band (100 kHz to GHz), crystal-controlled Pierce references for ppm stability, variable-frequency oscillators for tuning, and the resonant-circuit and antenna fundamentals that couple RF energy into space at the Forrest Mims Communications Projects level.",
+  "timeline": "Years 20-40",
+  "outputs": [
+    "rf-oscillator-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "electronic",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

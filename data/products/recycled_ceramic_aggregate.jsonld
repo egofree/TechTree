@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recycled_ceramic_aggregate",
+  "@type": "Product",
+  "name": "Recycled Ceramic Aggregate",
+  "source": "ceramics.ceramic-recycling",
+  "tags": {
+    "material": ["ceramics"],
+    "capability": []
+  }
+}

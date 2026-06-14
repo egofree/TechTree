@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Circuit-level design pedagogy for variable-frequency drives (VFDs) that control AC motor speed and torque. Covers the rectifier-to-DC-bus-to-inverter signal chain, V/f scalar control with constant volts-per-hertz ratio, vector/field-oriented control concepts, PWM carrier-frequency tradeoffs, and bearing-current mitigation. Owns the VFD circuit DESIGN; system-level drive packaging and installation belong to power-electronics.",
+  "early_win": false,
+  "id": "electronics.power-conversion-circuits.vfd-motor-control",
+  "level": "process",
+  "name": "VFD Motor Control",
+  "outputs": [
+    "vfd-motor-design"
+  ],
+  "parent": "electronics.power-conversion-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

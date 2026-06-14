@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design pedagogy for relay-logic, ladder-logic, and discrete/sequential logic circuits used in industrial control.",
+  "early_win": false,
+  "id": "electronics.control-circuits",
+  "level": "capability",
+  "name": "Control Circuits",
+  "outputs": [
+    "control-circuit-design"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-35"
+}

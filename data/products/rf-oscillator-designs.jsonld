@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rf-oscillator-designs",
+  "@type": "Product",
+  "name": "RF Oscillator Designs",
+  "source": "electronics.communications-circuits.rf-oscillator-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

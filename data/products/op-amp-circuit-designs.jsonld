@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "op-amp-circuit-designs",
+  "@type": "Product",
+  "name": "Op-Amp Circuit Designs",
+  "source": "electronics.analog-circuits.op-amp-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "plc-control-systems",
+  "@type": "Product",
+  "name": "PLC Control Systems",
+  "source": "electronics.industrial-control.plc",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

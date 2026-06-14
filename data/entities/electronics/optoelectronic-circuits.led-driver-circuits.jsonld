@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design pedagogy for LED driver circuits — resistor current limiting, transistor switching, constant-current regulation, multiplexing, and PWM dimming. Teaches how to drive light-emitting diodes safely from first principles, building on semiconductor active devices and passive components.",
+  "early_win": false,
+  "id": "electronics.optoelectronic-circuits.led-driver-circuits",
+  "level": "process",
+  "name": "LED Driver Circuits",
+  "outputs": [
+    "led-driver-designs"
+  ],
+  "parent": "electronics.optoelectronic-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50"
+}

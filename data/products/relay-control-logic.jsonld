@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "relay-control-logic",
+  "@type": "Product",
+  "name": "Relay Control Logic",
+  "source": "electronics.control-circuits.relay-logic",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

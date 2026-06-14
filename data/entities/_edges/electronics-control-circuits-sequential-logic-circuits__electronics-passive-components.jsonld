@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-control-circuits-sequential-logic-circuits__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.control-circuits.sequential-logic-circuits",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

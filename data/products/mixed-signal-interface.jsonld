@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mixed-signal-interface",
+  "@type": "Product",
+  "name": "Mixed-Signal Interface",
+  "source": "electronics.interface-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

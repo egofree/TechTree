@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "inverter-circuit-design",
+  "@type": "Product",
+  "name": "Inverter Circuit Design",
+  "source": "electronics.power-conversion-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

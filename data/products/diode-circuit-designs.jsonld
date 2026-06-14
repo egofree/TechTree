@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "diode-circuit-designs",
+  "@type": "Product",
+  "name": "Diode Circuit Designs",
+  "source": "electronics.analog-circuits.diode-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

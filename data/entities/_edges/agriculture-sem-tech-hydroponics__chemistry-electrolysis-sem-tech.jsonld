@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/agriculture.sem-tech-hydroponics__chemistry.electrolysis.sem-tech",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "agriculture.sem-tech-hydroponics",
+  "to": "chemistry.electrolysis.sem-tech"
+}

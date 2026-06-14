@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rectified-dc",
+  "@type": "Product",
+  "name": "Rectified DC",
+  "source": "electronics.power-supply-circuits.rectifier-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "energy"
+    ]
+  }
+}

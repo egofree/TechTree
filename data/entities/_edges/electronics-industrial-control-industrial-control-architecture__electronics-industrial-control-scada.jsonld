@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-industrial-control-industrial-control-architecture__electronics-industrial-control-scada",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.industrial-control.industrial-control-architecture",
+  "to": "electronics.industrial-control.scada"
+}

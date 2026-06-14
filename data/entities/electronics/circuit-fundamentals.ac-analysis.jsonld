@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.circuit-fundamentals.ac-analysis",
+  "name": "AC Circuit Analysis",
+  "level": "process",
+  "parent": "electronics.circuit-fundamentals",
+  "description": "AC circuit analysis from first principles — phasors, reactance, impedance, complex power, resonance, and three-phase systems for understanding motors, transformers, and power distribution.",
+  "timeline": "Years 15-30",
+  "outputs": [
+    "ac-circuit-analysis"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "electronic",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

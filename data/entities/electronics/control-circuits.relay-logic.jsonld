@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.control-circuits.relay-logic",
+  "name": "Relay Logic Circuits",
+  "level": "process",
+  "parent": "electronics.control-circuits",
+  "description": "Relay logic for industrial control — seal-in/latching circuits, motor start/stop, timer relays, interlocks, and combinatorial/sequential logic using electromechanical contacts.",
+  "timeline": "Years 15-30",
+  "outputs": [
+    "relay-control-logic"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "industrial",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

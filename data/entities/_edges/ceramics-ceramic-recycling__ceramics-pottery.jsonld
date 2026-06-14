@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ceramics-ceramic-recycling__ceramics-pottery",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "ceramics.ceramic-recycling",
+  "to": "ceramics.pottery"
+}

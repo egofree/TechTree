@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dung",
+  "@type": "Product",
+  "name": "Dung",
+  "source": "animals.animal-husbandry",
+  "tags": {
+    "capability": [],
+    "material": [
+      "biomass"
+    ]
+  }
+}

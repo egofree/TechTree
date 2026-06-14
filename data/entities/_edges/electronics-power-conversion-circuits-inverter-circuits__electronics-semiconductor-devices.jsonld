@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-power-conversion-circuits-inverter-circuits__electronics-semiconductor-devices",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.power-conversion-circuits.inverter-circuits",
+  "to": "electronics.semiconductor-devices"
+}

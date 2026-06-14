@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design pedagogy for optocoupler and optoisolator circuits — galvanic isolation via LED-photodetector pairs, current transfer ratio (CTR) design, digital isolation, solid-state relays (optotriac + triac), linear/analog isolation amplifiers, IR transmit/receive links, and fiber-optic data links. Teaches how to transfer signals across isolation barriers from first principles.",
+  "early_win": false,
+  "id": "electronics.optoelectronic-circuits.optocoupler-circuits",
+  "level": "process",
+  "name": "Optocoupler Circuits",
+  "outputs": [
+    "optocoupler-circuit-designs"
+  ],
+  "parent": "electronics.optoelectronic-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50"
+}

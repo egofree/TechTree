@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "analog-signal-processing",
+  "@type": "Product",
+  "name": "Analog Signal Processing",
+  "source": "electronics.analog-circuits",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

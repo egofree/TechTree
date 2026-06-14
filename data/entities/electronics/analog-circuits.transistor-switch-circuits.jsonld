@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.transistor-switch-circuits",
+  "name": "Transistor Switch Circuits",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for using the BJT and MOSFET as saturated ON/OFF switches (not amplifiers): cutoff and saturation regions, forced-beta base-resistor sizing, MOSFET gate drive and R_DS(on), and the canonical applications — LED driver, relay/contactor driver, light-activated switch (LDR + transistor), and dark-activated switch. The Mims 'Basic Semiconductor Circuits' entry point that bridges device physics into useful two-state control.",
+  "timeline": "Years 20-30",
+  "outputs": [
+    "transistor-switch-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "electronic",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

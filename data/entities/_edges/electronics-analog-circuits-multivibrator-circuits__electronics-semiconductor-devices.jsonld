@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-multivibrator-circuits__electronics-semiconductor-devices",
+  "@type": "Dependency",
+  "from": "electronics.analog-circuits.multivibrator-circuits",
+  "to": "electronics.semiconductor-devices",
+  "edgeType": "tool",
+  "flow": "primary"
+}

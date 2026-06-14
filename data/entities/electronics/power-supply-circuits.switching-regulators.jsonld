@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Circuit-level design of switching voltage regulators that convert DC to a different regulated DC voltage by high-frequency PWM energy transfer through inductors and capacitors. Covers buck (step-down), boost (step-up), buck-boost (inverting), and flyback (isolated) topologies with duty-cycle control, efficiency analysis, and ripple calculation. Owns the circuit-design pedagogy; system-level converter manufacturing is covered by power-electronics.",
+  "early_win": false,
+  "id": "electronics.power-supply-circuits.switching-regulators",
+  "level": "process",
+  "name": "Switching Regulators",
+  "outputs": [
+    "switching-regulator-design"
+  ],
+  "parent": "electronics.power-supply-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

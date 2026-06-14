@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "power-amplifier-designs",
+  "@type": "Product",
+  "name": "Power Amplifier Designs",
+  "source": "electronics.analog-circuits.power-amplifiers",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

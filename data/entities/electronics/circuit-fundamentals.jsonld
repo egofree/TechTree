@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "DC and AC circuit theory — Ohm's law, Kirchhoff's laws, node/mesh analysis, network theorems, phasors, impedance, and frequency response. The analytical foundation every electronics practitioner uses to predict voltages, currents, and power in passive and active networks before building anything.",
+  "early_win": false,
+  "id": "electronics.circuit-fundamentals",
+  "level": "capability",
+  "name": "Circuit Fundamentals",
+  "outputs": [
+    "circuit-analysis"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

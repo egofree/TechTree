@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-circuit-fundamentals-ac-analysis__electronics-circuit-fundamentals-dc-analysis",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.circuit-fundamentals.ac-analysis",
+  "to": "electronics.circuit-fundamentals.dc-analysis"
+}

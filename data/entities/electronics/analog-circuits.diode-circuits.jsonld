@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.analog-circuits.diode-circuits",
+  "name": "Diode Circuits",
+  "level": "process",
+  "parent": "electronics.analog-circuits",
+  "description": "Design pedagogy for the first active circuits a practitioner builds with a diode: series and shunt clippers, biased clippers, clampers (DC restorers), freewheeling/flyback protection for inductive loads, AM envelope detectors, and voltage multipliers (doubler/tripler). Treats the diode as a piecewise-linear element (open below V_F, ~0.7 V clamp above) and derives every circuit from that single model.",
+  "timeline": "Years 20-30",
+  "outputs": [
+    "diode-circuit-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "measurement"
+    ],
+    "era": "electronic",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

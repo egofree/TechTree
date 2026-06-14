@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-control-circuits-ladder-logic__electronics-control-circuits-relay-logic",
+  "@type": "Dependency",
+  "from": "electronics.control-circuits.ladder-logic",
+  "to": "electronics.control-circuits.relay-logic",
+  "edgeType": "tool",
+  "flow": "primary"
+}

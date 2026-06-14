@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-analog-circuits-transistor-switch-circuits__electronics-passive-components",
+  "@type": "Dependency",
+  "from": "electronics.analog-circuits.transistor-switch-circuits",
+  "to": "electronics.passive-components",
+  "edgeType": "tool",
+  "flow": "primary"
+}

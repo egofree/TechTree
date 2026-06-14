@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Circuit-level design and analysis of diode rectifier topologies that convert AC to pulsating DC. Covers half-wave, full-wave center-tap, bridge, and polyphase configurations with ripple calculation, diode PIV/forward-current selection, and transformer sizing. Owns the circuit-design pedagogy; system-level rectifier manufacturing is covered by power-electronics.",
+  "early_win": false,
+  "id": "electronics.power-supply-circuits.rectifier-circuits",
+  "level": "process",
+  "name": "Rectifier Circuits",
+  "outputs": [
+    "rectified-dc"
+  ],
+  "parent": "electronics.power-supply-circuits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

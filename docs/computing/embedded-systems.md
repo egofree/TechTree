@@ -320,17 +320,7 @@ For applications requiring sub-microsecond deterministic response or custom sign
 
 ## PLC (Programmable Logic Controller)
 
-Industrial control using standardized PLC hardware: rack-mounted I/O modules, ladder logic programming, built-in isolation and fault tolerance. Higher cost per channel than custom MCU boards but faster development for standard industrial control tasks. The PLC itself is a packaged embedded system — this option trades hardware flexibility for development speed.
-
-**Strengths:**
-
-- Integrated isolation and fault tolerance on every I/O channel (opto-isolated inputs, relay or solid-state outputs rated for industrial loads) — no external circuit design needed
-- Ladder logic programming allows control engineers to develop and modify sequences without firmware expertise, reducing development time from weeks to hours for standard applications
-
-**Weaknesses:**
-
-- Cost per I/O channel is 10-50× higher than a custom MCU board ($50-200/channel vs $2-10/channel), making PLCs uneconomical for high-channel-count applications
-- Fixed I/O types and scan cycle timing (1-10 ms typical) limit the PLC to control rates ≤100 Hz; applications requiring faster response must use a custom MCU or FPGA solution
+The PLC is a packaged, rack-mounted industrial controller — CPU, power supply, and opto-isolated I/O modules on a common backplane — that runs ladder logic (and the other IEC 61131-3 languages) on a deterministic scan cycle, trading $50-200/channel hardware cost for integrated isolation, fault tolerance, and development speed on standard sequencing and interlock tasks. It occupies the "low determinism (ms), high channel count, fast development" cell of the decision table above. For detailed PLC architecture and programming, see [PLC Design](../electronics/industrial-control.plc.md).
 
 ## Comparison for Bootstrap Context
 

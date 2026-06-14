@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.industrial-control.scada",
+  "name": "SCADA System Design",
+  "level": "process",
+  "parent": "electronics.industrial-control",
+  "description": "SCADA (Supervisory Control and Data Acquisition) system architecture — MTU/RTU/PLC hierarchy, telemetry polling, communication protocols (Modbus, DNP3, OPC UA), historical trending, and alarm management for distributed process supervision.",
+  "timeline": "Years 35-55",
+  "outputs": [
+    "scada-system-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

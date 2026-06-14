@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "amplifier-designs",
+  "@type": "Product",
+  "name": "Amplifier Designs",
+  "source": "electronics.analog-circuits.amplifier-fundamentals",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

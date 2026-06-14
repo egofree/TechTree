@@ -154,20 +154,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 
 ## Motor Drives (VFD — Variable Frequency Drive)
 
-1. **Rectifier stage**: Three-phase diode bridge converts AC line to DC. 575V DC bus for 480V AC input.
-2. **DC bus**: Capacitor bank (1000-10,000 μF) smooths DC ripple. Bus voltage: 300V (240V input), 575V (480V input), 1150V (960V input).
-3. **Inverter stage**: Six IGBTs (for 480V systems: 1200V rated) generate three-phase PWM output at 0-400 Hz. Carrier frequency: 2-16 kHz. Higher carrier = smoother motor current but higher switching losses (derate drive by 1-2% per kHz above 4 kHz).
-4. **Control**: V/f (volts-per-hertz) for simple applications. Vector control (field-oriented control) for precision: measures motor current, transforms to rotating reference frame, independently controls torque and flux. Speed regulation: ±0.5% (V/f), ±0.01% (vector with encoder).
-
-**Strengths**:
-- Reduces motor energy consumption by 20-60% in variable-torque applications (pumps, fans) by matching motor speed to actual load demand instead of running at full speed with throttle or damper
-- Soft-start capability limits motor inrush current to 1.5-2× rated (vs. 5-8× across-the-line starting) — reduces mechanical stress on couplings, bearings, and gearboxes, extending equipment life by 2-3×
-- Vector control achieves ±0.01% speed regulation with encoder feedback — enables precision speed applications (paper mills, textile machines, CNC spindle drives) that are impossible with mechanical speed control
-
-**Weaknesses**:
-- VFD output PWM waveform (5-16 kHz carrier with 0-400 Hz modulation) causes motor winding insulation stress — standard motors rated for sinusoidal power experience 2-3× higher peak voltage at motor terminals from reflected wave phenomena on long cables (>30 m), requiring VFD-rated motors with reinforced insulation (NEMA MG1 Part 31)
-- High carrier frequency increases switching losses by 1-2% per kHz above 4 kHz — a 16 kHz carrier reduces drive efficiency from 97% to ~85% and requires derating the drive output current by 15-20%
-- VFDs generate common-mode voltage on the motor shaft, causing bearing current flow that produces electrical discharge machining (EDM) pits in bearing races — shaft grounding rings or insulated bearings are required for reliable long-term operation
+A variable-frequency drive (VFD) controls AC motor speed and torque by synthesizing a variable-frequency, variable-voltage three-phase AC output via a rectifier → DC bus (capacitor bank) → inverter (six IGBTs) chain. The V/f (volts-per-hertz) scalar law keeps motor flux constant across the speed range; vector/field-oriented control (FOC) adds precision (±0.01% speed regulation with encoder). Carrier frequency (2–16 kHz) trades motor-current smoothness and acoustic noise against drive efficiency, EMI, and bearing-current risk. VFDs reduce motor energy consumption by 20–60% in variable-torque applications (pumps, fans) per the cubic affinity laws (power ∝ speed³). See [VFD Motor Control](power-conversion-circuits.vfd-motor-control.md) for detailed VFD circuit design, the V/f law with worked examples, vector control concepts, carrier-frequency tradeoff tables, and bearing-current mitigation.
 
 ## UPS (Uninterruptible Power Supply)
 

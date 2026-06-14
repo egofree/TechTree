@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-optoelectronic-circuits-photodetector-circuits__electronics-semiconductor-devices",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electronics.optoelectronic-circuits.photodetector-circuits",
+  "to": "electronics.semiconductor-devices"
+}

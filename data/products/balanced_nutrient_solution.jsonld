@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "balanced_nutrient_solution",
+  "@type": "Product",
+  "name": "Balanced Nutrient Solution",
+  "source": "agriculture.sem-tech-hydroponics",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

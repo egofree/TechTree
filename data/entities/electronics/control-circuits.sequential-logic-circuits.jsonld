@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "id": "electronics.control-circuits.sequential-logic-circuits",
+  "name": "Sequential Logic Circuits",
+  "level": "process",
+  "parent": "electronics.control-circuits",
+  "description": "Build and use sequential logic at the circuit and component level: cross-coupled SR latches, clocked latches, edge-triggered D/JK/T flip-flops, ripple and synchronous counters, shift registers, and clock timing parameters (setup/hold/propagation/metastability).",
+  "timeline": "Years 25-45",
+  "outputs": [
+    "sequential-logic-designs"
+  ],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ],
+    "era": "semiconductor",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

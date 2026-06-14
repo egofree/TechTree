@@ -56,7 +56,7 @@ A real LC tank is not lossless. The inductor has winding resistance `R_s`; the c
    where ω₀ = 2π·f₀ = 1/√(LC)
 ```
 
-A tank with `Q = 50` loses about 1.3% of its energy per cycle; `Q = 200` loses about 0.3%. The higher the Q, the sharper the resonance peak, the purer the oscillation frequency, and (critically for oscillators) the better the **phase noise** — random frequency jitter caused by thermal and shot noise perturbing the tank.
+A tank with `Q = 50` loses about 12.6% of its energy per cycle (2π/50); `Q = 200` loses about 3.1% (2π/200). The higher the Q, the sharper the resonance peak, the purer the oscillation frequency, and (critically for oscillators) the better the **phase noise** — random frequency jitter caused by thermal and shot noise perturbing the tank.
 
 Practical Q values for RF tanks:
 

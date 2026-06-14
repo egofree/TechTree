@@ -37,14 +37,14 @@ This thread maps directly onto the Forrest M. Mims III notebook sequence — *Ba
 
 | Article | Scope | Key circuits |
 |---------|-------|--------------|
-| diode-circuits | diode as nonlinear element | clipper, clamper, detector, protection |
-| transistor-switch-circuits | BJT/MOSFET as a switch | LED driver, relay driver, light-activated switch |
-| amplifier-fundamentals | small-signal amplification | common-emitter/source, biasing, coupling |
-| power-amplifiers | power-stage classes | class A/B/AB/D, efficiency, heat |
-| op-amp-circuits | op-amp feedback topologies | inverting, non-inverting, integrator, Schmitt, active filters |
-| multivibrator-circuits | regenerative timing | astable, monostable, bistable |
-| oscillator-circuits | frequency generation | RC phase-shift, Colpitts/Hartley, Wien-bridge, crystal (Pierce) |
-| timer-circuits | the 555 and its kin | astable, monostable, PWM, delay/flasher/tone |
+| [diode-circuits](analog-circuits.diode-circuits.md) | diode as nonlinear element | clipper, clamper, detector, protection |
+| [transistor-switch-circuits](analog-circuits.transistor-switch-circuits.md) | BJT/MOSFET as a switch | LED driver, relay driver, light-activated switch |
+| [amplifier-fundamentals](analog-circuits.amplifier-fundamentals.md) | small-signal amplification | common-emitter/source, biasing, coupling |
+| [power-amplifiers](analog-circuits.power-amplifiers.md) | power-stage classes | class A/B/AB/D, efficiency, heat |
+| [op-amp-circuits](analog-circuits.op-amp-circuits.md) | op-amp feedback topologies | inverting, non-inverting, integrator, Schmitt, active filters |
+| [multivibrator-circuits](analog-circuits.multivibrator-circuits.md) | regenerative timing | astable, monostable, bistable |
+| [oscillator-circuits](analog-circuits.oscillator-circuits.md) | frequency generation | RC phase-shift, Colpitts/Hartley, Wien-bridge, crystal (Pierce) |
+| [timer-circuits](analog-circuits.timer-circuits.md) | the 555 and its kin | astable, monostable, PWM, delay/flasher/tone |
 
 ## Cross-references
 

@@ -48,10 +48,10 @@ Optoelectronic circuits are the foundation for:
 
 This is the **overview hub**. The deep design articles — worked current-limiting calculations, transimpedance amplifier examples, optocoupler CTR tradeoffs, ASCII schematics, and parameter tables — live in the process-level articles that follow this capability:
 
-- LED-driver circuits (Mims *Optoelectronics* entry point)
-- Photodetector circuits
-- Optocoupler circuits (isolation design)
-- IR and fiber-optic signaling circuits
+- [LED-driver circuits](optoelectronic-circuits.led-driver-circuits.md) (Mims *Optoelectronics* entry point)
+- [Photodetector circuits](optoelectronic-circuits.photodetector-circuits.md)
+- [Optocoupler circuits](optoelectronic-circuits.optocoupler-circuits.md) (isolation design)
+- IR and fiber-optic signaling circuits (covered within the articles above)
 
 For the broader RF/wireless communications thread (modulation, RF oscillators, receivers), see [Communications Circuits](communications-circuits.md).
 

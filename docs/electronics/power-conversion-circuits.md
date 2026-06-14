@@ -17,9 +17,9 @@ This capability is the **design-pedagogy layer** for circuits that convert DC ba
 
 ## The Inverter→VFD Progression
 
-1. **Inverter circuits** — the DC→AC building block. An H-bridge of four switching devices (MOSFETs or IGBTs) chops the DC bus into a synthesized AC waveform via pulse-width modulation. Sinewave PWM (SPWM) compares a sinusoidal reference against a triangular carrier to produce a duty-cycle sequence whose average is a clean sine wave. Design concerns: switch selection, dead-time generation, gate-drive isolation, dv/dt management. *Article: inverter-circuits (forthcoming).*
+1. **Inverter circuits** — the DC→AC building block. An H-bridge of four switching devices (MOSFETs or IGBTs) chops the DC bus into a synthesized AC waveform via pulse-width modulation. Sinewave PWM (SPWM) compares a sinusoidal reference against a triangular carrier to produce a duty-cycle sequence whose average is a clean sine wave. Design concerns: switch selection, dead-time generation, gate-drive isolation, dv/dt management. *Article: [inverter-circuits](power-conversion-circuits.inverter-circuits.md).*
 
-2. **Variable-frequency drive (VFD)** — an inverter wrapped in the control architecture needed to spin an AC induction or PM motor at adjustable speed/frequency. A VFD chains a rectifier (AC mains → DC bus), a DC-bus capacitor bank, and a controlled inverter, governed by a V/f or field-oriented-control (FOC) loop. Design concerns: V/f ratio holding, carrier-frequency vs. efficiency tradeoff, bearing-current mitigation. *Article: vfd-motor-control (forthcoming).*
+2. **Variable-frequency drive (VFD)** — an inverter wrapped in the control architecture needed to spin an AC induction or PM motor at adjustable speed/frequency. A VFD chains a rectifier (AC mains → DC bus), a DC-bus capacitor bank, and a controlled inverter, governed by a V/f or field-oriented-control (FOC) loop. Design concerns: V/f ratio holding, carrier-frequency vs. efficiency tradeoff, bearing-current mitigation. *Article: [vfd-motor-control](power-conversion-circuits.vfd-motor-control.md).*
 
 ## Boundary with Power Electronics
 
@@ -31,7 +31,7 @@ This capability is **distinct from** [power-electronics](power-electronics.md):
 | Scope | H-bridge, SPWM, gate-drive, V/f & FOC design pedagogy | Rectifiers, inverters, DC-DC, motor drives, UPS as built systems |
 | Output | Design knowledge (inverter-circuit-design token) | Manufactured inverters, drives, UPS hardware |
 
-The VFD section currently consolidated under [power-electronics](power-electronics.md) will be migrated (expanded as design pedagogy) into this capability's forthcoming vfd-motor-control article, leaving a cross-link behind. Until then, treat power-electronics as the authoritative VFD reference and this capability as the analytical companion.
+The VFD section currently consolidated under [power-electronics](power-electronics.md) will be migrated (expanded as design pedagogy) into this capability's [vfd-motor-control](power-conversion-circuits.vfd-motor-control.md) article, leaving a cross-link behind. Until then, treat power-electronics as the authoritative VFD reference and this capability as the analytical companion.
 
 ## Prerequisites
 

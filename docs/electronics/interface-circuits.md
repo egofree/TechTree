@@ -35,9 +35,9 @@ First comes **conversion fundamentals** — what sampling and quantization mean,
 
 | Article | Scope | Key circuits |
 |---------|-------|--------------|
-| adc-circuits | analog → digital conversion | SAR, flash, dual-slope/integrating, sigma-delta |
-| dac-circuits | digital → analog conversion | R-2R ladder, weighted-resistor, string, PWM-as-DAC |
-| sensor-circuits | real-world signal conditioning | thermocouple/RTD cold-junction, strain-gauge bridge, light, pressure |
+| [adc-circuits](interface-circuits.adc-circuits.md) | analog → digital conversion | SAR, flash, dual-slope/integrating, sigma-delta |
+| [dac-circuits](interface-circuits.dac-circuits.md) | digital → analog conversion | R-2R ladder, weighted-resistor, string, PWM-as-DAC |
+| [sensor-circuits](interface-circuits.sensor-circuits.md) | real-world signal conditioning | thermocouple/RTD cold-junction, strain-gauge bridge, light, pressure |
 
 ## Cross-references
 

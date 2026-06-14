@@ -17,15 +17,15 @@ This capability is the **design-pedagogy layer** for the circuits that convert r
 
 ## The Three-Stage Progression
 
-1. **Rectifier** — converts AC to pulsating DC using diode topologies (half-wave, full-wave, bridge, polyphase). This is where [semiconductor-devices](semiconductor-devices.md) diode physics meets circuit topology. *Article: rectifier-circuits (forthcoming).*
+1. **Rectifier** — converts AC to pulsating DC using diode topologies (half-wave, full-wave, bridge, polyphase). This is where [semiconductor-devices](semiconductor-devices.md) diode physics meets circuit topology. *Article: [rectifier-circuits](power-supply-circuits.rectifier-circuits.md).*
 
-2. **Filter** — smooths the rectifier's pulsating waveform into a near-DC level with residual ripple, using passive LC networks (capacitor-input, π-section, choke-input). The design leverages [passive components](passive-components.md) and the reactance/impedance theory from AC analysis. *Article: filter-circuits (forthcoming).*
+2. **Filter** — smooths the rectifier's pulsating waveform into a near-DC level with residual ripple, using passive LC networks (capacitor-input, π-section, choke-input). The design leverages [passive components](passive-components.md) and the reactance/impedance theory from AC analysis. *Article: [filter-circuits](power-supply-circuits.filter-circuits.md).*
 
 3. **Regulator** — holds the output voltage (or current) constant against line and load variation. Two families:
    - **Linear regulators** — series/shunt pass elements, zener references, LDOs. Simple, low-noise, dissipative.
    - **Switching regulators** — buck, boost, buck-boost, flyback. High efficiency via PWM-controlled inductor energy transfer.
 
-   *Articles: linear-regulators, switching-regulators (forthcoming).*
+   *Articles: [linear-regulators](power-supply-circuits.linear-regulators.md), [switching-regulators](power-supply-circuits.switching-regulators.md).*
 
 ## Boundary with Power Electronics
 

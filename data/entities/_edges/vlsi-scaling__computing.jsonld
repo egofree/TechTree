@@ -1,9 +1,9 @@
 {
   "@context": "../../context.jsonld",
-  "@id": "edge/quality-control__computing",
+  "@id": "edge/vlsi-scaling__computing",
   "@type": "Dependency",
   "edgeType": "tool",
-  "flow": "byproduct-reuse",
-  "from": "quality-control",
+  "flow": "primary",
+  "from": "vlsi-scaling",
   "to": "computing"
 }

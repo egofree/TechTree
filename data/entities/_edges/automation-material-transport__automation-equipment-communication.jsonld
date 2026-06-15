@@ -3,7 +3,7 @@
   "@id": "edge/automation.material-transport__automation.equipment-communication",
   "@type": "Dependency",
   "edgeType": "tool",
-  "flow": "primary",
+  "flow": "byproduct-reuse",
   "from": "automation.material-transport",
   "to": "automation.equipment-communication"
 }

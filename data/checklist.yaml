@@ -1,6 +1,6 @@
 _schema_docs:
   version: bootciv-checklist-v1
-  description: 'Checklist of milestones for bootstrapping industrial civilization. Items use dotted hierarchical IDs (domain.capability.process) matching the ontology in nodes.json. The domain field is
+  description: 'Checklist of milestones for bootstrapping industrial civilization. Items use dotted hierarchical IDs (domain.capability.process) matching the ontology in per-entity JSON-LD files under data/entities/. The domain field is
     the top-level segment of the ID, provided as a convenience for filtering.
 
     '
@@ -8,7 +8,7 @@ _schema_docs:
 
     '
   fields:
-    id: Dotted hierarchical identifier (matches node IDs in nodes.json)
+    id: Dotted hierarchical identifier (matches entity IDs in per-entity JSON-LD files)
     name: Human-readable description of the milestone
     domain: Top-level domain (first segment of id, for convenience)
     metrics: Quantitative milestone criteria (optional)
@@ -271,9 +271,9 @@ tier_3_advanced:
   - id: photolithography.fab-processes
     name: First integrated circuits (SSI/MSI)
     domain: photolithography
-  - id: chemistry.packaging-testing
+  - id: electronics.packaging-testing
     name: Wafer packaging and testing
-    domain: chemistry
+    domain: electronics
   - id: computing
     name: Early computers from own ICs
     domain: computing

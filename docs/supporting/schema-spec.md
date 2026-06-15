@@ -484,6 +484,8 @@ The organizing axis is documented in the domain node's `description` or a dedica
 
 ### 6.5 Worked SIK Examples
 
+Full placement-test case studies are documented for [circular-economy](sik-circular-economy.md) (FAIL — cross-cutting pattern), [economics-organization](sik-economics-organization.md) (CONDITIONAL PASS — bootstrap override), and [software-bootstrapping](sik-software-bootstrapping.md) (PASS — boundary conflict with computing noted). The condensed examples below illustrate the test in operation.
+
 **Example 1: Glass production — should it stay in `metals`?**
 
 - Infrastructure overlap: Glass/lime production uses kilns and furnaces similar to smelting. ~60% overlap.
@@ -708,3 +710,6 @@ Unchanged. `from` = dependent, `to` = prerequisite. Direction convention: `from`
 | **Recyclable** | Lifecycle tag for nodes whose output material can be recovered and reprocessed after end of life |
 | **Recycled-feedstock** | Lifecycle tag for nodes that specifically process reclaimed/recycled material as primary input |
 | **Closed-loop** | Lifecycle tag for nodes where output material is designed to return to the same process chain |
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Supporting Docs](.) · [All Domains](../index.md)*

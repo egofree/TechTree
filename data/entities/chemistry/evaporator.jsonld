@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Concentration of liquid solutions by boiling off solvent (typically water) as vapor, leaving dissolved solids behind in a more concentrated liquid. Unlike distillation, evaporation removes bulk solvent rather than separating by boiling-point differences. Operates under vacuum to lower boiling point, reducing thermal degradation and improving efficiency. Multiple-effect arrangements use vapor from one effect as heating steam for the next, recovering 60-80% of latent heat (triple-effect: 0.4 kg steam per kg evaporated vs 1.1 kg single-effect). Four main configurations: forced-circulation (fouling/scaling fluids), falling-film (heat-sensitive products, 10-30 s residence time), long-tube vertical (simple), and wiped-film (viscous products). One of the most energy-intensive unit operations; replaceable by open-pan or solar evaporation at lower efficiency.",
+  "early_win": false,
+  "id": "chemistry.evaporator",
+  "level": "capability",
+  "name": "Evaporator",
+  "outputs": [
+    "distilled_water"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

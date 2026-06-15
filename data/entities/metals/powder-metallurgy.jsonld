@@ -10,8 +10,8 @@
   "outputs": [
     "tungsten_products",
     "cemented_carbides",
-    "PM_structural_parts",
-    "MIM_components",
+    "pm_structural_parts",
+    "mim_components",
     "additive_manufactured_parts"
   ],
   "parent": "metals",

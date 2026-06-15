@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Multi-stage fractional distillation column for separating liquid mixtures by boiling-point differences. Vapor rising from the reboiler contacts liquid descending from the condenser on trays or packing; at each contact the more volatile component transfers to vapor and the less volatile to liquid. Three internal configurations serve different duties: bubble-cap trays (high turndown), sieve trays (lowest cost, most common), and packed columns (lowest pressure drop, preferred for vacuum and heat-sensitive service). The most important separation apparatus in chemical manufacturing, responsible for 40-60% of capital cost in a typical plant; enables petroleum refining, solvent purification, and silicon chlorosilane separation.",
+  "early_win": false,
+  "id": "chemistry.distillation-column",
+  "level": "capability",
+  "name": "Distillation Column",
+  "outputs": [
+    "recovered_solvents"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

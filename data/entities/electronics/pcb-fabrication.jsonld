@@ -10,7 +10,8 @@
   "outputs": [
     "pcb_bare_boards",
     "copper_clad_laminate",
-    "etched_circuits"
+    "etched_circuits",
+    "tan_ta_diffusion_barriers"
   ],
   "parent": "electronics",
   "pinnacle": false,

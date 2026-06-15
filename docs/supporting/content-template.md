@@ -3,6 +3,7 @@
 > **Purpose**: Reference template for expanding tech-tree capability documents from stubs to workshop-manual depth. Defines the mandatory structure, minimum quality standard, and formatting conventions for all expanded content.
 > **Audience**: Content authors expanding capability files across all domains.
 > **Status**: Normative — all new and expanded content MUST conform to this template.
+> **Companion docs**: Use the [Article QA Checklist](article-qa-checklist.md) to verify expanded articles meet this standard. For equipment/machine construction articles (furnaces, presses, pumps), use the [Equipment Article Template](equipment-template.md) instead.
 
 ---
 
@@ -211,7 +212,7 @@ What to include:
 7. **Footer**: Close every file with the standard navigation link:
    ```
    ---
-   *Part of the [Bootciv Tech Tree](../../index.md) • [Domain Name](../spec/README.md) • [All Domains](../../index.md)*
+   *Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](../spec/README.md) • [All Domains](../index.md)*
    ```
 
 ---
@@ -442,4 +443,4 @@ Study the thermostat article first. It demonstrates every rule and pattern descr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Supporting Docs](./) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Supporting Docs](./) • [All Domains](../index.md)*

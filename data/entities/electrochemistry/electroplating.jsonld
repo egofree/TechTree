@@ -12,7 +12,8 @@
     "plated_nickel",
     "plated_gold",
     "plated_tin",
-    "copper_filled_vias"
+    "copper_filled_vias",
+    "enig_surfaces"
   ],
   "parent": "electrochemistry",
   "pinnacle": false,

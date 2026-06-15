@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Centrifugal separation of solids from liquids (or two immiscible liquids) by applying centrifugal force 500-15,000x gravity. Three configurations: disc-stack (fine particles, liquid-liquid), basket (batch, coarser particles), and decanter (continuous, high-solids slurries). Enables rapid clarification, catalyst recovery, and crystal harvesting that gravity settling cannot achieve economically.",
+  "early_win": false,
+  "id": "chemistry.centrifuge",
+  "level": "capability",
+  "name": "Centrifuge",
+  "outputs": [
+    "recovered_catalysts"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

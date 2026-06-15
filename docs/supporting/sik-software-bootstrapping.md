@@ -425,3 +425,6 @@ The software-bootstrapping split is even more strongly justified than the glass/
 - Result: Split (3/3 dimensions below 50%)
 
 The software-bootstrapping split is directly analogous to the plants/foundations split: the subgroup has its own distinct capabilities, its own knowledge base, and serves a fundamentally different purpose. Both are justified by clear SIK divergence plus sufficient domain size.
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Supporting Docs](.) · [All Domains](../index.md)*

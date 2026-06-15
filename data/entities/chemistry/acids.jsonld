@@ -12,7 +12,9 @@
     "nitric_acid",
     "hydrochloric_acid",
     "hydrofluoric_acid",
-    "oleum"
+    "oleum",
+    "contact_process_sulfuric_acid",
+    "vanadium_catalyst"
   ],
   "parent": "chemistry",
   "pinnacle": false,

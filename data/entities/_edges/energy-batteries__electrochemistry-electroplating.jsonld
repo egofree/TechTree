@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.batteries__electrochemistry.electroplating",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.batteries",
+  "to": "electrochemistry.electroplating",
+  "label": "Battery electrode fabrication builds on electrochemical cell and electrode preparation know-how"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Production of pure crystals from solution by controlled supersaturation via cooling, evaporation, or antisolvent addition. Three designs: cooling batch crystallizer (steep solubility curves), forced-circulation evaporative (flat curves, continuous), and draft-tube baffle with fines destruction (narrow size distribution). Primary purification method for solid chemical products including salts, fertilizers, and pharmaceuticals.",
+  "early_win": false,
+  "id": "chemistry.crystallizer",
+  "level": "capability",
+  "name": "Crystallizer",
+  "outputs": [
+    "salt"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

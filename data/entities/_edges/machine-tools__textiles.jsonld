@@ -3,7 +3,7 @@
   "@id": "edge/machine-tools__textiles",
   "@type": "Dependency",
   "edgeType": "tool",
-  "flow": "primary",
+  "flow": "byproduct-reuse",
   "from": "machine-tools",
   "to": "textiles"
 }

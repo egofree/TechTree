@@ -300,3 +300,6 @@ Per §6.4, every domain must declare an organizing axis. If the domain were to p
 **Axis: Process Chain** (collect → sort → process → reuse)
 
 This mirrors the material flow through recovery systems. However, the "process" step varies so dramatically (smelting for metals, grinding for slag, distillation for solvents) that the axis provides only superficial coherence. A process chain axis works when the underlying transformations are similar (as in `silicon`: MG-Si → purification → crystal growth → devices). Here, the transformations are unrelated.
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Supporting Docs](.) · [All Domains](../index.md)*

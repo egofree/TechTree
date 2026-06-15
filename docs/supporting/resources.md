@@ -111,4 +111,5 @@ Curated references for bootstrapping industrial civilization from first principl
 - [NIST Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/) (free online) — Practical statistics for measurement, process control, and experiment design. Critical for making manufacturing decisions based on data rather than guesswork.
 - [OpenStax Chemistry](https://openstax.org/details/books/chemistry-2e) (free textbook) — Complete general chemistry textbook suitable for self-study. Covers the fundamentals needed before tackling industrial chemistry or materials science.
 
-[← Back to Docs](../index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Supporting Docs](.) · [All Domains](../index.md)*

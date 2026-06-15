@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.haber-bosch__chemistry.electrolysis",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.haber-bosch",
+  "to": "chemistry.electrolysis",
+  "label": "Water electrolysis supplies high-purity hydrogen feedstock for ammonia synthesis"
+}

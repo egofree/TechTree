@@ -42,11 +42,30 @@ SCHEMA_DIR = DATA_DIR / "schema"
 ENTITIES_DIR = DATA_DIR / "entities"
 EDGES_DIR = ENTITIES_DIR / "_edges"
 PRODUCTS_DIR = DATA_DIR / "products"
+ARTICLE_ONLY_REGISTRY = DOCS_DIR / "supporting" / "article-only-registry.txt"
 
 # --- Closed vocabularies (from schema enums) ---
 
 # Non-primary flows exempt from DAG check (match validate.sh behavior)
 NON_PRIMARY_FLOWS = frozenset({"byproduct-reuse", "waste-recovery", "recycling-loop"})
+
+
+def load_article_only_registry():
+    """Load the set of registered article-only doc paths.
+
+    Docs listed in docs/supporting/article-only-registry.txt are reference
+    articles that intentionally have no backing JSON-LD entity. The
+    entity-doc sync check skips them so they don't register as failures.
+    """
+    if not ARTICLE_ONLY_REGISTRY.exists():
+        return set()
+    paths = set()
+    for line in ARTICLE_ONLY_REGISTRY.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        paths.add(line)
+    return paths
 
 
 # --- Check result ---
@@ -583,7 +602,14 @@ class Validator:
 
     def check_entity_doc_sync(self):
         """Check bidirectional sync between entities and docs for
-        capability/process level."""
+        capability/process level.
+
+        Supports two doc-naming conventions resulting from the rename
+        migration (prefix.X.md → X.md):
+        - Canonical (last segment):  entity `d.a.b` → doc `docs/d/b.md`
+        - Legacy dotted (full name): entity `d.a.b` → doc `docs/d/a.b.md`
+        An entity passes if a doc exists under EITHER convention.
+        """
         errors = []
         missing_docs = 0
         missing_entities = 0
@@ -602,31 +628,57 @@ class Validator:
                     name = md_file.stem
                     doc_files[(domain_dir.name, name)] = md_file
 
+        # Pre-compute reverse lookups: doc stem → does any entity match?
+        # Canonical: (domain, last_segment)  Legacy: (domain, full_dotted_name)
+        entity_doc_keys = set()
+        for eid, entity in self.entities.items():
+            if entity.get("level", "") == "domain":
+                continue
+            parts = eid.split(".")
+            if len(parts) < 2:
+                continue
+            domain = parts[0]
+            entity_doc_keys.add((domain, parts[-1]))            # canonical
+            entity_doc_keys.add((domain, ".".join(parts[1:])))  # legacy dotted
+
         # Check each non-domain entity has a corresponding doc
         for eid, entity in sorted(self.entities.items()):
             level = entity.get("level", "")
             if level == "domain":
                 continue
-            parts = eid.split(".", 1)
+            parts = eid.split(".")
             if len(parts) < 2:
                 continue
             domain = parts[0]
-            name = parts[1]
-            if (domain, name) not in doc_files:
+            canonical_key = (domain, parts[-1])
+            legacy_key = (domain, ".".join(parts[1:]))
+            if canonical_key not in doc_files and legacy_key not in doc_files:
                 errors.append(f"entity without doc: {eid}")
                 missing_docs += 1
 
         # Check each doc has a corresponding entity
+        article_only = load_article_only_registry()
+        skipped_article_only = 0
         for (domain, name), md_path in sorted(doc_files.items()):
-            eid = f"{domain}.{name}"
-            if eid not in self.entities:
+            if (domain, name) not in entity_doc_keys:
+                doc_rel = f"docs/{domain}/{name}.md"
+                if doc_rel in article_only:
+                    skipped_article_only += 1
+                    continue  # registered article-only reference page
                 errors.append(f"doc without entity: docs/{domain}/{name}.md")
                 missing_entities += 1
 
         if self.verbose:
             print(
                 f"       (missing docs: {missing_docs}, "
-                f"missing entities: {missing_entities})",
+                f"missing entities: {missing_entities}, "
+                f"article-only skipped: {skipped_article_only})",
+                file=sys.stderr,
+            )
+        elif skipped_article_only:
+            print(
+                f"       (skipping {skipped_article_only} article-only docs "
+                f"registered in docs/supporting/article-only-registry.txt)",
                 file=sys.stderr,
             )
 

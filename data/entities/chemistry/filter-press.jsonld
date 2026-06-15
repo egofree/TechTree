@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Pressure-driven solid-liquid separation via plate-and-frame or recessed chamber filter press. Slurry is pumped at 5-15 bar into chambers formed between cloth-covered plates; solids accumulate as filter cake (30-60% solids by weight) while clear filtrate (under 50 NTU) drains through the cloth. Three variants cover the duty range: recessed chamber (most common), plate-and-frame (versatile, easy cloth change), and membrane squeeze (inflatable diaphragm achieves up to 70% solids). The lowest-cost option for batch solid-liquid separation at 1-50 m³ per cycle; enables sludge dewatering, catalyst recovery, and crystal harvesting.",
+  "early_win": false,
+  "id": "chemistry.filter-press",
+  "level": "capability",
+  "name": "Filter Press",
+  "outputs": [
+    "filtered_water"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

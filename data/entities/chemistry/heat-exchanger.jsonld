@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Thermal energy transfer between two fluid streams separated by a solid wall, governed by Q = U x A x LMTD. Three principal configurations: shell-and-tube (handles 300 bar and 600C, 70% of industrial installations), plate (highest coefficient 3,000-7,000 W/m2-K, compact, limited to 25 bar and 200C), and double-pipe (simplest, small duties). Proper heat integration using hot process streams to heat cold ones reduces plant energy consumption by 30-50%. Counter-current flow maximizes the log mean temperature difference. Enables distillation condensers/reboilers, reactor jacket heating, feed preheating, and waste heat recovery across every chemical process.",
+  "early_win": false,
+  "id": "chemistry.heat-exchanger",
+  "level": "capability",
+  "name": "Heat Exchanger",
+  "outputs": [
+    "steam"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

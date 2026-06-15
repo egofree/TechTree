@@ -1,0 +1,210 @@
+# Article-only registry
+# Docs listed here are reference articles with no backing JSON-LD entity.
+# The validator (check_entity_doc_sync) skips these when checking doc->entity sync.
+# One relative repo path per line. Lines starting with '#' are comments.
+# Do NOT remove entries without creating a corresponding entity file.
+# Total: 163 article-only docs across 20 domains.
+
+# chemistry (5)
+docs/chemistry/sem-tech-acid-regeneration.md
+docs/chemistry/sem-tech-e-methanol.md
+docs/chemistry/sem-tech-electrodialysis.md
+docs/chemistry/sem-tech-lithium-separation.md
+docs/chemistry/sem-tech-water-electrolysis.md
+
+# construction (3)
+docs/construction/concrete-mixer.md
+docs/construction/crane.md
+docs/construction/hoist-winch.md
+
+# cryogenics (1)
+docs/cryogenics/dewar.md
+
+# electrochemistry (1)
+docs/electrochemistry/dc-rectifier.md
+
+# electronics (2)
+docs/electronics/soldering-iron.md
+docs/electronics/test-equipment.md
+
+# energy (4)
+docs/energy/electric-motor.md
+docs/energy/sem-tech-blue-energy.md
+docs/energy/sem-tech-fuel-cells.md
+docs/energy/solar-collector.md
+
+# food-processing (2)
+docs/food-processing/cream-separator.md
+docs/food-processing/seed-press.md
+
+# gas-handling (2)
+docs/gas-handling/compressor.md
+docs/gas-handling/vacuum.md
+
+# glass (2)
+docs/glass/advanced-glassblowing.md
+docs/glass/glass-recycling.md
+
+# health (1)
+docs/health/water-treatment.md
+
+# machine-tools (13)
+docs/machine-tools/anvil.md
+docs/machine-tools/blow-molding-equipment.md
+docs/machine-tools/compression-press.md
+docs/machine-tools/extruder.md
+docs/machine-tools/forge-hammer.md
+docs/machine-tools/foundry-equipment.md
+docs/machine-tools/hydraulic-press.md
+docs/machine-tools/injection-molding-machine.md
+docs/machine-tools/rolling-mill.md
+docs/machine-tools/sheet-metal-brake.md
+docs/machine-tools/thermoforming-equipment.md
+docs/machine-tools/welding-equipment.md
+docs/machine-tools/wire-drawing-die.md
+
+# measurement (1)
+docs/measurement/thermostat.md
+
+# metals (1)
+docs/metals/refractory-metals.md
+
+# photolithography (5)
+docs/photolithography/cvd-reactor.md
+docs/photolithography/ion-implanter.md
+docs/photolithography/photolithography-stepper.md
+docs/photolithography/plasma-etcher.md
+docs/photolithography/sputtering-system.md
+
+# plants (104)
+docs/plants/acacia-mearnsii.md
+docs/plants/acacia-senegal.md
+docs/plants/alnus-glutinosa.md
+docs/plants/apple.md
+docs/plants/artemisia-annua.md
+docs/plants/azadirachta-indica.md
+docs/plants/barley.md
+docs/plants/beet.md
+docs/plants/betula-pendula.md
+docs/plants/black-pepper.md
+docs/plants/broussonetia-papyrifera.md
+docs/plants/buckwheat.md
+docs/plants/cabbage.md
+docs/plants/cacao.md
+docs/plants/carrot.md
+docs/plants/cassava.md
+docs/plants/castor.md
+docs/plants/chickpea.md
+docs/plants/chili-pepper.md
+docs/plants/chrysanthemum-cinerariifolium.md
+docs/plants/cinchona-officinalis.md
+docs/plants/coconut.md
+docs/plants/cocoyam.md
+docs/plants/coffee.md
+docs/plants/common-bean.md
+docs/plants/cotton.md
+docs/plants/cowpea.md
+docs/plants/crotalaria-juncea.md
+docs/plants/digitalis-purpurea.md
+docs/plants/einkorn-wheat.md
+docs/plants/ephedra-sinica.md
+docs/plants/fava-bean.md
+docs/plants/ficus-elastica.md
+docs/plants/fig.md
+docs/plants/finger-millet.md
+docs/plants/flax.md
+docs/plants/foxtail-millet.md
+docs/plants/fraxinus-excelsior.md
+docs/plants/garden-pea.md
+docs/plants/garlic.md
+docs/plants/ginger.md
+docs/plants/grape.md
+docs/plants/hazel.md
+docs/plants/hemp.md
+docs/plants/indigofera-tinctoria.md
+docs/plants/isatis-tinctoria.md
+docs/plants/jerusalem-artichoke.md
+docs/plants/jicama.md
+docs/plants/jute.md
+docs/plants/kenaf.md
+docs/plants/lentil.md
+docs/plants/lesser-yam.md
+docs/plants/maize.md
+docs/plants/mango.md
+docs/plants/moringa.md
+docs/plants/musa-textilis.md
+docs/plants/oat.md
+docs/plants/oil-palm.md
+docs/plants/olive.md
+docs/plants/onion.md
+docs/plants/opium-poppy.md
+docs/plants/parthenium-argentatum.md
+docs/plants/peanut.md
+docs/plants/pearl-millet.md
+docs/plants/phormium-tenax.md
+docs/plants/phyllostachys-edulis.md
+docs/plants/pinus-sylvestris.md
+docs/plants/plantain.md
+docs/plants/potato.md
+docs/plants/proso-millet.md
+docs/plants/quercus-robur.md
+docs/plants/quinoa.md
+docs/plants/ramie.md
+docs/plants/rapeseed.md
+docs/plants/rhus-coraria.md
+docs/plants/rice.md
+docs/plants/rubber-tree.md
+docs/plants/rubia-tinctorum.md
+docs/plants/rye.md
+docs/plants/safflower.md
+docs/plants/salix-alba.md
+docs/plants/schinopsis-lorentzii.md
+docs/plants/sesame.md
+docs/plants/sisal.md
+docs/plants/sorghum.md
+docs/plants/soybean.md
+docs/plants/squash.md
+docs/plants/sunflower.md
+docs/plants/sweet-chestnut.md
+docs/plants/sweet-potato.md
+docs/plants/taro.md
+docs/plants/tea.md
+docs/plants/tectona-grandis.md
+docs/plants/teff.md
+docs/plants/tobacco.md
+docs/plants/turmeric.md
+docs/plants/ulmus-minor.md
+docs/plants/vernicia-fordii.md
+docs/plants/walnut.md
+docs/plants/water-yam.md
+docs/plants/wheat.md
+docs/plants/white-lupin.md
+docs/plants/wild-tomato.md
+docs/plants/winter-squash.md
+
+# quality-control (1)
+docs/quality-control/statistical-process-control.md
+
+# textiles (5)
+docs/textiles/carding-machine.md
+docs/textiles/power-loom.md
+docs/textiles/spinning-frame-mule.md
+docs/textiles/spinning-frame-ring.md
+docs/textiles/spinning-frame-water.md
+
+# transport (2)
+docs/transport/light-aircraft.md
+docs/transport/road-construction-equipment.md
+
+# vlsi-scaling (2)
+docs/vlsi-scaling/lithography.md
+docs/vlsi-scaling/vacuum-systems.md
+
+# water (6)
+docs/water/centrifugal-pump.md
+docs/water/filtration-equipment.md
+docs/water/pipe-fabrication.md
+docs/water/positive-displacement-pump.md
+docs/water/sem-tech-water-treatment.md
+docs/water/water-valves.md
+

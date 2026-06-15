@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Sealed pressure vessel for conducting chemical reactions under controlled temperature, pressure, agitation, and residence time. Three principal designs: batch stirred-tank (versatile, most common, 50-10,000 L), continuous stirred-tank CSTR (steady-state, large single-product streams), and plug flow PFR (tubular, no back-mixing, highest conversion per unit volume). Performance governed by reaction kinetics, thermodynamics, and heat transfer through the jacket (U 200-500 W/m2-K). Wall thickness per ASME Section VIII: t = (P x R) / (S x E - 0.6 x P). The fundamental unit of chemical manufacturing; every batch reaction, fermentation, acid digestion, and synthesis requires one.",
+  "early_win": false,
+  "id": "chemistry.reactor-vessel",
+  "level": "capability",
+  "name": "Reactor Vessel",
+  "outputs": [
+    "chlor_alkali_caustic"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

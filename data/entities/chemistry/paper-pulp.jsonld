@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Chemical pulping of wood fiber to separate cellulose from lignin. Kraft (sulfate) process cooks wood chips in white liquor (NaOH + Na2S) at 160-180C and 0.6-1.0 MPa, achieving >90% lignin removal with chemical recovery via black liquor combustion. Sulfite process uses acid sulfite cooking liquor (Ca/Mg/Na bisulfite with free SO2) at 125-145C. Fourdrinier paper machine forms, presses, and dries the cellulose mat into continuous paper sheet. Enables packaging, printing, filtration, and electrical insulation paper.",
+  "early_win": false,
+  "id": "chemistry.paper-pulp",
+  "level": "capability",
+  "name": "Paper & Pulp Production",
+  "outputs": [
+    "paper"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "wood",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-35"
+}

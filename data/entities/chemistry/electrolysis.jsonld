@@ -14,7 +14,9 @@
     "oxygen",
     "aluminum",
     "caustic_soda",
-    "pure_copper"
+    "pure_copper",
+    "electrolytic_hydrogen",
+    "electrolytic_oxygen"
   ],
   "parent": "chemistry",
   "pinnacle": false,

@@ -10,7 +10,9 @@
   "outputs": [
     "cast_iron_parts",
     "cast_aluminum_parts",
-    "sand_molds"
+    "sand_molds",
+    "castings",
+    "ingots"
   ],
   "parent": "metals",
   "pinnacle": false,

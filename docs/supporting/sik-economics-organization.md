@@ -309,3 +309,6 @@ The `economics-organization` domain is **approved for inclusion** in the technol
 - Add edges to `data/edges.json`
 - Regenerate diagrams via `scripts/generate-diagrams.sh`
 - Run `scripts/validate.sh` to verify data integrity
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Supporting Docs](.) · [All Domains](../index.md)*

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.paper-pulp__chemistry.acids",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.paper-pulp",
+  "to": "chemistry.acids",
+  "label": "Sulfite pulping process consumes sulfurous acid / bisulfite cooking liquor derived from SO2"
+}

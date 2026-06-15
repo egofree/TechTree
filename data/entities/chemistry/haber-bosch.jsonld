@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Catalytic synthesis of ammonia from nitrogen and hydrogen (N2 + 3H2 -> 2NH3) over promoted iron catalyst (Fe with K2O, Al2O3, CaO promoters) at 400-500C and 15-30 MPa (150-300 bar). Exothermic equilibrium-limited reaction (ΔH = -92 kJ/mol) requiring high pressure to shift conversion toward ammonia. Hydrogen feedstock from steam methane reforming or water electrolysis. Synthesis loop with ammonia condensation and unreacted gas recycle. Feeds roughly half the world's population via nitrogen fertilizer (ammonium nitrate, urea).",
+  "early_win": false,
+  "id": "chemistry.haber-bosch",
+  "level": "capability",
+  "name": "Haber-Bosch Ammonia Synthesis",
+  "outputs": [
+    "ammonia"
+  ],
+  "parent": "chemistry",
+  "pinnacle": true,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "gases"
+    ],
+    "pinnacle": true
+  },
+  "timeline": "Years 25-50"
+}

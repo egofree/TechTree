@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Electrochemical energy storage. Lead-acid battery (Plante 1859): Pb anode, PbO2 cathode, 37% H2SO4 electrolyte, 2.0 V/cell nominal, 30-50 Wh/kg, robust and recyclable (>95% lead recovery). Nickel-iron (Edison): 1.2 V/cell, survives deep discharge. Later lithium-ion: graphite anode, layered metal-oxide cathode (LiCoO2, LiFePO4), non-aqueous electrolyte, 3.6 V/cell, 150-250 Wh/kg. Enables off-grid power, telecom backup, vehicle starting, and portable electronics.",
+  "early_win": true,
+  "id": "energy.batteries",
+  "level": "capability",
+  "name": "Battery & Electrochemical Storage",
+  "outputs": [
+    "lead_acid_batteries"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": true,
+    "early-win": true,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50"
+}

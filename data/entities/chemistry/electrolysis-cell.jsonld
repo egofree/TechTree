@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Industrial electrolysis cell driving non-spontaneous reactions via DC current between two electrodes in an electrolyte. Anode oxidizes species, cathode reduces them; operating voltage exceeds the thermodynamic reversible potential by overpotentials and ohmic losses. Three chlor-alkali designs: diaphragm cells (asbestos or polymer separator, simplest, tolerates impure brine), membrane cells (ion-exchange membrane, most energy-efficient, requires ultra-pure brine), and mercury cells (liquid cathode, phased out for pollution). Also covers alkaline water electrolysis for hydrogen production. Produces chlorine, hydrogen, and NaOH simultaneously; among the most electricity-intensive industrial equipment.",
+  "early_win": false,
+  "id": "chemistry.electrolysis-cell",
+  "level": "capability",
+  "name": "Electrolysis Cell",
+  "outputs": [
+    "chlorine"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

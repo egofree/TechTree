@@ -14,23 +14,31 @@ graph TD
         chemistry_ammonia["Ammonia & Fertilizer Production"]
         chemistry_bleaching["Bleaching & Chlorine Chemistry"]
         chemistry_cement["Cement & Concrete"]
+        chemistry_centrifuge["Centrifuge"]
         chemistry_chemical-recovery["Chemical Recovery & Solvent Regeneration"]
         chemistry_coatings["Paints, Coatings & Inks"]
+        chemistry_crystallizer["Crystallizer"]
+        chemistry_distillation-column["Distillation Column"]
         chemistry_distillation["Distillation"]
         chemistry_dopant-etch-gases["Dopant & Etch Gases"]
         chemistry_e-methanol["E-Methanol Synthesis"]
         chemistry_electrodialysis["Electrodialysis"]
+        chemistry_electrolysis-cell["Electrolysis Cell"]
         chemistry_electrolysis_chlor-alkali["Chlor-Alkali Process"]
         chemistry_electrolysis["Electrolysis"]
         chemistry_electrolysis_sem-tech["Semiconductor-Grade Electrolysis"]
         chemistry_electrolysis_thermochemical-water-splitting["Thermochemical Water Splitting"]
+        chemistry_evaporator["Evaporator"]
         chemistry_explosives_black-powder["Black Powder Manufacture"]
         chemistry_explosives_detonation-blasting["Detonation & Blasting Systems"]
         chemistry_explosives_high-explosives["High Explosives (TNT, RDX, ANFO)"]
         chemistry_explosives["Explosives and Propellants"]
         chemistry_explosives_nitrocellulose["Nitrocellulose & Smokeless Powders"]
         chemistry_explosives_nitroglycerin-dynamite["Nitroglycerin & Dynamite"]
+        chemistry_filter-press["Filter Press"]
         chemistry_flux["Flux Production"]
+        chemistry_haber-bosch["Haber-Bosch Ammonia Synthesis"]
+        chemistry_heat-exchanger["Heat Exchanger"]
         chemistry_hydrogen-silane["Hydrogen & Silane Production"]
         chemistry_lithium-separation["Lithium Separation"]
         chemistry_lubricants-grease-solid["Grease, Solid Lubricants & Bearing Lubrication"]
@@ -40,6 +48,7 @@ graph TD
         chemistry_lubricants["Lubricants, Oils & Fluid Mechanics"]
         chemistry_packaging-testing["Analytical Testing & Pharmaceutical Packaging"]
         chemistry_paint["Paint & Coating Manufacturing"]
+        chemistry_paper-pulp["Paper & Pulp Production"]
         chemistry_petroleum-alternatives_fermentation["Fermentation Chemistry"]
         chemistry_petroleum-alternatives["Petroleum & Alternative Chemistry"]
         chemistry_petroleum-alternatives_wood-gasification["Wood Gasification"]
@@ -47,6 +56,7 @@ graph TD
         chemistry_photographic-chemistry["Photographic Chemistry"]
         chemistry_potash["Potash Production"]
         chemistry_pulp-chemicals["Pulp & Paper Chemicals"]
+        chemistry_reactor-vessel["Reactor Vessel"]
         chemistry_refractories["Refractory Materials"]
         chemistry_semiconductor-chemicals["Semiconductor Process Chemicals"]
         chemistry_soap["Soap & Detergent Production"]
@@ -131,6 +141,7 @@ graph TD
     metals_copper-refining("Copper Refining")
     metals_finishing("Metal Finishing & Surface Treatment")
     metals_forming("Primary Metal Forming")
+    metals_iron-steel("Iron & Steel Production")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     metals_non-ferrous("Non-Ferrous Metal Production")
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
@@ -205,6 +216,7 @@ graph TD
     chemistry_explosives_nitroglycerin-dynamite --> chemistry_explosives
     chemistry_explosives_nitroglycerin-dynamite --> chemistry_soap
     chemistry_explosives --> chemistry_alkalis
+    chemistry_haber-bosch --> chemistry_electrolysis
     chemistry_hydrogen-silane --> chemistry_electrolysis
     chemistry_lubricants-grease-solid --> chemistry_alkalis
     chemistry_lubricants-grease-solid --> chemistry_lubricants-natural
@@ -214,6 +226,7 @@ graph TD
     chemistry_lubricants-synthetic --> chemistry_petroleum-alternatives
     chemistry_lubricants --> chemistry_petroleum-alternatives
     chemistry_paint --> chemistry_coatings
+    chemistry_paper-pulp --> chemistry_acids
     chemistry_petroleum-alternatives_fermentation -.-> chemistry_petroleum-alternatives
     chemistry_petroleum-alternatives_wood-gasification -.-> chemistry_petroleum-alternatives
     chemistry_phosphorus --> chemistry_acids
@@ -249,20 +262,27 @@ graph TD
     chemistry_cement -.-> ceramics_kilns
     chemistry_cement --> energy_fuels_coal
     chemistry_cement --> metals_iron-steel_blast-furnace
+    chemistry_centrifuge --> metals_iron-steel
+    chemistry_crystallizer --> metals_iron-steel
+    chemistry_distillation-column --> metals_iron-steel
     chemistry_e-methanol --> energy
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
     chemistry_electrodialysis -.-> energy_blue-energy
     chemistry_electrodialysis -.-> water_desalination
+    chemistry_electrolysis-cell --> metals_iron-steel
     chemistry_electrolysis -.-> energy_fuel-cell
     chemistry_electrolysis -.-> energy_redox-flow-battery
     chemistry_electrolysis -.-> glass_advanced_glassblowing
     chemistry_electrolysis --> mining_salt
+    chemistry_evaporator --> metals_iron-steel
     chemistry_explosives_black-powder --> energy_fuels_charcoal
     chemistry_explosives_black-powder -.-> mining_extraction
     chemistry_explosives_detonation-blasting -.-> mining
     chemistry_explosives --> animals_poultry_pigeons
     chemistry_explosives --> energy_fuels_charcoal
+    chemistry_filter-press --> metals_iron-steel
     chemistry_flux --> mining
+    chemistry_heat-exchanger --> metals_iron-steel
     chemistry_hydrogen-silane -.-> gas-handling_basic
     chemistry_lubricants-natural --> animals_animal-materials
     chemistry_lubricants-natural -.-> foundations
@@ -278,11 +298,13 @@ graph TD
     chemistry_phosphorus --> mining
     chemistry_photographic-chemistry -.-> knowledge
     chemistry_potash --> foundations
+    chemistry_reactor-vessel --> metals_iron-steel
     chemistry_refractories -.-> ceramics_kilns
     chemistry_soap --> metals_non-ferrous
     chemistry_water-electrolysis --> energy_fuel-cell
     chemistry_water-treatment --> water_sewage
     chemistry --> energy
+    chemistry -.-> machine-tools
     chemistry -.-> metals
     cleanrooms --> chemistry
     construction -.-> chemistry_adhesives-coatings
@@ -417,23 +439,31 @@ graph TD
     class chemistry_ammonia critical
     class chemistry_bleaching capability
     class chemistry_cement capability
+    class chemistry_centrifuge capability
     class chemistry_chemical-recovery capability
     class chemistry_coatings capability
+    class chemistry_crystallizer capability
+    class chemistry_distillation-column critical
     class chemistry_distillation capability
     class chemistry_dopant-etch-gases capability
     class chemistry_e-methanol capability
     class chemistry_electrodialysis capability
+    class chemistry_electrolysis-cell critical
     class chemistry_electrolysis_chlor-alkali process
     class chemistry_electrolysis capability
     class chemistry_electrolysis_sem-tech process
     class chemistry_electrolysis_thermochemical-water-splitting process
+    class chemistry_evaporator capability
     class chemistry_explosives_black-powder process
     class chemistry_explosives_detonation-blasting process
     class chemistry_explosives_high-explosives process
     class chemistry_explosives capability
     class chemistry_explosives_nitrocellulose process
     class chemistry_explosives_nitroglycerin-dynamite process
+    class chemistry_filter-press capability
     class chemistry_flux capability
+    class chemistry_haber-bosch pinnacle
+    class chemistry_heat-exchanger capability
     class chemistry_hydrogen-silane capability
     class chemistry_lithium-separation capability
     class chemistry_lubricants-grease-solid capability
@@ -443,6 +473,7 @@ graph TD
     class chemistry_lubricants critical
     class chemistry_packaging-testing earlyWin
     class chemistry_paint capability
+    class chemistry_paper-pulp critical
     class chemistry_petroleum-alternatives_fermentation process
     class chemistry_petroleum-alternatives capability
     class chemistry_petroleum-alternatives_wood-gasification process
@@ -450,6 +481,7 @@ graph TD
     class chemistry_photographic-chemistry capability
     class chemistry_potash capability
     class chemistry_pulp-chemicals capability
+    class chemistry_reactor-vessel critical
     class chemistry_refractories earlyWin
     class chemistry_semiconductor-chemicals capability
     class chemistry_soap earlyWin
@@ -528,6 +560,7 @@ graph TD
     class metals_copper-refining external
     class metals_finishing external
     class metals_forming external
+    class metals_iron-steel external
     class metals_iron-steel_blast-furnace external
     class metals_non-ferrous external
     class metals_powder-metallurgy external

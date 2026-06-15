@@ -67,6 +67,7 @@ graph TD
     chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
     chemistry_electrolysis("Electrolysis")
+    computing("Computing & Automation")
     computing_electronic("Electronic Computing")
     computing_embedded-systems("Embedded Systems")
     energy_electricity("Electricity Generation & Distribution")
@@ -80,6 +81,7 @@ graph TD
     metals_copper-refining("Copper Refining")
     metals_precious-metals("Precious Metal Production (Gold & Silver)")
     metals_rare-earths("Rare Earth and Specialty Elements")
+    photolithography("Photolithography & IC Fabrication")
     photolithography_fab-processes("Core Fab Processes")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
@@ -88,6 +90,7 @@ graph TD
 
     %% ==================== EDGES ====================
     electronics_analog-circuits_amplifier-fundamentals -.-> electronics_analog-circuits_transistor-switch-circuits
+    electronics_analog-circuits_amplifier-fundamentals -.-> electronics_circuit-fundamentals_ac-analysis
     electronics_analog-circuits_amplifier-fundamentals -.-> electronics_passive-components
     electronics_analog-circuits_amplifier-fundamentals -.-> electronics_semiconductor-devices
     electronics_analog-circuits_diode-circuits -.-> electronics_passive-components
@@ -197,6 +200,7 @@ graph TD
     automation_equipment-communication -.-> electronics
     automation -.-> electronics
     computing_electronic -.-> electronics_assembly
+    computing --> electronics
     electronics_assembly --> glass_fibers
     electronics_assembly --> polymers_thermosets
     electronics_assembly --> silicon_basic-devices
@@ -214,6 +218,7 @@ graph TD
     electronics --> metals_copper-refining
     electronics --> metals_rare-earths
     electronics --> metals
+    electronics -.-> photolithography
     energy_electricity --> electronics_wire-insulation
     energy_photovoltaics -.-> electronics_power-electronics
     measurement_thermostat-electrical -.-> electronics
@@ -292,6 +297,7 @@ graph TD
     class chemistry external
     class chemistry_acids external
     class chemistry_electrolysis external
+    class computing external
     class computing_electronic external
     class computing_embedded-systems external
     class energy_electricity external
@@ -305,6 +311,7 @@ graph TD
     class metals_copper-refining external
     class metals_precious-metals external
     class metals_rare-earths external
+    class photolithography external
     class photolithography_fab-processes external
     class polymers_thermoplastics external
     class polymers_thermosets external

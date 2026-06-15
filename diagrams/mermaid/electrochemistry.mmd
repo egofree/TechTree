@@ -17,6 +17,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry_acids("Mineral Acid Production")
     chemistry_electrolysis("Electrolysis")
+    energy_batteries("Battery & Electrochemical Storage")
     energy_electricity("Electricity Generation & Distribution")
     metals_aluminum("Aluminum Production")
     metals_finishing("Metal Finishing & Surface Treatment")
@@ -30,6 +31,7 @@ graph TD
     electrochemistry -.-> chemistry_electrolysis
     electrochemistry -.-> energy_electricity
     electrochemistry -.-> metals_finishing
+    energy_batteries -.-> electrochemistry_electroplating
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -52,6 +54,7 @@ graph TD
     class electrochemistry_electroplating capability
     class chemistry_acids external
     class chemistry_electrolysis external
+    class energy_batteries external
     class energy_electricity external
     class metals_aluminum external
     class metals_finishing external

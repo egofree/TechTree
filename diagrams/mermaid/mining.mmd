@@ -22,6 +22,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     animals_draft-power("Animal Draft Power & Harnessing")
     ceramics_advanced-ceramics("Advanced Ceramics & Refractories")
+    ceramics_ceramic-recycling("Ceramic & Refractory Recycling")
     chemistry_acids("Mineral Acid Production")
     chemistry_electrolysis("Electrolysis")
     chemistry_explosives("Explosives and Propellants")
@@ -59,6 +60,7 @@ graph TD
     mining_tailings-reprocessing -.-> mining_processing
     mining_ventilation -.-> mining
     ceramics_advanced-ceramics --> mining
+    ceramics_ceramic-recycling -.-> mining
     chemistry_acids --> mining_sulfur-extraction
     chemistry_acids --> mining
     chemistry_electrolysis --> mining_salt
@@ -118,6 +120,7 @@ graph TD
     class mining_ventilation capability
     class animals_draft-power external
     class ceramics_advanced-ceramics external
+    class ceramics_ceramic-recycling external
     class chemistry_acids external
     class chemistry_electrolysis external
     class chemistry_explosives external

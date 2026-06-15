@@ -28,6 +28,7 @@ graph TD
     cleanrooms("Clean Room Technology")
     computing_electronic("Electronic Computing")
     economics-organization_supply-chain("Supply Chain Coordination")
+    electronics("Electronics")
     electronics_packaging-testing("Semiconductor Packaging & Testing")
     energy_electricity("Electricity Generation & Distribution")
     gas-handling("Gas Handling")
@@ -58,6 +59,7 @@ graph TD
     chemistry_packaging-testing --> photolithography_fab-processes
     computing_electronic --> photolithography_fab-processes
     electronics_packaging-testing --> photolithography_fab-processes
+    electronics -.-> photolithography
     glass_photomask-substrates --> photolithography_fab-processes
     metals_specialty-semiconductor --> photolithography_fab-processes
     photolithography_cleanrooms -.-> ceramics
@@ -133,6 +135,7 @@ graph TD
     class cleanrooms external
     class computing_electronic external
     class economics-organization_supply-chain external
+    class electronics external
     class electronics_packaging-testing external
     class energy_electricity external
     class gas-handling external

@@ -6,6 +6,7 @@ graph TD
     subgraph ceramics_internal ["Ceramics & Refractories — Internal Structure"]
         direction TB
         ceramics_advanced-ceramics["Advanced Ceramics & Refractories"]
+        ceramics_ceramic-recycling["Ceramic & Refractory Recycling"]
         ceramics_electronic-ceramics["Electronic Ceramics"]
         ceramics_kilns["Kiln Construction"]
         ceramics_lime["Lime Production"]
@@ -49,11 +50,15 @@ graph TD
     %% ==================== EDGES ====================
     ceramics_advanced-ceramics -.-> ceramics_kilns
     ceramics_advanced-ceramics -.-> ceramics_pottery
+    ceramics_ceramic-recycling -.-> ceramics_advanced-ceramics
+    ceramics_ceramic-recycling -.-> ceramics_kilns
+    ceramics_ceramic-recycling -.-> ceramics_pottery
     ceramics_electronic-ceramics -.-> ceramics_advanced-ceramics
     ceramics_lime -.-> ceramics_kilns
     ceramics_thermal-insulation --> ceramics
     animals_animal-materials -.-> ceramics_lime
     ceramics_advanced-ceramics --> mining
+    ceramics_ceramic-recycling -.-> mining
     ceramics_electronic-ceramics --> chemistry
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
     ceramics_pottery --> foundations_fire
@@ -96,6 +101,7 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class ceramics domain
     class ceramics_advanced-ceramics critical
+    class ceramics_ceramic-recycling capability
     class ceramics_electronic-ceramics capability
     class ceramics_kilns capability
     class ceramics_lime capability

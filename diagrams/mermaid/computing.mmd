@@ -21,6 +21,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     automation("Automation & Robotics")
     automation_equipment-communication("Equipment Communication")
+    electronics("Electronics")
     electronics_assembly("Electronics Assembly")
     electronics_industrial-control("Industrial Control")
     energy_electricity("Electricity Generation & Distribution")
@@ -36,6 +37,7 @@ graph TD
     silicon_basic-devices("Basic Semiconductor Devices")
     software-bootstrapping("Software Bootstrapping")
     software-bootstrapping_operating-systems("Operating System Construction")
+    vlsi-scaling("VLSI Scaling & Advanced Semiconductor")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
@@ -58,6 +60,7 @@ graph TD
     computing_mechanical -.-> machine-tools
     computing_mechanical -.-> mathematics_core-mathematics
     computing_mechanical --> metals
+    computing --> electronics
     computing -.-> software-bootstrapping_operating-systems
     electronics_industrial-control -.-> computing_embedded-systems
     machine-tools_cam -.-> computing_electronic
@@ -65,6 +68,7 @@ graph TD
     quality-control -.-> computing
     software-bootstrapping -.-> computing
     vlsi-scaling_eda-design -.-> computing
+    vlsi-scaling -.-> computing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -91,6 +95,7 @@ graph TD
     class computing_mechanical capability
     class automation external
     class automation_equipment-communication external
+    class electronics external
     class electronics_assembly external
     class electronics_industrial-control external
     class energy_electricity external
@@ -106,5 +111,6 @@ graph TD
     class silicon_basic-devices external
     class software-bootstrapping external
     class software-bootstrapping_operating-systems external
+    class vlsi-scaling external
     class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

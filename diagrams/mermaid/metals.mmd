@@ -46,10 +46,18 @@ graph TD
     chemistry_alkalis("Alkali Production")
     chemistry_ammonia("Ammonia & Fertilizer Production")
     chemistry_cement("Cement & Concrete")
+    chemistry_centrifuge("Centrifuge")
     chemistry_coatings("Paints, Coatings & Inks")
+    chemistry_crystallizer("Crystallizer")
+    chemistry_distillation-column("Distillation Column")
     chemistry_electrolysis("Electrolysis")
+    chemistry_electrolysis-cell("Electrolysis Cell")
+    chemistry_evaporator("Evaporator")
+    chemistry_filter-press("Filter Press")
+    chemistry_heat-exchanger("Heat Exchanger")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
     chemistry_paint("Paint & Coating Manufacturing")
+    chemistry_reactor-vessel("Reactor Vessel")
     chemistry_refractories("Refractory Materials")
     chemistry_soap("Soap & Detergent Production")
     cleanrooms("Clean Room Technology")
@@ -184,6 +192,14 @@ graph TD
     chemistry_acid-regeneration --> metals_forming
     chemistry_ammonia -.-> metals
     chemistry_cement --> metals_iron-steel_blast-furnace
+    chemistry_centrifuge --> metals_iron-steel
+    chemistry_crystallizer --> metals_iron-steel
+    chemistry_distillation-column --> metals_iron-steel
+    chemistry_electrolysis-cell --> metals_iron-steel
+    chemistry_evaporator --> metals_iron-steel
+    chemistry_filter-press --> metals_iron-steel
+    chemistry_heat-exchanger --> metals_iron-steel
+    chemistry_reactor-vessel --> metals_iron-steel
     chemistry_soap --> metals_non-ferrous
     chemistry -.-> metals
     cleanrooms --> metals
@@ -366,10 +382,18 @@ graph TD
     class chemistry_alkalis external
     class chemistry_ammonia external
     class chemistry_cement external
+    class chemistry_centrifuge external
     class chemistry_coatings external
+    class chemistry_crystallizer external
+    class chemistry_distillation-column external
     class chemistry_electrolysis external
+    class chemistry_electrolysis-cell external
+    class chemistry_evaporator external
+    class chemistry_filter-press external
+    class chemistry_heat-exchanger external
     class chemistry_hydrogen-silane external
     class chemistry_paint external
+    class chemistry_reactor-vessel external
     class chemistry_refractories external
     class chemistry_soap external
     class cleanrooms external

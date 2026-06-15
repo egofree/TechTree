@@ -52,12 +52,14 @@ graph TD
     ceramics -.-> foundations
     ceramics -.-> metals
     chemistry --> energy
+    chemistry -.-> machine-tools
     chemistry -.-> metals
     cleanrooms --> chemistry
     cleanrooms -.-> energy
     cleanrooms --> glass
     cleanrooms -.-> measurement
     cleanrooms --> metals
+    computing --> electronics
     construction -.-> ehs
     construction -.-> foundations
     construction -.-> machine-tools
@@ -73,6 +75,7 @@ graph TD
     electronics --> chemistry
     electronics -.-> machine-tools
     electronics --> metals
+    electronics -.-> photolithography
     energy -.-> metals
     food-processing -.-> energy
     food-processing --> water
@@ -129,6 +132,7 @@ graph TD
     vacuum -.-> gas-handling
     vacuum -.-> measurement
     vacuum --> metals
+    vlsi-scaling -.-> computing
     vlsi-scaling -.-> photolithography
     vlsi-scaling -.-> quality-control
 
@@ -157,12 +161,10 @@ graph TD
     chemistry -.-> gas-handling
     chemistry -.-> glass
     chemistry -.-> knowledge
-    chemistry -.-> machine-tools
     chemistry -.-> mining
     chemistry -.-> photolithography
     chemistry -.-> polymers
     chemistry -.-> water
-    computing -.-> electronics
     computing -.-> energy
     computing -.-> machine-tools
     computing -.-> mathematics
@@ -198,11 +200,11 @@ graph TD
     electronics -.-> computing
     electronics -.-> energy
     electronics -.-> glass
-    electronics -.-> photolithography
     electronics -.-> polymers
     electronics -.-> silicon
     energy -.-> ceramics
     energy -.-> chemistry
+    energy -.-> electrochemistry
     energy -.-> electronics
     energy -.-> foundations
     energy -.-> gas-handling
@@ -337,7 +339,6 @@ graph TD
     vacuum -.-> machine-tools
     vacuum -.-> precision-motion
     vlsi-scaling -.-> chemistry
-    vlsi-scaling -.-> computing
     vlsi-scaling -.-> electronics
     vlsi-scaling -.-> optics
     vlsi-scaling -.-> silicon

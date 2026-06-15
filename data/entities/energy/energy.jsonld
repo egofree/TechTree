@@ -26,7 +26,12 @@
     "refrigeration",
     "lead_acid_batteries",
     "grid_infrastructure",
-    "ups_systems"
+    "ups_systems",
+    "nuclear_electricity",
+    "radioisotope_electricity",
+    "radioisotope_heat",
+    "neutron_flux",
+    "fission_products"
   ],
   "parent": null,
   "pinnacle": false,

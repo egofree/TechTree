@@ -107,6 +107,9 @@ animals_draft-power: "Animal Draft Power & Harnessing" {
 ceramics_advanced-ceramics: "Advanced Ceramics & Refractories" {
   shape: rectangle
 }
+ceramics_ceramic-recycling: "Ceramic & Refractory Recycling" {
+  shape: rectangle
+}
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
@@ -138,6 +141,9 @@ energy_fuels_coal: "Coal Mining & Combustion" {
   shape: rectangle
 }
 energy_hydraulics: Hydraulic Power {
+  shape: rectangle
+}
+energy_nuclear-fission_nuclear-fuel-cycle: Nuclear Fuel Cycle {
   shape: rectangle
 }
 energy_steam-power: Steam Power {
@@ -198,6 +204,7 @@ mining_tailings-reprocessing -> mining_extraction: { class: material-edge }
 mining_tailings-reprocessing -> mining_processing: { class: tool-edge }
 mining_ventilation -> mining: { class: tool-edge }
 ceramics_advanced-ceramics -> mining: { class: material-edge }
+ceramics_ceramic-recycling -> mining: { class: tool-edge }
 chemistry_acids -> mining_sulfur-extraction: { class: material-edge }
 chemistry_acids -> mining: { class: material-edge }
 chemistry_electrolysis -> mining_salt: { class: material-edge }
@@ -206,6 +213,7 @@ chemistry_explosives_detonation-blasting -> mining: { class: tool-edge }
 chemistry_flux -> mining: { class: material-edge }
 chemistry_phosphorus -> mining: { class: material-edge }
 energy_fuels_coal -> mining_extraction: { class: material-edge }
+energy_nuclear-fission_nuclear-fuel-cycle -> mining_extraction: { class: material-edge }
 food-processing_traditional-preservation -> mining_salt: { class: material-edge }
 food-processing -> mining_salt: { class: material-edge }
 metals_precious-metals -> mining: { class: material-edge }
@@ -244,6 +252,7 @@ mining_sulfur-extraction.class: capability
 mining_ventilation.class: capability
 animals_draft-power.class: external
 ceramics_advanced-ceramics.class: external
+ceramics_ceramic-recycling.class: external
 chemistry_acids.class: external
 chemistry_electrolysis.class: external
 chemistry_explosives.class: external
@@ -255,6 +264,7 @@ energy.class: external
 energy_fuels.class: external
 energy_fuels_coal.class: external
 energy_hydraulics.class: external
+energy_nuclear-fission_nuclear-fuel-cycle.class: external
 energy_steam-power.class: external
 food-processing.class: external
 food-processing_traditional-preservation.class: external

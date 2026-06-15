@@ -106,6 +106,9 @@ automation: "Automation & Robotics" {
 automation_equipment-communication: Equipment Communication {
   shape: rectangle
 }
+electronics: Electronics {
+  shape: rectangle
+}
 electronics_assembly: Electronics Assembly {
   shape: rectangle
 }
@@ -151,6 +154,9 @@ software-bootstrapping: Software Bootstrapping {
 software-bootstrapping_operating-systems: Operating System Construction {
   shape: rectangle
 }
+vlsi-scaling: "VLSI Scaling & Advanced Semiconductor" {
+  shape: rectangle
+}
 vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
   shape: rectangle
 }
@@ -175,6 +181,7 @@ computing_logic-design -> mathematics_formal-systems: { class: tool-edge }
 computing_mechanical -> machine-tools: { class: tool-edge }
 computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
 computing_mechanical -> metals: { class: material-edge }
+computing -> electronics: { class: material-edge }
 computing -> software-bootstrapping_operating-systems: { class: tool-edge }
 electronics_industrial-control -> computing_embedded-systems: { class: tool-edge }
 machine-tools_cam -> computing_electronic: { class: tool-edge }
@@ -182,6 +189,7 @@ measurement_thermostat-electronic -> computing: { class: tool-edge }
 quality-control -> computing: { class: tool-edge }
 software-bootstrapping -> computing: { class: tool-edge }
 vlsi-scaling_eda-design -> computing: { class: tool-edge }
+vlsi-scaling -> computing: { class: tool-edge }
 
 # ==================== STYLING ====================
 computing.class: domain
@@ -195,6 +203,7 @@ computing_logic-design.class: critical
 computing_mechanical.class: capability
 automation.class: external
 automation_equipment-communication.class: external
+electronics.class: external
 electronics_assembly.class: external
 electronics_industrial-control.class: external
 energy_electricity.class: external
@@ -210,6 +219,7 @@ quality-control.class: external
 silicon_basic-devices.class: external
 software-bootstrapping.class: external
 software-bootstrapping_operating-systems.class: external
+vlsi-scaling.class: external
 vlsi-scaling_eda-design.class: external
 
 # ==================== LEGEND ====================

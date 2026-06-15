@@ -127,6 +127,9 @@ computing_electronic: Electronic Computing {
 economics-organization_supply-chain: Supply Chain Coordination {
   shape: rectangle
 }
+electronics: Electronics {
+  shape: rectangle
+}
 electronics_packaging-testing: "Semiconductor Packaging & Testing" {
   shape: rectangle
 }
@@ -207,6 +210,7 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
 computing_electronic -> photolithography_fab-processes: { class: material-edge }
 electronics_packaging-testing -> photolithography_fab-processes: { class: material-edge }
+electronics -> photolithography: { class: tool-edge }
 glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
 metals_specialty-semiconductor -> photolithography_fab-processes: { class: material-edge }
 photolithography_cleanrooms -> ceramics: { class: tool-edge }
@@ -269,6 +273,7 @@ chemistry_semiconductor-chemicals.class: external
 cleanrooms.class: external
 computing_electronic.class: external
 economics-organization_supply-chain.class: external
+electronics.class: external
 electronics_packaging-testing.class: external
 energy_electricity.class: external
 gas-handling.class: external

@@ -89,6 +89,10 @@ graph TD
     energy_gravity_water-turbines("Water Turbines")
     energy_hydraulics("Hydraulic Power")
     energy_internal-combustion("Internal Combustion Engines")
+    energy_nuclear-fission("Nuclear Fission Power")
+    energy_nuclear-fission_reactor-design("Reactor Design")
+    energy_radioisotope-power_stirling-isotope-generator("Stirling Isotope Generator")
+    energy_radioisotope-power_thermoelectric-rtg("Thermoelectric RTG")
     energy_solar-thermal_collector("Solar Thermal Collector")
     energy_steam-power("Steam Power")
     energy_steam-power_boiler("Boiler (Steam Generator)")
@@ -237,6 +241,10 @@ graph TD
     energy_gravity_water-turbines -.-> metals_iron-steel
     energy_hydraulics -.-> metals_forming
     energy_internal-combustion -.-> metals
+    energy_nuclear-fission_reactor-design --> metals_iron-steel
+    energy_nuclear-fission --> metals_iron-steel
+    energy_radioisotope-power_stirling-isotope-generator --> metals_iron-steel
+    energy_radioisotope-power_thermoelectric-rtg --> metals_iron-steel
     energy_solar-thermal_collector --> metals_iron-steel
     energy_steam-power_boiler --> metals_iron-steel
     energy_steam-power_steam-engine --> metals_iron-steel
@@ -425,6 +433,10 @@ graph TD
     class energy_gravity_water-turbines external
     class energy_hydraulics external
     class energy_internal-combustion external
+    class energy_nuclear-fission external
+    class energy_nuclear-fission_reactor-design external
+    class energy_radioisotope-power_stirling-isotope-generator external
+    class energy_radioisotope-power_thermoelectric-rtg external
     class energy_solar-thermal_collector external
     class energy_steam-power external
     class energy_steam-power_boiler external

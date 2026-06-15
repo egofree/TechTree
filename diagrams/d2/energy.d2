@@ -86,6 +86,7 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 energy_internal: "Energy — Internal Structure" {
+  energy_batteries: "Battery & Electrochemical Storage"
   energy_biomass-energy_biogas-digester: Biogas Digester
   energy_biomass-energy_gasifier: Biomass Gasifier
   energy_biomass-energy: Biomass Energy
@@ -99,6 +100,15 @@ energy_internal: "Energy — Internal Structure" {
   energy_electricity_motor: Electric Motor
   energy_electricity_power-systems: Electric Power Systems for Semiconductor Fabrication
   energy_geothermal: Geothermal Energy
+  energy_nuclear-fission_isotope-production: Isotope Production
+  energy_nuclear-fission: Nuclear Fission Power
+  energy_nuclear-fission_nuclear-fuel-cycle: Nuclear Fuel Cycle
+  energy_nuclear-fission_reactor-design: Reactor Design
+  energy_radioisotope-power_advanced-isotope-conversion: Advanced Isotope Conversion
+  energy_radioisotope-power_isotope-fuel-fabrication: Isotope Fuel Fabrication
+  energy_radioisotope-power: Radioisotope Power
+  energy_radioisotope-power_stirling-isotope-generator: Stirling Isotope Generator
+  energy_radioisotope-power_thermoelectric-rtg: Thermoelectric RTG
   energy_engine: Heat Engines
   energy_fuel-cell: Fuel Cell
   energy_fuel-cell_sem-tech: SEM Tech Fuel Cells: Electrochemical Power Generation
@@ -209,7 +219,16 @@ construction_industrial-buildings: "Industrial Buildings & Heavy Foundations" {
 cryogenics: Cryogenics {
   shape: rectangle
 }
+ehs_radiation-safety: Radiation Safety {
+  shape: rectangle
+}
 electrochemistry: "Electrochemistry & Plating" {
+  shape: rectangle
+}
+electrochemistry_electroplating: Electroplating {
+  shape: rectangle
+}
+electronics: Electronics {
   shape: rectangle
 }
 electronics_electrical-systems: Electrical Systems {
@@ -460,8 +479,25 @@ energy_geothermal -> energy_steam-power: { class: tool-edge }
 energy_gravity_water-turbines -> energy_gravity: { class: tool-edge }
 energy_hvac -> energy: { class: tool-edge }
 energy_internal-combustion -> energy_fuels: { class: material-edge }
+energy_nuclear-fission_isotope-production -> energy_nuclear-fission: { class: tool-edge }
+energy_nuclear-fission_nuclear-fuel-cycle -> energy_nuclear-fission: { class: tool-edge }
+energy_nuclear-fission_reactor-design -> energy_cooling: { class: tool-edge }
+energy_nuclear-fission_reactor-design -> energy_nuclear-fission: { class: tool-edge }
+energy_nuclear-fission -> energy_electricity: { class: tool-edge }
+energy_nuclear-fission -> energy: { class: tool-edge }
 energy_pneumatics -> energy: { class: tool-edge }
 energy_power-distribution -> energy_electricity: { class: tool-edge }
+energy_radioisotope-power_advanced-isotope-conversion -> energy_photovoltaics: { class: tool-edge }
+energy_radioisotope-power_advanced-isotope-conversion -> energy_radioisotope-power: { class: tool-edge }
+energy_radioisotope-power_isotope-fuel-fabrication -> energy_nuclear-fission_isotope-production: { class: material-edge }
+energy_radioisotope-power_isotope-fuel-fabrication -> energy_radioisotope-power: { class: tool-edge }
+energy_radioisotope-power_stirling-isotope-generator -> energy_radioisotope-power: { class: tool-edge }
+energy_radioisotope-power_stirling-isotope-generator -> energy_stirling-engine: { class: tool-edge }
+energy_radioisotope-power_thermoelectric-rtg -> energy_electricity: { class: tool-edge }
+energy_radioisotope-power_thermoelectric-rtg -> energy_radioisotope-power: { class: tool-edge }
+energy_radioisotope-power -> energy_electricity: { class: tool-edge }
+energy_radioisotope-power -> energy_nuclear-fission_isotope-production: { class: tool-edge }
+energy_radioisotope-power -> energy: { class: tool-edge }
 energy_redox-flow-battery -> energy_redox-flow-battery: { class: material-edge }
 energy_refining -> energy_fuels: { class: tool-edge }
 energy_solar-thermal_collector -> energy_solar-thermal: { class: tool-edge }
@@ -501,6 +537,7 @@ construction -> energy_solar-thermal: { class: material-edge }
 cryogenics -> energy_electricity: { class: tool-edge }
 electrochemistry -> energy_electricity: { class: tool-edge }
 electronics_electrical-systems -> energy_electricity: { class: tool-edge }
+energy_batteries -> electrochemistry_electroplating: { class: tool-edge }
 energy_biomass-energy_biogas-digester -> ceramics_kilns: { class: tool-edge }
 energy_biomass-energy_biogas-digester -> metals_iron-steel: { class: tool-edge }
 energy_biomass-energy_biogas-digester -> water_basic-treatment: { class: material-edge }
@@ -548,10 +585,22 @@ energy_hydraulics -> machine-tools_hydraulic-systems: { class: tool-edge }
 energy_hydraulics -> metals_forming: { class: tool-edge }
 energy_internal-combustion -> metals: { class: tool-edge }
 energy_internal-combustion -> petroleum_refining: { class: material-edge }
+energy_nuclear-fission_isotope-production -> chemistry: { class: material-edge }
+energy_nuclear-fission_isotope-production -> ehs_radiation-safety: { class: tool-edge }
+energy_nuclear-fission_nuclear-fuel-cycle -> chemistry: { class: material-edge }
+energy_nuclear-fission_nuclear-fuel-cycle -> mining_extraction: { class: material-edge }
+energy_nuclear-fission_reactor-design -> metals_iron-steel: { class: material-edge }
+energy_nuclear-fission -> ehs_radiation-safety: { class: tool-edge }
+energy_nuclear-fission -> metals_iron-steel: { class: material-edge }
 energy_photovoltaics -> electronics_power-electronics: { class: tool-edge }
 energy_photovoltaics -> glass_basic: { class: material-edge }
 energy_photovoltaics -> silicon_basic-devices: { class: tool-edge }
 energy_pneumatics -> gas-handling: { class: tool-edge }
+energy_radioisotope-power_advanced-isotope-conversion -> electronics: { class: tool-edge }
+energy_radioisotope-power_isotope-fuel-fabrication -> ehs_radiation-safety: { class: tool-edge }
+energy_radioisotope-power_stirling-isotope-generator -> metals_iron-steel: { class: material-edge }
+energy_radioisotope-power_thermoelectric-rtg -> metals_iron-steel: { class: material-edge }
+energy_radioisotope-power -> ehs_radiation-safety: { class: tool-edge }
 energy_redox-flow-battery -> chemistry: { class: material-edge }
 energy_solar-thermal_collector -> glass_basic: { class: tool-edge }
 energy_solar-thermal_collector -> metals_iron-steel: { class: material-edge }
@@ -637,6 +686,7 @@ transport -> energy: { class: material-edge }
 
 # ==================== STYLING ====================
 energy.class: domain
+energy_batteries.class: earlyWin
 energy_biomass-energy_biogas-digester.class: process
 energy_biomass-energy_gasifier.class: process
 energy_biomass-energy.class: earlyWin
@@ -650,6 +700,15 @@ energy_electricity.class: capability
 energy_electricity_motor.class: process
 energy_electricity_power-systems.class: critical
 energy_geothermal.class: capability
+energy_nuclear-fission_isotope-production.class: process
+energy_nuclear-fission.class: pinnacle
+energy_nuclear-fission_nuclear-fuel-cycle.class: process
+energy_nuclear-fission_reactor-design.class: process
+energy_radioisotope-power_advanced-isotope-conversion.class: process
+energy_radioisotope-power_isotope-fuel-fabrication.class: process
+energy_radioisotope-power.class: pinnacle
+energy_radioisotope-power_stirling-isotope-generator.class: process
+energy_radioisotope-power_thermoelectric-rtg.class: process
 energy_engine.class: capability
 energy_fuel-cell.class: capability
 energy_fuel-cell_sem-tech.class: process
@@ -704,7 +763,10 @@ computing_electromechanical.class: external
 construction.class: external
 construction_industrial-buildings.class: external
 cryogenics.class: external
+ehs_radiation-safety.class: external
 electrochemistry.class: external
+electrochemistry_electroplating.class: external
+electronics.class: external
 electronics_electrical-systems.class: external
 electronics_power-electronics.class: external
 electronics_wire-insulation.class: external

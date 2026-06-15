@@ -34,6 +34,7 @@ graph TD
     energy_fuels("Fuel Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_hydraulics("Hydraulic Power")
+    energy_nuclear-fission_nuclear-fuel-cycle("Nuclear Fuel Cycle")
     energy_steam-power("Steam Power")
     food-processing("Food Processing")
     food-processing_traditional-preservation("Traditional Preservation")
@@ -69,6 +70,7 @@ graph TD
     chemistry_flux --> mining
     chemistry_phosphorus --> mining
     energy_fuels_coal --> mining_extraction
+    energy_nuclear-fission_nuclear-fuel-cycle --> mining_extraction
     food-processing_traditional-preservation --> mining_salt
     food-processing --> mining_salt
     metals_precious-metals --> mining
@@ -132,6 +134,7 @@ graph TD
     class energy_fuels external
     class energy_fuels_coal external
     class energy_hydraulics external
+    class energy_nuclear-fission_nuclear-fuel-cycle external
     class energy_steam-power external
     class food-processing external
     class food-processing_traditional-preservation external

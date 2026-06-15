@@ -136,12 +136,14 @@ automation -> electronics: { class: tool-edge }
 ceramics -> foundations: { class: tool-edge }
 ceramics -> metals: { class: tool-edge }
 chemistry -> energy: { class: material-edge }
+chemistry -> machine-tools: { class: tool-edge }
 chemistry -> metals: { class: tool-edge }
 cleanrooms -> chemistry: { class: material-edge }
 cleanrooms -> energy: { class: tool-edge }
 cleanrooms -> glass: { class: material-edge }
 cleanrooms -> measurement: { class: tool-edge }
 cleanrooms -> metals: { class: material-edge }
+computing -> electronics: { class: material-edge }
 construction -> ehs: { class: tool-edge }
 construction -> foundations: { class: tool-edge }
 construction -> machine-tools: { class: tool-edge }
@@ -157,6 +159,7 @@ economics-organization -> mathematics: { class: tool-edge }
 electronics -> chemistry: { class: material-edge }
 electronics -> machine-tools: { class: tool-edge }
 electronics -> metals: { class: material-edge }
+electronics -> photolithography: { class: tool-edge }
 energy -> metals: { class: tool-edge }
 food-processing -> energy: { class: tool-edge }
 food-processing -> water: { class: material-edge }
@@ -213,6 +216,7 @@ ultra-pure -> chemistry: { class: tool-edge }
 vacuum -> gas-handling: { class: tool-edge }
 vacuum -> measurement: { class: tool-edge }
 vacuum -> metals: { class: material-edge }
+vlsi-scaling -> computing: { class: tool-edge }
 vlsi-scaling -> photolithography: { class: tool-edge }
 vlsi-scaling -> quality-control: { class: tool-edge }
 
@@ -241,12 +245,10 @@ chemistry -> foundations: { class: tool-edge }
 chemistry -> gas-handling: { class: tool-edge }
 chemistry -> glass: { class: tool-edge }
 chemistry -> knowledge: { class: tool-edge }
-chemistry -> machine-tools: { class: tool-edge }
 chemistry -> mining: { class: tool-edge }
 chemistry -> photolithography: { class: tool-edge }
 chemistry -> polymers: { class: tool-edge }
 chemistry -> water: { class: tool-edge }
-computing -> electronics: { class: tool-edge }
 computing -> energy: { class: tool-edge }
 computing -> machine-tools: { class: tool-edge }
 computing -> mathematics: { class: tool-edge }
@@ -282,11 +284,12 @@ electrochemistry -> metals: { class: tool-edge }
 electronics -> computing: { class: tool-edge }
 electronics -> energy: { class: tool-edge }
 electronics -> glass: { class: tool-edge }
-electronics -> photolithography: { class: tool-edge }
 electronics -> polymers: { class: tool-edge }
 electronics -> silicon: { class: tool-edge }
 energy -> ceramics: { class: tool-edge }
 energy -> chemistry: { class: tool-edge }
+energy -> ehs: { class: tool-edge }
+energy -> electrochemistry: { class: tool-edge }
 energy -> electronics: { class: tool-edge }
 energy -> foundations: { class: tool-edge }
 energy -> gas-handling: { class: tool-edge }
@@ -421,7 +424,6 @@ ultra-pure -> water: { class: tool-edge }
 vacuum -> machine-tools: { class: tool-edge }
 vacuum -> precision-motion: { class: tool-edge }
 vlsi-scaling -> chemistry: { class: tool-edge }
-vlsi-scaling -> computing: { class: tool-edge }
 vlsi-scaling -> electronics: { class: tool-edge }
 vlsi-scaling -> optics: { class: tool-edge }
 vlsi-scaling -> silicon: { class: tool-edge }

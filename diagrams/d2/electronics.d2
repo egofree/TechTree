@@ -158,6 +158,9 @@ chemistry_acids: Mineral Acid Production {
 chemistry_electrolysis: Electrolysis {
   shape: rectangle
 }
+computing: "Computing & Automation" {
+  shape: rectangle
+}
 computing_electronic: Electronic Computing {
   shape: rectangle
 }
@@ -168,6 +171,9 @@ energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
 energy_photovoltaics: Photovoltaic Solar Power {
+  shape: rectangle
+}
+energy_radioisotope-power_advanced-isotope-conversion: Advanced Isotope Conversion {
   shape: rectangle
 }
 glass_fibers: Glass Fiber Production {
@@ -197,6 +203,9 @@ metals_precious-metals: "Precious Metal Production (Gold & Silver)" {
 metals_rare-earths: Rare Earth and Specialty Elements {
   shape: rectangle
 }
+photolithography: "Photolithography & IC Fabrication" {
+  shape: rectangle
+}
 photolithography_fab-processes: Core Fab Processes {
   shape: rectangle
 }
@@ -215,6 +224,7 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 
 # ==================== EDGES ====================
 electronics_analog-circuits_amplifier-fundamentals -> electronics_analog-circuits_transistor-switch-circuits: { class: tool-edge }
+electronics_analog-circuits_amplifier-fundamentals -> electronics_circuit-fundamentals_ac-analysis: { class: tool-edge }
 electronics_analog-circuits_amplifier-fundamentals -> electronics_passive-components: { class: tool-edge }
 electronics_analog-circuits_amplifier-fundamentals -> electronics_semiconductor-devices: { class: tool-edge }
 electronics_analog-circuits_diode-circuits -> electronics_passive-components: { class: tool-edge }
@@ -324,6 +334,7 @@ electronics -> electronics_passive-components: { class: material-edge }
 automation_equipment-communication -> electronics: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
 computing_electronic -> electronics_assembly: { class: tool-edge }
+computing -> electronics: { class: material-edge }
 electronics_assembly -> glass_fibers: { class: material-edge }
 electronics_assembly -> polymers_thermosets: { class: material-edge }
 electronics_assembly -> silicon_basic-devices: { class: material-edge }
@@ -341,8 +352,10 @@ electronics -> machine-tools: { class: tool-edge }
 electronics -> metals_copper-refining: { class: material-edge }
 electronics -> metals_rare-earths: { class: material-edge }
 electronics -> metals: { class: material-edge }
+electronics -> photolithography: { class: tool-edge }
 energy_electricity -> electronics_wire-insulation: { class: material-edge }
 energy_photovoltaics -> electronics_power-electronics: { class: tool-edge }
+energy_radioisotope-power_advanced-isotope-conversion -> electronics: { class: tool-edge }
 measurement_thermostat-electrical -> electronics: { class: tool-edge }
 measurement_thermostat-electronic -> electronics: { class: material-edge }
 metals_precious-metals -> electronics: { class: material-edge }
@@ -406,10 +419,12 @@ automation_equipment-communication.class: external
 chemistry.class: external
 chemistry_acids.class: external
 chemistry_electrolysis.class: external
+computing.class: external
 computing_electronic.class: external
 computing_embedded-systems.class: external
 energy_electricity.class: external
 energy_photovoltaics.class: external
+energy_radioisotope-power_advanced-isotope-conversion.class: external
 glass_fibers.class: external
 machine-tools.class: external
 measurement_thermostat-electrical.class: external
@@ -419,6 +434,7 @@ metals_copper.class: external
 metals_copper-refining.class: external
 metals_precious-metals.class: external
 metals_rare-earths.class: external
+photolithography.class: external
 photolithography_fab-processes.class: external
 polymers_thermoplastics.class: external
 polymers_thermosets.class: external

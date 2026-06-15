@@ -86,5 +86,23 @@ Capabilities in this domain:
 - [Electric Power Systems for Semiconductor Fabrication](power-systems.md) — Ultra-clean power delivery for semiconductor fabs: voltage sag <10%, THD <3%, UPS systems (double-conversion, rotary), backup generators (diesel, fuel cells), power distribution units (PDUs), busway systems, power…
 - [Solar Thermal Collector](solar-thermal.collector.md) — Solar thermal collectors absorb solar radiation and convert it to useful heat in a working fluid — typically water, glycol solution, thermal oil, or air.
 
+- [Nuclear Fission](nuclear-fission.md) — Densest non-solar energy source; sustained chain reactions for electricity, isotope production, and naval propulsion.
+
+- [Nuclear Fuel Cycle](nuclear-fuel-cycle.md) — Uranium mining, enrichment, fuel fabrication, and spent fuel management.
+
+- [Reactor Design](reactor-design.md) — PWR, BWR, CANDU, gas-cooled, and research reactor engineering.
+
+- [Isotope Production](isotope-production.md) — Pu-238, Sr-90, Am-241, Co-60 production via reactor irradiation and chemical separation.
+
+- [Radioisotope Power](radioisotope-power.md) — Converting radioactive decay heat to electricity: thermoelectric, Stirling, TPV, betavoltaic.
+
+- [Thermoelectric RTG](thermoelectric-rtg.md) — GPHS-RTG, MMRTG, eMMRTG, Next-Gen: solid-state space nuclear power since 1961.
+
+- [Stirling Isotope Generator](stirling-isotope-generator.md) — ASRG and dynamic radioisotope conversion at 28.6% efficiency.
+
+- [Isotope Fuel Fabrication](isotope-fuel-fabrication.md) — GPHS module assembly, iridium cladding, launch safety qualification.
+
+- [Advanced Isotope Conversion](advanced-isotope-conversion.md) — TPV, betavoltaics, alpha-voltaics, segmented thermoelectrics.
+
 [↑ Back to Tech Tree](../index.md)
 

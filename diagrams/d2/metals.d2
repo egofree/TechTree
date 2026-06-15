@@ -145,16 +145,40 @@ chemistry_ammonia: "Ammonia & Fertilizer Production" {
 chemistry_cement: "Cement & Concrete" {
   shape: rectangle
 }
+chemistry_centrifuge: Centrifuge {
+  shape: rectangle
+}
 chemistry_coatings: "Paints, Coatings & Inks" {
   shape: rectangle
 }
+chemistry_crystallizer: Crystallizer {
+  shape: rectangle
+}
+chemistry_distillation-column: Distillation Column {
+  shape: rectangle
+}
 chemistry_electrolysis: Electrolysis {
+  shape: rectangle
+}
+chemistry_electrolysis-cell: Electrolysis Cell {
+  shape: rectangle
+}
+chemistry_evaporator: Evaporator {
+  shape: rectangle
+}
+chemistry_filter-press: Filter Press {
+  shape: rectangle
+}
+chemistry_heat-exchanger: Heat Exchanger {
   shape: rectangle
 }
 chemistry_hydrogen-silane: "Hydrogen & Silane Production" {
   shape: rectangle
 }
 chemistry_paint: "Paint & Coating Manufacturing" {
+  shape: rectangle
+}
+chemistry_reactor-vessel: Reactor Vessel {
   shape: rectangle
 }
 chemistry_refractories: Refractory Materials {
@@ -248,6 +272,18 @@ energy_hydraulics: Hydraulic Power {
   shape: rectangle
 }
 energy_internal-combustion: Internal Combustion Engines {
+  shape: rectangle
+}
+energy_nuclear-fission: Nuclear Fission Power {
+  shape: rectangle
+}
+energy_nuclear-fission_reactor-design: Reactor Design {
+  shape: rectangle
+}
+energy_radioisotope-power_stirling-isotope-generator: Stirling Isotope Generator {
+  shape: rectangle
+}
+energy_radioisotope-power_thermoelectric-rtg: Thermoelectric RTG {
   shape: rectangle
 }
 energy_solar-thermal_collector: Solar Thermal Collector {
@@ -473,6 +509,14 @@ ceramics -> metals: { class: tool-edge }
 chemistry_acid-regeneration -> metals_forming: { class: material-edge }
 chemistry_ammonia -> metals: { class: tool-edge }
 chemistry_cement -> metals_iron-steel_blast-furnace: { class: material-edge }
+chemistry_centrifuge -> metals_iron-steel: { class: material-edge }
+chemistry_crystallizer -> metals_iron-steel: { class: material-edge }
+chemistry_distillation-column -> metals_iron-steel: { class: material-edge }
+chemistry_electrolysis-cell -> metals_iron-steel: { class: material-edge }
+chemistry_evaporator -> metals_iron-steel: { class: material-edge }
+chemistry_filter-press -> metals_iron-steel: { class: material-edge }
+chemistry_heat-exchanger -> metals_iron-steel: { class: material-edge }
+chemistry_reactor-vessel -> metals_iron-steel: { class: material-edge }
 chemistry_soap -> metals_non-ferrous: { class: material-edge }
 chemistry -> metals: { class: tool-edge }
 cleanrooms -> metals: { class: material-edge }
@@ -510,6 +554,10 @@ energy_geothermal -> metals_iron-steel: { class: material-edge }
 energy_gravity_water-turbines -> metals_iron-steel: { class: tool-edge }
 energy_hydraulics -> metals_forming: { class: tool-edge }
 energy_internal-combustion -> metals: { class: tool-edge }
+energy_nuclear-fission_reactor-design -> metals_iron-steel: { class: material-edge }
+energy_nuclear-fission -> metals_iron-steel: { class: material-edge }
+energy_radioisotope-power_stirling-isotope-generator -> metals_iron-steel: { class: material-edge }
+energy_radioisotope-power_thermoelectric-rtg -> metals_iron-steel: { class: material-edge }
 energy_solar-thermal_collector -> metals_iron-steel: { class: material-edge }
 energy_steam-power_boiler -> metals_iron-steel: { class: material-edge }
 energy_steam-power_steam-engine -> metals_iron-steel: { class: material-edge }
@@ -642,10 +690,18 @@ chemistry_acids.class: external
 chemistry_alkalis.class: external
 chemistry_ammonia.class: external
 chemistry_cement.class: external
+chemistry_centrifuge.class: external
 chemistry_coatings.class: external
+chemistry_crystallizer.class: external
+chemistry_distillation-column.class: external
 chemistry_electrolysis.class: external
+chemistry_electrolysis-cell.class: external
+chemistry_evaporator.class: external
+chemistry_filter-press.class: external
+chemistry_heat-exchanger.class: external
 chemistry_hydrogen-silane.class: external
 chemistry_paint.class: external
+chemistry_reactor-vessel.class: external
 chemistry_refractories.class: external
 chemistry_soap.class: external
 cleanrooms.class: external
@@ -677,6 +733,10 @@ energy_geothermal.class: external
 energy_gravity_water-turbines.class: external
 energy_hydraulics.class: external
 energy_internal-combustion.class: external
+energy_nuclear-fission.class: external
+energy_nuclear-fission_reactor-design.class: external
+energy_radioisotope-power_stirling-isotope-generator.class: external
+energy_radioisotope-power_thermoelectric-rtg.class: external
 energy_solar-thermal_collector.class: external
 energy_steam-power.class: external
 energy_steam-power_boiler.class: external

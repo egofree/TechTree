@@ -19,6 +19,15 @@ graph TD
         energy_electricity_motor["Electric Motor"]
         energy_electricity_power-systems["Electric Power Systems for Semiconductor Fabrication"]
         energy_geothermal["Geothermal Energy"]
+        energy_nuclear-fission_isotope-production["Isotope Production"]
+        energy_nuclear-fission["Nuclear Fission Power"]
+        energy_nuclear-fission_nuclear-fuel-cycle["Nuclear Fuel Cycle"]
+        energy_nuclear-fission_reactor-design["Reactor Design"]
+        energy_radioisotope-power_advanced-isotope-conversion["Advanced Isotope Conversion"]
+        energy_radioisotope-power_isotope-fuel-fabrication["Isotope Fuel Fabrication"]
+        energy_radioisotope-power["Radioisotope Power"]
+        energy_radioisotope-power_stirling-isotope-generator["Stirling Isotope Generator"]
+        energy_radioisotope-power_thermoelectric-rtg["Thermoelectric RTG"]
         energy_engine["Heat Engines"]
         energy_fuel-cell["Fuel Cell"]
         energy_fuel-cell_sem-tech["SEM Tech Fuel Cells: Electrochemical Power Generation"]
@@ -79,8 +88,10 @@ graph TD
     construction("Construction & Structural Engineering")
     construction_industrial-buildings("Industrial Buildings & Heavy Foundations")
     cryogenics("Cryogenics")
+    ehs_radiation-safety("Radiation Safety")
     electrochemistry("Electrochemistry & Plating")
     electrochemistry_electroplating("Electroplating")
+    electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
     electronics_power-electronics("Power Electronics")
     electronics_wire-insulation("Wire Insulation and Enameling")
@@ -181,8 +192,25 @@ graph TD
     energy_gravity_water-turbines -.-> energy_gravity
     energy_hvac -.-> energy
     energy_internal-combustion --> energy_fuels
+    energy_nuclear-fission_isotope-production -.-> energy_nuclear-fission
+    energy_nuclear-fission_nuclear-fuel-cycle -.-> energy_nuclear-fission
+    energy_nuclear-fission_reactor-design -.-> energy_cooling
+    energy_nuclear-fission_reactor-design -.-> energy_nuclear-fission
+    energy_nuclear-fission -.-> energy_electricity
+    energy_nuclear-fission -.-> energy
     energy_pneumatics -.-> energy
     energy_power-distribution -.-> energy_electricity
+    energy_radioisotope-power_advanced-isotope-conversion -.-> energy_photovoltaics
+    energy_radioisotope-power_advanced-isotope-conversion -.-> energy_radioisotope-power
+    energy_radioisotope-power_isotope-fuel-fabrication --> energy_nuclear-fission_isotope-production
+    energy_radioisotope-power_isotope-fuel-fabrication -.-> energy_radioisotope-power
+    energy_radioisotope-power_stirling-isotope-generator -.-> energy_radioisotope-power
+    energy_radioisotope-power_stirling-isotope-generator -.-> energy_stirling-engine
+    energy_radioisotope-power_thermoelectric-rtg -.-> energy_electricity
+    energy_radioisotope-power_thermoelectric-rtg -.-> energy_radioisotope-power
+    energy_radioisotope-power -.-> energy_electricity
+    energy_radioisotope-power -.-> energy_nuclear-fission_isotope-production
+    energy_radioisotope-power -.-> energy
     energy_redox-flow-battery --> energy_redox-flow-battery
     energy_refining -.-> energy_fuels
     energy_solar-thermal_collector -.-> energy_solar-thermal
@@ -270,10 +298,22 @@ graph TD
     energy_hydraulics -.-> metals_forming
     energy_internal-combustion -.-> metals
     energy_internal-combustion --> petroleum_refining
+    energy_nuclear-fission_isotope-production --> chemistry
+    energy_nuclear-fission_isotope-production -.-> ehs_radiation-safety
+    energy_nuclear-fission_nuclear-fuel-cycle --> chemistry
+    energy_nuclear-fission_nuclear-fuel-cycle --> mining_extraction
+    energy_nuclear-fission_reactor-design --> metals_iron-steel
+    energy_nuclear-fission -.-> ehs_radiation-safety
+    energy_nuclear-fission --> metals_iron-steel
     energy_photovoltaics -.-> electronics_power-electronics
     energy_photovoltaics --> glass_basic
     energy_photovoltaics -.-> silicon_basic-devices
     energy_pneumatics -.-> gas-handling
+    energy_radioisotope-power_advanced-isotope-conversion -.-> electronics
+    energy_radioisotope-power_isotope-fuel-fabrication -.-> ehs_radiation-safety
+    energy_radioisotope-power_stirling-isotope-generator --> metals_iron-steel
+    energy_radioisotope-power_thermoelectric-rtg --> metals_iron-steel
+    energy_radioisotope-power -.-> ehs_radiation-safety
     energy_redox-flow-battery --> chemistry
     energy_solar-thermal_collector -.-> glass_basic
     energy_solar-thermal_collector --> metals_iron-steel
@@ -386,6 +426,15 @@ graph TD
     class energy_electricity_motor process
     class energy_electricity_power-systems critical
     class energy_geothermal capability
+    class energy_nuclear-fission_isotope-production process
+    class energy_nuclear-fission pinnacle
+    class energy_nuclear-fission_nuclear-fuel-cycle process
+    class energy_nuclear-fission_reactor-design process
+    class energy_radioisotope-power_advanced-isotope-conversion process
+    class energy_radioisotope-power_isotope-fuel-fabrication process
+    class energy_radioisotope-power pinnacle
+    class energy_radioisotope-power_stirling-isotope-generator process
+    class energy_radioisotope-power_thermoelectric-rtg process
     class energy_engine capability
     class energy_fuel-cell capability
     class energy_fuel-cell_sem-tech process
@@ -440,8 +489,10 @@ graph TD
     class construction external
     class construction_industrial-buildings external
     class cryogenics external
+    class ehs_radiation-safety external
     class electrochemistry external
     class electrochemistry_electroplating external
+    class electronics external
     class electronics_electrical-systems external
     class electronics_power-electronics external
     class electronics_wire-insulation external

@@ -106,6 +106,8 @@ graph TD
     energy_fuels_coke("Coke Production")
     energy_gravity("Water Power")
     energy_hydraulics("Hydraulic Power")
+    energy_nuclear-fission_isotope-production("Isotope Production")
+    energy_nuclear-fission_nuclear-fuel-cycle("Nuclear Fuel Cycle")
     energy_redox-flow-battery("Redox Flow Battery")
     energy_stirling-engine("Stirling Engine")
     energy_storage("Energy Storage & Diversification")
@@ -332,6 +334,8 @@ graph TD
     energy_fuel-cell --> chemistry
     energy_gravity --> chemistry_lubricants
     energy_hydraulics --> chemistry_lubricants
+    energy_nuclear-fission_isotope-production --> chemistry
+    energy_nuclear-fission_nuclear-fuel-cycle --> chemistry
     energy_redox-flow-battery --> chemistry
     energy_stirling-engine --> chemistry_lubricants
     energy_storage --> chemistry_e-methanol
@@ -525,6 +529,8 @@ graph TD
     class energy_fuels_coke external
     class energy_gravity external
     class energy_hydraulics external
+    class energy_nuclear-fission_isotope-production external
+    class energy_nuclear-fission_nuclear-fuel-cycle external
     class energy_redox-flow-battery external
     class energy_stirling-engine external
     class energy_storage external

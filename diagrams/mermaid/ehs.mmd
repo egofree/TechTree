@@ -20,6 +20,10 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
     construction("Construction & Structural Engineering")
+    energy_nuclear-fission("Nuclear Fission Power")
+    energy_nuclear-fission_isotope-production("Isotope Production")
+    energy_radioisotope-power("Radioisotope Power")
+    energy_radioisotope-power_isotope-fuel-fabrication("Isotope Fuel Fabrication")
     health_occupational-health("Occupational Health & Industrial Hygiene")
     health_pharmacology("Pharmacology")
     polymers("Polymers & Composites")
@@ -40,6 +44,10 @@ graph TD
     ehs_toxicology -.-> health_pharmacology
     ehs_waste-management -.-> chemistry
     ehs_waste-management -.-> water_sewage
+    energy_nuclear-fission_isotope-production -.-> ehs_radiation-safety
+    energy_nuclear-fission -.-> ehs_radiation-safety
+    energy_radioisotope-power_isotope-fuel-fabrication -.-> ehs_radiation-safety
+    energy_radioisotope-power -.-> ehs_radiation-safety
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -65,6 +73,10 @@ graph TD
     class ehs_waste-management capability
     class chemistry external
     class construction external
+    class energy_nuclear-fission external
+    class energy_nuclear-fission_isotope-production external
+    class energy_radioisotope-power external
+    class energy_radioisotope-power_isotope-fuel-fabrication external
     class health_occupational-health external
     class health_pharmacology external
     class polymers external

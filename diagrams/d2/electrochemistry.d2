@@ -102,6 +102,9 @@ chemistry_acids: Mineral Acid Production {
 chemistry_electrolysis: Electrolysis {
   shape: rectangle
 }
+energy_batteries: "Battery & Electrochemical Storage" {
+  shape: rectangle
+}
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
@@ -121,6 +124,7 @@ electrochemistry_electroplating -> chemistry_acids: { class: material-edge }
 electrochemistry -> chemistry_electrolysis: { class: tool-edge }
 electrochemistry -> energy_electricity: { class: tool-edge }
 electrochemistry -> metals_finishing: { class: tool-edge }
+energy_batteries -> electrochemistry_electroplating: { class: tool-edge }
 
 # ==================== STYLING ====================
 electrochemistry.class: domain
@@ -130,6 +134,7 @@ electrochemistry_electroplating_copper-damascene.class: pinnacle
 electrochemistry_electroplating.class: capability
 chemistry_acids.class: external
 chemistry_electrolysis.class: external
+energy_batteries.class: external
 energy_electricity.class: external
 metals_aluminum.class: external
 metals_finishing.class: external

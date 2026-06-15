@@ -105,6 +105,18 @@ chemistry: Chemistry {
 construction: "Construction & Structural Engineering" {
   shape: rectangle
 }
+energy_nuclear-fission: Nuclear Fission Power {
+  shape: rectangle
+}
+energy_nuclear-fission_isotope-production: Isotope Production {
+  shape: rectangle
+}
+energy_radioisotope-power: Radioisotope Power {
+  shape: rectangle
+}
+energy_radioisotope-power_isotope-fuel-fabrication: Isotope Fuel Fabrication {
+  shape: rectangle
+}
 health_occupational-health: "Occupational Health & Industrial Hygiene" {
   shape: rectangle
 }
@@ -133,6 +145,10 @@ ehs_toxicology -> chemistry: { class: tool-edge }
 ehs_toxicology -> health_pharmacology: { class: tool-edge }
 ehs_waste-management -> chemistry: { class: tool-edge }
 ehs_waste-management -> water_sewage: { class: tool-edge }
+energy_nuclear-fission_isotope-production -> ehs_radiation-safety: { class: tool-edge }
+energy_nuclear-fission -> ehs_radiation-safety: { class: tool-edge }
+energy_radioisotope-power_isotope-fuel-fabrication -> ehs_radiation-safety: { class: tool-edge }
+energy_radioisotope-power -> ehs_radiation-safety: { class: tool-edge }
 
 # ==================== STYLING ====================
 ehs.class: domain
@@ -145,6 +161,10 @@ ehs_ventilation-exhaust.class: capability
 ehs_waste-management.class: capability
 chemistry.class: external
 construction.class: external
+energy_nuclear-fission.class: external
+energy_nuclear-fission_isotope-production.class: external
+energy_radioisotope-power.class: external
+energy_radioisotope-power_isotope-fuel-fabrication.class: external
 health_occupational-health.class: external
 health_pharmacology.class: external
 polymers.class: external

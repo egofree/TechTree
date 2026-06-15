@@ -87,6 +87,7 @@ classes: {
 # ==================== INTERNAL NODES ====================
 ceramics_internal: "Ceramics & Refractories — Internal Structure" {
   ceramics_advanced-ceramics: "Advanced Ceramics & Refractories"
+  ceramics_ceramic-recycling: "Ceramic & Refractory Recycling"
   ceramics_electronic-ceramics: Electronic Ceramics
   ceramics_kilns: Kiln Construction
   ceramics_lime: Lime Production
@@ -184,11 +185,15 @@ silicon: Silicon {
 # ==================== EDGES ====================
 ceramics_advanced-ceramics -> ceramics_kilns: { class: tool-edge }
 ceramics_advanced-ceramics -> ceramics_pottery: { class: tool-edge }
+ceramics_ceramic-recycling -> ceramics_advanced-ceramics: { class: tool-edge }
+ceramics_ceramic-recycling -> ceramics_kilns: { class: tool-edge }
+ceramics_ceramic-recycling -> ceramics_pottery: { class: tool-edge }
 ceramics_electronic-ceramics -> ceramics_advanced-ceramics: { class: tool-edge }
 ceramics_lime -> ceramics_kilns: { class: tool-edge }
 ceramics_thermal-insulation -> ceramics: { class: material-edge }
 animals_animal-materials -> ceramics_lime: { class: tool-edge }
 ceramics_advanced-ceramics -> mining: { class: material-edge }
+ceramics_ceramic-recycling -> mining: { class: tool-edge }
 ceramics_electronic-ceramics -> chemistry: { class: material-edge }
 ceramics_pottery_kiln-firing -> energy_fuels_charcoal: { class: material-edge }
 ceramics_pottery -> foundations_fire: { class: material-edge }
@@ -218,6 +223,7 @@ silicon -> ceramics_advanced-ceramics: { class: tool-edge }
 # ==================== STYLING ====================
 ceramics.class: domain
 ceramics_advanced-ceramics.class: critical
+ceramics_ceramic-recycling.class: capability
 ceramics_electronic-ceramics.class: capability
 ceramics_kilns.class: capability
 ceramics_lime.class: capability

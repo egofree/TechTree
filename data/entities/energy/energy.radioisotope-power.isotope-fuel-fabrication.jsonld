@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Hot-cell transformation of raw separated radioisotopes into launch-qualified heat sources. PuO2 powder is hot-pressed into ceramic pellets, encapsulated in DOP-26 iridium cladding, assembled into GPHS modules and RHU units with multi-layer graphite containment, then qualified through the NSPM-20 launch safety review before RTG integration.",
+  "early_win": false,
+  "id": "energy.radioisotope-power.isotope-fuel-fabrication",
+  "level": "process",
+  "name": "Isotope Fuel Fabrication",
+  "outputs": [
+    "gphs_module",
+    "iridium_clad",
+    "fuel_pellet",
+    "rhu_unit"
+  ],
+  "parent": "energy.radioisotope-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

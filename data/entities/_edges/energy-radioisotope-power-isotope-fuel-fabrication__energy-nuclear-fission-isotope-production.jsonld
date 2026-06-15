@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power.isotope-fuel-fabrication__energy.nuclear-fission.isotope-production",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.radioisotope-power.isotope-fuel-fabrication",
+  "to": "energy.nuclear-fission.isotope-production",
+  "label": "Pu-238 oxide powder and other separated radioisotope feedstock produced by reactor irradiation and hot-cell separation"
+}

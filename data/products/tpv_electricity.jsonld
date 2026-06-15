@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tpv_electricity",
+  "@type": "Product",
+  "name": "Thermophotovoltaic Electricity",
+  "source": "energy.radioisotope-power.advanced-isotope-conversion",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

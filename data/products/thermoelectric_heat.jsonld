@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thermoelectric_heat",
+  "@type": "Product",
+  "name": "Thermoelectric Heat",
+  "source": "energy.radioisotope-power.thermoelectric-rtg",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

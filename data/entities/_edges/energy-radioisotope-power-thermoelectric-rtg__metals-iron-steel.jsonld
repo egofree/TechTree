@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power.thermoelectric-rtg__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.radioisotope-power.thermoelectric-rtg",
+  "to": "metals.iron-steel",
+  "label": "Al 2219-T6 structural housing, iridium DOP-26 fuel clad, titanium multi-foil insulation, stainless steel and inconel hot-stack hardware"
+}

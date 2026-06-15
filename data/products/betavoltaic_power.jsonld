@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "betavoltaic_power",
+  "@type": "Product",
+  "name": "Betavoltaic Power",
+  "source": "energy.radioisotope-power.advanced-isotope-conversion",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

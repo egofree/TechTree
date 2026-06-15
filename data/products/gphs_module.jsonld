@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gphs_module",
+  "@type": "Product",
+  "name": "GPHS Module",
+  "source": "energy.radioisotope-power.isotope-fuel-fabrication",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "ceramics",
+      "metals"
+    ]
+  }
+}

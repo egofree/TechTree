@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Emerging and next-generation radioisotope power conversion technologies beyond heritage thermoelectric and Stirling systems. Covers thermophotovoltaic (TPV) cells that convert emitter infrared radiation at 30%+ efficiency, betavoltaic nuclear batteries delivering microwatt-scale power for decades from Ni-63 and tritium, alpha-voltaic cells using wide-bandgap GaN and SiC junctions, and advanced segmented thermoelectric materials. These approaches push specific power, lifetime, and miniaturisation beyond conventional RTG limits but remain at TRL 3-4 except for commercial betavoltaics.",
+  "early_win": false,
+  "id": "energy.radioisotope-power.advanced-isotope-conversion",
+  "level": "process",
+  "name": "Advanced Isotope Conversion",
+  "outputs": [
+    "tpv_electricity",
+    "betavoltaic_power",
+    "alphavoltaic_power"
+  ],
+  "parent": "energy.radioisotope-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

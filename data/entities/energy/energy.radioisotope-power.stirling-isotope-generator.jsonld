@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Stirling Isotope Generator - see documentation for details.",
+  "early_win": false,
+  "id": "energy.radioisotope-power.stirling-isotope-generator",
+  "level": "process",
+  "name": "Stirling Isotope Generator",
+  "outputs": [
+    "stirling_isotope_electricity"
+  ],
+  "parent": "energy.radioisotope-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

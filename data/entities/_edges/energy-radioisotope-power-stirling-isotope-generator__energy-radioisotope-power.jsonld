@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power.stirling-isotope-generator__energy.radioisotope-power",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.radioisotope-power.stirling-isotope-generator",
+  "to": "energy.radioisotope-power",
+  "label": "parent capability: shares isotope heat source, Pu-238 fuel infrastructure, launch safety qualification, and radioisotope handling infrastructure with thermoelectric and advanced conversion variants"
+}

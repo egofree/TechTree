@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "alphavoltaic_power",
+  "@type": "Product",
+  "name": "Alpha-Voltaic Power",
+  "source": "energy.radioisotope-power.advanced-isotope-conversion",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "stirling_isotope_electricity",
+  "@type": "Product",
+  "name": "Stirling Isotope Electricity",
+  "source": "energy.radioisotope-power.stirling-isotope-generator",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

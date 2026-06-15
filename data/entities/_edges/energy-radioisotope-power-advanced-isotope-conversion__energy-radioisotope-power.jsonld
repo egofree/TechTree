@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power.advanced-isotope-conversion__energy.radioisotope-power",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.radioisotope-power.advanced-isotope-conversion",
+  "to": "energy.radioisotope-power",
+  "label": "parent capability: inherits isotope fuel supply, safety case, and containment infrastructure from radioisotope power systems"
+}

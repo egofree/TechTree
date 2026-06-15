@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power.stirling-isotope-generator__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.radioisotope-power.stirling-isotope-generator",
+  "to": "metals.iron-steel",
+  "label": "pressure boundary steel and superalloys: Inconel 718 heater head, stainless steel pressure vessel housing, titanium converter structure, and GPHS iridium clad containment"
+}

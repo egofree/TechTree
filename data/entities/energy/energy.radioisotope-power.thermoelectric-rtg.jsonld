@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Thermoelectric RTG - see documentation for details.",
+  "early_win": false,
+  "id": "energy.radioisotope-power.thermoelectric-rtg",
+  "level": "process",
+  "name": "Thermoelectric RTG",
+  "outputs": [
+    "rtg_electricity",
+    "thermoelectric_heat"
+  ],
+  "parent": "energy.radioisotope-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

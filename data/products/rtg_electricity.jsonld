@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rtg_electricity",
+  "@type": "Product",
+  "name": "RTG Electricity",
+  "source": "energy.radioisotope-power.thermoelectric-rtg",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

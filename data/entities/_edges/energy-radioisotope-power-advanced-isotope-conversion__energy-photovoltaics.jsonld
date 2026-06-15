@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power.advanced-isotope-conversion__energy.photovoltaics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.radioisotope-power.advanced-isotope-conversion",
+  "to": "energy.photovoltaics",
+  "label": "thermophotovoltaic cells reuse III-V photovoltaic junction technology (InGaAs, GaSb, InGaAsSb) adapted for infrared emission spectra"
+}

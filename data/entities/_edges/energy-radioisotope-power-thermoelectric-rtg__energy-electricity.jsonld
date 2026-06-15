@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power.thermoelectric-rtg__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.radioisotope-power.thermoelectric-rtg",
+  "to": "energy.electricity",
+  "label": "shunt regulators, DC-DC converters, diode OR-ing, charge controllers, and power conditioning bus that interfaces the RTG to spacecraft loads"
+}

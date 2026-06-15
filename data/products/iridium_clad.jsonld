@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "iridium_clad",
+  "@type": "Product",
+  "name": "Iridium Clad",
+  "source": "energy.radioisotope-power.isotope-fuel-fabrication",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

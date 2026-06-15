@@ -7,8 +7,8 @@
 > **Enables**: [`energy.engine`](../energy/engine.md),
 > [`energy.internal-combustion`](../energy/internal-combustion.md),
 > [`petroleum.petrochemicals`](./petrochemicals.md),
-> [`petroleum.refining.cracking`](./refining.cracking.md),
-> [`petroleum.refining.distillation`](./refining.distillation.md)
+> [`petroleum.refining.cracking`](./cracking.md),
+> [`petroleum.refining.distillation`](./distillation.md)
 > **Timeline**: Years 15-40
 > **Outputs**: gasoline, kerosene, diesel, fuel_oil, lubricating_base_oil, asphalt, lpg, refinery_gas
 > **Critical**: No — refining produces optimal fuels and chemical feedstocks but biomass and coal-derived alternatives exist
@@ -325,4 +325,4 @@ A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, ste
 - [Solvents](../chemistry/solvents.md) — petroleum-derived solvents
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*

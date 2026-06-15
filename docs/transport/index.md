@@ -15,4 +15,4 @@ Capabilities in this domain:
 - [Water Transport](shipping.md) — Water transport: boats, barges, canals, and maritime shipping infrastructure.
 
 - [Road Construction Equipment](road-construction-equipment.md) — Graders, rollers, pavers, and excavating equipment for road and highway construction.
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

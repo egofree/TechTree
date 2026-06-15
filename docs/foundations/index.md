@@ -8,4 +8,8 @@ Capabilities in this domain:
 
 - [Stone & Wood Tools](tools-basic.md) — Flint knapping, ground stone tools, wooden implements, basket weaving, basic pottery, and simple machines.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Basic Carpentry](carpentry.md) — Shaping and joining wood into structures, furniture, patterns, and tool handles using hand saws, planes, chisels, and measuring tools.
+- [Sawmilling & Timber Processing](sawmilling.md) — Conversion of raw timber into standardized dimensional lumber through log felling, pit sawing, water-powered sawmilling, steam-powered mills, and seasoning/drying.
+
+[↑ Back to Tech Tree](../index.md)
+

@@ -306,4 +306,4 @@ Paint is the most widely used protective coating for metals, but paint performan
 - [Aluminum](aluminum.md) — anodizing and aluminum surface treatment
 - [Electroplating](../electrochemistry/electroplating.md) — electrodeposition of metal coatings
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

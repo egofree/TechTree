@@ -3,6 +3,7 @@
 > **Node ID**: water.basic-treatment
 > **Domain**: [Water](./index.md)
 > **Dependencies**: [`chemistry.bleaching`](../chemistry/bleaching.md)
+> **Enables**: None
 > **Timeline**: Years 5-25
 > **Outputs**: potable_water, filtered_water
 > **Critical**: Yes — waterborne diseases are among the greatest killers in pre-industrial civilizations; treatment reduces mortality by 50-80%
@@ -277,4 +278,4 @@ The key scaling breakpoint is the jump from household to community scale: this r
 - [SEM Tech Water Treatment](sem-tech-water-treatment.md) — advanced desalination and purification
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

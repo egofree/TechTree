@@ -3,7 +3,7 @@
 > **Node ID**: plants.structural-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
 > **Dependencies**: `plants`
-> **Enables**: `plants.structural-plants.artemisia-capillaris`
+> **Enables**: None
 > **Timeline**: Years 0-10
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
 > **Critical**: Yes — all early construction depends on plant-derived structural materials
@@ -396,4 +396,4 @@ All 35 plant species from the catalog tagged as structural, linked to their indi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

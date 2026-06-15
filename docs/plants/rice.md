@@ -89,7 +89,7 @@ Where labor for transplanting is unavailable, direct seeding is an alternative w
 
 ### Distribution and Growing Conditions
 
-A tropical plant. It grows in tropical and subtropical countries. Plants are grown in both flooded and dryland sites. It will grow over a range of conditions but is normally between sea level and 900 metres altitude in the tropics. Occasionally it is grown up to 1600 m. In Nepal it grows to about 2800 m altitude. It needs a frost free period of over 130 days. It suits hardiness zones 9-12. Coming Soon
+A tropical plant. It grows in tropical and subtropical countries. Plants are grown in both flooded and dryland sites. It will grow over a range of conditions but is normally between sea level and 900 metres altitude in the tropics. Occasionally it is grown up to 1600 m. In Nepal it grows to about 2800 m altitude. It needs a frost free period of over 130 days. It suits hardiness zones 9-12.
 
 ### Identification
 
@@ -308,4 +308,4 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -2,9 +2,10 @@
 
 > **Node ID**: telecom.submarine-cables
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: `metals`, [`polymers.rubber.gutta-percha`](../polymers/rubber.gutta-percha.md),
+> **Dependencies**: `metals`, [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md),
 > [`telecom.electric-telegraph`](./electric-telegraph.md),
 > [`transport.shipping`](../transport/shipping.md)
+> **Enables**: None
 > **Timeline**: Years 25-55
 > **Outputs**: submarine_cable_capacity, intercontinental_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
@@ -237,4 +238,4 @@ Requires purpose-built or heavily modified cable ship with 3,000+ km cable capac
 - [Metals](../metals/index.md) — copper conductor production
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*

@@ -3,6 +3,7 @@
 > **Node ID**: electronics.pcb-fabrication
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper`](../metals/copper.md)
+> **Enables**: None
 > **Timeline**: Years 25-45
 > **Outputs**: pcb_bare_boards, copper_clad_laminate, etched_circuits
 > **Critical**: Yes — PCBs are the universal interconnection substrate for all electronic assemblies from simple controllers to multi-GHz computers
@@ -225,7 +226,7 @@ This document covers the full PCB fabrication process from laminate production t
 
 - **Single to double-sided**: Requires electroless copper plating capability — the most chemistry-intensive step. The Pd-Sn catalyst and formaldehyde-based electroless copper bath are sensitive to contamination and require regular analysis and replenishment.
 - **Double to multi-layer**: Requires vacuum laminating press and inner-layer AOI. Registration accuracy must be <0.05 mm across the panel for 4+ layers. Lamination is the bottleneck — each cycle takes 2-4 hours regardless of panel count.
-- **Standard to HDI (High-Density Interconnect)**: Requires laser drilling (UV or CO₂ laser, 0.05-0.15 mm microvias), sequential lamination, and fine-line etching capability. This is a major capability jump — essentially a different manufacturing process.
+- **Standard to HDI (High-Density Interconnect)**: Requires laser drilling (UV or CO₂ laser, 0.05-0.15 mm microvias), sequential lamination, and fine-line etching capability. This is a major capability jump — a different manufacturing process.
 
 ## Minimum Economic Scale
 
@@ -324,5 +325,5 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
 

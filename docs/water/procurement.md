@@ -359,4 +359,4 @@ Where groundwater seeps from a hillside rather than emerging at a single point, 
 - [Agriculture](../agriculture/index.md) — irrigation systems requiring reliable water supply
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

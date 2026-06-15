@@ -104,13 +104,15 @@ make all
 
 `make test` checks that valid files pass schema validation and that invalid files are correctly rejected.
 
+For a historical audit of the validation/generation scripts and their KEEP/MERGE/DELETE status, see the [script audit](../supporting/script-audit.md).
+
 ## Extending the Standard
 
 **Adding a new entity.** Create a `.jsonld` file in the right `data/entities/{domain}/` directory. Follow the schema for your entity type. Run `make validate` to check conformance.
 
 **Adding a new edge.** Create `{from}__{to}.jsonld` in `data/entities/_edges/`. Set `edgeType` to `"material"` or `"tool"`, and `flow` to one of the four qualifiers.
 
-**Adding a new domain.** Domains have their own entity schema rules (parent is null, level is "domain"). New domains should pass the SIK Placement Test described in the formal spec (Section 10), which checks that the domain boundary is justified by shared infrastructure, knowledge, and practitioner overlap.
+**Adding a new domain.** Domains have their own entity schema rules (parent is null, level is "domain"). New domains should pass the SIK Placement Test described in the formal spec (Section 10) and the [schema specification §6](../supporting/schema-spec.md), which checks that the domain boundary is justified by shared infrastructure, knowledge, and practitioner overlap. Worked examples are documented in the [circular-economy](../supporting/sik-circular-economy.md), [economics-organization](../supporting/sik-economics-organization.md), and [software-bootstrapping](../supporting/sik-software-bootstrapping.md) placement tests.
 
 **Adding new tag values.** Tag vocabularies are closed sets defined in the schemas. To add a value, update the relevant `*.schema.json` enum and the formal spec, then run `make test` to confirm nothing breaks.
 
@@ -119,9 +121,12 @@ make all
 | Standard | How It Connects |
 |----------|----------------|
 | **EMMO** | Vocabulary alignment at the IRI level. `techtree:Process` maps to `EMMO_43e9a05d` (Process), `techtree:Product` to `EMMO_ec7464a9` (ManufacturedObject). No OWL imports. |
-| **openLCA** | JSON-LD serialization compatibility. Both use `@type` and `@id`. Round-trip conversion is a design goal. |
+| **openLCA** | JSON-LD serialization compatibility. Both use `@type` and `@id`. Round-trip conversion is a design goal — see the [openLCA mapping strategy](openlca-mapping.md). |
 | **Wikidata** | Entity files can include `wikidataId` (e.g., `"Q362"` for steel) for linking to the broader knowledge graph. |
 
 ## License
 
 CC0 1.0 Universal. Public domain. No attribution required.
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Spec](.) · [All Domains](../index.md)*

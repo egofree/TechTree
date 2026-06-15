@@ -3,6 +3,7 @@
 > **Node ID**: ultra-pure.high-purity-chemicals
 > **Domain**: [Ultra-Pure Materials](./index.md)
 > **Dependencies**: `chemistry`, [`ultra-pure.upw`](./upw.md)
+> **Enables**: None
 > **Timeline**: Years 40-80
 > **Outputs**: high_purity_acids, high_purity_solvents, high_purity_gases
 > **Critical**: Yes — electronic-grade chemicals at 9N+ purity are required for all wafer etching, cleaning, and deposition processes
@@ -10,7 +11,7 @@
 
 Semiconductor fabrication uses dozens of chemicals at purity levels 6-9 orders of magnitude above standard reagent grade. Electronic-grade hydrofluoric acid (HF) must contain less than 100 ppt (parts per trillion) of each metallic impurity — Fe, Cu, Ni, Cr, Zn, Na, K, Ca, and dozens of others. Standard ACS reagent-grade HF typically contains 0.5-5 ppm of metallic impurities — 5,000-50,000× too contaminated for wafer processing.
 
-The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-grade (9N+ purity) is not incremental improvement. It requires fundamentally different equipment, materials, environments, and analytical capabilities. Standard distillation in glass apparatus introduces trace metals from the glass itself. Sub-boiling distillation in PTFE or quartz apparatus is the minimum entry point for electronic-grade production.
+The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-grade (9N+ purity) is not incremental improvement. It requires different equipment, materials, environments, and analytical capabilities. Standard distillation in glass apparatus introduces trace metals from the glass itself. Sub-boiling distillation in PTFE or quartz apparatus is the minimum entry point for electronic-grade production.
 
 ## Prerequisites
 
@@ -296,4 +297,4 @@ Chemical purification at electronic grade involves concentrated acids, volatile 
 - [Photolithography Fab Processes](../photolithography/fab-processes.md) — the processes consuming these chemicals
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*

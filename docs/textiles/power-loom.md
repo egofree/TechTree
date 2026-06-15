@@ -233,4 +233,4 @@ Power looms require systematic maintenance to maintain cloth quality and prevent
 - [Dyeing](dyeing.md) — coloring woven cloth before and after finishing
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

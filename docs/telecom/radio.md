@@ -4,6 +4,7 @@
 > **Domain**: [Telecommunications](./index.md)
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), `glass`, `metals`,
 > [`telecom.electric-telegraph`](./electric-telegraph.md)
+> **Enables**: None
 > **Timeline**: Years 30-60
 > **Outputs**: radio_communication, wireless_telegraphy, broadcast_capability
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
@@ -445,4 +446,4 @@ A loading coil at the base of a short vertical antenna resonates the antenna-plu
 - [Measurement / Electrical Instruments](../measurement/electrical-instruments.md) — galvanometers, oscilloscopes, and signal measurement
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*

@@ -6,7 +6,7 @@
 > [`metals.refractory-specialty`](./refractory-specialty.md),
 > [`photolithography.fab-processes`](../photolithography/fab-processes.md),
 > [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md)
-> **Enables**: [`photolithography.fab-processes.pvd`](../photolithography/fab-processes.pvd.md)
+> **Enables**: [`photolithography.fab-processes.pvd`](../photolithography/pvd.md)
 > **Timeline**: Years 40-80
 > **Outputs**: TiN hard masks, Ti diffusion barriers, W contact plugs, Mo gate electrodes, Cu damascene interconnects, Mo/Cu heat sinks
 > **Critical**: Yes — semiconductor interconnect metals (Ti, W, Mo, Cu) are required for all sub-100 nm chip fabrication
@@ -333,5 +333,5 @@ These four metals converge at specific points in GPU fabrication:
 - [Refractory Metals](refractory-metals.md) — high-melting-point metals for tooling
 - [Aluminum](aluminum.md) — aluminum interconnects and metallization
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
 

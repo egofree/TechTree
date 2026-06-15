@@ -3,6 +3,7 @@
 > **Node ID**: `electronics.analog-circuits.op-amp-circuits`
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.passive-components`](passive-components.md), [`electronics.analog-circuits.amplifier-fundamentals`](analog-circuits.amplifier-fundamentals.md)
+> **Enables**: None
 > **Outputs**: op-amp-circuit-designs
 > **Timeline**: Years 20-35
 > **Critical**: No — design pedagogy layer; the underlying op-amp IC manufacturing (semiconductor-devices) and the resistors/capacitors (passive-components) are the critical prerequisites
@@ -40,7 +41,7 @@ The **ideal op-amp** has four properties that make every design equation a one-l
 
 ### The Golden Rules
 
-With **negative feedback** (a fraction of the output wired back to the inverting input), the ideal model collapses to two rules that solve essentially every circuit:
+With **negative feedback** (a fraction of the output wired back to the inverting input), the ideal model collapses to two rules that solve every circuit:
 
 1. **No current flows into either input** (infinite Z_in). The inputs draw nothing.
 2. **The op-amp drives its output so that V+ = V−** (the *virtual short* or *virtual ground*). Because A_OL is enormous, the input difference must be ≈ 0 for the output to sit anywhere finite: V_out = A_OL × (V+ − V−), so (V+ − V−) = V_out / A_OL ≈ 0.
@@ -473,6 +474,11 @@ The ideal model is a fiction; real parts have finite gain, finite bandwidth, res
 - **[Passive Components](passive-components.md)** — the resistors that set gain (R_f, R_in), the capacitors that integrate/differentiate and set filter cutoffs, the matched resistor quads for difference amplifiers.
 - **[Filter Circuits](power-supply-circuits.filter-circuits.md)** — the passive-filter theory (f_c, roll-off, Q) that the active filters in this article extend with op-amp gain.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Analog Circuits](analog-circuits.md) — the parent capability hub; the pedagogical ladder this article sits on.
@@ -482,4 +488,4 @@ The ideal model is a fiction; real parts have finite gain, finite bandwidth, res
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

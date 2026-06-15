@@ -226,4 +226,4 @@ In traditional Chinese medicine theory, Yin Chen Hao is classified as a herb tha
 ### Artemisia capillaris Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

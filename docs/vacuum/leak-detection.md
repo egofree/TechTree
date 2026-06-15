@@ -3,6 +3,7 @@
 > **Node ID**: vacuum.leak-detection
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `gas-handling`, `measurement`, [`vacuum.measurement`](./measurement.md)
+> **Enables**: None
 > **Critical**: No — leak detection improves vacuum system reliability but systems can operate at degraded performance without formal leak testing
 > **Timeline**: Years 25-40
 > **Outputs**: leak_detection_services, hermetic_seals, leak_rate_quantification
@@ -240,4 +241,4 @@ Leak rates are commonly expressed in atm·cc/s (the volume of gas at standard at
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

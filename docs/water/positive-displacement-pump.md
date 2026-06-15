@@ -272,4 +272,4 @@ A precision diaphragm or piston pump designed for accurate, repeatable delivery 
 - [Iron & Steel](../metals/iron-steel.md) — pump body and piston materials
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

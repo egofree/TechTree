@@ -3,6 +3,7 @@
 > **Node ID**: quality-control.defect-analysis
 > **Domain**: [Quality Control](./index.md)
 > **Dependencies**: `quality-control`, [`quality-control.spc`](./spc.md)
+> **Enables**: None
 > **Timeline**: Years 40-100+
 > **Outputs**: fmea, pareto_analysis, fishbone_diagrams, yield_models, defect_density, root_cause_analysis
 > **Critical**: No — defect analysis improves yields but production can continue without systematic analysis
@@ -397,5 +398,5 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 - [Computing](../computing/index.md) — automated defect classification and yield simulation
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*
 

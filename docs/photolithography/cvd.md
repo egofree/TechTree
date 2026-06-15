@@ -4,6 +4,7 @@
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`gas-handling`](../gas-handling/index.md), [`vacuum`](../vacuum/index.md), [`energy.electricity`](../energy/electricity.md)
 > **Parent**: [`photolithography.fab-processes`](fab-processes.md)
+> **Enables**: None
 > **Timeline**: Years 45-70
 > **Outputs**: cvd_thin_films, deposited_oxide, deposited_nitride, polysilicon_layers, tungsten_plugs
 > **Critical**: No — CVD is important but thermal oxidation and sputtering provide fallback deposition paths for early devices
@@ -197,4 +198,5 @@ dichlorosilane and ammonia are used. Metal CVD for tungsten plugs uses tungsten 
 Each precursor has different decomposition temperatures, byproduct profiles, and safety
 requirements that shape the process design.
 
-[← Back to Photolithography](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Photolithography](./index.md) · [All Domains](../index.md)*

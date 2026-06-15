@@ -198,4 +198,4 @@ Gum arabic is classified as a dietary fiber and has been shown to have prebiotic
 *Content to be added: gum yield data, harvest timing, collection methods.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

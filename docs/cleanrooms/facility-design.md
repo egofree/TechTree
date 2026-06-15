@@ -2,6 +2,7 @@
 
 > **Node ID**: cleanrooms.facility-design
 > **Domain**: [Clean Room Technology](./index.md)
+> **Dependencies**: None
 > **Enables**: [`construction.industrial-buildings`](../construction/industrial-buildings.md)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanroom_facilities, pressure_cascade_systems, raised_floor_systems, hvac_systems
@@ -313,4 +314,4 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 - [Energy](../energy/index.md) — power requirements for HVAC and support systems
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Clean Room Technology](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*

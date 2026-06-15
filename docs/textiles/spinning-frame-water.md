@@ -109,4 +109,4 @@ The water frame (Arkwright, 1769) uses pairs of rollers to draw fiber out (draft
 - [Energy](../energy/index.md) — power sources for driving spinning frames
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

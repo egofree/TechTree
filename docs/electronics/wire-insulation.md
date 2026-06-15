@@ -2,6 +2,7 @@
 
 > **Node ID**: electronics.wire-insulation
 > **Domain**: [Electronics](./index.md)
+> **Dependencies**: None
 > **Enables**: [`energy.electricity`](../energy/electricity.md)
 > **Timeline**: Years 15-25
 > **Outputs**: enamelled_magnet_wire, rubber_insulated_cable, varnish_dipped_windings
@@ -232,4 +233,4 @@ This capability covers four insulation methods: **enameling** (the critical path
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

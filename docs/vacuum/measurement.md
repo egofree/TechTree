@@ -226,4 +226,4 @@ Leak detection is covered in detail in the dedicated [Leak Detection & Seal Inte
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

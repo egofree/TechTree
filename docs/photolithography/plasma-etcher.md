@@ -237,4 +237,4 @@ RIE is the default for most production etching at features ≥1 μm. ICP-RIE ext
 - [CVD Reactor](cvd-reactor.md) — alternative deposition technology
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*

@@ -144,6 +144,9 @@ Thermostat production scales with the precision of the underlying technology:
 - [Chemistry](../chemistry/semiconductor-chemicals.md): mercury production, metal oxides for thermistors
 - [Silicon](../silicon/basic-devices.md): semiconductor sensors, IC temperature sensors
 - [Energy](../energy/cooling.md): steam systems, HVAC, engine cooling
+- [EHS](../ehs/ppe.md): thermal PPE for high-temperature work
+- [Ceramics](../ceramics/kilns.md): kiln temperature control applications
+- [Foundations](../foundations/fire.md): fire-based temperature estimation before instruments
 
 ## Variations and Alternatives
 
@@ -195,4 +198,4 @@ The most demanding thermostat application in semiconductor manufacturing is the 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

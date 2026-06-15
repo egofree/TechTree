@@ -511,4 +511,4 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [Writing](../knowledge/writing.md) — beeswax tablets
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

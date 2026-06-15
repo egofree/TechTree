@@ -196,5 +196,11 @@ Proper handling of petroleum coke, pitch, and finished electrodes maintains qual
 - Segregate grinding fines and pitch-contaminated waste for proper disposal as hazardous material
 - Track baking furnace position assignments to correlate electrode quality with furnace zones
 - Verify graphitization furnace power input matches energy specification for each electrode grade
+## See Also
+
+- [Battery Manufacturing](batteries.md) — electrode assembly into cells
+- [Energy Index](./index.md) — overview of all energy capabilities
+
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

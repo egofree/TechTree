@@ -245,12 +245,12 @@ Acorns provide exceptional feed value in autumn — white oak acorns contain 6-8
 ## See Also
 
 - [Poultry Overview](poultry.md) — general poultry husbandry and biosecurity
-- [Chickens](poultry-chickens.md) — primary poultry for comparison
-- [Coturnix Quail](poultry-coturnix.md) — small-scale poultry alternative
-- [Pigeons](poultry-pigeons.md) — minimal-input poultry
+- [Chickens](poultry.chickens.md) — primary poultry for comparison
+- [Coturnix Quail](poultry.coturnix.md) — small-scale poultry alternative
+- [Pigeons](poultry.pigeons.md) — minimal-input poultry
 - [Soil Management](../agriculture/soil-management.md) — turkey manure as fertilizer
 - [Animal Husbandry](animal-husbandry.md) — general livestock management
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

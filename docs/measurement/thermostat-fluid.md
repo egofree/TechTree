@@ -4,6 +4,7 @@
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: `chemistry`, `glass`,
 > [`measurement.thermostat-mechanical`](./thermostat-mechanical.md)
+> **Enables**: None
 > **Critical**: No — mechanical and electrical thermostats are functional alternatives
 > **Timeline**: Years 10-30
 > **Outputs**: remote_sensing, proportional_control, mercury_switching
@@ -12,7 +13,7 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 
 ## Mercury Tilt Thermostat
 
-**Principle**: A bimetallic coil (or strip) is mechanically linked to a small glass ampoule containing a blob of mercury. As temperature changes, the bimetallic element bends or coils, tilting the ampoule. When tilted past a critical angle, the mercury flows to one end of the ampoule, bridging two platinum wire electrodes sealed through the glass and completing the circuit. When tilted back (temperature returns), the mercury flows away from the electrodes, breaking the circuit. The genius of this design is that mercury switching is essentially frictionless. There is no mechanical contact to wear, oxidize, or stick. The mercury simply sloshes.
+**Principle**: A bimetallic coil (or strip) is mechanically linked to a small glass ampoule containing a blob of mercury. As temperature changes, the bimetallic element bends or coils, tilting the ampoule. When tilted past a critical angle, the mercury flows to one end of the ampoule, bridging two platinum wire electrodes sealed through the glass and completing the circuit. When tilted back (temperature returns), the mercury flows away from the electrodes, breaking the circuit. The genius of this design is that mercury switching is frictionless. There is no mechanical contact to wear, oxidize, or stick. The mercury simply sloshes.
 
 **Prerequisites**:
 - [Rolling mill](../machine-tools/forming.md) for producing thin metal strips
@@ -445,7 +446,7 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 - [Precision nozzle](../machine-tools/machining.md) (0.5-1.0 mm orifice)
 - [Relay valve](../metals/bronze.md) (amplifier: boosts the weak nozzle back-pressure signal to actuator-driving pressure)
 - [Pneumatic actuators](../energy/storage.md) (diaphragm or piston type) on controlled equipment
-- [Temperature sensor](./thermostat-mechanical.html#bimetallic-strip-thermostat) (bimetallic strip, or [liquid/gas bulb](#liquid-expansion-thermostat-bulb-bellows))
+- [Temperature sensor](./thermostat-mechanical.md#bimetallic-strip-thermostat) (bimetallic strip, or [liquid/gas bulb](#liquid-expansion-thermostat-bulb-bellows))
 
 **Materials**:
 - [Nozzle: brass or stainless steel](../metals/bronze.md), 0.8 mm orifice
@@ -521,4 +522,4 @@ Fluid and gas thermostats add liquids, vapors, and gases as the sensing medium, 
 
 ---
 
-*Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*

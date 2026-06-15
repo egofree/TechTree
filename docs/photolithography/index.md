@@ -27,4 +27,4 @@ Capabilities in this domain:
 - [Ion Implanter (Construction)](ion-implanter.md) — Construction of medium-current and high-current ion implantation systems for semiconductor doping.
 
 - [Photolithography Stepper (Construction)](photolithography-stepper.md) — Construction of projection lithography systems for pattern transfer onto semiconductor wafers.
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

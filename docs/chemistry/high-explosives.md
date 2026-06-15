@@ -265,7 +265,7 @@ Each high explosive has specific quality verification tests:
 ## See Also
 
 - **[Explosives & Propellants](explosives.md)**: Parent overview and nitration chemistry fundamentals
-- **[Black Powder](black-powder.md)**: The first explosive, still used for fuses and pyrotechnics
+- **[Black Powder](explosives.black-powder.md)**: The first explosive, still used for fuses and pyrotechnics
 - **[Nitrocellulose & Smokeless Powders](nitrocellulose.md)**: Propellants for firearms and artillery
 - **[Nitroglycerin & Dynamite](nitroglycerin-dynamite.md)**: NG production and dynamite manufacture
 - **[Acids](acids.md)**: Nitric and sulfuric acid production for nitration
@@ -274,7 +274,7 @@ Each high explosive has specific quality verification tests:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -300,4 +300,4 @@ Each high explosive has specific quality verification tests:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

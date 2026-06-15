@@ -6,12 +6,12 @@
 > [`metals.forming`](../metals/forming.md),
 > [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: [`energy.electricity`](./electricity.md), [`energy.geothermal`](./geothermal.md),
-> [`energy.steam-power.steam-turbines`](./steam-power.steam-turbines.md),
+> [`energy.steam-power.steam-turbines`](./steam-turbines.md),
 > [`health.medical-instruments`](../health/medical-instruments.md),
 > [`marine.propulsion`](../marine/propulsion.md),
 > [`mining.drilling`](../mining/drilling.md),
 > [`mining.ventilation`](../mining/ventilation.md),
-> [`petroleum.extraction.cable-tool`](../petroleum/extraction.cable-tool.md),
+> [`petroleum.extraction.cable-tool`](../petroleum/cable-tool.md),
 > [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-25
 > **Outputs**: steam_engines, boilers, rotary_power
@@ -283,4 +283,4 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

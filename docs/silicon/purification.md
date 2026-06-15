@@ -9,6 +9,7 @@
 > [`energy.electricity`](../energy/electricity.md),
 > [`gas-handling.basic`](../gas-handling/basic.md),
 > [`silicon.mg-si-production`](./mg-si-production.md), `vacuum`
+> **Enables**: None
 > **Timeline**: Years 30-50
 > **Outputs**: purified_silicon, polysilicon, chlorosilanes
 > **Critical**: Yes — 9N+ purity polysilicon is required for all electronic-grade semiconductor devices
@@ -161,7 +162,7 @@ Energy consumption varies dramatically across the silicon processing chain. Appr
 | Czochralski pulling | Single crystal ingot | 200-400 | From polysilicon to crystal (see [crystal-growth.md](crystal-growth.md)) |
 | Float zone (FZ) | Single crystal ingot | 300-500 | RF heating, slower but no crucible contamination |
 
-The energy intensification from MG-Si to single-crystal wafers is roughly 20-40×. A polysilicon plant is fundamentally an energy conversion facility — cheap, abundant electricity is the primary siting requirement.
+The energy intensification from MG-Si to single-crystal wafers is roughly 20-40×. A polysilicon plant is an energy conversion facility — cheap, abundant electricity is the primary siting requirement.
 
 ## Troubleshooting
 
@@ -294,4 +295,4 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

@@ -243,4 +243,4 @@ The methane and hydrogen separated in the demethanizer overhead become the plant
 - Verify refrigerant inventories (ethylene and propylene) are adequate before starting the cold section after a shutdown
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Petroleum](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Petroleum](./index.md) · [All Domains](../index.md)*

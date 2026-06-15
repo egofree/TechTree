@@ -3,6 +3,7 @@
 > **Node ID**: food-processing.dairy
 > **Domain**: [Food Processing](./index.md)
 > **Dependencies**: `ceramics`, [`health.sanitation`](../health/sanitation.md)
+> **Enables**: None
 > **Critical**: No — dairy processing enhances nutrition but basic animal husbandry provides dairy products without specialized equipment
 > **Timeline**: Years 0-20
 > **Outputs**: butter, cheese, cream, yogurt, whey, ghee
@@ -268,4 +269,4 @@ The transformation of fresh curd into aged cheese involves complex biochemical c
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

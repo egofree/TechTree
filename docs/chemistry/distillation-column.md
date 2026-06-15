@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.distillation-column
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`metals.welding`](../machine-tools/welding-equipment.md), [`chemistry.distillation`](distillation.md), [`ceramics.kilns`](../ceramics/kilns.md)
-> **Enables**: [`chemistry.solvents`](solvents.md), [`petroleum.refining`](../petroleum/refining.md), [`silicon.purification`](../silicon/purification.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 15-30
 > **Outputs**: fractionated_liquids
 > **Critical**: Yes — the distillation column is the most important separation apparatus in chemical manufacturing, responsible for 40-60% of capital cost in a typical chemical plant. Petroleum refining, solvent purification, and silicon chlorosilane separation all require multi-stage fractional distillation columns.
@@ -216,4 +216,4 @@ A column separating ethanol (bp 78.4°C) from water (bp 100°C) at atmospheric p
 - **Reboiler duty**: 370 kW (slightly more than condenser due to feed preheat)
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

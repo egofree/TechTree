@@ -153,7 +153,7 @@ Engineering drawings are master documents — loss of a master drawing means los
 - Flat storage in shallow drawers (never rolled — rolling causes permanent curl and crease damage at fold points).
 - Acid-free interleaving paper between drawings to prevent ink transfer.
 - Drawing register (numbered log) tracking: drawing number, title, revision, location (drawer number), date received, responsible person.
-- Fireproof cabinet or vault for master originals. Day-to-day workshop use employs blueprint copies, not originals.
+- Fireproof cabinet or vault for master originals. Day-to-day workshop work uses blueprint copies, not originals.
 - Handle originals with clean, dry hands. Never mark on an original drawing with anything other than the official revision stamp.
 - Maximum of 50 drawings per drawer to prevent compression damage and enable retrieval within 2 minutes.
 
@@ -203,4 +203,4 @@ Surface finish is indicated on drawings with a checkmark symbol (√) followed b
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

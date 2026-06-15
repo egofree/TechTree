@@ -3,7 +3,7 @@
 > **Node ID**: glass.advanced
 > **Domain**: [Glass](./index.md)
 > **Dependencies**: [`glass.basic`](./basic.md)
-> **Enables**: [`glass.advanced.glassblowing`](./advanced.glassblowing.md),
+> **Enables**: [`glass.advanced.glassblowing`](./glassblowing.md),
 > [`glass.fibers`](./fibers.md),
 > [`glass.glass-to-metal-seals`](./glass-to-metal-seals.md),
 > [`glass.photomask-substrates`](./photomask-substrates.md),
@@ -426,5 +426,5 @@ Immerse thin glass (1-3 mm) in molten KNO₃ at 400-450°C for 4-16 hours. Large
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
 

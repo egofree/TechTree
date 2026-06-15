@@ -227,4 +227,4 @@ EBW is the welding method of choice for fabricating ultra-high vacuum chambers u
 - Log pump-down time for each cycle; increasing pump-down time indicates seal wear or internal contamination
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*

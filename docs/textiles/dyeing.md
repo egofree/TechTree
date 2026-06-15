@@ -242,4 +242,4 @@ Quantifying dye permanence allows consistent quality control across batches:
 - [Finishing](finishing.md) — post-dye textile finishing processes
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

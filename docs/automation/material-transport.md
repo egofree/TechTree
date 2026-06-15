@@ -304,4 +304,4 @@ Most 300 mm fabs use raised access flooring (perforated panels 300-600 mm above 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Automation & Robotics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*

@@ -359,4 +359,4 @@ Cryogenic distillation is the only method that produces all three products at hi
 - **[Basic Gas Handling](../gas-handling/basic.md)**: Gas compression and purification infrastructure
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*

@@ -216,4 +216,4 @@ Rule of thumb: select the lowest viscosity that maintains Sommerfeld number >1 a
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

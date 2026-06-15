@@ -4,6 +4,7 @@
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.fuels`](./fuels.md), `metals`,
 > [`petroleum.refining`](../petroleum/refining.md)
+> **Enables**: None
 > **Timeline**: Years 20-40
 > **Outputs**: gasoline_engines, diesel_engines, mechanical_power
 > **Critical**: No — internal combustion engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing
@@ -293,6 +294,11 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 **Comparison with electric motors**: Electric motors achieve 85-97% efficiency (vs. 25-50% for heat engines), have one moving part (the rotor), require no fuel or lubrication system, produce zero emissions at point of use, and operate silently. However, electric motors require electricity, which must be generated somewhere (often by heat engines). The choice between engine-driven and electric-driven systems is ultimately a question of energy infrastructure. Where grid electricity is available, electric motors are almost always superior for stationary applications. Heat engines come into their own where portable power is needed (vehicles, aircraft, remote locations) or where the electricity grid does not reach. In a bootstrap economy, the sequence is: first build engines for mechanical power, then build generators to convert engine power to electricity, then build electric motors for stationary applications where the grid exists, and use engines for mobile power where the grid cannot reach.
 - **Infrastructural dependency**: Engines require a supply chain for fuel, lubricating oil, spare parts (filters, belts, hoses, gaskets), and skilled mechanics. A diesel generator is useless without diesel fuel, and a gasoline engine with a clogged carburetor is a paperweight. In a bootstrap scenario, the fuel supply chain (petroleum extraction, transport, refining, distribution) may be more constraining than the engine manufacturing itself. Alternative fuels (producer gas, biodiesel) can fill the gap, but each requires its own production infrastructure.
 
+
+## Safety
+
+Internal combustion engines produce carbon monoxide (CO) in exhaust gas (0.5-10% by volume) — lethal at 0.1% in air for 1 hour; never operate in enclosed spaces without exhaust extraction. Liquid fuels (gasoline, diesel) are flammable with flash points below 60°C — vapor-air mixtures explode in the 0.6-8% range for gasoline. Hot exhaust manifolds reach 400-800°C — fire hazard near combustibles and severe burn risk. Engine cooling fans and belts cause crush/amputation injuries — install OSHA-compliant guards. Battery hydrogen gas evolves during charging — explosion hazard; ventilate battery compartments.
+
 ## See Also
 
 - [Heat Engines](engine.md) — overview of all heat engine types
@@ -311,4 +317,4 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

@@ -251,4 +251,4 @@ oil by weight. Walnut oil is valued for woodworking as a finishing oil and for c
 as a premium salad and cooking oil with a distinctive nutty flavor.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

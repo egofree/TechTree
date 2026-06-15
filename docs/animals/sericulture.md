@@ -3,6 +3,7 @@
 > **Node ID**: animals.sericulture
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.domestication`](./domestication.md)
+> **Enables**: None
 > **Timeline**: Years 2-15
 > **Outputs**: raw_silk, silk_thread, cocoons, sericin
 > **Critical**: No — silk is valuable but not essential for bootstrapping
@@ -222,4 +223,4 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

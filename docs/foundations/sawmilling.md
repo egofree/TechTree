@@ -2,6 +2,7 @@
 
 > **Node ID**: foundations.sawmilling
 > **Domain**: [Foundations](./index.md)
+> **Dependencies**: None
 > **Enables**: [`construction.building-materials`](../construction/building-materials.md)
 > **Timeline**: Years 5-20
 > **Outputs**: dimensional_lumber, planks, beams, sawdust
@@ -290,4 +291,4 @@ Proper handling of input materials and products is essential for consistent resu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Foundations](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Foundations](./index.md) · [All Domains](../index.md)*

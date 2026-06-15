@@ -206,4 +206,4 @@ Mold design is a specialized discipline in itself. The mold must distribute melt
 - [Injection Molding Process](../polymers/thermoplastics.md) — polymer-specific injection parameters
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

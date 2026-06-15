@@ -134,7 +134,7 @@ Quail manure is high in nitrogen (similar to chicken manure at approximately 1.3
 
 ## Cross-Domain Links
 
-- **[Chickens](poultry-chickens.md)** — shared poultry management principles, housing, and feed systems
+- **[Chickens](poultry.chickens.md)** — shared poultry management principles, housing, and feed systems
 - **[Domestication](domestication.md)** — domestication history and species development
 - **[Farming](../agriculture/index.md)** — quail manure as fertilizer
 - **[Food Preservation](../food-processing/index.md)** — pickled quail eggs, cured quail meat
@@ -231,7 +231,7 @@ For bootstrapping purposes, a starting kit of 30 day-old chicks, 50 kg of starte
 ## See Also
 
 - [Poultry Overview](poultry.md) — all poultry species comparison
-- [Chickens](poultry-chickens.md) — primary poultry species for eggs and meat
+- [Chickens](poultry.chickens.md) — primary poultry species for eggs and meat
 - [Insect Farming](insect-farming.md) — BSF larvae as quail feed supplement
 - [Food Processing](../food-processing/index.md) — egg and meat preservation
 - [Agriculture / Soil Management](../agriculture/soil-management.md) — quail manure as fertilizer
@@ -239,4 +239,4 @@ For bootstrapping purposes, a starting kit of 30 day-old chicks, 50 kg of starte
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

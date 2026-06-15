@@ -198,5 +198,5 @@ The WWII experience with wood gas vehicles provides a wealth of practical design
 The Imbert gasifier design has been extensively documented in wartime manuals and modern rebuilding guides. The key dimensional relationships are: fire tube diameter determines maximum throughput (roughly 100 cm² of fire tube cross-section per 10 kW of engine power), throat diameter is 60-80% of fire tube diameter, and reduction zone height is 1-2 times the throat diameter. These proportions have been validated across hundreds of different builds and can be scaled with reasonable confidence for new designs targeting different power outputs.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
 

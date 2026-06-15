@@ -262,4 +262,4 @@ Mineral oil lubricant quality is verified by standardized tests:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*

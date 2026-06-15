@@ -5,6 +5,7 @@
 > **Dependencies**: [`agriculture.soil-management`](./soil-management.md),
 > [`animals.domestication`](../animals/domestication.md),
 > [`knowledge.writing`](../knowledge/writing.md)
+> **Enables**: None
 > **Timeline**: Years 5-100+
 > **Outputs**: improved_crop_varieties, improved_livestock_breeds, breeding_records
 > **Critical**: No — but systematic selective breeding dramatically accelerates yield gains compared to unconscious selection alone
@@ -424,5 +425,5 @@ Animal handling during breeding operations presents specific hazards that differ
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
 

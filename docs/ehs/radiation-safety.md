@@ -4,6 +4,7 @@
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: `chemistry`, [`ehs.chemical-safety`](./chemical-safety.md),
 > [`health.occupational-health`](../health/occupational-health.md)
+> **Enables**: None
 > **Timeline**: Years 30-100+
 > **Outputs**: radiation_protection, shielding_design, dosimetry, contamination_control
 > **Critical**: No — radiation safety becomes essential only when X-ray, nuclear, or semiconductor ion implantation equipment is in use
@@ -278,4 +279,4 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../index.md)*

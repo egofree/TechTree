@@ -7,7 +7,7 @@
 > [`metals.aluminum`](./aluminum.md)
 > **Enables**: [`electrochemistry.anodizing`](../electrochemistry/anodizing.md),
 > [`metals.aluminum`](./aluminum.md),
-> [`metals.aluminum.semiconductor-grade`](./aluminum.semiconductor-grade.md),
+> [`metals.aluminum.semiconductor-grade`](./semiconductor-grade.md),
 > [`metals.forming`](./forming.md), [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 20-40
 > **Outputs**: aluminum ingots, extrusions, castings, sheet
@@ -58,7 +58,7 @@ The Hall-Héroult process dissolves alumina in molten cryolite (Na₃AlF₆) and
 - **Alumina feed**: 2-4% Al₂O₃ dissolved in the bath. Alumina is fed in controlled batches via point feeders (1-2 kg per feed, every 1-5 minutes) to maintain concentration. Underfeeding triggers anode effect; overfeeding causes sludge formation beneath the metal pad.
 
 **Cryolite supply — natural vs synthetic**:
-- **Natural cryolite** (Na₃AlF₆, monoclinic): The only commercially significant deposit was at Ivigtut, Greenland — mined from 1854 to 1987, now essentially depleted. Natural cryolite has the advantage of lower impurity levels (particularly lower SiO₂ and Fe₂O₃) but is no longer available in industrial quantities. Historical availability of natural cryolite was a key factor in the early aluminum industry's location decisions.
+- **Natural cryolite** (Na₃AlF₆, monoclinic): The only commercially significant deposit was at Ivigtut, Greenland — mined from 1854 to 1987, now depleted. Natural cryolite has the advantage of lower impurity levels (particularly lower SiO₂ and Fe₂O₃) but is no longer available in industrial quantities. Historical availability of natural cryolite was a key factor in the early aluminum industry's location decisions.
 - **Synthetic cryolite production**: All modern smelters use synthetically produced cryolite. The primary route: HF is reacted with Al(OH)₃ to form H₃AlF₆ (hexafluoroaluminic acid) or AlF₃, which is then combined with NaOH or Na₂CO₃ to precipitate Na₃AlF₆. A second route uses fluosilicic acid (H₂SiF₆, a byproduct of phosphate fertilizer production) reacted with aluminum hydroxide and sodium aluminate. Synthetic cryolite purity: >97% Na₃AlF₆, with controlled moisture (<0.3%) and low SiO₂ (<0.3%).
 - **Bath ratio management**: The cryolite ratio (NaF/AlF₃ molar) is the single most important bath chemistry parameter. Industrial practice targets 2.2-2.4 (excess AlF₃ relative to stoichiometric cryolite at 3.0). Lower ratio → lower operating temperature but higher bath resistivity and lower alumina solubility. AlF₃ is continuously consumed by sodium uptake into the cathode lining (NaF + C → intercalation compounds), moisture ingress (AlF₃ + 3H₂O → Al₂O₃ + 6HF), and operational losses. AlF₃ addition rates: 15-25 kg per tonne Al produced. Bath chemistry is monitored by XRD or wet chemistry analysis every 1-4 hours in modern smelters.
 - **LiF and CaF₂ modifiers**: LiF (0-5%) increases bath conductivity by 15-25% (reducing cell voltage and energy consumption) and lowers liquidus temperature, but is expensive ($5-15/kg) and increases lithium contamination of the metal. CaF₂ (4-8%) occurs naturally from CaO impurity in alumina (dissolves as CaF₂) and is sometimes added deliberately — it lowers liquidus and reduces sodium penetration into cathodes but increases bath density. KF is avoided — potassium intercalates aggressively into cathode carbon, causing rapid swelling and cathode failure.
@@ -336,4 +336,4 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 - [Anodizing](../electrochemistry/anodizing.md) — aluminum surface treatment
 - [Aviation](../transport/aviation.md) — aluminum airframe construction
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

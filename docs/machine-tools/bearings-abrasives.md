@@ -268,4 +268,4 @@ This progression is the backbone of the [Iterative Bootstrap](./iterative-bootst
 - [Iterative Bootstrap](./iterative-bootstrap.md) — building precision machines from these components
 - [Machine Tools Overview](./index.md) — complete machine tools reference
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*

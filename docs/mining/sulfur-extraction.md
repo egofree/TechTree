@@ -2,6 +2,7 @@
 
 > **Node ID**: mining.sulfur-extraction
 > **Domain**: [Mining](./index.md)
+> **Dependencies**: None
 > **Enables**: [`chemistry.acids`](../chemistry/acids.md)
 > **Timeline**: Years 10-25
 > **Outputs**: elemental_sulfur, sulfur_dioxide, sulfuric_acid_precursor
@@ -214,4 +215,4 @@ Proper handling of input materials and products is essential for consistent resu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Mining](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*

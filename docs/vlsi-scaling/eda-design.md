@@ -6,6 +6,7 @@
 > [`electronics.assembly`](../electronics/assembly.md),
 > [`photolithography.fab-processes`](../photolithography/fab-processes.md),
 > [`silicon.basic-devices`](../silicon/basic-devices.md), `software-bootstrapping`
+> **Enables**: None
 > **Timeline**: Years 70-200+
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
 > **Critical**: No — EDA tools accelerate design but are not a manufacturing capability themselves
@@ -436,5 +437,5 @@ Adopt EDA capabilities in this sequence as compute resources grow:
 - [Computer Architecture](../computing/computer-architecture.md) — GPU and processor design
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
 

@@ -198,4 +198,4 @@ The essential oil in bitter orange peel is extracted by cold pressing or steam d
 ### Bitter orange Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

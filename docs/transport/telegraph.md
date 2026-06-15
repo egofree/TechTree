@@ -308,4 +308,4 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../index.md)*

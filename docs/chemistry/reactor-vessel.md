@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.reactor-vessel
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`metals.forming`](../metals/forming.md), [`metals.welding`](../machine-tools/welding-equipment.md)
-> **Enables**: [`chemistry.fermentation`](fermentation.md), [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`chemistry.solvents`](solvents.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 15-30
 > **Outputs**: batch_reaction, continuous_reaction
 > **Critical**: Yes — reactor vessels are the fundamental unit of chemical manufacturing. Every batch reaction, fermentation, acid digestion, and synthesis requires a contained, controlled environment. No chemical industry operates without them.
@@ -212,4 +212,4 @@ A 2,000 L batch stirred-tank reactor for a neutralization reaction (acid + base 
 Impeller tip speed is the primary mechanical design constraint. For standard steel impellers, the maximum tip speed is 5-8 m/s before vibration and bearing loads become excessive. For glass-lined steel impellers (corrosion-resistant), the maximum is 3-5 m/s due to the brittleness of the glass coating. The relationship between tip speed, diameter, and RPM: v_tip = π × D × N / 60. For a 450 mm Rushton turbine at 120 RPM: v_tip = π × 0.45 × 120 / 60 = 2.8 m/s — well within limits.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

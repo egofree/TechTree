@@ -315,4 +315,4 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

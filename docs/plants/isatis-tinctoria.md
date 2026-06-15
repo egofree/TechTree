@@ -197,4 +197,4 @@ Woad was so important to the medieval English economy that the Right Worshipful 
 *Content to be added: dye yield data, extraction methods, color fastness properties.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

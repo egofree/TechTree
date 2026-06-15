@@ -198,4 +198,4 @@ Wormwood can be propagated by root division in addition to seed and cuttings. Es
 ### Artemisia absinthium Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

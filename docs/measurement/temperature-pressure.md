@@ -6,7 +6,7 @@
 > **Enables**: [`energy.hvac`](../energy/hvac.md),
 > [`measurement.thermostat-electrical`](./thermostat-electrical.md),
 > [`measurement.thermostat-mechanical`](./thermostat-mechanical.md),
-> [`silicon.crystal-growth.cz-pulling`](../silicon/crystal-growth.cz-pulling.md)
+> [`silicon.crystal-growth.cz-pulling`](../silicon/cz-pulling.md)
 > **Timeline**: Years 25-40
 > **Outputs**: thermocouples, temperature_measurement, electrical_measurement, pressure_measurement
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
@@ -291,4 +291,4 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 - [Chemistry](../chemistry/index.md) — thermocouple materials, mercury production
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

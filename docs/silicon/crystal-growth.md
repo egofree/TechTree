@@ -125,7 +125,7 @@ The CZ process requires precision control of temperature, pull speed, and rotati
 - Zone pass speed is critical. Too fast (>5 mm/min) and the solidification front cannot maintain single-crystal growth. Too slow (<0.5 mm/min) and the molten zone becomes unstable (drips from the rod).
 
 **Results**:
-- **Resistivity**: >10,000 Ω·cm achievable (ultra-high purity, essentially intrinsic silicon). This is 100× higher resistivity than CZ silicon.
+- **Resistivity**: >10,000 Ω·cm achievable (ultra-high purity, intrinsic silicon). This is 100× higher resistivity than CZ silicon.
 - **Oxygen content**: <1 ppma (no crucible contact). Much lower than CZ's 10-20 ppma.
 - **Carbon content**: <0.1 ppma.
 - **Dislocation density**: Zero (with proper seed and stable zone).
@@ -349,4 +349,4 @@ The float zone process produces the purest silicon available, because nothing to
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

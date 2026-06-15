@@ -4,6 +4,7 @@
 > **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), `textiles`,
 > [`textiles.weaving`](./weaving.md)
+> **Enables**: None
 > **Timeline**: Years 8-14
 > **Outputs**: finished_cloth, waterproof_fabric, fireproofed_textiles
 > **Critical**: No
@@ -293,4 +294,4 @@ Decating is a finishing process for wool fabrics that sets the surface and impro
 - [Sewing & Tailoring](sewing-tailoring.md) — finished cloth goes to garment construction
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

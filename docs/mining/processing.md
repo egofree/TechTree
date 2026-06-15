@@ -288,4 +288,4 @@ Ore processing is energy intensive. The comminution stage (crushing and grinding
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

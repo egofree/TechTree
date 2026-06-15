@@ -351,5 +351,5 @@ Each level requires roughly 10× the investment in machine capability, environme
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
 

@@ -61,7 +61,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Cultivation and Propagation
 
-Requires a moderately fertile well-drained soil in full sun. Succeeds in ordinary garden soil. Tolerates heat and also drought when it is established. European millet is frequently cultivated in warm temperate and sub-tropical zones for its edible seed, there are many named varieties. Cultivation in Britain is somewhat problematic, the plants require good summers to do well and a dry period in late summer is required in order to ripen and dry the seed. We have had fairly good results on our trial grounds in Cornwall by starting the seed off early in a greenhouse, though this is a fairly labour-intensive method and therefore much less efficient than growing the more traditional temperate zone cereals. Yields are also considerably lower than other cereals that can be grown in this country, although the nutritional value of millets is said to be superior to wheat, oats, etc. Propagation: Sow seed in spring in a greenhouse, covering only just lightly. Germination should occur within a week. Prick out seedlings into trays or individual pots and plant out after the last expected frosts.
+Requires a moderately fertile well-drained soil in full sun. Succeeds in ordinary garden soil. Tolerates heat and also drought when it is established. European millet is frequently cultivated in warm temperate and sub-tropical zones for its edible seed, there are many named varieties. Cultivation in Britain is somewhat problematic, the plants require good summers to do well and a dry period in late summer is required to ripen and dry the seed. We have had fairly good results on our trial grounds in Cornwall by starting the seed off early in a greenhouse, though this is a fairly labour-intensive method and therefore much less efficient than growing the more traditional temperate zone cereals. Yields are also considerably lower than other cereals that can be grown in this country, although the nutritional value of millets is said to be superior to wheat, oats, etc. Propagation: Sow seed in spring in a greenhouse, covering only just lightly. Germination should occur within a week. Prick out seedlings into trays or individual pots and plant out after the last expected frosts.
 
 ### Distribution and Growing Conditions
 
@@ -260,5 +260,5 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
 

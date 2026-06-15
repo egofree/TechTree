@@ -3,6 +3,7 @@
 > **Node ID**: ehs.emergency-response
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: [`ehs.chemical-safety`](./chemical-safety.md)
+> **Enables**: None
 > **Critical**: No — emergency response protects workers and communities but does not enable new technological capabilities
 > **Timeline**: Years 30-70
 > **Outputs**: emergency_procedures, spill_response, evacuation_plans, first_aid_protocols, emergency_equipment
@@ -285,4 +286,4 @@ Emergency responders face secondary hazards during chemical incident interventio
 - [Occupational Health](../health/occupational-health.md) — General emergency first aid procedures
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

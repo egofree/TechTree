@@ -4,6 +4,7 @@
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: `chemistry`, [`ehs.chemical-safety`](./chemical-safety.md),
 > [`health.pharmacology`](../health/pharmacology.md)
+> **Enables**: None
 > **Timeline**: Years 20-100+
 > **Outputs**: toxic_substance_databases, exposure_limits, antidote_protocols, material_safety_data
 > **Critical**: No — enhances safety but chemical handling can proceed at basic level without formal toxicology
@@ -360,4 +361,4 @@ HF penetrates skin rapidly because the fluoride ion is small and lipophilic at l
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../index.md)*

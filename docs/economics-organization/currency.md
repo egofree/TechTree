@@ -5,6 +5,7 @@
 > **Dependencies**: [`economics-organization.coinage`](./coinage.md),
 > [`economics-organization.trade`](./trade.md),
 > [`measurement.precision-metrology`](../measurement/precision-metrology.md), `metals`
+> **Enables**: None
 > **Timeline**: Years 5-10
 > **Outputs**: coinage, standardized_units_of_account, price_signals
 > **Critical**: No
@@ -220,5 +221,5 @@ The development of currency requires [metals](../metals/index.md) for producing 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Economics & Organization](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
 

@@ -4,6 +4,7 @@
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
 > **Dependencies**: [`optics.inspection`](../optics/inspection.md),
 > [`photolithography.resists-masks`](../photolithography/resists-masks.md)
+> **Enables**: None
 > **Timeline**: Years 70-200+
 > **Outputs**: euv_capability, advanced_patterning
 > **Critical**: Yes — EUV lithography is the primary enabler of feature size scaling below 7 nm
@@ -78,7 +79,7 @@ Resist materials must satisfy three competing requirements simultaneously: resol
 **Metal-oxide resists**:
 - Organometallic compounds (e.g., tin-oxo clusters, zirconium oxide, hafnium oxide) offer higher EUV absorption than organic resists (metal atoms have larger absorption cross-sections at 13.5 nm). Sn-based resists achieve 13-16 nm half-pitch resolution with LER < 3 nm at dose 20-30 mJ/cm². However, metal contamination of fab equipment is a concern — Sn, Zr, and Hf are not standard in FEOL processing.
 
-**Stochastic defects**: At extreme node dimensions, EUV patterning exhibits stochastic defects (random micro-bridges between lines or line breaks) at ~10⁻⁹ per feature rate, increasing exponentially with decreasing feature size. These are fundamentally different from systematic defects — they cannot be eliminated by process optimization alone, only reduced through dose/resist engineering.
+**Stochastic defects**: At extreme node dimensions, EUV patterning exhibits stochastic defects (random micro-bridges between lines or line breaks) at ~10⁻⁹ per feature rate, increasing exponentially with decreasing feature size. These are different from systematic defects — they cannot be eliminated by process optimization alone, only reduced through dose/resist engineering.
 
 **Strengths**:
 - Metal-oxide resists (Sn, Zr, Hf) offer higher EUV absorption than organic resists, achieving 13-16 nm half-pitch
@@ -196,6 +197,11 @@ This section covers EUV adoption decisions. For DUV lithography selection (g-lin
 | Feature flexibility | Any pattern topology | Best for regular arrays (fins, gates) |
 | Throughput bottleneck | Source power (100-180 WPH) | Not scanner-limited (200+ WPH per pass) |
 
+
+## Safety
+
+Advanced lithography uses energetic radiation and hazardous process chemicals. Deep UV (DUV) excimer lasers operate at 193 nm (ArF) and 248 nm (KrF) — direct exposure causes corneal burns and skin erythema; enclosed beam paths with interlocked access are mandatory. Extreme UV (EUV) sources use 13.5 nm radiation generated from laser-produced tin plasma — multi-kW CO2 drive lasers require controlled-access areas. Photoresists contain hazardous solvents (ethyl lactate, PGMEA) and photoactive compounds (PAGs) — inhalation and skin contact sensitizers; handle in [ventilated enclosures](../ehs/ventilation-exhaust.md) with nitrile gloves. Developer solutions (TMAH, 0.26N) are caustic and cause eye damage at ppm exposure. Anti-reflective coatings use cross-linking azides that off-gas volatile byproducts.
+
 ## See Also
 
 - [Lithography](lithography.md) — DUV lithography systems (g-line through ArF immersion), scanner mechanics, RET, immersion, mask technology, overlay, computational lithography, throughput/cost
@@ -207,4 +213,4 @@ This section covers EUV adoption decisions. For DUV lithography selection (g-lin
 - [Vacuum Systems](vacuum-systems.md) — vacuum technology for EUV beam path
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

@@ -3,6 +3,7 @@
 > **Node ID**: `electronics.communications-circuits.receiver-circuits`
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.passive-components`](passive-components.md), [`electronics.communications-circuits.modulation-circuits`](communications-circuits.modulation-circuits.md)
+> **Enables**: None
 > **Timeline**: Years 20-40
 > **Outputs**: receiver-circuit-designs
 > **Critical**: No — receiver pedagogy extends communications design into signal recovery; not on the minimum-viable bootstrap critical path
@@ -164,7 +165,7 @@ Any station broadcasting at 1910 kHz will *also* mix with the 1455 kHz LO to pro
 
    For Q = 50 at f₀ = 1000 kHz:  BW = 20 kHz
    The image at 1910 kHz is 910 kHz off-tune = 45.5 bandwidths away.
-   → Preselector attenuation at 910 kHz offset ≈ 40+ dB (essentially gone).
+   → Preselector attenuation at 910 kHz offset ≈ 40+ dB (gone).
 
    This is why the IF is chosen to be a SIGNIFICANT fraction of f_RF —
    so the image lands far enough from f_desired for the preselector to kill it.
@@ -308,6 +309,11 @@ At the Mims level: build a **crystal radio** first (no power, validates antenna 
 - [ ] Shielded the LO and IF stages (metal cans or a shielded enclosure) to prevent radiation and pickup.
 - [ ] Verified tracking: the RF preselector and the LO tune together across the band (ganged capacitor or common tuning voltage).
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Modulation Circuits](communications-circuits.modulation-circuits.md) — the sibling article: AM/FM modulation and demodulation theory (envelope detection, slope detection, PLL, mixers and heterodyning). This article links rather than re-teaches all of that.
@@ -317,4 +323,4 @@ At the Mims level: build a **crystal radio** first (no power, validates antenna 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

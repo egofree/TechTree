@@ -253,4 +253,4 @@ Cowpea thrives in hot, dry conditions where common beans fail. The crop fixes 70
 ### Cowpea Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

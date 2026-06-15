@@ -2,6 +2,8 @@
 
 > **Node ID**: metals.zinc
 > **Domain**: [Metals](./index.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 15-25
 > **Outputs**: zinc, zinc_oxide, zinc_alloys
 > **Critical**: Yes — zinc provides corrosion protection for steel (galvanizing), is essential for brass alloy, and enables zinc-air batteries for energy storage
@@ -267,4 +269,4 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 - [Semiconductor: Basic Devices](../silicon/basic-devices.md) — CZTS solar cells and ZnO transparent conductors
 - [Food Processing: Canning](../food-processing/canning.md) — galvanized steel for food preservation equipment
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

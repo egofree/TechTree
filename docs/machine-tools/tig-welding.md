@@ -228,4 +228,4 @@ For semiconductor-grade piping systems, TIG welding is the only acceptable joini
 - Verify argon gas purity (industrial grade minimum 99.997%) before starting production welding
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*

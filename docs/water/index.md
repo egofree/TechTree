@@ -20,4 +20,4 @@ Capabilities in this domain:
 - [Pipe Fabrication](pipe-fabrication.md) — Metal and plastic pipe manufacturing, threading, welding, and jointing for fluid distribution systems.
 
 - [Filtration Equipment](filtration-equipment.md) — Sand filters, cartridge filters, membrane housings, and associated equipment for water and process fluid filtration.
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

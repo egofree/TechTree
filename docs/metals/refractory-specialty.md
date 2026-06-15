@@ -124,7 +124,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Recovery from zinc smelting**: In the roast-leach-electrowin zinc process (see [Non-Ferrous Metals](non-ferrous.md)), indium reports to the jarosite/goethite iron precipitation residue or to the copper cementation residue. Recovery: (1) Acid leach the residue with H₂SO₄ at 80-90°C — indium dissolves as In₂(SO₄)₃. (2) Solvent extraction with di-(2-ethylhexyl)phosphoric acid (D2EHPA) in kerosene at pH 2.0-3.0. In³⁺ extracts selectively over Zn²⁺, Cu²⁺, and Cd²⁺ at this pH. (3) Strip loaded organic with 4-6M HCl to produce InCl₃ solution. (4) Replace aluminum or zinc plates in InCl₃ solution — indium cementation (In³⁺ + 3/2 Al → In + 3/2 Al³⁺). Or (4b) Electrowin from In₂(SO₄)₃ or InCl₃ electrolyte at 50-60°C, 50-100 A/m². Product: 99.99% In (4N). (5) Further purification by vacuum distillation or zone refining to 5N-6N (99.999-99.9999%) for semiconductor applications.
 
-**Supply constraint**: Indium supply is fundamentally limited by zinc production — you cannot produce more indium without producing more zinc. At ~1,000 tonnes/year, indium is 0.001% of zinc production by mass. Price: $200-400/kg for 4N grade, $500-1,000/kg for 5N-6N semiconductor grade. This makes indium one of the most expensive bulk semiconductor materials, and a significant supply-chain risk for display manufacturing.
+**Supply constraint**: Indium supply is limited by zinc production — you cannot produce more indium without producing more zinc. At ~1,000 tonnes/year, indium is 0.001% of zinc production by mass. Price: $200-400/kg for 4N grade, $500-1,000/kg for 5N-6N semiconductor grade. This makes indium one of the most expensive bulk semiconductor materials, and a significant supply-chain risk for display manufacturing.
 
 ## ITO (Indium Tin Oxide) — Transparent Conductor
 
@@ -174,7 +174,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Cobalt**: Extreme geographic concentration (DRC produces 70% of mined cobalt). Ethical sourcing concerns (artisanal mining, child labor). Cobalt for semiconductor use (CoSi₂, CMP) is <1% of total cobalt demand — automotive batteries consume 60%+. Price volatility: spiked from $25/kg to $95/kg in 2018 due to EV battery demand, collapsed to $25/kg in 2020.
 
-**Indium**: Fundamentally supply-limited by zinc production. ITO for displays consumes 70-80% of indium production. A single large LCD fab (Generation 10.5, glass size 2940 × 3370 mm) can consume 50-100 tonnes of indium per year. ITO recycling from display manufacturing scrap recovers 70-80% of indium. Alternative transparent conductors (silver nanowire, graphene, AZO — aluminum zinc oxide) have been researched for 20+ years but none match ITO performance.
+**Indium**: Supply-limited by zinc production. ITO for displays consumes 70-80% of indium production. A single large LCD fab (Generation 10.5, glass size 2940 × 3370 mm) can consume 50-100 tonnes of indium per year. ITO recycling from display manufacturing scrap recovers 70-80% of indium. Alternative transparent conductors (silver nanowire, graphene, AZO — aluminum zinc oxide) have been researched for 20+ years but none match ITO performance.
 
 ## Recycling and Recovery
 
@@ -258,5 +258,5 @@ The three metals in this document converge at specific points in GPU fabrication
 - [Gas Handling / Vacuum](../gas-handling/vacuum.md) — sputtering deposition systems
 - [Glass / Photomask Substrates](../glass/photomask-substrates.md) — ITO-coated transparent substrates
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
 

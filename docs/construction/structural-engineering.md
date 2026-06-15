@@ -3,6 +3,7 @@
 > **Node ID**: construction.structural-engineering
 > **Domain**: [Construction](./index.md)
 > **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None
 > **Timeline**: Years 10-40
 > **Outputs**: structural_designs, load_calculations, foundation_plans, connection_details
 > **Critical**: Yes — every permanent structure from houses to factories requires structural engineering to avoid collapse
@@ -374,4 +375,4 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../index.md)*

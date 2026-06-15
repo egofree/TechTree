@@ -14,4 +14,4 @@ Capabilities in this domain:
 
 - [EDA, GPU Design & Advanced Packaging](eda-design.md) — Electronic Design Automation (logic synthesis, place and route, SPICE simulation, DRC), GPU architecture with billions of transistors, advanced packaging (wire bonding, flip-chip, chiplets, 3D stacking with TSVs), and software stack (drivers, compilers, libraries).
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

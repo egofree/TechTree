@@ -430,4 +430,4 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

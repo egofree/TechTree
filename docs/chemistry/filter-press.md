@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.filter-press
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`metals.welding`](../machine-tools/welding-equipment.md), [`polymers.elastomers`](../polymers/rubber.md)
-> **Enables**: [`chemistry.water-treatment`](water-treatment.md), [`chemistry.chemical-recovery`](chemical-recovery.md), [`metals.metal-recycling`](../metals/metal-recycling.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 10-25
 > **Outputs**: filter_cake, filtrate
 > **Critical**: No — filter presses are the workhorse of solid-liquid separation but settling tanks, centrifuges, and vacuum filters can substitute at lower performance
@@ -218,4 +218,4 @@ Filter aids are inert, permeable materials added to the feed slurry or pre-coate
 **Selection criteria**: Use DE when filtrate clarity is paramount (brewing, pharmaceuticals, fine chemicals). Use perlite for bulk filtration where moderate clarity suffices. Apply as precoat (1-3 kg/m²) plus body feed (0.5-5 kg/kg solids) to maintain cake permeability throughout the filtration cycle.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

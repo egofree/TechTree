@@ -234,7 +234,7 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 - [Basic Glass Production](basic.md) — raw glass batch melting and primary forming
 - [Advanced Glass](advanced.md) — borosilicate and specialty glass compositions
 - [Glass Fibers](fibers.md) — fiberglass, glass wool, and optical fiber production
-- [Kiln Firing](../ceramics/kiln-firing.md) — annealing ovens and temperature control
+- [Kiln Firing](../ceramics/pottery.kiln-firing.md) — annealing ovens and temperature control
 - [Electronics Assembly](../electronics/assembly.md) — glass substrates for PCB and display manufacturing
 - [Vacuum Systems](../vlsi-scaling/vacuum-systems.md) — glass vacuum envelopes and bell jars
 - [Wafer Production](../silicon/wafering.md) — fused silica crucibles for CZ crystal pulling
@@ -245,5 +245,5 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
 

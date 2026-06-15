@@ -72,7 +72,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 6. **Collect and use the biogas**: Biogas (~60% CH₄, ~35-40% CO₂, trace H₂S) rises to the gas holder. Calorific value: 21-24 MJ/m³ (60% of natural gas). Pipe to burners for cooking, lamps, or an engine-generator. Remove H₂S with iron oxide chips (iron sponge) in a filter before the engine — H₂S corrodes engine parts and produces sulfuric acid in crankcase oil.
 
-7. **Utilize the digestate**: The spent slurry exiting the digester is a nitrogen-rich organic fertilizer (higher plant-available nitrogen than raw manure, since anaerobic digestion mineralizes organic nitrogen). Apply to fields or compost further.
+7. **Use the digestate**: The spent slurry exiting the digester is a nitrogen-rich organic fertilizer (higher plant-available nitrogen than raw manure, since anaerobic digestion mineralizes organic nitrogen). Apply to fields or compost further.
 
 **Materials**:
 - [Brick or concrete](../ceramics/index.md) (2,000-3,000 bricks or 3 m³ concrete for 6 m³ digester walls)
@@ -332,6 +332,11 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 - **Biodiesel**: Transesterification of vegetable oils or animal fats with methanol and NaOH catalyst. Energy density: 37-38 MJ/kg (similar to diesel). Used as diesel substitute or blend. Requires oilseed press and methanol production (chemistry-dependent).
 - **Wood diesel (Fischer-Tropsch)**: Catalytic conversion of syngas (from gasification) to liquid hydrocarbons. Complex catalyst system (iron or cobalt-based). Efficiency: 30-45% (fuel-to-liquid). Requires advanced chemical engineering — late bootstrap technology.
 
+
+## Safety
+
+Biomass gasification produces carbon monoxide (CO) — colorless, odorless, lethal at 0.1% in air for 1 hour. Gasifiers must operate in ventilated areas with CO detectors and never indoors without sealed combustion and proper flue venting. Producer gas contains 15-25% CO by volume. Tar condensate from gas cleanup is carcinogenic (contains polycyclic aromatic hydrocarbons — PAHs). Anaerobic digesters produce biogas (60% methane) — explosion hazard at 5-15% methane in air; flame arrestors and pressure relief valves are mandatory. Feedstock handling generates organic dust — wear N95 respirators when loading hoppers.
+
 ## See Also
 
 - **[Charcoal Production](charcoal.md)** — Charcoal as gasifier fuel, pyrolysis chemistry
@@ -345,4 +350,4 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

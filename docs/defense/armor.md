@@ -2,6 +2,7 @@
 
 > **Node ID**: defense.armor
 > **Domain**: [Defense](./index.md)
+> **Dependencies**: None
 > **Enables**: `defense`
 > **Timeline**: Years 5-30+
 > **Outputs**: armor, helmets, shields, body_armor, plate_armor
@@ -9,7 +10,7 @@
 
 Armor and protective systems encompass the materials, construction techniques, and design principles for personal and structural defense against weapons. From rawhide jerkins to full plate harness, armor development mirrors the metallurgical and textile capabilities of each technological tier.
 
-Armor design is fundamentally an exercise in materials engineering: managing the tradeoff between protection, weight, mobility, and cost. A 25 kg plate harness distributes load across the body and permits running and climbing, while a 10 kg mail hauberk concentrated on the shoulders causes faster fatigue. Each armor type addresses specific threat vectors -- quilted padding absorbs blunt force, mail stops slashing, plate defeats thrusting and missiles. Layered defense combining multiple types provides broader protection than any single material.
+Armor design is an exercise in materials engineering: managing the tradeoff between protection, weight, mobility, and cost. A 25 kg plate harness distributes load across the body and permits running and climbing, while a 10 kg mail hauberk concentrated on the shoulders causes faster fatigue. Each armor type addresses specific threat vectors -- quilted padding absorbs blunt force, mail stops slashing, plate defeats thrusting and missiles. Layered defense combining multiple types provides broader protection than any single material.
 
 Armor production consumes significant resources. A full plate harness requires 200-500 worker-hours from a skilled armorer. Mail requires 50-180 worker-days of ring production and assembly. These costs limit armor distribution -- historically, infantry wore padded jacks or brigandines while only elite heavy cavalry could afford plate. The industrial base for armor production is the same as for tools and construction: [iron and steel production](../metals/iron-steel.md), [textile manufacturing](../textiles/index.md), and [leatherworking](../foundations/index.md).
 
@@ -336,7 +337,7 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - **Firearms obsolescence**: Personal armor effective against edged weapons provides minimal protection against firearms. 17th-18th century: armor abandoned as musketry became dominant. 20th century: steel helmets return for fragment protection, but body armor requires synthetic fibers.
 - **Maintenance**: Steel armor rusts rapidly in humid conditions -- requires regular oiling, leather straps rot, mail rings break and must be replaced. Campaign conditions (rain, mud, blood) accelerate degradation.
 - **Thermal burden**: Enclosed plate armor (great helm, closed visor) creates greenhouse effect -- internal temperature reaches 40-50 degrees C within 15 minutes of sun exposure. Heat stroke is a real combat risk. Knights in full armor fought in short bursts (15-30 minutes) with rest periods. Desert warfare: plate armor impractical without extensive hydration and shade discipline.
-- **Visibility constraints**: Great helm eye slit provides 10-20 degree vertical x 80-150 degree horizontal field of view -- massive reduction from normal 180+ degree horizontal. Peripheral vision essentially eliminated. Fighting in great helm requires constant head movement to compensate. Bascinet with hinged visor allows raising visor for situational awareness and lowering for protection -- superior tactical flexibility.
+- **Visibility constraints**: Great helm eye slit provides 10-20 degree vertical x 80-150 degree horizontal field of view -- massive reduction from normal 180+ degree horizontal. Peripheral vision eliminated. Fighting in great helm requires constant head movement to compensate. Bascinet with hinged visor allows raising visor for situational awareness and lowering for protection -- superior tactical flexibility.
 - **Mobility myths**: Contrary to popular belief, full plate armor does not immobilize the wearer. A knight in properly fitted 25 kg plate armor can run, jump, climb, mount a horse unaided, and recover from a fall. The weight is well-distributed across the body. Exhaustion comes from sustained exertion, not from the armor restricting movement. However, armor does reduce sprint speed by ~15-20% and increases energy expenditure by ~30-50%.
 - **Layered defense principle**: No single armor type is optimal for all threats. Historical soldiers combined layers: quilted gambeson (blunt force, base layer) + mail (slashing) + plate (missile, thrusting). Each layer addresses a different threat vector. Removing any layer creates a vulnerability -- the combination is more effective than the sum of individual pieces.
 - **Transport and storage**: Full plate armor stored in purpose-built chest (wood, iron-bound, 40x30x30 cm). Mail hung on wall peg or mannequin to prevent tangling. Shields stored flat in racks. Armor requires 0.5-1.0 m2 of storage space per set -- significant logistical burden for armies on campaign. Baggage train carries reserve armor and repair materials (rivets, leather straps, oil).
@@ -351,4 +352,4 @@ Armor and protective systems draw on multiple industrial capabilities. While bas
 - **[Foundations](../foundations/index.md)** -- Leatherworking and rawhide processing
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

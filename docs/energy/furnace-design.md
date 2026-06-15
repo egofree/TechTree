@@ -2,6 +2,7 @@
 
 > **Node ID**: energy.furnace-design
 > **Domain**: [Energy](./index.md)
+> **Dependencies**: None
 > **Enables**: [`metals.blacksmithing`](../metals/blacksmithing.md)
 > **Timeline**: Years 5-20
 > **Outputs**: furnace_design, thermal_calculations, refractory_selection
@@ -35,7 +36,7 @@ where h is the convective heat transfer coefficient (W/(m²·K)). Typical values
 
 where ε is emissivity (0-1, most refractories 0.8-0.9), σ is the Stefan-Boltzmann constant (5.67 × 10⁻⁸ W/(m²·K⁴)), and temperatures are in Kelvin. Radiation dominates above 600°C because of the T⁴ dependence. At 1200°C (1473 K) inside a furnace with 300°C (573 K) walls, radiation accounts for approximately 85-90% of total heat transfer to the charge. This is why furnace geometry that maximizes the view factor between the hot flame/refractory crown and the charge is so important at high temperatures.
 
-**Practical implication**: Below 600°C, improving gas flow patterns (convection) is the main lever for uniform heating. Above 600°C, controlling surface emissivity and view factors (radiation) matters more. A furnace designed for 500°C annealing has fundamentally different geometry requirements than one designed for 1300°C smelting.
+**Practical implication**: Below 600°C, improving gas flow patterns (convection) is the main lever for uniform heating. Above 600°C, controlling surface emissivity and view factors (radiation) matters more. A furnace designed for 500°C annealing has different geometry requirements than one designed for 1300°C smelting.
 
 ## Combustion Fundamentals
 
@@ -279,5 +280,5 @@ Furnace performance does not scale linearly with size. Understanding scaling law
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 

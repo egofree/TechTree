@@ -2,7 +2,11 @@
 
 > **Node ID**: electronics.industrial-control.industrial-control-architecture
 > **Domain**: [Electronics](index.md)
-> **Dependencies**: `electronics.industrial-control`, `electronics.industrial-control.plc`, `electronics.industrial-control.scada`, `electronics.industrial-control.hmi`
+> **Dependencies**: None (integration overview — see body text for component links)
+> **Enables**: None
+> **Timeline**: Years 30-50
+> **Outputs**: integrated_control_systems
+> **Critical**: No — integration architecture, not a physical process
 
 This article is the **integration tier**. It does not teach the [PLC](industrial-control.plc.md), the [SCADA system](industrial-control.scada.md), the [HMI](industrial-control.hmi.md), the [relay panel](control-circuits.relay-logic.md), the [ladder notation](control-circuits.ladder-logic.md), the [variable-frequency drive](power-conversion-circuits.vfd-motor-control.md), the [field sensor](interface-circuits.sensor-circuits.md), or the [analog-to-digital converter](interface-circuits.adc-circuits.md) — each of those has its own deep article. This article teaches **how they fit together**: the ISA-95 hierarchy that places every device at its correct level, the sensor-to-actuator control chain that every loop follows, the response-time budget that dictates which technology handles which signal, the safety layering that keeps people alive when the controller fails, and the communication hierarchy that moves data from a millivolt thermocouple up to a production schedule. Read this article to understand the *architecture*; follow the cross-links for any component you need to design in detail.
 
@@ -307,6 +311,11 @@ This article is the synthesis layer. Each component of the architecture is taugh
 
 The progression through these articles mirrors the historical and pedagogical progression of industrial control itself. The [relay panel](control-circuits.relay-logic.md) is the original Level-2 controller — boolean logic in hardware, inflexible but robust. [Ladder logic](control-circuits.ladder-logic.md) is the notation invented so that relay electricians could read the new software-driven controllers. The [PLC](industrial-control.plc.md) is that software-driven controller — the same logic, reconfigurable from a laptop, executing on a deterministic scan. [SCADA](industrial-control.scada.md) and the [HMI](industrial-control.hmi.md) are the layers above — turning isolated controllers into a supervised, observable, operable plant. This article ties them together with the architecture that structures the whole.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Industrial Control](industrial-control.md) — parent capability: the design-pedagogy hub for PLC, SCADA, HMI, and integrated control architecture.
@@ -321,4 +330,4 @@ The progression through these articles mirrors the historical and pedagogical pr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

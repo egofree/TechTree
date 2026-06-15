@@ -3,7 +3,7 @@
 > **Node ID**: petroleum.petrochemicals
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
 > **Dependencies**: `petroleum`, [`petroleum.refining`](./refining.md)
-> **Enables**: [`petroleum.petrochemicals.steam-cracking`](./petrochemicals.steam-cracking.md)
+> **Enables**: [`petroleum.petrochemicals.steam-cracking`](./steam-cracking.md)
 > **Timeline**: Years 25-50+
 > **Outputs**: ethylene, propylene, butadiene, benzene, toluene, xylene, styrene, ethylene_oxide
 > **Critical**: No — petrochemicals are the cheapest route to organic chemicals but ethanol-to-ethylene and coal tar alternatives exist
@@ -275,4 +275,4 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 - [Chemistry](../chemistry/index.md) — bulk inorganic chemical production
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*

@@ -7,8 +7,8 @@
 > [`metals.iron-steel`](../metals/iron-steel.md),
 > [`mining.prospecting`](./prospecting.md)
 > **Enables**: [`chemistry.explosives.black-powder`](../chemistry/explosives.black-powder.md),
-> [`energy.fuels.coal`](../energy/fuels.coal.md),
-> [`mining.extraction.black-powder`](./extraction.black-powder.md),
+> [`energy.fuels.coal`](../energy/coal.md),
+> [`mining.extraction.black-powder`](./black-powder.md),
 > [`mining.processing`](./processing.md),
 > [`mining.tailings-reprocessing`](./tailings-reprocessing.md), `transport`
 > **Timeline**: Years 0-20
@@ -308,4 +308,4 @@ This procedure covers construction and operation of a sluice box for recovering 
 - [Drilling](drilling.md) — borehole drilling for exploration and blasting
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Mining](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

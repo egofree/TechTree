@@ -3,6 +3,7 @@
 > **Node ID**: electronics.industrial-control.hmi
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.industrial-control`](industrial-control.md), [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.industrial-control.plc`](industrial-control.plc.md)
+> **Enables**: None
 > **Timeline**: Years 35-55
 > **Outputs**: hmi-designs
 > **Critical**: No — HMI is the operator-facing presentation layer built atop the controller and semiconductor substrate; it organizes human-machine interaction rather than gating a primary bootstrap dependency
@@ -223,4 +224,4 @@ The [semiconductor-devices](semiconductor-devices.md) capability provides the si
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

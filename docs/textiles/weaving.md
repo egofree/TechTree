@@ -269,4 +269,4 @@ Systematic inspection catches defects before cloth is cut or sold:
 - [Electricity](../energy/electricity.md) — power for power looms
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

@@ -386,4 +386,4 @@ A single winding with a tap point serves as both primary and secondary. The comm
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

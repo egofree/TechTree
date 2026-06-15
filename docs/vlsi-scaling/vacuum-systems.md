@@ -113,7 +113,7 @@ The oldest high-vacuum pump type (invented 1915), still used in some evaporation
 **Advantages vs. turbo pumps**: Lower cost ($2,000-10,000 vs. $10,000-50,000 for equivalent speed), no moving parts (extremely reliable), handles high gas loads without damage, very high pumping speeds available for large chambers. Disadvantage: oil contamination risk makes them unsuitable for ultra-clean processes (semiconductor front-end processing, EUV).
 
 **Strengths**:
-- No moving parts — extremely reliable with essentially unlimited service life, unlike turbo pumps with bearing wear
+- No moving parts — extremely reliable with unlimited service life, unlike turbo pumps with bearing wear
 - Pumping speeds of 100-50,000 L/s at 2-5× lower cost than equivalent turbo pumps — economical for large chambers
 
 **Weaknesses**:
@@ -383,4 +383,4 @@ Seal selection rule: Use Viton O-rings for pressures >10⁻⁸ Torr. Use CF copp
 - [Lithography](lithography.md) — vacuum for lithography tools
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

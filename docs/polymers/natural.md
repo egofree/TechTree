@@ -83,7 +83,7 @@ Amber is fossilized conifer resin, typically 30-90 million years old. It is foun
 
 **Properties**: Density 1.05-1.10 g/cm³, Mohs hardness 2-2.5. Softens at 150-180°C, melts at 250-300°C. Amorphous, transparent to translucent, yellow-orange to brown. Refractive index 1.53-1.55. Electrical properties: becomes electrostatically charged when rubbed (the Greek name *elektron* gives us "electricity").
 
-**Processing**: Amber can be pressed and molded when heated above 150°C. "Pressed amber" (Ambroid) is made by fusing small amber fragments under heat and pressure — a technique developed in the 1880s to utilize scrap pieces. Heat to 180-200°C under 10-20 MPa pressure in a steel mold. The resulting block can be carved, turned on a lathe, or polished like natural amber. Amber also dissolves in ether, chloroform, and hot linseed oil for varnish formulations.
+**Processing**: Amber can be pressed and molded when heated above 150°C. "Pressed amber" (Ambroid) is made by fusing small amber fragments under heat and pressure — a technique developed in the 1880s to use scrap pieces. Heat to 180-200°C under 10-20 MPa pressure in a steel mold. The resulting block can be carved, turned on a lathe, or polished like natural amber. Amber also dissolves in ether, chloroform, and hot linseed oil for varnish formulations.
 
 **Applications**: Historically used for jewelry, decorative items, and as a component in varnishes. Amber varnish (amber dissolved in boiled linseed oil) produces a hard, durable, golden-brown coating for fine woodwork and oil paintings. Also used for early electrical experimentation due to its electrostatic properties.
 
@@ -202,5 +202,5 @@ Beyond rubber, several natural materials provide adhesive properties (see [Shell
 - [Pulp Chemicals](../chemistry/pulp-chemicals.md) — cellulose as a natural polymer feedstock
 - [Engine](../energy/engine.md) — rubber seals, hoses, and drive belts in internal combustion engines
 
-[← Back to Polymers](index.md)
-
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Polymers](./index.md) · [All Domains](../index.md)*

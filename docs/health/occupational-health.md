@@ -310,7 +310,7 @@ Occupational health practitioners face hazards specific to the surveillance and 
 - [Mining / Processing](../mining/processing.md) — mine ventilation and dust control
 - [Metals / Steelmaking](../metals/steelmaking.md) — fume and heat exposure controls
 - [Chemistry / Electroplating](../electrochemistry/electroplating.md) — cyanide and heavy metal exposure
-- [Ceramics / Kiln Firing](../ceramics/kiln-firing.md) — silica dust and heat stress
+- [Ceramics / Kiln Firing](../ceramics/pottery.kiln-firing.md) — silica dust and heat stress
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Health](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*

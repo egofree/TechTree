@@ -342,4 +342,4 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

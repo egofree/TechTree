@@ -5,6 +5,7 @@
 > **Dependencies**: [`electronics.semiconductor-devices`](./semiconductor-devices.md),
 > [`electronics.passive-components`](./passive-components.md),
 > [`electronics.power-supply-circuits.rectifier-circuits`](./power-supply-circuits.rectifier-circuits.md)
+> **Enables**: None
 > **Outputs**: regulated-dc-power
 > **Timeline**: Years 20-40
 > **Critical**: No
@@ -29,7 +30,7 @@ A linear regulator is a **dissipative series element** — a transistor or resis
                     └──────────┘
 ```
 
-Because the series element is dissipative (it burns the excess voltage as heat), efficiency is fundamentally limited: η = V_out / V_in. A 5V output from a 12V input is at best 42% efficient — the other 58% becomes heat in the pass transistor. This is the defining trade-off of linear regulation: **simplicity, low noise, and fast transient response in exchange for poor efficiency at large dropout voltages**.
+Because the series element is dissipative (it burns the excess voltage as heat), efficiency is limited: η = V_out / V_in. A 5V output from a 12V input is at best 42% efficient — the other 58% becomes heat in the pass transistor. This is the defining trade-off of linear regulation: **simplicity, low noise, and fast transient response in exchange for poor efficiency at large dropout voltages**.
 
 ## Voltage References
 
@@ -359,6 +360,11 @@ The [power-electronics](./power-electronics.md) capability covers **system-level
 - **[Rectifier Circuits](./power-supply-circuits.rectifier-circuits.md)** — the upstream stage that produces unregulated DC.
 - **[Filter Circuits](./power-supply-circuits.filter-circuits.md)** — the ripple-reduction stage that precedes regulation.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - **[Switching Regulators](./power-supply-circuits.switching-regulators.md)** — the high-efficiency alternative for large dropout or high current.
@@ -368,4 +374,4 @@ The [power-electronics](./power-electronics.md) capability covers **system-level
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

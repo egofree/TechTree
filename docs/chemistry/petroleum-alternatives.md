@@ -4,16 +4,16 @@
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: `foundations`
 > **Enables**: [`chemistry.coatings`](./coatings.md),
-> [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md),
+> [`chemistry.explosives.high-explosives`](./high-explosives.md),
 > [`chemistry.lubricants`](./lubricants.md),
 > [`chemistry.lubricants-mineral`](./lubricants-mineral.md),
 > [`chemistry.lubricants-synthetic`](./lubricants-synthetic.md),
-> [`chemistry.petroleum-alternatives.fermentation`](./petroleum-alternatives.fermentation.md),
-> [`chemistry.petroleum-alternatives.wood-gasification`](./petroleum-alternatives.wood-gasification.md),
+> [`chemistry.petroleum-alternatives.fermentation`](./fermentation.md),
+> [`chemistry.petroleum-alternatives.wood-gasification`](./wood-gasification.md),
 > [`chemistry.soap`](./soap.md), [`chemistry.solvents`](./solvents.md),
 > [`energy.cooling`](../energy/cooling.md),
-> [`energy.electric-furnaces.electrode-manufacturing`](../energy/electric-furnaces.electrode-manufacturing.md),
-> [`polymers.rubber.synthetic`](../polymers/rubber.synthetic.md),
+> [`energy.electric-furnaces.electrode-manufacturing`](../energy/electrode-manufacturing.md),
+> [`polymers.rubber.synthetic`](../polymers/synthetic.md),
 > [`polymers.thermoplastics`](../polymers/thermoplastics.md),
 > [`polymers.thermosets`](../polymers/thermosets.md),
 > [`transport.aviation`](../transport/aviation.md)
@@ -248,4 +248,4 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

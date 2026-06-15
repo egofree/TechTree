@@ -14,7 +14,7 @@ Guayule (*Parthenium argentatum*) is a desert shrub native to the southwestern U
 
 The rubber content in guayule stems is 5-20% of dry weight, concentrated in the bark and parenchyma cells (not in latex vessels like Hevea). The rubber is chemically similar to Hevea rubber (both are cis-1,4-polyisoprene) but with slightly different molecular weight distribution. Guayule rubber is suitable for most applications where Hevea rubber is used, including tires, gaskets, seals, and elastic bands.
 
-The extraction process differs fundamentally from Hevea. Instead of tapping latex from living trees, guayule is harvested by cutting the entire shrub, grinding it, and extracting rubber from the plant tissue using a solvent or mechanical process. The shrub regrows from the root crown after harvest, allowing multiple harvests on a 2-3 year cycle.
+The extraction process differs from Hevea. Instead of tapping latex from living trees, guayule is harvested by cutting the entire shrub, grinding it, and extracting rubber from the plant tissue using a solvent or mechanical process. The shrub regrows from the root crown after harvest, allowing multiple harvests on a 2-3 year cycle.
 
 Guayule was developed as a commercial rubber source during World War II when the Japanese occupation of Southeast Asia cut off Hevea supplies to the Allies. The Emergency Rubber Project established 13,000 hectares of guayule in California. After the war, cheap Hevea rubber returned and guayule was abandoned. It remains a strategic backup for rubber production in regions distant from the tropics.
 
@@ -103,7 +103,7 @@ Primary outputs: `natural_rubber` for waterproofing, elastic materials, and tire
 
 ### Solvent Extraction Details
 
-Guayule rubber extraction is fundamentally different from Hevea rubber extraction because the rubber is stored in individual parenchyma cells throughout the stem rather than in specialized latex vessels. The grinding step must rupture these cells to release the rubber particles. A hammer mill or stone mill that reduces the dried stems to 1-5 mm particles provides adequate cell rupture.
+Guayule rubber extraction is different from Hevea rubber extraction because the rubber is stored in individual parenchyma cells throughout the stem rather than in specialized latex vessels. The grinding step must rupture these cells to release the rubber particles. A hammer mill or stone mill that reduces the dried stems to 1-5 mm particles provides adequate cell rupture.
 
 The solvent dissolves both rubber and resin (a mixture of terpenes, fatty acids, and other low-molecular-weight compounds). Resin constitutes 15-25% of the total solvent extract and must be separated from the rubber for quality products. The traditional method is acetone pre-extraction: first extract the ground biomass with acetone to remove resins, then extract with hexane to recover purified rubber. This two-solvent system produces rubber with properties close to Hevea rubber.
 
@@ -188,7 +188,7 @@ behavior but not end-use performance. Tensile strength, elongation, and tear res
 guayule vulcanizates are within 5-10% of Hevea values.
 
 One advantage of guayule rubber is its low protein content. Hevea latex contains proteins
-that cause allergic reactions in 1-6% of the general population. Guayule rubber is essentially
+that cause allergic reactions in 1-6% of the general population. Guayule rubber is
 hypoallergenic because the extraction process removes virtually all plant proteins. This makes
 guayule rubber the preferred material for medical gloves and other products where latex
 allergy is a concern.
@@ -198,5 +198,5 @@ Guayule rubber production was revived during the 2000s due to concerns about lat
 ### Guayule Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.evaporator
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`chemistry.heat-exchanger`](heat-exchanger.md), [`energy.steam`](../energy/coal.md)
-> **Enables**: [`chemistry.alkalis`](alkalis.md), [`chemistry.water-treatment`](water-treatment.md), [`food-processing.preservation`](../food-processing/preservation.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 10-25
 > **Outputs**: concentrated_liquid, distilled_water
 > **Critical**: No — evaporators concentrate solutions and recover solvents but can be replaced by simpler methods (open-pan evaporation, solar evaporation) at lower efficiency
@@ -247,4 +247,4 @@ A triple-effect forced-circulation evaporator concentrating NaOH from 10% to 50%
 - **Emergency shutdown**: Trip the steam supply immediately. Close all vapor valves between effects to prevent pressure equalization (which can cause backflow and contamination). Break vacuum with air and drain. An uncontrolled vacuum loss while the solution is hot causes violent flashing (boiling) — keep vacuum on until temperature drops below 60°C.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

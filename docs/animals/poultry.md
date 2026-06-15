@@ -18,13 +18,13 @@ Poultry farming is the managed raising of domesticated birds for meat, eggs, fea
 
 | Species | Adult Weight | Eggs/Year | Incubation (days) | Feed/Day (g) | Space/Bird (m²) |
 |---------|-------------|-----------|-------------------|--------------|-----------------|
-| [Chickens](poultry-chickens.md) | 1.5-4.5 kg | 200-300 | 21 | 100-150 | 0.05-0.5 |
-| [Coturnix Quail](poultry-coturnix.md) | 100-200 g | 250-300 | 17 | 20-30 | 0.02-0.05 |
-| [Ducks](poultry-ducks.md) | 2-5 kg | 150-250 | 28 | 120-200 | 0.5-1.0 |
-| [Geese](poultry-geese.md) | 4-10 kg | 30-60 | 28-30 | 150-300 | 2-5 |
-| [Turkeys](poultry-turkeys.md) | 4-15 kg | 60-120 | 28 | 150-400 | 20+ (range) |
-| [Guinea Fowl](poultry-guinea-fowl.md) | 1.2-1.6 kg | 80-130 | 26-28 | 30-80 | Free range |
-| [Pigeons](poultry-pigeons.md) | 350-800 g | 400+ potential | 17 | 30-50 | 0.2 (loft) |
+| [Chickens](poultry.chickens.md) | 1.5-4.5 kg | 200-300 | 21 | 100-150 | 0.05-0.5 |
+| [Coturnix Quail](poultry.coturnix.md) | 100-200 g | 250-300 | 17 | 20-30 | 0.02-0.05 |
+| [Ducks](poultry.ducks.md) | 2-5 kg | 150-250 | 28 | 120-200 | 0.5-1.0 |
+| [Geese](poultry.geese.md) | 4-10 kg | 30-60 | 28-30 | 150-300 | 2-5 |
+| [Turkeys](poultry.turkeys.md) | 4-15 kg | 60-120 | 28 | 150-400 | 20+ (range) |
+| [Guinea Fowl](poultry.guinea-fowl.md) | 1.2-1.6 kg | 80-130 | 26-28 | 30-80 | Free range |
+| [Pigeons](poultry.pigeons.md) | 350-800 g | 400+ potential | 17 | 30-50 | 0.2 (loft) |
 
 ## Prerequisites
 
@@ -111,7 +111,7 @@ Materials listed for a 50-bird mixed flock per year.
 
 ## Multi-Species Integration
 
-**Principle**: Running multiple poultry species on shared range utilizes different ecological niches. Chickens scratch at ground level, ducks forage in wet areas, guinea fowl hunt in tall grass, geese graze pasture, turkeys forage woodland edges. Each species fills a different role.
+**Principle**: Running multiple poultry species on shared range uses different ecological niches. Chickens scratch at ground level, ducks forage in wet areas, guinea fowl hunt in tall grass, geese graze pasture, turkeys forage woodland edges. Each species fills a different role.
 
 **Prerequisites**: Multiple poultry species, adequate range area, separate housing for incompatible species.
 
@@ -279,11 +279,11 @@ Why the 14-16 hour light requirement matters: Egg production in chickens is trig
 
 - [Agriculture & Food Production](../foundations/food-agriculture.md) — feed grain and forage
 - [Livestock Domestication](domestication.md) — poultry domestication history
-- [Poultry Chickens](poultry-chickens.md) — primary egg and meat production
-- [Poultry Ducks](poultry-ducks.md) — wetland and rice-paddy poultry
-- [Poultry Geese](poultry-geese.md) — down, guardian, and weed control birds
+- [Poultry Chickens](poultry.chickens.md) — primary egg and meat production
+- [Poultry Ducks](poultry.ducks.md) — wetland and rice-paddy poultry
+- [Poultry Geese](poultry.geese.md) — down, guardian, and weed control birds
 - [Insect Farming](insect-farming.md) — alternative protein source
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

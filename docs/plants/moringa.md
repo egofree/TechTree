@@ -282,4 +282,4 @@ particularly valuable in regions where fuel for boiling water is scarce. The tre
 growth and multiple harvests per year make it one of the most productive leaf vegetable crops.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -2,6 +2,7 @@
 
 > **Node ID**: chemistry.lithium-separation
 > **Domain**: [Chemistry](./index.md)
+> **Dependencies**: None
 > **Enables**: [`chemistry.electrolysis`](./electrolysis.md)
 > **Timeline**: Years 30-50
 > **Outputs**: lithium_compounds
@@ -52,7 +53,7 @@ The separation challenge is that lithium is chemically similar to sodium and pot
 
 ## Process Description
 
-The two lithium extraction routes differ fundamentally in their approach. Brine extraction uses solar energy to concentrate lithium over months, then chemical precipitation to recover the product. Hard rock extraction uses thermal and chemical energy to liberate lithium from the mineral matrix in hours.
+The two lithium extraction routes differ in their approach. Brine extraction uses solar energy to concentrate lithium over months, then chemical precipitation to recover the product. Hard rock extraction uses thermal and chemical energy to liberate lithium from the mineral matrix in hours.
 
 ### Step-by-Step Procedure
 
@@ -198,4 +199,4 @@ For a bootstrapping civilization, the brine route to lithium carbonate may be mo
 The particle size of the final lithium carbonate product affects both its handling and its downstream use. Battery manufacturers require Li₂CO₃ with a d50 (median particle size) of 5-20 μm and a narrow size distribution, because the carbonate is milled with other cathode precursors before calcination. Oversize particles lead to incomplete reaction during cathode sintering, while excessive fines create dust and flow problems. The particle size is controlled during the carbonation precipitation step by adjusting the sodium carbonate addition rate, temperature, and stirring intensity. Slower addition and higher temperature produce larger, more filterable crystals.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

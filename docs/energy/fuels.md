@@ -4,11 +4,11 @@
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`foundations.fire`](../foundations/fire.md)
 > **Enables**: [`energy.biomass-energy`](./biomass-energy.md), [`energy.engine`](./engine.md),
-> [`energy.fuels.charcoal`](./fuels.charcoal.md),
-> [`energy.fuels.coal`](./fuels.coal.md), [`energy.fuels.coke`](./fuels.coke.md),
+> [`energy.fuels.charcoal`](./charcoal.md),
+> [`energy.fuels.coal`](./coal.md), [`energy.fuels.coke`](./coke.md),
 > [`energy.internal-combustion`](./internal-combustion.md),
 > [`energy.refining`](./refining.md),
-> [`glass.advanced.glassblowing`](../glass/advanced.glassblowing.md),
+> [`glass.advanced.glassblowing`](../glass/glassblowing.md),
 > [`machine-tools.forming`](../machine-tools/forming.md),
 > [`metals.alloys`](../metals/alloys.md),
 > [`metals.steelmaking`](../metals/steelmaking.md),
@@ -203,7 +203,7 @@ The bootstrap cannot skip steps. Each fuel requires the infrastructure of the pr
 - [Mining: Extraction](../mining/extraction.md) — coal and petroleum drilling
 - [Iron & Steel](../metals/iron-steel.md) — smelting fuel requirements
 - [Steelmaking](../metals/steelmaking.md) — coke for blast furnaces
-- [Ceramics: Kiln Firing](../ceramics/kiln-firing.md) — kiln fuel requirements
+- [Ceramics: Kiln Firing](../ceramics/pottery.kiln-firing.md) — kiln fuel requirements
 - [Glass: Basic](../glass/basic.md) — glass melting fuel requirements
 - [Machine Tools: Casting](../metals/casting.md) — foundry fuel requirements
 - [Transport](../transport/index.md) — fuel for vehicles and railways
@@ -262,5 +262,5 @@ Transesterification produces biodiesel with properties much closer to petroleum 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.electrolysis-cell
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`energy.electricity`](../energy/electricity.md), [`chemistry.electrolysis`](electrolysis.md)
-> **Enables**: [`chemistry.alkalis`](alkalis.md), [`metals.aluminum`](../metals/aluminum.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 15-30
 > **Outputs**: chlorine, hydrogen, caustic_soda, aluminum
 > **Critical**: Yes — the chlor-alkali cell produces chlorine, hydrogen, and NaOH simultaneously, enabling PVC production, HCl synthesis, semiconductor-grade hydrogen, and aluminum smelting. Electrolysis cells are among the most electricity-intensive industrial equipment.
@@ -247,4 +247,4 @@ The ion-exchange membrane is the most critical and expensive component of a memb
 | Oxygen depolarized cathode (ODC) | 1.8-2.1 | 95-97 | 1,400-1,600 | 30% less energy, requires pure O₂ feed |
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

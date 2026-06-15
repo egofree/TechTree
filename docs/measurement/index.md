@@ -21,4 +21,7 @@ Capabilities in this domain:
 
 - [Advanced & Specialty Thermostats](thermostat-advanced.md) — Shape memory alloy actuators, quartz crystal sensors, and infrared pyrometers for calibration-grade and non-contact measurement.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Clockmaking & Precision Horology](horology.md) — Design and manufacture of precision timekeeping devices: gear cutting, escapement manufacturing, spring tempering, and precision bearing making.
+
+[↑ Back to Tech Tree](../index.md)
+

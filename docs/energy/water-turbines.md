@@ -260,4 +260,5 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 - [Steam Turbines](steam-turbines.md) — Turbine technology for thermal power
 - [Electricity Generation](electricity.md) — Generators and power distribution
 
-[← Back to Energy](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

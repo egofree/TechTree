@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.electrolysis.sem-tech
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Electrolysis`](electrolysis.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: None
 > **Timeline**: Years 30-50
 > **Outputs**: membrane_electrolysis, chlorine, caustic_soda
 > **Critical**: No
@@ -198,4 +198,4 @@ The membrane casting process can be scaled up by replacing the batch doctor-blad
 Membrane thickness is a critical parameter that affects both performance and durability. Thinner membranes (200-300 μm dry) have lower electrical resistance, reducing cell voltage and energy consumption. But thin membranes are mechanically fragile and more prone to pinhole defects that cause gas crossover. Thicker membranes (400-500 μm) are more robust but consume more power. The optimum depends on the application: for chlor-alkali where Cl₂/H₂ mixing is dangerous, thicker membranes with proven integrity are preferred over thin membranes with marginal gains in efficiency.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

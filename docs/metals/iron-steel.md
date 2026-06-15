@@ -9,22 +9,22 @@
 > **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md),
 > [`energy.cooling`](../energy/cooling.md),
 > [`energy.geothermal`](../energy/geothermal.md),
-> [`energy.gravity.water-turbines`](../energy/gravity.water-turbines.md),
+> [`energy.gravity.water-turbines`](../energy/water-turbines.md),
 > [`energy.steam-power`](../energy/steam-power.md),
-> [`energy.steam-power.steam-turbines`](../energy/steam-power.steam-turbines.md),
+> [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md),
 > [`food-processing.oil-processing`](../food-processing/oil-processing.md),
 > [`gas-handling.cylinder-filling`](../gas-handling/cylinder-filling.md),
 > [`knowledge.printing`](../knowledge/printing.md),
 > [`machine-tools.fasteners`](../machine-tools/fasteners.md),
 > [`machine-tools.forming`](../machine-tools/forming.md),
 > [`machine-tools.joining`](../machine-tools/joining.md),
-> [`machine-tools.joining.riveting`](../machine-tools/joining.riveting.md),
-> [`machine-tools.joining.welding`](../machine-tools/joining.welding.md),
+> [`machine-tools.joining.riveting`](../machine-tools/riveting.md),
+> [`machine-tools.joining.welding`](../machine-tools/welding.md),
 > [`marine.infrastructure`](../marine/infrastructure.md),
 > [`marine.propulsion`](../marine/propulsion.md),
 > [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](./alloys.md),
 > [`metals.blacksmithing`](./blacksmithing.md),
-> [`metals.iron-steel.blast-furnace`](./iron-steel.blast-furnace.md),
+> [`metals.iron-steel.blast-furnace`](./blast-furnace.md),
 > [`metals.steelmaking`](./steelmaking.md), [`metals.wire-drawing`](./wire-drawing.md),
 > [`mining.extraction`](../mining/extraction.md),
 > [`transport.railways`](../transport/railways.md),
@@ -285,7 +285,7 @@ The mechanical properties of iron and steel must be verified at every stage — 
 
 ## Wrought Iron vs Steel vs Cast Iron
 
-These three forms of iron-carbon alloy represent fundamentally different material classes, each suited to different applications. The carbon content — and the form that carbon takes — is the primary differentiator.
+These three forms of iron-carbon alloy represent different material classes, each suited to different applications. The carbon content — and the form that carbon takes — is the primary differentiator.
 
 | Property | Wrought Iron | Carbon Steel | Gray Cast Iron |
 |---|---|---|---|
@@ -380,4 +380,4 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - [Metal Joining](../machine-tools/joining.md) — welding, brazing, and soldering
 - [Machine Tools](../machine-tools/index.md) — iron and steel machine construction
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

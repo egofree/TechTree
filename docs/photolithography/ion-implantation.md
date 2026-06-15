@@ -4,6 +4,7 @@
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`gas-handling`](../gas-handling/index.md), [`vacuum`](../vacuum/index.md), [`energy.electricity`](../energy/electricity.md)
 > **Parent**: [`photolithography.fab-processes`](fab-processes.md)
+> **Enables**: None
 > **Timeline**: Years 50-80
 > **Outputs**: ion_implantation, doped_regions, doping_profiles
 > **Critical**: No
@@ -373,4 +374,4 @@ Wafer charging during high-current implantation requires active charge neutraliz
 - [CVD](cvd.md) — complementary deposition process
 - [PVD](pvd.md) — complementary deposition process
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Photolithography](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Photolithography](./index.md) · [All Domains](../index.md)*

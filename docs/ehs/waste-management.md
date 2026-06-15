@@ -3,11 +3,12 @@
 > **Node ID**: ehs.waste-management
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: `chemistry`, [`water.sewage`](../water/sewage.md)
+> **Enables**: None
 > **Critical**: No — waste management reduces environmental impact but is not a prerequisite for core industrial capabilities
 > **Timeline**: Years 30-70
 > **Outputs**: acid_waste_treatment, solvent_recovery, heavy_metal_precipitation, effluent_monitoring
 
-Semiconductor manufacturing generates complex waste streams that differ fundamentally from general industrial waste: hydrofluoric acid waste containing dissolved silicon and fluoride ions, heavy metal waste from metallization processes (copper, aluminum, tungsten), mixed acid waste from etching and cleaning, solvent waste from photoresist processing, and toxic gas scrubber blowdown containing arsenic and phosphorus compounds. These waste streams cannot be discharged to municipal sewer systems without treatment — fluoride must be reduced from thousands of ppm to <10 ppm, heavy metals must be precipitated to <1 ppm, and solvent concentrations must be reduced to <50 ppm. This document defines waste treatment processes specific to semiconductor manufacturing.
+Semiconductor manufacturing generates complex waste streams that differ from general industrial waste: hydrofluoric acid waste containing dissolved silicon and fluoride ions, heavy metal waste from metallization processes (copper, aluminum, tungsten), mixed acid waste from etching and cleaning, solvent waste from photoresist processing, and toxic gas scrubber blowdown containing arsenic and phosphorus compounds. These waste streams cannot be discharged to municipal sewer systems without treatment — fluoride must be reduced from thousands of ppm to <10 ppm, heavy metals must be precipitated to <1 ppm, and solvent concentrations must be reduced to <50 ppm. This document defines waste treatment processes specific to semiconductor manufacturing.
 
 ## Decision Framework: Waste Treatment Selection
 
@@ -312,4 +313,4 @@ Waste treatment operators handle concentrated chemical streams that are often mo
 - [Semiconductor Chemicals](../chemistry/semiconductor-chemicals.md) — Chemical supply chain
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

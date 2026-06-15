@@ -159,7 +159,7 @@ Materials listed per 10-alpaca fiber herd per year.
 **Strengths**:
 - Induced ovulation allows year-round breeding — no heat detection needed
 - Daytime birthing reduces hypothermia risk compared to nighttime foaling in horses
-- Crias are hardy from birth — stand and nurse within 1 hour in most cases
+- Crias are hardy from birth — stand and nurse within 1 hour
 - Low dystocia rate — camelids have been selected for easy birthing over 6,000 years
 
 **Weaknesses**:
@@ -269,4 +269,4 @@ Camelids evolved in the Andes at 3,500-5,000 m elevation, where air pressure is 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

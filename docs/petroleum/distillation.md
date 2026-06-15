@@ -192,5 +192,12 @@ The crude oil desalter is often overlooked but is critical to reliable distillat
 - Schedule heat exchanger cleaning based on fouling factor trends rather than fixed calendar intervals to optimize run length versus cleaning cost
 - Verify desalter wash water quality (low hardness, low dissolved oxygen) to prevent scaling and corrosion in the desalter and downstream heat exchangers
 
+## See Also
+
+- [Petroleum Extraction](extraction.md) — upstream crude oil production
+- [Fractional Distillation](../chemistry/distillation.md) — distillation column design principles
+- [Petroleum Index](./index.md) — overview of all petroleum capabilities
+
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Petroleum](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Petroleum](./index.md) · [All Domains](../index.md)*

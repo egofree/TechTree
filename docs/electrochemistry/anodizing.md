@@ -4,6 +4,7 @@
 > **Domain**: [Electrochemistry & Plating](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md),
 > [`metals.aluminum`](../metals/aluminum.md)
+> **Enables**: None
 > **Timeline**: Years 25-60
 > **Outputs**: anodized_aluminum, hard_anodized_surfaces, anodized_titanium, oxide_coatings
 > **Critical**: No — anodizing produces durable oxide coatings for semiconductor equipment but alternative surface treatments exist
@@ -272,4 +273,4 @@ Fabricate aluminum or titanium racks with spring-loaded contacts rated for maxim
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*

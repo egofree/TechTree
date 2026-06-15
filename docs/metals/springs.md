@@ -2,6 +2,7 @@
 
 > **Node ID**: metals.springs
 > **Domain**: [Metals](./index.md)
+> **Dependencies**: None
 > **Enables**: `machine-tools`
 > **Timeline**: Years 10-20
 > **Outputs**: compression_springs, tension_springs, torsion_springs, leaf_springs, belleville_washers
@@ -312,4 +313,4 @@ Spring manufacturing sits downstream of [Iron & Steel Production](iron-steel.md)
 - [Electronics](../electronics/index.md) — contact springs, relay springs, battery springs
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

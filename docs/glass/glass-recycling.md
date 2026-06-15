@@ -12,7 +12,7 @@ Glass recycling reclaims glass from end-of-life products (containers, windows, f
 
 Unlike metals, glass is not recycled into its original composition — it is remelted into new glass products, often at a lower specification. Clear container glass becomes new bottles; green and amber glass may become insulation fiberglass or construction aggregate. The key constraint is color separation: clear cullet contaminated with colored glass produces off-color product.
 
-Glass recycling differs fundamentally from metal recycling in one critical way: glass does not degrade with remelting. Metal alloys accumulate tramp elements over multiple recycling cycles, but glass chemistry is stable — the same SiO₂·Na₂O·CaO molecules can be melted and re-formed indefinitely. This makes glass theoretically 100% recyclable, though practical color sorting and contamination limits restrict actual recovery rates.
+Glass recycling differs from metal recycling in one critical way: glass does not degrade with remelting. Metal alloys accumulate tramp elements over multiple recycling cycles, but glass chemistry is stable — the same SiO₂·Na₂O·CaO molecules can be melted and re-formed indefinitely. This makes glass theoretically 100% recyclable, though practical color sorting and contamination limits restrict actual recovery rates.
 
 The boundary with waste management is clear: this document covers converting waste glass into reusable cullet feedstock. See [Waste Management](../ehs/waste-management.md) for disposal of non-recyclable glass waste (contaminated with hazardous substances, mixed with non-glass materials).
 
@@ -226,4 +226,4 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

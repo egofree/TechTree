@@ -3,6 +3,7 @@
 > **Node ID**: computing.computer-architecture
 > **Domain**: [Computing](./index.md)
 > **Dependencies**: [`computing.electronic`](./electronic.md)
+> **Enables**: None
 > **Timeline**: Years 50-70+
 > **Outputs**: cpu_designs, memory_hierarchy, bus_architecture, io_systems
 > **Critical**: Yes — the architecture determines whether logic gates become a useful processor or an unorganized collection of transistors
@@ -250,4 +251,4 @@ The compiler explicitly schedules parallel operations. Each instruction contains
 - [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) — PCB design for high-speed processor bus routing.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

@@ -2,6 +2,7 @@
 
 > **Node ID**: precision-motion.precision-encoders
 > **Domain**: [Precision Motion Control](./index.md)
+> **Enables**: None
 > **Timeline**: Years 35-55
 > **Outputs**: laser_interferometers, optical_encoders, encoder_feedback_systems
 > **Dependencies**: [`measurement.precision-metrology`](../measurement/precision-metrology.md),
@@ -220,7 +221,7 @@ For short-range, ultra-high-resolution position measurement (alternative to enco
 
 ## Bearing Specifications for Precision Motion
 
-The positioning accuracy of any stage is fundamentally limited by its bearings. Bearings determine friction, stiffness, runout, and thermal stability. The choice of bearing type constrains what encoder resolution can actually be used.
+The positioning accuracy of any stage is limited by its bearings. Bearings determine friction, stiffness, runout, and thermal stability. The choice of bearing type constrains what encoder resolution can actually be used.
 
 ### Bearing Type Comparison
 
@@ -321,4 +322,4 @@ For a wafer stage with 300 mm travel and nanometer target accuracy, the error bu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Precision Motion Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

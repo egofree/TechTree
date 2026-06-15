@@ -4,6 +4,7 @@
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`measurement.thermostat-electronic`](./thermostat-electronic.md), `optics`,
 > `silicon`
+> **Enables**: None
 > **Critical**: No — these are refinements for specialized applications
 > **Timeline**: Years 40-60+
 > **Outputs**: non_contact_temperature_sensing, calibration_grade_measurement, shape_memory_actuation
@@ -237,4 +238,4 @@ Each advanced thermostat type requires specific calibration and verification:
 
 ---
 
-*Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*

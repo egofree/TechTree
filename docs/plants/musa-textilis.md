@@ -197,4 +197,4 @@ Abaca (Manila hemp) rope was so critical to the US Navy that the Philippine prod
 *Content to be added: fiber yield data, extraction efficiency, processing parameters.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

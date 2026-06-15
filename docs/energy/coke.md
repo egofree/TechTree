@@ -258,4 +258,5 @@ Domestic coke (15-40 mm) is a smokeless fuel valued for urban heating before nat
 - [Ammonia Production](../chemistry/ammonia.md) — Ammonia from coke oven gas byproduct
 - [Fuels](fuels.md) — comparative fuel properties
 
-[← Back to Energy](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

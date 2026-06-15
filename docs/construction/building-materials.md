@@ -4,6 +4,7 @@
 > **Domain**: [Construction](./index.md)
 > **Dependencies**: [`foundations.sawmilling`](../foundations/sawmilling.md),
 > [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: None
 > **Timeline**: Years 5-25
 > **Outputs**: timber_frames, masonry_walls, roofing_systems, waterproofing, scaffolding, hoisting_equipment
 > **Critical**: Yes — all permanent structures require building materials; without them, civilization remains limited to temporary shelters
@@ -416,5 +417,5 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../index.md)*
 

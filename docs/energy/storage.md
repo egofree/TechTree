@@ -6,7 +6,7 @@
 > [`energy.fuel-cell`](./fuel-cell.md),
 > [`energy.redox-flow-battery`](./redox-flow-battery.md), `metals`,
 > [`polymers.rubber`](../polymers/rubber.md)
-> **Enables**: [`energy.electricity.power-systems`](./electricity.power-systems.md)
+> **Enables**: [`energy.electricity.power-systems`](./power-systems.md)
 > **Timeline**: Years 15-200+
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
 > **Critical**: No — energy storage enables renewable intermittency management and power backup but is not on the critical bootstrap path
@@ -242,5 +242,5 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 

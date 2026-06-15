@@ -47,7 +47,7 @@ Materials listed for a 20-pair breeding loft per year.
 ## Loft Construction
 
 **Basic loft design**:
-A pigeon loft is fundamentally simpler than poultry housing. Requirements: weatherproof shelter, ventilation without drafts, nest boxes, perches, and entry/exit openings (trap holes or open flight). Allow 1 m² of floor space per 5 breeding pairs. Nest boxes: 30 × 30 × 30 cm each, arranged in banks along interior walls. Each breeding pair needs two nest boxes (one for current squab, one for the next clutch — pigeons often begin a new clutch before the previous squab have fledged).
+A pigeon loft is simpler than poultry housing. Requirements: weatherproof shelter, ventilation without drafts, nest boxes, perches, and entry/exit openings (trap holes or open flight). Allow 1 m² of floor space per 5 breeding pairs. Nest boxes: 30 × 30 × 30 cm each, arranged in banks along interior walls. Each breeding pair needs two nest boxes (one for current squab, one for the next clutch — pigeons often begin a new clutch before the previous squab have fledged).
 
 **Construction materials**:
 Wood-framed structure with solid walls (planks, plywood, or wattle-and-daub). Roof must be watertight — pigeons suffer in damp conditions. Floor: solid wood or concrete with 5-10 cm of sand or wood shavings for droppings absorption. Ventilation: louvered openings near the roofline for air circulation without floor-level drafts. Entry: small openings (15 × 15 cm) with landing boards on the exterior wall. Aviary or flight pen (wire-enclosed area attached to the loft) allows exercise and sun exposure without free-flight.
@@ -258,13 +258,13 @@ Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate 
 ## See Also
 
 - [Poultry Overview](poultry.md) — general poultry husbandry and biosecurity
-- [Chickens](poultry-chickens.md) — primary poultry for meat and eggs
-- [Coturnix Quail](poultry-coturnix.md) — small-scale poultry alternative
+- [Chickens](poultry.chickens.md) — primary poultry for meat and eggs
+- [Coturnix Quail](poultry.coturnix.md) — small-scale poultry alternative
 - [Soil Management](../agriculture/soil-management.md) — guano as fertilizer input
 - [Explosives](../chemistry/explosives.md) — saltpeter from guano for black powder
 - [Animal Husbandry](animal-husbandry.md) — general livestock management principles
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
 

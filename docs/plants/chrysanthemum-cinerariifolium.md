@@ -188,5 +188,5 @@ Pyrethrum is one of the few insecticides approved for use in organic agriculture
 *Content to be added: pyrethrin yield data, extraction efficiency, application rates.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
 

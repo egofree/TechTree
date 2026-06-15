@@ -4,8 +4,8 @@
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.distillation`](./distillation.md),
 > [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md),
-> [`chemistry.petroleum-alternatives.fermentation`](./petroleum-alternatives.fermentation.md)
-> **Enables**: [`chemistry.explosives.nitrocellulose`](./explosives.nitrocellulose.md), `health`
+> [`chemistry.petroleum-alternatives.fermentation`](./fermentation.md)
+> **Enables**: [`chemistry.explosives.nitrocellulose`](./nitrocellulose.md), `health`
 > **Timeline**: Years 15-40
 > **Outputs**: ethanol, methanol, ether, turpentine, hydrogen_peroxide
 > **Critical**: No — solvents are used in nearly all chemical processes but are produced from multiple alternative routes
@@ -284,4 +284,4 @@ Solvents present a tiered hazard landscape ranked by severity:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

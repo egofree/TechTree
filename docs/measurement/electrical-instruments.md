@@ -3,7 +3,7 @@
 > **Node ID**: measurement.electrical-instruments
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), `measurement`
-> **Enables**: [`energy.electricity.power-systems`](../energy/electricity.power-systems.md),
+> **Enables**: [`energy.electricity.power-systems`](../energy/power-systems.md),
 > [`measurement.thermostat-electrical`](./thermostat-electrical.md)
 > **Timeline**: Years 20-35
 > **Outputs**: voltmeter, ammeter, ohmmeter, oscilloscope, multimeter, insulation_tester, frequency_counter
@@ -278,4 +278,4 @@ Key decision rule: Use a DMM for all routine measurements. Add an oscilloscope w
 - [Telecom / Radio](../telecom/radio.md) — RF measurement and signal detection
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

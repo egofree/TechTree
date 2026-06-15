@@ -228,4 +228,4 @@ Remote laser welding stations use scanning mirrors to steer the laser beam acros
 - Verify nozzle gas flow with a flow meter; subjective assessment of gas coverage is unreliable
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*

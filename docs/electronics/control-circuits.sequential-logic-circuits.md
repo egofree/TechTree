@@ -5,6 +5,7 @@
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md),
 > [`electronics.passive-components`](passive-components.md),
 > [`electronics.control-circuits.discrete-logic-circuits`](control-circuits.discrete-logic-circuits.md)
+> **Enables**: None
 > **Outputs**: sequential-logic-designs
 > **Timeline**: Years 25-45
 > **Critical**: No
@@ -280,6 +281,11 @@ The components in this article — latches, flip-flops, counters, shift register
 
 The arc from [relay logic](control-circuits.relay-logic.md) (the seal-in latch as the first memory element) through the [discrete gates](control-circuits.discrete-logic-circuits.md) of TTL and CMOS to the flip-flops and counters here traces the physical implementation of one idea: **feedback creates memory, and clocked feedback creates synchronized memory that scales into computation.**
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Control Circuits](control-circuits.md) — parent capability: the design-pedagogy hub.
@@ -294,4 +300,4 @@ The arc from [relay logic](control-circuits.relay-logic.md) (the seal-in latch a
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

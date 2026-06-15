@@ -20,7 +20,7 @@ Physical descrip: 1 photoprint - b&amp;w - 10 x 8 in.
 
 ...*
 
-**Principle**: Steam expands entirely through stationary nozzles, converting pressure energy into kinetic energy (high-velocity jet). The jet impinges on bucket-shaped blades on the rotor. All pressure drop occurs at the nozzle — the rotor blades experience only the impulse (momentum transfer) of the jet. No pressure drop across the moving blades; the rotor casing operates at essentially atmospheric pressure.
+**Principle**: Steam expands entirely through stationary nozzles, converting pressure energy into kinetic energy (high-velocity jet). The jet impinges on bucket-shaped blades on the rotor. All pressure drop occurs at the nozzle — the rotor blades experience only the impulse (momentum transfer) of the jet. No pressure drop across the moving blades; the rotor casing operates at atmospheric pressure.
 
 **Construction**:
 - **Nozzle**: Converging-diverging (de Laval) nozzle shape for supersonic steam velocities. Machined from bronze or steel. Steam exits at 500-1200 m/s depending on inlet conditions.
@@ -458,4 +458,5 @@ For a bootstrap civilization, the progression is: standalone steam turbine plant
 - [Electric Furnaces](electric-furnaces.md) — graphite for turbine seals and lubricants
 - [Geothermal Energy](geothermal.md) — geothermal flash steam driving turbines
 
-[← Back to Energy](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

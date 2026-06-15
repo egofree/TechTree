@@ -2,6 +2,7 @@
 
 > **Node ID**: metals.casting
 > **Domain**: [Metals](./index.md)
+> **Dependencies**: None
 > **Enables**: [`energy.stirling-engine`](../energy/stirling-engine.md),
 > [`metals.pipe-making`](./pipe-making.md)
 > **Timeline**: Years 10-15
@@ -253,4 +254,4 @@ Shell molding produces castings with superior surface finish and tighter dimensi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

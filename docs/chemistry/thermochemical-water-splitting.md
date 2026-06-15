@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.thermochemical-water-splitting
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Fuel Cell`](../energy/fuel-cell.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: None
 > **Timeline**: Years 20-35
 > **Outputs**: hydrogen, oxygen
 > **Critical**: No
@@ -194,6 +194,13 @@ The photocatalytic approach has one advantage that thermochemical cycles cannot 
 
 For any thermochemical or photocatalytic water splitting method, the ultimate benchmark is cost per kilogram of hydrogen delivered. Electrolysis currently produces hydrogen at $3-6/kg (depending on electricity cost). Steam methane reforming produces it at $1-2/kg. For thermochemical or photocatalytic methods to compete, they must deliver hydrogen below $3/kg, which requires high cycle efficiency (above 30%), long reactor life (above 10 years), and low capital cost for the heat source or photocatalyst system. No non-electrolytic method has yet demonstrated these economics at scale.
 
+## See Also
+
+- [Haber-Bosch Process](haber-bosch.md) — hydrogen production via steam reforming
+- [Electrolysis Cell](electrolysis-cell.md) — competing electrolytic hydrogen route
+- [Chemistry Index](./index.md) — overview of all chemical processes
+
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
 

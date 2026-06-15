@@ -290,4 +290,4 @@ Microporous membranes (PVDF or PES hollow fiber, 0.01-0.5 μm pore size) that re
 - [Polymers](../polymers/index.md) — cartridge filter elements and membrane materials
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

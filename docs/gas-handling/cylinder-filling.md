@@ -5,6 +5,7 @@
 > **Dependencies**: [`gas-handling.basic`](./basic.md),
 > [`gas-handling.gas-purification`](./gas-purification.md),
 > [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None
 > **Timeline**: Years 20-35
 > **Outputs**: filled_cylinders, tested_cylinders, certified_cylinders
 > **Critical**: No — bulk gas can be delivered via pipeline; cylinders provide portable storage
@@ -239,4 +240,4 @@ Every cylinder filling station must have the following safety equipment inspecte
 - [Piping Systems](piping-systems.md) — gas distribution infrastructure
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

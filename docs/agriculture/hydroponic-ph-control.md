@@ -2,6 +2,7 @@
 
 > **Node ID**: agriculture.hydroponic-ph-control
 > **Domain**: [Agriculture](./index.md)
+> **Dependencies**: None
 > **Enables**: [`chemistry.electrodialysis`](../chemistry/electrodialysis.md)
 > **Timeline**: Years 25-45
 > **Outputs**: balanced_ph, nutrient_solution
@@ -363,5 +364,5 @@ Based on lettuce production in nutrient film technique (NFT) channels, 1,000 L r
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
 

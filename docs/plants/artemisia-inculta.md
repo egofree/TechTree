@@ -225,4 +225,4 @@ In cultivation, the plant responds poorly to any attempt to improve its growing 
 ### Artemisia inculta Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

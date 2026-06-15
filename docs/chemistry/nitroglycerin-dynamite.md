@@ -171,7 +171,7 @@ Nitroglycerin and dynamite production scale from artisanal to industrial:
 ## See Also
 
 - **[Explosives & Propellants](explosives.md)**: Parent overview and nitration chemistry
-- **[Black Powder](black-powder.md)**: Predecessor explosive
+- **[Black Powder](explosives.black-powder.md)**: Predecessor explosive
 - **[Nitrocellulose & Smokeless Powders](nitrocellulose.md)**: Propellants using NG in double-base formulations
 - **[High Explosives](high-explosives.md)**: TNT, RDX, ANFO
 - **[Detonation & Blasting](detonation-blasting.md)**: Blasting caps, fuses, and initiation systems
@@ -202,4 +202,4 @@ Nitroglycerin and dynamite production scale from artisanal to industrial:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

@@ -264,4 +264,4 @@ Different fibers require different wheel settings and techniques. Using the same
 - [Sewing & Tailoring](sewing-tailoring.md) — garment construction from woven cloth
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

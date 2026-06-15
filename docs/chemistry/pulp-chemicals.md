@@ -81,7 +81,7 @@ Unbleached kraft pulp is dark brown. Bleaching removes residual lignin to produc
 
 ## Sulfite Pulping
 
-Though kraft pulping dominates modern production (~80% of chemical pulp), the acid sulfite process remains important for dissolving pulp and specialty grades. The chemistry differs fundamentally from kraft: sulfite cooking uses sulfur dioxide (SO₂) dissolved in water with various bases to produce bisulfite cooking liquor.
+Though kraft pulping dominates modern production (~80% of chemical pulp), the acid sulfite process remains important for dissolving pulp and specialty grades. The chemistry differs from kraft: sulfite cooking uses sulfur dioxide (SO₂) dissolved in water with various bases to produce bisulfite cooking liquor.
 
 **Cooking liquor chemistry**: SO₂ dissolved in water forms sulfurous acid (H₂SO₃). Adding a base (CaCO₃, MgO, Na₂CO₃, or NH₄OH) produces the bisulfite ion (HSO₃⁻) that is the active delignifying agent. The base cation determines process pH and liquor properties. Calcium bisulfite was the original system (using cheap limestone), but CaSO₄ scaling limits recovery. Magnesium bisulfite is more common now, as MgSO₄ is recoverable by precipitation. Sodium and ammonia bases offer flexibility in pH.
 
@@ -155,7 +155,7 @@ The kraft chemical cycle is one of the most elegant closed-loop chemical process
 
 ## Environmental Considerations
 
-**Effluent treatment**: Pulp mill effluent contains dissolved organic matter (BOD 20-50 mg/L for modern kraft mills), suspended solids, and chlorinated organic compounds (if chlorine-based bleaching is used). Biological treatment (activated sludge or aerated lagoon) reduces BOD by 90-95%. AOX (adsorbable organic halides) in effluent: <0.5 kg per tonne pulp for ECF mills, <0.1 kg/t for TCF mills. Unbleached mills produce essentially zero AOX.
+**Effluent treatment**: Pulp mill effluent contains dissolved organic matter (BOD 20-50 mg/L for modern kraft mills), suspended solids, and chlorinated organic compounds (if chlorine-based bleaching is used). Biological treatment (activated sludge or aerated lagoon) reduces BOD by 90-95%. AOX (adsorbable organic halides) in effluent: <0.5 kg per tonne pulp for ECF mills, <0.1 kg/t for TCF mills. Unbleached mills produce zero AOX.
 
 **Air emissions**: Kraft mills emit reduced sulfur compounds (TRS — total reduced sulfur: H₂S, CH₃SH, CH₃SCH₃, CH₃SSCH₃) from the recovery boiler, lime kiln, and digestor relief. TRS compounds have extremely low odor thresholds (detectable at 1-10 ppb, causing the characteristic "rotten egg" smell near kraft mills). Collection and thermal oxidation in the recovery boiler or dedicated incinerator reduces TRS emissions to <5 ppm. NOx and SO₂ emissions from recovery boiler combustion controlled by boiler design and flue gas treatment.
 
@@ -236,4 +236,4 @@ The global shift toward sustainable packaging is driving renewed investment in c
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

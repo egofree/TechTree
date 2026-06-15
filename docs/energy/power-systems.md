@@ -14,7 +14,7 @@ Ultra-clean power delivery for semiconductor fabs: voltage sag <10%, THD <3%, UP
 
 Semiconductor fabrication equipment is exceptionally sensitive to power quality disturbances. A voltage sag lasting less than a single AC cycle can cause wafer processing tools to abort, scrapping wafers worth substantial value. Transient voltage spikes can damage sensitive electronic components within the tools themselves. The economic consequence of a single power disruption, measured in lost wafers, tool recovery time, and schedule delays, drives the stringent power quality requirements.
 
-Double-conversion UPS systems provide the highest level of protection by continuously rectifying AC to DC, then inverting back to clean AC. The battery bank bridges the gap between utility failure and backup generator startup. Rotary UPS systems use the inertia of a spinning flywheel to provide ride-through energy for brief outages. For fabs, the standard design employs redundant UPS systems feeding separate power distribution buses, ensuring that no single equipment failure can interrupt tool power.
+Double-conversion UPS systems provide the highest level of protection by continuously rectifying AC to DC, then inverting back to clean AC. The battery bank bridges the gap between utility failure and backup generator startup. Rotary UPS systems use the inertia of a spinning flywheel to provide ride-through energy for brief outages. For fabs, the standard design uses redundant UPS systems feeding separate power distribution buses, ensuring that no single equipment failure can interrupt tool power.
 
 The power quality requirements for semiconductor tools have become progressively more stringent with each technology generation, as smaller transistors become more sensitive to voltage fluctuations during critical processing steps such as photoresist exposure and plasma etching. The investment in power quality infrastructure typically represents a small fraction of total fab construction cost but protects a much larger investment in wafer processing equipment and work-in-progress inventory.
 
@@ -196,6 +196,12 @@ Proper handling of batteries, electrical components, and replacement parts ensur
 - Maintain updated one-line diagrams reflecting all field modifications; as-built drawings drift from reality rapidly in active facilities
 - Regular thermal imaging surveys of electrical connections identify developing hot spots before they cause equipment damage or fire.
 - Schedule UPS battery capacity tests during planned production downtimes to avoid risk to active wafers
+## See Also
+
+- [Electricity Generation](electricity.md) — generators and power distribution
+- [Energy Index](./index.md) — overview of all energy capabilities
+
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
 

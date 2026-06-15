@@ -227,4 +227,4 @@ Proper handling of compressor consumables, filters, and pneumatic components mai
 - Verify compressor unload valve operation during weekly no-load test runs
 - Log compressor running hours to schedule preventive maintenance per manufacturer intervals
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

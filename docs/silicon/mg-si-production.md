@@ -253,5 +253,5 @@ An inevitable side reaction in the silicon furnace:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
 

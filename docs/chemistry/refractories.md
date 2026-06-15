@@ -237,4 +237,4 @@ Magnesite bricks (MgO >85%) are the foundation of basic steelmaking refractories
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

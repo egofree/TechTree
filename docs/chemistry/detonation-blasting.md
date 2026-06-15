@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.explosives.detonation-blasting
 > **Domain**: [Chemistry](./index.md)
 > **Parent**: [Explosives & Propellants](explosives.md)
-> **Dependencies**: [`chemistry.explosives.black-powder`](black-powder.md), [`chemistry.explosives.nitroglycerin-dynamite`](nitroglycerin-dynamite.md), [`chemistry.explosives.high-explosives`](high-explosives.md)
+> **Dependencies**: [`chemistry.explosives.black-powder`](explosives.black-powder.md), [`chemistry.explosives.nitroglycerin-dynamite`](nitroglycerin-dynamite.md), [`chemistry.explosives.high-explosives`](high-explosives.md)
 > **Enables**: Controlled blasting, mining, demolition, military applications
 > **Timeline**: Years 5-30+
 > **Outputs**: blasting_systems, demolition_services
@@ -213,4 +213,4 @@ Choosing the right explosive for a task requires matching the explosive's proper
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

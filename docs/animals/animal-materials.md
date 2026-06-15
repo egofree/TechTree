@@ -136,7 +136,7 @@ Wash the skirted fleece to remove lanolin (10-25% of raw fleece weight), dirt, a
 
 ## Carding vs. Combing
 
-Two distinct fiber preparation methods that produce fundamentally different yarn types.
+Two distinct fiber preparation methods that produce different yarn types.
 
 **Carding**: Use hand carders, flat wooden paddles (15 x 25 cm) covered with fine wire teeth. Place a handful of scoured wool on one carder, brush with the second carder in a rolling motion. This disentangles the fibers, removes remaining debris, and aligns them roughly. The carded fiber is rolled into a rolag, a cylindrical tuft. Carded fiber produces **woolen yarn**: fluffy, warm, with a fuzzy surface that traps air. Woolen yarn yields 200-800 m per kg.
 
@@ -251,4 +251,4 @@ Several animal-derived materials fill niches where no plant or mineral alternati
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

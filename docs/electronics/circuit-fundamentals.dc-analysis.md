@@ -3,6 +3,7 @@
 > **Node ID**: electronics.circuit-fundamentals.dc-analysis
 > **Domain**: [Electronics](index.md)
 > **Dependencies**: [`electronics.passive-components`](passive-components.md), [`electronics.electrical-systems`](electrical-systems.md)
+> **Enables**: None
 > **Timeline**: Years 15-30
 > **Outputs**: dc-circuit-analysis
 > **Critical**: No — circuit theory is analytical knowledge; a practiced practitioner can derive results from memory once components exist
@@ -535,6 +536,11 @@ These ten tools are the complete analytical toolkit for any DC resistive network
 
 ---
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Circuit Fundamentals](circuit-fundamentals.md) — the parent capability hub; this article is one of its process children (the AC-analysis sibling article covers sinusoidal and reactive circuits).
@@ -543,4 +549,4 @@ These ten tools are the complete analytical toolkit for any DC resistive network
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

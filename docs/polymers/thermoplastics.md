@@ -426,4 +426,4 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

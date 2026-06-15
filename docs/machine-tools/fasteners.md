@@ -237,5 +237,5 @@ Heat treatment after thread forming is standard for structural fasteners. Quench
 - Verify heat treatment furnace temperature with independent thermocouple before each batch load
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*
 

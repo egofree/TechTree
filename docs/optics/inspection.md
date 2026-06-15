@@ -4,7 +4,7 @@
 > **Domain**: [Optics](./index.md)
 > **Dependencies**: [`glass.advanced`](../glass/advanced.md)
 > **Enables**: [`measurement.optical-instruments`](../measurement/optical-instruments.md),
-> [`optics.inspection.optical-coatings`](./inspection.optical-coatings.md),
+> [`optics.inspection.optical-coatings`](./optical-coatings.md),
 > [`optics.precision-instruments`](./precision-instruments.md),
 > [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 25-40
@@ -241,4 +241,4 @@ Not every optical component can be inspected 100% (batch sizes in the hundreds o
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Optics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*

@@ -2,6 +2,7 @@
 
 > **Node ID**: metals.magnetic-materials
 > **Domain**: [Metals](./index.md)
+> **Dependencies**: None
 > **Enables**: [`energy.electricity`](../energy/electricity.md)
 > **Timeline**: Years 15-25
 > **Outputs**: silicon_steel_laminations, grain_oriented_strip, alnico_magnets, ferrite_magnets
@@ -271,4 +272,4 @@ For bootstrap purposes, alnico and ferrite are the practical choices. Rare-earth
 - [Generator](../energy/generator.md) — stator and rotor magnetic materials
 - [Power Distribution](../energy/power-distribution.md) — transformer core materials
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

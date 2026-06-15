@@ -3,6 +3,7 @@
 > **Node ID**: `electronics.analog-circuits.oscillator-circuits`
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.passive-components`](passive-components.md), [`electronics.analog-circuits.amplifier-fundamentals`](analog-circuits.amplifier-fundamentals.md)
+> **Enables**: None
 > **Outputs**: oscillator-designs
 > **Timeline**: Years 25-40
 > **Critical**: No — design pedagogy layer; the active devices and resonator crystals come from semiconductor-devices
@@ -396,6 +397,11 @@ Relaxation oscillators are the spiritual ancestor of the 555 timer (covered in [
 - [ ] Decoupled the power supply (0.1 µF ceramic close to the device) so supply ripple does not modulate the frequency.
 - [ ] For variable-frequency designs, verified the tuning range does not push the loop gain below 1 (oscillation dropout) or into hard saturation (distortion).
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Analog Circuits](analog-circuits.md) — the parent capability hub: scope, progression, and sibling articles.
@@ -406,4 +412,4 @@ Relaxation oscillators are the spiritual ancestor of the 555 timer (covered in [
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

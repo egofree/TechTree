@@ -291,4 +291,4 @@ Key rule: Use a dry scroll pump for any process where hydrocarbon contamination 
 - [SEM Tech](../chemistry/sem-tech.md) — membrane technology for gas purification
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

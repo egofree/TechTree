@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.electrolysis.chlor-alkali
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Electrolysis`](electrolysis.md)
-> **Enables**: Various downstream capabilities
+> **Enables**: None
 > **Timeline**: Years 20-35
 > **Outputs**: chlor_alkali_chlorine, chlor_alkali_caustic, chlor_alkali_hydrogen
 > **Critical**: No
@@ -161,7 +161,7 @@ Key scaling challenges: brine purification becomes the dominant cost and complex
 - **Mercury cathode cell (historical)**: Flowing mercury cathode forms sodium amalgam, which is decomposed separately. Produced very pure caustic but caused severe mercury contamination. Phased out globally.
 - **Bipolar membrane electrolysis**: Can directly produce acid and base from salt without separate chlorine and caustic streams. Emerging technology for niche applications.
 
-The choice of cell technology has significant implications for downstream processing. Membrane cells produce the purest caustic (essentially salt-free) and are the most energy-efficient, making them the standard for new installations. Diaphragm cells remain in service where older infrastructure exists and where the slightly lower capital cost justifies the tradeoff in caustic purity. The mercury cell is being phased out globally due to environmental contamination — mercury accumulates in the food chain and causes severe neurological damage at low concentrations.
+The choice of cell technology has significant implications for downstream processing. Membrane cells produce the purest caustic (salt-free) and are the most energy-efficient, making them the standard for new installations. Diaphragm cells remain in service where older infrastructure exists and where the slightly lower capital cost justifies the tradeoff in caustic purity. The mercury cell is being phased out globally due to environmental contamination — mercury accumulates in the food chain and causes severe neurological damage at low concentrations.
 
 ## References
 
@@ -205,5 +205,13 @@ Power consumption is the dominant operating cost in chlor-alkali production. The
 The membrane cell has become the global standard for new chlor-alkali construction, representing the best balance of energy efficiency, product purity, and environmental performance.
 The cost of perfluorinated membranes has decreased steadily as production volumes have increased, making membrane cells economically competitive even in developing regions.
 
+## See Also
+
+- [Electrolysis](electrolysis.md) — parent capability providing DC power and cell fundamentals
+- [Alkalis](alkalis.md) — caustic soda in the broader industrial alkali chain
+- [Water Infrastructure](../water/index.md) — chlorine for disinfection and water treatment
+- [Polymers](../polymers/index.md) — chlorine feedstock for PVC and halogenated polymers
+- [Electrochemistry](../electrochemistry/index.md) — related plating and electrochemical processes
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

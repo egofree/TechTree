@@ -372,4 +372,4 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

@@ -305,7 +305,7 @@ A horse's trachea runs along the underside of the neck, surrounded by major bloo
 
 The collar harness solves this by transferring load to the shoulders. A properly fitted collar encircles the base of the neck, resting on the pectoral muscles and the tops of the shoulder blades. The trachea and blood vessels pass through the open center of the collar with no pressure. The horse pulls with its entire shoulder and chest musculature, which is far stronger than the neck muscles that a breast strap engages. This is not a small improvement. It is the difference between 500 kg draw and 1,500 kg draw from the same horse.
 
-Oxen face no such problem because their anatomy is different. Bovine shoulders push forward into the yoke beam. The neck is thick and muscular, with no vulnerable trachea in the compression zone. The neck yoke aligns with how cattle naturally push against resistance, which is why it has remained essentially unchanged for 6,000 years.
+Oxen face no such problem because their anatomy is different. Bovine shoulders push forward into the yoke beam. The neck is thick and muscular, with no vulnerable trachea in the compression zone. The neck yoke aligns with how cattle naturally push against resistance, which is why it has remained unchanged for 6,000 years.
 
 ## Troubleshooting
 
@@ -333,4 +333,4 @@ Oxen face no such problem because their anatomy is different. Bovine shoulders p
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

@@ -287,4 +287,4 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 - **Noise**: Rod mills at 100+ m/s exit speed produce 100-110 dB at the laying head. Hearing protection mandatory. Control rooms are acoustically isolated.
 - **Breakout**: Continuous casting breakout releases 10-50 tons of liquid steel. Emergency spray systems (100+ L/s water capacity) cool and contain the spill. Evacuation triggers are automatic on breakout detection.
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

@@ -27,7 +27,7 @@ Compilers unlock a fundamental productivity leap. A programmer can write 5-10× 
 
 ## Hardware
 - **Computer with ≥32 KB memory**: A compiler needs significantly more memory than an assembler — the symbol table, parse tree, and intermediate representations are all memory-intensive. 32-128 KB is realistic for a basic compiler.
-- **Adequate storage**: Source files, intermediate files, and generated assembly/object files. Magnetic storage (disk or tape) is essentially required; paper tape is too slow for compiler I/O.
+- **Adequate storage**: Source files, intermediate files, and generated assembly/object files. Magnetic storage (disk or tape) is required; paper tape is too slow for compiler I/O.
 
 ## Bill of Materials
 
@@ -247,4 +247,4 @@ Even a simple compiler should perform these optimizations:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*

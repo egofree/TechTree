@@ -120,4 +120,4 @@ The spinning mule (Crompton, 1779) combines water frame roller drafting with car
 - [Energy](../energy/index.md) — power sources for driving spinning frames
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

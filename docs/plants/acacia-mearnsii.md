@@ -197,4 +197,4 @@ Black wattle bark contains condensed tannins (proanthocyanidins) that are chemic
 *Content to be added: tannin yield data, extraction efficiency, bark harvest cycles.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

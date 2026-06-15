@@ -192,4 +192,4 @@ Phormium fiber was exported from New Zealand to Britain and Australia in the 19t
 *Content to be added: fiber yield data, extraction efficiency, processing parameters.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

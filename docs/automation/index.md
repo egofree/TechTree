@@ -10,4 +10,4 @@ Capabilities in this domain:
 
 - [Process Control & Lot Tracking](process-control.md) — Recipe management, lot and wafer tracking, process sequencing, Fault Detection and Classification (FDC), and automated run-to-run control.
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

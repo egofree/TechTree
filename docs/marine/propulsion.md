@@ -5,6 +5,7 @@
 > **Dependencies**: [`energy.engine`](../energy/engine.md),
 > [`energy.steam-power`](../energy/steam-power.md),
 > [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None
 > **Timeline**: Years 0-50+
 > **Outputs**: marine engines, propellers, paddle wheels
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
@@ -281,4 +282,4 @@ For a 100 m cargo vessel at 12 knots:
 - [Navigation](navigation.md) — maritime navigation and piloting
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*

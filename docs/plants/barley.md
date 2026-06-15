@@ -242,4 +242,4 @@ method for maintaining water quality in stored water supplies. Barley is also th
 for beer production, one of the oldest fermented beverages in human history.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

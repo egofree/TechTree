@@ -8,7 +8,7 @@
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md),
 > [`machine-tools.edm-cnc`](../machine-tools/edm-cnc.md),
 > [`measurement.precision-metrology`](../measurement/precision-metrology.md)
-> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md)
+> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/cmp.md)
 
 The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves ±0.5 μm positioning on ultra-precision CNC machines. Semiconductor lithography demands three orders of magnitude better: wafer stages must position to ±5 nm over 300 mm travel, reticle stages to ±2 nm, and inspection stages to ±1 nm. This document covers the actuation technologies — piezoelectric stages, air bearings, and linear motors — that make nanometer positioning possible. For the measurement systems providing position feedback, see [Precision Encoders](./precision-encoders.md); for the vibration environment that nanometer positioning requires, see [Vibration Isolation](./vibration-isolation.md).
 
@@ -46,7 +46,7 @@ The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves
 
 ## Piezoelectric Positioning Stages
 
-Piezoelectric actuators convert electrical voltage directly to mechanical displacement via the inverse piezoelectric effect in ferroelectric ceramics (lead zirconate titanate, PZT). No gears, no bearings, no friction — the crystal lattice itself deforms, providing essentially infinite positioning resolution limited only by drive electronics noise.
+Piezoelectric actuators convert electrical voltage directly to mechanical displacement via the inverse piezoelectric effect in ferroelectric ceramics (lead zirconate titanate, PZT). No gears, no bearings, no friction — the crystal lattice itself deforms, providing infinite positioning resolution limited only by drive electronics noise.
 
 ## Stack Actuators
 
@@ -232,7 +232,7 @@ The coarse-fine architecture splits the positioning problem: the coarse iron-cor
 A voice coil actuator is a single-phase linear motor: a coil in a permanent magnetic field. Like a loudspeaker voice coil but designed for precision positioning rather than sound reproduction.
 
 **Strengths**:
-- Essentially zero hysteresis — extremely linear force-current response (F = B × L × I)
+- zero hysteresis — extremely linear force-current response (F = B × L × I)
 - Very fast bandwidth: 200-2000 Hz for disturbance rejection
 - Simple construction: no gears, no bearings, no commutation
 
@@ -245,7 +245,7 @@ A voice coil actuator is a single-phase linear motor: a coil in a permanent magn
 - **Stroke**: 1-50 mm. Limited by coil length and magnetic field uniformity.
 - **Bandwidth**: 200-2000 Hz. Very fast response for disturbance rejection.
 - **Force range**: 1-500 N continuous.
-- **Hysteresis**: Essentially zero — no magnetic hysteresis at typical operating fields.
+- **Hysteresis**: zero — no magnetic hysteresis at typical operating fields.
 - **Application**: Fine positioning stage overlay, focus adjustment in lithography lenses, AFM tip positioning.
 
 ## Magnetic Bearings
@@ -356,4 +356,4 @@ Mechanical resonances in the stage structure limit the achievable feedback bandw
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Precision Motion Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

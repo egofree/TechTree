@@ -340,4 +340,4 @@ Electronic thermostat complexity scales from discrete components to integrated m
 
 ---
 
-*Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*

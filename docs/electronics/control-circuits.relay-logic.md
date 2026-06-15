@@ -4,6 +4,7 @@
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.electrical-systems`](electrical-systems.md),
 > [`electronics.passive-components`](passive-components.md)
+> **Enables**: None
 > **Outputs**: relay-control-logic
 > **Timeline**: Years 15-30
 > **Critical**: No
@@ -216,6 +217,11 @@ Notes on the table: the AC-3 rating (motor starting, 6× inrush make, full-load 
 
 Control-circuit relays (the small relays that implement the AND/OR/seal-in logic, distinct from the power contactors that switch the motor) typically have contacts rated 6-10 A at 120-240 V AC — enough to switch a contactor coil directly and to carry the control-circuit current, but not to switch motor power.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Control Circuits](./control-circuits.md) — parent capability: the design-pedagogy hub for relay, ladder, and discrete logic.
@@ -227,4 +233,4 @@ Control-circuit relays (the small relays that implement the AND/OR/seal-in logic
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

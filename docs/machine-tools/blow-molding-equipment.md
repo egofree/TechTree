@@ -206,4 +206,4 @@ Material selection constrains the process: LDPE (low-density polyethylene) blow-
 - Multi-layer containers: For containers requiring improved barrier properties (oxygen barrier, UV protection, chemical resistance), co-extrusion blow molding produces a parison with 2-7 layers of different polymers. A typical 3-layer structure has: outer layer (HDPE for strength), barrier layer (EVOH or nylon for O₂ barrier, 5-10% of wall), inner layer (HDPE for food contact). The multi-layer die head feeds from 2-7 separate extruders — build single-layer blow molding first and add layers only when barrier properties justify the complexity.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

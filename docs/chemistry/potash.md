@@ -196,5 +196,12 @@ Different tree species produce ash with varying potassium content. Elm and beech
 
 Wood ash contains roughly 5-10% potassium carbonate by weight, 25-40% calcium compounds, 5-15% silica, and 10-30% unburned carbon, with the remainder being moisture and trace minerals. The leaching process exploits the solubility difference: K₂CO₃ dissolves readily while CaCO₃ and silica do not. Any sodium present in the ash (from coastal wood or contaminated soil) co-dissolves with the potassium and contaminates the product, which is why inland hardwood from sodium-poor soils produces the best potash.
 
+## See Also
+
+- [Chlor-Alkali Process](chlor-alkali.md) — potassium hydroxide production
+- [Glass Manufacturing](../glass/basic.md) — potash as a flux in glassmaking
+- [Chemistry Index](./index.md) — overview of all chemical processes
+
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

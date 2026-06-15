@@ -429,3 +429,6 @@ TechTree uses semantic IDs (e.g., `metals.iron-steel`). openLCA requires UUIDs. 
 - olca-schema Python package
 - TechTree context: `data/context.jsonld`
 - TechTree schemas: `data/schema/*.schema.json`
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Spec](.) · [All Domains](../index.md)*

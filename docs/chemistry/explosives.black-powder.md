@@ -3,6 +3,8 @@
 > **Node ID**: chemistry.explosives.black-powder
 > **Domain**: [Chemistry](./index.md)
 > **Parent**: [Explosives & Propellants](explosives.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 5-10
 > **Outputs**: black_powder
 > **Critical**: No
@@ -202,4 +204,4 @@ Drill hole (2.5-4 cm diameter, 0.5-2 m deep) with jumper drill. Clean hole with 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

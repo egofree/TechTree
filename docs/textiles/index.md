@@ -23,4 +23,10 @@ Capabilities in this domain:
 - [Carding Machine](carding-machine.md) — Mechanical carding engines for disentangling and aligning fibers for spinning preparation.
 
 - [Power Loom](power-loom.md) — Water and steam-powered looms for mechanized cloth weaving at industrial scale.
-[↑ Back to Tech Tree](../../index.md)
+
+- [Spinning Mule](spinning-frame.mule.md) — The spinning mule, invented by Samuel Crompton in 1779, was the second of the three great mechanized spinning systems and the one that produced the finest, most uniform yarn of any machine before or since.
+- [Ring Spinning Frame](spinning-frame.ring.md) — The ring spinning frame, invented by John Thorpe in the United States in 1828 and refined into practical form over the following two decades, is the simplest, fastest, and most widely deployed of the three mechanized…
+- [Water Frame](spinning-frame.water.md) — The water frame, patented by Richard Arkwright in 1769, was the first fully mechanized spinning system to produce yarn strong enough and consistent enough to serve as loom warp.
+
+[↑ Back to Tech Tree](../index.md)
+

@@ -4,10 +4,10 @@
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`metals.iron-steel`](./iron-steel.md),
 > [`metals.non-ferrous`](./non-ferrous.md), [`metals.steelmaking`](./steelmaking.md)
-> **Enables**: [`energy.steam-power.steam-turbines`](../energy/steam-power.steam-turbines.md),
+> **Enables**: [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md),
 > [`glass.glass-to-metal-seals`](../glass/glass-to-metal-seals.md),
 > [`machine-tools.joining`](../machine-tools/joining.md),
-> [`machine-tools.joining.brazing-soldering`](../machine-tools/joining.brazing-soldering.md),
+> [`machine-tools.joining.brazing-soldering`](../machine-tools/brazing-soldering.md),
 > [`metals.powder-metallurgy`](./powder-metallurgy.md)
 > **Timeline**: Years 20-50
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
@@ -322,4 +322,4 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 - [Steam Turbines](../energy/steam-turbines.md) — superalloy applications
 - [Metal Forming](forming.md) — shaping alloy stock
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

@@ -198,4 +198,4 @@ The dihydrate process for wet-process phosphoric acid operates at 70-80°C and p
 For a bootstrapping civilization, single superphosphate (SSP) is the most accessible phosphate fertilizer. The process is simple: grind phosphate rock and mix with sulfuric acid in a pan or den. The mixture cakes as the reaction proceeds over several days, and the resulting solid is crushed and screened to the desired particle size. No filtration, evaporation, or granulation equipment is needed. The product contains 16-22% P₂O₅ and some sulfur (from the sulfuric acid), which is itself a plant nutrient. SSP was the first commercial phosphate fertilizer, patented by Lawes in 1842, and remained the dominant phosphate fertilizer for over a century.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

@@ -157,6 +157,21 @@ The key control objective is maintaining a **central gas flow** — a slightly m
 
 **Campaign life**: Modern blast furnace campaigns (the period between major relinings) last 10-20 years. A campaign ends when the refractory lining in the hearth or bosh has worn to the point where it must be replaced to avoid a breakoff (catastrophic shell failure due to molten metal contact). Campaign life depends on cooling system effectiveness, lining quality (carbon blocks, ceramic cups), and operating practice (avoiding thermal cycling). A relining requires 3-6 months of downtime and costs $100-300 million for a large furnace. During the campaign, minor repairs (tuyere replacement, gunning of worn lining sections) are performed during brief maintenance stops.
 
+**Typical operating parameters** for a modern large blast furnace (inner volume 4000-5500 m³):
+
+| Parameter | Value Range | Unit |
+|---|---|---|
+| Hot metal production | 8,000-12,000 | t/day |
+| Coke rate (with PCI) | 250-300 | kg/t hot metal |
+| PCI rate | 150-250 | kg/t hot metal |
+| Blast temperature | 1,100-1,350 | °C |
+| Blast pressure | 0.25-0.45 | MPa (gauge) |
+| Top gas temperature | 150-250 | °C |
+| Top gas energy (BFG) | 2,800-3,500 | kJ/Nm³ |
+| Slag rate | 250-350 | kg/t hot metal |
+| Hot metal temperature | 1,450-1,550 | °C |
+| Campaign life | 10-20 | years |
+
 ## Sintering and Pelletizing
 
 Iron ore as mined is rarely suitable for direct charging to a blast furnace. The ore must be agglomerated into larger, stronger, and more uniform pieces that maintain permeability in the furnace shaft and have consistent composition. Two processes dominate: sintering and pelletizing.
@@ -244,5 +259,5 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 - [Ceramics / Kilns](../ceramics/kilns.md) — refractory materials for furnace lining
 - [Fuels](../energy/index.md) — energy sources for metallurgy
 
-[← Back to Metals](index.md)
-
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*

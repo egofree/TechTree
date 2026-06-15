@@ -150,8 +150,8 @@ Duck manure is similar in nutrient content to chicken manure: approximately 1.0-
 
 ## Cross-Domain Links
 
-- **[Chickens](poultry-chickens.md)** — complementary poultry management, shared infrastructure
-- **[Geese](poultry-geese.md)** — similar waterfowl management, pasture-based systems
+- **[Chickens](poultry.chickens.md)** — complementary poultry management, shared infrastructure
+- **[Geese](poultry.geese.md)** — similar waterfowl management, pasture-based systems
 - **[Domestication](domestication.md)** — domestication history and breed development
 - **[Farming](../agriculture/index.md)** — pest control, manure fertilizer, rice-duck systems
 - **[Food Preservation](../food-processing/index.md)** — duck egg preservation, duck fat rendering, cured meat
@@ -269,11 +269,11 @@ A sudden change of 20% or more in water consumption often indicates illness 24-4
 ## See Also
 
 - [Poultry Farming](poultry.md) — parent capability for all poultry species
-- [Poultry Chickens](poultry-chickens.md) — primary egg and meat bird
-- [Poultry Geese](poultry-geese.md) — down and guardian birds
+- [Poultry Chickens](poultry.chickens.md) — primary egg and meat bird
+- [Poultry Geese](poultry.geese.md) — down and guardian birds
 - [Aquaculture](aquaculture.md) — pond-based food production systems
 - [Soil Management](../agriculture/soil-management.md) — ducks for pest and slug control
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

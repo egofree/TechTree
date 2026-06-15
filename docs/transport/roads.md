@@ -4,6 +4,7 @@
 > **Domain**: [Transport](./index.md)
 > **Dependencies**: [`animals.draft-power`](../animals/draft-power.md),
 > [`foundations.tools-basic`](../foundations/tools-basic.md), `mining`
+> **Enables**: None
 > **Timeline**: Years 5-30
 > **Outputs**: roads, bridges
 > **Critical**: No
@@ -18,30 +19,13 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 
 ## Road Construction
 
-**Survey and alignment**:
-- **Route selection**: Follow natural terrain — avoid steep grades (>8% for animal-drawn, >5% for heavy carts). Minimize stream crossings. Prefer ridgelines and valley floors. Map route with compass and level (A-frame level or water level for grade control).
-- **Grading**: Cut high spots, fill low spots. Target cross-section: crowned surface (10-15 cm higher at center than edges) for drainage, 3-5 m wide for two-way cart traffic. Ditches on both sides, 30-50 cm deep. Compact roadbed by rolling (heavy stone or iron roller, 1-3 tonnes, drawn by animals or winch).
+**Survey and alignment**. Route selection follows natural terrain, avoiding steep grades (>8% for animal-drawn traffic, >5% for heavy carts) and minimizing stream crossings. Ridgelines and valley floors are preferred for their gentler grades. Map the route with compass and level — an A-frame level or water level suffices for grade control. Grading then cuts high spots and fills low spots to achieve the target cross-section: a crowned surface 10-15 cm higher at center than edges for drainage, 3-5 m wide for two-way cart traffic, with side ditches 30-50 cm deep on both sides. Compact the roadbed by rolling with a heavy stone or iron roller (1-3 tonnes, drawn by animals or winch).
 
-**Road surfaces**:
-- **Dirt road**: Compacted native soil. Adequate for dry climates. Becomes impassable mud in wet weather. Maintain by grading and drainage.
-- **Gravel road**: 15-30 cm crushed rock (5-10 cm stone) over compacted subgrade. Top layer: 5-10 cm finer gravel (1-3 cm). Cambered for drainage. Requires periodic re-grading. Serviceable in most weather. 10-20 km/h cart speed.
-- **Macadam road**: Three layers of progressively finer broken stone (base: 10 cm stone, middle: 5 cm, surface: 2-3 cm). Each layer compacted with heavy roller. Interlocking angular stones create stable surface. Water-bound macadam: water + stone dust fills voids → sets hard. Tar-bound macadam: hot coal tar penetrates surface → waterproof, more durable.
-- **Paving**: Stone blocks (granite, 15-20 cm cubes) or cast concrete slabs on prepared base. Durable, handles heavy loads. Labor-intensive. For high-traffic routes and urban areas.
+**Road surfaces**. Four surface types cover the range from crude to durable. A dirt road is compacted native soil — adequate for dry climates but impassable mud in wet weather, maintained by grading and drainage. A gravel road layers 15-30 cm of crushed rock (5-10 cm stone) over a compacted subgrade, topped with 5-10 cm of finer gravel (1-3 cm), cambered for drainage; it requires periodic re-grading but is serviceable in most weather at 10-20 km/h cart speed. The macadam road uses three layers of progressively finer broken stone (base: 10 cm stone, middle: 5 cm, surface: 2-3 cm), each compacted with a heavy roller so the interlocking angular stones form a stable surface. Water-bound macadam uses water plus stone dust to fill voids and set hard; tar-bound macadam penetrates the surface with hot coal tar for a waterproof, more durable finish. Paving — stone blocks (granite, 15-20 cm cubes) or cast concrete slabs on a prepared base — is the most durable option, handling heavy loads for high-traffic routes and urban areas, but is labor-intensive.
 
-**Bridge construction**:
-- **Timber beam bridge**: Simple span up to 10 m. Wooden beams (30-50 cm diameter logs or 20×30 cm sawn timbers) on stone abutments. Deck planking on top. Design load: 2-5 tonnes for cart traffic. Pressure-treat timber with creosote (Chemistry) or replace every 10-20 years.
-- **Stone arch bridge**: Spans 5-30+ m. Build timber centering (temporary falsework) in arch shape. Lay stone voussoirs (wedge-shaped stones) from both abutments toward center. Place keystone. Remove centering. Arch is self-supporting — load transfers horizontally to abutments. Extremely durable (centuries). Requires skilled masonry.
-- **Truss bridge** (the Machine Tools-Energy stage transition): Triangular framework of iron or steel members. Pratt or Howe truss design. Spans 20-100+ m. Calculate member sizes from expected loads (dead load + live load + wind load with safety factor of 2-4). Connections: riveted or pinned. Much faster to erect than stone arch.
+**Bridge construction**. Three bridge types span the practical range. The timber beam bridge is the simplest: a span up to 10 m, with wooden beams (30-50 cm diameter logs or 20×30 cm sawn timbers) on stone abutments and deck planking on top. Design load is 2-5 tonnes for cart traffic; pressure-treat the timber with creosote (requiring Chemistry) or replace every 10-20 years. The stone arch bridge spans 5-30+ m and lasts centuries. Construction requires building timber centering (temporary falsework) in the arch shape, then laying stone voussoirs (wedge-shaped stones) from both abutments toward the center, placing the keystone last. When the centering is removed, the arch is self-supporting — load transfers horizontally to the abutments. This design is extremely durable but requires skilled masonry. The truss bridge (appearing at the Machine Tools-Energy stage transition) uses a triangular framework of iron or steel members in Pratt or Howe configurations, spanning 20-100+ m. Member sizes are calculated from expected loads (dead load plus live load plus wind load, with a safety factor of 2-4), and connections are riveted or pinned. Truss bridges erect far faster than stone arch bridges.
 
-**Strengths**:
-- Macadam road (three layers of progressively finer stone) handles heavy cart traffic in all weather
-- Stone arch bridges last centuries with minimal maintenance — load transfers horizontally to abutments
-- Truss bridges span 20-100+ m with iron/steel — far beyond timber beam limits
-
-**Weaknesses**:
-- Dirt roads become impassable mud in wet weather — require gravel or macadam surfacing
-- Timber beam bridges limited to 10 m spans and need replacement every 10-20 years
-- Stone arch construction requires skilled masonry and timber centering (temporary falsework)
+**Trade-offs**. The road surface hierarchy trades cost for weather resistance. Macadam's three layers of progressively finer stone handle heavy cart traffic in all weather. Stone arch bridges last centuries with minimal maintenance because load transfers horizontally to the abutments. And truss bridges of iron or steel span 20-100+ m, far beyond timber beam limits. The penalties are environmental sensitivity and skill requirements. Dirt roads become impassable mud in wet weather, requiring gravel or macadam surfacing for any year-round route. Timber beam bridges are limited to 10 m spans and need replacement every 10-20 years. And stone arch construction demands skilled masonry plus timber centering — the falsework alone is a significant undertaking.
 
 ## Wheeled Vehicles
 
@@ -150,23 +134,13 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - Equivalent single axle load (ESAL): the standard unit of road damage. One ESAL = one 80 kN (8.2 tonne) single axle load. A passenger car (1 tonne per axle) causes roughly 0.0001 ESAL of damage per pass. A fully loaded truck (10 tonne per axle) causes roughly 3-5 ESAL per pass. Road damage scales with the fourth power of axle load: doubling the axle load causes 16× the damage.
 - Design life: roads are designed for a cumulative traffic loading over 15-30 years. A gravel road with 50-100 vehicles per day needs re-grading monthly and re-graveling annually. An asphalt road with 500-1000 vehicles per day should last 15-20 years before major resurfacing.
 
-**Failure modes**:
-- **Rutting**: Permanent deformation in wheel paths. Caused by repeated loading of the pavement and subgrade layers. Deep rutting (>20 mm) traps water and causes hydroplaning. Fix by milling the rutted area and repaving.
-- **Cracking**: Alligator cracking (interconnected cracks in a pattern resembling alligator skin) indicates fatigue failure of the pavement layers or insufficient structural capacity. Block cracking (large rectangular blocks) indicates age hardening of the asphalt binder. Transverse cracks across the full road width are thermal contraction cracks from temperature cycling.
-- **Pumping**: Fine material from the subgrade mixes with water and is ejected through cracks in the pavement under wheel loading. Indicates poor drainage and loss of subgrade support. Correct by improving drainage and sealing cracks.
-- **Ravelling**: Aggregate particles dislodge from the surface. Caused by aging and hardening of the bitumen binder losing its adhesive grip. Indicates the surface course has reached end of life.
+**Failure modes**. Road surfaces fail in four characteristic ways. Rutting is permanent deformation in the wheel paths, caused by repeated loading of the pavement and subgrade layers; deep rutting (>20 mm) traps water and causes hydroplaning, fixed by milling the rutted area and repaving. Cracking takes three forms: alligator cracking (interconnected cracks resembling alligator skin) indicates fatigue failure or insufficient structural capacity; block cracking (large rectangular blocks) signals age hardening of the asphalt binder; and transverse cracks across the full road width are thermal contraction cracks from temperature cycling. Pumping occurs when fine material from the subgrade mixes with water and is ejected through cracks under wheel loading — a sign of poor drainage and lost subgrade support, corrected by improving drainage and sealing cracks. Ravelling is the dislodging of aggregate particles from the surface, caused by aging and hardening of the bitumen binder losing its adhesive grip, indicating that the surface course has reached end of life.
 
 ## Road Signs and Markings
 
-**Sign types**:
-- **Regulatory signs**: Enforce traffic laws. Stop signs (octagonal, red), speed limits (circular with number), yield signs (inverted triangle). Made from painted timber or cast iron plates. Mount on timber posts at 2.0-2.5 m height at the road edge. Minimum letter height 100 mm for legibility at 50 m distance.
-- **Warning signs**: Diamond-shaped, yellow background, black symbols. Curve ahead, steep grade, narrow bridge, railway crossing, road work. Place 100-200 m before the hazard at 60 km/h design speed (gives 6-12 seconds of reaction time).
-- **Guide signs**: Direction and distance to destinations. Green or white background. Place at junctions and at intervals on long routes. Distance in kilometers, arrow showing turn direction.
+**Sign types**. Three sign categories enforce, warn, and guide. Regulatory signs enforce traffic laws: stop signs (octagonal, red), speed limits (circular with number), and yield signs (inverted triangle), made from painted timber or cast iron plates mounted on timber posts at 2.0-2.5 m height at the road edge, with minimum letter height of 100 mm for legibility at 50 m distance. Warning signs are diamond-shaped with yellow background and black symbols — curve ahead, steep grade, narrow bridge, railway crossing, road work — placed 100-200 m before the hazard at 60 km/h design speed to give 6-12 seconds of reaction time. Guide signs provide direction and distance to destinations on green or white background, placed at junctions and at intervals on long routes, with distance in kilometers and an arrow showing turn direction.
 
-**Road markings**:
-- Center line: painted white or yellow stripe along the road centerline. Separates opposing traffic. No-passing zones: solid line (no overtaking), dashed line (overtaking permitted with clear sight distance). Paint applied at 3-5 mm thickness, 100-150 mm stripe width. Repaint every 6-12 months (traffic wear removes paint).
-- Edge lines: solid white lines at road edges. Help drivers stay on the pavement at night and in poor visibility. Particularly important on roads without curbs.
-- Paint composition: alkyd or chlorinated rubber binder with titanium dioxide (white) or lead chromate (yellow) pigment. Apply at 0.3-0.5 kg/m². Glass beads (0.5-1.0 mm diameter) dropped onto wet paint provide retroreflectivity for night visibility (headlight beam reflects back toward the driver).
+**Road markings**. The center line is a painted white or yellow stripe along the road centerline separating opposing traffic. No-passing zones use a solid line (no overtaking); dashed lines permit overtaking with clear sight distance. Paint is applied at 3-5 mm thickness and 100-150 mm stripe width, repainted every 6-12 months as traffic wear removes it. Edge lines are solid white lines at road edges, helping drivers stay on the pavement at night and in poor visibility — particularly important on roads without curbs. Paint composition is an alkyd or chlorinated rubber binder with titanium dioxide (white) or lead chromate (yellow) pigment, applied at 0.3-0.5 kg/m². Glass beads (0.5-1.0 mm diameter) dropped onto the wet paint provide retroreflectivity for night visibility, reflecting the headlight beam back toward the driver.
 
 ## Traffic Engineering
 
@@ -248,4 +222,4 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../index.md)*

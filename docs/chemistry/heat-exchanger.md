@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.heat-exchanger
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`metals.forming`](../metals/forming.md), [`metals.welding`](../machine-tools/welding-equipment.md)
-> **Enables**: [`chemistry.distillation`](distillation.md), [`chemistry.chemical-recovery`](chemical-recovery.md), [`energy.geothermal`](../energy/geothermal.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 15-25
 > **Outputs**: heat_transfer
 > **Critical**: No — heat exchangers improve energy efficiency and process control but simpler alternatives (direct-fired heating, air cooling) can substitute at lower efficiency
@@ -245,4 +245,4 @@ The fundamental equation for heat exchanger design is Q = U × A × ΔT_lm, wher
 The design iteration: start with Q and estimated U → calculate required A → select tube count, length, shell diameter → calculate actual U and pressure drop → iterate until converged. Most designs converge in 3-5 iterations.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

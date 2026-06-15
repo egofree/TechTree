@@ -3,6 +3,7 @@
 > **Node ID**: ehs.ppe
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: `polymers`
+> **Enables**: None
 > **Timeline**: Years 30-70
 > **Outputs**: respiratory_protection, chemical_suits, glove_selection, eye_protection, ppe_programs
 > **Critical**: No — basic improvised protection enables hazardous work; formal PPE programs dramatically reduce injury rates but are not a prerequisite for civilization-level capabilities
@@ -394,4 +395,4 @@ PPE storage, fit-testing, and donning/doffing areas need adequate ventilation to
 Air changes per hour (ACH) is calculated as: ACH = (CFM × 60) / room volume in cubic feet. Example: a 10 × 12 × 8 foot room (960 ft³) needs 4 ACH × 960 / 60 = 64 CFM of supply air at minimum.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

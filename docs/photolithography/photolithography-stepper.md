@@ -214,5 +214,13 @@ For bootstrapping, start with proximity printing at 20 μm gap. This produces 3-
 - [Precision Motion](../precision-motion/index.md) — air bearings, laser interferometers, vibration isolation
 - [Cleanrooms](cleanrooms.md) — contamination control for lithography
 
+## See Also
+
+- [Precision Motion](../precision-motion/index.md) — wafer stage sub-nanometer positioning and vibration isolation
+- [Optics](../optics/index.md) — projection lens design and optical materials
+- [Measurement](../measurement/index.md) — overlay accuracy verification and CD metrology
+- [Advanced Glass](../glass/advanced.md) — fused silica for optics and mask substrates
+- [Advanced Lithography](../vlsi-scaling/advanced-lithography.md) — DUV/EUV extensions to smaller nodes
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*

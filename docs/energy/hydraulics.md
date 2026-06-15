@@ -238,4 +238,4 @@ Proper handling of hydraulic fluid, seals, and replacement components preserves 
 - Record fluid analysis results trend to predict pump and valve replacement intervals
 - Install magnetic plugs in reservoir drain ports to catch ferrous wear particles before they circulate
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

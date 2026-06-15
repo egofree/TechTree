@@ -232,5 +232,5 @@ Teak propagation from seed is notoriously difficult due to the hard, thick endoc
 - Heartwood proportion: 40-60% at 20 years; 60-80% at 40+ years.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
 

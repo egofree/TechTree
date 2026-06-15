@@ -3,8 +3,9 @@
 > **Node ID**: energy.gas-turbine
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.engine`](./engine.md),
-> [`energy.steam-power.steam-turbines`](./steam-power.steam-turbines.md),
+> [`energy.steam-power.steam-turbines`](./steam-turbines.md),
 > [`metals.refractory-specialty`](../metals/refractory-specialty.md)
+> **Enables**: None
 > **Timeline**: Years 35-50+
 > **Outputs**: gas_turbine_power, jet_propulsion, combined_cycle_generation
 > **Critical**: No — gas turbines enable the highest-efficiency power generation and jet aviation but are not on the critical path to semiconductor manufacturing
@@ -236,4 +237,4 @@ Not achievable until well into the industrial era, after precision machine tools
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

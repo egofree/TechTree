@@ -371,4 +371,4 @@ Key rule: Use compressed gas for small, intermittent demand. Switch to cryogenic
 - **[Vacuum Technology](../gas-handling/vacuum.md)**: Vacuum pumps and measurement for insulation systems
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*

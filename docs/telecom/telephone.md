@@ -4,13 +4,14 @@
 > **Domain**: [Telecommunications](./index.md)
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), `metals`,
 > [`telecom.electric-telegraph`](./electric-telegraph.md)
+> **Enables**: None
 > **Timeline**: Years 25-50
 > **Outputs**: telephone_service, telephone_exchanges, voice_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
 The telephone transforms voice into electrical signals that travel over wire, enabling real-time two-way conversation at any distance. Unlike the telegraph (which transmits coded text requiring trained operators), the telephone allows anyone to communicate directly by speaking. This fundamental shift — from operator-mediated text to direct voice — transformed business, social life, and emergency response.
 
-The telephone system builds on telegraph infrastructure (pole lines, wires, batteries) but requires fundamentally different terminal equipment (microphones, speakers, ringers) and switching systems (exchanges that connect any pair of subscribers on demand).
+The telephone system builds on telegraph infrastructure (pole lines, wires, batteries) but requires different terminal equipment (microphones, speakers, ringers) and switching systems (exchanges that connect any pair of subscribers on demand).
 
 ## Prerequisites
 
@@ -226,4 +227,4 @@ The telephone's growth rate exceeded the telegraph by 10x. In the US, telegraph 
 - [Electromechanical Computing](../computing/electromechanical.md) — relay-based switching technology used in exchanges
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*

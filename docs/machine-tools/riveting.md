@@ -3,6 +3,7 @@
 > **Node ID**: machine-tools.joining.riveting
 > **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Dependencies**: [`machine-tools.machining`](machining.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None
 > **Timeline**: Years 10-30
 > **Outputs**: riveted_joints
 > **Critical**: No — mechanical joining with permanent fasteners
@@ -199,5 +200,5 @@ Riveting scales from individual workshop practice to industrial production:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
 

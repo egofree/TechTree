@@ -5,7 +5,7 @@
 > **Dependencies**: [`chemistry.air-separation`](./air-separation.md),
 > [`chemistry.electrolysis`](./electrolysis.md), `energy`, `metals`
 > **Enables**: [`chemistry.acids`](./acids.md),
-> [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md),
+> [`chemistry.explosives.high-explosives`](./high-explosives.md),
 > [`chemistry.solvay`](./solvay.md)
 > **Timeline**: Years 20-50
 > **Outputs**: ammonia, ammonium_nitrate, urea, nitric_acid
@@ -24,7 +24,7 @@ The overall reaction is deceptively simple:
 The triple bond in N₂ (945 kJ/mol) is one of the strongest in chemistry. Breaking it requires an iron-based catalyst, elevated temperature (for kinetics), and extreme pressure (to shift equilibrium toward the product side, since 4 moles of gas become 2 moles).
 
 **Operating conditions**:
-- **Temperature**: 400-500°C. Lower temperature favors equilibrium conversion (exothermic reaction) but slows kinetics. The catalyst is essentially inactive below ~350°C.
+- **Temperature**: 400-500°C. Lower temperature favors equilibrium conversion (exothermic reaction) but slows kinetics. The catalyst is inactive below ~350°C.
 - **Pressure**: 15-30 MPa (150-300 bar). Higher pressure dramatically favors NH₃ formation (Le Chatelier). Early plants operated at 20 MPa; modern plants use 15-20 MPa with improved catalysts.
 - **Catalyst**: Promoted magnetite (Fe₃O₄, reduced in-situ to porous metallic iron). Promoters: K₂O (1-2%, increases activity), Al₂O₃ (2-4%, structural stabilizer — prevents iron sintering), CaO (1-2%, additional structural promoter). Catalyst particle size: 1.5-3 mm (larger for radial-flow converters to reduce pressure drop), loaded as irregular granules.
 - **Conversion per pass**: Only 10-15% of the N₂+H₂ feed converts to NH₃ per pass through the converter. The unreacted gas is recycled — this is critical to process economics.
@@ -313,4 +313,4 @@ The path to industrial ammonia production follows a specific build order constra
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

@@ -2,6 +2,8 @@
 
 > **Node ID**: machine-tools.gears
 > **Domain**: [Machine Tools](./index.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Critical**: Yes — gears are essential for every machine tool drive, transmission, and mechanism
 > **Timeline**: Years 3-15
 > **Outputs**: gears, gear_assemblies
@@ -183,7 +185,7 @@ The material choices for gears follow the load requirements. Light-duty gears (h
 **Principle**: A worm gear set consists of a worm (a screw-like cylinder with one or more threads) meshing with a worm wheel (a gear with teeth cut to match the worm's thread profile). The worm drives the worm wheel, providing high reduction ratios in a single stage (10:1 to 60:1 typical). The worm wheel teeth are throated — concave to partially wrap around the worm. This increases the contact area and load capacity.
 
 **Prerequisites**:
-- [Lathe](./iterative-bootstrap.md) for turning the worm (essentially a threaded shaft) and the worm wheel blank
+- [Lathe](./iterative-bootstrap.md) for turning the worm (a threaded shaft) and the worm wheel blank
 - [Milling machine](./machining.md) with dividing head for gashing the worm wheel teeth
 - HSS fly cutter or form tool matching the worm thread profile
 
@@ -378,4 +380,4 @@ The material choices for gears follow the load requirements. Light-duty gears (h
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

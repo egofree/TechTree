@@ -3,6 +3,7 @@
 > **Node ID**: agriculture.aquaponics
 > **Domain**: [Agriculture](./index.md)
 > **Dependencies**: [`animals.aquaculture`](../animals/aquaculture.md)
+> **Enables**: None
 > **Timeline**: Years 3-10+
 > **Outputs**: fish, vegetables, herbs, filtered_water
 > **Critical**: No — aquaponics provides high-density integrated food production but is not the only path to reliable agriculture; conventional soil-based farming and separate aquaculture are viable alternatives
@@ -219,7 +220,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 
 **pH**: Target: 6.5-7.0. This is a compromise between fish comfort (prefer 7.0-8.0), plant nutrient availability (prefer 5.5-6.5), and bacterial activity (prefer 7.0-8.0).
 
-**Natural buffering**: Calcium carbonate sources (crushed shells, limestone chips) dissolve slowly when pH drops below 7.0, releasing carbonate ions that neutralize acid. When pH rises above 7.5, the carbonate source stops dissolving. This passive self-regulation maintains pH without chemical addition. This is fundamentally different from hydroponic systems, which require regular addition of phosphoric acid or potassium hydroxide (see [SEM Tech Hydroponics](./sem-tech-hydroponics.md)).
+**Natural buffering**: Calcium carbonate sources (crushed shells, limestone chips) dissolve slowly when pH drops below 7.0, releasing carbonate ions that neutralize acid. When pH rises above 7.5, the carbonate source stops dissolving. This passive self-regulation maintains pH without chemical addition. This is different from hydroponic systems, which require regular addition of phosphoric acid or potassium hydroxide (see [SEM Tech Hydroponics](./sem-tech-hydroponics.md)).
 
 **pH drift downward** (most common): Fish and bacterial respiration produces CO₂, which forms carbonic acid. If pH drops below 6.0, add crushed shells or limestone.
 
@@ -394,4 +395,4 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

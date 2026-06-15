@@ -228,8 +228,11 @@ Nitrocellulose and smokeless powder production involves multiple serious hazards
 ## See Also
 
 - **[Explosives & Propellants](explosives.md)**: Parent overview
-- **[Black Powder](black-powder.md)**: Predecessor propellant
+- **[Black Powder](explosives.black-powder.md)**: Predecessor propellant
 - **[Nitroglycerin & Dynamite](nitroglycerin-dynamite.md)**: NG production for double-base powders
 - **[High Explosives](high-explosives.md)**: TNT, RDX, ANFO
 - **[Detonation & Blasting](detonation-blasting.md)**: Initiating systems
 - **[Acids](acids.md)**: Nitric and sulfuric acid for nitration
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

@@ -415,4 +415,4 @@ The Norfolk rotation keeps all land in production every year. Root crops (turnip
 - [Food Processing](../food-processing/index.md) — milling, brewing, and preservation
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Foundations](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

@@ -278,7 +278,7 @@ Appendicitis presents with periumbilical pain migrating to the right lower quadr
 7. **Close**: Irrigate the peritoneal cavity with 200-500 mL saline. Close the peritoneum with running 2-0 catgut. Close the internal oblique and transversus muscles with interrupted 2-0 catgut. Close the external oblique aponeurosis with running 2-0 catgut. Close skin with interrupted 3-0 silk or nylon. For perforated appendicitis, leave the skin open (delayed primary closure at day 4-5) to prevent wound infection.
 8. **Post-operative**: NPO (nothing by mouth) until bowel sounds return (12-24 hours). Then clear liquids, advancing to regular diet as tolerated. Remove skin sutures at 7-10 days. Ambulate on day 1 to prevent deep vein thrombosis.
 
-**Expected outcome**: Unperforated appendicitis treated by appendectomy has <2% mortality and <5% wound infection rate. Perforated appendicitis carries 5-15% mortality and 20-40% wound infection rate without antibiotics. Without surgery, ruptured appendicitis leads to peritonitis and death in most cases.
+**Expected outcome**: Unperforated appendicitis treated by appendectomy has <2% mortality and <5% wound infection rate. Perforated appendicitis carries 5-15% mortality and 20-40% wound infection rate without antibiotics. Without surgery, ruptured appendicitis leads to peritonitis and death.
 
 ### Hemorrhoid Ligation and Excision
 
@@ -316,5 +316,5 @@ External hemorrhoids that thrombose (form a painful clot) and internal hemorrhoi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*
 

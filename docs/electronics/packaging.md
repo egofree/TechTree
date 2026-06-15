@@ -2,6 +2,7 @@
 
 > **Node ID**: electronics.packaging
 > **Domain**: [Electronics](./index.md)
+> **Dependencies**: None
 > **Enables**: [`electronics.assembly`](./assembly.md)
 > **Timeline**: Years 30-50
 > **Outputs**: packaged_ics, wire_bonds, leadframes, bga_substrates
@@ -197,4 +198,4 @@ Mold compound selection is driven by three competing requirements: low viscosity
 - Handle dicing tape and UV-release frames carefully: wrinkles in the tape cause die to fly off during dicing, destroying die and damaging the blade.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Electronics](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Electronics](./index.md) · [All Domains](../index.md)*

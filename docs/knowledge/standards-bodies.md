@@ -343,7 +343,7 @@ When a safety incident or widespread practical failure reveals an urgent deficie
 A standard may be withdrawn when:
 - It has been superseded by a newer standard that fully covers the same scope.
 - The technology it covers is no longer used (e.g., a standard for wooden water pipes after the community transitions to iron).
-- It has been found fundamentally flawed and a replacement is in development.
+- It has been found flawed and a replacement is in development.
 
 Withdrawal procedure: The plenary votes to withdraw. The secretary publishes a withdrawal notice stating the reason, the effective date (typically 6 months in the future to allow users to transition), and any replacement standard. After the effective date, the withdrawn standard is removed from the active registry and copies in libraries are marked "WITHDRAWN — not to be used for new work."
 
@@ -506,4 +506,4 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

@@ -2,6 +2,7 @@
 
 > **Node ID**: computing.embedded-systems
 > **Domain**: [Computing](./index.md)
+> **Dependencies**: None
 > **Enables**: `automation`
 > **Timeline**: Years 55-75+
 > **Outputs**: microcontroller_systems, firmware, real_time_control, sensor_interfaces
@@ -346,4 +347,4 @@ The PLC is a packaged, rack-mounted industrial controller — CPU, power supply,
 - [`automation.process-control`](../automation/process-control.md) — The industrial process control systems that embedded systems enable.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

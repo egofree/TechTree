@@ -4,6 +4,7 @@
 > **Domain**: [Food Processing](./index.md)
 > **Dependencies**: `ceramics`, [`foundations.food-agriculture`](../foundations/food-agriculture.md),
 > [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None
 > **Timeline**: Years 0-20
 > **Outputs**: vegetable_oil, tallow, lard, olive_oil, linseed_oil, soap_stock, oilseed_meal, rendered_fat
 > **Critical**: No — oil processing enhances food quality and enables soap, but basic nutrition and hygiene have alternatives
@@ -246,4 +247,4 @@ Rendering melts fat from animal tissues by heating. Two methods:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

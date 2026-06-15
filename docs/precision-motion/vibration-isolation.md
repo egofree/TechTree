@@ -2,6 +2,7 @@
 
 > **Node ID**: precision-motion.vibration-isolation
 > **Domain**: [Precision Motion Control](./index.md)
+> **Enables**: None
 > **Timeline**: Years 35-60
 > **Outputs**: vibration_isolation_systems, isolation_platforms, vibration_specs
 > **Critical**: Yes — nanometer positioning requires VC-D or better floor vibration; without isolation, stage positioning accuracy is limited by floor vibration, not by the stage itself
@@ -293,4 +294,4 @@ For SEM/TEM requiring <1 nm vibration:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Precision Motion Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

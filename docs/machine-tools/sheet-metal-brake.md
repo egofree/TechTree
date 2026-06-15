@@ -206,4 +206,4 @@ Note: Steps 3 and 4 require removing the clamping bar at the ends to avoid inter
 - [Welding Equipment](welding-equipment.md) — welding the frame assembly
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

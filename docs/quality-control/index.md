@@ -8,4 +8,7 @@ Capabilities in this domain:
 
 - [Defect Analysis & Yield Modeling](defect-analysis.md) — Pareto analysis, fishbone (Ishikawa) diagrams, FMEA (Failure Mode and Effects Analysis), root cause analysis, Murphy's and Seeds yield models, and defect density tracking for semiconductor fabrication.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Statistical Process Control](spc.md) — Statistical Process Control (SPC) is the discipline of using measurement data to detect when a manufacturing process has drifted out of its controlled state, before it produces defective output.
+
+[↑ Back to Tech Tree](../index.md)
+

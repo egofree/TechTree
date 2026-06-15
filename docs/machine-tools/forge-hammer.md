@@ -226,4 +226,4 @@ Formula: E = m × g × h, where g = 9.81 m/s². Impact velocity v = √(2gh).
 - [Hydraulic Press](hydraulic-press.md) — alternative metal shaping by pressing instead of hammering
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

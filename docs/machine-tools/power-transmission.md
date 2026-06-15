@@ -2,6 +2,7 @@
 
 > **Node ID**: machine-tools.power-transmission
 > **Domain**: [Machine Tools Bootstrap](./index.md)
+> **Dependencies**: None
 > **Timeline**: Years 10-20
 > **Outputs**: transmitted_mechanical_power
 > **Enables**: `machine-tools`
@@ -280,4 +281,4 @@ For bootstrapping, flat belts on flat pulleys are the practical first choice. Th
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

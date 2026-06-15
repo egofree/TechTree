@@ -233,4 +233,4 @@ Well completion follows drilling and involves running production casing, perfora
 - Label mud chemical additions in the mud house; mixing up caustic soda and bentonite creates a dangerous exothermic reaction in the mud pits
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Petroleum](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Petroleum](./index.md) · [All Domains](../index.md)*

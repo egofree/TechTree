@@ -79,7 +79,7 @@ Neoprene latex is particularly useful for dip-molded products because it gelates
 
 ### Silicone Elastomers
 
-Silicone rubber production follows a fundamentally different chemistry from NBR or neoprene. Instead of polymerizing a monomer with a carbon-carbon double bond, silicone starts from chlorosilanes that are hydrolyzed to form siloxane rings, which are then opened and polymerized into long chains. The resulting polymer has a silicon-oxygen backbone (Si-O-Si) with organic side groups, giving it thermal properties that no carbon-backbone rubber can match.
+Silicone rubber production follows a different chemistry from NBR or neoprene. Instead of polymerizing a monomer with a carbon-carbon double bond, silicone starts from chlorosilanes that are hydrolyzed to form siloxane rings, which are then opened and polymerized into long chains. The resulting polymer has a silicon-oxygen backbone (Si-O-Si) with organic side groups, giving it thermal properties that no carbon-backbone rubber can match.
 
 1. **Chlorosilane hydrolysis**: Dimethyldichlorosilane is hydrolyzed with water, producing a mixture of linear and cyclic siloxanes plus hydrochloric acid. The cyclic octamer (D4) and tetramer (D4) are the primary products
 2. **Ring-opening polymerization**: The cyclic siloxanes are polymerized using an acid or base catalyst. Potassium hydroxide or sulfuric acid opens the rings and links them into long polydimethylsiloxane (PDMS) chains. Molecular weight is controlled by the amount of chain terminator (hexamethyldisiloxane)
@@ -247,4 +247,4 @@ Environmental regulations affect scaling in several ways. Emulsion polymerizatio
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Polymers](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Polymers](./index.md) · [All Domains](../index.md)*

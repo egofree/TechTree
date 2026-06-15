@@ -243,7 +243,7 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 
 **Temperate improved pasture**: Most productive systems on improved pasture — 10-15 ewes per hectare with rotational grazing produce 150-250 kg lamb carcass per hectare annually. New Zealand all-grass system produces lamb at $2.50-3.50/kg carcass with no grain feeding.
 
-**Goat alternative**: Goats browse rather than graze, preferring woody vegetation. Mixed sheep-goat grazing utilizes both pasture types. See [`animals.goats`](goats.md).
+**Goat alternative**: Goats browse rather than graze, preferring woody vegetation. Mixed sheep-goat grazing uses both pasture types. See [`animals.goats`](goats.md).
 
 ## Cross-Domain Links
 
@@ -265,4 +265,4 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

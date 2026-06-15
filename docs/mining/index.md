@@ -15,4 +15,8 @@ Capabilities in this domain:
 
 - [Tailings Reprocessing](tailings-reprocessing.md) — Recovering residual metals and useful materials from mine waste using modern extraction techniques, improving resource efficiency and reducing environmental footprint.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Salt / Halite Production](salt.md) — Extraction of halite (rock salt) and brine from underground deposits, salt pans, and seawater evaporation. Salt is essential for food preservation, chlor-alkali electrolysis (chlorine and caustic soda), and as a…
+- [Sulfur Extraction](sulfur-extraction.md) — Extraction of elemental sulfur from volcanic deposits (native sulfur collection), pyrite roasting, Frasch process (superheated water injection into underground deposits), and Claus process (recovery from sour gas).
+
+[↑ Back to Tech Tree](../index.md)
+

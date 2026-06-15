@@ -232,4 +232,4 @@ Elm is one of the easiest timber trees to propagate from seed, provided fresh se
 - Remove and destroy infected trees promptly to slow disease spread.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

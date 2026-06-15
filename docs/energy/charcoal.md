@@ -3,7 +3,7 @@
 > **Node ID**: energy.fuels.charcoal
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.fuels`](fuels.md), `foundations`
-> **Enables**: [`ceramics.pottery.kiln-firing`](../ceramics/kiln-firing.md), [`chemistry.explosives`](../chemistry/explosives.md)
+> **Enables**: [`ceramics.pottery.kiln-firing`](../ceramics/pottery.kiln-firing.md), [`chemistry.explosives`](../chemistry/explosives.md)
 > **Timeline**: Years 0-10
 > **Outputs**: charcoal, char_cloth, wood_tar, wood_vinegar
 > **Critical**: Yes — charcoal is the primary fuel for all early iron smelting; no charcoal means no iron before coke
@@ -243,5 +243,5 @@ During petroleum shortages, charcoal gasification provides a practical alternati
 - [Explosives](../chemistry/explosives.md) — charcoal as black powder component
 - [Wood Gasification](../chemistry/wood-gasification.md) — producer gas from wood
 
-[← Back to Energy](index.md)
-
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

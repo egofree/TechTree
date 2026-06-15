@@ -3,8 +3,8 @@
 > **Node ID**: petroleum.extraction
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
 > **Dependencies**: `petroleum`
-> **Enables**: [`petroleum.extraction.cable-tool`](./extraction.cable-tool.md),
-> [`petroleum.extraction.rotary`](./extraction.rotary.md),
+> **Enables**: [`petroleum.extraction.cable-tool`](./cable-tool.md),
+> [`petroleum.extraction.rotary`](./rotary.md),
 > [`petroleum.refining`](./refining.md)
 > **Timeline**: Years 10-35
 > **Outputs**: crude_oil, natural_gas_liquids, associated_gas
@@ -142,6 +142,15 @@ When reservoir pressure is insufficient for natural flow, artificial lift method
 
 Primary recovery (natural and artificial lift) typically recovers only 15-30% of the original oil in place (OOIP). EOR methods target the remaining 70-85%.
 
+| Recovery Method | Typical Recovery (% OOIP) | Incremental Over Primary | Key Cost Driver |
+|---|---|---|---|
+| Primary (natural flow + artificial lift) | 15-30% | — | Pump/maintenance energy |
+| Waterflooding (secondary) | 25-45% | +10-20% | Water handling, injection pumps |
+| Polymer flooding | 35-55% | +5-15% | Polymer cost ($2-5/kg HPAM) |
+| Steam flooding / SAGD | 40-60% | +15-30% | Steam generation (natural gas) |
+| CO2 miscible flooding | 35-55% | +8-16% | CO2 source and compression |
+| In-situ combustion | 30-50% | +10-25% | Air compression (20-40 MW) |
+
 ## Waterflooding (Secondary Recovery)
 
 Inject water into injection wells to maintain reservoir pressure and physically sweep oil toward production wells. The most widely applied EOR method — used in virtually all major fields after primary depletion.
@@ -189,4 +198,4 @@ Inject water into injection wells to maintain reservoir pressure and physically 
 - [Distillation](../chemistry/distillation.md) — separation processes
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*

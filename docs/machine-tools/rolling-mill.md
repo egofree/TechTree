@@ -206,4 +206,4 @@ Roll gap setting accuracy determines the dimensional tolerance of the rolled pro
 - Roll speed for hand operation: A crank speed of 30-60 RPM produces a roll surface speed of 150-300 mm/s for 100 mm rolls. This is a comfortable cranking speed for sustained operation. Faster cranking (60-100 RPM) increases throughput but causes operator fatigue within 10-15 minutes. For production rolling of long lengths, two operators can alternate in 15-minute shifts.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

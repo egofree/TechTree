@@ -219,6 +219,14 @@ Minimum economic scale: a 5 kW single-cylinder engine (200 mm bore × 300 mm str
 - [Machining](../machine-tools/machining.md) — precision boring of cylinders
 - [Lubricants](../chemistry/lubricants.md) — cylinder oil and bearing lubrication
 
+## See Also
+
+- [Steam Power](steam-power.md) — parent capability: boiler, condenser, and steam plant integration
+- [Electricity Generation](electricity.md) — primary downstream consumer via generator drive
+- [Iron & Steel](../metals/iron-steel.md) — structural material dependency for cylinder and running gear
+- [Machining](../machine-tools/machining.md) — precision cylinder boring prerequisite
+- [Railways](../transport/railways.md) — major downstream application (steam locomotives)
+
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

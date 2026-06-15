@@ -3,6 +3,7 @@
 > **Node ID**: ehs.ventilation-exhaust
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: [`ehs.chemical-safety`](./chemical-safety.md)
+> **Enables**: None
 > **Critical**: No — ventilation protects worker health but basic natural ventilation suffices at earlier bootstrap stages
 > **Timeline**: Years 30-70
 > **Outputs**: lev_systems, gas_cabinets, abatement_systems, scrubbers, exhaust_monitoring
@@ -307,4 +308,4 @@ Ventilation system maintenance and inspection expose workers to hazards from the
 - [Occupational Health](../health/occupational-health.md) — General LEV design and exposure monitoring
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

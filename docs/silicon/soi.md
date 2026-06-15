@@ -198,5 +198,5 @@ Smart Cut wafers require careful handling between the hydrogen implant and the s
 The CMP step after splitting removes the rough surface left by the fracture. The as-split surface has a peak-to-valley roughness of 5-15 nm with a characteristic pattern from the hydrogen platelets. CMP removes 50-500 nm of silicon to achieve a final surface roughness below 0.5 nm RMS, suitable for gate oxide growth. The CMP removal must be uniform across the wafer because any remaining thickness variation directly affects transistor characteristics in FD-SOI devices. Production CMP tools use in-situ endpoint detection (motor current or optical) to stop at the target thickness.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Silicon](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Silicon](./index.md) · [All Domains](../index.md)*
 

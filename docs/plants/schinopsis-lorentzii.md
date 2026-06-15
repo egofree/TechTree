@@ -16,7 +16,7 @@ Quebracho tannins are condensed tannins (profisetinidins) that produce leather w
 
 The tree grows in the Gran Chaco region of Argentina, Paraguay, and Bolivia, a hot, semi-arid plain with 500-1,000 mm annual rainfall. Trees reach 15-25 meters tall with trunks 0.5-1.0 meters in diameter. Growth is extremely slow: trees reach harvestable size in 80-120 years. The heartwood, which contains the tannin, does not form in significant quantities until the tree is 40-60 years old.
 
-Because of the slow growth, quebracho is essentially a wild-harvested resource rather than a plantation crop. The Gran Chaco forests have been heavily exploited, and sustainable management practices are necessary to prevent depletion. Where available, quebracho tannin is the most efficient vegetable tannin for heavy leather production.
+Because of the slow growth, quebracho is a wild-harvested resource rather than a plantation crop. The Gran Chaco forests have been heavily exploited, and sustainable management practices are necessary to prevent depletion. Where available, quebracho tannin is the most efficient vegetable tannin for heavy leather production.
 
 Primary outputs: `tannin_wood` for leather tanning, `extremely_hard_timber` for specialized applications.
 
@@ -213,4 +213,4 @@ Quebracho propagation is challenging due to extremely slow growth and specific g
 Because of the extreme growth period, plantation quebracho is impractical for bootstrap purposes. Natural forest management with selective felling and protection of regeneration is the only viable approach.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

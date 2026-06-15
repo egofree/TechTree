@@ -3,6 +3,7 @@
 > **Node ID**: `ceramics.ceramic-recycling`
 > **Domain**: [Ceramics & Refractories](./index.md)
 > **Dependencies**: [`ceramics.pottery`](pottery.md), [`ceramics.advanced-ceramics`](advanced-ceramics.md), [`ceramics.kilns`](kilns.md), [`mining`](../mining/index.md)
+> **Enables**: None
 > **Timeline**: Years 10-50+
 > **Outputs**: recycled_ceramic_aggregate, grog, refractory_reclaim, ceramic_fillers
 > **Critical**: No — reduces raw material consumption but does not unlock new capabilities
@@ -216,7 +217,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 - [Pottery & Clay Products](pottery.md) — clay body formulation and firing processes that use grog
 - [Advanced Ceramics](advanced-ceramics.md) — technical ceramic properties and reprocessing
 - [Kiln Construction](kilns.md) — kiln lining materials (refractories) that generate recyclable waste
-- [Kiln Firing](kiln-firing.md) — firing processes that generate wasters and kiln furniture waste
+- [Kiln Firing](pottery.kiln-firing.md) — firing processes that generate wasters and kiln furniture waste
 - [Refractory Materials](../chemistry/refractories.md) — refractory production from primary raw materials
 - [Mining](../mining/index.md) — source of clay and minerals (what recycling replaces)
 - [Metal Recycling](../metals/metal-recycling.md) — parallel recovery domain for metals
@@ -225,4 +226,4 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

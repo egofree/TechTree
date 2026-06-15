@@ -146,4 +146,4 @@ Sorted alphabetically by article filename.
 | Wild Tomato | Solanum lycopersicum var. cerasiforme | edible | edible | [Wild Tomato](wild-tomato.md) |
 | Winter Squash | Cucurbita maxima | edible | edible, medicinal | [Winter Squash](winter-squash.md) |
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

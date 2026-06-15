@@ -223,4 +223,4 @@ A long cylindrical polyethylene or PVC bag (3-5 m long, 1-2 m diameter) with inl
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

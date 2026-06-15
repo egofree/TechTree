@@ -368,4 +368,4 @@ Refrigerated storage at 2-10°C. Allow 4-8 hours to equilibrate to room temperat
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

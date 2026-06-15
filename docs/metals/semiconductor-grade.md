@@ -247,4 +247,4 @@ All handling of ultra-high-purity aluminum must avoid contamination at the ppm a
 - [Aluminum Production](aluminum.md) — downstream capability
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*

@@ -4,6 +4,7 @@
 > **Domain**: [Quality Control](./index.md)
 > **Dependencies**: [`measurement.precision-metrology`](../measurement/precision-metrology.md),
 > `quality-control`
+> **Enables**: None
 > **Timeline**: Years 40-100+
 > **Outputs**: sampling_plans, aql_tables, inspection_procedures, acceptance_criteria, switching_rules
 > **Critical**: No — 100% inspection is a viable (expensive) fallback; sampling plans reduce cost and time but are not strictly necessary
@@ -327,5 +328,5 @@ The foundational standard for integrated circuit testing, defining test methods,
 - [Optics](../optics/index.md) — optical inspection and microscopy
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*
 

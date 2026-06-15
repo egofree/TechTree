@@ -52,7 +52,7 @@ The core challenge in lithium extraction from natural brines is separating Li⁺
 
 Conventional processing uses sequential precipitation — raising pH to precipitate Mg and Ca as hydroxides, then concentrating the remaining Li. This is chemical-intensive and produces large volumes of waste. The Mg/Li ratio is a key metric: ratios above 6:1 make conventional processing very difficult, and several major brine deposits have ratios exceeding 10:1.
 
-A lithium-selective SEM Tech membrane could perform this separation electrochemically via electrodialysis, using stacked membrane pairs where only Li⁺ passes through the selective membrane. The result is a lithium-enriched concentrate stream and a lithium-depleted waste stream, with no chemical addition required. The selectivity challenge is fundamentally about pore size and functional group tuning — the same approach SEM Tech uses for specialized ion resins targeting rare earths and platinum group metals (patent line 105).
+A lithium-selective SEM Tech membrane could perform this separation electrochemically via electrodialysis, using stacked membrane pairs where only Li⁺ passes through the selective membrane. The result is a lithium-enriched concentrate stream and a lithium-depleted waste stream, with no chemical addition required. The selectivity challenge is about pore size and functional group tuning — the same approach SEM Tech uses for specialized ion resins targeting rare earths and platinum group metals (patent line 105).
 
 ## Process Design
 
@@ -308,7 +308,7 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 
 **Competing ED technologies**: Several companies (Lilac Solutions, EnergyX, Summit Nanotech) are developing lithium-selective membranes and ED processes at TRL 6-8 with significant venture capital investment ($50-200M cumulative). SEM Tech offers a cost advantage but would enter a competitive market with established players.
 
-**Competition with established methods**: Solar evaporation is extremely slow but essentially free in suitable climates. SEM Tech ED would need to demonstrate both performance and cost advantages over evaporation to displace existing operations.
+**Competition with established methods**: Solar evaporation is extremely slow but free in suitable climates. SEM Tech ED would need to demonstrate both performance and cost advantages over evaporation to displace existing operations.
 
 ## Troubleshooting
 
@@ -333,5 +333,5 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 

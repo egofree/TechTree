@@ -2,6 +2,7 @@
 
 > **Node ID**: `chemistry.adhesives-coatings`
 > **Domain**: [Chemistry](./index.md)
+> **Dependencies**: None
 > **Enables**: `construction`
 > **Timeline**: Stone-Age through Semiconductor
 > **Outputs**: adhesives, coatings, anodized_aluminum, galvanized_steel
@@ -140,7 +141,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 ## Cyanoacrylate Adhesive
 
-**Chemistry**: Alkyl cyanoacrylate monomers (methyl, ethyl, butyl, or octyl esters) polymerize by anionic initiation. Trace moisture on the substrate surface provides hydroxide ions (OH⁻) that initiate rapid chain-growth polymerization. The reaction is exothermic and essentially instantaneous (hence "instant glue" or "superglue").
+**Chemistry**: Alkyl cyanoacrylate monomers (methyl, ethyl, butyl, or octyl esters) polymerize by anionic initiation. Trace moisture on the substrate surface provides hydroxide ions (OH⁻) that initiate rapid chain-growth polymerization. The reaction is exothermic and instantaneous (hence "instant glue" or "superglue").
 
 **Cure parameters**: Fixturing time: 5-30 seconds on most surfaces. Full cure: 12-24 hours. Cure inhibited by acidic surfaces (requires primer) and accelerated by alkaline surfaces or accelerators (N,N-dimethyl-p-toluidine). Gap-filling capability is poor — optimal bond line thickness is 0.05-0.15 mm.
 
@@ -320,6 +321,11 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 | Anodized aluminum coating chips or peels | Contamination on aluminum surface prevents integral oxide formation; temperature exceeded 22°C for Type II | Re-etch in NaOH (50 g/L, 50-60°C) then desmut in 50% HNO₃ before re-anodizing; maintain sulfuric acid bath at 18-22°C, 1.0-2.0 A/dm² for Type II; ensure sealing at 95-100°C for 20-30 min |
 | Galvanized steel shows bare spots after coating | Surface preparation inadequate — degreasing or acid pickle step skipped or insufficient | Ensure full preparation sequence: alkaline degrease at 60-80°C → HCl pickle (10-15%, 10-20 min) → zinc ammonium chloride flux (40-50°C) → dry → galvanize at 440-460°C for 3-8 minutes |
 
+
+## Safety
+
+Many adhesive and coating formulations contain volatile organic solvents (toluene, xylene, acetone, methyl ethyl ketone) — inhalation causes CNS depression, liver damage, and respiratory irritation. Work in ventilated areas (10+ air changes/hour) with organic vapor respirators (NIOSH OV-rated). Epoxy hardeners (amines) cause skin sensitization — wear nitrile gloves and eye protection. Isocyanate-based polyurethane coatings (TDI, MDI) cause occupational asthma at ppm levels — require supplied-air respirators for spray application. UV-curing acrylates cause rapid skin burns and eye damage.
+
 ## See Also
 
 - [Acids](acids.md) — chemical synthesis of adhesive precursors
@@ -331,5 +337,5 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 

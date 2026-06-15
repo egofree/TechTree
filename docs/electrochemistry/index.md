@@ -16,4 +16,8 @@ Capabilities in this domain:
 ---
 
 - [DC Rectifier](dc-rectifier.md) — Thyristor and IGBT DC power supplies providing controlled current/voltage for electroplating, anodizing, and electrolysis.
-[↑ Back to Tech Tree](../../index.md)
+
+- [Copper Damascene Plating](copper-damascene.md) — Bottom-up copper fill of patterned dielectric trenches and vias using acid sulfate bath (CuSO₄ 40-100 g/L + H₂SO₄ 50-100 g/L) with SPS accelerator, PEG suppressor, and leveler additives.
+
+[↑ Back to Tech Tree](../index.md)
+

@@ -333,4 +333,4 @@ Higher switching frequency shrinks magnetic components but increases switching l
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

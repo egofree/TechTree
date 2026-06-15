@@ -4,6 +4,7 @@
 > **Domain**: [Health](./index.md)
 > **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md),
 > [`health.pharmacology`](./pharmacology.md), [`health.sanitation`](./sanitation.md)
+> **Enables**: None
 > **Timeline**: Years 15-100+
 > **Outputs**: pharmaceuticals, dosage_forms, quality_controlled_drugs, sterile_pharmaceuticals
 > **Critical**: Yes — without reliable pharmaceutical production, disease treatment depends on variable plant preparations and infection mortality remains high
@@ -250,4 +251,4 @@ Yield: typically 70-85% of theoretical. Each 500 mg aspirin tablet requires ~0.5
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

@@ -4,6 +4,7 @@
 > **Domain**: [Mining Engineering](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), `machine-tools`,
 > [`mining.extraction`](./extraction.md), [`mining.processing`](./processing.md)
+> **Enables**: None
 > **Timeline**: Years 25-60+
 > **Outputs**: residual_metals, reprocessed_concentrate, backfill_material, construction_sand
 > **Critical**: No — improves resource efficiency but does not unlock new capabilities
@@ -264,5 +265,5 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*
 

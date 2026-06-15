@@ -346,4 +346,4 @@ All 84 plant species in the tech tree tagged as edible. Multi-category species (
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

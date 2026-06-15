@@ -3,12 +3,12 @@
 > **Node ID**: vacuum.chambers
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `machine-tools`,
-> [`machine-tools.joining.electron-beam`](../machine-tools/joining.electron-beam.md),
-> [`machine-tools.joining.tig-welding`](../machine-tools/joining.tig-welding.md),
+> [`machine-tools.joining.electron-beam`](../machine-tools/electron-beam.md),
+> [`machine-tools.joining.tig-welding`](../machine-tools/tig-welding.md),
 > `metals`
 > **Enables**: [`glass.glass-to-metal-seals`](../glass/glass-to-metal-seals.md),
-> [`photolithography.fab-processes.ion-implantation`](../photolithography/fab-processes.ion-implantation.md),
-> [`photolithography.fab-processes.plasma-etching`](../photolithography/fab-processes.plasma-etching.md),
+> [`photolithography.fab-processes.ion-implantation`](../photolithography/ion-implantation.md),
+> [`photolithography.fab-processes.plasma-etching`](../photolithography/plasma-etching.md),
 > [`vacuum.deposition-systems`](./deposition-systems.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_chambers, vacuum_seals, viewports, gate_valves, load_locks
@@ -383,4 +383,4 @@ Vacuum chamber production scales with welding capability and machining precision
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

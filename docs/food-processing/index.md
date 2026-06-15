@@ -23,4 +23,4 @@ Capabilities in this domain:
 - [Seed Press](seed-press.md) — Screw presses and expellers for extracting oil from seeds, nuts, and other oil-bearing materials.
 
 - [Cream Separator](cream-separator.md) — Centrifugal cream separators for dividing whole milk into cream and skim milk.
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

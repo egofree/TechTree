@@ -133,4 +133,4 @@ Ring spinning (Thorpe, 1828) uses a C-shaped traveler (small wire loop) that rot
 - [Energy](../energy/index.md) — power sources for driving spinning frames
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

@@ -87,14 +87,14 @@ Where:
 - Spillway for flood protection — the upper reservoir must never overtop.
 
 **Lower reservoir**:
-- Natural lake, river, or purpose-built basin downstream. Often shares water with the upper reservoir (the system is essentially closed-loop — water circulates between the two reservoirs with only minor losses to evaporation and seepage).
+- Natural lake, river, or purpose-built basin downstream. Often shares water with the upper reservoir (the system is closed-loop — water circulates between the two reservoirs with only minor losses to evaporation and seepage).
 - Must have sufficient capacity to receive the full upper reservoir volume without flooding downstream.
 - Can double as a cooling water source or recreation area.
 
 **Site selection**:
 - Elevation difference (head) is the primary factor — higher head = more energy per cubic meter of water. Sites with 100-500 m of head over a short horizontal distance are ideal (steep terrain near rivers or coastal cliffs).
 - Geology: Stable rock formations for dam foundations and underground powerhouse. Impermeable rock or clay to minimize reservoir seepage. Seismic stability — dams must withstand earthquakes.
-- Water supply: While pumped-hydro is essentially a closed loop, initial filling requires water, and ongoing evaporation and seepage must be replaced. A reliable water source (stream, river) at the lower reservoir level is needed.
+- Water supply: While pumped-hydro is a closed loop, initial filling requires water, and ongoing evaporation and seepage must be replaced. A reliable water source (stream, river) at the lower reservoir level is needed.
 
 ## Dam Construction
 
@@ -247,4 +247,5 @@ Pumped hydro storage has a large physical footprint and several environmental im
 - [Redox Flow Batteries](redox-flow-battery.md) — alternative grid-scale storage
 - [Gravity Power](gravity.md) — other gravity-based energy storage
 
-[← Back to Energy](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

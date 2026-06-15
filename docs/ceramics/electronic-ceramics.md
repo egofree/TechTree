@@ -3,6 +3,7 @@
 > **Node ID**: ceramics.electronic-ceramics
 > **Domain**: [Ceramics & Refractories](./index.md)
 > **Dependencies**: [`ceramics.advanced-ceramics`](./advanced-ceramics.md), `chemistry`
+> **Enables**: None
 > **Timeline**: Years 25-70+
 > **Outputs**: MLCC capacitors, ferrite cores, PZT actuators, getter materials, ceramic substrates, varistors, thermistors
 > **Critical**: Yes — passive components (capacitors, inductors, varistors) required for every semiconductor device and power supply
@@ -619,11 +620,16 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 - **BNT-BT** (bismuth sodium titanate - barium titanate): d₃₃ ≈ 150-200 pC/N. Lead-free but depolarization temperature is low (~200°C).
 - **Quartz** (single crystal SiO₂): d₁₁ ≈ 2.3 pC/N. Very low piezoelectric response but excellent stability and no poling required. Used for timing crystals, not actuators.
 
+
+## Safety
+
+Ceramic powder processing generates respirable silica dust (<5 μm) — prolonged inhalation causes silicosis. Weigh and mix powders in a ventilated enclosure with N95-or-better respirator. Firing temperatures reach 1200-1500°C — kiln surfaces cause severe burns on contact; use insulated gloves and face shields when loading/unloading. Electric kilns present shock hazard if elements are exposed.
+
 ## See Also
 
 - [Advanced Ceramics & Refractories](advanced-ceramics.md) — structural alumina, zirconia, SiC, Si₃N₄ processing
 - [Kiln Construction](kilns.md) — kiln design for ceramic firing
-- [Kiln Firing Protocols](kiln-firing.md) — temperature schedules and atmosphere control
+- [Kiln Firing Protocols](pottery.kiln-firing.md) — temperature schedules and atmosphere control
 - [Chemistry](../chemistry/acids-bases.md) — raw material synthesis (BaCO₃, ZnO, NaOH)
 - [Mining](../mining/processing.md) — raw material extraction (TiO₂, Fe₂O₃, Mn ores, Pb ores)
 - [Metals](../metals/iron-steel.md) — Ni, W, Mo for electrodes and metallization
@@ -635,5 +641,5 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
 

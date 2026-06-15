@@ -4,8 +4,8 @@
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `gas-handling`, `precision-motion`, [`vacuum.chambers`](./chambers.md),
 > [`vacuum.pumps`](./pumps.md)
-> **Enables**: [`photolithography.fab-processes.cvd`](../photolithography/fab-processes.cvd.md),
-> [`photolithography.fab-processes.pvd`](../photolithography/fab-processes.pvd.md)
+> **Enables**: [`photolithography.fab-processes.cvd`](../photolithography/cvd.md),
+> [`photolithography.fab-processes.pvd`](../photolithography/pvd.md)
 > **Critical**: Yes — vacuum deposition systems (sputtering, evaporation, CVD) are required for all semiconductor thin-film fabrication; no alternative to vacuum-based deposition exists
 > **Timeline**: Years 25-40
 > **Outputs**: sputter_deposition, cvd_films, evaporated_films, load_lock_systems, pump_down_procedures
@@ -272,6 +272,11 @@ For electropolished stainless steel after 10 hours pumping: Q_outgas ≈ 2×10�
 | Particles on wafers after deposition | Flaking from chamber walls (built-up film); virtual leaks introducing debris; improper wafer handling | Clean chamber walls on schedule (LPCVD tube replacement, PECVD chamber cleaning); eliminate virtual leaks; use only vacuum wands or edge-grip robots for wafer handling |
 | Base pressure not reaching specification | Outgassing from unbaked surfaces; real leak at flange or feedthrough; oil backstreaming from diffusion pump | Bake chamber at 150-250°C for 12-24h; helium leak check all flanges and feedthroughs; fill LN₂ cold trap on diffusion pump; verify RGA shows H₂O dominant (not N₂/O₂ or hydrocarbons) |
 
+
+## Safety
+
+Vacuum deposition systems combine implosion, high-voltage, and chemical hazards. Glass bell jars and viewports under vacuum can implode if scratched — inspect for stars and cracks; replace at first sign of damage. Diffusion and turbomolecular pumps operate at 200-400°C (oil pumps) or 30,000-90,000 rpm (turbo pumps) — never vent a hot pump or open a running turbo; interlocks are mandatory. E-beam and resistance evaporators use 5-10 kV at 0.1-1 A — lethal electrical hazard; grounded shields and door interlocks required. Pump oils (silicone, polyether) are irritants; old oil contains toxic process residues — handle with [nitrile gloves](../ehs/ppe.md). Liquid nitrogen traps create asphyxiation risk in poorly ventilated areas.
+
 ## See Also
 
 - **[Vacuum Pumps](pumps.md)**: Pump types, selection matrix, backing pump sizing
@@ -299,4 +304,4 @@ Deposition systems require regular maintenance to sustain performance. Vacuum pu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

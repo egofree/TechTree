@@ -31,7 +31,7 @@ The jump from earthenware to technical ceramics requires:
 
 - **Ball mill** (porcelain or rubber-lined steel, alumina grinding media) — see [Machine Tools](../machine-tools/index.md)
 - **[Hydraulic press](../machine-tools/hydraulic-press.md)** (50-300 MPa capacity) — see [Machine Tools](../machine-tools/index.md)
-- **Kiln** capable of 1600-2200°C — [Kiln Construction](kilns.md) and [Kiln Firing Protocols](kiln-firing.md)
+- **Kiln** capable of 1600-2200°C — [Kiln Construction](kilns.md) and [Kiln Firing Protocols](pottery.kiln-firing.md)
 - **Autoclave** (for Bayer process, rated 240°C, 3-4 MPa)
 - **Diamond grinding wheels** — see [Machine Tools](../machine-tools/index.md)
 
@@ -567,7 +567,7 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 ## See Also
 
 - [Kiln Construction](kilns.md) — kiln design and construction for ceramic firing
-- [Kiln Firing Protocols](kiln-firing.md) — temperature schedules, atmosphere control, pyrometry
+- [Kiln Firing Protocols](pottery.kiln-firing.md) — temperature schedules, atmosphere control, pyrometry
 - [Pottery & Clay Products](pottery.md) — basic clay preparation, fireclay brick production
 - [Electronic Ceramics](electronic-ceramics.md) — functional ceramics for capacitors, ferrites, PZT, getters
 - [Silicon Production](../silicon/index.md) — silicon metal powder source for Si₃N₄ reaction bonding
@@ -580,4 +580,4 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

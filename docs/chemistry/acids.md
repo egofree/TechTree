@@ -5,9 +5,9 @@
 > **Dependencies**: [`chemistry.ammonia`](./ammonia.md), [`chemistry.electrolysis`](./electrolysis.md),
 > [`glass.basic`](../glass/basic.md), `mining`,
 > [`mining.sulfur-extraction`](../mining/sulfur-extraction.md)
-> **Enables**: [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md),
-> [`chemistry.explosives.nitrocellulose`](./explosives.nitrocellulose.md),
-> [`chemistry.explosives.nitroglycerin-dynamite`](./explosives.nitroglycerin-dynamite.md),
+> **Enables**: [`chemistry.explosives.high-explosives`](./high-explosives.md),
+> [`chemistry.explosives.nitrocellulose`](./nitrocellulose.md),
+> [`chemistry.explosives.nitroglycerin-dynamite`](./nitroglycerin-dynamite.md),
 > [`chemistry.phosphorus`](./phosphorus.md),
 > [`electrochemistry.anodizing`](../electrochemistry/anodizing.md),
 > [`electrochemistry.electrochemical-processes`](../electrochemistry/electrochemical-processes.md),
@@ -433,4 +433,4 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

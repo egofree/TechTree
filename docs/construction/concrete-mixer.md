@@ -209,4 +209,4 @@ Water-cement ratio is the single most important parameter: each 0.05 increase in
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Construction](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Construction](./index.md) • [All Domains](../index.md)*

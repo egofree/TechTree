@@ -61,7 +61,7 @@ Prefers a light well-drained moderately fertile humus-rich soil in a sunny shelt
 
 ### Distribution and Growing Conditions
 
-Possibly native to Europe. A rare casual in Britain, the original habitat is obscure. Coming Soon
+Possibly native to Europe. A rare casual in Britain, the original habitat is obscure.
 
 ### Identification
 
@@ -273,4 +273,4 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 Flax is dual-purpose: oilseed varieties (short, heavily branched) maximize seed yield for linseed oil production, while fiber varieties (tall, unbranched) produce the longest, strongest bast fibers for linen textile production. Linseed oil is a drying oil used in paints, varnishes, and wood finishing. Linseed oil cake (the press residue) is a high-protein animal feed containing 30-35% protein.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

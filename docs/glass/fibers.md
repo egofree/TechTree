@@ -91,7 +91,7 @@ Continuous fiberglass begins with molten glass, similar to conventional glassmak
 
 ## Glass Wool Insulation
 
-Glass wool is a mass of randomly oriented glass fibers, formed into blankets or batts for thermal and acoustic insulation. It is produced by a fundamentally different process than continuous filament, using a centrifugal spinning method that produces short fibers rather than continuous ones.
+Glass wool is a mass of randomly oriented glass fibers, formed into blankets or batts for thermal and acoustic insulation. It is produced by a different process than continuous filament, using a centrifugal spinning method that produces short fibers rather than continuous ones.
 
 **Rotary (spinning) process**:
 - Molten glass flows into a rotating drum (spinner, 200-400 mm diameter) with thousands of small peripheral holes (1-2 mm diameter). The drum spins at 2000-4000 RPM. Centrifugal force throws the glass through the holes as fine streams.
@@ -303,4 +303,4 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

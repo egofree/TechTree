@@ -46,7 +46,7 @@ Capabilities in this domain:
 
 - [Explosives & Propellants](explosives.md) — Black powder, nitrocellulose, dynamite, and smokeless powder manufacture for mining and industrial applications.
 
-  - [Black Powder](black-powder.md) — KNO₃/charcoal/sulfur manufacture, corning, and granulation for mining and firearms.
+  - [Black Powder](explosives.black-powder.md) — KNO₃/charcoal/sulfur manufacture, corning, and granulation for mining and firearms.
 
   - [Nitrocellulose & Smokeless Powders](nitrocellulose.md) — Guncotton, pyroxylin, single-base and double-base propellant production.
 
@@ -101,4 +101,21 @@ Capabilities in this domain:
 - [Crystallizer](crystallizer.md) — Evaporative and cooling crystallizers for producing solid crystals from solution.
 
 - [Evaporator](evaporator.md) — Falling film, forced circulation, and multiple-effect evaporators for concentrating solutions by solvent removal.
-[↑ Back to Tech Tree](../../index.md)
+
+- [Acid Regeneration](acid-regeneration.md) — Membrane-based recovery and regeneration of spent acids from industrial processes. Uses diffusion dialysis and electrodialysis to separate acid from dissolved metal salts, enabling closed-loop acid usage in metal…
+- [Bleaching & Chlorine Chemistry](bleaching.md) — Electrolytic production of chlorine and sodium hypochlorite for textile bleaching, water treatment, and pulp processing.
+- [Chlor-Alkali Process](chlor-alkali.md) — Electrolytic production of chlorine, sodium hydroxide (caustic soda), and hydrogen from brine (NaCl solution). Three cell types: diaphragm (asbestos separator), membrane (ion-exchange membrane, modern standard), and…
+- [E-Methanol Synthesis](e-methanol.md) — Catalytic synthesis of methanol from captured CO₂ and green hydrogen using membrane reactors. Provides a liquid energy carrier and chemical feedstock that is transportable and storable without high-pressure…
+- [Electrodialysis](electrodialysis.md) — Ion separation using alternating cation and anion exchange membranes under electric field. Desalinates brackish water, recovers acids and bases from salt solutions, and concentrates process streams for industrial…
+- [Flux Production](flux.md) — Production of welding and metallurgical fluxes from borax, limestone, fluorspar, and rosin to prevent oxidation and improve joint quality during metal joining and casting.
+- [Haber-Bosch Ammonia Synthesis](haber-bosch.md) — The Haber-Bosch process synthesizes ammonia from nitrogen and hydrogen:
+- [Lithium Separation](lithium-separation.md) — Selective lithium extraction from brines and clays using lithium-ion selective membranes and electrodialysis. Produces battery-grade lithium compounds essential for energy storage and electronics manufacturing.
+- [Paint & Coating Manufacturing](paint.md) — Pigment grinding, binder formulation, and coating production including titanium dioxide whites, alkyd paints, and zinc oxide anti-corrosion coatings.
+- [Paper & Pulp Production](paper-pulp.md) — Paper and pulp production converts wood fiber into cellulose pulp and then into continuous sheet paper. Two chemical pulping routes dominate industrial practice:
+- [Phosphorus and Phosphate Chemistry](phosphorus.md) — Extraction of phosphorus from phosphate rock via acidulation or thermal reduction, and production of phosphoric acid and phosphate fertilizers.
+- [Photographic Chemistry](photographic-chemistry.md) — Silver halide emulsion preparation, photographic plate coating, and light-sensitive chemical synthesis for imaging and photoresist precursor production.
+- [Potash Production](potash.md) — Production of potassium carbonate (potash) from wood ashes, mineral deposits, or brine evaporation. Potash is a fundamental alkali for glassmaking (potash glass), soap production, fertilizer, and chemical synthesis.
+- [Water Electrolysis](water-electrolysis.md) — Electrolytic splitting of water into hydrogen and oxygen using PEM or alkaline electrolyzers. Provides high-purity hydrogen for ammonia synthesis, metal refining, and fuel cells without fossil fuel inputs.
+
+[↑ Back to Tech Tree](../index.md)
+

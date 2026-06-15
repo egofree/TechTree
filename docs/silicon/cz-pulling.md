@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-50
 > **Outputs**: single_crystal_ingots
+> **Critical**: Yes — CZ pulling is the only practical method for producing the single-crystal silicon wafers required for all integrated circuit fabrication
 
 This document covers the CZ puller as a **machine** — design, materials, fabrication, and assembly from scratch. For the crystal growth process theory (seed insertion, neck growth, shoulder, body, tail-out), see [Crystal Growth & Wafering](./crystal-growth.md). For the polysilicon feedstock, see [MG-Si Production](./mg-si-production.md) and [Silicon Purification](./purification.md).
 
@@ -367,5 +368,5 @@ A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its
 - [MG-Si Production](mg-si-production.md) — metallurgical-grade silicon feedstock
 - [Purification](purification.md) — polysilicon purification for crystal growth
 
-[← Back to Silicon](index.md)
-
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Silicon](./index.md) · [All Domains](../index.md)*

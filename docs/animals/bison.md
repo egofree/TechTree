@@ -3,6 +3,7 @@
 > **Node ID**: animals.bison
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: `animals`
+> **Enables**: None
 > **Timeline**: Years 3-20+
 > **Outputs**: meat, hides, horn, bone, manure
 > **Critical**: No — valuable grassland livestock but specialized; cattle are more versatile
@@ -228,4 +229,4 @@ Why bison withstand extreme cold: the woolly undercoat (qiviut) is structurally 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

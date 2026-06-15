@@ -165,4 +165,4 @@ Emergency care covers mass-casualty triage, hemorrhage control, burn management,
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

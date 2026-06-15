@@ -2,6 +2,7 @@
 
 > **Node ID**: defense.weapons
 > **Domain**: [Defense](./index.md)
+> **Dependencies**: None
 > **Enables**: `defense`
 > **Critical**: No — weapons are specialized military tools dependent on metallurgical and chemical industrial base
 > **Timeline**: Years 0-30+
@@ -313,4 +314,4 @@ Weapon production requires progressively more advanced materials and industrial 
 - **[Mining](../mining/index.md)** -- Iron ore, copper, tin, and lead extraction
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

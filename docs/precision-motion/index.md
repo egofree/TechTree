@@ -9,4 +9,4 @@ Capabilities in this domain:
 
 - [Precision Encoders & Feedback](precision-encoders.md) — Laser interferometers (0.6 nm resolution), optical scale encoders (1 nm with interpolation), and encoder integration for closed-loop positioning. The measurement backbone that enables nanometer-level motion control.
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

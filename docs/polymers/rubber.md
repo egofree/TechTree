@@ -4,9 +4,9 @@
 > **Domain**: [Polymers & Composites](./index.md)
 > **Dependencies**: [`polymers.rubber.vulcanization`](./rubber.vulcanization.md)
 > **Enables**: [`energy.storage`](../energy/storage.md), `health`,
-> [`polymers.rubber.gutta-percha`](./rubber.gutta-percha.md),
-> [`polymers.rubber.natural`](./rubber.natural.md),
-> [`polymers.rubber.shellac`](./rubber.shellac.md)
+> [`polymers.rubber.gutta-percha`](./gutta-percha.md),
+> [`polymers.rubber.natural`](./natural.md),
+> [`polymers.rubber.shellac`](./shellac.md)
 > **Timeline**: Years 5-50
 > **Outputs**: rubber, elastomers, gaskets, seals
 > **Critical**: Yes — flexible seals and vibration isolation required for all mechanical systems, pneumatic tires, and chemical-resistant barriers
@@ -392,5 +392,5 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
 

@@ -218,4 +218,4 @@ Minimum economic scale: 10 dairy cows producing 200 L/day of milk. Below this, g
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

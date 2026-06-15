@@ -276,4 +276,4 @@ Rope for lifting and life-safety applications must be proof-tested and certified
 - [Construction](../construction/index.md) — rope for lifting and rigging
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

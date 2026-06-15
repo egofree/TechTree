@@ -3,6 +3,7 @@
 > **Node ID**: computing.logic-design
 > **Domain**: [Computing](./index.md)
 > **Dependencies**: [`mathematics.formal-systems`](../mathematics/formal-systems.md)
+> **Enables**: None
 > **Timeline**: Years 45-60
 > **Outputs**: combinational_circuits, sequential_circuits, state_machines, programmable_logic
 > **Critical**: Yes — all digital hardware from microcontrollers to GPUs requires systematic logic design
@@ -262,4 +263,4 @@ Commit the design to a custom silicon fabrication. Highest performance, lowest p
 - [Passive Components](../electronics/passive-components.md) — resistors, capacitors, and inductors for logic circuit bias and decoupling
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

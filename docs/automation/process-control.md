@@ -4,9 +4,10 @@
 > **Domain**: [Automation & Robotics](./index.md)
 > **Dependencies**: [`automation.equipment-communication`](./equipment-communication.md),
 > `quality-control`
+> **Enables**: None
 > **Timeline**: Years 60-100+
 > **Outputs**: recipe_management, lot_tracking, process_sequencing, fault_detection, run_to_run_control
-> **Critical**: No — manual recipe execution and lot tracking are possible; automated control improves yield and consistency but does not enable fundamentally new capabilities
+> **Critical**: No — manual recipe execution and lot tracking are possible; automated control improves yield and consistency but does not enable new capabilities
 
 A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks of fabrication. Each step has precise recipe parameters (temperature ramp rates, gas flows, RF powers, etch times) that must be executed exactly. A single parameter deviation at step 200 may not produce a detectable defect until electrical test at step 600 — by which time 400 steps of value have been added to a wafer that must now be scrapped. Automated process control and lot tracking ensure every wafer receives the correct process at every step, with full traceability from raw silicon to finished die.
 
@@ -260,7 +261,7 @@ Even when each process run stays within spec, systematic drift (chamber wall fil
 ## Safety & Hazards
 
 - **Recipe corruption in R2R**: An R2R controller bug could compute an invalid recipe adjustment (e.g., negative gas flow, RF power exceeding hardware limits). All R2R adjustments must pass safety limit checks before being downloaded to the tool. Never allow R2R to modify safety limits — only process parameters within approved ranges.
-- **Model divergence**: If the process changes fundamentally (new chamber hardware, different gas supplier, maintenance event), the R2R model may be invalid. Model mismatch causes R2R to make wrong adjustments, driving the process further from target. Implement model health monitoring (track prediction error over time) and automatic model reset when prediction error exceeds threshold.
+- **Model divergence**: If the process changes (new chamber hardware, different gas supplier, maintenance event), the R2R model may be invalid. Model mismatch causes R2R to make wrong adjustments, driving the process further from target. Implement model health monitoring (track prediction error over time) and automatic model reset when prediction error exceeds threshold.
 - **Data integrity**: Lot tracking data must be tamper-proof and auditable. Any modification to historical process data (e.g., backdating a hold release) must be logged with justification. Regulatory requirements (FDA for medical device fabs, automotive IATF 16949) mandate full data traceability.
 - **Oversight automation failure**: If FDC or R2R systems go offline, operators may not notice subtle process drift for hours. Implement FDC health monitoring — if the FDC server stops receiving trace data, trigger an alarm and consider holding further processing until FDC is restored.
 
@@ -326,5 +327,5 @@ Before a tool is authorized to run production wafers, it must pass qualification
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Automation & Robotics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
 

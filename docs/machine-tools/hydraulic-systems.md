@@ -2,6 +2,8 @@
 
 > **Node ID**: machine-tools.hydraulic-systems
 > **Domain**: [Machine Tools](./index.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Critical**: No
 > **Timeline**: Years 15-30
 > **Outputs**: hydraulic-press-systems, hydraulic-clamping-systems, hydraulic-feed-systems
@@ -89,7 +91,7 @@ Ram speed during pressing is determined by the flow rate delivered to the cylind
 
 ## Hydraulic Clamping & Fixturing
 
-Hydraulic clamping replaces manual bolting and wrenching with fluid-powered clamps that grip workpieces with consistent, predictable force. A single directional valve can actuate all clamps in a fixture simultaneously, reducing setup time from minutes of manual wrenching to a single lever throw. More importantly, the clamping force is repeatable — every cycle applies the same force, eliminating the variation inherent in manual tightening.
+Hydraulic clamping replaces manual bolting and wrenching with fluid-powered clamps that grip workpieces with consistent, predictable force. A single directional valve can actuate all clamps in a fixture simultaneously, reducing setup time from minutes of manual wrenching to a single lever throw. The clamping force is repeatable — every cycle applies the same force, eliminating the variation inherent in manual tightening.
 
 ### Clamp Types
 
@@ -260,4 +262,4 @@ Heat management scales with system power. A 50-tonne press with a 15 kW power un
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools](./index.md) · [All Domains](../index.md)*

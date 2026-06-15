@@ -4,6 +4,7 @@
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: `chemistry`, `electronics`, `metals`, [`metals.non-ferrous`](./non-ferrous.md),
 > `mining`
+> **Enables**: None
 > **Timeline**: Years 15-50
 > **Outputs**: gold, silver, semiconductor-grade gold wire, silver paste, refined precious metals
 > **Critical**: true
@@ -251,7 +252,7 @@ Precious metal production depends heavily on existing metallurgical and chemical
 
 **Decision criteria — choosing precious metal refining methods**:
 - Use **cyanidation** for gold extraction from hard-rock ores (2-15 g/t) — 90-97% recovery, industrial standard, requires NaCN and alkaline conditions (pH 10-11)
-- Use **gravity separation** for placer/alluvial gold — 70-90% recovery for particles >100 µm, no chemicals required, first method to employ
+- Use **gravity separation** for placer/alluvial gold — 70-90% recovery for particles >100 µm, no chemicals required, first method to use
 - Use **Miller chlorination** for bulk gold refining to 99.5% — chlorine gas at 1100-1200°C, silver remains in bullion
 - Use **Wohlwill electrolysis** for gold refining to 99.99% — chloroauric acid electrolyte, required for semiconductor-grade gold
 - Use **Moebius electrolysis** for silver refining to 99.9%+ — AgNO₃/HNO₃ electrolyte, recovers gold from anode slime
@@ -324,5 +325,5 @@ Precious metal production depends heavily on existing metallurgical and chemical
 - [Electroplating](../electrochemistry/electroplating.md) — gold and silver plating
 - [Zinc](zinc.md) — zinc for precious metal recovery
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
 

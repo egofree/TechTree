@@ -225,4 +225,4 @@ A brushless DC motor that rotates in discrete steps (typically 1.8° or 7.5° pe
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

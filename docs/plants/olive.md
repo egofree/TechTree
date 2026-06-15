@@ -289,4 +289,4 @@ exceptional decorative pieces. Olive pomace (the residue from oil pressing) can 
 extracted with solvents or burned as fuel, providing additional value from the harvest.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

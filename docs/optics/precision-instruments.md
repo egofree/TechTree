@@ -266,5 +266,5 @@ Before any precision flatness measurement, the optical flat and the test piece m
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Optics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*
 

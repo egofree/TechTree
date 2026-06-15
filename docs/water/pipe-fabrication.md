@@ -279,5 +279,5 @@ Seamless copper tube for domestic water supply, heating, and refrigeration. Avai
 - [Polymers](../polymers/index.md) — PVC pipe materials and solvent cement
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
 

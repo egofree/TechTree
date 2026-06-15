@@ -2,6 +2,8 @@
 
 > **Node ID**: polymers.rubber.semiconductor-apps
 > **Domain**: [Polymers & Composites](./index.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 40-200+
 > **Outputs**: semiconductor_seals, chemical_resistant_linings, cleanroom_elastomers
 > **Critical**: No — essential for semiconductor manufacturing but not required for basic civilization infrastructure
@@ -236,5 +238,5 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
 

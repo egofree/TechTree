@@ -2,13 +2,14 @@
 
 > **Node ID**: chemistry.distillation
 > **Domain**: [Chemistry](./index.md)
+> **Dependencies**: None
 > **Enables**: [`chemistry.chemical-recovery`](./chemical-recovery.md),
 > [`chemistry.solvents`](./solvents.md),
 > [`health.pharmaceutical-production`](../health/pharmaceutical-production.md),
 > [`health.pharmacology`](../health/pharmacology.md),
 > [`petroleum.refining`](../petroleum/refining.md),
-> [`polymers.rubber.natural`](../polymers/rubber.natural.md),
-> [`polymers.rubber.shellac`](../polymers/rubber.shellac.md),
+> [`polymers.rubber.natural`](../polymers/natural.md),
+> [`polymers.rubber.shellac`](../polymers/shellac.md),
 > [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 20-35
 > **Outputs**: distillation_capability, fractionated_chemicals
@@ -255,4 +256,4 @@ Distillation remains the backbone of chemical separation worldwide, and its mast
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

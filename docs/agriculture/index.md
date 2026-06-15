@@ -22,4 +22,4 @@ Capabilities in this domain:
 
   - **[Hydroponic pH Control](hydroponic-ph-control.md)** — pH targets, acid/base adjustment, monitoring, and calibration
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

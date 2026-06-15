@@ -144,7 +144,7 @@ At technology nodes below 7 nm, the copper interconnect cross-section becomes so
 
 The transition from aluminum to copper interconnects also eliminated the problem of via void formation (stress-induced voiding) that plagued aluminum technology at the 250 nm node and below. Copper's higher ductility and different stress migration behavior make it less susceptible to this failure mode. However, copper introduced its own reliability challenge: copper diffusion through the dielectric, which can cause short circuits between adjacent interconnect lines. The TaN barrier layer must remain continuous and defect-free for the device's rated lifetime, making barrier integrity one of the most closely monitored quality metrics in copper damascene manufacturing.
 
-The damascene process architecture has remained fundamentally unchanged through many technology nodes since its introduction. What has changed is the scale: feature widths have shrunk from 250 nm to below 20 nm, barrier and seed layers have thinned from tens of nanometers to single-digit nanometers, and plating bath chemistry has become more sophisticated to maintain superfill performance at ever-higher aspect ratios. Each node requires re-optimization of the plating waveform, additive concentrations, and CMP slurry formulation to achieve void-free fill and planar surfaces at the new dimensions.
+The damascene process architecture has remained unchanged through many technology nodes since its introduction. What has changed is the scale: feature widths have shrunk from 250 nm to below 20 nm, barrier and seed layers have thinned from tens of nanometers to single-digit nanometers, and plating bath chemistry has become more sophisticated to maintain superfill performance at ever-higher aspect ratios. Each node requires re-optimization of the plating waveform, additive concentrations, and CMP slurry formulation to achieve void-free fill and planar surfaces at the new dimensions.
 
 ## Troubleshooting
 
@@ -196,6 +196,12 @@ The CMP step following copper electroplating is a precisely controlled polishing
 - Monitor plating bath copper ion concentration weekly; depletion below the target range causes burning at high current density and poor fill in narrow features
 - Track CVS trending data to predict bath aging before it affects production quality; proactive bath replacement prevents costly yield loss
 
+## See Also
+
+- [Electroplating](electroplating.md) — electrochemical metal deposition fundamentals
+- [Electrochemistry Index](./index.md) — overview of all electrochemical processes
+
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Electrochemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Electrochemistry](./index.md) · [All Domains](../index.md)*
 

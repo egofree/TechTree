@@ -3,6 +3,7 @@
 > **Node ID**: metals.wire-rope
 > **Domain**: [Metallurgy](./index.md)
 > **Dependencies**: [`metals.wire-drawing`](./wire-drawing.md)
+> **Enables**: None
 > **Timeline**: Years 20-35
 > **Outputs**: wire_rope, steel_cable, strand, wire_rope_sling
 > **Critical**: false
@@ -250,4 +251,4 @@ Wire rope in service must be inspected at regular intervals (daily visual, month
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

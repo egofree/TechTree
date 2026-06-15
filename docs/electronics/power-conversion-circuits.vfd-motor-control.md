@@ -2,8 +2,10 @@
 
 > **Node ID**: electronics.power-conversion-circuits.vfd-motor-control
 > **Domain**: [Electronics](index.md)
-> **Dependencies**: `electronics.power-conversion-circuits`, `electronics.power-conversion-circuits.inverter-circuits`, `electronics.electrical-systems`
+> **Dependencies**: None (see body text for prerequisite circuit articles)
+> **Enables**: None
 > **Timeline**: Years 30-50
+> **Outputs**: variable_frequency_drives, motor_speed_controllers
 > **Critical**: No
 
 A **variable-frequency drive** (VFD) is a power-electronic circuit that adjusts the speed and torque of an AC induction motor by synthesizing a three-phase AC waveform whose **frequency** and **voltage** are both controllable from zero up to the motor's nameplate rating. Fixed-speed motors — the default since Tesla and Dolivo-Dobrovolsky established the three-phase induction motor in the 1890s — run at whatever speed the 50/60 Hz line dictates, and any flow or pressure adjustment is done mechanically (throttles, dampers, valves, gears). A VFD eliminates that waste: it lets the motor turn only as fast as the load actually requires, recovering 20–60% of the energy in pumps, fans, and compressors.
@@ -440,6 +442,11 @@ The boundary is: read this article to **design the VFD circuit and choose the co
 - **[Semiconductor Devices](semiconductor-devices.md)** — IGBT construction, V_CE(sat), gate charge, switching characteristics, anti-parallel diodes. The VFD's six switches are IGBTs.
 - **[Passive Components](passive-components.md)** — DC bus capacitor selection (electrolytic for bulk, film for ripple), inductor cores for output filters and common-mode chokes.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - **[Inverter Circuits](power-conversion-circuits.inverter-circuits.md)** — the circuit-level switching topology that the VFD's inverter stage is built from.
@@ -449,4 +456,4 @@ The boundary is: read this article to **design the VFD circuit and choose the co
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

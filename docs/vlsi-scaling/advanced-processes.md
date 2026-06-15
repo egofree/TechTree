@@ -356,5 +356,5 @@ Adopt each advanced process when its predecessor can no longer meet requirements
 - [Vacuum Systems](vacuum-systems.md) — high-vacuum process chambers
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
 

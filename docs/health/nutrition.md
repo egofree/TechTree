@@ -3,6 +3,7 @@
 > **Node ID**: health.nutrition
 > **Domain**: [Health](./index.md)
 > **Dependencies**: `chemistry`, `food-processing`, [`health.diagnostics`](./diagnostics.md)
+> **Enables**: None
 > **Timeline**: Years 5-100+
 > **Outputs**: nutritional_guidelines, deficiency_prevention_protocols
 > **Critical**: No — but deficiency diseases are among the fastest-acting civilization-killers; scurvy incapacitates in 4-8 weeks of vitamin C deprivation
@@ -79,7 +80,7 @@ A workforce chronically underfed by even 200-300 kcal/day will lose weight, lose
 
 **Sources**: Citrus fruits (oranges: ~53 mg/100 g, lemons: ~53 mg/100 g), fresh bell peppers (~128 mg/100 g), kale (~120 mg/100 g), broccoli (~89 mg/100 g), potatoes with skin (~20 mg/100 g — important because potatoes are a staple), sprouted grains and beans. Vitamin C is destroyed by prolonged heating — raw or lightly cooked sources are essential.
 
-**Prevention protocol**: One lemon or lime per person per day (provides ~30-40 mg vitamin C, well above the 10 mg/day minimum). Alternatively, 100 g of fresh cabbage or kale every other day. Sprouting beans and grains increases vitamin C content dramatically — mung bean sprouts contain ~14 mg/100 g (unsprouted beans contain essentially none).
+**Prevention protocol**: One lemon or lime per person per day (provides ~30-40 mg vitamin C, well above the 10 mg/day minimum). Alternatively, 100 g of fresh cabbage or kale every other day. Sprouting beans and grains increases vitamin C content dramatically — mung bean sprouts contain ~14 mg/100 g (unsprouted beans contain none).
 
 ### Vitamin D
 
@@ -348,7 +349,7 @@ When fresh produce is unavailable (winter, long sea voyages, siege conditions), 
 2. **Soak**: Cover seeds with 3× their volume of water. Soak 8-12 hours at room temperature (20-25°C). The seeds absorb water and swell.
 3. **Drain and rinse**: Pour off soak water. Rinse seeds with clean water twice daily. Drain thoroughly (excess water causes rot). Keep in a jar covered with cloth (allows air exchange, prevents contamination).
 4. **Grow**: Sprouts reach edible size (2-5 cm stem length) in 3-5 days at room temperature. Keep out of direct sunlight (causes bitterness). White sprouts are fine; exposure to indirect light on the last day produces green, more nutritious sprouts.
-5. **Yield**: 100 g of mung bean seeds produces roughly 500-700 g of sprouts. Sprouted mung beans contain approximately 14 mg vitamin C per 100 g fresh weight (dry mung beans contain essentially none). Wheat sprouts contain approximately 6 mg/100 g. Alfalfa sprouts contain approximately 8 mg/100 g.
+5. **Yield**: 100 g of mung bean seeds produces roughly 500-700 g of sprouts. Sprouted mung beans contain approximately 14 mg vitamin C per 100 g fresh weight (dry mung beans contain none). Wheat sprouts contain approximately 6 mg/100 g. Alfalfa sprouts contain approximately 8 mg/100 g.
 
 ### Nixtamalization for Niacin Release
 
@@ -385,5 +386,5 @@ Corn-dependent populations that do not treat corn with alkali develop pellagra b
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*
 

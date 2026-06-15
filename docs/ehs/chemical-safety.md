@@ -387,4 +387,4 @@ Chemical safety personnel handling, sampling, and maintaining semiconductor proc
 - [Semiconductor Chemicals](../chemistry/semiconductor-chemicals.md) — Chemical supply chain for semiconductor manufacturing
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [EHS](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

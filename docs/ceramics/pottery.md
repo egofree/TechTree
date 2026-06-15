@@ -309,7 +309,7 @@ A precise bisque schedule prevents loss and produces optimal absorbency for glaz
 
 ## See Also
 
-- [Kiln Firing](kiln-firing.md) — kiln construction and firing schedules
+- [Kiln Firing](pottery.kiln-firing.md) — kiln construction and firing schedules
 - [Advanced Ceramics](advanced-ceramics.md) — technical ceramics for industrial applications
 - [Lime](lime.md) — lime mortar and plaster (related clay processing)
 - [Metals](../metals/index.md) — crucibles and refractory linings for metallurgy
@@ -318,4 +318,4 @@ A precise bisque schedule prevents loss and produces optimal absorbency for glaz
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics](./index.md) • [All Domains](../index.md)*

@@ -3,7 +3,7 @@
 > **Node ID**: animals.insect-farming
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: [`animals.aquaculture`](aquaculture.md), [`animals.poultry.chickens`](poultry-chickens.md)
+> **Enables**: [`animals.aquaculture`](aquaculture.md), [`animals.poultry.chickens`](poultry.chickens.md)
 > **Timeline**: Years 1-10+
 > **Outputs**: bsf_larvae, protein_meal, chicken_feed, fish_feed, frass_fertilizer, compost
 > **Critical**: Yes — closes the nutrient loop by converting waste streams into animal feed protein
@@ -246,5 +246,5 @@ BSF larvae bioaccumulate certain contaminants from their substrate: heavy metals
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*
 

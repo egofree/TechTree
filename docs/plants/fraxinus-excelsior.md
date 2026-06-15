@@ -199,5 +199,5 @@ Ash is one of the best firewoods available in Europe, burning hot and long with 
 *Content to be added: timber yield data, growth rates, rotation cycles, wood properties.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
 

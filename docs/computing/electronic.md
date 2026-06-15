@@ -325,4 +325,4 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - [Photolithography](../photolithography/fab-processes.md) — IC fabrication
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

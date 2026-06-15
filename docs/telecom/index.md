@@ -17,4 +17,4 @@ Capabilities in this domain:
 - [Submarine Cable Systems](submarine-cables.md) — Undersea telegraph and telephone cables: gutta-percha insulation, armored cable construction, cable-laying ships, and deep-sea repair operations.
 - [Radio Communication](radio.md) — Wireless telegraphy and voice radio: spark-gap transmitters, crystal detectors, vacuum tube development, antenna systems, and propagation fundamentals.
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

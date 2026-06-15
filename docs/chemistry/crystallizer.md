@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.crystallizer
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`chemistry.heat-exchanger`](heat-exchanger.md), [`chemistry.filter-press`](filter-press.md)
-> **Enables**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`chemistry.solvents`](solvents.md)
+> **Dependencies**: None
+> **Enables**: None
 > **Timeline**: Years 15-30
 > **Outputs**: crystals
 > **Critical**: No — crystallization is the primary purification method for solid chemical products but distillation and extraction can substitute for liquid products
@@ -245,4 +245,4 @@ The crystal size distribution (CSD) is the single most important product quality
 2. **Seeding**: Add pre-grown seed crystals (0.1-1.0 wt% of expected crystal yield) to provide growth surfaces. This suppresses spontaneous nucleation and gives predictable crystal size. Seed size and size distribution directly determine product crystal size — product crystals are typically 5-10× the seed size after one batch cycle.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

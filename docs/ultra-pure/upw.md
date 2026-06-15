@@ -3,7 +3,7 @@
 > **Node ID**: ultra-pure.upw
 > **Domain**: [Ultra-Pure Materials](./index.md)
 > **Dependencies**: `water`
-> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md),
+> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/cmp.md),
 > [`ultra-pure.analytical-verification`](./analytical-verification.md),
 > [`ultra-pure.high-purity-chemicals`](./high-purity-chemicals.md)
 > **Timeline**: Years 40-70
@@ -234,5 +234,5 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 - [Solvents](../chemistry/solvents.md) — industrial solvent production (predecessor to electronic-grade)
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*
 

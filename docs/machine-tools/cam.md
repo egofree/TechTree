@@ -4,6 +4,7 @@
 > **Domain**: [Machine Tools](index.md)
 > **Dependencies**: [`machine-tools.edm-cnc`](edm-cnc.md),
 > [`computing.electronic`](../computing/electronic.md)
+> **Enables**: None
 > **Timeline**: Years 30-50
 > **Outputs**: cam-toolpaths
 > **Critical**: No — CAM accelerates and de-risks CNC machining, but a skilled programmer can hand-write G-code for simple parts; CAM becomes essential only for complex 3D contours, high part counts, and adaptive toolpaths.
@@ -355,4 +356,4 @@ In a civilization-rebuilding scenario, CAM arrives after [CNC](edm-cnc.md) hardw
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](index.md)*

@@ -24,4 +24,4 @@ Capabilities in this domain:
 
 - [Seals, Gaskets & Packing](seals-gaskets.md) — O-ring manufacturing (molding, durometer selection, groove dimensions), gasket cutting from sheet materials (rubber, cork-rubber, PTFE, compressed fiber), compression packing for valve stems and pump shafts, and lip seal construction for rotating shafts.
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

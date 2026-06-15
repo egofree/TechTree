@@ -11,4 +11,4 @@ Capabilities in this domain:
 - [Hoist & Winch](hoist-winch.md) — Lifting equipment: hand-operated and powered hoists, winches, and chain blocks for construction material handling.
 
 - [Crane](crane.md) — Construction cranes (derrick, jib, gantry, tower) for heavy lifting and placement on building sites.
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

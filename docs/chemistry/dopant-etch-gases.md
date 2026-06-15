@@ -4,7 +4,7 @@
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: `chemistry`, [`chemistry.electrolysis`](./electrolysis.md)
 > **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md),
-> [`silicon.wafering.epitaxy`](../silicon/wafering.epitaxy.md),
+> [`silicon.wafering.epitaxy`](../silicon/epitaxy.md),
 > [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-70
 > **Outputs**: dopant_gases, etch_gases, fluorine
@@ -246,5 +246,5 @@ A typical semiconductor etch or CVD tool requires 6-12 gas lines converging at t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 

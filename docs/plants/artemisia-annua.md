@@ -200,4 +200,4 @@ for 50,000-100,000 treatment courses — far exceeding community needs and allow
 for trade or emergency reserves.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

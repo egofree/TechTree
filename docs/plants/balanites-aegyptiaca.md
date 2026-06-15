@@ -198,4 +198,4 @@ Desert date trees begin flowering at 4 to 5 years of age, with small yellow-gree
 ### Balanites aegyptiaca Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

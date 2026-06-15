@@ -3,6 +3,7 @@
 > **Node ID**: `electronics.communications-circuits.rf-oscillator-circuits`
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.passive-components`](passive-components.md), [`electronics.analog-circuits.oscillator-circuits`](analog-circuits.oscillator-circuits.md)
+> **Enables**: None
 > **Timeline**: Years 20-40
 > **Outputs**: rf-oscillator-designs
 > **Critical**: No — RF oscillator pedagogy extends general oscillator design into the communications band; not on the minimum-viable bootstrap critical path
@@ -391,6 +392,11 @@ At the Mims level: **build a Colpitts VFO** for tunable MF/HF work, and a **Pier
 - [ ] For VHF: planned a frequency-multiplication or PLL strategy rather than fundamental LC oscillation above ~50 MHz.
 - [ ] Built the oscillator in a shielded enclosure (metal box) to prevent it radiating directly or picking up stray fields.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Oscillator Circuits](analog-circuits.oscillator-circuits.md) — the general theory: Barkhausen criterion, RC/LC/crystal families, amplitude stabilization. This article extends that foundation into the RF band without re-deriving it.
@@ -401,4 +407,4 @@ At the Mims level: **build a Colpitts VFO** for tunable MF/HF work, and a **Pier
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

@@ -3,10 +3,7 @@
 > **Node ID**: plants.medicinal-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
 > **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), `plants`
-> **Enables**: `plants.medicinal-plants.agrimonia-pilosa`,
-> `plants.medicinal-plants.aloe-officinalis`,
-> `plants.medicinal-plants.artemisia-douglasiana`,
-> `plants.medicinal-plants.artemisia-inculta`, `plants.medicinal-plants.botryodiscia`
+> **Enables**: None
 > **Timeline**: Years 0-10
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
 > **Critical**: Yes — herbal remedies are the earliest and most accessible healthcare technology, directly reducing mortality
@@ -360,4 +357,4 @@ All 65 medicinal species from the botanical survey, sorted alphabetically. Speci
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

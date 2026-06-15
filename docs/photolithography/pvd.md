@@ -4,8 +4,10 @@
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`metals`](../metals/index.md), [`vacuum`](../vacuum/index.md), [`vacuum.pumps`](../vacuum/pumps.md)
 > **Parent**: [Core Fab Processes](./fab-processes.md)
+> **Enables**: None
 > **Timeline**: Years 45-65
 > **Outputs**: metal_thin_films, barrier_layers, adhesion_layers
+> **Critical**: No — PVD complements CVD; both are needed but neither is a sole bottleneck
 
 ## Overview
 
@@ -169,6 +171,11 @@ PVD films are typically annealed after deposition (400–450°C, 30 min, forming
 | Non-uniform deposition across wafer (±10%) | Target erosion pattern uneven; substrate not rotating; magnetron magnet degraded | Rotate substrate at 10–30 RPM; replace target when erosion groove exceeds 50% depth; check magnetron magnet strength; adjust target-to-substrate distance |
 | Target arcing (DC sputtering) | Target surface contaminated with oxides or particulates; moisture on target | Pre-sputter (burn-in) with shutter closed for 1–5 min to clean target surface; ensure chamber is properly vented and pumped; use arc suppression power supply |
 
+
+## Safety
+
+PVD systems combine multiple hazards. Vacuum chambers (10⁻⁶ to 10⁻⁹ Torr) present implosion risk if glass viewports are scratched or degraded — inspect regularly, replace cracked components. Sputter deposition targets operate at 500-1000V DC — high voltage can arc through residual gas; interlocks must prevent chamber access under power. RF magnetron sources (13.56 MHz) can cause RF burns through capacitive coupling to nearby metal. Deposition materials include toxic metals (chromium, beryllium, cadmium) — inhalation of submicron particles causes lung disease; wear [P100 respirators](../ehs/ppe.md) during target changes and chamber cleaning. Cryogenic traps use liquid nitrogen — frostbite and asphyxiation hazard in confined spaces.
+
 ## See Also
 
 - [Core Fab Processes](./fab-processes.md) — parent capability
@@ -190,4 +197,5 @@ coverage by directing material into features. CVD generally provides superior st
 compared to PVD, which is why the two techniques are used for different applications in a
 semiconductor fabrication flow.
 
-[← Back to Photolithography](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Photolithography](./index.md) · [All Domains](../index.md)*

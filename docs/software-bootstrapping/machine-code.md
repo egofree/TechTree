@@ -2,6 +2,7 @@
 
 > **Node ID**: software-bootstrapping.machine-code
 > **Domain**: [Software Bootstrapping](./index.md)
+> **Dependencies**: None
 > **Enables**: [`software-bootstrapping.assemblers`](./assemblers.md)
 > **Timeline**: Years 50-60
 > **Outputs**: binary_programs, bootstrap_loaders
@@ -206,5 +207,5 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
 

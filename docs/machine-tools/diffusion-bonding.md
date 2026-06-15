@@ -199,4 +199,4 @@ The absence of a molten zone in diffusion bonding means no porosity, no segregat
 - Verify thermocouple accuracy against a reference standard before each production bonding cycle; temperature errors directly affect bond strength
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*

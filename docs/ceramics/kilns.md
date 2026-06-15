@@ -10,7 +10,7 @@
 
 Kilns are the controlled high-temperature chambers that enable ceramics, metallurgy, glass, lime, and chemistry. Without kilns that can reliably reach and hold specific temperatures, there is no pottery, no bricks, no metal smelting, no glass, no lime mortar, and no chemical processing. The kiln is arguably the single most enabling piece of infrastructure in the entire bootstrap sequence, second only to fire itself.
 
-This document covers the design and construction of kilns from the simplest earth-covered pit to industrial tunnel kilns. For firing protocols (temperature schedules, atmosphere control, pyrometry), see [Kiln Firing Protocols](./kiln-firing.md). For clay preparation and forming, see [Pottery & Clay Products](./pottery.md).
+This document covers the design and construction of kilns from the simplest earth-covered pit to industrial tunnel kilns. For firing protocols (temperature schedules, atmosphere control, pyrometry), see [Kiln Firing Protocols](./pottery.kiln-firing.md). For clay preparation and forming, see [Pottery & Clay Products](./pottery.md).
 
 ## Materials
 
@@ -218,7 +218,7 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 - **Smoke color**: White (steam) → yellow-brown (organics) → clear (high temperature)
 - **Pot glow**: Red-orange glow visible through spy hole ≈ 800°C
 - **Chimney gases**: Barely visible at high temperature
-- **[Pyrometric cones](kiln-firing.md)**: Seger cones (pyramids of known melting clay placed inside — they slump at rated temperature). See [Kiln Firing Protocols](kiln-firing.md) for cone reference chart.
+- **[Pyrometric cones](pottery.kiln-firing.md)**: Seger cones (pyramids of known melting clay placed inside — they slump at rated temperature). See [Kiln Firing Protocols](pottery.kiln-firing.md) for cone reference chart.
 - **Fuel consumption**: ~2-4 kg wood per kg of pottery.
 
 ### Calibration and Verification
@@ -396,7 +396,7 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 - [Rail track](../metals/index.md) and kiln cars with refractory decks
 - [Gas, oil, or solid fuel burners](../energy/index.md)
 - [Electrical power](../energy/electricity.md) for pusher mechanism, fans, and instrumentation
-- [Temperature control system](kiln-firing.md) — thermocouples, pyrometers, automatic dampers
+- [Temperature control system](pottery.kiln-firing.md) — thermocouples, pyrometers, automatic dampers
 
 ### Materials
 
@@ -592,9 +592,14 @@ When [Electricity](../energy/electricity.md) is available:
 - Clean firing — no ash or combustion products contaminating ware
 - Limited to elements available: SiC elements to 1600°C, MoSi₂ to 1700°C
 
+
+## Safety
+
+Kiln firing involves temperatures of 900-1400°C. External kiln surfaces reach 200-400°C — severe burn hazard; post warning signs and maintain 1 m clearance from combustibles. Fuel-fired kilns (wood, gas) produce carbon monoxide (CO) — colorless, odorless, lethal at 0.1% in air for 1 hour; operate only in ventilated spaces with CO detectors. Reduce firing (Raku) involves removing ware at 1000°C and placing in combustible material — wear aluminized apron, Kevlar gloves, and face shield. Electric kilns on 240V circuits require GFCI protection and locked disconnects.
+
 ## See Also
 
-- [Kiln Firing Protocols](kiln-firing.md) — temperature schedules, atmosphere control, pyrometric cone reference
+- [Kiln Firing Protocols](pottery.kiln-firing.md) — temperature schedules, atmosphere control, pyrometric cone reference
 - [Pottery & Clay Products](pottery.md) — clay preparation, brick production, fireclay sourcing
 - [Advanced Ceramics & Refractories](advanced-ceramics.md) — refractory brick types, ceramic fiber insulation
 - [Lime Production](lime.md) — lime kiln design
@@ -607,4 +612,4 @@ When [Electricity](../energy/electricity.md) is available:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

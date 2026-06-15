@@ -193,4 +193,4 @@ Alder wood turns well on a lathe and takes a smooth finish, making it suitable f
 *Content to be added: timber yield data, growth rates, rotation cycles, nitrogen fixation rates.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

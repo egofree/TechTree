@@ -235,4 +235,4 @@ Trade networks grow in predictable stages as production complexity increases:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Economics & Organization](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

@@ -3,6 +3,7 @@
 > **Node ID**: `electronics.analog-circuits.power-amplifiers`
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.passive-components`](passive-components.md), [`electronics.analog-circuits.amplifier-fundamentals`](analog-circuits.amplifier-fundamentals.md)
+> **Enables**: None
 > **Outputs**: power-amplifier-designs
 > **Timeline**: Years 30-50
 > **Critical**: No — design pedagogy layer; the underlying transistor manufacturing (semiconductor-devices) is the critical prerequisite
@@ -145,7 +146,7 @@ Because the transistors dissipate power only during the brief switching transiti
 - **Dead-time distortion**: in an H-bridge, both transistors in one leg must never be ON simultaneously (that would short the supply). A small "dead time" is inserted between turn-off of one and turn-on of the other, during which the output is uncontrolled — this adds distortion at the zero-crossing, much like class-B crossover. Modern controllers minimise it.
 - **Feedback is essential**: the open-loop linearity of a PWM modulator is poor. Real class-D amplifiers use closed-loop feedback (often with the modulator inside the loop) to drive THD below 0.1%.
 
-Class D dominates battery-powered audio (phones, laptops, Bluetooth speakers) and is now standard in car audio, sound-reinforcement, and most home theatre receivers. Above a few hundred watts it is essentially the only practical choice — a 1000 W class-AB amplifier wastes ~700 W as heat; a class-D equivalent wastes ~100 W.
+Class D dominates battery-powered audio (phones, laptops, Bluetooth speakers) and is now standard in car audio, sound-reinforcement, and most home theatre receivers. Above a few hundred watts it is the only practical choice — a 1000 W class-AB amplifier wastes ~700 W as heat; a class-D equivalent wastes ~100 W.
 
 ## Worked Example — Efficiency of a Class-AB Amplifier Delivering 10 W to an 8 Ω Speaker from ±20 V Rails
 
@@ -242,6 +243,11 @@ The complementary NPN/PNP pair is the cleanest pedagogical class-B/AB circuit, b
 - [ ] Confirmed the load impedance is within the amplifier's stable range; most amplifiers are unstable below 4 Ω (some below 8 Ω) without output compensation.
 - [ ] Added output protection: current limiting, SOA protection, and a Zobel network (series R-C across the output) to keep the amplifier stable into capacitive loads.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Amplifier Fundamentals](analog-circuits.amplifier-fundamentals.md) — the prerequisite: small-signal biasing, Q-point stability, hybrid-pi model, voltage gain, input/output impedance. This article builds on it without re-deriving.
@@ -252,4 +258,4 @@ The complementary NPN/PNP pair is the cleanest pedagogical class-B/AB circuit, b
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

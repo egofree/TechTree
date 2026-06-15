@@ -4,6 +4,7 @@
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Parent**: [Core Fab Processes](fab-processes.md)
 > **Dependencies**: [`chemistry`](../chemistry/index.md), [`polymers`](../polymers/index.md), [`precision-motion`](../precision-motion/index.md), [`ultra-pure.upw`](../ultra-pure/upw.md)
+> **Enables**: None
 > **Timeline**: Years 45-70
 > **Outputs**: planarized_surfaces, tungsten_plugs, copper_damascene
 > **Critical**: No — enables multi-level interconnect but single-layer ICs are possible without it
@@ -205,4 +206,5 @@ Process qualification requires running a minimum of 25 wafers through the comple
 
 Electrochemical mechanical polishing (ECMP) applies voltage to the wafer during polish to enhance dissolution, reducing mechanical downforce and defectivity. Used for advanced copper nodes (<45 nm) where mechanical stress causes low-k dielectric damage.
 
-[← Back to Photolithography](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Photolithography](./index.md) · [All Domains](../index.md)*

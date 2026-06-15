@@ -2,6 +2,7 @@
 
 > **Node ID**: precision-motion.wafer-stages
 > **Domain**: [Precision Motion Control](./index.md)
+> **Enables**: None
 > **Timeline**: Years 45-80
 > **Outputs**: wafer_stages, reticle_stages, scanner_systems
 > **Critical**: Yes — wafer stages are the enabling technology for photolithography; no alternative method can position wafers with sub-10nm accuracy during exposure at production throughput
@@ -113,7 +114,7 @@ The positioning error at each die site directly translates to overlay error (mis
 
 ## Scanner Stage Operation
 
-A scanner moves the wafer and reticle simultaneously in opposite directions during exposure, sweeping the projection slit across the die field. This is fundamentally different from a stepper — the stage is in continuous motion during exposure, requiring nanometer-accurate synchronization.
+A scanner moves the wafer and reticle simultaneously in opposite directions during exposure, sweeping the projection slit across the die field. This is different from a stepper — the stage is in continuous motion during exposure, requiring nanometer-accurate synchronization.
 
 ## Dual-Stage Architecture
 
@@ -289,4 +290,4 @@ EUV lithography operates in high vacuum (~10⁻⁵ Pa) because EUV light is abso
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Precision Motion Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

@@ -4,6 +4,7 @@
 > **Domain**: [Marine & Naval Engineering](./index.md)
 > **Dependencies**: [`knowledge.writing`](../knowledge/writing.md),
 > [`measurement.horology`](../measurement/horology.md), `metals`
+> **Enables**: None
 > **Timeline**: Years 0-50+
 > **Outputs**: navigation instruments, nautical charts, position fixing
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
@@ -292,4 +293,4 @@ A vessel's physical dimensions and handling characteristics directly affect navi
 - [Telecom / Radio](../telecom/radio.md) — radio navigation and time signal reception
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*

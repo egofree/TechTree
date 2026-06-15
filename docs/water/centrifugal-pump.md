@@ -288,4 +288,4 @@ A specialized centrifugal variant where the impeller has short vanes on its peri
 - [Machine Tools](../machine-tools/machining.md) — precision machining for shafts, bores, and impellers
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

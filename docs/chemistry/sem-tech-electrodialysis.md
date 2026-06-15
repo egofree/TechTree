@@ -208,7 +208,7 @@ Electrodialysis using SEM Tech membranes requires upstream capabilities from mul
 
 **Large municipal ED (1,000-10,000 m² membrane area)**: Multiple parallel stack trains with common manifolds and power supply. Processes 100-1,000 m³/h (serving 20,000-200,000 people). Requires automated cleaning-in-place (CIP) systems, redundant stacks for continuous operation during maintenance, and sophisticated process control. Total membrane cost at SEM Tech pricing: $1,000-10,000 — a transformative reduction from the $500,000-3,000,000 cost of conventional membrane installations.
 
-At each scale, the SEM Tech membrane cost is so low relative to other system components (power supply, pumps, piping, controls) that membrane replacement becomes a routine maintenance item rather than a capital decision — fundamentally changing the economics of ED deployment.
+At each scale, the SEM Tech membrane cost is so low relative to other system components (power supply, pumps, piping, controls) that membrane replacement becomes a routine maintenance item rather than a capital decision — changing the economics of ED deployment.
 ## Safety
 
 - **Electrical safety**: ED stacks operate at high DC voltages (50-600V depending on cell pairs). Proper grounding, insulation, and lockout/tagout procedures are mandatory. Current leakage through improperly sealed cells can cause electrolysis and gas generation.
@@ -253,4 +253,4 @@ At each scale, the SEM Tech membrane cost is so low relative to other system com
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

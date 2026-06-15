@@ -17,7 +17,7 @@ Without glass-to-metal seals: no vacuum tubes (the anode, cathode, and grid lead
 ## Prerequisites
 
 - **Materials**: [Borosilicate glass](advanced.md) tubing and rod (CTE 3.3 × 10⁻⁶/°C for matched seals), [specialty alloys](../metals/alloys.md) (Kovar — Fe-29Ni-17Co, CTE ~5.0 × 10⁻⁶/°C), soda-lime glass (CTE ~9 × 10⁻⁶/°C for compression seals), mild steel or stainless steel (CTE 11–17 × 10⁻⁶/°C for compression seals), frit glass powder (low-melting lead borosilicate or zinc borate glass), hydrogen and forming gas (5% H₂ / 95% N₂) for oxide control
-- **Tools**: Sealing furnace (800–1100°C with controlled atmosphere), glassworking lathe ([advanced glassblowing](advanced-glassblowing.md)), diamond saw for metal pin preparation, furnace with hydrogen or forming gas atmosphere for pre-oxidation, optical pyrometer for temperature control
+- **Tools**: Sealing furnace (800–1100°C with controlled atmosphere), glassworking lathe ([advanced glassblowing](glassblowing.md)), diamond saw for metal pin preparation, furnace with hydrogen or forming gas atmosphere for pre-oxidation, optical pyrometer for temperature control
 - **Knowledge**: Thermal expansion matching principles, glass wetting and adhesion on metal oxides, stress analysis in cylindrical and disk seals, annealing schedules for stress relief, metal pre-oxidation protocols for chemical bonding
 - **Infrastructure**: Controlled-atmosphere furnace (H₂/ forming gas), [vacuum system](../vacuum/chambers.md) for leak testing (helium mass spectrometer, 10⁻⁹ Pa·m³/s sensitivity), annealing oven with ±5°C uniformity, clean handling area for frit preparation
 
@@ -65,7 +65,7 @@ Understanding CTE matching is the core engineering challenge. The table below sh
 - Pre-oxidation step is process-critical: oxide layer must be 0.5–2 μm thick, uniform, and of the correct phase (Fe₃O₄ with dissolved Ni/Co). Too thin = poor adhesion; too thick = spalling
 - Sealing temperature 950–1050°C requires controlled-atmosphere furnace with hydrogen or forming gas — significant infrastructure investment
 
-**Helium leak rate**: A properly made matched seal achieves <10⁻⁹ Pa·m³/s — essentially perfect hermeticity.
+**Helium leak rate**: A properly made matched seal achieves <10⁻⁹ Pa·m³/s — perfect hermeticity.
 
 ## Unmatched (Compression) Seals — Steel to Soda-Lime Glass
 
@@ -216,4 +216,4 @@ Every glass-to-metal seal must be verified for hermeticity:
 The development of glass-to-metal seals was essential for the vacuum tube era (1904–1960s). Early tubes used platinum wire leads sealed through soda-lime glass — expensive but reliable because platinum's CTE (~9 × 10⁻⁶/°C) matches soda-lime glass. The invention of Kovar in 1930 by the Westinghouse Electric Corporation made mass-produced vacuum tubes economically feasible by replacing platinum with an affordable iron-nickel-cobalt alloy. This single material innovation reduced tube production costs by ~10× and enabled the consumer electronics revolution (radios, televisions) of the mid-20th century. The same Kovar-to-borosilicate seal technology carried over directly into early transistor packages (1950s–1960s) and remains in use today for high-reliability hermetic packages.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

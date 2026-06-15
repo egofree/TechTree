@@ -73,7 +73,7 @@ A grass plant. It is a one seeded wheat. The grains are small, flinty and like r
 
 **Ancient hulled grain — threshing challenges**:
 
-Einkorn is a hulled wheat (Triticum monococcum), meaning the grain retains its tightly adhering husk (glume) after threshing. This is fundamentally different from modern free-threshing bread wheat (*T. aestivum*), where the chaff separates easily during threshing. The tight hull is einkorn's defining processing challenge and the primary reason it was largely replaced by emmer and later bread wheat.
+Einkorn is a hulled wheat (Triticum monococcum), meaning the grain retains its tightly adhering husk (glume) after threshing. This is different from modern free-threshing bread wheat (*T. aestivum*), where the chaff separates easily during threshing. The tight hull is einkorn's defining processing challenge and the primary reason it was largely replaced by emmer and later bread wheat.
 
 **Threshing einkorn**:
 
@@ -97,7 +97,7 @@ Sift the freshly ground flour through a coarse sieve (2 mm mesh) to remove any r
 
 Einkorn flour has several distinctive characteristics that affect how it is used:
 
-- **Protein content**: 14-18% protein by weight — significantly higher than modern bread wheat (10-14%). However, the gluten proteins in einkorn are fundamentally different: einkorn is a diploid species (AA genome, 2n=14) with a simpler gluten structure compared to hexaploid bread wheat (AABBDD genome, 2n=42). Einkorn gluten is weaker and more extensible — it does not form the strong, elastic network needed for raised bread.
+- **Protein content**: 14-18% protein by weight — significantly higher than modern bread wheat (10-14%). However, the gluten proteins in einkorn are different: einkorn is a diploid species (AA genome, 2n=14) with a simpler gluten structure compared to hexaploid bread wheat (AABBDD genome, 2n=42). Einkorn gluten is weaker and more extensible — it does not form the strong, elastic network needed for raised bread.
 - **Dough behavior**: Einkorn dough is sticky, soft, and tears easily. It does not stretch into thin sheets (no windowpane) and has poor gas-retention capacity. Attempts to make raised bread with pure einkorn flour produce dense, flat loaves. This is not a flaw — einkorn was never used for raised bread historically. It is ideal for flatbreads, crackers, porridge, and pasta-like dishes.
 - **Best uses for einkorn flour**: Flatbreads (cook on a hot stone or griddle for 2-3 minutes per side), crackers, pie crusts, thickening agent for soups and stews, porridge (cook 1 part grain to 3 parts water for 30-40 minutes), and pasta-like dumplings. Einkorn flatbreads are denser but more flavorful than wheat flatbreads, with a nutty, slightly sweet taste.
 - **Carotenoid content**: Einkorn contains 5-8× more lutein and other carotenoids than modern wheat, giving the flour a distinctive golden-yellow color and providing significant antioxidant value. This also makes einkorn flour more prone to rancidity — store in a cool, dark location and use within 3-6 months of milling.
@@ -266,4 +266,4 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

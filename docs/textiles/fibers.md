@@ -293,5 +293,5 @@ Proper storage prevents fiber degradation before processing:
 - [Animal Materials](../animals/animal-materials.md) — wool and silk production
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
 

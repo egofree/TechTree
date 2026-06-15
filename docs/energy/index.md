@@ -74,4 +74,17 @@ Capabilities in this domain:
 - [Gasifier](gasifier.md) — Biomass and coal gasification reactors converting solid fuel to combustible producer gas for engines and synthesis.
 
 - [Biogas Digester](biogas-digester.md) — Anaerobic digestion systems converting organic waste to methane biogas for cooking, heating, and power generation.
-[↑ Back to Tech Tree](../../index.md)
+
+- [Battery & Electrochemical Storage](batteries.md) — Electrochemical batteries store energy in chemical form and release it as DC electricity through reversible reduction-oxidation reactions at two electrodes separated by an electrolyte.
+- [Blue Energy (Osmotic Power)](blue-energy.md) — Pressure-retarded osmosis and reverse electrodialysis generating electricity from the salinity gradient between freshwater and seawater.
+- [SEM Tech Blue Energy: Salinity-Gradient Power Generation](blue-energy.sem-tech.md) — Blue energy — also called salinity-gradient power (SGP) or osmotic power — harvests the free energy released when freshwater mixes with seawater.
+- [Electric Motor](electricity.motor.md) — Electric motors convert electrical energy into rotational mechanical power through the interaction of magnetic fields.
+- [SEM Tech Fuel Cells: Electrochemical Power Generation](fuel-cell.sem-tech.md) — Fuel cells convert chemical energy directly into electrical energy through electrochemical oxidation of a fuel (typically hydrogen) at an anode and reduction of an oxidant (typically oxygen from air) at a cathode.
+- [HVAC for General Industry](hvac.md) — Heating, ventilation, and air conditioning systems for industrial environments, including cleanrooms and precision manufacturing facilities.
+- [Hydraulic Power](hydraulics.md) — Generation and control of mechanical force through pressurized fluid systems. Hydraulic presses, jacks, and actuators multiply small input forces into enormous output forces, enabling heavy forming, lifting, and…
+- [Pneumatics](pneumatics.md) — Compression, storage, and distribution of air at pressure for mechanical work. Pneumatic systems use compressed air to power drills, hammers, hoists, and actuators in mining, construction, and manufacturing.
+- [Electric Power Systems for Semiconductor Fabrication](power-systems.md) — Ultra-clean power delivery for semiconductor fabs: voltage sag <10%, THD <3%, UPS systems (double-conversion, rotary), backup generators (diesel, fuel cells), power distribution units (PDUs), busway systems, power…
+- [Solar Thermal Collector](solar-thermal.collector.md) — Solar thermal collectors absorb solar radiation and convert it to useful heat in a working fluid — typically water, glycol solution, thermal oil, or air.
+
+[↑ Back to Tech Tree](../index.md)
+

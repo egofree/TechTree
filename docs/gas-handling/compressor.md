@@ -17,7 +17,7 @@
 
 ## Principle
 
-A gas compressor raises gas pressure by mechanically reducing its volume. Unlike liquids (essentially incompressible), gases follow the ideal gas law PV = nRT (or more accurately, PV = ZnRT where Z is the compressibility factor). Compression work heats the gas — adiabatic compression of air from 1 to 10 bar raises temperature from 20°C to approximately 250°C. Multi-stage compressors with intercoolers between stages approach isothermal (constant-temperature) compression, which requires the least work. The theoretical minimum work for isothermal compression from P₁ to P₂ is W = nRT × ln(P₂/P₁).
+A gas compressor raises gas pressure by mechanically reducing its volume. Unlike liquids (incompressible), gases follow the ideal gas law PV = nRT (or more accurately, PV = ZnRT where Z is the compressibility factor). Compression work heats the gas — adiabatic compression of air from 1 to 10 bar raises temperature from 20°C to approximately 250°C. Multi-stage compressors with intercoolers between stages approach isothermal (constant-temperature) compression, which requires the least work. The theoretical minimum work for isothermal compression from P₁ to P₂ is W = nRT × ln(P₂/P₁).
 
 Three main compressor families:
 
@@ -209,4 +209,4 @@ The number of compression stages determines both efficiency and discharge temper
 - [Iron & Steel](../metals/iron-steel.md) — materials for pressure-containing components
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

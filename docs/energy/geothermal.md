@@ -4,6 +4,7 @@
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](./electricity.md), [`energy.steam-power`](./steam-power.md),
 > [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None
 > **Timeline**: Years 20-50
 > **Outputs**: geothermal_heat, geothermal_steam, geothermal_electricity, ground_source_heat_pump
 > **Critical**: No — geothermal energy is regionally specific, providing baseload power where geological conditions permit
@@ -317,6 +318,11 @@ In locations without natural hydrothermal resources (most of the world), EGS cre
 
 Ground-source heat pumps achieve COP 3.0-5.0 year-round because the ground temperature is stable (10-16°C). Air-source heat pumps achieve COP 2.5-4.0 in mild weather but COP drops to 1.5-2.0 in extreme cold (-15°C to -25°C) when heating demand is highest. The ground-source system's higher installed cost (drilling) is offset by lower operating cost over its 20-30 year lifetime.
 
+
+## Safety
+
+Geothermal fluids contain hydrogen sulfide (H2S) — detectable by rotten-egg odor at 0.0005 ppm but causes olfactory paralysis at 100 ppm, making higher concentrations imperceptible and lethal at 700 ppm. Continuous H2S monitoring with alarms is mandatory near wellheads and separator stations. Geothermal brine is typically 80-300°C and silica-rich — thermal burns and scaling hazards. High-pressure steam lines (1-15 MPa) can whip catastrophically if ruptured — use guarded walkways and regular NDT inspection. Hydrogen sulfide is heavier than air — it pools in sumps, valve pits, and low-lying areas.
+
 ## See Also
 
 - **[Steam Power](steam-power.md)** — Steam cycles, boilers, and prime movers
@@ -331,4 +337,4 @@ Ground-source heat pumps achieve COP 3.0-5.0 year-round because the ground tempe
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

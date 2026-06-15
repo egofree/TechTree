@@ -5,6 +5,7 @@
 > **Parent**: [Lubricants, Oils & Fluid Mechanics](lubricants.md)
 > **Dependencies**: [`chemistry.alkalis`](./alkalis.md),
 > [`chemistry.lubricants-natural`](./lubricants-natural.md)
+> **Enables**: None
 > **Timeline**: Years 5-20
 > **Outputs**: grease, solid_lubricant, bearing_lubrication
 > **Critical**: No — grease and solid lubricants extend machine life and simplify bearing design but are not prerequisites for core capabilities
@@ -236,5 +237,5 @@ Grease and solid lubricant production involves several distinct hazard categorie
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
 

@@ -220,4 +220,4 @@ For a bootstrapping civilization, bronze fills the critical gap between copper (
 - [Sewing & Tailoring](../textiles/sewing-tailoring.md) — bronze needles and tools
 - [Medical Instruments](../health/medical-instruments.md) — bronze surgical tools
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Metals](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*

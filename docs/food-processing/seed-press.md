@@ -241,4 +241,4 @@ Soybean is included for reference but is a poor candidate for mechanical pressin
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Food Processing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

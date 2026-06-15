@@ -3,6 +3,7 @@
 > **Node ID**: automation.wafer-handling
 > **Domain**: [Automation & Robotics](./index.md)
 > **Dependencies**: `machine-tools`, `vacuum`
+> **Enables**: None
 > **Timeline**: Years 60-100+
 > **Outputs**: wafer_transfer_capability, cleanroom_robots, load_lock_systems
 > **Critical**: Yes — sub-250nm semiconductor manufacturing requires automated wafer handling; manual handling cannot meet particle and positioning requirements for leading-edge lithography
@@ -322,4 +323,4 @@ Modern process tools use cluster configurations where multiple process chambers 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Automation & Robotics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*

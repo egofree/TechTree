@@ -5,6 +5,7 @@
 > **Dependencies**: [`electronics.semiconductor-devices`](./semiconductor-devices.md),
 > [`electronics.passive-components`](./passive-components.md),
 > [`electronics.power-supply-circuits.rectifier-circuits`](./power-supply-circuits.rectifier-circuits.md)
+> **Enables**: None
 > **Outputs**: switching-regulator-design
 > **Timeline**: Years 20-40
 > **Critical**: No
@@ -428,6 +429,11 @@ The [power-electronics](./power-electronics.md) capability covers **system-level
 - **[Rectifier Circuits](./power-supply-circuits.rectifier-circuits.md)** — the upstream stage that produces unregulated DC.
 - **[Filter Circuits](./power-supply-circuits.filter-circuits.md)** — LC low-pass theory (the buck output stage is an LC filter operating at f_sw instead of 120 Hz).
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - **[Linear Regulators](./power-supply-circuits.linear-regulators.md)** — the low-noise, simple alternative for small dropout or low-current rails.
@@ -437,4 +443,4 @@ The [power-electronics](./power-electronics.md) capability covers **system-level
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

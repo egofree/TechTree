@@ -3,6 +3,7 @@
 > **Node ID**: measurement.optical-instruments
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: `measurement`, [`optics.inspection`](../optics/inspection.md)
+> **Enables**: None
 > **Timeline**: Years 30-45
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
@@ -251,4 +252,4 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 - [Photolithography](../photolithography/index.md) — overlay metrology and alignment measurement
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Measurement](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

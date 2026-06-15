@@ -7,7 +7,7 @@
 > [`gas-handling.basic`](../gas-handling/basic.md)
 > **Enables**: [`chemistry.ammonia`](./ammonia.md),
 > [`gas-handling.gas-purification`](../gas-handling/gas-purification.md),
-> [`machine-tools.joining.tig-welding`](../machine-tools/joining.tig-welding.md),
+> [`machine-tools.joining.tig-welding`](../machine-tools/tig-welding.md),
 > [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 20-40
 > **Outputs**: argon, nitrogen, oxygen
@@ -337,5 +337,5 @@ Lithium-exchanged zeolite (LiLSX) selectively adsorbs N₂ from air at near-ambi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 

@@ -8,7 +8,7 @@
 > **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md),
 > [`electronics.assembly`](../electronics/assembly.md),
 > [`electronics.packaging-testing`](../electronics/packaging-testing.md),
-> [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md),
+> [`photolithography.fab-processes.cmp`](../photolithography/cmp.md),
 > [`photolithography.resists-masks`](../photolithography/resists-masks.md),
 > [`polymers.composites`](./composites.md)
 > **Timeline**: Years 10-50
@@ -87,7 +87,7 @@ Process conditions vary by application:
 - Composite matrix: vacuum bag layup, cure 80–120°C under vacuum (0.8-0.95 bar negative pressure — the vacuum removes entrapped air and compacts the laminate). For high-performance aerospace composites: autoclave cure at 120-180°C under 0.3-0.7 MPa external pressure (autoclave pressure + vacuum produces the lowest void content, <0.5%).
 - Potting and encapsulation: pour or transfer mold, cure 80–150°C. Potting compounds must have low viscosity (5,000-15,000 mPa·s at 25°C) for complete void-free filling of electronic assemblies, low exotherm (maximum temperature rise <100°C during cure — excessive exotherm can damage temperature-sensitive components), and matched CTE (coefficient of thermal expansion — epoxy CTE ~50-80 ppm/°C, must be managed with silica filler to reduce CTE to ~20-30 ppm/°C for reliability in thermal cycling).
 
-Properties: high adhesive strength (tensile shear on Al-Al: 15-25 MPa for room-temperature-cured epoxy — one of the strongest structural adhesives available), excellent chemical resistance (resists water, oils, fuels, dilute acids and alkalis — cured epoxy is essentially insoluble in all common solvents), low shrinkage on cure (<2% — compared to 5-8% for polyester resin, the low shrinkage produces dimensionally accurate castings and minimal residual stress in bonded joints), good electrical insulation (volume resistivity 10¹³-10¹⁵ Ω·cm, dielectric strength 15-25 kV/mm — suitable for electronic potting and PCB substrate applications).
+Properties: high adhesive strength (tensile shear on Al-Al: 15-25 MPa for room-temperature-cured epoxy — one of the strongest structural adhesives available), excellent chemical resistance (resists water, oils, fuels, dilute acids and alkalis — cured epoxy is insoluble in all common solvents), low shrinkage on cure (<2% — compared to 5-8% for polyester resin, the low shrinkage produces dimensionally accurate castings and minimal residual stress in bonded joints), good electrical insulation (volume resistivity 10¹³-10¹⁵ Ω·cm, dielectric strength 15-25 kV/mm — suitable for electronic potting and PCB substrate applications).
 
 Applications: die attach adhesive ([Semiconductor Packaging](../chemistry/packaging-testing.md) — epoxy-silver adhesive attaches the silicon die to the lead frame with both mechanical bonding and thermal conductivity), IC encapsulation (transfer-molded epoxy with silica filler encapsulates the integrated circuit for mechanical and environmental protection — >95% of all ICs are packaged in epoxy molding compound), composite matrix resin (see [Composites](./composites.md)), structural adhesive (aircraft, automotive, and construction bonding — epoxy adhesives can replace rivets and bolts in many applications, distributing stress more evenly across the joint), PCB substrate bonding (copper-clad FR-4 laminate — the epoxy matrix bonds copper foil to the glass-fiber substrate), protective coatings (pipeline coatings, tank linings, marine anti-corrosion primers — epoxy provides the best adhesion to steel of any organic coating).
 
@@ -341,4 +341,4 @@ The mix ratio for epoxy systems is critical because it determines the crosslink 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

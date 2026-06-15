@@ -269,4 +269,4 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../index.md)*

@@ -14,4 +14,8 @@ Capabilities in this domain:
 
 - [Wafering](wafering.md) — Ingot preparation, wire saw and ID blade slicing, lapping, CMP polishing, RCA cleaning, epitaxial and SOI wafer production, wafer thinning, gettering, wafer-level metrology, die preparation, and yield economics.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Epitaxial Layer Growth](epitaxy.md) — CVD epitaxial growth of single-crystal silicon layers on polished wafer substrates using trichlorosilane or silane at 900-1200°C.
+- [SOI Wafer Production](soi.md) — Silicon-on-insulator wafer fabrication via SIMOX (oxygen implantation), Bonded SOI (wafer bonding and back-thinning), and Smart Cut (hydrogen-induced splitting) processes.
+
+[↑ Back to Tech Tree](../index.md)
+

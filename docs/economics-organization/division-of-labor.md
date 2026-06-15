@@ -427,4 +427,4 @@ For a bootstrap civilization, the optimal order for introducing specialists foll
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Economics & Organization](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

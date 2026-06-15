@@ -227,4 +227,4 @@ SMAW generates heat from an electric arc between a consumable coated electrode a
 - [Forge Hammer](forge-hammer.md) — alternative joining by forge welding
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

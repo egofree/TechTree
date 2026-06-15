@@ -61,4 +61,6 @@ Each capability builds on the one before it. The chain is strictly sequential be
 
 This is analogous to the [Machine Tools](../machine-tools/index.md) domain's Precision Ladder — each stage enables the next with increasing capability.
 
-[↑ Back to Tech Tree](../../index.md)
+**Domain justification**: The boundary between this domain and `computing/` is documented in the [SIK placement test](../supporting/sik-software-bootstrapping.md) (PASS with boundary conditions).
+
+[↑ Back to Tech Tree](../index.md)

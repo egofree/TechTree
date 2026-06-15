@@ -107,7 +107,7 @@ Potassium nitrate is the rate-limiting ingredient. It occurs naturally in cave d
 
 ## Blasting with Black Powder
 
-Black powder's primary mining application is breaking rock in shaft sinking, tunnel driving, and stoping. The procedure differs fundamentally from modern high-explosive blasting because black powder is a deflagrating explosive (burns rapidly) rather than a detonating one (shatters by shock wave). It works by building gas pressure in a confined drill hole until the rock fails in tension.
+Black powder's primary mining application is breaking rock in shaft sinking, tunnel driving, and stoping. The procedure differs from modern high-explosive blasting because black powder is a deflagrating explosive (burns rapidly) rather than a detonating one (shatters by shock wave). It works by building gas pressure in a confined drill hole until the rock fails in tension.
 
 ### Blast Hole Dimensions and Spacing
 
@@ -282,5 +282,5 @@ Proper handling of input materials and products is essential for consistent resu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Mining](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
 

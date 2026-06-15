@@ -13,4 +13,4 @@ Capabilities in this domain:
 - [Embedded Systems](embedded-systems.md) — Dedicated computing systems for real-time industrial control: microcontroller-based firmware for motor drives, temperature controllers, and automated equipment.
 - [Data Storage](data-storage.md) — Punch cards, paper tape, magnetic media, optical storage, and solid-state memory technologies.
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

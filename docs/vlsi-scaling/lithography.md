@@ -130,7 +130,7 @@ When feature sizes approach or fall below the exposure wavelength, diffraction d
 - Quadrupole (4 poles at 90°): Balanced for horizontal and vertical lines. Less effective per orientation than dipole but works for mixed patterns.
 - Annular (ring): General-purpose moderate improvement for all pattern types. Most common production OAI mode.
 - Freeform: Arbitrary pupil fill pattern computationally optimized via source-mask optimization (SMO). Best results, highest compute cost.
-- k₁ factor reduction: Conventional ~0.5-0.6. OAI + OPC + PSM pushes to 0.25-0.35. Below k₁ = 0.25, imaging is fundamentally impossible regardless of RET.
+- k₁ factor reduction: Conventional ~0.5-0.6. OAI + OPC + PSM pushes to 0.25-0.35. Below k₁ = 0.25, imaging is impossible regardless of RET.
 
 **Strengths**:
 - Model-based OPC corrects mask shapes iteratively until simulated wafer image matches target within ±1-2 nm — enables sub-wavelength patterning at k₁ < 0.35
@@ -303,7 +303,7 @@ Masks are master templates. A single mask defect prints on every die on every wa
 
 **Weaknesses**:
 - CAR environmental sensitivity requires amine concentration <1 ppb in litho bay — chemical air filtration on all recirculation ducts
-- EUV shot noise at ~5-10 photons per 10 nm pixel causes 10-20% dose variation — fundamentally limits LER to 3-5 nm
+- EUV shot noise at ~5-10 photons per 10 nm pixel causes 10-20% dose variation — limits LER to 3-5 nm
 
 ## Hazards & Safety
 
@@ -375,5 +375,5 @@ Select your lithography system based on target node and available capital:
 - [Advanced Lithography](advanced-lithography.md) — EUV deep dive: source technology, EUV resists, high-NA EUV, extreme-node patterning
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
 

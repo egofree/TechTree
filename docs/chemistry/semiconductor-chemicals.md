@@ -2,7 +2,8 @@
 
 > **Node ID**: chemistry.semiconductor-chemicals
 > **Domain**: [Chemistry](./index.md)
-> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/fab-processes.cmp.md),
+> **Dependencies**: None
+> **Enables**: [`photolithography.fab-processes.cmp`](../photolithography/cmp.md),
 > [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 40-70
 > **Outputs**: photoresist, tmah_developer, boe_etchant, cmp_slurry, cleanroom_chemicals
@@ -261,6 +262,11 @@ Wet etching is isotropic (etches equally in all directions) — this limits its 
 | HF dip leaves non-hydrophobic silicon surface (contact angle <70°) | Native oxide not fully removed; HF concentration too dilute or dip too brief | Use 1-2% HF for 15-30 seconds (etch rate ~2 nm/sec for thermal SiO₂); verify contact angle reaches 70-80° (hydrophobic, H-terminated); process wafers within 30 minutes for gate oxide or 2 hours for less critical steps before re-oxidation |
 | Soft bake leaves >5% residual solvent in resist film | Hotplate temperature below 90-110°C range or bake time insufficient for PGMEA (bp 146°C) or ethyl lactate (bp 154°C) removal | Verify hotplate at 90-110°C for 60-90 seconds; too much residual solvent causes film flow (pattern deformation), too little causes adhesion failure; target 3-5% residual solvent |
 
+
+## Safety
+
+Semiconductor processing uses extremely hazardous chemicals. Silane (SiH4) is pyrophoric — spontaneously flammable in air, causes severe thermal burns. Hydrofluoric acid (HF) causes deep tissue necrosis and fatal hypocalcemia at 2.5% body area exposure — always have calcium gluconate gel available. Chlorine trifluoride (ClF3) is hypergolic with virtually all organic materials and most metals. Arsine (AsH3) and phosphine (PH3) are lethal gases at 0.05 ppm TLV. All gas handling requires fully enclosed, interlocked gas cabinets with toxic gas detection, automated shutoff, and emergency scrubber systems. Personnel must use [supplied-air respirators](../ehs/ppe.md) for cylinder changes.
+
 ## See Also
 
 - **[Solvents](solvents.md)**: IPA, acetone, hydrogen peroxide — general solvent chemistry and RCA clean overview
@@ -273,4 +279,4 @@ Wet etching is isotropic (etches equally in all directions) — this limits its 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

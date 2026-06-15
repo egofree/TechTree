@@ -5,11 +5,12 @@
 > **Dependencies**: [`cleanrooms.facility-design`](../cleanrooms/facility-design.md),
 > [`economics-organization.division-of-labor`](../economics-organization/division-of-labor.md),
 > [`energy.electricity`](../energy/electricity.md), [`energy.hvac`](../energy/hvac.md)
+> **Enables**: None
 > **Timeline**: Years 15-40
 > **Outputs**: industrial_facilities, machine_foundations, vibration_isolation, crane_runways, factory_floors
 > **Critical**: Yes — precision manufacturing requires vibration-isolated foundations; heavy industry requires crane runways and reinforced floors
 
-Industrial buildings differ fundamentally from residential construction. They must support heavy point loads from machinery (5-50 tonnes per machine), resist dynamic forces from forging hammers and stamping presses (5-50 kJ per blow), provide clear spans of 15-30 m for production lines, and accommodate overhead cranes moving 5-50 tonnes. The building is not just shelter — it is an integral part of the production system.
+Industrial buildings differ from residential construction. They must support heavy point loads from machinery (5-50 tonnes per machine), resist dynamic forces from forging hammers and stamping presses (5-50 kJ per blow), provide clear spans of 15-30 m for production lines, and accommodate overhead cranes moving 5-50 tonnes. The building is not just shelter — it is an integral part of the production system.
 
 Every machine tool, forge hammer, steam engine, and generator requires a foundation designed to carry its weight and resist its dynamic forces. A lathe with 0.01 mm tolerance cannot sit on a floor that deflects 0.1 mm under a passing forklift. A forge hammer delivering 50 kJ blows will destroy its own foundation and the surrounding building if not properly isolated.
 
@@ -475,4 +476,4 @@ Every joint in an industrial building is a potential failure point. Joints must 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../index.md)*

@@ -246,4 +246,4 @@ The compounding nature of this sequence is its greatest strength: once the surfa
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

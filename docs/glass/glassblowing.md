@@ -390,4 +390,4 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Glass](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

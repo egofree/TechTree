@@ -3,13 +3,13 @@
 > **Node ID**: chemistry.explosives
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](./alkalis.md),
-> [`energy.fuels.charcoal`](../energy/fuels.charcoal.md)
+> [`energy.fuels.charcoal`](../energy/charcoal.md)
 > **Enables**: [`chemistry.explosives.black-powder`](./explosives.black-powder.md),
-> [`chemistry.explosives.detonation-blasting`](./explosives.detonation-blasting.md),
-> [`chemistry.explosives.high-explosives`](./explosives.high-explosives.md),
-> [`chemistry.explosives.nitrocellulose`](./explosives.nitrocellulose.md),
-> [`chemistry.explosives.nitroglycerin-dynamite`](./explosives.nitroglycerin-dynamite.md),
-> `defense`, [`mining.extraction.black-powder`](../mining/extraction.black-powder.md)
+> [`chemistry.explosives.detonation-blasting`](./detonation-blasting.md),
+> [`chemistry.explosives.high-explosives`](./high-explosives.md),
+> [`chemistry.explosives.nitrocellulose`](./nitrocellulose.md),
+> [`chemistry.explosives.nitroglycerin-dynamite`](./nitroglycerin-dynamite.md),
+> `defense`, [`mining.extraction.black-powder`](../mining/black-powder.md)
 > **Timeline**: Years 5-30+
 > **Outputs**: black_powder, nitrocellulose, dynamite, smokeless_powder
 > **Critical**: No — explosives accelerate mining and construction but are not prerequisites for core capabilities
@@ -42,7 +42,7 @@ The history of explosives mirrors the history of industrial civilization. Black 
 
 ## Articles in this capability
 
-- [**Black Powder**](black-powder.md) — Black powder manufacture (KNO₃/charcoal/sulfur): separate pulverization, wheel-mill mixing, corning, and granulation. The first explosive, foundational for mining and firearms.
+- [**Black Powder**](explosives.black-powder.md) — Black powder manufacture (KNO₃/charcoal/sulfur): separate pulverization, wheel-mill mixing, corning, and granulation. The first explosive, foundational for mining and firearms.
 - [**Nitrocellulose & Smokeless Powders**](nitrocellulose.md) — Nitration of cellulose to guncotton and pyroxylin. Manufacture of single-base and double-base smokeless powders. Foundation of modern propellants and early plastics.
 - [**Nitroglycerin & Dynamite**](nitroglycerin-dynamite.md) — Synthesis of nitroglycerin from glycerol and mixed acid, absorbed into diatomaceous earth to produce dynamite cartridges. The workhorse blasting explosive from the 1870s onward.
 - [**High Explosives (TNT, RDX, ANFO)**](high-explosives.md) — TNT via three-stage toluene nitration, RDX via Woolwich or Bachmann process, ANFO from ammonium nitrate prills and fuel oil. The mature industrial and military explosive palette.
@@ -202,4 +202,4 @@ For a bootstrapping civilization, the progression mirrors this history: black po
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

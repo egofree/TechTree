@@ -192,4 +192,4 @@ easier availability outweigh the performance difference.
 Tung oil polymerizes by oxidative crosslinking, generating heat as it cures. This exothermic reaction is strong enough that oil-soaked rags can spontaneously ignite if piled together. This fire hazard is well-known in woodworking shops and requires careful handling of all tung oil waste materials. The same polymerization reaction, properly controlled, produces the hard, waterproof finish that makes tung oil invaluable for protecting wood.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Plants](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants](./index.md) • [All Domains](../index.md)*

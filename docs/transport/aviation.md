@@ -5,6 +5,7 @@
 > **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md),
 > [`energy.engine`](../energy/engine.md), `machine-tools`,
 > [`metals.aluminum`](../metals/aluminum.md), `textiles`
+> **Enables**: None
 > **Timeline**: Years 10-50+
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
 > **Critical**: No
@@ -316,4 +317,4 @@ Note: Ethanol requires roughly 40% more volume than gasoline for the same energy
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Transport](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

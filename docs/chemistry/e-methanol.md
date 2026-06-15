@@ -188,7 +188,7 @@ The distillation section separates methanol from water and minor byproducts. Cru
 
 The overall process mass balance for e-methanol is determined by stoichiometry. Each tonne of methanol (CH₃OH, molecular weight 32) requires approximately 1.4 tonnes of CO₂ (molecular weight 44) and 0.19 tonnes of H₂ (molecular weight 2). The hydrogen in turn requires about 1.7 tonnes of water for electrolysis (accounting for inefficiencies). The electricity required for the hydrogen production alone exceeds 10 MWh per tonne of methanol. These mass and energy balances set the fundamental scale of the operation — a plant producing 100,000 tonnes of methanol per year requires roughly 400 GWh of electricity, 140,000 tonnes of CO₂, and 19,000 tonnes of hydrogen.
 
-The production of e-methanol is fundamentally limited by the availability and cost of green hydrogen. Water electrolysis using renewable electricity is the only route to truly carbon-neutral methanol, but it is also the most expensive hydrogen production method. As electrolyzer costs decrease and renewable electricity becomes cheaper, e-methanol production costs are expected to approach parity with fossil methanol. Until that point, e-methanol will be economically viable only in specific niche applications (marine fuel regulations, carbon credit markets, locations with stranded renewable electricity and no access to fossil fuels).
+The production of e-methanol is limited by the availability and cost of green hydrogen. Water electrolysis using renewable electricity is the only route to truly carbon-neutral methanol, but it is also the most expensive hydrogen production method. As electrolyzer costs decrease and renewable electricity becomes cheaper, e-methanol production costs are expected to approach parity with fossil methanol. Until that point, e-methanol will be economically viable only in specific niche applications (marine fuel regulations, carbon credit markets, locations with stranded renewable electricity and no access to fossil fuels).
 
 The water-gas shift reaction plays a supporting role in many methanol synthesis configurations. CO₂ can be partially converted to CO via the reverse water-gas shift (RWGS: CO₂ + H₂ → CO + H₂O), and the resulting CO then undergoes conventional methanol synthesis (CO + 2H₂ → CH₃OH). The CO route is thermodynamically more favorable than direct CO₂ hydrogenation, and some commercial catalysts are optimized for a mixed CO/CO₂ feed. The overall stoichiometry is the same regardless of the pathway taken, but the kinetics and thermodynamics differ, affecting reactor design and operating conditions.
 
@@ -210,5 +210,5 @@ The RWGS pathway requires an additional catalyst (typically iron-chrome or coppe
 The choice between direct CO₂ hydrogenation and the RWGS-mediated route depends on catalyst availability and the desired operating pressure and temperature.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Chemistry](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
 

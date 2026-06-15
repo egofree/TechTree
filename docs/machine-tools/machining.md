@@ -8,13 +8,13 @@
 > [`machine-tools.bearings-abrasives`](./bearings-abrasives.md),
 > [`machine-tools.hydraulic-systems`](./hydraulic-systems.md),
 > [`machine-tools.iterative-bootstrap`](./iterative-bootstrap.md)
-> **Enables**: [`energy.gravity.water-turbines`](../energy/gravity.water-turbines.md),
-> [`energy.steam-power.steam-turbines`](../energy/steam-power.steam-turbines.md),
+> **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md),
+> [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md),
 > [`energy.stirling-engine`](../energy/stirling-engine.md),
 > [`knowledge.printing`](../knowledge/printing.md),
 > [`machine-tools.edm-cnc`](./edm-cnc.md), [`machine-tools.fasteners`](./fasteners.md),
-> [`machine-tools.joining.friction-stir`](./joining.friction-stir.md),
-> [`machine-tools.joining.riveting`](./joining.riveting.md),
+> [`machine-tools.joining.friction-stir`](./friction-stir.md),
+> [`machine-tools.joining.riveting`](./riveting.md),
 > [`machine-tools.mass-production`](./mass-production.md),
 > [`mining.drilling`](../mining/drilling.md)
 > **Critical**: Yes — achieves the precise geometry, surface finish, and dimensional tolerance that make interchangeable parts possible
@@ -521,4 +521,4 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

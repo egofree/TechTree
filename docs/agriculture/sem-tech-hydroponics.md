@@ -2,7 +2,7 @@
 
 > **Node ID**: agriculture.sem-tech-hydroponics
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: [`chemistry.electrolysis.sem-tech`](../chemistry/electrolysis.sem-tech.md), [`chemistry.electrodialysis`](../chemistry/electrodialysis.md), [`energy.electricity`](../energy/electricity.md)
+> **Dependencies**: [`chemistry.electrolysis.sem-tech`](../chemistry/sem-tech.md), [`chemistry.electrodialysis`](../chemistry/electrodialysis.md), [`energy.electricity`](../energy/electricity.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: balanced_nutrient_solution
@@ -321,4 +321,4 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

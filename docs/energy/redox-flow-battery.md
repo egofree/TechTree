@@ -283,7 +283,7 @@ The baseline commercial electrolyte formulation, used in systems from Sumitomo, 
 | Component | Concentration | Mass per liter of electrolyte | Source |
 |-----------|--------------|-------------------------------|--------|
 | VOSO₄ (vanadyl sulfate) | 1.6 M V | ~260 g VOSO₄·xH₂O (anhydrous basis) | Vanadium pentoxide reduction |
-| H₂SO₄ (sulfuric acid) | 2.5 M | ~245 g H₂SO₄ (245 mL conc. 98% acid) | Contact process<!-- TODO: create stub --> |
+| H₂SO₄ (sulfuric acid) | 2.5 M | ~245 g H₂SO₄ (245 mL conc. 98% acid) | Contact process |
 | H₂O | Balance | ~700 g | Deionized |
 | Phosphoric acid (stabilizer) | 0.05-0.1 M | ~5-10 g H₃PO₄ | Prevents V₂O₅ precipitation above 35°C |
 
@@ -431,5 +431,5 @@ The $5/kWh target depends on SEM Tech membranes achieving adequate selectivity a
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 

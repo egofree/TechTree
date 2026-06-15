@@ -30,4 +30,4 @@ Capabilities in this domain:
 
 ---
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

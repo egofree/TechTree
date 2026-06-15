@@ -2,6 +2,7 @@
 
 > **Node ID**: energy.blue-energy
 > **Domain**: [Energy](./index.md)
+> **Dependencies**: None
 > **Enables**: [`chemistry.electrodialysis`](../chemistry/electrodialysis.md)
 > **Timeline**: Years 35-55
 > **Outputs**: electricity
@@ -195,6 +196,13 @@ Proper handling of membranes and water treatment chemicals ensures consistent sy
 - Replace O-rings and membrane gaskets at every module changeout — reused seals leak and bypass untreated water
 - Monitor pre-treatment filter cartridge differential pressure and replace before breakthrough
 - Coordinate with local water authority on intake and discharge permitting requirements
+## See Also
+
+- [Electrochemistry](../electrochemistry/electrochemical-processes.md) — ion-selective membrane fundamentals
+- [Desalination](../water/desalination.md) — related membrane-based water treatment
+- [Energy Index](./index.md) — overview of all energy capabilities
+
+
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
 

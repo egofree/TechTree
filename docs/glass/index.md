@@ -10,7 +10,7 @@ Capabilities in this domain:
 
 - [Photomask Glass Substrates & ULE Glass](photomask-substrates.md) — Semiconductor-grade photomask substrates: fused silica blanks (<250 nm flatness over 152 mm), ULE titanium silicate glass (CTE 0±30 ppb/°C for EUV), precision polishing, chromium sputtering, and sub-micron defect inspection.
 
-- [Advanced Glassblowing](advanced-glassblowing.md) — Precision glassblowing with borosilicate glass, lathe-assisted forming, and controlled annealing for scientific apparatus, thermometer tubes, and vacuum enclosures.
+- [Advanced Glassblowing](glassblowing.md) — Precision glassblowing with borosilicate glass, lathe-assisted forming, and controlled annealing for scientific apparatus, thermometer tubes, and vacuum enclosures.
 
 - [Glass Fibers](fibers.md) — Glass fiber production (fiberglass, insulation wool, optical fiber) from molten glass attenuated to 5-25 μm filaments for composites, insulation, and signal transmission.
 
@@ -18,4 +18,8 @@ Capabilities in this domain:
 
 - [Glass Recycling & Cullet Recovery](glass-recycling.md) — Reclaiming glass from end-of-life products as cullet feedstock, reducing raw material consumption and lowering melting energy for new glass production.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Advanced Glassblowing](advanced-glassblowing.md) — Basic glass production makes windows, bottles, and simple vessels. But scientific and industrial civilization requires precision glass apparatus — thermometers, distillation columns, vacuum-tight enclosures, optical…
+- [Float Glass Process](float-glass.md) — The Pilkington float glass process produces perfectly flat, parallel-surface glass ribbon without grinding or polishing.
+
+[↑ Back to Tech Tree](../index.md)
+

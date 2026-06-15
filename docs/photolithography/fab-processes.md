@@ -4,7 +4,7 @@
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md),
 > [`economics-organization.supply-chain`](../economics-organization/supply-chain.md),
-> [`metals.aluminum.semiconductor-grade`](../metals/aluminum.semiconductor-grade.md),
+> [`metals.aluminum.semiconductor-grade`](../metals/semiconductor-grade.md),
 > [`silicon.wafering`](../silicon/wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
 > **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md),
 > [`computing.electronic`](../computing/electronic.md),
@@ -210,7 +210,7 @@ Total thermal exposure after source/drain implant must be limited to prevent exc
 
 ### Process Step Count and Yield
 
-A single-level metal NMOS process requires ~80-100 individual operations (including cleans, measurements, and inspections). A two-level metal CMOS process expands to 120-150 operations. Each operation has a finite defect rate. If each step introduces an average of 0.5 defects/cm² and the die area is 0.5 cm², then for 100 process steps: Yield = (1 - 0.5 × 0.5)¹⁰⁰ = (0.75)¹⁰⁰ ≈ 3 × 10⁻¹³ — essentially zero. Reducing per-step defect density to 0.01/cm² raises yield to (1 - 0.005)¹⁰⁰ ≈ 60%. This exponential sensitivity to defect density is why cleanrooms, process control, and contamination discipline are non-negotiable for semiconductor manufacturing.
+A single-level metal NMOS process requires ~80-100 individual operations (including cleans, measurements, and inspections). A two-level metal CMOS process expands to 120-150 operations. Each operation has a finite defect rate. If each step introduces an average of 0.5 defects/cm² and the die area is 0.5 cm², then for 100 process steps: Yield = (1 - 0.5 × 0.5)¹⁰⁰ = (0.75)¹⁰⁰ ≈ 3 × 10⁻¹³ — zero. Reducing per-step defect density to 0.01/cm² raises yield to (1 - 0.005)¹⁰⁰ ≈ 60%. This exponential sensitivity to defect density is why cleanrooms, process control, and contamination discipline are non-negotiable for semiconductor manufacturing.
 
 ## Troubleshooting
 
@@ -243,5 +243,5 @@ A single-level metal NMOS process requires ~80-100 individual operations (includ
 - [EDA Design](../vlsi-scaling/eda-design.md) — VLSI design to fabrication
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
 

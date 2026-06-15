@@ -231,4 +231,4 @@ Transport costs favor regional production. Mineral wool and foam boards are low-
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Ceramics](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Ceramics](./index.md) · [All Domains](../index.md)*

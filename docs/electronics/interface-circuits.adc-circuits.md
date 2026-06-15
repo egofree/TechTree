@@ -4,6 +4,7 @@
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md),
 > [`electronics.passive-components`](passive-components.md)
+> **Enables**: None
 > **Outputs**: adc-designs
 > **Timeline**: Years 30-50
 > **Critical**: No — mixed-signal interface pedagogy; the underlying semiconductor and passive-component manufacturing capabilities are the critical prerequisites
@@ -159,7 +160,7 @@ The name "thermometer" comes from the output pattern: for an input of level k, c
 | 6 | 63 | 64 | Yes |
 | 8 | 255 | 256 | Yes — large die |
 | 10 | 1023 | 1024 | Rare — huge, hot |
-| 12 | 4095 | 4096 | Essentially never |
+| 12 | 4095 | 4096 | never |
 
 Doubling resolution doubles the die area, the input capacitance (which loads the signal source), and the power. This is why flash ADCs are almost always 6–8 bits. For higher resolution at near-flash speed, designers chain two or three low-resolution flash stages in a **pipelined** or **sub-ranging** converter — each stage resolves a few bits, subtracts the resolved voltage via an internal DAC, amplifies the residue, and passes it to the next stage. That trades latency (several clock cycles of pipeline delay) for resolution.
 
@@ -267,4 +268,9 @@ This article covers the **conversion architectures** — sampling, quantization,
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

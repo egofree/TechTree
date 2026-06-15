@@ -4,6 +4,7 @@
 > **Domain**: [Mining](./index.md)
 > **Dependencies**: [`energy.steam-power`](../energy/steam-power.md),
 > [`machine-tools.machining`](../machine-tools/machining.md), `mining`
+> **Enables**: None
 > **Timeline**: Years 12-20
 > **Outputs**: blast_holes, core_samples, exploration_data
 > **Critical**: No
@@ -300,4 +301,4 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

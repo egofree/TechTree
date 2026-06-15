@@ -277,4 +277,4 @@ Semiconductor SPC generates large data volumes requiring automated analysis:
 - [Computing](../computing/index.md) — SPC software and data analysis
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Quality Control](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control](./index.md) • [All Domains](../index.md)*

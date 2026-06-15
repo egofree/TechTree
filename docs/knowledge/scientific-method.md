@@ -3,6 +3,7 @@
 > **Node ID**: knowledge.scientific-method
 > **Domain**: [Knowledge Preservation & Education](./index.md)
 > **Dependencies**: [`knowledge.writing`](./writing.md), `mathematics`, `measurement`
+> **Enables**: None
 > **Timeline**: Years 5-20
 > **Outputs**: validated_knowledge, experimental_protocols, reproducible_results
 > **Critical**: Yes — without systematic experimental methodology, all downstream engineering disciplines rely on trial-and-error rather than cumulative knowledge
@@ -268,4 +269,4 @@ The scientific method requires physical infrastructure. Start crude and iterate:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge](./index.md) • [All Domains](../index.md)*

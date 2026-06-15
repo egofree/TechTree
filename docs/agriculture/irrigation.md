@@ -3,6 +3,7 @@
 > **Node ID**: agriculture.irrigation
 > **Domain**: [Agriculture](./index.md)
 > **Dependencies**: `construction`, `energy`, [`water.distribution`](../water/distribution.md)
+> **Enables**: None
 > **Timeline**: Years 0-15+
 > **Outputs**: irrigation_water, irrigated_land, water_delivery_infrastructure
 > **Critical**: Yes — in arid and semi-arid climates, irrigation is the difference between productive agriculture and subsistence failure
@@ -296,4 +297,4 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Agriculture](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

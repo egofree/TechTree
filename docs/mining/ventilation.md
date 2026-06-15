@@ -3,6 +3,7 @@
 > **Node ID**: mining.ventilation
 > **Domain**: [Mining](./index.md)
 > **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), `mining`
+> **Enables**: None
 > **Timeline**: Years 10-18
 > **Outputs**: breathable_air, methane_control, dust_suppression
 > **Critical**: No
@@ -235,6 +236,11 @@ The wet bulb globe temperature (WBGT) index combines dry-bulb temperature, natur
 | Excessive heat at depth | Geothermal gradient and diesel heat load | Install cooling coils or spot coolers; restrict diesel equipment; increase airflow volume; schedule heavy work for cooler shifts |
 | Fan motor overheating | Electrical fault or airflow restriction | Check motor current draw; clear debris from fan inlet; verify belt tension; inspect for bearing wear |
 
+
+## Safety
+
+Underground mine atmospheres contain lethal hazards. Methane (CH4) is explosive at 5-15% in air — continuous monitoring with Catalytic Heat of Combustion (CHC) sensors at working faces is mandatory. Carbon monoxide (CO) from blasting and diesel equipment is lethal at 0.1% — electrochemical sensors trigger evacuation at 50 ppm. Radon progeny (Po-218, Po-214) in uranium mines causes lung cancer at cumulative exposures above 4 WLM/year. Sufficient ventilation (0.5-6 m³/s per tonne of daily production depending on ore type) is the primary control. Stoppings, overcasts, and booster fans must maintain directed airflow with no recirculation. Fire in a ventilated airway propagates rapidly — CO triggers and escape routes must be drilled monthly.
+
 ## See Also
 
 - [Drilling](drilling.md) — compressed air for drills and shared infrastructure
@@ -246,4 +252,4 @@ The wet bulb globe temperature (WBGT) index combines dry-bulb temperature, natur
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

@@ -231,4 +231,4 @@ Raw natural gas from wells contains methane (70-90%), ethane (1-10%), propane/bu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

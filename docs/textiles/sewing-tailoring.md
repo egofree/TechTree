@@ -4,6 +4,7 @@
 > **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`metals.bronze`](../metals/bronze.md), `textiles`,
 > [`textiles.weaving`](./weaving.md)
+> **Enables**: None
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
 > **Critical**: No
@@ -317,4 +318,4 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - [Mining Equipment](../mining/index.md) — sewn products used in mining
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Textiles](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

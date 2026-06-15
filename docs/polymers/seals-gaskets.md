@@ -2,6 +2,7 @@
 
 > **Node ID**: polymers.seals-gaskets
 > **Domain**: [Polymers & Composites](./index.md)
+> **Dependencies**: None
 > **Enables**: `gas-handling`
 > **Timeline**: Years 10-30
 > **Outputs**: o-rings, gaskets, compression-packing, lip-seals
@@ -331,4 +332,4 @@ In bootstrap scenarios without precision molding:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

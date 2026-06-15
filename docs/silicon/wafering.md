@@ -5,8 +5,8 @@
 > **Dependencies**: `silicon`, [`silicon.crystal-growth`](./crystal-growth.md)
 > **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md),
 > [`silicon.basic-devices`](./basic-devices.md),
-> [`silicon.wafering.epitaxy`](./wafering.epitaxy.md),
-> [`silicon.wafering.soi`](./wafering.soi.md)
+> [`silicon.wafering.epitaxy`](./epitaxy.md),
+> [`silicon.wafering.soi`](./soi.md)
 > **Timeline**: Years 45-60
 > **Outputs**: silicon_wafers, polished_substrates, epitaxial_wafers
 > **Critical**: Yes — polished wafers are the substrate for all semiconductor device fabrication
@@ -295,7 +295,7 @@ Every wafer must be inspected after each major processing step. Defective wafers
 
 **Known good die (KGD)**: For multi-chip modules and system-in-package (SiP) applications, bare die must be fully tested to the same quality level as packaged parts. KGD testing includes: full-speed functional test at the wafer level (requires high-speed probe cards with 10+ GHz bandwidth), burn-in at 125-150°C under bias for 24-168 hours, and hot/cold test at -40°C to +125°C. KGD cost premium: 20-50% over standard die. Without KGD, assembly yield of multi-chip modules degrades multiplicatively — a 4-chip module with 95% good die each has only 81.5% module yield; with KGD at 99.5% confidence, module yield improves to 98.0%.
 
-**Die yield economics**: For a 300 mm wafer costing $50-80, containing ~700 die of 10 × 10 mm each at 80% yield, the cost per known-good die is ~$0.089 — the wafer is the cheapest part of semiconductor manufacturing. The subsequent processing (30-50 process steps) adds $200-1000 per wafer. This is why semiconductor manufacturing is fundamentally a yield business: a 10% yield improvement (80% → 90%) on a $1000 wafer saves ~$125 per wafer in effective die cost, worth $12.5 million per year on a 100,000 wafers/month fab.
+**Die yield economics**: For a 300 mm wafer costing $50-80, containing ~700 die of 10 × 10 mm each at 80% yield, the cost per known-good die is ~$0.089 — the wafer is the cheapest part of semiconductor manufacturing. The subsequent processing (30-50 process steps) adds $200-1000 per wafer. This is why semiconductor manufacturing is a yield business: a 10% yield improvement (80% → 90%) on a $1000 wafer saves ~$125 per wafer in effective die cost, worth $12.5 million per year on a 100,000 wafers/month fab.
 
 ## Cost Structure of Wafer Production
 
@@ -426,5 +426,5 @@ Wafering involves mechanical cutting, chemical etching, and polishing with hazar
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
 

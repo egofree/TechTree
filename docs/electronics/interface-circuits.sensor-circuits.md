@@ -5,6 +5,7 @@
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md),
 > [`electronics.passive-components`](passive-components.md),
 > [`electronics.interface-circuits.adc-circuits`](interface-circuits.adc-circuits.md)
+> **Enables**: None
 > **Outputs**: sensor-circuit-designs
 > **Timeline**: Years 30-50
 > **Critical**: No — interface-circuit pedagogy; the underlying semiconductor devices and passive-component manufacturing capabilities are the critical prerequisites
@@ -233,14 +234,14 @@ At balance (V_out = 0) the four arms satisfy `R1/R2 = RTD/R4`. When the RTD chan
     V_out ≈ (V_exc / 4) · (ΔR / R0)        (quarter-bridge, small ΔR)
 ```
 
-For a Pt100 with V_exc = 5 V at ΔT = +1 °C: ΔR = 0.385 Ω, so V_out ≈ (5/4)·(0.385/100) ≈ **4.8 mV/°C** — clean, differential, and (crucially) zero at the reference temperature, so the in-amp can use its full gain on the signal of interest rather than on a large offset.
+For a Pt100 with V_exc = 5 V at ΔT = +1 °C: ΔR = 0.385 Ω, so V_out ≈ (5/4)·(0.385/100) ≈ **4.8 mV/°C** — clean, differential, and zero at the reference temperature, so the in-amp can use its full gain on the signal of interest rather than on a large offset.
 
 ### Lead resistance: 3-wire and 4-wire compensation
 
 A Pt100's lead wires add maybe 0.1–1 Ω per lead — equivalent to 0.25–2.6 °C of error. Two compensation schemes defeat this:
 
 - **3-wire:** One lead is in each of the two lower arms of the bridge; if both leads have equal resistance their offsets cancel. The industrial default when the sensor is a few metres away.
-- **4-wire (Kelvin):** Two leads carry the excitation current, two sense the voltage across the RTD with a high-impedance meter (essentially zero current, so zero lead drop). Removes lead resistance entirely — the laboratory choice for highest accuracy.
+- **4-wire (Kelvin):** Two leads carry the excitation current, two sense the voltage across the RTD with a high-impedance meter (zero current, so zero lead drop). Removes lead resistance entirely — the laboratory choice for highest accuracy.
 
 ---
 
@@ -371,4 +372,9 @@ This article covers the **major sensor families and their conditioning circuits*
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

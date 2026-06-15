@@ -3,10 +3,10 @@
 > **Node ID**: vacuum.pumps
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `machine-tools`
-> **Enables**: [`machine-tools.joining.electron-beam`](../machine-tools/joining.electron-beam.md),
-> [`optics.inspection.optical-coatings`](../optics/inspection.optical-coatings.md),
+> **Enables**: [`machine-tools.joining.electron-beam`](../machine-tools/electron-beam.md),
+> [`optics.inspection.optical-coatings`](../optics/optical-coatings.md),
 > [`photolithography.fab-processes`](../photolithography/fab-processes.md),
-> [`photolithography.fab-processes.pvd`](../photolithography/fab-processes.pvd.md),
+> [`photolithography.fab-processes.pvd`](../photolithography/pvd.md),
 > [`silicon.basic-devices`](../silicon/basic-devices.md),
 > [`vacuum.deposition-systems`](./deposition-systems.md)
 > **Critical**: Yes — vacuum pumps are required for all semiconductor thin-film deposition, lithography, and packaging processes; no alternative to mechanical vacuum pumping exists
@@ -114,7 +114,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 | Ultimate vacuum | 10⁻¹⁰ mbar (with baking) | 10⁻¹⁰ mbar | 10⁻¹⁰ mbar |
 | Backing requirement | <0.1-1 mbar foreline | <0.1-1 mbar | <0.1-1 mbar |
 
-- **Bearing types**: Ceramic ball bearings (standard, lifetime ~30,000-50,000 hours, require periodic lubrication) vs. active magnetic levitation bearings (lifetime essentially unlimited, no lubrication, no vibration, but more expensive and require backup power for safe spin-down during power failure).
+- **Bearing types**: Ceramic ball bearings (standard, lifetime ~30,000-50,000 hours, require periodic lubrication) vs. active magnetic levitation bearings (lifetime unlimited, no lubrication, no vibration, but more expensive and require backup power for safe spin-down during power failure).
 - **Vibration considerations**: At 40,000-90,000 RPM, turbopumps transmit vibration to the chamber. For vibration-sensitive applications (SEM, TEM, atomic force microscopy), use: (1) magnetically levitated turbo (zero mechanical contact), (2) vibration isolation bellows between pump and chamber, or (3) mount pump on a separate frame connected by a flexible bellows. Typical vibration amplitude: 0.1-1 μm for ball-bearing pumps, <0.01 μm for mag-lev.
 - **Corrosive gas service**: For pumping corrosive process gases (Cl₂, F₂, CF₄, SF₆ decomposition products), use a turbo with nickel-coated rotor and stator blades, and FKM (Viton) or PTFE seals. Standard stainless/ aluminum turbos corrode rapidly in halogen service. Purge the pump with dry N₂ after corrosive gas processing to extend life.
 - **Protection devices**: Install a foreline pressure sensor interlocked to the turbo controller. If foreline pressure exceeds the critical backing pressure (typically 1-10 mbar), the turbo stalls and the controller must shut down the pump to prevent rotor contact. Sudden pressure bursts from process upsets can destroy a turbo in seconds — a fast-acting gate valve between chamber and pump provides protection.
@@ -257,7 +257,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 
 **Titanium sublimation pumps (TSP)**: Periodically heat a titanium filament to ~1400°C, subliming a fresh titanium film onto nearby chamber walls. The fresh titanium is an extremely active getter that chemisorbs active gases (O₂, N₂, H₂, CO, CO₂, H₂O).
 
-- **Pumping speed**: Very high for active gases: 1-10 L/s per cm² of fresh titanium surface (100-10,000 L/s total depending on chamber geometry). Essentially zero pumping for noble gases (Ar, He, Ne).
+- **Pumping speed**: Very high for active gases: 1-10 L/s per cm² of fresh titanium surface (100-10,000 L/s total depending on chamber geometry). Zero pumping for noble gases (Ar, He, Ne).
 - **Filament life**: Each filament (Ti alloy wire, typically 85% Ti / 15% Mo) lasts 30-100 sublimation cycles. Typical system has 3 filaments for ~200-300 total cycles. Filament current: 30-50 A at 2-4 V.
 - **Usage pattern**: Sublime for 30-60 seconds to deposit fresh film, then the film pumps continuously until saturated (hours to days depending on gas load). Sublime again when pressure rises. In a well-baked UHV system, a single sublimation can maintain UHV for weeks.
 - **Integration**: TSP is always used as a supplemental pump alongside an ion pump (which handles noble gases) or cryopump.
@@ -379,4 +379,4 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Vacuum Technology](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

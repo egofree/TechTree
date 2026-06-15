@@ -206,5 +206,5 @@ The compression press is simpler to build than an injection molding machine — 
 - [Energy Systems](../energy/index.md) — hydraulic system design and component selection
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
 

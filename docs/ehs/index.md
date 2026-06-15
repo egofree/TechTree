@@ -16,4 +16,4 @@ Capabilities in this domain:
 
 - [Radiation Safety](radiation-safety.md) — Ionizing radiation protection, shielding design, dosimetry, contamination control, and dose limits for occupational and public exposure.
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

@@ -64,17 +64,17 @@ A comparison of the fifteen primary farmed species across the metrics that matte
 | Donkeys | 180-450 | 365 | 5-10 | 15-25 | 10-15 | N/A (work) | [Equines](equines.md) |
 | Camelids | 130-200 | 345 | 3-5 | 8-15 | 6-10 | N/A (fiber) | [Camelids](camelids.md) |
 | Rabbits | 3-5 | 31 | 0.15-0.25 | 0.3-0.5 | 0.5-1.0 | 10-12 wk | [Rabbits](rabbits.md) |
-| Chickens | 1.5-4.5 | 21 (inc.) | 0.1-0.15 | 0.25-0.4 | 0.05 (perch) | 6-16 wk | [Chickens](poultry-chickens.md) |
-| Coturnix Quail | 0.1-0.2 | 17 (inc.) | 0.02-0.03 | 0.05 | 0.02-0.05 | 6-8 wk | [Coturnix](poultry-coturnix.md) |
-| Ducks | 2-5 | 28 (inc.) | 0.12-0.2 | 0.5-1.0 | 0.5-1.0 | 7-10 wk | [Ducks](poultry-ducks.md) |
-| Geese | 4-10 | 28-30 (inc.) | 0.15-0.3 | 0.5-1.0 | 2-5 | 12-20 wk | [Geese](poultry-geese.md) |
-| Turkeys | 4-15 | 28 (inc.) | 0.15-0.4 | 0.5-1.0 | 20+ (range) | 16-24 wk | [Turkeys](poultry-turkeys.md) |
-| Guinea Fowl | 1.2-1.6 | 26-28 (inc.) | 0.03-0.08 | 0.2-0.4 | Free range | 12-16 wk | [Guinea Fowl](poultry-guinea-fowl.md) |
-| Pigeons | 0.35-0.8 | 17 (inc.) | 0.03-0.05 | 0.05-0.1 | 0.2 (loft) | 26-30 days | [Pigeons](poultry-pigeons.md) |
+| Chickens | 1.5-4.5 | 21 (inc.) | 0.1-0.15 | 0.25-0.4 | 0.05 (perch) | 6-16 wk | [Chickens](poultry.chickens.md) |
+| Coturnix Quail | 0.1-0.2 | 17 (inc.) | 0.02-0.03 | 0.05 | 0.02-0.05 | 6-8 wk | [Coturnix](poultry.coturnix.md) |
+| Ducks | 2-5 | 28 (inc.) | 0.12-0.2 | 0.5-1.0 | 0.5-1.0 | 7-10 wk | [Ducks](poultry.ducks.md) |
+| Geese | 4-10 | 28-30 (inc.) | 0.15-0.3 | 0.5-1.0 | 2-5 | 12-20 wk | [Geese](poultry.geese.md) |
+| Turkeys | 4-15 | 28 (inc.) | 0.15-0.4 | 0.5-1.0 | 20+ (range) | 16-24 wk | [Turkeys](poultry.turkeys.md) |
+| Guinea Fowl | 1.2-1.6 | 26-28 (inc.) | 0.03-0.08 | 0.2-0.4 | Free range | 12-16 wk | [Guinea Fowl](poultry.guinea-fowl.md) |
+| Pigeons | 0.35-0.8 | 17 (inc.) | 0.03-0.05 | 0.05-0.1 | 0.2 (loft) | 26-30 days | [Pigeons](poultry.pigeons.md) |
 
 ## Species Articles
 
-**[Poultry](poultry.md)** (overview: [Poultry Farming](poultry.md)): [Chickens](poultry-chickens.md) • [Coturnix Quail](poultry-coturnix.md) • [Ducks](poultry-ducks.md) • [Geese](poultry-geese.md) • [Turkeys](poultry-turkeys.md) • [Guinea Fowl](poultry-guinea-fowl.md) • [Pigeons & Squab](poultry-pigeons.md)
+**[Poultry](poultry.md)** (overview: [Poultry Farming](poultry.md)): [Chickens](poultry.chickens.md) • [Coturnix Quail](poultry.coturnix.md) • [Ducks](poultry.ducks.md) • [Geese](poultry.geese.md) • [Turkeys](poultry.turkeys.md) • [Guinea Fowl](poultry.guinea-fowl.md) • [Pigeons & Squab](poultry.pigeons.md)
 
 **Livestock**: [Cattle](cattle.md) • [Sheep](sheep.md) • [Goats](goats.md) • [Pigs](pigs.md) • [Equines (Horses & Donkeys)](equines.md) • [Camelids](camelids.md) • [Bison](bison.md) • [Rabbits](rabbits.md)
 
@@ -214,7 +214,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Rotational grazing**: Divide available pasture into 6-12 paddocks using temporary electric fencing or permanent fences. Graze each paddock for 3-5 days, then rotate to the next. Rest period allows regrowth: 20-30 days in spring (fast growth), 40-60 days in summer (slower growth). This system increases forage utilization by 20-30% compared to continuous grazing, reduces selective grazing (animals eat everything rather than only preferred species), and breaks parasite life cycles because most nematode larvae die within 60-90 days without a host on the pasture.
 
-**Mixed-species grazing**: Cattle prefer grass, sheep graze forbs and short grass, goats browse woody plants. Running two or more species on the same land (either simultaneously or in sequence) utilizes 30-40% more of the available forage than single-species grazing. Cattle and sheep are the most common combination: cattle take the tall grass, sheep follow and graze closer to ground level. Goats and sheep share some dietary overlap but goats prefer browse. stocking density for mixed cattle-sheep: 2 cattle + 8 sheep per hectare on good pasture. Mixed grazing also dilutes parasite loads, as cattle nematodes cannot complete their life cycle in sheep and vice versa.
+**Mixed-species grazing**: Cattle prefer grass, sheep graze forbs and short grass, goats browse woody plants. Running two or more species on the same land (either simultaneously or in sequence) uses 30-40% more of the available forage than single-species grazing. Cattle and sheep are the most common combination: cattle take the tall grass, sheep follow and graze closer to ground level. Goats and sheep share some dietary overlap but goats prefer browse. stocking density for mixed cattle-sheep: 2 cattle + 8 sheep per hectare on good pasture. Mixed grazing also dilutes parasite loads, as cattle nematodes cannot complete their life cycle in sheep and vice versa.
 
 **Strip grazing**: For limited winter pasture or crop residue grazing, use a movable electric fence to allocate a fresh strip of forage daily. Animals graze the allocated strip completely before the fence advances, achieving 80-90% utilization with minimal waste. particularly effective for grazing standing corn, kale, or fodder beet through winter — the fence prevents trampling and fouling of ungrazed forage. Advance the fence 2-5 m/day depending on forage density and animal numbers.
 
@@ -252,4 +252,4 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

@@ -5,6 +5,7 @@
 > **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md),
 > [`energy.electricity`](../energy/electricity.md),
 > [`polymers.thermoplastics`](../polymers/thermoplastics.md)
+> **Enables**: None
 > **Timeline**: Years 15-30
 > **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers, motors
 > **Critical**: Yes — electrical systems deliver power from generators to every industrial machine, lighting circuit, and electronic device; without reliable wiring, switchgear, and protection, electrification is impossible
@@ -302,4 +303,4 @@ Decision criterion: Use HRC fuses when available fault current >65 kA or when pr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

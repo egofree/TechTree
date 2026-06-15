@@ -21,19 +21,19 @@ Capabilities in this domain:
 
 - **[Poultry Farming](poultry.md)** — Chickens, quail, ducks, geese, turkeys, guinea fowl, pigeons. Eggs, meat, feathers, pest control.
 
-  - **[Chickens](poultry-chickens.md)** — Gateway livestock: eggs, meat, feathers, manure with modest infrastructure.
+  - **[Chickens](poultry.chickens.md)** — Gateway livestock: eggs, meat, feathers, manure with modest infrastructure.
 
-  - **[Coturnix Quail](poultry-coturnix.md)** — Fastest-producing micro-livestock: eggs and meat in under two months from egg to table.
+  - **[Coturnix Quail](poultry.coturnix.md)** — Fastest-producing micro-livestock: eggs and meat in under two months from egg to table.
 
-  - **[Ducks](poultry-ducks.md)** — Hardy foragers thriving in wet environments; large eggs, meat, down, and pest control.
+  - **[Ducks](poultry.ducks.md)** — Hardy foragers thriving in wet environments; large eggs, meat, down, and pest control.
 
-  - **[Geese](poultry-geese.md)** — Largest poultry species; efficient pasture grazers, weeders, guardians, and down producers.
+  - **[Geese](poultry.geese.md)** — Largest poultry species; efficient pasture grazers, weeders, guardians, and down producers.
 
-  - **[Guinea Fowl](poultry-guinea-fowl.md)** — Unmatched tick and insect hunters with loud predator alarm calls.
+  - **[Guinea Fowl](poultry.guinea-fowl.md)** — Unmatched tick and insect hunters with loud predator alarm calls.
 
-  - **[Pigeons](poultry-pigeons.md)** — Self-foraging squab producers and premium guano fertilizer source.
+  - **[Pigeons](poultry.pigeons.md)** — Self-foraging squab producers and premium guano fertilizer source.
 
-  - **[Turkeys](poultry-turkeys.md)** — Largest meat bird; premium carcass with nitrogen-rich manure.
+  - **[Turkeys](poultry.turkeys.md)** — Largest meat bird; premium carcass with nitrogen-rich manure.
 
 - **[Cattle Husbandry](cattle.md)** — Dairy, beef, draft power. Milk, tallow, leather, manure.
 
@@ -52,4 +52,4 @@ Capabilities in this domain:
 
 - **[Insect Farming (BSF)](insect-farming.md)** — Black Soldier Fly larvae for protein feed, biowaste conversion.
 
-[↑ Back to Tech Tree](../../index.md)
+[↑ Back to Tech Tree](../index.md)

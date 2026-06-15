@@ -3,6 +3,7 @@
 > **Node ID**: machine-tools.bearings
 > **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Dependencies**: [`machine-tools.iterative-bootstrap`](./iterative-bootstrap.md)
+> **Enables**: None
 > **Timeline**: Years 10-25
 > **Outputs**: bearings, ball_bearings, plain_bearings, babbitt_linings
 > **Critical**: Yes — precision enablers for all machine tool construction
@@ -194,4 +195,10 @@ Bearing production scales dramatically with precision capability:
 - [Iron & Steel](../metals/iron-steel.md) — bearing steel (52100) and tool steel production
 - [Casting](../metals/casting.md) — casting bearing shells
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
+
+## See Also
+
+- [Lubricants](../chemistry/lubricants-grease-solid.md) — bearing lubrication and wear reduction
+- [Power Transmission](power-transmission.md) — shafts, couplings, and bearing mounting
+- [Machine Tools Index](./index.md) — overview of all machine tool capabilities

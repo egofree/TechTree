@@ -289,5 +289,5 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 

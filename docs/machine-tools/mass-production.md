@@ -2,6 +2,7 @@
 
 > **Node ID**: machine-tools.mass-production
 > **Domain**: [Machine Tools Bootstrap](./index.md)
+> **Enables**: None
 > **Timeline**: Years 15-30
 > **Outputs**: interchangeable_parts, standardized_assemblies, production_lines
 > **Dependencies**: [`machine-tools.bearings-abrasives`](./bearings-abrasives.md),
@@ -373,5 +374,5 @@ Mass production concentrates multiple hazards in a single facility. The combinat
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*
 

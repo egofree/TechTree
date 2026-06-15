@@ -236,4 +236,4 @@ The stone anvil bounces hammer energy poorly and chips under repeated steel hamm
 - Rebound test for anvil condition: Drop a 25 mm steel ball bearing from 300 mm onto the face. A good anvil rebounds the ball 250-290 mm (80-95% rebound). A worn or soft face rebounds less than 200 mm (65% rebound). Cast iron anvils (not forged steel) typically rebound 50-60%. This test is quick, repeatable, and requires only a ball bearing — use it when evaluating a used anvil before purchase.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Machine Tools](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

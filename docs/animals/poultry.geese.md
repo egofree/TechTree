@@ -179,8 +179,8 @@ Goose manure is nutrient-rich: approximately 1.0-1.3% N, 0.8-1.0% P₂O₅, 0.4-
 
 ## Cross-Domain Links
 
-- **[Ducks](poultry-ducks.md)** — shared waterfowl management, similar housing and water needs
-- **[Chickens](poultry-chickens.md)** — complementary poultry species, shared infrastructure
+- **[Ducks](poultry.ducks.md)** — shared waterfowl management, similar housing and water needs
+- **[Chickens](poultry.chickens.md)** — complementary poultry species, shared infrastructure
 - **[Domestication](domestication.md)** — domestication history of geese
 - **[Farming](../agriculture/index.md)** — weed control in crops, pasture management, manure fertilizer
 - **[Knowledge — Writing](../knowledge/writing.md)** — goose quill pens as writing instruments
@@ -265,11 +265,11 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 ## See Also
 
 - [Poultry Farming](poultry.md) — parent capability for all poultry species
-- [Poultry Chickens](poultry-chickens.md) — primary egg and meat bird
-- [Poultry Ducks](poultry-ducks.md) — wetland poultry for eggs and pest control
-- [Poultry Turkeys](poultry-turkeys.md) — large poultry for meat
+- [Poultry Chickens](poultry.chickens.md) — primary egg and meat bird
+- [Poultry Ducks](poultry.ducks.md) — wetland poultry for eggs and pest control
+- [Poultry Turkeys](poultry.turkeys.md) — large poultry for meat
 - [Soil Management](../agriculture/soil-management.md) — weeder geese for weed control
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

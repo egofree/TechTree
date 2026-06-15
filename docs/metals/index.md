@@ -42,4 +42,12 @@ Capabilities in this domain:
 
 - [Wire Rope & Steel Cable](wire-rope.md) — Wire drawing, stranding, and rope closing of high-carbon steel wire into flexible rope (6×7, 6×19, 6×37 constructions). Tensile grades 1570-1960 MPa, end fittings (swaging, zinc/epoxy socketing), inspection and discard criteria, and lubrication for mining hoists, cranes, elevators, and bridges.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Blacksmithing](blacksmithing.md) — Hand forging of iron and steel into tools, hardware, and structural fittings using hammer, anvil, and hearth. Blacksmithing transforms bloomery iron and wrought iron into functional implements: hammers, chisels, hinges,…
+- [Copper Refining](copper-refining.md) — Purification of copper to high conductivity grades through fire refining and electrolytic refining. Fire refining removes bulk impurities by controlled oxidation in an anode furnace.
+- [Pipe and Tube Manufacturing](pipe-making.md) — Manufacture of metal pipes and tubes by casting, extrusion, seamless piercing, or welding. Pipes are essential infrastructure for water distribution, gas handling, steam transport, and chemical processing.
+- [Rare Earth and Specialty Elements](rare-earths.md) — Extraction and separation of rare earth elements (REE) and specialty metals from mineral ores through acid leaching, solvent extraction, and ion exchange.
+- [Semiconductor-Grade Aluminum Production](semiconductor-grade.md) — Ultra-high-purity aluminum (5N-6N, 99.999-99.9999%) for semiconductor metallization via three-layer electrolysis (Hoopes process) and zone refining.
+- [Wire Drawing](wire-drawing.md) — Drawing metal rod through progressively smaller dies to reduce the diameter and increase the length of wire. Wire drawing is the process that converts rolled rod stock (typically 5-12 mm diameter) into wire of any…
+
+[↑ Back to Tech Tree](../index.md)
+

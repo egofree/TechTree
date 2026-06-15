@@ -60,7 +60,7 @@ Guinea fowl are among the most effective natural tick control agents available. 
 Guinea fowl are exceptionally vigilant and vocal. Their alarm call is a loud, repetitive "buck-wheat-buck-wheat" that carries 200+ meters. They alarm at hawks, foxes, coyotes, dogs, cats, snakes, and unfamiliar humans. This early warning system benefits all livestock and poultry sharing the same range. A flock of guinea fowl roaming among free-range chickens significantly reduces predation losses by alerting chickens to take cover. They will mob and harass small predators (snakes, weasels) as a group.
 
 **Orchard and vineyard use**:
-Guinea fowl are employed in orchards and vineyards for organic pest management. They control codling moth, plum curculio, Japanese beetles, and grasshoppers without damaging fruit or vines. They do not eat fruit readily and prefer insects, making them better orchard guardians than chickens (which peck at ripening fruit).
+Guinea fowl are used in orchards and vineyards for organic pest management. They control codling moth, plum curculio, Japanese beetles, and grasshoppers without damaging fruit or vines. They do not eat fruit readily and prefer insects, making them better orchard guardians than chickens (which peck at ripening fruit).
 
 ## Feeding and Nutrition
 
@@ -254,11 +254,11 @@ Cull hens producing fewer than 60 eggs per season and toms showing aggressive be
 ## See Also
 
 - [Poultry Overview](poultry.md) — all poultry species comparison
-- [Chickens](poultry-chickens.md) — primary poultry species for eggs and meat
+- [Chickens](poultry.chickens.md) — primary poultry species for eggs and meat
 - [Pest Management](pest-management.md) — guinea fowl as biological pest control
 - [Food Processing](../food-processing/index.md) — egg and meat preservation
 - [Agriculture / Soil Management](../agriculture/soil-management.md) — guinea fowl manure as fertilizer
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

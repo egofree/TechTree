@@ -11,4 +11,9 @@ Capabilities in this domain:
 - [Supply Chain Coordination](supply-chain.md) — Planning and management of multi-step production sequences, procurement from diverse sources, and inventory management across distributed operations. Essential when production involves >3 sequential specialist steps.
 - [Governance & Institutional Design](governance.md) — Decision-making structures for large-scale resource allocation, dispute resolution, and collective action. Includes guild structures, cooperative governance, and administrative hierarchies coordinating hundreds of workers.
 
-[↑ Back to Tech Tree](../../index.md)
+- [Coinage & Precision Minting](coinage.md) — Precision striking of standardized metal discs into coins with controlled weight, alloy composition, and anti-counterfeiting features.
+
+**Domain justification**: This domain's inclusion is documented in the [SIK placement test](../supporting/sik-economics-organization.md) (conditional pass via bootstrap stage override).
+
+[↑ Back to Tech Tree](../index.md)
+

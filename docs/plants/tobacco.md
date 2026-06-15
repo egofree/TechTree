@@ -57,7 +57,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Cultivation and Propagation
 
-Prefers a well-drained deep rich moist soil in a sunny position. Plants are not very hardy in Britain, but they can be grown as biennials in areas where winter temperatures do not fall below about -5°c. A polymorphic species. Tobacco is very widely cultivated for its leaves, there are many named varieties. As well as being used as an insecticide, the leaves are used to make cigarettes, cigars, snuff and for chewing. There are many long-term health problems associated with these uses, especially from cancer, lung, circulatory and heart diseases. The plant accumulates potassium. The plant has sweetly scented flowers that release most of their scent in the evening and attract moths. Plant requires more than 14 hours daylight per day in order to induce flowering. Propagation: Seed - surface sow in a warm greenhouse about 10 weeks before the last expected spring frosts. The seed usually germinates in 10 - 20 days at 20°c. Keep the soil moist and pot up as soon as the plants are big enough to handle, planting them out after the last expected frosts.
+Prefers a well-drained deep rich moist soil in a sunny position. Plants are not very hardy in Britain, but they can be grown as biennials in areas where winter temperatures do not fall below about -5°c. A polymorphic species. Tobacco is very widely cultivated for its leaves, there are many named varieties. As well as being used as an insecticide, the leaves are used to make cigarettes, cigars, snuff and for chewing. There are many long-term health problems associated with these uses, especially from cancer, lung, circulatory and heart diseases. The plant accumulates potassium. The plant has sweetly scented flowers that release most of their scent in the evening and attract moths. Plant requires more than 14 hours daylight per day to induce flowering. Propagation: Seed - surface sow in a warm greenhouse about 10 weeks before the last expected spring frosts. The seed usually germinates in 10 - 20 days at 20°c. Keep the soil moist and pot up as soon as the plants are big enough to handle, planting them out after the last expected frosts.
 
 ### Harvesting (Priming)
 
@@ -71,7 +71,7 @@ At each priming, remove 2-3 leaves per plant. Handle leaves carefully — bruise
 
 ### Curing Methods
 
-Curing is the controlled drying process that converts raw green tobacco leaves into the aromatic, smokable product. The three traditional methods produce fundamentally different leaf characteristics:
+Curing is the controlled drying process that converts raw green tobacco leaves into the aromatic, smokable product. The three traditional methods produce different leaf characteristics:
 
 #### Air Curing (4-8 weeks)
 
@@ -136,7 +136,7 @@ Tobacco leaves contain 1-6% nicotine by dry weight, concentrated in the leaf tis
 
 ### Distribution and Growing Conditions
 
-S. America. Naturalized in C. and S. Europe. Coming Soon
+S. America. Naturalized in C. and S. Europe.
 
 ### Identification
 
@@ -233,7 +233,7 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 
 ### Medicinal Uses
 
-Antispasmodic Diuretic Emetic Expectorant Homeopathy Irritant Narcotic Sedative Sialagogue. Tobacco has a long history of use by medical herbalists as a relaxant, though since it is a highly additive drug it is seldom employed internally or externally at present. The leaves are antispasmodic, discutient, diuretic, emetic, expectorant, irritant, narcotic, sedative and sialagogue. They are used externally in the treatment of rheumatic swelling, skin diseases and scorpion stings. The plant should be used with great caution, when taken internally it is an addictive narcotic. The active ingredients can also be absorbed through the skin. Wet tobacco leaves can be applied to stings in order to relieve the pain. They are also a certain cure for painful piles. A homeopathic remedy is made from the dried leaves. It is used in the treatment of nausea and travel sickness.
+Antispasmodic Diuretic Emetic Expectorant Homeopathy Irritant Narcotic Sedative Sialagogue. Tobacco has a long history of use by medical herbalists as a relaxant, though since it is a highly additive drug it is seldom employed internally or externally at present. The leaves are antispasmodic, discutient, diuretic, emetic, expectorant, irritant, narcotic, sedative and sialagogue. They are used externally in the treatment of rheumatic swelling, skin diseases and scorpion stings. The plant should be used with great caution, when taken internally it is an addictive narcotic. The active ingredients can also be absorbed through the skin. Wet tobacco leaves can be applied to stings to relieve the pain. They are also a certain cure for painful piles. A homeopathic remedy is made from the dried leaves. It is used in the treatment of nausea and travel sickness.
 
 ### Other Uses
 
@@ -275,4 +275,4 @@ sun curing) determines the final leaf character. Air-cured burley tobacco takes 
 produces a mild, low-sugar leaf suitable for cigarette and pipe tobacco production.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

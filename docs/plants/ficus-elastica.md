@@ -193,4 +193,4 @@ The India rubber tree produces aerial prop roots that descend from branches to t
 *Content to be added: latex yield data, tapping cycles, rubber processing parameters.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

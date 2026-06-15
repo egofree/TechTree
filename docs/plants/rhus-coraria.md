@@ -194,4 +194,4 @@ and fastness across all dye types.
 Sumac's role as a dual-purpose plant (tannin source and spice) makes it particularly valuable for small-scale agriculture. The same planting provides raw material for leather tanning, textile dyeing, and food seasoning — three essential functions from a single drought-tolerant shrub. This versatility is especially important in Mediterranean climates where water is scarce and multi-use crops are essential.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Plants](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants](./index.md) • [All Domains](../index.md)*

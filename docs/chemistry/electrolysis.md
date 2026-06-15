@@ -3,8 +3,8 @@
 > **Node ID**: chemistry.electrolysis
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.electrodialysis`](./electrodialysis.md),
-> [`chemistry.electrolysis.chlor-alkali`](./electrolysis.chlor-alkali.md),
-> [`chemistry.electrolysis.sem-tech`](./electrolysis.sem-tech.md),
+> [`chemistry.electrolysis.chlor-alkali`](./chlor-alkali.md),
+> [`chemistry.electrolysis.sem-tech`](./sem-tech.md),
 > [`chemistry.lithium-separation`](./lithium-separation.md),
 > [`chemistry.water-electrolysis`](./water-electrolysis.md),
 > [`energy.fuel-cell`](../energy/fuel-cell.md),
@@ -281,4 +281,4 @@ Faraday's first law of electrolysis: the mass of substance deposited or dissolve
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

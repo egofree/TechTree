@@ -3,11 +3,12 @@
 > **Node ID**: defense.siege-warfare
 > **Domain**: [Defense](./index.md)
 > **Dependencies**: [`economics-organization.supply-chain`](../economics-organization/supply-chain.md)
+> **Enables**: None
 > **Critical**: No — siege warfare is a specialized military capability dependent on metallurgical and chemical industrial base
 > **Timeline**: Years 5-50+
 > **Outputs**: siege_engines, cannons, military_logistics, artillery, field_fortifications
 
-Siege engineering encompasses the offensive and logistical operations required to capture fortified positions, and the counter-measures defenders employ to resist them. From battering rams against timber palisades to cannon bombardment of stone walls, siege warfare drives the development of mechanical engineering, metallurgy, and large-scale logistics.
+Siege engineering encompasses the offensive and logistical operations required to capture fortified positions, and the counter-measures defenders use to resist them. From battering rams against timber palisades to cannon bombardment of stone walls, siege warfare drives the development of mechanical engineering, metallurgy, and large-scale logistics.
 
 Siege operations are the most resource-intensive military activities in the pre-industrial world. A major siege requires thousands of soldiers, tens of thousands of kilograms of powder and shot, massive timber stocks for siege engine construction, and a supply chain delivering tonnes of food and materiel daily. The logistics of sustaining a siege often determine its outcome more than the weapons employed. Historically, disease and starvation killed 3-10 times more soldiers than combat during sieges.
 
@@ -335,7 +336,7 @@ The terrain around a fortification constrains which siege methods are viable and
 ## Scaling Notes
 
 - **Raid defense (50-200 attackers)**: Basic palisade + ditch sufficient. No siege engines expected. Garrison of 20-50 defenders behind simple fortifications can resist. No specialized siege knowledge required.
-- **Small siege (500-2000 attackers vs fortified town)**: Attackers may employ battering rams, basic torsion artillery. Defenders need 100-300 garrison, stored food for 2-4 weeks, arrow supply of 50-100 per defender. Mining unlikely at this scale (insufficient engineering resources).
+- **Small siege (500-2000 attackers vs fortified town)**: Attackers may use battering rams, basic torsion artillery. Defenders need 100-300 garrison, stored food for 2-4 weeks, arrow supply of 50-100 per defender. Mining unlikely at this scale (insufficient engineering resources).
 - **Major siege (5000-20000 attackers vs castle or city)**: Full siege engine complement: trebuchets, mining, cannon (if available). Requires organized siege train with engineers, miners, carpenters. Powder consumption: 500-2000 kg/day during bombardment phase. Both sides require organized supply chains -- the first to run out of food loses.
 - **State-level siege (30000+ attackers vs star fort)**: Trace italienne defense requires systematic approach: parallel trenches, saps, counter-battery fire, mining and counter-mining. Duration: 3-12 months. Powder: 50000+ kg total. Shot: 10000-50000 projectiles. Labor for earthworks: 50000-200000 worker-days. Only feasible with state-level logistics and [governance](../economics-organization/governance.md).
 - **Training scaling**: Siege engineers require years of training. Losing engineering crews to disease or sortie can halt a siege. Preserve technical specialists -- they are harder to replace than infantry.
@@ -384,4 +385,4 @@ The terrain around a fortification constrains which siege methods are viable and
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing siege resources
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

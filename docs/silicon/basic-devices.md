@@ -3,7 +3,7 @@
 > **Node ID**: silicon.basic-devices
 > **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md),
-> [`metals.aluminum.semiconductor-grade`](../metals/aluminum.semiconductor-grade.md),
+> [`metals.aluminum.semiconductor-grade`](../metals/semiconductor-grade.md),
 > [`silicon.crystal-growth`](./crystal-growth.md), [`silicon.wafering`](./wafering.md),
 > [`vacuum.pumps`](../vacuum/pumps.md)
 > **Enables**: [`computing.electronic`](../computing/electronic.md),
@@ -368,5 +368,5 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Silicon](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
 

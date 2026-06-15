@@ -24,7 +24,7 @@ The technology chain runs from powder production → blending → compaction →
 
 ## Powder Production
 
-Every PM process begins with metal powder, and powder characteristics — particle size, shape, size distribution, chemistry, flowability, and apparent density — determine final part quality. The major production routes produce powders with fundamentally different morphologies:
+Every PM process begins with metal powder, and powder characteristics — particle size, shape, size distribution, chemistry, flowability, and apparent density — determine final part quality. The major production routes produce powders with different morphologies:
 
 **Gas atomization** (premium spherical powders):
 - Molten metal stream (induction or arc melted under inert atmosphere) is disintegrated by high-pressure argon or nitrogen gas at 2-7 MPa through a converging-diverging nozzle. The gas kinetic energy overcomes the melt's surface tension, forming droplets that spheroidize during free fall.
@@ -95,7 +95,7 @@ Cemented carbides (hardmetals) are composite materials consisting of tungsten ca
 - **Milling**: WC + Co powder (6-25% Co by weight) milled together in ball mills or attritors for 24-72 hours with milling fluid (acetone, hexane, or water) and pressing aid (2% PEG or paraffin wax). Milling reduces WC grain size, coats WC particles with Co, and homogenizes the mixture. WC grain size after milling: 0.2-5 µm depending on starting powder and milling energy.
 - **Compaction**: Uniaxial pressing at 50-200 MPa or cold isostatic pressing (CIP) at 100-300 MPa. Binder (paraffin or PEG) provides green strength for handling complex shapes. Green density: 55-65% of theoretical.
 - **Dewaxing and pre-sintering**: Heat to 300-600°C in H₂ or vacuum to remove lubricant/binder. Ramp rate: 0.5-2°C/min to prevent cracking from rapid binder vaporization.
-- **Liquid-phase sintering**: The critical step. Heat to 1350-1450°C (above the W-C-Co ternary eutectic at ~1280°C). Cobalt melts and flows by capillary action through the WC particle network, wetting WC particles (contact angle <5°). Liquid-phase sintering proceeds in three stages: rearrangement (Co melt draws WC particles together, 5-10% shrinkage in minutes), solution-reprecipitation (WC dissolves in Co melt at contact points and reprecipitates on larger WC grains — Ostwald ripening, 10-15% additional shrinkage over 30-60 minutes), and final densification (rigid WC skeleton with Co filling remaining pores). Total linear shrinkage: 17-22%. Final density: >99.5% theoretical (essentially pore-free).
+- **Liquid-phase sintering**: The critical step. Heat to 1350-1450°C (above the W-C-Co ternary eutectic at ~1280°C). Cobalt melts and flows by capillary action through the WC particle network, wetting WC particles (contact angle <5°). Liquid-phase sintering proceeds in three stages: rearrangement (Co melt draws WC particles together, 5-10% shrinkage in minutes), solution-reprecipitation (WC dissolves in Co melt at contact points and reprecipitates on larger WC grains — Ostwald ripening, 10-15% additional shrinkage over 30-60 minutes), and final densification (rigid WC skeleton with Co filling remaining pores). Total linear shrinkage: 17-22%. Final density: >99.5% theoretical (pore-free).
 - **Grain growth control**: WC grain size determines hardness (Hall-Petch relationship). Nano-grain (<0.2 µm) cemented carbides require grain growth inhibitors: VC (0.3-1.0%), Cr₃C₂ (0.3-0.8%), or TaC (0.5-1.5%). These carbides segregate to WC grain boundaries, pinning them against migration during liquid-phase sintering. Sub-micron grades (0.2-0.5 µm) achieve 1900-2100 HV30 hardness; coarse grades (2-5 µm) trade hardness (1300-1500 HV30) for improved toughness (13-18 MPa√m).
 
 **Coating systems** for cemented carbide cutting tools:
@@ -268,4 +268,4 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - [Semiconductors](../electronics/index.md) — high-purity silicon and germanium production
 - [Measurement](../measurement/index.md) — density, hardness, and dimensional inspection
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

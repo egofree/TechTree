@@ -2,6 +2,7 @@
 
 > **Node ID**: cleanrooms.hepa-ulpa-filtration
 > **Domain**: [Clean Room Technology](./index.md)
+> **Dependencies**: None
 > **Enables**: [`cleanrooms.contamination-control`](./contamination-control.md)
 > **Timeline**: Years 40-70
 > **Outputs**: hepa_filters, ulpa_filters, laminar_flow_systems, fan_filter_units
@@ -329,5 +330,5 @@ Air changes per hour (ACH) is the number of times the total room volume of air i
 | Differential pressure gauge | Filter loading monitor | 0-1000 Pa range, ±2% accuracy |
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Clean Room Technology](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*
 

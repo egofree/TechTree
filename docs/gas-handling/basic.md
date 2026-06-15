@@ -2,14 +2,15 @@
 
 > **Node ID**: gas-handling.basic
 > **Domain**: [Gas Handling](./index.md)
+> **Dependencies**: None
 > **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md),
 > [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md),
 > [`gas-handling.cylinder-filling`](./cylinder-filling.md),
 > [`gas-handling.gas-purification`](./gas-purification.md),
 > [`gas-handling.piping-systems`](./piping-systems.md),
-> [`glass.basic.float-glass`](../glass/basic.float-glass.md),
-> [`photolithography.fab-processes.cvd`](../photolithography/fab-processes.cvd.md),
-> [`photolithography.fab-processes.plasma-etching`](../photolithography/fab-processes.plasma-etching.md),
+> [`glass.basic.float-glass`](../glass/float-glass.md),
+> [`photolithography.fab-processes.cvd`](../photolithography/cvd.md),
+> [`photolithography.fab-processes.plasma-etching`](../photolithography/plasma-etching.md),
 > [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 20-35
 > **Outputs**: gas_handling, compressed_gases, purified_gases
@@ -321,4 +322,4 @@ Key rule: Use NPT for non-critical applications. Switch to compression fittings 
 - **[Cylinder Filling](cylinder-filling.md)**: High-pressure cylinder filling and certification
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Gas Handling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

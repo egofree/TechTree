@@ -3,6 +3,7 @@
 > **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: `ceramics`, `chemistry`
+> **Enables**: None
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
 > **Critical**: Yes — contamination control is the single largest yield determinant in semiconductor manufacturing
@@ -232,5 +233,5 @@ The floor is a critical contamination control surface and must meet several requ
 - [HEPA/ULPA Filtration](../cleanrooms/hepa-ulpa-filtration.md) — air filtration technology
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*
 

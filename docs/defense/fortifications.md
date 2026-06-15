@@ -2,6 +2,7 @@
 
 > **Node ID**: defense.fortifications
 > **Domain**: [Defense](./index.md)
+> **Dependencies**: None
 > **Enables**: `construction`
 > **Critical**: No — military fortifications are specialized defense capabilities dependent on metallurgical and construction industrial base
 > **Timeline**: Years 5-50+
@@ -9,7 +10,7 @@
 
 Fortification engineering is the design and construction of defensive structures that protect people, resources, and infrastructure from military attack. From simple log palisades to star forts resisting cannon bombardment, fortifications represent the largest material investments any community makes in its defense.
 
-Fortifications are fundamentally civil engineering projects with defensive design criteria. A stone curtain wall uses the same masonry techniques as a building wall, but with specified thickness (1.5-3.0 m), height (6-12 m), and crenellation for defense. An earthen rampart is a compacted-soil structure with slope stability requirements. The engineering skills overlap directly with [construction](../construction/index.md), [mining](../mining/index.md) for quarrying, and [chemistry](../chemistry/cement.md) for mortar production.
+Fortifications are civil engineering projects with defensive design criteria. A stone curtain wall uses the same masonry techniques as a building wall, but with specified thickness (1.5-3.0 m), height (6-12 m), and crenellation for defense. An earthen rampart is a compacted-soil structure with slope stability requirements. The engineering skills overlap directly with [construction](../construction/index.md), [mining](../mining/index.md) for quarrying, and [chemistry](../chemistry/cement.md) for mortar production.
 
 The critical design principle for all fortifications is layered defense in depth: no single wall or obstacle should be the only barrier between attackers and the defended objective. Concentric castle design, multiple ditches, interlocking fields of fire, and interior lines of communication ensure that breaching one element exposes attackers to defense from the next. A well-designed fortification with a competent garrison historically resists attack at 3:1 odds or worse.
 
@@ -290,4 +291,4 @@ Fortification engineering draws on civil construction, quarrying, and materials 
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing fortification labor
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Defense](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

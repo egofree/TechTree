@@ -198,4 +198,4 @@ The dried herb is also incorporated into herbal bath preparations for treating s
 ### Agrimonia pilosa Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

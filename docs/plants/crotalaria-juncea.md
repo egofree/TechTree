@@ -197,4 +197,4 @@ Sunn hemp fiber produces a coarse yarn that is too rough for clothing but excell
 *Content to be added: fiber yield data, extraction efficiency, processing parameters.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

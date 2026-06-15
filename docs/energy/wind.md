@@ -3,6 +3,7 @@
 > **Node ID**: energy.wind
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry.lubricants`](../chemistry/lubricants.md), `textiles`
+> **Enables**: None
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water
 > **Critical**: No — wind supplements water and steam power; wind variability limits reliability without storage or complementary sources
@@ -230,4 +231,4 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

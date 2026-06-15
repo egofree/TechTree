@@ -1,7 +1,7 @@
 # Water Treatment (Health & Sanitation)
 
-> **Node ID**: health.water-treatment
-> **Domain**: [Health](./index.md)
+> **Node ID**: chemistry.water-treatment
+> **Domain**: [Chemistry](../chemistry/index.md)
 > **Dependencies**: [`health.sanitation`](sanitation.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md)
 > **Enables**: [`health.medicine`](medicine.md), [`health.surgery-basics`](surgery-basics.md)
 > **Timeline**: Years 5-15
@@ -316,5 +316,5 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*
 

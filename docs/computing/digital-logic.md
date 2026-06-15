@@ -4,6 +4,7 @@
 > **Domain**: [Computing](./index.md)
 > **Dependencies**: `computing`, [`computing.electronic`](./electronic.md),
 > [`mathematics.formal-systems`](../mathematics/formal-systems.md)
+> **Enables**: None
 > **Timeline**: Years 40-50
 > **Outputs**: logic_gates, combinational_circuits, sequential_circuits, arithmetic_units, memory_elements
 > **Critical**: Yes — all digital hardware from processors to memory requires gate-level logic design
@@ -289,4 +290,4 @@ Building digital logic from discrete transistors is educational but impractical 
 - [Electromechanical Computing](electromechanical.md) — relay-based predecessors
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Computing](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

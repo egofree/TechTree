@@ -84,7 +84,7 @@ Refractory metals — tungsten (W, mp 3422°C), molybdenum (Mo, mp 2623°C), tan
 
 **Processing**: Decompose concentrate with HF + H₂SO₄ at 80-100°C: Ta₂O₅ + 14HF → 2H₂TaF₇ + 5H₂O. Solvent extraction with MIBK (methyl isobutyl ketone) separates tantalum from niobium (different partition coefficients in HF/MIBK system — Ta extracts at lower HF concentration, Nb at higher). Convert to Ta₂O₅ (calcine at 800-1000°C) or K₂TaF₇ (potassium fluorotantalate, crystallized from HF solution). Reduce K₂TaF₇ with sodium: K₂TaF₇ + 5Na → Ta + 5NaF + 2KF (sodium reduction in a sealed steel bomb at 800-900°C — exothermic, self-sustaining once initiated). The resulting tantalum powder is washed (water, then HCl to remove NaF/KF), dried, and screened. Capacitor-grade tantalum powder: high surface area (0.3-1.5 m²/g), controlled particle size (1-10 μm aggregates of 0.05-0.2 μm primary particles).
 
-**Tantalum applications**: (1) Capacitors: Tantalum electrolytic capacitors — press tantalum powder into a porous pellet (2-6 mm diameter, 1-4 mm thick, 40-60% porous). Sinter at 1500-1800°C in vacuum to weld particle contacts while maintaining high surface area (0.1-0.8 m²/g). Form Ta₂O₅ dielectric by anodizing in dilute H₃PO₄ at 5-100V: Ta + 2H₂O → Ta₂O₅ + 4H⁺ + 4e⁻. Oxide thickness: 1.6-1.7 nm per volt of formation voltage (100V → ~170 nm oxide). Capacitance per volume: extremely high (CV product: 30,000-100,000 μF·V/g — 5-10× higher than aluminum electrolytic capacitors per unit volume). Used in smartphones, computers, medical electronics. (2) Chemical equipment: Ta heat exchangers, bayonet heaters, and thermowells for handling hot concentrated acids — Ta is resistant to virtually all acids except HF and hot alkalis. Corrosion rate in 70% H₂SO₄ at 150°C: <0.025 mm/year (essentially immune). Cost limits use to small, critical components. (3) Surgical implants: Ta wire for sutures, Ta mesh for hernia repair, porous Ta (Trabecular Metal) for bone ingrowth implants — Ta is biocompatible, radiopaque, and osteoconductive.
+**Tantalum applications**: (1) Capacitors: Tantalum electrolytic capacitors — press tantalum powder into a porous pellet (2-6 mm diameter, 1-4 mm thick, 40-60% porous). Sinter at 1500-1800°C in vacuum to weld particle contacts while maintaining high surface area (0.1-0.8 m²/g). Form Ta₂O₅ dielectric by anodizing in dilute H₃PO₄ at 5-100V: Ta + 2H₂O → Ta₂O₅ + 4H⁺ + 4e⁻. Oxide thickness: 1.6-1.7 nm per volt of formation voltage (100V → ~170 nm oxide). Capacitance per volume: extremely high (CV product: 30,000-100,000 μF·V/g — 5-10× higher than aluminum electrolytic capacitors per unit volume). Used in smartphones, computers, medical electronics. (2) Chemical equipment: Ta heat exchangers, bayonet heaters, and thermowells for handling hot concentrated acids — Ta is resistant to virtually all acids except HF and hot alkalis. Corrosion rate in 70% H₂SO₄ at 150°C: <0.025 mm/year (immune). Cost limits use to small, critical components. (3) Surgical implants: Ta wire for sutures, Ta mesh for hernia repair, porous Ta (Trabecular Metal) for bone ingrowth implants — Ta is biocompatible, radiopaque, and osteoconductive.
 
 **Strengths**:
 - Tantalum capacitors achieve the highest capacitance per volume of any capacitor type (CV product 30,000-100,000 μF·V/g) — 5-10× higher than aluminum electrolytic.
@@ -433,6 +433,11 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 | EB weld in molybdenum shows porosity along joint line | Vacuum insufficient (>10⁻³ mbar) or joint gap >0.1 mm allowing gas entrapment | Improve vacuum to <10⁻³ mbar (0.1 Pa); machine joint surfaces for tight-fit butt joint with gap <0.1 mm |
 | MoSi₂-coated molybdenum fails by pest oxidation at 400–700°C | Coating cracked during handling — no SiO₂ glass film to protect against catastrophic MoO₃ volatilization | Reapply MoSi₂ by pack cementation at 950–1100°C for 4–16 hours (Si + Al₂O₃ + NaF pack); handle coated parts carefully to avoid cracking |
 
+
+## Safety
+
+Refractory metal processing involves temperatures of 2000-3400°C (W, Ta melting points). Arc melting furnaces generate intense UV radiation and ozone — UV-blocking face shields and protective clothing required. Powder metallurgy of tungsten creates respirable WC particles (0.5-5 μm) — cobalt binder causes "hard metal lung disease" (pulmonary fibrosis); wear P100 respirators during powder handling. Molybdenum and rhenium oxides are volatile at elevated temperatures and toxic if inhaled. Vacuum sintering furnaces present implosion hazard if jackets corrode. Electrical hazards from resistance heating at 50-1000 A require locked electrical enclosures.
+
 ## See Also
 
 - [Iron & Steel](iron-steel.md) — prerequisite ferrous metallurgy
@@ -442,4 +447,4 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 - [Machining](../machine-tools/machining.md) — tungsten carbide cutting tools
 - [Passive Components](../electronics/passive-components.md) — tantalum capacitors
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

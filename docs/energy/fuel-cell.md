@@ -3,7 +3,7 @@
 > **Node ID**: energy.fuel-cell
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: `chemistry`,
-> [`chemistry.electrolysis.thermochemical-water-splitting`](../chemistry/electrolysis.thermochemical-water-splitting.md)
+> [`chemistry.electrolysis.thermochemical-water-splitting`](../chemistry/thermochemical-water-splitting.md)
 > **Enables**: [`chemistry.electrolysis`](../chemistry/electrolysis.md),
 > [`chemistry.water-electrolysis`](../chemistry/water-electrolysis.md),
 > [`energy.storage`](./storage.md)
@@ -341,4 +341,4 @@ Proper handling of hydrogen, membrane components, and catalyst materials is esse
 - Keep replacement MEAs in sealed packaging until moment of installation to prevent membrane contamination
 - Monitor hydrogen supply pressure at the stack inlet for early detection of supply system issues
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

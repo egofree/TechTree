@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.solar-thermal
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels.charcoal`](./fuels.charcoal.md)
+> **Dependencies**: [`energy.fuels.charcoal`](./charcoal.md)
 > **Enables**: `construction`
 > **Timeline**: Years 5-30
 > **Outputs**: solar_heat, solar_steam, concentrated_solar_power, solar_furnace_heat
@@ -334,4 +334,4 @@ Low-temperature solar thermal applications do not require concentration:
 - **[Iron & Steel](../metals/iron-steel.md)** — Structural steel for collector mounts and piping
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

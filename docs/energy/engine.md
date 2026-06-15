@@ -4,7 +4,7 @@
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.fuels`](./fuels.md), `metals`,
 > [`petroleum.refining`](../petroleum/refining.md)
-> **Enables**: [`energy.electricity.power-systems`](./electricity.power-systems.md),
+> **Enables**: [`energy.electricity.power-systems`](./power-systems.md),
 > [`energy.gas-turbine`](./gas-turbine.md),
 > [`marine.propulsion`](../marine/propulsion.md), `transport`,
 > [`transport.aviation`](../transport/aviation.md)
@@ -201,4 +201,4 @@ Heat engine production scales dramatically with precision manufacturing capabili
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

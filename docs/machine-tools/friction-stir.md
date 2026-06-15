@@ -218,4 +218,4 @@ Bobbin tool FSW is a variant that uses a rotating pin with shoulders on both the
 - Retain cross-section samples from each new parameter setup as reference standards for future production
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine-Tools](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*

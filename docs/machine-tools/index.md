@@ -56,4 +56,17 @@ Capabilities in this domain:
 - [Compression Press](compression-press.md) — Heated platen presses for compression molding of thermosets, rubber, composites, and powder metallurgy.
 
 - [Thermoforming Equipment](thermoforming-equipment.md) — Vacuum and pressure forming machines for shaping heated thermoplastic sheet into products.
-[↑ Back to Tech Tree](../../index.md)
+
+- [Diffusion Bonding](diffusion-bonding.md) — Solid-state joining at 50-80% melting point temperature under 1-10 MPa pressure for 30-120 minutes. Atomic diffusion across the interface eliminates the joint line, producing a bond microstructurally indistinguishable…
+- [Electron Beam Welding](electron-beam.md) — Focused electron beam (30-150kV accelerating voltage, 10-100mA beam current) welding in vacuum chamber. Deep narrow penetration (depth-to-width 10:1 to 30:1), minimal heat input and distortion.
+- [Screw Cutting & Fastener Standardization](fasteners.md) — Precision thread cutting on lathes to produce standardized screws, bolts, nuts, and threaded rods enabling interchangeable parts.
+- [Friction Stir Welding](friction-stir.md) — Solid-state joining via rotating tool (500-1500 RPM, 50-200 mm/min feed). Tool friction heats metal to plasticized state (70-90% of melting point) without melting.
+- [Hydraulic Systems for Machine Tools](hydraulic-systems.md) — Application of pressurized fluid power to the specific demands of machine tools: pressing, clamping, fixturing, and controlled feed drives.
+- [Laser Welding](laser-welding.md) — CO₂ laser (10.6μm, 100W-20kW) or fiber laser (1.06μm, 100W-30kW) focused beam welding. Keyhole mode: deep narrow welds (depth-to-width 5:1 to 15:1), speed 1-20 m/min. Conduction mode: shallow welds for thin materials.
+- [MIG Welding (GMAW)](mig-welding.md) — Gas Metal Arc Welding with continuously fed consumable wire electrode and CO₂/Ar shielding gas. Current 100-400A, voltage 16-35V. High deposition rate (2-8 kg/hour).
+- [Resistance Welding (Spot & Seam)](resistance-welding.md) — Spot welding (copper electrodes, 5000-20000A, 1-10 cycles at 50Hz) and seam welding (roller electrodes, overlapping spots for continuous gas-tight seams). No filler, no gas, no flux.
+- [TIG Welding (GTAW)](tig-welding.md) — Gas Tungsten Arc Welding using non-consumable tungsten electrode with argon or helium shielding gas. Current 50-300A, voltage 10-22V. DCEN for steel/stainless/titanium, AC for aluminum.
+- [Ultrasonic Welding & Wire Bonding](ultrasonic-bonding.md) — Solid-state joining via 20-60 kHz mechanical vibration under pressure. Wire bonding: 25μm Au wire at 0.5-2.0W, 20-100ms bond time, dominant IC interconnection method (over 10 trillion bonds per year).
+
+[↑ Back to Tech Tree](../index.md)
+

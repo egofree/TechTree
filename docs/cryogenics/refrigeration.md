@@ -364,5 +364,5 @@ Key decision: Below -150°C, conventional vapor-compression stops working — th
 - **[Air Separation & Bulk Gas Production](../chemistry/air-separation.md)**: ASU process and product specifications
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Cryogenics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*
 

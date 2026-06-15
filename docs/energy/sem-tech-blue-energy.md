@@ -371,7 +371,7 @@ A RED plant withdraws water from both a freshwater source (river) and a saltwate
 RED effluent is **brackish water** -- a mixture of the freshwater and saltwater feed streams. The discharge salinity depends on the mixing ratio but typically falls in the 5-20 g/L range (brackish). This is less saline than seawater and substantially less saline than desalination brine (60-80 g/L). Key considerations:
 
 - **Salinity plume**: The brackish discharge creates a localized zone of reduced salinity near the outfall. At major river mouths, this salinity is within the natural range of estuarine mixing and unlikely to cause significant ecological disruption. At enclosed bays or sensitive habitats, diffuser systems can disperse the plume.
-- **Temperature**: RED operation does not significantly heat or cool the water. Effluent temperature is essentially the average of the two intake temperatures, posing no thermal pollution concern.
+- **Temperature**: RED operation does not significantly heat or cool the water. Effluent temperature is the average of the two intake temperatures, posing no thermal pollution concern.
 - **Chemical residuals**: If chlorination is used for biofouling control, residual chlorine in the discharge must be neutralized (with sodium bisulfite) or kept below toxic thresholds (<0.01 mg/L free chlorine for most marine organisms). The Fe²⁺/Fe³⁺ electrode rinse is a closed loop and does not contact the process water.
 
 ## Mitigation Measures
@@ -471,5 +471,5 @@ RED is currently the leading approach because it produces electricity directly w
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Energy](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 

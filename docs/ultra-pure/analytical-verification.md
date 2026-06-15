@@ -3,6 +3,7 @@
 > **Node ID**: ultra-pure.analytical-verification
 > **Domain**: [Ultra-Pure Materials](./index.md)
 > **Dependencies**: `measurement`, [`ultra-pure.upw`](./upw.md)
+> **Enables**: None
 > **Timeline**: Years 40-80
 > **Outputs**: contamination_data, purity_certification
 > **Critical**: Yes — analytical verification enables all ultra-pure material production by confirming that purity targets are met
@@ -293,5 +294,5 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 - [Optics](../optics/index.md) — Optical components for analytical instruments
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*
 

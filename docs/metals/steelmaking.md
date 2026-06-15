@@ -4,7 +4,7 @@
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`chemistry.refractories`](../chemistry/refractories.md),
 > [`energy.fuels`](../energy/fuels.md), [`metals.iron-steel`](./iron-steel.md),
-> [`metals.iron-steel.blast-furnace`](./iron-steel.blast-furnace.md)
+> [`metals.iron-steel.blast-furnace`](./blast-furnace.md)
 > **Enables**: [`metals.alloys`](./alloys.md), [`metals.forming`](./forming.md),
 > [`metals.metal-recycling`](./metal-recycling.md)
 > **Timeline**: Years 15-30
@@ -279,4 +279,4 @@ Steelmaking capability builds in stages, each requiring progressively more infra
 - [Refractories](../chemistry/refractories.md) — furnace linings
 - [Machine Tools](../machine-tools/index.md) — steel as the primary structural material for tools
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

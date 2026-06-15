@@ -6,14 +6,14 @@
 > [`metals.alloys`](../metals/alloys.md),
 > [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: [`energy.steam-power`](../energy/steam-power.md),
-> [`machine-tools.joining.diffusion-bonding`](./joining.diffusion-bonding.md),
-> [`machine-tools.joining.electron-beam`](./joining.electron-beam.md),
-> [`machine-tools.joining.friction-stir`](./joining.friction-stir.md),
-> [`machine-tools.joining.laser-welding`](./joining.laser-welding.md),
-> [`machine-tools.joining.mig-welding`](./joining.mig-welding.md),
-> [`machine-tools.joining.resistance-welding`](./joining.resistance-welding.md),
-> [`machine-tools.joining.tig-welding`](./joining.tig-welding.md),
-> [`machine-tools.joining.ultrasonic-bonding`](./joining.ultrasonic-bonding.md)
+> [`machine-tools.joining.diffusion-bonding`](./diffusion-bonding.md),
+> [`machine-tools.joining.electron-beam`](./electron-beam.md),
+> [`machine-tools.joining.friction-stir`](./friction-stir.md),
+> [`machine-tools.joining.laser-welding`](./laser-welding.md),
+> [`machine-tools.joining.mig-welding`](./mig-welding.md),
+> [`machine-tools.joining.resistance-welding`](./resistance-welding.md),
+> [`machine-tools.joining.tig-welding`](./tig-welding.md),
+> [`machine-tools.joining.ultrasonic-bonding`](./ultrasonic-bonding.md)
 > **Timeline**: Years 5-70
 > **Outputs**: forge_welds, brazed_joints, soldered_joints, riveted_joints, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, ultrasonic_bonds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals, wire_bonds
 > **Critical**: Yes — makes machinery possible by assembling individual parts into structures, mechanisms, and pressure vessels
@@ -205,5 +205,5 @@ Metal joining processes share common hazards (burns, eye injury, toxic fumes) bu
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
 

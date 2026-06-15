@@ -5,7 +5,7 @@
 > **Dependencies**: [`chemistry.alkalis`](./alkalis.md),
 > [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md),
 > [`chemistry.potash`](./potash.md), [`metals.non-ferrous`](../metals/non-ferrous.md)
-> **Enables**: [`chemistry.explosives.nitroglycerin-dynamite`](./explosives.nitroglycerin-dynamite.md),
+> **Enables**: [`chemistry.explosives.nitroglycerin-dynamite`](./nitroglycerin-dynamite.md),
 > `health`
 > **Timeline**: Years 5-30
 > **Outputs**: soap, glycerol, detergent
@@ -252,4 +252,4 @@ Soap production scales with the alkali supply chain. The progression is:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

@@ -44,48 +44,48 @@ Several capabilities in other domains are also critical because their absence bl
 
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
-| [Agriculture](agriculture/) | 8 | Yes | mechanized farming, soil science, hydroponics, greenhouses |
-| [Animals](animals/) | 17 | | draft power, wool, leather, dairy, eggs, meat, hunting |
+| [Agriculture](agriculture/) | 10 | Yes | mechanized farming, soil science, hydroponics, greenhouses |
+| [Animals](animals/) | 26 | | draft power, wool, leather, dairy, eggs, meat, hunting |
 | [Automation & Robotics](automation/) | 4 | | SECS/GEM protocols, wafer robots, FOUP transport, process control |
-| [Ceramics](ceramics/) | 7 | | refractories, kilns, lime, pottery, crucibles |
+| [Ceramics](ceramics/) | 8 | | refractories, kilns, lime, pottery, crucibles |
 | [Clean Room Technology](cleanrooms/) | 3 | | HEPA/ULPA filtration, contamination control, facility design & HVAC |
-| [Chemistry](chemistry/) | 40 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
-| [Cryogenics](cryogenics/) | 4 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
+| [Chemistry](chemistry/) | 59 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
+| [Cryogenics](cryogenics/) | 3 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
 | [Computing](computing/) | 8 | | slide rules, calculators, automation |
-| [Electronics](electronics/) | 9 | | PCB fabrication, soldering, power distribution, connectors, transformers |
+| [Electronics](electronics/) | 51 | | PCB fabrication, soldering, power distribution, connectors, transformers |
 | [Electrochemistry & Plating](electrochemistry/) | 4 | | electroplating, anodizing, electropolishing, electroless plating, electroforming |
-| [Construction](construction/) | 6 | | structural engineering, concrete, dams, tunnels |
+| [Construction](construction/) | 3 | | structural engineering, concrete, dams, tunnels |
 | [Defense & Military](defense/) | 4 | | weapons progression, fortifications, armor, siege engineering, military logistics |
-| [Economics & Organization](economics-organization/) | 6 | | division of labor, trade, currency, accounting, supply chains, governance |
-| [Energy](energy/) | 36 | | steam engines, electricity, arc furnaces, charcoal, coke |
+| [Economics & Organization](economics-organization/) | 7 | | division of labor, trade, currency, accounting, supply chains, governance |
+| [Energy](energy/) | 43 | | steam engines, electricity, arc furnaces, charcoal, coke |
 | [EHS](ehs/) | 7 | | chemical safety, ventilation, PPE, emergency response, waste management |
-| [Food Processing](food-processing/) | 9 | | milling, canning, pasteurization, preservation, dairy, brewing |
-| [Foundations](foundations/) | 4 | Yes | food surplus, fire, stone tools, agriculture |
-| [Gas Handling](gas-handling/) | 7 | | vacuum pumps, gas compression, purification |
-| [Glass](glass/) | 8 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
-| [Health](health/) | 10 | | clean water, sanitation, pharmaceuticals |
-| [Knowledge](knowledge/) | 9 | Yes | writing, printing, education, libraries |
+| [Food Processing](food-processing/) | 10 | | milling, canning, pasteurization, preservation, dairy, brewing |
+| [Foundations](foundations/) | 5 | Yes | food surplus, fire, stone tools, agriculture |
+| [Gas Handling](gas-handling/) | 5 | | vacuum pumps, gas compression, purification |
+| [Glass](glass/) | 7 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
+| [Health](health/) | 11 | | clean water, sanitation, pharmaceuticals |
+| [Knowledge](knowledge/) | 10 | Yes | writing, printing, education, libraries |
 | [Mathematics & Formal Sciences](mathematics/) | 3 | | arithmetic, calculus, Boolean algebra, information theory, computation theory |
-| [Machine Tools](machine-tools/) | 27 | Yes | lathe, mill, grinder, bearings |
-| [Marine & Naval](marine/) | 11 | | shipbuilding, navigation, propulsion, maritime infrastructure, submarine cables |
+| [Machine Tools](machine-tools/) | 25 | Yes | lathe, mill, grinder, bearings |
+| [Marine & Naval](marine/) | 4 | | shipbuilding, navigation, propulsion, maritime infrastructure, submarine cables |
 | [Measurement](measurement/) | 10 | | precision instruments, gauge blocks, calibration |
-| [Metals](metals/) | 22 | | copper, iron, steel |
-| [Mining](mining/) | 7 | Yes | copper ore, iron ore, coal, quartz, sulfur |
-| [Petroleum Extraction & Refining](petroleum/) | 3 | | crude oil extraction, refining, petrochemical feedstocks |
+| [Metals](metals/) | 26 | | copper, iron, steel |
+| [Mining](mining/) | 9 | Yes | copper ore, iron ore, coal, quartz, sulfur |
+| [Petroleum Extraction & Refining](petroleum/) | 8 | | crude oil extraction, refining, petrochemical feedstocks |
 | [Optics](optics/) | 3 | | lenses, microscopes, optical comparators |
-| [Photolithography](photolithography/) | 13 | | cleanrooms, lithography, ICs |
+| [Photolithography](photolithography/) | 8 | | cleanrooms, lithography, ICs |
 | [Precision Motion Control](precision-motion/) | 4 | | nanometer positioning, wafer stages, vibration isolation, precision encoders |
-| [Plants & Botany](plants/) | 5 | | food crops, medicine, timber, fiber, natural dyes |
+| [Plants & Botany](plants/) | 18 | | food crops, medicine, timber, fiber, natural dyes |
 | [Polymers](polymers/) | 11 | | rubber, FR-4, PTFE, fiberglass |
 | [Quality Control](quality-control/) | 3 | | statistical process control, inspection & sampling, defect analysis & yield modeling |
-| [Silicon](silicon/) | 6 | | MG-Si, wafers, solar cells, transistors |
+| [Silicon](silicon/) | 8 | | MG-Si, wafers, solar cells, transistors |
 | [Software Bootstrapping](software-bootstrapping/) | 6 | | assemblers, compilers, operating systems, development tools, self-hosting |
 | [Telecommunications](telecom/) | 5 | | pre-electric signaling, telegraph networks, telephone, submarine cables, radio |
-| [Textiles](textiles/) | 10 | Yes | cordage, cloth, rope, drive belts |
-| [Transport](transport/) | 7 | | roads, railways, aviation, logistics |
-| [VLSI Scaling](vlsi-scaling/) | 6 | | GPUs, advanced solar, EDA tools |
+| [Textiles](textiles/) | 11 | Yes | cordage, cloth, rope, drive belts |
+| [Transport](transport/) | 5 | | roads, railways, aviation, logistics |
+| [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
 | [Vacuum Technology](vacuum/) | 6 | | vacuum pumps, chambers, measurement, leak detection |
-| [Water Infrastructure](water/) | 11 | | water treatment, desalination, distribution, sewage |
+| [Water Infrastructure](water/) | 5 | | water treatment, desalination, distribution, sewage |
 | [Ultra-Pure Materials](ultra-pure/) | 3 | | 18.2 MΩ·cm water, 9N chemicals, ppt-level analysis |
 
 ## Dependency Overview
@@ -111,7 +111,7 @@ These domains and capabilities can begin early, independent of the main critical
 Structured data files backing this tree, all in JSON-LD format:
 
 - [data/entities/](../data/entities/) — per-entity JSON-LD files organized by domain (`data/entities/{domain}/` for capabilities and processes)
-- [data/entities/_edges/](../data/entities/_edges/) — dependency edges as individual `{from}__{to}.jsonld` files (961 edges)
+- [data/entities/_edges/](../data/entities/_edges/) — dependency edges as individual `{from}__{to}.jsonld` files (1,194 edges)
 - [data/context.jsonld](../data/context.jsonld) — shared JSON-LD `@context` with all term → IRI mappings
 - [data/schema/](../data/schema/) — JSON Schema files (entity, domain, capability, process, product, dependency)
 - [data/glossary.json](../data/glossary.json) — 11,966 glossary terms with relevance ratings and cross-references

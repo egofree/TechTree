@@ -5,6 +5,7 @@
 > **Parent**: [Lubricants, Oils & Fluid Mechanics](lubricants.md)
 > **Dependencies**: [`chemistry.lubricants-mineral`](./lubricants-mineral.md),
 > [`chemistry.petroleum-alternatives`](./petroleum-alternatives.md)
+> **Enables**: None
 > **Timeline**: Years 50-200+
 > **Outputs**: synthetic_oil, vacuum_oil, pfpe_grease
 > **Critical**: No — synthetic lubricants enable demanding applications but are not prerequisites for core capabilities
@@ -138,6 +139,11 @@ Synthetic lubricant quality is verified by a battery of tests, most of which are
 | Synthetic cutting fluid leaves residue on machined parts | Ester-based fluid polymerizing at high cutting temperatures, or additive dropout | Reduce cutting temperature with higher coolant flow; switch to PAO-based cutting fluid for high-temperature operations; clean residue with isopropyl alcohol |
 | Vacuum pump makes knocking noise with PAO oil | PAO viscosity too low for the pump at cold startup temperature | Use higher viscosity PAO grade (VG 46 or 68 instead of 32); install oil heater to warm reservoir to 30°C before startup; check pump clearances |
 
+
+## Safety
+
+Synthetic base stocks (PAO, ester, PAG) have low acute toxicity but prolonged skin contact causes defatting dermatitis — wear nitrile gloves. Additive packages contain anti-wear agents (zinc dialkyldithiophosphate — ZDDP), which hydrolyzes to hydrogen sulfide in contact with acids; H2S is lethal at 100 ppm. Synthetic ester fires burn at 400-600°C with dense smoke — store away from ignition sources. Polyalkylene glycol (PAG) spills create extremely slippery surfaces. Dispose of used lubricants through approved recycling channels.
+
 ## See Also
 
 - **[Lubricants Overview](lubricants.md)**: Theory, selection guide, and cross-cutting topics
@@ -196,4 +202,4 @@ For a bootstrapping civilization, synthetic lubricants appear very late in the t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Lubricants](lubricants.md)*

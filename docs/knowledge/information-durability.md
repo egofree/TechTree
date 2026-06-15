@@ -207,4 +207,4 @@ When a threat to the archive is detected (fire, flood, structural failure, pest 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

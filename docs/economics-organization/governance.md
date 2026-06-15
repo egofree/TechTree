@@ -236,4 +236,4 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Economics & Organization](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

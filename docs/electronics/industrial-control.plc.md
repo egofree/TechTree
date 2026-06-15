@@ -2,7 +2,11 @@
 
 > **Node ID**: `electronics.industrial-control.plc`
 > **Domain**: [Electronics](index.md)
-> **Dependencies**: `electronics.industrial-control`, `electronics.control-circuits.ladder-logic`, `electronics.control-circuits.relay-logic`, `electronics.control-circuits.discrete-logic-circuits`
+> **Dependencies**: None (see body text for prerequisite circuit articles)
+> **Enables**: None
+> **Timeline**: Years 30-50
+> **Outputs**: programmable_logic_controllers
+> **Critical**: No — PLCs enable automation but are not on the critical path to semiconductors
 
 A Programmable Logic Controller (PLC) is a rack-mounted industrial computer designed for one job: execute boolean and sequential control logic over a large number of digital and analog I/O points, deterministically, in a hostile electrical environment, for decades, without rebooting. It is the machine that ate the relay panel. Where a 1960s factory floor needed a cabinet of hundreds of electromechanical relays, timer relays, and counters — each wired in a bespoke tangle that took weeks to draw, build, and debug, and weeks more to re-wire when the process changed — a single PLC runs the same logic as a program, re-configurable from a laptop in minutes. This article teaches the PLC as a *platform*: its hardware architecture (rack, power supply, CPU, I/O modules), its opto-isolated input and output modules, its deterministic scan-cycle execution model, its memory organization, the five IEC 61131-3 programming languages, and its industrial communication buses. It assumes you already know the [relay hardware](control-circuits.relay-logic.md) the PLC replaced and the [ladder-logic notation](control-circuits.ladder-logic.md) the PLC executes — this article covers the *controller*, not the logic notation.
 
@@ -510,6 +514,11 @@ This article owns the **PLC platform** — the controller hardware, the scan cyc
 - **MCU / RTOS / FPGA embedded control** (microcontroller selection, interrupt handling, watchdogs, bare-metal vs. RTOS firmware) — owned by [Embedded Systems](../computing/embedded-systems.md). The PLC is *one* embedded-controller option among MCU, RTOS-board, and FPGA; this article covers the PLC platform specifically, that article covers the broader decision framework.
 - **SCADA, HMI, plant-wide control architecture** — future process articles under the [industrial-control](industrial-control.md) capability. This article covers the single PLC; the supervisory and architecture tiers are separate concerns.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - [Industrial Control](industrial-control.md) — parent capability: the design-pedagogy hub for PLC, SCADA, HMI, and integrated control architecture.
@@ -521,4 +530,4 @@ This article owns the **PLC platform** — the controller hardware, the scan cyc
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

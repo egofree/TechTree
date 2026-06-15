@@ -197,7 +197,7 @@ Matching combustion method to application determines overall system efficiency:
 
 ## Coal Storage & Transport
 
-- **Stockpile management**: Coal stored outdoors degrades from weathering (oxidation, moisture cycling). Lignite degrades fastest — loses 5-15% calorific value per year of outdoor storage. Bituminous coal is more stable but still loses 1-3% per year. Anthracite is essentially stable indefinitely.
+- **Stockpile management**: Coal stored outdoors degrades from weathering (oxidation, moisture cycling). Lignite degrades fastest — loses 5-15% calorific value per year of outdoor storage. Bituminous coal is more stable but still loses 1-3% per year. Anthracite is stable indefinitely.
 - **Transport**: By barge (cheapest per tonne-km, ~0.01-0.03 $/tkm), rail (standard for inland transport, 0.03-0.08 $/tkm), truck (flexible but expensive, 0.10-0.30 $/tkm), or conveyor (mine-mouth to power station, <10 km distance). A standard rail gondola car carries 90-100 tonnes of coal; a unit train of 100 cars delivers ~10,000 tonnes.
 - **Handling equipment**: Bucket ladder reclaimer for stockpile retrieval (500-5000 t/hour). Conveyor belts (0.5-2.0 m wide, 2-5 m/s belt speed) for movement between receiving, storage, and consumption points. Chutes and transfer towers must be designed with minimum 50° angles to prevent coal bridging and plugging.
 
@@ -243,4 +243,5 @@ Coal is the foundational fossil fuel of industrial civilization. It provides the
 - [Cement Production](../chemistry/cement.md) — major industrial coal consumer
 - [Iron & Steel](../metals/iron-steel.md) — coal/coke as primary blast furnace fuel
 
-[← Back to Energy](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

@@ -5,6 +5,7 @@
 > **Dependencies**: [`electronics.semiconductor-devices`](./semiconductor-devices.md),
 > [`photolithography.fab-processes`](../photolithography/fab-processes.md),
 > [`polymers.thermosets`](../polymers/thermosets.md)
+> **Enables**: None
 > **Timeline**: Years 40-70
 > **Outputs**: packaged_ics, tested_ics, yield_data
 > **Critical**: Yes — semiconductor packaging protects the die from physical damage, moisture, and contamination. Without packaging, fabricated integrated circuits cannot be used in any electronic system.
@@ -178,4 +179,4 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

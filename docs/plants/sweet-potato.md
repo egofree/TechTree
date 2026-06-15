@@ -269,4 +269,4 @@ usable biomass from each plant. In many tropical farming systems, sweet potato s
 a human food crop and an integrated livestock feed source.
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -134,7 +134,7 @@ Each generation's equipment is built using the previous generation's ICs (for co
 
 ## Hazards & Safety
 
-Continuous scaling does not introduce fundamentally new hazard categories beyond those already described in the upstream and downstream process files, but the hazard severity escalates with each technology node: higher voltages (ion implanters to 500 kV), more toxic process gases (AsH₃, PH₃), and more energetic radiation sources (DUV, EUV). Safety programs must scale accordingly. Refer to the specific hazard details in:
+Continuous scaling does not introduce new hazard categories beyond those already described in the upstream and downstream process files, but the hazard severity escalates with each technology node: higher voltages (ion implanters to 500 kV), more toxic process gases (AsH₃, PH₃), and more energetic radiation sources (DUV, EUV). Safety programs must scale accordingly. Refer to the specific hazard details in:
 - [Advanced Lithography](advanced-lithography.md) — excimer laser high voltage, DUV radiation, fluorine gas handling.
 - [Advanced Processes](advanced-processes.md) — CMP slurry, copper contamination, ion implantation and RIE gas hazards.
 - [Core Fab Processes](../photolithography/fab-processes.md) — HF acid, furnace temperatures, forming gas.
@@ -347,5 +347,5 @@ Transition to the next technology node when:
 - [Vacuum Systems](vacuum-systems.md) — vacuum requirements for scaling
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [VLSI Scaling](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
 

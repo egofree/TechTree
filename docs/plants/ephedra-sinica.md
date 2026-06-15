@@ -197,5 +197,5 @@ Ephedra is one of the oldest medicinal plants in continuous use, with a document
 *Content to be added: active compound yield, harvest timing, preparation methods.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
 

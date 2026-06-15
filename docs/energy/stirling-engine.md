@@ -164,7 +164,7 @@ Power modulation in Stirling engines is less responsive than in internal combust
 
 Robert Stirling patented the Stirling engine in 1816 as a safer alternative to steam engines, whose boiler explosions were a frequent and deadly occurrence in the early Industrial Revolution. The key innovation was the regenerator (which Stirling called the "economiser"), a porous matrix that stored and released heat each cycle, dramatically improving efficiency over non-regenerative hot-air engines.
 
-Early Stirling engines found limited commercial success because they could not compete with the rapidly improving steam engine in power density or cost. The Stirling engine's sealing challenges — containing working gas at pressure with a sliding piston seal — were fundamentally harder than the steam engine's packing gland seal against liquid water.
+Early Stirling engines found limited commercial success because they could not compete with the rapidly improving steam engine in power density or cost. The Stirling engine's sealing challenges — containing working gas at pressure with a sliding piston seal — were harder than the steam engine's packing gland seal against liquid water.
 
 Modern interest in Stirling engines revived in the mid-20th century for applications where silence and fuel flexibility mattered: submarine air-independent propulsion, space radioisotope power systems (NASA's Advanced Stirling Radioisotope Generator), and solar dish-electric systems (where a parabolic mirror concentrates sunlight onto the Stirling engine's hot end). The Philips company in the Netherlands developed the most advanced Stirling engines of the 20th century, achieving 40% thermal efficiency with hydrogen at 20 MPa — rivaling diesel engine efficiency with the advantage of external combustion.
 
@@ -206,4 +206,4 @@ For a bootstrapping civilization, the Stirling engine occupies a niche between s
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) · [Energy](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*

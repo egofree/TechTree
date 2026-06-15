@@ -2,6 +2,7 @@
 
 > **Node ID**: animals.leather
 > **Domain**: [Animals](./index.md)
+> **Dependencies**: None
 > **Enables**: `textiles`
 > **Timeline**: Years 5-15
 > **Outputs**: leather, rawhide, tanned_hides
@@ -251,4 +252,4 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 - [Energy: Steam Power](../energy/steam-power.md) — leather belts for power transmission from steam engines
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Animals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

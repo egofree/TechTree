@@ -198,4 +198,4 @@ The plant's tumbleweed habit, while convenient for seed dispersal, creates a man
 ### Amaranthus albus Summary
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

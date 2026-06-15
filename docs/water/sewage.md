@@ -2,6 +2,7 @@
 
 > **Node ID**: water.sewage
 > **Domain**: [Water](./index.md)
+> **Dependencies**: None
 > **Enables**: [`chemistry.water-treatment`](../chemistry/water-treatment.md),
 > [`ehs.waste-management`](../ehs/waste-management.md)
 > **Timeline**: Years 10-35
@@ -261,4 +262,4 @@ The most common secondary treatment method in industrialized nations. Requires e
 - [Agriculture](../agriculture/index.md) — treated effluent and composted sludge for irrigation and fertilization
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Water](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

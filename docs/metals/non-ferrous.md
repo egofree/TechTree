@@ -4,7 +4,7 @@
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`metals.copper`](./copper.md)
 > **Enables**: [`chemistry.soap`](../chemistry/soap.md),
-> [`glass.basic.float-glass`](../glass/basic.float-glass.md),
+> [`glass.basic.float-glass`](../glass/float-glass.md),
 > [`metals.alloys`](./alloys.md), [`metals.bronze`](./bronze.md),
 > [`metals.finishing`](./finishing.md),
 > [`metals.precious-metals`](./precious-metals.md)
@@ -288,4 +288,4 @@ Non-ferrous metals have significant interdependencies:
 - [Metal Recycling](metal-recycling.md) — recovering non-ferrous metals from scrap
 - [Blast Furnace](blast-furnace.md) — high-temperature smelting infrastructure
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Metals](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

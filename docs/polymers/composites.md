@@ -4,6 +4,7 @@
 > **Domain**: [Polymers & Composites](./index.md)
 > **Dependencies**: [`glass.fibers`](../glass/fibers.md), `machine-tools`,
 > [`polymers.thermosets`](./thermosets.md)
+> **Enables**: None
 > **Timeline**: Years 15-50
 > **Outputs**: fiberglass_composites, carbon_fiber_composites, composite_laminates
 > **Critical**: No — composites provide high strength-to-weight but metals and wood serve most structural needs
@@ -331,5 +332,5 @@ structural reinforcement in hybrid composites.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Polymers & Composites](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
 

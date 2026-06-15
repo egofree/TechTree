@@ -4,6 +4,7 @@
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](./semiconductor-devices.md),
 > [`electronics.passive-components`](./passive-components.md)
+> **Enables**: None
 > **Outputs**: inverter-circuit-design
 > **Timeline**: Years 30-50
 > **Critical**: No
@@ -349,6 +350,11 @@ The boundary is: read this article to *design the switching circuit*; read power
 - **[Filter Circuits](./power-supply-circuits.filter-circuits.md)** — LC low-pass filter cutoff design (f_c = 1/(2π√LC)), the same math used here for the inverter output filter.
 - **[Circuit Fundamentals: AC Analysis](./circuit-fundamentals.ac-analysis.md)** — RMS vs peak, sinusoidal waveform properties, reactance, impedance.
 
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
 ## See Also
 
 - **[Power Conversion Circuits](./power-conversion-circuits.md)** — parent capability: DC→AC inversion, variable-frequency drive architecture, switching-device selection at the circuit level.
@@ -359,4 +365,4 @@ The boundary is: read this article to *design the switching circuit*; read power
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

@@ -3,6 +3,7 @@
 > **Node ID**: electronics.industrial-control.scada
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.industrial-control`](industrial-control.md), [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.industrial-control.plc`](industrial-control.plc.md)
+> **Enables**: None
 > **Timeline**: Years 35-55
 > **Outputs**: scada-system-designs
 > **Critical**: No — SCADA is the supervisory/aggregation layer built atop the embedded controller and semiconductor substrate; it organizes visibility and coordination across sites rather than gating a primary bootstrap dependency
@@ -266,4 +267,9 @@ The [semiconductor-devices](semiconductor-devices.md) capability provides the si
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

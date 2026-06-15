@@ -307,4 +307,4 @@ The electrical telegraph solved all five problems simultaneously. When telegraph
 - [Telegraph Communication](../transport/telegraph.md) — The electrical telegraph hardware details
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) • [Telecommunications](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*

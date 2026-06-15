@@ -3,6 +3,7 @@
 > **Node ID**: `electronics.communications-circuits.modulation-circuits`
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.analog-circuits`](analog-circuits.md), [`electronics.passive-components`](passive-components.md)
+> **Enables**: None
 > **Timeline**: Years 20-40
 > **Outputs**: modulation-circuit-designs
 > **Critical**: No — modulation pedagogy extends analog design into RF communications, but it is not on the minimum-viable bootstrap critical path
@@ -268,4 +269,9 @@ Those advanced topics belong to a specialized RF engineering track well beyond t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Electronics](index.md)*
+
+## Safety
+
+These circuits operate at low DC voltages (typically 5-24V) where electric shock risk is minimal. Observe standard ESD precautions: ground all workbench equipment, wear conductive wrist straps when handling MOSFETs and ICs, store sensitive devices in antistatic bags. Soldering iron tips reach 300-350°C — use stands, avoid burns, and work in a ventilated area to avoid flux fume inhalation (colophony flux causes occupational asthma). For circuits that switch mains AC or drive high-current loads (>1A), use isolation transformers and follow [PPE](../ehs/ppe.md) and [electrical safety](../ehs/chemical-safety.md) procedures.
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](index.md)*

@@ -195,5 +195,5 @@ Cinchona bark was so valuable in the 19th century that explorers risked their li
 *Content to be added: active compound yield, harvest timing, preparation methods.*
 
 ---
-*Part of the [Bootciv Tech Tree](../../index.md) · [Plants](./index.md) · [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
 

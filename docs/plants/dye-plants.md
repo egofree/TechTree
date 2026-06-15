@@ -3,6 +3,7 @@
 > **Node ID**: plants.dye-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
 > **Dependencies**: `plants`, [`textiles.dyeing`](../textiles/dyeing.md)
+> **Enables**: None
 > **Timeline**: Years 5-10
 > **Outputs**: natural_dyes, plant_pigments
 > **Critical**: No — color is important for signaling and trade but not strictly required for survival
@@ -306,4 +307,4 @@ Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fres
 
 ---
 
-*Part of the [Bootciv Tech Tree](../../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

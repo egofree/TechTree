@@ -2,9 +2,11 @@
 
 > **Node ID**: polymers.rubber.vulcanization
 > **Domain**: Polymers & Composites
+> **Dependencies**: None
 > **Enables**: [`polymers.rubber`](./rubber.md)
 > **Timeline**: Years 5-50
 > **Outputs**: vulcanized_elastomers, cured_seals, molded_rubber_parts
+> **Critical**: No — vulcanization improves rubber performance but is not on the critical path to semiconductors
 
 Vulcanization converts raw rubber (thermoplastic, sticky, temperature-sensitive) into a durable elastomer with stable mechanical properties. Discovered by Charles Goodyear in 1839, it enables every rubber application that matters: tires, seals, gaskets, hoses, belts, and vibration isolators. Sulfur atoms form covalent bridges (polysulfide chains —Sₓ—, x = 1–8) between adjacent polymer chains at allylic carbon positions, creating a three-dimensional molecular network that prevents permanent chain slippage. Modern cure packages add accelerators (speed the reaction, lower temperatures), activators (zinc oxide + stearic acid), antioxidants/antiozonants (environmental protection), and reinforcing fillers (carbon black, silica — improving tensile strength and abrasion resistance 5–10× over unfilled polymer). See [Rubber Production](./rubber.md) and [Natural Rubber](./natural.md).
 
@@ -266,4 +268,5 @@ Start troubleshooting with the MDR trace: if compound is in spec, the problem is
 - [Charcoal](../energy/charcoal.md) — carbon black from charcoal processes
 - [Machine Tools / Joining](../machine-tools/joining.md) — press equipment for molding
 
-[← Back to Polymers](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Polymers](./index.md) · [All Domains](../index.md)*

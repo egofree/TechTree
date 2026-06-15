@@ -9,9 +9,9 @@ This project documents the complete dependency chain from fire and stone tools t
 | Metric | Count |
 |--------|-------|
 | Technology domains | 43 |
-| Capability nodes | 459 |
-| Dependency edges | 1,061 |
-| Content articles | 671 |
+| Capability nodes | 473 |
+| Dependency edges | 1,194 |
+| Content articles | 694 |
 | Mermaid diagrams | 59 |
 | D2 diagrams | 59 |
 | Glossary terms | 11,966 |
@@ -172,11 +172,11 @@ tech-tree-bootstrap/
 ├── docs/               # Domain-organized content (Markdown prose)
 │   ├── index.md        # Unified entry point
 │   ├── {domain}/       # 43 technology domain directories
-│   ├── glossary/       # 6,240 auto-generated glossary entries
+│   ├── glossary/       # 11,966 auto-generated glossary entries
 │   └── supporting/     # Schema spec, checklist, resources
 ├── data/               # Structured data (JSON-LD)
-│   ├── entities/       # 459 entity files (JSON-LD)
-│   ├── products/       # 1,272 product/material files (JSON-LD)
+│   ├── entities/       # 516 entity files (JSON-LD)
+│   ├── products/       # 1,322 product/material files (JSON-LD)
 │   ├── schema/         # JSON Schema validation files
 │   ├── glossary.json   # 11,966 glossary terms with relevance ratings
 │   ├── plants.json     # Plant species catalog

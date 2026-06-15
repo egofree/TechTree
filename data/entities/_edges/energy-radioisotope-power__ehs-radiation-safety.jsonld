@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power__ehs.radiation-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.radioisotope-power",
+  "to": "ehs.radiation-safety",
+  "label": "shielding design, dosimetry, contamination control, and launch-accident safety case for encapsulated radioisotope fuel"
+}

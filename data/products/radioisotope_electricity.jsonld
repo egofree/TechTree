@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "radioisotope_electricity",
+  "@type": "Product",
+  "name": "Radioisotope Electricity",
+  "source": "energy.radioisotope-power",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "radioisotope_heat",
+  "@type": "Product",
+  "name": "Radioisotope Heat",
+  "source": "energy.radioisotope-power",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

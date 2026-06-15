@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.radioisotope-power__energy.nuclear-fission.isotope-production",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.radioisotope-power",
+  "to": "energy.nuclear-fission.isotope-production",
+  "label": "Pu-238 oxide, Sr-90, Am-241, Co-60, Cs-137 sources produced by reactor irradiation and hot-cell separation"
+}

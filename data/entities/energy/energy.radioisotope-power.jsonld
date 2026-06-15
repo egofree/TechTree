@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "critical_note": "Not on the minimum-viable path: radioisotope power requires a operating nuclear reactor to produce Pu-238/Sr-90/Am-241, plus hot-cell fuel fabrication and thermoelectric semiconductor manufacturing — capabilities that arrive decades into the industrial buildup",
+  "description": "Conversion of radioactive decay energy into electricity and heat. Alpha-emitting Pu-238 and beta-emitting Sr-90 sources are encapsulated in ceramic fuel and coupled to thermoelectric, Stirling, thermophotovoltaic, or direct-charge conversion stages. Delivers 1-300 W of unattended power for 10-100 years with no refueling, enabling deep-space missions, polar sensors, and implanted medical devices. Requires isotope production via reactor irradiation, hot-cell fuel fabrication, and multi-layer containment qualified for launch accidents.",
+  "early_win": false,
+  "id": "energy.radioisotope-power",
+  "level": "capability",
+  "name": "Radioisotope Power",
+  "outputs": [
+    "radioisotope_electricity",
+    "radioisotope_heat",
+    "radioisotope_power"
+  ],
+  "parent": "energy",
+  "pinnacle": true,
+  "pinnacle_note": "Represents a pinnacle of nuclear and materials engineering: reactor-produced isotopes, hot-cell fuel fabrication, semiconductor thermoelectrics, and launch-qualified safety containment must all mature before any flight unit ships",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": true
+  },
+  "timeline": "Years 30-100+"
+}

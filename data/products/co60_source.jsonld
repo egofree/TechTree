@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "co60_source",
+  "@type": "Product",
+  "name": "Cobalt-60 Source",
+  "source": "energy.nuclear-fission.isotope-production",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

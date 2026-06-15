@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission.isotope-production__ehs.radiation-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.nuclear-fission.isotope-production",
+  "to": "ehs.radiation-safety",
+  "label": "hot cells with metre-scale shielding, remote manipulators, ventilation filtration, dosimetry, and contamination control required to handle highly radioactive product"
+}

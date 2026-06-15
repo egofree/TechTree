@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "am241_source",
+  "@type": "Product",
+  "name": "Americium-241 Source",
+  "source": "energy.nuclear-fission.isotope-production",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

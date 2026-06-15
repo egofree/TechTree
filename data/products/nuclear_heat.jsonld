@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nuclear_heat",
+  "@type": "Product",
+  "name": "Nuclear Heat",
+  "source": "energy.nuclear-fission",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

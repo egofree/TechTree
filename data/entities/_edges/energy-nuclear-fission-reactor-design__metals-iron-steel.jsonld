@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission.reactor-design__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.nuclear-fission.reactor-design",
+  "to": "metals.iron-steel",
+  "label": "forged pressure vessel steel (SA-508), austenitic stainless primary piping, steam generator tubes, and containment building rebar"
+}

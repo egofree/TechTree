@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission.isotope-production__chemistry",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.nuclear-fission.isotope-production",
+  "to": "chemistry",
+  "label": "solvent extraction (PUREX and variants), nitric acid dissolution, ion exchange, and oxalate precipitation reagents consumed during chemical separation of product isotopes"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.nuclear-fission",
+  "to": "energy.electricity",
+  "label": "turbine-generators, transformers, switchyard, and grid synchronization for power export"
+}

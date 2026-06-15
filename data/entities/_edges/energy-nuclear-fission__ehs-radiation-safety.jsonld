@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission__ehs.radiation-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.nuclear-fission",
+  "to": "ehs.radiation-safety",
+  "label": "shielding design, dose monitoring, contamination control, and ALARA program required for licensed operation"
+}

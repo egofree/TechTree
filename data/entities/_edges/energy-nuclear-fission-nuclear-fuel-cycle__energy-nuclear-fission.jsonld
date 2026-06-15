@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.nuclear-fission.nuclear-fuel-cycle__energy.nuclear-fission","@type":"Dependency","edgeType":"tool","flow":"primary","from":"energy.nuclear-fission.nuclear-fuel-cycle","to":"energy.nuclear-fission"}

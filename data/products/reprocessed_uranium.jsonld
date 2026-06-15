@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reprocessed_uranium",
+  "@type": "Product",
+  "name": "Reprocessed Uranium",
+  "source": "energy.nuclear-fission.nuclear-fuel-cycle",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "lifecycle": [
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

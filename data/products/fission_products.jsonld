@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fission_products",
+  "@type": "Product",
+  "name": "Fission Products",
+  "source": "energy.nuclear-fission",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

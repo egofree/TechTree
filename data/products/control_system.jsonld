@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "control_system",
+  "@type": "Product",
+  "name": "Control System",
+  "source": "energy.nuclear-fission.reactor-design",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

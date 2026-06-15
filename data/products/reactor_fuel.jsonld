@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reactor_fuel",
+  "@type": "Product",
+  "name": "Reactor Fuel",
+  "source": "energy.nuclear-fission.nuclear-fuel-cycle",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

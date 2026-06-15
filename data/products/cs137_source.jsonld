@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cs137_source",
+  "@type": "Product",
+  "name": "Cesium-137 Source",
+  "source": "energy.nuclear-fission.isotope-production",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission__energy",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.nuclear-fission",
+  "to": "energy",
+  "label": "parent energy domain: shares steam cycles, cooling, and electrical infrastructure with other thermal sources"
+}

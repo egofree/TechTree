@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "neutron_flux",
+  "@type": "Product",
+  "name": "Neutron Flux",
+  "source": "energy.nuclear-fission",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

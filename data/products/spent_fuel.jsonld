@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spent_fuel",
+  "@type": "Product",
+  "name": "Spent Fuel",
+  "source": "energy.nuclear-fission.nuclear-fuel-cycle",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

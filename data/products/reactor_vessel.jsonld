@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reactor_vessel",
+  "@type": "Product",
+  "name": "Reactor Vessel",
+  "source": "energy.nuclear-fission.reactor-design",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.nuclear-fission",
+  "to": "metals.iron-steel",
+  "label": "pressure vessel, reactor internals, steam generators, primary piping, and containment building rebar"
+}

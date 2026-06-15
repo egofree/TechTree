@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "enriched_uranium",
+  "@type": "Product",
+  "name": "Enriched Uranium",
+  "source": "energy.nuclear-fission.nuclear-fuel-cycle",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

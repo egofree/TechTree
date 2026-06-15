@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Reactor irradiation of target nuclides and chemical separation of the resulting radioisotopes. Produces the Pu-238, Sr-90, Am-241, Co-60, and Cs-137 sources that fuel every radioisotope power system. Requires hot cells with metre-scale shielding, remote manipulators, and solvent-extraction chemistry (PUREX and variants).",
+  "early_win": false,
+  "id": "energy.nuclear-fission.isotope-production",
+  "level": "process",
+  "name": "Isotope Production",
+  "outputs": [
+    "pu238_oxide",
+    "sr90_source",
+    "am241_source",
+    "co60_source",
+    "cs137_source"
+  ],
+  "parent": "energy.nuclear-fission",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

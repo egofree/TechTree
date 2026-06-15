@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Nuclear Fuel Cycle - see documentation for details.",
+  "early_win": false,
+  "id": "energy.nuclear-fission.nuclear-fuel-cycle",
+  "level": "process",
+  "name": "Nuclear Fuel Cycle",
+  "outputs": [
+    "enriched_uranium",
+    "reactor_fuel",
+    "spent_fuel",
+    "reprocessed_uranium"
+  ],
+  "parent": "energy.nuclear-fission",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

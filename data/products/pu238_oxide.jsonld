@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pu238_oxide",
+  "@type": "Product",
+  "name": "Plutonium-238 Oxide",
+  "source": "energy.nuclear-fission.isotope-production",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

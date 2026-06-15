@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "coolant_system",
+  "@type": "Product",
+  "name": "Coolant System",
+  "source": "energy.nuclear-fission.reactor-design",
+  "tags": {
+    "capability": [
+      "energy",
+      "cooling"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

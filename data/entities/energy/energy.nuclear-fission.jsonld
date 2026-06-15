@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "critical_note": "Not on the minimum-viable path: nuclear fission requires an advanced industrial base (precision metallurgy, zirconium refining, regulatory infrastructure, radiation safety) and cannot be bootstrapped without decades of prior capability development",
+  "description": "Nuclear fission splits heavy nuclei (U-235, Pu-239) to release ~200 MeV per fission — the densest non-solar energy source available. Sustained chain reactions in reactors produce baseload electricity, process heat, and neutron flux for isotope production. Enables all radioisotope power systems via irradiation of target nuclides (Np-237 to Pu-238, Co-59 to Co-60). Requires pressurized vessels, engineered safety systems, and radiation protection infrastructure.",
+  "early_win": false,
+  "id": "energy.nuclear-fission",
+  "level": "capability",
+  "name": "Nuclear Fission Power",
+  "outputs": [
+    "nuclear_electricity",
+    "nuclear_heat",
+    "neutron_flux",
+    "fission_products"
+  ],
+  "parent": "energy",
+  "pinnacle": true,
+  "pinnacle_note": "Represents a pinnacle of industrial capability: fuel cycle chemistry, pressure-vessel metallurgy, neutron transport physics, and defense-in-depth safety engineering must all mature before deployment",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals"
+    ],
+    "pinnacle": true
+  },
+  "timeline": "Years 30-100+"
+}

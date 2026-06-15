@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sr90_source",
+  "@type": "Product",
+  "name": "Strontium-90 Source",
+  "source": "energy.nuclear-fission.isotope-production",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"@context":"../../context.jsonld","@id":"edge/energy.nuclear-fission.nuclear-fuel-cycle__mining.extraction","@type":"Dependency","edgeType":"material","flow":"primary","from":"energy.nuclear-fission.nuclear-fuel-cycle","to":"mining.extraction"}

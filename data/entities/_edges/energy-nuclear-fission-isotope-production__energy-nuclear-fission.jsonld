@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.nuclear-fission.isotope-production__energy.nuclear-fission",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.nuclear-fission.isotope-production",
+  "to": "energy.nuclear-fission",
+  "label": "parent capability: provides the reactor neutron flux, fuel cycle chemistry, and radiation safety infrastructure that all isotope production depends on"
+}

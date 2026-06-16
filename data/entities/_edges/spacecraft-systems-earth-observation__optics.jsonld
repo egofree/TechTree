@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.earth-observation__optics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.earth-observation",
+  "to": "optics"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Extravehicular activity procedures, hand tools, body restraint systems, and SAFER-class maneuvering units that enable astronauts to work outside a pressurised spacecraft. Covers prebreath protocols, pistol-grip tool operations, foot restraint platforms, tether protocols, and emergency self-rescue jetpacks.",
+  "early_win": false,
+  "id": "human-spaceflight.eva",
+  "level": "capability",
+  "name": "Extravehicular Activity (EVA)",
+  "outputs": [
+    "eva_capability",
+    "eva_procedures",
+    "eva_tools",
+    "body_restraint_systems"
+  ],
+  "parent": "human-spaceflight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

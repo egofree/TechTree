@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.eva__human-spaceflight.eclss",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.eva",
+  "to": "human-spaceflight.eclss",
+  "label": "Airlock life support and oxygen prebreath infrastructure"
+}

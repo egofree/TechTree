@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Crewed spacecraft design encompassing pressurised crew cabins, launch abort systems, rendezvous and docking systems, and atmospheric reentry systems. Covers the integration of life support, structural pressure vessels, thermal protection, guidance and recovery hardware needed to launch humans, sustain them in flight, and return them safely to the surface.",
+  "early_win": false,
+  "id": "human-spaceflight.crewed-spacecraft",
+  "level": "capability",
+  "name": "Crewed Spacecraft",
+  "outputs": [
+    "crewed_capsules",
+    "launch_abort_systems",
+    "docking_systems",
+    "reentry_systems"
+  ],
+  "parent": "human-spaceflight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

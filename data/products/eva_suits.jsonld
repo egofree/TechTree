@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eva_suits",
+  "@type": "Product",
+  "name": "EVA Suits",
+  "source": "human-spaceflight.space-suits",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

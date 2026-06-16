@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.propellant-production.rp1-refining__launch-vehicles.propellant-production",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.propellant-production.rp1-refining",
+  "to": "launch-vehicles.propellant-production"
+}

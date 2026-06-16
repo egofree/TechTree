@@ -152,6 +152,9 @@ foundations_tools-basic: "Stone & Wood Tools" {
 gas-handling_piping-systems: Gas Distribution Piping Systems {
   shape: rectangle
 }
+human-spaceflight_space-stations: Space Stations {
+  shape: rectangle
+}
 knowledge_surveying: "Surveying & Cartography" {
   shape: rectangle
 }
@@ -171,6 +174,12 @@ metals_metal-recycling: Metal Scrap Recycling {
   shape: rectangle
 }
 precision-motion_vibration-isolation: Vibration Isolation {
+  shape: rectangle
+}
+space-ground-ops_launch-complex: Launch Complex {
+  shape: rectangle
+}
+space-ground-ops_vehicle-assembly: Vehicle Assembly {
   shape: rectangle
 }
 textiles_rope-making: Rope and Cordage {
@@ -204,7 +213,10 @@ construction -> metals_blacksmithing: { class: material-edge }
 construction -> metals_metal-recycling: { class: material-edge }
 construction -> metals: { class: material-edge }
 construction -> textiles_rope-making: { class: material-edge }
+human-spaceflight_space-stations -> construction: { class: tool-edge }
 precision-motion_vibration-isolation -> construction: { class: tool-edge }
+space-ground-ops_launch-complex -> construction: { class: tool-edge }
+space-ground-ops_vehicle-assembly -> construction: { class: tool-edge }
 
 # ==================== STYLING ====================
 construction.class: domain
@@ -230,6 +242,7 @@ foundations_carpentry.class: external
 foundations_sawmilling.class: external
 foundations_tools-basic.class: external
 gas-handling_piping-systems.class: external
+human-spaceflight_space-stations.class: external
 knowledge_surveying.class: external
 machine-tools.class: external
 metals.class: external
@@ -237,6 +250,8 @@ metals_blacksmithing.class: external
 metals_iron-steel.class: external
 metals_metal-recycling.class: external
 precision-motion_vibration-isolation.class: external
+space-ground-ops_launch-complex.class: external
+space-ground-ops_vehicle-assembly.class: external
 textiles_rope-making.class: external
 
 # ==================== LEGEND ====================

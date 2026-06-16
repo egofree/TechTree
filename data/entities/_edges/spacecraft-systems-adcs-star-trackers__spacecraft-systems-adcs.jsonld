@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.adcs.star-trackers__spacecraft-systems.adcs",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.adcs.star-trackers",
+  "to": "spacecraft-systems.adcs"
+}

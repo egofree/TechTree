@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thermal_rejection_packs",
+  "@type": "Product",
+  "name": "Thermal Rejection Packs",
+  "source": "human-spaceflight.space-suits.plss-design",
+  "tags": {
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

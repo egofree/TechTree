@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Thermal and humidity control of the crewed cabin: condensing heat exchangers remove metabolic heat (≈100 W per crew member) and condensate from cabin air, maintaining 18-27°C and 25-75% relative humidity. Liquid-cooling garments, cabin air coolers, and coolant loops interface with the spacecraft's external thermal control subsystem to reject waste heat to space via radiators.",
+  "early_win": false,
+  "id": "human-spaceflight.eclss.thermal-humidity-control",
+  "level": "process",
+  "name": "Thermal & Humidity Control",
+  "outputs": [
+    "eclss_systems"
+  ],
+  "parent": "human-spaceflight.eclss",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

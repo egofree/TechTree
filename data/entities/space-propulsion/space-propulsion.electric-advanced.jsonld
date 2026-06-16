@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Advanced electric propulsion: VASIMR, arcjets, magnetoplasmadynamic (MPD) thrusters, and pulsed plasma thrusters for high-power and specialized in-space missions beyond gridded and Hall architectures.",
+  "early_win": false,
+  "id": "space-propulsion.electric-advanced",
+  "level": "capability",
+  "name": "Electric Propulsion — Advanced",
+  "outputs": [
+    "advanced_thrusters"
+  ],
+  "parent": "space-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

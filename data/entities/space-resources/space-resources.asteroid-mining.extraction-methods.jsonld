@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Extraction of metals and minerals from asteroid regolith via thermal volatilization, magnetic separation of free metal grains, and chemical leaching of silicate matrix.",
+  "early_win": false,
+  "id": "space-resources.asteroid-mining.extraction-methods",
+  "level": "process",
+  "name": "Extraction Methods",
+  "outputs": [
+    "asteroid_materials"
+  ],
+  "parent": "space-resources.asteroid-mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

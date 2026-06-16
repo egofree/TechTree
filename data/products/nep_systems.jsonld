@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nep_systems",
+  "@type": "Product",
+  "name": "Nuclear Electric Propulsion Systems",
+  "source": "space-propulsion.nuclear-electric",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

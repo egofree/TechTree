@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Road-switcher locomotive configuration: a single-hood unit with a full-length walking platform, operator cab at one or both ends, and a B-B (two 4-wheel trucks) or C-C (two 6-wheel trucks) wheel arrangement. Combines mainline road service with yard switching capability — the defining workhorse layout of dieselization.",
+  "early_win": false,
+  "id": "transport.diesel-locomotives.road-switcher-design",
+  "level": "process",
+  "name": "Road-Switcher Design",
+  "outputs": [
+    "diesel_locomotives"
+  ],
+  "parent": "transport.diesel-locomotives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50+"
+}

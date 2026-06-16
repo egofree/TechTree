@@ -7,7 +7,7 @@
 > **Enables**: [`energy.electricity.power-systems`](./power-systems.md),
 > [`energy.gas-turbine`](./gas-turbine.md),
 > [`marine.propulsion`](../marine/propulsion.md), `transport`,
-> [`transport.aviation`](../transport/aviation.md)
+> [`aerospace.aviation`](../aerospace/aviation.md)
 > **Timeline**: Years 15-50+
 > **Outputs**: mechanical_power, internal_combustion_engines, gas_turbine_power
 > **Critical**: No — engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing
@@ -134,7 +134,7 @@ Heat engines follow a strict dependency chain — each generation builds on the 
 - [Steam Power](steam-power.md) — External combustion predecessor
 - [Electricity Generation](electricity.md) — Generators driven by engines
 - [Railways](../transport/railways.md) — Diesel locomotive applications
-- [Aviation](../transport/aviation.md) — Aircraft engine requirements
+- [Aviation](../aerospace/aviation.md) — Aircraft engine requirements
 - [Lubricants](../chemistry/lubricants.md) — Engine oil and lubrication
 - [Machining](../machine-tools/machining.md) — Precision machining for engine components
 

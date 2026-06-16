@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.radiation-protection.storm-shelters",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and construction of radiation storm shelters for solar particle event (SPE) protection: water and polyethylene shielding at 5-10 g/cm² areal density, optimisation of hydrogen-rich materials for GCR dose reduction, and configurational shielding using consumables and propellant tanks arranged around crew refuge zones.",
+  "early_win": false,
+  "id": "human-spaceflight.radiation-protection.storm-shelters",
+  "level": "process",
+  "name": "Storm Shelters",
+  "outputs": [
+    "radiation_protection"
+  ],
+  "parent": "human-spaceflight.radiation-protection",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "water",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

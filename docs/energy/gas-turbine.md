@@ -233,7 +233,7 @@ Not achievable until well into the industrial era, after precision machine tools
 - [Electricity Generation](electricity.md) — generators and power distribution
 - [Fuels](fuels.md) — natural gas, kerosene, and other gas turbine fuels
 - [Metals](../metals/iron-steel.md) — superalloy base metals and alloying elements
-- [Aviation](../transport/aviation.md) — jet propulsion applications
+- [Aviation](../aerospace/aviation.md) — jet propulsion applications
 
 ---
 

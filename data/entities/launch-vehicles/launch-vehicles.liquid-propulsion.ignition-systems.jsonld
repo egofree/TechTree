@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Ignition Systems - see documentation for details.",
+  "early_win": false,
+  "id": "launch-vehicles.liquid-propulsion.ignition-systems",
+  "level": "process",
+  "name": "Ignition Systems",
+  "outputs": [
+    "ignition_systems"
+  ],
+  "parent": "launch-vehicles.liquid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

@@ -1,0 +1,325 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Spacecraft Systems
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph spacecraft-systems_internal ["Spacecraft Systems — Internal Structure"]
+        direction TB
+        spacecraft-systems_adcs_imu-gyros["IMU & Gyroscopes"]
+        spacecraft-systems_adcs["Attitude Determination & Control"]
+        spacecraft-systems_adcs_magnetorquers["Magnetorquers"]
+        spacecraft-systems_adcs_reaction-wheels["Reaction Wheels"]
+        spacecraft-systems_adcs_star-trackers["Star Trackers"]
+        spacecraft-systems_adcs_sun-earth-sensors["Sun & Earth Sensors"]
+        spacecraft-systems_adcs_thruster-control["Thruster Control"]
+        spacecraft-systems_bus-structure_deployable-structures["Deployable Structures"]
+        spacecraft-systems_bus-structure["Bus Structure + Deployables"]
+        spacecraft-systems_bus-structure_mechanisms["Mechanisms and Release Devices"]
+        spacecraft-systems_bus-structure_primary-structure["Primary Structure Fabrication"]
+        spacecraft-systems_comms-payload_antennas["Satellite Antennas"]
+        spacecraft-systems_comms-payload["Communications Payload"]
+        spacecraft-systems_comms-payload_multiplexers["RF Multiplexers"]
+        spacecraft-systems_comms-payload_transponders["Communications Transponders"]
+        spacecraft-systems_comms-payload_traveling-wave-tubes["Traveling-Wave Tube Amplifiers"]
+        spacecraft-systems_debris-management_collision-avoidance["Collision Avoidance"]
+        spacecraft-systems_debris-management_debris-tracking["Debris Tracking"]
+        spacecraft-systems_debris-management["Debris Management"]
+        spacecraft-systems_debris-management_post-mission-disposal["Post-Mission Disposal"]
+        spacecraft-systems_earth-observation_hyperspectral["Hyperspectral Imagers"]
+        spacecraft-systems_earth-observation["Earth Observation Payloads"]
+        spacecraft-systems_earth-observation_optical-imagers["Optical Imagers"]
+        spacecraft-systems_earth-observation_sar-radar["Synthetic Aperture Radar"]
+        spacecraft-systems_earth-observation_thermal-infrared["Thermal Infrared Sensors"]
+        spacecraft-systems_military-satellites_early-warning["Early Warning"]
+        spacecraft-systems_military-satellites["Military Satellites"]
+        spacecraft-systems_military-satellites_reconnaissance-imaging["Reconnaissance Imaging"]
+        spacecraft-systems_military-satellites_space-surveillance["Space Surveillance"]
+        spacecraft-systems_navigation-payload_atomic-clocks["Atomic Clocks"]
+        spacecraft-systems_navigation-payload["Navigation & PNT Payloads"]
+        spacecraft-systems_navigation-payload_laser-retroreflectors["Laser Retroreflectors"]
+        spacecraft-systems_navigation-payload_signal-generation["Navigation Signal Generation"]
+        spacecraft-systems_obdh_data-buses["Spacecraft Data Buses"]
+        spacecraft-systems_obdh_flight-computers["Flight Computers"]
+        spacecraft-systems_obdh_flight-software["Flight Software"]
+        spacecraft-systems_obdh["Onboard Data Handling"]
+        spacecraft-systems_obdh_mass-storage["Mass Storage"]
+        spacecraft-systems_orbital-mechanics["Orbital Mechanics"]
+        spacecraft-systems_orbital-mechanics_maneuver-design["Maneuver Design"]
+        spacecraft-systems_orbital-mechanics_orbit-determination["Orbit Determination"]
+        spacecraft-systems_orbital-mechanics_station-keeping["Station-Keeping"]
+        spacecraft-systems_radiation-hardening["Radiation Hardening"]
+        spacecraft-systems_radiation-hardening_see-mitigation["Single Event Effects Mitigation"]
+        spacecraft-systems_radiation-hardening_shielding-design["Radiation Shielding Design"]
+        spacecraft-systems_radiation-hardening_tid-design["Total Ionizing Dose Design"]
+        spacecraft-systems_science-instruments_in-situ-probes["In-Situ Probes"]
+        spacecraft-systems_science-instruments["Science Instruments"]
+        spacecraft-systems_science-instruments_magnetometers["Magnetometers"]
+        spacecraft-systems_science-instruments_particle-detectors["Particle Detectors"]
+        spacecraft-systems_science-instruments_spectrometers["Spectrometers"]
+        spacecraft-systems_space-qualification_emc-test["EMC Test"]
+        spacecraft-systems_space-qualification["Space Qualification"]
+        spacecraft-systems_space-qualification_thermal-vacuum-test["Thermal-Vacuum Test"]
+        spacecraft-systems_space-qualification_vibration-acoustic-test["Vibration & Acoustic Test"]
+        spacecraft-systems_spacecraft-power["Spacecraft Power Systems"]
+        spacecraft-systems_spacecraft-power_power-management-distribution["Power Management and Distribution"]
+        spacecraft-systems_spacecraft-power_rtg-integration["RTG Integration"]
+        spacecraft-systems_spacecraft-power_solar-arrays["Solar Arrays"]
+        spacecraft-systems_spacecraft-power_space-batteries["Space Batteries"]
+        spacecraft-systems_thermal-control_active-thermal["Active Thermal Control"]
+        spacecraft-systems_thermal-control["Thermal Control"]
+        spacecraft-systems_thermal-control_passive-thermal["Passive Thermal Control"]
+        spacecraft-systems_thermal-control_radiator-design["Radiator Design"]
+        spacecraft-systems_ttac_ground-link-budget["Ground Link Budget"]
+        spacecraft-systems_ttac["TT&C Systems"]
+        spacecraft-systems_ttac_ranging-doppler["Ranging and Doppler"]
+        spacecraft-systems_ttac_rf-transponders["RF Transponders"]
+        spacecraft-systems_ttac_tm-formatting["Telemetry Formatting"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    spacecraft-systems["Spacecraft Systems"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    cleanrooms("Clean Room Technology")
+    computing("Computing & Automation")
+    defense("Defense & Military Engineering")
+    defense_weapons("Weapons & edged tools")
+    ehs_radiation-safety("Radiation Safety")
+    electronics("Electronics")
+    energy_photovoltaics("Photovoltaic Solar Power")
+    energy_radioisotope-power("Radioisotope Power")
+    foundations("Foundations")
+    human-spaceflight_space-stations("Space Stations")
+    machine-tools("Machine Tools Bootstrap")
+    mathematics("Mathematics & Formal Sciences")
+    measurement("Measurement & Instrumentation")
+    metals("Metals")
+    metals_aluminum("Aluminum Production")
+    optics("Optics")
+    polymers("Polymers & Composites")
+    polymers_composites("Composite Materials")
+    precision-motion("Precision Motion Control")
+    quality-control("Quality Control & Statistical Process Control")
+    silicon("Silicon")
+    telecom_radio("Radio Communication")
+    vacuum("Vacuum Technology")
+    vacuum_deposition-systems("Deposition Systems")
+
+    %% ==================== EDGES ====================
+    spacecraft-systems_adcs_imu-gyros -.-> spacecraft-systems_adcs
+    spacecraft-systems_adcs_magnetorquers -.-> spacecraft-systems_adcs
+    spacecraft-systems_adcs_reaction-wheels -.-> spacecraft-systems_adcs
+    spacecraft-systems_adcs_star-trackers -.-> spacecraft-systems_adcs
+    spacecraft-systems_adcs_sun-earth-sensors -.-> spacecraft-systems_adcs
+    spacecraft-systems_adcs_thruster-control -.-> spacecraft-systems_adcs
+    spacecraft-systems_bus-structure_deployable-structures -.-> spacecraft-systems_bus-structure
+    spacecraft-systems_bus-structure_mechanisms -.-> spacecraft-systems_bus-structure
+    spacecraft-systems_bus-structure_primary-structure -.-> spacecraft-systems_bus-structure
+    spacecraft-systems_comms-payload_antennas -.-> spacecraft-systems_comms-payload
+    spacecraft-systems_comms-payload_multiplexers -.-> spacecraft-systems_comms-payload
+    spacecraft-systems_comms-payload_transponders -.-> spacecraft-systems_comms-payload
+    spacecraft-systems_comms-payload_traveling-wave-tubes -.-> spacecraft-systems_comms-payload
+    spacecraft-systems_debris-management_collision-avoidance -.-> spacecraft-systems_debris-management
+    spacecraft-systems_debris-management_debris-tracking -.-> spacecraft-systems_debris-management
+    spacecraft-systems_debris-management_post-mission-disposal -.-> spacecraft-systems_debris-management
+    spacecraft-systems_earth-observation_hyperspectral -.-> spacecraft-systems_earth-observation
+    spacecraft-systems_earth-observation_optical-imagers -.-> spacecraft-systems_earth-observation
+    spacecraft-systems_earth-observation_sar-radar -.-> spacecraft-systems_earth-observation
+    spacecraft-systems_earth-observation_thermal-infrared -.-> spacecraft-systems_earth-observation
+    spacecraft-systems_military-satellites_early-warning -.-> spacecraft-systems_military-satellites
+    spacecraft-systems_military-satellites_reconnaissance-imaging -.-> spacecraft-systems_military-satellites
+    spacecraft-systems_military-satellites_space-surveillance -.-> spacecraft-systems_military-satellites
+    spacecraft-systems_navigation-payload_atomic-clocks -.-> spacecraft-systems_navigation-payload
+    spacecraft-systems_navigation-payload_laser-retroreflectors -.-> spacecraft-systems_navigation-payload
+    spacecraft-systems_navigation-payload_signal-generation -.-> spacecraft-systems_navigation-payload
+    spacecraft-systems_obdh_data-buses -.-> spacecraft-systems_obdh
+    spacecraft-systems_obdh_flight-computers -.-> spacecraft-systems_obdh
+    spacecraft-systems_obdh_flight-software -.-> spacecraft-systems_obdh
+    spacecraft-systems_obdh_mass-storage -.-> spacecraft-systems_obdh
+    spacecraft-systems_orbital-mechanics_maneuver-design -.-> spacecraft-systems_orbital-mechanics
+    spacecraft-systems_orbital-mechanics_orbit-determination -.-> spacecraft-systems_orbital-mechanics
+    spacecraft-systems_orbital-mechanics_station-keeping -.-> spacecraft-systems_orbital-mechanics
+    spacecraft-systems_radiation-hardening_see-mitigation -.-> spacecraft-systems_radiation-hardening
+    spacecraft-systems_radiation-hardening_shielding-design -.-> spacecraft-systems_radiation-hardening
+    spacecraft-systems_radiation-hardening_tid-design -.-> spacecraft-systems_radiation-hardening
+    spacecraft-systems_science-instruments_in-situ-probes -.-> spacecraft-systems_science-instruments
+    spacecraft-systems_science-instruments_magnetometers -.-> spacecraft-systems_science-instruments
+    spacecraft-systems_science-instruments_particle-detectors -.-> spacecraft-systems_science-instruments
+    spacecraft-systems_science-instruments_spectrometers -.-> spacecraft-systems_science-instruments
+    spacecraft-systems_space-qualification_emc-test -.-> spacecraft-systems_space-qualification
+    spacecraft-systems_space-qualification_thermal-vacuum-test -.-> spacecraft-systems_space-qualification
+    spacecraft-systems_space-qualification_vibration-acoustic-test -.-> spacecraft-systems_space-qualification
+    spacecraft-systems_spacecraft-power_power-management-distribution -.-> spacecraft-systems_spacecraft-power
+    spacecraft-systems_spacecraft-power_rtg-integration -.-> spacecraft-systems_spacecraft-power
+    spacecraft-systems_spacecraft-power_solar-arrays -.-> spacecraft-systems_spacecraft-power
+    spacecraft-systems_spacecraft-power_space-batteries -.-> spacecraft-systems_spacecraft-power
+    spacecraft-systems_thermal-control_active-thermal -.-> spacecraft-systems_thermal-control
+    spacecraft-systems_thermal-control_passive-thermal -.-> spacecraft-systems_thermal-control
+    spacecraft-systems_thermal-control_radiator-design -.-> spacecraft-systems_thermal-control
+    spacecraft-systems_ttac_ground-link-budget -.-> spacecraft-systems_ttac
+    spacecraft-systems_ttac_ranging-doppler -.-> spacecraft-systems_ttac
+    spacecraft-systems_ttac_rf-transponders -.-> spacecraft-systems_ttac
+    spacecraft-systems_ttac_tm-formatting -.-> spacecraft-systems_ttac
+    human-spaceflight_space-stations -.-> spacecraft-systems_bus-structure
+    spacecraft-systems_adcs -.-> electronics
+    spacecraft-systems_adcs -.-> machine-tools
+    spacecraft-systems_adcs -.-> optics
+    spacecraft-systems_adcs -.-> precision-motion
+    spacecraft-systems_bus-structure -.-> machine-tools
+    spacecraft-systems_bus-structure --> metals_aluminum
+    spacecraft-systems_bus-structure --> polymers_composites
+    spacecraft-systems_bus-structure -.-> vacuum
+    spacecraft-systems_comms-payload -.-> electronics
+    spacecraft-systems_comms-payload --> metals
+    spacecraft-systems_comms-payload -.-> telecom_radio
+    spacecraft-systems_comms-payload -.-> vacuum_deposition-systems
+    spacecraft-systems_debris-management -.-> computing
+    spacecraft-systems_debris-management -.-> electronics
+    spacecraft-systems_debris-management -.-> measurement
+    spacecraft-systems_earth-observation -.-> electronics
+    spacecraft-systems_earth-observation -.-> measurement
+    spacecraft-systems_earth-observation -.-> optics
+    spacecraft-systems_earth-observation --> silicon
+    spacecraft-systems_military-satellites -.-> defense_weapons
+    spacecraft-systems_military-satellites -.-> defense
+    spacecraft-systems_military-satellites -.-> optics
+    spacecraft-systems_military-satellites --> silicon
+    spacecraft-systems_navigation-payload -.-> electronics
+    spacecraft-systems_navigation-payload -.-> measurement
+    spacecraft-systems_navigation-payload -.-> optics
+    spacecraft-systems_navigation-payload -.-> telecom_radio
+    spacecraft-systems_obdh -.-> computing
+    spacecraft-systems_obdh -.-> electronics
+    spacecraft-systems_orbital-mechanics -.-> computing
+    spacecraft-systems_orbital-mechanics -.-> mathematics
+    spacecraft-systems_orbital-mechanics -.-> measurement
+    spacecraft-systems_radiation-hardening -.-> ehs_radiation-safety
+    spacecraft-systems_radiation-hardening --> silicon
+    spacecraft-systems_science-instruments -.-> ehs_radiation-safety
+    spacecraft-systems_science-instruments -.-> electronics
+    spacecraft-systems_science-instruments -.-> optics
+    spacecraft-systems_science-instruments --> silicon
+    spacecraft-systems_space-qualification -.-> cleanrooms
+    spacecraft-systems_space-qualification -.-> electronics
+    spacecraft-systems_space-qualification -.-> quality-control
+    spacecraft-systems_space-qualification -.-> vacuum
+    spacecraft-systems_spacecraft-power -.-> electronics
+    spacecraft-systems_spacecraft-power -.-> energy_photovoltaics
+    spacecraft-systems_spacecraft-power -.-> energy_radioisotope-power
+    spacecraft-systems_spacecraft-power --> silicon
+    spacecraft-systems_thermal-control --> metals
+    spacecraft-systems_thermal-control --> polymers
+    spacecraft-systems_thermal-control -.-> vacuum
+    spacecraft-systems_ttac -.-> electronics
+    spacecraft-systems_ttac -.-> telecom_radio
+    spacecraft-systems -.-> foundations
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class spacecraft-systems domain
+    class spacecraft-systems_adcs_imu-gyros process
+    class spacecraft-systems_adcs capability
+    class spacecraft-systems_adcs_magnetorquers process
+    class spacecraft-systems_adcs_reaction-wheels process
+    class spacecraft-systems_adcs_star-trackers process
+    class spacecraft-systems_adcs_sun-earth-sensors process
+    class spacecraft-systems_adcs_thruster-control process
+    class spacecraft-systems_bus-structure_deployable-structures process
+    class spacecraft-systems_bus-structure capability
+    class spacecraft-systems_bus-structure_mechanisms process
+    class spacecraft-systems_bus-structure_primary-structure process
+    class spacecraft-systems_comms-payload_antennas process
+    class spacecraft-systems_comms-payload capability
+    class spacecraft-systems_comms-payload_multiplexers process
+    class spacecraft-systems_comms-payload_transponders process
+    class spacecraft-systems_comms-payload_traveling-wave-tubes process
+    class spacecraft-systems_debris-management_collision-avoidance process
+    class spacecraft-systems_debris-management_debris-tracking process
+    class spacecraft-systems_debris-management capability
+    class spacecraft-systems_debris-management_post-mission-disposal process
+    class spacecraft-systems_earth-observation_hyperspectral process
+    class spacecraft-systems_earth-observation capability
+    class spacecraft-systems_earth-observation_optical-imagers process
+    class spacecraft-systems_earth-observation_sar-radar process
+    class spacecraft-systems_earth-observation_thermal-infrared process
+    class spacecraft-systems_military-satellites_early-warning process
+    class spacecraft-systems_military-satellites capability
+    class spacecraft-systems_military-satellites_reconnaissance-imaging process
+    class spacecraft-systems_military-satellites_space-surveillance process
+    class spacecraft-systems_navigation-payload_atomic-clocks process
+    class spacecraft-systems_navigation-payload capability
+    class spacecraft-systems_navigation-payload_laser-retroreflectors process
+    class spacecraft-systems_navigation-payload_signal-generation process
+    class spacecraft-systems_obdh_data-buses process
+    class spacecraft-systems_obdh_flight-computers process
+    class spacecraft-systems_obdh_flight-software process
+    class spacecraft-systems_obdh capability
+    class spacecraft-systems_obdh_mass-storage process
+    class spacecraft-systems_orbital-mechanics capability
+    class spacecraft-systems_orbital-mechanics_maneuver-design process
+    class spacecraft-systems_orbital-mechanics_orbit-determination process
+    class spacecraft-systems_orbital-mechanics_station-keeping process
+    class spacecraft-systems_radiation-hardening capability
+    class spacecraft-systems_radiation-hardening_see-mitigation process
+    class spacecraft-systems_radiation-hardening_shielding-design process
+    class spacecraft-systems_radiation-hardening_tid-design process
+    class spacecraft-systems_science-instruments_in-situ-probes process
+    class spacecraft-systems_science-instruments capability
+    class spacecraft-systems_science-instruments_magnetometers process
+    class spacecraft-systems_science-instruments_particle-detectors process
+    class spacecraft-systems_science-instruments_spectrometers process
+    class spacecraft-systems_space-qualification_emc-test process
+    class spacecraft-systems_space-qualification capability
+    class spacecraft-systems_space-qualification_thermal-vacuum-test process
+    class spacecraft-systems_space-qualification_vibration-acoustic-test process
+    class spacecraft-systems_spacecraft-power capability
+    class spacecraft-systems_spacecraft-power_power-management-distribution process
+    class spacecraft-systems_spacecraft-power_rtg-integration process
+    class spacecraft-systems_spacecraft-power_solar-arrays process
+    class spacecraft-systems_spacecraft-power_space-batteries process
+    class spacecraft-systems_thermal-control_active-thermal process
+    class spacecraft-systems_thermal-control capability
+    class spacecraft-systems_thermal-control_passive-thermal process
+    class spacecraft-systems_thermal-control_radiator-design process
+    class spacecraft-systems_ttac_ground-link-budget process
+    class spacecraft-systems_ttac capability
+    class spacecraft-systems_ttac_ranging-doppler process
+    class spacecraft-systems_ttac_rf-transponders process
+    class spacecraft-systems_ttac_tm-formatting process
+    class cleanrooms external
+    class computing external
+    class defense external
+    class defense_weapons external
+    class ehs_radiation-safety external
+    class electronics external
+    class energy_photovoltaics external
+    class energy_radioisotope-power external
+    class foundations external
+    class human-spaceflight_space-stations external
+    class machine-tools external
+    class mathematics external
+    class measurement external
+    class metals external
+    class metals_aluminum external
+    class optics external
+    class polymers external
+    class polymers_composites external
+    class precision-motion external
+    class quality-control external
+    class silicon external
+    class telecom_radio external
+    class vacuum external
+    class vacuum_deposition-systems external
+    class EdgeLegend,MatNote,ToolNote legend

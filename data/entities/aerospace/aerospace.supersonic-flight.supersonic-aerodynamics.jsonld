@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Application of compressible flow theory to airframe shaping for Mach 1+ flight: Whitcomb area ruling to minimize wave drag, supersonic airfoil selection, shock-wave management, and Mach-number-dependent lift/drag optimization.",
+  "early_win": false,
+  "id": "aerospace.supersonic-flight.supersonic-aerodynamics",
+  "level": "process",
+  "name": "Supersonic Aerodynamics",
+  "outputs": [
+    "area_ruled_airframe",
+    "supersonic_wing"
+  ],
+  "parent": "aerospace.supersonic-flight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-80"
+}

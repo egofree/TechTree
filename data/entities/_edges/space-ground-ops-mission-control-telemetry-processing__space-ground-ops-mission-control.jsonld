@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-ground-ops.mission-control.telemetry-processing__space-ground-ops.mission-control",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-ground-ops.mission-control.telemetry-processing",
+  "to": "space-ground-ops.mission-control"
+}

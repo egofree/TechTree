@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Vibration and acoustic qualification testing: sine sweep (5-100 Hz), random vibration (14.1 G rms Qual / 9.5 G rms Acceptance), and acoustic excitation (146 dB OASPL) simulating launch vehicle liftoff and ascent environments.",
+  "early_win": false,
+  "id": "spacecraft-systems.space-qualification.vibration-acoustic-test",
+  "level": "process",
+  "name": "Vibration & Acoustic Test",
+  "outputs": [
+    "qualification_test_reports"
+  ],
+  "parent": "spacecraft-systems.space-qualification",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solid_propellant_grains",
+  "@type": "Product",
+  "name": "Solid Propellant Grains",
+  "source": "launch-vehicles.propellant-production.solid-propellant-mixing",
+  "tags": {
+    "material": [
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

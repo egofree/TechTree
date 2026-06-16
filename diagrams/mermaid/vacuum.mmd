@@ -35,6 +35,14 @@ graph TD
     precision-motion("Precision Motion Control")
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_purification("Silicon Purification")
+    space-propulsion_electric-advanced("Electric Propulsion — Advanced")
+    space-propulsion_electric-hall("Electric Propulsion — Hall")
+    space-propulsion_electric-ion("Electric Propulsion — Ion")
+    space-propulsion_propellant-storage("Cryogenic Propellant Storage & Transfer")
+    spacecraft-systems_bus-structure("Bus Structure + Deployables")
+    spacecraft-systems_comms-payload("Communications Payload")
+    spacecraft-systems_space-qualification("Space Qualification")
+    spacecraft-systems_thermal-control("Thermal Control")
 
     %% ==================== EDGES ====================
     vacuum_basic-vacuum -.-> vacuum
@@ -54,6 +62,14 @@ graph TD
     photolithography_fab-processes -.-> vacuum_pumps
     silicon_basic-devices -.-> vacuum_pumps
     silicon_purification -.-> vacuum
+    space-propulsion_electric-advanced -.-> vacuum_chambers
+    space-propulsion_electric-hall -.-> vacuum_chambers
+    space-propulsion_electric-ion -.-> vacuum_chambers
+    space-propulsion_propellant-storage -.-> vacuum
+    spacecraft-systems_bus-structure -.-> vacuum
+    spacecraft-systems_comms-payload -.-> vacuum_deposition-systems
+    spacecraft-systems_space-qualification -.-> vacuum
+    spacecraft-systems_thermal-control -.-> vacuum
     vacuum_chambers -.-> machine-tools_joining_electron-beam
     vacuum_chambers -.-> machine-tools_joining_tig-welding
     vacuum_chambers -.-> machine-tools
@@ -107,4 +123,12 @@ graph TD
     class precision-motion external
     class silicon_basic-devices external
     class silicon_purification external
+    class space-propulsion_electric-advanced external
+    class space-propulsion_electric-hall external
+    class space-propulsion_electric-ion external
+    class space-propulsion_propellant-storage external
+    class spacecraft-systems_bus-structure external
+    class spacecraft-systems_comms-payload external
+    class spacecraft-systems_space-qualification external
+    class spacecraft-systems_thermal-control external
     class EdgeLegend,MatNote,ToolNote legend

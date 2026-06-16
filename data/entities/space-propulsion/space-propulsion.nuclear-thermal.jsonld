@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Nuclear Thermal Propulsion (NTP): a fission reactor heats a low-molecular-weight propellant (typically liquid hydrogen) directly to 2500-3000 K, exhausting it through a nozzle to achieve 850-1000 s specific impulse — two to three times chemical performance. Unlike Nuclear Electric Propulsion, NTP produces high thrust (tens to hundreds of kN) at moderate Isp, enabling fast manned transits. Heritage: NERVA (NRX, Pewee, Phoebus-2A at 4 GW thermal) demonstrated 850 s Isp in the 1960s.",
+  "early_win": false,
+  "id": "space-propulsion.nuclear-thermal",
+  "level": "capability",
+  "name": "Nuclear Thermal Propulsion",
+  "outputs": [
+    "ntp_engines"
+  ],
+  "parent": "space-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

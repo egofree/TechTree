@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ev_battery_packs",
+  "@type": "Product",
+  "name": "EV Battery Packs",
+  "source": "transport.electric-vehicles.battery-packs",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

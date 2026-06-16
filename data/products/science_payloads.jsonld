@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "science_payloads",
+  "@type": "Product",
+  "name": "Science Payloads",
+  "source": "spacecraft-systems.science-instruments",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "silicon",
+      "glass",
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "EV charging infrastructure: Level 1 (120V AC), Level 2 (240V AC onboard charger), and DC fast charging (CCS, CHAdeMO, NACS connectors). Includes charging curve management, thermal derating, bidirectional V2G capability, and grid-side demand management integration.",
+  "early_win": false,
+  "id": "transport.electric-vehicles.charging-systems",
+  "level": "process",
+  "name": "EV Charging Systems",
+  "outputs": [
+    "ev_charging_systems"
+  ],
+  "parent": "transport.electric-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 42-58"
+}

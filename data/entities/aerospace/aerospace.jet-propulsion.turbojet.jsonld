@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Air-breathing jet engine with centrifugal or axial compressor, single combustor, and axial turbine stages driving the compressor. All air passes through the core. Simplest jet cycle; high exhaust velocity gives high specific thrust at the cost of high specific fuel consumption. The basis for all turbine-based jet propulsion.",
+  "early_win": false,
+  "id": "aerospace.jet-propulsion.turbojet",
+  "level": "process",
+  "name": "Turbojet Engines",
+  "outputs": [
+    "turbojet_engines"
+  ],
+  "parent": "aerospace.jet-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

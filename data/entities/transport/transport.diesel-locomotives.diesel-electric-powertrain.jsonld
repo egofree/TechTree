@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Diesel engine drives a DC generator or AC alternator; the electrical output is fed to traction motors geared to the driving axles. Avoids the need for a mechanical transmission capable of handling 1,000-6,000 HP across a wide speed range, which would require an impractical number of gear ratios.",
+  "early_win": false,
+  "id": "transport.diesel-locomotives.diesel-electric-powertrain",
+  "level": "process",
+  "name": "Diesel-Electric Powertrain",
+  "outputs": [
+    "diesel_electric_generators"
+  ],
+  "parent": "transport.diesel-locomotives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50+"
+}

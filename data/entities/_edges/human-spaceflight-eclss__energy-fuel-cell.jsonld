@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.eclss__energy.fuel-cell",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.eclss",
+  "to": "energy.fuel-cell",
+  "label": "O2/H2 reactant handling heritage and byproduct water from fuel cells (Apollo/Shuttle legacy)"
+}

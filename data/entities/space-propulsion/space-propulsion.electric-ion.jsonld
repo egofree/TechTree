@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrostatic ion thrusters: gridded ion acceleration of xenon plasma for high-Isp, low-thrust in-space propulsion used on Deep Space 1, Dawn, and commercial geostationary satellites.",
+  "early_win": false,
+  "id": "space-propulsion.electric-ion",
+  "level": "capability",
+  "name": "Electric Propulsion — Ion",
+  "outputs": [
+    "ion_thrusters"
+  ],
+  "parent": "space-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

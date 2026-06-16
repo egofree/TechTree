@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "supersonic_wing",
+  "@type": "Product",
+  "name": "Supersonic Wing",
+  "source": "aerospace.supersonic-flight.supersonic-aerodynamics",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

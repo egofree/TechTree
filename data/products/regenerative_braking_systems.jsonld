@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "regenerative_braking_systems",
+  "@type": "Product",
+  "name": "Regenerative Braking Systems",
+  "source": "transport.electric-vehicles.ev-traction-motors",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

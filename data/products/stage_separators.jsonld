@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "stage_separators",
+  "@type": "Product",
+  "name": "Stage Separators",
+  "source": "launch-vehicles.vehicle-architecture.staging-design",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

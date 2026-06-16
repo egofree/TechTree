@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "oxidizer_feed_systems",
+  "@type": "Product",
+  "name": "Oxidizer Feed Systems",
+  "source": "launch-vehicles.hybrid-propulsion.oxidizer-feed-systems",
+  "tags": {
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "@id": "aircraft",
   "@type": "Product",
   "name": "Aircraft",
-  "source": "transport",
+  "source": "aerospace.aviation",
   "tags": {
     "capability": [
       "transport"

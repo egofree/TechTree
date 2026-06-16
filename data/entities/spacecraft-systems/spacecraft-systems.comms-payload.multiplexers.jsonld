@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "RF input and output multiplexers for channel filtering and combining - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.comms-payload.multiplexers",
+  "level": "process",
+  "name": "RF Multiplexers",
+  "outputs": [
+    "comms_payloads"
+  ],
+  "parent": "spacecraft-systems.comms-payload",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

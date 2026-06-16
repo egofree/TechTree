@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wheel_assemblies",
+  "@type": "Product",
+  "name": "Wheel Assemblies",
+  "source": "transport.motor-vehicles.chassis-frame-construction",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

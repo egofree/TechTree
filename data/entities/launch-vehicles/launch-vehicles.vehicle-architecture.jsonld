@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Launch vehicle architecture: multi-stage rocket design, payload fairing integration, structural layout (tanks, interstages, thrust structures), and guidance-navigation-control integration. Governs how a vehicle is assembled from propulsive stages, structures, and avionics into a stack capable of delivering payload to orbit via the Tsiolkovsky rocket equation and delta-v budgeting.",
+  "early_win": false,
+  "id": "launch-vehicles.vehicle-architecture",
+  "level": "capability",
+  "name": "Vehicle Architecture",
+  "outputs": [
+    "launch_vehicles",
+    "orbital_delivery",
+    "payload_fairings"
+  ],
+  "parent": "launch-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

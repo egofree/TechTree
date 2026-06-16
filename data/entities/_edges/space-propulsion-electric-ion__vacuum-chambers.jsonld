@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-ion__vacuum.chambers",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-ion",
+  "to": "vacuum.chambers",
+  "label": "High-vacuum test facilities for thruster qualification and beam diagnostics"
+}

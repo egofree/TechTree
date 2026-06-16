@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.solid-propulsion__polymers.composites",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "launch-vehicles.solid-propulsion",
+  "to": "polymers.composites",
+  "label": "Filament-wound carbon fiber/epoxy motor cases and ablative nozzle components produced by composite manufacturing"
+}

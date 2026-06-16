@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Flight termination system design: the destruct charges that rupture propellant tanks on command, the command-destruct receiver that listens on a dedicated UHF uplink, and the dual-redundant fail-safe architecture that arms and fires only on a valid command while refusing to fire on noise or single failures. The system that ends an errant launch before it reaches a populated area.",
+  "early_win": false,
+  "id": "space-ground-ops.range-safety.flight-termination",
+  "level": "process",
+  "name": "Flight Termination",
+  "outputs": [
+    "flight_termination"
+  ],
+  "parent": "space-ground-ops.range-safety",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crew-training.simulators__human-spaceflight.crew-training",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.crew-training.simulators",
+  "to": "human-spaceflight.crew-training"
+}

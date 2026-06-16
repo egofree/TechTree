@@ -413,13 +413,16 @@ Classifies the primary functional capability an entity provides. Assign for the 
 | `energy` | Power generation, conversion, distribution | `energy`, `energy.steam-power`, `energy.electricity` |
 | `precision` | Precision manufacturing, metrology | `machine-tools`, `measurement.precision-metrology` |
 | `computing` | Calculation, automation, data processing | `computing`, `vlsi-scaling.eda-design` |
-| `transport` | Movement of materials, people, information | `transport`, `transport.aviation` |
+| `transport` | Movement of materials, people, information | `transport`, `transport.railways` |
 | `health` | Medical, sanitation, safety | `health` |
 | `measurement` | Sensors, instruments, calibration | `measurement`, `optics.inspection` |
 | `cooling` | Refrigeration, thermal management | `energy.storage` |
 | `vacuum` | Vacuum systems, controlled atmospheres | `gas-handling.vacuum` |
 | `optics` | Lenses, microscopy, lithographic imaging | `optics.inspection`, `vlsi-scaling.advanced-lithography` |
 | `construction` | Building, structural engineering | `chemistry.cement`, `transport` |
+| `organization` | Coordination, governance, logistics, institutional capacity | `economics-organization`, `knowledge` |
+| `spaceflight` | Space and aerospace engineering — designing for vacuum, radiation, thermal extremes, and orbital mechanics | `spaceflight`, `aerospace.aviation` |
+| `defense` | Military and national security capabilities — reconnaissance, early warning, and defensive systems | `defense` |
 
 **Rules:**
 - 0-2 capability tags per entity.

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crewed-spacecraft__launch-vehicles.edl",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.crewed-spacecraft",
+  "to": "launch-vehicles.edl",
+  "label": "reentry, heat shield, and parachute heritage shared with uncrewed EDL"
+}

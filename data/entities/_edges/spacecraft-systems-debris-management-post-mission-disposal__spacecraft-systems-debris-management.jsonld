@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.debris-management.post-mission-disposal__spacecraft-systems.debris-management",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.debris-management.post-mission-disposal",
+  "to": "spacecraft-systems.debris-management"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-ion.acceleration-grids__space-propulsion.electric-ion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-ion.acceleration-grids",
+  "to": "space-propulsion.electric-ion"
+}

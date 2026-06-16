@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.supersonic-flight__aerospace.aviation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.supersonic-flight",
+  "to": "aerospace.aviation",
+  "label": "Subsonic aerodynamic heritage, flight-test practice, and airframe manufacturing base inherited from piston-era aviation"
+}

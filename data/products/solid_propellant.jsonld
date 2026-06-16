@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solid_propellant",
+  "@type": "Product",
+  "name": "Solid Propellant",
+  "source": "launch-vehicles.solid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

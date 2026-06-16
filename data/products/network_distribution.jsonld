@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "network_distribution",
+  "@type": "Product",
+  "name": "Network Distribution",
+  "source": "space-ground-ops.ground-stations.network-distribution",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

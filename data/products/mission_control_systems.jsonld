@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mission_control_systems",
+  "@type": "Product",
+  "name": "Mission Control Systems",
+  "source": "space-ground-ops",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "avionics_buses",
+  "@type": "Product",
+  "name": "Avionics Buses",
+  "source": "launch-vehicles.vehicle-architecture.gvnc-integration",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

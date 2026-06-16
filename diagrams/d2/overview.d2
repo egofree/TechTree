@@ -85,6 +85,7 @@ classes: {
 }
 
 # ==================== DOMAIN NODES ====================
+aerospace: Aerospace
 agriculture: Agriculture
 animals: "Animals & Animal Husbandry"
 automation: "Automation & Robotics"
@@ -105,7 +106,9 @@ foundations: Foundations
 gas-handling: Gas Handling
 glass: Glass
 health: "Public Health, Sanitation & Medicine"
+human-spaceflight: Human Spaceflight
 knowledge: "Knowledge Preservation & Education"
+launch-vehicles: Launch Vehicles
 machine-tools: Machine Tools Bootstrap
 marine: "Marine & Naval Engineering"
 mathematics: "Mathematics & Formal Sciences"
@@ -121,6 +124,10 @@ precision-motion: Precision Motion Control
 quality-control: "Quality Control & Statistical Process Control"
 silicon: Silicon
 software-bootstrapping: Software Bootstrapping
+space-ground-ops: Space Ground Operations
+space-propulsion: Space Propulsion
+space-resources: Space Resources
+spacecraft-systems: Spacecraft Systems
 telecom: Telecommunications
 textiles: "Textiles, Fiber & Cordage"
 transport: "Transportation & Logistics"
@@ -130,6 +137,7 @@ vlsi-scaling: "VLSI Scaling & Advanced Semiconductor"
 water: Water
 
 # ==================== DOMAIN-LEVEL EDGES ====================
+aerospace -> foundations: { class: tool-edge }
 animals -> foundations: { class: tool-edge }
 automation -> computing: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
@@ -170,7 +178,9 @@ glass -> energy: { class: material-edge }
 glass -> machine-tools: { class: tool-edge }
 health -> chemistry: { class: material-edge }
 health -> foundations: { class: tool-edge }
+human-spaceflight -> foundations: { class: tool-edge }
 knowledge -> foundations: { class: tool-edge }
+launch-vehicles -> foundations: { class: tool-edge }
 machine-tools -> metals: { class: tool-edge }
 machine-tools -> textiles: { class: tool-edge }
 marine -> energy: { class: tool-edge }
@@ -205,6 +215,10 @@ silicon -> glass: { class: tool-edge }
 silicon -> machine-tools: { class: tool-edge }
 silicon -> ultra-pure: { class: material-edge }
 software-bootstrapping -> computing: { class: tool-edge }
+space-ground-ops -> foundations: { class: tool-edge }
+space-propulsion -> foundations: { class: tool-edge }
+space-resources -> foundations: { class: tool-edge }
+spacecraft-systems -> foundations: { class: tool-edge }
 telecom -> glass: { class: material-edge }
 telecom -> metals: { class: material-edge }
 textiles -> foundations: { class: tool-edge }
@@ -221,6 +235,15 @@ vlsi-scaling -> photolithography: { class: tool-edge }
 vlsi-scaling -> quality-control: { class: tool-edge }
 
 # ==================== CROSS-DOMAIN EDGES ====================
+aerospace -> ceramics: { class: tool-edge }
+aerospace -> chemistry: { class: tool-edge }
+aerospace -> computing: { class: tool-edge }
+aerospace -> electronics: { class: tool-edge }
+aerospace -> energy: { class: tool-edge }
+aerospace -> machine-tools: { class: tool-edge }
+aerospace -> metals: { class: tool-edge }
+aerospace -> polymers: { class: tool-edge }
+aerospace -> textiles: { class: tool-edge }
 agriculture -> animals: { class: tool-edge }
 agriculture -> chemistry: { class: tool-edge }
 agriculture -> construction: { class: tool-edge }
@@ -326,6 +349,22 @@ health -> knowledge: { class: tool-edge }
 health -> metals: { class: tool-edge }
 health -> polymers: { class: tool-edge }
 health -> water: { class: tool-edge }
+human-spaceflight -> aerospace: { class: tool-edge }
+human-spaceflight -> automation: { class: tool-edge }
+human-spaceflight -> chemistry: { class: tool-edge }
+human-spaceflight -> computing: { class: tool-edge }
+human-spaceflight -> construction: { class: tool-edge }
+human-spaceflight -> ehs: { class: tool-edge }
+human-spaceflight -> energy: { class: tool-edge }
+human-spaceflight -> gas-handling: { class: tool-edge }
+human-spaceflight -> glass: { class: tool-edge }
+human-spaceflight -> health: { class: tool-edge }
+human-spaceflight -> launch-vehicles: { class: tool-edge }
+human-spaceflight -> metals: { class: tool-edge }
+human-spaceflight -> polymers: { class: tool-edge }
+human-spaceflight -> spacecraft-systems: { class: tool-edge }
+human-spaceflight -> textiles: { class: tool-edge }
+human-spaceflight -> water: { class: tool-edge }
 knowledge -> animals: { class: tool-edge }
 knowledge -> chemistry: { class: tool-edge }
 knowledge -> health: { class: tool-edge }
@@ -334,6 +373,15 @@ knowledge -> mathematics: { class: tool-edge }
 knowledge -> measurement: { class: tool-edge }
 knowledge -> metals: { class: tool-edge }
 knowledge -> textiles: { class: tool-edge }
+launch-vehicles -> ceramics: { class: tool-edge }
+launch-vehicles -> chemistry: { class: tool-edge }
+launch-vehicles -> computing: { class: tool-edge }
+launch-vehicles -> cryogenics: { class: tool-edge }
+launch-vehicles -> electronics: { class: tool-edge }
+launch-vehicles -> energy: { class: tool-edge }
+launch-vehicles -> machine-tools: { class: tool-edge }
+launch-vehicles -> metals: { class: tool-edge }
+launch-vehicles -> polymers: { class: tool-edge }
 machine-tools -> animals: { class: tool-edge }
 machine-tools -> chemistry: { class: tool-edge }
 machine-tools -> computing: { class: tool-edge }
@@ -366,6 +414,7 @@ metals -> photolithography: { class: tool-edge }
 metals -> textiles: { class: tool-edge }
 metals -> vacuum: { class: tool-edge }
 metals -> vlsi-scaling: { class: tool-edge }
+mining -> aerospace: { class: tool-edge }
 mining -> animals: { class: tool-edge }
 mining -> chemistry: { class: tool-edge }
 mining -> energy: { class: tool-edge }
@@ -405,6 +454,52 @@ silicon -> mining: { class: tool-edge }
 silicon -> photolithography: { class: tool-edge }
 silicon -> vacuum: { class: tool-edge }
 software-bootstrapping -> knowledge: { class: tool-edge }
+space-ground-ops -> computing: { class: tool-edge }
+space-ground-ops -> construction: { class: tool-edge }
+space-ground-ops -> cryogenics: { class: tool-edge }
+space-ground-ops -> defense: { class: tool-edge }
+space-ground-ops -> electronics: { class: tool-edge }
+space-ground-ops -> gas-handling: { class: tool-edge }
+space-ground-ops -> machine-tools: { class: tool-edge }
+space-ground-ops -> metals: { class: tool-edge }
+space-ground-ops -> optics: { class: tool-edge }
+space-ground-ops -> telecom: { class: tool-edge }
+space-ground-ops -> water: { class: tool-edge }
+space-propulsion -> ceramics: { class: tool-edge }
+space-propulsion -> cryogenics: { class: tool-edge }
+space-propulsion -> electronics: { class: tool-edge }
+space-propulsion -> energy: { class: tool-edge }
+space-propulsion -> metals: { class: tool-edge }
+space-propulsion -> silicon: { class: tool-edge }
+space-propulsion -> vacuum: { class: tool-edge }
+space-resources -> automation: { class: tool-edge }
+space-resources -> chemistry: { class: tool-edge }
+space-resources -> energy: { class: tool-edge }
+space-resources -> gas-handling: { class: tool-edge }
+space-resources -> glass: { class: tool-edge }
+space-resources -> human-spaceflight: { class: tool-edge }
+space-resources -> metals: { class: tool-edge }
+space-resources -> mining: { class: tool-edge }
+space-resources -> polymers: { class: tool-edge }
+space-resources -> silicon: { class: tool-edge }
+spacecraft-systems -> cleanrooms: { class: tool-edge }
+spacecraft-systems -> computing: { class: tool-edge }
+spacecraft-systems -> defense: { class: tool-edge }
+spacecraft-systems -> ehs: { class: tool-edge }
+spacecraft-systems -> electronics: { class: tool-edge }
+spacecraft-systems -> energy: { class: tool-edge }
+spacecraft-systems -> machine-tools: { class: tool-edge }
+spacecraft-systems -> mathematics: { class: tool-edge }
+spacecraft-systems -> measurement: { class: tool-edge }
+spacecraft-systems -> metals: { class: tool-edge }
+spacecraft-systems -> optics: { class: tool-edge }
+spacecraft-systems -> polymers: { class: tool-edge }
+spacecraft-systems -> precision-motion: { class: tool-edge }
+spacecraft-systems -> quality-control: { class: tool-edge }
+spacecraft-systems -> silicon: { class: tool-edge }
+spacecraft-systems -> telecom: { class: tool-edge }
+spacecraft-systems -> vacuum: { class: tool-edge }
+telecom -> aerospace: { class: tool-edge }
 telecom -> energy: { class: tool-edge }
 telecom -> foundations: { class: tool-edge }
 telecom -> knowledge: { class: tool-edge }
@@ -417,7 +512,9 @@ textiles -> metals: { class: tool-edge }
 textiles -> plants: { class: tool-edge }
 transport -> animals: { class: tool-edge }
 transport -> chemistry: { class: tool-edge }
+transport -> electronics: { class: tool-edge }
 transport -> foundations: { class: tool-edge }
+transport -> polymers: { class: tool-edge }
 transport -> textiles: { class: tool-edge }
 ultra-pure -> measurement: { class: tool-edge }
 ultra-pure -> water: { class: tool-edge }
@@ -433,6 +530,7 @@ water -> foundations: { class: tool-edge }
 water -> metals: { class: tool-edge }
 
 # ==================== STYLING ====================
+aerospace.class: domain
 agriculture.class: earlyWin
 animals.class: earlyWin
 automation.class: domain
@@ -453,7 +551,9 @@ foundations.class: earlyWin
 gas-handling.class: domain
 glass.class: domain
 health.class: domain
+human-spaceflight.class: domain
 knowledge.class: critical
+launch-vehicles.class: domain
 machine-tools.class: critical
 marine.class: earlyWin
 mathematics.class: domain
@@ -469,6 +569,10 @@ precision-motion.class: domain
 quality-control.class: domain
 silicon.class: earlyWin
 software-bootstrapping.class: critical
+space-ground-ops.class: domain
+space-propulsion.class: domain
+space-resources.class: domain
+spacecraft-systems.class: domain
 telecom.class: domain
 textiles.class: critical
 transport.class: domain

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Tight integration of scramjet propulsion with the hypersonic airframe: waverider configurations that ride the bow shock for lift, forebody compression surfaces feeding the inlet, and aftbody expansion surfaces forming the nozzle. Propulsion and airframe are a single coupled system, not separable components.",
+  "early_win": false,
+  "id": "aerospace.supersonic-flight.scramjet-integration",
+  "level": "process",
+  "name": "Scramjet-Airframe Integration",
+  "outputs": [
+    "waverider_airframe",
+    "integrated_scramjet_vehicle"
+  ],
+  "parent": "aerospace.supersonic-flight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-150"
+}

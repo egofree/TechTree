@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Post-mission disposal planning per IADC guidelines: controlled de-orbit, uncontrolled decay within 25 years for LEO, or re-orbit to graveyard above GEO (+300 km), computing delta-v budgets for each disposal mode.",
+  "early_win": false,
+  "id": "spacecraft-systems.debris-management.post-mission-disposal",
+  "level": "process",
+  "name": "Post-Mission Disposal",
+  "outputs": [
+    "disposal_plans"
+  ],
+  "parent": "spacecraft-systems.debris-management",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.edl.heat-shield-design__launch-vehicles.edl",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.edl.heat-shield-design",
+  "to": "launch-vehicles.edl"
+}

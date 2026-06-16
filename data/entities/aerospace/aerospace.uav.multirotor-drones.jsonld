@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and construction of multirotor UAVs — quadcopters, hexacopters, and octocopters that use four or more vertically-oriented propellers driven by brushless DC electric motors. Multirotors generate all lift from rotor thrust and control attitude by differential motor speed, eliminating mechanical swashplates and control linkages. Capable of vertical takeoff and landing (VTOL), precise hovering, and omnidirectional flight. The dominant UAV configuration for photography, inspection, and delivery applications. Requires high-bandwidth motor speed controllers and an inertial measurement unit (IMU) for active stabilization — a human cannot fly a multirotor manually without fly-by-wire assistance.",
+  "early_win": false,
+  "id": "aerospace.uav.multirotor-drones",
+  "level": "process",
+  "name": "Multirotor Drones",
+  "outputs": [
+    "drone_airframes"
+  ],
+  "parent": "aerospace.uav",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-55+"
+}

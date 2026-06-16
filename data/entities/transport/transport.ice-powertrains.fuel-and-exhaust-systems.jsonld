@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Fuel storage, delivery (mechanical or electric pump, carburetor or port/direct injection), and exhaust aftertreatment: three-way catalytic converters (Pt/Pd/Rh chemistry), diesel particulate filters (DPF), selective catalytic reduction (SCR with AdBlue/urea), and evaporative (EVAP) emission control. Reduces CO, HC, NOx, and particulate emissions to regulatory limits.",
+  "early_win": false,
+  "id": "transport.ice-powertrains.fuel-and-exhaust-systems",
+  "level": "process",
+  "name": "Fuel & Exhaust Systems",
+  "outputs": [
+    "fuel_systems",
+    "exhaust_systems"
+  ],
+  "parent": "transport.ice-powertrains",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

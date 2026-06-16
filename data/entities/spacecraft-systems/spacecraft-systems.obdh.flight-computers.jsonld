@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Flight Computers - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.obdh.flight-computers",
+  "level": "process",
+  "name": "Flight Computers",
+  "outputs": [
+    "onboard_electronics"
+  ],
+  "parent": "spacecraft-systems.obdh",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

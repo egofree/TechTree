@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lifting_gas_envelopes",
+  "@type": "Product",
+  "name": "Lifting Gas Envelopes",
+  "source": "aerospace.lighter-than-air",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

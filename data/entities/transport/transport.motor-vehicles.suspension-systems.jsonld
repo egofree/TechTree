@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and fabrication of vehicle suspension systems: leaf, coil, and air springs; MacPherson strut, double wishbone, and multi-link geometries; dampers and anti-roll bars. Couples the chassis to the wheels, absorbing road irregularities and maintaining tire contact.",
+  "early_win": false,
+  "id": "transport.motor-vehicles.suspension-systems",
+  "level": "process",
+  "name": "Suspension Systems",
+  "outputs": [
+    "suspension_systems"
+  ],
+  "parent": "transport.motor-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

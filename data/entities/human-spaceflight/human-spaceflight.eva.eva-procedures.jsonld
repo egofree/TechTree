@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "EVA procedure development including prebreath protocols, campout protocols, timeline construction, and airlock operations - see documentation for details.",
+  "early_win": false,
+  "id": "human-spaceflight.eva.eva-procedures",
+  "level": "process",
+  "name": "EVA Procedures + Protocols",
+  "outputs": [
+    "eva_procedures",
+    "eva_capability"
+  ],
+  "parent": "human-spaceflight.eva",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

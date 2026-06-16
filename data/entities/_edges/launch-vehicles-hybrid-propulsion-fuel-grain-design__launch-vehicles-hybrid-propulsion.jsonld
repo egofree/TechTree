@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.hybrid-propulsion.fuel-grain-design__launch-vehicles.hybrid-propulsion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.hybrid-propulsion.fuel-grain-design",
+  "to": "launch-vehicles.hybrid-propulsion",
+  "label": "Fuel grain design is a process within the hybrid propulsion capability"
+}

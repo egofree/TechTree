@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design of electric motors optimized for railway traction: high starting torque, wide speed range, and robustness to shock, dust, and thermal cycling. Covers DC series motors (classic traction motor), AC induction motors with voltage-frequency (V/f) inverter control, and permanent-magnet synchronous machines. Motor cooling, frame mounting (axle-hung vs. body-mounted), and gear reduction are addressed here; fundamental electromagnetism and motor theory are referenced from energy.electricity.motor.",
+  "early_win": false,
+  "id": "transport.electric-railways.traction-motor-design",
+  "level": "process",
+  "name": "Traction Motor Design",
+  "outputs": [
+    "traction_motors"
+  ],
+  "parent": "transport.electric-railways",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50+"
+}

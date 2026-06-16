@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Heat shield (thermal protection system) design: ablative shields using PICA (Phenolic Impregnated Carbon Ablator) at 0.27 g/cm³ density surviving 2,900°C, SpaceX PICA-X variants targeting 10+ reuses, and reusable tiled TPS as flown on the Space Shuttle (LI-900 silica tiles). Selection trades ablation recession rate, peak heating flux (Apollo CM endured ~3,000 W/cm²), reusability, and areal mass against the entry trajectory's ballistic coefficient.",
+  "early_win": false,
+  "id": "launch-vehicles.edl.heat-shield-design",
+  "level": "process",
+  "name": "Heat Shield Design",
+  "outputs": [
+    "heat_shields",
+    "ablative_tps",
+    "reusable_tiles"
+  ],
+  "parent": "launch-vehicles.edl",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "ceramics",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.diesel-locomotives.dynamic-braking__transport.diesel-locomotives",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "transport.diesel-locomotives.dynamic-braking",
+  "to": "transport.diesel-locomotives"
+}

@@ -26,7 +26,12 @@ graph TD
     energy_radioisotope-power_isotope-fuel-fabrication("Isotope Fuel Fabrication")
     health_occupational-health("Occupational Health & Industrial Hygiene")
     health_pharmacology("Pharmacology")
+    human-spaceflight_eclss("Environmental Control & Life Support")
+    human-spaceflight_radiation-protection("Radiation Protection")
+    human-spaceflight_space-medicine("Space Medicine")
     polymers("Polymers & Composites")
+    spacecraft-systems_radiation-hardening("Radiation Hardening")
+    spacecraft-systems_science-instruments("Science Instruments")
     water_sewage("Sewage Collection & Treatment")
 
     %% ==================== EDGES ====================
@@ -48,6 +53,11 @@ graph TD
     energy_nuclear-fission -.-> ehs_radiation-safety
     energy_radioisotope-power_isotope-fuel-fabrication -.-> ehs_radiation-safety
     energy_radioisotope-power -.-> ehs_radiation-safety
+    human-spaceflight_eclss -.-> ehs_radiation-safety
+    human-spaceflight_radiation-protection -.-> ehs_radiation-safety
+    human-spaceflight_space-medicine -.-> ehs_radiation-safety
+    spacecraft-systems_radiation-hardening -.-> ehs_radiation-safety
+    spacecraft-systems_science-instruments -.-> ehs_radiation-safety
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -79,6 +89,11 @@ graph TD
     class energy_radioisotope-power_isotope-fuel-fabrication external
     class health_occupational-health external
     class health_pharmacology external
+    class human-spaceflight_eclss external
+    class human-spaceflight_radiation-protection external
+    class human-spaceflight_space-medicine external
     class polymers external
+    class spacecraft-systems_radiation-hardening external
+    class spacecraft-systems_science-instruments external
     class water_sewage external
     class EdgeLegend,MatNote,ToolNote legend

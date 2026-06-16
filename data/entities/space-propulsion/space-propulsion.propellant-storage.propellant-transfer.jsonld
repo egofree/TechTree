@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Transfer of cryogenic propellants between vehicles or to a depot: coupling mechanisms (probe/drogue, quick disconnect), propellant settling (thrusters, capillary devices), and line chill-down procedures.",
+  "early_win": false,
+  "id": "space-propulsion.propellant-storage.propellant-transfer",
+  "level": "process",
+  "name": "Propellant Transfer",
+  "outputs": ["transferred_propellant"],
+  "parent": "space-propulsion.propellant-storage",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

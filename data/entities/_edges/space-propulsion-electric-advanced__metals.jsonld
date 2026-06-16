@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-advanced__metals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "space-propulsion.electric-advanced",
+  "to": "metals",
+  "label": "Refractory metals, copper anodes, and superconducting magnet materials for VASIMR, arcjet, and MPD structures"
+}

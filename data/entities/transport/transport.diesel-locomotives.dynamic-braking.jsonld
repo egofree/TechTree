@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Dynamic braking reverses the role of the traction motors during deceleration: the motors act as generators, converting the train's kinetic energy into electrical energy, which is dissipated as heat in a resistor grid (rheostatic) or returned to the line (regenerative, on electric networks). Reduces brake shoe wear and prevents thermal fade on long downgrades.",
+  "early_win": false,
+  "id": "transport.diesel-locomotives.dynamic-braking",
+  "level": "process",
+  "name": "Dynamic Braking",
+  "outputs": [
+    "diesel_locomotives"
+  ],
+  "parent": "transport.diesel-locomotives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50+"
+}

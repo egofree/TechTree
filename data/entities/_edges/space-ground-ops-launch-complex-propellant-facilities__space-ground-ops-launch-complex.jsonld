@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-ground-ops.launch-complex.propellant-facilities__space-ground-ops.launch-complex",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-ground-ops.launch-complex.propellant-facilities",
+  "to": "space-ground-ops.launch-complex"
+}

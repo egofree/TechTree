@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Reaction engines generating thrust by accelerating hot combustion gases through a nozzle. Encompasses turbojets, turbofans, afterburners, and ramjet/scramjet cycles operating on the Brayton cycle. Builds on gas turbine turbomachinery to achieve transonic and supersonic flight, heavy-lift air transport, and air-breathing propulsion for high-speed atmospheric and boost-phase vehicles.",
+  "early_win": false,
+  "id": "aerospace.jet-propulsion",
+  "level": "capability",
+  "name": "Jet Propulsion",
+  "outputs": [
+    "jet_engines",
+    "turbofan_engines",
+    "afterburners",
+    "ramjet_engines"
+  ],
+  "parent": "aerospace",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-60+"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-ground-ops.vehicle-assembly__machine-tools",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-ground-ops.vehicle-assembly",
+  "to": "machine-tools",
+  "label": "Large gantry cranes (10,000 t capacity), precision alignment fixtures, hydraulic torque wrenches"
+}

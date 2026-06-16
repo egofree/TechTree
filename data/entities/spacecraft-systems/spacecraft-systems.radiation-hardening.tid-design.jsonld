@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Total Ionizing Dose Design - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.radiation-hardening.tid-design",
+  "level": "process",
+  "name": "Total Ionizing Dose Design",
+  "outputs": [
+    "radhard_electronics"
+  ],
+  "parent": "spacecraft-systems.radiation-hardening",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

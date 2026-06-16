@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "edl_systems",
+  "@type": "Product",
+  "name": "EDL Systems",
+  "source": "launch-vehicles.edl",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": []
+  }
+}

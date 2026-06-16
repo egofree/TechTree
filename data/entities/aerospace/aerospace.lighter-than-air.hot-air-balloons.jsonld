@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Unpowered aerostats using heated air for lift. A fabric envelope traps warm air (typically 100-120°C above ambient), producing net buoyancy through density difference. Controlled by varying burner output for altitude; lateral movement relies on wind currents at different altitudes. The simplest flying machine, achievable with woven fabric and a propane or wood-fueled heat source.",
+  "early_win": false,
+  "id": "aerospace.lighter-than-air.hot-air-balloons",
+  "level": "process",
+  "name": "Hot-Air Balloons",
+  "outputs": [
+    "balloons"
+  ],
+  "parent": "aerospace.lighter-than-air",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "fibers",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-15"
+}

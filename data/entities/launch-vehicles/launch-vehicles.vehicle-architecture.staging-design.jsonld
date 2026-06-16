@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Multi-stage staging design: serial and parallel staging arrangements, stage separation systems (spring thrusters, pneumatic pushers, solid separation motors), and interstage structural design. Determines how the propulsive delta-v budget is partitioned across stages to maximise payload mass fraction via the Tsiolkovsky rocket equation.",
+  "early_win": false,
+  "id": "launch-vehicles.vehicle-architecture.staging-design",
+  "level": "process",
+  "name": "Staging Design",
+  "outputs": [
+    "stage_separators",
+    "interstages"
+  ],
+  "parent": "launch-vehicles.vehicle-architecture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

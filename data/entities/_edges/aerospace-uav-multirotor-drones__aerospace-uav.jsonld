@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.uav.multirotor-drones__aerospace.uav",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.uav.multirotor-drones",
+  "to": "aerospace.uav"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solid_motors",
+  "@type": "Product",
+  "name": "Solid Rocket Motors",
+  "source": "launch-vehicles.solid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

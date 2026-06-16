@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.spacecraft-power__energy.radioisotope-power",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.spacecraft-power",
+  "to": "energy.radioisotope-power",
+  "label": "RTG integration: MMRTG and GPHS-RTG units provide sustained electrical power for deep-space missions beyond practical solar range"
+}

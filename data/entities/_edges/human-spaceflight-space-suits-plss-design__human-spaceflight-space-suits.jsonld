@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.space-suits.plss-design__human-spaceflight.space-suits",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.space-suits.plss-design",
+  "to": "human-spaceflight.space-suits"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.space-recycling.propellant-recycling__space-resources.space-recycling",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-resources.space-recycling.propellant-recycling",
+  "to": "space-resources.space-recycling"
+}

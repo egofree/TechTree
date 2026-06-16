@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nozzle_assemblies",
+  "@type": "Product",
+  "name": "Nozzle Assemblies",
+  "source": "launch-vehicles.solid-propulsion.nozzle-ablation",
+  "tags": {
+    "material": [
+      "ceramics",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "interstages",
+  "@type": "Product",
+  "name": "Interstages",
+  "source": "launch-vehicles.vehicle-architecture.staging-design",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

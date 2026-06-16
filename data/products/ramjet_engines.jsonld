@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ramjet_engines",
+  "@type": "Product",
+  "name": "Ramjet Engines",
+  "source": "aerospace.jet-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "ceramics"
+    ]
+  }
+}

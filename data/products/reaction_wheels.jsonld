@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reaction_wheels",
+  "@type": "Product",
+  "name": "Reaction Wheels",
+  "source": "spacecraft-systems.adcs.reaction-wheels",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.space-qualification.vibration-acoustic-test__spacecraft-systems.space-qualification",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.space-qualification.vibration-acoustic-test",
+  "to": "spacecraft-systems.space-qualification"
+}

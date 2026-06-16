@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "In-situ resource utilization, asteroid mining, and extraterrestrial material processing.",
+  "early_win": false,
+  "id": "space-resources",
+  "level": "domain",
+  "name": "Space Resources",
+  "outputs": [
+    "lunar_oxygen",
+    "mars_propellant",
+    "asteroid_materials",
+    "asteroid_water",
+    "space_products",
+    "zblan_fiber",
+    "space_grown_crystals",
+    "recycled_materials"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-200+"
+}

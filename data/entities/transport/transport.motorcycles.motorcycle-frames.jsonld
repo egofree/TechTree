@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Motorcycle frame design and fabrication: the structural chassis that supports the engine, suspension, and rider. Covers cradle frames (tubular steel enclosing the engine), backbone frames (single large-section spine), perimeter or twin-spar frames (two aluminum beams flanking the engine), and trellis frames (triangulated tube lattice, associated with Ducati). Materials include welded steel tube, cast or extruded aluminum beam, and carbon fiber composites for premium applications.",
+  "early_win": false,
+  "id": "transport.motorcycles.motorcycle-frames",
+  "level": "process",
+  "name": "Motorcycle Frame Design",
+  "outputs": [
+    "scooter_frames"
+  ],
+  "parent": "transport.motorcycles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

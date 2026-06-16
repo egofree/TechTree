@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cast_propellant",
+  "@type": "Product",
+  "name": "Cast Propellant",
+  "source": "launch-vehicles.solid-propulsion.propellant-casting",
+  "tags": {
+    "material": [
+      "chemicals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

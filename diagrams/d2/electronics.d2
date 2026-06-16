@@ -143,6 +143,9 @@ electronics_internal: "Electronics — Internal Structure" {
 electronics: Electronics
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_uav: Unmanned Aerial Vehicles {
+  shape: rectangle
+}
 automation: "Automation & Robotics" {
   shape: rectangle
 }
@@ -177,6 +180,9 @@ energy_radioisotope-power_advanced-isotope-conversion: Advanced Isotope Conversi
   shape: rectangle
 }
 glass_fibers: Glass Fiber Production {
+  shape: rectangle
+}
+launch-vehicles_vehicle-architecture: Vehicle Architecture {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -216,6 +222,54 @@ polymers_thermosets: Thermosetting Polymers {
   shape: rectangle
 }
 silicon_basic-devices: Basic Semiconductor Devices {
+  shape: rectangle
+}
+space-ground-ops_ground-stations: Ground Stations {
+  shape: rectangle
+}
+space-ground-ops_mission-control: Mission Control {
+  shape: rectangle
+}
+space-propulsion_electric-advanced: Electric Propulsion — Advanced {
+  shape: rectangle
+}
+space-propulsion_electric-hall: Electric Propulsion — Hall {
+  shape: rectangle
+}
+space-propulsion_electric-ion: Electric Propulsion — Ion {
+  shape: rectangle
+}
+spacecraft-systems_adcs: "Attitude Determination & Control" {
+  shape: rectangle
+}
+spacecraft-systems_comms-payload: Communications Payload {
+  shape: rectangle
+}
+spacecraft-systems_debris-management: Debris Management {
+  shape: rectangle
+}
+spacecraft-systems_earth-observation: Earth Observation Payloads {
+  shape: rectangle
+}
+spacecraft-systems_navigation-payload: "Navigation & PNT Payloads" {
+  shape: rectangle
+}
+spacecraft-systems_obdh: Onboard Data Handling {
+  shape: rectangle
+}
+spacecraft-systems_science-instruments: Science Instruments {
+  shape: rectangle
+}
+spacecraft-systems_space-qualification: Space Qualification {
+  shape: rectangle
+}
+spacecraft-systems_spacecraft-power: Spacecraft Power Systems {
+  shape: rectangle
+}
+spacecraft-systems_ttac: "TT&C Systems" {
+  shape: rectangle
+}
+transport_electric-vehicles: Electric Vehicles {
   shape: rectangle
 }
 vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
@@ -331,6 +385,7 @@ electronics_power-supply-circuits_switching-regulators -> electronics_semiconduc
 electronics_power-supply-circuits -> electronics_electrical-systems: { class: tool-edge }
 electronics_power-supply-circuits -> electronics_semiconductor-devices: { class: tool-edge }
 electronics -> electronics_passive-components: { class: material-edge }
+aerospace_uav -> electronics: { class: material-edge }
 automation_equipment-communication -> electronics: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
 computing_electronic -> electronics_assembly: { class: tool-edge }
@@ -356,9 +411,26 @@ electronics -> photolithography: { class: tool-edge }
 energy_electricity -> electronics_wire-insulation: { class: material-edge }
 energy_photovoltaics -> electronics_power-electronics: { class: tool-edge }
 energy_radioisotope-power_advanced-isotope-conversion -> electronics: { class: tool-edge }
+launch-vehicles_vehicle-architecture -> electronics: { class: tool-edge }
 measurement_thermostat-electrical -> electronics: { class: tool-edge }
 measurement_thermostat-electronic -> electronics: { class: material-edge }
 metals_precious-metals -> electronics: { class: material-edge }
+space-ground-ops_ground-stations -> electronics: { class: tool-edge }
+space-ground-ops_mission-control -> electronics: { class: tool-edge }
+space-propulsion_electric-advanced -> electronics_power-electronics: { class: tool-edge }
+space-propulsion_electric-hall -> electronics_power-electronics: { class: tool-edge }
+space-propulsion_electric-ion -> electronics_power-electronics: { class: tool-edge }
+spacecraft-systems_adcs -> electronics: { class: tool-edge }
+spacecraft-systems_comms-payload -> electronics: { class: tool-edge }
+spacecraft-systems_debris-management -> electronics: { class: tool-edge }
+spacecraft-systems_earth-observation -> electronics: { class: tool-edge }
+spacecraft-systems_navigation-payload -> electronics: { class: tool-edge }
+spacecraft-systems_obdh -> electronics: { class: tool-edge }
+spacecraft-systems_science-instruments -> electronics: { class: tool-edge }
+spacecraft-systems_space-qualification -> electronics: { class: tool-edge }
+spacecraft-systems_spacecraft-power -> electronics: { class: tool-edge }
+spacecraft-systems_ttac -> electronics: { class: tool-edge }
+transport_electric-vehicles -> electronics: { class: material-edge }
 vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -414,6 +486,7 @@ electronics_power-supply-circuits_rectifier-circuits.class: process
 electronics_power-supply-circuits_switching-regulators.class: process
 electronics_semiconductor-devices.class: critical
 electronics_wire-insulation.class: critical
+aerospace_uav.class: external
 automation.class: external
 automation_equipment-communication.class: external
 chemistry.class: external
@@ -426,6 +499,7 @@ energy_electricity.class: external
 energy_photovoltaics.class: external
 energy_radioisotope-power_advanced-isotope-conversion.class: external
 glass_fibers.class: external
+launch-vehicles_vehicle-architecture.class: external
 machine-tools.class: external
 measurement_thermostat-electrical.class: external
 measurement_thermostat-electronic.class: external
@@ -439,6 +513,22 @@ photolithography_fab-processes.class: external
 polymers_thermoplastics.class: external
 polymers_thermosets.class: external
 silicon_basic-devices.class: external
+space-ground-ops_ground-stations.class: external
+space-ground-ops_mission-control.class: external
+space-propulsion_electric-advanced.class: external
+space-propulsion_electric-hall.class: external
+space-propulsion_electric-ion.class: external
+spacecraft-systems_adcs.class: external
+spacecraft-systems_comms-payload.class: external
+spacecraft-systems_debris-management.class: external
+spacecraft-systems_earth-observation.class: external
+spacecraft-systems_navigation-payload.class: external
+spacecraft-systems_obdh.class: external
+spacecraft-systems_science-instruments.class: external
+spacecraft-systems_space-qualification.class: external
+spacecraft-systems_spacecraft-power.class: external
+spacecraft-systems_ttac.class: external
+transport_electric-vehicles.class: external
 vlsi-scaling_eda-design.class: external
 
 # ==================== LEGEND ====================

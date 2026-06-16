@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Integration of the reactor-generated electric power with electric propulsion thrusters: high-voltage power conditioning and distribution (PCDU) delivers 100-1000 kWe at hundreds of volts to kilovolts to arrays of ion thrusters or Hall-effect thrusters (see space-propulsion.electric-ion). Total system Isp reaches 3000-7000 s (vs NTP 850-1000 s), at thrust levels of milli-newtons to a few newtons — enabling high delta-v missions that chemical or NTP cannot reach. The JIMO concept coupled a 100 kWe Brayton reactor to a cluster of ion thrusters. Integration challenges: thruster array scaling (tens to hundreds of thrusters), electromagnetic interference between reactor PCDU and thruster discharge circuits, thermal management of wasted power conversion efficiency (10-20% of bus power becomes heat).",
+  "early_win": false,
+  "id": "space-propulsion.nuclear-electric.electric-propulsion-integration",
+  "level": "process",
+  "name": "Electric Propulsion Integration",
+  "outputs": [
+    "nep_systems"
+  ],
+  "parent": "space-propulsion.nuclear-electric",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

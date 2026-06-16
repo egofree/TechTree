@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.crew-training.simulators",
+  "@type": "Process",
+  "critical": false,
+  "description": "High-fidelity spacecraft simulators for crew training: motion-base platforms with 6-DOF hexapod for launch and entry dynamics, VR headsets for ISS and lunar surface operations, Space Mission Simulator (SMS) with full cockpit fidelity for Soyuz, Crew Dragon, and Starliner, and part-task trainers for robotics, rendezvous, and docking procedures.",
+  "early_win": false,
+  "id": "human-spaceflight.crew-training.simulators",
+  "level": "process",
+  "name": "Simulators",
+  "outputs": [
+    "trained_crew"
+  ],
+  "parent": "human-spaceflight.crew-training",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

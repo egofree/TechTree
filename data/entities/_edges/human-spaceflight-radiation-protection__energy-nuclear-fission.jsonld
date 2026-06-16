@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.radiation-protection__energy.nuclear-fission",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.radiation-protection",
+  "to": "energy.nuclear-fission",
+  "label": "radiation physics, shielding material data, and dosimetry calibration from nuclear industry"
+}

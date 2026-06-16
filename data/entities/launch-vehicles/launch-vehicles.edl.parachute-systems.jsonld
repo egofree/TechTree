@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Parachute systems for terminal deceleration: disk-gap-band canopies (Apollo CM main, 25.5 m diameter), ringsail parachutes (Orion MPS), and supersonic disk-gap-band parachutes (Mars Science Laboratory, deploying at Mach 2.0). Covers canopy fabric (Nylon, Kevlar, Zylon), suspension line loads, mortar deployment, and reefing stages that stage-in drag area to limit opening shock.",
+  "early_win": false,
+  "id": "launch-vehicles.edl.parachute-systems",
+  "level": "process",
+  "name": "Parachute Systems",
+  "outputs": [
+    "parachutes",
+    "drogue_chutes",
+    "canopy_deployment_systems"
+  ],
+  "parent": "launch-vehicles.edl",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

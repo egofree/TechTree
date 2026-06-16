@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.crew-training.analog-environments",
+  "@type": "Process",
+  "critical": false,
+  "description": "Ground-based analog environment campaigns for long-duration mission simulation: HERA (Human Exploration Research Analog) 3-story habitat for 45-day isolation missions, NEEMO underwater habitat at Aquarius Reef Base 19 m below sea surface, Devon Island Haughton-Mars Project on Arctic polar desert, Antarctica Concordia station isolation studies, and SIRIUS chamber-based lunar mission analogs at IBMP/NEK facility for 4-8 months.",
+  "early_win": false,
+  "id": "human-spaceflight.crew-training.analog-environments",
+  "level": "process",
+  "name": "Analog Environments",
+  "outputs": [
+    "trained_crew"
+  ],
+  "parent": "human-spaceflight.crew-training",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

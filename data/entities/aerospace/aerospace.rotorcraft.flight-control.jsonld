@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Helicopter flight control mechanisms: the swashplate assembly translating stationary control inputs into rotating blade pitch, collective and cyclic pitch coordination, anti-torque systems (conventional tail rotor, shrouded Fenestron, NOTAR pressure thrust, coaxial counter-rotation), and stability augmentation. Enables directional control, hover trim, and coordinated turn flight in rotary-wing aircraft.",
+  "early_win": false,
+  "id": "aerospace.rotorcraft.flight-control",
+  "level": "process",
+  "name": "Flight Control",
+  "outputs": [
+    "swashplates"
+  ],
+  "parent": "aerospace.rotorcraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

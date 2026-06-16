@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "robotic_manipulator_arms",
+  "@type": "Product",
+  "name": "Robotic Manipulator Arms",
+  "source": "human-spaceflight.space-stations.robotic-arms",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Radio-frequency front-end design: cryogenic low-noise amplifiers with 20-50 K noise temperature (closed-cycle helium or Stirling cooled for DSN-grade apertures), downconverters that mix the RF to intermediate frequency, and the IF distribution that carries signals to a signal processing centre over fibre or coax. The subsystem that sets the system noise temperature and therefore the link budget.",
+  "early_win": false,
+  "id": "space-ground-ops.ground-stations.rf-front-ends",
+  "level": "process",
+  "name": "RF Front-Ends",
+  "outputs": [
+    "rf_front_ends"
+  ],
+  "parent": "space-ground-ops.ground-stations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Retropropulsion for propulsive deceleration and landing: Falcon 9 booster recovery using a 3-engine entry burn and single-engine landing burn (hoverslam), and supersonic retropropulsion as planned for SpaceX Starship using Raptor engines for the belly-flip manoeuvre and propulsive touchdown. Enables stage reuse and high-mass planetary landing where parachutes are insufficient.",
+  "early_win": false,
+  "id": "launch-vehicles.edl.retropropulsion",
+  "level": "process",
+  "name": "Retropropulsion",
+  "outputs": [
+    "landing_burn_profiles",
+    "recovered_boosters"
+  ],
+  "parent": "launch-vehicles.edl",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

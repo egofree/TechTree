@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.ttac.ranging-doppler__spacecraft-systems.ttac",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.ttac.ranging-doppler",
+  "to": "spacecraft-systems.ttac"
+}

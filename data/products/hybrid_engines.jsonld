@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hybrid_engines",
+  "@type": "Product",
+  "name": "Hybrid Rocket Engines",
+  "source": "launch-vehicles.hybrid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

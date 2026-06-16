@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eclss_systems",
+  "@type": "Product",
+  "name": "ECLSS Systems",
+  "source": "human-spaceflight.eclss",
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "health"
+    ],
+    "material": [
+      "chemicals",
+      "polymers"
+    ]
+  }
+}

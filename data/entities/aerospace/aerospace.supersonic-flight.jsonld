@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Flight at and above Mach 1, spanning supersonic cruise aircraft (Concorde, SR-71) and hypersonic vehicles (X-15, scramjet testbeds). Demands area-ruled airframes, wave-drag management, thermal protection for sustained Mach 3+ cruise, and integrated scramjet propulsion for Mach 5+ flight.",
+  "early_win": false,
+  "id": "aerospace.supersonic-flight",
+  "level": "capability",
+  "name": "Supersonic & Hypersonic Flight",
+  "outputs": [
+    "supersonic_aircraft",
+    "hypersonic_vehicles"
+  ],
+  "parent": "aerospace",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-150+"
+}

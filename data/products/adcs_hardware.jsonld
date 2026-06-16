@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "adcs_hardware",
+  "@type": "Product",
+  "name": "ADCS Hardware",
+  "source": "spacecraft-systems.adcs.imu-gyros",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

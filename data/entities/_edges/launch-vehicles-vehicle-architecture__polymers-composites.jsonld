@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.vehicle-architecture__polymers.composites",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "launch-vehicles.vehicle-architecture",
+  "to": "polymers.composites"
+}

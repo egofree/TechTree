@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Biological and physical-chemical hybrid systems for closing life support loops toward 99% mass recovery. Integrates the ESA MELiSSA five-compartment loop (photosynthetic, nitrifying, degrading, waste, consumer) with algae bioreactors (Chlorella, Spirulina), higher-plant chambers (wheat, soy, rice), and advanced water recovery to regenerate oxygen, water, and food from crew waste streams.",
+  "early_win": false,
+  "id": "space-resources.space-recycling.life-support-loop-closure",
+  "level": "process",
+  "name": "Life Support Loop Closure",
+  "outputs": [
+    "recycled_materials"
+  ],
+  "parent": "space-resources.space-recycling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "biomass",
+      "water",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80-200+"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and fabrication of the solid fuel grain for hybrid rocket engines. HTPB (hydroxyl-terminated polybutadiene) is the heritage fuel; paraffin wax delivers 3-5x higher regression rate via the entrainment of melt-layer droplets; cross-linked polymers (SHPB, dicyclopentadiene) add mechanical strength for high-thrust applications. Single-port and multi-port geometries (wagon-wheel, star) set the fuel surface area and the oxidizer-to-fuel ratio along the combustion port.",
+  "early_win": false,
+  "id": "launch-vehicles.hybrid-propulsion.fuel-grain-design",
+  "level": "process",
+  "name": "Fuel Grain Design",
+  "outputs": [
+    "hybrid_fuel_grains"
+  ],
+  "parent": "launch-vehicles.hybrid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "compacted_surfaces",
+  "@type": "Product",
+  "name": "Compacted Surfaces",
+  "source": "transport.road-construction-equipment",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "transport"
+    ]
+  }
+}

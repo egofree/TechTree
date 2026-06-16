@@ -8,7 +8,7 @@
 > **Enables**: [`electrochemistry.anodizing`](../electrochemistry/anodizing.md),
 > [`metals.aluminum`](./aluminum.md),
 > [`metals.aluminum.semiconductor-grade`](./semiconductor-grade.md),
-> [`metals.forming`](./forming.md), [`transport.aviation`](../transport/aviation.md)
+> [`metals.forming`](./forming.md), [`aerospace.aviation`](../aerospace/aviation.md)
 > **Timeline**: Years 20-40
 > **Outputs**: aluminum ingots, extrusions, castings, sheet
 > **Critical**: Yes — aluminum is the primary structural metal for aerospace and the dominant electrical conductor for overhead transmission
@@ -334,6 +334,6 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 - [Electricity](../energy/electricity.md) — massive power for aluminum smelting
 - [Metal Forming](forming.md) — aluminum extrusion and rolling
 - [Anodizing](../electrochemistry/anodizing.md) — aluminum surface treatment
-- [Aviation](../transport/aviation.md) — aluminum airframe construction
+- [Aviation](../aerospace/aviation.md) — aluminum airframe construction
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

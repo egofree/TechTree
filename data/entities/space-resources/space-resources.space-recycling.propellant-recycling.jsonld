@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Recovery of residual propellants and vented gases on orbit. Captures boil-off from cryogenic liquid oxygen and liquid hydrogen tanks, reclaims residual propellant from spacecraft propulsion systems after engine shutdown, and recycles vented cabin and ullage gases to reduce consumable mass loss during long-duration missions and propellant depot operations.",
+  "early_win": false,
+  "id": "space-resources.space-recycling.propellant-recycling",
+  "level": "process",
+  "name": "Propellant Recycling",
+  "outputs": [
+    "recycled_materials"
+  ],
+  "parent": "space-resources.space-recycling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "gases",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80-200+"
+}

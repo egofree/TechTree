@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Optical ascent tracking: cinetheodolites such as the Contraves mount that record launch ascent on film or digital sensors from multiple viewing angles, the triangulation that reconstructs a three-dimensional trajectory from two or more stations, and the photogrammetric reduction that yields metric-quality attitude and position data independent of the radar.",
+  "early_win": false,
+  "id": "space-ground-ops.range-safety.optical-tracking",
+  "level": "process",
+  "name": "Optical Tracking",
+  "outputs": [
+    "optical_tracking"
+  ],
+  "parent": "space-ground-ops.range-safety",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

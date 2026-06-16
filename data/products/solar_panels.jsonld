@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solar_panels",
+  "@type": "Product",
+  "name": "Solar Panels",
+  "source": "spacecraft-systems",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

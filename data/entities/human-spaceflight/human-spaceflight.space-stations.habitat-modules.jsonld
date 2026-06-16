@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Pressurised habitat module design, fabrication, and integration - see documentation for details.",
+  "early_win": false,
+  "id": "human-spaceflight.space-stations.habitat-modules",
+  "level": "process",
+  "name": "Habitat Module Fabrication",
+  "outputs": [
+    "habitat_modules",
+    "space_stations"
+  ],
+  "parent": "human-spaceflight.space-stations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

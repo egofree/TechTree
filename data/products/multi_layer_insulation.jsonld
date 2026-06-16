@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "multi_layer_insulation",
+  "@type": "Product",
+  "name": "Multi Layer Insulation",
+  "source": "human-spaceflight.space-suits.thermal-control-suit",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pnt_payloads",
+  "@type": "Product",
+  "name": "Navigation & PNT Payloads",
+  "source": "spacecraft-systems.navigation-payload",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "silicon",
+      "glass"
+    ]
+  }
+}

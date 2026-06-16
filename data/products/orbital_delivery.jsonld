@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "orbital_delivery",
+  "@type": "Product",
+  "name": "Orbital Delivery",
+  "source": "launch-vehicles.vehicle-architecture",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aerostats",
+  "@type": "Product",
+  "name": "Tethered Aerostats",
+  "source": "aerospace.lighter-than-air.tethered-aerostats",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Magnetoplasmadynamic - see documentation for details.",
+  "early_win": false,
+  "id": "space-propulsion.electric-advanced.magnetoplasmadynamic",
+  "level": "process",
+  "name": "Magnetoplasmadynamic",
+  "outputs": [
+    "advanced_thrusters"
+  ],
+  "parent": "space-propulsion.electric-advanced",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

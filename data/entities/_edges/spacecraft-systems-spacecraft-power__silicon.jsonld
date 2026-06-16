@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.spacecraft-power__silicon",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "spacecraft-systems.spacecraft-power",
+  "to": "silicon",
+  "label": "semiconductor junctions: GaAs/Ge and Si solar cell substrates, power semiconductor devices for PCDU switching"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.radiation-protection.storm-shelters__human-spaceflight.radiation-protection",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.radiation-protection.storm-shelters",
+  "to": "human-spaceflight.radiation-protection"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "body_restraint_systems",
+  "@type": "Product",
+  "name": "Body Restraint Systems",
+  "source": "human-spaceflight.eva.eva-tools",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

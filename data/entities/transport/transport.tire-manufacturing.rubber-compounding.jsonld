@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Blending of natural and synthetic rubbers with carbon black, silica, oils, antioxidants, antiozonants, accelerators, and sulfur (vulcanizing agent) in an internal mixer (Banbury). The compound is sheeted on a mill and calendered onto cord fabric to produce rubberized ply stock. Compound formulation dictates wear, grip, and rolling resistance.",
+  "early_win": false,
+  "id": "transport.tire-manufacturing.rubber-compounding",
+  "level": "process",
+  "name": "Rubber Compounding",
+  "outputs": [
+    "tire_cord"
+  ],
+  "parent": "transport.tire-manufacturing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

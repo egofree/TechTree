@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-advanced.vasimr-design__space-propulsion.electric-advanced",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-advanced.vasimr-design",
+  "to": "space-propulsion.electric-advanced"
+}

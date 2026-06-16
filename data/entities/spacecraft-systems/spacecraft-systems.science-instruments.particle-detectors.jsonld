@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Particle detectors for measuring energetic charged particles (electrons, protons, ions) in space plasmas and cosmic rays. Includes solid-state silicon detectors, proportional counters, time-of-flight systems, and microchannel plates. Heritage from Van Allen probes, Solar Orbiter, and cosmic-ray observatories.",
+  "early_win": false,
+  "id": "spacecraft-systems.science-instruments.particle-detectors",
+  "level": "process",
+  "name": "Particle Detectors",
+  "outputs": [
+    "science_payloads"
+  ],
+  "parent": "spacecraft-systems.science-instruments",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "metals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

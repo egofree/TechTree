@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Orbital manufacturing exploiting microgravity: ZBLAN fluoride-glass fiber pulling, defect-free protein and semiconductor crystal growth, and additive manufacturing of polymer parts aboard pressurized platforms.",
+  "early_win": false,
+  "id": "space-resources.microgravity-manufacturing",
+  "level": "capability",
+  "name": "Microgravity Manufacturing",
+  "outputs": [
+    "space_products",
+    "zblan_fiber",
+    "space_grown_crystals"
+  ],
+  "parent": "space-resources",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "glass",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Crewed spaceflight systems including life support, spacesuits, crewed spacecraft, and space stations.",
+  "early_win": false,
+  "id": "human-spaceflight",
+  "level": "domain",
+  "name": "Human Spaceflight",
+  "outputs": [
+    "eclss_systems",
+    "water_recovery_systems",
+    "pressure_garments",
+    "portable_life_support_systems",
+    "eva_suits",
+    "eva_capability",
+    "crewed_capsules",
+    "launch_abort_systems",
+    "docking_systems",
+    "reentry_systems",
+    "space_stations",
+    "habitat_modules",
+    "robotic_manipulator_arms",
+    "crew_medical",
+    "radiation_protection",
+    "trained_crew"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

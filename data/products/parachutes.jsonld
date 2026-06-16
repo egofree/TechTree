@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "parachutes",
+  "@type": "Product",
+  "name": "Parachutes",
+  "source": "launch-vehicles.edl",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

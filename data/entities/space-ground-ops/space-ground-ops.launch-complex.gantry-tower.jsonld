@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Gantry and service tower design for launch vehicle integration and checkout: fixed service structure (FSS), rotating service structure (RSS), umbilical arms, swing-arm disconnect, and access platforms. LC-39A FSS 106m tall; umbilical arms retract at T-0 within 2-8 seconds.",
+  "early_win": false,
+  "id": "space-ground-ops.launch-complex.gantry-tower",
+  "level": "process",
+  "name": "Gantry & Service Tower",
+  "outputs": [
+    "launch_pads"
+  ],
+  "parent": "space-ground-ops.launch-complex",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

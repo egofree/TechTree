@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "conjunction_reports",
+  "@type": "Product",
+  "name": "Conjunction Reports",
+  "source": "spacecraft-systems.debris-management.collision-avoidance",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

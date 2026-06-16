@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Conjunction assessment and collision avoidance: computing probability of collision for close approaches at 10 km/s mean LEO impact velocity, planning CAMs to reduce Pc below 1e-4 threshold.",
+  "early_win": false,
+  "id": "spacecraft-systems.debris-management.collision-avoidance",
+  "level": "process",
+  "name": "Collision Avoidance",
+  "outputs": [
+    "conjunction_reports"
+  ],
+  "parent": "spacecraft-systems.debris-management",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Spacecraft communications payload engineering: high-power transponders, aperture and phased-array antennas, traveling-wave tube amplifiers (TWTAs), and RF multiplexers that together deliver gigabit-per-second broadband capacity from geostationary and low-Earth-orbit constellations.",
+  "early_win": false,
+  "id": "spacecraft-systems.comms-payload",
+  "level": "capability",
+  "name": "Communications Payload",
+  "outputs": [
+    "comms_payloads",
+    "satellite_antennas",
+    "twtas"
+  ],
+  "parent": "spacecraft-systems",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

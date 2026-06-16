@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Motorcycle suspension systems: front telescopic and upside-down (inverted) forks, rear twin-shock and mono-shock designs, and steering dampers. Covers spring and damper rate selection for varied terrain (street, sport, off-road), anti-dive geometry, and the relationship between suspension travel, ride height, and center of gravity. Proper suspension tuning is critical for handling stability and tire contact patch maintenance during braking, acceleration, and cornering.",
+  "early_win": false,
+  "id": "transport.motorcycles.motorcycle-suspension",
+  "level": "process",
+  "name": "Motorcycle Suspension Systems",
+  "outputs": [
+    "motorcycle_suspensions"
+  ],
+  "parent": "transport.motorcycles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

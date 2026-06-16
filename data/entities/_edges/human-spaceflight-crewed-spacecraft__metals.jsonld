@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crewed-spacecraft__metals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "human-spaceflight.crewed-spacecraft",
+  "to": "metals",
+  "label": "aluminum-lithium pressure shells, titanium fittings, and steel structural frames"
+}

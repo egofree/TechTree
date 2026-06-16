@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lunar_oxygen",
+  "@type": "Product",
+  "name": "Lunar-Derived Oxygen",
+  "source": "space-resources.lunar-isru",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

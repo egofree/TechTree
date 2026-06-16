@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "turbofan_engines",
+  "@type": "Product",
+  "name": "Turbofan Engines",
+  "source": "aerospace.jet-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

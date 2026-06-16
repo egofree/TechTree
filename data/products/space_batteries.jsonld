@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "space_batteries",
+  "@type": "Product",
+  "name": "Space Batteries",
+  "source": "spacecraft-systems.spacecraft-power.space-batteries",
+  "tags": {
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

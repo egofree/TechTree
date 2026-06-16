@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "drogue_chutes",
+  "@type": "Product",
+  "name": "Drogue Chutes",
+  "source": "launch-vehicles.edl.parachute-systems",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

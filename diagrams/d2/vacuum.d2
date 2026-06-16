@@ -152,6 +152,30 @@ silicon_basic-devices: Basic Semiconductor Devices {
 silicon_purification: Silicon Purification {
   shape: rectangle
 }
+space-propulsion_electric-advanced: Electric Propulsion — Advanced {
+  shape: rectangle
+}
+space-propulsion_electric-hall: Electric Propulsion — Hall {
+  shape: rectangle
+}
+space-propulsion_electric-ion: Electric Propulsion — Ion {
+  shape: rectangle
+}
+space-propulsion_propellant-storage: "Cryogenic Propellant Storage & Transfer" {
+  shape: rectangle
+}
+spacecraft-systems_bus-structure: Bus Structure + Deployables {
+  shape: rectangle
+}
+spacecraft-systems_comms-payload: Communications Payload {
+  shape: rectangle
+}
+spacecraft-systems_space-qualification: Space Qualification {
+  shape: rectangle
+}
+spacecraft-systems_thermal-control: Thermal Control {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 vacuum_basic-vacuum -> vacuum: { class: tool-edge }
@@ -171,6 +195,14 @@ photolithography_fab-processes_pvd -> vacuum_pumps: { class: tool-edge }
 photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
 silicon_basic-devices -> vacuum_pumps: { class: tool-edge }
 silicon_purification -> vacuum: { class: tool-edge }
+space-propulsion_electric-advanced -> vacuum_chambers: { class: tool-edge }
+space-propulsion_electric-hall -> vacuum_chambers: { class: tool-edge }
+space-propulsion_electric-ion -> vacuum_chambers: { class: tool-edge }
+space-propulsion_propellant-storage -> vacuum: { class: tool-edge }
+spacecraft-systems_bus-structure -> vacuum: { class: tool-edge }
+spacecraft-systems_comms-payload -> vacuum_deposition-systems: { class: tool-edge }
+spacecraft-systems_space-qualification -> vacuum: { class: tool-edge }
+spacecraft-systems_thermal-control -> vacuum: { class: tool-edge }
 vacuum_chambers -> machine-tools_joining_electron-beam: { class: tool-edge }
 vacuum_chambers -> machine-tools_joining_tig-welding: { class: tool-edge }
 vacuum_chambers -> machine-tools: { class: tool-edge }
@@ -211,6 +243,14 @@ photolithography_fab-processes_pvd.class: external
 precision-motion.class: external
 silicon_basic-devices.class: external
 silicon_purification.class: external
+space-propulsion_electric-advanced.class: external
+space-propulsion_electric-hall.class: external
+space-propulsion_electric-ion.class: external
+space-propulsion_propellant-storage.class: external
+spacecraft-systems_bus-structure.class: external
+spacecraft-systems_comms-payload.class: external
+spacecraft-systems_space-qualification.class: external
+spacecraft-systems_thermal-control.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

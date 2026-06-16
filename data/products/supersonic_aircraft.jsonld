@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "supersonic_aircraft",
+  "@type": "Product",
+  "name": "Supersonic Aircraft",
+  "source": "aerospace.supersonic-flight",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.propellant-storage.zero-boiloff-systems__space-propulsion.propellant-storage",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.propellant-storage.zero-boiloff-systems",
+  "to": "space-propulsion.propellant-storage"
+}

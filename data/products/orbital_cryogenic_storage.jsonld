@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "orbital_cryogenic_storage",
+  "@type": "Product",
+  "name": "Orbital Cryogenic Storage",
+  "source": "space-propulsion.propellant-storage.zero-boiloff-systems",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

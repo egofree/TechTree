@@ -105,10 +105,19 @@ computing_embedded-systems: Embedded Systems {
 electronics: Electronics {
   shape: rectangle
 }
+human-spaceflight_eva: "Extravehicular Activity (EVA)" {
+  shape: rectangle
+}
+human-spaceflight_space-stations: Space Stations {
+  shape: rectangle
+}
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
 quality-control: "Quality Control & Statistical Process Control" {
+  shape: rectangle
+}
+space-resources_asteroid-mining: Asteroid Mining {
   shape: rectangle
 }
 vacuum: Vacuum Technology {
@@ -126,6 +135,9 @@ automation_wafer-handling -> vacuum: { class: tool-edge }
 automation -> computing_embedded-systems: { class: tool-edge }
 automation -> computing: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
+human-spaceflight_eva -> automation: { class: tool-edge }
+human-spaceflight_space-stations -> automation: { class: tool-edge }
+space-resources_asteroid-mining -> automation: { class: tool-edge }
 
 # ==================== STYLING ====================
 automation.class: domain
@@ -136,8 +148,11 @@ automation_wafer-handling.class: critical
 computing.class: external
 computing_embedded-systems.class: external
 electronics.class: external
+human-spaceflight_eva.class: external
+human-spaceflight_space-stations.class: external
 machine-tools.class: external
 quality-control.class: external
+space-resources_asteroid-mining.class: external
 vacuum.class: external
 
 # ==================== LEGEND ====================

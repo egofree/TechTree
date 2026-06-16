@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.space-recycling__chemistry",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-resources.space-recycling",
+  "to": "chemistry",
+  "label": "Catalytic oxidation, Sabatier methanation, and acid-base chemistry for waste degradation and gas reclamation"
+}

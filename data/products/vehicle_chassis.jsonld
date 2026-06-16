@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vehicle_chassis",
+  "@type": "Product",
+  "name": "Vehicle Chassis",
+  "source": "transport.motor-vehicles.chassis-frame-construction",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

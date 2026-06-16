@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-ground-ops.vehicle-assembly__metals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "space-ground-ops.vehicle-assembly",
+  "to": "metals",
+  "label": "Structural steel for VAB frame (98,500 t), crawler chassis steel castings, strongback truss"
+}

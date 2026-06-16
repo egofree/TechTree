@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Ground station networks for spacecraft command, telemetry, and tracking: aperture classes from 12 m S-band to 70 m DSN beam-waveguide antennas, cryogenic low-noise front ends, downconversion and IF distribution, and the CCSDS SLE cross-support interfaces that let one agency's ground network talk to another's spacecraft.",
+  "early_win": false,
+  "id": "space-ground-ops.ground-stations",
+  "level": "capability",
+  "name": "Ground Stations",
+  "outputs": [
+    "ground_stations"
+  ],
+  "parent": "space-ground-ops",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

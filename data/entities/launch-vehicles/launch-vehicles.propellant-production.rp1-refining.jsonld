@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Highly refined RP-1 kerosene production via fractionation of petroleum distillate. Low sulfur (<30ppm), density 0.81 g/cm3, controlled aromatics (<1%) for combustion stability and coking resistance in rocket engines.",
+  "early_win": false,
+  "id": "launch-vehicles.propellant-production.rp1-refining",
+  "level": "process",
+  "name": "RP-1 Refining",
+  "outputs": [
+    "rp1"
+  ],
+  "parent": "launch-vehicles.propellant-production",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

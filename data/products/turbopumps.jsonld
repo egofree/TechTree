@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "turbopumps",
+  "@type": "Product",
+  "name": "Rocket Turbopumps",
+  "source": "launch-vehicles.liquid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

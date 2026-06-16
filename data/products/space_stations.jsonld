@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "space_stations",
+  "@type": "Product",
+  "name": "Space Stations",
+  "source": "human-spaceflight.space-stations.habitat-modules",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

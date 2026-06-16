@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.solid-propulsion.grain-design__launch-vehicles.solid-propulsion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.solid-propulsion.grain-design",
+  "to": "launch-vehicles.solid-propulsion",
+  "label": "Grain design is a process within the solid propulsion capability"
+}

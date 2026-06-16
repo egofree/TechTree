@@ -37,6 +37,12 @@ graph TD
     metals["Metals"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_aviation("Aviation")
+    aerospace_cargo-aircraft("Cargo Aircraft")
+    aerospace_jet-propulsion("Jet Propulsion")
+    aerospace_rotorcraft("Rotorcraft")
+    aerospace_supersonic-flight("Supersonic & Hypersonic Flight")
+    aerospace_turboprop("Turboprop Engines")
     animals_beekeeping("Apiculture (Beekeeping)")
     ceramics("Ceramics & Refractories")
     ceramics_kilns("Kiln Construction")
@@ -110,7 +116,14 @@ graph TD
     glass_basic_float-glass("Float Glass Process")
     glass_glass-to-metal-seals("Glass-to-Metal Seals")
     health_medical-instruments("Medical Instrument Manufacturing")
+    human-spaceflight_crewed-spacecraft("Crewed Spacecraft")
+    human-spaceflight_space-stations("Space Stations")
+    human-spaceflight_space-suits("Space Suits")
     knowledge_printing("Paper and Printing Press")
+    launch-vehicles_edl("Entry, Descent & Landing")
+    launch-vehicles_liquid-propulsion("Liquid Propulsion")
+    launch-vehicles_solid-propulsion("Solid Propulsion")
+    launch-vehicles_vehicle-architecture("Vehicle Architecture")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_fasteners("Screw Cutting & Fastener Standardization")
     machine-tools_forming("Metal Forming")
@@ -135,6 +148,18 @@ graph TD
     photolithography_fab-processes_pvd("Physical Vapor Deposition (PVD)")
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
+    space-ground-ops_launch-complex("Launch Complex")
+    space-ground-ops_vehicle-assembly("Vehicle Assembly")
+    space-propulsion_electric-advanced("Electric Propulsion — Advanced")
+    space-propulsion_electric-ion("Electric Propulsion — Ion")
+    space-propulsion_nuclear-electric("Nuclear Electric Propulsion")
+    space-propulsion_nuclear-thermal("Nuclear Thermal Propulsion")
+    space-propulsion_propellant-storage("Cryogenic Propellant Storage & Transfer")
+    space-resources_lunar-isru("Lunar ISRU")
+    space-resources_space-recycling("Space Recycling & Closed-Loop Logistics")
+    spacecraft-systems_bus-structure("Bus Structure + Deployables")
+    spacecraft-systems_comms-payload("Communications Payload")
+    spacecraft-systems_thermal-control("Thermal Control")
     telecom("Telecommunications")
     telecom_electric-telegraph("Electrical Telegraph Networks")
     telecom_radio("Radio Communication")
@@ -145,9 +170,16 @@ graph TD
     textiles_spinning-frame_ring("Ring Spinning Frame")
     textiles_spinning-frame_water("Water Frame")
     transport("Transportation & Logistics")
-    transport_aviation("Aviation")
+    transport_diesel-locomotives("Diesel-Electric Locomotives")
+    transport_electric-railways("Electric Railways")
+    transport_high-speed-rail("High-Speed Rail")
+    transport_ice-powertrains("ICE Powertrains")
+    transport_motor-vehicles("Motor Vehicle Fundamentals")
+    transport_motorcycles("Motorcycles & Scooters")
     transport_railways("Railways")
+    transport_road-construction-equipment("Road Construction Equipment")
     transport_telegraph("Telegraph Communication")
+    transport_tire-manufacturing("Tire Manufacturing")
     vacuum("Vacuum Technology")
     vacuum_chambers("Vacuum Chambers & Sealing")
     vacuum_pumps("Vacuum Pumps")
@@ -192,6 +224,12 @@ graph TD
     metals_wire-rope --> metals_wire-rope
     metals_zinc --> metals_iron-steel
     metals_zinc -.-> metals
+    aerospace_aviation --> metals_aluminum
+    aerospace_cargo-aircraft --> metals_aluminum
+    aerospace_jet-propulsion --> metals_aluminum
+    aerospace_rotorcraft --> metals_aluminum
+    aerospace_supersonic-flight --> metals_aluminum
+    aerospace_turboprop --> metals_aluminum
     ceramics -.-> metals
     chemistry_acid-regeneration --> metals_forming
     chemistry_ammonia -.-> metals
@@ -263,7 +301,14 @@ graph TD
     glass_basic_float-glass -.-> metals_non-ferrous
     glass_glass-to-metal-seals --> metals_alloys
     health_medical-instruments --> metals_bronze
+    human-spaceflight_crewed-spacecraft --> metals
+    human-spaceflight_space-stations --> metals
+    human-spaceflight_space-suits --> metals
     knowledge_printing -.-> metals_iron-steel
+    launch-vehicles_edl --> metals
+    launch-vehicles_liquid-propulsion --> metals
+    launch-vehicles_solid-propulsion --> metals
+    launch-vehicles_vehicle-architecture --> metals_aluminum
     machine-tools_fasteners --> metals_iron-steel
     machine-tools_forming --> metals_iron-steel
     machine-tools_joining_brazing-soldering --> metals_alloys
@@ -325,16 +370,37 @@ graph TD
     photolithography --> metals_rare-earths
     silicon_basic-devices --> metals_aluminum_semiconductor-grade
     silicon_mg-si-production -.-> metals
+    space-ground-ops_launch-complex --> metals
+    space-ground-ops_vehicle-assembly --> metals
+    space-propulsion_electric-advanced --> metals
+    space-propulsion_electric-ion --> metals_refractory-specialty
+    space-propulsion_nuclear-electric --> metals
+    space-propulsion_nuclear-thermal --> metals
+    space-propulsion_propellant-storage --> metals
+    space-resources_lunar-isru -.-> metals
+    space-resources_space-recycling --> metals
+    spacecraft-systems_bus-structure --> metals_aluminum
+    spacecraft-systems_comms-payload --> metals
+    spacecraft-systems_thermal-control --> metals
     telecom_electric-telegraph --> metals
     telecom_radio --> metals
     telecom_submarine-cables --> metals
     telecom_telephone --> metals
     telecom --> metals
     textiles_sewing-tailoring -.-> metals_bronze
-    transport_aviation --> metals_aluminum
+    transport_diesel-locomotives --> metals_iron-steel
+    transport_electric-railways --> metals_aluminum
+    transport_electric-railways --> metals_iron-steel
+    transport_high-speed-rail --> metals_iron-steel
+    transport_ice-powertrains --> metals_iron-steel
+    transport_motor-vehicles --> metals_aluminum
+    transport_motor-vehicles --> metals_iron-steel
+    transport_motorcycles --> metals_iron-steel
     transport_railways --> metals_forming
     transport_railways --> metals_iron-steel
+    transport_road-construction-equipment --> metals_iron-steel
     transport_telegraph --> metals_iron-steel
+    transport_tire-manufacturing --> metals_iron-steel
     transport -.-> metals
     vacuum_chambers --> metals
     vacuum --> metals
@@ -381,6 +447,12 @@ graph TD
     class metals_wire-drawing capability
     class metals_wire-rope capability
     class metals_zinc capability
+    class aerospace_aviation external
+    class aerospace_cargo-aircraft external
+    class aerospace_jet-propulsion external
+    class aerospace_rotorcraft external
+    class aerospace_supersonic-flight external
+    class aerospace_turboprop external
     class animals_beekeeping external
     class ceramics external
     class ceramics_kilns external
@@ -454,7 +526,14 @@ graph TD
     class glass_basic_float-glass external
     class glass_glass-to-metal-seals external
     class health_medical-instruments external
+    class human-spaceflight_crewed-spacecraft external
+    class human-spaceflight_space-stations external
+    class human-spaceflight_space-suits external
     class knowledge_printing external
+    class launch-vehicles_edl external
+    class launch-vehicles_liquid-propulsion external
+    class launch-vehicles_solid-propulsion external
+    class launch-vehicles_vehicle-architecture external
     class machine-tools external
     class machine-tools_fasteners external
     class machine-tools_forming external
@@ -479,6 +558,18 @@ graph TD
     class photolithography_fab-processes_pvd external
     class silicon_basic-devices external
     class silicon_mg-si-production external
+    class space-ground-ops_launch-complex external
+    class space-ground-ops_vehicle-assembly external
+    class space-propulsion_electric-advanced external
+    class space-propulsion_electric-ion external
+    class space-propulsion_nuclear-electric external
+    class space-propulsion_nuclear-thermal external
+    class space-propulsion_propellant-storage external
+    class space-resources_lunar-isru external
+    class space-resources_space-recycling external
+    class spacecraft-systems_bus-structure external
+    class spacecraft-systems_comms-payload external
+    class spacecraft-systems_thermal-control external
     class telecom external
     class telecom_electric-telegraph external
     class telecom_radio external
@@ -489,9 +580,16 @@ graph TD
     class textiles_spinning-frame_ring external
     class textiles_spinning-frame_water external
     class transport external
-    class transport_aviation external
+    class transport_diesel-locomotives external
+    class transport_electric-railways external
+    class transport_high-speed-rail external
+    class transport_ice-powertrains external
+    class transport_motor-vehicles external
+    class transport_motorcycles external
     class transport_railways external
+    class transport_road-construction-equipment external
     class transport_telegraph external
+    class transport_tire-manufacturing external
     class vacuum external
     class vacuum_chambers external
     class vacuum_pumps external

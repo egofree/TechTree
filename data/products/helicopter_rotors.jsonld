@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "helicopter_rotors",
+  "@type": "Product",
+  "name": "Helicopter Rotors",
+  "source": "aerospace.rotorcraft.rotor-systems",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "propellant_tanks",
+  "@type": "Product",
+  "name": "Propellant Tanks",
+  "source": "launch-vehicles.vehicle-architecture.structural-design",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

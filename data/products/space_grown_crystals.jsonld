@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "space_grown_crystals",
+  "@type": "Product",
+  "name": "Space Grown Crystals",
+  "source": "space-resources.microgravity-manufacturing.crystal-growth",
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

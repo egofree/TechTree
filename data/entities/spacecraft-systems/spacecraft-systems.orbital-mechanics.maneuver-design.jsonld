@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Maneuver design using Hohmann transfers, bi-elliptic transfers, plane changes, and low-thrust spiral trajectories, applying the Tsiolkovsky rocket equation to compute propellant budgets from delta-v requirements.",
+  "early_win": false,
+  "id": "spacecraft-systems.orbital-mechanics.maneuver-design",
+  "level": "process",
+  "name": "Maneuver Design",
+  "outputs": [
+    "maneuver_plans"
+  ],
+  "parent": "spacecraft-systems.orbital-mechanics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

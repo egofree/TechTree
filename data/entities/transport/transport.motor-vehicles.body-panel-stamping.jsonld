@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Stamping, forming, welding, and painting of vehicle body panels from sheet steel, aluminum, and composite materials. Covers press operation, panel joining (spot, MIG, laser welding), surface preparation, and corrosion-protective coating.",
+  "early_win": false,
+  "id": "transport.motor-vehicles.body-panel-stamping",
+  "level": "process",
+  "name": "Body Panel Stamping & Welding",
+  "outputs": [
+    "vehicle_bodies"
+  ],
+  "parent": "transport.motor-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

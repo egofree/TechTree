@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.mars-isru.atmosphere-collection__space-resources.mars-isru",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-resources.mars-isru.atmosphere-collection",
+  "to": "space-resources.mars-isru"
+}

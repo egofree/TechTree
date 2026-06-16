@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.eclss__ehs.radiation-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.eclss",
+  "to": "ehs.radiation-safety",
+  "label": "Cabin environment monitoring, contaminant exposure limits, and crew health hazard assessment"
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Telemetry processing pipeline: decommutation of CCSDS transfer frames into individual parameters, time-tagging and archiving to long-term storage, real-time limit-checked display to console positions, and payload data processing that separates science and engineering streams for delivery to investigators.",
+  "early_win": false,
+  "id": "space-ground-ops.mission-control.telemetry-processing",
+  "level": "process",
+  "name": "Telemetry Processing",
+  "outputs": [
+    "telemetry_processing"
+  ],
+  "parent": "space-ground-ops.mission-control",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

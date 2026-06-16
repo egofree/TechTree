@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.bus-structure__polymers.composites",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "spacecraft-systems.bus-structure",
+  "to": "polymers.composites"
+}

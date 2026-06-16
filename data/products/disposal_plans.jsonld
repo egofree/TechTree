@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "disposal_plans",
+  "@type": "Product",
+  "name": "Disposal Plans",
+  "source": "spacecraft-systems.debris-management.post-mission-disposal",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

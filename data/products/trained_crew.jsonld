@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "trained_crew",
+  "@type": "Product",
+  "name": "Trained Crew",
+  "source": "human-spaceflight.crew-training",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Reactor-to-electric power conversion for nuclear electric propulsion: a compact fast-spectrum fission reactor (typically uranium nitride fuel, liquid lithium or NaK cooling, 550-1100 K hot-side temperature) drives a Brayton or Stirling cycle to produce 100-1000 kWe of electrical output. The Brayton cycle (closed-loop helium-xenon working fluid) is the baseline for megawatt-class systems; Stirling engines suit lower-power (1-100 kWe) applications. SP-100 (100 kWe, 550 C, UN fuel) and the JIMO concept (100 kWe Brayton) are the design heritage. Distinct from NTP (which uses the reactor as direct propellant heater) and from terrestrial nuclear power (which is not mass-constrained).",
+  "early_win": false,
+  "id": "space-propulsion.nuclear-electric.reactor-power-conversion",
+  "level": "process",
+  "name": "Reactor Power Conversion",
+  "outputs": [
+    "nep_systems"
+  ],
+  "parent": "space-propulsion.nuclear-electric",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

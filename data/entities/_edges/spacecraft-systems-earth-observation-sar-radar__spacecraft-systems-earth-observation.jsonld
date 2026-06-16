@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.earth-observation.sar-radar__spacecraft-systems.earth-observation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.earth-observation.sar-radar",
+  "to": "spacecraft-systems.earth-observation"
+}

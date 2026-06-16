@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Unmanned Aerial Vehicles (UAVs): design, construction, and operation of powered aircraft with no onboard human pilot. Encompasses fixed-wing drones, multirotor quadcopters/hexacopters, and autonomous flight control systems. UAVs are the simplest powered aircraft — no cockpit, no life-support, no pilot weight — trading manned flight complexity for electronics, sensor fusion, and software. Enables aerial photography, survey, agriculture, delivery, and search-and-rescue without risking a pilot.",
+  "early_win": false,
+  "id": "aerospace.uav",
+  "level": "capability",
+  "name": "Unmanned Aerial Vehicles",
+  "outputs": [
+    "unmanned_aerial_vehicles",
+    "flight_controllers",
+    "drone_airframes"
+  ],
+  "parent": "aerospace",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-60+"
+}

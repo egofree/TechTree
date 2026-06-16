@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Lightning protection systems for launch complexes: catenary wire system suspended between 181m fiberglass towers, roll-on/roll-off insulation, down conductors, and ground counterpoise. LC-39 lightning protection rated for 100 kA strikes; 0.5 nautical mile launch commit criterion for thunderstorms.",
+  "early_win": false,
+  "id": "space-ground-ops.launch-complex.lightning-protection",
+  "level": "process",
+  "name": "Lightning Protection Systems",
+  "outputs": [
+    "launch_pads"
+  ],
+  "parent": "space-ground-ops.launch-complex",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

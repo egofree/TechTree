@@ -33,6 +33,7 @@ graph TD
     foundations_sawmilling("Sawmilling & Timber Processing")
     foundations_tools-basic("Stone & Wood Tools")
     gas-handling_piping-systems("Gas Distribution Piping Systems")
+    human-spaceflight_space-stations("Space Stations")
     knowledge_surveying("Surveying & Cartography")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
@@ -40,6 +41,8 @@ graph TD
     metals_iron-steel("Iron & Steel Production")
     metals_metal-recycling("Metal Scrap Recycling")
     precision-motion_vibration-isolation("Vibration Isolation")
+    space-ground-ops_launch-complex("Launch Complex")
+    space-ground-ops_vehicle-assembly("Vehicle Assembly")
     textiles_rope-making("Rope and Cordage")
 
     %% ==================== EDGES ====================
@@ -69,7 +72,10 @@ graph TD
     construction --> metals_metal-recycling
     construction --> metals
     construction --> textiles_rope-making
+    human-spaceflight_space-stations -.-> construction
     precision-motion_vibration-isolation -.-> construction
+    space-ground-ops_launch-complex -.-> construction
+    space-ground-ops_vehicle-assembly -.-> construction
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -108,6 +114,7 @@ graph TD
     class foundations_sawmilling external
     class foundations_tools-basic external
     class gas-handling_piping-systems external
+    class human-spaceflight_space-stations external
     class knowledge_surveying external
     class machine-tools external
     class metals external
@@ -115,5 +122,7 @@ graph TD
     class metals_iron-steel external
     class metals_metal-recycling external
     class precision-motion_vibration-isolation external
+    class space-ground-ops_launch-complex external
+    class space-ground-ops_vehicle-assembly external
     class textiles_rope-making external
     class EdgeLegend,MatNote,ToolNote legend

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "brake_systems",
+  "@type": "Product",
+  "name": "Brake Systems",
+  "source": "transport.motor-vehicles.brake-systems",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

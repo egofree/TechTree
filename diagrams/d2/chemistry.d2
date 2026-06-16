@@ -151,6 +151,15 @@ chemistry_internal: "Chemistry — Internal Structure" {
 chemistry: Chemistry
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_aviation: Aviation {
+  shape: rectangle
+}
+aerospace_jet-propulsion: Jet Propulsion {
+  shape: rectangle
+}
+aerospace_lighter-than-air: Lighter-than-Air {
+  shape: rectangle
+}
 agriculture: Agriculture {
   shape: rectangle
 }
@@ -328,7 +337,19 @@ health_pharmaceutical-production: Pharmaceutical Production {
 health_pharmacology: Pharmacology {
   shape: rectangle
 }
+human-spaceflight_eclss: "Environmental Control & Life Support" {
+  shape: rectangle
+}
 knowledge: "Knowledge Preservation & Education" {
+  shape: rectangle
+}
+launch-vehicles_hybrid-propulsion: Hybrid Propulsion {
+  shape: rectangle
+}
+launch-vehicles_propellant-production: Propellant Production {
+  shape: rectangle
+}
+launch-vehicles_solid-propulsion: Solid Propulsion {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -463,6 +484,15 @@ silicon_purification: Silicon Purification {
 silicon_wafering_epitaxy: Epitaxial Layer Growth {
   shape: rectangle
 }
+space-resources_lunar-isru: Lunar ISRU {
+  shape: rectangle
+}
+space-resources_mars-isru: Mars ISRU {
+  shape: rectangle
+}
+space-resources_space-recycling: "Space Recycling & Closed-Loop Logistics" {
+  shape: rectangle
+}
 textiles: "Textiles, Fiber & Cordage" {
   shape: rectangle
 }
@@ -475,10 +505,13 @@ textiles_finishing: Fabric Finishing {
 transport: "Transportation & Logistics" {
   shape: rectangle
 }
-transport_aviation: Aviation {
+transport_electric-vehicles: Electric Vehicles {
   shape: rectangle
 }
 transport_telegraph: Telegraph Communication {
+  shape: rectangle
+}
+transport_tire-manufacturing: Tire Manufacturing {
   shape: rectangle
 }
 ultra-pure: Ultra-Pure Materials {
@@ -559,6 +592,9 @@ chemistry_solvents -> chemistry_petroleum-alternatives: { class: material-edge }
 chemistry_solvents -> chemistry_solvents: { class: material-edge }
 chemistry_water-electrolysis -> chemistry_e-methanol: { class: material-edge }
 chemistry -> chemistry_acids-bases: { class: material-edge }
+aerospace_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
+aerospace_jet-propulsion -> chemistry_petroleum-alternatives: { class: material-edge }
+aerospace_lighter-than-air -> chemistry: { class: tool-edge }
 agriculture_sem-tech-hydroponics -> chemistry_electrodialysis: { class: tool-edge }
 agriculture_sem-tech-hydroponics -> chemistry_electrolysis_sem-tech: { class: material-edge }
 agriculture_soil-management -> chemistry_petroleum-alternatives_wood-gasification: { class: material-edge }
@@ -672,7 +708,11 @@ health_pharmacology -> chemistry_distillation: { class: tool-edge }
 health -> chemistry_soap: { class: material-edge }
 health -> chemistry_solvents: { class: material-edge }
 health -> chemistry: { class: material-edge }
+human-spaceflight_eclss -> chemistry: { class: tool-edge }
 knowledge -> chemistry_pulp-chemicals: { class: material-edge }
+launch-vehicles_hybrid-propulsion -> chemistry: { class: material-edge }
+launch-vehicles_propellant-production -> chemistry: { class: material-edge }
+launch-vehicles_solid-propulsion -> chemistry: { class: material-edge }
 machine-tools_joining_brazing-soldering -> chemistry: { class: material-edge }
 machine-tools_joining_tig-welding -> chemistry_air-separation: { class: material-edge }
 machine-tools_joining -> chemistry_flux: { class: material-edge }
@@ -720,12 +760,16 @@ silicon_purification -> chemistry_semiconductor-chemicals: { class: material-edg
 silicon_purification -> chemistry: { class: tool-edge }
 silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
 silicon -> chemistry: { class: material-edge }
+space-resources_lunar-isru -> chemistry: { class: tool-edge }
+space-resources_mars-isru -> chemistry: { class: tool-edge }
+space-resources_space-recycling -> chemistry: { class: tool-edge }
 textiles_dyeing -> chemistry: { class: material-edge }
 textiles_finishing -> chemistry_alkalis: { class: tool-edge }
 textiles -> chemistry_bleaching: { class: material-edge }
 textiles -> chemistry_pulp-chemicals: { class: material-edge }
-transport_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
+transport_electric-vehicles -> chemistry: { class: material-edge }
 transport_telegraph -> chemistry_acids: { class: tool-edge }
+transport_tire-manufacturing -> chemistry: { class: tool-edge }
 transport -> chemistry_coatings: { class: material-edge }
 ultra-pure_high-purity-chemicals -> chemistry: { class: tool-edge }
 ultra-pure -> chemistry: { class: tool-edge }
@@ -793,6 +837,9 @@ chemistry_solvay.class: critical
 chemistry_solvents.class: capability
 chemistry_water-electrolysis.class: capability
 chemistry_water-treatment.class: capability
+aerospace_aviation.class: external
+aerospace_jet-propulsion.class: external
+aerospace_lighter-than-air.class: external
 agriculture.class: external
 agriculture_hydroponic-ph-control.class: external
 agriculture_sem-tech-hydroponics.class: external
@@ -852,7 +899,11 @@ health_nutrition.class: external
 health_occupational-health.class: external
 health_pharmaceutical-production.class: external
 health_pharmacology.class: external
+human-spaceflight_eclss.class: external
 knowledge.class: external
+launch-vehicles_hybrid-propulsion.class: external
+launch-vehicles_propellant-production.class: external
+launch-vehicles_solid-propulsion.class: external
 machine-tools.class: external
 machine-tools_hydraulic-systems.class: external
 machine-tools_joining.class: external
@@ -897,12 +948,16 @@ silicon_basic-devices.class: external
 silicon_crystal-growth.class: external
 silicon_purification.class: external
 silicon_wafering_epitaxy.class: external
+space-resources_lunar-isru.class: external
+space-resources_mars-isru.class: external
+space-resources_space-recycling.class: external
 textiles.class: external
 textiles_dyeing.class: external
 textiles_finishing.class: external
 transport.class: external
-transport_aviation.class: external
+transport_electric-vehicles.class: external
 transport_telegraph.class: external
+transport_tire-manufacturing.class: external
 ultra-pure.class: external
 ultra-pure_high-purity-chemicals.class: external
 vlsi-scaling_eda-design.class: external

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_speed_trains",
+  "@type": "Product",
+  "name": "High-Speed Trains",
+  "source": "transport.high-speed-rail",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

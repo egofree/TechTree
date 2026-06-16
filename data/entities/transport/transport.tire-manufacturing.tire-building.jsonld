@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Assembly of the uncured (green) tire on a rotating building drum: inner liner, body plies (calendered cord fabric), beads, sidewall, steel belts, and tread are layered, stitched, and turned up. Radial construction places body cords at 90 degrees to the tire axis and belts at ~20 degrees. The green tire is then transferred to the curing press.",
+  "early_win": false,
+  "id": "transport.tire-manufacturing.tire-building",
+  "level": "process",
+  "name": "Tire Building",
+  "outputs": [
+    "pneumatic_tires"
+  ],
+  "parent": "transport.tire-manufacturing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

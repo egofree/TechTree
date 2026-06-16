@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "electric_locomotives",
+  "@type": "Product",
+  "name": "Electric Locomotives",
+  "source": "transport.electric-railways",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

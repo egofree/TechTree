@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Rendezvous and docking system design: the mechanical interfaces, capture latches, and probe-and-drogue or androgynous peripheral mechanisms that join two spacecraft in orbit. Covers APAS-95 and IDA international docking system standards, Soyuz-style probe-cone soft capture, the impact attenuation and structural hard capture latches, and the sensor and relative navigation gear that closes the final metres of approach.",
+  "early_win": false,
+  "id": "human-spaceflight.crewed-spacecraft.docking-systems",
+  "level": "process",
+  "name": "Docking Systems",
+  "outputs": [
+    "docking_systems",
+    "docking_mechanisms",
+    "capture_latches"
+  ],
+  "parent": "human-spaceflight.crewed-spacecraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

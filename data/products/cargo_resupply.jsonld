@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cargo_resupply",
+  "@type": "Product",
+  "name": "Cargo Resupply",
+  "source": "human-spaceflight.space-stations.logistics-resupply",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

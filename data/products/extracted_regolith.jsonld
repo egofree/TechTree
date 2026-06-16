@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "extracted_regolith",
+  "@type": "Product",
+  "name": "Extracted Regolith",
+  "source": "space-resources",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

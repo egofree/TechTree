@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crew-training__aerospace.aviation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.crew-training",
+  "to": "aerospace.aviation",
+  "label": "flight simulator heritage, crew resource management, and aerospace human factors"
+}

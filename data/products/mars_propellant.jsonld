@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mars_propellant",
+  "@type": "Product",
+  "name": "Mars-Produced CH4/LOX Propellant",
+  "source": "space-resources.mars-isru",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

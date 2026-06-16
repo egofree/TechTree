@@ -18,8 +18,11 @@ graph TD
     computing("Computing & Automation")
     computing_embedded-systems("Embedded Systems")
     electronics("Electronics")
+    human-spaceflight_eva("Extravehicular Activity (EVA)")
+    human-spaceflight_space-stations("Space Stations")
     machine-tools("Machine Tools Bootstrap")
     quality-control("Quality Control & Statistical Process Control")
+    space-resources_asteroid-mining("Asteroid Mining")
     vacuum("Vacuum Technology")
 
     %% ==================== EDGES ====================
@@ -33,6 +36,9 @@ graph TD
     automation -.-> computing_embedded-systems
     automation -.-> computing
     automation -.-> electronics
+    human-spaceflight_eva -.-> automation
+    human-spaceflight_space-stations -.-> automation
+    space-resources_asteroid-mining -.-> automation
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -56,7 +62,10 @@ graph TD
     class computing external
     class computing_embedded-systems external
     class electronics external
+    class human-spaceflight_eva external
+    class human-spaceflight_space-stations external
     class machine-tools external
     class quality-control external
+    class space-resources_asteroid-mining external
     class vacuum external
     class EdgeLegend,MatNote,ToolNote legend

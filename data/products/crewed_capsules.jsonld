@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "crewed_capsules",
+  "@type": "Product",
+  "name": "Crewed Capsules",
+  "source": "human-spaceflight.crewed-spacecraft",
+  "tags": {
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

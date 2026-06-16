@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.supersonic-flight.scramjet-integration__aerospace.supersonic-flight",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.supersonic-flight.scramjet-integration",
+  "to": "aerospace.supersonic-flight"
+}

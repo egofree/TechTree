@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Military satellite capabilities: reconnaissance imaging (optical and radar), early-warning missile detection (SBIRS, DSP heritage), and space surveillance tracking networks. Builds on publicly-documented systems and unclassified specifications. Dual-use spacecraft infrastructure for national security and treaty verification.",
+  "early_win": false,
+  "id": "spacecraft-systems.military-satellites",
+  "level": "capability",
+  "name": "Military Satellites",
+  "outputs": [
+    "reconnaissance_systems"
+  ],
+  "parent": "spacecraft-systems",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "defense"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "glass",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

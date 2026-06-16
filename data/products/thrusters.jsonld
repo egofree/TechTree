@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thrusters",
+  "@type": "Product",
+  "name": "Thrusters",
+  "source": "space-propulsion",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

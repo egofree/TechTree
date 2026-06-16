@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mobility_joints",
+  "@type": "Product",
+  "name": "Mobility Joints",
+  "source": "human-spaceflight.space-suits.pressure-garment",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

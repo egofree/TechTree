@@ -1,0 +1,130 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Space Resources
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph space-resources_internal ["Space Resources — Internal Structure"]
+        direction TB
+        space-resources_asteroid-mining_extraction-methods["Extraction Methods"]
+        space-resources_asteroid-mining["Asteroid Mining"]
+        space-resources_asteroid-mining_prospecting["Asteroid Prospecting"]
+        space-resources_asteroid-mining_water-extraction-asteroid["Asteroid Water Extraction"]
+        space-resources_lunar-isru["Lunar ISRU"]
+        space-resources_lunar-isru_metal-extraction["Metal Extraction"]
+        space-resources_lunar-isru_oxygen-extraction["Oxygen Extraction"]
+        space-resources_lunar-isru_regolith-excavation["Regolith Excavation"]
+        space-resources_lunar-isru_water-ice-mining["Water Ice Mining"]
+        space-resources_mars-isru_atmosphere-collection["Atmosphere Collection"]
+        space-resources_mars-isru["Mars ISRU"]
+        space-resources_mars-isru_propellant-production-mars["Propellant Production (Mars)"]
+        space-resources_mars-isru_sabatier-methanation["Sabatier Methanation"]
+        space-resources_microgravity-manufacturing_additive-manufacturing["Additive Manufacturing"]
+        space-resources_microgravity-manufacturing_crystal-growth["Crystal Growth"]
+        space-resources_microgravity-manufacturing_fiber-pulling["ZBLAN Fiber Pulling"]
+        space-resources_microgravity-manufacturing["Microgravity Manufacturing"]
+        space-resources_space-recycling["Space Recycling & Closed-Loop Logistics"]
+        space-resources_space-recycling_life-support-loop-closure["Life Support Loop Closure"]
+        space-resources_space-recycling_material-reprocessing["Material Reprocessing"]
+        space-resources_space-recycling_propellant-recycling["Propellant Recycling"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    space-resources["Space Resources"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    automation("Automation & Robotics")
+    chemistry("Chemistry")
+    energy_electricity("Electricity Generation & Distribution")
+    foundations("Foundations")
+    gas-handling("Gas Handling")
+    glass("Glass")
+    human-spaceflight_eclss("Environmental Control & Life Support")
+    metals("Metals")
+    mining("Mining Engineering & Extractive Metallurgy")
+    polymers("Polymers & Composites")
+    silicon("Silicon")
+
+    %% ==================== EDGES ====================
+    space-resources_asteroid-mining_extraction-methods -.-> space-resources_asteroid-mining
+    space-resources_asteroid-mining_prospecting -.-> space-resources_asteroid-mining
+    space-resources_asteroid-mining_water-extraction-asteroid -.-> space-resources_asteroid-mining
+    space-resources_lunar-isru_metal-extraction -.-> space-resources_lunar-isru
+    space-resources_lunar-isru_oxygen-extraction -.-> space-resources_lunar-isru
+    space-resources_lunar-isru_regolith-excavation -.-> space-resources_lunar-isru
+    space-resources_lunar-isru_water-ice-mining -.-> space-resources_lunar-isru
+    space-resources_mars-isru_atmosphere-collection -.-> space-resources_mars-isru
+    space-resources_mars-isru_propellant-production-mars -.-> space-resources_mars-isru
+    space-resources_mars-isru_sabatier-methanation -.-> space-resources_mars-isru
+    space-resources_microgravity-manufacturing_additive-manufacturing -.-> space-resources_microgravity-manufacturing
+    space-resources_microgravity-manufacturing_crystal-growth -.-> space-resources_microgravity-manufacturing
+    space-resources_microgravity-manufacturing_fiber-pulling -.-> space-resources_microgravity-manufacturing
+    space-resources_space-recycling_life-support-loop-closure -.-> space-resources_space-recycling
+    space-resources_space-recycling_material-reprocessing -.-> space-resources_space-recycling
+    space-resources_space-recycling_propellant-recycling -.-> space-resources_space-recycling
+    space-resources_asteroid-mining -.-> automation
+    space-resources_asteroid-mining -.-> mining
+    space-resources_lunar-isru -.-> chemistry
+    space-resources_lunar-isru -.-> energy_electricity
+    space-resources_lunar-isru -.-> metals
+    space-resources_lunar-isru -.-> mining
+    space-resources_mars-isru -.-> chemistry
+    space-resources_mars-isru -.-> energy_electricity
+    space-resources_mars-isru -.-> gas-handling
+    space-resources_mars-isru -.-> mining
+    space-resources_microgravity-manufacturing -.-> glass
+    space-resources_microgravity-manufacturing -.-> polymers
+    space-resources_microgravity-manufacturing -.-> silicon
+    space-resources_space-recycling -.-> chemistry
+    space-resources_space-recycling -.-> human-spaceflight_eclss
+    space-resources_space-recycling --> metals
+    space-resources_space-recycling --> polymers
+    space-resources -.-> foundations
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class space-resources domain
+    class space-resources_asteroid-mining_extraction-methods process
+    class space-resources_asteroid-mining capability
+    class space-resources_asteroid-mining_prospecting process
+    class space-resources_asteroid-mining_water-extraction-asteroid process
+    class space-resources_lunar-isru capability
+    class space-resources_lunar-isru_metal-extraction process
+    class space-resources_lunar-isru_oxygen-extraction process
+    class space-resources_lunar-isru_regolith-excavation process
+    class space-resources_lunar-isru_water-ice-mining process
+    class space-resources_mars-isru_atmosphere-collection process
+    class space-resources_mars-isru capability
+    class space-resources_mars-isru_propellant-production-mars process
+    class space-resources_mars-isru_sabatier-methanation process
+    class space-resources_microgravity-manufacturing_additive-manufacturing process
+    class space-resources_microgravity-manufacturing_crystal-growth process
+    class space-resources_microgravity-manufacturing_fiber-pulling process
+    class space-resources_microgravity-manufacturing capability
+    class space-resources_space-recycling capability
+    class space-resources_space-recycling_life-support-loop-closure process
+    class space-resources_space-recycling_material-reprocessing process
+    class space-resources_space-recycling_propellant-recycling process
+    class automation external
+    class chemistry external
+    class energy_electricity external
+    class foundations external
+    class gas-handling external
+    class glass external
+    class human-spaceflight_eclss external
+    class metals external
+    class mining external
+    class polymers external
+    class silicon external
+    class EdgeLegend,MatNote,ToolNote legend

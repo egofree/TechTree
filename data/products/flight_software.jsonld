@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "flight_software",
+  "@type": "Product",
+  "name": "Flight Software",
+  "source": "launch-vehicles.vehicle-architecture.gvnc-integration",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

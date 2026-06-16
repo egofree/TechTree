@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.supersonic-flight.hypersonic-thermal__aerospace.supersonic-flight",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.supersonic-flight.hypersonic-thermal",
+  "to": "aerospace.supersonic-flight"
+}

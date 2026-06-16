@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "suit_bladders",
+  "@type": "Product",
+  "name": "Suit Bladders",
+  "source": "human-spaceflight.space-suits.pressure-garment",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

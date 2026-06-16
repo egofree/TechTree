@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Neutralizer Design - see documentation for details.",
+  "early_win": false,
+  "id": "space-propulsion.electric-ion.neutralizer-design",
+  "level": "process",
+  "name": "Neutralizer Design",
+  "outputs": [
+    "ion_thrusters"
+  ],
+  "parent": "space-propulsion.electric-ion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

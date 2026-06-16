@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Hall-effect thrusters (SPT/TAL): closed-drift electrostatic acceleration of xenon in crossed E×B fields, offering higher thrust density than gridded ion thrusters for orbit-raising and station-keeping.",
+  "early_win": false,
+  "id": "space-propulsion.electric-hall",
+  "level": "capability",
+  "name": "Electric Propulsion — Hall",
+  "outputs": [
+    "hall_thrusters"
+  ],
+  "parent": "space-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

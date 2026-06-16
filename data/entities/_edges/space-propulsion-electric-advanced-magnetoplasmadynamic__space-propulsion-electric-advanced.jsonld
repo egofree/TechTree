@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-advanced.magnetoplasmadynamic__space-propulsion.electric-advanced",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-advanced.magnetoplasmadynamic",
+  "to": "space-propulsion.electric-advanced"
+}

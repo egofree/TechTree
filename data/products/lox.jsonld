@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lox",
+  "@type": "Product",
+  "name": "Liquid Oxygen (LOX)",
+  "source": "launch-vehicles.propellant-production.lox-production",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

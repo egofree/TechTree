@@ -1,0 +1,22 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "water_recovery_systems",
+  "@type": "Product",
+  "name": "Water Recovery Systems",
+  "source": "human-spaceflight.eclss.water-recovery",
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "health"
+    ],
+    "lifecycle": [
+      "closed-loop",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "water",
+      "polymers",
+      "chemicals"
+    ]
+  }
+}

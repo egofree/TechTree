@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "afterburners",
+  "@type": "Product",
+  "name": "Afterburners",
+  "source": "aerospace.jet-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Fabrication of ablative and erosion-resistant nozzles for solid rocket motors. Carbon-carbon composite throats withstand 2,500-3,500 C gas temperatures at the convergent throat; graphite entrance and exit sections carry the expanding gas; and ablative liners (phenolic resin, silica-phenolic, or carbon-phenolic tape wraps) char sacrificially, shedding heat through pyrolysis gas outgassing and material recession. Moveable nozzles add a flex bearing or hydraulic actuation for thrust vector control.",
+  "early_win": false,
+  "id": "launch-vehicles.solid-propulsion.nozzle-ablation",
+  "level": "process",
+  "name": "Nozzle Ablation",
+  "outputs": [
+    "nozzle_assemblies"
+  ],
+  "parent": "launch-vehicles.solid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "ceramics",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

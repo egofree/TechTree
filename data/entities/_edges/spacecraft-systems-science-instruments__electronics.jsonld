@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.science-instruments__electronics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.science-instruments",
+  "to": "electronics",
+  "label": "Signal processing electronics, low-noise amplifiers, ADCs for detector readout"
+}

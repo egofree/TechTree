@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.spacecraft-power__electronics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.spacecraft-power",
+  "to": "electronics",
+  "label": "power conditioning: DC-DC converters, shunt regulators, battery charge controllers, and switched power distribution electronics"
+}

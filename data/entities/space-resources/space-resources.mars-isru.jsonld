@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "In-situ resource utilization on Mars: atmospheric CO2 collection (95.3% CO2) and solid-oxide electrolysis (MOXIE, 10 g/hr O2 at 800C), Sabatier methanation of CO2 + 4H2 to CH4 + 2H2O over Ru/alumina catalyst at 300-400C with a 5:1 H2:CO2 ratio, and integrated ISPP propellant production targeting 7 metric tons CH4 + 5.5 tons O2 per Sol from atmospheric CO2 and mined water ice.",
+  "early_win": false,
+  "id": "space-resources.mars-isru",
+  "level": "capability",
+  "name": "Mars ISRU",
+  "outputs": [
+    "mars_propellant"
+  ],
+  "parent": "space-resources",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

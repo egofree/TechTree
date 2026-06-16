@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Internal combustion engine powertrains: transmissions (manual and automatic), drivetrain layouts (FWD/RWD/AWD), differentials, and fuel/exhaust systems including emissions aftertreatment. Converts engine torque into controlled vehicle motion and manages combustion fuel delivery plus exhaust cleanup.",
+  "early_win": false,
+  "id": "transport.ice-powertrains",
+  "level": "capability",
+  "name": "ICE Powertrains",
+  "outputs": [
+    "transmissions",
+    "drivetrains",
+    "fuel_systems",
+    "exhaust_systems",
+    "differentials"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport",
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

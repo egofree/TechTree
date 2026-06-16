@@ -16,6 +16,7 @@ graph TD
     telecom["Telecommunications"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_light-aircraft("Light Aircraft")
     energy_electricity("Electricity Generation & Distribution")
     energy_power-distribution("Transformer & Power Distribution")
     foundations("Foundations")
@@ -23,6 +24,12 @@ graph TD
     knowledge_writing("Writing & Record-Keeping")
     metals("Metals")
     polymers_rubber_gutta-percha("Gutta-Percha Processing")
+    space-ground-ops_ground-stations("Ground Stations")
+    space-ground-ops_mission-control("Mission Control")
+    space-ground-ops_range-safety("Range Safety")
+    spacecraft-systems_comms-payload("Communications Payload")
+    spacecraft-systems_navigation-payload("Navigation & PNT Payloads")
+    spacecraft-systems_ttac("TT&C Systems")
     transport_shipping("Water Transport")
     transport_telegraph("Telegraph Communication")
 
@@ -31,11 +38,18 @@ graph TD
     telecom_radio -.-> telecom_electric-telegraph
     telecom_submarine-cables -.-> telecom_electric-telegraph
     telecom_telephone -.-> telecom_electric-telegraph
+    space-ground-ops_ground-stations -.-> telecom_radio
+    space-ground-ops_mission-control -.-> telecom_radio
+    space-ground-ops_range-safety -.-> telecom_radio
+    spacecraft-systems_comms-payload -.-> telecom_radio
+    spacecraft-systems_navigation-payload -.-> telecom_radio
+    spacecraft-systems_ttac -.-> telecom_radio
     telecom_electric-telegraph -.-> energy_electricity
     telecom_electric-telegraph --> metals
     telecom_electric-telegraph -.-> transport_telegraph
     telecom_pre-electric -.-> foundations
     telecom_pre-electric -.-> knowledge_writing
+    telecom_radio -.-> aerospace_light-aircraft
     telecom_radio -.-> energy_electricity
     telecom_radio --> glass
     telecom_radio --> metals
@@ -72,6 +86,7 @@ graph TD
     class telecom_radio capability
     class telecom_submarine-cables capability
     class telecom_telephone capability
+    class aerospace_light-aircraft external
     class energy_electricity external
     class energy_power-distribution external
     class foundations external
@@ -79,6 +94,12 @@ graph TD
     class knowledge_writing external
     class metals external
     class polymers_rubber_gutta-percha external
+    class space-ground-ops_ground-stations external
+    class space-ground-ops_mission-control external
+    class space-ground-ops_range-safety external
+    class spacecraft-systems_comms-payload external
+    class spacecraft-systems_navigation-payload external
+    class spacecraft-systems_ttac external
     class transport_shipping external
     class transport_telegraph external
     class EdgeLegend,MatNote,ToolNote legend

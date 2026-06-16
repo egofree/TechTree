@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.military-satellites__optics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.military-satellites",
+  "to": "optics",
+  "label": "Reconnaissance telescope mirrors, adaptive optics, and long-focal-length imaging systems"
+}

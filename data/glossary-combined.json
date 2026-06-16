@@ -3851,7 +3851,7 @@
       "slug": "airspeed-indicatorglossaryairspeed-indicatormd",
       "definition": "(pitot-static): - A pitot tube (open-ended tube facing forward into the airstream) measures total pressure (static + dynamic). A static port (flush opening on the fuselage side) measures ambient static pressure. The instrument subtracts static from total pressure to obtain dynamic pressure: q = ½ρv². The dial is calibrated in km/h (or knots) assuming standard sea-level air density (1.225 kg/m³). - At altitude, air density is lower than at sea level, so the indicated airspeed reads lower than ...",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -3860,7 +3860,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -4113,7 +4113,7 @@
       "slug": "altimeterglossaryaltimetermd",
       "definition": "(barometric): - An aneroid barometer calibrated in altitude. A sealed metal capsule (thin-walled brass or beryllium copper, partially evacuated) expands as atmospheric pressure decreases with altitude. A mechanical linkage converts capsule expansion to needle rotation on a dial marked 0-3000 m (or higher). Sensitivity: 10 m per hPa pressure change near sea level. - Setting: the altimeter reads correctly only if set to the local barometric pressure at the departure airfield before flight (QFE ...",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -4122,7 +4122,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -12641,7 +12641,7 @@
       "slug": "engine-designglossaryengine-designmd",
       "definition": "(single-cylinder or twin-cylinder, air-cooled): - **Configuration**: Horizontally opposed twin (boxer) — compact, good balance, air cooling. Displacement 500-1200 cc. Power target 20-65 HP at 2000-3500 RPM. Weight target <30 kg (power-to-weight >0.5 HP/kg). - **Bore and stroke**: Bore 80-100 mm, stroke 70-90 mm. Undersquare (stroke < bore) favors higher RPM. Compression ratio 6:1 to 8:1 (limited by fuel octane — see fuel section).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -12650,7 +12650,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -12882,7 +12882,7 @@
       "definition": "(alternative): From fermentation (Petrochemicals). Octane ~100 (excellent anti-knock). Energy density ~60% of gasoline by volume → larger fuel tank needed. Hygroscopic (absorbs water). Attacks some rubber and metals. Carburetor jets must be enlarged ~30% (ethanol requires richer mixture — 9:1 stoichiometric vs. 14.7:1 for gasoline).",
       "source_articles": [
         "energy.fuels",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "energy",
@@ -12893,7 +12893,7 @@
       "see_also": [],
       "node_refs": [
         "energy.fuels",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -15142,7 +15142,7 @@
       "definition": "(ideal): From petroleum distillation (Petrochemicals), 30-200°C fraction. Octane rating important — higher octane resists detonation at higher compression ratios. Early gasoline: 40-60 octane (limit compression to ~5:1). Tetraethyl lead (Pb(C₂H₅)₄) additive raises octane (lead deposits lubricate valves — but lead is toxic. Use only if necessary for engine reliability).",
       "source_articles": [
         "energy.fuels",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "energy",
@@ -15153,7 +15153,7 @@
       "see_also": [],
       "node_refs": [
         "energy.fuels",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -19583,7 +19583,7 @@
       "slug": "magnetoglossarymagnetomd",
       "definition": "(self-contained, no battery needed — critical for aircraft reliability): - Rotating magnet (mounted on engine camshaft or accessory drive) induces current in primary coil. Interrupter (points — mechanical switch, opened by cam on magneto shaft) breaks primary current → rapid magnetic field collapse → high voltage (10,000-30,000V) induced in secondary coil → current jumps spark plug gap → spark ignites mixture. - Spark plug: Steel shell with ceramic insulator (alumina). Center electrode (nicke...",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -19592,7 +19592,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -38678,7 +38678,7 @@
       "slug": "ailerons",
       "definition": "On outer portion of trailing edge, one on each wing. Move differentially (one up, other down) → roll the aircraft. Construction: wood or aluminum frame, fabric-covered. Hinged to wing rear spar. Cable-and-pulley linkage to control stick.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -38687,7 +38687,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -39502,7 +39502,7 @@
       "slug": "airfoil",
       "definition": "Clark Y or similar flat-bottom airfoil (easy to build — flat lower surface simplifies rib construction). Thickness 12-15% of chord. CLmax ~1.5 with plain flaps.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -39511,7 +39511,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -41040,7 +41040,7 @@
       "slug": "alternative-dope",
       "definition": "Cellulose acetate butyrate (CAB) dope — less flammable than nitrocellulose. Requires cellulose acetate (from cellulose + acetic anhydride + acetic acid — see Petrochemicals, Polymers).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -41049,7 +41049,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -48486,7 +48486,7 @@
       "slug": "attach-fabric",
       "definition": "Lay fabric over airframe. Tack edges with copper rivets or fabric nails (small nails with broad heads). Pull fabric taut (hand-tension — no wrinkles). Overlap seams by 3-5 cm. Stitch through fabric and rib caps with waxed linen thread (rib-stitching — prevents fabric from billowing in flight). Stitch spacing: 25-50 mm.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -48495,7 +48495,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -49013,7 +49013,7 @@
       "slug": "avgas-8087",
       "definition": "The standard low-lead aviation gasoline for low-compression engines. Octane rating 80 (lean mixture) / 87 (rich mixture). Leaded with tetraethyl lead (TEL) at 0.5 mL/L to boost octane and lubricate valves. Color: red dye. Suitable for engines with compression ratios up to 7:1. Phased out in many countries but still the simplest aviation fuel to refine from petroleum.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -49022,7 +49022,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -49098,7 +49098,7 @@
       "slug": "aviation-kerosene-jet-a-jet-a-1",
       "definition": "The standard turbine fuel. Flash point 38°C minimum (safe handling). Freeze point: -40°C for Jet A, -47°C for Jet A-1 (the lower freeze point enables long-range high-altitude flight where fuel temperatures drop below -30°C). Energy density: 43.15 MJ/kg (higher than gasoline at 43.0 MJ/kg by mass, though lower by volume due to higher density). Specific gravity: 0.775-0.840 at 15°C. Distillation range: 150-300°C boiling fraction from petroleum crude.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -49107,7 +49107,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -55598,7 +55598,7 @@
       "slug": "bird-strike",
       "definition": "Birds can shatter propellers, puncture fabric covering, or jam control surfaces. A 1 kg bird at 90 km/h relative speed delivers 312 J of kinetic energy, enough to dent sheet metal or tear fabric. Avoid flying at dawn and dusk when birds are most active near rivers and coastlines. If a bird strikes the propeller, land and inspect before continuing flight (hairline cracks in wooden propellers propagate to catastrophic failure under centrifugal load).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -55607,7 +55607,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -56221,7 +56221,7 @@
       "slug": "blade-design",
       "definition": "Airfoil cross-section (Clark Y or similar). Blade angle (pitch) decreases from hub to tip — outer portions travel faster and need lower angle of attack to maintain optimal lift (thrust). Width 100-150 mm at widest point, tapering toward tip.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -56230,7 +56230,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -56302,7 +56302,7 @@
       "definition": "2. **RPM**: 2000-3000 (direct drive from engine, or reduction gear for larger prop at lower RPM). See: [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) | [Structural Plants](../plants/structural-plants.md) | [Aviation](../transport/aviation.md)",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -56313,7 +56313,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -58844,7 +58844,7 @@
       "definition": "Bore 80-100 mm, stroke 70-90 mm. Undersquare (stroke < bore) favors higher RPM. Compression ratio 6:1 to 8:1 (limited by fuel octane — see fuel section). See: [Aviation](../transport/aviation.md)",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -58855,7 +58855,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -65903,7 +65903,7 @@
       "slug": "camshaft",
       "definition": "Cast iron or forged steel. Cam lobes hardened (induction hardening). Machine cam profile on lathe with template follower (or grind on cam grinder). Profile designed for specified valve timing: open intake at 5-25° before top dead center (BTDC), close 40-60° after bottom dead center (ABDC). Open exhaust 40-60° BBDC, close 5-25° ATDC. Duration ~240-280° of crank rotation.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -65912,7 +65912,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -67985,7 +67985,7 @@
       "slug": "carburetor",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -67994,7 +67994,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -68005,7 +68005,7 @@
       "slug": "carburetor-icing",
       "definition": "Moist air passing through the venturi cools by expansion (adiabatic cooling). At temperatures between -5°C and +25°C with high humidity, ice can form in the carburetor throat, gradually choking the airflow until the engine stops. Indicated by a gradual RPM decrease. Preventive action: apply carburetor heat (duct warm air from around the exhaust manifold into the carburetor intake) before ice forms in suspected conditions. Carb heat causes a temporary RPM drop (less dense warm air) but prevent...",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -68014,7 +68014,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -75086,7 +75086,7 @@
         "photolithography.fab-processes",
         "polymers.rubber",
         "polymers.rubber.natural",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "animals",
@@ -75112,7 +75112,7 @@
         "photolithography.fab-processes",
         "polymers.rubber",
         "polymers.rubber.natural",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -83426,7 +83426,7 @@
       "slug": "combustion-chamber",
       "definition": "Hemispherical or wedge shape. Spark plug positioned near center for even flame propagation. Valve arrangement: overhead valves (OHV) — intake and exhaust valves in cylinder head, operated by pushrods from camshaft in crankcase.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -83435,7 +83435,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -88076,7 +88076,7 @@
         "automation.wafer-handling",
         "computing.mechanical",
         "cryogenics.refrigeration",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "automation",
@@ -88093,7 +88093,7 @@
         "automation.wafer-handling",
         "computing.mechanical",
         "cryogenics.refrigeration",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -88586,7 +88586,7 @@
       "definition": "Forge from steel. I-beam cross-section (stiff, light). Big end (crankpin end): split, with bearing cap bolted on. Bearing: replaceable babbitt-lined bearing shells (babbitt = Sn + Cu + Sb alloy — soft, embeds particles, conformable) or bronze bushings. Small end (piston pin end): bronze bushing. Piston pin: hardened steel, 15-20 mm diameter, floating (rotates in both piston and rod).",
       "source_articles": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "energy",
@@ -88597,7 +88597,7 @@
       "see_also": [],
       "node_refs": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -89020,7 +89020,7 @@
         "textiles.rope-making",
         "textiles.spinning",
         "textiles.weaving",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.shipping",
         "transport.telegraph",
         "vacuum.chambers",
@@ -89109,7 +89109,7 @@
         "textiles.rope-making",
         "textiles.spinning",
         "textiles.weaving",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.shipping",
         "transport.telegraph",
         "vacuum.chambers",
@@ -90494,7 +90494,7 @@
       "slug": "control-forces",
       "definition": "20-50 N stick force for normal maneuvers. Cable-and-pulley system: 2-3 mm steel cables run in nylon or brass sheaves (low friction pulleys). Cables tensioned to 100-200 N (prevents slack and sloppy response).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -90503,7 +90503,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -90614,7 +90614,7 @@
       "slug": "control-surfaces",
       "definition": "Ailerons: on the outboard trailing edge of each wing, span ~2-4 m, chord ~200-300 mm. Maximum deflection: ±20-30°. Control force: 20-80 N at the control wheel for a 60° bank (Cessna 172 — harmonized controls should require ~25 N for a standard-rate turn). Elevator: on the horizontal tail, span ~3 m, chord ~250-400 mm. Deflection: ±25-30°. Full-aft elevator at Vs generates CLmax for the tail, enabling the wing to reach its maximum lift coefficient before the tail stalls. Rudder: on the vertica...",
       "source_articles": [
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.light-aircraft"
       ],
       "domains": [
@@ -90624,7 +90624,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.light-aircraft"
       ],
       "needs_image": false,
@@ -94308,7 +94308,7 @@
       "slug": "covering-process",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -94317,7 +94317,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -95040,7 +95040,7 @@
       "definition": "Forge from medium-carbon steel (0.4-0.5% C). Machine main bearing journals and crankpins to ±0.01 mm tolerance, surface finish <0.2 μm Ra. Induction harden journal surfaces (heat surface layer to 850°C with induction coil, quench → hard surface, tough core). Balance dynamically (add or remove metal from counterweights until no vibration at operating RPM).",
       "source_articles": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "energy",
@@ -95051,7 +95051,7 @@
       "see_also": [],
       "node_refs": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -95062,7 +95062,7 @@
       "slug": "crankshaft-and-connecting-rod",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -95071,7 +95071,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -97041,7 +97041,7 @@
       "definition": "70-120 km/h. **Range**: 100-300 km. See: [Aviation](../transport/aviation.md)",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -97052,7 +97052,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -100054,7 +100054,7 @@
       "slug": "cylinder-and-head",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -100063,7 +100063,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -100074,7 +100074,7 @@
       "slug": "cylinder-barrel",
       "definition": "Cast iron liner (3-5 mm wall) pressed into aluminum finned barrel (aluminum fins increase cooling surface area 10-20x). Alternately, machine fins directly into cast iron cylinder. Inside diameter bored and honed to ±0.01 mm tolerance. Surface finish 0.2-0.4 μm Ra (honed crosshatch pattern retains oil film).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -100083,7 +100083,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -100114,7 +100114,7 @@
       "slug": "cylinder-bore-clearance",
       "definition": "0.05-0.10 mm (aluminum piston in iron liner). Too tight → seizure when hot. Too loose → piston slap (noise, blow-by gas, oil consumption).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -100123,7 +100123,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -100241,7 +100241,7 @@
       "definition": "Aluminum alloy casting (Al + 8-12% Si — aluminum-silicon alloy, good fluidity for casting, good thermal conductivity for cooling). Cast in sand mold. Machine combustion chamber, valve seats, spark plug hole, and bolt holes. Large cooling fins cast integral with head. Bolt to cylinder barrel via studs (steel studs threaded into barrel, nuts on top of head — allows thermal expansion).",
       "source_articles": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "energy",
@@ -100252,7 +100252,7 @@
       "see_also": [],
       "node_refs": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -102000,7 +102000,7 @@
       "slug": "dead-reckoning-for-aircraft",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -102009,7 +102009,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -105281,7 +105281,7 @@
         "gas-handling.vacuum",
         "health.sanitation",
         "silicon.crystal-growth",
-        "transport.aviation",
+        "aerospace.aviation",
         "vacuum.chambers"
       ],
       "domains": [
@@ -105316,7 +105316,7 @@
         "gas-handling.vacuum",
         "health.sanitation",
         "silicon.crystal-growth",
-        "transport.aviation",
+        "aerospace.aviation",
         "vacuum.chambers"
       ],
       "needs_image": false,
@@ -107087,7 +107087,7 @@
       "definition": "6-12 m (larger than ADU because vapor specific volume expands at low pressure — lower density requires larger cross-section) - **Internals**: Structured packing (very low pressure drop — critical for vacuum operation) rather than trays. HETP 0.15-0.25 m. Total packing height 6-12 m. - **Height**: 20-35 m",
       "source_articles": [
         "petroleum.refining",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "petroleum",
@@ -107098,7 +107098,7 @@
       "see_also": [],
       "node_refs": [
         "petroleum.refining",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -112114,7 +112114,7 @@
       "slug": "dope-application",
       "definition": "Apply nitrocellulose dope (see below) in multiple thin coats. First coat (clear dope): saturates fabric, bonds to structure. Subsequent coats: build film thickness, fill weave. Aluminum-pigmented dope (silver): UV barrier — prevents sunlight from degrading fabric. Final coat: colored dope for visibility and identification. Total: 6-10 coats, ~100 g/m² dope applied.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -112123,7 +112123,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -112134,7 +112134,7 @@
       "slug": "dope-fumes",
       "definition": "Highly flammable. Apply outdoors or in well-ventilated hangar. No smoking, no sparks. Ground aircraft during doping (static electricity ignites fumes).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -112143,7 +112143,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -121927,7 +121927,7 @@
       "slug": "elevator",
       "definition": "On horizontal tail, trailing edge. Move together (both up or both down) → pitch nose up or down. Construction similar to ailerons. Pushrod or cable linkage to control stick.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -121936,7 +121936,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -122488,7 +122488,7 @@
       "definition": "150-250 kg. **Gross weight**: 250-400 kg. **Stall speed**: 35-50 km/h. **Cruise speed**: 70-120 km/h. **Range**: 100-300 km. See: [Aviation](../transport/aviation.md)",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -122499,7 +122499,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -124014,7 +124014,7 @@
       "slug": "engine-failure-in-flight",
       "definition": "Plan glide approaches (identify emergency landing spots). Aircraft must be able to glide without engine (glide ratio 8:1 typical for ultralight — at 50 m altitude, can glide 400 m to landing).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -124023,7 +124023,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -124034,7 +124034,7 @@
       "slug": "engine-reliability",
       "definition": "Air-cooled piston engines require frequent maintenance (every 25-50 hours). Magneto ignition provides redundancy but carburetor icing remains a hazard.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -124043,7 +124043,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -124054,7 +124054,7 @@
       "slug": "engine-test-stand",
       "definition": "Bolt engine to heavy wooden or steel test stand. Run at varying throttle for hours. Monitor temperature (cylinder head <250°C for air-cooled), oil pressure, fuel consumption, spark plug condition. Fix all issues before installing on aircraft.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -124063,7 +124063,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -130458,7 +130458,7 @@
       "slug": "fabric",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -130467,7 +130467,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -130498,7 +130498,7 @@
       "slug": "fabric-shrinkage-and-tensioning",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -130507,7 +130507,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -135429,7 +135429,7 @@
         "",
         "metals.copper-bronze",
         "plants.structural-plants",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -135444,7 +135444,7 @@
         "",
         "metals.copper-bronze",
         "plants.structural-plants",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -135690,7 +135690,7 @@
       "source_articles": [
         "telecom.electric-telegraph",
         "telecom.telephone",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "telecom",
@@ -135702,7 +135702,7 @@
       "node_refs": [
         "telecom.electric-telegraph",
         "telecom.telephone",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -136735,7 +136735,7 @@
       "slug": "first-flight",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -136744,7 +136744,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -138558,7 +138558,7 @@
       "slug": "flight-plan",
       "definition": "Take off, climb to 30-50 m altitude, fly one circuit of the field, land. Total flight time: 1-5 minutes. If anything feels wrong → land immediately.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -138567,7 +138567,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -144288,7 +144288,7 @@
         "metals.casting",
         "metals.iron-steel.blast-furnace",
         "telecom.pre-electric",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.railways"
       ],
       "domains": [
@@ -144308,7 +144308,7 @@
         "metals.casting",
         "metals.iron-steel.blast-furnace",
         "telecom.pre-electric",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.railways"
       ],
       "needs_image": false,
@@ -144414,7 +144414,7 @@
       "source_articles": [
         "",
         "ceramics.kilns",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "ceramics",
@@ -144427,7 +144427,7 @@
       "node_refs": [
         "",
         "ceramics.kilns",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -144538,7 +144538,7 @@
       "slug": "fuel-exhaustion",
       "definition": "The most preventable cause of forced landings. Calculate fuel required for each leg plus 30-minute reserve. Visually verify fuel quantity before flight (dip the tank with a calibrated stick or sight gauge). Do not rely on memory of the last refueling. A 40 HP engine at cruise consumes 8-12 kg/hour. A 20 kg fuel tank gives 1.5-2.5 hours endurance.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -144547,7 +144547,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -144903,7 +144903,7 @@
       "slug": "fuel-supply",
       "definition": "Aviation requires high-octane gasoline or ethanol. Fuel quality directly affects engine reliability and safety.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -144912,7 +144912,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -146176,7 +146176,7 @@
       "slug": "fuselage",
       "definition": "Steel tube (seamless mild steel or 4130 chromoly, 15-25 mm diameter × 0.9-1.5 mm wall) truss framework. Cut tubes to length, fit, weld joints (oxy-acetylene or oxy-propane brazing/welding). Triangulated structure — every bay is a triangle for rigidity. Engine mount: heavier steel tubes (25-35 mm) at front, bolted to engine crankcase via rubber vibration isolators.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -146185,7 +146185,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -153912,7 +153912,7 @@
       "definition": "250-400 kg. **Stall speed**: 35-50 km/h. **Cruise speed**: 70-120 km/h. **Range**: 100-300 km. See: [Aviation](../transport/aviation.md)",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -153923,7 +153923,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -154014,7 +154014,7 @@
       "slug": "ground-resonance",
       "definition": "Run engine at full power, aircraft held by ground crew. Check for resonance vibrations in structure. If resonant frequency of structure matches engine RPM → catastrophic vibration → stiffen structure or add damping.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -154023,7 +154023,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -154074,7 +154074,7 @@
       "slug": "ground-testing-first",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -154083,7 +154083,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -166936,7 +166936,7 @@
       "definition": "Battery-powered ignition coil steps 6-12V to 10,000-40,000V. Distributor routes high voltage to spark plugs in firing order. Spark timing: 5-40° before TDC (advances with engine speed). Later: electronic ignition replaces points and distributor.",
       "source_articles": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "energy",
@@ -166947,7 +166947,7 @@
       "see_also": [],
       "node_refs": [
         "energy.engine",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -180080,7 +180080,7 @@
       "slug": "landing-gear",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -180089,7 +180089,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -184641,7 +184641,7 @@
       "definition": "L = ½ρv²SCL, where ρ = air density (1.225 kg/m³ at sea level), v = airspeed, S = wing area, CL = lift coefficient (0.5-1.5 depending on angle of attack and airfoil). At 80 km/h (22.2 m/s), 15 m² wing, CL = 0.8: L = ½ × 1.225 × 22.2² × 15 × 0.8 = ~3620 N (~370 kg force). Sufficient to lift ultralight aircraft.",
       "source_articles": [
         "animals.draft-power",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "animals",
@@ -184652,7 +184652,7 @@
       "see_also": [],
       "node_refs": [
         "animals.draft-power",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -189413,7 +189413,7 @@
         "machine-tools.bearings-abrasives",
         "machine-tools.edm-cnc",
         "machine-tools.machining",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "energy",
@@ -189429,7 +189429,7 @@
         "machine-tools.bearings-abrasives",
         "machine-tools.edm-cnc",
         "machine-tools.machining",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -190528,7 +190528,7 @@
       "definition": "Direct-reading magnetic compass (liquid-filled, 100 cSt silicone oil dampens oscillation). Errors: magnetic variation (difference between magnetic north and true north, varies 0-25° by location, marked on aviation charts), magnetic dip (in northern/southern latitudes, compass needle dips toward the magnetic pole — causes acceleration and turning errors: on east/west headings, the compass leads the turn in the northern hemisphere). Compass deviation card: calibrated by swinging the compass on ...",
       "source_articles": [
         "marine.navigation",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.light-aircraft",
         "transport.shipping"
       ],
@@ -190541,7 +190541,7 @@
       "see_also": [],
       "node_refs": [
         "marine.navigation",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.light-aircraft",
         "transport.shipping"
       ],
@@ -191223,7 +191223,7 @@
       "slug": "main-gear",
       "definition": "Steel tube struts with bungee cord or rubber spring shock absorption (bungee cord: multiple wraps of rubber rope absorbing vertical impact). Axle: steel tube, 20-25 mm diameter. Wheels: 350-500 mm diameter, spoked or solid disc. Tires: pneumatic, 2-4 bar pressure, 150-250 mm wide. Brake: drum brake on main wheels (mechanical — cable operated, differential braking for steering on tailwheel type).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -191232,7 +191232,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -192546,7 +192546,7 @@
         "knowledge.printing",
         "knowledge.writing",
         "mining.extraction.black-powder",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "chemistry",
@@ -192567,7 +192567,7 @@
         "knowledge.printing",
         "knowledge.writing",
         "mining.extraction.black-powder",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -192642,7 +192642,7 @@
       "slug": "manufacturing-precision",
       "definition": "Cylinder bores ±0.01 mm, crankshaft journals ±0.01 mm, valve seats gas-tight. Requires functioning machine tool capability.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -192651,7 +192651,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -201300,7 +201300,7 @@
       "slug": "midair-collision",
       "definition": "See and avoid other aircraft. Scan the sky in 10° sectors, pausing at each sector for 1-2 seconds to detect traffic. Blind spots below the nose and behind the tail. Fly standard traffic patterns (left-hand circuits at 300-400 m altitude, downwind leg parallel to runway) at designated airfields to maintain predictable separation.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -201309,7 +201309,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -210821,7 +210821,7 @@
       "slug": "nitrocellulose-dope",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -210830,7 +210830,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -227789,7 +227789,7 @@
       "slug": "pilot-training",
       "definition": "In a bootstrapping scenario, pilot training is a significant challenge. The Wright brothers taught themselves over years of glider experiments.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -227798,7 +227798,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -228468,7 +228468,7 @@
       "slug": "piston",
       "definition": "Cast iron or aluminum alloy. Aluminum lighter (reciprocating weight matters at high RPM) but expands more (require larger clearance: 0.05-0.10 mm at skirt vs. 0.02-0.05 mm for cast iron). Machine ring grooves (2-3 compression rings + 1 oil control ring). Crown shape matches combustion chamber.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -228477,7 +228477,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -228488,7 +228488,7 @@
       "slug": "piston-and-rings",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -228497,7 +228497,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -228528,7 +228528,7 @@
       "slug": "piston-rings",
       "definition": "Cast iron split rings (expand against cylinder wall). Compression rings (top 1-2): rectangular or barrel-faced cross-section, 2-3 mm thick, gap 0.3-0.5 mm when installed. Seal combustion pressure. Oil control ring (bottom): slotted, scrapes excess oil off cylinder wall, vents oil back to crankcase through holes in piston.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -228537,7 +228537,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -228771,7 +228771,7 @@
       "definition": "800-1200 mm (theoretical forward travel per revolution). **Blades**: 2. **RPM**: 2000-3000 (direct drive from engine, or reduction gear for larger prop at lower RPM).",
       "source_articles": [
         "plants.structural-plants",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "plants",
@@ -228782,7 +228782,7 @@
       "see_also": [],
       "node_refs": [
         "plants.structural-plants",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -232695,7 +232695,7 @@
       "slug": "post-flight-inspection",
       "definition": "Check every bolt, wire, weld, and fabric attachment. Look for cracks, loose fittings, elongated bolt holes, fretting marks. Fix everything before next flight. Progressive envelope expansion: longer flights, higher altitude, steeper turns, with careful inspection between each expansion.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -232704,7 +232704,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -238949,7 +238949,7 @@
         "silicon.purification",
         "telecom.electric-telegraph",
         "telecom.telephone",
-        "transport.aviation",
+        "aerospace.aviation",
         "ultra-pure.high-purity-chemicals",
         "vacuum.measurement",
         "vlsi-scaling.vacuum-systems"
@@ -239027,7 +239027,7 @@
         "silicon.purification",
         "telecom.electric-telegraph",
         "telecom.telephone",
-        "transport.aviation",
+        "aerospace.aviation",
         "ultra-pure.high-purity-chemicals",
         "vacuum.measurement",
         "vlsi-scaling.vacuum-systems"
@@ -242341,7 +242341,7 @@
         "polymers.rubber.synthetic",
         "telecom.submarine-cables",
         "textiles.fibers",
-        "transport.aviation",
+        "aerospace.aviation",
         "vacuum.chambers"
       ],
       "domains": [
@@ -242393,7 +242393,7 @@
         "polymers.rubber.synthetic",
         "telecom.submarine-cables",
         "textiles.fibers",
-        "transport.aviation",
+        "aerospace.aviation",
         "vacuum.chambers"
       ],
       "needs_image": false,
@@ -242686,7 +242686,7 @@
       "definition": "Apply multiple coats of linseed oil or varnish (waterproof, prevent moisture absorption → weight change and imbalance). Leading edge protection: brass or copper tipping strip (screws + epoxy) — protects against stone/erosion damage.",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport",
@@ -242697,7 +242697,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -245025,7 +245025,7 @@
       "slug": "pushrods-and-rockers",
       "definition": "Steel pushrods (6-8 mm diameter, tubular for lightness). Rocker arms: stamped or forged steel, ratio 1.2-1.5:1 (multiply cam lift for valve lift). Valve clearance (lash): 0.15-0.30 mm cold (allows for thermal expansion — too tight → valve doesn't close, too loose → noisy, reduced lift).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -245034,7 +245034,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -247793,7 +247793,7 @@
         "marine.infrastructure",
         "precision-motion.precision-encoders",
         "telecom.pre-electric",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.telegraph",
         "vacuum.measurement"
       ],
@@ -247816,7 +247816,7 @@
         "marine.infrastructure",
         "precision-motion.precision-encoders",
         "telecom.pre-electric",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.telegraph",
         "vacuum.measurement"
       ],
@@ -247889,7 +247889,7 @@
       "slug": "range-and-payload",
       "definition": "100-300 km range with 250-400 kg gross weight. Not competitive with ground transport for heavy cargo.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -247898,7 +247898,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -261033,7 +261033,7 @@
       "source_articles": [
         "",
         "machine-tools.machining",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -261046,7 +261046,7 @@
       "node_refs": [
         "",
         "machine-tools.machining",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -261443,7 +261443,7 @@
       "slug": "rudder",
       "definition": "On vertical tail, trailing edge. Moves left/right → yaw the aircraft. Cable linkage to foot pedals.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -261452,7 +261452,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -273879,7 +273879,7 @@
       "slug": "shrinking",
       "definition": "Dampen cotton fabric with water → tightens as it dries (natural cotton shrinks ~5%). For Dacron: heat with iron (150-200°C) → fabric shrinks ~10% → drum-tight. Creates smooth aerodynamic surface.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -273888,7 +273888,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -284572,7 +284572,7 @@
       "slug": "spatial-disorientation",
       "definition": "Without visual reference to the horizon (clouds, fog, darkness), pilots lose sense of up and within 60 seconds. Trust instruments, not sensations. If caught in cloud, maintain wings-level attitude by reference to the turn needle (or compass rate of change) and descend gently straight ahead. Do not turn without visual reference.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -284581,7 +284581,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -288782,7 +288782,7 @@
       "definition": "35-50 km/h. **Cruise speed**: 70-120 km/h. **Range**: 100-300 km. See: [Aviation](../transport/aviation.md)",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -288793,7 +288793,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -296284,7 +296284,7 @@
         "agriculture.irrigation",
         "ceramics.kilns",
         "energy.wind",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "agriculture",
@@ -296299,7 +296299,7 @@
         "agriculture.irrigation",
         "ceramics.kilns",
         "energy.wind",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -296311,7 +296311,7 @@
       "definition": "Semaphore arm mechanisms cycle hundreds of times per day. Pivot bearings wear, cables fray, and wooden arms crack under wind loading. Inspect and replace pivot bearings quarterly. Replace frayed cables immediately — a snapped cable under tension whips with lethal force.",
       "source_articles": [
         "telecom.pre-electric",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "telecom",
@@ -296322,7 +296322,7 @@
       "see_also": [],
       "node_refs": [
         "telecom.pre-electric",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -296480,7 +296480,7 @@
         "metals.alloys",
         "photolithography.cleanrooms",
         "silicon.basic-devices",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "animals",
@@ -296503,7 +296503,7 @@
         "metals.alloys",
         "photolithography.cleanrooms",
         "silicon.basic-devices",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -296557,7 +296557,7 @@
       "slug": "struts-and-bracing",
       "definition": "Steel tube lift struts (20-25 mm diameter) from fuselage to wing spar — carry wing loads to fuselage. Flying wires (steel piano wire, 3-5 mm diameter, in tension) brace wings against positive and negative g-loads. Landing wires brace against negative loads. Turnbuckles on all wires for tension adjustment and rigging (set wing incidence and dihedral angle).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -296566,7 +296566,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -302906,7 +302906,7 @@
       "slug": "taxi-tests",
       "definition": "With aircraft fully assembled, taxi at increasing speeds on smooth runway. Check control surface response, engine performance under load (prop provides thrust and load — engine must maintain RPM), braking effectiveness, structural integrity (no excessive vibration, no loose wires or fittings).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -302915,7 +302915,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -308589,7 +308589,7 @@
       "slug": "thrust",
       "definition": "T = (η × P) / v, where η = propeller efficiency (0.6-0.8 for well-designed prop), P = engine power (W), v = forward speed (m/s). At 40 HP (30 kW) and 25 m/s (90 km/h): T = 0.7 × 30000 / 25 = 840 N (~86 kgf thrust). This accelerates aircraft to cruise speed and maintains flight.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -308598,7 +308598,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -309639,7 +309639,7 @@
         "computing.electromechanical",
         "energy.fuels.charcoal",
         "polymers.rubber.natural",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "animals",
@@ -309657,7 +309657,7 @@
         "computing.electromechanical",
         "energy.fuels.charcoal",
         "polymers.rubber.natural",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -315610,7 +315610,7 @@
       "slug": "tricycle-or-tailwheel",
       "definition": "Tailwheel simpler, lighter, more demanding to ground-handle (tends to ground-loop — uncontrolled swerve on landing). Tricycle: steerable nosewheel, more stable, easier to land. Choose based on pilot experience.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -315619,7 +315619,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -316674,7 +316674,7 @@
       "slug": "tuning",
       "definition": "Adjust main jet size for correct air-fuel ratio (stoichiometric: 14.7:1 for gasoline, slightly rich 12-13:1 for maximum power). Read spark plug color: white/gray = too lean (hot, engine damage), dark brown = correct, black/sooty = too rich (wasteful, fouls plugs). Adjust idle mixture screw for smooth idle.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -316683,7 +316683,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -322279,7 +322279,7 @@
       "slug": "valve-springs",
       "definition": "Steel wire coil springs (spring steel: 0.6-0.7% C, heat-treated). Keep valves closed and following cam profile at maximum RPM. Spring force 100-300 N at installed height. Prevent valve float (spring cannot follow cam at excessive RPM → valves don't close → loss of compression → engine damage).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -322288,7 +322288,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -322299,7 +322299,7 @@
       "slug": "valve-train",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -322308,7 +322308,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -322345,7 +322345,7 @@
         "energy.engine",
         "energy.steam-power",
         "gas-handling.basic",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "chemistry",
@@ -322363,7 +322363,7 @@
         "energy.engine",
         "energy.steam-power",
         "gas-handling.basic",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -329817,7 +329817,7 @@
       "definition": "Winter sieges extremely difficult (frozen ground prevents mining, supply lines disrupted, troop morale collapses). Campaign season: April-October in temperate climates.",
       "source_articles": [
         "defense.siege-warfare",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.shipping"
       ],
       "domains": [
@@ -329829,7 +329829,7 @@
       "see_also": [],
       "node_refs": [
         "defense.siege-warfare",
-        "transport.aviation",
+        "aerospace.aviation",
         "transport.shipping"
       ],
       "needs_image": false,
@@ -329841,7 +329841,7 @@
       "slug": "weather-minimums",
       "definition": "Fly only in visual meteorological conditions (VMC): visibility ≥1.5 km, clear of clouds, in sight of the ground. Cloud base above 300 m for safe terrain clearance. Do not launch into fog, low overcast, heavy rain, or thunderstorms. Ultralight aircraft have no de-icing capability and minimal structural margin for turbulence. A cumulonimbus (thunderstorm) can produce updrafts and downdrafts exceeding 20 m/s, far beyond the structural capability of a light airframe.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -329850,7 +329850,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -332852,7 +332852,7 @@
       "slug": "wind-triangle",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -332861,7 +332861,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -333098,7 +333098,7 @@
       "slug": "wing",
       "definition": "High-wing or low-wing configuration. High-wing: better ground clearance, better downward visibility, simpler strut bracing. Low-wing: shorter landing gear, better crash protection, easier fueling. Choose based on construction preference.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -333107,7 +333107,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -333118,7 +333118,7 @@
       "slug": "wing-area",
       "definition": "12-20 m². **Wing loading**: 20-40 kg/m² (lower = lower stall speed, gentler handling). **Empty weight**: 150-250 kg. **Gross weight**: 250-400 kg. **Stall speed**: 35-50 km/h. **Cruise speed**: 70-120 km/h. **Range**: 100-300 km.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -333127,7 +333127,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -333159,7 +333159,7 @@
       "definition": "20-40 kg/m² (lower = lower stall speed, gentler handling). **Empty weight**: 150-250 kg. **Gross weight**: 250-400 kg. **Stall speed**: 35-50 km/h. **Cruise speed**: 70-120 km/h. **Range**: 100-300 km. See: [Aviation](../transport/aviation.md)",
       "source_articles": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "glossary",
@@ -333170,7 +333170,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -333201,7 +333201,7 @@
       "slug": "wing-ribs",
       "definition": "Thin plywood (2-3 mm) or built-up wood (capstrips + gussets). Airfoil shape cut into rib. Spars pass through notches in ribs. Ribs spaced 200-400 mm along span. Maintain airfoil shape between spars. Attach fabric covering to rib flanges.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -333210,7 +333210,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -333221,7 +333221,7 @@
       "slug": "wing-spars",
       "definition": "Wood (Sitka spruce or Douglas fir — high strength-to-weight ratio, straight grain). Main spar: 50-80 mm × 25-40 mm rectangular cross-section (dimensions sized by bending load — must support aircraft weight + 3-4g maneuver loads). Rear spar: smaller (40-60 mm × 20-30 mm). Spars run full wingspan. Plywood shear web between spars (transfers loads between top and bottom spar caps → box spar construction, stronger than solid spar for same weight).",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -333230,7 +333230,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -333241,7 +333241,7 @@
       "slug": "wingspan",
       "definition": "8-12 m. **Wing area**: 12-20 m². **Wing loading**: 20-40 kg/m² (lower = lower stall speed, gentler handling). **Empty weight**: 150-250 kg. **Gross weight**: 250-400 kg. **Stall speed**: 35-50 km/h. **Cruise speed**: 70-120 km/h. **Range**: 100-300 km.",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -333250,7 +333250,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -334113,7 +334113,7 @@
       "definition": "Hardwood (birch, maple, or oak). Laminate 5-7 layers of wood (alternating grain direction — prevents warping, increases strength) with waterproof glue (casein glue or, later, epoxy). Rough-carve on bandsaw. Finish-carve with drawknife, spokeshave, and rasp. Balance statically (hang on horizontal axle — heavy side drops → remove material until balanced) and dynamically (spin and check for vibration at operating RPM).",
       "source_articles": [
         "`chemistry.pulp-chemicals`",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "chemistry",
@@ -334124,7 +334124,7 @@
       "see_also": [],
       "node_refs": [
         "`chemistry.pulp-chemicals`",
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -334441,7 +334441,7 @@
       "slug": "wood-spar-design-considerations",
       "definition": "",
       "source_articles": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "domains": [
         "transport"
@@ -334450,7 +334450,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "transport.aviation"
+        "aerospace.aviation"
       ],
       "needs_image": false,
       "needs_diagram": false,

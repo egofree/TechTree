@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Reprocessing of metal and polymer scrap generated in orbit into usable feedstock. Uses solar concentrator melting, waste compaction, and additive-manufacturing filament extrusion to reclaim structural alloys and polymers from decommissioned hardware, packaging, and cargo containers; unrecoverable mass is compacted into expendable cargo vehicles for destructive reentry burn-up.",
+  "early_win": false,
+  "id": "space-resources.space-recycling.material-reprocessing",
+  "level": "process",
+  "name": "Material Reprocessing",
+  "outputs": [
+    "recycled_materials"
+  ],
+  "parent": "space-resources.space-recycling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80-200+"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "crew_medical",
+  "@type": "Product",
+  "name": "Crew Medical Systems",
+  "source": "human-spaceflight.space-medicine",
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "health"
+    ],
+    "material": [
+      "chemicals",
+      "biomass"
+    ]
+  }
+}

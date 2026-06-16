@@ -53,6 +53,13 @@ graph TD
     photolithography_fab-processes_cvd("Chemical Vapor Deposition")
     photolithography_fab-processes_ion-implantation("Ion Implantation")
     photolithography_fab-processes_plasma-etching("Plasma Etching (RIE & DRIE)")
+    space-propulsion_nuclear-electric("Nuclear Electric Propulsion")
+    space-resources_microgravity-manufacturing("Microgravity Manufacturing")
+    spacecraft-systems_earth-observation("Earth Observation Payloads")
+    spacecraft-systems_military-satellites("Military Satellites")
+    spacecraft-systems_radiation-hardening("Radiation Hardening")
+    spacecraft-systems_science-instruments("Science Instruments")
+    spacecraft-systems_spacecraft-power("Spacecraft Power Systems")
     ultra-pure("Ultra-Pure Materials")
     vacuum("Vacuum Technology")
     vacuum_pumps("Vacuum Pumps")
@@ -106,6 +113,13 @@ graph TD
     silicon --> photolithography_fab-processes_ion-implantation
     silicon --> photolithography_fab-processes_plasma-etching
     silicon --> ultra-pure
+    space-propulsion_nuclear-electric --> silicon
+    space-resources_microgravity-manufacturing -.-> silicon
+    spacecraft-systems_earth-observation --> silicon
+    spacecraft-systems_military-satellites --> silicon
+    spacecraft-systems_radiation-hardening --> silicon
+    spacecraft-systems_science-instruments --> silicon
+    spacecraft-systems_spacecraft-power --> silicon
     vlsi-scaling_eda-design -.-> silicon_basic-devices
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -165,6 +179,13 @@ graph TD
     class photolithography_fab-processes_cvd external
     class photolithography_fab-processes_ion-implantation external
     class photolithography_fab-processes_plasma-etching external
+    class space-propulsion_nuclear-electric external
+    class space-resources_microgravity-manufacturing external
+    class spacecraft-systems_earth-observation external
+    class spacecraft-systems_military-satellites external
+    class spacecraft-systems_radiation-hardening external
+    class spacecraft-systems_science-instruments external
+    class spacecraft-systems_spacecraft-power external
     class ultra-pure external
     class vacuum external
     class vacuum_pumps external

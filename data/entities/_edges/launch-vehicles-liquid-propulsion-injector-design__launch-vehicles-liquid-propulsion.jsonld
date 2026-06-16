@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.liquid-propulsion.injector-design__launch-vehicles.liquid-propulsion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.liquid-propulsion.injector-design",
+  "to": "launch-vehicles.liquid-propulsion"
+}

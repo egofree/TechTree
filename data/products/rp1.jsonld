@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rp1",
+  "@type": "Product",
+  "name": "RP-1 Refined Kerosene",
+  "source": "launch-vehicles.propellant-production.rp1-refining",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

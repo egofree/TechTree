@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "differentials",
+  "@type": "Product",
+  "name": "Differentials",
+  "source": "transport.ice-powertrains",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

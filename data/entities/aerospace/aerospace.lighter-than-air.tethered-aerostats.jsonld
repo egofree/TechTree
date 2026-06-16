@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Stationary buoyant platforms anchored to the ground by a tether cable. Helium-filled aerostats loft antennas, sensors, cameras, or meteorological instruments to altitudes of hundreds to thousands of meters for extended durations. No propulsion or navigation system is required, making them the simplest gas-lift platform to deploy. Common uses include communications relay, border and maritime surveillance, and atmospheric research.",
+  "early_win": false,
+  "id": "aerospace.lighter-than-air.tethered-aerostats",
+  "level": "process",
+  "name": "Tethered Aerostats",
+  "outputs": [
+    "aerostats"
+  ],
+  "parent": "aerospace.lighter-than-air",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 12-20"
+}

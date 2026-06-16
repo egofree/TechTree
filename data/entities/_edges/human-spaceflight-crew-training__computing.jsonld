@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crew-training__computing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.crew-training",
+  "to": "computing",
+  "label": "simulation software, VR rendering, and data processing for training systems"
+}

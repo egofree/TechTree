@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Vertical assembly building design: 160m tall, 218m x 158m footprint, four high bays, 10,000-ton bridge cranes, 12.5m x 12.5m door aperture. VAB-class facility with environmental controls (Class 100K clean at integration cell), platform-tier access, and stacking cell for multi-stage vehicle integration.",
+  "early_win": false,
+  "id": "space-ground-ops.vehicle-assembly.vab-facilities",
+  "level": "process",
+  "name": "Vertical Assembly Building",
+  "outputs": [
+    "integrated_vehicles"
+  ],
+  "parent": "space-ground-ops.vehicle-assembly",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

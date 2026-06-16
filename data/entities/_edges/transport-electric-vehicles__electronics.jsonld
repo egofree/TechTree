@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.electric-vehicles__electronics",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "transport.electric-vehicles",
+  "to": "electronics"
+}

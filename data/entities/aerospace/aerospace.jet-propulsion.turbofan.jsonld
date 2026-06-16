@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Jet engine where a front fan accelerates a bypass air stream around the core, producing additional thrust at high propulsive efficiency. High-bypass ratios (5:1 to 12:1) dominate commercial aviation for fuel economy and low noise; low-bypass ratios (0.3:1 to 1:1) serve military fighters requiring high specific thrust.",
+  "early_win": false,
+  "id": "aerospace.jet-propulsion.turbofan",
+  "level": "process",
+  "name": "Turbofan Engines",
+  "outputs": [
+    "turbofan_engines"
+  ],
+  "parent": "aerospace.jet-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-55+"
+}

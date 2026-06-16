@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "escape_towers",
+  "@type": "Product",
+  "name": "Escape Towers",
+  "source": "human-spaceflight.crewed-spacecraft.launch-abort-systems",
+  "tags": {
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

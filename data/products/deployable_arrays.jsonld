@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "deployable_arrays",
+  "@type": "Product",
+  "name": "Deployable Arrays",
+  "source": "spacecraft-systems.bus-structure.deployable-structures",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

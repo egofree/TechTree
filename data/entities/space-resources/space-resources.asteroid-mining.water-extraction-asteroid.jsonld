@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Water harvesting from hydrated minerals in carbonaceous chondrites (CI/CM class, 5-20% structural water) by stepwise heating to 150-800 C to drive off adsorbed, interlayer, and structurally bound H2O.",
+  "early_win": false,
+  "id": "space-resources.asteroid-mining.water-extraction-asteroid",
+  "level": "process",
+  "name": "Asteroid Water Extraction",
+  "outputs": [
+    "asteroid_water"
+  ],
+  "parent": "space-resources.asteroid-mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

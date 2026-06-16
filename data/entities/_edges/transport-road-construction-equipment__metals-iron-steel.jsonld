@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.road-construction-equipment__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "transport.road-construction-equipment",
+  "to": "metals.iron-steel"
+}

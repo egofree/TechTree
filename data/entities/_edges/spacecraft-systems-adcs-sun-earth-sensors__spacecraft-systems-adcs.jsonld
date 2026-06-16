@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.adcs.sun-earth-sensors__spacecraft-systems.adcs",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.adcs.sun-earth-sensors",
+  "to": "spacecraft-systems.adcs"
+}

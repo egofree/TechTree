@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "In-space propulsion systems for orbital maneuvers, station-keeping, and interplanetary transit.",
+  "early_win": false,
+  "id": "space-propulsion",
+  "level": "domain",
+  "name": "Space Propulsion",
+  "outputs": [
+    "ion_thrusters",
+    "hall_thrusters",
+    "advanced_thrusters",
+    "ntp_engines",
+    "nep_systems",
+    "propellant_depot",
+    "orbital_cryogenic_storage"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

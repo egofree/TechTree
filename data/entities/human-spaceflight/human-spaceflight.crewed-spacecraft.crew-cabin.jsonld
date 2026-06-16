@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Pressurised crew cabin design: the habitable pressure vessel, atmosphere system, and crew accommodation layout that sustain astronauts in flight. Covers aluminium-lithium and composite pressure shells, double-walled meteoroid shielding, the 101 kPa / 21% O2 atmosphere loop with CO2 scrubbing and humidity control, seating and restraint for launch and landing loads, and the windows, hatches, and avionics integration.",
+  "early_win": false,
+  "id": "human-spaceflight.crewed-spacecraft.crew-cabin",
+  "level": "process",
+  "name": "Crew Cabin Design",
+  "outputs": [
+    "crew_cabins",
+    "pressure_vessels",
+    "cabin_atmosphere_systems"
+  ],
+  "parent": "human-spaceflight.crewed-spacecraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

@@ -44,6 +44,7 @@ Several capabilities in other domains are also critical because their absence bl
 
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
+| [Aerospace](aerospace/) | 3 | | jet engines, supersonic aircraft, ramjet engines |
 | [Agriculture](agriculture/) | 10 | Yes | mechanized farming, soil science, hydroponics, greenhouses |
 | [Animals](animals/) | 26 | | draft power, wool, leather, dairy, eggs, meat, hunting |
 | [Automation & Robotics](automation/) | 4 | | SECS/GEM protocols, wafer robots, FOUP transport, process control |
@@ -64,7 +65,9 @@ Several capabilities in other domains are also critical because their absence bl
 | [Gas Handling](gas-handling/) | 5 | | vacuum pumps, gas compression, purification |
 | [Glass](glass/) | 7 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
 | [Health](health/) | 11 | | clean water, sanitation, pharmaceuticals |
+| [Human Spaceflight](human-spaceflight/) | 8 | | ECLSS, space suits, crewed spacecraft, space stations, EVA, space medicine, radiation protection, crew training |
 | [Knowledge](knowledge/) | 10 | Yes | writing, printing, education, libraries |
+| [Launch Vehicles](launch-vehicles/) | 6 | | solid/hybrid/liquid propulsion, propellant production, vehicle architecture, EDL |
 | [Mathematics & Formal Sciences](mathematics/) | 3 | | arithmetic, calculus, Boolean algebra, information theory, computation theory |
 | [Machine Tools](machine-tools/) | 25 | Yes | lathe, mill, grinder, bearings |
 | [Marine & Naval](marine/) | 4 | | shipbuilding, navigation, propulsion, maritime infrastructure, submarine cables |
@@ -80,9 +83,13 @@ Several capabilities in other domains are also critical because their absence bl
 | [Quality Control](quality-control/) | 3 | | statistical process control, inspection & sampling, defect analysis & yield modeling |
 | [Silicon](silicon/) | 8 | | MG-Si, wafers, solar cells, transistors |
 | [Software Bootstrapping](software-bootstrapping/) | 6 | | assemblers, compilers, operating systems, development tools, self-hosting |
+| [Space Ground Operations](space-ground-ops/) | 5 | | launch complexes, vehicle assembly, mission control, ground stations, range safety |
+| [Space Propulsion](space-propulsion/) | 6 | | ion/Hall/advanced electric, nuclear thermal/electric, propellant storage |
+| [Space Resources](space-resources/) | 5 | | lunar/Mars ISRU, asteroid mining, microgravity manufacturing, space recycling |
+| [Spacecraft Systems](spacecraft-systems/) | 15 | | bus structure, thermal, power, ADCS, TT&C, OBDH, rad-hardening, comms/EO/nav/science/military payloads, orbital mechanics, debris, qualification |
 | [Telecommunications](telecom/) | 5 | | pre-electric signaling, telegraph networks, telephone, submarine cables, radio |
 | [Textiles](textiles/) | 11 | Yes | cordage, cloth, rope, drive belts |
-| [Transport](transport/) | 5 | | roads, railways, aviation, logistics |
+| [Transport](transport/) | 4 | | roads, railways, logistics |
 | [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
 | [Vacuum Technology](vacuum/) | 6 | | vacuum pumps, chambers, measurement, leak detection |
 | [Water Infrastructure](water/) | 5 | | water treatment, desalination, distribution, sewage |
@@ -111,7 +118,7 @@ These domains and capabilities can begin early, independent of the main critical
 Structured data files backing this tree, all in JSON-LD format:
 
 - [data/entities/](../data/entities/) — per-entity JSON-LD files organized by domain (`data/entities/{domain}/` for capabilities and processes)
-- [data/entities/_edges/](../data/entities/_edges/) — dependency edges as individual `{from}__{to}.jsonld` files (1,194 edges)
+- [data/entities/_edges/](../data/entities/_edges/) — dependency edges as individual `{from}__{to}.jsonld` files (1,558 edges)
 - [data/context.jsonld](../data/context.jsonld) — shared JSON-LD `@context` with all term → IRI mappings
 - [data/schema/](../data/schema/) — JSON Schema files (entity, domain, capability, process, product, dependency)
 - [data/glossary.json](../data/glossary.json) — 11,966 glossary terms with relevance ratings and cross-references

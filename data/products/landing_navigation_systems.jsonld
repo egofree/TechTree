@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "landing_navigation_systems",
+  "@type": "Product",
+  "name": "Landing Navigation Systems",
+  "source": "launch-vehicles.edl.precision-landing",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.space-medicine.decompression-illness",
+  "@type": "Process",
+  "critical": false,
+  "description": "Decompression sickness (DCS) prevention and treatment for EVA and cabin depress contingencies: prebreath protocols using 100% oxygen at 10.2 psi for 240 minutes with exercise, in-suit light exercise protocol at 4.3 psi, hyperbaric chamber treatment tables (USN Table 6 and 6A), and ultrasound monitoring for venous gas emboli.",
+  "early_win": false,
+  "id": "human-spaceflight.space-medicine.decompression-illness",
+  "level": "process",
+  "name": "Decompression Illness",
+  "outputs": [
+    "crew_medical"
+  ],
+  "parent": "human-spaceflight.space-medicine",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "scooter_frames",
+  "@type": "Product",
+  "name": "Scooter Frames",
+  "source": "transport.motorcycles",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

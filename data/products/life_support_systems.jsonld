@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "life_support_systems",
+  "@type": "Product",
+  "name": "Life Support Systems",
+  "source": "human-spaceflight",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

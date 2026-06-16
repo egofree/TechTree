@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hypersonic_vehicles",
+  "@type": "Product",
+  "name": "Hypersonic Vehicles",
+  "source": "aerospace.supersonic-flight",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "ceramics"
+    ]
+  }
+}

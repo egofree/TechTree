@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rotorcraft",
+  "@type": "Product",
+  "name": "Rotorcraft",
+  "source": "aerospace.rotorcraft",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

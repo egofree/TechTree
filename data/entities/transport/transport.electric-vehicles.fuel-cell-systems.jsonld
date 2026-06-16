@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Hydrogen fuel cell vehicle systems: PEM fuel cell stack with bipolar plates and membrane electrode assemblies, high-pressure hydrogen storage (350-700 bar composite tanks), air supply compressor, humidifier, and balance of plant for thermal and water management.",
+  "early_win": false,
+  "id": "transport.electric-vehicles.fuel-cell-systems",
+  "level": "process",
+  "name": "Fuel Cell Systems",
+  "outputs": [
+    "ev_powertrains"
+  ],
+  "parent": "transport.electric-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 45-60+"
+}

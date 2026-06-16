@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "range_services",
+  "@type": "Product",
+  "name": "Range Safety Services",
+  "source": "space-ground-ops.range-safety",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight",
+      "defense"
+    ]
+  }
+}

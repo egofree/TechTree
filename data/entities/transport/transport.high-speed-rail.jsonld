@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Wheel-on-rail and magnetic-levitation passenger rail operating at 200-350+ km/h, integrating aerodynamic trainsets, precision-aligned track geometry, high-power electric traction, and dedicated signaling into a single speed-optimized system.",
+  "early_win": false,
+  "id": "transport.high-speed-rail",
+  "level": "capability",
+  "name": "High-Speed Rail",
+  "outputs": [
+    "high_speed_trains",
+    "aerodynamic_train_sets"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport",
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-60+"
+}

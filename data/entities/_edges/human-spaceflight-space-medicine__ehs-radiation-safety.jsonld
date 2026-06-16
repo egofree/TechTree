@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.space-medicine__ehs.radiation-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.space-medicine",
+  "to": "ehs.radiation-safety",
+  "label": "radiation exposure limits and dosimetry protocols for crew health"
+}

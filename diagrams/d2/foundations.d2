@@ -97,6 +97,9 @@ foundations_internal: "Foundations — Internal Structure" {
 foundations: Foundations
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace: Aerospace {
+  shape: rectangle
+}
 agriculture_soil-management: "Soil Management & Composting" {
   shape: rectangle
 }
@@ -178,10 +181,16 @@ food-processing_oil-processing: "Oil & Fat Processing" {
 health: "Public Health, Sanitation & Medicine" {
   shape: rectangle
 }
+human-spaceflight: Human Spaceflight {
+  shape: rectangle
+}
 knowledge: "Knowledge Preservation & Education" {
   shape: rectangle
 }
 knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+launch-vehicles: Launch Vehicles {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -223,6 +232,18 @@ polymers: "Polymers & Composites" {
 polymers_rubber_natural: "Natural Rubber & Vulcanization" {
   shape: rectangle
 }
+space-ground-ops: Space Ground Operations {
+  shape: rectangle
+}
+space-propulsion: Space Propulsion {
+  shape: rectangle
+}
+space-resources: Space Resources {
+  shape: rectangle
+}
+spacecraft-systems: Spacecraft Systems {
+  shape: rectangle
+}
 telecom_pre-electric: Pre-Electric Communication {
   shape: rectangle
 }
@@ -242,6 +263,7 @@ water_procurement: Water Procurement {
 # ==================== EDGES ====================
 foundations_carpentry -> foundations: { class: tool-edge }
 foundations_food-agriculture -> foundations_tools-basic: { class: tool-edge }
+aerospace -> foundations: { class: tool-edge }
 agriculture_soil-management_vermiculture -> foundations_food-agriculture: { class: tool-edge }
 animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
 animals_beekeeping -> foundations_fire: { class: tool-edge }
@@ -275,9 +297,11 @@ foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
 foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
 health -> foundations: { class: tool-edge }
+human-spaceflight -> foundations: { class: tool-edge }
 knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
 knowledge_writing -> foundations_tools-basic: { class: tool-edge }
 knowledge -> foundations: { class: tool-edge }
+launch-vehicles -> foundations: { class: tool-edge }
 machine-tools_forming -> foundations_fire: { class: tool-edge }
 machine-tools -> foundations_carpentry: { class: material-edge }
 marine -> foundations: { class: tool-edge }
@@ -290,6 +314,10 @@ mining -> foundations: { class: tool-edge }
 plants -> foundations_fire: { class: tool-edge }
 polymers_rubber_natural -> foundations_fire: { class: tool-edge }
 polymers -> foundations: { class: tool-edge }
+space-ground-ops -> foundations: { class: tool-edge }
+space-propulsion -> foundations: { class: tool-edge }
+space-resources -> foundations: { class: tool-edge }
+spacecraft-systems -> foundations: { class: tool-edge }
 telecom_pre-electric -> foundations: { class: tool-edge }
 textiles_fibers -> foundations_tools-basic: { class: tool-edge }
 textiles -> foundations: { class: tool-edge }
@@ -303,6 +331,7 @@ foundations_fire.class: capability
 foundations_food-agriculture.class: capability
 foundations_sawmilling.class: capability
 foundations_tools-basic.class: capability
+aerospace.class: external
 agriculture_soil-management.class: external
 agriculture_soil-management_vermiculture.class: external
 animals.class: external
@@ -330,8 +359,10 @@ energy_fuels_charcoal.class: external
 food-processing.class: external
 food-processing_oil-processing.class: external
 health.class: external
+human-spaceflight.class: external
 knowledge.class: external
 knowledge_writing.class: external
+launch-vehicles.class: external
 machine-tools.class: external
 machine-tools_forming.class: external
 marine.class: external
@@ -345,6 +376,10 @@ plants.class: external
 plants_edible-plants.class: external
 polymers.class: external
 polymers_rubber_natural.class: external
+space-ground-ops.class: external
+space-propulsion.class: external
+space-resources.class: external
+spacecraft-systems.class: external
 telecom_pre-electric.class: external
 textiles.class: external
 textiles_fibers.class: external

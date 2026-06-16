@@ -97,6 +97,9 @@ telecom_internal: "Telecommunications — Internal Structure" {
 telecom: Telecommunications
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_light-aircraft: Light Aircraft {
+  shape: rectangle
+}
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
@@ -118,6 +121,24 @@ metals: Metals {
 polymers_rubber_gutta-percha: Gutta-Percha Processing {
   shape: rectangle
 }
+space-ground-ops_ground-stations: Ground Stations {
+  shape: rectangle
+}
+space-ground-ops_mission-control: Mission Control {
+  shape: rectangle
+}
+space-ground-ops_range-safety: Range Safety {
+  shape: rectangle
+}
+spacecraft-systems_comms-payload: Communications Payload {
+  shape: rectangle
+}
+spacecraft-systems_navigation-payload: "Navigation & PNT Payloads" {
+  shape: rectangle
+}
+spacecraft-systems_ttac: "TT&C Systems" {
+  shape: rectangle
+}
 transport_shipping: Water Transport {
   shape: rectangle
 }
@@ -130,11 +151,18 @@ telecom_electric-telegraph -> telecom_pre-electric: { class: tool-edge }
 telecom_radio -> telecom_electric-telegraph: { class: tool-edge }
 telecom_submarine-cables -> telecom_electric-telegraph: { class: tool-edge }
 telecom_telephone -> telecom_electric-telegraph: { class: tool-edge }
+space-ground-ops_ground-stations -> telecom_radio: { class: tool-edge }
+space-ground-ops_mission-control -> telecom_radio: { class: tool-edge }
+space-ground-ops_range-safety -> telecom_radio: { class: tool-edge }
+spacecraft-systems_comms-payload -> telecom_radio: { class: tool-edge }
+spacecraft-systems_navigation-payload -> telecom_radio: { class: tool-edge }
+spacecraft-systems_ttac -> telecom_radio: { class: tool-edge }
 telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
 telecom_electric-telegraph -> metals: { class: material-edge }
 telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
 telecom_pre-electric -> foundations: { class: tool-edge }
 telecom_pre-electric -> knowledge_writing: { class: tool-edge }
+telecom_radio -> aerospace_light-aircraft: { class: tool-edge }
 telecom_radio -> energy_electricity: { class: tool-edge }
 telecom_radio -> glass: { class: material-edge }
 telecom_radio -> metals: { class: material-edge }
@@ -158,6 +186,7 @@ telecom_pre-electric.class: capability
 telecom_radio.class: capability
 telecom_submarine-cables.class: capability
 telecom_telephone.class: capability
+aerospace_light-aircraft.class: external
 energy_electricity.class: external
 energy_power-distribution.class: external
 foundations.class: external
@@ -165,6 +194,12 @@ glass.class: external
 knowledge_writing.class: external
 metals.class: external
 polymers_rubber_gutta-percha.class: external
+space-ground-ops_ground-stations.class: external
+space-ground-ops_mission-control.class: external
+space-ground-ops_range-safety.class: external
+spacecraft-systems_comms-payload.class: external
+spacecraft-systems_navigation-payload.class: external
+spacecraft-systems_ttac.class: external
 transport_shipping.class: external
 transport_telegraph.class: external
 

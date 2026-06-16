@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.space-medicine",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Space medicine capabilities for crew health maintenance in microgravity: crew selection and medical screening, physiological countermeasures against bone and muscle loss, microgravity physiology monitoring including SANS and fluid shifts, and decompression sickness prevention and treatment protocols.",
+  "early_win": false,
+  "id": "human-spaceflight.space-medicine",
+  "level": "capability",
+  "name": "Space Medicine",
+  "outputs": [
+    "crew_medical"
+  ],
+  "parent": "human-spaceflight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

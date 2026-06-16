@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "booster_stages",
+  "@type": "Product",
+  "name": "Booster Stages",
+  "source": "launch-vehicles.solid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers",
+      "chemicals"
+    ]
+  }
+}

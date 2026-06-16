@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Motor vehicle chassis, body, suspension, steering, and brake systems. Covers the structural and control architecture of road vehicles from motor carriages to automobiles, trucks, and buses, excluding engine and powertrain details.",
+  "early_win": false,
+  "id": "transport.motor-vehicles",
+  "level": "capability",
+  "name": "Motor Vehicle Fundamentals",
+  "outputs": [
+    "vehicle_chassis",
+    "vehicle_bodies",
+    "suspension_systems",
+    "steering_systems",
+    "brake_systems",
+    "wheel_assemblies"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

@@ -3,7 +3,7 @@
   "@id": "transport",
   "@type": "Product",
   "name": "Transport",
-  "source": "animals.equines",
+  "source": "transport",
   "tags": {
     "capability": [
       "transport"

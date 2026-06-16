@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.lighter-than-air.tethered-aerostats__aerospace.lighter-than-air",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.lighter-than-air.tethered-aerostats",
+  "to": "aerospace.lighter-than-air"
+}

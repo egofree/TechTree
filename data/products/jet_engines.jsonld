@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "jet_engines",
+  "@type": "Product",
+  "name": "Jet Engines",
+  "source": "aerospace.jet-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

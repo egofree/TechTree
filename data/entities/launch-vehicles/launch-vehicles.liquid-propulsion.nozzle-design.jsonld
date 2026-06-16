@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Nozzle Design - see documentation for details.",
+  "early_win": false,
+  "id": "launch-vehicles.liquid-propulsion.nozzle-design",
+  "level": "process",
+  "name": "Nozzle Design",
+  "outputs": [
+    "regen_nozzles"
+  ],
+  "parent": "launch-vehicles.liquid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

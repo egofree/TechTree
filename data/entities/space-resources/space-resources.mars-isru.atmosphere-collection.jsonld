@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Collection of Mars atmospheric CO2 (95.3% of the 6-10 mbar atmosphere) via sorption pumps and cryogenic adsorbers, feeding solid-oxide electrolysis (MOXIE-class SOXE at 800C) that dissociates 2CO2 -> 2CO + O2 at ~10 g/hr O2 production rate.",
+  "early_win": false,
+  "id": "space-resources.mars-isru.atmosphere-collection",
+  "level": "process",
+  "name": "Atmosphere Collection",
+  "outputs": [
+    "mars_propellant"
+  ],
+  "parent": "space-resources.mars-isru",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

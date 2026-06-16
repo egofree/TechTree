@@ -23,6 +23,7 @@ graph TD
     knowledge_scientific-method("Scientific Method")
     knowledge_surveying("Surveying & Cartography")
     knowledge_writing("Writing & Record-Keeping")
+    spacecraft-systems_orbital-mechanics("Orbital Mechanics")
 
     %% ==================== EDGES ====================
     mathematics_applied-mathematics -.-> mathematics_core-mathematics
@@ -36,6 +37,7 @@ graph TD
     knowledge_surveying -.-> mathematics
     mathematics_core-mathematics -.-> foundations
     mathematics -.-> knowledge_writing
+    spacecraft-systems_orbital-mechanics -.-> mathematics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -64,4 +66,5 @@ graph TD
     class knowledge_scientific-method external
     class knowledge_surveying external
     class knowledge_writing external
+    class spacecraft-systems_orbital-mechanics external
     class EdgeLegend,MatNote,ToolNote legend

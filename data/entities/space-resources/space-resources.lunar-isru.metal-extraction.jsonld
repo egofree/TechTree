@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Extraction of iron, aluminum, and titanium from lunar regolith via molten oxide electrolysis (separating FeO 5-25%, Al2O3, TiO2) and the carbonyl process (Fe via iron pentacarbonyl decomposition) to produce structural metals without terrestrial ore feedstock.",
+  "early_win": false,
+  "id": "space-resources.lunar-isru.metal-extraction",
+  "level": "process",
+  "name": "Metal Extraction",
+  "outputs": [
+    "lunar_oxygen"
+  ],
+  "parent": "space-resources.lunar-isru",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "asteroid_prospect_data",
+  "@type": "Product",
+  "name": "Asteroid Prospect Data",
+  "source": "space-resources.asteroid-mining.prospecting",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ttac_systems",
+  "@type": "Product",
+  "name": "TT&C Systems",
+  "source": "spacecraft-systems.ttac",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

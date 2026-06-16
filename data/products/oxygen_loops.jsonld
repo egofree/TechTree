@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "oxygen_loops",
+  "@type": "Product",
+  "name": "Oxygen Loops",
+  "source": "human-spaceflight.space-suits.plss-design",
+  "tags": {
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

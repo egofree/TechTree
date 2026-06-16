@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and manufacture of helicopter main rotor systems: hub architectures (articulated, semi-rigid teetering, rigid), blade dynamics (flapping, lead-lag, feathering), pitch control linkages, and composite/metal blade construction. The rotor hub must absorb aerodynamic and inertial loads while transmitting collective and cyclic pitch commands from the swashplate to each blade.",
+  "early_win": false,
+  "id": "aerospace.rotorcraft.rotor-systems",
+  "level": "process",
+  "name": "Rotor Systems",
+  "outputs": [
+    "helicopter_rotors"
+  ],
+  "parent": "aerospace.rotorcraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

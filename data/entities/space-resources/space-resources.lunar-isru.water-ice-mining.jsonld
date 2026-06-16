@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Mining of water ice from permanently shadowed regions (PSRs) at -240C, targeting Shackleton crater and similar PSRs where LCROSS impact data confirmed 5-8% water ice by mass in the regolith, using heated augers and cold-trap volatiles capture.",
+  "early_win": false,
+  "id": "space-resources.lunar-isru.water-ice-mining",
+  "level": "process",
+  "name": "Water Ice Mining",
+  "outputs": [
+    "lunar_oxygen"
+  ],
+  "parent": "space-resources.lunar-isru",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

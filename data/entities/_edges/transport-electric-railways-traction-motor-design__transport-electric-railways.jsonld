@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.electric-railways.traction-motor-design__transport.electric-railways",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "transport.electric-railways.traction-motor-design",
+  "to": "transport.electric-railways"
+}

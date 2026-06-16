@@ -123,7 +123,22 @@ health_occupational-health: "Occupational Health & Industrial Hygiene" {
 health_pharmacology: Pharmacology {
   shape: rectangle
 }
+human-spaceflight_eclss: "Environmental Control & Life Support" {
+  shape: rectangle
+}
+human-spaceflight_radiation-protection: Radiation Protection {
+  shape: rectangle
+}
+human-spaceflight_space-medicine: Space Medicine {
+  shape: rectangle
+}
 polymers: "Polymers & Composites" {
+  shape: rectangle
+}
+spacecraft-systems_radiation-hardening: Radiation Hardening {
+  shape: rectangle
+}
+spacecraft-systems_science-instruments: Science Instruments {
   shape: rectangle
 }
 water_sewage: "Sewage Collection & Treatment" {
@@ -149,6 +164,11 @@ energy_nuclear-fission_isotope-production -> ehs_radiation-safety: { class: tool
 energy_nuclear-fission -> ehs_radiation-safety: { class: tool-edge }
 energy_radioisotope-power_isotope-fuel-fabrication -> ehs_radiation-safety: { class: tool-edge }
 energy_radioisotope-power -> ehs_radiation-safety: { class: tool-edge }
+human-spaceflight_eclss -> ehs_radiation-safety: { class: tool-edge }
+human-spaceflight_radiation-protection -> ehs_radiation-safety: { class: tool-edge }
+human-spaceflight_space-medicine -> ehs_radiation-safety: { class: tool-edge }
+spacecraft-systems_radiation-hardening -> ehs_radiation-safety: { class: tool-edge }
+spacecraft-systems_science-instruments -> ehs_radiation-safety: { class: tool-edge }
 
 # ==================== STYLING ====================
 ehs.class: domain
@@ -167,7 +187,12 @@ energy_radioisotope-power.class: external
 energy_radioisotope-power_isotope-fuel-fabrication.class: external
 health_occupational-health.class: external
 health_pharmacology.class: external
+human-spaceflight_eclss.class: external
+human-spaceflight_radiation-protection.class: external
+human-spaceflight_space-medicine.class: external
 polymers.class: external
+spacecraft-systems_radiation-hardening.class: external
+spacecraft-systems_science-instruments.class: external
 water_sewage.class: external
 
 # ==================== LEGEND ====================

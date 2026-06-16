@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fuel_systems",
+  "@type": "Product",
+  "name": "Fuel Systems",
+  "source": "transport.ice-powertrains",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

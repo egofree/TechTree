@@ -151,6 +151,9 @@ food-processing_traditional-preservation: Traditional Preservation {
 foundations: Foundations {
   shape: rectangle
 }
+human-spaceflight_space-medicine: Space Medicine {
+  shape: rectangle
+}
 knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
@@ -215,6 +218,7 @@ health -> chemistry_solvents: { class: material-edge }
 health -> chemistry: { class: material-edge }
 health -> foundations: { class: tool-edge }
 health -> polymers_rubber: { class: material-edge }
+human-spaceflight_space-medicine -> health: { class: tool-edge }
 knowledge_writing -> health_sanitation: { class: tool-edge }
 plants_edible-plants -> health: { class: material-edge }
 plants_medicinal-plants -> health_pharmacology: { class: material-edge }
@@ -248,6 +252,7 @@ food-processing_pasteurization.class: external
 food-processing_preservation.class: external
 food-processing_traditional-preservation.class: external
 foundations.class: external
+human-spaceflight_space-medicine.class: external
 knowledge_writing.class: external
 metals_bronze.class: external
 plants_edible-plants.class: external

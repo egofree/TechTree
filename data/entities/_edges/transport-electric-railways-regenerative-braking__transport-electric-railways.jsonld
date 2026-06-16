@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.electric-railways.regenerative-braking__transport.electric-railways",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "transport.electric-railways.regenerative-braking",
+  "to": "transport.electric-railways"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "turboprop_engines",
+  "@type": "Product",
+  "name": "Turboprop Engines",
+  "source": "aerospace.turboprop",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

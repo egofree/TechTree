@@ -70,6 +70,9 @@ graph TD
     chemistry["Chemistry"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_aviation("Aviation")
+    aerospace_jet-propulsion("Jet Propulsion")
+    aerospace_lighter-than-air("Lighter-than-Air")
     agriculture("Agriculture")
     agriculture_hydroponic-ph-control("Hydroponic pH Control")
     agriculture_sem-tech-hydroponics("SEM Tech Hydroponics")
@@ -129,7 +132,11 @@ graph TD
     health_occupational-health("Occupational Health & Industrial Hygiene")
     health_pharmaceutical-production("Pharmaceutical Production")
     health_pharmacology("Pharmacology")
+    human-spaceflight_eclss("Environmental Control & Life Support")
     knowledge("Knowledge Preservation & Education")
+    launch-vehicles_hybrid-propulsion("Hybrid Propulsion")
+    launch-vehicles_propellant-production("Propellant Production")
+    launch-vehicles_solid-propulsion("Solid Propulsion")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_hydraulic-systems("Hydraulic Systems for Machine Tools")
     machine-tools_joining("Metal Joining")
@@ -174,12 +181,16 @@ graph TD
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_purification("Silicon Purification")
     silicon_wafering_epitaxy("Epitaxial Layer Growth")
+    space-resources_lunar-isru("Lunar ISRU")
+    space-resources_mars-isru("Mars ISRU")
+    space-resources_space-recycling("Space Recycling & Closed-Loop Logistics")
     textiles("Textiles, Fiber & Cordage")
     textiles_dyeing("Dyeing")
     textiles_finishing("Fabric Finishing")
     transport("Transportation & Logistics")
-    transport_aviation("Aviation")
+    transport_electric-vehicles("Electric Vehicles")
     transport_telegraph("Telegraph Communication")
+    transport_tire-manufacturing("Tire Manufacturing")
     ultra-pure("Ultra-Pure Materials")
     ultra-pure_high-purity-chemicals("High-Purity Chemical Purification")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
@@ -246,6 +257,9 @@ graph TD
     chemistry_solvents --> chemistry_solvents
     chemistry_water-electrolysis --> chemistry_e-methanol
     chemistry --> chemistry_acids-bases
+    aerospace_aviation --> chemistry_petroleum-alternatives
+    aerospace_jet-propulsion --> chemistry_petroleum-alternatives
+    aerospace_lighter-than-air -.-> chemistry
     agriculture_sem-tech-hydroponics -.-> chemistry_electrodialysis
     agriculture_sem-tech-hydroponics --> chemistry_electrolysis_sem-tech
     agriculture_soil-management --> chemistry_petroleum-alternatives_wood-gasification
@@ -359,7 +373,11 @@ graph TD
     health --> chemistry_soap
     health --> chemistry_solvents
     health --> chemistry
+    human-spaceflight_eclss -.-> chemistry
     knowledge --> chemistry_pulp-chemicals
+    launch-vehicles_hybrid-propulsion --> chemistry
+    launch-vehicles_propellant-production --> chemistry
+    launch-vehicles_solid-propulsion --> chemistry
     machine-tools_joining_brazing-soldering --> chemistry
     machine-tools_joining_tig-welding --> chemistry_air-separation
     machine-tools_joining --> chemistry_flux
@@ -407,12 +425,16 @@ graph TD
     silicon_purification -.-> chemistry
     silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
     silicon --> chemistry
+    space-resources_lunar-isru -.-> chemistry
+    space-resources_mars-isru -.-> chemistry
+    space-resources_space-recycling -.-> chemistry
     textiles_dyeing --> chemistry
     textiles_finishing -.-> chemistry_alkalis
     textiles --> chemistry_bleaching
     textiles --> chemistry_pulp-chemicals
-    transport_aviation --> chemistry_petroleum-alternatives
+    transport_electric-vehicles --> chemistry
     transport_telegraph -.-> chemistry_acids
+    transport_tire-manufacturing -.-> chemistry
     transport --> chemistry_coatings
     ultra-pure_high-purity-chemicals -.-> chemistry
     ultra-pure -.-> chemistry
@@ -493,6 +515,9 @@ graph TD
     class chemistry_solvents capability
     class chemistry_water-electrolysis capability
     class chemistry_water-treatment capability
+    class aerospace_aviation external
+    class aerospace_jet-propulsion external
+    class aerospace_lighter-than-air external
     class agriculture external
     class agriculture_hydroponic-ph-control external
     class agriculture_sem-tech-hydroponics external
@@ -552,7 +577,11 @@ graph TD
     class health_occupational-health external
     class health_pharmaceutical-production external
     class health_pharmacology external
+    class human-spaceflight_eclss external
     class knowledge external
+    class launch-vehicles_hybrid-propulsion external
+    class launch-vehicles_propellant-production external
+    class launch-vehicles_solid-propulsion external
     class machine-tools external
     class machine-tools_hydraulic-systems external
     class machine-tools_joining external
@@ -597,12 +626,16 @@ graph TD
     class silicon_crystal-growth external
     class silicon_purification external
     class silicon_wafering_epitaxy external
+    class space-resources_lunar-isru external
+    class space-resources_mars-isru external
+    class space-resources_space-recycling external
     class textiles external
     class textiles_dyeing external
     class textiles_finishing external
     class transport external
-    class transport_aviation external
+    class transport_electric-vehicles external
     class transport_telegraph external
+    class transport_tire-manufacturing external
     class ultra-pure external
     class ultra-pure_high-purity-chemicals external
     class vlsi-scaling_eda-design external

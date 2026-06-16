@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "motorcycles",
+  "@type": "Product",
+  "name": "Motorcycles",
+  "source": "transport.motorcycles",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

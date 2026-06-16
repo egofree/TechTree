@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Launch pad infrastructure: flame trench and deflector design, acoustic deluge suppression at 1M gallons/min, gantry and service structures, umbilical arms, propellant storage farms (LOX/RP-1/LH2) with 3,400 m³ LOX tanks, and lightning catenary protection on 181m towers. Enables orbital-class vehicle launch.",
+  "early_win": false,
+  "id": "space-ground-ops.launch-complex",
+  "level": "capability",
+  "name": "Launch Complex",
+  "outputs": [
+    "launch_pads"
+  ],
+  "parent": "space-ground-ops",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

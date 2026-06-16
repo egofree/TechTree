@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "turboshaft_engines",
+  "@type": "Product",
+  "name": "Turboshaft Engines",
+  "source": "aerospace.rotorcraft",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

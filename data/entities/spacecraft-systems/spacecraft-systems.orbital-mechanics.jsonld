@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Spacecraft orbital mechanics: orbit determination from tracking data, maneuver design (Hohmann, bi-elliptic, plane change), and station-keeping for LEO, MEO, and GEO regimes using delta-v budgeting and the Tsiolkovsky rocket equation.",
+  "early_win": false,
+  "id": "spacecraft-systems.orbital-mechanics",
+  "level": "capability",
+  "name": "Orbital Mechanics",
+  "outputs": [
+    "orbit_solutions",
+    "maneuver_plans",
+    "station_keeping_schedules"
+  ],
+  "parent": "spacecraft-systems",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

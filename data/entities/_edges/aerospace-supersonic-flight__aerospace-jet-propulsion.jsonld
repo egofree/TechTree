@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.supersonic-flight__aerospace.jet-propulsion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.supersonic-flight",
+  "to": "aerospace.jet-propulsion",
+  "label": "Turbojet and ramjet/scramjet propulsion; the jet-propulsion capability is created by a parallel task"
+}

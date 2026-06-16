@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.edl.retropropulsion__launch-vehicles.edl",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.edl.retropropulsion",
+  "to": "launch-vehicles.edl"
+}

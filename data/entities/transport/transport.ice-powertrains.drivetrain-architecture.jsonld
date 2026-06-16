@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Layout and packaging of the engine, transmission, driveshafts, differentials, and driven axles into a complete vehicle: longitudinal vs transverse engine mounting, and front-wheel-drive, rear-wheel-drive, and all-wheel-drive configurations. Includes open, limited-slip, and locking differentials that split torque between wheels while permitting speed differential in turns.",
+  "early_win": false,
+  "id": "transport.ice-powertrains.drivetrain-architecture",
+  "level": "process",
+  "name": "Drivetrain Architecture",
+  "outputs": [
+    "drivetrains",
+    "differentials"
+  ],
+  "parent": "transport.ice-powertrains",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

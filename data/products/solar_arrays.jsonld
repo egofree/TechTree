@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solar_arrays",
+  "@type": "Product",
+  "name": "Solar Arrays",
+  "source": "spacecraft-systems.spacecraft-power.solar-arrays",
+  "tags": {
+    "material": [
+      "silicon"
+    ],
+    "capability": [
+      "spaceflight",
+      "energy"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rf_front_ends",
+  "@type": "Product",
+  "name": "Rf Front Ends",
+  "source": "space-ground-ops.ground-stations.rf-front-ends",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

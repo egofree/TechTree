@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Lithium-ion battery pack manufacturing: cell format selection (cylindrical 18650/21700, pouch, prismatic), cell grouping into modules, battery management system integration, thermal management, and pack-level assembly with high-voltage interconnects and crash structure.",
+  "early_win": false,
+  "id": "transport.electric-vehicles.battery-packs",
+  "level": "process",
+  "name": "EV Battery Packs",
+  "outputs": [
+    "ev_battery_packs"
+  ],
+  "parent": "transport.electric-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-55"
+}

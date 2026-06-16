@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Mixing and casting of composite solid propellant: ammonium perchlorate (AP, 65-70% oxidizer), aluminum powder (14-18% fuel), and HTPB polybutadiene binder (12-16%) with cure agent and burn-rate modifiers (~2% additives). The finely divided AP and Al are blended into the liquid HTPB binder under vacuum, poured into the motor case around a mandrel shaped to the desired grain geometry, and oven-cured at 50-60 C for 3-7 days to cross-link the binder into a rubbery solid.",
+  "early_win": false,
+  "id": "launch-vehicles.solid-propulsion.propellant-casting",
+  "level": "process",
+  "name": "Propellant Casting",
+  "outputs": [
+    "cast_propellant"
+  ],
+  "parent": "launch-vehicles.solid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

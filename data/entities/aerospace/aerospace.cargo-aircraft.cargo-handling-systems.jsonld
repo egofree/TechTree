@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and installation of interior cargo handling systems: reinforced floor rails with attachment points, roller conveyors for pallet/container transfer, powered cargo winches and drive systems, and the 88x125 inch pallet and LD3/LD7 container interface standards that enable intermodal loading. Covers floor load distribution, lashing net design, and weight-and-balance envelopes for shifting loads.",
+  "early_win": false,
+  "id": "aerospace.cargo-aircraft.cargo-handling-systems",
+  "level": "process",
+  "name": "Cargo Handling Systems",
+  "outputs": [
+    "cargo_loading_systems"
+  ],
+  "parent": "aerospace.cargo-aircraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

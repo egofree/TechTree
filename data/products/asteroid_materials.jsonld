@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "asteroid_materials",
+  "@type": "Product",
+  "name": "Asteroid-Derived Materials",
+  "source": "space-resources.asteroid-mining.extraction-methods",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

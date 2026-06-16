@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Logistics resupply vehicle integration, cargo manifesting, rendezvous and capture of Cargo Dragon, Cygnus, HTV, and Progress vehicles - see documentation for details.",
+  "early_win": false,
+  "id": "human-spaceflight.space-stations.logistics-resupply",
+  "level": "process",
+  "name": "Logistics Resupply",
+  "outputs": [
+    "space_stations",
+    "cargo_resupply"
+  ],
+  "parent": "human-spaceflight.space-stations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

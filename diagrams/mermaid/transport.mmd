@@ -5,11 +5,47 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph transport_internal ["Transportation & Logistics — Internal Structure"]
         direction TB
-        transport_aviation["Aviation"]
         transport_railways["Railways"]
         transport_roads["Road & Bridge Construction"]
         transport_shipping["Water Transport"]
         transport_telegraph["Telegraph Communication"]
+        transport_diesel-locomotives_diesel-electric-powertrain["Diesel-Electric Powertrain"]
+        transport_diesel-locomotives_dynamic-braking["Dynamic Braking"]
+        transport_diesel-locomotives["Diesel-Electric Locomotives"]
+        transport_diesel-locomotives_road-switcher-design["Road-Switcher Design"]
+        transport_electric-railways["Electric Railways"]
+        transport_electric-railways_overhead-electrification["Overhead Electrification"]
+        transport_electric-railways_regenerative-braking["Regenerative Braking"]
+        transport_electric-railways_traction-motor-design["Traction Motor Design"]
+        transport_electric-vehicles_battery-packs["EV Battery Packs"]
+        transport_electric-vehicles_charging-systems["EV Charging Systems"]
+        transport_electric-vehicles_ev-traction-motors["EV Traction Motors"]
+        transport_electric-vehicles_fuel-cell-systems["Fuel Cell Systems"]
+        transport_electric-vehicles["Electric Vehicles"]
+        transport_high-speed-rail_aerodynamic-design["Aerodynamic Trainset Design"]
+        transport_high-speed-rail["High-Speed Rail"]
+        transport_high-speed-rail_maglev-systems["Magnetic Levitation Systems"]
+        transport_high-speed-rail_track-geometry["High-Speed Track Geometry"]
+        transport_ice-powertrains_automatic-transmissions["Automatic Transmissions"]
+        transport_ice-powertrains_drivetrain-architecture["Drivetrain Architecture"]
+        transport_ice-powertrains_fuel-and-exhaust-systems["Fuel & Exhaust Systems"]
+        transport_ice-powertrains["ICE Powertrains"]
+        transport_ice-powertrains_manual-transmissions["Manual Transmissions"]
+        transport_motor-vehicles_body-panel-stamping["Body Panel Stamping & Welding"]
+        transport_motor-vehicles_brake-systems["Brake Systems"]
+        transport_motor-vehicles_chassis-frame-construction["Chassis & Frame Construction"]
+        transport_motor-vehicles["Motor Vehicle Fundamentals"]
+        transport_motor-vehicles_steering-systems["Steering Systems"]
+        transport_motor-vehicles_suspension-systems["Suspension Systems"]
+        transport_motorcycles["Motorcycles & Scooters"]
+        transport_motorcycles_motorcycle-frames["Motorcycle Frame Design"]
+        transport_motorcycles_motorcycle-powertrain["Motorcycle Powertrain Integration"]
+        transport_motorcycles_motorcycle-suspension["Motorcycle Suspension Systems"]
+        transport_road-construction-equipment["Road Construction Equipment"]
+        transport_tire-manufacturing_curing-and-finishing["Curing and Finishing"]
+        transport_tire-manufacturing["Tire Manufacturing"]
+        transport_tire-manufacturing_rubber-compounding["Rubber Compounding"]
+        transport_tire-manufacturing_tire-building["Tire Building"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -17,19 +53,23 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     animals_draft-power("Animal Draft Power & Harnessing")
+    chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
     chemistry_coatings("Paints, Coatings & Inks")
-    chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     defense("Defense & Military Engineering")
     economics-organization_supply-chain("Supply Chain Coordination")
     economics-organization_trade("Trade & Barter")
+    electronics("Electronics")
     energy("Energy")
     energy_electricity("Electricity Generation & Distribution")
+    energy_electricity_motor("Electric Motor")
     energy_engine("Heat Engines")
     energy_fuels("Fuel Production")
+    energy_internal-combustion("Internal Combustion Engines")
     energy_steam-power("Steam Power")
     foundations_tools-basic("Stone & Wood Tools")
     machine-tools("Machine Tools Bootstrap")
+    machine-tools_gears("Gears & Gear Manufacturing")
     marine("Marine & Naval Engineering")
     marine_shipbuilding("Hull Construction & Shipbuilding")
     metals("Metals")
@@ -38,12 +78,53 @@ graph TD
     metals_iron-steel("Iron & Steel Production")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction("Mining Extraction")
+    polymers("Polymers & Composites")
     telecom("Telecommunications")
     telecom_electric-telegraph("Electrical Telegraph Networks")
     telecom_submarine-cables("Submarine Cable Systems")
     textiles("Textiles, Fiber & Cordage")
 
     %% ==================== EDGES ====================
+    transport_diesel-locomotives_diesel-electric-powertrain -.-> transport_diesel-locomotives
+    transport_diesel-locomotives_dynamic-braking -.-> transport_diesel-locomotives
+    transport_diesel-locomotives_road-switcher-design -.-> transport_diesel-locomotives
+    transport_diesel-locomotives -.-> transport_railways
+    transport_electric-railways_overhead-electrification -.-> transport_electric-railways
+    transport_electric-railways_regenerative-braking -.-> transport_electric-railways
+    transport_electric-railways_traction-motor-design -.-> transport_electric-railways
+    transport_electric-railways -.-> transport_railways
+    transport_electric-vehicles_battery-packs -.-> transport_electric-vehicles
+    transport_electric-vehicles_charging-systems -.-> transport_electric-vehicles
+    transport_electric-vehicles_ev-traction-motors -.-> transport_electric-vehicles
+    transport_electric-vehicles_fuel-cell-systems -.-> transport_electric-vehicles
+    transport_electric-vehicles -.-> transport_motor-vehicles
+    transport_electric-vehicles -.-> transport_tire-manufacturing
+    transport_high-speed-rail_aerodynamic-design -.-> transport_high-speed-rail
+    transport_high-speed-rail_maglev-systems -.-> transport_high-speed-rail
+    transport_high-speed-rail_track-geometry -.-> transport_high-speed-rail
+    transport_high-speed-rail -.-> transport_electric-railways
+    transport_high-speed-rail -.-> transport_railways
+    transport_ice-powertrains_automatic-transmissions -.-> transport_ice-powertrains
+    transport_ice-powertrains_drivetrain-architecture -.-> transport_ice-powertrains
+    transport_ice-powertrains_fuel-and-exhaust-systems -.-> transport_ice-powertrains
+    transport_ice-powertrains_manual-transmissions -.-> transport_ice-powertrains
+    transport_ice-powertrains -.-> transport_motor-vehicles
+    transport_motor-vehicles_body-panel-stamping -.-> transport_motor-vehicles
+    transport_motor-vehicles_brake-systems -.-> transport_motor-vehicles
+    transport_motor-vehicles_chassis-frame-construction -.-> transport_motor-vehicles
+    transport_motor-vehicles_steering-systems -.-> transport_motor-vehicles
+    transport_motor-vehicles_suspension-systems -.-> transport_motor-vehicles
+    transport_motor-vehicles -.-> transport_roads
+    transport_motor-vehicles -.-> transport_tire-manufacturing
+    transport_motorcycles_motorcycle-frames -.-> transport_motorcycles
+    transport_motorcycles_motorcycle-powertrain -.-> transport_motorcycles
+    transport_motorcycles_motorcycle-suspension -.-> transport_motorcycles
+    transport_motorcycles -.-> transport_tire-manufacturing
+    transport_road-construction-equipment -.-> transport
+    transport_roads -.-> transport_road-construction-equipment
+    transport_tire-manufacturing_curing-and-finishing -.-> transport_tire-manufacturing
+    transport_tire-manufacturing_rubber-compounding -.-> transport_tire-manufacturing
+    transport_tire-manufacturing_tire-building -.-> transport_tire-manufacturing
     defense -.-> transport
     economics-organization_supply-chain -.-> transport
     economics-organization_trade -.-> transport
@@ -52,14 +133,38 @@ graph TD
     telecom_electric-telegraph -.-> transport_telegraph
     telecom_submarine-cables -.-> transport_shipping
     telecom -.-> transport_telegraph
-    transport_aviation --> chemistry_petroleum-alternatives
-    transport_aviation -.-> energy_engine
-    transport_aviation -.-> machine-tools
-    transport_aviation --> metals_aluminum
-    transport_aviation --> textiles
+    transport_diesel-locomotives --> energy_electricity_motor
+    transport_diesel-locomotives --> energy_internal-combustion
+    transport_diesel-locomotives --> metals_iron-steel
+    transport_electric-railways --> energy_electricity_motor
+    transport_electric-railways --> energy_electricity
+    transport_electric-railways --> metals_aluminum
+    transport_electric-railways --> metals_iron-steel
+    transport_electric-vehicles --> chemistry
+    transport_electric-vehicles --> electronics
+    transport_electric-vehicles --> energy_electricity_motor
+    transport_electric-vehicles --> energy_electricity
+    transport_high-speed-rail --> energy_electricity_motor
+    transport_high-speed-rail --> energy_electricity
+    transport_high-speed-rail --> metals_iron-steel
+    transport_ice-powertrains --> energy_fuels
+    transport_ice-powertrains --> energy_internal-combustion
+    transport_ice-powertrains --> machine-tools_gears
+    transport_ice-powertrains --> metals_iron-steel
+    transport_motor-vehicles -.-> energy_internal-combustion
+    transport_motor-vehicles -.-> machine-tools
+    transport_motor-vehicles --> metals_aluminum
+    transport_motor-vehicles --> metals_iron-steel
+    transport_motorcycles -.-> energy_electricity_motor
+    transport_motorcycles -.-> energy_internal-combustion
+    transport_motorcycles -.-> machine-tools
+    transport_motorcycles --> metals_iron-steel
     transport_railways -.-> energy_steam-power
     transport_railways --> metals_forming
     transport_railways --> metals_iron-steel
+    transport_road-construction-equipment -.-> animals_draft-power
+    transport_road-construction-equipment --> metals_iron-steel
+    transport_road-construction-equipment -.-> mining
     transport_roads -.-> animals_draft-power
     transport_roads -.-> foundations_tools-basic
     transport_roads --> mining
@@ -67,6 +172,10 @@ graph TD
     transport_telegraph -.-> chemistry_acids
     transport_telegraph -.-> energy_electricity
     transport_telegraph --> metals_iron-steel
+    transport_tire-manufacturing -.-> chemistry
+    transport_tire-manufacturing --> metals_iron-steel
+    transport_tire-manufacturing --> polymers
+    transport_tire-manufacturing --> textiles
     transport --> chemistry_coatings
     transport -.-> energy_engine
     transport -.-> energy_fuels
@@ -91,25 +200,65 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class transport domain
-    class transport_aviation capability
     class transport_railways capability
     class transport_roads capability
     class transport_shipping capability
     class transport_telegraph capability
+    class transport_diesel-locomotives_diesel-electric-powertrain process
+    class transport_diesel-locomotives_dynamic-braking process
+    class transport_diesel-locomotives capability
+    class transport_diesel-locomotives_road-switcher-design process
+    class transport_electric-railways capability
+    class transport_electric-railways_overhead-electrification process
+    class transport_electric-railways_regenerative-braking process
+    class transport_electric-railways_traction-motor-design process
+    class transport_electric-vehicles_battery-packs process
+    class transport_electric-vehicles_charging-systems process
+    class transport_electric-vehicles_ev-traction-motors process
+    class transport_electric-vehicles_fuel-cell-systems process
+    class transport_electric-vehicles capability
+    class transport_high-speed-rail_aerodynamic-design process
+    class transport_high-speed-rail capability
+    class transport_high-speed-rail_maglev-systems process
+    class transport_high-speed-rail_track-geometry process
+    class transport_ice-powertrains_automatic-transmissions process
+    class transport_ice-powertrains_drivetrain-architecture process
+    class transport_ice-powertrains_fuel-and-exhaust-systems process
+    class transport_ice-powertrains capability
+    class transport_ice-powertrains_manual-transmissions process
+    class transport_motor-vehicles_body-panel-stamping process
+    class transport_motor-vehicles_brake-systems process
+    class transport_motor-vehicles_chassis-frame-construction process
+    class transport_motor-vehicles capability
+    class transport_motor-vehicles_steering-systems process
+    class transport_motor-vehicles_suspension-systems process
+    class transport_motorcycles capability
+    class transport_motorcycles_motorcycle-frames process
+    class transport_motorcycles_motorcycle-powertrain process
+    class transport_motorcycles_motorcycle-suspension process
+    class transport_road-construction-equipment capability
+    class transport_tire-manufacturing_curing-and-finishing process
+    class transport_tire-manufacturing capability
+    class transport_tire-manufacturing_rubber-compounding process
+    class transport_tire-manufacturing_tire-building process
     class animals_draft-power external
+    class chemistry external
     class chemistry_acids external
     class chemistry_coatings external
-    class chemistry_petroleum-alternatives external
     class defense external
     class economics-organization_supply-chain external
     class economics-organization_trade external
+    class electronics external
     class energy external
     class energy_electricity external
+    class energy_electricity_motor external
     class energy_engine external
     class energy_fuels external
+    class energy_internal-combustion external
     class energy_steam-power external
     class foundations_tools-basic external
     class machine-tools external
+    class machine-tools_gears external
     class marine external
     class marine_shipbuilding external
     class metals external
@@ -118,6 +267,7 @@ graph TD
     class metals_iron-steel external
     class mining external
     class mining_extraction external
+    class polymers external
     class telecom external
     class telecom_electric-telegraph external
     class telecom_submarine-cables external

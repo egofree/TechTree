@@ -20,6 +20,7 @@ graph TD
     measurement("Measurement & Instrumentation")
     measurement_precision-metrology("Precision Metrology & Standards")
     photolithography("Photolithography & IC Fabrication")
+    spacecraft-systems_space-qualification("Space Qualification")
     vlsi-scaling("VLSI Scaling & Advanced Semiconductor")
 
     %% ==================== EDGES ====================
@@ -34,6 +35,7 @@ graph TD
     quality-control -.-> computing
     quality-control -.-> knowledge
     quality-control -.-> measurement
+    spacecraft-systems_space-qualification -.-> quality-control
     vlsi-scaling -.-> quality-control
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -60,5 +62,6 @@ graph TD
     class measurement external
     class measurement_precision-metrology external
     class photolithography external
+    class spacecraft-systems_space-qualification external
     class vlsi-scaling external
     class EdgeLegend,MatNote,ToolNote legend

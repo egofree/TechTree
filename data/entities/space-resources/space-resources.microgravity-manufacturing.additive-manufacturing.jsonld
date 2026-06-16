@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Fused-filament and extrusion additive manufacturing of polymer parts aboard pressurized orbital platforms, leveraging microgravity to print 30+ polymer feedstocks without the sag and support constraints of terrestrial printing.",
+  "early_win": false,
+  "id": "space-resources.microgravity-manufacturing.additive-manufacturing",
+  "level": "process",
+  "name": "Additive Manufacturing",
+  "outputs": [
+    "space_products"
+  ],
+  "parent": "space-resources.microgravity-manufacturing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

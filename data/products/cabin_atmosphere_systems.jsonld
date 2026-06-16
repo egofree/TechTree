@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cabin_atmosphere_systems",
+  "@type": "Product",
+  "name": "Cabin Atmosphere Systems",
+  "source": "human-spaceflight.crewed-spacecraft.crew-cabin",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Space surveillance networks for detecting, tracking, and cataloging objects in Earth orbit. The US Space Surveillance Network (SSN) combines ground-based radar (GEODSS, Fence), optical telescopes, and space-based sensors to maintain a catalog of 40,000+ tracked objects. Supports collision avoidance, reentry prediction, and orbital-debris monitoring.",
+  "early_win": false,
+  "id": "spacecraft-systems.military-satellites.space-surveillance",
+  "level": "process",
+  "name": "Space Surveillance",
+  "outputs": [
+    "reconnaissance_systems"
+  ],
+  "parent": "spacecraft-systems.military-satellites",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "glass",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

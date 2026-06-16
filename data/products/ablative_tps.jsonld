@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ablative_tps",
+  "@type": "Product",
+  "name": "Ablative Thermal Protection System",
+  "source": "launch-vehicles.edl.heat-shield-design",
+  "tags": {
+    "material": [
+      "ceramics",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

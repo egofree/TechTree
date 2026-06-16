@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hall_thrusters",
+  "@type": "Product",
+  "name": "Hall Thrusters",
+  "source": "space-propulsion.electric-hall",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "ceramics"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "short_range_cargo",
+  "@type": "Product",
+  "name": "Short Range Cargo",
+  "source": "aerospace.light-aircraft",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

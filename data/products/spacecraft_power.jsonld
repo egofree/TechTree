@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spacecraft_power",
+  "@type": "Product",
+  "name": "Spacecraft Power",
+  "source": "spacecraft-systems.spacecraft-power.power-management-distribution",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

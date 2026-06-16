@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.hybrid-propulsion__chemistry",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "launch-vehicles.hybrid-propulsion",
+  "to": "chemistry",
+  "label": "N2O and LOX oxidizers, HTPB and paraffin wax fuels, and cross-linking agents produced by industrial chemistry"
+}

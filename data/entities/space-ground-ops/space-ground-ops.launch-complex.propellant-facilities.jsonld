@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Propellant storage farm design for launch operations: LOX storage (3,400 m³), RP-1 (1,250 m³), LH2 (3,200 m³), cryogenic vacuum-insulated tanks, subcooled fill/drain transfer lines, vaporizers, cross-country piping, and rapid fill sequencer for T-30 min top-off at 7,600 L/min.",
+  "early_win": false,
+  "id": "space-ground-ops.launch-complex.propellant-facilities",
+  "level": "process",
+  "name": "Propellant Storage Facilities",
+  "outputs": [
+    "launch_pads"
+  ],
+  "parent": "space-ground-ops.launch-complex",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

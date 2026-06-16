@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "In-situ resource utilization on the Moon: lightweight regolith excavation (RASSOR bucket drum, pneumatic) at 30-50 kg/h, oxygen extraction by molten regolith electrolysis (~900 kg O2 per metric ton regolith) and H2 reduction of ilmenite (FeTiO3) at 1000C, water ice mining from permanently shadowed craters at -240C (Shackleton, 5-8% water from LCROSS), and Fe/Al/Ti metal extraction via molten oxide electrolysis and carbonyl processing.",
+  "early_win": false,
+  "id": "space-resources.lunar-isru",
+  "level": "capability",
+  "name": "Lunar ISRU",
+  "outputs": [
+    "lunar_oxygen"
+  ],
+  "parent": "space-resources",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

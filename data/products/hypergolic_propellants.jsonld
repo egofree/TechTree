@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hypergolic_propellants",
+  "@type": "Product",
+  "name": "Hypergolic Propellants (MMH/N2O4)",
+  "source": "launch-vehicles.propellant-production.hypergolic-synthesis",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

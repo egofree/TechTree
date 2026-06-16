@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Hyperspectral Imagers - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.earth-observation.hyperspectral",
+  "level": "process",
+  "name": "Hyperspectral Imagers",
+  "outputs": [
+    "eo_payloads"
+  ],
+  "parent": "spacecraft-systems.earth-observation",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "glass",
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

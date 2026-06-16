@@ -70,7 +70,7 @@ Knock, or detonation, is the primary limit on Otto cycle performance. Normal com
 
 > **Safety warning**: Gasoline is extremely flammable with a flash point of -43°C. Fuel system leaks near hot engine surfaces or electrical sparks cause fires. Always store fuel in approved containers away from ignition sources. Carbon monoxide (CO) in exhaust is colorless, odorless, and lethal. Gasoline engines produce 1-10% CO in exhaust. Never operate in enclosed spaces. Route exhaust outside with sealed pipe. Rotating components (belts, pulleys, shafts) catch loose clothing and fingers. Install guards over all rotating components. Hot surfaces reach 300-600°C during operation. Allow 30+ minutes cooling before touching. Pressurized cooling system: never remove radiator cap while engine is hot. Scalding coolant at 90-120°C under 1-2 bar pressure.
 
-**Applications**: Road vehicles and light trucks (40-400 kW), propeller-driven aircraft (50-2000 kW) with air-cooled radial or opposed-cylinder configurations that must operate at altitude and in all attitudes (including inverted flight for aerobatic aircraft, see [Aviation](../transport/aviation.md)), small portable generators (1-20 kW), motorcycles, outboard motors, chainsaws and other handheld power tools (often two-stroke variants for weight savings).
+**Applications**: Road vehicles and light trucks (40-400 kW), propeller-driven aircraft (50-2000 kW) with air-cooled radial or opposed-cylinder configurations that must operate at altitude and in all attitudes (including inverted flight for aerobatic aircraft, see [Aviation](../aerospace/aviation.md)), small portable generators (1-20 kW), motorcycles, outboard motors, chainsaws and other handheld power tools (often two-stroke variants for weight savings).
 
 **Strengths**:
 - High power-to-weight ratio (0.5-5 kW/kg) enables motorized transport and aviation
@@ -308,7 +308,7 @@ Internal combustion engines produce carbon monoxide (CO) in exhaust gas (0.5-10%
 - [Fuels](fuels.md) — Liquid fuel properties and alternatives
 - [Electricity Generation](electricity.md) — Generators driven by IC engines
 - [Railways](../transport/railways.md) — Diesel locomotive applications
-- [Aviation](../transport/aviation.md) — Aircraft engine requirements
+- [Aviation](../aerospace/aviation.md) — Aircraft engine requirements
 - [Lubricants](../chemistry/lubricants.md) — Engine oil and lubrication
 - [Bearings, Abrasives & Cutting Tools](../machine-tools/bearings-abrasives.md) — Bearing materials and design
 - [Metal Casting](../metals/casting.md) — Casting engine blocks and heads

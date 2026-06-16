@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Launch abort system (LAS) design: the solid or hypergolic escape tower that pulls a crew capsule clear of a failing launch vehicle within milliseconds. Covers the abort motor (solid propellant, 2-3 MN thrust, 2-6 s burn), attitude control motors for trajectory shaping, the escape jettison motor, and the structural load path that transmits 6-15 g escape loads through the crew couches.",
+  "early_win": false,
+  "id": "human-spaceflight.crewed-spacecraft.launch-abort-systems",
+  "level": "process",
+  "name": "Launch Abort Systems",
+  "outputs": [
+    "launch_abort_systems",
+    "escape_towers",
+    "abort_motors"
+  ],
+  "parent": "human-spaceflight.crewed-spacecraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

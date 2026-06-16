@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Gas-retaining pressure garment design: the bladder, restraint, and mobility joint architecture that maintains internal pressure against vacuum while permitting limb movement. Covers urethane-coated nylon bladders, linknet and cable restraint systems, and the convolute, bearing, and gimbal joints that allow bending without pressure loss.",
+  "early_win": false,
+  "id": "human-spaceflight.space-suits.pressure-garment",
+  "level": "process",
+  "name": "Pressure Garment Design",
+  "outputs": [
+    "pressure_garments",
+    "suit_bladders",
+    "mobility_joints"
+  ],
+  "parent": "human-spaceflight.space-suits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

@@ -86,11 +86,47 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 transport_internal: "Transportation & Logistics — Internal Structure" {
-  transport_aviation: Aviation
   transport_railways: Railways
   transport_roads: "Road & Bridge Construction"
   transport_shipping: Water Transport
   transport_telegraph: Telegraph Communication
+  transport_diesel-locomotives_diesel-electric-powertrain: Diesel-Electric Powertrain
+  transport_diesel-locomotives_dynamic-braking: Dynamic Braking
+  transport_diesel-locomotives: Diesel-Electric Locomotives
+  transport_diesel-locomotives_road-switcher-design: Road-Switcher Design
+  transport_electric-railways: Electric Railways
+  transport_electric-railways_overhead-electrification: Overhead Electrification
+  transport_electric-railways_regenerative-braking: Regenerative Braking
+  transport_electric-railways_traction-motor-design: Traction Motor Design
+  transport_electric-vehicles_battery-packs: EV Battery Packs
+  transport_electric-vehicles_charging-systems: EV Charging Systems
+  transport_electric-vehicles_ev-traction-motors: EV Traction Motors
+  transport_electric-vehicles_fuel-cell-systems: Fuel Cell Systems
+  transport_electric-vehicles: Electric Vehicles
+  transport_high-speed-rail_aerodynamic-design: Aerodynamic Trainset Design
+  transport_high-speed-rail: High-Speed Rail
+  transport_high-speed-rail_maglev-systems: Magnetic Levitation Systems
+  transport_high-speed-rail_track-geometry: High-Speed Track Geometry
+  transport_ice-powertrains_automatic-transmissions: Automatic Transmissions
+  transport_ice-powertrains_drivetrain-architecture: Drivetrain Architecture
+  transport_ice-powertrains_fuel-and-exhaust-systems: "Fuel & Exhaust Systems"
+  transport_ice-powertrains: ICE Powertrains
+  transport_ice-powertrains_manual-transmissions: Manual Transmissions
+  transport_motor-vehicles_body-panel-stamping: "Body Panel Stamping & Welding"
+  transport_motor-vehicles_brake-systems: Brake Systems
+  transport_motor-vehicles_chassis-frame-construction: "Chassis & Frame Construction"
+  transport_motor-vehicles: Motor Vehicle Fundamentals
+  transport_motor-vehicles_steering-systems: Steering Systems
+  transport_motor-vehicles_suspension-systems: Suspension Systems
+  transport_motorcycles: "Motorcycles & Scooters"
+  transport_motorcycles_motorcycle-frames: Motorcycle Frame Design
+  transport_motorcycles_motorcycle-powertrain: Motorcycle Powertrain Integration
+  transport_motorcycles_motorcycle-suspension: Motorcycle Suspension Systems
+  transport_road-construction-equipment: Road Construction Equipment
+  transport_tire-manufacturing_curing-and-finishing: Curing and Finishing
+  transport_tire-manufacturing: Tire Manufacturing
+  transport_tire-manufacturing_rubber-compounding: Rubber Compounding
+  transport_tire-manufacturing_tire-building: Tire Building
 }
 
 # ==================== DOMAIN NODE ====================
@@ -100,13 +136,13 @@ transport: "Transportation & Logistics"
 animals_draft-power: "Animal Draft Power & Harnessing" {
   shape: rectangle
 }
+chemistry: Chemistry {
+  shape: rectangle
+}
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
 chemistry_coatings: "Paints, Coatings & Inks" {
-  shape: rectangle
-}
-chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
   shape: rectangle
 }
 defense: "Defense & Military Engineering" {
@@ -118,16 +154,25 @@ economics-organization_supply-chain: Supply Chain Coordination {
 economics-organization_trade: "Trade & Barter" {
   shape: rectangle
 }
+electronics: Electronics {
+  shape: rectangle
+}
 energy: Energy {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
+energy_electricity_motor: Electric Motor {
+  shape: rectangle
+}
 energy_engine: Heat Engines {
   shape: rectangle
 }
 energy_fuels: Fuel Production {
+  shape: rectangle
+}
+energy_internal-combustion: Internal Combustion Engines {
   shape: rectangle
 }
 energy_steam-power: Steam Power {
@@ -137,6 +182,9 @@ foundations_tools-basic: "Stone & Wood Tools" {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+machine-tools_gears: "Gears & Gear Manufacturing" {
   shape: rectangle
 }
 marine: "Marine & Naval Engineering" {
@@ -163,6 +211,9 @@ mining: "Mining Engineering & Extractive Metallurgy" {
 mining_extraction: Mining Extraction {
   shape: rectangle
 }
+polymers: "Polymers & Composites" {
+  shape: rectangle
+}
 telecom: Telecommunications {
   shape: rectangle
 }
@@ -177,6 +228,46 @@ textiles: "Textiles, Fiber & Cordage" {
 }
 
 # ==================== EDGES ====================
+transport_diesel-locomotives_diesel-electric-powertrain -> transport_diesel-locomotives: { class: tool-edge }
+transport_diesel-locomotives_dynamic-braking -> transport_diesel-locomotives: { class: tool-edge }
+transport_diesel-locomotives_road-switcher-design -> transport_diesel-locomotives: { class: tool-edge }
+transport_diesel-locomotives -> transport_railways: { class: tool-edge }
+transport_electric-railways_overhead-electrification -> transport_electric-railways: { class: tool-edge }
+transport_electric-railways_regenerative-braking -> transport_electric-railways: { class: tool-edge }
+transport_electric-railways_traction-motor-design -> transport_electric-railways: { class: tool-edge }
+transport_electric-railways -> transport_railways: { class: tool-edge }
+transport_electric-vehicles_battery-packs -> transport_electric-vehicles: { class: tool-edge }
+transport_electric-vehicles_charging-systems -> transport_electric-vehicles: { class: tool-edge }
+transport_electric-vehicles_ev-traction-motors -> transport_electric-vehicles: { class: tool-edge }
+transport_electric-vehicles_fuel-cell-systems -> transport_electric-vehicles: { class: tool-edge }
+transport_electric-vehicles -> transport_motor-vehicles: { class: tool-edge }
+transport_electric-vehicles -> transport_tire-manufacturing: { class: tool-edge }
+transport_high-speed-rail_aerodynamic-design -> transport_high-speed-rail: { class: tool-edge }
+transport_high-speed-rail_maglev-systems -> transport_high-speed-rail: { class: tool-edge }
+transport_high-speed-rail_track-geometry -> transport_high-speed-rail: { class: tool-edge }
+transport_high-speed-rail -> transport_electric-railways: { class: tool-edge }
+transport_high-speed-rail -> transport_railways: { class: tool-edge }
+transport_ice-powertrains_automatic-transmissions -> transport_ice-powertrains: { class: tool-edge }
+transport_ice-powertrains_drivetrain-architecture -> transport_ice-powertrains: { class: tool-edge }
+transport_ice-powertrains_fuel-and-exhaust-systems -> transport_ice-powertrains: { class: tool-edge }
+transport_ice-powertrains_manual-transmissions -> transport_ice-powertrains: { class: tool-edge }
+transport_ice-powertrains -> transport_motor-vehicles: { class: tool-edge }
+transport_motor-vehicles_body-panel-stamping -> transport_motor-vehicles: { class: tool-edge }
+transport_motor-vehicles_brake-systems -> transport_motor-vehicles: { class: tool-edge }
+transport_motor-vehicles_chassis-frame-construction -> transport_motor-vehicles: { class: tool-edge }
+transport_motor-vehicles_steering-systems -> transport_motor-vehicles: { class: tool-edge }
+transport_motor-vehicles_suspension-systems -> transport_motor-vehicles: { class: tool-edge }
+transport_motor-vehicles -> transport_roads: { class: tool-edge }
+transport_motor-vehicles -> transport_tire-manufacturing: { class: tool-edge }
+transport_motorcycles_motorcycle-frames -> transport_motorcycles: { class: tool-edge }
+transport_motorcycles_motorcycle-powertrain -> transport_motorcycles: { class: tool-edge }
+transport_motorcycles_motorcycle-suspension -> transport_motorcycles: { class: tool-edge }
+transport_motorcycles -> transport_tire-manufacturing: { class: tool-edge }
+transport_road-construction-equipment -> transport: { class: tool-edge }
+transport_roads -> transport_road-construction-equipment: { class: tool-edge }
+transport_tire-manufacturing_curing-and-finishing -> transport_tire-manufacturing: { class: tool-edge }
+transport_tire-manufacturing_rubber-compounding -> transport_tire-manufacturing: { class: tool-edge }
+transport_tire-manufacturing_tire-building -> transport_tire-manufacturing: { class: tool-edge }
 defense -> transport: { class: tool-edge }
 economics-organization_supply-chain -> transport: { class: tool-edge }
 economics-organization_trade -> transport: { class: tool-edge }
@@ -185,14 +276,38 @@ marine -> transport_shipping: { class: tool-edge }
 telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
 telecom_submarine-cables -> transport_shipping: { class: tool-edge }
 telecom -> transport_telegraph: { class: tool-edge }
-transport_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
-transport_aviation -> energy_engine: { class: tool-edge }
-transport_aviation -> machine-tools: { class: tool-edge }
-transport_aviation -> metals_aluminum: { class: material-edge }
-transport_aviation -> textiles: { class: material-edge }
+transport_diesel-locomotives -> energy_electricity_motor: { class: material-edge }
+transport_diesel-locomotives -> energy_internal-combustion: { class: material-edge }
+transport_diesel-locomotives -> metals_iron-steel: { class: material-edge }
+transport_electric-railways -> energy_electricity_motor: { class: material-edge }
+transport_electric-railways -> energy_electricity: { class: material-edge }
+transport_electric-railways -> metals_aluminum: { class: material-edge }
+transport_electric-railways -> metals_iron-steel: { class: material-edge }
+transport_electric-vehicles -> chemistry: { class: material-edge }
+transport_electric-vehicles -> electronics: { class: material-edge }
+transport_electric-vehicles -> energy_electricity_motor: { class: material-edge }
+transport_electric-vehicles -> energy_electricity: { class: material-edge }
+transport_high-speed-rail -> energy_electricity_motor: { class: material-edge }
+transport_high-speed-rail -> energy_electricity: { class: material-edge }
+transport_high-speed-rail -> metals_iron-steel: { class: material-edge }
+transport_ice-powertrains -> energy_fuels: { class: material-edge }
+transport_ice-powertrains -> energy_internal-combustion: { class: material-edge }
+transport_ice-powertrains -> machine-tools_gears: { class: material-edge }
+transport_ice-powertrains -> metals_iron-steel: { class: material-edge }
+transport_motor-vehicles -> energy_internal-combustion: { class: tool-edge }
+transport_motor-vehicles -> machine-tools: { class: tool-edge }
+transport_motor-vehicles -> metals_aluminum: { class: material-edge }
+transport_motor-vehicles -> metals_iron-steel: { class: material-edge }
+transport_motorcycles -> energy_electricity_motor: { class: tool-edge }
+transport_motorcycles -> energy_internal-combustion: { class: tool-edge }
+transport_motorcycles -> machine-tools: { class: tool-edge }
+transport_motorcycles -> metals_iron-steel: { class: material-edge }
 transport_railways -> energy_steam-power: { class: tool-edge }
 transport_railways -> metals_forming: { class: material-edge }
 transport_railways -> metals_iron-steel: { class: material-edge }
+transport_road-construction-equipment -> animals_draft-power: { class: tool-edge }
+transport_road-construction-equipment -> metals_iron-steel: { class: material-edge }
+transport_road-construction-equipment -> mining: { class: tool-edge }
 transport_roads -> animals_draft-power: { class: tool-edge }
 transport_roads -> foundations_tools-basic: { class: tool-edge }
 transport_roads -> mining: { class: material-edge }
@@ -200,6 +315,10 @@ transport_shipping -> textiles: { class: material-edge }
 transport_telegraph -> chemistry_acids: { class: tool-edge }
 transport_telegraph -> energy_electricity: { class: tool-edge }
 transport_telegraph -> metals_iron-steel: { class: material-edge }
+transport_tire-manufacturing -> chemistry: { class: tool-edge }
+transport_tire-manufacturing -> metals_iron-steel: { class: material-edge }
+transport_tire-manufacturing -> polymers: { class: material-edge }
+transport_tire-manufacturing -> textiles: { class: material-edge }
 transport -> chemistry_coatings: { class: material-edge }
 transport -> energy_engine: { class: tool-edge }
 transport -> energy_fuels: { class: tool-edge }
@@ -211,25 +330,65 @@ transport -> mining: { class: material-edge }
 
 # ==================== STYLING ====================
 transport.class: domain
-transport_aviation.class: capability
 transport_railways.class: capability
 transport_roads.class: capability
 transport_shipping.class: capability
 transport_telegraph.class: capability
+transport_diesel-locomotives_diesel-electric-powertrain.class: process
+transport_diesel-locomotives_dynamic-braking.class: process
+transport_diesel-locomotives.class: capability
+transport_diesel-locomotives_road-switcher-design.class: process
+transport_electric-railways.class: capability
+transport_electric-railways_overhead-electrification.class: process
+transport_electric-railways_regenerative-braking.class: process
+transport_electric-railways_traction-motor-design.class: process
+transport_electric-vehicles_battery-packs.class: process
+transport_electric-vehicles_charging-systems.class: process
+transport_electric-vehicles_ev-traction-motors.class: process
+transport_electric-vehicles_fuel-cell-systems.class: process
+transport_electric-vehicles.class: capability
+transport_high-speed-rail_aerodynamic-design.class: process
+transport_high-speed-rail.class: capability
+transport_high-speed-rail_maglev-systems.class: process
+transport_high-speed-rail_track-geometry.class: process
+transport_ice-powertrains_automatic-transmissions.class: process
+transport_ice-powertrains_drivetrain-architecture.class: process
+transport_ice-powertrains_fuel-and-exhaust-systems.class: process
+transport_ice-powertrains.class: capability
+transport_ice-powertrains_manual-transmissions.class: process
+transport_motor-vehicles_body-panel-stamping.class: process
+transport_motor-vehicles_brake-systems.class: process
+transport_motor-vehicles_chassis-frame-construction.class: process
+transport_motor-vehicles.class: capability
+transport_motor-vehicles_steering-systems.class: process
+transport_motor-vehicles_suspension-systems.class: process
+transport_motorcycles.class: capability
+transport_motorcycles_motorcycle-frames.class: process
+transport_motorcycles_motorcycle-powertrain.class: process
+transport_motorcycles_motorcycle-suspension.class: process
+transport_road-construction-equipment.class: capability
+transport_tire-manufacturing_curing-and-finishing.class: process
+transport_tire-manufacturing.class: capability
+transport_tire-manufacturing_rubber-compounding.class: process
+transport_tire-manufacturing_tire-building.class: process
 animals_draft-power.class: external
+chemistry.class: external
 chemistry_acids.class: external
 chemistry_coatings.class: external
-chemistry_petroleum-alternatives.class: external
 defense.class: external
 economics-organization_supply-chain.class: external
 economics-organization_trade.class: external
+electronics.class: external
 energy.class: external
 energy_electricity.class: external
+energy_electricity_motor.class: external
 energy_engine.class: external
 energy_fuels.class: external
+energy_internal-combustion.class: external
 energy_steam-power.class: external
 foundations_tools-basic.class: external
 machine-tools.class: external
+machine-tools_gears.class: external
 marine.class: external
 marine_shipbuilding.class: external
 metals.class: external
@@ -238,6 +397,7 @@ metals_forming.class: external
 metals_iron-steel.class: external
 mining.class: external
 mining_extraction.class: external
+polymers.class: external
 telecom.class: external
 telecom_electric-telegraph.class: external
 telecom_submarine-cables.class: external

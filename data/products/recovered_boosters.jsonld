@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recovered_boosters",
+  "@type": "Product",
+  "name": "Recovered Boosters",
+  "source": "launch-vehicles.edl.retropropulsion",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

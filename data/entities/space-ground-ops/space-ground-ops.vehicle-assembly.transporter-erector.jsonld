@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Transporter/erector launcher (TEL) and Crawler-Transporter design: strongback structure, hydraulic erecting cylinders, crawler transporter with 2,700-ton payload at 1.6 km/hr max speed, 8 track pads (57 shoes each), laser-guided leveling to ±15 cm, 6.6M kg empty mass.",
+  "early_win": false,
+  "id": "space-ground-ops.vehicle-assembly.transporter-erector",
+  "level": "process",
+  "name": "Transporter/Erector & Crawler",
+  "outputs": [
+    "integrated_vehicles"
+  ],
+  "parent": "space-ground-ops.vehicle-assembly",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

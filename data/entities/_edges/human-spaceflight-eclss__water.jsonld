@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.eclss__water",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.eclss",
+  "to": "water",
+  "label": "Filtration, ion exchange, and purification heritage for water recovery processing"
+}

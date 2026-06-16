@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-ion__electronics.power-electronics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-ion",
+  "to": "electronics.power-electronics",
+  "label": "Power Processing Unit delivering high-voltage DC for ion acceleration and beam extraction"
+}

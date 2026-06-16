@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.space-suits__metals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "human-spaceflight.space-suits",
+  "to": "metals",
+  "label": "aluminum and titanium pressure vessels, fittings, and bearing housings"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "diesel_locomotives",
+  "@type": "Product",
+  "name": "Diesel Locomotives",
+  "source": "transport.diesel-locomotives",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

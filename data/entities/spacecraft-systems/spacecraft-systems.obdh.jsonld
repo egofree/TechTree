@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Onboard Data Handling (OBDH): radiation-tolerant flight computers, SpaceWire and MIL-STD-1553B data buses, solid-state mass storage, and real-time flight software for spacecraft command and control.",
+  "early_win": false,
+  "id": "spacecraft-systems.obdh",
+  "level": "capability",
+  "name": "Onboard Data Handling",
+  "outputs": [
+    "onboard_electronics"
+  ],
+  "parent": "spacecraft-systems",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

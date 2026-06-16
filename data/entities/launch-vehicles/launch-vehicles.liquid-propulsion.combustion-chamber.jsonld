@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Combustion Chamber - see documentation for details.",
+  "early_win": false,
+  "id": "launch-vehicles.liquid-propulsion.combustion-chamber",
+  "level": "process",
+  "name": "Combustion Chamber",
+  "outputs": [
+    "liquid_engines"
+  ],
+  "parent": "launch-vehicles.liquid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

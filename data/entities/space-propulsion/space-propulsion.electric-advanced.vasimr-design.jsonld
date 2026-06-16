@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "VASIMR Design - see documentation for details.",
+  "early_win": false,
+  "id": "space-propulsion.electric-advanced.vasimr-design",
+  "level": "process",
+  "name": "VASIMR Design",
+  "outputs": [
+    "advanced_thrusters"
+  ],
+  "parent": "space-propulsion.electric-advanced",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

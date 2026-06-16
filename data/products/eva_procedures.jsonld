@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eva_procedures",
+  "@type": "Product",
+  "name": "Eva Procedures",
+  "source": "human-spaceflight.eva.eva-procedures",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

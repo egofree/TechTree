@@ -3,7 +3,7 @@
 # The validator (check_entity_doc_sync) skips these when checking doc->entity sync.
 # One relative repo path per line. Lines starting with '#' are comments.
 # Do NOT remove entries without creating a corresponding entity file.
-# Total: 163 article-only docs across 20 domains.
+# Total: 163 article-only docs across 21 domains.
 
 # chemistry (5)
 docs/chemistry/sem-tech-acid-regeneration.md
@@ -192,8 +192,10 @@ docs/textiles/spinning-frame-mule.md
 docs/textiles/spinning-frame-ring.md
 docs/textiles/spinning-frame-water.md
 
-# transport (2)
-docs/transport/light-aircraft.md
+# aerospace (1)
+docs/aerospace/light-aircraft.md
+
+# transport (1)
 docs/transport/road-construction-equipment.md
 
 # vlsi-scaling (2)

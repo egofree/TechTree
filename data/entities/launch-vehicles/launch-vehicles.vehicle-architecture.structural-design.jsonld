@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Launch vehicle structural design: propellant tank architecture (Aluminium-Lithium 2195 alloy, isogrid and orthogrid milled patterns for mass efficiency), interstage load-carrying cylinders, and thrust structures transmitting engine force to the vehicle. Tank walls serve double duty as propellant container and primary airframe — requiring integrated structural and pressure-vessel design.",
+  "early_win": false,
+  "id": "launch-vehicles.vehicle-architecture.structural-design",
+  "level": "process",
+  "name": "Structural Design",
+  "outputs": [
+    "propellant_tanks",
+    "thrust_structures",
+    "isogrid_panels"
+  ],
+  "parent": "launch-vehicles.vehicle-architecture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "crew_heat_shields",
+  "@type": "Product",
+  "name": "Crew Heat Shields",
+  "source": "human-spaceflight.crewed-spacecraft.reentry-systems",
+  "tags": {
+    "material": [
+      "ceramics",
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

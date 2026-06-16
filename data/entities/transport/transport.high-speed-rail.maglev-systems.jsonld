@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Magnetic levitation transport using electromagnetic suspension (EMS, attractive, Transrapid) or electrodynamic suspension (EDS, repulsive, superconducting JR-Maglev) to eliminate wheel-rail contact, enabling 500+ km/h cruising. Requires precision-fabricated guideway, active gap control, and linear motor propulsion.",
+  "early_win": false,
+  "id": "transport.high-speed-rail.maglev-systems",
+  "level": "process",
+  "name": "Magnetic Levitation Systems",
+  "outputs": [
+    "high_speed_trains"
+  ],
+  "parent": "transport.high-speed-rail",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-70+"
+}

@@ -25,6 +25,7 @@ graph TD
     energy("Energy")
     energy_pneumatics("Pneumatics")
     glass_basic_float-glass("Float Glass Process")
+    human-spaceflight_eclss("Environmental Control & Life Support")
     metals_iron-steel("Iron & Steel Production")
     metals_pipe-making("Pipe and Tube Manufacturing")
     photolithography("Photolithography & IC Fabrication")
@@ -34,6 +35,8 @@ graph TD
     precision-motion_vibration-isolation("Vibration Isolation")
     silicon("Silicon")
     silicon_purification("Silicon Purification")
+    space-ground-ops_launch-complex("Launch Complex")
+    space-resources_mars-isru("Mars ISRU")
     vacuum("Vacuum Technology")
     vacuum_deposition-systems("Deposition Systems")
     vacuum_leak-detection("Vacuum Leak Detection & Seal Integrity")
@@ -57,12 +60,15 @@ graph TD
     gas-handling --> metals_pipe-making
     gas-handling -.-> polymers_seals-gaskets
     glass_basic_float-glass -.-> gas-handling_basic
+    human-spaceflight_eclss -.-> gas-handling
     photolithography_fab-processes_cvd --> gas-handling_basic
     photolithography_fab-processes_plasma-etching --> gas-handling_basic
     photolithography -.-> gas-handling
     precision-motion_vibration-isolation -.-> gas-handling
     silicon_purification -.-> gas-handling_basic
     silicon -.-> gas-handling
+    space-ground-ops_launch-complex -.-> gas-handling
+    space-resources_mars-isru -.-> gas-handling
     vacuum_deposition-systems -.-> gas-handling
     vacuum_leak-detection -.-> gas-handling
     vacuum -.-> gas-handling
@@ -96,6 +102,7 @@ graph TD
     class energy external
     class energy_pneumatics external
     class glass_basic_float-glass external
+    class human-spaceflight_eclss external
     class metals_iron-steel external
     class metals_pipe-making external
     class photolithography external
@@ -105,6 +112,8 @@ graph TD
     class precision-motion_vibration-isolation external
     class silicon external
     class silicon_purification external
+    class space-ground-ops_launch-complex external
+    class space-resources_mars-isru external
     class vacuum external
     class vacuum_deposition-systems external
     class vacuum_leak-detection external

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "area_ruled_airframe",
+  "@type": "Product",
+  "name": "Area Ruled Airframe",
+  "source": "aerospace.supersonic-flight.supersonic-aerodynamics",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

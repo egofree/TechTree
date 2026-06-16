@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Lightweight lunar regolith excavation using the RASSOR bucket-drum architecture and pneumatic conveyance, targeting 30-50 kg/h feed rate for a sub-100 kg excavator mass to defeat the 1.62 m/s2 gravity and abrasive regolith challenge.",
+  "early_win": false,
+  "id": "space-resources.lunar-isru.regolith-excavation",
+  "level": "process",
+  "name": "Regolith Excavation",
+  "outputs": [
+    "lunar_oxygen"
+  ],
+  "parent": "space-resources.lunar-isru",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

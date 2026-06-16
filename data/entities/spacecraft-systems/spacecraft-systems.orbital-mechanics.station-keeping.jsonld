@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Station-keeping budgeting for GEO (North-South ~50 m/s/yr, East-West ~2 m/s/yr) and LEO drag-make-up maneuvers accounting for J2 perturbation, solar radiation pressure, and atmospheric drag.",
+  "early_win": false,
+  "id": "spacecraft-systems.orbital-mechanics.station-keeping",
+  "level": "process",
+  "name": "Station-Keeping",
+  "outputs": [
+    "station_keeping_schedules"
+  ],
+  "parent": "spacecraft-systems.orbital-mechanics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Motorcycle powertrain integration: engine configurations (single, parallel-twin, inline-four, V-twin, boxer), sequential constant-mesh gearbox, wet multi-plate clutch, and final drive systems (chain, belt, shaft). Covers power delivery characteristics, gearing for varied top speed versus acceleration tradeoffs, and electric motorcycle powertrains using hub motors or mid-drive motors with single-speed reduction. Builds on internal-combustion engine and electric motor capabilities without duplicating their fundamentals.",
+  "early_win": false,
+  "id": "transport.motorcycles.motorcycle-powertrain",
+  "level": "process",
+  "name": "Motorcycle Powertrain Integration",
+  "outputs": [
+    "motorcycles"
+  ],
+  "parent": "transport.motorcycles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

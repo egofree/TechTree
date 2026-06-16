@@ -1,0 +1,234 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+space-ground-ops_internal: "Space Ground Operations — Internal Structure" {
+  space-ground-ops_ground-stations_antenna-systems: Antenna Systems
+  space-ground-ops_ground-stations: Ground Stations
+  space-ground-ops_ground-stations_network-distribution: Network Distribution
+  space-ground-ops_ground-stations_rf-front-ends: RF Front-Ends
+  space-ground-ops_launch-complex_gantry-tower: "Gantry & Service Tower"
+  space-ground-ops_launch-complex: Launch Complex
+  space-ground-ops_launch-complex_lightning-protection: Lightning Protection Systems
+  space-ground-ops_launch-complex_pad-structure: "Pad Structure & Flame Trench"
+  space-ground-ops_launch-complex_propellant-facilities: Propellant Storage Facilities
+  space-ground-ops_mission-control: Mission Control
+  space-ground-ops_mission-control_mcc-facilities: MCC Facilities
+  space-ground-ops_mission-control_telemetry-processing: Telemetry Processing
+  space-ground-ops_range-safety_flight-termination: Flight Termination
+  space-ground-ops_range-safety: Range Safety
+  space-ground-ops_range-safety_optical-tracking: Optical Tracking
+  space-ground-ops_range-safety_range-radar: Range Radar
+  space-ground-ops_vehicle-assembly: Vehicle Assembly
+  space-ground-ops_vehicle-assembly_transporter-erector: "Transporter/Erector & Crawler"
+  space-ground-ops_vehicle-assembly_vab-facilities: Vertical Assembly Building
+}
+
+# ==================== DOMAIN NODE ====================
+space-ground-ops: Space Ground Operations
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+computing: "Computing & Automation" {
+  shape: rectangle
+}
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+cryogenics_liquefaction-storage: "Gas Liquefaction & Storage" {
+  shape: rectangle
+}
+defense: "Defense & Military Engineering" {
+  shape: rectangle
+}
+electronics: Electronics {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+gas-handling: Gas Handling {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+optics: Optics {
+  shape: rectangle
+}
+telecom_radio: Radio Communication {
+  shape: rectangle
+}
+water: Water {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+space-ground-ops_ground-stations_antenna-systems -> space-ground-ops_ground-stations: { class: tool-edge }
+space-ground-ops_ground-stations_network-distribution -> space-ground-ops_ground-stations: { class: tool-edge }
+space-ground-ops_ground-stations_rf-front-ends -> space-ground-ops_ground-stations: { class: tool-edge }
+space-ground-ops_launch-complex_gantry-tower -> space-ground-ops_launch-complex: { class: tool-edge }
+space-ground-ops_launch-complex_lightning-protection -> space-ground-ops_launch-complex: { class: tool-edge }
+space-ground-ops_launch-complex_pad-structure -> space-ground-ops_launch-complex: { class: tool-edge }
+space-ground-ops_launch-complex_propellant-facilities -> space-ground-ops_launch-complex: { class: tool-edge }
+space-ground-ops_mission-control_mcc-facilities -> space-ground-ops_mission-control: { class: tool-edge }
+space-ground-ops_mission-control_telemetry-processing -> space-ground-ops_mission-control: { class: tool-edge }
+space-ground-ops_range-safety_flight-termination -> space-ground-ops_range-safety: { class: tool-edge }
+space-ground-ops_range-safety_optical-tracking -> space-ground-ops_range-safety: { class: tool-edge }
+space-ground-ops_range-safety_range-radar -> space-ground-ops_range-safety: { class: tool-edge }
+space-ground-ops_vehicle-assembly_transporter-erector -> space-ground-ops_vehicle-assembly: { class: tool-edge }
+space-ground-ops_vehicle-assembly_vab-facilities -> space-ground-ops_vehicle-assembly: { class: tool-edge }
+space-ground-ops_ground-stations -> electronics: { class: tool-edge }
+space-ground-ops_ground-stations -> optics: { class: tool-edge }
+space-ground-ops_ground-stations -> telecom_radio: { class: tool-edge }
+space-ground-ops_launch-complex -> construction: { class: tool-edge }
+space-ground-ops_launch-complex -> cryogenics_liquefaction-storage: { class: tool-edge }
+space-ground-ops_launch-complex -> gas-handling: { class: tool-edge }
+space-ground-ops_launch-complex -> metals: { class: material-edge }
+space-ground-ops_launch-complex -> water: { class: material-edge }
+space-ground-ops_mission-control -> computing: { class: tool-edge }
+space-ground-ops_mission-control -> electronics: { class: tool-edge }
+space-ground-ops_mission-control -> telecom_radio: { class: tool-edge }
+space-ground-ops_range-safety -> defense: { class: tool-edge }
+space-ground-ops_range-safety -> optics: { class: tool-edge }
+space-ground-ops_range-safety -> telecom_radio: { class: tool-edge }
+space-ground-ops_vehicle-assembly -> construction: { class: tool-edge }
+space-ground-ops_vehicle-assembly -> machine-tools: { class: tool-edge }
+space-ground-ops_vehicle-assembly -> metals: { class: material-edge }
+space-ground-ops -> foundations: { class: tool-edge }
+
+# ==================== STYLING ====================
+space-ground-ops.class: domain
+space-ground-ops_ground-stations_antenna-systems.class: process
+space-ground-ops_ground-stations.class: capability
+space-ground-ops_ground-stations_network-distribution.class: process
+space-ground-ops_ground-stations_rf-front-ends.class: process
+space-ground-ops_launch-complex_gantry-tower.class: process
+space-ground-ops_launch-complex.class: capability
+space-ground-ops_launch-complex_lightning-protection.class: process
+space-ground-ops_launch-complex_pad-structure.class: process
+space-ground-ops_launch-complex_propellant-facilities.class: process
+space-ground-ops_mission-control.class: capability
+space-ground-ops_mission-control_mcc-facilities.class: process
+space-ground-ops_mission-control_telemetry-processing.class: process
+space-ground-ops_range-safety_flight-termination.class: process
+space-ground-ops_range-safety.class: capability
+space-ground-ops_range-safety_optical-tracking.class: process
+space-ground-ops_range-safety_range-radar.class: process
+space-ground-ops_vehicle-assembly.class: capability
+space-ground-ops_vehicle-assembly_transporter-erector.class: process
+space-ground-ops_vehicle-assembly_vab-facilities.class: process
+computing.class: external
+construction.class: external
+cryogenics_liquefaction-storage.class: external
+defense.class: external
+electronics.class: external
+foundations.class: external
+gas-handling.class: external
+machine-tools.class: external
+metals.class: external
+optics.class: external
+telecom_radio.class: external
+water.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

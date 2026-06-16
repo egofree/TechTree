@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Spacecraft bus primary structure, deployable appendages (solar arrays, antennas, booms), and release mechanisms: honeycomb panels, isogrid machining, hinge and actuator design, and non-explosive release devices.",
+  "early_win": false,
+  "id": "spacecraft-systems.bus-structure",
+  "level": "capability",
+  "name": "Bus Structure + Deployables",
+  "outputs": [
+    "satellite_structures",
+    "deployable_arrays"
+  ],
+  "parent": "spacecraft-systems",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

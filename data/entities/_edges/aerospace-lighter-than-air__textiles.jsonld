@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.lighter-than-air__textiles",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "aerospace.lighter-than-air",
+  "to": "textiles"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Waste management for crewed spacecraft: fecal and urine collection, waste stabilisation, trash compaction, containment of biological and chemical hazards, and venting or storage of waste for return or reprocessing. Crew output is 0.11-0.15 kg feces/day and 1.0-1.5 kg urine/day per person, plus packaging and food residues. Proper containment is essential for cabin hygiene, microbial control, and downstream resource recovery.",
+  "early_win": false,
+  "id": "human-spaceflight.eclss.waste-management",
+  "level": "process",
+  "name": "Waste Management",
+  "outputs": [
+    "eclss_systems"
+  ],
+  "parent": "human-spaceflight.eclss",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

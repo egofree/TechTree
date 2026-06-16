@@ -1,0 +1,38 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Ground segment infrastructure: launch pads, tracking networks, mission control centers, and range safety.",
+  "early_win": false,
+  "id": "space-ground-ops",
+  "level": "domain",
+  "name": "Space Ground Operations",
+  "outputs": [
+    "launch_pads",
+    "integrated_vehicles",
+    "mission_control",
+    "mcc_facilities",
+    "telemetry_processing",
+    "ground_stations",
+    "antenna_systems",
+    "rf_front_ends",
+    "network_distribution",
+    "range_services",
+    "flight_termination",
+    "range_radar",
+    "optical_tracking"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

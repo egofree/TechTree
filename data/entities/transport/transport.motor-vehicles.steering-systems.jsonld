@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and fabrication of vehicle steering systems: rack and pinion, recirculating ball, and power-assisted (hydraulic and electric) mechanisms. Converts driver rotational input at the steering wheel into directional yaw of the front wheels with appropriate feedback and effort.",
+  "early_win": false,
+  "id": "transport.motor-vehicles.steering-systems",
+  "level": "process",
+  "name": "Steering Systems",
+  "outputs": [
+    "steering_systems"
+  ],
+  "parent": "transport.motor-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

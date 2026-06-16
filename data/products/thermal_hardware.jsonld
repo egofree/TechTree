@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thermal_hardware",
+  "@type": "Product",
+  "name": "Thermal Hardware",
+  "source": "spacecraft-systems.thermal-control.active-thermal",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

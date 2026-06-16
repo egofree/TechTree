@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Braking system that converts the train's kinetic energy back into electrical energy via the traction motors acting as generators, returning it to the catenary (or to an on-board resistor/dissipation grid if the line cannot accept reverse power). Recovers 10-25% of traction energy on stopping-and-starting passenger services. Covers blending regenerative with friction braking, line receptivity, and energy storage fallbacks.",
+  "early_win": false,
+  "id": "transport.electric-railways.regenerative-braking",
+  "level": "process",
+  "name": "Regenerative Braking",
+  "outputs": [
+    "electric_locomotives"
+  ],
+  "parent": "transport.electric-railways",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50+"
+}

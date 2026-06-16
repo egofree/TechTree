@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Motorcycles and scooters: two-wheeled vehicles combining lightweight chassis, internal-combustion or electric powertrains, and specialized suspension geometry. Covers frame design (cradle, backbone, perimeter, trellis), suspension (telescopic and upside-down forks, mono-shock rear), and powertrain integration (chain/belt/shaft drive, sequential gearbox). Ranges from 50 cc mopeds to 1000+ cc sport and touring machines.",
+  "early_win": false,
+  "id": "transport.motorcycles",
+  "level": "capability",
+  "name": "Motorcycles & Scooters",
+  "outputs": [
+    "motorcycles",
+    "scooter_frames",
+    "motorcycle_suspensions"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

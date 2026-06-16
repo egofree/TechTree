@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.space-medicine.crew-selection",
+  "@type": "Process",
+  "critical": false,
+  "description": "Medical screening and selection standards for astronaut candidates per NASA-STD-3001 and JAXA/ESA equivalent standards: anthropometric measurement, cardiovascular stress testing, ophthalmologic baseline, psychological evaluation, and radiation exposure history review.",
+  "early_win": false,
+  "id": "human-spaceflight.space-medicine.crew-selection",
+  "level": "process",
+  "name": "Crew Selection",
+  "outputs": [
+    "crew_medical"
+  ],
+  "parent": "human-spaceflight.space-medicine",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

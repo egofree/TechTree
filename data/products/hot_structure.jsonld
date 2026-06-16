@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hot_structure",
+  "@type": "Product",
+  "name": "Hot Structure",
+  "source": "aerospace.supersonic-flight.hypersonic-thermal",
+  "tags": {
+    "material": [
+      "ceramics",
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

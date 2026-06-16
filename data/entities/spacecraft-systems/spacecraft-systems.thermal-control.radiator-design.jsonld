@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Radiator Design - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.thermal-control.radiator-design",
+  "level": "process",
+  "name": "Radiator Design",
+  "outputs": [
+    "thermal_hardware"
+  ],
+  "parent": "spacecraft-systems.thermal-control",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

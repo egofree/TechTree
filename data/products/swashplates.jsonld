@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "swashplates",
+  "@type": "Product",
+  "name": "Swashplates",
+  "source": "aerospace.rotorcraft.flight-control",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

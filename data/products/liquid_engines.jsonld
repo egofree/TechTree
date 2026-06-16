@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "liquid_engines",
+  "@type": "Product",
+  "name": "Liquid Rocket Engines",
+  "source": "launch-vehicles.liquid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

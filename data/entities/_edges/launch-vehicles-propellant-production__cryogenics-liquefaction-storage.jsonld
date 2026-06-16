@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.propellant-production__cryogenics.liquefaction-storage",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.propellant-production",
+  "to": "cryogenics.liquefaction-storage",
+  "label": "LOX heritage: vacuum-insulated dewar storage, cryogenic transfer lines, and boil-off management developed for industrial gas liquefaction directly serve LOX at -183C and LH2 at -253C"
+}

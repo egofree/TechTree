@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Powered, steerable airships (dirigibles) using helium or hydrogen for lift within a rigid, semi-rigid, or non-rigid (blimp) envelope. Internal combustion or electric motors drive propellers for thrust; rudders and elevators provide directional control. Gas airships achieve far greater payload and endurance than hot-air balloons, enabling long-range surveillance, cargo transport, and advertising. Lift depends on gas density rather than sustained heating.",
+  "early_win": false,
+  "id": "aerospace.lighter-than-air.gas-airships",
+  "level": "process",
+  "name": "Gas Airships",
+  "outputs": [
+    "airships"
+  ],
+  "parent": "aerospace.lighter-than-air",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

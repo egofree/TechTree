@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Range tracking radar design: C-band skin-track radars such as the AN/FPS-16 instrumented at metric accuracy, the tracking algorithms that maintain lock during high-acceleration ascent, and the trajectory filter and impact-point predictor that compare measured position against the destruct-line flight envelope in real time.",
+  "early_win": false,
+  "id": "space-ground-ops.range-safety.range-radar",
+  "level": "process",
+  "name": "Range Radar",
+  "outputs": [
+    "range_radar"
+  ],
+  "parent": "space-ground-ops.range-safety",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

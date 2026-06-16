@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "EVA hand tool design including pistol-grip tools, body restraint tethers, foot restraint platforms, and SAFER maneuvering units - see documentation for details.",
+  "early_win": false,
+  "id": "human-spaceflight.eva.eva-tools",
+  "level": "process",
+  "name": "EVA Tools + Restraints",
+  "outputs": [
+    "eva_tools",
+    "body_restraint_systems",
+    "eva_capability"
+  ],
+  "parent": "human-spaceflight.eva",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

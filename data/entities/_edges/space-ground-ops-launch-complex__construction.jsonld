@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-ground-ops.launch-complex__construction",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-ground-ops.launch-complex",
+  "to": "construction",
+  "label": "Reinforced concrete pad hardstand, flame trench structural walls, gantry foundations"
+}

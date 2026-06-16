@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and fabrication of the oxidizer delivery system for hybrid rocket engines. Pressure-fed systems use helium or nitrogen to expel liquid oxidizer (N2O, LOX) from a tank through an injection plate into the combustion port, suited to lower-thrust engines (SpaceShipOne, 74 kN). Pump-fed systems use a turbopump to deliver high-pressure gaseous oxygen (GOX) for high-thrust engines, enabling higher chamber pressure and Isp. Throttle valves and run valves provide thrust modulation and stop/restart.",
+  "early_win": false,
+  "id": "launch-vehicles.hybrid-propulsion.oxidizer-feed-systems",
+  "level": "process",
+  "name": "Oxidizer Feed Systems",
+  "outputs": [
+    "oxidizer_feed_systems"
+  ],
+  "parent": "launch-vehicles.hybrid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

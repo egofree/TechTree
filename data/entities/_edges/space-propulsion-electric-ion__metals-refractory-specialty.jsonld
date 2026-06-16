@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-ion__metals.refractory-specialty",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "space-propulsion.electric-ion",
+  "to": "metals.refractory-specialty",
+  "label": "Molybdenum and tungsten for acceleration grids, hollow cathode orifices, and ion-optics assemblies"
+}

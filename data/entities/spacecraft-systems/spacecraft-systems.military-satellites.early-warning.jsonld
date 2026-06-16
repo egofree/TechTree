@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Early-warning satellites for detecting ballistic missile launches via their thermal plume signatures. SBIRS (Space Based Infrared System) combines GEO and HEO satellites with scanning and staring sensors operating in SWIR and MWIR bands. DSP (Defense Support Program) heritage used 3.6 micron HgCdTe detector arrays. Publicly-documented constellation architecture and sensor bands.",
+  "early_win": false,
+  "id": "spacecraft-systems.military-satellites.early-warning",
+  "level": "process",
+  "name": "Early Warning",
+  "outputs": [
+    "reconnaissance_systems"
+  ],
+  "parent": "spacecraft-systems.military-satellites",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "metals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

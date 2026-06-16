@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "launch_pads",
+  "@type": "Product",
+  "name": "Launch Pads",
+  "source": "space-ground-ops.launch-complex",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

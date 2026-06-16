@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Single-engine propeller aircraft for transport, aerial survey, and emergency medical evacuation. Requires internal combustion engines, aluminum or composite airframes, and basic avionics.",
+  "early_win": false,
+  "id": "aerospace.light-aircraft",
+  "level": "capability",
+  "name": "Light Aircraft",
+  "outputs": [
+    "light_aircraft",
+    "aerial_reconnaissance",
+    "short_range_cargo"
+  ],
+  "parent": "aerospace",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

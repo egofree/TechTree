@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Mission control centre facility design: the console position layout (ISS MCC ~30-50 front-room positions), the flight dynamics backroom for orbit determination and manoeuvre planning, operations planning staff for crew and payload timelines, and the voice loops, command authorisation, and shift-handover procedures that bind them into a 24/7 operations team.",
+  "early_win": false,
+  "id": "space-ground-ops.mission-control.mcc-facilities",
+  "level": "process",
+  "name": "MCC Facilities",
+  "outputs": [
+    "mcc_facilities"
+  ],
+  "parent": "space-ground-ops.mission-control",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

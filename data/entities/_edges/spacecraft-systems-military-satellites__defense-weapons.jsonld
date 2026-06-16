@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.military-satellites__defense.weapons",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.military-satellites",
+  "to": "defense.weapons",
+  "label": "Targeting and weapons-system heritage for co-orbital and ASAT concepts"
+}

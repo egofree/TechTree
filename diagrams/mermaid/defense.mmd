@@ -22,6 +22,8 @@ graph TD
     foundations("Foundations")
     knowledge("Knowledge Preservation & Education")
     metals("Metals")
+    space-ground-ops_range-safety("Range Safety")
+    spacecraft-systems_military-satellites("Military Satellites")
     transport("Transportation & Logistics")
 
     %% ==================== EDGES ====================
@@ -35,6 +37,9 @@ graph TD
     defense -.-> knowledge
     defense --> metals
     defense -.-> transport
+    space-ground-ops_range-safety -.-> defense
+    spacecraft-systems_military-satellites -.-> defense_weapons
+    spacecraft-systems_military-satellites -.-> defense
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -62,5 +67,7 @@ graph TD
     class foundations external
     class knowledge external
     class metals external
+    class space-ground-ops_range-safety external
+    class spacecraft-systems_military-satellites external
     class transport external
     class EdgeLegend,MatNote,ToolNote legend

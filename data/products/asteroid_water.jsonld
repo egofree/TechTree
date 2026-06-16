@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "asteroid_water",
+  "@type": "Product",
+  "name": "Asteroid Water",
+  "source": "space-resources.asteroid-mining.water-extraction-asteroid",
+  "tags": {
+    "material": [
+      "water"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

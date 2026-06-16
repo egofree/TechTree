@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.propellant-production__energy.fuels",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "launch-vehicles.propellant-production",
+  "to": "energy.fuels",
+  "label": "RP-1 from petroleum: highly refined kerosene fraction derived from petroleum distillate processed through the fuel production pipeline"
+}

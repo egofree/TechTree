@@ -94,7 +94,7 @@ Classifies the primary functional capability a node provides.
 | `energy` | Power generation, conversion, distribution | `energy`, `energy.steam-power`, `energy.electricity` |
 | `precision` | Precision manufacturing, metrology | `machine-tools`, `measurement.precision-metrology` |
 | `computing` | Calculation, automation, data processing | `computing`, `vlsi-scaling.eda-design` |
-| `transport` | Movement of materials, people, information | `transport`, `transport.aviation` |
+| `transport` | Movement of materials, people, information | `transport`, `transport.railways` |
 | `health` | Medical, sanitation, safety | `health` |
 | `measurement` | Sensors, instruments, calibration | `measurement`, `optics.inspection` |
 | `cooling` | Refrigeration, thermal management | `energy.storage` (UPS/thermal) |

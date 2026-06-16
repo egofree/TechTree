@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.thermal-control.passive-thermal__spacecraft-systems.thermal-control",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.thermal-control.passive-thermal",
+  "to": "spacecraft-systems.thermal-control"
+}

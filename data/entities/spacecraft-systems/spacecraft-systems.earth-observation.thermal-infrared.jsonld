@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Thermal Infrared Sensors - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.earth-observation.thermal-infrared",
+  "level": "process",
+  "name": "Thermal Infrared Sensors",
+  "outputs": [
+    "eo_payloads"
+  ],
+  "parent": "spacecraft-systems.earth-observation",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

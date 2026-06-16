@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and erection of overhead contact systems (catenary) that supply electric power to pantographs on moving locomotives. Covers tensioning, span lengths, contact-wire wave mechanics, and the trade-off between DC low-voltage (600-3000 V) and AC high-voltage (15 kV/16.7 Hz or 25 kV/50-60 Hz) systems. The defining infrastructure choice that distinguishes mainline electric railways from diesel or third-rail metros.",
+  "early_win": false,
+  "id": "transport.electric-railways.overhead-electrification",
+  "level": "process",
+  "name": "Overhead Electrification",
+  "outputs": [
+    "catenary_systems"
+  ],
+  "parent": "transport.electric-railways",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50+"
+}

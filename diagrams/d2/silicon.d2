@@ -202,6 +202,27 @@ photolithography_fab-processes_ion-implantation: Ion Implantation {
 photolithography_fab-processes_plasma-etching: "Plasma Etching (RIE & DRIE)" {
   shape: rectangle
 }
+space-propulsion_nuclear-electric: Nuclear Electric Propulsion {
+  shape: rectangle
+}
+space-resources_microgravity-manufacturing: Microgravity Manufacturing {
+  shape: rectangle
+}
+spacecraft-systems_earth-observation: Earth Observation Payloads {
+  shape: rectangle
+}
+spacecraft-systems_military-satellites: Military Satellites {
+  shape: rectangle
+}
+spacecraft-systems_radiation-hardening: Radiation Hardening {
+  shape: rectangle
+}
+spacecraft-systems_science-instruments: Science Instruments {
+  shape: rectangle
+}
+spacecraft-systems_spacecraft-power: Spacecraft Power Systems {
+  shape: rectangle
+}
 ultra-pure: Ultra-Pure Materials {
   shape: rectangle
 }
@@ -263,6 +284,13 @@ silicon -> photolithography_fab-processes_cvd: { class: material-edge }
 silicon -> photolithography_fab-processes_ion-implantation: { class: material-edge }
 silicon -> photolithography_fab-processes_plasma-etching: { class: material-edge }
 silicon -> ultra-pure: { class: material-edge }
+space-propulsion_nuclear-electric -> silicon: { class: material-edge }
+space-resources_microgravity-manufacturing -> silicon: { class: tool-edge }
+spacecraft-systems_earth-observation -> silicon: { class: material-edge }
+spacecraft-systems_military-satellites -> silicon: { class: material-edge }
+spacecraft-systems_radiation-hardening -> silicon: { class: material-edge }
+spacecraft-systems_science-instruments -> silicon: { class: material-edge }
+spacecraft-systems_spacecraft-power -> silicon: { class: material-edge }
 vlsi-scaling_eda-design -> silicon_basic-devices: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -309,6 +337,13 @@ photolithography_fab-processes.class: external
 photolithography_fab-processes_cvd.class: external
 photolithography_fab-processes_ion-implantation.class: external
 photolithography_fab-processes_plasma-etching.class: external
+space-propulsion_nuclear-electric.class: external
+space-resources_microgravity-manufacturing.class: external
+spacecraft-systems_earth-observation.class: external
+spacecraft-systems_military-satellites.class: external
+spacecraft-systems_radiation-hardening.class: external
+spacecraft-systems_science-instruments.class: external
+spacecraft-systems_spacecraft-power.class: external
 ultra-pure.class: external
 vacuum.class: external
 vacuum_pumps.class: external

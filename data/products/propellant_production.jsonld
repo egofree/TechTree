@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "propellant_production",
+  "@type": "Product",
+  "name": "Propellant Production",
+  "source": "space-resources",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Telemetry Formatting - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.ttac.tm-formatting",
+  "level": "process",
+  "name": "Telemetry Formatting",
+  "outputs": [
+    "ttac_systems"
+  ],
+  "parent": "spacecraft-systems.ttac",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

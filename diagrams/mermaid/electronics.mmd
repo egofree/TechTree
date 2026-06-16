@@ -62,6 +62,7 @@ graph TD
     electronics["Electronics"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_uav("Unmanned Aerial Vehicles")
     automation("Automation & Robotics")
     automation_equipment-communication("Equipment Communication")
     chemistry("Chemistry")
@@ -74,6 +75,7 @@ graph TD
     energy_photovoltaics("Photovoltaic Solar Power")
     energy_radioisotope-power_advanced-isotope-conversion("Advanced Isotope Conversion")
     glass_fibers("Glass Fiber Production")
+    launch-vehicles_vehicle-architecture("Vehicle Architecture")
     machine-tools("Machine Tools Bootstrap")
     measurement_thermostat-electrical("Electrical Thermostats")
     measurement_thermostat-electronic("Electronic Thermostats")
@@ -87,6 +89,22 @@ graph TD
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
     silicon_basic-devices("Basic Semiconductor Devices")
+    space-ground-ops_ground-stations("Ground Stations")
+    space-ground-ops_mission-control("Mission Control")
+    space-propulsion_electric-advanced("Electric Propulsion — Advanced")
+    space-propulsion_electric-hall("Electric Propulsion — Hall")
+    space-propulsion_electric-ion("Electric Propulsion — Ion")
+    spacecraft-systems_adcs("Attitude Determination & Control")
+    spacecraft-systems_comms-payload("Communications Payload")
+    spacecraft-systems_debris-management("Debris Management")
+    spacecraft-systems_earth-observation("Earth Observation Payloads")
+    spacecraft-systems_navigation-payload("Navigation & PNT Payloads")
+    spacecraft-systems_obdh("Onboard Data Handling")
+    spacecraft-systems_science-instruments("Science Instruments")
+    spacecraft-systems_space-qualification("Space Qualification")
+    spacecraft-systems_spacecraft-power("Spacecraft Power Systems")
+    spacecraft-systems_ttac("TT&C Systems")
+    transport_electric-vehicles("Electric Vehicles")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
@@ -198,6 +216,7 @@ graph TD
     electronics_power-supply-circuits -.-> electronics_electrical-systems
     electronics_power-supply-circuits -.-> electronics_semiconductor-devices
     electronics --> electronics_passive-components
+    aerospace_uav --> electronics
     automation_equipment-communication -.-> electronics
     automation -.-> electronics
     computing_electronic -.-> electronics_assembly
@@ -223,9 +242,26 @@ graph TD
     energy_electricity --> electronics_wire-insulation
     energy_photovoltaics -.-> electronics_power-electronics
     energy_radioisotope-power_advanced-isotope-conversion -.-> electronics
+    launch-vehicles_vehicle-architecture -.-> electronics
     measurement_thermostat-electrical -.-> electronics
     measurement_thermostat-electronic --> electronics
     metals_precious-metals --> electronics
+    space-ground-ops_ground-stations -.-> electronics
+    space-ground-ops_mission-control -.-> electronics
+    space-propulsion_electric-advanced -.-> electronics_power-electronics
+    space-propulsion_electric-hall -.-> electronics_power-electronics
+    space-propulsion_electric-ion -.-> electronics_power-electronics
+    spacecraft-systems_adcs -.-> electronics
+    spacecraft-systems_comms-payload -.-> electronics
+    spacecraft-systems_debris-management -.-> electronics
+    spacecraft-systems_earth-observation -.-> electronics
+    spacecraft-systems_navigation-payload -.-> electronics
+    spacecraft-systems_obdh -.-> electronics
+    spacecraft-systems_science-instruments -.-> electronics
+    spacecraft-systems_space-qualification -.-> electronics
+    spacecraft-systems_spacecraft-power -.-> electronics
+    spacecraft-systems_ttac -.-> electronics
+    transport_electric-vehicles --> electronics
     vlsi-scaling_eda-design -.-> electronics_assembly
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -294,6 +330,7 @@ graph TD
     class electronics_power-supply-circuits_switching-regulators process
     class electronics_semiconductor-devices critical
     class electronics_wire-insulation critical
+    class aerospace_uav external
     class automation external
     class automation_equipment-communication external
     class chemistry external
@@ -306,6 +343,7 @@ graph TD
     class energy_photovoltaics external
     class energy_radioisotope-power_advanced-isotope-conversion external
     class glass_fibers external
+    class launch-vehicles_vehicle-architecture external
     class machine-tools external
     class measurement_thermostat-electrical external
     class measurement_thermostat-electronic external
@@ -319,5 +357,21 @@ graph TD
     class polymers_thermoplastics external
     class polymers_thermosets external
     class silicon_basic-devices external
+    class space-ground-ops_ground-stations external
+    class space-ground-ops_mission-control external
+    class space-propulsion_electric-advanced external
+    class space-propulsion_electric-hall external
+    class space-propulsion_electric-ion external
+    class spacecraft-systems_adcs external
+    class spacecraft-systems_comms-payload external
+    class spacecraft-systems_debris-management external
+    class spacecraft-systems_earth-observation external
+    class spacecraft-systems_navigation-payload external
+    class spacecraft-systems_obdh external
+    class spacecraft-systems_science-instruments external
+    class spacecraft-systems_space-qualification external
+    class spacecraft-systems_spacecraft-power external
+    class spacecraft-systems_ttac external
+    class transport_electric-vehicles external
     class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

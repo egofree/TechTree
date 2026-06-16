@@ -1,0 +1,146 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Space Propulsion
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph space-propulsion_internal ["Space Propulsion — Internal Structure"]
+        direction TB
+        space-propulsion_electric-advanced_arcjet-design["Arcjet Design"]
+        space-propulsion_electric-advanced["Electric Propulsion — Advanced"]
+        space-propulsion_electric-advanced_magnetoplasmadynamic["Magnetoplasmadynamic"]
+        space-propulsion_electric-advanced_vasimr-design["VASIMR Design"]
+        space-propulsion_electric-hall_cathode-design["Cathode Design"]
+        space-propulsion_electric-hall_hall-thruster-design["Hall Thruster Design"]
+        space-propulsion_electric-hall["Electric Propulsion — Hall"]
+        space-propulsion_electric-hall_magnetic-circuit-design["Magnetic Circuit Design"]
+        space-propulsion_electric-ion_acceleration-grids["Acceleration Grids"]
+        space-propulsion_electric-ion_ionization-chamber["Ionization Chamber"]
+        space-propulsion_electric-ion["Electric Propulsion — Ion"]
+        space-propulsion_electric-ion_neutralizer-design["Neutralizer Design"]
+        space-propulsion_electric-ion_power-processing-unit["Power Processing Unit"]
+        space-propulsion_nuclear-electric_electric-propulsion-integration["Electric Propulsion Integration"]
+        space-propulsion_nuclear-electric_heat-radiator-design["Heat Radiator Design"]
+        space-propulsion_nuclear-electric["Nuclear Electric Propulsion"]
+        space-propulsion_nuclear-electric_reactor-power-conversion["Reactor Power Conversion"]
+        space-propulsion_nuclear-thermal["Nuclear Thermal Propulsion"]
+        space-propulsion_nuclear-thermal_nozzle-integration["Nozzle Integration"]
+        space-propulsion_nuclear-thermal_propellant-feed["Propellant Feed System"]
+        space-propulsion_nuclear-thermal_radiation-shielding-engine["Radiation Shielding"]
+        space-propulsion_nuclear-thermal_reactor-core-design["Reactor Core Design"]
+        space-propulsion_propellant-storage["Cryogenic Propellant Storage & Transfer"]
+        space-propulsion_propellant-storage_long-duration-storage["Long-Duration Storage"]
+        space-propulsion_propellant-storage_propellant-transfer["Propellant Transfer"]
+        space-propulsion_propellant-storage_zero-boiloff-systems["Zero Boil-Off Systems"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    space-propulsion["Space Propulsion"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics("Ceramics & Refractories")
+    cryogenics_liquefaction-storage("Gas Liquefaction & Storage")
+    electronics_power-electronics("Power Electronics")
+    energy_nuclear-fission("Nuclear Fission Power")
+    energy_nuclear-fission_reactor-design("Reactor Design")
+    foundations("Foundations")
+    metals("Metals")
+    metals_refractory-specialty("Refractory & Specialty Metals for Semiconductor Manufacturing")
+    silicon("Silicon")
+    vacuum("Vacuum Technology")
+    vacuum_chambers("Vacuum Chambers & Sealing")
+
+    %% ==================== EDGES ====================
+    space-propulsion_electric-advanced_arcjet-design -.-> space-propulsion_electric-advanced
+    space-propulsion_electric-advanced_magnetoplasmadynamic -.-> space-propulsion_electric-advanced
+    space-propulsion_electric-advanced_vasimr-design -.-> space-propulsion_electric-advanced
+    space-propulsion_electric-hall_cathode-design -.-> space-propulsion_electric-hall
+    space-propulsion_electric-hall_hall-thruster-design -.-> space-propulsion_electric-hall
+    space-propulsion_electric-hall_magnetic-circuit-design -.-> space-propulsion_electric-hall
+    space-propulsion_electric-ion_acceleration-grids -.-> space-propulsion_electric-ion
+    space-propulsion_electric-ion_ionization-chamber -.-> space-propulsion_electric-ion
+    space-propulsion_electric-ion_neutralizer-design -.-> space-propulsion_electric-ion
+    space-propulsion_electric-ion_power-processing-unit -.-> space-propulsion_electric-ion
+    space-propulsion_nuclear-electric_electric-propulsion-integration -.-> space-propulsion_nuclear-electric
+    space-propulsion_nuclear-electric_heat-radiator-design -.-> space-propulsion_nuclear-electric
+    space-propulsion_nuclear-electric_reactor-power-conversion -.-> space-propulsion_nuclear-electric
+    space-propulsion_nuclear-thermal_nozzle-integration -.-> space-propulsion_nuclear-thermal
+    space-propulsion_nuclear-thermal_propellant-feed -.-> space-propulsion_nuclear-thermal
+    space-propulsion_nuclear-thermal_radiation-shielding-engine -.-> space-propulsion_nuclear-thermal
+    space-propulsion_nuclear-thermal_reactor-core-design -.-> space-propulsion_nuclear-thermal
+    space-propulsion_propellant-storage_long-duration-storage -.-> space-propulsion_propellant-storage
+    space-propulsion_propellant-storage_propellant-transfer -.-> space-propulsion_propellant-storage
+    space-propulsion_propellant-storage_zero-boiloff-systems -.-> space-propulsion_propellant-storage
+    space-propulsion_electric-advanced -.-> electronics_power-electronics
+    space-propulsion_electric-advanced --> metals
+    space-propulsion_electric-advanced -.-> vacuum_chambers
+    space-propulsion_electric-hall --> ceramics
+    space-propulsion_electric-hall -.-> electronics_power-electronics
+    space-propulsion_electric-hall -.-> vacuum_chambers
+    space-propulsion_electric-ion -.-> electronics_power-electronics
+    space-propulsion_electric-ion --> metals_refractory-specialty
+    space-propulsion_electric-ion -.-> vacuum_chambers
+    space-propulsion_nuclear-electric -.-> energy_nuclear-fission
+    space-propulsion_nuclear-electric --> metals
+    space-propulsion_nuclear-electric --> silicon
+    space-propulsion_nuclear-thermal --> cryogenics_liquefaction-storage
+    space-propulsion_nuclear-thermal -.-> energy_nuclear-fission_reactor-design
+    space-propulsion_nuclear-thermal -.-> energy_nuclear-fission
+    space-propulsion_nuclear-thermal --> metals
+    space-propulsion_propellant-storage -.-> cryogenics_liquefaction-storage
+    space-propulsion_propellant-storage --> metals
+    space-propulsion_propellant-storage -.-> vacuum
+    space-propulsion -.-> foundations
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class space-propulsion domain
+    class space-propulsion_electric-advanced_arcjet-design process
+    class space-propulsion_electric-advanced capability
+    class space-propulsion_electric-advanced_magnetoplasmadynamic process
+    class space-propulsion_electric-advanced_vasimr-design process
+    class space-propulsion_electric-hall_cathode-design process
+    class space-propulsion_electric-hall_hall-thruster-design process
+    class space-propulsion_electric-hall capability
+    class space-propulsion_electric-hall_magnetic-circuit-design process
+    class space-propulsion_electric-ion_acceleration-grids process
+    class space-propulsion_electric-ion_ionization-chamber process
+    class space-propulsion_electric-ion capability
+    class space-propulsion_electric-ion_neutralizer-design process
+    class space-propulsion_electric-ion_power-processing-unit process
+    class space-propulsion_nuclear-electric_electric-propulsion-integration process
+    class space-propulsion_nuclear-electric_heat-radiator-design process
+    class space-propulsion_nuclear-electric capability
+    class space-propulsion_nuclear-electric_reactor-power-conversion process
+    class space-propulsion_nuclear-thermal capability
+    class space-propulsion_nuclear-thermal_nozzle-integration process
+    class space-propulsion_nuclear-thermal_propellant-feed process
+    class space-propulsion_nuclear-thermal_radiation-shielding-engine process
+    class space-propulsion_nuclear-thermal_reactor-core-design process
+    class space-propulsion_propellant-storage capability
+    class space-propulsion_propellant-storage_long-duration-storage process
+    class space-propulsion_propellant-storage_propellant-transfer process
+    class space-propulsion_propellant-storage_zero-boiloff-systems process
+    class ceramics external
+    class cryogenics_liquefaction-storage external
+    class electronics_power-electronics external
+    class energy_nuclear-fission external
+    class energy_nuclear-fission_reactor-design external
+    class foundations external
+    class metals external
+    class metals_refractory-specialty external
+    class silicon external
+    class vacuum external
+    class vacuum_chambers external
+    class EdgeLegend,MatNote,ToolNote legend

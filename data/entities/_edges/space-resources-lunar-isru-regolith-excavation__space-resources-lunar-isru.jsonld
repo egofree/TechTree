@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.lunar-isru.regolith-excavation__space-resources.lunar-isru",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-resources.lunar-isru.regolith-excavation",
+  "to": "space-resources.lunar-isru"
+}

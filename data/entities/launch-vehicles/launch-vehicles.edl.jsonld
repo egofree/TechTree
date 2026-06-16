@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Entry, Descent, and Landing (EDL): the sequence of aerodynamic deceleration, thermal protection, and terminal landing manoeuvres that deliver a payload or stage from hypersonic entry to a soft landing. Covers ablative and reusable heat shields, parachute systems, supersonic retropropulsion, and precision navigation for propulsive touchdown.",
+  "early_win": false,
+  "id": "launch-vehicles.edl",
+  "level": "capability",
+  "name": "Entry, Descent & Landing",
+  "outputs": [
+    "heat_shields",
+    "edl_systems",
+    "parachutes"
+  ],
+  "parent": "launch-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "ceramics",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.navigation-payload.laser-retroreflectors__spacecraft-systems.navigation-payload",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.navigation-payload.laser-retroreflectors",
+  "to": "spacecraft-systems.navigation-payload"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "zblan_fiber",
+  "@type": "Product",
+  "name": "Zblan Fiber",
+  "source": "space-resources.microgravity-manufacturing.fiber-pulling",
+  "tags": {
+    "material": [
+      "glass"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Turbopump Design - see documentation for details.",
+  "early_win": false,
+  "id": "launch-vehicles.liquid-propulsion.turbopump-design",
+  "level": "process",
+  "name": "Turbopump Design",
+  "outputs": [
+    "turbopumps"
+  ],
+  "parent": "launch-vehicles.liquid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

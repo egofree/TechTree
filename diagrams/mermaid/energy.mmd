@@ -63,6 +63,12 @@ graph TD
     energy["Energy"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_aviation("Aviation")
+    aerospace_jet-propulsion("Jet Propulsion")
+    aerospace_lighter-than-air("Lighter-than-Air")
+    aerospace_rotorcraft("Rotorcraft")
+    aerospace_turboprop("Turboprop Engines")
+    aerospace_uav("Unmanned Aerial Vehicles")
     agriculture_irrigation("Irrigation Systems")
     agriculture_sem-tech-hydroponics("SEM Tech Hydroponics")
     agriculture_soil-management("Soil Management & Composting")
@@ -107,6 +113,10 @@ graph TD
     glass_basic("Basic Glass Production")
     glass_basic_float-glass("Float Glass Process")
     health_medical-instruments("Medical Instrument Manufacturing")
+    human-spaceflight_eclss("Environmental Control & Life Support")
+    human-spaceflight_radiation-protection("Radiation Protection")
+    launch-vehicles_liquid-propulsion("Liquid Propulsion")
+    launch-vehicles_propellant-production("Propellant Production")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_edm-cnc("EDM, CNC & Precision Grinding")
     machine-tools_forming("Metal Forming")
@@ -156,13 +166,24 @@ graph TD
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     silicon_purification("Silicon Purification")
+    space-propulsion_nuclear-electric("Nuclear Electric Propulsion")
+    space-propulsion_nuclear-thermal("Nuclear Thermal Propulsion")
+    space-resources_lunar-isru("Lunar ISRU")
+    space-resources_mars-isru("Mars ISRU")
+    spacecraft-systems_spacecraft-power("Spacecraft Power Systems")
     telecom("Telecommunications")
     telecom_electric-telegraph("Electrical Telegraph Networks")
     telecom_radio("Radio Communication")
     telecom_telephone("Telephone Systems")
     textiles("Textiles, Fiber & Cordage")
     transport("Transportation & Logistics")
-    transport_aviation("Aviation")
+    transport_diesel-locomotives("Diesel-Electric Locomotives")
+    transport_electric-railways("Electric Railways")
+    transport_electric-vehicles("Electric Vehicles")
+    transport_high-speed-rail("High-Speed Rail")
+    transport_ice-powertrains("ICE Powertrains")
+    transport_motor-vehicles("Motor Vehicle Fundamentals")
+    transport_motorcycles("Motorcycles & Scooters")
     transport_railways("Railways")
     transport_telegraph("Telegraph Communication")
     water_basic-treatment("Basic Water Treatment")
@@ -224,6 +245,12 @@ graph TD
     energy_storage -.-> energy_fuel-cell
     energy_storage -.-> energy_redox-flow-battery
     energy_storage -.-> energy
+    aerospace_aviation -.-> energy_engine
+    aerospace_jet-propulsion -.-> energy_gas-turbine
+    aerospace_lighter-than-air --> energy_fuels
+    aerospace_rotorcraft --> energy_gas-turbine
+    aerospace_turboprop --> energy_gas-turbine
+    aerospace_uav -.-> energy_electricity_motor
     agriculture_irrigation -.-> energy
     agriculture_sem-tech-hydroponics -.-> energy_electricity
     agriculture_soil-management --> energy_fuels_charcoal
@@ -349,6 +376,11 @@ graph TD
     glass_basic_float-glass -.-> energy_electric-furnaces
     glass --> energy
     health_medical-instruments -.-> energy_steam-power
+    human-spaceflight_eclss -.-> energy_fuel-cell
+    human-spaceflight_radiation-protection -.-> energy_nuclear-fission
+    launch-vehicles_liquid-propulsion -.-> energy_gas-turbine
+    launch-vehicles_propellant-production --> energy_electricity
+    launch-vehicles_propellant-production --> energy_fuels
     machine-tools_edm-cnc -.-> energy_electricity
     machine-tools_forming --> energy_fuels
     machine-tools_joining_diffusion-bonding -.-> energy_electric-furnaces
@@ -385,12 +417,31 @@ graph TD
     silicon_mg-si-production -.-> energy
     silicon_purification -.-> energy_electricity
     silicon --> energy
+    space-propulsion_nuclear-electric -.-> energy_nuclear-fission
+    space-propulsion_nuclear-thermal -.-> energy_nuclear-fission_reactor-design
+    space-propulsion_nuclear-thermal -.-> energy_nuclear-fission
+    space-resources_lunar-isru -.-> energy_electricity
+    space-resources_mars-isru -.-> energy_electricity
+    spacecraft-systems_spacecraft-power -.-> energy_photovoltaics
+    spacecraft-systems_spacecraft-power -.-> energy_radioisotope-power
     telecom_electric-telegraph -.-> energy_electricity
     telecom_radio -.-> energy_electricity
     telecom_telephone -.-> energy_electricity
     telecom -.-> energy_electricity
     telecom --> energy_power-distribution
-    transport_aviation -.-> energy_engine
+    transport_diesel-locomotives --> energy_electricity_motor
+    transport_diesel-locomotives --> energy_internal-combustion
+    transport_electric-railways --> energy_electricity_motor
+    transport_electric-railways --> energy_electricity
+    transport_electric-vehicles --> energy_electricity_motor
+    transport_electric-vehicles --> energy_electricity
+    transport_high-speed-rail --> energy_electricity_motor
+    transport_high-speed-rail --> energy_electricity
+    transport_ice-powertrains --> energy_fuels
+    transport_ice-powertrains --> energy_internal-combustion
+    transport_motor-vehicles -.-> energy_internal-combustion
+    transport_motorcycles -.-> energy_electricity_motor
+    transport_motorcycles -.-> energy_internal-combustion
     transport_railways -.-> energy_steam-power
     transport_telegraph -.-> energy_electricity
     transport -.-> energy_engine
@@ -464,6 +515,12 @@ graph TD
     class energy_storage capability
     class energy_storage_pumped-hydro process
     class energy_wind capability
+    class aerospace_aviation external
+    class aerospace_jet-propulsion external
+    class aerospace_lighter-than-air external
+    class aerospace_rotorcraft external
+    class aerospace_turboprop external
+    class aerospace_uav external
     class agriculture_irrigation external
     class agriculture_sem-tech-hydroponics external
     class agriculture_soil-management external
@@ -508,6 +565,10 @@ graph TD
     class glass_basic external
     class glass_basic_float-glass external
     class health_medical-instruments external
+    class human-spaceflight_eclss external
+    class human-spaceflight_radiation-protection external
+    class launch-vehicles_liquid-propulsion external
+    class launch-vehicles_propellant-production external
     class machine-tools external
     class machine-tools_edm-cnc external
     class machine-tools_forming external
@@ -557,13 +618,24 @@ graph TD
     class silicon_basic-devices external
     class silicon_mg-si-production external
     class silicon_purification external
+    class space-propulsion_nuclear-electric external
+    class space-propulsion_nuclear-thermal external
+    class space-resources_lunar-isru external
+    class space-resources_mars-isru external
+    class spacecraft-systems_spacecraft-power external
     class telecom external
     class telecom_electric-telegraph external
     class telecom_radio external
     class telecom_telephone external
     class textiles external
     class transport external
-    class transport_aviation external
+    class transport_diesel-locomotives external
+    class transport_electric-railways external
+    class transport_electric-vehicles external
+    class transport_high-speed-rail external
+    class transport_ice-powertrains external
+    class transport_motor-vehicles external
+    class transport_motorcycles external
     class transport_railways external
     class transport_telegraph external
     class water_basic-treatment external

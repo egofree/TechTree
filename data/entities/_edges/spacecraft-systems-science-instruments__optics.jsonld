@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.science-instruments__optics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.science-instruments",
+  "to": "optics",
+  "label": "Telescope optics, gratings, mirrors, filters for spectrometers and imaging instruments"
+}

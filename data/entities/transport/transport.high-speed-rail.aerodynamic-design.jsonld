@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Shaping of train nose, body, and underframe to minimize aerodynamic drag, crosswind sensitivity, pressure transients in tunnels, and acoustic emissions at speeds where air resistance dominates the power budget. Includes pantograph fairings, bogie skirts, and inter-car gap seals.",
+  "early_win": false,
+  "id": "transport.high-speed-rail.aerodynamic-design",
+  "level": "process",
+  "name": "Aerodynamic Trainset Design",
+  "outputs": [
+    "aerodynamic_train_sets"
+  ],
+  "parent": "transport.high-speed-rail",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-60+"
+}

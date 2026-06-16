@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crew-training.neutral-buoyancy__human-spaceflight.crew-training",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.crew-training.neutral-buoyancy",
+  "to": "human-spaceflight.crew-training"
+}

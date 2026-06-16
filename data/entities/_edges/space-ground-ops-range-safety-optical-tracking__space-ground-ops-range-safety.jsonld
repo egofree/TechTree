@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-ground-ops.range-safety.optical-tracking__space-ground-ops.range-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-ground-ops.range-safety.optical-tracking",
+  "to": "space-ground-ops.range-safety"
+}

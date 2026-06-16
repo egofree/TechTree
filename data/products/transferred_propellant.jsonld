@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "transferred_propellant",
+  "@type": "Product",
+  "name": "Transferred Propellant",
+  "source": "space-propulsion.propellant-storage.propellant-transfer",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

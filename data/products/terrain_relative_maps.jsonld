@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "terrain_relative_maps",
+  "@type": "Product",
+  "name": "Terrain Relative Maps",
+  "source": "launch-vehicles.edl.precision-landing",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

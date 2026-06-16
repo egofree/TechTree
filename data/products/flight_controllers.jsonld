@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "flight_controllers",
+  "@type": "Product",
+  "name": "Flight Controllers",
+  "source": "aerospace.uav",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

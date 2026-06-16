@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "star_trackers",
+  "@type": "Product",
+  "name": "Star Trackers",
+  "source": "spacecraft-systems.adcs.star-trackers",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "glass",
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Integration of a gas turbine core with a propeller through a reduction gearbox, including the constant-speed propeller governor, gearbox lubrication, torque metering, and propeller synchronization systems. Addresses the fundamental speed mismatch between gas turbine aerodynamic efficiency (20,000-40,000 RPM) and propeller tip-Mach limits (1,200-2,500 RPM) via multi-stage epicyclic or planetary gear reduction. The defining engineering challenge of the turboprop architecture.",
+  "early_win": false,
+  "id": "aerospace.turboprop.propeller-integration",
+  "level": "process",
+  "name": "Propeller Integration",
+  "outputs": [
+    "turboprop_engines"
+  ],
+  "parent": "aerospace.turboprop",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.space-suits__glass",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "human-spaceflight.space-suits",
+  "to": "glass",
+  "label": "polycarbonate and pressure-retaining helmet visor shells with gold sun visors"
+}

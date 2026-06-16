@@ -57,6 +57,7 @@ graph TD
     mining_extraction("Mining Extraction")
     textiles("Textiles, Fiber & Cordage")
     textiles_fibers("Fiber Preparation")
+    transport_road-construction-equipment("Road Construction Equipment")
     transport_roads("Road & Bridge Construction")
 
     %% ==================== EDGES ====================
@@ -134,6 +135,7 @@ graph TD
     textiles_fibers --> animals_rabbits
     textiles_fibers --> animals_sheep
     textiles --> animals_leather
+    transport_road-construction-equipment -.-> animals_draft-power
     transport_roads -.-> animals_draft-power
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -197,5 +199,6 @@ graph TD
     class mining_extraction external
     class textiles external
     class textiles_fibers external
+    class transport_road-construction-equipment external
     class transport_roads external
     class EdgeLegend,MatNote,ToolNote legend

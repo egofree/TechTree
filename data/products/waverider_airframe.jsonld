@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "waverider_airframe",
+  "@type": "Product",
+  "name": "Waverider Airframe",
+  "source": "aerospace.supersonic-flight.scramjet-integration",
+  "tags": {
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

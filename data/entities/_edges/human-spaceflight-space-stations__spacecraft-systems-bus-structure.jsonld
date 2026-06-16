@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.space-stations__spacecraft-systems.bus-structure",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.space-stations",
+  "to": "spacecraft-systems.bus-structure",
+  "label": "Module structural heritage and honeycomb panel manufacturing"
+}

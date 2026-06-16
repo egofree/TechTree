@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.supersonic-flight__ceramics",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "aerospace.supersonic-flight",
+  "to": "ceramics",
+  "label": "Refractory ceramics and carbon-carbon composites for thermal protection systems on hypersonic leading edges"
+}

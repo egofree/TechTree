@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Payload fairing design: the aerodynamic shroud protecting payload from acoustic, thermal, and aerodynamic loads during ascent. Covers acoustic blanketing (foam dampeners), thermal protection (cork or ablator coatings), and jettison mechanisms (explosive bolts, pneumatic latches, hinge systems). Fairing jettison typically occurs above 110 km altitude where aerodynamic heating ceases.",
+  "early_win": false,
+  "id": "launch-vehicles.vehicle-architecture.payload-fairing",
+  "level": "process",
+  "name": "Payload Fairing",
+  "outputs": [
+    "payload_fairings",
+    "fairing_jettison_systems"
+  ],
+  "parent": "launch-vehicles.vehicle-architecture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

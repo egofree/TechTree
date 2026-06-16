@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pneumatic_tires",
+  "@type": "Product",
+  "name": "Pneumatic Tires",
+  "source": "transport.tire-manufacturing",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

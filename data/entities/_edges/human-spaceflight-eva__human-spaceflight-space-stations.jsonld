@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.eva__human-spaceflight.space-stations",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.eva",
+  "to": "human-spaceflight.space-stations",
+  "label": "Airlock, handrails, and foot restraint interfaces on station exterior"
+}

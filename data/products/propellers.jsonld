@@ -3,7 +3,7 @@
   "@id": "propellers",
   "@type": "Product",
   "name": "Propellers",
-  "source": "transport",
+  "source": "aerospace.aviation",
   "tags": {
     "capability": [
       "transport"

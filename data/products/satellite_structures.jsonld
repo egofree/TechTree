@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "satellite_structures",
+  "@type": "Product",
+  "name": "Satellite Structures",
+  "source": "spacecraft-systems.bus-structure.primary-structure",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

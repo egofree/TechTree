@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solid_tires",
+  "@type": "Product",
+  "name": "Solid Tires",
+  "source": "transport.tire-manufacturing",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

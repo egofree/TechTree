@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.jet-propulsion.turbojet__aerospace.jet-propulsion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.jet-propulsion.turbojet",
+  "to": "aerospace.jet-propulsion"
+}

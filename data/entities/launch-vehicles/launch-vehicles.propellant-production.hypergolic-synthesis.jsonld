@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Synthesis of hypergolic propellants: monomethylhydrazine (MMH), dinitrogen tetroxide (N2O4), and hydrazine. These ignite on contact without an ignition source, used in spacecraft attitude control and orbital maneuvering engines.",
+  "early_win": false,
+  "id": "launch-vehicles.propellant-production.hypergolic-synthesis",
+  "level": "process",
+  "name": "Hypergolic Synthesis",
+  "outputs": [
+    "hypergolic_propellants"
+  ],
+  "parent": "launch-vehicles.propellant-production",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

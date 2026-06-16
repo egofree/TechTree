@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Pneumatic and solid tire manufacturing: rubber compounding, calendered cord fabric, green-tire building on a drum, and press curing (vulcanization). Produces the only practical interface between a wheeled vehicle and the road — transmitting acceleration, braking, and lateral loads through a compliant air cushion (pneumatic) or a solid elastomeric mass (solid).",
+  "early_win": false,
+  "id": "transport.tire-manufacturing",
+  "level": "capability",
+  "name": "Tire Manufacturing",
+  "outputs": [
+    "pneumatic_tires",
+    "solid_tires",
+    "tire_cord"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

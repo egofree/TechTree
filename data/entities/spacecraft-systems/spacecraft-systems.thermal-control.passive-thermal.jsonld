@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Passive Thermal Control - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.thermal-control.passive-thermal",
+  "level": "process",
+  "name": "Passive Thermal Control",
+  "outputs": [
+    "thermal_hardware"
+  ],
+  "parent": "spacecraft-systems.thermal-control",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

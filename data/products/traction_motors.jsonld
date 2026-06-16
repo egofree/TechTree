@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "traction_motors",
+  "@type": "Product",
+  "name": "Traction Motors",
+  "source": "transport.electric-railways",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

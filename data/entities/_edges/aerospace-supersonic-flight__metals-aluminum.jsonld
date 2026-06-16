@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.supersonic-flight__metals.aluminum",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "aerospace.supersonic-flight",
+  "to": "metals.aluminum",
+  "label": "Lightweight airframe alloys (aluminum, titanium) for supersonic structures; no dedicated titanium entity exists, so the general light-metals capability supplies both"
+}

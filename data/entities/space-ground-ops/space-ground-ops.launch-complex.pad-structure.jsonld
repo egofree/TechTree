@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Launch pad hardstand, flame trench and deflector design, and acoustic deluge suppression delivering up to 1M gallons/min onto the flame bucket. LC-39A/B class pad with wedge/flame deflector, 13m deep flame trench, and reinforced concrete hardstand rated for 7.9M kg liftoff thrust.",
+  "early_win": false,
+  "id": "space-ground-ops.launch-complex.pad-structure",
+  "level": "process",
+  "name": "Pad Structure & Flame Trench",
+  "outputs": [
+    "launch_pads"
+  ],
+  "parent": "space-ground-ops.launch-complex",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

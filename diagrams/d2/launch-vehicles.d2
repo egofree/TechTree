@@ -1,0 +1,291 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+launch-vehicles_internal: "Launch Vehicles — Internal Structure" {
+  launch-vehicles_edl_heat-shield-design: Heat Shield Design
+  launch-vehicles_edl: "Entry, Descent & Landing"
+  launch-vehicles_edl_parachute-systems: Parachute Systems
+  launch-vehicles_edl_precision-landing: Precision Landing
+  launch-vehicles_edl_retropropulsion: Retropropulsion
+  launch-vehicles_hybrid-propulsion_fuel-grain-design: Fuel Grain Design
+  launch-vehicles_hybrid-propulsion: Hybrid Propulsion
+  launch-vehicles_hybrid-propulsion_oxidizer-feed-systems: Oxidizer Feed Systems
+  launch-vehicles_liquid-propulsion_combustion-chamber: Combustion Chamber
+  launch-vehicles_liquid-propulsion_engine-cycles: Engine Cycles
+  launch-vehicles_liquid-propulsion_ignition-systems: Ignition Systems
+  launch-vehicles_liquid-propulsion_injector-design: Injector Design
+  launch-vehicles_liquid-propulsion: Liquid Propulsion
+  launch-vehicles_liquid-propulsion_nozzle-design: Nozzle Design
+  launch-vehicles_liquid-propulsion_turbopump-design: Turbopump Design
+  launch-vehicles_propellant-production_hypergolic-synthesis: Hypergolic Synthesis
+  launch-vehicles_propellant-production: Propellant Production
+  launch-vehicles_propellant-production_lh2-production: LH2 Production
+  launch-vehicles_propellant-production_lox-production: LOX Production
+  launch-vehicles_propellant-production_rp1-refining: RP-1 Refining
+  launch-vehicles_propellant-production_solid-propellant-mixing: Solid Propellant Mixing
+  launch-vehicles_solid-propulsion_case-bonding: Case Bonding
+  launch-vehicles_solid-propulsion_grain-design: Grain Design
+  launch-vehicles_solid-propulsion: Solid Propulsion
+  launch-vehicles_solid-propulsion_nozzle-ablation: Nozzle Ablation
+  launch-vehicles_solid-propulsion_propellant-casting: Propellant Casting
+  launch-vehicles_vehicle-architecture_gvnc-integration: GNC Integration
+  launch-vehicles_vehicle-architecture: Vehicle Architecture
+  launch-vehicles_vehicle-architecture_payload-fairing: Payload Fairing
+  launch-vehicles_vehicle-architecture_staging-design: Staging Design
+  launch-vehicles_vehicle-architecture_structural-design: Structural Design
+}
+
+# ==================== DOMAIN NODE ====================
+launch-vehicles: Launch Vehicles
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+ceramics: "Ceramics & Refractories" {
+  shape: rectangle
+}
+chemistry: Chemistry {
+  shape: rectangle
+}
+computing: "Computing & Automation" {
+  shape: rectangle
+}
+cryogenics_liquefaction-storage: "Gas Liquefaction & Storage" {
+  shape: rectangle
+}
+electronics: Electronics {
+  shape: rectangle
+}
+energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
+energy_fuels: Fuel Production {
+  shape: rectangle
+}
+energy_gas-turbine: Gas Turbines {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+human-spaceflight_crewed-spacecraft: Crewed Spacecraft {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+metals_aluminum: Aluminum Production {
+  shape: rectangle
+}
+polymers: "Polymers & Composites" {
+  shape: rectangle
+}
+polymers_composites: Composite Materials {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+launch-vehicles_edl_heat-shield-design -> launch-vehicles_edl: { class: tool-edge }
+launch-vehicles_edl_parachute-systems -> launch-vehicles_edl: { class: tool-edge }
+launch-vehicles_edl_precision-landing -> launch-vehicles_edl: { class: tool-edge }
+launch-vehicles_edl_retropropulsion -> launch-vehicles_edl: { class: tool-edge }
+launch-vehicles_edl -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_hybrid-propulsion_fuel-grain-design -> launch-vehicles_hybrid-propulsion: { class: tool-edge }
+launch-vehicles_hybrid-propulsion_oxidizer-feed-systems -> launch-vehicles_hybrid-propulsion: { class: tool-edge }
+launch-vehicles_hybrid-propulsion -> launch-vehicles_solid-propulsion: { class: tool-edge }
+launch-vehicles_hybrid-propulsion -> launch-vehicles: { class: tool-edge }
+launch-vehicles_liquid-propulsion_combustion-chamber -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_liquid-propulsion_engine-cycles -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_liquid-propulsion_ignition-systems -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_liquid-propulsion_injector-design -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_liquid-propulsion_nozzle-design -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_liquid-propulsion_turbopump-design -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_propellant-production_hypergolic-synthesis -> launch-vehicles_propellant-production: { class: tool-edge }
+launch-vehicles_propellant-production_lh2-production -> launch-vehicles_propellant-production: { class: tool-edge }
+launch-vehicles_propellant-production_lox-production -> launch-vehicles_propellant-production: { class: tool-edge }
+launch-vehicles_propellant-production_rp1-refining -> launch-vehicles_propellant-production: { class: tool-edge }
+launch-vehicles_propellant-production_solid-propellant-mixing -> launch-vehicles_propellant-production: { class: tool-edge }
+launch-vehicles_solid-propulsion_case-bonding -> launch-vehicles_solid-propulsion: { class: tool-edge }
+launch-vehicles_solid-propulsion_grain-design -> launch-vehicles_solid-propulsion: { class: tool-edge }
+launch-vehicles_solid-propulsion_nozzle-ablation -> launch-vehicles_solid-propulsion: { class: tool-edge }
+launch-vehicles_solid-propulsion_propellant-casting -> launch-vehicles_solid-propulsion: { class: tool-edge }
+launch-vehicles_solid-propulsion -> launch-vehicles: { class: tool-edge }
+launch-vehicles_vehicle-architecture_gvnc-integration -> launch-vehicles_vehicle-architecture: { class: tool-edge }
+launch-vehicles_vehicle-architecture_payload-fairing -> launch-vehicles_vehicle-architecture: { class: tool-edge }
+launch-vehicles_vehicle-architecture_staging-design -> launch-vehicles_vehicle-architecture: { class: tool-edge }
+launch-vehicles_vehicle-architecture_structural-design -> launch-vehicles_vehicle-architecture: { class: tool-edge }
+launch-vehicles_vehicle-architecture -> launch-vehicles_liquid-propulsion: { class: tool-edge }
+launch-vehicles_vehicle-architecture -> launch-vehicles_solid-propulsion: { class: tool-edge }
+human-spaceflight_crewed-spacecraft -> launch-vehicles_edl: { class: tool-edge }
+launch-vehicles_edl -> ceramics: { class: material-edge }
+launch-vehicles_edl -> metals: { class: material-edge }
+launch-vehicles_edl -> polymers: { class: material-edge }
+launch-vehicles_hybrid-propulsion -> chemistry: { class: material-edge }
+launch-vehicles_hybrid-propulsion -> polymers_composites: { class: material-edge }
+launch-vehicles_liquid-propulsion -> cryogenics_liquefaction-storage: { class: material-edge }
+launch-vehicles_liquid-propulsion -> energy_gas-turbine: { class: tool-edge }
+launch-vehicles_liquid-propulsion -> machine-tools: { class: tool-edge }
+launch-vehicles_liquid-propulsion -> metals: { class: material-edge }
+launch-vehicles_propellant-production -> chemistry: { class: material-edge }
+launch-vehicles_propellant-production -> cryogenics_liquefaction-storage: { class: tool-edge }
+launch-vehicles_propellant-production -> energy_electricity: { class: material-edge }
+launch-vehicles_propellant-production -> energy_fuels: { class: material-edge }
+launch-vehicles_solid-propulsion -> chemistry: { class: material-edge }
+launch-vehicles_solid-propulsion -> metals: { class: material-edge }
+launch-vehicles_solid-propulsion -> polymers_composites: { class: material-edge }
+launch-vehicles_vehicle-architecture -> computing: { class: tool-edge }
+launch-vehicles_vehicle-architecture -> electronics: { class: tool-edge }
+launch-vehicles_vehicle-architecture -> metals_aluminum: { class: material-edge }
+launch-vehicles_vehicle-architecture -> polymers_composites: { class: material-edge }
+launch-vehicles -> foundations: { class: tool-edge }
+
+# ==================== STYLING ====================
+launch-vehicles.class: domain
+launch-vehicles_edl_heat-shield-design.class: process
+launch-vehicles_edl.class: capability
+launch-vehicles_edl_parachute-systems.class: process
+launch-vehicles_edl_precision-landing.class: process
+launch-vehicles_edl_retropropulsion.class: process
+launch-vehicles_hybrid-propulsion_fuel-grain-design.class: process
+launch-vehicles_hybrid-propulsion.class: capability
+launch-vehicles_hybrid-propulsion_oxidizer-feed-systems.class: process
+launch-vehicles_liquid-propulsion_combustion-chamber.class: process
+launch-vehicles_liquid-propulsion_engine-cycles.class: process
+launch-vehicles_liquid-propulsion_ignition-systems.class: process
+launch-vehicles_liquid-propulsion_injector-design.class: process
+launch-vehicles_liquid-propulsion.class: capability
+launch-vehicles_liquid-propulsion_nozzle-design.class: process
+launch-vehicles_liquid-propulsion_turbopump-design.class: process
+launch-vehicles_propellant-production_hypergolic-synthesis.class: process
+launch-vehicles_propellant-production.class: capability
+launch-vehicles_propellant-production_lh2-production.class: process
+launch-vehicles_propellant-production_lox-production.class: process
+launch-vehicles_propellant-production_rp1-refining.class: process
+launch-vehicles_propellant-production_solid-propellant-mixing.class: process
+launch-vehicles_solid-propulsion_case-bonding.class: process
+launch-vehicles_solid-propulsion_grain-design.class: process
+launch-vehicles_solid-propulsion.class: capability
+launch-vehicles_solid-propulsion_nozzle-ablation.class: process
+launch-vehicles_solid-propulsion_propellant-casting.class: process
+launch-vehicles_vehicle-architecture_gvnc-integration.class: process
+launch-vehicles_vehicle-architecture.class: capability
+launch-vehicles_vehicle-architecture_payload-fairing.class: process
+launch-vehicles_vehicle-architecture_staging-design.class: process
+launch-vehicles_vehicle-architecture_structural-design.class: process
+ceramics.class: external
+chemistry.class: external
+computing.class: external
+cryogenics_liquefaction-storage.class: external
+electronics.class: external
+energy_electricity.class: external
+energy_fuels.class: external
+energy_gas-turbine.class: external
+foundations.class: external
+human-spaceflight_crewed-spacecraft.class: external
+machine-tools.class: external
+metals.class: external
+metals_aluminum.class: external
+polymers.class: external
+polymers_composites.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

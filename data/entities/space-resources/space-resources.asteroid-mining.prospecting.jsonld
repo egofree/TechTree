@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Spectral survey of near-Earth asteroids using near-infrared reflectance (1-2.5 micron) absorption bands to identify carbonaceous chondrite (CI/CM) hydration, M-type metal richness, and S-type silicate composition.",
+  "early_win": false,
+  "id": "space-resources.asteroid-mining.prospecting",
+  "level": "process",
+  "name": "Asteroid Prospecting",
+  "outputs": [
+    "asteroid_prospect_data"
+  ],
+  "parent": "space-resources.asteroid-mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

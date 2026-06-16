@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Water recovery and management: collects humidity condensate, urine, and waste-handling wash water, then processes it through multifiltration beds and a catalytic reactor to potable quality. The ISS Water Recovery System achieves 93% water loop closure, reclaiming roughly 6,000 kg of water per year from crew metabolic and hygiene outputs, breaking the launch-mass dependency on resupplied water.",
+  "early_win": false,
+  "id": "human-spaceflight.eclss.water-recovery",
+  "level": "process",
+  "name": "Water Recovery",
+  "outputs": [
+    "water_recovery_systems"
+  ],
+  "parent": "human-spaceflight.eclss",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "water",
+      "polymers",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

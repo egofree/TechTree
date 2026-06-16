@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.space-recycling__polymers",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "recycling-loop",
+  "from": "space-resources.space-recycling",
+  "to": "polymers",
+  "label": "Reclaimed polymer feedstock and filament for in-space additive manufacturing"
+}

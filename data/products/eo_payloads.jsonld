@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eo_payloads",
+  "@type": "Product",
+  "name": "Earth Observation Payloads",
+  "source": "spacecraft-systems.earth-observation",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "glass",
+      "silicon",
+      "metals"
+    ]
+  }
+}

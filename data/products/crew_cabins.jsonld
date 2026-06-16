@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "crew_cabins",
+  "@type": "Product",
+  "name": "Crew Cabins",
+  "source": "human-spaceflight.crewed-spacecraft.crew-cabin",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

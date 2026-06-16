@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Lighter-than-air flight using buoyant envelopes filled with heated air or lifting gas (helium, hydrogen). Includes hot-air balloons, gas airships, and tethered aerostats. The lowest-threshold path to controlled flight, requiring only textile envelopes and a heat or gas source.",
+  "early_win": false,
+  "id": "aerospace.lighter-than-air",
+  "level": "capability",
+  "name": "Lighter-than-Air",
+  "outputs": [
+    "balloons",
+    "airships",
+    "aerostats",
+    "lifting_gas_envelopes"
+  ],
+  "parent": "aerospace",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tire_cord",
+  "@type": "Product",
+  "name": "Tire Cord",
+  "source": "transport.tire-manufacturing",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "fibers"
+    ]
+  }
+}

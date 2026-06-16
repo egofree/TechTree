@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Electric traction motor and powertrain integration: permanent magnet synchronous motor, AC induction motor, and axial flux topologies. Includes motor controller, DC-AC inverter with IGBT or SiC switches, single-speed reduction gearbox, and regenerative braking control logic.",
+  "early_win": false,
+  "id": "transport.electric-vehicles.ev-traction-motors",
+  "level": "process",
+  "name": "EV Traction Motors",
+  "outputs": [
+    "ev_powertrains",
+    "regenerative_braking_systems"
+  ],
+  "parent": "transport.electric-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-55"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "telemetry_processing",
+  "@type": "Product",
+  "name": "Telemetry Processing",
+  "source": "space-ground-ops.mission-control.telemetry-processing",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Range safety infrastructure for launch operations: flight termination systems with dual-redundant command-destruct receivers and fail-safe destruct charges, C-band tracking radars for trajectory measurement and impact prediction, and optical cinetheodolites that record ascent from multiple viewing angles. The systems that protect the public if a launch vehicle departs its destruct line.",
+  "early_win": false,
+  "id": "space-ground-ops.range-safety",
+  "level": "capability",
+  "name": "Range Safety",
+  "outputs": [
+    "range_services"
+  ],
+  "parent": "space-ground-ops",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

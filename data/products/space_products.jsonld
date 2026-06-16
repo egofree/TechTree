@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "space_products",
+  "@type": "Product",
+  "name": "Microgravity-Manufactured Products",
+  "source": "space-resources.microgravity-manufacturing",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "polymers",
+      "glass"
+    ]
+  }
+}

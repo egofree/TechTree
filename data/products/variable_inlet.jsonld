@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "variable_inlet",
+  "@type": "Product",
+  "name": "Variable Inlet",
+  "source": "aerospace.supersonic-flight.variable-geometry",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

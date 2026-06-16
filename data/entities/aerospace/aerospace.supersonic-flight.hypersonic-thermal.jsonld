@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Thermal protection for sustained hypersonic flight: leading-edge materials surviving >1,600 C at Mach 3 and >2,500 C at Mach 5+, ablative and reusable insulation systems, active cooling (fuel-circulated leading edges), and expansion-matched high-temperature structures.",
+  "early_win": false,
+  "id": "aerospace.supersonic-flight.hypersonic-thermal",
+  "level": "process",
+  "name": "Hypersonic Thermal Protection",
+  "outputs": [
+    "thermal_protection_system",
+    "hot_structure"
+  ],
+  "parent": "aerospace.supersonic-flight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "ceramics",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-120"
+}

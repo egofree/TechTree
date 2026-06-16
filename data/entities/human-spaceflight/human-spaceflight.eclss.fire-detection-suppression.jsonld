@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Fire detection and suppression for crewed spacecraft: smoke particulate detectors (ionisation and photoelectric) in cabin air ducts, portable and fixed CO2 and water-mist extinguishers, flame-retardant material selection, and post-fire atmosphere cleanup. Microgravity flame behaviour differs markedly from terrestrial flames — flames are spherical, spread slower along solid fuel, and produce more smoke particulate, requiring dedicated detector placement and response procedures.",
+  "early_win": false,
+  "id": "human-spaceflight.eclss.fire-detection-suppression",
+  "level": "process",
+  "name": "Fire Detection & Suppression",
+  "outputs": [
+    "eclss_systems"
+  ],
+  "parent": "human-spaceflight.eclss",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

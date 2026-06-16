@@ -6,7 +6,7 @@
 
 ## Context in the Tech Tree
 
-Range — the operational distance a vehicle or signal can cover — is a key performance parameter in transportation and communications. In [Light Aircraft](../transport/light-aircraft.md), range is determined by fuel capacity, engine fuel consumption, and aerodynamic efficiency. In [Telegraph Communication](../transport/telegraph.md), range is limited by signal attenuation in the cable (resistance and capacitance reduce pulse amplitude with distance). Understanding range limitations drives infrastructure planning: how many relay stations are needed, where fuel depots must be placed, and what routes are feasible.
+Range — the operational distance a vehicle or signal can cover — is a key performance parameter in transportation and communications. In [Light Aircraft](../aerospace/light-aircraft.md), range is determined by fuel capacity, engine fuel consumption, and aerodynamic efficiency. In [Telegraph Communication](../transport/telegraph.md), range is limited by signal attenuation in the cable (resistance and capacitance reduce pulse amplitude with distance). Understanding range limitations drives infrastructure planning: how many relay stations are needed, where fuel depots must be placed, and what routes are feasible.
 
 ## Technical Details
 
@@ -24,5 +24,5 @@ For telegraph cables, range is limited by resistance (voltage drop along the con
 
 ## Appears In
 
-- [Light Aircraft](../transport/light-aircraft.md)
+- [Light Aircraft](../aerospace/light-aircraft.md)
 - [Telegraph Communication](../transport/telegraph.md)

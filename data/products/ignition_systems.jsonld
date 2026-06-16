@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ignition_systems",
+  "@type": "Product",
+  "name": "Engine Ignition Systems",
+  "source": "launch-vehicles.liquid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "debris_services",
+  "@type": "Product",
+  "name": "Debris Tracking Services",
+  "source": "spacecraft-systems.debris-management.debris-tracking",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": []
+  }
+}

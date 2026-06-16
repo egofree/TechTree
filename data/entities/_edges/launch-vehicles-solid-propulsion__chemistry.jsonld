@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.solid-propulsion__chemistry",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "launch-vehicles.solid-propulsion",
+  "to": "chemistry",
+  "label": "Ammonium perchlorate oxidizer, HTPB binder, aluminum powder, cure agents and burn-rate modifiers produced by industrial chemistry"
+}

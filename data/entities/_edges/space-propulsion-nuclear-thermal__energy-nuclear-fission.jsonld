@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.nuclear-thermal__energy.nuclear-fission",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.nuclear-thermal",
+  "to": "energy.nuclear-fission"
+}

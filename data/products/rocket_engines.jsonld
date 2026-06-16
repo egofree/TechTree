@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rocket_engines",
+  "@type": "Product",
+  "name": "Rocket Engines",
+  "source": "launch-vehicles",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

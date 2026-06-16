@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Pulling of heavy-metal fluoride glass optical fiber (ZBLAN) in microgravity, suppressing the crystallization and convection defects that limit terrestrial fiber to 10-100x higher attenuation than the 0.0011 dB/km theoretical minimum.",
+  "early_win": false,
+  "id": "space-resources.microgravity-manufacturing.fiber-pulling",
+  "level": "process",
+  "name": "ZBLAN Fiber Pulling",
+  "outputs": [
+    "zblan_fiber"
+  ],
+  "parent": "space-resources.microgravity-manufacturing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

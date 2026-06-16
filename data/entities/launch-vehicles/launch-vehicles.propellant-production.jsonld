@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Production and storage of liquid rocket propellants: cryogenic LOX (-183C) and LH2 (-253C), refined RP-1 kerosene, hypergolic MMH/N2O4, and solid composite propellants (AP/Al/HTPB). Encompasses cryogenic air separation, steam methane reforming and electrolysis for hydrogen, kerosene fractionation, hydrazine-family synthesis, and vacuum-cast solid grain manufacturing with hazard classification.",
+  "early_win": false,
+  "id": "launch-vehicles.propellant-production",
+  "level": "capability",
+  "name": "Propellant Production",
+  "outputs": [
+    "lox",
+    "lh2",
+    "rp1",
+    "hypergolic_propellants"
+  ],
+  "parent": "launch-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and precision alignment of dedicated high-speed track: shallow curves (radius 5000-15000 m), minimal gradient (<2.5%), slab track (ballastless) construction, continuous welded rail, and geometric tolerances measured in millimeters over kilometers to ensure dynamic stability at 300+ km/h.",
+  "early_win": false,
+  "id": "transport.high-speed-rail.track-geometry",
+  "level": "process",
+  "name": "High-Speed Track Geometry",
+  "outputs": [
+    "high_speed_trains"
+  ],
+  "parent": "transport.high-speed-rail",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-60+"
+}

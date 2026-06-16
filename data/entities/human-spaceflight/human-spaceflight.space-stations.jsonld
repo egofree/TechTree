@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Orbital habitat modules, structural docking and berthing systems, robotic manipulator arms, and logistics resupply vehicles that enable sustained human presence in low Earth orbit and beyond. Covers pressurised module integration, common berthing mechanisms, Canadarm-class teleoperated arms, and cargo vehicle rendezvous.",
+  "early_win": false,
+  "id": "human-spaceflight.space-stations",
+  "level": "capability",
+  "name": "Space Stations",
+  "outputs": [
+    "space_stations",
+    "habitat_modules",
+    "docking_systems",
+    "robotic_manipulator_arms"
+  ],
+  "parent": "human-spaceflight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.bus-structure.deployable-structures__spacecraft-systems.bus-structure",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.bus-structure.deployable-structures",
+  "to": "spacecraft-systems.bus-structure"
+}

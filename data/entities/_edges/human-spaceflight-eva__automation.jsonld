@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.eva__automation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.eva",
+  "to": "automation",
+  "label": "SAFER jetpack cold gas thruster control and robotic tool actuation"
+}

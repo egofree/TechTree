@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thrust_structures",
+  "@type": "Product",
+  "name": "Thrust Structures",
+  "source": "launch-vehicles.vehicle-architecture.structural-design",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

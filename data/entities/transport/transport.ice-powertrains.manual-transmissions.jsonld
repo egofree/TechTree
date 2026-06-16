@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Driver-shifted sliding-mesh, constant-mesh, and synchromesh manual transmissions. Cluster gear countershafts, dog clutches, and synchronizer cones match gear speeds before engagement. The simplest efficient multispeed gearbox: 3-6 forward ratios selected via floor shift, maximizing driver control and mechanical efficiency (~94-98%).",
+  "early_win": false,
+  "id": "transport.ice-powertrains.manual-transmissions",
+  "level": "process",
+  "name": "Manual Transmissions",
+  "outputs": [
+    "transmissions"
+  ],
+  "parent": "transport.ice-powertrains",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-30"
+}

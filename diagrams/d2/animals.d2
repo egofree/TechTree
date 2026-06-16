@@ -178,6 +178,9 @@ textiles: "Textiles, Fiber & Cordage" {
 textiles_fibers: Fiber Preparation {
   shape: rectangle
 }
+transport_road-construction-equipment: Road Construction Equipment {
+  shape: rectangle
+}
 transport_roads: "Road & Bridge Construction" {
   shape: rectangle
 }
@@ -257,6 +260,7 @@ textiles_fibers -> animals_goats: { class: material-edge }
 textiles_fibers -> animals_rabbits: { class: material-edge }
 textiles_fibers -> animals_sheep: { class: material-edge }
 textiles -> animals_leather: { class: material-edge }
+transport_road-construction-equipment -> animals_draft-power: { class: tool-edge }
 transport_roads -> animals_draft-power: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -307,6 +311,7 @@ metals_bronze.class: external
 mining_extraction.class: external
 textiles.class: external
 textiles_fibers.class: external
+transport_road-construction-equipment.class: external
 transport_roads.class: external
 
 # ==================== LEGEND ====================

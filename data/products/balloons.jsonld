@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "balloons",
+  "@type": "Product",
+  "name": "Hot-Air Balloons",
+  "source": "aerospace.lighter-than-air.hot-air-balloons",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

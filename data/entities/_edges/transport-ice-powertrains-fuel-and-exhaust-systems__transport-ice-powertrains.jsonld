@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.ice-powertrains.fuel-and-exhaust-systems__transport.ice-powertrains",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "transport.ice-powertrains.fuel-and-exhaust-systems",
+  "to": "transport.ice-powertrains"
+}

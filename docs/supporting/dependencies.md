@@ -99,7 +99,7 @@ Domains and capabilities that can begin independently of the main critical path,
 | `chemistry.lubricants` | `foundations`, `chemistry.petroleum-alternatives` | Animal fats, oil seeds, petroleum | Bearing and cutting fluid supply |
 | `mining` | `foundations`, `machine-tools` | Timber, iron, pumps, ventilation | Deep drainage drives steam engine development |
 | `chemistry.petroleum-alternatives` | `foundations`, `chemistry.distillation` | Coal tar, petroleum, fermentation substrates | Feedstock availability and dual-path planning |
-| `transport.aviation` | `machine-tools`, `textiles`, `chemistry.petroleum-alternatives` | Steel tube/wood, fabric, precision engine parts | Power-to-weight ratio and precision machining |
+| `aerospace.aviation` | `machine-tools`, `textiles`, `chemistry.petroleum-alternatives` | Steel tube/wood, fabric, precision engine parts | Power-to-weight ratio and precision machining |
 | `polymers` | `chemistry`, `machine-tools` | Phenol, formaldehyde, ethylene, propylene | Polymerization, curing, composite layup |
 
 ## General Resource Themes

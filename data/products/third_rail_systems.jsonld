@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "third_rail_systems",
+  "@type": "Product",
+  "name": "Third Rail Systems",
+  "source": "transport.electric-railways",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

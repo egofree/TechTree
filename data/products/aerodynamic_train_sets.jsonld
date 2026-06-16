@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aerodynamic_train_sets",
+  "@type": "Product",
+  "name": "Aerodynamic Train Sets",
+  "source": "transport.high-speed-rail.aerodynamic-design",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

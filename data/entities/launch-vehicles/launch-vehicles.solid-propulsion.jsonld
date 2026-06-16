@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Solid rocket motor design and manufacturing: composite propellant formulation (ammonium perchlorate oxidizer, aluminum fuel, HTPB binder), grain geometry for tailored thrust profiles, case bonding (filament-wound composite or steel), and ablative nozzle fabrication (carbon-carbon throats, phenolic liners). Delivers 250-285 s Isp with thrust from kilonewtons to 16 MN, enabling strap-on boosters, first stages, and upper stages that can be stored for years and ignited on demand with no propellant plumbing.",
+  "early_win": false,
+  "id": "launch-vehicles.solid-propulsion",
+  "level": "capability",
+  "name": "Solid Propulsion",
+  "outputs": [
+    "solid_motors",
+    "booster_stages",
+    "solid_propellant"
+  ],
+  "parent": "launch-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "polymers",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

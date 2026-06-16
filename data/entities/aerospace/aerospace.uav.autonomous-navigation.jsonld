@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Autonomous flight control and navigation systems for UAVs. Combines inertial measurement (gyroscope, accelerometer, magnetometer), barometric altitude, GPS positioning, and sensor fusion algorithms (complementary filter, extended Kalman filter) to estimate aircraft attitude and position. A nested-loop control architecture — inner PID loop for attitude stabilization, outer loop for waypoint navigation — enables autonomous flight without human intervention. Includes path planning, geofencing, failsafe return-to-home (RTH), and computer vision capabilities for obstacle avoidance and visual tracking. The flight controller is the 'pilot' of a UAV.",
+  "early_win": false,
+  "id": "aerospace.uav.autonomous-navigation",
+  "level": "process",
+  "name": "Autonomous Navigation",
+  "outputs": [
+    "flight_controllers"
+  ],
+  "parent": "aerospace.uav",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 45-60+"
+}

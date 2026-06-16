@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Attitude Determination and Control Systems (ADCS): star trackers, sun/Earth sensors, inertial measurement units, reaction wheels, magnetorquers, and thruster-based control for spacecraft pointing, stabilization, and momentum management.",
+  "early_win": false,
+  "id": "spacecraft-systems.adcs",
+  "level": "capability",
+  "name": "Attitude Determination & Control",
+  "outputs": [
+    "adcs_hardware",
+    "star_trackers",
+    "reaction_wheels"
+  ],
+  "parent": "spacecraft-systems",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

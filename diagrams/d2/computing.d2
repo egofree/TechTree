@@ -100,6 +100,9 @@ computing_internal: "Computing & Automation — Internal Structure" {
 computing: "Computing & Automation"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_uav: Unmanned Aerial Vehicles {
+  shape: rectangle
+}
 automation: "Automation & Robotics" {
   shape: rectangle
 }
@@ -116,6 +119,15 @@ electronics_industrial-control: Industrial Control {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
+human-spaceflight_crew-training: Crew Training {
+  shape: rectangle
+}
+human-spaceflight_crewed-spacecraft: Crewed Spacecraft {
+  shape: rectangle
+}
+launch-vehicles_vehicle-architecture: Vehicle Architecture {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -154,6 +166,18 @@ software-bootstrapping: Software Bootstrapping {
 software-bootstrapping_operating-systems: Operating System Construction {
   shape: rectangle
 }
+space-ground-ops_mission-control: Mission Control {
+  shape: rectangle
+}
+spacecraft-systems_debris-management: Debris Management {
+  shape: rectangle
+}
+spacecraft-systems_obdh: Onboard Data Handling {
+  shape: rectangle
+}
+spacecraft-systems_orbital-mechanics: Orbital Mechanics {
+  shape: rectangle
+}
 vlsi-scaling: "VLSI Scaling & Advanced Semiconductor" {
   shape: rectangle
 }
@@ -168,6 +192,7 @@ computing_digital-logic -> computing_electronic: { class: material-edge }
 computing_digital-logic -> computing: { class: tool-edge }
 computing_electromechanical -> computing_mechanical: { class: tool-edge }
 computing_electronic -> computing_electromechanical: { class: tool-edge }
+aerospace_uav -> computing: { class: tool-edge }
 automation_equipment-communication -> computing: { class: tool-edge }
 automation -> computing_embedded-systems: { class: tool-edge }
 automation -> computing: { class: tool-edge }
@@ -184,10 +209,17 @@ computing_mechanical -> metals: { class: material-edge }
 computing -> electronics: { class: material-edge }
 computing -> software-bootstrapping_operating-systems: { class: tool-edge }
 electronics_industrial-control -> computing_embedded-systems: { class: tool-edge }
+human-spaceflight_crew-training -> computing: { class: tool-edge }
+human-spaceflight_crewed-spacecraft -> computing: { class: tool-edge }
+launch-vehicles_vehicle-architecture -> computing: { class: tool-edge }
 machine-tools_cam -> computing_electronic: { class: tool-edge }
 measurement_thermostat-electronic -> computing: { class: tool-edge }
 quality-control -> computing: { class: tool-edge }
 software-bootstrapping -> computing: { class: tool-edge }
+space-ground-ops_mission-control -> computing: { class: tool-edge }
+spacecraft-systems_debris-management -> computing: { class: tool-edge }
+spacecraft-systems_obdh -> computing: { class: tool-edge }
+spacecraft-systems_orbital-mechanics -> computing: { class: tool-edge }
 vlsi-scaling_eda-design -> computing: { class: tool-edge }
 vlsi-scaling -> computing: { class: tool-edge }
 
@@ -201,12 +233,16 @@ computing_electronic.class: capability
 computing_embedded-systems.class: critical
 computing_logic-design.class: critical
 computing_mechanical.class: capability
+aerospace_uav.class: external
 automation.class: external
 automation_equipment-communication.class: external
 electronics.class: external
 electronics_assembly.class: external
 electronics_industrial-control.class: external
 energy_electricity.class: external
+human-spaceflight_crew-training.class: external
+human-spaceflight_crewed-spacecraft.class: external
+launch-vehicles_vehicle-architecture.class: external
 machine-tools.class: external
 machine-tools_cam.class: external
 mathematics_core-mathematics.class: external
@@ -219,6 +255,10 @@ quality-control.class: external
 silicon_basic-devices.class: external
 software-bootstrapping.class: external
 software-bootstrapping_operating-systems.class: external
+space-ground-ops_mission-control.class: external
+spacecraft-systems_debris-management.class: external
+spacecraft-systems_obdh.class: external
+spacecraft-systems_orbital-mechanics.class: external
 vlsi-scaling.class: external
 vlsi-scaling_eda-design.class: external
 

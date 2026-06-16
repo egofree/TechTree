@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Nuclear Electric Propulsion (NEP): a space-rated fission reactor generates 100-1000 kWe of electrical power via Brayton or Stirling conversion, which energizes ion or Hall thrusters to achieve 3000-7000 s Isp. Low thrust (mN to N) but continuous burn for weeks to years enables high delta-v cargo and science missions. Heritage: SP-100 (100 kWe), JIMO concept (100 kWe Brayton + ion). Combines reactor physics (see energy.nuclear-fission) with electric propulsion integration.",
+  "early_win": false,
+  "id": "space-propulsion.nuclear-electric",
+  "level": "capability",
+  "name": "Nuclear Electric Propulsion",
+  "outputs": [
+    "nep_systems"
+  ],
+  "parent": "space-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

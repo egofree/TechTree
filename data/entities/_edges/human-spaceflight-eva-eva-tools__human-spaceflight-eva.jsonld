@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.eva.eva-tools__human-spaceflight.eva",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.eva.eva-tools",
+  "to": "human-spaceflight.eva"
+}

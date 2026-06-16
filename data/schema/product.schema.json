@@ -67,7 +67,7 @@
           "type": "array",
           "items": {
             "type": "string",
-            "enum": ["energy", "precision", "computing", "transport", "health", "measurement", "cooling", "vacuum", "optics", "construction", "organization"]
+            "enum": ["energy", "precision", "computing", "transport", "health", "measurement", "cooling", "vacuum", "optics", "construction", "organization", "spaceflight", "defense"]
           },
           "uniqueItems": true
         },

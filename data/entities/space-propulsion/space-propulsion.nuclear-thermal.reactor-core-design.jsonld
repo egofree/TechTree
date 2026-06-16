@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design of the nuclear reactor core for thermal propulsion: a compact, high-temperature fission reactor that heats hydrogen propellant directly. Uses uranium carbide (UC), uranium nitride (UN), or coated-particle fuel in a graphite or refractory-metal matrix, with hydrogen propellant flowing through channels in the fuel elements. Fuel temperatures reach 2500-3000 K; hydrogen exits the core at ~2700 K. Core power density reached 0.25 GW/m^3 in NERVA NRX (1.1 GW thermal) and 4 GW in Phoebus-2A. Distinguished from stationary power reactors (see energy.nuclear-fission.reactor-design) by the demands of high-temperature hydrogen coolant, compact launch mass, and pulsed burn profiles.",
+  "early_win": false,
+  "id": "space-propulsion.nuclear-thermal.reactor-core-design",
+  "level": "process",
+  "name": "Reactor Core Design",
+  "outputs": [
+    "ntp_engines"
+  ],
+  "parent": "space-propulsion.nuclear-thermal",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

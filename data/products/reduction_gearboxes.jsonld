@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reduction_gearboxes",
+  "@type": "Product",
+  "name": "Reduction Gearboxes",
+  "source": "aerospace.turboprop",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

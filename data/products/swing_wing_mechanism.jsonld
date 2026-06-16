@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "swing_wing_mechanism",
+  "@type": "Product",
+  "name": "Swing Wing Mechanism",
+  "source": "aerospace.supersonic-flight.variable-geometry",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Spaceborne spectrometers for measuring electromagnetic spectra across UV, visible, IR, and X-ray bands. Includes imaging spectrometers (NIRSpec, MIRI on JWST), grating and prism dispersive elements, Fourier-transform spectrometers, and cryogenic detector arrays (H2RG, MCT). Enables composition analysis of atmospheres, surfaces, and distant astronomical objects.",
+  "early_win": false,
+  "id": "spacecraft-systems.science-instruments.spectrometers",
+  "level": "process",
+  "name": "Spectrometers",
+  "outputs": [
+    "science_payloads"
+  ],
+  "parent": "spacecraft-systems.science-instruments",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "glass",
+      "silicon",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

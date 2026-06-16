@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "shaped_road_profile",
+  "@type": "Product",
+  "name": "Shaped Road Profile",
+  "source": "transport.road-construction-equipment",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "transport"
+    ]
+  }
+}

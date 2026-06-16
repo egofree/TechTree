@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.motor-vehicles__transport.tire-manufacturing",
+  "@type": "Dependency",
+  "from": "transport.motor-vehicles",
+  "to": "transport.tire-manufacturing",
+  "edgeType": "tool",
+  "flow": "primary"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Liquid-propellant rocket engines: turbopumps, combustion chambers, nozzles, injectors, ignition systems, and power cycles for orbital launch vehicles.",
+  "early_win": false,
+  "id": "launch-vehicles.liquid-propulsion",
+  "level": "capability",
+  "name": "Liquid Propulsion",
+  "outputs": [
+    "liquid_engines",
+    "turbopumps",
+    "regen_nozzles",
+    "injectors",
+    "ignition_systems"
+  ],
+  "parent": "launch-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

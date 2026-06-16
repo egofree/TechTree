@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.hybrid-propulsion__polymers.composites",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "launch-vehicles.hybrid-propulsion",
+  "to": "polymers.composites",
+  "label": "HTPB fuel grains, composite oxidizer tanks, and ablative combustion chamber liners produced by polymer and composite manufacturing"
+}

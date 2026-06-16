@@ -1,0 +1,38 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Orbital and suborbital rocket launch systems for delivering payloads to space.",
+  "early_win": false,
+  "id": "launch-vehicles",
+  "level": "domain",
+  "name": "Launch Vehicles",
+  "outputs": [
+    "launch_vehicles",
+    "orbital_delivery",
+    "solid_motors",
+    "hybrid_engines",
+    "liquid_engines",
+    "turbopumps",
+    "lox",
+    "lh2",
+    "rp1",
+    "heat_shields",
+    "edl_systems",
+    "parachutes",
+    "payload_fairings"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

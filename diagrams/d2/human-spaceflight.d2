@@ -1,0 +1,318 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+human-spaceflight_internal: "Human Spaceflight — Internal Structure" {
+  human-spaceflight_crew-training_analog-environments: Analog Environments
+  human-spaceflight_crew-training: Crew Training
+  human-spaceflight_crew-training_neutral-buoyancy: Neutral Buoyancy
+  human-spaceflight_crew-training_simulators: Simulators
+  human-spaceflight_crewed-spacecraft_crew-cabin: Crew Cabin Design
+  human-spaceflight_crewed-spacecraft_docking-systems: Docking Systems
+  human-spaceflight_crewed-spacecraft: Crewed Spacecraft
+  human-spaceflight_crewed-spacecraft_launch-abort-systems: Launch Abort Systems
+  human-spaceflight_crewed-spacecraft_reentry-systems: Reentry Systems
+  human-spaceflight_eclss_atmosphere-management: Atmosphere Management
+  human-spaceflight_eclss_fire-detection-suppression: "Fire Detection & Suppression"
+  human-spaceflight_eclss: "Environmental Control & Life Support"
+  human-spaceflight_eclss_thermal-humidity-control: "Thermal & Humidity Control"
+  human-spaceflight_eclss_waste-management: Waste Management
+  human-spaceflight_eclss_water-recovery: Water Recovery
+  human-spaceflight_eva_eva-procedures: EVA Procedures + Protocols
+  human-spaceflight_eva_eva-tools: EVA Tools + Restraints
+  human-spaceflight_eva: "Extravehicular Activity (EVA)"
+  human-spaceflight_radiation-protection_dosimetry-monitoring: "Dosimetry & Monitoring"
+  human-spaceflight_radiation-protection: Radiation Protection
+  human-spaceflight_radiation-protection_storm-shelters: Storm Shelters
+  human-spaceflight_space-medicine_countermeasures: Countermeasures
+  human-spaceflight_space-medicine_crew-selection: Crew Selection
+  human-spaceflight_space-medicine_decompression-illness: Decompression Illness
+  human-spaceflight_space-medicine: Space Medicine
+  human-spaceflight_space-medicine_microgravity-physiology: Microgravity Physiology
+  human-spaceflight_space-stations_habitat-modules: Habitat Module Fabrication
+  human-spaceflight_space-stations: Space Stations
+  human-spaceflight_space-stations_logistics-resupply: Logistics Resupply
+  human-spaceflight_space-stations_robotic-arms: Robotic Manipulator Arms
+  human-spaceflight_space-stations_structural-docking: Structural Docking + Berthing
+  human-spaceflight_space-suits: Space Suits
+  human-spaceflight_space-suits_plss-design: Portable Life Support System
+  human-spaceflight_space-suits_pressure-garment: Pressure Garment Design
+  human-spaceflight_space-suits_thermal-control-suit: Thermal Control Suit
+}
+
+# ==================== DOMAIN NODE ====================
+human-spaceflight: Human Spaceflight
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_aviation: Aviation {
+  shape: rectangle
+}
+automation: "Automation & Robotics" {
+  shape: rectangle
+}
+chemistry: Chemistry {
+  shape: rectangle
+}
+computing: "Computing & Automation" {
+  shape: rectangle
+}
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+ehs_radiation-safety: Radiation Safety {
+  shape: rectangle
+}
+energy_fuel-cell: Fuel Cell {
+  shape: rectangle
+}
+energy_nuclear-fission: Nuclear Fission Power {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+gas-handling: Gas Handling {
+  shape: rectangle
+}
+glass: Glass {
+  shape: rectangle
+}
+health: "Public Health, Sanitation & Medicine" {
+  shape: rectangle
+}
+launch-vehicles_edl: "Entry, Descent & Landing" {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+polymers: "Polymers & Composites" {
+  shape: rectangle
+}
+space-resources_space-recycling: "Space Recycling & Closed-Loop Logistics" {
+  shape: rectangle
+}
+spacecraft-systems_bus-structure: Bus Structure + Deployables {
+  shape: rectangle
+}
+textiles: "Textiles, Fiber & Cordage" {
+  shape: rectangle
+}
+water: Water {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+human-spaceflight_crew-training_analog-environments -> human-spaceflight_crew-training: { class: tool-edge }
+human-spaceflight_crew-training_neutral-buoyancy -> human-spaceflight_crew-training: { class: tool-edge }
+human-spaceflight_crew-training_simulators -> human-spaceflight_crew-training: { class: tool-edge }
+human-spaceflight_crewed-spacecraft_crew-cabin -> human-spaceflight_crewed-spacecraft: { class: tool-edge }
+human-spaceflight_crewed-spacecraft_docking-systems -> human-spaceflight_crewed-spacecraft: { class: tool-edge }
+human-spaceflight_crewed-spacecraft_launch-abort-systems -> human-spaceflight_crewed-spacecraft: { class: tool-edge }
+human-spaceflight_crewed-spacecraft_reentry-systems -> human-spaceflight_crewed-spacecraft: { class: tool-edge }
+human-spaceflight_eclss_atmosphere-management -> human-spaceflight_eclss: { class: tool-edge }
+human-spaceflight_eclss_fire-detection-suppression -> human-spaceflight_eclss: { class: tool-edge }
+human-spaceflight_eclss_thermal-humidity-control -> human-spaceflight_eclss: { class: tool-edge }
+human-spaceflight_eclss_waste-management -> human-spaceflight_eclss: { class: tool-edge }
+human-spaceflight_eclss_water-recovery -> human-spaceflight_eclss: { class: tool-edge }
+human-spaceflight_eva_eva-procedures -> human-spaceflight_eva: { class: tool-edge }
+human-spaceflight_eva_eva-tools -> human-spaceflight_eva: { class: tool-edge }
+human-spaceflight_eva -> human-spaceflight_eclss: { class: tool-edge }
+human-spaceflight_eva -> human-spaceflight_space-stations: { class: tool-edge }
+human-spaceflight_eva -> human-spaceflight_space-suits: { class: tool-edge }
+human-spaceflight_radiation-protection_dosimetry-monitoring -> human-spaceflight_radiation-protection: { class: tool-edge }
+human-spaceflight_radiation-protection_storm-shelters -> human-spaceflight_radiation-protection: { class: tool-edge }
+human-spaceflight_space-medicine_countermeasures -> human-spaceflight_space-medicine: { class: tool-edge }
+human-spaceflight_space-medicine_crew-selection -> human-spaceflight_space-medicine: { class: tool-edge }
+human-spaceflight_space-medicine_decompression-illness -> human-spaceflight_space-medicine: { class: tool-edge }
+human-spaceflight_space-medicine_microgravity-physiology -> human-spaceflight_space-medicine: { class: tool-edge }
+human-spaceflight_space-stations_habitat-modules -> human-spaceflight_space-stations: { class: tool-edge }
+human-spaceflight_space-stations_logistics-resupply -> human-spaceflight_space-stations: { class: tool-edge }
+human-spaceflight_space-stations_robotic-arms -> human-spaceflight_space-stations: { class: tool-edge }
+human-spaceflight_space-stations_structural-docking -> human-spaceflight_space-stations: { class: tool-edge }
+human-spaceflight_space-suits_plss-design -> human-spaceflight_space-suits: { class: tool-edge }
+human-spaceflight_space-suits_pressure-garment -> human-spaceflight_space-suits: { class: tool-edge }
+human-spaceflight_space-suits_thermal-control-suit -> human-spaceflight_space-suits: { class: tool-edge }
+human-spaceflight_crew-training -> aerospace_aviation: { class: tool-edge }
+human-spaceflight_crew-training -> computing: { class: tool-edge }
+human-spaceflight_crewed-spacecraft -> aerospace_aviation: { class: tool-edge }
+human-spaceflight_crewed-spacecraft -> computing: { class: tool-edge }
+human-spaceflight_crewed-spacecraft -> launch-vehicles_edl: { class: tool-edge }
+human-spaceflight_crewed-spacecraft -> metals: { class: material-edge }
+human-spaceflight_eclss -> chemistry: { class: tool-edge }
+human-spaceflight_eclss -> ehs_radiation-safety: { class: tool-edge }
+human-spaceflight_eclss -> energy_fuel-cell: { class: tool-edge }
+human-spaceflight_eclss -> gas-handling: { class: tool-edge }
+human-spaceflight_eclss -> water: { class: tool-edge }
+human-spaceflight_eva -> automation: { class: tool-edge }
+human-spaceflight_radiation-protection -> ehs_radiation-safety: { class: tool-edge }
+human-spaceflight_radiation-protection -> energy_nuclear-fission: { class: tool-edge }
+human-spaceflight_space-medicine -> ehs_radiation-safety: { class: tool-edge }
+human-spaceflight_space-medicine -> health: { class: tool-edge }
+human-spaceflight_space-stations -> automation: { class: tool-edge }
+human-spaceflight_space-stations -> construction: { class: tool-edge }
+human-spaceflight_space-stations -> metals: { class: material-edge }
+human-spaceflight_space-stations -> spacecraft-systems_bus-structure: { class: tool-edge }
+human-spaceflight_space-suits -> glass: { class: material-edge }
+human-spaceflight_space-suits -> metals: { class: material-edge }
+human-spaceflight_space-suits -> polymers: { class: material-edge }
+human-spaceflight_space-suits -> textiles: { class: material-edge }
+human-spaceflight -> foundations: { class: tool-edge }
+space-resources_space-recycling -> human-spaceflight_eclss: { class: tool-edge }
+
+# ==================== STYLING ====================
+human-spaceflight.class: domain
+human-spaceflight_crew-training_analog-environments.class: process
+human-spaceflight_crew-training.class: capability
+human-spaceflight_crew-training_neutral-buoyancy.class: process
+human-spaceflight_crew-training_simulators.class: process
+human-spaceflight_crewed-spacecraft_crew-cabin.class: process
+human-spaceflight_crewed-spacecraft_docking-systems.class: process
+human-spaceflight_crewed-spacecraft.class: capability
+human-spaceflight_crewed-spacecraft_launch-abort-systems.class: process
+human-spaceflight_crewed-spacecraft_reentry-systems.class: process
+human-spaceflight_eclss_atmosphere-management.class: process
+human-spaceflight_eclss_fire-detection-suppression.class: process
+human-spaceflight_eclss.class: capability
+human-spaceflight_eclss_thermal-humidity-control.class: process
+human-spaceflight_eclss_waste-management.class: process
+human-spaceflight_eclss_water-recovery.class: process
+human-spaceflight_eva_eva-procedures.class: process
+human-spaceflight_eva_eva-tools.class: process
+human-spaceflight_eva.class: capability
+human-spaceflight_radiation-protection_dosimetry-monitoring.class: process
+human-spaceflight_radiation-protection.class: capability
+human-spaceflight_radiation-protection_storm-shelters.class: process
+human-spaceflight_space-medicine_countermeasures.class: process
+human-spaceflight_space-medicine_crew-selection.class: process
+human-spaceflight_space-medicine_decompression-illness.class: process
+human-spaceflight_space-medicine.class: capability
+human-spaceflight_space-medicine_microgravity-physiology.class: process
+human-spaceflight_space-stations_habitat-modules.class: process
+human-spaceflight_space-stations.class: capability
+human-spaceflight_space-stations_logistics-resupply.class: process
+human-spaceflight_space-stations_robotic-arms.class: process
+human-spaceflight_space-stations_structural-docking.class: process
+human-spaceflight_space-suits.class: capability
+human-spaceflight_space-suits_plss-design.class: process
+human-spaceflight_space-suits_pressure-garment.class: process
+human-spaceflight_space-suits_thermal-control-suit.class: process
+aerospace_aviation.class: external
+automation.class: external
+chemistry.class: external
+computing.class: external
+construction.class: external
+ehs_radiation-safety.class: external
+energy_fuel-cell.class: external
+energy_nuclear-fission.class: external
+foundations.class: external
+gas-handling.class: external
+glass.class: external
+health.class: external
+launch-vehicles_edl.class: external
+metals.class: external
+polymers.class: external
+space-resources_space-recycling.class: external
+spacecraft-systems_bus-structure.class: external
+textiles.class: external
+water.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

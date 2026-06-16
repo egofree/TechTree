@@ -127,7 +127,13 @@ foundations_tools-basic: "Stone & Wood Tools" {
 health_sanitation: "Water Supply & Sanitation" {
   shape: rectangle
 }
+human-spaceflight_eclss: "Environmental Control & Life Support" {
+  shape: rectangle
+}
 metals_pipe-making: Pipe and Tube Manufacturing {
+  shape: rectangle
+}
+space-ground-ops_launch-complex: Launch Complex {
   shape: rectangle
 }
 ultra-pure_upw: Ultra-Pure Water Production {
@@ -143,6 +149,8 @@ ehs_waste-management -> water_sewage: { class: tool-edge }
 energy_biomass-energy_biogas-digester -> water_basic-treatment: { class: material-edge }
 food-processing -> water: { class: material-edge }
 health_sanitation -> water_procurement: { class: material-edge }
+human-spaceflight_eclss -> water: { class: tool-edge }
+space-ground-ops_launch-complex -> water: { class: material-edge }
 ultra-pure_upw -> water: { class: material-edge }
 water_basic-treatment -> chemistry_bleaching: { class: material-edge }
 water_distribution -> metals_pipe-making: { class: material-edge }
@@ -165,7 +173,9 @@ energy_biomass-energy_biogas-digester.class: external
 food-processing.class: external
 foundations_tools-basic.class: external
 health_sanitation.class: external
+human-spaceflight_eclss.class: external
 metals_pipe-making.class: external
+space-ground-ops_launch-complex.class: external
 ultra-pure_upw.class: external
 
 # ==================== LEGEND ====================

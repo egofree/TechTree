@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.crew-training",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Crew training infrastructure and protocols for human spaceflight: high-fidelity motion-base and VR simulators for spacecraft systems, neutral buoyancy laboratory EVA training in 6.2-million-gallon pool with ISS mockups, and analog environment campaigns at HERA, NEEMO, Devon Island, Antarctica, and SIRIUS isolation studies.",
+  "early_win": false,
+  "id": "human-spaceflight.crew-training",
+  "level": "capability",
+  "name": "Crew Training",
+  "outputs": [
+    "trained_crew"
+  ],
+  "parent": "human-spaceflight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "maneuver_plans",
+  "@type": "Product",
+  "name": "Maneuver Plans",
+  "source": "spacecraft-systems.orbital-mechanics.maneuver-design",
+  "tags": {
+    "material": [
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

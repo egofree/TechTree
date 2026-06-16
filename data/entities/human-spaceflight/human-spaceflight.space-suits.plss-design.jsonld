@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Portable Life Support System (PLSS) design: the backpack unit that sustains an EVA astronaut independent of the spacecraft. Covers the oxygen ventilation loop, lithium hydroxide CO2 scrubbing, sublimator humidity and heat rejection, primary and contingency oxygen tanks, and the battery, pumps, fans, and sensors that together deliver 6-8 hours of autonomous life support.",
+  "early_win": false,
+  "id": "human-spaceflight.space-suits.plss-design",
+  "level": "process",
+  "name": "Portable Life Support System",
+  "outputs": [
+    "portable_life_support_systems",
+    "oxygen_loops",
+    "thermal_rejection_packs"
+  ],
+  "parent": "human-spaceflight.space-suits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

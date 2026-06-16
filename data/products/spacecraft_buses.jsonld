@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spacecraft_buses",
+  "@type": "Product",
+  "name": "Spacecraft Buses",
+  "source": "spacecraft-systems",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

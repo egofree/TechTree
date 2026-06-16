@@ -1,0 +1,48 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Atmospheric and space flight systems, from propeller aircraft to orbital launch vehicles.",
+  "early_win": false,
+  "id": "aerospace",
+  "level": "domain",
+  "name": "Aerospace",
+  "outputs": [
+    "aerostats",
+    "aircraft",
+    "aircraft_engines",
+    "airships",
+    "balloons",
+    "cargo_aircraft",
+    "cargo_loading_systems",
+    "drone_airframes",
+    "flight_controllers",
+    "helicopter_rotors",
+    "hypersonic_vehicles",
+    "jet_engines",
+    "lifting_gas_envelopes",
+    "propellers",
+    "ramjet_engines",
+    "reduction_gearboxes",
+    "rotorcraft",
+    "supersonic_aircraft",
+    "swashplates",
+    "turbofan_engines",
+    "turboprop_engines",
+    "turboshaft_engines",
+    "unmanned_aerial_vehicles"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-200+"
+}

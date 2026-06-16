@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Hybrid rocket engine design and manufacturing: solid fuel grain (HTPB, paraffin wax, or cross-linked polymer) paired with a liquid or gaseous oxidizer (N2O, LOX, GOX) fed through a pressure-fed or pump-fed system. Combines the storability and simplicity of solids with the throttleability, stop/restart capability, and safety (non-detonable, segregated fuel and oxidizer) of liquids. Delivers 250-350 s vacuum Isp with regression rates of 0.5-2.0 mm/s, enabling crewed suborbital flight (SpaceShipOne/Two), sounding rockets, and upper stages.",
+  "early_win": false,
+  "id": "launch-vehicles.hybrid-propulsion",
+  "level": "capability",
+  "name": "Hybrid Propulsion",
+  "outputs": [
+    "hybrid_engines"
+  ],
+  "parent": "launch-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "polymers",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

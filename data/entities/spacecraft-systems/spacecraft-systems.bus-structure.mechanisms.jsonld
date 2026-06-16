@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Mechanisms and Release Devices - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.bus-structure.mechanisms",
+  "level": "process",
+  "name": "Mechanisms and Release Devices",
+  "outputs": [
+    "satellite_structures",
+    "deployable_arrays"
+  ],
+  "parent": "spacecraft-systems.bus-structure",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

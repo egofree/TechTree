@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.space-suits__textiles",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "human-spaceflight.space-suits",
+  "to": "textiles",
+  "label": "multilayer suit fabric, restraint webbing, and thermal insulation blankets"
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recycled_materials",
+  "@type": "Product",
+  "name": "Recycled Space Materials",
+  "source": "space-resources.space-recycling",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ],
+    "lifecycle": [
+      "recycled-feedstock",
+      "closed-loop"
+    ]
+  }
+}

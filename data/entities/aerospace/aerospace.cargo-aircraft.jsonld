@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Heavy-lift and dedicated freighter aircraft engineering: high-wing airframes, reinforced cargo floors, nose/tail cargo doors, roller and pallet handling systems, and weight-and-balance management for outsized and palletized payloads. Builds on aviation and jet propulsion capabilities to move 20-150+ tonne payloads over intercontinental ranges.",
+  "early_win": false,
+  "id": "aerospace.cargo-aircraft",
+  "level": "capability",
+  "name": "Cargo Aircraft",
+  "outputs": [
+    "cargo_aircraft",
+    "cargo_loading_systems"
+  ],
+  "parent": "aerospace",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

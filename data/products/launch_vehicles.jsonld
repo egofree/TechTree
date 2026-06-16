@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "launch_vehicles",
+  "@type": "Product",
+  "name": "Launch Vehicles",
+  "source": "launch-vehicles.vehicle-architecture",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

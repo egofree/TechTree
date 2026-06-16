@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electric vehicle design and manufacturing: battery packs, traction motors, charging systems, regenerative braking, and fuel cell powertrains. Replaces internal combustion with electrochemical energy storage and electric drive.",
+  "early_win": false,
+  "id": "transport.electric-vehicles",
+  "level": "capability",
+  "name": "Electric Vehicles",
+  "outputs": [
+    "ev_battery_packs",
+    "ev_charging_systems",
+    "ev_powertrains",
+    "regenerative_braking_systems"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport",
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-60+"
+}

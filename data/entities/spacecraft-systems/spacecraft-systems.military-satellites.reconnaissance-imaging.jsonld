@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Reconnaissance imaging satellites for Earth observation: high-resolution optical telescopes (Keyhole heritage, sub-meter GSD) and synthetic aperture radar (SAR) for all-weather, day-night imaging. Publicly-documented characteristics include sun-synchronous orbits, optical mirror assemblies, and digital focal planes. Commercial systems now achieve 25-30 cm GSD.",
+  "early_win": false,
+  "id": "spacecraft-systems.military-satellites.reconnaissance-imaging",
+  "level": "process",
+  "name": "Reconnaissance Imaging",
+  "outputs": [
+    "reconnaissance_systems"
+  ],
+  "parent": "spacecraft-systems.military-satellites",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "glass",
+      "silicon",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

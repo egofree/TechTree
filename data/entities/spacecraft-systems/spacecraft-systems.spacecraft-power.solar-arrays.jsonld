@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design, fabrication, and deployment of spacecraft solar arrays using GaAs triple-junction photovoltaic cells on lightweight composite substrates with hinge-driven deployment mechanisms. Includes radiation hardening, coverglass integration, and array-level power conditioning.",
+  "early_win": false,
+  "id": "spacecraft-systems.spacecraft-power.solar-arrays",
+  "level": "process",
+  "name": "Solar Arrays",
+  "outputs": [
+    "solar_arrays"
+  ],
+  "parent": "spacecraft-systems.spacecraft-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

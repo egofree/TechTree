@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "comms_payloads",
+  "@type": "Product",
+  "name": "Communications Payloads",
+  "source": "spacecraft-systems.comms-payload",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "ceramics"
+    ]
+  }
+}

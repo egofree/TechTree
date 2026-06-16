@@ -24,6 +24,7 @@ graph TD
     measurement_precision-metrology("Precision Metrology & Standards")
     optics("Optics")
     photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
+    spacecraft-systems_adcs("Attitude Determination & Control")
     vacuum_deposition-systems("Deposition Systems")
 
     %% ==================== EDGES ====================
@@ -38,6 +39,7 @@ graph TD
     precision-motion_wafer-stages -.-> machine-tools_edm-cnc
     precision-motion -.-> machine-tools
     precision-motion -.-> measurement
+    spacecraft-systems_adcs -.-> precision-motion
     vacuum_deposition-systems -.-> precision-motion
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -68,5 +70,6 @@ graph TD
     class measurement_precision-metrology external
     class optics external
     class photolithography_fab-processes_cmp external
+    class spacecraft-systems_adcs external
     class vacuum_deposition-systems external
     class EdgeLegend,MatNote,ToolNote legend

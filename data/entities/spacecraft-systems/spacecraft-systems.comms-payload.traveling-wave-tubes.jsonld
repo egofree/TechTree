@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Traveling-wave tube amplifiers (TWTAs) for high-power microwave downlinks - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.comms-payload.traveling-wave-tubes",
+  "level": "process",
+  "name": "Traveling-Wave Tube Amplifiers",
+  "outputs": [
+    "twtas",
+    "comms_payloads"
+  ],
+  "parent": "spacecraft-systems.comms-payload",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

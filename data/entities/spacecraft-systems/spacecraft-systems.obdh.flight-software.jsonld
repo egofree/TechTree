@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Flight Software - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.obdh.flight-software",
+  "level": "process",
+  "name": "Flight Software",
+  "outputs": [
+    "onboard_electronics"
+  ],
+  "parent": "spacecraft-systems.obdh",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

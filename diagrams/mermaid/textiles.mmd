@@ -22,6 +22,8 @@ graph TD
     textiles["Textiles, Fiber & Cordage"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_aviation("Aviation")
+    aerospace_lighter-than-air("Lighter-than-Air")
     animals_animal-materials("Animal-Derived Materials Processing")
     animals_camelids("Camelid Husbandry")
     animals_goats("Goat Husbandry")
@@ -37,6 +39,7 @@ graph TD
     energy_wind("Wind Power")
     foundations("Foundations")
     foundations_tools-basic("Stone & Wood Tools")
+    human-spaceflight_space-suits("Space Suits")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_machining("Machining")
@@ -45,8 +48,8 @@ graph TD
     metals_iron-steel("Iron & Steel Production")
     plants_dye-plants("Dye Plants")
     plants_fiber-plants("Fiber Plants")
-    transport_aviation("Aviation")
     transport_shipping("Water Transport")
+    transport_tire-manufacturing("Tire Manufacturing")
 
     %% ==================== EDGES ====================
     textiles_fibers --> textiles_spinning
@@ -67,9 +70,12 @@ graph TD
     textiles_weaving -.-> textiles_spinning-frame_mule
     textiles_weaving -.-> textiles_spinning-frame_ring
     textiles_weaving -.-> textiles_spinning-frame_water
+    aerospace_aviation --> textiles
+    aerospace_lighter-than-air --> textiles
     construction --> textiles_rope-making
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
+    human-spaceflight_space-suits --> textiles
     knowledge_printing --> textiles_fibers
     machine-tools -.-> textiles
     marine --> textiles
@@ -95,8 +101,8 @@ graph TD
     textiles --> chemistry_bleaching
     textiles --> chemistry_pulp-chemicals
     textiles -.-> foundations
-    transport_aviation --> textiles
     transport_shipping --> textiles
+    transport_tire-manufacturing --> textiles
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -124,6 +130,8 @@ graph TD
     class textiles_spinning-frame_water process
     class textiles_spinning capability
     class textiles_weaving capability
+    class aerospace_aviation external
+    class aerospace_lighter-than-air external
     class animals_animal-materials external
     class animals_camelids external
     class animals_goats external
@@ -139,6 +147,7 @@ graph TD
     class energy_wind external
     class foundations external
     class foundations_tools-basic external
+    class human-spaceflight_space-suits external
     class knowledge_printing external
     class machine-tools external
     class machine-tools_machining external
@@ -147,6 +156,6 @@ graph TD
     class metals_iron-steel external
     class plants_dye-plants external
     class plants_fiber-plants external
-    class transport_aviation external
     class transport_shipping external
+    class transport_tire-manufacturing external
     class EdgeLegend,MatNote,ToolNote legend

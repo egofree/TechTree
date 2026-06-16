@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lh2",
+  "@type": "Product",
+  "name": "Liquid Hydrogen (LH2)",
+  "source": "launch-vehicles.propellant-production.lh2-production",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

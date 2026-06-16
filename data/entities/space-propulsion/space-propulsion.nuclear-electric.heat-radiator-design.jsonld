@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Heat rejection system design for nuclear electric propulsion: a fission reactor producing 100-1000 kWe of electricity rejects 2-5 MW of waste heat, which can only be removed in space by radiation. Pumped-loop radiators (NaK or water coolant circulated through aluminum or titanium-polymer finned panels) require 50-500 m^2 of radiator area for typical system sizes. Advanced concepts include liquid-droplet radiators (a sheet of molten metal sprayed through space and recaptured, achieving 4-10x the heat-flux per unit mass) and heat-pipe radiators (no moving parts). Radiator area is the dominant mass and deployment constraint of any NEP architecture: at 100 kWe a pumped-loop radiator masses 5-10 tonnes, at 1 MWe the radiator dominates vehicle mass.",
+  "early_win": false,
+  "id": "space-propulsion.nuclear-electric.heat-radiator-design",
+  "level": "process",
+  "name": "Heat Radiator Design",
+  "outputs": [
+    "nep_systems"
+  ],
+  "parent": "space-propulsion.nuclear-electric",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

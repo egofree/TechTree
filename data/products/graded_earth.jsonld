@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "graded_earth",
+  "@type": "Product",
+  "name": "Graded Earth",
+  "source": "transport.road-construction-equipment",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "transport"
+    ]
+  }
+}

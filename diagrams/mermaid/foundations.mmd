@@ -16,6 +16,7 @@ graph TD
     foundations["Foundations"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace("Aerospace")
     agriculture_soil-management("Soil Management & Composting")
     agriculture_soil-management_vermiculture("Vermiculture")
     animals("Animals & Animal Husbandry")
@@ -43,8 +44,10 @@ graph TD
     food-processing("Food Processing")
     food-processing_oil-processing("Oil & Fat Processing")
     health("Public Health, Sanitation & Medicine")
+    human-spaceflight("Human Spaceflight")
     knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
+    launch-vehicles("Launch Vehicles")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_forming("Metal Forming")
     marine("Marine & Naval Engineering")
@@ -58,6 +61,10 @@ graph TD
     plants_edible-plants("Edible Plants")
     polymers("Polymers & Composites")
     polymers_rubber_natural("Natural Rubber & Vulcanization")
+    space-ground-ops("Space Ground Operations")
+    space-propulsion("Space Propulsion")
+    space-resources("Space Resources")
+    spacecraft-systems("Spacecraft Systems")
     telecom_pre-electric("Pre-Electric Communication")
     textiles("Textiles, Fiber & Cordage")
     textiles_fibers("Fiber Preparation")
@@ -67,6 +74,7 @@ graph TD
     %% ==================== EDGES ====================
     foundations_carpentry -.-> foundations
     foundations_food-agriculture -.-> foundations_tools-basic
+    aerospace -.-> foundations
     agriculture_soil-management_vermiculture -.-> foundations_food-agriculture
     animals_aquaculture -.-> foundations_tools-basic
     animals_beekeeping -.-> foundations_fire
@@ -100,9 +108,11 @@ graph TD
     foundations_food-agriculture --> animals_rabbits
     foundations_food-agriculture --> plants_edible-plants
     health -.-> foundations
+    human-spaceflight -.-> foundations
     knowledge_writing -.-> foundations_food-agriculture
     knowledge_writing -.-> foundations_tools-basic
     knowledge -.-> foundations
+    launch-vehicles -.-> foundations
     machine-tools_forming -.-> foundations_fire
     machine-tools --> foundations_carpentry
     marine -.-> foundations
@@ -115,6 +125,10 @@ graph TD
     plants -.-> foundations_fire
     polymers_rubber_natural -.-> foundations_fire
     polymers -.-> foundations
+    space-ground-ops -.-> foundations
+    space-propulsion -.-> foundations
+    space-resources -.-> foundations
+    spacecraft-systems -.-> foundations
     telecom_pre-electric -.-> foundations
     textiles_fibers -.-> foundations_tools-basic
     textiles -.-> foundations
@@ -141,6 +155,7 @@ graph TD
     class foundations_food-agriculture capability
     class foundations_sawmilling capability
     class foundations_tools-basic capability
+    class aerospace external
     class agriculture_soil-management external
     class agriculture_soil-management_vermiculture external
     class animals external
@@ -168,8 +183,10 @@ graph TD
     class food-processing external
     class food-processing_oil-processing external
     class health external
+    class human-spaceflight external
     class knowledge external
     class knowledge_writing external
+    class launch-vehicles external
     class machine-tools external
     class machine-tools_forming external
     class marine external
@@ -183,6 +200,10 @@ graph TD
     class plants_edible-plants external
     class polymers external
     class polymers_rubber_natural external
+    class space-ground-ops external
+    class space-propulsion external
+    class space-resources external
+    class spacecraft-systems external
     class telecom_pre-electric external
     class textiles external
     class textiles_fibers external

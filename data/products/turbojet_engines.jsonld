@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "turbojet_engines",
+  "@type": "Product",
+  "name": "Turbojet Engines",
+  "source": "aerospace.jet-propulsion.turbojet",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

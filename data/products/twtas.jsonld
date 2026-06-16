@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "twtas",
+  "@type": "Product",
+  "name": "Traveling-Wave Tube Amplifiers",
+  "source": "spacecraft-systems.comms-payload.traveling-wave-tubes",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "ceramics"
+    ]
+  }
+}

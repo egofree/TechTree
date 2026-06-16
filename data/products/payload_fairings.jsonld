@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "payload_fairings",
+  "@type": "Product",
+  "name": "Payload Fairings",
+  "source": "launch-vehicles.vehicle-architecture.payload-fairing",
+  "tags": {
+    "material": [
+      "polymers",
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

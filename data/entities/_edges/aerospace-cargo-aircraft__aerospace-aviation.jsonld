@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.cargo-aircraft__aerospace.aviation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "aerospace.cargo-aircraft",
+  "to": "aerospace.aviation"
+}

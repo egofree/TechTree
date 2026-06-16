@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "qualified_hardware",
+  "@type": "Product",
+  "name": "Space-Qualified Hardware",
+  "source": "spacecraft-systems.space-qualification.thermal-vacuum-test",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

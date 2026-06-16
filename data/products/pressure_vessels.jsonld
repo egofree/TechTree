@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pressure_vessels",
+  "@type": "Product",
+  "name": "Pressure Vessels",
+  "source": "human-spaceflight.crewed-spacecraft.crew-cabin",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Environmental Control and Life Support System (ECLSS) for crewed spacecraft: atmosphere revitalisation, temperature and humidity control, water recovery, waste management, and fire detection and suppression. The aggregate subsystem that keeps a crew alive in the vacuum and radiation of space.",
+  "early_win": false,
+  "id": "human-spaceflight.eclss",
+  "level": "capability",
+  "name": "Environmental Control & Life Support",
+  "outputs": [
+    "eclss_systems",
+    "water_recovery_systems"
+  ],
+  "parent": "human-spaceflight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

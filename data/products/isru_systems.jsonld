@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "isru_systems",
+  "@type": "Product",
+  "name": "Isru Systems",
+  "source": "space-resources",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

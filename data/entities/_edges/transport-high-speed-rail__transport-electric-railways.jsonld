@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.high-speed-rail__transport.electric-railways",
+  "@type": "Dependency",
+  "from": "transport.high-speed-rail",
+  "to": "transport.electric-railways",
+  "edgeType": "tool",
+  "flow": "primary"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Structural docking and berthing mechanism design including common berthing mechanisms and probe-and-drogue adapters - see documentation for details.",
+  "early_win": false,
+  "id": "human-spaceflight.space-stations.structural-docking",
+  "level": "process",
+  "name": "Structural Docking + Berthing",
+  "outputs": [
+    "docking_systems",
+    "space_stations"
+  ],
+  "parent": "human-spaceflight.space-stations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "light_aircraft",
+  "@type": "Product",
+  "name": "Light Aircraft",
+  "source": "aerospace.light-aircraft",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

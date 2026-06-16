@@ -116,6 +116,27 @@ photolithography: "Photolithography & IC Fabrication" {
 precision-motion_precision-encoders: "Precision Encoders & Feedback" {
   shape: rectangle
 }
+space-ground-ops_ground-stations: Ground Stations {
+  shape: rectangle
+}
+space-ground-ops_range-safety: Range Safety {
+  shape: rectangle
+}
+spacecraft-systems_adcs: "Attitude Determination & Control" {
+  shape: rectangle
+}
+spacecraft-systems_earth-observation: Earth Observation Payloads {
+  shape: rectangle
+}
+spacecraft-systems_military-satellites: Military Satellites {
+  shape: rectangle
+}
+spacecraft-systems_navigation-payload: "Navigation & PNT Payloads" {
+  shape: rectangle
+}
+spacecraft-systems_science-instruments: Science Instruments {
+  shape: rectangle
+}
 vacuum_pumps: Vacuum Pumps {
   shape: rectangle
 }
@@ -135,6 +156,13 @@ optics_inspection -> glass_advanced: { class: material-edge }
 optics -> machine-tools: { class: tool-edge }
 photolithography -> optics: { class: tool-edge }
 precision-motion_precision-encoders -> optics: { class: tool-edge }
+space-ground-ops_ground-stations -> optics: { class: tool-edge }
+space-ground-ops_range-safety -> optics: { class: tool-edge }
+spacecraft-systems_adcs -> optics: { class: tool-edge }
+spacecraft-systems_earth-observation -> optics: { class: tool-edge }
+spacecraft-systems_military-satellites -> optics: { class: tool-edge }
+spacecraft-systems_navigation-payload -> optics: { class: tool-edge }
+spacecraft-systems_science-instruments -> optics: { class: tool-edge }
 vlsi-scaling_advanced-lithography -> optics_inspection: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -149,6 +177,13 @@ measurement_precision-metrology.class: external
 measurement_thermostat-advanced.class: external
 photolithography.class: external
 precision-motion_precision-encoders.class: external
+space-ground-ops_ground-stations.class: external
+space-ground-ops_range-safety.class: external
+spacecraft-systems_adcs.class: external
+spacecraft-systems_earth-observation.class: external
+spacecraft-systems_military-satellites.class: external
+spacecraft-systems_navigation-payload.class: external
+spacecraft-systems_science-instruments.class: external
 vacuum_pumps.class: external
 vlsi-scaling_advanced-lithography.class: external
 

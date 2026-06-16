@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "liquid_cooling_garments",
+  "@type": "Product",
+  "name": "Liquid Cooling Garments",
+  "source": "human-spaceflight.space-suits.thermal-control-suit",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

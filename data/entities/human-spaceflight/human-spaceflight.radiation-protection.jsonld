@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.radiation-protection",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Radiation protection for crewed spaceflight: storm shelter design for solar particle event shielding, passive GCR dose reduction through material selection and areal density optimisation, and personal and area dosimetry monitoring using OSLiD, CR-39 PNTD, and tissue-equivalent proportional counters.",
+  "early_win": false,
+  "id": "human-spaceflight.radiation-protection",
+  "level": "capability",
+  "name": "Radiation Protection",
+  "outputs": [
+    "radiation_protection"
+  ],
+  "parent": "human-spaceflight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "water",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

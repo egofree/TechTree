@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.motor-vehicles__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "transport.motor-vehicles",
+  "to": "metals.iron-steel"
+}

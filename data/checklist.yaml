@@ -128,15 +128,15 @@ tier_1_industrial:
   - id: mining
     name: 'Ore dressing: crushing, washing, gravity separation'
     domain: mining
-  - id: transport.aviation
+  - id: aerospace.aviation
     name: Airframe construction capability
-    domain: transport
-  - id: transport.aviation
+    domain: aerospace
+  - id: aerospace.aviation
     name: Small piston engine operational (20+ HP)
-    domain: transport
-  - id: transport.aviation
+    domain: aerospace
+  - id: aerospace.aviation
     name: Carved and balanced wooden propeller
-    domain: transport
+    domain: aerospace
   - id: polymers.rubber.natural
     name: Natural rubber vulcanization capability
     domain: polymers
@@ -256,9 +256,9 @@ tier_2_semiconductor:
   - id: polymers.composites
     name: First composite layup structural part
     domain: polymers
-  - id: transport.aviation
+  - id: aerospace.aviation
     name: Flyable ultralight aircraft test flight completed
-    domain: transport
+    domain: aerospace
   - id: chemistry.petroleum-alternatives
     name: Aviation fuel supply chain
     domain: chemistry
@@ -343,7 +343,7 @@ pathways:
       - chemistry.acids
       - chemistry.lubricants
       - glass.basic
-      - transport.aviation
+      - aerospace.aviation
       notes: 'Water transport moves bulk ore from inland mines to coastal forges. Prioritize boat-building
         for trade routes. Salt-based Leblanc process for soda ash. Desalination brine for chlorine production.'
     - tier: tier_2_semiconductor

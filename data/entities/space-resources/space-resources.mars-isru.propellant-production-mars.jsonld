@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Integrated In-Situ Propellant Production (ISPP) plant combining atmospheric CO2 collection, water electrolysis, Sabatier methanation, and cryogenic liquefaction to produce ~7 metric tons CH4 and ~5.5 tons O2 per Sol, yielding roughly 1 metric ton CH4 per 17.7 tons H2O plus atmospheric CO2.",
+  "early_win": false,
+  "id": "space-resources.mars-isru.propellant-production-mars",
+  "level": "process",
+  "name": "Propellant Production (Mars)",
+  "outputs": [
+    "mars_propellant"
+  ],
+  "parent": "space-resources.mars-isru",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

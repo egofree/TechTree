@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.science-instruments__silicon",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "spacecraft-systems.science-instruments",
+  "to": "silicon",
+  "label": "Silicon detector substrates for CCDs, CMOS arrays, and solid-state particle detectors"
+}

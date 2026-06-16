@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "injectors",
+  "@type": "Product",
+  "name": "Rocket Injectors",
+  "source": "launch-vehicles.liquid-propulsion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

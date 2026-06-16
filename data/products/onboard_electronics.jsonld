@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "onboard_electronics",
+  "@type": "Product",
+  "name": "Onboard Electronics",
+  "source": "spacecraft-systems.obdh",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "silicon",
+      "metals"
+    ]
+  }
+}

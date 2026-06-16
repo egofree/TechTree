@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.microgravity-manufacturing.fiber-pulling__space-resources.microgravity-manufacturing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-resources.microgravity-manufacturing.fiber-pulling",
+  "to": "space-resources.microgravity-manufacturing"
+}

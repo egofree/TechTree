@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Cryogenic air separation via Linde/Claude cycle to produce liquid oxygen at 99.5%+ purity, stored at -183C with boil-off management. Double-column distillation separates atmospheric O2 from N2 and Ar.",
+  "early_win": false,
+  "id": "launch-vehicles.propellant-production.lox-production",
+  "level": "process",
+  "name": "LOX Production",
+  "outputs": [
+    "lox"
+  ],
+  "parent": "launch-vehicles.propellant-production",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

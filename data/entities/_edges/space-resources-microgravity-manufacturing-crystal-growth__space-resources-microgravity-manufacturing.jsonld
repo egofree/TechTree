@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.microgravity-manufacturing.crystal-growth__space-resources.microgravity-manufacturing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-resources.microgravity-manufacturing.crystal-growth",
+  "to": "space-resources.microgravity-manufacturing"
+}

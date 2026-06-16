@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Liquid hydrogen production via steam methane reforming (SMR) followed by electrolysis backup, then liquefaction to -253C with para-ortho hydrogen conversion. Energy cost ~50 kWh/kg total including 13 kWh/kg for liquefaction.",
+  "early_win": false,
+  "id": "launch-vehicles.propellant-production.lh2-production",
+  "level": "process",
+  "name": "LH2 Production",
+  "outputs": [
+    "lh2"
+  ],
+  "parent": "launch-vehicles.propellant-production",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

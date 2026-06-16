@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reconnaissance_systems",
+  "@type": "Product",
+  "name": "Reconnaissance Systems",
+  "source": "spacecraft-systems.military-satellites",
+  "tags": {
+    "capability": [
+      "spaceflight",
+      "defense"
+    ],
+    "material": [
+      "silicon",
+      "glass",
+      "metals"
+    ]
+  }
+}

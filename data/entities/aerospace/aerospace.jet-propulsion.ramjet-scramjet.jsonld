@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Air-breathing engines with no rotating turbomachinery. Forward speed rams air into the inlet, compressing it aerodynamically. Subsonic-combustion ramjets operate from Mach 3 to about Mach 6; supersonic-combustion scramjets extend operation to Mach 12-15. Requires a rocket or turbine boost to reach ignition speed.",
+  "early_win": false,
+  "id": "aerospace.jet-propulsion.ramjet-scramjet",
+  "level": "process",
+  "name": "Ramjet and Scramjet Engines",
+  "outputs": [
+    "ramjet_engines"
+  ],
+  "parent": "aerospace.jet-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-80+"
+}

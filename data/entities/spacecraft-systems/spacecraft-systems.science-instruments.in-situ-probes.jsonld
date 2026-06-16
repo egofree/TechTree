@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "In-situ probes and contact instruments for direct measurement of surface and atmospheric composition: mass spectrometers (SAM on Curiosity), X-ray fluorescence and diffraction (CheMin), gas chromatographs, tunable laser spectrometers, and surface sampling mechanisms (drills, scoops, pyrotechnic penetrators). Heritage from Viking, Phoenix, and Mars 2020.",
+  "early_win": false,
+  "id": "spacecraft-systems.science-instruments.in-situ-probes",
+  "level": "process",
+  "name": "In-Situ Probes",
+  "outputs": [
+    "science_payloads"
+  ],
+  "parent": "spacecraft-systems.science-instruments",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "silicon",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

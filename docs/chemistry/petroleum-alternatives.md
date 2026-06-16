@@ -16,7 +16,7 @@
 > [`polymers.rubber.synthetic`](../polymers/synthetic.md),
 > [`polymers.thermoplastics`](../polymers/thermoplastics.md),
 > [`polymers.thermosets`](../polymers/thermosets.md),
-> [`transport.aviation`](../transport/aviation.md)
+> [`aerospace.aviation`](../aerospace/aviation.md)
 > **Timeline**: Years 5-50+
 > **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas
 > **Critical**: No — petroleum alternatives provide chemical feedstocks but individual capabilities depend on specific downstream processes
@@ -133,7 +133,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 ## Synthetic Polymers
 Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, acetone, cellulose, lignin) that serve as monomer and resin precursors. Polymerization processes, material properties, and end-use applications are covered in [**[Polymers & Composites](../polymers/index.md)**](../polymers/index.md).
-- Aircraft fuels and dopes: gasoline distillation fraction for piston engines; acetone for nitrocellulose dope production — see [Aircraft](../transport/aviation.md)
+- Aircraft fuels and dopes: gasoline distillation fraction for piston engines; acetone for nitrocellulose dope production — see [Aircraft](../aerospace/aviation.md)
 
 ## The Dual Path Principle
 - **Petroleum available**: everything accelerates. Cheap solvents, fuels, monomers, polymers. Decades saved.
@@ -244,7 +244,7 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 - [Soap](soap.md) — alkali chemistry and fat saponification
 - [Synthetic Polymers](../polymers/synthetic.md) — petrochemical feedstocks for plastics
 - [Fuels](../energy/fuels.md) — solid, liquid, and gaseous fuels
-- [Transport / Aviation](../transport/aviation.md) — aviation fuel requirements
+- [Aerospace / Aviation](../aerospace/aviation.md) — aviation fuel requirements
 
 ---
 

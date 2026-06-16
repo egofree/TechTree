@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "flight_termination",
+  "@type": "Product",
+  "name": "Flight Termination",
+  "source": "space-ground-ops.range-safety.flight-termination",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

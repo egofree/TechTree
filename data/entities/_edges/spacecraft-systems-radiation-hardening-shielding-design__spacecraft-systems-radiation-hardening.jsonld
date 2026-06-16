@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.radiation-hardening.shielding-design__spacecraft-systems.radiation-hardening",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.radiation-hardening.shielding-design",
+  "to": "spacecraft-systems.radiation-hardening"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Asteroid prospecting, resource extraction, and water harvesting from near-Earth objects: spectral survey, volatilization, magnetic separation, and hydration recovery from carbonaceous chondrites.",
+  "early_win": false,
+  "id": "space-resources.asteroid-mining",
+  "level": "capability",
+  "name": "Asteroid Mining",
+  "outputs": [
+    "asteroid_materials",
+    "asteroid_water"
+  ],
+  "parent": "space-resources",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

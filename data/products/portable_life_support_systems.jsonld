@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "portable_life_support_systems",
+  "@type": "Product",
+  "name": "Portable Life Support Systems",
+  "source": "human-spaceflight.space-suits.plss-design",
+  "tags": {
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

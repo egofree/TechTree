@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Star tracker design and integration - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.adcs.star-trackers",
+  "level": "process",
+  "name": "Star Trackers",
+  "outputs": [
+    "star_trackers"
+  ],
+  "parent": "spacecraft-systems.adcs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "glass",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

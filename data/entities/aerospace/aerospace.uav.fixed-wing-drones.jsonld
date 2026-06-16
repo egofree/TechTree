@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and construction of fixed-wing UAVs — unmanned aircraft that generate lift through wing surfaces rather than rotor thrust. Fixed-wing drones offer longer endurance and higher range than multirotors at the cost of requiring a runway or catapult launch and forward speed to stay airborne. Used for long-range survey, pipeline inspection, and medium-altitude reconnaissance. Builds on full-scale aviation aerodynamics (aerospace.aviation) scaled down to 1-25 kg gross weight, with electric motor propulsion and composite or foam airframes.",
+  "early_win": false,
+  "id": "aerospace.uav.fixed-wing-drones",
+  "level": "process",
+  "name": "Fixed-Wing Drones",
+  "outputs": [
+    "unmanned_aerial_vehicles"
+  ],
+  "parent": "aerospace.uav",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-55+"
+}

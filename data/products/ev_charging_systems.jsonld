@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ev_charging_systems",
+  "@type": "Product",
+  "name": "EV Charging Systems",
+  "source": "transport.electric-vehicles.charging-systems",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

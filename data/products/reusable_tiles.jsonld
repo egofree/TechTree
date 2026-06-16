@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reusable_tiles",
+  "@type": "Product",
+  "name": "Reusable Tiles",
+  "source": "launch-vehicles.edl.heat-shield-design",
+  "tags": {
+    "material": [
+      "ceramics",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

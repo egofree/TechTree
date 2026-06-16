@@ -22,6 +22,7 @@ graph TD
     polymers["Polymers & Composites"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_lighter-than-air("Lighter-than-Air")
     chemistry("Chemistry")
     chemistry_distillation("Distillation")
     chemistry_electrolysis_sem-tech("Semiconductor-Grade Electrolysis")
@@ -39,13 +40,23 @@ graph TD
     gas-handling("Gas Handling")
     glass_fibers("Glass Fiber Production")
     health("Public Health, Sanitation & Medicine")
+    human-spaceflight_space-suits("Space Suits")
+    launch-vehicles_edl("Entry, Descent & Landing")
+    launch-vehicles_hybrid-propulsion("Hybrid Propulsion")
+    launch-vehicles_solid-propulsion("Solid Propulsion")
+    launch-vehicles_vehicle-architecture("Vehicle Architecture")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_forming("Metal Forming")
     marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
     photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
+    space-resources_microgravity-manufacturing("Microgravity Manufacturing")
+    space-resources_space-recycling("Space Recycling & Closed-Loop Logistics")
+    spacecraft-systems_bus-structure("Bus Structure + Deployables")
+    spacecraft-systems_thermal-control("Thermal Control")
     telecom("Telecommunications")
     telecom_submarine-cables("Submarine Cable Systems")
+    transport_tire-manufacturing("Tire Manufacturing")
 
     %% ==================== EDGES ====================
     polymers_composites --> polymers_thermosets
@@ -56,6 +67,7 @@ graph TD
     polymers_rubber_shellac -.-> polymers_rubber
     polymers_rubber -.-> polymers_rubber_vulcanization
     polymers_thermoplastics --> polymers_thermoplastics
+    aerospace_lighter-than-air --> polymers
     chemistry_packaging-testing --> polymers_thermosets
     computing_data-storage --> polymers_thermoplastics
     ehs_ppe -.-> polymers
@@ -65,6 +77,11 @@ graph TD
     energy_storage --> polymers_rubber
     gas-handling -.-> polymers_seals-gaskets
     health --> polymers_rubber
+    human-spaceflight_space-suits --> polymers
+    launch-vehicles_edl --> polymers
+    launch-vehicles_hybrid-propulsion --> polymers_composites
+    launch-vehicles_solid-propulsion --> polymers_composites
+    launch-vehicles_vehicle-architecture --> polymers_composites
     marine_infrastructure --> polymers_rubber_gutta-percha
     photolithography_fab-processes_cmp --> polymers_thermosets
     photolithography_resists-masks --> polymers_thermosets
@@ -85,8 +102,13 @@ graph TD
     polymers_thermosets --> chemistry
     polymers_thermosets -.-> machine-tools
     polymers -.-> foundations
+    space-resources_microgravity-manufacturing -.-> polymers
+    space-resources_space-recycling --> polymers
+    spacecraft-systems_bus-structure --> polymers_composites
+    spacecraft-systems_thermal-control --> polymers
     telecom_submarine-cables --> polymers_rubber_gutta-percha
     telecom --> polymers_rubber_gutta-percha
+    transport_tire-manufacturing --> polymers
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -114,6 +136,7 @@ graph TD
     class polymers_seals-gaskets capability
     class polymers_thermoplastics capability
     class polymers_thermosets capability
+    class aerospace_lighter-than-air external
     class chemistry external
     class chemistry_distillation external
     class chemistry_electrolysis_sem-tech external
@@ -131,11 +154,21 @@ graph TD
     class gas-handling external
     class glass_fibers external
     class health external
+    class human-spaceflight_space-suits external
+    class launch-vehicles_edl external
+    class launch-vehicles_hybrid-propulsion external
+    class launch-vehicles_solid-propulsion external
+    class launch-vehicles_vehicle-architecture external
     class machine-tools external
     class machine-tools_forming external
     class marine_infrastructure external
     class photolithography_fab-processes_cmp external
     class photolithography_resists-masks external
+    class space-resources_microgravity-manufacturing external
+    class space-resources_space-recycling external
+    class spacecraft-systems_bus-structure external
+    class spacecraft-systems_thermal-control external
     class telecom external
     class telecom_submarine-cables external
+    class transport_tire-manufacturing external
     class EdgeLegend,MatNote,ToolNote legend

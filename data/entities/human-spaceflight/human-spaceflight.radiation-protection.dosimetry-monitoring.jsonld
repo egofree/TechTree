@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.radiation-protection.dosimetry-monitoring",
+  "@type": "Process",
+  "critical": false,
+  "description": "Personal and area radiation dosimetry for crewed spacecraft: optically stimulated luminescent dosimeters (OSLiD) for passive dose-of-record, CR-39 plastic nuclear track detectors (PNTD) for high-LET charge spectroscopy, tissue-equivalent proportional counters (TEPC) for real-time dose equivalent, and personal dosimeters worn during EVAs and inside shielded volumes.",
+  "early_win": false,
+  "id": "human-spaceflight.radiation-protection.dosimetry-monitoring",
+  "level": "process",
+  "name": "Dosimetry & Monitoring",
+  "outputs": [
+    "radiation_protection"
+  ],
+  "parent": "human-spaceflight.radiation-protection",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

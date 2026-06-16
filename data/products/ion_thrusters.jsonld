@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ion_thrusters",
+  "@type": "Product",
+  "name": "Ion Thrusters",
+  "source": "space-propulsion.electric-ion",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

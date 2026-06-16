@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Ground network distribution and cross-support: CCSDS Space Link Extension (SLE) services that standardise the interface between a spacecraft and any compliant ground station, cross-support agreements that let one agency's network serve another's mission, and the orchestration layer that schedules passes, routes data, and hands off tracking between stations as the Earth rotates.",
+  "early_win": false,
+  "id": "space-ground-ops.ground-stations.network-distribution",
+  "level": "process",
+  "name": "Network Distribution",
+  "outputs": [
+    "network_distribution"
+  ],
+  "parent": "space-ground-ops.ground-stations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

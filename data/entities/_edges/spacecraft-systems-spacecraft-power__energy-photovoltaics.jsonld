@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.spacecraft-power__energy.photovoltaics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.spacecraft-power",
+  "to": "energy.photovoltaics",
+  "label": "solar cell heritage: terrestrial photovoltaic p-n junction technology adapted for space with GaAs III-V materials and radiation hardening"
+}

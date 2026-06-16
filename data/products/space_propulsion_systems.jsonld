@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "space_propulsion_systems",
+  "@type": "Product",
+  "name": "Space Propulsion Systems",
+  "source": "space-propulsion",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

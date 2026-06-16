@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "drone_airframes",
+  "@type": "Product",
+  "name": "Drone Airframes",
+  "source": "aerospace.uav",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

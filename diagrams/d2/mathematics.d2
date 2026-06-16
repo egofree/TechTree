@@ -122,6 +122,9 @@ knowledge_surveying: "Surveying & Cartography" {
 knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
+spacecraft-systems_orbital-mechanics: Orbital Mechanics {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 mathematics_applied-mathematics -> mathematics_core-mathematics: { class: tool-edge }
@@ -135,6 +138,7 @@ knowledge_scientific-method -> mathematics: { class: tool-edge }
 knowledge_surveying -> mathematics: { class: tool-edge }
 mathematics_core-mathematics -> foundations: { class: tool-edge }
 mathematics -> knowledge_writing: { class: tool-edge }
+spacecraft-systems_orbital-mechanics -> mathematics: { class: tool-edge }
 
 # ==================== STYLING ====================
 mathematics.class: domain
@@ -150,6 +154,7 @@ foundations.class: external
 knowledge_scientific-method.class: external
 knowledge_surveying.class: external
 knowledge_writing.class: external
+spacecraft-systems_orbital-mechanics.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

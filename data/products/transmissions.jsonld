@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "transmissions",
+  "@type": "Product",
+  "name": "Transmissions",
+  "source": "transport.ice-powertrains",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

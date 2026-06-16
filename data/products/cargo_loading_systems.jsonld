@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cargo_loading_systems",
+  "@type": "Product",
+  "name": "Cargo Loading Systems",
+  "source": "aerospace.cargo-aircraft",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

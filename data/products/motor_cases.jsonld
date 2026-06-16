@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "motor_cases",
+  "@type": "Product",
+  "name": "Motor Cases",
+  "source": "launch-vehicles.solid-propulsion.case-bonding",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

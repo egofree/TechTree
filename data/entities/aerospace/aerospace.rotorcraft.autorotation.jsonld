@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Autorotative flight: maintaining rotor RPM and controlled descent after total power loss by allowing upward airflow through the rotor to drive the blades, storing kinetic energy in the rotor system and expending it in a flare maneuver before touchdown. Covers entry, steady-state descent, and flare mechanics, plus the freewheeling clutch that disconnects a failed engine from the rotor.",
+  "early_win": false,
+  "id": "aerospace.rotorcraft.autorotation",
+  "level": "process",
+  "name": "Autorotation",
+  "outputs": [
+    "rotorcraft"
+  ],
+  "parent": "aerospace.rotorcraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

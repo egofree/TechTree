@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Sabatier methanation converting CO2 + 4H2 -> CH4 + 2H2O over a ruthenium-on-alumina catalyst at 300-400C with a 5:1 H2:CO2 feed ratio, achieving >98% CO2 conversion per pass and producing methane fuel with recyclable water byproduct.",
+  "early_win": false,
+  "id": "space-resources.mars-isru.sabatier-methanation",
+  "level": "process",
+  "name": "Sabatier Methanation",
+  "outputs": [
+    "mars_propellant"
+  ],
+  "parent": "space-resources.mars-isru",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

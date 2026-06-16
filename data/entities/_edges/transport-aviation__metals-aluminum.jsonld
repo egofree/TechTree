@@ -1,9 +1,0 @@
-{
-  "@context": "../../context.jsonld",
-  "@id": "edge/transport.aviation__metals.aluminum",
-  "@type": "Dependency",
-  "edgeType": "material",
-  "flow": "primary",
-  "from": "transport.aviation",
-  "to": "metals.aluminum"
-}

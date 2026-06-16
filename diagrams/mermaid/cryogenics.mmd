@@ -18,7 +18,12 @@ graph TD
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     energy_electricity("Electricity Generation & Distribution")
     gas-handling("Gas Handling")
+    launch-vehicles_liquid-propulsion("Liquid Propulsion")
+    launch-vehicles_propellant-production("Propellant Production")
     silicon_crystal-growth("Crystal Growth & Wafering")
+    space-ground-ops_launch-complex("Launch Complex")
+    space-propulsion_nuclear-thermal("Nuclear Thermal Propulsion")
+    space-propulsion_propellant-storage("Cryogenic Propellant Storage & Transfer")
 
     %% ==================== EDGES ====================
     cryogenics_air-separation -.-> cryogenics_refrigeration
@@ -27,7 +32,12 @@ graph TD
     cryogenics --> ceramics_thermal-insulation
     cryogenics -.-> energy_electricity
     cryogenics -.-> gas-handling
+    launch-vehicles_liquid-propulsion --> cryogenics_liquefaction-storage
+    launch-vehicles_propellant-production -.-> cryogenics_liquefaction-storage
     silicon_crystal-growth --> cryogenics_liquefaction-storage
+    space-ground-ops_launch-complex -.-> cryogenics_liquefaction-storage
+    space-propulsion_nuclear-thermal --> cryogenics_liquefaction-storage
+    space-propulsion_propellant-storage -.-> cryogenics_liquefaction-storage
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -51,5 +61,10 @@ graph TD
     class chemistry_air-separation external
     class energy_electricity external
     class gas-handling external
+    class launch-vehicles_liquid-propulsion external
+    class launch-vehicles_propellant-production external
     class silicon_crystal-growth external
+    class space-ground-ops_launch-complex external
+    class space-propulsion_nuclear-thermal external
+    class space-propulsion_propellant-storage external
     class EdgeLegend,MatNote,ToolNote legend

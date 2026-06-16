@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.debris-management.collision-avoidance__spacecraft-systems.debris-management",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.debris-management.collision-avoidance",
+  "to": "spacecraft-systems.debris-management"
+}

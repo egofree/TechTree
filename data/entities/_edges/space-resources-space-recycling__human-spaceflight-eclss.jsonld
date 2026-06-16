@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.space-recycling__human-spaceflight.eclss",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-resources.space-recycling",
+  "to": "human-spaceflight.eclss",
+  "label": "ECLSS water recovery and atmosphere revitalisation as the baseline for advanced loop closure"
+}

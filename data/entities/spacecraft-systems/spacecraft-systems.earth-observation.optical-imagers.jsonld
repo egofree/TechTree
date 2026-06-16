@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Optical Imagers - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.earth-observation.optical-imagers",
+  "level": "process",
+  "name": "Optical Imagers",
+  "outputs": [
+    "eo_payloads"
+  ],
+  "parent": "spacecraft-systems.earth-observation",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "glass",
+      "silicon",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

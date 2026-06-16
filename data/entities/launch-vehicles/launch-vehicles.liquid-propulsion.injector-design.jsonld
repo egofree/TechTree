@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Injector Design - see documentation for details.",
+  "early_win": false,
+  "id": "launch-vehicles.liquid-propulsion.injector-design",
+  "level": "process",
+  "name": "Injector Design",
+  "outputs": [
+    "injectors"
+  ],
+  "parent": "launch-vehicles.liquid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

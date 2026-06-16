@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.space-medicine.countermeasures",
+  "@type": "Process",
+  "critical": false,
+  "description": "Physiological countermeasures against microgravity-induced deconditioning: ARED resistive exercise at up to 270 kg load, T2 treadmill bungee harness running at 75% body weight equivalent, CEVIS cycle ergometry at 150-350 W, and pharmaceutical countermeasures including bisphosphonates and potassium citrate.",
+  "early_win": false,
+  "id": "human-spaceflight.space-medicine.countermeasures",
+  "level": "process",
+  "name": "Countermeasures",
+  "outputs": [
+    "crew_medical"
+  ],
+  "parent": "human-spaceflight.space-medicine",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

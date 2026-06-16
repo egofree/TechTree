@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Diesel-electric locomotives: self-contained prime movers using a diesel engine driving a generator or alternator, with electric traction motors on the axles. Replaces steam locomotives with higher thermal efficiency, lower maintenance, and no water stops.",
+  "early_win": false,
+  "id": "transport.diesel-locomotives",
+  "level": "capability",
+  "name": "Diesel-Electric Locomotives",
+  "outputs": [
+    "diesel_locomotives",
+    "diesel_electric_generators"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport",
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50+"
+}

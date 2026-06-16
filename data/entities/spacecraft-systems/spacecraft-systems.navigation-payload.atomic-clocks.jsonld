@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Atomic Clocks - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.navigation-payload.atomic-clocks",
+  "level": "process",
+  "name": "Atomic Clocks",
+  "outputs": [
+    "pnt_payloads"
+  ],
+  "parent": "spacecraft-systems.navigation-payload",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "glass",
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "heat_shields",
+  "@type": "Product",
+  "name": "Heat Shields",
+  "source": "launch-vehicles.edl",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "ceramics",
+      "polymers"
+    ]
+  }
+}

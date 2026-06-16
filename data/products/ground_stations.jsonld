@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ground_stations",
+  "@type": "Product",
+  "name": "Ground Station Networks",
+  "source": "space-ground-ops.ground-stations",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

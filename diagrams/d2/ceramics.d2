@@ -100,6 +100,9 @@ ceramics_internal: "Ceramics & Refractories — Internal Structure" {
 ceramics: "Ceramics & Refractories"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_supersonic-flight: "Supersonic & Hypersonic Flight" {
+  shape: rectangle
+}
 animals_animal-materials: Animal-Derived Materials Processing {
   shape: rectangle
 }
@@ -163,6 +166,9 @@ glass_basic: Basic Glass Production {
 health_sanitation: "Water Supply & Sanitation" {
   shape: rectangle
 }
+launch-vehicles_edl: "Entry, Descent & Landing" {
+  shape: rectangle
+}
 metals: Metals {
   shape: rectangle
 }
@@ -181,6 +187,9 @@ photolithography_cleanrooms: Cleanrooms {
 silicon: Silicon {
   shape: rectangle
 }
+space-propulsion_electric-hall: Electric Propulsion — Hall {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 ceramics_advanced-ceramics -> ceramics_kilns: { class: tool-edge }
@@ -191,6 +200,7 @@ ceramics_ceramic-recycling -> ceramics_pottery: { class: tool-edge }
 ceramics_electronic-ceramics -> ceramics_advanced-ceramics: { class: tool-edge }
 ceramics_lime -> ceramics_kilns: { class: tool-edge }
 ceramics_thermal-insulation -> ceramics: { class: material-edge }
+aerospace_supersonic-flight -> ceramics: { class: material-edge }
 animals_animal-materials -> ceramics_lime: { class: tool-edge }
 ceramics_advanced-ceramics -> mining: { class: material-edge }
 ceramics_ceramic-recycling -> mining: { class: tool-edge }
@@ -215,10 +225,12 @@ food-processing_oil-processing -> ceramics: { class: tool-edge }
 food-processing_preservation -> ceramics: { class: material-edge }
 food-processing_traditional-preservation -> ceramics: { class: material-edge }
 health_sanitation -> ceramics: { class: tool-edge }
+launch-vehicles_edl -> ceramics: { class: material-edge }
 metals_copper -> ceramics: { class: tool-edge }
 metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
 photolithography_cleanrooms -> ceramics: { class: tool-edge }
 silicon -> ceramics_advanced-ceramics: { class: tool-edge }
+space-propulsion_electric-hall -> ceramics: { class: material-edge }
 
 # ==================== STYLING ====================
 ceramics.class: domain
@@ -230,6 +242,7 @@ ceramics_lime.class: capability
 ceramics_pottery.class: capability
 ceramics_pottery_kiln-firing.class: process
 ceramics_thermal-insulation.class: capability
+aerospace_supersonic-flight.class: external
 animals_animal-materials.class: external
 chemistry.class: external
 chemistry_cement.class: external
@@ -251,12 +264,14 @@ foundations_fire.class: external
 foundations_tools-basic.class: external
 glass_basic.class: external
 health_sanitation.class: external
+launch-vehicles_edl.class: external
 metals.class: external
 metals_copper.class: external
 metals_iron-steel_blast-furnace.class: external
 mining.class: external
 photolithography_cleanrooms.class: external
 silicon.class: external
+space-propulsion_electric-hall.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

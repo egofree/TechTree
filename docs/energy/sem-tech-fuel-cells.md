@@ -3,7 +3,7 @@
 > **Node ID**: energy.fuel-cell.sem-tech
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
-> **Enables**: [`energy.storage`](storage.md), [`transport.light-aircraft`](../transport/light-aircraft.md)
+> **Enables**: [`energy.storage`](storage.md), [`aerospace.light-aircraft`](../aerospace/light-aircraft.md)
 > **Timeline**: Years 25-40
 > **Outputs**: electrical_energy, water
 > **Critical**: No — fuel cells are not on the critical bootstrap path; SEM Tech fuel cell application remains speculative at TRL 5

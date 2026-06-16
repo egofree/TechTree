@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crewed-spacecraft__computing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.crewed-spacecraft",
+  "to": "computing",
+  "label": "flight software, avionics, and autonomous docking and GNC computers"
+}

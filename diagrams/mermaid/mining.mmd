@@ -20,6 +20,7 @@ graph TD
     mining["Mining Engineering & Extractive Metallurgy"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_light-aircraft("Light Aircraft")
     animals_draft-power("Animal Draft Power & Harnessing")
     ceramics_advanced-ceramics("Advanced Ceramics & Refractories")
     ceramics_ceramic-recycling("Ceramic & Refractory Recycling")
@@ -49,7 +50,11 @@ graph TD
     metals_rare-earths("Rare Earth and Specialty Elements")
     petroleum("Petroleum Extraction & Refining")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
+    space-resources_asteroid-mining("Asteroid Mining")
+    space-resources_lunar-isru("Lunar ISRU")
+    space-resources_mars-isru("Mars ISRU")
     transport("Transportation & Logistics")
+    transport_road-construction-equipment("Road Construction Equipment")
     transport_roads("Road & Bridge Construction")
 
     %% ==================== EDGES ====================
@@ -78,6 +83,7 @@ graph TD
     mining_drilling -.-> energy_steam-power
     mining_drilling -.-> machine-tools_machining
     mining_extraction_black-powder --> chemistry_explosives
+    mining_extraction -.-> aerospace_light-aircraft
     mining_extraction -.-> animals_draft-power
     mining_extraction -.-> foundations_tools-basic
     mining_extraction -.-> metals_iron-steel
@@ -92,6 +98,10 @@ graph TD
     mining -.-> knowledge_surveying
     petroleum -.-> mining
     silicon_mg-si-production --> mining
+    space-resources_asteroid-mining -.-> mining
+    space-resources_lunar-isru -.-> mining
+    space-resources_mars-isru -.-> mining
+    transport_road-construction-equipment -.-> mining
     transport_roads --> mining
     transport -.-> mining_extraction
     transport --> mining
@@ -120,6 +130,7 @@ graph TD
     class mining_salt capability
     class mining_sulfur-extraction capability
     class mining_ventilation capability
+    class aerospace_light-aircraft external
     class animals_draft-power external
     class ceramics_advanced-ceramics external
     class ceramics_ceramic-recycling external
@@ -149,6 +160,10 @@ graph TD
     class metals_rare-earths external
     class petroleum external
     class silicon_mg-si-production external
+    class space-resources_asteroid-mining external
+    class space-resources_lunar-isru external
+    class space-resources_mars-isru external
     class transport external
+    class transport_road-construction-equipment external
     class transport_roads external
     class EdgeLegend,MatNote,ToolNote legend

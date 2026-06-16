@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.turboprop__energy.gas-turbine",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "aerospace.turboprop",
+  "to": "energy.gas-turbine"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.crewed-spacecraft.launch-abort-systems__human-spaceflight.crewed-spacecraft",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.crewed-spacecraft.launch-abort-systems",
+  "to": "human-spaceflight.crewed-spacecraft"
+}

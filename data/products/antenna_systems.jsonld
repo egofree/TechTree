@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "antenna_systems",
+  "@type": "Product",
+  "name": "Antenna Systems",
+  "source": "space-ground-ops.ground-stations.antenna-systems",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

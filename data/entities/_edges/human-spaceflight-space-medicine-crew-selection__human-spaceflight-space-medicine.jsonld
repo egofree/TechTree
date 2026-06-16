@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.space-medicine.crew-selection__human-spaceflight.space-medicine",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.space-medicine.crew-selection",
+  "to": "human-spaceflight.space-medicine"
+}

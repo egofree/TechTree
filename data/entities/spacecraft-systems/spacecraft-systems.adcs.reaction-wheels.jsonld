@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Reaction wheel and momentum wheel design - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.adcs.reaction-wheels",
+  "level": "process",
+  "name": "Reaction Wheels",
+  "outputs": [
+    "reaction_wheels"
+  ],
+  "parent": "spacecraft-systems.adcs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gnss_receivers",
+  "@type": "Product",
+  "name": "Gnss Receivers",
+  "source": "launch-vehicles.vehicle-architecture.gvnc-integration",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

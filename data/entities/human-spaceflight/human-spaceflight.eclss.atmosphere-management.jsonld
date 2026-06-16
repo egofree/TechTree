@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Atmosphere management for crewed spacecraft: cabin pressure and composition control, carbon dioxide removal, oxygen generation via water electrolysis, trace contaminant control, and atmosphere monitoring. Maintains a breathable, shirtsleeve cabin environment at 101.3 kPa total pressure with 19.5-23.1 kPa oxygen partial pressure and CO2 below 0.7 kPa.",
+  "early_win": false,
+  "id": "human-spaceflight.eclss.atmosphere-management",
+  "level": "process",
+  "name": "Atmosphere Management",
+  "outputs": [
+    "eclss_systems"
+  ],
+  "parent": "human-spaceflight.eclss",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

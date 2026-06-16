@@ -1,6 +1,7 @@
 %%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
 graph TD
     %% ==================== DOMAIN NODES ====================
+    aerospace["Aerospace"]
     agriculture["Agriculture"]
     animals["Animals & Animal Husbandry"]
     automation["Automation & Robotics"]
@@ -21,7 +22,9 @@ graph TD
     gas-handling["Gas Handling"]
     glass["Glass"]
     health["Public Health, Sanitation & Medicine"]
+    human-spaceflight["Human Spaceflight"]
     knowledge["Knowledge Preservation & Education"]
+    launch-vehicles["Launch Vehicles"]
     machine-tools["Machine Tools Bootstrap"]
     marine["Marine & Naval Engineering"]
     mathematics["Mathematics & Formal Sciences"]
@@ -37,6 +40,10 @@ graph TD
     quality-control["Quality Control & Statistical Process Control"]
     silicon["Silicon"]
     software-bootstrapping["Software Bootstrapping"]
+    space-ground-ops["Space Ground Operations"]
+    space-propulsion["Space Propulsion"]
+    space-resources["Space Resources"]
+    spacecraft-systems["Spacecraft Systems"]
     telecom["Telecommunications"]
     textiles["Textiles, Fiber & Cordage"]
     transport["Transportation & Logistics"]
@@ -46,6 +53,7 @@ graph TD
     water["Water"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
+    aerospace -.-> foundations
     animals -.-> foundations
     automation -.-> computing
     automation -.-> electronics
@@ -86,7 +94,9 @@ graph TD
     glass -.-> machine-tools
     health --> chemistry
     health -.-> foundations
+    human-spaceflight -.-> foundations
     knowledge -.-> foundations
+    launch-vehicles -.-> foundations
     machine-tools -.-> metals
     machine-tools -.-> textiles
     marine -.-> energy
@@ -121,6 +131,10 @@ graph TD
     silicon -.-> machine-tools
     silicon --> ultra-pure
     software-bootstrapping -.-> computing
+    space-ground-ops -.-> foundations
+    space-propulsion -.-> foundations
+    space-resources -.-> foundations
+    spacecraft-systems -.-> foundations
     telecom --> glass
     telecom --> metals
     textiles -.-> foundations
@@ -137,6 +151,15 @@ graph TD
     vlsi-scaling -.-> quality-control
 
     %% ==================== CROSS-DOMAIN EDGES ====================
+    aerospace -.-> ceramics
+    aerospace -.-> chemistry
+    aerospace -.-> computing
+    aerospace -.-> electronics
+    aerospace -.-> energy
+    aerospace -.-> machine-tools
+    aerospace -.-> metals
+    aerospace -.-> polymers
+    aerospace -.-> textiles
     agriculture -.-> animals
     agriculture -.-> chemistry
     agriculture -.-> construction
@@ -242,6 +265,22 @@ graph TD
     health -.-> metals
     health -.-> polymers
     health -.-> water
+    human-spaceflight -.-> aerospace
+    human-spaceflight -.-> automation
+    human-spaceflight -.-> chemistry
+    human-spaceflight -.-> computing
+    human-spaceflight -.-> construction
+    human-spaceflight -.-> ehs
+    human-spaceflight -.-> energy
+    human-spaceflight -.-> gas-handling
+    human-spaceflight -.-> glass
+    human-spaceflight -.-> health
+    human-spaceflight -.-> launch-vehicles
+    human-spaceflight -.-> metals
+    human-spaceflight -.-> polymers
+    human-spaceflight -.-> spacecraft-systems
+    human-spaceflight -.-> textiles
+    human-spaceflight -.-> water
     knowledge -.-> animals
     knowledge -.-> chemistry
     knowledge -.-> health
@@ -250,6 +289,15 @@ graph TD
     knowledge -.-> measurement
     knowledge -.-> metals
     knowledge -.-> textiles
+    launch-vehicles -.-> ceramics
+    launch-vehicles -.-> chemistry
+    launch-vehicles -.-> computing
+    launch-vehicles -.-> cryogenics
+    launch-vehicles -.-> electronics
+    launch-vehicles -.-> energy
+    launch-vehicles -.-> machine-tools
+    launch-vehicles -.-> metals
+    launch-vehicles -.-> polymers
     machine-tools -.-> animals
     machine-tools -.-> chemistry
     machine-tools -.-> computing
@@ -282,6 +330,7 @@ graph TD
     metals -.-> textiles
     metals -.-> vacuum
     metals -.-> vlsi-scaling
+    mining -.-> aerospace
     mining -.-> animals
     mining -.-> chemistry
     mining -.-> energy
@@ -321,6 +370,52 @@ graph TD
     silicon -.-> photolithography
     silicon -.-> vacuum
     software-bootstrapping -.-> knowledge
+    space-ground-ops -.-> computing
+    space-ground-ops -.-> construction
+    space-ground-ops -.-> cryogenics
+    space-ground-ops -.-> defense
+    space-ground-ops -.-> electronics
+    space-ground-ops -.-> gas-handling
+    space-ground-ops -.-> machine-tools
+    space-ground-ops -.-> metals
+    space-ground-ops -.-> optics
+    space-ground-ops -.-> telecom
+    space-ground-ops -.-> water
+    space-propulsion -.-> ceramics
+    space-propulsion -.-> cryogenics
+    space-propulsion -.-> electronics
+    space-propulsion -.-> energy
+    space-propulsion -.-> metals
+    space-propulsion -.-> silicon
+    space-propulsion -.-> vacuum
+    space-resources -.-> automation
+    space-resources -.-> chemistry
+    space-resources -.-> energy
+    space-resources -.-> gas-handling
+    space-resources -.-> glass
+    space-resources -.-> human-spaceflight
+    space-resources -.-> metals
+    space-resources -.-> mining
+    space-resources -.-> polymers
+    space-resources -.-> silicon
+    spacecraft-systems -.-> cleanrooms
+    spacecraft-systems -.-> computing
+    spacecraft-systems -.-> defense
+    spacecraft-systems -.-> ehs
+    spacecraft-systems -.-> electronics
+    spacecraft-systems -.-> energy
+    spacecraft-systems -.-> machine-tools
+    spacecraft-systems -.-> mathematics
+    spacecraft-systems -.-> measurement
+    spacecraft-systems -.-> metals
+    spacecraft-systems -.-> optics
+    spacecraft-systems -.-> polymers
+    spacecraft-systems -.-> precision-motion
+    spacecraft-systems -.-> quality-control
+    spacecraft-systems -.-> silicon
+    spacecraft-systems -.-> telecom
+    spacecraft-systems -.-> vacuum
+    telecom -.-> aerospace
     telecom -.-> energy
     telecom -.-> foundations
     telecom -.-> knowledge
@@ -333,7 +428,9 @@ graph TD
     textiles -.-> plants
     transport -.-> animals
     transport -.-> chemistry
+    transport -.-> electronics
     transport -.-> foundations
+    transport -.-> polymers
     transport -.-> textiles
     ultra-pure -.-> measurement
     ultra-pure -.-> water

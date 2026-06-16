@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reentry_systems",
+  "@type": "Product",
+  "name": "Reentry Systems",
+  "source": "human-spaceflight.crewed-spacecraft.reentry-systems",
+  "tags": {
+    "material": [
+      "ceramics",
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Positioning, navigation, and timing (PNT) payloads: atomic clocks, navigation signal generation, and laser retroreflectors for global navigation satellite systems and precision orbit determination.",
+  "early_win": false,
+  "id": "spacecraft-systems.navigation-payload",
+  "level": "capability",
+  "name": "Navigation & PNT Payloads",
+  "outputs": [
+    "pnt_payloads"
+  ],
+  "parent": "spacecraft-systems",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

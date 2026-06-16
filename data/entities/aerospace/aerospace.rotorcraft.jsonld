@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Rotary-wing aircraft generating lift and thrust from horizontally-spinning rotors. Encompasses rotor aerodynamics (articulated, semi-rigid, and rigid hubs with flapping, lagging, and feathering degrees of freedom), swashplate-based collective and cyclic control, anti-torque systems (tail rotor, Fenestron, NOTAR, coaxial), power transmission gearboxes, and autorotative emergency flight. Enables vertical takeoff and landing, hover, and low-speed maneuver flight independent of runways, supporting utility transport, aerial crane, search-and-rescue, and observation roles.",
+  "early_win": false,
+  "id": "aerospace.rotorcraft",
+  "level": "capability",
+  "name": "Rotorcraft",
+  "outputs": [
+    "rotorcraft",
+    "helicopter_rotors",
+    "swashplates",
+    "turboshaft_engines"
+  ],
+  "parent": "aerospace",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50+"
+}

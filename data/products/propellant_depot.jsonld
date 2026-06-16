@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "propellant_depot",
+  "@type": "Product",
+  "name": "Propellant Depot",
+  "source": "space-propulsion.propellant-storage.long-duration-storage",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

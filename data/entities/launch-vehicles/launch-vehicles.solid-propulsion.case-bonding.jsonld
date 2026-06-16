@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Fabrication and bonding of the solid motor pressure vessel to the cast propellant grain. Steel cases (Maraging steel, 6Al-4V titanium for smaller motors) are machined and welded; composite cases are filament-wound from carbon fiber/epoxy or aramid/epoxy over a mandrel and oven-cured. The liner-insulated case serves directly as the propellant mold in case-bonded designs, eliminating free volume and transferring combustion pressure loads directly into the composite overwrap.",
+  "early_win": false,
+  "id": "launch-vehicles.solid-propulsion.case-bonding",
+  "level": "process",
+  "name": "Case Bonding",
+  "outputs": [
+    "motor_cases"
+  ],
+  "parent": "launch-vehicles.solid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

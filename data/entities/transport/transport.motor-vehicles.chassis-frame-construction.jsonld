@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Construction of vehicle chassis frames and structural platforms: ladder frames, unibody monocoques, and space frames. Covers welding and joining of steel, aluminum, and composite structural members that carry all vehicle loads and mount the powertrain, body, and suspension.",
+  "early_win": false,
+  "id": "transport.motor-vehicles.chassis-frame-construction",
+  "level": "process",
+  "name": "Chassis & Frame Construction",
+  "outputs": [
+    "vehicle_chassis",
+    "wheel_assemblies"
+  ],
+  "parent": "transport.motor-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

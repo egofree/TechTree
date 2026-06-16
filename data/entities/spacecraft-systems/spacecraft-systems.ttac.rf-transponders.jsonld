@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "RF Transponders - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.ttac.rf-transponders",
+  "level": "process",
+  "name": "RF Transponders",
+  "outputs": [
+    "ttac_systems"
+  ],
+  "parent": "spacecraft-systems.ttac",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

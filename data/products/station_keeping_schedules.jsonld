@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "station_keeping_schedules",
+  "@type": "Product",
+  "name": "Station Keeping Schedules",
+  "source": "spacecraft-systems.orbital-mechanics.station-keeping",
+  "tags": {
+    "material": [
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steering_systems",
+  "@type": "Product",
+  "name": "Steering Systems",
+  "source": "transport.motor-vehicles.steering-systems",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

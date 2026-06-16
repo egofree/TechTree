@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "qualification_test_reports",
+  "@type": "Product",
+  "name": "Qualification Test Reports",
+  "source": "spacecraft-systems.space-qualification.vibration-acoustic-test",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

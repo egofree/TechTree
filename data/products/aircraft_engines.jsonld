@@ -3,7 +3,7 @@
   "@id": "aircraft_engines",
   "@type": "Product",
   "name": "Aircraft Engines",
-  "source": "transport",
+  "source": "aerospace.jet-propulsion",
   "tags": {
     "capability": [
       "transport"

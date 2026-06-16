@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "integrated_scramjet_vehicle",
+  "@type": "Product",
+  "name": "Integrated Scramjet Vehicle",
+  "source": "aerospace.supersonic-flight.scramjet-integration",
+  "tags": {
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

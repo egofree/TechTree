@@ -118,6 +118,24 @@ metals_internal: "Metals — Internal Structure" {
 metals: Metals
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_aviation: Aviation {
+  shape: rectangle
+}
+aerospace_cargo-aircraft: Cargo Aircraft {
+  shape: rectangle
+}
+aerospace_jet-propulsion: Jet Propulsion {
+  shape: rectangle
+}
+aerospace_rotorcraft: Rotorcraft {
+  shape: rectangle
+}
+aerospace_supersonic-flight: "Supersonic & Hypersonic Flight" {
+  shape: rectangle
+}
+aerospace_turboprop: Turboprop Engines {
+  shape: rectangle
+}
 animals_beekeeping: "Apiculture (Beekeeping)" {
   shape: rectangle
 }
@@ -337,7 +355,28 @@ glass_glass-to-metal-seals: Glass-to-Metal Seals {
 health_medical-instruments: Medical Instrument Manufacturing {
   shape: rectangle
 }
+human-spaceflight_crewed-spacecraft: Crewed Spacecraft {
+  shape: rectangle
+}
+human-spaceflight_space-stations: Space Stations {
+  shape: rectangle
+}
+human-spaceflight_space-suits: Space Suits {
+  shape: rectangle
+}
 knowledge_printing: Paper and Printing Press {
+  shape: rectangle
+}
+launch-vehicles_edl: "Entry, Descent & Landing" {
+  shape: rectangle
+}
+launch-vehicles_liquid-propulsion: Liquid Propulsion {
+  shape: rectangle
+}
+launch-vehicles_solid-propulsion: Solid Propulsion {
+  shape: rectangle
+}
+launch-vehicles_vehicle-architecture: Vehicle Architecture {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -412,6 +451,42 @@ silicon_basic-devices: Basic Semiconductor Devices {
 silicon_mg-si-production: Metallurgical-Grade Silicon Production {
   shape: rectangle
 }
+space-ground-ops_launch-complex: Launch Complex {
+  shape: rectangle
+}
+space-ground-ops_vehicle-assembly: Vehicle Assembly {
+  shape: rectangle
+}
+space-propulsion_electric-advanced: Electric Propulsion — Advanced {
+  shape: rectangle
+}
+space-propulsion_electric-ion: Electric Propulsion — Ion {
+  shape: rectangle
+}
+space-propulsion_nuclear-electric: Nuclear Electric Propulsion {
+  shape: rectangle
+}
+space-propulsion_nuclear-thermal: Nuclear Thermal Propulsion {
+  shape: rectangle
+}
+space-propulsion_propellant-storage: "Cryogenic Propellant Storage & Transfer" {
+  shape: rectangle
+}
+space-resources_lunar-isru: Lunar ISRU {
+  shape: rectangle
+}
+space-resources_space-recycling: "Space Recycling & Closed-Loop Logistics" {
+  shape: rectangle
+}
+spacecraft-systems_bus-structure: Bus Structure + Deployables {
+  shape: rectangle
+}
+spacecraft-systems_comms-payload: Communications Payload {
+  shape: rectangle
+}
+spacecraft-systems_thermal-control: Thermal Control {
+  shape: rectangle
+}
 telecom: Telecommunications {
   shape: rectangle
 }
@@ -442,13 +517,34 @@ textiles_spinning-frame_water: Water Frame {
 transport: "Transportation & Logistics" {
   shape: rectangle
 }
-transport_aviation: Aviation {
+transport_diesel-locomotives: Diesel-Electric Locomotives {
+  shape: rectangle
+}
+transport_electric-railways: Electric Railways {
+  shape: rectangle
+}
+transport_high-speed-rail: High-Speed Rail {
+  shape: rectangle
+}
+transport_ice-powertrains: ICE Powertrains {
+  shape: rectangle
+}
+transport_motor-vehicles: Motor Vehicle Fundamentals {
+  shape: rectangle
+}
+transport_motorcycles: "Motorcycles & Scooters" {
   shape: rectangle
 }
 transport_railways: Railways {
   shape: rectangle
 }
+transport_road-construction-equipment: Road Construction Equipment {
+  shape: rectangle
+}
 transport_telegraph: Telegraph Communication {
+  shape: rectangle
+}
+transport_tire-manufacturing: Tire Manufacturing {
   shape: rectangle
 }
 vacuum: Vacuum Technology {
@@ -505,6 +601,12 @@ metals_wire-rope -> metals_wire-drawing: { class: material-edge }
 metals_wire-rope -> metals_wire-rope: { class: material-edge }
 metals_zinc -> metals_iron-steel: { class: material-edge }
 metals_zinc -> metals: { class: tool-edge }
+aerospace_aviation -> metals_aluminum: { class: material-edge }
+aerospace_cargo-aircraft -> metals_aluminum: { class: material-edge }
+aerospace_jet-propulsion -> metals_aluminum: { class: material-edge }
+aerospace_rotorcraft -> metals_aluminum: { class: material-edge }
+aerospace_supersonic-flight -> metals_aluminum: { class: material-edge }
+aerospace_turboprop -> metals_aluminum: { class: material-edge }
 ceramics -> metals: { class: tool-edge }
 chemistry_acid-regeneration -> metals_forming: { class: material-edge }
 chemistry_ammonia -> metals: { class: tool-edge }
@@ -576,7 +678,14 @@ gas-handling -> metals_pipe-making: { class: material-edge }
 glass_basic_float-glass -> metals_non-ferrous: { class: tool-edge }
 glass_glass-to-metal-seals -> metals_alloys: { class: material-edge }
 health_medical-instruments -> metals_bronze: { class: material-edge }
+human-spaceflight_crewed-spacecraft -> metals: { class: material-edge }
+human-spaceflight_space-stations -> metals: { class: material-edge }
+human-spaceflight_space-suits -> metals: { class: material-edge }
 knowledge_printing -> metals_iron-steel: { class: tool-edge }
+launch-vehicles_edl -> metals: { class: material-edge }
+launch-vehicles_liquid-propulsion -> metals: { class: material-edge }
+launch-vehicles_solid-propulsion -> metals: { class: material-edge }
+launch-vehicles_vehicle-architecture -> metals_aluminum: { class: material-edge }
 machine-tools_fasteners -> metals_iron-steel: { class: material-edge }
 machine-tools_forming -> metals_iron-steel: { class: material-edge }
 machine-tools_joining_brazing-soldering -> metals_alloys: { class: material-edge }
@@ -638,16 +747,37 @@ photolithography_fab-processes -> metals_aluminum_semiconductor-grade: { class: 
 photolithography -> metals_rare-earths: { class: material-edge }
 silicon_basic-devices -> metals_aluminum_semiconductor-grade: { class: material-edge }
 silicon_mg-si-production -> metals: { class: tool-edge }
+space-ground-ops_launch-complex -> metals: { class: material-edge }
+space-ground-ops_vehicle-assembly -> metals: { class: material-edge }
+space-propulsion_electric-advanced -> metals: { class: material-edge }
+space-propulsion_electric-ion -> metals_refractory-specialty: { class: material-edge }
+space-propulsion_nuclear-electric -> metals: { class: material-edge }
+space-propulsion_nuclear-thermal -> metals: { class: material-edge }
+space-propulsion_propellant-storage -> metals: { class: material-edge }
+space-resources_lunar-isru -> metals: { class: tool-edge }
+space-resources_space-recycling -> metals: { class: material-edge }
+spacecraft-systems_bus-structure -> metals_aluminum: { class: material-edge }
+spacecraft-systems_comms-payload -> metals: { class: material-edge }
+spacecraft-systems_thermal-control -> metals: { class: material-edge }
 telecom_electric-telegraph -> metals: { class: material-edge }
 telecom_radio -> metals: { class: material-edge }
 telecom_submarine-cables -> metals: { class: material-edge }
 telecom_telephone -> metals: { class: material-edge }
 telecom -> metals: { class: material-edge }
 textiles_sewing-tailoring -> metals_bronze: { class: tool-edge }
-transport_aviation -> metals_aluminum: { class: material-edge }
+transport_diesel-locomotives -> metals_iron-steel: { class: material-edge }
+transport_electric-railways -> metals_aluminum: { class: material-edge }
+transport_electric-railways -> metals_iron-steel: { class: material-edge }
+transport_high-speed-rail -> metals_iron-steel: { class: material-edge }
+transport_ice-powertrains -> metals_iron-steel: { class: material-edge }
+transport_motor-vehicles -> metals_aluminum: { class: material-edge }
+transport_motor-vehicles -> metals_iron-steel: { class: material-edge }
+transport_motorcycles -> metals_iron-steel: { class: material-edge }
 transport_railways -> metals_forming: { class: material-edge }
 transport_railways -> metals_iron-steel: { class: material-edge }
+transport_road-construction-equipment -> metals_iron-steel: { class: material-edge }
 transport_telegraph -> metals_iron-steel: { class: material-edge }
+transport_tire-manufacturing -> metals_iron-steel: { class: material-edge }
 transport -> metals: { class: tool-edge }
 vacuum_chambers -> metals: { class: material-edge }
 vacuum -> metals: { class: material-edge }
@@ -681,6 +811,12 @@ metals_steelmaking.class: critical
 metals_wire-drawing.class: capability
 metals_wire-rope.class: capability
 metals_zinc.class: capability
+aerospace_aviation.class: external
+aerospace_cargo-aircraft.class: external
+aerospace_jet-propulsion.class: external
+aerospace_rotorcraft.class: external
+aerospace_supersonic-flight.class: external
+aerospace_turboprop.class: external
 animals_beekeeping.class: external
 ceramics.class: external
 ceramics_kilns.class: external
@@ -754,7 +890,14 @@ gas-handling_cylinder-filling.class: external
 glass_basic_float-glass.class: external
 glass_glass-to-metal-seals.class: external
 health_medical-instruments.class: external
+human-spaceflight_crewed-spacecraft.class: external
+human-spaceflight_space-stations.class: external
+human-spaceflight_space-suits.class: external
 knowledge_printing.class: external
+launch-vehicles_edl.class: external
+launch-vehicles_liquid-propulsion.class: external
+launch-vehicles_solid-propulsion.class: external
+launch-vehicles_vehicle-architecture.class: external
 machine-tools.class: external
 machine-tools_fasteners.class: external
 machine-tools_forming.class: external
@@ -779,6 +922,18 @@ photolithography_fab-processes.class: external
 photolithography_fab-processes_pvd.class: external
 silicon_basic-devices.class: external
 silicon_mg-si-production.class: external
+space-ground-ops_launch-complex.class: external
+space-ground-ops_vehicle-assembly.class: external
+space-propulsion_electric-advanced.class: external
+space-propulsion_electric-ion.class: external
+space-propulsion_nuclear-electric.class: external
+space-propulsion_nuclear-thermal.class: external
+space-propulsion_propellant-storage.class: external
+space-resources_lunar-isru.class: external
+space-resources_space-recycling.class: external
+spacecraft-systems_bus-structure.class: external
+spacecraft-systems_comms-payload.class: external
+spacecraft-systems_thermal-control.class: external
 telecom.class: external
 telecom_electric-telegraph.class: external
 telecom_radio.class: external
@@ -789,9 +944,16 @@ textiles_spinning-frame_mule.class: external
 textiles_spinning-frame_ring.class: external
 textiles_spinning-frame_water.class: external
 transport.class: external
-transport_aviation.class: external
+transport_diesel-locomotives.class: external
+transport_electric-railways.class: external
+transport_high-speed-rail.class: external
+transport_ice-powertrains.class: external
+transport_motor-vehicles.class: external
+transport_motorcycles.class: external
 transport_railways.class: external
+transport_road-construction-equipment.class: external
 transport_telegraph.class: external
+transport_tire-manufacturing.class: external
 vacuum.class: external
 vacuum_chambers.class: external
 vacuum_pumps.class: external

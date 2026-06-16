@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Precision landing navigation: GPS-aided inertial navigation for terrestrial landing zones, terrain-relative navigation (TRN) using descent imagery matched to orbital maps for hazard avoidance, and Doppler radar altimeters for terminal velocity and altitude. Enables metre-class landing accuracy required for booster recovery pads and crewed planetary missions.",
+  "early_win": false,
+  "id": "launch-vehicles.edl.precision-landing",
+  "level": "process",
+  "name": "Precision Landing",
+  "outputs": [
+    "landing_navigation_systems",
+    "terrain_relative_maps"
+  ],
+  "parent": "launch-vehicles.edl",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

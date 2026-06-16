@@ -59,7 +59,7 @@ This combines the core path with the most helpful parallel capabilities into tie
 - [ ] Energy storage — lead-acid battery banks (`energy.storage`)
 - [ ] Knowledge/education system scaling (`knowledge.education`) — trade schools, libraries
 - [ ] Petroleum distillation or alternative organic chemistry feedstocks available (`chemistry.petroleum-alternatives`)
-- [ ] Aircraft capability — small piston engine, airframe assembly, fabric covering (`transport.aviation`)
+- [ ] Aircraft capability — small piston engine, airframe assembly, fabric covering (`aerospace.aviation`)
 - [ ] Polymer capability — vulcanization, Bakelite molding, fiberglass production, epoxy formulation (`polymers`)
 
 ## Tier 3: Advanced and Self-Sustaining (Years 30–100+)

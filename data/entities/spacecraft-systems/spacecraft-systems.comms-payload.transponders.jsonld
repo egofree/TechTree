@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "High-power communications transponders - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.comms-payload.transponders",
+  "level": "process",
+  "name": "Communications Transponders",
+  "outputs": [
+    "comms_payloads"
+  ],
+  "parent": "spacecraft-systems.comms-payload",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

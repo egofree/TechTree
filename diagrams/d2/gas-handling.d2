@@ -124,6 +124,9 @@ energy_pneumatics: Pneumatics {
 glass_basic_float-glass: Float Glass Process {
   shape: rectangle
 }
+human-spaceflight_eclss: "Environmental Control & Life Support" {
+  shape: rectangle
+}
 metals_iron-steel: "Iron & Steel Production" {
   shape: rectangle
 }
@@ -149,6 +152,12 @@ silicon: Silicon {
   shape: rectangle
 }
 silicon_purification: Silicon Purification {
+  shape: rectangle
+}
+space-ground-ops_launch-complex: Launch Complex {
+  shape: rectangle
+}
+space-resources_mars-isru: Mars ISRU {
   shape: rectangle
 }
 vacuum: Vacuum Technology {
@@ -180,12 +189,15 @@ gas-handling -> energy: { class: material-edge }
 gas-handling -> metals_pipe-making: { class: material-edge }
 gas-handling -> polymers_seals-gaskets: { class: tool-edge }
 glass_basic_float-glass -> gas-handling_basic: { class: tool-edge }
+human-spaceflight_eclss -> gas-handling: { class: tool-edge }
 photolithography_fab-processes_cvd -> gas-handling_basic: { class: material-edge }
 photolithography_fab-processes_plasma-etching -> gas-handling_basic: { class: material-edge }
 photolithography -> gas-handling: { class: tool-edge }
 precision-motion_vibration-isolation -> gas-handling: { class: tool-edge }
 silicon_purification -> gas-handling_basic: { class: tool-edge }
 silicon -> gas-handling: { class: tool-edge }
+space-ground-ops_launch-complex -> gas-handling: { class: tool-edge }
+space-resources_mars-isru -> gas-handling: { class: tool-edge }
 vacuum_deposition-systems -> gas-handling: { class: tool-edge }
 vacuum_leak-detection -> gas-handling: { class: tool-edge }
 vacuum -> gas-handling: { class: tool-edge }
@@ -206,6 +218,7 @@ cryogenics.class: external
 energy.class: external
 energy_pneumatics.class: external
 glass_basic_float-glass.class: external
+human-spaceflight_eclss.class: external
 metals_iron-steel.class: external
 metals_pipe-making.class: external
 photolithography.class: external
@@ -215,6 +228,8 @@ polymers_seals-gaskets.class: external
 precision-motion_vibration-isolation.class: external
 silicon.class: external
 silicon_purification.class: external
+space-ground-ops_launch-complex.class: external
+space-resources_mars-isru.class: external
 vacuum.class: external
 vacuum_deposition-systems.class: external
 vacuum_leak-detection.class: external

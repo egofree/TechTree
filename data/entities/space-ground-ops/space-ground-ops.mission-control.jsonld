@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Mission control centre facilities and flight operations: console positions for real-time telemetry monitoring, flight dynamics backrooms for orbit determination and manoeuvre planning, and the operations planning staff that build crew and payload timelines. Covers the decommutation, archiving, and real-time display pipelines that turn raw spacecraft frames into engineering and payload data products.",
+  "early_win": false,
+  "id": "space-ground-ops.mission-control",
+  "level": "capability",
+  "name": "Mission Control",
+  "outputs": [
+    "mission_control"
+  ],
+  "parent": "space-ground-ops",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

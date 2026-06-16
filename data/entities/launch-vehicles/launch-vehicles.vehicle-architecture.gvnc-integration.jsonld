@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Guidance, Navigation, and Control (GNC) integration for launch vehicles: inertial measurement units (IMU with ring-laser or fibre-optic gyros), GPS/GNSS receivers for position updates, star trackers for attitude reference, and the flight software that closes the control loop commanding engine gimbals and thrust vector control. GNC determines orbital insertion accuracy and vehicle survival through Max-Q and stage separation.",
+  "early_win": false,
+  "id": "launch-vehicles.vehicle-architecture.gvnc-integration",
+  "level": "process",
+  "name": "GNC Integration",
+  "outputs": [
+    "avionics_buses",
+    "flight_software",
+    "gnss_receivers"
+  ],
+  "parent": "launch-vehicles.vehicle-architecture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

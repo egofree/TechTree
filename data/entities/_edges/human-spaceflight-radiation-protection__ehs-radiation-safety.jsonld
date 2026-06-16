@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/human-spaceflight.radiation-protection__ehs.radiation-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "human-spaceflight.radiation-protection",
+  "to": "ehs.radiation-safety",
+  "label": "terrestrial radiation safety standards and ALARA principles"
+}

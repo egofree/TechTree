@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.ice-powertrains__transport.motor-vehicles",
+  "@type": "Dependency",
+  "from": "transport.ice-powertrains",
+  "to": "transport.motor-vehicles",
+  "edgeType": "tool",
+  "flow": "primary"
+}

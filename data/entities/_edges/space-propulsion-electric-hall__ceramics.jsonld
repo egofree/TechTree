@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-hall__ceramics",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "space-propulsion.electric-hall",
+  "to": "ceramics",
+  "label": "Boron nitride and silicon carbide discharge channel walls that define the acceleration region"
+}

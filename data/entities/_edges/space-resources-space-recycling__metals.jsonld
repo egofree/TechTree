@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-resources.space-recycling__metals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "recycling-loop",
+  "from": "space-resources.space-recycling",
+  "to": "metals",
+  "label": "Reclaimed metal scrap remelted into structural feedstock for orbital reprocessing"
+}

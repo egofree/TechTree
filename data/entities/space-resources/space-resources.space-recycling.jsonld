@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Closed-loop resource recycling and waste reprocessing for long-duration space missions. Recovers water, atmosphere, metals, polymers, and residual propellants from crew metabolic outputs, discarded hardware, and cargo vehicle disposal to approach the 99% mass loop closure target required for interplanetary crewed missions.",
+  "early_win": false,
+  "id": "space-resources.space-recycling",
+  "level": "capability",
+  "name": "Space Recycling & Closed-Loop Logistics",
+  "outputs": [
+    "recycled_materials"
+  ],
+  "parent": "space-resources",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80-200+"
+}

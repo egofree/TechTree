@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Lunar oxygen production by two routes: molten regolith electrolysis (yielding ~900 kg O2 per metric ton regolith at 1600C) and hydrogen reduction of ilmenite (FeTiO3 + H2 -> Fe + TiO2 + H2O) at 1000C, exploiting the 42-45% oxygen content of lunar regolith by mass.",
+  "early_win": false,
+  "id": "space-resources.lunar-isru.oxygen-extraction",
+  "level": "process",
+  "name": "Oxygen Extraction",
+  "outputs": [
+    "lunar_oxygen"
+  ],
+  "parent": "space-resources.lunar-isru",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

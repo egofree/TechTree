@@ -144,6 +144,9 @@ energy_solar-thermal_collector: Solar Thermal Collector {
 gas-handling_basic: Basic Gas Handling {
   shape: rectangle
 }
+human-spaceflight_space-suits: Space Suits {
+  shape: rectangle
+}
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
@@ -175,6 +178,9 @@ silicon_crystal-growth: "Crystal Growth & Wafering" {
   shape: rectangle
 }
 silicon_wafering: "Wafer Slicing & Polishing" {
+  shape: rectangle
+}
+space-resources_microgravity-manufacturing: Microgravity Manufacturing {
   shape: rectangle
 }
 telecom: Telecommunications {
@@ -217,6 +223,7 @@ glass -> chemistry_solvay: { class: material-edge }
 glass -> chemistry: { class: material-edge }
 glass -> energy: { class: material-edge }
 glass -> machine-tools: { class: tool-edge }
+human-spaceflight_space-suits -> glass: { class: material-edge }
 measurement_thermostat-fluid -> glass: { class: material-edge }
 optics_inspection -> glass_advanced: { class: material-edge }
 photolithography_resists-masks -> glass_basic: { class: material-edge }
@@ -224,6 +231,7 @@ polymers_composites -> glass_fibers: { class: material-edge }
 silicon_crystal-growth -> glass_advanced: { class: material-edge }
 silicon_wafering -> glass_advanced_glassblowing: { class: tool-edge }
 silicon -> glass: { class: tool-edge }
+space-resources_microgravity-manufacturing -> glass: { class: tool-edge }
 telecom_radio -> glass: { class: material-edge }
 telecom -> glass: { class: material-edge }
 
@@ -251,6 +259,7 @@ energy_fuels.class: external
 energy_photovoltaics.class: external
 energy_solar-thermal_collector.class: external
 gas-handling_basic.class: external
+human-spaceflight_space-suits.class: external
 machine-tools.class: external
 measurement_thermostat-fluid.class: external
 metals_alloys.class: external
@@ -262,6 +271,7 @@ polymers_composites.class: external
 silicon.class: external
 silicon_crystal-growth.class: external
 silicon_wafering.class: external
+space-resources_microgravity-manufacturing.class: external
 telecom.class: external
 telecom_radio.class: external
 vacuum_chambers.class: external

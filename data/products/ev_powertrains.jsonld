@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ev_powertrains",
+  "@type": "Product",
+  "name": "EV Powertrains",
+  "source": "transport.electric-vehicles.ev-traction-motors",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Variable-sweep swing-wing mechanisms, adjustable supersonic intake ramps (mixed-compression inlets), and convergent-divergent nozzles with adjustable throat area, enabling efficient performance across subsonic, transonic, and supersonic regimes from a single airframe.",
+  "early_win": false,
+  "id": "aerospace.supersonic-flight.variable-geometry",
+  "level": "process",
+  "name": "Variable-Geometry Flight Surfaces",
+  "outputs": [
+    "swing_wing_mechanism",
+    "variable_inlet",
+    "adjustable_nozzle"
+  ],
+  "parent": "aerospace.supersonic-flight",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-90"
+}

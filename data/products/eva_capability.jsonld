@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eva_capability",
+  "@type": "Product",
+  "name": "EVA Capability",
+  "source": "human-spaceflight.eva.eva-tools",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

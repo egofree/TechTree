@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "unmanned_aerial_vehicles",
+  "@type": "Product",
+  "name": "Unmanned Aerial Vehicles",
+  "source": "aerospace.uav",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

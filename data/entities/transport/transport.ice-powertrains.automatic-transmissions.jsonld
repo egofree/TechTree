@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Self-shifting transmissions using epicyclic (planetary) gearsets, hydraulic torque converters, and clutched brake bands or multidisc packs. Ratios changed automatically by governor pressure, valve body logic, or electronic control units. 4-9 forward speeds; the dominant passenger-car transmission since the 1950s. Torque converter multiplies engine torque 2-2.5x at stall.",
+  "early_win": false,
+  "id": "transport.ice-powertrains.automatic-transmissions",
+  "level": "process",
+  "name": "Automatic Transmissions",
+  "outputs": [
+    "transmissions"
+  ],
+  "parent": "transport.ice-powertrains",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40+"
+}

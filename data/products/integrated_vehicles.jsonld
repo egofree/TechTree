@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "integrated_vehicles",
+  "@type": "Product",
+  "name": "Integrated Launch Vehicles",
+  "source": "space-ground-ops.vehicle-assembly",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thermal_protection_system",
+  "@type": "Product",
+  "name": "Thermal Protection System",
+  "source": "aerospace.supersonic-flight.hypersonic-thermal",
+  "tags": {
+    "material": [
+      "ceramics",
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electric railway traction systems: overhead catenary and third-rail electrification, traction motors, and regenerative braking. Replaces on-board steam/diesel prime movers with grid-supplied electric power for higher efficiency, faster acceleration, and lower operating cost on high-traffic corridors.",
+  "early_win": false,
+  "id": "transport.electric-railways",
+  "level": "capability",
+  "name": "Electric Railways",
+  "outputs": [
+    "electric_locomotives",
+    "catenary_systems",
+    "traction_motors",
+    "third_rail_systems"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport",
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50+"
+}

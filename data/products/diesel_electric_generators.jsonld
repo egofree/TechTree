@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "diesel_electric_generators",
+  "@type": "Product",
+  "name": "Diesel-Electric Generators",
+  "source": "transport.diesel-locomotives",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

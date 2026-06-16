@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/aerospace.jet-propulsion__chemistry.petroleum-alternatives",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "aerospace.jet-propulsion",
+  "to": "chemistry.petroleum-alternatives"
+}

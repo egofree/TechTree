@@ -113,6 +113,9 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
 photolithography: "Photolithography & IC Fabrication" {
   shape: rectangle
 }
+spacecraft-systems_space-qualification: Space Qualification {
+  shape: rectangle
+}
 vlsi-scaling: "VLSI Scaling & Advanced Semiconductor" {
   shape: rectangle
 }
@@ -129,6 +132,7 @@ quality-control_spc -> measurement: { class: tool-edge }
 quality-control -> computing: { class: tool-edge }
 quality-control -> knowledge: { class: tool-edge }
 quality-control -> measurement: { class: tool-edge }
+spacecraft-systems_space-qualification -> quality-control: { class: tool-edge }
 vlsi-scaling -> quality-control: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -142,6 +146,7 @@ knowledge.class: external
 measurement.class: external
 measurement_precision-metrology.class: external
 photolithography.class: external
+spacecraft-systems_space-qualification.class: external
 vlsi-scaling.class: external
 
 # ==================== LEGEND ====================

@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.space-medicine.microgravity-physiology",
+  "@type": "Process",
+  "critical": false,
+  "description": "Monitoring and mitigation of microgravity physiological effects: bone mineral density loss at 1-2% per month at load-bearing skeletal sites, cephalad fluid shift causing Spaceflight-Associated Neuro-ocular Syndrome (SANS), muscle atrophy at 0.5-1% per day without countermeasures, and cardiovascular deconditioning with orthostatic intolerance on return to 1g.",
+  "early_win": false,
+  "id": "human-spaceflight.space-medicine.microgravity-physiology",
+  "level": "process",
+  "name": "Microgravity Physiology",
+  "outputs": [
+    "crew_medical"
+  ],
+  "parent": "human-spaceflight.space-medicine",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

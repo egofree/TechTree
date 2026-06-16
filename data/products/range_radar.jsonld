@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "range_radar",
+  "@type": "Product",
+  "name": "Range Radar",
+  "source": "space-ground-ops.range-safety.range-radar",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

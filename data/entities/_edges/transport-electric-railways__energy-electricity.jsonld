@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.electric-railways__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "transport.electric-railways",
+  "to": "energy.electricity"
+}

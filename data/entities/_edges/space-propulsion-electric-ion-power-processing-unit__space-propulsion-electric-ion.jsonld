@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-ion.power-processing-unit__space-propulsion.electric-ion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-ion.power-processing-unit",
+  "to": "space-propulsion.electric-ion"
+}

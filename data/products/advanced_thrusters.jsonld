@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "advanced_thrusters",
+  "@type": "Product",
+  "name": "Advanced Thrusters",
+  "source": "space-propulsion.electric-advanced",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.ttac.tm-formatting__spacecraft-systems.ttac",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.ttac.tm-formatting",
+  "to": "spacecraft-systems.ttac"
+}

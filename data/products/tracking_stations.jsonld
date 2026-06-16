@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tracking_stations",
+  "@type": "Product",
+  "name": "Tracking Stations",
+  "source": "space-ground-ops",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hybrid_fuel_grains",
+  "@type": "Product",
+  "name": "Hybrid Fuel Grains",
+  "source": "launch-vehicles.hybrid-propulsion.fuel-grain-design",
+  "tags": {
+    "material": [
+      "polymers",
+      "chemicals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

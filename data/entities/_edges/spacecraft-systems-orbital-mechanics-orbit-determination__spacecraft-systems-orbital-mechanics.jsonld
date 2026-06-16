@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.orbital-mechanics.orbit-determination__spacecraft-systems.orbital-mechanics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.orbital-mechanics.orbit-determination",
+  "to": "spacecraft-systems.orbital-mechanics"
+}

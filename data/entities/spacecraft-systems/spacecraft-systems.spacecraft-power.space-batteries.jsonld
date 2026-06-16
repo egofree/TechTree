@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Spacecraft-qualified rechargeable battery systems: lithium-ion (150-200 Wh/kg, 3.6V/cell), nickel-hydrogen (LEO 35,000 cycles), and nickel-cadmium for legacy buses. Includes cell screening, pack assembly, thermal management, and charge control electronics for eclipse power delivery.",
+  "early_win": false,
+  "id": "spacecraft-systems.spacecraft-power.space-batteries",
+  "level": "process",
+  "name": "Space Batteries",
+  "outputs": [
+    "space_batteries"
+  ],
+  "parent": "spacecraft-systems.spacecraft-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

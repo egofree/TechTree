@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.spacecraft-power.rtg-integration__spacecraft-systems.spacecraft-power",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.spacecraft-power.rtg-integration",
+  "to": "spacecraft-systems.spacecraft-power"
+}

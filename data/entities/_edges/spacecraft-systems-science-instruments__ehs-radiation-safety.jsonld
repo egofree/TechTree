@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/spacecraft-systems.science-instruments__ehs.radiation-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "spacecraft-systems.science-instruments",
+  "to": "ehs.radiation-safety",
+  "label": "Radiation environment characterization for instrument calibration and shielding"
+}

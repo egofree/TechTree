@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "catenary_systems",
+  "@type": "Product",
+  "name": "Catenary Systems",
+  "source": "transport.electric-railways",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

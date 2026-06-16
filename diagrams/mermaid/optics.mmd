@@ -21,6 +21,13 @@ graph TD
     measurement_thermostat-advanced("Advanced & Specialty Thermostats")
     photolithography("Photolithography & IC Fabrication")
     precision-motion_precision-encoders("Precision Encoders & Feedback")
+    space-ground-ops_ground-stations("Ground Stations")
+    space-ground-ops_range-safety("Range Safety")
+    spacecraft-systems_adcs("Attitude Determination & Control")
+    spacecraft-systems_earth-observation("Earth Observation Payloads")
+    spacecraft-systems_military-satellites("Military Satellites")
+    spacecraft-systems_navigation-payload("Navigation & PNT Payloads")
+    spacecraft-systems_science-instruments("Science Instruments")
     vacuum_pumps("Vacuum Pumps")
     vlsi-scaling_advanced-lithography("Advanced Lithography")
 
@@ -36,6 +43,13 @@ graph TD
     optics -.-> machine-tools
     photolithography -.-> optics
     precision-motion_precision-encoders -.-> optics
+    space-ground-ops_ground-stations -.-> optics
+    space-ground-ops_range-safety -.-> optics
+    spacecraft-systems_adcs -.-> optics
+    spacecraft-systems_earth-observation -.-> optics
+    spacecraft-systems_military-satellites -.-> optics
+    spacecraft-systems_navigation-payload -.-> optics
+    spacecraft-systems_science-instruments -.-> optics
     vlsi-scaling_advanced-lithography -.-> optics_inspection
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -63,6 +77,13 @@ graph TD
     class measurement_thermostat-advanced external
     class photolithography external
     class precision-motion_precision-encoders external
+    class space-ground-ops_ground-stations external
+    class space-ground-ops_range-safety external
+    class spacecraft-systems_adcs external
+    class spacecraft-systems_earth-observation external
+    class spacecraft-systems_military-satellites external
+    class spacecraft-systems_navigation-payload external
+    class spacecraft-systems_science-instruments external
     class vacuum_pumps external
     class vlsi-scaling_advanced-lithography external
     class EdgeLegend,MatNote,ToolNote legend

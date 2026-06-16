@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Atmospheric reentry system design: the blunt-body capsule geometry, ablative and reusable heat shield, and deceleration sequence that return a crew from orbital or lunar return velocity to a survivable landing. Covers PICA-X and Avcoat ablator heat shields, the 3-4 g lifting entry trajectory, drogue and main parachute or propulsive touchdown, and the load-limiting couches that protect crew during peak g.",
+  "early_win": false,
+  "id": "human-spaceflight.crewed-spacecraft.reentry-systems",
+  "level": "process",
+  "name": "Reentry Systems",
+  "outputs": [
+    "reentry_systems",
+    "crew_heat_shields",
+    "recovery_systems"
+  ],
+  "parent": "human-spaceflight.crewed-spacecraft",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "ceramics",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

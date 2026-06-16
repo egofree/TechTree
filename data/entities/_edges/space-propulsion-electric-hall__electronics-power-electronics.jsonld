@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-hall__electronics.power-electronics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-hall",
+  "to": "electronics.power-electronics",
+  "label": "Power Processing Unit delivering discharge voltage and magnet current for Hall thruster operation"
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Spacecraft bus subsystems: structure, power, thermal control, attitude determination and control, and communications.",
+  "early_win": false,
+  "id": "spacecraft-systems",
+  "level": "domain",
+  "name": "Spacecraft Systems",
+  "outputs": [
+    "satellite_structures",
+    "deployable_arrays",
+    "thermal_hardware",
+    "solar_arrays",
+    "space_batteries",
+    "spacecraft_power",
+    "adcs_hardware",
+    "star_trackers",
+    "reaction_wheels",
+    "ttac_systems",
+    "onboard_electronics",
+    "radhard_electronics",
+    "comms_payloads",
+    "satellite_antennas",
+    "twtas",
+    "eo_payloads",
+    "pnt_payloads",
+    "science_payloads",
+    "reconnaissance_systems",
+    "orbit_solutions",
+    "debris_services",
+    "qualified_hardware"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

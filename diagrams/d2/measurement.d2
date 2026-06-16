@@ -189,6 +189,18 @@ silicon_crystal-growth: "Crystal Growth & Wafering" {
 silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling {
   shape: rectangle
 }
+spacecraft-systems_debris-management: Debris Management {
+  shape: rectangle
+}
+spacecraft-systems_earth-observation: Earth Observation Payloads {
+  shape: rectangle
+}
+spacecraft-systems_navigation-payload: "Navigation & PNT Payloads" {
+  shape: rectangle
+}
+spacecraft-systems_orbital-mechanics: Orbital Mechanics {
+  shape: rectangle
+}
 ultra-pure_analytical-verification: PPT-Level Analytical Verification {
   shape: rectangle
 }
@@ -246,6 +258,10 @@ quality-control_spc -> measurement: { class: tool-edge }
 quality-control -> measurement: { class: tool-edge }
 silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
 silicon_crystal-growth -> measurement_precision-metrology: { class: tool-edge }
+spacecraft-systems_debris-management -> measurement: { class: tool-edge }
+spacecraft-systems_earth-observation -> measurement: { class: tool-edge }
+spacecraft-systems_navigation-payload -> measurement: { class: tool-edge }
+spacecraft-systems_orbital-mechanics -> measurement: { class: tool-edge }
 ultra-pure_analytical-verification -> measurement: { class: tool-edge }
 vacuum_measurement -> measurement: { class: tool-edge }
 vacuum_leak-detection -> measurement: { class: tool-edge }
@@ -292,6 +308,10 @@ quality-control_spc.class: external
 silicon.class: external
 silicon_crystal-growth.class: external
 silicon_crystal-growth_cz-pulling.class: external
+spacecraft-systems_debris-management.class: external
+spacecraft-systems_earth-observation.class: external
+spacecraft-systems_navigation-payload.class: external
+spacecraft-systems_orbital-mechanics.class: external
 ultra-pure_analytical-verification.class: external
 vacuum.class: external
 vacuum_leak-detection.class: external

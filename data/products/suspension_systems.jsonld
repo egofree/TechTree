@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "suspension_systems",
+  "@type": "Product",
+  "name": "Suspension Systems",
+  "source": "transport.motor-vehicles.suspension-systems",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

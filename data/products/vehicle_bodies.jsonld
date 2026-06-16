@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vehicle_bodies",
+  "@type": "Product",
+  "name": "Vehicle Bodies",
+  "source": "transport.motor-vehicles.body-panel-stamping",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

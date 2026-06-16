@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "human-spaceflight.crew-training.neutral-buoyancy",
+  "@type": "Process",
+  "critical": false,
+  "description": "Neutral buoyancy EVA training at the Neutral Buoyancy Laboratory (NBL): 62-million-litre (6.2M gallon) pool, 31 m diameter x 12.3 m depth, full-scale ISS mockup modules and truss segments, suited astronaut training sessions of 6 hours underwater with 1:1 time-and-effort fidelity to orbital EVAs, and test director and safety diver support teams of 20+ personnel per session.",
+  "early_win": false,
+  "id": "human-spaceflight.crew-training.neutral-buoyancy",
+  "level": "process",
+  "name": "Neutral Buoyancy",
+  "outputs": [
+    "trained_crew"
+  ],
+  "parent": "human-spaceflight.crew-training",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "water",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60+"
+}

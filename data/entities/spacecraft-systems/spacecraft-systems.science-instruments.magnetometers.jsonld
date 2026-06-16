@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Spaceborne magnetometers for measuring magnetic fields: fluxgate (DC-10 Hz, 1 pT precision), search-coil (AC variations), and scalar helium/optically-pumped magnetometers (absolute accuracy). Used on every planetary mission for mapping intrinsic and induced magnetospheres.",
+  "early_win": false,
+  "id": "spacecraft-systems.science-instruments.magnetometers",
+  "level": "process",
+  "name": "Magnetometers",
+  "outputs": [
+    "science_payloads"
+  ],
+  "parent": "spacecraft-systems.science-instruments",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "silicon",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

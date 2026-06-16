@@ -36,6 +36,8 @@ graph TD
     machine-tools["Machine Tools Bootstrap"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    aerospace_aviation("Aviation")
+    aerospace_rotorcraft("Rotorcraft")
     animals_animal-materials("Animal-Derived Materials Processing")
     automation_wafer-handling("Wafer Handling Robots")
     chemistry("Chemistry")
@@ -62,6 +64,7 @@ graph TD
     foundations_fire("Fire-Making")
     glass("Glass")
     knowledge_printing("Paper and Printing Press")
+    launch-vehicles_liquid-propulsion("Liquid Propulsion")
     marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
     marine_shipbuilding("Hull Construction & Shipbuilding")
     measurement("Measurement & Instrumentation")
@@ -85,12 +88,17 @@ graph TD
     precision-motion_nanometer-positioning("Nanometer Positioning")
     precision-motion_wafer-stages("Wafer Stages & Scanner Systems")
     silicon("Silicon")
+    space-ground-ops_vehicle-assembly("Vehicle Assembly")
+    spacecraft-systems_adcs("Attitude Determination & Control")
+    spacecraft-systems_bus-structure("Bus Structure + Deployables")
     textiles("Textiles, Fiber & Cordage")
     textiles_spinning-frame_mule("Spinning Mule")
     textiles_spinning-frame_ring("Ring Spinning Frame")
     textiles_spinning-frame_water("Water Frame")
     transport("Transportation & Logistics")
-    transport_aviation("Aviation")
+    transport_ice-powertrains("ICE Powertrains")
+    transport_motor-vehicles("Motor Vehicle Fundamentals")
+    transport_motorcycles("Motorcycles & Scooters")
     vacuum_chambers("Vacuum Chambers & Sealing")
     vacuum_pumps("Vacuum Pumps")
 
@@ -120,6 +128,8 @@ graph TD
     machine-tools_mass-production -.-> machine-tools_machining
     machine-tools -.-> machine-tools_gears
     machine-tools -.-> machine-tools_power-transmission
+    aerospace_aviation -.-> machine-tools
+    aerospace_rotorcraft -.-> machine-tools
     automation_wafer-handling -.-> machine-tools
     chemistry_lubricants --> machine-tools_hydraulic-systems
     chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
@@ -140,6 +150,7 @@ graph TD
     energy_stirling-engine -.-> machine-tools_machining
     glass -.-> machine-tools
     knowledge_printing -.-> machine-tools_machining
+    launch-vehicles_liquid-propulsion -.-> machine-tools
     machine-tools_cam -.-> computing_electronic
     machine-tools_edm-cnc -.-> energy_electricity
     machine-tools_fasteners --> metals_iron-steel
@@ -190,10 +201,15 @@ graph TD
     precision-motion_wafer-stages -.-> machine-tools_edm-cnc
     precision-motion -.-> machine-tools
     silicon -.-> machine-tools
+    space-ground-ops_vehicle-assembly -.-> machine-tools
+    spacecraft-systems_adcs -.-> machine-tools
+    spacecraft-systems_bus-structure -.-> machine-tools
     textiles_spinning-frame_mule -.-> machine-tools_machining
     textiles_spinning-frame_ring -.-> machine-tools_machining
     textiles_spinning-frame_water -.-> machine-tools_machining
-    transport_aviation -.-> machine-tools
+    transport_ice-powertrains --> machine-tools_gears
+    transport_motor-vehicles -.-> machine-tools
+    transport_motorcycles -.-> machine-tools
     transport -.-> machine-tools
     vacuum_chambers -.-> machine-tools_joining_electron-beam
     vacuum_chambers -.-> machine-tools_joining_tig-welding
@@ -240,6 +256,8 @@ graph TD
     class machine-tools_machining capability
     class machine-tools_mass-production critical
     class machine-tools_power-transmission capability
+    class aerospace_aviation external
+    class aerospace_rotorcraft external
     class animals_animal-materials external
     class automation_wafer-handling external
     class chemistry external
@@ -266,6 +284,7 @@ graph TD
     class foundations_fire external
     class glass external
     class knowledge_printing external
+    class launch-vehicles_liquid-propulsion external
     class marine_infrastructure external
     class marine_shipbuilding external
     class measurement external
@@ -289,12 +308,17 @@ graph TD
     class precision-motion_nanometer-positioning external
     class precision-motion_wafer-stages external
     class silicon external
+    class space-ground-ops_vehicle-assembly external
+    class spacecraft-systems_adcs external
+    class spacecraft-systems_bus-structure external
     class textiles external
     class textiles_spinning-frame_mule external
     class textiles_spinning-frame_ring external
     class textiles_spinning-frame_water external
     class transport external
-    class transport_aviation external
+    class transport_ice-powertrains external
+    class transport_motor-vehicles external
+    class transport_motorcycles external
     class vacuum_chambers external
     class vacuum_pumps external
     class EdgeLegend,MatNote,ToolNote legend

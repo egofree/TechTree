@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Data Buses - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.obdh.data-buses",
+  "level": "process",
+  "name": "Spacecraft Data Buses",
+  "outputs": [
+    "onboard_electronics"
+  ],
+  "parent": "spacecraft-systems.obdh",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

@@ -144,6 +144,24 @@ energy_internal: "Energy — Internal Structure" {
 energy: Energy
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_aviation: Aviation {
+  shape: rectangle
+}
+aerospace_jet-propulsion: Jet Propulsion {
+  shape: rectangle
+}
+aerospace_lighter-than-air: Lighter-than-Air {
+  shape: rectangle
+}
+aerospace_rotorcraft: Rotorcraft {
+  shape: rectangle
+}
+aerospace_turboprop: Turboprop Engines {
+  shape: rectangle
+}
+aerospace_uav: Unmanned Aerial Vehicles {
+  shape: rectangle
+}
 agriculture_irrigation: Irrigation Systems {
   shape: rectangle
 }
@@ -274,6 +292,18 @@ glass_basic_float-glass: Float Glass Process {
   shape: rectangle
 }
 health_medical-instruments: Medical Instrument Manufacturing {
+  shape: rectangle
+}
+human-spaceflight_eclss: "Environmental Control & Life Support" {
+  shape: rectangle
+}
+human-spaceflight_radiation-protection: Radiation Protection {
+  shape: rectangle
+}
+launch-vehicles_liquid-propulsion: Liquid Propulsion {
+  shape: rectangle
+}
+launch-vehicles_propellant-production: Propellant Production {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -423,6 +453,21 @@ silicon_mg-si-production: Metallurgical-Grade Silicon Production {
 silicon_purification: Silicon Purification {
   shape: rectangle
 }
+space-propulsion_nuclear-electric: Nuclear Electric Propulsion {
+  shape: rectangle
+}
+space-propulsion_nuclear-thermal: Nuclear Thermal Propulsion {
+  shape: rectangle
+}
+space-resources_lunar-isru: Lunar ISRU {
+  shape: rectangle
+}
+space-resources_mars-isru: Mars ISRU {
+  shape: rectangle
+}
+spacecraft-systems_spacecraft-power: Spacecraft Power Systems {
+  shape: rectangle
+}
 telecom: Telecommunications {
   shape: rectangle
 }
@@ -441,7 +486,25 @@ textiles: "Textiles, Fiber & Cordage" {
 transport: "Transportation & Logistics" {
   shape: rectangle
 }
-transport_aviation: Aviation {
+transport_diesel-locomotives: Diesel-Electric Locomotives {
+  shape: rectangle
+}
+transport_electric-railways: Electric Railways {
+  shape: rectangle
+}
+transport_electric-vehicles: Electric Vehicles {
+  shape: rectangle
+}
+transport_high-speed-rail: High-Speed Rail {
+  shape: rectangle
+}
+transport_ice-powertrains: ICE Powertrains {
+  shape: rectangle
+}
+transport_motor-vehicles: Motor Vehicle Fundamentals {
+  shape: rectangle
+}
+transport_motorcycles: "Motorcycles & Scooters" {
   shape: rectangle
 }
 transport_railways: Railways {
@@ -511,6 +574,12 @@ energy_storage_pumped-hydro -> energy_gravity: { class: tool-edge }
 energy_storage -> energy_fuel-cell: { class: tool-edge }
 energy_storage -> energy_redox-flow-battery: { class: tool-edge }
 energy_storage -> energy: { class: tool-edge }
+aerospace_aviation -> energy_engine: { class: tool-edge }
+aerospace_jet-propulsion -> energy_gas-turbine: { class: tool-edge }
+aerospace_lighter-than-air -> energy_fuels: { class: material-edge }
+aerospace_rotorcraft -> energy_gas-turbine: { class: material-edge }
+aerospace_turboprop -> energy_gas-turbine: { class: material-edge }
+aerospace_uav -> energy_electricity_motor: { class: tool-edge }
 agriculture_irrigation -> energy: { class: tool-edge }
 agriculture_sem-tech-hydroponics -> energy_electricity: { class: tool-edge }
 agriculture_soil-management -> energy_fuels_charcoal: { class: material-edge }
@@ -636,6 +705,11 @@ glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
 glass_basic_float-glass -> energy_electric-furnaces: { class: tool-edge }
 glass -> energy: { class: material-edge }
 health_medical-instruments -> energy_steam-power: { class: tool-edge }
+human-spaceflight_eclss -> energy_fuel-cell: { class: tool-edge }
+human-spaceflight_radiation-protection -> energy_nuclear-fission: { class: tool-edge }
+launch-vehicles_liquid-propulsion -> energy_gas-turbine: { class: tool-edge }
+launch-vehicles_propellant-production -> energy_electricity: { class: material-edge }
+launch-vehicles_propellant-production -> energy_fuels: { class: material-edge }
 machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
 machine-tools_forming -> energy_fuels: { class: material-edge }
 machine-tools_joining_diffusion-bonding -> energy_electric-furnaces: { class: tool-edge }
@@ -672,12 +746,31 @@ silicon_mg-si-production -> energy_electric-furnaces: { class: tool-edge }
 silicon_mg-si-production -> energy: { class: tool-edge }
 silicon_purification -> energy_electricity: { class: tool-edge }
 silicon -> energy: { class: material-edge }
+space-propulsion_nuclear-electric -> energy_nuclear-fission: { class: tool-edge }
+space-propulsion_nuclear-thermal -> energy_nuclear-fission_reactor-design: { class: tool-edge }
+space-propulsion_nuclear-thermal -> energy_nuclear-fission: { class: tool-edge }
+space-resources_lunar-isru -> energy_electricity: { class: tool-edge }
+space-resources_mars-isru -> energy_electricity: { class: tool-edge }
+spacecraft-systems_spacecraft-power -> energy_photovoltaics: { class: tool-edge }
+spacecraft-systems_spacecraft-power -> energy_radioisotope-power: { class: tool-edge }
 telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
 telecom_radio -> energy_electricity: { class: tool-edge }
 telecom_telephone -> energy_electricity: { class: tool-edge }
 telecom -> energy_electricity: { class: tool-edge }
 telecom -> energy_power-distribution: { class: material-edge }
-transport_aviation -> energy_engine: { class: tool-edge }
+transport_diesel-locomotives -> energy_electricity_motor: { class: material-edge }
+transport_diesel-locomotives -> energy_internal-combustion: { class: material-edge }
+transport_electric-railways -> energy_electricity_motor: { class: material-edge }
+transport_electric-railways -> energy_electricity: { class: material-edge }
+transport_electric-vehicles -> energy_electricity_motor: { class: material-edge }
+transport_electric-vehicles -> energy_electricity: { class: material-edge }
+transport_high-speed-rail -> energy_electricity_motor: { class: material-edge }
+transport_high-speed-rail -> energy_electricity: { class: material-edge }
+transport_ice-powertrains -> energy_fuels: { class: material-edge }
+transport_ice-powertrains -> energy_internal-combustion: { class: material-edge }
+transport_motor-vehicles -> energy_internal-combustion: { class: tool-edge }
+transport_motorcycles -> energy_electricity_motor: { class: tool-edge }
+transport_motorcycles -> energy_internal-combustion: { class: tool-edge }
 transport_railways -> energy_steam-power: { class: tool-edge }
 transport_telegraph -> energy_electricity: { class: tool-edge }
 transport -> energy_engine: { class: tool-edge }
@@ -738,6 +831,12 @@ energy_stirling-engine.class: capability
 energy_storage.class: capability
 energy_storage_pumped-hydro.class: process
 energy_wind.class: capability
+aerospace_aviation.class: external
+aerospace_jet-propulsion.class: external
+aerospace_lighter-than-air.class: external
+aerospace_rotorcraft.class: external
+aerospace_turboprop.class: external
+aerospace_uav.class: external
 agriculture_irrigation.class: external
 agriculture_sem-tech-hydroponics.class: external
 agriculture_soil-management.class: external
@@ -782,6 +881,10 @@ glass_advanced_glassblowing.class: external
 glass_basic.class: external
 glass_basic_float-glass.class: external
 health_medical-instruments.class: external
+human-spaceflight_eclss.class: external
+human-spaceflight_radiation-protection.class: external
+launch-vehicles_liquid-propulsion.class: external
+launch-vehicles_propellant-production.class: external
 machine-tools.class: external
 machine-tools_edm-cnc.class: external
 machine-tools_forming.class: external
@@ -831,13 +934,24 @@ silicon.class: external
 silicon_basic-devices.class: external
 silicon_mg-si-production.class: external
 silicon_purification.class: external
+space-propulsion_nuclear-electric.class: external
+space-propulsion_nuclear-thermal.class: external
+space-resources_lunar-isru.class: external
+space-resources_mars-isru.class: external
+spacecraft-systems_spacecraft-power.class: external
 telecom.class: external
 telecom_electric-telegraph.class: external
 telecom_radio.class: external
 telecom_telephone.class: external
 textiles.class: external
 transport.class: external
-transport_aviation.class: external
+transport_diesel-locomotives.class: external
+transport_electric-railways.class: external
+transport_electric-vehicles.class: external
+transport_high-speed-rail.class: external
+transport_ice-powertrains.class: external
+transport_motor-vehicles.class: external
+transport_motorcycles.class: external
 transport_railways.class: external
 transport_telegraph.class: external
 water_basic-treatment.class: external

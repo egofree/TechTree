@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Liquid cooling and thermal management garment design: the Liquid Cooling and Ventilation Garment (LCVG) and multi-layer insulation that regulate body temperature and remove metabolic heat. Covers the spaghetti-tubing spandex undergarment (300+ m of capillary tubing), the multi-layer insulation blanket (aluminised Mylar + Dacron spacer), and the heat rejection loop tied to the PLSS sublimator.",
+  "early_win": false,
+  "id": "human-spaceflight.space-suits.thermal-control-suit",
+  "level": "process",
+  "name": "Thermal Control Suit",
+  "outputs": [
+    "thermal_control_garments",
+    "liquid_cooling_garments",
+    "multi_layer_insulation"
+  ],
+  "parent": "human-spaceflight.space-suits",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

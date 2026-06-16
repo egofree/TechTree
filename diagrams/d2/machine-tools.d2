@@ -117,6 +117,12 @@ machine-tools_internal: "Machine Tools Bootstrap — Internal Structure" {
 machine-tools: Machine Tools Bootstrap
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+aerospace_aviation: Aviation {
+  shape: rectangle
+}
+aerospace_rotorcraft: Rotorcraft {
+  shape: rectangle
+}
 animals_animal-materials: Animal-Derived Materials Processing {
   shape: rectangle
 }
@@ -195,6 +201,9 @@ glass: Glass {
 knowledge_printing: Paper and Printing Press {
   shape: rectangle
 }
+launch-vehicles_liquid-propulsion: Liquid Propulsion {
+  shape: rectangle
+}
 marine_infrastructure: "Maritime Infrastructure & Underwater Engineering" {
   shape: rectangle
 }
@@ -264,6 +273,15 @@ precision-motion_wafer-stages: "Wafer Stages & Scanner Systems" {
 silicon: Silicon {
   shape: rectangle
 }
+space-ground-ops_vehicle-assembly: Vehicle Assembly {
+  shape: rectangle
+}
+spacecraft-systems_adcs: "Attitude Determination & Control" {
+  shape: rectangle
+}
+spacecraft-systems_bus-structure: Bus Structure + Deployables {
+  shape: rectangle
+}
 textiles: "Textiles, Fiber & Cordage" {
   shape: rectangle
 }
@@ -279,7 +297,13 @@ textiles_spinning-frame_water: Water Frame {
 transport: "Transportation & Logistics" {
   shape: rectangle
 }
-transport_aviation: Aviation {
+transport_ice-powertrains: ICE Powertrains {
+  shape: rectangle
+}
+transport_motor-vehicles: Motor Vehicle Fundamentals {
+  shape: rectangle
+}
+transport_motorcycles: "Motorcycles & Scooters" {
   shape: rectangle
 }
 vacuum_chambers: "Vacuum Chambers & Sealing" {
@@ -315,6 +339,8 @@ machine-tools_mass-production -> machine-tools_fasteners: { class: material-edge
 machine-tools_mass-production -> machine-tools_machining: { class: tool-edge }
 machine-tools -> machine-tools_gears: { class: tool-edge }
 machine-tools -> machine-tools_power-transmission: { class: tool-edge }
+aerospace_aviation -> machine-tools: { class: tool-edge }
+aerospace_rotorcraft -> machine-tools: { class: tool-edge }
 automation_wafer-handling -> machine-tools: { class: tool-edge }
 chemistry_lubricants -> machine-tools_hydraulic-systems: { class: material-edge }
 chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class: tool-edge }
@@ -335,6 +361,7 @@ energy_steam-power -> machine-tools: { class: tool-edge }
 energy_stirling-engine -> machine-tools_machining: { class: tool-edge }
 glass -> machine-tools: { class: tool-edge }
 knowledge_printing -> machine-tools_machining: { class: tool-edge }
+launch-vehicles_liquid-propulsion -> machine-tools: { class: tool-edge }
 machine-tools_cam -> computing_electronic: { class: tool-edge }
 machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
 machine-tools_fasteners -> metals_iron-steel: { class: material-edge }
@@ -385,10 +412,15 @@ precision-motion_nanometer-positioning -> machine-tools_edm-cnc: { class: tool-e
 precision-motion_wafer-stages -> machine-tools_edm-cnc: { class: tool-edge }
 precision-motion -> machine-tools: { class: tool-edge }
 silicon -> machine-tools: { class: tool-edge }
+space-ground-ops_vehicle-assembly -> machine-tools: { class: tool-edge }
+spacecraft-systems_adcs -> machine-tools: { class: tool-edge }
+spacecraft-systems_bus-structure -> machine-tools: { class: tool-edge }
 textiles_spinning-frame_mule -> machine-tools_machining: { class: tool-edge }
 textiles_spinning-frame_ring -> machine-tools_machining: { class: tool-edge }
 textiles_spinning-frame_water -> machine-tools_machining: { class: tool-edge }
-transport_aviation -> machine-tools: { class: tool-edge }
+transport_ice-powertrains -> machine-tools_gears: { class: material-edge }
+transport_motor-vehicles -> machine-tools: { class: tool-edge }
+transport_motorcycles -> machine-tools: { class: tool-edge }
 transport -> machine-tools: { class: tool-edge }
 vacuum_chambers -> machine-tools_joining_electron-beam: { class: tool-edge }
 vacuum_chambers -> machine-tools_joining_tig-welding: { class: tool-edge }
@@ -422,6 +454,8 @@ machine-tools_joining_welding.class: process
 machine-tools_machining.class: capability
 machine-tools_mass-production.class: critical
 machine-tools_power-transmission.class: capability
+aerospace_aviation.class: external
+aerospace_rotorcraft.class: external
 animals_animal-materials.class: external
 automation_wafer-handling.class: external
 chemistry.class: external
@@ -448,6 +482,7 @@ foundations_carpentry.class: external
 foundations_fire.class: external
 glass.class: external
 knowledge_printing.class: external
+launch-vehicles_liquid-propulsion.class: external
 marine_infrastructure.class: external
 marine_shipbuilding.class: external
 measurement.class: external
@@ -471,12 +506,17 @@ precision-motion.class: external
 precision-motion_nanometer-positioning.class: external
 precision-motion_wafer-stages.class: external
 silicon.class: external
+space-ground-ops_vehicle-assembly.class: external
+spacecraft-systems_adcs.class: external
+spacecraft-systems_bus-structure.class: external
 textiles.class: external
 textiles_spinning-frame_mule.class: external
 textiles_spinning-frame_ring.class: external
 textiles_spinning-frame_water.class: external
 transport.class: external
-transport_aviation.class: external
+transport_ice-powertrains.class: external
+transport_motor-vehicles.class: external
+transport_motorcycles.class: external
 vacuum_chambers.class: external
 vacuum_pumps.class: external
 

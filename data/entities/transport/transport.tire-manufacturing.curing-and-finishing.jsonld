@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Vulcanization of the green tire in a heated mold (press curing) under pressure (1.5-2.5 MPa) and temperature (150-180 C) for 8-20 minutes. Sulfur cross-links the rubber polymer chains, converting the plastic green stock into an elastic, dimensionally stable finished tire. Post-cure inflation, trimming, balancing, and uniformity inspection follow.",
+  "early_win": false,
+  "id": "transport.tire-manufacturing.curing-and-finishing",
+  "level": "process",
+  "name": "Curing and Finishing",
+  "outputs": [
+    "solid_tires"
+  ],
+  "parent": "transport.tire-manufacturing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

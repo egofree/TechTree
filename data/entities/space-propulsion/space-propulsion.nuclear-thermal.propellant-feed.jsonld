@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Liquid hydrogen (LH2) propellant storage and feed for NTP engines: turbopump-fed system that draws cryogenic LH2 (20 K) from insulated tanks, pressurizes it to 3-7 MPa, and routes it through the reactor core channels where it is heated to ~2700 K. The hot hydrogen then drives the turbopump in an expander cycle before reaching the nozzle inlet. Relies on cryogenic storage and transfer expertise (see cryogenics.liquefaction-storage); the NTP-specific challenges are hydrogen compatibility with reactor materials (hydrogen embrittlement of refractory metals), zero-boiloff or active-cooled tankage for multi-month missions, and high-flow turbopump operation at cryogenic inlet temperatures.",
+  "early_win": false,
+  "id": "space-propulsion.nuclear-thermal.propellant-feed",
+  "level": "process",
+  "name": "Propellant Feed System",
+  "outputs": [
+    "ntp_engines"
+  ],
+  "parent": "space-propulsion.nuclear-thermal",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

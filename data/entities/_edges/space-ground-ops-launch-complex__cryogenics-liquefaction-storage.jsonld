@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-ground-ops.launch-complex__cryogenics.liquefaction-storage",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-ground-ops.launch-complex",
+  "to": "cryogenics.liquefaction-storage",
+  "label": "LOX/LH2 vacuum-insulated Dewar storage tanks, perlite/MLI insulation, cryogenic transfer lines"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Duct downstream of the turbine that injects and burns additional fuel in the hot exhaust stream, temporarily increasing thrust 40-70% for takeoff, transonic acceleration, or combat maneuvering. Requires a variable-area exhaust nozzle to manage the increased mass flow and pressure without choking the engine.",
+  "early_win": false,
+  "id": "aerospace.jet-propulsion.afterburner",
+  "level": "process",
+  "name": "Afterburners",
+  "outputs": [
+    "afterburners"
+  ],
+  "parent": "aerospace.jet-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-55+"
+}

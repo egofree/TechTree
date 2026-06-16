@@ -50,6 +50,10 @@ graph TD
     silicon("Silicon")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_crystal-growth_cz-pulling("Czochralski Crystal Pulling")
+    spacecraft-systems_debris-management("Debris Management")
+    spacecraft-systems_earth-observation("Earth Observation Payloads")
+    spacecraft-systems_navigation-payload("Navigation & PNT Payloads")
+    spacecraft-systems_orbital-mechanics("Orbital Mechanics")
     ultra-pure_analytical-verification("PPT-Level Analytical Verification")
     vacuum("Vacuum Technology")
     vacuum_leak-detection("Vacuum Leak Detection & Seal Integrity")
@@ -99,6 +103,10 @@ graph TD
     quality-control -.-> measurement
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
     silicon_crystal-growth -.-> measurement_precision-metrology
+    spacecraft-systems_debris-management -.-> measurement
+    spacecraft-systems_earth-observation -.-> measurement
+    spacecraft-systems_navigation-payload -.-> measurement
+    spacecraft-systems_orbital-mechanics -.-> measurement
     ultra-pure_analytical-verification -.-> measurement
     vacuum_measurement -.-> measurement
     vacuum_leak-detection -.-> measurement
@@ -158,6 +166,10 @@ graph TD
     class silicon external
     class silicon_crystal-growth external
     class silicon_crystal-growth_cz-pulling external
+    class spacecraft-systems_debris-management external
+    class spacecraft-systems_earth-observation external
+    class spacecraft-systems_navigation-payload external
+    class spacecraft-systems_orbital-mechanics external
     class ultra-pure_analytical-verification external
     class vacuum external
     class vacuum_leak-detection external

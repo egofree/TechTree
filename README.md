@@ -8,12 +8,12 @@ This project documents the complete dependency chain from fire and stone tools t
 
 | Metric | Count |
 |--------|-------|
-| Technology domains | 43 |
-| Capability nodes | 473 |
-| Dependency edges | 1,194 |
-| Content articles | 694 |
-| Mermaid diagrams | 59 |
-| D2 diagrams | 59 |
+| Technology domains | 50 |
+| Capability nodes | 415 |
+| Dependency edges | 1,663 |
+| Content articles | 973 |
+| Mermaid diagrams | 66 |
+| D2 diagrams | 66 |
 | Glossary terms | 11,966 |
 
 ## Tech Tree Overview
@@ -83,6 +83,16 @@ graph TB
         defense["Defense"]
     end
 
+    subgraph space_tech ["Space Technology"]
+        aerospace["Aerospace"]
+        launch-vehicles["Launch Vehicles"]
+        space-propulsion["Space Propulsion"]
+        spacecraft-systems["Spacecraft Systems"]
+        human-spaceflight["Human Spaceflight"]
+        space-ground-ops["Space Ground Ops"]
+        space-resources["Space Resources"]
+    end
+
     foundations --> metals
     foundations --> mining
     metals --> machine-tools
@@ -108,6 +118,16 @@ graph TB
     measurement --> quality-control
     gas-handling --> chemistry
     agriculture --> food-processing
+    metals --> launch-vehicles
+    electronics --> spacecraft-systems
+    energy --> space-propulsion
+    aerospace --> launch-vehicles
+    launch-vehicles --> spacecraft-systems
+    launch-vehicles --> human-spaceflight
+    space-propulsion --> spacecraft-systems
+    spacecraft-systems --> human-spaceflight
+    spacecraft-systems --> space-ground-ops
+    human-spaceflight --> space-resources
 
     classDef foundationsStyle fill:#e1bee7,stroke:#7b1fa2,stroke-width:3px
     classDef corePathStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
@@ -116,6 +136,7 @@ graph TB
     classDef infraStyle fill:#f5f5f5,stroke:#616161,stroke-width:2px
     classDef transportStyle fill:#e0f2f1,stroke:#00796b,stroke-width:2px
     classDef civilizationStyle fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef spaceStyle fill:#e8eaf6,stroke:#283593,stroke-width:2px
 
     class foundations foundationsStyle
     class metals,mining,energy,machine-tools,chemistry,silicon,photolithography,electronics,computing,vlsi-scaling,software-bootstrapping corePathStyle
@@ -124,6 +145,7 @@ graph TB
     class construction,gas-handling,water,health,ehs,automation,mathematics,knowledge,economics-organization infraStyle
     class transport,marine,telecom transportStyle
     class agriculture,food-processing,defense civilizationStyle
+    class aerospace,launch-vehicles,space-propulsion,spacecraft-systems,human-spaceflight,space-ground-ops,space-resources spaceStyle
 ```
 
 ## Quick Navigation
@@ -141,6 +163,8 @@ graph TB
   - [Transport](docs/transport/) · [Marine](docs/marine/) · [Telecommunications](docs/telecom/)
 - **Civilization Sustaining**:
   - [Agriculture](docs/agriculture/) · [Food Processing](docs/food-processing/) · [Defense](docs/defense/)
+- **Space Technology**:
+  - [Aerospace](docs/aerospace/) · [Launch Vehicles](docs/launch-vehicles/) · [Space Propulsion](docs/space-propulsion/) · [Spacecraft Systems](docs/spacecraft-systems/) · [Human Spaceflight](docs/human-spaceflight/) · [Space Ground Operations](docs/space-ground-ops/) · [Space Resources](docs/space-resources/)
 - [Minimum Viable Civilization Checklist](docs/supporting/minimum-viable-checklist.md)
 - [Dependencies & Resources](docs/supporting/dependencies.md)
 - [All Mermaid Diagrams](diagrams/mermaid/) · [All D2 Diagrams](diagrams/d2/)
@@ -171,19 +195,19 @@ Basic solar cells are achievable within decades of establishing solid machine to
 tech-tree-bootstrap/
 ├── docs/               # Domain-organized content (Markdown prose)
 │   ├── index.md        # Unified entry point
-│   ├── {domain}/       # 43 technology domain directories
+│   ├── {domain}/       # 50 technology domain directories
 │   ├── glossary/       # 11,966 auto-generated glossary entries
 │   └── supporting/     # Schema spec, checklist, resources
 ├── data/               # Structured data (JSON-LD)
-│   ├── entities/       # 516 entity files (JSON-LD)
-│   ├── products/       # 1,322 product/material files (JSON-LD)
+│   ├── entities/       # 797 entity files (JSON-LD)
+│   ├── products/       # 1,568 product/material files (JSON-LD)
 │   ├── schema/         # JSON Schema validation files
 │   ├── glossary.json   # 11,966 glossary terms with relevance ratings
 │   ├── plants.json     # Plant species catalog
 │   └── resources.json  # External resource references
 ├── diagrams/           # Auto-generated (DO NOT hand-edit)
-│   ├── mermaid/        # .mmd flowcharts (44 domains)
-│   └── d2/             # .d2 flowcharts (44 domains)
+│   ├── mermaid/        # .mmd flowcharts (50 domains + overview)
+│   └── d2/             # .d2 flowcharts (50 domains + overview)
 └── scripts/            # Validation, generation, and build tools
 ```
 

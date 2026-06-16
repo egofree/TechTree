@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/space-propulsion.electric-advanced__vacuum.chambers",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "space-propulsion.electric-advanced",
+  "to": "vacuum.chambers",
+  "label": "Cryopumped high-vacuum facilities for high-power advanced thruster ground testing"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.solid-propulsion.propellant-casting__launch-vehicles.solid-propulsion",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "launch-vehicles.solid-propulsion.propellant-casting",
+  "to": "launch-vehicles.solid-propulsion",
+  "label": "Propellant casting is a process within the solid propulsion capability"
+}

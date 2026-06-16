@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/launch-vehicles.solid-propulsion__metals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "launch-vehicles.solid-propulsion",
+  "to": "metals",
+  "label": "Maraging steel and titanium pressure cases, nozzle housings, and igniter hardware produced by metallurgy"
+}

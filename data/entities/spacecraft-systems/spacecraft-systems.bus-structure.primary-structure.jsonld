@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Primary Structure Fabrication - see documentation for details.",
+  "early_win": false,
+  "id": "spacecraft-systems.bus-structure.primary-structure",
+  "level": "process",
+  "name": "Primary Structure Fabrication",
+  "outputs": [
+    "satellite_structures"
+  ],
+  "parent": "spacecraft-systems.bus-structure",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

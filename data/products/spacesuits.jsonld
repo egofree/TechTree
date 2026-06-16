@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spacesuits",
+  "@type": "Product",
+  "name": "Space Suits",
+  "source": "human-spaceflight.space-suits",
+  "tags": {
+    "capability": [
+      "spaceflight"
+    ],
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

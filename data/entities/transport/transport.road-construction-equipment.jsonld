@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Graders, rollers, pavers, and excavating equipment for road and highway construction — shaping and compacting earth, aggregate, and paving materials into stable road surfaces.",
+  "early_win": false,
+  "id": "transport.road-construction-equipment",
+  "level": "capability",
+  "name": "Road Construction Equipment",
+  "outputs": [
+    "compacted_surfaces",
+    "graded_earth",
+    "shaped_road_profile"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 8-25"
+}

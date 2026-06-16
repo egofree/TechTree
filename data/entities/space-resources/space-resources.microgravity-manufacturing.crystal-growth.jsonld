@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Growth of large, low-defect protein crystals (lysozyme, insulin) for pharmaceutical structure determination and higher-purity semiconductor crystals free of buoyancy-driven convection defects.",
+  "early_win": false,
+  "id": "space-resources.microgravity-manufacturing.crystal-growth",
+  "level": "process",
+  "name": "Crystal Growth",
+  "outputs": [
+    "space_grown_crystals"
+  ],
+  "parent": "space-resources.microgravity-manufacturing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 80+"
+}

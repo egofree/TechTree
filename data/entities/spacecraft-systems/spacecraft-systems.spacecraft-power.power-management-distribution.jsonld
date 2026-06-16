@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Power conditioning and distribution unit (PCDU) architecture: main bus voltage regulation (28V unregulated, 100V regulated), shunt regulation for solar array excess power, battery charge/discharge management, overcurrent protection, and switched power outputs to spacecraft loads.",
+  "early_win": false,
+  "id": "spacecraft-systems.spacecraft-power.power-management-distribution",
+  "level": "process",
+  "name": "Power Management and Distribution",
+  "outputs": [
+    "spacecraft_power"
+  ],
+  "parent": "spacecraft-systems.spacecraft-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-200+"
+}

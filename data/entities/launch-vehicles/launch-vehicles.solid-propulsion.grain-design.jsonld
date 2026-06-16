@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design of solid propellant grain geometry to tailor the thrust-time profile. Star, cylindrical (core-burning), and finocyl (finned-cylinder) cross-sections set the burning surface area evolution, producing progressive (rising thrust), regressive (falling thrust), or neutral (constant thrust) burn profiles. Burn rate follows Saint Robert's law r = a*P^n, where the pressure exponent n (0.2-0.5) and the pre-exponential a are set by propellant formulation and binder plasticizer content.",
+  "early_win": false,
+  "id": "launch-vehicles.solid-propulsion.grain-design",
+  "level": "process",
+  "name": "Grain Design",
+  "outputs": [
+    "grain_geometries"
+  ],
+  "parent": "launch-vehicles.solid-propulsion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-200+"
+}

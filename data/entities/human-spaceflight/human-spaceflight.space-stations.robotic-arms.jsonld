@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Robotic manipulator arm design, fabrication, and teleoperation including Canadarm2-class large arms and Dexterous manipulators - see documentation for details.",
+  "early_win": false,
+  "id": "human-spaceflight.space-stations.robotic-arms",
+  "level": "process",
+  "name": "Robotic Manipulator Arms",
+  "outputs": [
+    "robotic_manipulator_arms",
+    "space_stations"
+  ],
+  "parent": "human-spaceflight.space-stations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

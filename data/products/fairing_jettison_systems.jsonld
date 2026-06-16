@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fairing_jettison_systems",
+  "@type": "Product",
+  "name": "Fairing Jettison Systems",
+  "source": "launch-vehicles.vehicle-architecture.payload-fairing",
+  "tags": {
+    "material": [
+      "polymers",
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mcc_facilities",
+  "@type": "Product",
+  "name": "Mcc Facilities",
+  "source": "space-ground-ops.mission-control.mcc-facilities",
+  "tags": {
+    "material": [],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Design and fabrication of vehicle brake systems: drum brakes, disc brakes, hydraulic actuation, anti-lock braking (ABS), and regenerative braking interfaces. Provides controlled deceleration and holding force, converting kinetic energy to heat or recovered electrical energy.",
+  "early_win": false,
+  "id": "transport.motor-vehicles.brake-systems",
+  "level": "process",
+  "name": "Brake Systems",
+  "outputs": [
+    "brake_systems"
+  ],
+  "parent": "transport.motor-vehicles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40+"
+}

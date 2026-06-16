@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Ground station antenna system design: 12 m S-band antennas for near-Earth TT&C, 18 m X-band for higher-rate telemetry, and the 34 m / 70 m beam-waveguide aperture classes used by the Deep Space Network. Covers reflector geometry, beam-waveguide optics, pointing and tracking servos, and the 120-degree longitudinal spacing of DSN complexes for continuous sky coverage.",
+  "early_win": false,
+  "id": "space-ground-ops.ground-stations.antenna-systems",
+  "level": "process",
+  "name": "Antenna Systems",
+  "outputs": [
+    "antenna_systems"
+  ],
+  "parent": "space-ground-ops.ground-stations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50+"
+}

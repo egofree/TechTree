@@ -107,7 +107,22 @@ energy_electricity: "Electricity Generation & Distribution" {
 gas-handling: Gas Handling {
   shape: rectangle
 }
+launch-vehicles_liquid-propulsion: Liquid Propulsion {
+  shape: rectangle
+}
+launch-vehicles_propellant-production: Propellant Production {
+  shape: rectangle
+}
 silicon_crystal-growth: "Crystal Growth & Wafering" {
+  shape: rectangle
+}
+space-ground-ops_launch-complex: Launch Complex {
+  shape: rectangle
+}
+space-propulsion_nuclear-thermal: Nuclear Thermal Propulsion {
+  shape: rectangle
+}
+space-propulsion_propellant-storage: "Cryogenic Propellant Storage & Transfer" {
   shape: rectangle
 }
 
@@ -118,7 +133,12 @@ chemistry_air-separation -> cryogenics_air-separation: { class: tool-edge }
 cryogenics -> ceramics_thermal-insulation: { class: material-edge }
 cryogenics -> energy_electricity: { class: tool-edge }
 cryogenics -> gas-handling: { class: tool-edge }
+launch-vehicles_liquid-propulsion -> cryogenics_liquefaction-storage: { class: material-edge }
+launch-vehicles_propellant-production -> cryogenics_liquefaction-storage: { class: tool-edge }
 silicon_crystal-growth -> cryogenics_liquefaction-storage: { class: material-edge }
+space-ground-ops_launch-complex -> cryogenics_liquefaction-storage: { class: tool-edge }
+space-propulsion_nuclear-thermal -> cryogenics_liquefaction-storage: { class: material-edge }
+space-propulsion_propellant-storage -> cryogenics_liquefaction-storage: { class: tool-edge }
 
 # ==================== STYLING ====================
 cryogenics.class: domain
@@ -129,7 +149,12 @@ ceramics_thermal-insulation.class: external
 chemistry_air-separation.class: external
 energy_electricity.class: external
 gas-handling.class: external
+launch-vehicles_liquid-propulsion.class: external
+launch-vehicles_propellant-production.class: external
 silicon_crystal-growth.class: external
+space-ground-ops_launch-complex.class: external
+space-propulsion_nuclear-thermal.class: external
+space-propulsion_propellant-storage.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

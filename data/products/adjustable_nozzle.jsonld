@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "adjustable_nozzle",
+  "@type": "Product",
+  "name": "Adjustable Exhaust Nozzle",
+  "source": "aerospace.supersonic-flight.variable-geometry",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "spaceflight"
+    ]
+  }
+}

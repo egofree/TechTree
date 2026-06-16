@@ -1,0 +1,179 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Aerospace
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph aerospace_internal ["Aerospace — Internal Structure"]
+        direction TB
+        aerospace_aviation["Aviation"]
+        aerospace_cargo-aircraft_cargo-handling-systems["Cargo Handling Systems"]
+        aerospace_cargo-aircraft["Cargo Aircraft"]
+        aerospace_jet-propulsion_afterburner["Afterburners"]
+        aerospace_jet-propulsion["Jet Propulsion"]
+        aerospace_jet-propulsion_ramjet-scramjet["Ramjet and Scramjet Engines"]
+        aerospace_jet-propulsion_turbofan["Turbofan Engines"]
+        aerospace_jet-propulsion_turbojet["Turbojet Engines"]
+        aerospace_light-aircraft["Light Aircraft"]
+        aerospace_lighter-than-air_gas-airships["Gas Airships"]
+        aerospace_lighter-than-air_hot-air-balloons["Hot-Air Balloons"]
+        aerospace_lighter-than-air["Lighter-than-Air"]
+        aerospace_lighter-than-air_tethered-aerostats["Tethered Aerostats"]
+        aerospace_rotorcraft_autorotation["Autorotation"]
+        aerospace_rotorcraft_flight-control["Flight Control"]
+        aerospace_rotorcraft["Rotorcraft"]
+        aerospace_rotorcraft_rotor-systems["Rotor Systems"]
+        aerospace_supersonic-flight_hypersonic-thermal["Hypersonic Thermal Protection"]
+        aerospace_supersonic-flight["Supersonic & Hypersonic Flight"]
+        aerospace_supersonic-flight_scramjet-integration["Scramjet-Airframe Integration"]
+        aerospace_supersonic-flight_supersonic-aerodynamics["Supersonic Aerodynamics"]
+        aerospace_supersonic-flight_variable-geometry["Variable-Geometry Flight Surfaces"]
+        aerospace_turboprop["Turboprop Engines"]
+        aerospace_turboprop_propeller-integration["Propeller Integration"]
+        aerospace_uav_autonomous-navigation["Autonomous Navigation"]
+        aerospace_uav_fixed-wing-drones["Fixed-Wing Drones"]
+        aerospace_uav["Unmanned Aerial Vehicles"]
+        aerospace_uav_multirotor-drones["Multirotor Drones"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    aerospace["Aerospace"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics("Ceramics & Refractories")
+    chemistry("Chemistry")
+    chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    computing("Computing & Automation")
+    electronics("Electronics")
+    energy_electricity_motor("Electric Motor")
+    energy_engine("Heat Engines")
+    energy_fuels("Fuel Production")
+    energy_gas-turbine("Gas Turbines")
+    foundations("Foundations")
+    human-spaceflight_crew-training("Crew Training")
+    human-spaceflight_crewed-spacecraft("Crewed Spacecraft")
+    machine-tools("Machine Tools Bootstrap")
+    metals_aluminum("Aluminum Production")
+    mining_extraction("Mining Extraction")
+    polymers("Polymers & Composites")
+    telecom_radio("Radio Communication")
+    textiles("Textiles, Fiber & Cordage")
+
+    %% ==================== EDGES ====================
+    aerospace_cargo-aircraft_cargo-handling-systems -.-> aerospace_cargo-aircraft
+    aerospace_cargo-aircraft -.-> aerospace_aviation
+    aerospace_cargo-aircraft -.-> aerospace_jet-propulsion
+    aerospace_jet-propulsion_afterburner -.-> aerospace_jet-propulsion
+    aerospace_jet-propulsion_ramjet-scramjet -.-> aerospace_jet-propulsion
+    aerospace_jet-propulsion_turbofan -.-> aerospace_jet-propulsion
+    aerospace_jet-propulsion_turbojet -.-> aerospace_jet-propulsion
+    aerospace_light-aircraft -.-> aerospace_aviation
+    aerospace_lighter-than-air_gas-airships -.-> aerospace_lighter-than-air
+    aerospace_lighter-than-air_hot-air-balloons -.-> aerospace_lighter-than-air
+    aerospace_lighter-than-air_tethered-aerostats -.-> aerospace_lighter-than-air
+    aerospace_rotorcraft_autorotation -.-> aerospace_rotorcraft
+    aerospace_rotorcraft_flight-control -.-> aerospace_rotorcraft
+    aerospace_rotorcraft_rotor-systems -.-> aerospace_rotorcraft
+    aerospace_rotorcraft -.-> aerospace_aviation
+    aerospace_supersonic-flight_hypersonic-thermal -.-> aerospace_supersonic-flight
+    aerospace_supersonic-flight_scramjet-integration -.-> aerospace_supersonic-flight
+    aerospace_supersonic-flight_supersonic-aerodynamics -.-> aerospace_supersonic-flight
+    aerospace_supersonic-flight_variable-geometry -.-> aerospace_supersonic-flight
+    aerospace_supersonic-flight -.-> aerospace_aviation
+    aerospace_supersonic-flight -.-> aerospace_jet-propulsion
+    aerospace_turboprop_propeller-integration -.-> aerospace_turboprop
+    aerospace_turboprop -.-> aerospace_jet-propulsion
+    aerospace_uav_autonomous-navigation -.-> aerospace_uav
+    aerospace_uav_fixed-wing-drones -.-> aerospace_uav
+    aerospace_uav_multirotor-drones -.-> aerospace_uav
+    aerospace_uav -.-> aerospace_aviation
+    aerospace_aviation --> chemistry_petroleum-alternatives
+    aerospace_aviation -.-> energy_engine
+    aerospace_aviation -.-> machine-tools
+    aerospace_aviation --> metals_aluminum
+    aerospace_aviation --> textiles
+    aerospace_cargo-aircraft --> metals_aluminum
+    aerospace_jet-propulsion --> chemistry_petroleum-alternatives
+    aerospace_jet-propulsion -.-> energy_gas-turbine
+    aerospace_jet-propulsion --> metals_aluminum
+    aerospace_lighter-than-air -.-> chemistry
+    aerospace_lighter-than-air --> energy_fuels
+    aerospace_lighter-than-air --> polymers
+    aerospace_lighter-than-air --> textiles
+    aerospace_rotorcraft --> energy_gas-turbine
+    aerospace_rotorcraft -.-> machine-tools
+    aerospace_rotorcraft --> metals_aluminum
+    aerospace_supersonic-flight --> ceramics
+    aerospace_supersonic-flight --> metals_aluminum
+    aerospace_turboprop --> energy_gas-turbine
+    aerospace_turboprop --> metals_aluminum
+    aerospace_uav -.-> computing
+    aerospace_uav --> electronics
+    aerospace_uav -.-> energy_electricity_motor
+    aerospace -.-> foundations
+    human-spaceflight_crew-training -.-> aerospace_aviation
+    human-spaceflight_crewed-spacecraft -.-> aerospace_aviation
+    mining_extraction -.-> aerospace_light-aircraft
+    telecom_radio -.-> aerospace_light-aircraft
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class aerospace domain
+    class aerospace_aviation capability
+    class aerospace_cargo-aircraft_cargo-handling-systems process
+    class aerospace_cargo-aircraft capability
+    class aerospace_jet-propulsion_afterburner process
+    class aerospace_jet-propulsion capability
+    class aerospace_jet-propulsion_ramjet-scramjet process
+    class aerospace_jet-propulsion_turbofan process
+    class aerospace_jet-propulsion_turbojet process
+    class aerospace_light-aircraft capability
+    class aerospace_lighter-than-air_gas-airships process
+    class aerospace_lighter-than-air_hot-air-balloons process
+    class aerospace_lighter-than-air capability
+    class aerospace_lighter-than-air_tethered-aerostats process
+    class aerospace_rotorcraft_autorotation process
+    class aerospace_rotorcraft_flight-control process
+    class aerospace_rotorcraft capability
+    class aerospace_rotorcraft_rotor-systems process
+    class aerospace_supersonic-flight_hypersonic-thermal process
+    class aerospace_supersonic-flight capability
+    class aerospace_supersonic-flight_scramjet-integration process
+    class aerospace_supersonic-flight_supersonic-aerodynamics process
+    class aerospace_supersonic-flight_variable-geometry process
+    class aerospace_turboprop capability
+    class aerospace_turboprop_propeller-integration process
+    class aerospace_uav_autonomous-navigation process
+    class aerospace_uav_fixed-wing-drones process
+    class aerospace_uav capability
+    class aerospace_uav_multirotor-drones process
+    class ceramics external
+    class chemistry external
+    class chemistry_petroleum-alternatives external
+    class computing external
+    class electronics external
+    class energy_electricity_motor external
+    class energy_engine external
+    class energy_fuels external
+    class energy_gas-turbine external
+    class foundations external
+    class human-spaceflight_crew-training external
+    class human-spaceflight_crewed-spacecraft external
+    class machine-tools external
+    class metals_aluminum external
+    class mining_extraction external
+    class polymers external
+    class telecom_radio external
+    class textiles external
+    class EdgeLegend,MatNote,ToolNote legend
